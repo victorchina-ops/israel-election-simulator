@@ -1,0 +1,1572 @@
+{
+  "checkedAt": "2026-09-15",
+  "summary": "נוסף סקר חדשות 14 / NEXT DATA שנערך ב־15.9 בקרב 483 משיבים והוא מחליף את סקר אותו מכון מ־9.9; המאגר הפעיל נשאר שמונה סקרים. נקלטו המנדטים וחמישה אחוזים מתחת לחסימה. שיטת האיסוף וטעות הדגימה לא פורסמו בפרסום שנבדק.",
+  "reports": [
+    {
+      "id": "channel14-next-data-2026-09-15",
+      "fileName": "channel14-next-data-2026-09-15.png",
+      "publisher": "חדשות 14 — סקר חדש",
+      "pollster": "NEXT DATA — שלמה פילבר",
+      "date": "2026-09-15",
+      "dateKind": "עבודת השדה והפרסום לפי הפרסום המקורי",
+      "fieldworkEnd": "2026-09-15",
+      "sampleSize": 483,
+      "includedInCurrentModel": true,
+      "statusLabel": "סקר חדש — נכלל בשקלול; שיטת האיסוף וטעות הדגימה ממתינות",
+      "summary": "סקר חדשות 14 / NEXT DATA שנערך ופורסם ב־15.9.2026; מחליף במאגר הפעיל את סקר NEXT DATA מ־9.9 ואינו נוסף לצדו. לפי הפרסום המקורי של חדשות 14, הסקר נערך ב־15.9 בקרב 483 משיבים בוגרים; ניתוח הסקר: שלמה פילבר. המנדטים וחמשת האחוזים שמתחת לחסימה נקלטו מהגרפיקה של חדשות 14 ונבדקו מול טבלת היסטוריית סקרי חדשות 14 שנמסרה בנפרד. שיטת האיסוף וטעות הדגימה אינן מפורטות בפרסום שנבדק ונשמרות כחסרות; הן אינן מועתקות מן הסקר הקודם. לא פורסמו אחוזי התמיכה של הרשימות העוברות. המודל משחזר אותם מהמנדטים תוך שמירה מדויקת של האחוזים שפורסמו מתחת לחסימה; השחזור אינו נתון שפורסם בסקר. סיכום הגושים בפרסום: גוש ימין 64, גוש שמאל 44 ומפלגות ערביות 12. האתר מחשב את הגושים מחדש לפי בחירת המשתמש.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-15/channel14-next-data-2026-09-15.png",
+      "sourceKind": "image",
+      "sourceSha256": "c52e316f3167c46416a99fa5945859769f08a04c87e967fffc93598bc08320eb",
+      "supportingSourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-15/channel14-next-data-2026-09-15.png",
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-15/channel14-next-data-history-through-2026-09-15.png"
+      ],
+      "supportingSourceSha256": "b2ff6a73885090fa45f3e5f548acb44ab4d637315020a537af7e25a7bab876a2",
+      "tables": [
+        {
+          "label": "המנדטים והאחוזים שפורסמו בגרפיקת חדשות 14",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוזים שפורסמו",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "הליכוד",
+              "seats": 30,
+              "rawPct": null
+            },
+            {
+              "party": "ישר!",
+              "seats": 21,
+              "rawPct": null
+            },
+            {
+              "party": "ש״ס",
+              "seats": 10,
+              "rawPct": null
+            },
+            {
+              "party": "הדמוקרטים",
+              "seats": 9,
+              "rawPct": null
+            },
+            {
+              "party": "ביחד",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "הציונות הדתית–זהות",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "עוצמה יהודית",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "יהדות התורה",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "הרשימה המשותפת",
+              "seats": 7,
+              "rawPct": null
+            },
+            {
+              "party": "ישראל ביתנו",
+              "seats": 6,
+              "rawPct": null
+            },
+            {
+              "party": "רע״ם",
+              "seats": 5,
+              "rawPct": null
+            },
+            {
+              "party": "עמך ישראל",
+              "seats": 0,
+              "rawPct": 2.3
+            },
+            {
+              "party": "המילואימניקים והכלכלית",
+              "seats": 0,
+              "rawPct": 2.1
+            },
+            {
+              "party": "כחול לבן",
+              "seats": 0,
+              "rawPct": 0.4
+            },
+            {
+              "party": "נעם לישראל",
+              "seats": 0,
+              "rawPct": 0.3
+            },
+            {
+              "party": "הציבור החרדי",
+              "seats": 0,
+              "rawPct": 0.2
+            }
+          ]
+        },
+        {
+          "label": "חלוקת הגושים במקור — נפרדת מהגדרת הגושים במודל",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "קבוצה לפי המקור",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            }
+          ],
+          "rows": [
+            {
+              "party": "גוש ימין",
+              "seats": 64
+            },
+            {
+              "party": "גוש שמאל",
+              "seats": 44
+            },
+            {
+              "party": "מפלגות ערביות",
+              "seats": 12
+            }
+          ]
+        }
+      ],
+      "fieldworkStart": "2026-09-15",
+      "sampleSizeSourceUrl": "https://www.c14.co.il/article/1703304",
+      "primarySourceUrl": "https://www.c14.co.il/article/1703304"
+    },
+    {
+      "id": "kan11-2026-09-14",
+      "fileName": "kan11-kantar-2026-09-14.png",
+      "publisher": "כאן 11 — סקר חדש",
+      "pollster": "קנטאר — דודי חסיד",
+      "date": "2026-09-14",
+      "dateKind": "תאריך הסקר בפרסום; עבודת השדה טרם פורסמה",
+      "sampleSize": null,
+      "includedInCurrentModel": true,
+      "statusLabel": "סקר חדש — נכלל בשקלול; פרטי שיטה ממתינים",
+      "summary": "סקר כאן חדשות / קנטאר מתאריך 14.9.2026; מחליף במאגר הפעיל את סקר כאן מ־9.9 ואינו נוסף לצדו. המנדטים וחלוקת הגושים נקלטו מצילום הסקר; טבלת ההיסטוריה המלאה מוסיפה כחול לבן 1.5%, הציבור החרדי 0.8%, ישראל תחילה 0.5% ונעם לישראל 0.5%. לא פורסמו אחוזי תמיכה לרשימות העוברות. המודל משחזר אותם מהמנדטים, תוך שמירת ארבעת האחוזים הנקובים; אין העתקה של אחוזים מהסקר הקודם. אין בטבלה נתון ל״הקהל״ או לקטגוריית ״אחרים״. אין להזין להם אפס; המודל משאיר יתרה שמרנית לרשימות קטנות שלא דווחו. פרטי המדגם, עבודת השדה וטעות הדגימה ממתינים להשלמה ואינם מועתקים מסקר 9.9. סיכום הגושים במקור: אופוזיציה 52, קואליציית נתניהו 52, מפלגות ערביות 12 והנדל־זליכה 4. האתר מחשב גושים מחדש לפי הבחירה בבקרים.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/kan11-kantar-2026-09-14.png",
+      "sourceKind": "image",
+      "primarySourceUrl": "https://www.kan.org.il/content/kan-news/politic/1099439",
+      "sourceSha256": "c2f7cedbc4ad829825baec1d09d3c54ca1e033b18f4333976be65f93a05d5534",
+      "tables": [
+        {
+          "label": "המנדטים שפורסמו בצילום",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוזים שפורסמו",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "ישר!",
+              "seats": 24,
+              "rawPct": null
+            },
+            {
+              "party": "הליכוד",
+              "seats": 20,
+              "rawPct": null
+            },
+            {
+              "party": "ביחד",
+              "seats": 12,
+              "rawPct": null
+            },
+            {
+              "party": "הדמוקרטים",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "עוצמה יהודית",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "ישראל ביתנו",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "יהדות התורה",
+              "seats": 7,
+              "rawPct": null
+            },
+            {
+              "party": "ש״ס",
+              "seats": 7,
+              "rawPct": null
+            },
+            {
+              "party": "הרשימה המשותפת",
+              "seats": 7,
+              "rawPct": null
+            },
+            {
+              "party": "הציונות הדתית–זהות",
+              "seats": 6,
+              "rawPct": null
+            },
+            {
+              "party": "רע״ם",
+              "seats": 5,
+              "rawPct": null
+            },
+            {
+              "party": "עמך ישראל",
+              "seats": 4,
+              "rawPct": null
+            },
+            {
+              "party": "המילואימניקים והכלכלית",
+              "seats": 4,
+              "rawPct": null
+            },
+            {
+              "party": "כחול לבן",
+              "seats": 0,
+              "rawPct": 1.5
+            },
+            {
+              "party": "הציבור החרדי",
+              "seats": 0,
+              "rawPct": 0.8
+            },
+            {
+              "party": "ישראל תחילה",
+              "seats": 0,
+              "rawPct": 0.5
+            },
+            {
+              "party": "נעם לישראל",
+              "seats": 0,
+              "rawPct": 0.5
+            }
+          ]
+        },
+        {
+          "label": "חלוקת הגושים במקור — נפרדת מהגדרת הגושים במודל",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "קבוצה לפי המקור",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            }
+          ],
+          "rows": [
+            {
+              "party": "אופוזיציה",
+              "seats": 52
+            },
+            {
+              "party": "קואליציית נתניהו",
+              "seats": 52
+            },
+            {
+              "party": "מפלגות ערביות",
+              "seats": 12
+            },
+            {
+              "party": "הנדל וזליכה",
+              "seats": 4
+            }
+          ]
+        }
+      ],
+      "fieldworkEnd": null,
+      "supportingSourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/kan11-kantar-history-through-2026-09-14.png"
+      ]
+    },
+    {
+      "id": "n12-2026-09-14",
+      "fileName": "n12-midgam-2026-09-14.png",
+      "publisher": "חדשות 12 — סקר חדש",
+      "pollster": "מדגם — מנו גבע",
+      "date": "2026-09-14",
+      "dateKind": "עבודת שדה ופרסום",
+      "sampleSize": 502,
+      "includedInCurrentModel": true,
+      "statusLabel": "סקר חדש — נכלל בשקלול",
+      "summary": "סקר חדש שנערך ב־14.9.2026 ופורסם ב־N12 ב־21:02; מחליף את סקר מדגם מ־9.9 במאגר הפעיל, ואינו נוסף לצדו. נקלטו המנדטים והאחוזים שמתחת לחסימה מהצילום שנמסר. הפרסום המקורי מאמת את התאריך, זהות הסוקר והמדגם; עוצמה יהודית 6 והקהל 0.1% מופיעים בצילום. לא פורסמה כאן טבלת אחוזים למפלגות העוברות. אחוזי התמיכה שלהן משוחזרים מהמנדטים לפי שיטת המודל; אין העתקה של אחוזי התמיכה, המתלבטים או נתוני המדגם מהסקר הקודם. האחוזים הנקובים מתחת לחסימה מסתכמים ב־1.2%; הקהל 0.1% נשמרת ביתרת רשימות אחרות שאינה רשימה מאוחדת. מכנה האחוזים לא מוגדר בצילום. 502 משיבים בפועל, מתוך 2,514 מוזמנים; המדגם ההתחלתי המדווח הוא 500. אין נתון מתלבטים בצילום שנקלט. סיכום הגושים במקור: אופוזיציה 54, קואליציה 50, ערביות 12 והנדל־זליכה 4. זהו סיווג של המקור; המודל מחשב מחדש את הגושים לפי הבחירה בבקרים.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/n12-midgam-2026-09-14.png",
+      "sourceKind": "image",
+      "primarySourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm",
+      "sourceSha256": "c01cdf853b3f259883b3ebd2fb5a5cba73aad2ae41a0512e95cdd383f003dd2d",
+      "tables": [
+        {
+          "label": "המנדטים והאחוזים שפורסמו בצילום",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוזים שפורסמו",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "ישר!",
+              "seats": 23,
+              "rawPct": null
+            },
+            {
+              "party": "הליכוד",
+              "seats": 20,
+              "rawPct": null
+            },
+            {
+              "party": "ביחד",
+              "seats": 13,
+              "rawPct": null
+            },
+            {
+              "party": "הדמוקרטים",
+              "seats": 10,
+              "rawPct": null
+            },
+            {
+              "party": "הרשימה המשותפת",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "יהדות התורה",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "ישראל ביתנו",
+              "seats": 8,
+              "rawPct": null
+            },
+            {
+              "party": "ש״ס",
+              "seats": 7,
+              "rawPct": null
+            },
+            {
+              "party": "עוצמה יהודית",
+              "seats": 6,
+              "rawPct": null
+            },
+            {
+              "party": "הציונות הדתית–זהות",
+              "seats": 5,
+              "rawPct": null
+            },
+            {
+              "party": "רע״ם",
+              "seats": 4,
+              "rawPct": null
+            },
+            {
+              "party": "עמך ישראל",
+              "seats": 4,
+              "rawPct": null
+            },
+            {
+              "party": "המילואימניקים והכלכלית",
+              "seats": 4,
+              "rawPct": null
+            },
+            {
+              "party": "כחול לבן",
+              "seats": 0,
+              "rawPct": 0.5
+            },
+            {
+              "party": "ישראל תחילה",
+              "seats": 0,
+              "rawPct": 0.3
+            },
+            {
+              "party": "הציבור החרדי",
+              "seats": 0,
+              "rawPct": 0.2
+            },
+            {
+              "party": "נעם לישראל",
+              "seats": 0,
+              "rawPct": 0.1
+            },
+            {
+              "party": "הקהל בראשות שלמה אלבוים",
+              "seats": 0,
+              "rawPct": 0.1
+            }
+          ]
+        },
+        {
+          "label": "חלוקת הגושים במקור — נפרדת מהגדרת הגושים במודל",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "קבוצה לפי המקור",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            }
+          ],
+          "rows": [
+            {
+              "party": "אופוזיציה",
+              "seats": 54
+            },
+            {
+              "party": "קואליציה",
+              "seats": 50
+            },
+            {
+              "party": "מפלגות ערביות",
+              "seats": 12
+            },
+            {
+              "party": "המילואימניקים והכלכלית",
+              "seats": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4140",
+      "fileName": "Survey4140.pdf",
+      "publisher": "חדשות 13",
+      "pollster": "שמואל רוזנר עם חברת פאנל פרוייקט המדגם בהנהלת ד״ר אריאל איילון, חברת סטטנט נט בהנהלת יוסף מקלדה, חברת אסקריא בהנהלת דודי דרור",
+      "date": "2026-09-09",
+      "sampleSize": 1119,
+      "includedInCurrentModel": true,
+      "summary": "השלמת הסקר מ־9.9: ישר 21 ועמך ישראל 5 לפי הדוח, במקום 22 ו־4 שנאספו קודם. ארבעת טורי האחוזים הם תתי־מדגמים גולמיים ולא תמיכה ארצית; אינם מוזנים למודל.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey4140.pdf",
+      "sourceSha256": "38142b634a273443cbb9faeebfc8ba6cdf1cb505357ad130ff96580f27f69b42",
+      "tables": [
+        {
+          "label": "אם הבחירות לכנסת היו מתקיימות היום, לאיזו מפלגה היית מצביע/ה?",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "adult_jewish",
+              "label": "בוגרים יהודים — אחוז גולמי",
+              "type": "percent"
+            },
+            {
+              "key": "youth",
+              "label": "צעירים — אחוז גולמי",
+              "type": "percent"
+            },
+            {
+              "key": "haredi",
+              "label": "חרדים — אחוז גולמי",
+              "type": "percent"
+            },
+            {
+              "key": "arab",
+              "label": "ערבים — אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "כחול לבן",
+              "seats": 0,
+              "adult_jewish": 1.3,
+              "youth": 0.0,
+              "haredi": 0.0,
+              "arab": 0.0
+            },
+            {
+              "party": "ליכוד",
+              "seats": 19,
+              "adult_jewish": 10.5,
+              "youth": 10.0,
+              "haredi": 3.0,
+              "arab": 2.0
+            },
+            {
+              "party": "ש\"ס",
+              "seats": 7,
+              "adult_jewish": 5.0,
+              "youth": 1.7,
+              "haredi": 17.3,
+              "arab": 0.3
+            },
+            {
+              "party": "הציונות הדתית + זהות",
+              "seats": 6,
+              "adult_jewish": 5.2,
+              "youth": 6.7,
+              "haredi": 5.1,
+              "arab": 0.0
+            },
+            {
+              "party": "יהדות התורה",
+              "seats": 8,
+              "adult_jewish": 5.8,
+              "youth": 13.3,
+              "haredi": 45.1,
+              "arab": 0.0
+            },
+            {
+              "party": "ישראל ביתנו",
+              "seats": 8,
+              "adult_jewish": 7.0,
+              "youth": 8.3,
+              "haredi": 0.0,
+              "arab": 1.6
+            },
+            {
+              "party": "רע\"מ",
+              "seats": 6,
+              "adult_jewish": 0.0,
+              "youth": 0.0,
+              "haredi": 0.4,
+              "arab": 23.9
+            },
+            {
+              "party": "הרשימה המשותפת",
+              "seats": 8,
+              "adult_jewish": 0.0,
+              "youth": 1.7,
+              "haredi": 0.0,
+              "arab": 32.8
+            },
+            {
+              "party": "עוצמה יהודית",
+              "seats": 9,
+              "adult_jewish": 4.7,
+              "youth": 10.0,
+              "haredi": 5.1,
+              "arab": 0.0
+            },
+            {
+              "party": "הדמוקרטים",
+              "seats": 10,
+              "adult_jewish": 7.5,
+              "youth": 6.7,
+              "haredi": 0.0,
+              "arab": 4.3
+            },
+            {
+              "party": "ביחד",
+              "seats": 13,
+              "adult_jewish": 11.5,
+              "youth": 11.7,
+              "haredi": 0.0,
+              "arab": 0.7
+            },
+            {
+              "party": "ישר",
+              "seats": 21,
+              "adult_jewish": 15.5,
+              "youth": 11.7,
+              "haredi": 0.0,
+              "arab": 2.4
+            },
+            {
+              "party": "המילואימניקים והכלכלית",
+              "seats": 0,
+              "adult_jewish": 3.5,
+              "youth": 0.0,
+              "haredi": 0.0,
+              "arab": 0.3
+            },
+            {
+              "party": "עמך ישראל",
+              "seats": 5,
+              "adult_jewish": 4.0,
+              "youth": 1.7,
+              "haredi": 0.8,
+              "arab": 0.4
+            },
+            {
+              "party": "מפלגת הציבור החרדי",
+              "seats": 0,
+              "adult_jewish": 0.8,
+              "youth": 3.3,
+              "haredi": 4.6,
+              "arab": 0.0
+            },
+            {
+              "party": "מפלגת הקהל",
+              "seats": 0,
+              "adult_jewish": 0.0,
+              "youth": 0.0,
+              "haredi": 0.4,
+              "arab": 0.0
+            },
+            {
+              "party": "נעם",
+              "seats": 0,
+              "adult_jewish": 0.0,
+              "youth": 0.0,
+              "haredi": 0.0,
+              "arab": 0.0
+            },
+            {
+              "party": "צבע שחור",
+              "seats": 0,
+              "adult_jewish": 0.0,
+              "youth": 0.0,
+              "haredi": 0.4,
+              "arab": 0.0
+            },
+            {
+              "party": "ישראל תחילה",
+              "seats": 0,
+              "adult_jewish": 0.0,
+              "youth": 0.0,
+              "haredi": 0.0,
+              "arab": 0.0
+            },
+            {
+              "party": "מפלגה אחרת",
+              "seats": null,
+              "adult_jewish": 0.3,
+              "youth": 0.0,
+              "haredi": 1.3,
+              "arab": 0.0
+            },
+            {
+              "party": "עדיין לא החלטתי",
+              "seats": null,
+              "adult_jewish": 12.3,
+              "youth": 11.7,
+              "haredi": 9.7,
+              "arab": 15.0
+            },
+            {
+              "party": "פתק לבן",
+              "seats": null,
+              "adult_jewish": 0.5,
+              "youth": 0.0,
+              "haredi": 1.3,
+              "arab": 0.0
+            },
+            {
+              "party": "לא מתכוון להצביע",
+              "seats": null,
+              "adult_jewish": 4.7,
+              "youth": 1.7,
+              "haredi": 5.5,
+              "arab": 16.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4141",
+      "fileName": "Survey4141.pdf",
+      "publisher": "חדשות 12",
+      "pollster": "מדגם יעוץ ומחקר בראשות מנו גבע",
+      "date": "2026-09-07",
+      "sampleSize": 503,
+      "includedInCurrentModel": false,
+      "summary": "סקר מדגם מ־7.9, מוקדם מהסקר הפעיל מ־9.9. שלושת תרחישי הרשימות הם מאותו מדגם; נשמרים בארכיון ואינם מצטרפים לשקלול.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey4141.pdf",
+      "sourceSha256": "8995c31a6d156fcaedf430a9452a284b490309e52dc329cb7f8aee09c69058d3",
+      "tables": [
+        {
+          "label": "אתמול הצטרף חילי טרופר למפלגת \"ישר! בראשות גדי איזנקוט\" ובנוסף מפלגות \"המילואימניקים\" של יועז הנדל ו\"הכלכלית החדשה\" של ירון זליכה הודיעו על התמודדות ברשימה אחת. אילו הבחירות לכנסת היו מתקיימות היום, לאיזו מפלגה היית מצביע?",
+          "page": 2,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "ישר! עם איזנקוט בראשות גדי איזנקוט",
+              "seats": 25,
+              "rawPct": 19.7
+            },
+            {
+              "party": "הליכוד בראשות בנימין נתניהו",
+              "seats": 21,
+              "rawPct": 16.6
+            },
+            {
+              "party": "ביחד בראשות נפתלי בנט",
+              "seats": 13,
+              "rawPct": 10.3
+            },
+            {
+              "party": "הדמוקרטים בראשות יאיר גולן",
+              "seats": 11,
+              "rawPct": 8.7
+            },
+            {
+              "party": "יהדות התורה בראשות יעקב אשר",
+              "seats": 8,
+              "rawPct": 6.1
+            },
+            {
+              "party": "ישראל ביתנו בראשות אביגדור ליברמן",
+              "seats": 8,
+              "rawPct": 6.0
+            },
+            {
+              "party": "הרשימה המשותפת (חד\"ש, תע\"ל, בל\"ד) בראשות יוסף ג`בארין",
+              "seats": 7,
+              "rawPct": 5.4
+            },
+            {
+              "party": "ש\"ס בראשות אריה דרעי",
+              "seats": 7,
+              "rawPct": 5.3
+            },
+            {
+              "party": "הציונות הדתית – זהות בראשות בצלאל סמוטריץ` ומשה פייגלין",
+              "seats": 6,
+              "rawPct": 4.7
+            },
+            {
+              "party": "עוצמה יהודית בראשות איתמר בן גביר",
+              "seats": 6,
+              "rawPct": 4.7
+            },
+            {
+              "party": "עמך ישראל בראשות עופר וינטר",
+              "seats": 4,
+              "rawPct": 3.4
+            },
+            {
+              "party": "הרשימה הערבית המאוחדת - רע\"ם בראשות מנסור עבאס ויואב סגלוביץ`",
+              "seats": 4,
+              "rawPct": 3.3
+            },
+            {
+              "party": "המילואימניקים - הכלכלית החדשה בראשות יועז הנדל וירון זליכה",
+              "seats": 0,
+              "rawPct": 2.7
+            },
+            {
+              "party": "הציבור החרדי בראשות מוטי לייטנר",
+              "seats": 0,
+              "rawPct": 1.1
+            },
+            {
+              "party": "כחול לבן בראשות בני גנץ",
+              "seats": 0,
+              "rawPct": 1.0
+            },
+            {
+              "party": "נעם לישראל בראשות אבי מעוז",
+              "seats": 0,
+              "rawPct": 0.2
+            },
+            {
+              "party": "מקום לכולנו בראשות רולא דאוד ואלון לי-גרין",
+              "seats": 0,
+              "rawPct": 0.1
+            },
+            {
+              "party": "ישראל תחילה – עלה ירוק בראשות שרן השכל",
+              "seats": 0,
+              "rawPct": 0.0
+            },
+            {
+              "party": "מפלגות אחרות",
+              "seats": 0,
+              "rawPct": 0.7
+            }
+          ]
+        },
+        {
+          "label": "אילו הבחירות היו היום והציונות הדתית – זהות ועמך ישראל היו מתמודדות ברשימה אחת ויתר המפלגות ללא שינוי, לאיזו מפלגה היית מצביע?",
+          "page": 3,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "ישר! עם איזנקוט בראשות גדי איזנקוט",
+              "seats": 25,
+              "rawPct": 19.8
+            },
+            {
+              "party": "הליכוד בראשות בנימין נתניהו",
+              "seats": 21,
+              "rawPct": 16.7
+            },
+            {
+              "party": "ביחד בראשות נפתלי בנט",
+              "seats": 13,
+              "rawPct": 10.3
+            },
+            {
+              "party": "הדמוקרטים בראשות יאיר גולן",
+              "seats": 11,
+              "rawPct": 8.7
+            },
+            {
+              "party": "הציונות הדתית-זהות בראשות בצלאל סמוטריץ` ומשה פייגלין ועמך ישראל בראשות עופר וינטר",
+              "seats": 10,
+              "rawPct": 7.9
+            },
+            {
+              "party": "ישראל ביתנו בראשות אביגדור ליברמן",
+              "seats": 8,
+              "rawPct": 6.3
+            },
+            {
+              "party": "יהדות התורה בראשות יעקב אשר",
+              "seats": 8,
+              "rawPct": 6.2
+            },
+            {
+              "party": "הרשימה המשותפת (חד\"ש, תע\"ל, בל\"ד) בראשות יוסף ג`בארין",
+              "seats": 7,
+              "rawPct": 5.5
+            },
+            {
+              "party": "ש\"ס בראשות אריה דרעי",
+              "seats": 7,
+              "rawPct": 5.4
+            },
+            {
+              "party": "עוצמה יהודית בראשות איתמר בן גביר",
+              "seats": 6,
+              "rawPct": 4.8
+            },
+            {
+              "party": "הרשימה הערבית המאוחדת - רע\"ם בראשות מנסור עבאס ויואב סגלוביץ`",
+              "seats": 4,
+              "rawPct": 3.3
+            },
+            {
+              "party": "המילואימניקים - הכלכלית החדשה בראשות יועז הנדל וירון זליכה",
+              "seats": 0,
+              "rawPct": 2.3
+            },
+            {
+              "party": "הציבור החרדי בראשות מוטי לייטנר",
+              "seats": 0,
+              "rawPct": 1.0
+            },
+            {
+              "party": "כחול לבן בראשות בני גנץ",
+              "seats": 0,
+              "rawPct": 0.5
+            },
+            {
+              "party": "מקום לכולנו בראשות רולא דאוד ואלון לי-גרין",
+              "seats": 0,
+              "rawPct": 0.4
+            },
+            {
+              "party": "נעם לישראל בראשות אבי מעוז",
+              "seats": 0,
+              "rawPct": 0.2
+            },
+            {
+              "party": "ישראל תחילה – עלה ירוק בראשות שרן השכל",
+              "seats": 0,
+              "rawPct": 0.1
+            },
+            {
+              "party": "מפלגות אחרות",
+              "seats": 0,
+              "rawPct": 0.6
+            }
+          ]
+        },
+        {
+          "label": "אילו הבחירות היו היום וכחול לבן והמילואימניקים-הכלכלית החדשה היו מתמודדות ברשימה אחת ויתר המפלגות ללא שינוי, לאיזו מפלגה היית מצביע?",
+          "page": 4,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "ישר! עם איזנקוט בראשות גדי איזנקוט",
+              "seats": 25,
+              "rawPct": 19.7
+            },
+            {
+              "party": "הליכוד בראשות בנימין נתניהו",
+              "seats": 21,
+              "rawPct": 16.6
+            },
+            {
+              "party": "ביחד בראשות נפתלי בנט",
+              "seats": 13,
+              "rawPct": 10.3
+            },
+            {
+              "party": "הדמוקרטים בראשות יאיר גולן",
+              "seats": 11,
+              "rawPct": 8.6
+            },
+            {
+              "party": "יהדות התורה בראשות יעקב אשר",
+              "seats": 8,
+              "rawPct": 6.4
+            },
+            {
+              "party": "ישראל ביתנו בראשות אביגדור ליברמן",
+              "seats": 8,
+              "rawPct": 6.2
+            },
+            {
+              "party": "ש\"ס בראשות אריה דרעי",
+              "seats": 7,
+              "rawPct": 5.6
+            },
+            {
+              "party": "הרשימה המשותפת (חד\"ש, תע\"ל, בל\"ד) בראשות יוסף ג`בארין",
+              "seats": 7,
+              "rawPct": 5.5
+            },
+            {
+              "party": "הציונות הדתית – זהות בראשות בצלאל סמוטריץ` ומשה פייגלין",
+              "seats": 6,
+              "rawPct": 4.8
+            },
+            {
+              "party": "עוצמה יהודית בראשות איתמר בן גביר",
+              "seats": 6,
+              "rawPct": 4.8
+            },
+            {
+              "party": "עמך ישראל בראשות עופר וינטר",
+              "seats": 4,
+              "rawPct": 3.4
+            },
+            {
+              "party": "הרשימה הערבית המאוחדת - רע\"ם בראשות מנסור עבאס ויואב סגלוביץ`",
+              "seats": 4,
+              "rawPct": 3.3
+            },
+            {
+              "party": "כחול לבן בראשות בני גנץ והמילואימניקים - הכלכלית החדשה בראשות יועז הנדל וירון זליכה",
+              "seats": 0,
+              "rawPct": 2.5
+            },
+            {
+              "party": "הציבור החרדי בראשות מוטי לייטנר",
+              "seats": 0,
+              "rawPct": 1.0
+            },
+            {
+              "party": "נעם לישראל בראשות אבי מעוז",
+              "seats": 0,
+              "rawPct": 0.2
+            },
+            {
+              "party": "מקום לכולנו בראשות רולא דאוד ואלון לי-גרין",
+              "seats": 0,
+              "rawPct": 0.1
+            },
+            {
+              "party": "ישראל תחילה – עלה ירוק בראשות שרן השכל",
+              "seats": 0,
+              "rawPct": 0.0
+            },
+            {
+              "party": "מפלגות אחרות",
+              "seats": 0,
+              "rawPct": 1.0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4142",
+      "fileName": "Survey_4142.pdf",
+      "publisher": "ערוץ עכשיו 14",
+      "pollster": "חברת Next Data",
+      "date": "2026-09-07",
+      "sampleSize": 1057,
+      "includedInCurrentModel": false,
+      "summary": "סקר NEXT DATA מ־7.9, מוקדם מהסקר הפעיל מ־9.9. נשמר בארכיון בלבד; אחוזי הרשימות מסתכמים ב־99.9% והמתלבטים מדווחים בנפרד.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4142.pdf",
+      "sourceSha256": "dfcc246324b60ea952393f5db58f79759ecc96d7d6c07871cf6d76e281c4a626",
+      "tables": [
+        {
+          "label": "כוונת הצבעה — תרחיש בסיס",
+          "page": 2,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "הליכוד בראשות בנימין נתניהו",
+              "seats": 30,
+              "rawPct": 23.2
+            },
+            {
+              "party": "ישר בראשות גדי איזנקוט",
+              "seats": 22,
+              "rawPct": 17.0
+            },
+            {
+              "party": "הדמוקרטים בראשות יאיר גולן",
+              "seats": 10,
+              "rawPct": 8.5
+            },
+            {
+              "party": "ש\"ס בראשות אריה דרעי",
+              "seats": 10,
+              "rawPct": 7.9
+            },
+            {
+              "party": "הציונות הדתית וזהות בראשות בצלאל סמוטריץ'",
+              "seats": 8,
+              "rawPct": 7.0
+            },
+            {
+              "party": "חד\"ש-תע\"ל-בל\"ד בראשות יוסף ג'בארין",
+              "seats": 8,
+              "rawPct": 6.4
+            },
+            {
+              "party": "עוצמה יהודית בראשות איתמר בן גביר",
+              "seats": 8,
+              "rawPct": 6.2
+            },
+            {
+              "party": "יהדות התורה",
+              "seats": 7,
+              "rawPct": 5.7
+            },
+            {
+              "party": "יחד בראשות נפתלי בנט",
+              "seats": 6,
+              "rawPct": 5.2
+            },
+            {
+              "party": "ישראל ביתנו בראשות אביגדור ליברמן",
+              "seats": 6,
+              "rawPct": 5.0
+            },
+            {
+              "party": "רע\"מ בראשות מנסור עבאס",
+              "seats": 5,
+              "rawPct": 3.9
+            },
+            {
+              "party": "עמך ישראל בראשות עופר וינטר",
+              "seats": 0,
+              "rawPct": 3.0
+            },
+            {
+              "party": "כחול לבן בראשות בני גנץ",
+              "seats": 0,
+              "rawPct": 0.4
+            },
+            {
+              "party": "הציבור החרדי בראשות מוטי לייטנר",
+              "seats": 0,
+              "rawPct": 0.3
+            },
+            {
+              "party": "נועם לישראל בראשות אבי מעוז",
+              "seats": 0,
+              "rawPct": 0.2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4143",
+      "fileName": "Survey_4143.pdf",
+      "publisher": "ערוץ עכשיו 14",
+      "pollster": "חברת Next Data",
+      "date": "2026-09-09",
+      "sampleSize": 537,
+      "includedInCurrentModel": false,
+      "summary": "אותו סקר NEXT DATA מ־9.9: הנדל־זליכה 1.6% במקום 1.4%. טורי האחוזים הארציים מסתכמים ב־96%, ועוד 3% מתלבטים; 1% אינו מוסבר. הטבלה הגולמית מוצגת כאן; במודל נשמר שחזור ממנדטים ומאחוזי הרשימות הקטנות.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4143.pdf",
+      "sourceSha256": "bb1322498bb3069c78a17382fcc15a5ef7458bc600a63f56f2ba8d108006e1e2",
+      "tables": [
+        {
+          "label": "כוונת הצבעה — נתוני הדוח",
+          "page": 2,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "הליכוד בראשות בנימין נתניהו",
+              "seats": 31,
+              "rawPct": 24
+            },
+            {
+              "party": "ישר בראשות גדי איזנקוט",
+              "seats": 22,
+              "rawPct": 17
+            },
+            {
+              "party": "ש\"ס בראשות אריה דרעי",
+              "seats": 10,
+              "rawPct": 8
+            },
+            {
+              "party": "הציונות הדתית בראשות בצלאל סמוטריץ' וזהות",
+              "seats": 8,
+              "rawPct": 6
+            },
+            {
+              "party": "הדמוקרטים בראשות יאיר גולן",
+              "seats": 8,
+              "rawPct": 6
+            },
+            {
+              "party": "עוצמה יהודית בראשות איתמר בן גביר",
+              "seats": 8,
+              "rawPct": 6
+            },
+            {
+              "party": "יהדות התורה",
+              "seats": 7,
+              "rawPct": 5
+            },
+            {
+              "party": "יחד בראשות נפתלי בנט",
+              "seats": 7,
+              "rawPct": 5
+            },
+            {
+              "party": "ישראל ביתנו בראשות אביגדור ליברמן",
+              "seats": 7,
+              "rawPct": 5
+            },
+            {
+              "party": "רע\"מ בראשות מנסור עבאס",
+              "seats": 6,
+              "rawPct": 5
+            },
+            {
+              "party": "חד\"ש-תע\"ל-בל\"ד",
+              "seats": 6,
+              "rawPct": 5
+            },
+            {
+              "party": "עמך ישראל בראשות עופר וינטר",
+              "seats": 0,
+              "rawPct": 2.1
+            },
+            {
+              "party": "המילואימניקים והכלכלית בראשות הנדל וזליכה",
+              "seats": 0,
+              "rawPct": 1.6
+            },
+            {
+              "party": "כחול לבן בראשות בני גנץ",
+              "seats": 0,
+              "rawPct": 0.2
+            },
+            {
+              "party": "הציבור החרדי",
+              "seats": 0,
+              "rawPct": 0.1
+            },
+            {
+              "party": "לא החליטו — מדווח בנפרד",
+              "seats": null,
+              "rawPct": 3
+            }
+          ]
+        }
+      ],
+      "statusLabel": "הוחלף בסקר NEXT DATA מ־15.9; נשמר כמקור היסטורי"
+    },
+    {
+      "id": "4144",
+      "fileName": "Survey_4144.pdf",
+      "publisher": "מעריב",
+      "pollster": "לזר מחקרים בראשות ד\"ר מנחם לזר",
+      "date": "2026-09-10",
+      "sampleSize": 601,
+      "includedInCurrentModel": true,
+      "summary": "אותו סקר לזר, עבודת שדה 9–10.9 ופרסום 11.9: נוספה טבלת אחוזי המפלגות המלאה, וגנץ 1.1% במקום 1.3%. 100% בשורות המפלגות מפורש כהרכב בחירות המפלגה לצורך המודל; המכנה אינו מוגדר במפורש בדוח.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf",
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6",
+      "tables": [
+        {
+          "label": "כוונת הצבעה — נתוני הדוח",
+          "page": 1,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "ישר! עם איזנקוט בראשות גדי איזנקוט",
+              "seats": 25,
+              "rawPct": 18.8
+            },
+            {
+              "party": "הליכוד בראשות בנימין נתניהו",
+              "seats": 19,
+              "rawPct": 13.9
+            },
+            {
+              "party": "ביחד - בראשות נפתלי בנט",
+              "seats": 14,
+              "rawPct": 11.7
+            },
+            {
+              "party": "הדמוקרטים בראשות יאיר גולן",
+              "seats": 10,
+              "rawPct": 9.4
+            },
+            {
+              "party": "ישראל ביתנו בראשות אביגדור ליברמן",
+              "seats": 9,
+              "rawPct": 7
+            },
+            {
+              "party": "עוצמה יהודית בראשות איתמר בן גביר",
+              "seats": 8,
+              "rawPct": 6.2
+            },
+            {
+              "party": "יהדות התורה בראשות יעקב אשר",
+              "seats": 7,
+              "rawPct": 5
+            },
+            {
+              "party": "שס בראשות אריה דרעי",
+              "seats": 7,
+              "rawPct": 5.2
+            },
+            {
+              "party": "רשימה ערבית משותפת של חדש תעל ובלד בראשות יוסף גאברין",
+              "seats": 7,
+              "rawPct": 5.4
+            },
+            {
+              "party": "רעמ בראשות דר מנסור עבאס",
+              "seats": 5,
+              "rawPct": 4.5
+            },
+            {
+              "party": "הציונות הדתית בראשות בצלאל סמוטריץ וזהות בראשות משה פייגלין",
+              "seats": 5,
+              "rawPct": 4.3
+            },
+            {
+              "party": "מפלגת עמך ישראל בראשות עופר וינטר",
+              "seats": 4,
+              "rawPct": 3.4
+            },
+            {
+              "party": "המילואימניקים והכלכלית בראשות הנדל וזליכה",
+              "seats": 0,
+              "rawPct": 3
+            },
+            {
+              "party": "כחול לבן בראשות בני גנץ",
+              "seats": 0,
+              "rawPct": 1.1
+            },
+            {
+              "party": "נעם לישראל",
+              "seats": 0,
+              "rawPct": 0.7
+            },
+            {
+              "party": "הציבור החרדי בראשות מוטי לייטנר",
+              "seats": 0,
+              "rawPct": 0.4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4145",
+      "fileName": "Survey_4145.pdf",
+      "publisher": "חדשות 12",
+      "pollster": "מדגם יעוץ ומחקר בראשות מנו גבע",
+      "date": "2026-09-09",
+      "sampleSize": 504,
+      "includedInCurrentModel": false,
+      "summary": "סקר מדגם מ־9.9 הוחלף בסקר החדש מ־14.9 ואינו נכלל עוד בשקלול. אותו סקר מדגם מ־9.9: נוספה טבלת אחוזי המפלגות המלאה. 10.2% המתלבטים מופיעים מחוץ לסך 100% ואינם מופחתים שוב. הקהל 0.1% ואחרים 0.5% נשמרים במודל בתוך יתרת הרשימות.",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf",
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8",
+      "tables": [
+        {
+          "label": "כוונת הצבעה — נתוני הדוח",
+          "page": 2,
+          "columns": [
+            {
+              "key": "party",
+              "label": "מפלגה / תשובה",
+              "type": "text"
+            },
+            {
+              "key": "seats",
+              "label": "מנדטים",
+              "type": "seats"
+            },
+            {
+              "key": "rawPct",
+              "label": "אחוז גולמי",
+              "type": "percent"
+            }
+          ],
+          "rows": [
+            {
+              "party": "ישר! עם איזנקוט בראשות גדי איזנקוט",
+              "seats": 25,
+              "rawPct": 19.4
+            },
+            {
+              "party": "הליכוד בראשות בנימין נתניהו",
+              "seats": 21,
+              "rawPct": 16.3
+            },
+            {
+              "party": "ביחד בראשות נפתלי בנט",
+              "seats": 13,
+              "rawPct": 9.2
+            },
+            {
+              "party": "הדמוקרטים בראשות יאיר גולן",
+              "seats": 10,
+              "rawPct": 8.5
+            },
+            {
+              "party": "ישראל ביתנו בראשות אביגדור ליברמן",
+              "seats": 9,
+              "rawPct": 7
+            },
+            {
+              "party": "יהדות התורה בראשות יעקב אשר",
+              "seats": 8,
+              "rawPct": 6.3
+            },
+            {
+              "party": "ש\"ס בראשות אריה דרעי",
+              "seats": 7,
+              "rawPct": 5.4
+            },
+            {
+              "party": "הרשימה המשותפת (חד\"ש, תע\"ל, בל\"ד) בראשות יוסף ג'בארין",
+              "seats": 7,
+              "rawPct": 5.3
+            },
+            {
+              "party": "עוצמה יהודית בראשות איתמר בן גביר",
+              "seats": 6,
+              "rawPct": 4.6
+            },
+            {
+              "party": "הציונות הדתית - זהות בראשות בצלאל סמוטריץ' ומשה פייגלין",
+              "seats": 5,
+              "rawPct": 4.4
+            },
+            {
+              "party": "עמך ישראל בראשות עופר וינטר",
+              "seats": 5,
+              "rawPct": 3.9
+            },
+            {
+              "party": "הרשימה הערבית המאוחדת - רע\"ם בראשות מנסור עבאס ויואב סגלוביץ'",
+              "seats": 4,
+              "rawPct": 3.3
+            },
+            {
+              "party": "המילואימניקים והכלכלית בראשות יועד הנדל וירון זליכה",
+              "seats": 0,
+              "rawPct": 2.9
+            },
+            {
+              "party": "כחול לבן בראשות בני גנץ",
+              "seats": 0,
+              "rawPct": 1.4
+            },
+            {
+              "party": "הציבור החרדי בראשות מוטי לייטנר",
+              "seats": 0,
+              "rawPct": 1
+            },
+            {
+              "party": "ישראל תחילה - עלה ירוק בראשות שרן השכל",
+              "seats": 0,
+              "rawPct": 0.3
+            },
+            {
+              "party": "נעם לישראל בראשות אבי מעוז",
+              "seats": 0,
+              "rawPct": 0.2
+            },
+            {
+              "party": "הקהל בראשות שלמה אלבוים",
+              "seats": 0,
+              "rawPct": 0.1
+            },
+            {
+              "party": "מפלגות אחרות",
+              "seats": null,
+              "rawPct": 0.5
+            },
+            {
+              "party": "לא החליטו — מדווח בנפרד",
+              "seats": null,
+              "rawPct": 10.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
