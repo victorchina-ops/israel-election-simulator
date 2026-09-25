@@ -1,0 +1,229 @@
+{
+  "checkedAt": "2026-09-25",
+  "scope": "C14, i24, Zman, C16, IsraelHayom",
+  "polls": [
+    {
+      "id": "direct_polls_2026-09-24",
+      "pollsterId": "direct_polls",
+      "publisher": "i24NEWS",
+      "pollster": "דיירקט פולס — צוריאל שרון",
+      "date": "2026-09-24",
+      "fieldworkStart": "2026-09-24",
+      "fieldworkEnd": "2026-09-24",
+      "sampleSize": 537,
+      "reportedMarginOfErrorPct": 4.2,
+      "marginConfidencePct": 95,
+      "samplingMethod": "מערכת דיגיטלית בשילוב פאנל",
+      "population": "מדגם מייצג של האוכלוסייה הכללית בישראל, בני 18 ומעלה",
+      "panelProvider": null,
+      "verification": "primary-publisher-confirmed",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577",
+      "localArchive": "artifacts/sources/2026-09-25-check/i24-2026-09-24.html",
+      "archiveSha256": "657a784564849aa79feac3613fecdc4d7c77b63a646b5bcf2d203e2618d5308",
+      "seats": {
+        "likud": 27,
+        "yashar": 22,
+        "beyachad": 9,
+        "democrats": 9,
+        "otzma": 8,
+        "utj": 8,
+        "joint": 7,
+        "yisrael_beiteinu": 7,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 6,
+        "winter": 4,
+        "hendel": 0,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": 0
+      },
+      "belowThresholdPct": {
+        "hendel": 1.6
+      },
+      "belowThresholdBounds": {
+        "gantz": {
+          "lessThanPct": 1
+        },
+        "noam": {
+          "lessThanPct": 1
+        },
+        "haredi_public": {
+          "lessThanPct": 1
+        },
+        "israel_first": {
+          "lessThanPct": 1
+        }
+      },
+      "unmodeledReportedParties": [
+        {
+          "name": "צבע שחור",
+          "seats": 0,
+          "lessThanPct": 1
+        }
+      ],
+      "notes": [
+        "Exact percentages for the five less-than-one-percent lists were not published in article; do not convert to zero or a fabricated exact percentage.",
+        "Do not treat headline bloc totals as coalition assignments; calculate from model party assignments."
+      ]
+    },
+    {
+      "id": "tatika_2026-09-24",
+      "pollsterId": "tatika",
+      "publisher": "זמן ישראל",
+      "pollster": "יוסי טאטיקה",
+      "date": "2026-09-24",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "samplingMethod": "פאנל Adgenda; פילוח לפי גיל, דת, מגדר ואזור מגורים",
+      "population": "500 משיבים יהודים וערבים בישראל",
+      "panelProvider": "Adgenda — רועי שינדלר",
+      "verification": "primary-publisher-confirmed",
+      "sourceUrl": "https://www.zman.co.il/727390/",
+      "archiveLimitation": "Article fully read via web tool, including full table and methods; direct archive HTTP403.",
+      "seats": {
+        "yashar": 23,
+        "likud": 21,
+        "beyachad": 12,
+        "yisrael_beiteinu": 10,
+        "shas": 10,
+        "utj": 8,
+        "democrats": 8,
+        "joint": 8,
+        "otzma": 6,
+        "raam": 6,
+        "rz_zehut": 4,
+        "winter": 4,
+        "hendel": 0,
+        "gantz": 0
+      },
+      "belowThresholdPct": {
+        "hendel": 2.6,
+        "gantz": 1.6
+      },
+      "notes": [
+        "Other minor-list percentages not published in article; leave missing rather than zero.",
+        "Discovered via current primary homepage, not search indexing."
+      ],
+      "localArchive": "artifacts/sources/2026-09-25-check/zman-2026-09-24-web-reader.txt",
+      "archiveSha256": "f83852aaaf6ded8b3ad92a2b9f8ff4c47ef35937ebd12a124b6c26fb37376435",
+      "archiveKind": "clearly-labeled-transcribed-web-reader-extract-not-original-html"
+    },
+    {
+      "id": "next_data_2026-09-23",
+      "pollsterId": "next_data",
+      "publisher": "חדשות 14",
+      "pollster": "NEXT DATA — שלמה פילבר",
+      "date": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "sampleSize": 647,
+      "reportedMarginOfErrorPct": null,
+      "samplingMethod": null,
+      "population": "647 בוגרים מכלל האוכלוסייה",
+      "panelProvider": null,
+      "verification": "primary-publisher-confirmed",
+      "sourceUrl": "https://www.c14.co.il/article/1711606",
+      "corroboratingUrls": [
+        "https://themadad.com/allpolls/",
+        "https://www.skarim.org/polls/channel-14-2026-09-23",
+        "https://rotter.net/mobile/viewmobile.php?forum=scoops1&thread=964648",
+        "https://www.emess.co.il/radio/1932519"
+      ],
+      "localArchive": "artifacts/sources/2026-09-25-check/channel14-2026-09-23-primary.html",
+      "archiveSha256": "8d2ef783e31684ea1b51b6845ee3108b64a57b2aab6328d2cc359c31b58cefe9",
+      "seats": {
+        "likud": 32,
+        "yashar": 22,
+        "shas": 11,
+        "democrats": 9,
+        "beyachad": 7,
+        "utj": 7,
+        "rz_zehut": 7,
+        "joint": 7,
+        "yisrael_beiteinu": 7,
+        "otzma": 6,
+        "raam": 5,
+        "winter": 0,
+        "hendel": 0,
+        "haredi_public": 0,
+        "gantz": 0,
+        "noam": 0
+      },
+      "belowThresholdPct": {
+        "hendel": 2.2,
+        "winter": 1.9,
+        "haredi_public": 0.5,
+        "gantz": 0.3,
+        "noam": 0.1
+      },
+      "notes": [
+        "Original primary article found after search/title cross-check and fetched via direct HTTP. All seats, below-threshold values, n647 and field23.9 verified.",
+        "Primary source does not report MOE or detailed sampling/panel; preserve missing."
+      ]
+    },
+    {
+      "id": "maagar_2026-09-24",
+      "pollsterId": "maagar",
+      "publisher": "ערוץ 16",
+      "pollster": "מאגר מוחות — יצחק כץ",
+      "date": "2026-09-24",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 500,
+      "sampleSizeSourceUrl": "https://themadad.com/allpolls/",
+      "reportedMarginOfErrorPct": null,
+      "samplingMethod": null,
+      "population": null,
+      "panelProvider": null,
+      "verification": "secondary-confirmed-TheMadad-and-Skarim-primary-unavailable",
+      "sourceUrl": "https://www.skarim.org/polls/channel-16-2026-09-24",
+      "corroboratingUrls": [
+        "https://themadad.com/allpolls/"
+      ],
+      "archiveLimitation": "Primary www.ch16.co.il returned no usable article content via web tool; direct HTTP returned JS application shell. Skarim full table readable via web tool but direct archive HTTP429.",
+      "seats": {
+        "yashar": 23,
+        "likud": 19,
+        "beyachad": 13,
+        "otzma": 9,
+        "democrats": 8,
+        "yisrael_beiteinu": 8,
+        "shas": 8,
+        "joint": 7,
+        "utj": 7,
+        "raam": 5,
+        "rz_zehut": 5,
+        "hendel": 4,
+        "winter": 4,
+        "gantz": 0,
+        "haredi_public": 0
+      },
+      "belowThresholdPct": {},
+      "notes": [
+        "Skarim lists Gantz and HarediPublic as below threshold but does not expose exact percentages in text; preserve unknown values.",
+        "Do not copy previous poll MOE or field dates as if known for new poll."
+      ],
+      "localArchive": "artifacts/sources/2026-09-25-check/channel16-2026-09-24-web-reader.txt",
+      "archiveSha256": "181d930ac6790c7fc5ebae9b95ebe1fdebdbfa0cc4e1b11110f49d8bf4c66b65",
+      "archiveKind": "clearly-labeled-transcribed-web-reader-extract-not-original-html"
+    }
+  ],
+  "otherChecks": [
+    {
+      "publisher": "ישראל היום",
+      "urls": [
+        "https://www.israelhayom.co.il/news/politics",
+        "https://www.israelhayom.co.il/news/politics/article/21444759"
+      ],
+      "result": "Current politics index opened; linked latest mandate poll is still17.9. No verified later national mandate poll found in this scan; not proof none published."
+    },
+    {
+      "publisher": "IsraelPolls",
+      "result": "Parent agent assigned this required source check separately."
+    }
+  ]
+}

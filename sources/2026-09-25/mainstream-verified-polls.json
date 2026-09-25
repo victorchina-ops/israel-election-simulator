@@ -1,0 +1,237 @@
+{
+  "checkedAt": "2026-09-25",
+  "status": "verified-for-ingestion",
+  "sourceArchiveDir": "artifacts/sources/2026-09-25-check",
+  "polls": [
+    {
+      "id": "hamadad_consortium_2026-09-23",
+      "pollsterId": "hamadad_consortium",
+      "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+      "publisher": "חדשות 13",
+      "date": "2026-09-23",
+      "publicationTime": "20:47",
+      "publicationTimeZone": "Asia/Jerusalem",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "sampleSize": 1503,
+      "invitedSampleSize": null,
+      "population": null,
+      "samplingMethod": null,
+      "panelProvider": null,
+      "reportedMarginOfErrorPct": 2.5,
+      "consortium": "המדד (שמואל רוזנר, נח סלפקוב), סטט־נט (יוסף מקלדה), פרויקט המדגם (ד״ר אריאל איילון), אסקריא (דודי דרור); נתונים נוספים Hive; ייעוץ סטטיסטי פרופ׳ דוד שטיינברג",
+      "seats": {
+        "yashar": 22,
+        "likud": 18,
+        "beyachad": 11,
+        "democrats": 11,
+        "yisrael_beiteinu": 8,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "otzma": 7,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 5,
+        "hendel": 4,
+        "gantz": 0,
+        "haredi_public": 0
+      },
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "gantz": 0.8,
+        "haredi_public": 1.3
+      },
+      "reportedPercentageBounds": {},
+      "reportedTotalBelowThresholdPct": 2.9,
+      "belowThresholdConfirmed": [
+        "gantz",
+        "haredi_public"
+      ],
+      "notIndividuallyReported": [
+        "noam",
+        "israel_first",
+        "other"
+      ],
+      "missingPercentagePartyIds": [
+        "yashar",
+        "likud",
+        "beyachad",
+        "democrats",
+        "yisrael_beiteinu",
+        "utj",
+        "joint",
+        "shas",
+        "otzma",
+        "rz_zehut",
+        "raam",
+        "winter",
+        "hendel",
+        "noam",
+        "israel_first",
+        "other"
+      ],
+      "undecidedPct": 4.6,
+      "undecidedSourceUrl": "https://themadad.com/סקר-המדד-ספטמבר-22-2026/",
+      "undecidedNote": "4.6% in original pollster release; 13% in Channel13 followup is a different question and retained separately.",
+      "sourceUrl": "https://themadad.com/סקר-המדד-ספטמבר-22-2026/",
+      "additionalSourceUrls": [
+        "https://13tv.co.il/item/news/politics/politics/hcp4l-905367553/",
+        "https://13tv.co.il/item/news/politics/politics/l72gq-905369468/",
+        "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1790239835/uploads/2026/905368615.webp"
+      ],
+      "sourceDocument": {
+        "fileName": "themadad-channel13-2026-09-23.html",
+        "kind": "web-page",
+        "sha256": "28ae9ed296cfc562e5e14f341438c52cecd2b9bf77ed6e6dedca8c1c5332891c",
+        "rawHtmlAvailable": true,
+        "originalGraphicFileName": "channel13-poll-2026-09-23.webp"
+      },
+      "notes": [
+        "פרסום המדד מתאר תמונת מצב מ־23.9 אף שהכתובת כוללת22. אחוזים מדויקים: כחול לבן0.8%, הציבור החרדי1.3%; סך2.9% לא עוברים נשמר כנתון נפרד.",
+        "כתבת חדשות13 היא פרסום מקורי של אותו סקר בטלוויזיה; כתבת וואלה היא דיווח חוזר ואינה סקר נפרד."
+      ]
+    },
+    {
+      "id": "lazar_2026-09-25",
+      "pollsterId": "lazar",
+      "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+      "publisher": "מעריב",
+      "date": "2026-09-25",
+      "publicationTime": "06:00:46",
+      "updatedTime": "06:21:31",
+      "publicationTimeZone": "Asia/Jerusalem",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "sampleSize": 610,
+      "invitedSampleSize": 4217,
+      "reportedResponseRatePct": 14,
+      "population": "האוכלוסייה הבוגרת במדינת ישראל מגיל18ומעלה, יהודים וערבים",
+      "samplingMethod": null,
+      "panelProvider": "Panel4ALL",
+      "reportedMarginOfErrorPct": 4,
+      "seats": {
+        "yashar": 22,
+        "likud": 18,
+        "beyachad": 13,
+        "democrats": 11,
+        "yisrael_beiteinu": 9,
+        "utj": 6,
+        "joint": 7,
+        "shas": 6,
+        "otzma": 9,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 4,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "gantz": 1.3,
+        "haredi_public": 0.9,
+        "noam": 0.7
+      },
+      "reportedPercentageBounds": {},
+      "belowThresholdConfirmed": [
+        "gantz",
+        "haredi_public",
+        "noam"
+      ],
+      "notIndividuallyReported": [
+        "israel_first",
+        "other"
+      ],
+      "missingPercentagePartyIds": [
+        "yashar",
+        "likud",
+        "beyachad",
+        "democrats",
+        "yisrael_beiteinu",
+        "utj",
+        "joint",
+        "shas",
+        "otzma",
+        "rz_zehut",
+        "raam",
+        "winter",
+        "hendel",
+        "israel_first",
+        "other"
+      ],
+      "undecidedPct": null,
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1370546",
+      "additionalSourceUrls": [
+        "https://www.maariv.co.il/breaking-news/article-1370586"
+      ],
+      "sourceDocument": {
+        "fileName": "maariv-lazar-2026-09-25-1370546.html",
+        "kind": "web-page",
+        "sha256": "06d1a4c48b98508489f18fc542f17b16e533d170b344a14626a1c01a8247b64e",
+        "rawHtmlAvailable": true
+      },
+      "notes": [
+        "הפרסום התגלה דרך דף הבית החי של מעריב ולא דרך תוצאות חיפוש.",
+        "הכתבה מפרטת שלוש רשימות מתחת לחסימה; יתר האחוזים חסרים ולא אפס."
+      ]
+    }
+  ],
+  "accessChecks": [
+    {
+      "sourceUrl": "https://x.com/IsraelPolls?s=20",
+      "method": "web.open",
+      "status": "inaccessible-cache-miss",
+      "limitation": "Unable to inspect current graphics/tables via web.open."
+    },
+    {
+      "sourceUrl": "https://www.kan.org.il/",
+      "method": "web.open",
+      "status": "empty-content"
+    },
+    {
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/",
+      "method": "web.open and direct HTTP",
+      "status": "empty-content-and-http403",
+      "limitation": "Cannot rule out a new Kan poll."
+    },
+    {
+      "sourceUrl": "https://www.maariv.co.il/",
+      "method": "direct HTTP",
+      "status": "success",
+      "result": "Found new September25 poll absent from accessible indexed results."
+    },
+    {
+      "sourceUrl": "https://www.maariv.co.il/news/politics",
+      "method": "direct HTTP",
+      "status": "success"
+    },
+    {
+      "sourceUrl": "https://13tv.co.il/news/",
+      "method": "web.open",
+      "status": "success"
+    },
+    {
+      "sourceUrl": "https://13tv.co.il/tags/survey/",
+      "method": "web.open",
+      "status": "success"
+    },
+    {
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026",
+      "method": "web.open and direct HTTP",
+      "status": "success",
+      "result": "Index labels known September22 national poll as September23 update; same Article-fad59e819c9c0a1027.htm, do not duplicate. First-time-voter poll is a subgroup poll, not national."
+    },
+    {
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/hcp4l-905367553/",
+      "method": "web.open/direct HTTP",
+      "status": "web-reader-success-direct-download403"
+    },
+    {
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/l72gq-905369468/",
+      "method": "web.open/direct HTTP",
+      "status": "web-reader-success-direct-download403"
+    }
+  ]
+}
