@@ -1,0 +1,2 @@
+# Preserve the exact bytes of checksum-pinned publisher evidence.
+/sources/2026-09-28/*.html -text -diff

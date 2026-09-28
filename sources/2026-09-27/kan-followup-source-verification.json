@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-09-27",
+  "task": "follow-up-source-verification-before-ingest",
+  "confirmed": {
+    "publicationDate": "2026-09-27",
+    "sampleSize": 552,
+    "seatTotal": 120,
+    "all13SeatsMatchDiscovery": true,
+    "belowThresholdPercentages": {
+      "gantz": 0.7,
+      "haredi_public": 0.9,
+      "noam": 0.4
+    },
+    "unmodeledBelowThreshold": [
+      {
+        "name": "צבע שחור - מגן עולם התורה",
+        "percentage": 0.6
+      }
+    ]
+  },
+  "historyTable": {
+    "url": "https://x.com/IsraelPolls/status/2104273221692621182",
+    "imageUrl": "https://pbs.twimg.com/media/HTPhRgsWsAEMnxZ?format=webp&name=large",
+    "visuallyVerified": true,
+    "latestColumn": "27.9.26",
+    "previousKantarColumn": "17.9.26",
+    "sourceBlocSeats": {
+      "coalition": 52,
+      "othersIncludingHendel": 56,
+      "arab": 12
+    },
+    "seatChangesAgainst17September": {
+      "likud": 1,
+      "beyachad": -2,
+      "otzma": -1,
+      "yisrael_beiteinu": 1,
+      "yashar": 1
+    }
+  },
+  "primaryTurnoutPost": {
+    "url": "https://x.com/kann_news/status/2104269757998330084",
+    "publicationDate": "2026-09-27",
+    "textConfirmed": true,
+    "certainToVotePct": {
+      "coalitionSupporters": 72,
+      "oppositionSupporters": 77,
+      "arabSociety": 45
+    },
+    "note": "Stated certainty of voting, not turnout estimates; does not establish fieldwork dates or margin of error."
+  },
+  "methodology": {
+    "fieldworkStart": null,
+    "fieldworkEnd": null,
+    "reportedMarginOfErrorPct": null
+  },
+  "limitations": [
+    "Kan homepage and politics index direct HTTP returned403, empty web-reader results.",
+    "Zman direct article HTTP403.",
+    "Search results for552 returned unrelated older polls; not used as methodology evidence."
+  ],
+  "modelFilesChanged": false,
+  "hashes": {
+    "israelpolls-kantar-history-2026-09-27.webp": "e9bde9c17d1c3f493c8bacd6d97bea45e9d7318e23cc9e9eb7fda39ea508bd04",
+    "israelpolls-kantar-history-post-2026-09-27.html": "0182393b6417c68ca5e74fe638b0af834003d39faed6d896c3ac3c052f99eb3d",
+    "kann-official-turnout-2026-09-27.html": "06792d02a5faa6e7028d33c1773eda55c68c91ffab991759eb05f13f16bd3c67",
+    "kan-home-fresh.html": "01234f7080865d51307e0080dfcb8b558f2a7ab9efc346544e06cd437079acc2",
+    "kan-politics-fresh.html": "8bc787ceedf6c6cfa84c9067a5901e119b61d8ed6cc577a59524a2f1b5a4e6d5",
+    "zman-kan-fresh.html": "862490b98840bc4311e15825bdc8a505228a11eb8e782cc94f2273bc0c9bc1f0"
+  }
+}

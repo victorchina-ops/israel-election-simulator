@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-09-27",
+  "status": "verified-discovery-not-ingested",
+  "publicationDate": "2026-09-27",
+  "pollsterId": "kantar",
+  "publisher": "כאן חדשות",
+  "pollster": "קנטאר — דודי חסיד",
+  "sampleSize": 552,
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "reportedMarginOfErrorPct": null,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 11,
+    "democrats": 9,
+    "yisrael_beiteinu": 9,
+    "utj": 7,
+    "shas": 7,
+    "otzma": 7,
+    "joint": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4
+  },
+  "seatTotal": 120,
+  "belowThresholdPercentages": {
+    "haredi_public": 0.9,
+    "gantz": 0.7,
+    "noam": 0.4
+  },
+  "unmodeledBelowThreshold": [
+    {
+      "name": "צבע שחור",
+      "percentage": 0.6
+    }
+  ],
+  "sourceBlocSeats": {
+    "coalition": 52,
+    "opposition": 52,
+    "arab": 12,
+    "hendel": 4
+  },
+  "sources": [
+    {
+      "url": "https://x.com/IsraelPolls/status/2104273218781475269",
+      "evidence": "Original Kan graphic reposted by IsraelPolls, read visually; date27.09 andn552 visible"
+    },
+    {
+      "url": "https://themadad.com/allpolls/",
+      "evidence": "Fresh direct HTTP row740 dated27.9,n552,all13seatvalues match"
+    },
+    {
+      "url": "https://www.zman.co.il/live/728082/",
+      "evidence": "Search indexed live report confirms full seats and exact below-threshold percentages; direct web open unavailable"
+    }
+  ],
+  "accessLimitations": [
+    "Kan homepage and politics index returned HTTP403",
+    "Web reader and search cached old results; direct HTTP IsraelPolls and TheMadad revealed new poll",
+    "No verified fieldwork dates or reported margin of error retrieved"
+  ],
+  "otherNewPollsFound": [],
+  "websiteChanged": false,
+  "archiveHashes": {
+    "israelpolls-kan-2026-09-27.webp": "382430eace2268b4c65330b392d2ce0c9b61c7feb8b19df3acd21ee918ae0608",
+    "israelpolls-kan-27.html": "214f6d854e211add278f9fe6caec9e73caa61b366bf713c9296532ef0dce0180",
+    "israelpolls.html": "b664748b2ff528839fdd14d7ff7ab85da4a4cfee535968eed264dc5efd1bfd7d",
+    "kann-news-profile.html": "0def4c2f90f954666320beb7ea22c21589062b1b28831acaee06758ef935c66d",
+    "themadad-allpolls.html": "02dea9607d43bb7fa9eacc89fd50a88f79d79b887b3fcb5b5ec410afc1ea0701"
+  }
+}

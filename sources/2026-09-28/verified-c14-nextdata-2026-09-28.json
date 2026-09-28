@@ -1,0 +1,107 @@
+{
+  "checkedAt": "2026-09-28",
+  "status": "verified-ready-to-ingest",
+  "id": "next_data_2026-09-28",
+  "publicationDate": "2026-09-28",
+  "fieldworkStart": "2026-09-28",
+  "fieldworkEnd": "2026-09-28",
+  "pollsterId": "next_data",
+  "publisher": "ערוץ 14",
+  "pollster": "NEXT DATA — ניתוח שלמה פילבר",
+  "sampleSize": 573,
+  "samplePopulation": "בוגרים מכלל האוכלוסייה",
+  "reportedMarginOfErrorPct": null,
+  "seats": {
+    "likud": 31,
+    "yashar": 21,
+    "shas": 10,
+    "democrats": 9,
+    "beyachad": 9,
+    "utj": 8,
+    "rz_zehut": 7,
+    "otzma": 7,
+    "joint": 7,
+    "yisrael_beiteinu": 6,
+    "raam": 5
+  },
+  "seatTotal": 120,
+  "belowThresholdPercentages": {
+    "hendel": 2.1,
+    "winter": 1.6,
+    "gantz": 0.6,
+    "haredi_public": 0.2,
+    "noam": 0.2
+  },
+  "sourceBlocSeats": {
+    "coalition": 63,
+    "opposition": 45,
+    "arab": 12
+  },
+  "sources": [
+    {
+      "url": "https://www.c14.co.il/article/1716250",
+      "type": "primary-article",
+      "archive": "c14-1716250.html",
+      "evidence": "All seats, all five below-threshold percentages, n573,28Sept2026 fieldwork,NEXT DATA/Filber"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2104643989303591134",
+      "type": "original-publisher-graphics-repost",
+      "archive": "israelpolls-c14-post.html",
+      "evidence": "Original C14 seat graphic and bloc graphic match article; repost28Sept2026"
+    }
+  ],
+  "graphics": [
+    {
+      "file": "israelpolls-c14-seats.webp",
+      "url": "https://pbs.twimg.com/media/HTUyjFcWIAEULEm?format=webp&name=large",
+      "content": "seats and below-threshold support",
+      "visuallyVerified": true
+    },
+    {
+      "file": "israelpolls-c14-blocs.webp",
+      "url": "https://pbs.twimg.com/media/HTUyjWeXYAAoa3i?format=webp&name=large",
+      "content": "bloc chart",
+      "visuallyVerified": true
+    }
+  ],
+  "accessLimitations": [
+    "TheMadad fresh direct HTTP exceeded30 redirects; web reader cached asof27Sept(row740).",
+    "Web-reader homepage was earlier28Sept; fresh direct primary homepage successfully reveals this evening poll.",
+    "Reported margin of error and sampling mode not stated in primary article; retained as unknown."
+  ],
+  "hashes": {
+    "c13-home-other-scan.html": "3e5d518d20e3ab7fbdab3a360ccbd45949fa34b83911167f0c4c72e2329905db",
+    "c13-politics-other-scan.html": "83ec5c70183a2ccd5da8bf81788ad4b245cfee4a258978823695fe5801f384fc",
+    "c14-1716250.html": "66c745f89aaba856427733531d654da4fcf9ca808d9d1e83d144eec1fa1aa2cf",
+    "c14-elections26.html": "cc666cb6acfb010aa3d8b6220094e13b05c43bcddfbafc0ba3f6bcdda9e40385",
+    "c14-home.html": "88515df50f237e3f6515a3025f6fab8a5025d25ace7bfa2eaa35d1d2f4a5d3a7",
+    "c14-politics.html": "716918b23a9f8865ef55222c538d76483f2f0cf267b8b19640e563004c1d2bae",
+    "i24-elections-other-scan.html": "fcd662c2ad4f5df11af1bb18827eeb074e07e93fc2fcbd420b416ac30a4cf0b3",
+    "i24-home-other-scan.html": "562fabda3eb60ba4f33870cae45658f3335967aee684f03a43988f2bb6518bfc",
+    "israelpolls-c14-history.webp": "c08055543ac1b8d22b543d4120c4b9e3e80ae05e8b590f9f175e295a6e4bcec8",
+    "israelpolls-c14-post.html": "ae9f1593c2fa27867b86ceaa815458c90020585e6d72da5302456d3c211c98d6",
+    "israelpolls-c14-seats.webp": "6a2d43def6ab45cc31290dc8b103de0b227cb969c129569f9955886e9a888cda",
+    "israelpolls.html": "0560b63b5a3abb7c9275cf363f7290cd3063eaa8815e4b8b3270595fcafa50dc",
+    "kan-home-other-scan.html": "06a570a8034e20b509fa78bf7401a9fc9cfc8ce8a8b915038f1e245ecc104f18",
+    "kan-news-other-scan.html": "8dcc689e7f9e285d1fd15738f622c97c5afdb762f59e34e66fac582ae3084805",
+    "kan-polls-other-scan.html": "5d54a4a8778a2aeafff4b7bb34341893dfa799c785f361931aa9b585767bf607",
+    "maariv-analysis-1371456-other-scan.html": "b5135995199c1dd58363a1e2c8232d6a3c1169995b992e4bb0f4b98fef056e85",
+    "maariv-analysis-1371592-other-scan.html": "dc1fe0062ea08dc1fbfafd48996361b28563ceb98233c991e1a435e127a1554f",
+    "maariv-home-other-scan.html": "c576294c6d5c84d803b47ac68d809668cde8180f4edfab5ff43f8f5c7eb55389",
+    "maariv-politics-other-scan.html": "5af3fa9aa05cd766475b4a2c99717b101af5bab2c2339ce0ed7325e28038b4e7",
+    "n12-elections-other-scan.html": "3207853ac36d5dc566ccc4e40cdb441b9c73340f03c72227d2781223d6ab8f18",
+    "n12-home-other-scan.html": "33923c5b4a29d77a8c6df5409cfcee54f80c99ddca93f9a90fdd0a4f5895acc0",
+    "n12-politics-other-scan.html": "3ef27febcac6b2bc53595b256434677e84d45c9a8d15f03d05e0a2d58157a59d",
+    "zman-home-other-scan.html": "8855d186c0fba1576bfa0cada54d7f171bebc2a53faa8dd92ae0984f9875e6de",
+    "zman-polls-other-scan.html": "381fc44344d7c10498ab35989e50f6bc1d36518a9edb552e6df6f3f1eea15728",
+    "israelpolls-c14-blocs.webp": "c08055543ac1b8d22b543d4120c4b9e3e80ae05e8b590f9f175e295a6e4bcec8"
+  },
+  "publicationTimestamp": "2026-09-28T20:28:22+03:00",
+  "sourceDocument": {
+    "filename": "c14-1716250.html",
+    "filePath": "artifacts/sources/2026-09-28-check/c14-1716250.html",
+    "sha256": "66c745f89aaba856427733531d654da4fcf9ca808d9d1e83d144eec1fa1aa2cf",
+    "url": "https://www.c14.co.il/article/1716250"
+  }
+}
