@@ -1,0 +1,94 @@
+{
+  "checkedAt": "2026-09-30",
+  "israelPollsCheck": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "status": "inaccessible",
+    "detail": "The direct X page returned an access error; its graphics and historical tables could not be inspected today."
+  },
+  "otherPublisherIndexCheck": {
+    "channel13Index": "https://13tv.co.il/tags/survey/",
+    "channel13ArticleFoundInIndex": true,
+    "otherIndexesChecked": [
+      "https://www.n12.co.il/",
+      "https://www.kan.org.il/content/kan-news/politic/",
+      "https://www.c14.co.il/",
+      "https://www.i24news.tv/he",
+      "https://www.israelhayom.co.il/"
+    ],
+    "limitations": [
+      "Some publisher pages returned no readable content; this is not evidence that no other polls were published.",
+      "The Channel 16 original page was not available in readable form."
+    ]
+  },
+  "polls": [
+    {
+      "id": "hamadad_consortium_2026-09-30",
+      "pollsterId": "hamadad_consortium",
+      "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+      "publisher": "חדשות 13",
+      "date": "2026-09-30",
+      "publicationTime": "21:05",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 1013,
+      "reportedMarginOfErrorPct": 2.5,
+      "marginOfErrorCaveat": "Publisher-reported figure; at n=1013 the simple-random 95% worst-case value is about 3.1%, so the reported figure should not be treated as a verified design-based standard error.",
+      "seats": {
+        "yashar": 21,
+        "likud": 19,
+        "beyachad": 11,
+        "democrats": 11,
+        "yisrael_beiteinu": 9,
+        "joint": 9,
+        "utj": 8,
+        "otzma": 8,
+        "shas": 7,
+        "rz_zehut": 7,
+        "raam": 5,
+        "winter": 5
+      },
+      "reportedPercentages": {"hendel": 2.8, "haredi_public": 1.3, "gantz": 0.9},
+      "sourceBlocSeats": {"coalition": 54, "opposition": 52, "arab_parties": 14},
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+      "indexUrl": "https://13tv.co.il/tags/survey/",
+      "sourceTier": "original-publisher",
+      "sourceNotes": "Full seats, three below-threshold percentages, sample size and reported margin are from the original Channel 13 article. Fieldwork dates, voting percentages of parties above the threshold, undecided share and remaining minor-party percentages are not published."
+    },
+    {
+      "id": "maagar_mochot_2026-09-29",
+      "pollsterId": "maagar_mochot",
+      "pollster": "מאגר מוחות — יצחק כץ",
+      "publisher": "ערוץ 16",
+      "date": "2026-09-29",
+      "publicationTime": null,
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.2,
+      "seats": {
+        "yashar": 21,
+        "likud": 19,
+        "beyachad": 14,
+        "democrats": 9,
+        "otzma": 8,
+        "shas": 8,
+        "utj": 7,
+        "yisrael_beiteinu": 7,
+        "joint": 7,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 5,
+        "hendel": 4
+      },
+      "reportedPercentages": {},
+      "sourceBlocSeats": {"coalition": 53, "opposition": 51, "arab_parties": 12, "hendel": 4},
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "secondarySourceUrls": [
+        "https://www.news1.co.il/Archive/001-D-524346-00.html",
+        "https://www.emess.co.il/radio/1935322"
+      ],
+      "sourceTier": "secondary-aggregator",
+      "sourceNotes": "TheMadad row 742 provides the 120-seat table and n=500; two broadcast reports corroborate the seats and report 4.2% error. Original Channel 16 publication and fieldwork dates were not accessible; all unpublished percentages stay missing."
+    }
+  ]
+}
