@@ -1,0 +1,115 @@
+{
+  "checkedAt": "2026-10-01",
+  "israelPollsCheck": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "status": "inaccessible",
+    "detail": "Direct and mobile X pages were inaccessible; the account's graphics and historical tables could not be inspected."
+  },
+  "publisherIndexCheck": {
+    "homepage": "https://www.zman.co.il/",
+    "homepageStatus": "opened-original-poll-linked",
+    "pollIndex": "https://www.zman.co.il/feed/285/",
+    "pollIndexStatus": "opened-lagged-at-2026-09-24",
+    "otherPrimaryIndexes": [
+      {
+        "url": "https://www.mako.co.il/news-israel-elections/2026",
+        "status": "readable",
+        "latestPollSeen": "2026-09-23"
+      },
+      {
+        "url": "https://13tv.co.il/news/politics/politics/",
+        "status": "readable",
+        "latestPollSeen": "2026-09-30"
+      },
+      {
+        "url": "https://13tv.co.il/tags/2026-elections/",
+        "status": "readable",
+        "latestPollSeen": "2026-09-30"
+      },
+      {
+        "url": "https://www.c14.co.il/",
+        "status": "readable",
+        "latestPollSeen": "2026-09-28"
+      },
+      {
+        "url": "https://www.c14.co.il/archive/65839",
+        "status": "readable",
+        "latestPollSeen": "2026-09-28"
+      },
+      {
+        "url": "https://www.i24news.tv/he",
+        "status": "readable-homepage",
+        "latestPollSeen": null,
+        "limitation": "The election hub was JavaScript-limited."
+      },
+      {
+        "url": "https://www.kan.org.il/content/kan-news/politic/",
+        "status": "no-readable-lines",
+        "latestPollSeen": null
+      },
+      {
+        "url": "https://www.maariv.co.il/news/politics/",
+        "status": "inaccessible",
+        "latestPollSeen": null
+      }
+    ],
+    "limitations": [
+      "The Zman poll topic index lagged the homepage and is not evidence that no new poll was published.",
+      "The IsraelPolls account graphics and historical tables could not be inspected.",
+      "Kan and Maariv indexes were unreadable; the i24 election hub was JavaScript-limited. No absence of a newer poll is inferred from these checks."
+    ]
+  },
+  "polls": [
+    {
+      "id": "tatika_2026-10-01",
+      "pollsterId": "tatika",
+      "pollster": "טאטיקה מחקרים ומדיה",
+      "publisher": "זמן ישראל",
+      "date": "2026-10-01",
+      "publicationTime": null,
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "population": "500 משיבים יהודים וערבים בישראל",
+      "samplingMethod": "פאנל Adgenda; פילוח לפי גיל, דת, מגדר ואזור מגורים",
+      "panelProvider": "Adgenda — רועי שינדלר",
+      "seats": {
+        "yashar": 21,
+        "likud": 21,
+        "beyachad": 10,
+        "yisrael_beiteinu": 10,
+        "shas": 9,
+        "utj": 8,
+        "democrats": 8,
+        "joint": 8,
+        "otzma": 6,
+        "raam": 5,
+        "rz_zehut": 5,
+        "hendel": 5,
+        "winter": 4,
+        "gantz": 0
+      },
+      "reportedPercentages": {
+        "gantz": 1.4
+      },
+      "sourceBlocSeats": {
+        "coalition": 53,
+        "opposition": 54,
+        "arab_parties": 13
+      },
+      "sourceBlocBreakdown": {
+        "coalitionCore": 49,
+        "winter": 4,
+        "change": 49,
+        "reservists": 5,
+        "raam": 5,
+        "joint": 8
+      },
+      "sourceUrl": "https://www.zman.co.il/729422/",
+      "indexUrl": "https://www.zman.co.il/",
+      "sourceTier": "original-publisher",
+      "sourceNotes": "The original article gives all 120 seats, Blue and White at zero seats with 1.40% raw support, fieldwork dates, n=500, panel and 4.4% maximum sampling error. Absolute publication time, undecided share and other small-party percentages were not verified."
+    }
+  ]
+}

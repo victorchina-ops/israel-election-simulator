@@ -1,0 +1,2731 @@
+{
+  "asOf": "2026-10-01",
+  "historySha256": "2ef2a4196e53507d741022c1ad9a929e19cdcfd171debe623e2abbe1c87303c0",
+  "closure": {
+    "date": "2026-09-08",
+    "firstEligibleFieldworkDate": "2026-09-09",
+    "sources": [
+      "https://www.gov.il/en/pages/time--table-26",
+      "https://www.idi.org.il/articles/65737"
+    ],
+    "rule": "Entire fieldwork interval must be explicitly verified as starting on or after9Sep. Publication date is insufficient."
+  },
+  "auditSources": {
+    "lazar-fieldwork.json": "51e43b35a21863fc71d5454dc13eb2ca24c22ac04b6b42c6525f948b333f2c00",
+    "n12-kan-c13-fieldwork.json": "49a9813eb2a3746a1ff781fdafb0bd1d52d8c80d69a6518378f3eb973ea400ab",
+    "c14-i24-fieldwork.json": "862ac03e56fc54808a492e57f698e75533f737e17a67691cf94c2f1e4b36e4b5",
+    "c16-tatika-fieldwork.json": "09b451be9f95c6da051c34a2766592e64c28f65c093f19af7a2b9d62b32e7534",
+    "new-unverified-fieldwork-2026-09-30.json": "d9651db2eabfcee3fd21292ede9c7b9fd61ec9488cfa5b1f19348e7dd184a90b"
+  },
+  "cohort": [
+    {
+      "pollId": "history_lazar_2026-09-09_714",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligibleStrict": true,
+      "sourceUrl": "https://www.walla.co.il/news/politics/3866713",
+      "evidenceParagraph": "הסקר נערך ב-9 בספטמבר 2026 עבור וואלה!",
+      "methodologyLocator": "Original publisher, final methodology paragraph, web reader line 367; also explicitly says morning after closure at line 349.",
+      "sampleSize": 506,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "eligibleStrict": true,
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf",
+      "evidencePath": "data/raw/surveys-2026-09-14/agent-b/reviewed-surveys.json",
+      "originalDocumentSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6",
+      "methodologyLocator": "Original pollster PDF Survey_4144, page 1: fieldwork9Sep10:30 to10Sep12:20. PDF creation14Sep is not fieldwork.",
+      "sampleSize": 601,
+      "certainty": "verified-explicit-original-pollster-report-fieldwork-dates"
+    },
+    {
+      "pollId": "history_lazar_2026-09-18_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-18",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "eligibleStrict": true,
+      "sourceUrl": "https://www.maariv.co.il/news/politics/article-1368599",
+      "evidencePath": "artifacts/sources/2026-09-18/maariv-article-1368599.html",
+      "evidenceParagraph": "בסקר, שנערך ב־17־16 בספטמבר, התבקשו להשתתף 4,089 אנשים וענו עליו 600 משיבים",
+      "sampleSize": 600,
+      "certainty": "verified-explicit-archived-original-publisher-fieldwork-dates",
+      "accessNote": "Fresh web reader failed on28Sep; original archived HTML was read and contains the explicit dates."
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "eligibleStrict": true,
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1370546",
+      "evidencePath": "artifacts/sources/2026-09-25-check/maariv-lazar-2026-09-25-1370546.html",
+      "evidenceSha256": "06d1a4c48b98508489f18fc542f17b16e533d170b344a14626a1c01a8247b64e",
+      "evidenceParagraph": "בסקר, שנערך ב-23-24 בספטמבר, התבקשו להשתתף 4,217 אנשים, וענו עליו 610 משיבים",
+      "sampleSize": 610,
+      "certainty": "verified-explicit-archived-original-publisher-fieldwork-dates",
+      "accessNote": "Fresh web reader failed on28Sep; original archived HTML was read and contains the explicit dates."
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-09_715",
+      "sourcePollId": "themadad-715",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "data/raw/surveys-2026-09-14/agent-a/reviewed-surveys.json",
+          "url": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey4140.pdf",
+          "kind": "original-pollster-report-user-supplied",
+          "quote": "fieldworkStart=2026-09-09T08:00; fieldworkEnd=2026-09-09T15:30; validRespondents=1119",
+          "locator": "documents[documentId=Survey4140], original PDF page1",
+          "sha256": "364658f02a98180dec3d48a085e0807f6a66c81a7ddb6daca1a88995931a80d2"
+        },
+        {
+          "file": "artifacts/strict-post-close/themadad-c13-2026-09-09-primary.html",
+          "url": "https://themadad.com/סקר-המדד-ספטמבר-9-2026/",
+          "kind": "pollster-primary-web",
+          "quote": "מועד הסקר: 9 בספטמבר 2026",
+          "locator": "survey methodology",
+          "sha256": "df59e94f31dccbcf1e2abda2cd57da02bee4cd42f72eddb155571aac98832963"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-09_716",
+      "sourcePollId": "themadad-716",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-09-primary.html",
+          "url": "https://www.kan.org.il/content/kan-news/politic/1098105/",
+          "kind": "primary-publisher-html",
+          "quote": "הסקר נערך ב-9.9.2026 על ידי מכון קנטאר",
+          "locator": "methodology; also states collected today after lists closed yesterday",
+          "sha256": "0196c6a8912caa8efb0f0c865ff85ff2844ecc0be6db61e569c75838544ec833"
+        }
+      ]
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "sourcePollId": "themadad-717",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "data/raw/surveys-2026-09-14/agent-b/reviewed-surveys.json",
+          "url": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf",
+          "kind": "original-pollster-report-user-supplied",
+          "quote": "fieldworkStart=2026-09-09; fieldworkEnd=2026-09-09; actualRespondents=504",
+          "locator": "records[surveyNumber=4145].dates, original PDF page1",
+          "sha256": "ca4d1238e4d22cb1ec95a37050155c18424f5e74ee31182be16a5e0ff80c8b27"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-14_723",
+      "sourcePollId": "themadad-723",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-14-primary.html",
+          "url": "https://www.kan.org.il/content/kan-news/politic/1099439/",
+          "kind": "primary-publisher-html",
+          "quote": null,
+          "locator": null,
+          "sha256": "953c6bb8d9cd101c7c1f70b87db83cdc7aee28d58b6f75667ff85c4a615d5fca"
+        },
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-14-graphic.jpeg",
+          "url": "https://www.kan.org.il/media/oqkl1dgw/whatsapp-image-2026-09-14-at-191436.jpeg",
+          "kind": "primary-publisher-graphic",
+          "quote": null,
+          "locator": null,
+          "sha256": "04a500ac4fc5cddc9463b416658abd4076d4bac58cdd05c9289838436381f11a"
+        },
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-14-infogram.html",
+          "url": "https://infogram.com/1p0jwwvknyx5q2cemgy9d23e6jin1kg75lx",
+          "kind": "publisher-embedded-infogram",
+          "quote": "הסקר בוצע ע\" מכון קנטאר בראשות דודו חסיד וכלל 551 משיבים. טעות הדגימה - 4.2%",
+          "locator": null,
+          "sha256": "841c161ce88e5b5ae356920cbd2d19c889b17e40478913f6eb4012ecede944e6"
+        }
+      ],
+      "reason": "Original Kan article, full-resolution original graphic and embedded Infogram all checked. They disclose publication/date label14.09, sample count and pollster but no explicit fieldwork start/end. Publication date is not used as proof of collection date."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-14_current",
+      "sourcePollId": "midgam_geva_2026-09-14",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": "2026-09-14",
+      "fieldworkEnd": "2026-09-14",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/n12-2026-09-14-web-reader-evidence.txt",
+          "url": "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm",
+          "kind": "primary-publisher-web-reader",
+          "quote": "מועד איסוף הנתונים: 14.9.2026",
+          "locator": "methodology section; reader lines136–144",
+          "sha256": "d436c43a7938045957fba8b7718a8aa46bdebda29bad983a1e524f663e5f3612"
+        }
+      ]
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-16_current",
+      "sourcePollId": "hamadad_consortium_2026-09-16",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-15",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/themadad-c13-2026-09-16-primary.html",
+          "url": "https://themadad.com/סקר-המדד-ספטמבר-16-2026/",
+          "kind": "pollster-primary-web",
+          "quote": "מועד האיסוף: 15 בספטמבר 2026",
+          "locator": "survey methodology",
+          "sha256": "adf2a1ab04a57850774bd1dc5ae15300f4af5c91eb38f91bc7f8fbcb64b37412"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-17_current",
+      "sourcePollId": "kantar_2026-09-17",
+      "pollsterId": "kantar",
+      "publisher": "היום",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/israelhayom-21444759.html",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21444759",
+          "kind": "primary-publisher-html",
+          "quote": "מועד איסוף הנתונים: 16-17 בספטמבר 2026",
+          "locator": "methodology section",
+          "sha256": "cd851f635f87e1fb3e35b7cddacde9e5cbdbe51ad19e2563fdeb14454dff057d"
+        }
+      ]
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-22_current",
+      "sourcePollId": "midgam_geva_2026-09-22",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-09-22",
+      "fieldworkStart": "2026-09-22",
+      "fieldworkEnd": "2026-09-22",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-09-22/n12-midgam-article-fad59e819c9c0a1027.html",
+          "url": "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm",
+          "kind": "primary-publisher-html",
+          "quote": "מועד איסוף הנתונים: 22.9.2026",
+          "locator": "methodology section",
+          "sha256": "da3ea437f22f068a5f293f1533adf04b713f161af5ea506507499f08ca187712"
+        }
+      ]
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-23_current",
+      "sourcePollId": "hamadad_consortium_2026-09-23",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-09-25-check/themadad-channel13-2026-09-23.html",
+          "url": "https://themadad.com/סקר-המדד-ספטמבר-22-2026/",
+          "kind": "pollster-primary-web",
+          "quote": "מועד האיסוף: 23 בספטמבר 2026",
+          "locator": "survey methodology; URL slug22 is not fieldwork date",
+          "sha256": "28ae9ed296cfc562e5e14f341438c52cecd2b9bf77ed6e6dedca8c1c5332891c"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "sourcePollId": "kantar_2026-09-27",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-09-28-check/kan-sept27-1103667-primary.html",
+          "url": "https://www.kan.org.il/content/kan-news/politic/1103667/",
+          "kind": "primary-publisher-html",
+          "quote": "הסקר נערך ב-27.9.2026 על ידי מכון קנטאר",
+          "locator": "methodology section",
+          "sha256": "4ee5338280ed232b00854d523f4a13cbb4711d3c84990ccb7ec70e0c16326c36"
+        }
+      ]
+    },
+    {
+      "pollId": "history_next_data_2026-09-09_719",
+      "sourcePollId": "themadad-719",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4143.pdf",
+      "evidencePath": "data/raw/surveys-2026-09-14/agent-b/4143-page-1-pypdf.txt",
+      "evidenceSha256": "9763a82d569459d258a1ee2f4c970f2bc9f2c2093a643ae11c5ff6fb1b3c0124",
+      "sourceParagraph": "תאריך ביצוע הסקר  9.9.2026, בין השעות11:30–14:00",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "fieldworkHours": "11:30–14:00",
+      "sourcePage": 1,
+      "pdfPath": "github-pages/sources/2026-09-14/Survey_4143.pdf",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_next_data_2026-09-15_current",
+      "sourcePollId": "next_data_2026-09-15",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-15",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-15",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://www.c14.co.il/article/1703304",
+      "evidencePath": "artifacts/strict-post-close/c14-2026-09-15-primary.html",
+      "evidenceSha256": "41157de200b06d976c3a25a8090e4874b393b96a72b2a2dca306184978ede870",
+      "sourceParagraph": "הסקר שבוצע באמצעות חברת NEXT DATA בהשתתפות 483 בוגרים מכלל האוכלוסייה נערך היום 15 בספטמבר 2026 ניתוח הנתונים: שלמה פילבר.",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_next_data_2026-09-17_current",
+      "sourcePollId": "next_data_2026-09-17",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-17",
+      "fieldworkEnd": "2026-09-17",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://www.c14.co.il/article/1706627",
+      "evidencePath": "artifacts/sources/2026-09-17/channel14-next-data-article-1706627.html",
+      "evidenceSha256": "0445f256cd8a9c0955fe2bb1113476681e41decb9598c3e8f30424bdadef487b",
+      "sourceParagraph": "הסקר בוצע היום, 17 בספטמבר 2026, באמצעות חברת NEXT DATA בהשתתפות 817 בוגרים מכלל האוכלוסייה, ובניתוח הנתונים של שלמה פילבר. הסקר הקודם נערך ביום שלישי, 15 בספטמבר, בהשתתפות 483 בוגרים.",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "sourcePollId": "next_data_2026-09-23",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://www.c14.co.il/article/1711606",
+      "evidencePath": "artifacts/sources/2026-09-25-check/channel14-2026-09-23-primary.html",
+      "evidenceSha256": "8d2ef783e31684ea1b51b6845ee3108b64a57b2aab6328d2cc359c31b58cefe9",
+      "sourceParagraph": "דיסקליימר: הסקר שבוצע באמצעות חברת NEXT DATA בהשתתפות 647 בוגרים מכלל האוכלוסייה נערך היום, 23 בספטמבר 2026. ניתוח הנתונים: שלמה פילבר.",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "sourcePollId": "next_data_2026-09-28",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://www.c14.co.il/article/1716250",
+      "evidencePath": "artifacts/sources/2026-09-28-check/c14-1716250.html",
+      "evidenceSha256": "66c745f89aaba856427733531d654da4fcf9ca808d9d1e83d144eec1fa1aa2cf",
+      "sourceParagraph": "הסקר בוצע באמצעות חברת NEXT DATA בהשתתפות 573 בוגרים מכלל האוכלוסייה ונערך היום, 28 בספטמבר 2026. ניתוח הנתונים: שלמה פילבר.",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-09_718",
+      "sourcePollId": "themadad-718",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-a92f58d0",
+      "evidencePath": "artifacts/strict-post-close/i24-2026-09-09-primary-web-extract.txt",
+      "evidenceSha256": "6087e4845c3ea960860e1ddd05298b5b24a99b090a03bf5c8c25969d8c43ea56",
+      "sourceParagraph": "המדגם נאסף ונערך על ידי דיירקט פולס בע\"מ בראשות צוריאל שרון עבור ערוץ i24NEWS, בתאריך ה-9 בספטמבר 2026, באמצעות מערכת דיגיטלית בשילוב פאנל, בקרב 1,054 נדגמים בוגרים (18+) המהווים מדגם מייצג של האוכלוסייה בישראל. טעות הדגימה הסטטיסטית 3.0% ± בהסתברות של 95%.",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "accessNote": "Primary article available through web reader; raw HTTP archive is app shell. Evidence file is a labelled methodology text extract from primary article lines 64/79.",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-17_current",
+      "sourcePollId": "direct_polls_2026-09-17",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-17",
+      "fieldworkEnd": "2026-09-17",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa",
+      "evidencePath": "artifacts/strict-post-close/i24-2026-09-17-primary.html",
+      "evidenceSha256": "31d985a38ee67aa1da2924876c43aea7f882518d360bd6300a791ed970bfbe6f",
+      "sourceParagraph": "הסקר נערך על ידי דיירקט פולס בע\"מ בראשות צוריאל שרון עבור i24NEWS, ב-17 בספטמבר 2026, באמצעות מערכת דיגיטלית בשילוב פאנל, בקרב 519 נדגמים בוגרים (18+) המהווים מדגם מייצג של האוכלוסייה הכללית בישראל. טעות הדגימה הסטטיסטית: 4.2% ± בהסתברות של 95%.",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-24_current",
+      "sourcePollId": "direct_polls_2026-09-24",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": "2026-09-24",
+      "fieldworkEnd": "2026-09-24",
+      "includeInStrictPostClose": true,
+      "certainty": "explicit-original-source",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577",
+      "evidencePath": "artifacts/sources/2026-09-25-check/i24-2026-09-24.html",
+      "evidenceSha256": "657a784564849aa79feac3613fecdac4d7c77b63a646b5bcf2d203e2618d5308",
+      "sourceParagraph": "המדגם נאסף ונערך על ידי דיירקט פולס בע\"מ בראשות צוריאל שרון עבור ערוץ i24NEWS, בתאריך ה-24 בספטמבר 2026, באמצעות מערכת דיגיטלית בשילוב פאנל, בקרב 537 נדגמים בוגרים (18+) המהווים מדגם מייצג של האוכלוסייה הכללית בישראל. טעות הדגימה הסטטיסטית 4.2% ± בהסתברות של 95%.",
+      "reason": "Original source explicitly states this poll was conducted or data collected on the stated calendar date, entirely after 8 September 2026. Publication date was not used to infer fieldwork.",
+      "eligibleStrict": true
+    },
+    {
+      "pollId": "history_tatika_2026-09-10_721",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/723041/",
+      "evidencePath": "artifacts/strict-post-close/tatika-2026-09-10-fieldwork-web-reader.txt",
+      "evidenceSha256": "1c56e9b4b36592320d8eb085d914e371d52cfbd99f622910a6b5ca2dd7f90f5e",
+      "evidenceParagraph": "הסקר התקיים ב-9 וב-10 בספטמבר 2026 והשתתפו בו 500 משיבים יהודים וערבים.",
+      "methodologyLocator": "Original article final methodology paragraph; web reader lines 129"
+    },
+    {
+      "pollId": "history_tatika_2026-09-17_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/725468/",
+      "evidencePath": "artifacts/strict-post-close/tatika-2026-09-17-fieldwork-web-reader.txt",
+      "evidenceSha256": "002d53b59c11e6568e9049cea9062b8dcde1c4252a3fd9a068c66719adf13625",
+      "evidenceParagraph": "הסקר התקיים ב-16 וב-17 בספטמבר 2026 והשתתפו בו 500 משיבים יהודים וערבים.",
+      "methodologyLocator": "Original article final methodology paragraph; web reader lines 131"
+    },
+    {
+      "pollId": "history_tatika_2026-09-24_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/727390/",
+      "evidencePath": "artifacts/strict-post-close/tatika-2026-09-24-fieldwork-web-reader.txt",
+      "evidenceSha256": "0eb9ffe267ced57aa444a330622e85506f703fdacf218924e4a7f4c110f31ada",
+      "evidenceParagraph": "הסקר התקיים ב-23 וב-24 בספטמבר 2026 והשתתפו בו 500 משיבים יהודים וערבים.",
+      "methodologyLocator": "Original article final methodology paragraph; web reader lines 127"
+    },
+    {
+      "pollId": "history_tatika_2026-10-01_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/729422/",
+      "evidencePath": "artifacts/sources/2026-10-01-check/zman-2026-10-01-web-reader.txt",
+      "evidenceSha256": "5217d08d3d3d7bdc1a1a5afb9c784192c557e2e1c005f7c686c3055b77576c0a",
+      "evidenceParagraph": "Fieldwork: 30 September–1 October 2026. Sample: 500 Jewish and Arab respondents in Israel.",
+      "methodologyLocator": "Original article methodology, web reader lines 87 and 130–131"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-10_720",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "certainty": "unknown-excluded-no-imputation",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "evidencePath": "github-pages/sources/2026-09-16/maagar-mochot-history-through-2026-09-09.png",
+      "evidenceParagraph": null,
+      "notes": "No explicit fieldwork start/end found in available poll graphic, original social post, or accessible reporting. Publication date cannot substitute for fieldwork. Historical table supplied by user labels column9Sep whereas TheMadad publication row is10Sep; neither establishes fieldwork dates. Existing fieldworkEnd10Sep is not verified and is not used."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-16_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "certainty": "unknown-excluded-no-imputation",
+      "sourceUrl": "https://x.com/Ch16_IL/status/2100275361430786359",
+      "evidencePath": "github-pages/sources/2026-09-16/channel16-maagar-mochot-2026-09-16.png",
+      "evidenceParagraph": null,
+      "notes": "No explicit fieldwork start/end found in available poll graphic, original social post, or accessible reporting. Publication date cannot substitute for fieldwork."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-24_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "certainty": "unknown-excluded-no-imputation",
+      "sourceUrl": "https://www.skarim.org/polls/channel-16-2026-09-24",
+      "evidencePath": "artifacts/sources/2026-09-25-check/channel16-2026-09-24-web-reader.txt",
+      "evidenceParagraph": null,
+      "notes": "No explicit fieldwork start/end found in available poll graphic, original social post, or accessible reporting. Publication date cannot substitute for fieldwork."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "sourcePollId": "maagar_mochot_2026-09-29",
+      "pollsterId": "maagar_mochot",
+      "publisher": "ערוץ 16",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "evidence": [
+        {
+          "url": "https://themadad.com/allpolls/",
+          "kind": "secondary-poll-archive",
+          "quote": null,
+          "locator": "Maagar Mochot publication row dated 29 September"
+        },
+        {
+          "url": "https://www.news1.co.il/Archive/001-D-524346-00.html",
+          "kind": "secondary-report",
+          "quote": null,
+          "locator": "29 September poll report"
+        }
+      ],
+      "reason": "The publication is corroborated by secondary reports, but the original poll is inaccessible and no explicit fieldwork start/end was verified. Publication date is not used as collection date."
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-30_current",
+      "sourcePollId": "hamadad_consortium_2026-09-30",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-30",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+      "evidence": [
+        {
+          "url": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+          "kind": "primary-publisher-web",
+          "quote": null,
+          "locator": "30 September poll publication; no verified fieldwork interval"
+        }
+      ],
+      "reason": "The original broadcaster publication supplies the poll date but no independently verified fieldwork start/end. It is excluded from strict trend testing until those dates are verified."
+    }
+  ],
+  "groups": {
+    "coalition": [
+      "likud",
+      "shas",
+      "utj",
+      "otzma",
+      "rz_zehut",
+      "winter",
+      "noam"
+    ],
+    "opposition": [
+      "yashar",
+      "beyachad",
+      "democrats",
+      "yisrael_beiteinu"
+    ],
+    "opposition_raam": [
+      "yashar",
+      "beyachad",
+      "democrats",
+      "yisrael_beiteinu",
+      "raam"
+    ]
+  },
+  "rawHistoricalWeights": {
+    "direct_polls": 1.0,
+    "hamadad_consortium": 1.0,
+    "kantar": 1.042736491657411,
+    "lazar": 1.0092260900401586,
+    "midgam_geva": 0.9836430483444417,
+    "next_data": 1.0,
+    "tatika": 1.0
+  },
+  "normalizedHistoricalWeights": {
+    "direct_polls": 0.14213417473685613,
+    "hamadad_consortium": 0.14213417473685613,
+    "kantar": 0.14820849070973077,
+    "lazar": 0.143445517430762,
+    "midgam_geva": 0.13980929291208272,
+    "next_data": 0.14213417473685613,
+    "tatika": 0.14213417473685613
+  },
+  "method": {
+    "statistic": "Historical-weighted mean of within-institute slopes in published mandates/week; OLS on all observations is exactly GLS on adjacent deltas with covariance D D-transpose.",
+    "primaryTest": "Exact two-sided absolute-slope permutation of complete bloc vectors over fixed dates, separately within each institute. Assumes time exchangeability within institutes and independent permutation blocks.",
+    "multiplicity": "Benjamini-Hochberg separately across3 overall tests and21 institute-by-bloc tests. Dependence caveats apply.",
+    "weighting": "Existing historical accuracy weights, renormalized once over7 verified institutes; no extra weight per published poll.",
+    "primaryTimeAxis": "Midpoint of explicitly verified calendar-day fieldwork range; actual daily response weights are unavailable.",
+    "sensitivity": "Same cohort by publication date, plus sign-flips of whole institute slope vectors (128 combinations). Sign-flips preserve within-institute series but assume sign symmetry and independent institutes."
+  },
+  "limitations": [
+    "Only3–5 observations per institute; low power for individual series.",
+    "Serially correlated errors, changing methods or shared calendar shocks can invalidate nominal permutation p-values. The whole-institute sensitivity is not a cure for cross-institute dependence.",
+    "This tests trends in rounded, thresholded published seat projections, not raw respondents, actual voter switching, causality or election outcomes.",
+    "Weighted net endpoint changes cover institute-specific observation ranges; their p-values are not endpoint tests. Inference tests the all-observation trend slope.",
+    "Publication-only and unknown fieldwork polls remain in the underlying database but are excluded here."
+  ],
+  "primary": {
+    "timeAxis": "fieldwork-midpoint",
+    "nPolls": 25,
+    "nPollsters": 7,
+    "nDeltas": 18,
+    "overall": [
+      {
+        "group": "coalition",
+        "weightedNetDelta": -0.8507779701594017,
+        "slopePerWeek": -0.389619857452159,
+        "pValue": 0.07307098765432099,
+        "wholeInstituteSignFlipP": 0.1875,
+        "qValue": 0.07307098765432099,
+        "wholeInstituteSignFlipQ": 0.1875
+      },
+      {
+        "group": "opposition",
+        "weightedNetDelta": -1.8433923114926212,
+        "slopePerWeek": -0.8022157250061622,
+        "pValue": 0.006147119341563786,
+        "wholeInstituteSignFlipP": 0.09375,
+        "qValue": 0.01578414351851852,
+        "wholeInstituteSignFlipQ": 0.1875
+      },
+      {
+        "group": "opposition_raam",
+        "weightedNetDelta": -1.8457171933173946,
+        "slopePerWeek": -0.7752050107802163,
+        "pValue": 0.010522762345679013,
+        "wholeInstituteSignFlipP": 0.125,
+        "qValue": 0.01578414351851852,
+        "wholeInstituteSignFlipQ": 0.1875
+      }
+    ],
+    "byPollster": [
+      {
+        "pollsterId": "direct_polls",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-09",
+          "2026-09-17",
+          "2026-09-24"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-17",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-24",
+            "end": "2026-09-24"
+          }
+        ],
+        "pollIds": [
+          "history_direct_polls_2026-09-09_718",
+          "history_direct_polls_2026-09-17_current",
+          "history_direct_polls_2026-09-24_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          8.0,
+          15.0
+        ],
+        "glsDeltaCoefficients": [
+          0.4763313609467456,
+          0.4556213017751479
+        ],
+        "groups": [
+          {
+            "pollsterId": "direct_polls",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-24",
+            "firstSeats": 60,
+            "lastSeats": 60,
+            "netDelta": 0,
+            "slopePerWeek": -7.327471962526033e-15,
+            "pValue": 1.0,
+            "seats": [
+              60,
+              60,
+              60
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          },
+          {
+            "pollsterId": "direct_polls",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-24",
+            "firstSeats": 48,
+            "lastSeats": 47,
+            "netDelta": -1,
+            "slopePerWeek": -0.4556213017751523,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              48,
+              48,
+              47
+            ],
+            "deltas": [
+              0,
+              -1
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "direct_polls",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-24",
+            "firstSeats": 53,
+            "lastSeats": 53,
+            "netDelta": 0,
+            "slopePerWeek": -5.9396931817445875e-15,
+            "pValue": 1.0,
+            "seats": [
+              53,
+              53,
+              53
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.0,
+          "democrats": 0.0,
+          "beyachad": -0.14213417473685613,
+          "rz_zehut": 0.0,
+          "likud": 0.0,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": 0.0,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "israel_first": 0.0,
+          "shas": 0.0,
+          "winter": 0.0,
+          "joint": 0.0,
+          "hendel": 0.0,
+          "raam": 0.14213417473685613
+        }
+      },
+      {
+        "pollsterId": "hamadad_consortium",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-09",
+          "2026-09-16",
+          "2026-09-23"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-15"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-23"
+          }
+        ],
+        "pollIds": [
+          "history_hamadad_consortium_2026-09-09_715",
+          "history_hamadad_consortium_2026-09-16_current",
+          "history_hamadad_consortium_2026-09-23_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          6.0,
+          14.0
+        ],
+        "glsDeltaCoefficients": [
+          0.47297297297297297,
+          0.5202702702702703
+        ],
+        "groups": [
+          {
+            "pollsterId": "hamadad_consortium",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-23",
+            "firstSeats": 53,
+            "lastSeats": 51,
+            "netDelta": -2,
+            "slopePerWeek": -1.0878378378378457,
+            "pValue": 0.5,
+            "seats": [
+              53,
+              54,
+              51
+            ],
+            "deltas": [
+              1,
+              -3
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "hamadad_consortium",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-23",
+            "firstSeats": 53,
+            "lastSeats": 52,
+            "netDelta": -1,
+            "slopePerWeek": -0.472972972972979,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              53,
+              52,
+              52
+            ],
+            "deltas": [
+              -1,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "hamadad_consortium",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-23",
+            "firstSeats": 59,
+            "lastSeats": 57,
+            "netDelta": -2,
+            "slopePerWeek": -0.9932432432432527,
+            "pValue": 0.3333333333333333,
+            "seats": [
+              59,
+              58,
+              57
+            ],
+            "deltas": [
+              -1,
+              -1
+            ],
+            "qValue": 0.875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.0,
+          "democrats": 0.14213417473685613,
+          "beyachad": -0.28426834947371227,
+          "rz_zehut": 0.0,
+          "likud": -0.14213417473685613,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": 0.0,
+          "otzma": -0.28426834947371227,
+          "shas": 0.0,
+          "winter": 0.14213417473685613,
+          "joint": 0.0,
+          "hendel": 0.5685366989474245,
+          "raam": -0.14213417473685613
+        }
+      },
+      {
+        "pollsterId": "kantar",
+        "weight": 0.14820849070973077,
+        "dates": [
+          "2026-09-09",
+          "2026-09-17",
+          "2026-09-27"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-16",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-27",
+            "end": "2026-09-27"
+          }
+        ],
+        "pollIds": [
+          "history_kantar_2026-09-09_716",
+          "history_kantar_2026-09-17_current",
+          "history_kantar_2026-09-27_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          7.5,
+          18.0
+        ],
+        "glsDeltaCoefficients": [
+          0.363914373088685,
+          0.40672782874617736
+        ],
+        "groups": [
+          {
+            "pollsterId": "kantar",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14820849070973077,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-27",
+            "firstSeats": 52,
+            "lastSeats": 52,
+            "netDelta": 0,
+            "slopePerWeek": -1.5543122344752192e-15,
+            "pValue": 1.0,
+            "seats": [
+              52,
+              52,
+              52
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          },
+          {
+            "pollsterId": "kantar",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14820849070973077,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-27",
+            "firstSeats": 52,
+            "lastSeats": 52,
+            "netDelta": 0,
+            "slopePerWeek": -1.5543122344752192e-15,
+            "pValue": 1.0,
+            "seats": [
+              52,
+              52,
+              52
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          },
+          {
+            "pollsterId": "kantar",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14820849070973077,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-27",
+            "firstSeats": 57,
+            "lastSeats": 57,
+            "netDelta": 0,
+            "slopePerWeek": -2.3869795029440866e-15,
+            "pValue": 1.0,
+            "seats": [
+              57,
+              57,
+              57
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": -0.14820849070973077,
+          "democrats": 0.0,
+          "beyachad": -0.14820849070973077,
+          "rz_zehut": 0.14820849070973077,
+          "likud": 0.0,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.29641698141946154,
+          "yashar": -0.14820849070973077,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "shas": 0.0,
+          "winter": 0.0,
+          "joint": 0.0,
+          "hendel": 0.0,
+          "raam": 0.0
+        }
+      },
+      {
+        "pollsterId": "lazar",
+        "weight": 0.143445517430762,
+        "dates": [
+          "2026-09-09",
+          "2026-09-11",
+          "2026-09-18",
+          "2026-09-25"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-10"
+          },
+          {
+            "start": "2026-09-16",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-24"
+          }
+        ],
+        "pollIds": [
+          "history_lazar_2026-09-09_714",
+          "history_lazar_2026-09-11_722",
+          "history_lazar_2026-09-18_current",
+          "history_lazar_2026-09-25_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          0.5,
+          7.5,
+          14.5
+        ],
+        "glsDeltaCoefficients": [
+          0.2808738296923763,
+          0.5367810967454302,
+          0.4431564868479715
+        ],
+        "groups": [
+          {
+            "pollsterId": "lazar",
+            "group": "coalition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.143445517430762,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-25",
+            "firstSeats": 51,
+            "lastSeats": 49,
+            "netDelta": -2,
+            "slopePerWeek": -0.7240303165403468,
+            "pValue": 0.16666666666666666,
+            "seats": [
+              51,
+              50,
+              50,
+              49
+            ],
+            "deltas": [
+              -1,
+              0,
+              -1
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "lazar",
+            "group": "opposition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.143445517430762,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-25",
+            "firstSeats": 57,
+            "lastSeats": 55,
+            "netDelta": -2,
+            "slopePerWeek": -1.423094070441369,
+            "pValue": 0.3333333333333333,
+            "seats": [
+              57,
+              58,
+              54,
+              55
+            ],
+            "deltas": [
+              1,
+              -4,
+              1
+            ],
+            "qValue": 0.875
+          },
+          {
+            "pollsterId": "lazar",
+            "group": "opposition_raam",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.143445517430762,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-25",
+            "firstSeats": 62,
+            "lastSeats": 60,
+            "netDelta": -2,
+            "slopePerWeek": -1.4230940704413726,
+            "pValue": 0.3333333333333333,
+            "seats": [
+              62,
+              63,
+              59,
+              60
+            ],
+            "deltas": [
+              1,
+              -4,
+              1
+            ],
+            "qValue": 0.875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": -0.143445517430762,
+          "democrats": 0.286891034861524,
+          "beyachad": -0.143445517430762,
+          "rz_zehut": 0.143445517430762,
+          "likud": -0.430336552292286,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": -0.430336552292286,
+          "otzma": 0.286891034861524,
+          "noam": 0.0,
+          "shas": -0.143445517430762,
+          "winter": 0.0,
+          "joint": 0.0,
+          "hendel": 0.573782069723048,
+          "raam": 0.0
+        }
+      },
+      {
+        "pollsterId": "midgam_geva",
+        "weight": 0.13980929291208272,
+        "dates": [
+          "2026-09-09",
+          "2026-09-14",
+          "2026-09-22"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-14",
+            "end": "2026-09-14"
+          },
+          {
+            "start": "2026-09-22",
+            "end": "2026-09-22"
+          }
+        ],
+        "pollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_midgam_geva_2026-09-14_current",
+          "history_midgam_geva_2026-09-22_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          5.0,
+          13.0
+        ],
+        "glsDeltaCoefficients": [
+          0.4883720930232558,
+          0.5697674418604651
+        ],
+        "groups": [
+          {
+            "pollsterId": "midgam_geva",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.13980929291208272,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-22",
+            "firstSeats": 52,
+            "lastSeats": 50,
+            "netDelta": -2,
+            "slopePerWeek": -0.9767441860465118,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              52,
+              50,
+              50
+            ],
+            "deltas": [
+              -2,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "midgam_geva",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.13980929291208272,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-22",
+            "firstSeats": 57,
+            "lastSeats": 54,
+            "netDelta": -3,
+            "slopePerWeek": -1.4651162790697636,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              57,
+              54,
+              54
+            ],
+            "deltas": [
+              -3,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "midgam_geva",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.13980929291208272,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-22",
+            "firstSeats": 61,
+            "lastSeats": 59,
+            "netDelta": -2,
+            "slopePerWeek": -0.8953488372092989,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              61,
+              58,
+              59
+            ],
+            "deltas": [
+              -3,
+              1
+            ],
+            "qValue": 0.91875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.0,
+          "democrats": -0.13980929291208272,
+          "beyachad": 0.0,
+          "rz_zehut": 0.0,
+          "likud": -0.13980929291208272,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": -0.27961858582416543,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "israel_first": 0.0,
+          "shas": 0.0,
+          "winter": -0.13980929291208272,
+          "joint": 0.0,
+          "hendel": 0.5592371716483309,
+          "raam": 0.13980929291208272
+        }
+      },
+      {
+        "pollsterId": "next_data",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-09",
+          "2026-09-15",
+          "2026-09-17",
+          "2026-09-23",
+          "2026-09-28"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-15"
+          },
+          {
+            "start": "2026-09-17",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-23"
+          },
+          {
+            "start": "2026-09-28",
+            "end": "2026-09-28"
+          }
+        ],
+        "pollIds": [
+          "history_next_data_2026-09-09_719",
+          "history_next_data_2026-09-15_current",
+          "history_next_data_2026-09-17_current",
+          "history_next_data_2026-09-23_current",
+          "history_next_data_2026-09-28_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          6.0,
+          8.0,
+          14.0,
+          19.0
+        ],
+        "glsDeltaCoefficients": [
+          0.3057620817843866,
+          0.4163568773234201,
+          0.4618959107806691,
+          0.31226765799256506
+        ],
+        "groups": [
+          {
+            "pollsterId": "next_data",
+            "group": "coalition",
+            "nPolls": 5,
+            "nDeltas": 4,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-28",
+            "firstSeats": 64,
+            "lastSeats": 63,
+            "netDelta": -1,
+            "slopePerWeek": -0.4618959107806665,
+            "pValue": 0.1,
+            "seats": [
+              64,
+              64,
+              64,
+              63,
+              63
+            ],
+            "deltas": [
+              0,
+              0,
+              -1,
+              0
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "next_data",
+            "group": "opposition",
+            "nPolls": 5,
+            "nDeltas": 4,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-28",
+            "firstSeats": 44,
+            "lastSeats": 45,
+            "netDelta": 1,
+            "slopePerWeek": 0.4618959107806705,
+            "pValue": 0.1,
+            "seats": [
+              44,
+              44,
+              44,
+              45,
+              45
+            ],
+            "deltas": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "next_data",
+            "group": "opposition_raam",
+            "nPolls": 5,
+            "nDeltas": 4,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-28",
+            "firstSeats": 50,
+            "lastSeats": 50,
+            "netDelta": 0,
+            "slopePerWeek": 0.1561338289962808,
+            "pValue": 0.7,
+            "seats": [
+              50,
+              49,
+              49,
+              50,
+              50
+            ],
+            "deltas": [
+              -1,
+              0,
+              1,
+              0
+            ],
+            "qValue": 0.91875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.14213417473685613,
+          "democrats": 0.14213417473685613,
+          "beyachad": 0.28426834947371227,
+          "rz_zehut": -0.14213417473685613,
+          "likud": 0.0,
+          "gantz": 0.0,
+          "yisrael_beiteinu": -0.14213417473685613,
+          "yashar": -0.14213417473685613,
+          "otzma": -0.14213417473685613,
+          "noam": 0.0,
+          "shas": 0.0,
+          "winter": 0.0,
+          "joint": 0.14213417473685613,
+          "hendel": 0.0,
+          "raam": -0.14213417473685613
+        }
+      },
+      {
+        "pollsterId": "tatika",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-10",
+          "2026-09-17",
+          "2026-09-24",
+          "2026-10-01"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-10"
+          },
+          {
+            "start": "2026-09-16",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-24"
+          },
+          {
+            "start": "2026-09-30",
+            "end": "2026-10-01"
+          }
+        ],
+        "pollIds": [
+          "history_tatika_2026-09-10_721",
+          "history_tatika_2026-09-17_current",
+          "history_tatika_2026-09-24_current",
+          "history_tatika_2026-10-01_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          7.0,
+          14.0,
+          21.0
+        ],
+        "glsDeltaCoefficients": [
+          0.3,
+          0.4,
+          0.29999999999999993
+        ],
+        "groups": [
+          {
+            "pollsterId": "tatika",
+            "group": "coalition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-10",
+            "lastPublication": "2026-10-01",
+            "firstSeats": 52,
+            "lastSeats": 53,
+            "netDelta": 1,
+            "slopePerWeek": 0.5,
+            "pValue": 0.5,
+            "seats": [
+              52,
+              51,
+              53,
+              53
+            ],
+            "deltas": [
+              -1,
+              2,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "tatika",
+            "group": "opposition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-10",
+            "lastPublication": "2026-10-01",
+            "firstSeats": 56,
+            "lastSeats": 49,
+            "netDelta": -7,
+            "slopePerWeek": -2.3000000000000007,
+            "pValue": 0.08333333333333333,
+            "seats": [
+              56,
+              55,
+              53,
+              49
+            ],
+            "deltas": [
+              -1,
+              -2,
+              -4
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "tatika",
+            "group": "opposition_raam",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-10",
+            "lastPublication": "2026-10-01",
+            "firstSeats": 61,
+            "lastSeats": 54,
+            "netDelta": -7,
+            "slopePerWeek": -2.3000000000000007,
+            "pValue": 0.16666666666666666,
+            "seats": [
+              61,
+              61,
+              59,
+              54
+            ],
+            "deltas": [
+              0,
+              -2,
+              -5
+            ],
+            "qValue": 0.7
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": -0.14213417473685613,
+          "democrats": 0.0,
+          "beyachad": -0.7106708736842806,
+          "rz_zehut": 0.14213417473685613,
+          "likud": -0.28426834947371227,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": -0.28426834947371227,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "israel_first": 0.0,
+          "shas": -0.14213417473685613,
+          "winter": 0.5685366989474245,
+          "joint": 0.14213417473685613,
+          "hendel": 0.7106708736842806,
+          "raam": 0.0
+        }
+      }
+    ],
+    "exactCounting": {
+      "nPermutations": 89579520,
+      "extremeCounts": [
+        6545664,
+        550656,
+        942624
+      ],
+      "pValues": [
+        0.07307098765432099,
+        0.006147119341563786,
+        0.010522762345679013
+      ]
+    },
+    "wholeInstituteSignPatterns": 128,
+    "significantIndividualRaw": [],
+    "significantIndividualBH": [],
+    "weightedEndpointPartyChanges": {
+      "haredi_public": 0.0,
+      "utj": -0.2916540081404928,
+      "democrats": 0.43135009142315356,
+      "beyachad": -1.1444590565616295,
+      "rz_zehut": 0.2916540081404928,
+      "likud": -0.9965483694149372,
+      "gantz": 0.0,
+      "yisrael_beiteinu": 0.1542828066826054,
+      "yashar": -1.2845661530367507,
+      "otzma": -0.1395114893490444,
+      "noam": 0.0,
+      "israel_first": 0.0,
+      "shas": -0.28557969216761814,
+      "winter": 0.570861580772198,
+      "joint": 0.28426834947371227,
+      "hendel": 2.412226814003084,
+      "raam": -0.002324881824773417
+    }
+  },
+  "publicationDateSensitivity": {
+    "timeAxis": "publication",
+    "nPolls": 25,
+    "nPollsters": 7,
+    "nDeltas": 18,
+    "overall": [
+      {
+        "group": "coalition",
+        "weightedNetDelta": -0.8507779701594017,
+        "slopePerWeek": -0.37447870225451585,
+        "pValue": 0.08499228395061728,
+        "wholeInstituteSignFlipP": 0.1875,
+        "qValue": 0.08499228395061727,
+        "wholeInstituteSignFlipQ": 0.1875
+      },
+      {
+        "group": "opposition",
+        "weightedNetDelta": -1.8433923114926212,
+        "slopePerWeek": -0.7916754241244968,
+        "pValue": 0.005928497942386831,
+        "wholeInstituteSignFlipP": 0.09375,
+        "qValue": 0.016261574074074074,
+        "wholeInstituteSignFlipQ": 0.1875
+      },
+      {
+        "group": "opposition_raam",
+        "weightedNetDelta": -1.8457171933173946,
+        "slopePerWeek": -0.7617836117619922,
+        "pValue": 0.01084104938271605,
+        "wholeInstituteSignFlipP": 0.125,
+        "qValue": 0.016261574074074074,
+        "wholeInstituteSignFlipQ": 0.1875
+      }
+    ],
+    "byPollster": [
+      {
+        "pollsterId": "direct_polls",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-09",
+          "2026-09-17",
+          "2026-09-24"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-17",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-24",
+            "end": "2026-09-24"
+          }
+        ],
+        "pollIds": [
+          "history_direct_polls_2026-09-09_718",
+          "history_direct_polls_2026-09-17_current",
+          "history_direct_polls_2026-09-24_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          8.0,
+          15.0
+        ],
+        "glsDeltaCoefficients": [
+          0.4763313609467456,
+          0.4556213017751479
+        ],
+        "groups": [
+          {
+            "pollsterId": "direct_polls",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-24",
+            "firstSeats": 60,
+            "lastSeats": 60,
+            "netDelta": 0,
+            "slopePerWeek": -7.327471962526033e-15,
+            "pValue": 1.0,
+            "seats": [
+              60,
+              60,
+              60
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          },
+          {
+            "pollsterId": "direct_polls",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-24",
+            "firstSeats": 48,
+            "lastSeats": 47,
+            "netDelta": -1,
+            "slopePerWeek": -0.4556213017751523,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              48,
+              48,
+              47
+            ],
+            "deltas": [
+              0,
+              -1
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "direct_polls",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-24",
+            "firstSeats": 53,
+            "lastSeats": 53,
+            "netDelta": 0,
+            "slopePerWeek": -5.9396931817445875e-15,
+            "pValue": 1.0,
+            "seats": [
+              53,
+              53,
+              53
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.0,
+          "democrats": 0.0,
+          "beyachad": -0.14213417473685613,
+          "rz_zehut": 0.0,
+          "likud": 0.0,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": 0.0,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "israel_first": 0.0,
+          "shas": 0.0,
+          "winter": 0.0,
+          "joint": 0.0,
+          "hendel": 0.0,
+          "raam": 0.14213417473685613
+        }
+      },
+      {
+        "pollsterId": "hamadad_consortium",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-09",
+          "2026-09-16",
+          "2026-09-23"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-15"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-23"
+          }
+        ],
+        "pollIds": [
+          "history_hamadad_consortium_2026-09-09_715",
+          "history_hamadad_consortium_2026-09-16_current",
+          "history_hamadad_consortium_2026-09-23_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          7.0,
+          14.0
+        ],
+        "glsDeltaCoefficients": [
+          0.5,
+          0.5
+        ],
+        "groups": [
+          {
+            "pollsterId": "hamadad_consortium",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-23",
+            "firstSeats": 53,
+            "lastSeats": 51,
+            "netDelta": -2,
+            "slopePerWeek": -1.0,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              53,
+              54,
+              51
+            ],
+            "deltas": [
+              1,
+              -3
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "hamadad_consortium",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-23",
+            "firstSeats": 53,
+            "lastSeats": 52,
+            "netDelta": -1,
+            "slopePerWeek": -0.5,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              53,
+              52,
+              52
+            ],
+            "deltas": [
+              -1,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "hamadad_consortium",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-23",
+            "firstSeats": 59,
+            "lastSeats": 57,
+            "netDelta": -2,
+            "slopePerWeek": -1.0,
+            "pValue": 0.3333333333333333,
+            "seats": [
+              59,
+              58,
+              57
+            ],
+            "deltas": [
+              -1,
+              -1
+            ],
+            "qValue": 0.875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.0,
+          "democrats": 0.14213417473685613,
+          "beyachad": -0.28426834947371227,
+          "rz_zehut": 0.0,
+          "likud": -0.14213417473685613,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": 0.0,
+          "otzma": -0.28426834947371227,
+          "shas": 0.0,
+          "winter": 0.14213417473685613,
+          "joint": 0.0,
+          "hendel": 0.5685366989474245,
+          "raam": -0.14213417473685613
+        }
+      },
+      {
+        "pollsterId": "kantar",
+        "weight": 0.14820849070973077,
+        "dates": [
+          "2026-09-09",
+          "2026-09-17",
+          "2026-09-27"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-16",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-27",
+            "end": "2026-09-27"
+          }
+        ],
+        "pollIds": [
+          "history_kantar_2026-09-09_716",
+          "history_kantar_2026-09-17_current",
+          "history_kantar_2026-09-27_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          8.0,
+          18.0
+        ],
+        "glsDeltaCoefficients": [
+          0.3729508196721311,
+          0.4016393442622951
+        ],
+        "groups": [
+          {
+            "pollsterId": "kantar",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14820849070973077,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-27",
+            "firstSeats": 52,
+            "lastSeats": 52,
+            "netDelta": 0,
+            "slopePerWeek": 3.3306690738754696e-15,
+            "pValue": 1.0,
+            "seats": [
+              52,
+              52,
+              52
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          },
+          {
+            "pollsterId": "kantar",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14820849070973077,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-27",
+            "firstSeats": 52,
+            "lastSeats": 52,
+            "netDelta": 0,
+            "slopePerWeek": 3.3306690738754696e-15,
+            "pValue": 1.0,
+            "seats": [
+              52,
+              52,
+              52
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          },
+          {
+            "pollsterId": "kantar",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.14820849070973077,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-27",
+            "firstSeats": 57,
+            "lastSeats": 57,
+            "netDelta": 0,
+            "slopePerWeek": 1.0547118733938987e-15,
+            "pValue": 1.0,
+            "seats": [
+              57,
+              57,
+              57
+            ],
+            "deltas": [
+              0,
+              0
+            ],
+            "qValue": 1.0
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": -0.14820849070973077,
+          "democrats": 0.0,
+          "beyachad": -0.14820849070973077,
+          "rz_zehut": 0.14820849070973077,
+          "likud": 0.0,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.29641698141946154,
+          "yashar": -0.14820849070973077,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "shas": 0.0,
+          "winter": 0.0,
+          "joint": 0.0,
+          "hendel": 0.0,
+          "raam": 0.0
+        }
+      },
+      {
+        "pollsterId": "lazar",
+        "weight": 0.143445517430762,
+        "dates": [
+          "2026-09-09",
+          "2026-09-11",
+          "2026-09-18",
+          "2026-09-25"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-10"
+          },
+          {
+            "start": "2026-09-16",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-24"
+          }
+        ],
+        "pollIds": [
+          "history_lazar_2026-09-09_714",
+          "history_lazar_2026-09-11_722",
+          "history_lazar_2026-09-18_current",
+          "history_lazar_2026-09-25_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          2.0,
+          9.0,
+          16.0
+        ],
+        "glsDeltaCoefficients": [
+          0.29763779527559053,
+          0.5070866141732283,
+          0.4078740157480314
+        ],
+        "groups": [
+          {
+            "pollsterId": "lazar",
+            "group": "coalition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.143445517430762,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-25",
+            "firstSeats": 51,
+            "lastSeats": 49,
+            "netDelta": -2,
+            "slopePerWeek": -0.7055118110236265,
+            "pValue": 0.16666666666666666,
+            "seats": [
+              51,
+              50,
+              50,
+              49
+            ],
+            "deltas": [
+              -1,
+              0,
+              -1
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "lazar",
+            "group": "opposition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.143445517430762,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-25",
+            "firstSeats": 57,
+            "lastSeats": 55,
+            "netDelta": -2,
+            "slopePerWeek": -1.3228346456692925,
+            "pValue": 0.3333333333333333,
+            "seats": [
+              57,
+              58,
+              54,
+              55
+            ],
+            "deltas": [
+              1,
+              -4,
+              1
+            ],
+            "qValue": 0.875
+          },
+          {
+            "pollsterId": "lazar",
+            "group": "opposition_raam",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.143445517430762,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-25",
+            "firstSeats": 62,
+            "lastSeats": 60,
+            "netDelta": -2,
+            "slopePerWeek": -1.3228346456692925,
+            "pValue": 0.3333333333333333,
+            "seats": [
+              62,
+              63,
+              59,
+              60
+            ],
+            "deltas": [
+              1,
+              -4,
+              1
+            ],
+            "qValue": 0.875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": -0.143445517430762,
+          "democrats": 0.286891034861524,
+          "beyachad": -0.143445517430762,
+          "rz_zehut": 0.143445517430762,
+          "likud": -0.430336552292286,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": -0.430336552292286,
+          "otzma": 0.286891034861524,
+          "noam": 0.0,
+          "shas": -0.143445517430762,
+          "winter": 0.0,
+          "joint": 0.0,
+          "hendel": 0.573782069723048,
+          "raam": 0.0
+        }
+      },
+      {
+        "pollsterId": "midgam_geva",
+        "weight": 0.13980929291208272,
+        "dates": [
+          "2026-09-09",
+          "2026-09-14",
+          "2026-09-22"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-14",
+            "end": "2026-09-14"
+          },
+          {
+            "start": "2026-09-22",
+            "end": "2026-09-22"
+          }
+        ],
+        "pollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_midgam_geva_2026-09-14_current",
+          "history_midgam_geva_2026-09-22_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          5.0,
+          13.0
+        ],
+        "glsDeltaCoefficients": [
+          0.4883720930232558,
+          0.5697674418604651
+        ],
+        "groups": [
+          {
+            "pollsterId": "midgam_geva",
+            "group": "coalition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.13980929291208272,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-22",
+            "firstSeats": 52,
+            "lastSeats": 50,
+            "netDelta": -2,
+            "slopePerWeek": -0.9767441860465118,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              52,
+              50,
+              50
+            ],
+            "deltas": [
+              -2,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "midgam_geva",
+            "group": "opposition",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.13980929291208272,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-22",
+            "firstSeats": 57,
+            "lastSeats": 54,
+            "netDelta": -3,
+            "slopePerWeek": -1.4651162790697636,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              57,
+              54,
+              54
+            ],
+            "deltas": [
+              -3,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "midgam_geva",
+            "group": "opposition_raam",
+            "nPolls": 3,
+            "nDeltas": 2,
+            "weight": 0.13980929291208272,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-22",
+            "firstSeats": 61,
+            "lastSeats": 59,
+            "netDelta": -2,
+            "slopePerWeek": -0.8953488372092989,
+            "pValue": 0.6666666666666666,
+            "seats": [
+              61,
+              58,
+              59
+            ],
+            "deltas": [
+              -3,
+              1
+            ],
+            "qValue": 0.91875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.0,
+          "democrats": -0.13980929291208272,
+          "beyachad": 0.0,
+          "rz_zehut": 0.0,
+          "likud": -0.13980929291208272,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": -0.27961858582416543,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "israel_first": 0.0,
+          "shas": 0.0,
+          "winter": -0.13980929291208272,
+          "joint": 0.0,
+          "hendel": 0.5592371716483309,
+          "raam": 0.13980929291208272
+        }
+      },
+      {
+        "pollsterId": "next_data",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-09",
+          "2026-09-15",
+          "2026-09-17",
+          "2026-09-23",
+          "2026-09-28"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-09"
+          },
+          {
+            "start": "2026-09-15",
+            "end": "2026-09-15"
+          },
+          {
+            "start": "2026-09-17",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-23"
+          },
+          {
+            "start": "2026-09-28",
+            "end": "2026-09-28"
+          }
+        ],
+        "pollIds": [
+          "history_next_data_2026-09-09_719",
+          "history_next_data_2026-09-15_current",
+          "history_next_data_2026-09-17_current",
+          "history_next_data_2026-09-23_current",
+          "history_next_data_2026-09-28_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          6.0,
+          8.0,
+          14.0,
+          19.0
+        ],
+        "glsDeltaCoefficients": [
+          0.3057620817843866,
+          0.4163568773234201,
+          0.4618959107806691,
+          0.31226765799256506
+        ],
+        "groups": [
+          {
+            "pollsterId": "next_data",
+            "group": "coalition",
+            "nPolls": 5,
+            "nDeltas": 4,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-28",
+            "firstSeats": 64,
+            "lastSeats": 63,
+            "netDelta": -1,
+            "slopePerWeek": -0.4618959107806665,
+            "pValue": 0.1,
+            "seats": [
+              64,
+              64,
+              64,
+              63,
+              63
+            ],
+            "deltas": [
+              0,
+              0,
+              -1,
+              0
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "next_data",
+            "group": "opposition",
+            "nPolls": 5,
+            "nDeltas": 4,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-28",
+            "firstSeats": 44,
+            "lastSeats": 45,
+            "netDelta": 1,
+            "slopePerWeek": 0.4618959107806705,
+            "pValue": 0.1,
+            "seats": [
+              44,
+              44,
+              44,
+              45,
+              45
+            ],
+            "deltas": [
+              0,
+              0,
+              1,
+              0
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "next_data",
+            "group": "opposition_raam",
+            "nPolls": 5,
+            "nDeltas": 4,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-09",
+            "lastPublication": "2026-09-28",
+            "firstSeats": 50,
+            "lastSeats": 50,
+            "netDelta": 0,
+            "slopePerWeek": 0.1561338289962808,
+            "pValue": 0.7,
+            "seats": [
+              50,
+              49,
+              49,
+              50,
+              50
+            ],
+            "deltas": [
+              -1,
+              0,
+              1,
+              0
+            ],
+            "qValue": 0.91875
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": 0.14213417473685613,
+          "democrats": 0.14213417473685613,
+          "beyachad": 0.28426834947371227,
+          "rz_zehut": -0.14213417473685613,
+          "likud": 0.0,
+          "gantz": 0.0,
+          "yisrael_beiteinu": -0.14213417473685613,
+          "yashar": -0.14213417473685613,
+          "otzma": -0.14213417473685613,
+          "noam": 0.0,
+          "shas": 0.0,
+          "winter": 0.0,
+          "joint": 0.14213417473685613,
+          "hendel": 0.0,
+          "raam": -0.14213417473685613
+        }
+      },
+      {
+        "pollsterId": "tatika",
+        "weight": 0.14213417473685613,
+        "dates": [
+          "2026-09-10",
+          "2026-09-17",
+          "2026-09-24",
+          "2026-10-01"
+        ],
+        "fieldwork": [
+          {
+            "start": "2026-09-09",
+            "end": "2026-09-10"
+          },
+          {
+            "start": "2026-09-16",
+            "end": "2026-09-17"
+          },
+          {
+            "start": "2026-09-23",
+            "end": "2026-09-24"
+          },
+          {
+            "start": "2026-09-30",
+            "end": "2026-10-01"
+          }
+        ],
+        "pollIds": [
+          "history_tatika_2026-09-10_721",
+          "history_tatika_2026-09-17_current",
+          "history_tatika_2026-09-24_current",
+          "history_tatika_2026-10-01_current"
+        ],
+        "timeDaysFromFirst": [
+          0.0,
+          7.0,
+          14.0,
+          21.0
+        ],
+        "glsDeltaCoefficients": [
+          0.3,
+          0.4,
+          0.29999999999999993
+        ],
+        "groups": [
+          {
+            "pollsterId": "tatika",
+            "group": "coalition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-10",
+            "lastPublication": "2026-10-01",
+            "firstSeats": 52,
+            "lastSeats": 53,
+            "netDelta": 1,
+            "slopePerWeek": 0.5,
+            "pValue": 0.5,
+            "seats": [
+              52,
+              51,
+              53,
+              53
+            ],
+            "deltas": [
+              -1,
+              2,
+              0
+            ],
+            "qValue": 0.91875
+          },
+          {
+            "pollsterId": "tatika",
+            "group": "opposition",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-10",
+            "lastPublication": "2026-10-01",
+            "firstSeats": 56,
+            "lastSeats": 49,
+            "netDelta": -7,
+            "slopePerWeek": -2.3000000000000007,
+            "pValue": 0.08333333333333333,
+            "seats": [
+              56,
+              55,
+              53,
+              49
+            ],
+            "deltas": [
+              -1,
+              -2,
+              -4
+            ],
+            "qValue": 0.7
+          },
+          {
+            "pollsterId": "tatika",
+            "group": "opposition_raam",
+            "nPolls": 4,
+            "nDeltas": 3,
+            "weight": 0.14213417473685613,
+            "firstPublication": "2026-09-10",
+            "lastPublication": "2026-10-01",
+            "firstSeats": 61,
+            "lastSeats": 54,
+            "netDelta": -7,
+            "slopePerWeek": -2.3000000000000007,
+            "pValue": 0.16666666666666666,
+            "seats": [
+              61,
+              61,
+              59,
+              54
+            ],
+            "deltas": [
+              0,
+              -2,
+              -5
+            ],
+            "qValue": 0.7
+          }
+        ],
+        "weightedEndpointPartyChanges": {
+          "haredi_public": 0.0,
+          "utj": -0.14213417473685613,
+          "democrats": 0.0,
+          "beyachad": -0.7106708736842806,
+          "rz_zehut": 0.14213417473685613,
+          "likud": -0.28426834947371227,
+          "gantz": 0.0,
+          "yisrael_beiteinu": 0.0,
+          "yashar": -0.28426834947371227,
+          "otzma": 0.0,
+          "noam": 0.0,
+          "israel_first": 0.0,
+          "shas": -0.14213417473685613,
+          "winter": 0.5685366989474245,
+          "joint": 0.14213417473685613,
+          "hendel": 0.7106708736842806,
+          "raam": 0.0
+        }
+      }
+    ],
+    "exactCounting": {
+      "nPermutations": 89579520,
+      "extremeCounts": [
+        7613568,
+        531072,
+        971136
+      ],
+      "pValues": [
+        0.08499228395061728,
+        0.005928497942386831,
+        0.01084104938271605
+      ]
+    },
+    "wholeInstituteSignPatterns": 128,
+    "significantIndividualRaw": [],
+    "significantIndividualBH": [],
+    "weightedEndpointPartyChanges": {
+      "haredi_public": 0.0,
+      "utj": -0.2916540081404928,
+      "democrats": 0.43135009142315356,
+      "beyachad": -1.1444590565616295,
+      "rz_zehut": 0.2916540081404928,
+      "likud": -0.9965483694149372,
+      "gantz": 0.0,
+      "yisrael_beiteinu": 0.1542828066826054,
+      "yashar": -1.2845661530367507,
+      "otzma": -0.1395114893490444,
+      "noam": 0.0,
+      "israel_first": 0.0,
+      "shas": -0.28557969216761814,
+      "winter": 0.570861580772198,
+      "joint": 0.28426834947371227,
+      "hendel": 2.412226814003084,
+      "raam": -0.002324881824773417
+    }
+  }
+}

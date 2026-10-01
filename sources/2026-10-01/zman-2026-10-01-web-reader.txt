@@ -1,0 +1,43 @@
+WEB-READER EXTRACT / RESEARCH EVIDENCE — NOT ORIGINAL HTML
+Checked 2026-10-01 in the original publisher article and its homepage.
+Primary article: https://www.zman.co.il/729422/
+Publisher homepage: https://www.zman.co.il/
+Poll topic index: https://www.zman.co.il/feed/285/
+Title: 88% ממצביעי האופוזיציה מודאגים מהתוצאות המסתמנות
+Byline: טל שניידר
+Publication date: 1 October 2026. An absolute publication time was not verified.
+The publisher homepage linked the article on 1 October. The poll topic index still
+showed the 24 September poll when checked; its lag is not evidence of no new poll.
+
+Poll table transcribed from the original article, web-reader lines 98–129:
+ישר! | 21
+הליכוד | 21
+ביחד | 10
+ישראל ביתנו | 10
+ש״ס | 9
+יהדות התורה | 8
+הדמוקרטים | 8
+הרשימה המשותפת | 8
+עוצמה יהודית | 6
+רע״ם | 5
+הציונות הדתית–זהות | 5
+המילואימניקים והכלכלית | 5
+עמך ישראל | 4
+כחול לבן | 0 seats; 1.40% vote share reported
+Total passing-party seats: 120.
+
+Methodology, original article lines 87 and 130–131:
+Tatika Research and Media with the Adgenda panel led by Roi Schindler.
+Fieldwork: 30 September–1 October 2026.
+Sample: 500 Jewish and Arab respondents in Israel.
+Publisher-reported maximum sampling error: 4.4%.
+The sample was segmented by age, religion, gender, and geography.
+
+Publisher's bloc display: coalition core 49, Amcha Yisrael 4, change bloc 49,
+Reservists and Economists 5, Raam 5, Joint List 8. The coalition core plus
+Amcha is 53; the non-Arab change bloc plus Reservists is 54; Arab parties total 13.
+No undecided share or other small-party vote shares were verified in this article.
+Unreported vote shares are missing, not zero.
+
+IsraelPolls (https://x.com/IsraelPolls?s=20) and the mobile X page were
+inaccessible in this check. Their graphics and historical tables were not reviewed.

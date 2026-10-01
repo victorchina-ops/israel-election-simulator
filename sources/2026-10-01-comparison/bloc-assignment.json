@@ -1,0 +1,93 @@
+{
+  "definition": "Same 10,000-trial model, seed, historical-accuracy weighting and turnout assumptions in both periods; only the active Tatika poll changed. Hendel assignment is a user-selectable alternative, not a change to the site default.",
+  "scenarios": [
+    {
+      "period": "before",
+      "asOf": "2026-09-30",
+      "arabMode": "none",
+      "addHendel": false,
+      "coalition61Pct": 3.5900000000000003,
+      "opposition61Pct": 0.62,
+      "neither61Pct": 95.78999999999999,
+      "coalitionMean": 53.2807,
+      "oppositionMean": 53.0462
+    },
+    {
+      "period": "before",
+      "asOf": "2026-09-30",
+      "arabMode": "none",
+      "addHendel": true,
+      "coalition61Pct": 3.5900000000000003,
+      "opposition61Pct": 3.06,
+      "neither61Pct": 93.35,
+      "coalitionMean": 53.2807,
+      "oppositionMean": 53.9578
+    },
+    {
+      "period": "before",
+      "asOf": "2026-09-30",
+      "arabMode": "raam",
+      "addHendel": false,
+      "coalition61Pct": 3.5900000000000003,
+      "opposition61Pct": 24.709999999999997,
+      "neither61Pct": 71.7,
+      "coalitionMean": 53.2807,
+      "oppositionMean": 58.228
+    },
+    {
+      "period": "before",
+      "asOf": "2026-09-30",
+      "arabMode": "raam",
+      "addHendel": true,
+      "coalition61Pct": 3.5900000000000003,
+      "opposition61Pct": 37.7,
+      "neither61Pct": 58.709999999999994,
+      "coalitionMean": 53.2807,
+      "oppositionMean": 59.1396
+    },
+    {
+      "period": "after",
+      "asOf": "2026-10-01",
+      "arabMode": "none",
+      "addHendel": false,
+      "coalition61Pct": 3.9600000000000004,
+      "opposition61Pct": 0.5,
+      "neither61Pct": 95.54,
+      "coalitionMean": 53.3374,
+      "oppositionMean": 52.5574
+    },
+    {
+      "period": "after",
+      "asOf": "2026-10-01",
+      "arabMode": "none",
+      "addHendel": true,
+      "coalition61Pct": 3.9600000000000004,
+      "opposition61Pct": 3.25,
+      "neither61Pct": 92.78999999999999,
+      "coalitionMean": 53.3374,
+      "oppositionMean": 54.0462
+    },
+    {
+      "period": "after",
+      "asOf": "2026-10-01",
+      "arabMode": "raam",
+      "addHendel": false,
+      "coalition61Pct": 3.9600000000000004,
+      "opposition61Pct": 18.05,
+      "neither61Pct": 77.99000000000001,
+      "coalitionMean": 53.3374,
+      "oppositionMean": 57.5875
+    },
+    {
+      "period": "after",
+      "asOf": "2026-10-01",
+      "arabMode": "raam",
+      "addHendel": true,
+      "coalition61Pct": 3.9600000000000004,
+      "opposition61Pct": 37.29,
+      "neither61Pct": 58.75,
+      "coalitionMean": 53.3374,
+      "oppositionMean": 59.0763
+    }
+  ]
+}
