@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-02T10:09:16Z",
+  "checkedAtLocal": "2026-10-02T13:09:16+03:00",
+  "scope": "IsraelPolls original graphics/historical tables plus N12, Kan, C13 and Channel16 primary homepages/indexes; incidental C14 new poll verified and passed to ingestion owner",
+  "canonicalDataEdited": false,
+  "scanMethod": [
+    "web reader direct publisher opens",
+    "direct public HTTP GET",
+    "visual inspection of HTTP-returned original graphic bytes and historical tables"
+  ],
+  "sourceChecks": [
+    {
+      "publisher": "IsraelPolls",
+      "url": "https://x.com/IsraelPolls?s=20",
+      "kind": "profile",
+      "directHttpStatus": 200,
+      "bodyLength": 143038,
+      "webReaderStatus": "cache-miss",
+      "contentVerified": true,
+      "result": "Latest posts show Maariv October2 and i24 October1 (new since baseline), Zman Israel October1 (already active and corroborated), and C13 September30 (duplicate). Profile alone omits historical replies; original posts were opened to discover tables."
+    },
+    {
+      "publisher": "N12",
+      "url": "https://www.n12.co.il/",
+      "kind": "homepage",
+      "directHttpStatus": 200,
+      "bodyLength": 594424,
+      "webReaderStatus": "content-available",
+      "contentVerified": true,
+      "result": "Opened directly; current October2 news visible."
+    },
+    {
+      "publisher": "N12",
+      "url": "https://www.mako.co.il/news-politics",
+      "kind": "politics-index",
+      "directHttpStatus": 200,
+      "bodyLength": 109989,
+      "webReaderStatus": "content-available",
+      "contentVerified": true,
+      "result": "Current index inspected; no newer general election poll identified."
+    },
+    {
+      "publisher": "N12",
+      "url": "https://www.mako.co.il/news-israel-elections/2026",
+      "kind": "election-index",
+      "directHttpStatus": 200,
+      "bodyLength": 124541,
+      "webReaderStatus": "content-available",
+      "contentVerified": true,
+      "result": "Newest general national poll September22; index label September23 is article update date. September23 youth poll is a Jewish 18–22 sample, not a national poll."
+    },
+    {
+      "publisher": "Kan",
+      "url": "https://www.kan.org.il/",
+      "kind": "homepage",
+      "directHttpStatus": 403,
+      "webReaderStatus": "empty-0-lines",
+      "contentVerified": false,
+      "result": "Blocked. Do not infer no new poll."
+    },
+    {
+      "publisher": "Kan",
+      "url": "https://www.kan.org.il/content/kan-news/politic/",
+      "kind": "politics-index",
+      "directHttpStatus": 403,
+      "webReaderStatus": "empty-0-lines",
+      "contentVerified": false,
+      "result": "Blocked. No accessible election index discovered from blocked homepage."
+    },
+    {
+      "publisher": "C13",
+      "url": "https://13tv.co.il/",
+      "kind": "homepage",
+      "directHttpStatus": 403,
+      "webReaderStatus": "content-available-crawled-today",
+      "contentVerified": true,
+      "result": "Primary page opened with web reader and current October2 items inspected; direct raw HTTP independently returned403."
+    },
+    {
+      "publisher": "C13",
+      "url": "https://13tv.co.il/news/politics/",
+      "kind": "politics-security-diplomacy-index",
+      "directHttpStatus": 403,
+      "webReaderStatus": "content-available-crawled-today",
+      "contentVerified": true,
+      "result": "Latest listed national poll remains September30."
+    },
+    {
+      "publisher": "C13",
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "kind": "political-system-index",
+      "directHttpStatus": 403,
+      "webReaderStatus": "content-available-crawled-today",
+      "contentVerified": true,
+      "result": "October2 political news visible; latest national poll remains September30."
+    },
+    {
+      "publisher": "C13",
+      "url": "https://13tv.co.il/tags/survey/",
+      "kind": "poll-index",
+      "directHttpStatus": 403,
+      "webReaderStatus": "content-available-crawled-today",
+      "contentVerified": true,
+      "result": "Latest listed national poll September30 21:05, unchanged from database."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/",
+      "kind": "homepage",
+      "directHttpStatus": 200,
+      "bodyLength": 99704,
+      "webReaderStatus": "empty-0-lines",
+      "contentVerified": false,
+      "result": "HTTP200 Next.js application/not-found shell titled ch16israel, without readable news/politics/poll index content or index links. Primary content unavailable."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.c16.co.il/",
+      "kind": "initial-incorrect-host-candidate",
+      "directHttpStatus": 200,
+      "bodyLength": 5872,
+      "contentVerified": false,
+      "result": "Initial guessed host; not used as primary evidence. Actual Channel16 link identified from Skarim is www.ch16.co.il."
+    },
+    {
+      "publisher": "Skarim",
+      "url": "https://www.skarim.org/channels/channel-16",
+      "kind": "secondary-channel-index",
+      "webReaderStatus": "content-available-crawled-today",
+      "contentVerified": true,
+      "result": "Latest secondary listed Channel16 poll remains September29; insufficient to establish absence of new primary polls."
+    },
+    {
+      "publisher": "C14",
+      "url": "https://www.c14.co.il/",
+      "kind": "homepage",
+      "webReaderStatus": "content-available-crawled-today",
+      "contentVerified": true,
+      "result": "New October1 national poll prominently listed at21:03."
+    },
+    {
+      "publisher": "C14",
+      "url": "https://www.c14.co.il/archive/65839",
+      "kind": "politics-index",
+      "webReaderStatus": "content-available",
+      "contentVerified": true,
+      "result": "Opened directly from primary homepage."
+    }
+  ],
+  "duplicatesAndExclusions": [
+    {
+      "url": "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm",
+      "publicationDate": "2026-09-22",
+      "publicationTime": "21:07",
+      "updatedDate": "2026-09-23",
+      "updatedTime": "00:56",
+      "fieldworkDate": "2026-09-22",
+      "result": "Already ingested September22 national poll; September23 index date is update, not a new poll."
+    },
+    {
+      "url": "https://www.mako.co.il/news-israel-elections/2026/Article-0f9149c460ac0a1026.htm",
+      "publicationDate": "2026-09-23",
+      "publicationTime": "07:54",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-22",
+      "sampleSize": 301,
+      "population": "Jewish first-time voters age18–22",
+      "samplingMethod": "Internet; stratified sampling and random sampling within strata",
+      "result": "Targeted youth sample excluded from national-poll aggregation."
+    },
+    {
+      "url": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+      "publicationDate": "2026-09-30",
+      "publicationTime": "21:05",
+      "result": "Already ingested C13 poll, also corroborated by IsraelPolls original screenshot and historical table."
+    }
+  ],
+  "reviewedIsraelPollsPosts": [
+    {
+      "publisher": "Maariv",
+      "url": "https://x.com/IsraelPolls/status/2105881232269537421",
+      "repostDate": "2026-10-02",
+      "displayedXTime": "4:43 AM",
+      "displayedXTimeZone": null,
+      "pollPublicationDate": "2026-10-02",
+      "originalGraphicsVisuallyReviewed": true,
+      "historicalTableVisuallyReviewed": true,
+      "latestSeats": {
+        "yashar": 21,
+        "likud": 19,
+        "beyachad": 13,
+        "democrats": 10,
+        "yisrael_beiteinu": 9,
+        "otzma": 9,
+        "joint": 7,
+        "utj": 7,
+        "shas": 7,
+        "rz_zehut": 5,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 4
+      },
+      "seatTotal": 120,
+      "reportedBelowThresholdPct": {
+        "gantz": 0.7,
+        "haredi_public": 0.6,
+        "noam": 0.4,
+        "tzomet_beit_yisrael": 0.3
+      },
+      "blocGraphic": {
+        "coalitionIncludingWinter": 51,
+        "opposition": 53,
+        "arabParties": 12,
+        "hendel": 4
+      },
+      "historicalTableBlocDefinition": {
+        "coalitionIncludingWinter": 51,
+        "otherIncludingHendel": 57,
+        "arabParties": 12
+      },
+      "primaryVerificationOwner": "/root/oct2_maariv_zman",
+      "notes": [
+        "Original graphics were read; historical table latest column October2.",
+        "Historical table groups Hendel within others, while original bloc graphic presents Hendel separately. Different definitions are not contradictory counts.",
+        "Tzomet Beit Yisrael exact0.3 is not an aggregate zero for unreported parties."
+      ]
+    },
+    {
+      "publisher": "i24",
+      "url": "https://x.com/IsraelPolls/status/2105711773051400338",
+      "repostDate": "2026-10-01",
+      "displayedXTime": "5:29 PM",
+      "displayedXTimeZone": null,
+      "pollPublicationDate": "2026-10-01",
+      "originalGraphicsVisuallyReviewed": true,
+      "historicalTableVisuallyReviewed": true,
+      "latestSeats": {
+        "likud": 28,
+        "yashar": 22,
+        "democrats": 9,
+        "beyachad": 9,
+        "otzma": 8,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "yisrael_beiteinu": 7,
+        "rz_zehut": 5,
+        "raam": 5,
+        "winter": 4
+      },
+      "seatTotal": 120,
+      "reportedBelowThresholdPct": {
+        "hendel": 1.8
+      },
+      "reportedUpperBounds": [
+        {
+          "partyName": "כחול לבן",
+          "preciseRawPct": null,
+          "upperBoundPct": 1,
+          "upperBoundInclusive": false
+        },
+        {
+          "partyName": "הציבור החרדי",
+          "preciseRawPct": null,
+          "upperBoundPct": 1,
+          "upperBoundInclusive": false
+        },
+        {
+          "partyName": "צבע שחור",
+          "preciseRawPct": null,
+          "upperBoundPct": 1,
+          "upperBoundInclusive": false
+        },
+        {
+          "partyName": "נעם לישראל",
+          "preciseRawPct": null,
+          "upperBoundPct": 1,
+          "upperBoundInclusive": false
+        },
+        {
+          "partyName": "ישראל תחילה",
+          "preciseRawPct": null,
+          "upperBoundPct": 1,
+          "upperBoundInclusive": false
+        },
+        {
+          "partyName": "אח״י",
+          "preciseRawPct": null,
+          "upperBoundPct": 1,
+          "upperBoundInclusive": false
+        }
+      ],
+      "methodologyFromOriginalGraphic": {
+        "fieldworkStart": "2026-10-01",
+        "fieldworkEnd": "2026-10-01",
+        "sampleSize": 504,
+        "population": "All Israeli adults18+; representative sample",
+        "pollster": "Direct Polls, Tzuriel Sharon",
+        "samplingMethod": "באמצעות מערכת דיגיטלית בשילוב פאנל",
+        "reportedMarginOfErrorPct": 4.3,
+        "confidenceLevelPct": 95
+      },
+      "primaryVerificationOwner": "/root/oct2_c14_i24",
+      "notes": [
+        "Named parties <1% have strict upper bounds, not exact0%,0.5% or1% values.",
+        "Historical table latest column October1; no duplicate second i24 poll created from table."
+      ]
+    },
+    {
+      "publisher": "Zman Israel",
+      "result": "Already-active tatika_2026-10-01 poll in immutable before-polls-2026-10-02 baseline; corroboration only, not a new addition.",
+      "url": "https://x.com/IsraelPolls/status/2105699620378554517",
+      "repostDate": "2026-10-01",
+      "displayedXTime": "4:41 PM",
+      "displayedXTimeZone": null,
+      "pollPublicationDate": "2026-10-01",
+      "originalGraphicsVisuallyReviewed": true,
+      "historicalTableVisuallyReviewed": true,
+      "latestSeats": {
+        "yashar": 21,
+        "likud": 21,
+        "beyachad": 10,
+        "yisrael_beiteinu": 10,
+        "shas": 9,
+        "utj": 8,
+        "democrats": 8,
+        "joint": 8,
+        "otzma": 6,
+        "raam": 5,
+        "rz_zehut": 5,
+        "hendel": 5,
+        "winter": 4
+      },
+      "seatTotal": 120,
+      "reportedBelowThresholdPct": {
+        "gantz": 1.4
+      },
+      "blocGraphic": {
+        "netanyahuSupporters": 53,
+        "netanyahuOpponents": 67
+      },
+      "historicalTableBlocDefinition": {
+        "coalitionIncludingWinter": 53,
+        "otherIncludingHendel": 54,
+        "arabParties": 13
+      },
+      "primaryVerificationOwner": "/root/oct2_maariv_zman",
+      "notes": [
+        "Historical table latest column October1; latest values corroborate original charts.",
+        "Detailed primary fieldwork/sample/mode verification delegated; no metadata inferred from repost date."
+      ]
+    },
+    {
+      "publisher": "C13",
+      "url": "https://x.com/IsraelPolls/status/2105381386458665172",
+      "repostDate": "2026-09-30",
+      "displayedXTime": "7:36 PM",
+      "displayedXTimeZone": null,
+      "pollPublicationDate": "2026-09-30",
+      "originalGraphicsVisuallyReviewed": true,
+      "historicalTableVisuallyReviewed": true,
+      "result": "Duplicate of already ingested September30 poll",
+      "reportedBelowThresholdPct": {
+        "gantz": 0.9,
+        "hendel": 2.8,
+        "haredi_public": 1.3
+      },
+      "notes": [
+        "Original broadcast screenshot and historical table agree; historical repost is not a new survey."
+      ]
+    }
+  ],
+  "incidentalVerifiedNewPoll": {
+    "publisher": "C14",
+    "sourceUrl": "https://www.c14.co.il/article/1720749",
+    "publicationDate": "2026-10-01",
+    "publicationTime": "21:03",
+    "publicationTimeZone": "Asia/Jerusalem",
+    "fieldworkStart": "2026-10-01",
+    "fieldworkEnd": "2026-10-01",
+    "sampleSize": 2175,
+    "pollster": "NEXT DATA; data analysis Shlomo Filber",
+    "population": "Adults from general population",
+    "samplingMethod": null,
+    "reportedMarginOfErrorPct": null,
+    "seats": {
+      "likud": 32,
+      "yashar": 21,
+      "shas": 10,
+      "democrats": 9,
+      "beyachad": 8,
+      "utj": 8,
+      "rz_zehut": 7,
+      "otzma": 7,
+      "joint": 7,
+      "yisrael_beiteinu": 6,
+      "raam": 5
+    },
+    "seatTotal": 120,
+    "reportedBelowThresholdPct": {
+      "winter": 1.7,
+      "hendel": 1.2,
+      "gantz": 0.4,
+      "haredi_public": 0.2,
+      "noam": 0.1,
+      "achi": 0.1
+    },
+    "sourceBlocSeats": {
+      "coalition": 64,
+      "opposition": 44,
+      "arabParties": 12
+    },
+    "primaryVerificationOwner": "/root/oct2_c14_i24"
+  },
+  "graphics": [
+    {
+      "remoteFileName": "HTmX0KGWsAAkmwy.jpg",
+      "url": "https://pbs.twimg.com/media/HTmX0KGWsAAkmwy?format=jpg&name=orig",
+      "description": "Maariv bloc original",
+      "sha256": "76e805fefed37100505ce0e2f2d7c10ea6d594d4716036a4b782e458a9fe4ca9",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTmX0Z0W8AAetid.jpg",
+      "url": "https://pbs.twimg.com/media/HTmX0Z0W8AAetid?format=jpg&name=orig",
+      "description": "Maariv party original",
+      "sha256": "3ad0b8ff44e6a5a8feb2d5bbb2a26e5f2b9c5525afdd88a4e878577abe02382e",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTj9sfNXoAAdypm.jpg",
+      "url": "https://pbs.twimg.com/media/HTj9sfNXoAAdypm?format=jpg&name=orig",
+      "description": "i24 original, including methodology footer and upper bounds",
+      "sha256": "23b25f9aa19c8a5a2342cbb5d26b2cb632f0aa4cbd72d78808d6cb5057348a61",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTjyo8oXYAA3Daf.jpg",
+      "url": "https://pbs.twimg.com/media/HTjyo8oXYAA3Daf?format=jpg&name=orig",
+      "description": "Zman bloc original",
+      "sha256": "d66911c248aab875fed7e98d290613f093b5ac14e938474f2ee37cfdce7bfd62",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTjypNLXQAA9LMy.jpg",
+      "url": "https://pbs.twimg.com/media/HTjypNLXQAA9LMy?format=jpg&name=orig",
+      "description": "Zman party original",
+      "sha256": "d1ab2446ccc2f064ffcaabfa6eaa72ddc3725fc3482231858d0c54870633f528",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTmmKr-XEAACOaX.png",
+      "url": "https://pbs.twimg.com/media/HTmmKr-XEAACOaX?format=png&name=orig",
+      "description": "Maariv historical table August–October2",
+      "sha256": "98f8ccc528ced0720d98a58ba512e1a820477f327c83b4fe81bafe22628a52ce",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTkrGvsXkAEgC-a.png",
+      "url": "https://pbs.twimg.com/media/HTkrGvsXkAEgC-a?format=png&name=orig",
+      "description": "i24 historical table August–October1",
+      "sha256": "694dae48234435012106cc895349f5e571b463e466f4915fbfbcb1901ff0bbb5",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTkr3ZoXcAAywQS.png",
+      "url": "https://pbs.twimg.com/media/HTkr3ZoXcAAywQS?format=png&name=orig",
+      "description": "Zman historical table August–October1",
+      "sha256": "f82a68fd8e5883cfa09a24f89c3281dc252e46d85e88cee8c44316406de9fe8c",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTfSkO9WAAAi8dz.png",
+      "url": "https://pbs.twimg.com/media/HTfSkO9WAAAi8dz?format=png&name=orig",
+      "description": "C13 historical table August–September30",
+      "sha256": "b52a27fc3803e85fa0ea8dbb95a4f02906065e11bd4ecffbb632f78b3ffea664",
+      "visuallyReviewed": true,
+      "localFile": null
+    },
+    {
+      "remoteFileName": "HTfRMtKXMAAtJ4s.jpg",
+      "url": "https://pbs.twimg.com/media/HTfRMtKXMAAtJ4s?format=jpg&name=orig",
+      "description": "C13 broadcast original screenshot September30",
+      "sha256": "97b27d68edf443ef74ec361fa152425a3406762ae30309c1cc557353b784d074",
+      "visuallyReviewed": true,
+      "localFile": null
+    }
+  ],
+  "limitations": [
+    "Kan homepage and politics index blocked HTTP403 and empty web content; absence of newer polls cannot be established.",
+    "Channel16 primary homepage returns an application/not-found shell without readable content; no primary index inspection possible.",
+    "C13 direct raw HTTP returns403, though primary pages are available through web reader with current October2 index items. This distinction is retained.",
+    "Browser CUA kernel could not initialize because sandbox deny-read ACL helper failed; visual source review completed by emitting HTTP-returned image bytes.",
+    "Displayed X repost times have unspecified timezone; they are not used as primary publication or fieldwork times.",
+    "Primary methodology for Maariv and Zman is verified by the other source agent; this receipt does not invent it.",
+    "This receipt records reviewed source URLs, hashes and conclusions. Raw graphic files are not saved here."
+  ],
+  "suggestedSourceCheckSummary": {
+    "date": "2026-10-02",
+    "newPollsFound": 3,
+    "checkedSources": [
+      "IsraelPolls profile/posts/original graphics/historical tables",
+      "N12 home/politics/elections",
+      "C13 home/politics/poll indexes via web reader",
+      "C14 home/politics/article"
+    ],
+    "limitedSources": [
+      "Kan HTTP403",
+      "Channel16 primary unreadable shell",
+      "C13 directHTTP403 despite web-reader content"
+    ],
+    "duplicateDates": {
+      "n12": "2026-09-22",
+      "c13": "2026-09-30",
+      "channel16SecondaryLatest": "2026-09-29",
+      "zman": "2026-10-01"
+    },
+    "evidenceReceipt": "sources/2026-10-02-check/source-scan.json"
+  }
+}

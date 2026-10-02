@@ -1,0 +1,511 @@
+{
+  "checkedAt": "2026-10-02",
+  "baselineAsOf": "2026-10-01",
+  "polls": [
+    {
+      "pollsterId": "next_data",
+      "date": "2026-10-01",
+      "publisher": "חדשות 14",
+      "publicationTime": "21:03:36",
+      "publishedAt": "2026-10-01T21:03:36+03:00",
+      "updatedTime": "21:03:36",
+      "fieldworkStart": "2026-10-01",
+      "fieldworkEnd": "2026-10-01",
+      "sampleSize": 2175,
+      "invitedSampleSize": null,
+      "samplingMethod": null,
+      "population": "בוגרים מכלל האוכלוסייה",
+      "panelProvider": null,
+      "reportedMarginOfErrorPct": null,
+      "undecidedPct": null,
+      "sourceUrl": "https://www.c14.co.il/article/1720749",
+      "indexUrl": "https://www.c14.co.il/archive/53747",
+      "fileName": "c14-2026-10-01-1720749.html",
+      "extractName": "c14-2026-10-01-source-extract.txt",
+      "seats": {
+        "likud": 32,
+        "yashar": 21,
+        "shas": 10,
+        "democrats": 9,
+        "beyachad": 8,
+        "utj": 8,
+        "rz_zehut": 7,
+        "otzma": 7,
+        "joint": 7,
+        "yisrael_beiteinu": 6,
+        "raam": 5,
+        "winter": 0,
+        "hendel": 0,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "reportedPercentages": {
+        "winter": 1.7,
+        "hendel": 1.2,
+        "gantz": 0.4,
+        "haredi_public": 0.2,
+        "noam": 0.1
+      },
+      "unmodelledNamedParties": [
+        {
+          "name": "אח״י – חוזרים לשורשים",
+          "pct": 0.1,
+          "mappedTo": "other"
+        }
+      ],
+      "sourceBlocSeats": {
+        "coalition": 64,
+        "opposition": 44,
+        "arab_parties": 12
+      },
+      "metadataPendingFields": [
+        "samplingMethod",
+        "reportedMarginOfErrorPct",
+        "panelProvider",
+        "invitedSampleSize",
+        "undecidedPct"
+      ],
+      "notes": [
+        "הסקר פורסם ב־1.10.2026 ב־21:03:36; עבודת השדה נערכה באותו יום בקרב 2,175 בוגרים מכלל האוכלוסייה באמצעות NEXT DATA, בניתוח שלמה פילבר.",
+        "שיטת האיסוף, ספק הפאנל וטעות הדגימה לא צוינו בפרסום המקורי ונשמרים כחסרים.",
+        "מתחת לחסימה: עמך ישראל 1.7%, המילואימניקים והכלכלית 1.2%, כחול לבן 0.4%, הציבור החרדי 0.2%, נעם 0.1% ואח״י 0.1%.",
+        "אח״י נשמרת בשמה המקורי ו־0.1% ממופים לרכיב רשימות אחרות במודל בלבד; זה אינו אחוז כולל שפורסם ליתר הרשימות.",
+        "חלוקת הגושים במקור: קואליציה 64, אופוזיציה ללא ערביות 44 ומפלגות ערביות 12."
+      ],
+      "sourceSha256": "e4d6fc5265ffca33050e0355d9980013b1c8fb75e2bb4cffc021f912bef2c041",
+      "extractSha256": "018d4515cf5ca45fccd5b5cb74982eab6583c187e67c51cea241514c2488a188",
+      "id": "next_data_2026-10-01"
+    },
+    {
+      "pollsterId": "direct_polls",
+      "date": "2026-10-01",
+      "publisher": "i24NEWS",
+      "publicationTime": "19:53:45",
+      "publishedAt": "2026-10-01T16:53:45.000Z",
+      "updatedTime": "19:53:54",
+      "fieldworkStart": "2026-10-01",
+      "fieldworkEnd": "2026-10-01",
+      "sampleSize": 504,
+      "invitedSampleSize": null,
+      "samplingMethod": "מערכת דיגיטלית בשילוב פאנל",
+      "population": "מדגם מייצג של האוכלוסייה בישראל, בוגרים בני 18 ומעלה",
+      "panelProvider": null,
+      "reportedMarginOfErrorPct": 4.3,
+      "marginConfidencePct": 95,
+      "undecidedPct": null,
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef",
+      "indexUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+      "fileName": "i24-2026-10-01-761931ef.html",
+      "extractName": "i24-2026-10-01-source-extract.txt",
+      "seats": {
+        "likud": 28,
+        "yashar": 22,
+        "beyachad": 9,
+        "democrats": 9,
+        "joint": 8,
+        "otzma": 8,
+        "utj": 8,
+        "yisrael_beiteinu": 7,
+        "shas": 7,
+        "rz_zehut": 5,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 0,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0,
+        "israel_first": 0
+      },
+      "reportedPercentages": {
+        "hendel": 1.8
+      },
+      "publishedBounds": {
+        "gantz": {
+          "min": 0,
+          "max": 1,
+          "maxExclusive": true
+        },
+        "haredi_public": {
+          "min": 0,
+          "max": 1,
+          "maxExclusive": true
+        },
+        "noam": {
+          "min": 0,
+          "max": 1,
+          "maxExclusive": true
+        },
+        "israel_first": {
+          "min": 0,
+          "max": 1,
+          "maxExclusive": true
+        }
+      },
+      "unmodelledNamedParties": [
+        {
+          "name": "צבע שחור",
+          "pct": null,
+          "pctUpperBound": 1,
+          "maxExclusive": true
+        },
+        {
+          "name": "אח״י",
+          "pct": null,
+          "pctUpperBound": 1,
+          "maxExclusive": true
+        }
+      ],
+      "belowThresholdBoundSourceUrl": "https://x.com/IsraelPolls/status/2105711773051400338",
+      "sourceBlocSeats": {
+        "coalition": 60,
+        "opposition": 47,
+        "arab_parties": 13,
+        "hendel": 0
+      },
+      "metadataPendingFields": [
+        "panelProvider",
+        "invitedSampleSize",
+        "undecidedPct"
+      ],
+      "additionalSourceUrls": [
+        "https://x.com/IsraelPolls/status/2105711773051400338",
+        "https://pbs.twimg.com/media/HTj9sfNXoAAdypm.jpg",
+        "https://pbs.twimg.com/media/HTkrGvsXkAEgC-a?format=png&name=orig"
+      ],
+      "notes": [
+        "פרסום ב־1.10.2026 ב־19:53:45 לפי מטא־נתוני הכתבה המקורית; עבודת השדה ב־1.10, 504 בוגרים בני 18 ומעלה, דיירקט פולס בראשות צוריאל שרון.",
+        "האיסוף באמצעות מערכת דיגיטלית בשילוב פאנל; טעות הדגימה שפורסמה 4.3% בהסתברות 95%.",
+        "המילואימניקים והכלכלית קיבלה 1.8%. בתרשים המקורי שפורסם ב־IsraelPolls שש רשימות נוספות תוארו כפחות מ־1% כל אחת: כחול לבן, הציבור החרדי, צבע שחור, נעם לישראל, ישראל תחילה ואח״י.",
+        "הגבולות פחות מ־1% נשמרים כגבולות בלבד. האחוזים המדויקים של שש הרשימות חסרים, ואינם אפס או 1%.",
+        "חלוקת הגושים במקור: קואליציה 60, אופוזיציה ללא ערביות 47 וערביות 13; המנדטים מתחלפים בתוך הגושים ללא שינוי בסכומיהם."
+      ],
+      "sourceSha256": "30428feaf52649f44ff2d83100168761e187a1fda37b3f95839e723937233db2",
+      "extractSha256": "84cd9e67c3bb2f5253037a13e41183eb764dda4d8081432ba6f361d5fa87cd5e",
+      "id": "direct_polls_2026-10-01"
+    },
+    {
+      "pollsterId": "lazar",
+      "date": "2026-10-02",
+      "publisher": "מעריב",
+      "publicationTime": "06:00:46",
+      "publishedAt": "2026-10-02T06:00:46+03:00",
+      "updatedTime": "07:21:33",
+      "displayedArticleTime": "06:41",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "sampleSize": 602,
+      "initialSampleSize": 600,
+      "invitedSampleSize": 4413,
+      "samplingMethod": "מדגם שכבות; בכל שכבה בחירה אקראית מתוך פאנל משיבים באינטרנט",
+      "population": "האוכלוסייה הבוגרת במדינת ישראל מגיל 18 ומעלה, יהודים וערבים",
+      "panelProvider": "Panel4ALL",
+      "reportedMarginOfErrorPct": 4.0,
+      "undecidedPct": 6.4,
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "indexUrl": "https://www.maariv.co.il/news/elections-2026",
+      "fileName": "maariv-lazar-2026-10-02-1372750.html",
+      "extractName": "maariv-lazar-2026-10-02-source-extract.txt",
+      "seats": {
+        "yashar": 21,
+        "likud": 19,
+        "beyachad": 13,
+        "democrats": 10,
+        "yisrael_beiteinu": 9,
+        "otzma": 9,
+        "joint": 7,
+        "utj": 7,
+        "shas": 7,
+        "rz_zehut": 5,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 4,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "reportedPercentages": {
+        "gantz": 0.7,
+        "haredi_public": 0.6,
+        "noam": 0.4
+      },
+      "unmodelledNamedParties": [
+        {
+          "name": "צומת–בית ישראל",
+          "pct": 0.3,
+          "mappedTo": "other"
+        }
+      ],
+      "sourceBlocSeats": {
+        "coalition": 51,
+        "opposition": 53,
+        "arab_parties": 12,
+        "hendel": 4
+      },
+      "undecidedSourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "additionalSourceUrls": [
+        "https://e.infogram.com/f7716a0a-ba81-467f-aa54-d12b3131bd2c?src=embed",
+        "https://x.com/IsraelPolls/status/2105881232269537421",
+        "https://pbs.twimg.com/media/HTmmKr-XEAACOaX?format=png&name=orig"
+      ],
+      "metadataPendingFields": [],
+      "notes": [
+        "סקר מעריב / לזר מחקרים בראשות ד״ר מנחם לזר, בשיתוף Panel4ALL, פורסם ב־2.10.2026 לאחר עבודת שדה ב־30.9–1.10.",
+        "מטא־נתוני הכתבה מציינים פרסום ב־06:00:46 ועדכון ב־07:21:33; בכותרת מוצגת השעה 06:41. אי־התאמה זו נשמרת בנפרד ואינה משנה את יום הפרסום או עבודת השדה.",
+        "בפרסום צוין מדגם מתוכנן של 600 ומדגם בפועל של 602 משיבים מתוך 4,413 שהוזמנו; המדגם מייצג בני 18 ומעלה, יהודים וערבים. טעות הדגימה המרבית שפורסמה היא 4%.",
+        "האיסוף בפאנל משיבים באינטרנט במדגם שכבות, עם בחירה אקראית בתוך כל שכבה; אין להסיק מכך דגימה הסתברותית של כלל הציבור מחוץ לפאנל.",
+        "מתחת לחסימה: כחול לבן 0.7%, הציבור החרדי 0.6%, נעם לישראל 0.4% וצומת–בית ישראל 0.3%; יתר אחוזי התמיכה לא פורסמו ונשמרים כחסרים.",
+        "צומת–בית ישראל נשמרת בשם המקור ו־0.3% ממופים לרכיב רשימות אחרות במודל בלבד; זה אינו אחוז כולל שפורסם ליתר הרשימות.",
+        "6.4% מתלבטים נשמרים בנפרד; מכנה נתון המתלבטים שונה מהתפלגות התמיכה ואינו מופחת ממנה פעם נוספת.",
+        "חלוקת הגושים במקור: קואליציה כולל עמך ישראל 51, אופוזיציה ציונית 53, המילואימניקים והכלכלית 4 וערביות 12."
+      ],
+      "sourceSha256": "588511616ffcfe0443f8ccc41ade4eec34e53244d203cf0e22433cbb42286f86",
+      "extractSha256": "dd109231e86505e07acd2557aa895d9618a910c949caf7deecab951f67f048ff",
+      "originalPublicationMetadataCandidates": [
+        "2026-10-02T06:00:46+03:00",
+        "2026-10-02"
+      ],
+      "embeddedSourceSha256": "56b2721f668ca5a5da46baddbe214a21e73f48c902fa81d9bbdad94bcc50ccde",
+      "id": "lazar_2026-10-02"
+    }
+  ],
+  "sourceCheck": {
+    "checkedAt": "2026-10-02",
+    "sources": [
+      "https://x.com/IsraelPolls?s=20",
+      "https://www.c14.co.il/",
+      "https://www.c14.co.il/archive/65839",
+      "https://www.c14.co.il/archive/53747",
+      "https://www.c14.co.il/elections26",
+      "https://www.i24news.tv/he",
+      "https://www.i24news.tv/he/news/israel-elections-2026",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+      "https://www.c14.co.il/article/1720749",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef",
+      "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "https://www.n12.co.il/",
+      "https://www.mako.co.il/news-politics",
+      "https://www.mako.co.il/news-israel-elections/2026",
+      "https://www.kan.org.il/",
+      "https://www.kan.org.il/content/kan-news/politic/",
+      "https://13tv.co.il/",
+      "https://13tv.co.il/news/politics/",
+      "https://13tv.co.il/news/politics/politics/",
+      "https://13tv.co.il/tags/survey/",
+      "https://www.ch16.co.il/",
+      "https://www.c16.co.il/",
+      "https://www.skarim.org/channels/channel-16",
+      "https://www.maariv.co.il/",
+      "https://www.maariv.co.il/news/politics",
+      "https://www.maariv.co.il/news/elections-2026",
+      "https://www.zman.co.il/",
+      "https://www.zman.co.il/feed/33350/",
+      "https://www.zman.co.il/feed/609/",
+      "https://www.zman.co.il/729609/"
+    ],
+    "checks": [
+      {
+        "url": "https://www.c14.co.il/archive/53747",
+        "status": "read-current-new-poll-found"
+      },
+      {
+        "url": "https://www.c14.co.il/elections26",
+        "status": "opened-dynamic-poll-data-not-rendered"
+      },
+      {
+        "url": "https://www.i24news.tv/he",
+        "status": "read-current"
+      },
+      {
+        "url": "https://www.i24news.tv/he/news/israel-elections-2026",
+        "status": "opened-javascript-shell-only"
+      },
+      {
+        "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+        "status": "read-current-new-poll-found"
+      },
+      {
+        "publisher": "IsraelPolls",
+        "url": "https://x.com/IsraelPolls?s=20",
+        "kind": "profile",
+        "directHttpStatus": 200,
+        "bodyLength": 143038,
+        "webReaderStatus": "cache-miss",
+        "contentVerified": true,
+        "result": "Latest posts show Maariv October2 and i24 October1 (new since baseline), Zman Israel October1 (already active and corroborated), and C13 September30 (duplicate). Profile alone omits historical replies; original posts were opened to discover tables."
+      },
+      {
+        "publisher": "N12",
+        "url": "https://www.n12.co.il/",
+        "kind": "homepage",
+        "directHttpStatus": 200,
+        "bodyLength": 594424,
+        "webReaderStatus": "content-available",
+        "contentVerified": true,
+        "result": "Opened directly; current October2 news visible."
+      },
+      {
+        "publisher": "N12",
+        "url": "https://www.mako.co.il/news-politics",
+        "kind": "politics-index",
+        "directHttpStatus": 200,
+        "bodyLength": 109989,
+        "webReaderStatus": "content-available",
+        "contentVerified": true,
+        "result": "Current index inspected; no newer general election poll identified."
+      },
+      {
+        "publisher": "N12",
+        "url": "https://www.mako.co.il/news-israel-elections/2026",
+        "kind": "election-index",
+        "directHttpStatus": 200,
+        "bodyLength": 124541,
+        "webReaderStatus": "content-available",
+        "contentVerified": true,
+        "result": "Newest general national poll September22; index label September23 is article update date. September23 youth poll is a Jewish 18–22 sample, not a national poll."
+      },
+      {
+        "publisher": "Kan",
+        "url": "https://www.kan.org.il/",
+        "kind": "homepage",
+        "directHttpStatus": 403,
+        "webReaderStatus": "empty-0-lines",
+        "contentVerified": false,
+        "result": "Blocked. Do not infer no new poll."
+      },
+      {
+        "publisher": "Kan",
+        "url": "https://www.kan.org.il/content/kan-news/politic/",
+        "kind": "politics-index",
+        "directHttpStatus": 403,
+        "webReaderStatus": "empty-0-lines",
+        "contentVerified": false,
+        "result": "Blocked. No accessible election index discovered from blocked homepage."
+      },
+      {
+        "publisher": "C13",
+        "url": "https://13tv.co.il/",
+        "kind": "homepage",
+        "directHttpStatus": 403,
+        "webReaderStatus": "content-available-crawled-today",
+        "contentVerified": true,
+        "result": "Primary page opened with web reader and current October2 items inspected; direct raw HTTP independently returned403."
+      },
+      {
+        "publisher": "C13",
+        "url": "https://13tv.co.il/news/politics/",
+        "kind": "politics-security-diplomacy-index",
+        "directHttpStatus": 403,
+        "webReaderStatus": "content-available-crawled-today",
+        "contentVerified": true,
+        "result": "Latest listed national poll remains September30."
+      },
+      {
+        "publisher": "C13",
+        "url": "https://13tv.co.il/news/politics/politics/",
+        "kind": "political-system-index",
+        "directHttpStatus": 403,
+        "webReaderStatus": "content-available-crawled-today",
+        "contentVerified": true,
+        "result": "October2 political news visible; latest national poll remains September30."
+      },
+      {
+        "publisher": "C13",
+        "url": "https://13tv.co.il/tags/survey/",
+        "kind": "poll-index",
+        "directHttpStatus": 403,
+        "webReaderStatus": "content-available-crawled-today",
+        "contentVerified": true,
+        "result": "Latest listed national poll September30 21:05, unchanged from database."
+      },
+      {
+        "publisher": "Channel16",
+        "url": "https://www.ch16.co.il/",
+        "kind": "homepage",
+        "directHttpStatus": 200,
+        "bodyLength": 99704,
+        "webReaderStatus": "empty-0-lines",
+        "contentVerified": false,
+        "result": "HTTP200 Next.js application/not-found shell titled ch16israel, without readable news/politics/poll index content or index links. Primary content unavailable."
+      },
+      {
+        "publisher": "Channel16",
+        "url": "https://www.c16.co.il/",
+        "kind": "initial-incorrect-host-candidate",
+        "directHttpStatus": 200,
+        "bodyLength": 5872,
+        "contentVerified": false,
+        "result": "Initial guessed host; not used as primary evidence. Actual Channel16 link identified from Skarim is www.ch16.co.il."
+      },
+      {
+        "publisher": "Skarim",
+        "url": "https://www.skarim.org/channels/channel-16",
+        "kind": "secondary-channel-index",
+        "webReaderStatus": "content-available-crawled-today",
+        "contentVerified": true,
+        "result": "Latest secondary listed Channel16 poll remains September29; insufficient to establish absence of new primary polls."
+      },
+      {
+        "publisher": "C14",
+        "url": "https://www.c14.co.il/",
+        "kind": "homepage",
+        "webReaderStatus": "content-available-crawled-today",
+        "contentVerified": true,
+        "result": "New October1 national poll prominently listed at21:03."
+      },
+      {
+        "publisher": "C14",
+        "url": "https://www.c14.co.il/archive/65839",
+        "kind": "politics-index",
+        "webReaderStatus": "content-available",
+        "contentVerified": true,
+        "result": "Opened directly from primary homepage."
+      },
+      {
+        "url": "https://www.maariv.co.il/",
+        "status": "direct-http-200-content-reviewed-web-reader-unavailable"
+      },
+      {
+        "url": "https://www.maariv.co.il/news/politics",
+        "status": "direct-http-200-content-reviewed-web-reader-unavailable"
+      },
+      {
+        "url": "https://www.maariv.co.il/news/elections-2026",
+        "status": "direct-http-200-new-poll-found-web-reader-unavailable"
+      },
+      {
+        "url": "https://www.zman.co.il/",
+        "status": "web-reader-current-homepage-reviewed"
+      },
+      {
+        "url": "https://www.zman.co.il/feed/33350/",
+        "status": "web-reader-latest-poll-october-1-already-active"
+      },
+      {
+        "url": "https://www.zman.co.il/feed/609/",
+        "status": "web-reader-stale-two-weeks-old"
+      },
+      {
+        "url": "https://www.zman.co.il/729609/",
+        "status": "web-reader-current-october-2-election-diary-read-direct-http-403"
+      }
+    ],
+    "limitations": [
+      "דף הפוליטיקה של חדשות 14 הוחזר ממטמון ישן; ארכיון הסקרים ודף הבית העדכניים נבדקו.",
+      "נתוני יישומוני הבחירות של חדשות 14 ושל i24 לא רונדרו ב־web reader; ארכיון הסקרים הראשוני של כל מפרסם נבדק.",
+      "גרפיקות חדשות 14 לא נפתחו ב־web reader וה־CUA נכשל בהפעלת sandbox; המספרים אומתו מול הכתבה המקורית.",
+      "Kan homepage and politics index blocked HTTP403 and empty web content; absence of newer polls cannot be established.",
+      "Channel16 primary homepage returns an application/not-found shell without readable content; no primary index inspection possible.",
+      "C13 direct raw HTTP returns403, though primary pages are available through web reader with current October2 index items. This distinction is retained.",
+      "Browser CUA kernel could not initialize because sandbox deny-read ACL helper failed; visual source review completed by emitting HTTP-returned image bytes.",
+      "Displayed X repost times have unspecified timezone; they are not used as primary publication or fieldwork times.",
+      "Primary methodology for Maariv and Zman is verified by the other source agent; this receipt does not invent it.",
+      "This receipt records reviewed source URLs, hashes and conclusions. Raw graphic files are not saved here.",
+      "מדור הפוליטיקה של זמן ישראל הוחזר ממטמון בן שבועיים; דף הבית, אינדקס הסקרים ויומן הבחירות העדכניים נקראו."
+    ],
+    "note": "שלושת הסקרים החדשים אומתו מול מפרסמיהם. בדיקות המקורות הרחבות ומגבלותיהן מתועדות; מקור חסום אינו ראיה שלא פורסם בו סקר.",
+    "sourceScanReceiptUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-02/source-scan.json"
+  },
+  "snapshotManifestSha256": "82b32cd36653e272d8f5e6b1733db8b9da6cdb32f9f294fa21f48b01d4b59a0d",
+  "missingValuePolicy": "Null/absent raw percentage means unpublished; zero seats does not mean zero support; named unmodelled exact percentages enter other only for reconstruction."
+}

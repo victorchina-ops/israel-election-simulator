@@ -1,0 +1,939 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-02T10:29:44.340Z",
+  "assessment": "Ready within reviewed scope",
+  "scope": "Independent read-only audit of the three active poll replacements and retained evidence; source values reused from original-primary/IsraelPolls visual reads and freshly read immutable source captures. Does not validate public deployment or UI.",
+  "canonicalDataEdited": false,
+  "baselineAsOf": "2026-10-01",
+  "baselineDirectory": "data/history/before-polls-2026-10-02",
+  "newActivePollIds": [
+    "next_data_2026-10-01",
+    "direct_polls_2026-10-01",
+    "lazar_2026-10-02"
+  ],
+  "counts": {
+    "active": 8,
+    "activeInstitutes": 8,
+    "history": 105,
+    "retainedHistory": 102,
+    "addedHistory": 3
+  },
+  "checks": [
+    {
+      "name": "asOf and record counts",
+      "pass": true,
+      "details": {
+        "active": 8,
+        "history": 105
+      }
+    },
+    {
+      "name": "one active poll per institute",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "unique active ids",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "unique history ids",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "unique institute-publication-date history",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "exactly three new histories",
+      "pass": true,
+      "details": [
+        "history_direct_polls_2026-10-01_current",
+        "history_next_data_2026-10-01_current",
+        "history_lazar_2026-10-02_current"
+      ]
+    },
+    {
+      "name": "immutable18-file baseline digest",
+      "pass": true,
+      "details": {
+        "fileCount": 18
+      }
+    },
+    {
+      "name": "all five unaffected active records identical",
+      "pass": true,
+      "details": [
+        {
+          "id": "midgam_geva_2026-09-22",
+          "pass": true
+        },
+        {
+          "id": "kantar_2026-09-27",
+          "pass": true
+        },
+        {
+          "id": "hamadad_consortium_2026-09-30",
+          "pass": true
+        },
+        {
+          "id": "maagar_mochot_2026-09-29",
+          "pass": true
+        },
+        {
+          "id": "tatika_2026-10-01",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "all102 prior historical source data preserved; three lifecycle transitions valid",
+      "pass": true,
+      "details": {
+        "priorHistoryCount": 102,
+        "allowedLifecycleChanges": [
+          {
+            "id": "history_direct_polls_2026-09-24_current",
+            "fields": [
+              "recordStatus",
+              "replacedByPollId"
+            ]
+          },
+          {
+            "id": "history_lazar_2026-09-25_current",
+            "fields": [
+              "recordStatus",
+              "replacedByPollId"
+            ]
+          },
+          {
+            "id": "history_next_data_2026-09-28_current",
+            "fields": [
+              "recordStatus",
+              "replacedByPollId"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "next_data date/sample/fieldwork",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data exact published seats",
+      "pass": true,
+      "details": {
+        "actual": {
+          "yashar": 21,
+          "likud": 32,
+          "beyachad": 8,
+          "democrats": 9,
+          "yisrael_beiteinu": 6,
+          "utj": 8,
+          "joint": 7,
+          "shas": 10,
+          "otzma": 7,
+          "rz_zehut": 7,
+          "raam": 5
+        }
+      }
+    },
+    {
+      "name": "next_data exact published raw support",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data source bloc allocation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data no passing-list raw percent fabricated",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data no other raw aggregation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data named small-party share once",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data known percentage sum",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data prior fieldwork does not overlap",
+      "pass": true,
+      "details": {
+        "oldStart": "2026-09-28",
+        "oldEnd": "2026-09-28",
+        "newStart": "2026-10-01",
+        "newEnd": "2026-10-01"
+      }
+    },
+    {
+      "name": "next_data replacement references baseline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data exactly one matching history",
+      "pass": true,
+      "details": {
+        "historyId": "history_next_data_2026-10-01_current",
+        "sourcePollId": "next_data_2026-10-01",
+        "allSharedSourceFieldsEqual": true
+      }
+    },
+    {
+      "name": "next_data original and public archived source digests",
+      "pass": true,
+      "details": [
+        {
+          "name": "c14-2026-10-01-1720749.html",
+          "pass": true
+        },
+        {
+          "name": "c14-2026-10-01-source-extract.txt",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "next_data source primary provenance",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data independent reconstructed share total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data passing-list reconstruction threshold",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data independent reconstruction agrees",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data independently allocated120 seats reproduce publication",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "next_data project allocation matches independent allocation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls date/sample/fieldwork",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls exact published seats",
+      "pass": true,
+      "details": {
+        "actual": {
+          "yashar": 22,
+          "likud": 28,
+          "beyachad": 9,
+          "democrats": 9,
+          "yisrael_beiteinu": 7,
+          "utj": 8,
+          "joint": 8,
+          "shas": 7,
+          "otzma": 8,
+          "rz_zehut": 5,
+          "raam": 5,
+          "winter": 4
+        }
+      }
+    },
+    {
+      "name": "direct_polls exact published raw support",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls source bloc allocation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls no passing-list raw percent fabricated",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls no other raw aggregation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls named small-party share once",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls known percentage sum",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls prior fieldwork does not overlap",
+      "pass": true,
+      "details": {
+        "oldStart": "2026-09-24",
+        "oldEnd": "2026-09-24",
+        "newStart": "2026-10-01",
+        "newEnd": "2026-10-01"
+      }
+    },
+    {
+      "name": "direct_polls replacement references baseline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls exactly one matching history",
+      "pass": true,
+      "details": {
+        "historyId": "history_direct_polls_2026-10-01_current",
+        "sourcePollId": "direct_polls_2026-10-01",
+        "allSharedSourceFieldsEqual": true
+      }
+    },
+    {
+      "name": "direct_polls original and public archived source digests",
+      "pass": true,
+      "details": [
+        {
+          "name": "i24-2026-10-01-761931ef.html",
+          "pass": true
+        },
+        {
+          "name": "i24-2026-10-01-source-extract.txt",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "direct_polls source primary provenance",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls independent reconstructed share total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls passing-list reconstruction threshold",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls independent reconstruction agrees",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls independently allocated120 seats reproduce publication",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "direct_polls project allocation matches independent allocation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar date/sample/fieldwork",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar exact published seats",
+      "pass": true,
+      "details": {
+        "actual": {
+          "yashar": 21,
+          "likud": 19,
+          "beyachad": 13,
+          "democrats": 10,
+          "yisrael_beiteinu": 9,
+          "utj": 7,
+          "joint": 7,
+          "shas": 7,
+          "otzma": 9,
+          "rz_zehut": 5,
+          "raam": 5,
+          "winter": 4,
+          "hendel": 4
+        }
+      }
+    },
+    {
+      "name": "lazar exact published raw support",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar source bloc allocation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar no passing-list raw percent fabricated",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar no other raw aggregation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar named small-party share once",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar known percentage sum",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar prior fieldwork does not overlap",
+      "pass": true,
+      "details": {
+        "oldStart": "2026-09-23",
+        "oldEnd": "2026-09-24",
+        "newStart": "2026-09-30",
+        "newEnd": "2026-10-01"
+      }
+    },
+    {
+      "name": "lazar replacement references baseline",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar exactly one matching history",
+      "pass": true,
+      "details": {
+        "historyId": "history_lazar_2026-10-02_current",
+        "sourcePollId": "lazar_2026-10-02",
+        "allSharedSourceFieldsEqual": true
+      }
+    },
+    {
+      "name": "lazar original and public archived source digests",
+      "pass": true,
+      "details": [
+        {
+          "name": "maariv-lazar-2026-10-02-1372750.html",
+          "pass": true
+        },
+        {
+          "name": "maariv-lazar-2026-10-02-source-extract.txt",
+          "pass": true
+        },
+        {
+          "name": "maariv-2026-10-02-original-infogram.html",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "name": "lazar source primary provenance",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar independent reconstructed share total",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar passing-list reconstruction threshold",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar independent reconstruction agrees",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar independently allocated120 seats reproduce publication",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "lazar project allocation matches independent allocation",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "C14 unpublished mode and margin remain null",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "i24 mode margin confidence",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "i24 four canonical strict bounds without exact raw",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "i24 two unmodelled bounds without exact raw",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "i24 missing undisclosed metadata",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Maariv actual sample distinct planned invited",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Maariv method panel margin undecided",
+      "pass": true,
+      "details": null
+    },
+    {
+      "name": "Maariv6.4 undecided primary evidence",
+      "pass": true,
+      "details": {
+        "source": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+        "originalChartTitle": "סקר מנדטים 02.10.26",
+        "originalChartRows": [
+          [
+            "!ישר",
+            "21"
+          ],
+          [
+            "הליכוד ",
+            "19"
+          ],
+          [
+            "ביחד ",
+            "13"
+          ],
+          [
+            "הדמוקרטים",
+            "10"
+          ],
+          [
+            "ישראל ביתנו ",
+            "9"
+          ],
+          [
+            "עוצמה יהודית",
+            "9"
+          ],
+          [
+            "רשימה ערבית משותפת ",
+            "7"
+          ],
+          [
+            "יהדות התורה",
+            "7"
+          ],
+          [
+            "ש\"ס ",
+            "7"
+          ],
+          [
+            "הציונות הדתית וזהות",
+            "5"
+          ],
+          [
+            "רעמ ",
+            "5"
+          ],
+          [
+            "עמך ישראל",
+            "4"
+          ],
+          [
+            "המילואימניקים והכלכלית",
+            "4"
+          ],
+          [
+            "כחול לבן ",
+            "0 (0.7%)"
+          ],
+          [
+            "הציבור החרדי ",
+            "0 (0.6%)"
+          ],
+          [
+            "נעם לישראל ",
+            "0 (0.4%)"
+          ],
+          [
+            "צומת בית ישראל ",
+            "0 (0.3%)"
+          ]
+        ]
+      }
+    },
+    {
+      "name": "Maariv undecidedSourceUrl supports6.4",
+      "pass": true,
+      "details": {
+        "currentUndecidedSourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+        "actualSupportingSourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+        "originalPartyChartContainsUndecided": false,
+        "proposedFix": "Point undecidedSourceUrl to the original Maariv article1372750; retain Infogram as seats/below-threshold evidence."
+      }
+    },
+    {
+      "name": "resolved Maariv provenance reflected in all affected six JSON artifacts/seven references",
+      "pass": true,
+      "details": [
+        {
+          "file": "data/current-polls.json",
+          "sha256": "5b98fb9f024763c55577cfe9de4226a0a16530b8ee2c05fac731ecfad536e401",
+          "references": [
+            {
+              "path": "root.polls.3",
+              "reference": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+              "pass": true
+            },
+            {
+              "path": "root.documentReview.reports.0",
+              "reference": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+              "pass": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "data/poll-history.json",
+          "sha256": "3a19521d038b52cb936aafc3a555b723d405cc4a689bbb1a53e6495b1b3edb8a",
+          "references": [
+            {
+              "path": "root.polls.104",
+              "reference": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+              "pass": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "data/survey-documents-2026-09-14.json",
+          "sha256": "68e6a7fb493d946c1c711200b2fe687c2c48385a451c1c0dc82677b8c24a3772",
+          "references": [
+            {
+              "path": "root.reports.0",
+              "reference": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+              "pass": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "github-pages/sources/2026-10-02/extracted-surveys.json",
+          "sha256": "68e6a7fb493d946c1c711200b2fe687c2c48385a451c1c0dc82677b8c24a3772",
+          "references": [
+            {
+              "path": "root.reports.0",
+              "reference": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+              "pass": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "artifacts/sources/2026-10-02-ingestion/reviewed-polls.json",
+          "sha256": "cefceba7100c478b43282b54537e78a5b8480fc991076add968a9016246a63e6",
+          "references": [
+            {
+              "path": "root.polls.2",
+              "reference": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+              "pass": true
+            }
+          ],
+          "pass": true
+        },
+        {
+          "file": "github-pages/sources/2026-10-02/reviewed-polls.json",
+          "sha256": "cefceba7100c478b43282b54537e78a5b8480fc991076add968a9016246a63e6",
+          "references": [
+            {
+              "path": "root.polls.2",
+              "reference": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+              "pass": true
+            }
+          ],
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "pollResults": [
+    {
+      "id": "next_data_2026-10-01",
+      "sourceUrl": "https://www.c14.co.il/article/1720749",
+      "fieldwork": [
+        "2026-10-01",
+        "2026-10-01"
+      ],
+      "sampleSize": 2175,
+      "rawSupport": {
+        "winter": 1.7,
+        "hendel": 1.2,
+        "gantz": 0.4,
+        "haredi_public": 0.2,
+        "noam": 0.1
+      },
+      "modelOnlyNamedShare": 0.1,
+      "knownModelInputPct": 3.7,
+      "reservedUnreportedModelPct": 0,
+      "passingSharePoolPct": 96.3,
+      "independentSharesPct": {
+        "yashar": 16.8525,
+        "likud": 25.68,
+        "beyachad": 6.42,
+        "democrats": 7.2225,
+        "yisrael_beiteinu": 4.815,
+        "utj": 6.42,
+        "joint": 5.6175,
+        "shas": 8.025,
+        "otzma": 5.6175,
+        "rz_zehut": 5.6175,
+        "raam": 4.0125,
+        "winter": 1.7,
+        "hendel": 1.2,
+        "gantz": 0.4,
+        "noam": 0.1,
+        "haredi_public": 0.2,
+        "israel_first": 0,
+        "other": 0.1
+      },
+      "reconstructionMaximumAbsoluteProbabilityError": 0,
+      "independentAllocationSeats": {
+        "yashar": 21,
+        "likud": 32,
+        "beyachad": 8,
+        "democrats": 9,
+        "yisrael_beiteinu": 6,
+        "utj": 8,
+        "joint": 7,
+        "shas": 10,
+        "otzma": 7,
+        "rz_zehut": 7,
+        "raam": 5,
+        "winter": 0,
+        "hendel": 0,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": 0,
+        "other": 0
+      },
+      "sourceHashes": [
+        {
+          "name": "c14-2026-10-01-1720749.html",
+          "pass": true
+        },
+        {
+          "name": "c14-2026-10-01-source-extract.txt",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "direct_polls_2026-10-01",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef",
+      "fieldwork": [
+        "2026-10-01",
+        "2026-10-01"
+      ],
+      "sampleSize": 504,
+      "rawSupport": {
+        "hendel": 1.8
+      },
+      "modelOnlyNamedShare": null,
+      "knownModelInputPct": 1.8,
+      "reservedUnreportedModelPct": 0.5,
+      "passingSharePoolPct": 97.7,
+      "independentSharesPct": {
+        "yashar": 17.911666666667,
+        "likud": 22.796666666667,
+        "beyachad": 7.3275,
+        "democrats": 7.3275,
+        "yisrael_beiteinu": 5.699166666667,
+        "utj": 6.513333333333,
+        "joint": 6.513333333333,
+        "shas": 5.699166666667,
+        "otzma": 6.513333333333,
+        "rz_zehut": 4.070833333333,
+        "raam": 4.070833333333,
+        "winter": 3.256666666667,
+        "hendel": 1.8,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": 0,
+        "other": 0.5
+      },
+      "reconstructionMaximumAbsoluteProbabilityError": 0,
+      "independentAllocationSeats": {
+        "yashar": 22,
+        "likud": 28,
+        "beyachad": 9,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "otzma": 8,
+        "rz_zehut": 5,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 0,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": 0,
+        "other": 0
+      },
+      "sourceHashes": [
+        {
+          "name": "i24-2026-10-01-761931ef.html",
+          "pass": true
+        },
+        {
+          "name": "i24-2026-10-01-source-extract.txt",
+          "pass": true
+        }
+      ]
+    },
+    {
+      "id": "lazar_2026-10-02",
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "fieldwork": [
+        "2026-09-30",
+        "2026-10-01"
+      ],
+      "sampleSize": 602,
+      "rawSupport": {
+        "gantz": 0.7,
+        "haredi_public": 0.6,
+        "noam": 0.4
+      },
+      "modelOnlyNamedShare": 0.3,
+      "knownModelInputPct": 1.9999999999999998,
+      "reservedUnreportedModelPct": 0,
+      "passingSharePoolPct": 98,
+      "independentSharesPct": {
+        "yashar": 17.15,
+        "likud": 15.516666666667,
+        "beyachad": 10.616666666667,
+        "democrats": 8.166666666667,
+        "yisrael_beiteinu": 7.35,
+        "utj": 5.716666666667,
+        "joint": 5.716666666667,
+        "shas": 5.716666666667,
+        "otzma": 7.35,
+        "rz_zehut": 4.083333333333,
+        "raam": 4.083333333333,
+        "winter": 3.266666666667,
+        "hendel": 3.266666666667,
+        "gantz": 0.7,
+        "noam": 0.4,
+        "haredi_public": 0.6,
+        "israel_first": 0,
+        "other": 0.3
+      },
+      "reconstructionMaximumAbsoluteProbabilityError": 0,
+      "independentAllocationSeats": {
+        "yashar": 21,
+        "likud": 19,
+        "beyachad": 13,
+        "democrats": 10,
+        "yisrael_beiteinu": 9,
+        "utj": 7,
+        "joint": 7,
+        "shas": 7,
+        "otzma": 9,
+        "rz_zehut": 5,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 4,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": 0,
+        "other": 0
+      },
+      "sourceHashes": [
+        {
+          "name": "maariv-lazar-2026-10-02-1372750.html",
+          "pass": true
+        },
+        {
+          "name": "maariv-lazar-2026-10-02-source-extract.txt",
+          "pass": true
+        },
+        {
+          "name": "maariv-2026-10-02-original-infogram.html",
+          "pass": true
+        }
+      ]
+    }
+  ],
+  "defects": [],
+  "caveats": [
+    "C14 mode, margin, panel, invitation count and undecided share are unpublished nulls.",
+    "i24 six <1% values are documentary upper bounds; no exact supports are inferred. The model still uses its existing unreported small-party reserve of0.5% and may represent unmeasured parties with zero model mass; these zeros are not measurements.",
+    "C14 Ahi0.1% and Maariv Tzomet0.3% remain named original reports mapped once to non-ballot other for reconstruction only.",
+    "Maariv6.4% undecided is separate from the support vector; it is not subtracted again.",
+    "Maariv article displayed06:41 differs from metadata06:00:46/updated07:21:33. Canonical preserves all timestamps; fieldwork isSeptember30–October1.",
+    "Kan403 and Channel16 unreadable application shell remain source-coverage limitations.",
+    "Independent seat allocation uses no surplus agreements to check reconciliation with the published polls; election simulations can use user-selected agreements."
+  ],
+  "resolvedFindings": [
+    {
+      "problem": "Maariv undecidedSourceUrl pointed to a party seat chart with no undecided row",
+      "resolution": "Ingestion owner changed all seven affected reference fields across six JSON artifacts to the original article1372750, which explicitly reports6.4%; independent Infogram retained as seat evidence.",
+      "verification": "Rechecked all affected references and final artifact digests; numeric inputs and immutable source captures unchanged."
+    }
+  ],
+  "canonicalInputSha256": {
+    "currentPolls": "5b98fb9f024763c55577cfe9de4226a0a16530b8ee2c05fac731ecfad536e401",
+    "pollHistory": "3a19521d038b52cb936aafc3a555b723d405cc4a689bbb1a53e6495b1b3edb8a",
+    "parties": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "sources": "235ed436dc5c61bc66bbf076f2757def23157c77659c80d5259ada523a05a849",
+    "reviewedPolls": "cefceba7100c478b43282b54537e78a5b8480fc991076add968a9016246a63e6"
+  }
+}

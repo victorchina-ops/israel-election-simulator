@@ -1,2 +1,6 @@
 # Preserve the exact bytes of checksum-pinned publisher evidence.
 /sources/2026-09-28/*.html -text -diff
+/sources/2026-10-02/* -text
+/sources/2026-10-02/*.html -diff
+/sources/2026-10-02-trends/* -text
+/sources/2026-10-02-comparison/* -text

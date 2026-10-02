@@ -1,0 +1,6447 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-02",
+  "weightMode": "quality",
+  "coverage": {
+    "pollCount": 28,
+    "seriesCount": 7,
+    "deltaCount": 21,
+    "partyCount": 17,
+    "from": "2026-09-09",
+    "to": "2026-10-01",
+    "closureDate": "2026-09-08",
+    "excludedPollCount": 6
+  },
+  "weights": [
+    {
+      "pollsterId": "direct_polls",
+      "label": "i24 / דיירקט פולס",
+      "weight": 0.14213417473685613,
+      "nPolls": 4
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "label": "חדשות 13 / המדד",
+      "weight": 0.14213417473685613,
+      "nPolls": 3
+    },
+    {
+      "pollsterId": "kantar",
+      "label": "כאן והיום / קנטאר",
+      "weight": 0.14820849070973077,
+      "nPolls": 3
+    },
+    {
+      "pollsterId": "lazar",
+      "label": "מעריב ווואלה / לזר",
+      "weight": 0.143445517430762,
+      "nPolls": 5
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "label": "חדשות 12 / מדגם",
+      "weight": 0.13980929291208272,
+      "nPolls": 3
+    },
+    {
+      "pollsterId": "next_data",
+      "label": "חדשות 14 / NEXT DATA",
+      "weight": 0.14213417473685613,
+      "nPolls": 6
+    },
+    {
+      "pollsterId": "tatika",
+      "label": "זמן ישראל / טאטיקה",
+      "weight": 0.14213417473685613,
+      "nPolls": 4
+    }
+  ],
+  "rows": [
+    {
+      "partyId": "yashar",
+      "partyName": "ישר!",
+      "weightedFirstSeats": 23.288315587184854,
+      "weightedLastSeats": 21.860303916717342,
+      "weightedNetDelta": -1.4280116704675125,
+      "slopePerWeek": -0.47910117266723234,
+      "pValue": 0.011026556069958848,
+      "wholeSeriesSignFlipP": 0.0625,
+      "upwardSeries": 1,
+      "downwardSeries": 5,
+      "flatSeries": 1,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.0624838177297668,
+      "wholeSeriesSignFlipQ": 0.53125,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "yashar",
+          "partyName": "ישר!",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 22,
+          "lastSeats": 22,
+          "netDelta": 0,
+          "slopePerWeek": 0.08528584817244689,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            22,
+            21,
+            22,
+            22
+          ],
+          "deltas": [
+            -1,
+            1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "yashar",
+          "partyName": "ישר!",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 22,
+          "lastSeats": 22,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            22,
+            22,
+            22
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "yashar",
+          "partyName": "ישר!",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 24,
+          "lastSeats": 23,
+          "netDelta": -1,
+          "slopePerWeek": -0.32110091743119185,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            24,
+            22,
+            23
+          ],
+          "deltas": [
+            -2,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "yashar",
+          "partyName": "ישר!",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 25,
+          "lastSeats": 21,
+          "netDelta": -4,
+          "slopePerWeek": -1.3373317729666496,
+          "pValue": 0.016666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            25,
+            25,
+            23,
+            22,
+            21
+          ],
+          "deltas": [
+            0,
+            -2,
+            -1,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "yashar",
+          "partyName": "ישר!",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 25,
+          "lastSeats": 23,
+          "netDelta": -2,
+          "slopePerWeek": -0.9767441860465098,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            25,
+            23,
+            23
+          ],
+          "deltas": [
+            -2,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "yashar",
+          "partyName": "ישר!",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 22,
+          "lastSeats": 21,
+          "netDelta": -1,
+          "slopePerWeek": -0.11079136690647395,
+          "pValue": 0.7333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            22,
+            21,
+            20,
+            22,
+            21,
+            21
+          ],
+          "deltas": [
+            -1,
+            -1,
+            2,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "yashar",
+          "partyName": "ישר!",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 23,
+          "lastSeats": 21,
+          "netDelta": -2,
+          "slopePerWeek": -0.7000000000000011,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            23,
+            24,
+            23,
+            21
+          ],
+          "deltas": [
+            1,
+            -1,
+            -2
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "likud",
+      "partyName": "הליכוד",
+      "weightedFirstSeats": 23.274146795789697,
+      "weightedLastSeats": 22.705312293279235,
+      "weightedNetDelta": -0.5688345025104629,
+      "slopePerWeek": -0.20021946142260647,
+      "pValue": 0.1601020233196159,
+      "wholeSeriesSignFlipP": 0.21875,
+      "upwardSeries": 3,
+      "downwardSeries": 4,
+      "flatSeries": 0,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.6493055555555556,
+      "wholeSeriesSignFlipQ": 0.85,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "likud",
+          "partyName": "הליכוד",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 27,
+          "lastSeats": 28,
+          "netDelta": 1,
+          "slopePerWeek": 0.28209934395501546,
+          "pValue": 0.5,
+          "constantSeatSeries": false,
+          "seats": [
+            27,
+            27,
+            27,
+            28
+          ],
+          "deltas": [
+            0,
+            0,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "likud",
+          "partyName": "הליכוד",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 19,
+          "lastSeats": 18,
+          "netDelta": -1,
+          "slopePerWeek": -0.47297297297297547,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            19,
+            18,
+            18
+          ],
+          "deltas": [
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "likud",
+          "partyName": "הליכוד",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 21,
+          "lastSeats": 21,
+          "netDelta": 0,
+          "slopePerWeek": 0.04281345565749284,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            21,
+            20,
+            21
+          ],
+          "deltas": [
+            -1,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "likud",
+          "partyName": "הליכוד",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 21,
+          "lastSeats": 19,
+          "netDelta": -2,
+          "slopePerWeek": -0.45055588063195007,
+          "pValue": 0.4,
+          "constantSeatSeries": false,
+          "seats": [
+            21,
+            19,
+            18,
+            18,
+            19
+          ],
+          "deltas": [
+            -2,
+            -1,
+            0,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "likud",
+          "partyName": "הליכוד",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 21,
+          "lastSeats": 20,
+          "netDelta": -1,
+          "slopePerWeek": -0.4883720930232549,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            21,
+            20,
+            20
+          ],
+          "deltas": [
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "likud",
+          "partyName": "הליכוד",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 31,
+          "lastSeats": 32,
+          "netDelta": 1,
+          "slopePerWeek": 0.3726618705035989,
+          "pValue": 0.23333333333333334,
+          "constantSeatSeries": false,
+          "seats": [
+            31,
+            30,
+            31,
+            32,
+            31,
+            32
+          ],
+          "deltas": [
+            -1,
+            1,
+            1,
+            -1,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "likud",
+          "partyName": "הליכוד",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 23,
+          "lastSeats": 21,
+          "netDelta": -2,
+          "slopePerWeek": -0.6999999999999993,
+          "pValue": 0.16666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            23,
+            22,
+            21,
+            21
+          ],
+          "deltas": [
+            -1,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "beyachad",
+      "partyName": "ביחד",
+      "weightedFirstSeats": 12.000297803563038,
+      "weightedLastSeats": 10.713704572264552,
+      "weightedNetDelta": -1.2865932312984856,
+      "slopePerWeek": -0.5044031872748124,
+      "pValue": 0.005385159465020576,
+      "wholeSeriesSignFlipP": 0.0625,
+      "upwardSeries": 1,
+      "downwardSeries": 5,
+      "flatSeries": 1,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.04722222222222222,
+      "wholeSeriesSignFlipQ": 0.53125,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 10,
+          "lastSeats": 9,
+          "netDelta": -1,
+          "slopePerWeek": -0.29522024367385163,
+          "pValue": 0.25,
+          "constantSeatSeries": false,
+          "seats": [
+            10,
+            9,
+            9,
+            9
+          ],
+          "deltas": [
+            -1,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 13,
+          "lastSeats": 11,
+          "netDelta": -2,
+          "slopePerWeek": -0.9932432432432448,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            13,
+            12,
+            11
+          ],
+          "deltas": [
+            -1,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 12,
+          "lastSeats": 11,
+          "netDelta": -1,
+          "slopePerWeek": -0.44954128440366947,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            12,
+            13,
+            11
+          ],
+          "deltas": [
+            1,
+            -2
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 14,
+          "lastSeats": 13,
+          "netDelta": -1,
+          "slopePerWeek": -0.3502047981275611,
+          "pValue": 0.2,
+          "constantSeatSeries": false,
+          "seats": [
+            14,
+            14,
+            13,
+            13,
+            13
+          ],
+          "deltas": [
+            0,
+            -1,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 13,
+          "lastSeats": 13,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            13,
+            13,
+            13
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 7,
+          "lastSeats": 8,
+          "netDelta": 1,
+          "slopePerWeek": 0.2618705035971223,
+          "pValue": 0.4666666666666667,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            9,
+            7,
+            9,
+            8
+          ],
+          "deltas": [
+            1,
+            1,
+            -2,
+            2,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 15,
+          "lastSeats": 10,
+          "netDelta": -5,
+          "slopePerWeek": -1.7000000000000002,
+          "pValue": 0.08333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            15,
+            14,
+            12,
+            10
+          ],
+          "deltas": [
+            -1,
+            -2,
+            -2
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "democrats",
+      "partyName": "הדמוקרטים",
+      "weightedFirstSeats": 8.997675118175227,
+      "weightedLastSeats": 9.285579692167618,
+      "weightedNetDelta": 0.28790457399239155,
+      "slopePerWeek": 0.0715306354495618,
+      "pValue": 0.5090123456790123,
+      "wholeSeriesSignFlipP": 0.6875,
+      "upwardSeries": 3,
+      "downwardSeries": 2,
+      "flatSeries": 2,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.78665544332211,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "democrats",
+          "partyName": "הדמוקרטים",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 9,
+          "lastSeats": 9,
+          "netDelta": 0,
+          "slopePerWeek": -0.08528584817244572,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            9,
+            10,
+            9,
+            9
+          ],
+          "deltas": [
+            1,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "democrats",
+          "partyName": "הדמוקרטים",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 10,
+          "lastSeats": 11,
+          "netDelta": 1,
+          "slopePerWeek": 0.5202702702702693,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            10,
+            10,
+            11
+          ],
+          "deltas": [
+            0,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "democrats",
+          "partyName": "הדמוקרטים",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 9,
+          "lastSeats": 9,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            9,
+            9,
+            9
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "democrats",
+          "partyName": "הדמוקרטים",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 9,
+          "lastSeats": 10,
+          "netDelta": 1,
+          "slopePerWeek": 0.3235810415447622,
+          "pValue": 0.4,
+          "constantSeatSeries": false,
+          "seats": [
+            9,
+            10,
+            9,
+            11,
+            10
+          ],
+          "deltas": [
+            1,
+            -1,
+            2,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "democrats",
+          "partyName": "הדמוקרטים",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 10,
+          "lastSeats": 9,
+          "netDelta": -1,
+          "slopePerWeek": -0.5697674418604644,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            10,
+            10,
+            9
+          ],
+          "deltas": [
+            0,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "democrats",
+          "partyName": "הדמוקרטים",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 8,
+          "lastSeats": 9,
+          "netDelta": 1,
+          "slopePerWeek": 0.3021582733812953,
+          "pValue": 0.2,
+          "constantSeatSeries": false,
+          "seats": [
+            8,
+            9,
+            8,
+            9,
+            9,
+            9
+          ],
+          "deltas": [
+            1,
+            -1,
+            1,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "democrats",
+          "partyName": "הדמוקרטים",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 8,
+          "lastSeats": 8,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "yisrael_beiteinu",
+      "partyName": "ישראל ביתנו",
+      "weightedFirstSeats": 8.135046319633114,
+      "weightedLastSeats": 8.28932912631572,
+      "weightedNetDelta": 0.1542828066826054,
+      "slopePerWeek": 0.09189774691625706,
+      "pValue": 0.45243055555555556,
+      "wholeSeriesSignFlipP": 0.6875,
+      "upwardSeries": 3,
+      "downwardSeries": 2,
+      "flatSeries": 2,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.78665544332211,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "yisrael_beiteinu",
+          "partyName": "ישראל ביתנו",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": -0.08528584817244605,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            7,
+            7
+          ],
+          "deltas": [
+            1,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "yisrael_beiteinu",
+          "partyName": "ישראל ביתנו",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 8,
+          "lastSeats": 8,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            8,
+            8,
+            8
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "yisrael_beiteinu",
+          "partyName": "ישראל ביתנו",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 7,
+          "lastSeats": 9,
+          "netDelta": 2,
+          "slopePerWeek": 0.7706422018348627,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            9
+          ],
+          "deltas": [
+            1,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "yisrael_beiteinu",
+          "partyName": "ישראל ביתנו",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 9,
+          "lastSeats": 9,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            9,
+            9,
+            9,
+            9,
+            9
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "yisrael_beiteinu",
+          "partyName": "ישראל ביתנו",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 9,
+          "lastSeats": 9,
+          "netDelta": 0,
+          "slopePerWeek": 0.08139534883720945,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            9,
+            8,
+            9
+          ],
+          "deltas": [
+            -1,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "yisrael_beiteinu",
+          "partyName": "ישראל ביתנו",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 7,
+          "lastSeats": 6,
+          "netDelta": -1,
+          "slopePerWeek": -0.2517985611510789,
+          "pValue": 0.3,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            6,
+            7,
+            7,
+            6,
+            6
+          ],
+          "deltas": [
+            -1,
+            1,
+            0,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "yisrael_beiteinu",
+          "partyName": "ישראל ביתנו",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 10,
+          "lastSeats": 10,
+          "netDelta": 0,
+          "slopePerWeek": 0.09999999999999998,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            10,
+            9,
+            10,
+            10
+          ],
+          "deltas": [
+            -1,
+            1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "utj",
+      "partyName": "יהדות התורה",
+      "weightedFirstSeats": 7.856554482569238,
+      "weightedLastSeats": 7.708345991859508,
+      "weightedNetDelta": -0.14820849070973077,
+      "slopePerWeek": -0.09504320028769558,
+      "pValue": 0.31333333333333335,
+      "wholeSeriesSignFlipP": 0.375,
+      "upwardSeries": 2,
+      "downwardSeries": 3,
+      "flatSeries": 2,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.7287061149691358,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "utj",
+          "partyName": "יהדות התורה",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 8,
+          "lastSeats": 8,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            8,
+            8,
+            8,
+            8
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "utj",
+          "partyName": "יהדות התורה",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 8,
+          "lastSeats": 8,
+          "netDelta": 0,
+          "slopePerWeek": 0.04729729729729648,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            8,
+            7,
+            8
+          ],
+          "deltas": [
+            -1,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "utj",
+          "partyName": "יהדות התורה",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 8,
+          "lastSeats": 7,
+          "netDelta": -1,
+          "slopePerWeek": -0.36391437308868513,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            8,
+            7,
+            7
+          ],
+          "deltas": [
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "utj",
+          "partyName": "יהדות התורה",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": -0.11673493270918667,
+          "pValue": 0.8,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            7,
+            7,
+            6,
+            7
+          ],
+          "deltas": [
+            0,
+            0,
+            -1,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "utj",
+          "partyName": "יהדות התורה",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 8,
+          "lastSeats": 8,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            8,
+            8,
+            8
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "utj",
+          "partyName": "יהדות התורה",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 7,
+          "lastSeats": 8,
+          "netDelta": 1,
+          "slopePerWeek": 0.1812949640287771,
+          "pValue": 0.4666666666666667,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            8,
+            7,
+            8,
+            8
+          ],
+          "deltas": [
+            1,
+            0,
+            -1,
+            1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "utj",
+          "partyName": "יהדות התורה",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 9,
+          "lastSeats": 8,
+          "netDelta": -1,
+          "slopePerWeek": -0.3999999999999999,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            9,
+            9,
+            8,
+            8
+          ],
+          "deltas": [
+            0,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "joint",
+      "partyName": "הרשימה המשותפת",
+      "weightedFirstSeats": 7.0,
+      "weightedLastSeats": 7.426402524210569,
+      "weightedNetDelta": 0.4264025242105684,
+      "slopePerWeek": 0.10428242993465436,
+      "pValue": 0.1909722222222222,
+      "wholeSeriesSignFlipP": 0.25,
+      "upwardSeries": 3,
+      "downwardSeries": 1,
+      "flatSeries": 3,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.6493055555555556,
+      "wholeSeriesSignFlipQ": 0.85,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 7,
+          "lastSeats": 8,
+          "netDelta": 1,
+          "slopePerWeek": 0.28209934395501435,
+          "pValue": 0.5,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            7,
+            7,
+            8
+          ],
+          "deltas": [
+            0,
+            0,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 8,
+          "lastSeats": 8,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            8,
+            8,
+            8
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": -0.08139534883720945,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            7
+          ],
+          "deltas": [
+            1,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 6,
+          "lastSeats": 7,
+          "netDelta": 1,
+          "slopePerWeek": 0.23165467625899305,
+          "pValue": 0.16666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            6,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 7,
+          "lastSeats": 8,
+          "netDelta": 1,
+          "slopePerWeek": 0.30000000000000027,
+          "pValue": 0.5,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            8,
+            8
+          ],
+          "deltas": [
+            1,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "shas",
+      "partyName": "ש״ס",
+      "weightedFirstSeats": 7.852805048421137,
+      "weightedLastSeats": 7.710670873684281,
+      "weightedNetDelta": -0.14213417473685613,
+      "slopePerWeek": -0.03801410163425839,
+      "pValue": 0.4722222222222222,
+      "wholeSeriesSignFlipP": 0.5,
+      "upwardSeries": 1,
+      "downwardSeries": 2,
+      "flatSeries": 4,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.78665544332211,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "shas",
+          "partyName": "ש״ס",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            7,
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "shas",
+          "partyName": "ש״ס",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "shas",
+          "partyName": "ש״ס",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "shas",
+          "partyName": "ש״ס",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": -0.11673493270918667,
+          "pValue": 0.8,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            7,
+            7,
+            6,
+            7
+          ],
+          "deltas": [
+            0,
+            0,
+            -1,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "shas",
+          "partyName": "ש״ס",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "shas",
+          "partyName": "ש״ס",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 10,
+          "lastSeats": 10,
+          "netDelta": 0,
+          "slopePerWeek": 0.05035971223021596,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            10,
+            10,
+            10,
+            11,
+            10,
+            10
+          ],
+          "deltas": [
+            0,
+            0,
+            1,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "shas",
+          "partyName": "ש״ס",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 10,
+          "lastSeats": 9,
+          "netDelta": -1,
+          "slopePerWeek": -0.2,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            10,
+            9,
+            10,
+            9
+          ],
+          "deltas": [
+            -1,
+            1,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "otzma",
+      "partyName": "עוצמה יהודית",
+      "weightedFirstSeats": 7.286593231298486,
+      "weightedLastSeats": 7.1470817419494415,
+      "weightedNetDelta": -0.1395114893490444,
+      "slopePerWeek": -0.13555614704677277,
+      "pValue": 0.34292052469135803,
+      "wholeSeriesSignFlipP": 0.53125,
+      "upwardSeries": 2,
+      "downwardSeries": 4,
+      "flatSeries": 1,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.7287061149691358,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "otzma",
+          "partyName": "עוצמה יהודית",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 8,
+          "lastSeats": 8,
+          "netDelta": 0,
+          "slopePerWeek": 0.08528584817244633,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            8,
+            7,
+            8,
+            8
+          ],
+          "deltas": [
+            -1,
+            1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "otzma",
+          "partyName": "עוצמה יהודית",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 9,
+          "lastSeats": 7,
+          "netDelta": -2,
+          "slopePerWeek": -0.9932432432432439,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            9,
+            8,
+            7
+          ],
+          "deltas": [
+            -1,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "otzma",
+          "partyName": "עוצמה יהודית",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 7,
+          "lastSeats": 7,
+          "netDelta": 0,
+          "slopePerWeek": -0.042813455657492394,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            7
+          ],
+          "deltas": [
+            1,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "otzma",
+          "partyName": "עוצמה יהודית",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 7,
+          "lastSeats": 9,
+          "netDelta": 2,
+          "slopePerWeek": 0.557050906963136,
+          "pValue": 0.06666666666666667,
+          "constantSeatSeries": false,
+          "seats": [
+            7,
+            8,
+            8,
+            9,
+            9
+          ],
+          "deltas": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "otzma",
+          "partyName": "עוצמה יהודית",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 6,
+          "lastSeats": 6,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            6,
+            6,
+            6
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "otzma",
+          "partyName": "עוצמה יהודית",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 8,
+          "lastSeats": 7,
+          "netDelta": -1,
+          "slopePerWeek": -0.46330935251798566,
+          "pValue": 0.16666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            8,
+            8,
+            8,
+            6,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            0,
+            -2,
+            1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "otzma",
+          "partyName": "עוצמה יהודית",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 6,
+          "lastSeats": 6,
+          "netDelta": 0,
+          "slopePerWeek": -0.09999999999999998,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            6,
+            7,
+            6,
+            6
+          ],
+          "deltas": [
+            1,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "rz_zehut",
+      "partyName": "הציונות הדתית–זהות",
+      "weightedFirstSeats": 5.568536698947424,
+      "weightedLastSeats": 5.5746110149203,
+      "weightedNetDelta": 0.006074315972874639,
+      "slopePerWeek": 0.00728712886850294,
+      "pValue": 0.965787037037037,
+      "wholeSeriesSignFlipP": 0.90625,
+      "upwardSeries": 3,
+      "downwardSeries": 3,
+      "flatSeries": 1,
+      "zeroSeatsThroughout": false,
+      "qValue": 1.0,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "rz_zehut",
+          "partyName": "הציונות הדתית–זהות",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 6,
+          "lastSeats": 5,
+          "netDelta": -1,
+          "slopePerWeek": -0.28209934395501374,
+          "pValue": 0.5,
+          "constantSeatSeries": false,
+          "seats": [
+            6,
+            6,
+            6,
+            5
+          ],
+          "deltas": [
+            0,
+            0,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "rz_zehut",
+          "partyName": "הציונות הדתית–זהות",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 6,
+          "lastSeats": 6,
+          "netDelta": 0,
+          "slopePerWeek": -0.09459459459459518,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            6,
+            8,
+            6
+          ],
+          "deltas": [
+            2,
+            -2
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "rz_zehut",
+          "partyName": "הציונות הדתית–זהות",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 5,
+          "lastSeats": 6,
+          "netDelta": 1,
+          "slopePerWeek": 0.36391437308868513,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            5,
+            6,
+            6
+          ],
+          "deltas": [
+            1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "rz_zehut",
+          "partyName": "הציונות הדתית–זהות",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 5,
+          "lastSeats": 5,
+          "netDelta": 0,
+          "slopePerWeek": 0.0901111761263893,
+          "pValue": 0.7,
+          "constantSeatSeries": false,
+          "seats": [
+            5,
+            5,
+            6,
+            6,
+            5
+          ],
+          "deltas": [
+            0,
+            1,
+            0,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "rz_zehut",
+          "partyName": "הציונות הדתית–זהות",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 5,
+          "lastSeats": 5,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            5,
+            5,
+            5
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "rz_zehut",
+          "partyName": "הציונות הדתית–זהות",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 8,
+          "lastSeats": 7,
+          "netDelta": -1,
+          "slopePerWeek": -0.34244604316546745,
+          "pValue": 0.13333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            8,
+            8,
+            7,
+            7,
+            7,
+            7
+          ],
+          "deltas": [
+            0,
+            -1,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "rz_zehut",
+          "partyName": "הציונות הדתית–זהות",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 4,
+          "lastSeats": 5,
+          "netDelta": 1,
+          "slopePerWeek": 0.29999999999999977,
+          "pValue": 0.5,
+          "constantSeatSeries": false,
+          "seats": [
+            4,
+            4,
+            4,
+            5
+          ],
+          "deltas": [
+            0,
+            0,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "raam",
+      "partyName": "רע״ם",
+      "weightedFirstSeats": 5.1444590565616295,
+      "weightedLastSeats": 5.0,
+      "weightedNetDelta": -0.14445905656162955,
+      "slopePerWeek": -0.0132284866680882,
+      "pValue": 0.9004629629629629,
+      "wholeSeriesSignFlipP": 1.0,
+      "upwardSeries": 2,
+      "downwardSeries": 2,
+      "flatSeries": 3,
+      "zeroSeatsThroughout": false,
+      "qValue": 1.0,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "raam",
+          "partyName": "רע״ם",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 5,
+          "lastSeats": 5,
+          "netDelta": 0,
+          "slopePerWeek": 0.09840674789128395,
+          "pValue": 0.75,
+          "constantSeatSeries": false,
+          "seats": [
+            5,
+            5,
+            6,
+            5
+          ],
+          "deltas": [
+            0,
+            1,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "raam",
+          "partyName": "רע״ם",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 6,
+          "lastSeats": 5,
+          "netDelta": -1,
+          "slopePerWeek": -0.5202702702702711,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            6,
+            6,
+            5
+          ],
+          "deltas": [
+            0,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "raam",
+          "partyName": "רע״ם",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 5,
+          "lastSeats": 5,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            5,
+            5,
+            5
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "raam",
+          "partyName": "רע״ם",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 5,
+          "lastSeats": 5,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "raam",
+          "partyName": "רע״ם",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 4,
+          "lastSeats": 5,
+          "netDelta": 1,
+          "slopePerWeek": 0.5697674418604652,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            4,
+            4,
+            5
+          ],
+          "deltas": [
+            0,
+            1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "raam",
+          "partyName": "רע״ם",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 6,
+          "lastSeats": 5,
+          "netDelta": -1,
+          "slopePerWeek": -0.2316546762589924,
+          "pValue": 0.16666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            6,
+            5,
+            5,
+            5,
+            5,
+            5
+          ],
+          "deltas": [
+            -1,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "raam",
+          "partyName": "רע״ם",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 5,
+          "lastSeats": 5,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            5,
+            6,
+            6,
+            5
+          ],
+          "deltas": [
+            1,
+            0,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "winter",
+      "partyName": "עמך ישראל",
+      "weightedFirstSeats": 3.0027358950172336,
+      "weightedLastSeats": 3.5735974757894318,
+      "weightedNetDelta": 0.570861580772198,
+      "slopePerWeek": 0.2075167497963868,
+      "pValue": 0.28935185185185186,
+      "wholeSeriesSignFlipP": 0.75,
+      "upwardSeries": 2,
+      "downwardSeries": 2,
+      "flatSeries": 3,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.7287061149691358,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "winter",
+          "partyName": "עמך ישראל",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 4,
+          "lastSeats": 4,
+          "netDelta": 0,
+          "slopePerWeek": -0.08528584817244611,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            4,
+            5,
+            4,
+            4
+          ],
+          "deltas": [
+            1,
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "winter",
+          "partyName": "עמך ישראל",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 4,
+          "lastSeats": 5,
+          "netDelta": 1,
+          "slopePerWeek": 0.425675675675675,
+          "pValue": 1.0,
+          "constantSeatSeries": false,
+          "seats": [
+            4,
+            6,
+            5
+          ],
+          "deltas": [
+            2,
+            -1
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "winter",
+          "partyName": "עמך ישראל",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 4,
+          "lastSeats": 4,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            4,
+            4,
+            4
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "winter",
+          "partyName": "עמך ישראל",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 4,
+          "lastSeats": 4,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "winter",
+          "partyName": "עמך ישראל",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 5,
+          "lastSeats": 4,
+          "netDelta": -1,
+          "slopePerWeek": -0.4883720930232558,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            5,
+            4,
+            4
+          ],
+          "deltas": [
+            -1,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "winter",
+          "partyName": "עמך ישראל",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "winter",
+          "partyName": "עמך ישראל",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 4,
+          "netDelta": 4,
+          "slopePerWeek": 1.6,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            0,
+            0,
+            4,
+            4
+          ],
+          "deltas": [
+            0,
+            4,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "hendel",
+      "partyName": "המילואימניקים והכלכלית",
+      "weightedFirstSeats": 0.5928339628389231,
+      "weightedLastSeats": 3.005060776842007,
+      "weightedNetDelta": 2.412226814003084,
+      "slopePerWeek": 0.9830510660361027,
+      "pValue": 0.005555555555555556,
+      "wholeSeriesSignFlipP": 0.125,
+      "upwardSeries": 4,
+      "downwardSeries": 0,
+      "flatSeries": 3,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.04722222222222222,
+      "wholeSeriesSignFlipQ": 0.7083333333333334,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "hendel",
+          "partyName": "המילואימניקים והכלכלית",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "hendel",
+          "partyName": "המילואימניקים והכלכלית",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 0,
+          "lastSeats": 4,
+          "netDelta": 4,
+          "slopePerWeek": 2.0810810810810807,
+          "pValue": 0.3333333333333333,
+          "constantSeatSeries": false,
+          "seats": [
+            0,
+            0,
+            4
+          ],
+          "deltas": [
+            0,
+            4
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "hendel",
+          "partyName": "המילואימניקים והכלכלית",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 4,
+          "lastSeats": 4,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            4,
+            4,
+            4
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "hendel",
+          "partyName": "המילואימניקים והכלכלית",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 0,
+          "lastSeats": 4,
+          "netDelta": 4,
+          "slopePerWeek": 1.40081919251024,
+          "pValue": 0.2,
+          "constantSeatSeries": false,
+          "seats": [
+            0,
+            0,
+            4,
+            4,
+            4
+          ],
+          "deltas": [
+            0,
+            4,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "hendel",
+          "partyName": "המילואימניקים והכלכלית",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 0,
+          "lastSeats": 4,
+          "netDelta": 4,
+          "slopePerWeek": 1.9534883720930232,
+          "pValue": 0.6666666666666666,
+          "constantSeatSeries": false,
+          "seats": [
+            0,
+            4,
+            4
+          ],
+          "deltas": [
+            4,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "hendel",
+          "partyName": "המילואימניקים והכלכלית",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "hendel",
+          "partyName": "המילואימניקים והכלכלית",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 5,
+          "netDelta": 5,
+          "slopePerWeek": 1.5,
+          "pValue": 0.5,
+          "constantSeatSeries": false,
+          "seats": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "deltas": [
+            0,
+            0,
+            5
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "gantz",
+      "partyName": "כחול לבן",
+      "weightedFirstSeats": 0.0,
+      "weightedLastSeats": 0.0,
+      "weightedNetDelta": 0.0,
+      "slopePerWeek": 0.0,
+      "pValue": 1.0,
+      "wholeSeriesSignFlipP": 1.0,
+      "upwardSeries": 0,
+      "downwardSeries": 0,
+      "flatSeries": 7,
+      "zeroSeatsThroughout": true,
+      "qValue": 1.0,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "gantz",
+          "partyName": "כחול לבן",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "gantz",
+          "partyName": "כחול לבן",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "gantz",
+          "partyName": "כחול לבן",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "gantz",
+          "partyName": "כחול לבן",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "gantz",
+          "partyName": "כחול לבן",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "gantz",
+          "partyName": "כחול לבן",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "gantz",
+          "partyName": "כחול לבן",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "noam",
+      "partyName": "נעם לישראל",
+      "weightedFirstSeats": 0.0,
+      "weightedLastSeats": 0.0,
+      "weightedNetDelta": 0.0,
+      "slopePerWeek": 0.0,
+      "pValue": 1.0,
+      "wholeSeriesSignFlipP": 1.0,
+      "upwardSeries": 0,
+      "downwardSeries": 0,
+      "flatSeries": 7,
+      "zeroSeatsThroughout": true,
+      "qValue": 1.0,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "noam",
+          "partyName": "נעם לישראל",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "noam",
+          "partyName": "נעם לישראל",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "noam",
+          "partyName": "נעם לישראל",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "noam",
+          "partyName": "נעם לישראל",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "noam",
+          "partyName": "נעם לישראל",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "noam",
+          "partyName": "נעם לישראל",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "noam",
+          "partyName": "נעם לישראל",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "haredi_public",
+      "partyName": "הציבור החרדי",
+      "weightedFirstSeats": 0.0,
+      "weightedLastSeats": 0.0,
+      "weightedNetDelta": 0.0,
+      "slopePerWeek": 0.0,
+      "pValue": 1.0,
+      "wholeSeriesSignFlipP": 1.0,
+      "upwardSeries": 0,
+      "downwardSeries": 0,
+      "flatSeries": 7,
+      "zeroSeatsThroughout": true,
+      "qValue": 1.0,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "haredi_public",
+          "partyName": "הציבור החרדי",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "haredi_public",
+          "partyName": "הציבור החרדי",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "haredi_public",
+          "partyName": "הציבור החרדי",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "haredi_public",
+          "partyName": "הציבור החרדי",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "haredi_public",
+          "partyName": "הציבור החרדי",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "haredi_public",
+          "partyName": "הציבור החרדי",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "haredi_public",
+          "partyName": "הציבור החרדי",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    },
+    {
+      "partyId": "israel_first",
+      "partyName": "ישראל תחילה",
+      "weightedFirstSeats": 0.0,
+      "weightedLastSeats": 0.0,
+      "weightedNetDelta": 0.0,
+      "slopePerWeek": 0.0,
+      "pValue": 1.0,
+      "wholeSeriesSignFlipP": 1.0,
+      "upwardSeries": 0,
+      "downwardSeries": 0,
+      "flatSeries": 7,
+      "zeroSeatsThroughout": true,
+      "qValue": 1.0,
+      "wholeSeriesSignFlipQ": 1.0,
+      "byPollster": [
+        {
+          "pollsterId": "direct_polls",
+          "partyId": "israel_first",
+          "partyName": "ישראל תחילה",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "i24 / דיירקט פולס",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718",
+            "history_direct_polls_2026-09-17_current",
+            "history_direct_polls_2026-09-24_current",
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            8.0,
+            15.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "partyId": "israel_first",
+          "partyName": "ישראל תחילה",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-23",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 13 / המדד",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current",
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-16",
+            "2026-09-23"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            14.0
+          ]
+        },
+        {
+          "pollsterId": "kantar",
+          "partyId": "israel_first",
+          "partyName": "ישראל תחילה",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.14820849070973077,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-27",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "כאן והיום / קנטאר",
+          "pollIds": [
+            "history_kantar_2026-09-09_716",
+            "history_kantar_2026-09-17_current",
+            "history_kantar_2026-09-27_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-17",
+            "2026-09-27"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.5,
+            18.0
+          ]
+        },
+        {
+          "pollsterId": "lazar",
+          "partyId": "israel_first",
+          "partyName": "ישראל תחילה",
+          "nPolls": 5,
+          "nDeltas": 4,
+          "weight": 0.143445517430762,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-02",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "מעריב ווואלה / לזר",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722",
+            "history_lazar_2026-09-18_current",
+            "history_lazar_2026-09-25_current",
+            "history_lazar_2026-10-02_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-11",
+            "2026-09-18",
+            "2026-09-25",
+            "2026-10-02"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            0.5,
+            7.5,
+            14.5,
+            21.5
+          ]
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "partyId": "israel_first",
+          "partyName": "ישראל תחילה",
+          "nPolls": 3,
+          "nDeltas": 2,
+          "weight": 0.13980929291208272,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-09-22",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 12 / מדגם",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current",
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-14",
+            "2026-09-22"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            5.0,
+            13.0
+          ]
+        },
+        {
+          "pollsterId": "next_data",
+          "partyId": "israel_first",
+          "partyName": "ישראל תחילה",
+          "nPolls": 6,
+          "nDeltas": 5,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-09",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "חדשות 14 / NEXT DATA",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current",
+            "history_next_data_2026-09-17_current",
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current",
+            "history_next_data_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-09",
+            "2026-09-15",
+            "2026-09-17",
+            "2026-09-23",
+            "2026-09-28",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            6.0,
+            8.0,
+            14.0,
+            19.0,
+            22.0
+          ]
+        },
+        {
+          "pollsterId": "tatika",
+          "partyId": "israel_first",
+          "partyName": "ישראל תחילה",
+          "nPolls": 4,
+          "nDeltas": 3,
+          "weight": 0.14213417473685613,
+          "firstPublication": "2026-09-10",
+          "lastPublication": "2026-10-01",
+          "firstSeats": 0,
+          "lastSeats": 0,
+          "netDelta": 0,
+          "slopePerWeek": 0.0,
+          "pValue": 1.0,
+          "constantSeatSeries": true,
+          "seats": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "deltas": [
+            0,
+            0,
+            0
+          ],
+          "qValue": 1.0,
+          "label": "זמן ישראל / טאטיקה",
+          "pollIds": [
+            "history_tatika_2026-09-10_721",
+            "history_tatika_2026-09-17_current",
+            "history_tatika_2026-09-24_current",
+            "history_tatika_2026-10-01_current"
+          ],
+          "dates": [
+            "2026-09-10",
+            "2026-09-17",
+            "2026-09-24",
+            "2026-10-01"
+          ],
+          "timeDaysFromFirst": [
+            0.0,
+            7.0,
+            14.0,
+            21.0
+          ]
+        }
+      ]
+    }
+  ],
+  "cohort": [
+    {
+      "pollId": "history_lazar_2026-09-09_714",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "label": "מעריב ווואלה / לזר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.walla.co.il/news/politics/3866713"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "label": "מעריב ווואלה / לזר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_lazar_2026-09-18_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-18",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "label": "מעריב ווואלה / לזר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.maariv.co.il/news/politics/article-1368599"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "label": "מעריב ווואלה / לזר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.maariv.co.il/news/elections-2026/article-1370546"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "label": "מעריב ווואלה / לזר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.maariv.co.il/news/elections-2026/article-1372750"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-09_715",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "label": "חדשות 13 / המדד",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey4140.pdf",
+        "https://themadad.com/סקר-המדד-ספטמבר-9-2026/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_kantar_2026-09-09_716",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "label": "כאן והיום / קנטאר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.kan.org.il/content/kan-news/politic/1098105/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "label": "חדשות 12 / מדגם",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_kantar_2026-09-14_723",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "label": "כאן והיום / קנטאר",
+      "eligibleStrict": false,
+      "sourceUrls": [
+        "https://www.kan.org.il/content/kan-news/politic/1099439/",
+        "https://www.kan.org.il/media/oqkl1dgw/whatsapp-image-2026-09-14-at-191436.jpeg",
+        "https://infogram.com/1p0jwwvknyx5q2cemgy9d23e6jin1kg75lx"
+      ],
+      "reason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-14_current",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": "2026-09-14",
+      "fieldworkEnd": "2026-09-14",
+      "label": "חדשות 12 / מדגם",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-16_current",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-15",
+      "label": "חדשות 13 / המדד",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://themadad.com/סקר-המדד-ספטמבר-16-2026/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_kantar_2026-09-17_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "label": "כאן והיום / קנטאר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.israelhayom.co.il/news/politics/article/21444759"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-22_current",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-09-22",
+      "fieldworkStart": "2026-09-22",
+      "fieldworkEnd": "2026-09-22",
+      "label": "חדשות 12 / מדגם",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-23_current",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "label": "חדשות 13 / המדד",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://themadad.com/סקר-המדד-ספטמבר-22-2026/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "label": "כאן והיום / קנטאר",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.kan.org.il/content/kan-news/politic/1103667/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_next_data_2026-09-09_719",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "label": "חדשות 14 / NEXT DATA",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4143.pdf"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_next_data_2026-09-15_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-15",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-15",
+      "label": "חדשות 14 / NEXT DATA",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.c14.co.il/article/1703304"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_next_data_2026-09-17_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-17",
+      "fieldworkEnd": "2026-09-17",
+      "label": "חדשות 14 / NEXT DATA",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.c14.co.il/article/1706627"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "label": "חדשות 14 / NEXT DATA",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.c14.co.il/article/1711606"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "label": "חדשות 14 / NEXT DATA",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.c14.co.il/article/1716250"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-09_718",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "label": "i24 / דיירקט פולס",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-a92f58d0"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-17_current",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-17",
+      "fieldworkEnd": "2026-09-17",
+      "label": "i24 / דיירקט פולס",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-24_current",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": "2026-09-24",
+      "fieldworkEnd": "2026-09-24",
+      "label": "i24 / דיירקט פולס",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_next_data_2026-10-01_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-10-01",
+      "fieldworkEnd": "2026-10-01",
+      "label": "חדשות 14 / NEXT DATA",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.c14.co.il/article/1720749"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_direct_polls_2026-10-01_current",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-10-01",
+      "fieldworkEnd": "2026-10-01",
+      "label": "i24 / דיירקט פולס",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_tatika_2026-09-10_721",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "label": "זמן ישראל / טאטיקה",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.zman.co.il/723041/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_tatika_2026-09-17_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "label": "זמן ישראל / טאטיקה",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.zman.co.il/725468/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_tatika_2026-09-24_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "label": "זמן ישראל / טאטיקה",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.zman.co.il/727390/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_tatika_2026-10-01_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "label": "זמן ישראל / טאטיקה",
+      "eligibleStrict": true,
+      "sourceUrls": [
+        "https://www.zman.co.il/729422/"
+      ],
+      "reason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-10_720",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "label": "ערוץ 16 / מאגר מוחות",
+      "eligibleStrict": false,
+      "sourceUrls": [
+        "https://themadad.com/allpolls/"
+      ],
+      "reason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-16_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "label": "ערוץ 16 / מאגר מוחות",
+      "eligibleStrict": false,
+      "sourceUrls": [
+        "https://x.com/Ch16_IL/status/2100275361430786359"
+      ],
+      "reason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-24_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "label": "ערוץ 16 / מאגר מוחות",
+      "eligibleStrict": false,
+      "sourceUrls": [
+        "https://www.skarim.org/polls/channel-16-2026-09-24"
+      ],
+      "reason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "label": "ערוץ 16 / מאגר מוחות",
+      "eligibleStrict": false,
+      "sourceUrls": [
+        "https://themadad.com/allpolls/",
+        "https://www.news1.co.il/Archive/001-D-524346-00.html"
+      ],
+      "reason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה."
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-30_current",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-30",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "label": "חדשות 13 / המדד",
+      "eligibleStrict": false,
+      "sourceUrls": [
+        "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577"
+      ],
+      "reason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה."
+    }
+  ],
+  "sources": [
+    {
+      "title": "ועדת הבחירות — לוח הזמנים לבחירות",
+      "url": "https://www.gov.il/en/pages/time--table-26"
+    },
+    {
+      "title": "המכון הישראלי לדמוקרטיה — מועד סגירת הרשימות",
+      "url": "https://www.idi.org.il/articles/65737"
+    },
+    {
+      "title": "מבחני פרמוטציה — תיעוד SciPy",
+      "url": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.permutation_test.html"
+    }
+  ],
+  "methodology": {
+    "kind": "exact_within_series_time_permutation",
+    "twoSided": true,
+    "timeAxis": "fieldwork-midpoint",
+    "statistic": "absolute historical-quality-weighted mean of all-observation party seat slopes per week",
+    "permutations": 10749542400,
+    "signPatterns": 128,
+    "multipleTesting": "Benjamini-Hochberg",
+    "partyTests": 17,
+    "individualTests": 119,
+    "fixedSnapshot": true,
+    "usesCurrentControls": false,
+    "weightsRenormalizedAcrossEligibleSeries": true,
+    "netDeltaDefinition": "weighted mean of each series' last-minus-first published seats; not the tested statistic",
+    "adjacentDeltaDependence": "OLS over all observations, equivalent to GLS on adjacent deltas with D D-transpose covariance",
+    "nullAssumptions": "time exchangeability within each series and independent permutation blocks",
+    "zeroSeatConvention": "constant published-seat series get p=1; vote shares below the threshold may still change"
+  },
+  "provenance": {
+    "analysisSha256": "3221434a15347d119be661798267f4eb990fb77dd3ec3f1b9365d5832aff9baa",
+    "historySha256": "3a19521d038b52cb936aafc3a555b723d405cc4a689bbb1a53e6495b1b3edb8a",
+    "partiesSha256": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "script": "scripts/build-strict-party-trends.py",
+    "analysisScript": "artifacts/analyze-party-trends-strict-2026-09-28.py"
+  }
+}
