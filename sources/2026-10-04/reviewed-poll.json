@@ -1,0 +1,175 @@
+{
+  "id": "kantar_2026-10-04",
+  "pollsterId": "kantar",
+  "pollster": "קנטאר — דודי חסיד",
+  "publisher": "כאן חדשות",
+  "date": "2026-10-04",
+  "dateKind": "תאריך פרסום הסקר בשידור המקורי של כאן ובחשבון הרשמי ב־X; תאריך עבודת השדה לא אומת",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": 554,
+  "sampleSizeSourceUrl": "https://x.com/kann_news/status/2106805478231552461",
+  "reportedMarginOfErrorPct": null,
+  "samplingMethod": null,
+  "population": null,
+  "panelProvider": null,
+  "undecidedPct": null,
+  "invitedSampleSize": null,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "percentageDenominator": "המכנה לא הוצג בקטע השידור שנבדק; אחוזים פורסמו לרשימות שמתחת לחסימה. אחוזי הרשימות העוברות משוחזרים במודל.",
+  "originalCoveragePct": 6.1,
+  "knownPercentageSum": 6.1,
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 12,
+    "democrats": 8,
+    "yisrael_beiteinu": 9,
+    "utj": 8,
+    "shas": 8,
+    "otzma": 8,
+    "joint": 8,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 4,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "winter": 2.6,
+    "gantz": 1.3,
+    "haredi_public": 0.9
+  },
+  "percentages": {
+    "winter": 2.6,
+    "gantz": 1.3,
+    "haredi_public": 0.9,
+    "other": 1.3
+  },
+  "unmodelledNamedParties": [
+    {
+      "name": "אח״י",
+      "pct": 0.7,
+      "mappedTo": "other"
+    },
+    {
+      "name": "צבע שחור — מגן עולם התורה",
+      "pct": 0.6,
+      "mappedTo": "other"
+    }
+  ],
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "percentageSourceUrls": {
+    "winter": "https://x.com/kann_news/status/2106805478231552461",
+    "gantz": "https://x.com/kann_news/status/2106805478231552461",
+    "haredi_public": "https://x.com/kann_news/status/2106805478231552461",
+    "other": "https://x.com/kann_news/status/2106805478231552461"
+  },
+  "sourceUrl": "https://x.com/kann_news/status/2106805478231552461",
+  "sourceTier": "original-publisher",
+  "secondarySourceUrls": [
+    "https://x.com/ElectionOwl/status/2106803899290296679",
+    "https://x.com/kann_news/status/2106807683919532325"
+  ],
+  "checkedAt": "2026-10-04",
+  "validationSourceUrl": "https://x.com/kann_news/status/2106805478231552461",
+  "replacesPollId": "kantar_2026-09-27",
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 52,
+    "arab_parties": 13,
+    "hendel": 4
+  },
+  "primarySourcePostPublishedAtUtc": "2026-10-04T17:55:43Z",
+  "primarySourcePostPublishedAtIsrael": "2026-10-04T20:55:43+03:00",
+  "publicationTimeKind": "Official X post timestamp; exact article/public broadcast start timestamp not verified",
+  "publicationTime": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "sourceDocument": {
+    "fileName": "2106805478231552461.html",
+    "kind": "original-publisher-social-post-and-broadcast",
+    "sha256": "87e5cda344ed4c7bb9d191d9026139ce3695e034ff8e19d9fffecb95ce9c7c17",
+    "reviewedAt": "2026-10-04",
+    "providedBy": "original-publisher",
+    "publicationCrossChecked": true,
+    "primarySourceUrl": "https://x.com/kann_news/status/2106805478231552461",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "fieldworkStart",
+      "fieldworkEnd",
+      "samplingMethod",
+      "reportedMarginOfErrorPct",
+      "population",
+      "panelProvider",
+      "undecidedPct",
+      "invitedSampleSize",
+      "publicationTime"
+    ],
+    "originalBroadcastFileName": "kan-original-broadcast.mp4",
+    "originalBroadcastSha256": "43d6a58bdea36482f6fba82eb7b69b19a65341a635b7db1073c054a27f2450d0",
+    "originalGraphicFileName": "2106803899290296679-0.webp",
+    "originalGraphicSha256": "45f04ba317a8e878060286d490cb2898005e0eb4a925f1d137a7736d1a6dff48",
+    "graphicProvidedBy": "secondary-source-ElectionOwl",
+    "reviewedFrames": [
+      {
+        "fileName": "kan-broadcast-26s.png",
+        "second": 26,
+        "sha256": "b4fa7eb1c0f0689c5076a59ed6512a2cca90dcb2fb8129973a2e69af68664c81"
+      },
+      {
+        "fileName": "kan-broadcast-42s.png",
+        "second": 42,
+        "sha256": "b2ad3070021efef30eb64fc3ce7a33eb2db29d5c621b116422b6c9beb8862f19"
+      },
+      {
+        "fileName": "kan-broadcast-58s.png",
+        "second": 58,
+        "sha256": "1fd2ec8ba8ead80683a3c1637f29b6f9d0e6cd3aa6828ff43072591e198f74e0"
+      },
+      {
+        "fileName": "kan-broadcast-74s.png",
+        "second": 74,
+        "sha256": "5431d8598ef26166f1023fd7ff4fe62cf9a1e95be0d6acc61122c1c75e355272"
+      },
+      {
+        "fileName": "kan-broadcast-90s.png",
+        "second": 90,
+        "sha256": "72be2538bf319fbe956dcfd170f7b955608ee2d518e9a147d21deae6713f17ec"
+      }
+    ],
+    "originalBroadcastArchiveScope": "local-research-only",
+    "originalBroadcastSourceUrl": "https://x.com/kann_news/status/2106805478231552461"
+  },
+  "notes": [
+    "סקר כאן חדשות / קנטאר מ־4.10.2026 במדגם של 554 נשאלים, לפי כותרות השידור המקורי. מחליף את סקר אותו מכון מ־27.9 במאגר הפעיל בלי להכפיל את משקל קנטאר.",
+    "כל המנדטים, האחוזים שמתחת לחסימה, המדגם והגושים אומתו ישירות מול השידור המקורי שפרסם חשבון כאן חדשות הרשמי ב־X. התרשים שצורף בידי המשתמש זוהה גם בפרסום ElectionOwl ונמצא תואם.",
+    "התאריך הוא תאריך הפרסום. חותמת הפרסום בחשבון כאן היא 4.10.2026 בשעה20:55:43 בישראל; זו חותמת הפוסט, ואינה זמן תחילת השידור או פרסום הכתבה. תאריכי עבודת השדה, השיטה וטעות הדגימה לא הופיעו בקטע שנבדק ונשמרים כחסרים.",
+    "מתחת לחסימה: עמך ישראל2.6%, כחול לבן1.3%, הציבור החרדי0.9%, אח״י0.7% וצבע שחור0.6%. אחוז נעם לא הוצג בקטע שנבדק ונשאר חסר; אין להעתיק את0.4% מהסקר הקודם.",
+    "אח״י וצבע שחור נשמרות בשם המקור. סך1.3% שלהן ממופה לרכיב הקולות האחרים במודל בלבד; זהו סכום מחושב של שתי רשימות ידועות, ואינו אחוז שפורסם לכל יתר הרשימות.",
+    "גוש נתניהו51, גוש איזנקוט52, מפלגות ערביות13 והנדל־זליכה4, לפי כאן. הגושים באתר מחושבים מחדש לפי בחירת המשתמש.",
+    "דפי הבית, מדור הפוליטיקה, מדור החדשות ומרכז הסקרים של כאן נחסמו ב־HTTP403. IsraelPolls נפתח, אך הפרופיל שנמסר הציג פוסטים עד3.10 בלבד; גרפיקות וטבלת קנטאר מ־27.9 נבדקו, וטבלת היסטוריה חדשה ל־4.10 לא אומתה."
+  ],
+  "sourceAccessSummary": [
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "note": "Readable profile returned latest five posts datedOct3/Oct2. Sep27Kan original graphics and Kantar historical table opened and visually inspected; no Oct4Kan historical table was exposed by the readable profile at this check. Freshness is not guaranteed."
+    },
+    {
+      "urls": [
+        "https://www.kan.org.il/",
+        "https://www.kan.org.il/content/kan-news/politic/",
+        "https://www.kan.org.il/lobby/news/",
+        "https://skarim.kan.org.il/"
+      ],
+      "status": 403,
+      "contentVerified": false,
+      "note": "Original Kan website sources blocked by Cloudflare. Kan original broadcast on its public X account successfully opened and inspected instead."
+    }
+  ]
+}

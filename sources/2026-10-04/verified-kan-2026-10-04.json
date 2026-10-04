@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "pollPublicationDate": "2026-10-04",
+  "publisher": "כאן חדשות",
+  "pollster": "קנטאר / דודי חסיד",
+  "primarySourceUrl": "https://x.com/kann_news/status/2106805478231552461",
+  "primarySourcePostPublishedAtUtc": "2026-10-04T17:55:43Z",
+  "primarySourcePostPublishedAtIsrael": "2026-10-04T20:55:43+03:00",
+  "primaryArticlePublicationTime": null,
+  "secondarySourceUrl": "https://x.com/ElectionOwl/status/2106803899290296679",
+  "secondarySourceClassification": "Source of the user's attached comparison graphic; secondary analysis of the same poll, not a separate survey.",
+  "sampleSize": 554,
+  "sampleSizeEvidence": "Original Kan broadcast at 26s,42s,58s,74s: הסקר נערך בידי מכון קנטאר בראשות דודי חסיד וכלל 554 נשאלים",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "collectionMethod": null,
+  "invitedSampleSize": null,
+  "reportedMarginOfErrorPct": null,
+  "missingMetadataNote": "The inspected original broadcast identifies sample size and pollster but does not display fieldwork dates, collection method, invitation count or margin of error. Kan website and poll center were inaccessible HTTP403; these fields have not been verified and are not copied from older polls.",
+  "seats": {
+    "ישר!": 23,
+    "הליכוד": 21,
+    "ביחד": 12,
+    "ישראל ביתנו": 9,
+    "הדמוקרטים": 8,
+    "עוצמה יהודית": 8,
+    "הרשימה המשותפת": 8,
+    "יהדות התורה": 8,
+    "ש״ס": 8,
+    "הציונות הדתית": 6,
+    "רע״ם": 5,
+    "הנדל וזליכה / המילואימניקים והכלכלית": 4,
+    "עמך ישראל / עופר וינטר": 0,
+    "כחול לבן": 0,
+    "הציבור החרדי": 0,
+    "אח״י": 0,
+    "צבע שחור": 0
+  },
+  "belowThresholdPct": {
+    "עמך ישראל / עופר וינטר": 2.6,
+    "כחול לבן": 1.3,
+    "הציבור החרדי": 0.9,
+    "אח״י": 0.7,
+    "צבע שחור": 0.6
+  },
+  "belowThresholdEvidence": "Original Kan broadcast at74s: עופר וינטר2.6, כחוללבן1.3, הציבור החרדי0.9, אח״י0.7, צבעשחור0.6. Image attached by the user independently confirms Winter2.6%.",
+  "belowThresholdNotes": [
+    "Zero seats for listed belowthreshold parties describes parliamentary allocation and does not imply zero vote share.",
+    "Noam and other lists absent from the inspected primary broadcast remain missing; previous poll percentages must not be carried forward.",
+    "The0.7% for אח״י and0.6% for צבעשחור are separately published party percentages; their sum1.3% is a derived observed minorparty subtotal, not a published total for all other lists."
+  ],
+  "publisherBlocs": {
+    "נתניהו": 51,
+    "איזנקוט": 52,
+    "מפלגות ערביות": 13,
+    "הנדל וזליכה": 4
+  },
+  "publisherBlocEvidence": "Original Kan broadcast90s; all mandates in the primary broadcast sum120 and match user graphic. Bloc composition on the project site remains subject to the model's user-selected assignments.",
+  "pmSuitability": {
+    "sourceUrl": "https://x.com/kann_news/status/2106807683919532325",
+    "eisenkotPct": 41,
+    "netanyahuPct": 38,
+    "neitherPct": 21,
+    "evidence": "Primary Kan broadcast thumbnail viewed directly; not a separate national voting-intention poll."
+  },
+  "evidenceFiles": [
+    "kan-source-scan.json",
+    "kan-original-posts.json",
+    "kan-broadcast-evidence.json",
+    "kan-broadcast-26s.png",
+    "kan-broadcast-42s.png",
+    "kan-broadcast-58s.png",
+    "kan-broadcast-74s.png",
+    "kan-broadcast-90s.png",
+    "electionowl-original-post.json",
+    "2106803899290296679-0.webp",
+    "2106803899290296679-1.webp",
+    "kan-followup-scan.json"
+  ],
+  "sourceChecks": [
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "note": "Readable profile returned latest five posts datedOct3/Oct2. Sep27Kan original graphics and Kantar historical table opened and visually inspected; no Oct4Kan historical table was exposed by the readable profile at this check. Freshness is not guaranteed."
+    },
+    {
+      "urls": [
+        "https://www.kan.org.il/",
+        "https://www.kan.org.il/content/kan-news/politic/",
+        "https://www.kan.org.il/lobby/news/",
+        "https://skarim.kan.org.il/"
+      ],
+      "status": 403,
+      "contentVerified": false,
+      "note": "Original Kan website sources blocked by Cloudflare. Kan original broadcast on its public X account successfully opened and inspected instead."
+    }
+  ]
+}

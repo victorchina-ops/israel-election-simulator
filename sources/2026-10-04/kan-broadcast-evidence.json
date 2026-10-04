@@ -1,0 +1,70 @@
+{
+  "publisherPostUrl": "https://x.com/kann_news/status/2106805478231552461",
+  "videoUrl": "https://video.twimg.com/amplify_video/2106805092426874880/vid/avc1/1280x720/kzQJCEzMrffUdja9.mp4?tag=29",
+  "status": 200,
+  "checkedAtUtc": "2026-10-04T18:29:41.276917+00:00",
+  "bytes": 7307403,
+  "sha256": "43d6a58bdea36482f6fba82eb7b69b19a65341a635b7db1073c054a27f2450d0",
+  "frames": [
+    {
+      "second": 0,
+      "path": "kan-broadcast-00s.png"
+    },
+    {
+      "second": 4,
+      "path": "kan-broadcast-04s.png"
+    },
+    {
+      "second": 8,
+      "path": "kan-broadcast-08s.png"
+    },
+    {
+      "second": 12,
+      "path": "kan-broadcast-12s.png"
+    },
+    {
+      "second": 18,
+      "path": "kan-broadcast-18s.png"
+    },
+    {
+      "second": 26,
+      "path": "kan-broadcast-26s.png"
+    },
+    {
+      "second": 34,
+      "path": "kan-broadcast-34s.png"
+    },
+    {
+      "second": 42,
+      "path": "kan-broadcast-42s.png"
+    },
+    {
+      "second": 50,
+      "path": "kan-broadcast-50s.png"
+    },
+    {
+      "second": 58,
+      "path": "kan-broadcast-58s.png"
+    },
+    {
+      "second": 66,
+      "path": "kan-broadcast-66s.png"
+    },
+    {
+      "second": 74,
+      "path": "kan-broadcast-74s.png"
+    },
+    {
+      "second": 82,
+      "path": "kan-broadcast-82s.png"
+    },
+    {
+      "second": 90,
+      "path": "kan-broadcast-90s.png"
+    },
+    {
+      "second": 94,
+      "path": "kan-broadcast-94s.png"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "pollPublicationDateAsPrinted": "4.10",
+  "comparisonPublicationDateAsPrinted": "27.9",
+  "pollsterAsPrinted": "קנטאר",
+  "seatTotal": 120,
+  "previousSeatTotal": 120,
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 52,
+    "arab_parties": 13,
+    "hendel": 4
+  },
+  "previousSourceBlocSeats": {
+    "coalition": 52,
+    "opposition": 52,
+    "arab_parties": 12,
+    "hendel": 4
+  },
+  "partyDeltas": {
+    "yashar": 0,
+    "likud": 0,
+    "beyachad": 1,
+    "yisrael_beiteinu": 0,
+    "democrats": -1,
+    "otzma": 1,
+    "joint": 1,
+    "utj": 1,
+    "shas": 1,
+    "rz_zehut": 0,
+    "raam": 0,
+    "hendel": 0,
+    "winter": -4
+  },
+  "onlyBelowThresholdPercentageShown": {
+    "winter": 2.6
+  },
+  "fieldworkDates": null,
+  "sampleSize": null,
+  "reportedMarginOfErrorPct": null,
+  "samplingMethod": null,
+  "sourceCaveat": "Attached graphic is ElectionOwl processing/comparison credited to Kan/Kantar, not an original publisher methodology document. Absent source values cannot be copied from Sept27.",
+  "auditDate": "2026-10-04",
+  "evidence": "user supplied image codex-clipboard-70659808-1477-4b3d-82e7-508906920f7e.png",
+  "baseline": "data/current-polls.json, kantar_2026-09-27 read before changes",
+  "status": "graphic-and-baseline-arithmetic-verified-awaiting-publisher-metadata"
+}

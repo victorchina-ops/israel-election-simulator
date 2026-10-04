@@ -1,0 +1,96 @@
+{
+  "asOf": "2026-10-04",
+  "baselineAsOf": "2026-10-02",
+  "activePollCount": 8,
+  "historyPollCount": 106,
+  "pollId": "kantar_2026-10-04",
+  "replacesPollId": "kantar_2026-09-27",
+  "snapshotManifestSha256": "e2eaf477b927d472f407acbf379a206b7eaf1c4ef2e152ab17aab1f11981018a",
+  "reviewedPollSha256": "4a11d1abc98d78f559691c41ac052853a5732499f20225cbb4614abcd2048726",
+  "extractSha256": "818a28a514daf5f9c2b21afc391ecff0e00872a6648552b5e4932cac63516f1b",
+  "publicEvidenceFiles": [
+    {
+      "fileName": "2106803899290296679-0.webp",
+      "sha256": "45f04ba317a8e878060286d490cb2898005e0eb4a925f1d137a7736d1a6dff48"
+    },
+    {
+      "fileName": "2106805478231552461.html",
+      "sha256": "87e5cda344ed4c7bb9d191d9026139ce3695e034ff8e19d9fffecb95ce9c7c17"
+    },
+    {
+      "fileName": "2106807683919532325-0.webp",
+      "sha256": "d0bc05e995b2e30814dd7dbfd726f79af25cef3ea40320e9b887ed443ff680d5"
+    },
+    {
+      "fileName": "electionowl-original-post.json",
+      "sha256": "0aed7ba578f10f4b5e02faaf21dcab2561a3eb202f27efe84b9cd6b55933ecdb"
+    },
+    {
+      "fileName": "extracted-surveys.json",
+      "sha256": "3ef76a79b4fab9fd63f881b25254d882b13dbf6730caffa4b23177df5767bb40"
+    },
+    {
+      "fileName": "independent-audit.json",
+      "sha256": "ffeca144137e9f9bb609bc1e1c85e82c4dec4698fa726a91e4d1188da9841121"
+    },
+    {
+      "fileName": "kan-2026-10-04-source-extract.txt",
+      "sha256": "818a28a514daf5f9c2b21afc391ecff0e00872a6648552b5e4932cac63516f1b"
+    },
+    {
+      "fileName": "kan-broadcast-26s.png",
+      "sha256": "b4fa7eb1c0f0689c5076a59ed6512a2cca90dcb2fb8129973a2e69af68664c81"
+    },
+    {
+      "fileName": "kan-broadcast-42s.png",
+      "sha256": "b2ad3070021efef30eb64fc3ce7a33eb2db29d5c621b116422b6c9beb8862f19"
+    },
+    {
+      "fileName": "kan-broadcast-58s.png",
+      "sha256": "1fd2ec8ba8ead80683a3c1637f29b6f9d0e6cd3aa6828ff43072591e198f74e0"
+    },
+    {
+      "fileName": "kan-broadcast-74s.png",
+      "sha256": "5431d8598ef26166f1023fd7ff4fe62cf9a1e95be0d6acc61122c1c75e355272"
+    },
+    {
+      "fileName": "kan-broadcast-90s.png",
+      "sha256": "72be2538bf319fbe956dcfd170f7b955608ee2d518e9a147d21deae6713f17ec"
+    },
+    {
+      "fileName": "kan-broadcast-evidence.json",
+      "sha256": "54b6b0b5541a0cf97894a2147d505c320c47524aff19e608c3b1f0b17948048e"
+    },
+    {
+      "fileName": "kan-followup-scan.json",
+      "sha256": "327734779dd70e64dfc897b2bc0a8ee46afeb6ae2daa51dcffc087dbeccd51b3"
+    },
+    {
+      "fileName": "kan-original-posts.json",
+      "sha256": "9b9e2318e8745accd74e1d3feb02964b5590df5e7d61a4417f28c0e2bfbd15e6"
+    },
+    {
+      "fileName": "kan-source-scan.json",
+      "sha256": "7b36b53c6239e48e41f05f03783ca04966224fb1f7086018ab3ff23db320a6ee"
+    },
+    {
+      "fileName": "primary-recheck.json",
+      "sha256": "4c1e4d6858059a42bb6a8f8d1a7e772232677cb693aca51fdccb20fff351f4a8"
+    },
+    {
+      "fileName": "reviewed-poll.json",
+      "sha256": "4a11d1abc98d78f559691c41ac052853a5732499f20225cbb4614abcd2048726"
+    },
+    {
+      "fileName": "surveys-extracted-2026-10-04.csv",
+      "sha256": "b92227f81c93b04f6b6177a6d98470b6c34114802b635fe0acb04beee4300360"
+    },
+    {
+      "fileName": "verified-kan-2026-10-04.json",
+      "sha256": "9d279f974b4e33bf5dd17732d5fedf30ecea33852de94186459a0d987462f1b0"
+    }
+  ],
+  "originalBroadcastArchiveScope": "local-research-only",
+  "originalBroadcastSourceUrl": "https://x.com/kann_news/status/2106805478231552461",
+  "originalBroadcastLocalSha256": "43d6a58bdea36482f6fba82eb7b69b19a65341a635b7db1073c054a27f2450d0"
+}

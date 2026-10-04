@@ -1,0 +1,1098 @@
+{
+  "checks": [
+    {
+      "label": "israelpolls-profile-root",
+      "url": "https://x.com/IsraelPolls",
+      "checkedAtUtc": "2026-10-04T18:30:57.452657+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls",
+      "bodyBytes": 139043,
+      "sha256": "d1b7e58fcd724ecbeac2f47b798aa4eb23bfe89242cf9cb249372b1a58866d5e",
+      "title": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X",
+      "textChars": 1148,
+      "statusUrls": [
+        "https://x.com/IsraelPolls/status/2106285422116774305",
+        "https://x.com/IsraelPolls/status/2106284699110830565",
+        "https://x.com/IsraelPolls/status/2106064320014721136",
+        "https://x.com/IsraelPolls/status/2106057542313132059",
+        "https://x.com/IsraelPolls/status/2105881232269537421"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/header_photo"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/photo"
+        },
+        {
+          "text": "uzit.co.il",
+          "href": "https://t.co/1KePBOkzHh"
+        },
+        {
+          "text": "Joined February 2020",
+          "href": "/IsraelPolls/about"
+        },
+        {
+          "text": "15 Following",
+          "href": "/IsraelPolls/following"
+        },
+        {
+          "text": "1,874 Followers",
+          "href": "/IsraelPolls/verified_followers"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?text=%40IsraelPolls+"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Replies Replies",
+          "href": "/IsraelPolls/with_replies"
+        },
+        {
+          "text": "Reposts Reposts",
+          "href": "/IsraelPolls/reposts"
+        },
+        {
+          "text": "Media Media",
+          "href": "/IsraelPolls/media"
+        },
+        {
+          "text": "Continue with phone",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls"
+        },
+        {
+          "text": "Log in with username or email",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls"
+        },
+        {
+          "text": "Terms",
+          "href": "https://x.com/tos"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://x.com/privacy"
+        },
+        {
+          "text": "Cookies",
+          "href": "https://support.x.com/articles/20170514"
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://help.x.com/resources/accessibility"
+        },
+        {
+          "text": "Ads Info",
+          "href": "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 3",
+          "href": "/IsraelPolls/status/2106285422116774305"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106285422116774305/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106285422116774305/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106285422116774305"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 3",
+          "href": "/IsraelPolls/status/2106284699110830565"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106284699110830565/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106284699110830565/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106284699110830565"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2106064320014721136"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106064320014721136/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106064320014721136/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106064320014721136"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2106057542313132059"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106057542313132059/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106057542313132059/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106057542313132059"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2105881232269537421"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/2"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/2"
+        },
+        {
+          "text": "1",
+          "href": "/compose/post?in_reply_to=2105881232269537421"
+        }
+      ],
+      "images": [
+        {
+          "alt": "סקרים פוליטיים - Israel Political Polls profile banner",
+          "src": "https://pbs.twimg.com/profile_banners/1226405431377043456/1582187230/1500x500"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_400x400.jpg"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTsHZ9NXcAApRAr?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTsGw6kXwAAor10?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTo-STTW8AAd4Rl?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTo4Ky7XoAE-rnV?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTmX0KGWsAAkmwy?format=webp&name=large"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTmX0Z0W8AAetid?format=webp&name=large"
+        }
+      ],
+      "pollTextSnippets": [
+        "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Pol",
+        "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בצ",
+        "@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיי",
+        "n with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "e © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "orp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "t 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "תחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "יטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "l Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "רים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "k's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "rsion) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        " סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        " ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K"
+      ]
+    },
+    {
+      "label": "israelpolls-profile-media",
+      "url": "https://x.com/IsraelPolls/media",
+      "checkedAtUtc": "2026-10-04T18:30:57.452657+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/i/jf/onboarding/web?redirect_after_login=%2FIsraelPolls%2Fmedia&mode=login",
+      "bodyBytes": 17179,
+      "sha256": "9fe862753935acc937ba3e2ce555e307c56659a258710a6486352c043a30fd0d",
+      "title": "X - The Everything App / X",
+      "textChars": 26,
+      "statusUrls": [],
+      "links": [],
+      "images": [],
+      "pollTextSnippets": []
+    },
+    {
+      "label": "israelpolls-profile-share21",
+      "url": "https://x.com/IsraelPolls?s=21",
+      "checkedAtUtc": "2026-10-04T18:30:57.453658+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls?s=21",
+      "bodyBytes": 139097,
+      "sha256": "0f0b25ad1cb7d64e1bc1f3e1a7a731a0cd10d873708fd4ab7a5e61dd924ca612",
+      "title": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X",
+      "textChars": 1148,
+      "statusUrls": [
+        "https://x.com/IsraelPolls/status/2106285422116774305",
+        "https://x.com/IsraelPolls/status/2106284699110830565",
+        "https://x.com/IsraelPolls/status/2106064320014721136",
+        "https://x.com/IsraelPolls/status/2106057542313132059",
+        "https://x.com/IsraelPolls/status/2105881232269537421"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D21"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D21"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D21"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D21"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/header_photo"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/photo"
+        },
+        {
+          "text": "uzit.co.il",
+          "href": "https://t.co/1KePBOkzHh"
+        },
+        {
+          "text": "Joined February 2020",
+          "href": "/IsraelPolls/about"
+        },
+        {
+          "text": "15 Following",
+          "href": "/IsraelPolls/following"
+        },
+        {
+          "text": "1,874 Followers",
+          "href": "/IsraelPolls/verified_followers"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?text=%40IsraelPolls+"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Replies Replies",
+          "href": "/IsraelPolls/with_replies"
+        },
+        {
+          "text": "Reposts Reposts",
+          "href": "/IsraelPolls/reposts"
+        },
+        {
+          "text": "Media Media",
+          "href": "/IsraelPolls/media"
+        },
+        {
+          "text": "Continue with phone",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D21"
+        },
+        {
+          "text": "Log in with username or email",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D21"
+        },
+        {
+          "text": "Terms",
+          "href": "https://x.com/tos"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://x.com/privacy"
+        },
+        {
+          "text": "Cookies",
+          "href": "https://support.x.com/articles/20170514"
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://help.x.com/resources/accessibility"
+        },
+        {
+          "text": "Ads Info",
+          "href": "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 3",
+          "href": "/IsraelPolls/status/2106285422116774305"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106285422116774305/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106285422116774305/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106285422116774305"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 3",
+          "href": "/IsraelPolls/status/2106284699110830565"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106284699110830565/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106284699110830565/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106284699110830565"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2106064320014721136"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106064320014721136/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106064320014721136/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106064320014721136"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2106057542313132059"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106057542313132059/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106057542313132059/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106057542313132059"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2105881232269537421"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/2"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/2"
+        },
+        {
+          "text": "1",
+          "href": "/compose/post?in_reply_to=2105881232269537421"
+        }
+      ],
+      "images": [
+        {
+          "alt": "סקרים פוליטיים - Israel Political Polls profile banner",
+          "src": "https://pbs.twimg.com/profile_banners/1226405431377043456/1582187230/1500x500"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_400x400.jpg"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTsHZ9NXcAApRAr?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTsGw6kXwAAor10?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTo-STTW8AAd4Rl?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTo4Ky7XoAE-rnV?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTmX0KGWsAAkmwy?format=webp&name=large"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTmX0Z0W8AAetid?format=webp&name=large"
+        }
+      ],
+      "pollTextSnippets": [
+        "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Pol",
+        "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בצ",
+        "@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיי",
+        "n with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "e © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "orp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "t 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "תחילת אוגוסט ועד עתה 3 513 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "יטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "l Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 363 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "רים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "k's polls (English version) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "rsion) 304 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        " סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        " ריכוז כל סקרי השבוע, וממוצעי הסקרים 479 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K"
+      ]
+    },
+    {
+      "label": "electionowl-profile",
+      "url": "https://x.com/ElectionOwl",
+      "checkedAtUtc": "2026-10-04T18:30:57.453658+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/ElectionOwl",
+      "bodyBytes": 170847,
+      "sha256": "323f4a937b8c182b30a1afbbdc7413250d73f9e6c7709a67b90343dcc44dc73f",
+      "title": "ינשוף בחירות (@ElectionOwl) / X",
+      "textChars": 2258,
+      "statusUrls": [],
+      "links": [
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FElectionOwl"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FElectionOwl"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FElectionOwl"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FElectionOwl"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/header_photo"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/photo"
+        },
+        {
+          "text": "Joined September 2026",
+          "href": "/ElectionOwl/about"
+        },
+        {
+          "text": "150 Following",
+          "href": "/ElectionOwl/following"
+        },
+        {
+          "text": "723 Followers",
+          "href": "/ElectionOwl/verified_followers"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?text=%40ElectionOwl+"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "Replies Replies",
+          "href": "/ElectionOwl/with_replies"
+        },
+        {
+          "text": "Reposts Reposts",
+          "href": "/ElectionOwl/reposts"
+        },
+        {
+          "text": "Media Media",
+          "href": "/ElectionOwl/media"
+        },
+        {
+          "text": "Continue with phone",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FElectionOwl"
+        },
+        {
+          "text": "Log in with username or email",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FElectionOwl"
+        },
+        {
+          "text": "Terms",
+          "href": "https://x.com/tos"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://x.com/privacy"
+        },
+        {
+          "text": "Cookies",
+          "href": "https://support.x.com/articles/20170514"
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://help.x.com/resources/accessibility"
+        },
+        {
+          "text": "Ads Info",
+          "href": "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "ינשוף בחירות",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "@ElectionOwl",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "Sep 13",
+          "href": "/ElectionOwl/status/2099143785275867286"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2099143785275867286/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2099143785275867286/photo/1"
+        },
+        {
+          "text": "72",
+          "href": "/compose/post?in_reply_to=2099143785275867286"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "ינשוף בחירות",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "@ElectionOwl",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "41m",
+          "href": "/ElectionOwl/status/2106803899290296679"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106803899290296679/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106803899290296679/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106803899290296679/photo/2"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106803899290296679/photo/2"
+        },
+        {
+          "text": "4",
+          "href": "/compose/post?in_reply_to=2106803899290296679"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "ינשוף בחירות",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "@ElectionOwl",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "1h",
+          "href": "/ElectionOwl/status/2106796250825667026"
+        },
+        {
+          "text": "",
+          "href": "/BarakSeri"
+        },
+        {
+          "text": "Barak Seri ברק סרי",
+          "href": "/BarakSeri"
+        },
+        {
+          "text": "@BarakSeri",
+          "href": "/BarakSeri"
+        },
+        {
+          "text": "2h",
+          "href": "/BarakSeri/status/2106776381803962708"
+        },
+        {
+          "text": "1",
+          "href": "/compose/post?in_reply_to=2106796250825667026"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "ינשוף בחירות",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "@ElectionOwl",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "1h",
+          "href": "/ElectionOwl/status/2106795532010012804"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106795532010012804/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106795532010012804/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106795532010012804/photo/2"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl/status/2106795532010012804/photo/2"
+        },
+        {
+          "text": "",
+          "href": "/YinonMagal"
+        },
+        {
+          "text": "ינון מגל Yinon Magal",
+          "href": "/YinonMagal"
+        },
+        {
+          "text": "@YinonMagal",
+          "href": "/YinonMagal"
+        },
+        {
+          "text": "5h",
+          "href": "/YinonMagal/status/2106728702415618544"
+        },
+        {
+          "text": "",
+          "href": "/YinonMagal/status/2106728702415618544/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/YinonMagal/status/2106728702415618544/photo/1"
+        },
+        {
+          "text": "facebook.com/share/p/1Jbf7H…",
+          "href": "https://www.facebook.com/share/p/1Jbf7Hig1m/"
+        },
+        {
+          "text": "1",
+          "href": "/compose/post?in_reply_to=2106795532010012804"
+        },
+        {
+          "text": "",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "ינשוף בחירות",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "@ElectionOwl",
+          "href": "/ElectionOwl"
+        },
+        {
+          "text": "2h",
+          "href": "/ElectionOwl/status/2106777750304325848"
+        },
+        {
+          "text": "3",
+          "href": "/compose/post?in_reply_to=2106777750304325848"
+        }
+      ],
+      "images": [
+        {
+          "alt": "ינשוף בחירות profile banner",
+          "src": "https://pbs.twimg.com/profile_banners/2097244544853061632/1788858833/1500x500"
+        },
+        {
+          "alt": "@ElectionOwl",
+          "src": "https://pbs.twimg.com/profile_images/2097245566661005312/MFPsvnhu_400x400.jpg"
+        },
+        {
+          "alt": "@ElectionOwl",
+          "src": "https://pbs.twimg.com/profile_images/2097245566661005312/MFPsvnhu_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HSGnyzZXQAoL02e?format=webp&name=large"
+        },
+        {
+          "alt": "@ElectionOwl",
+          "src": "https://pbs.twimg.com/profile_images/2097245566661005312/MFPsvnhu_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzetlVXEAAZKYJ?format=webp&name=large"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzetlYXQAIFXNl?format=webp&name=large"
+        },
+        {
+          "alt": "@ElectionOwl",
+          "src": "https://pbs.twimg.com/profile_images/2097245566661005312/MFPsvnhu_normal.jpg"
+        },
+        {
+          "alt": "@BarakSeri",
+          "src": "https://pbs.twimg.com/profile_images/1882064163565977601/zU-hUREI_normal.jpg"
+        },
+        {
+          "alt": "@ElectionOwl",
+          "src": "https://pbs.twimg.com/profile_images/2097245566661005312/MFPsvnhu_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzW7agXAAAnK-O?format=webp&name=large"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzXJjdXwAE3U_t?format=webp&name=large"
+        },
+        {
+          "alt": "@YinonMagal",
+          "src": "https://pbs.twimg.com/profile_images/1862417880374972416/a-K8yZqR_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTyale6X0AEQ8D0?format=webp&name=large"
+        },
+        {
+          "alt": "@ElectionOwl",
+          "src": "https://pbs.twimg.com/profile_images/2097245566661005312/MFPsvnhu_normal.jpg"
+        }
+      ],
+      "pollTextSnippets": [
+        "רות 511 posts ינשוף בחירות @ElectionOwl מספרים, סטטיסטיקה ומגמות פוליטיות. הופך נתוני בחירות יבשים, סקרים ואחוזי הצבעה לתובנות שיקבעו מי יהיה ראש הממשלה הבא. 🇮🇱 Joined September 2026 150 Following 723 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. Pinned ינשוף בחירות @ElectionOwl Sep 13 תשכחו רגע מהסקרים. תסתכלו על אחוזי ההצבעה.\n\nישראל והונגריה נעו כמעט באותו קו במשך 20 שנה - סביב 65-70%.\n\nואז ב-2026 הונגריה קפצה ל-79.6%. ",
+        " Accessibility · Ads Info · More © 2026 X Corp. Pinned ינשוף בחירות @ElectionOwl Sep 13 תשכחו רגע מהסקרים. תסתכלו על אחוזי ההצבעה.\n\nישראל והונגריה נעו כמעט באותו קו במשך 20 שנה - סביב 65-70%.\n\nואז ב-2026 הונגריה קפצה ל-79.6%. \nהתוצאה: מהפך שלטוני.\n\nמה יקרה אם ישראל תעשה את אותה קפיצה? 👇 72 61 260 28K ינשוף בחירות @ElectionOwl 41m 🦉 הינשוף צולל לסקר כאן מהערב:\nעמך ישראל ב-2.6%, מתחת לאחוז החסימה וכמעט אחוז פחות משבוע שעבר. לראשונה בסקרי כאן מאז הכרזתה ב-25.8.\nהסימולציה שלי מ-3.10 נתנה לה 18% לעבור.\n\nגוש ביבי: 51, בדיוק כמו התרחיש \"עמך נכשלת\". גוש איזנקוט כולל המילואימניקים: 56, בלי שינוי.\nחרדים +2, ערבים Show more 4 6 28 1.4K ינשוף בחירות @ElectionOwl 1h סיקרנת! מענין איך זה ביחס לסימולציה מא",
+        "\n\nמה יקרה אם ישראל תעשה את אותה קפיצה? 👇 72 61 260 28K ינשוף בחירות @ElectionOwl 41m 🦉 הינשוף צולל לסקר כאן מהערב:\nעמך ישראל ב-2.6%, מתחת לאחוז החסימה וכמעט אחוז פחות משבוע שעבר. לראשונה בסקרי כאן מאז הכרזתה ב-25.8.\nהסימולציה שלי מ-3.10 נתנה לה 18% לעבור.\n\nגוש ביבי: 51, בדיוק כמו התרחיש \"עמך נכשלת\". גוש איזנקוט כולל המילואימניקים: 56, בלי שינוי.\nחרדים +2, ערבים Show more 4 6 28 1.4K ינשוף בחירות @ElectionOwl 1h סיקרנת! מענין איך זה ביחס לסימולציה מאתמול. Barak Seri ברק סרי @BarakSeri 2h סקר כאן 11 הערב, בעריכת דודי חסיד, מלמד שהמאבק של נתניהו נגד עופר וינטר מתחיל לתת תוצאות 1 13 724 ינשוף בחירות @ElectionOwl 1h למה צריך סקרים כדי לבדוק את אמינות הסקרים? אפשר לראות את הפערים של הסקרים בבחירות",
+        "ינשוף צולל לסקר כאן מהערב:\nעמך ישראל ב-2.6%, מתחת לאחוז החסימה וכמעט אחוז פחות משבוע שעבר. לראשונה בסקרי כאן מאז הכרזתה ב-25.8.\nהסימולציה שלי מ-3.10 נתנה לה 18% לעבור.\n\nגוש ביבי: 51, בדיוק כמו התרחיש \"עמך נכשלת\". גוש איזנקוט כולל המילואימניקים: 56, בלי שינוי.\nחרדים +2, ערבים Show more 4 6 28 1.4K ינשוף בחירות @ElectionOwl 1h סיקרנת! מענין איך זה ביחס לסימולציה מאתמול. Barak Seri ברק סרי @BarakSeri 2h סקר כאן 11 הערב, בעריכת דודי חסיד, מלמד שהמאבק של נתניהו נגד עופר וינטר מתחיל לתת תוצאות 1 13 724 ינשוף בחירות @ElectionOwl 1h למה צריך סקרים כדי לבדוק את אמינות הסקרים? אפשר לראות את הפערים של הסקרים בבחירות הקודמות. תראה איזה דיוק היה באחוזי הליכוד (מנופח ב4.3%, הטעות עם מרץ, והטעות בערבים ובח",
+        "בחירות @ElectionOwl 1h סיקרנת! מענין איך זה ביחס לסימולציה מאתמול. Barak Seri ברק סרי @BarakSeri 2h סקר כאן 11 הערב, בעריכת דודי חסיד, מלמד שהמאבק של נתניהו נגד עופר וינטר מתחיל לתת תוצאות 1 13 724 ינשוף בחירות @ElectionOwl 1h למה צריך סקרים כדי לבדוק את אמינות הסקרים? אפשר לראות את הפערים של הסקרים בבחירות הקודמות. תראה איזה דיוק היה באחוזי הליכוד (מנופח ב4.3%, הטעות עם מרץ, והטעות בערבים ובחרדים). זה סקר אחרון של בחירות 22׳. של הערוץ שלך. אגב, חלק מהטעויות זהות גם בערוצים אחרים. אבל היחידים שטעו Show more ינון מגל Yinon Magal @YinonMagal 5h סקר של צוהר בדק את רמת האמון של הציבור ביחס לסקרים בטלויזיה.\nערוץ 14 וערוץ 12 בתיקו.\nאני מניח שאם היו שואלים את הציבור איזה ערוץ הוא רואה התוצאות היו ד",
+        "למד שהמאבק של נתניהו נגד עופר וינטר מתחיל לתת תוצאות 1 13 724 ינשוף בחירות @ElectionOwl 1h למה צריך סקרים כדי לבדוק את אמינות הסקרים? אפשר לראות את הפערים של הסקרים בבחירות הקודמות. תראה איזה דיוק היה באחוזי הליכוד (מנופח ב4.3%, הטעות עם מרץ, והטעות בערבים ובחרדים). זה סקר אחרון של בחירות 22׳. של הערוץ שלך. אגב, חלק מהטעויות זהות גם בערוצים אחרים. אבל היחידים שטעו Show more ינון מגל Yinon Magal @YinonMagal 5h סקר של צוהר בדק את רמת האמון של הציבור ביחס לסקרים בטלויזיה.\nערוץ 14 וערוץ 12 בתיקו.\nאני מניח שאם היו שואלים את הציבור איזה ערוץ הוא רואה התוצאות היו דומות... facebook.com/share/p/1Jbf7H… 1 6 786 ינשוף בחירות @ElectionOwl 2h במה הינשוף יתמקד בסקר כאן שיפורסם הערב:\n1. המילאומניקים - האם ",
+        "פר וינטר מתחיל לתת תוצאות 1 13 724 ינשוף בחירות @ElectionOwl 1h למה צריך סקרים כדי לבדוק את אמינות הסקרים? אפשר לראות את הפערים של הסקרים בבחירות הקודמות. תראה איזה דיוק היה באחוזי הליכוד (מנופח ב4.3%, הטעות עם מרץ, והטעות בערבים ובחרדים). זה סקר אחרון של בחירות 22׳. של הערוץ שלך. אגב, חלק מהטעויות זהות גם בערוצים אחרים. אבל היחידים שטעו Show more ינון מגל Yinon Magal @YinonMagal 5h סקר של צוהר בדק את רמת האמון של הציבור ביחס לסקרים בטלויזיה.\nערוץ 14 וערוץ 12 בתיקו.\nאני מניח שאם היו שואלים את הציבור איזה ערוץ הוא רואה התוצאות היו דומות... facebook.com/share/p/1Jbf7H… 1 6 786 ינשוף בחירות @ElectionOwl 2h במה הינשוף יתמקד בסקר כאן שיפורסם הערב:\n1. המילאומניקים - האם ימשיכו להיות מעל או דווקא י",
+        "24 ינשוף בחירות @ElectionOwl 1h למה צריך סקרים כדי לבדוק את אמינות הסקרים? אפשר לראות את הפערים של הסקרים בבחירות הקודמות. תראה איזה דיוק היה באחוזי הליכוד (מנופח ב4.3%, הטעות עם מרץ, והטעות בערבים ובחרדים). זה סקר אחרון של בחירות 22׳. של הערוץ שלך. אגב, חלק מהטעויות זהות גם בערוצים אחרים. אבל היחידים שטעו Show more ינון מגל Yinon Magal @YinonMagal 5h סקר של צוהר בדק את רמת האמון של הציבור ביחס לסקרים בטלויזיה.\nערוץ 14 וערוץ 12 בתיקו.\nאני מניח שאם היו שואלים את הציבור איזה ערוץ הוא רואה התוצאות היו דומות... facebook.com/share/p/1Jbf7H… 1 6 786 ינשוף בחירות @ElectionOwl 2h במה הינשוף יתמקד בסקר כאן שיפורסם הערב:\n1. המילאומניקים - האם ימשיכו להיות מעל או דווקא ירדו מתחת לאחוז החסימה כמו שהסימו",
+        "ות הקודמות. תראה איזה דיוק היה באחוזי הליכוד (מנופח ב4.3%, הטעות עם מרץ, והטעות בערבים ובחרדים). זה סקר אחרון של בחירות 22׳. של הערוץ שלך. אגב, חלק מהטעויות זהות גם בערוצים אחרים. אבל היחידים שטעו Show more ינון מגל Yinon Magal @YinonMagal 5h סקר של צוהר בדק את רמת האמון של הציבור ביחס לסקרים בטלויזיה.\nערוץ 14 וערוץ 12 בתיקו.\nאני מניח שאם היו שואלים את הציבור איזה ערוץ הוא רואה התוצאות היו דומות... facebook.com/share/p/1Jbf7H… 1 6 786 ינשוף בחירות @ElectionOwl 2h במה הינשוף יתמקד בסקר כאן שיפורסם הערב:\n1. המילאומניקים - האם ימשיכו להיות מעל או דווקא ירדו מתחת לאחוז החסימה כמו שהסימולציה שלי חוזה - פרסמתי אתמול 9% סיכוי בלבד למעבר אחוז החסימה?\n2. עמך - האם מצליחים להתרחק מעט מאחוז החסימה  בכמ",
+        " חלק מהטעויות זהות גם בערוצים אחרים. אבל היחידים שטעו Show more ינון מגל Yinon Magal @YinonMagal 5h סקר של צוהר בדק את רמת האמון של הציבור ביחס לסקרים בטלויזיה.\nערוץ 14 וערוץ 12 בתיקו.\nאני מניח שאם היו שואלים את הציבור איזה ערוץ הוא רואה התוצאות היו דומות... facebook.com/share/p/1Jbf7H… 1 6 786 ינשוף בחירות @ElectionOwl 2h במה הינשוף יתמקד בסקר כאן שיפורסם הערב:\n1. המילאומניקים - האם ימשיכו להיות מעל או דווקא ירדו מתחת לאחוז החסימה כמו שהסימולציה שלי חוזה - פרסמתי אתמול 9% סיכוי בלבד למעבר אחוז החסימה?\n2. עמך - האם מצליחים להתרחק מעט מאחוז החסימה  בכמה שברירי אחוז מעל החסימה? 3.5% בסקר האחרון.\n3. Show more 3 4 25 1.5K",
+        "דים שטעו Show more ינון מגל Yinon Magal @YinonMagal 5h סקר של צוהר בדק את רמת האמון של הציבור ביחס לסקרים בטלויזיה.\nערוץ 14 וערוץ 12 בתיקו.\nאני מניח שאם היו שואלים את הציבור איזה ערוץ הוא רואה התוצאות היו דומות... facebook.com/share/p/1Jbf7H… 1 6 786 ינשוף בחירות @ElectionOwl 2h במה הינשוף יתמקד בסקר כאן שיפורסם הערב:\n1. המילאומניקים - האם ימשיכו להיות מעל או דווקא ירדו מתחת לאחוז החסימה כמו שהסימולציה שלי חוזה - פרסמתי אתמול 9% סיכוי בלבד למעבר אחוז החסימה?\n2. עמך - האם מצליחים להתרחק מעט מאחוז החסימה  בכמה שברירי אחוז מעל החסימה? 3.5% בסקר האחרון.\n3. Show more 3 4 25 1.5K",
+        "ות היו דומות... facebook.com/share/p/1Jbf7H… 1 6 786 ינשוף בחירות @ElectionOwl 2h במה הינשוף יתמקד בסקר כאן שיפורסם הערב:\n1. המילאומניקים - האם ימשיכו להיות מעל או דווקא ירדו מתחת לאחוז החסימה כמו שהסימולציה שלי חוזה - פרסמתי אתמול 9% סיכוי בלבד למעבר אחוז החסימה?\n2. עמך - האם מצליחים להתרחק מעט מאחוז החסימה  בכמה שברירי אחוז מעל החסימה? 3.5% בסקר האחרון.\n3. Show more 3 4 25 1.5K",
+        "למעבר אחוז החסימה?\n2. עמך - האם מצליחים להתרחק מעט מאחוז החסימה  בכמה שברירי אחוז מעל החסימה? 3.5% בסקר האחרון.\n3. Show more 3 4 25 1.5K"
+      ]
+    },
+    {
+      "label": "kan-sitemap",
+      "url": "https://www.kan.org.il/sitemap.xml",
+      "checkedAtUtc": "2026-10-04T18:30:57.453658+00:00",
+      "status": 403,
+      "finalUrl": "https://www.kan.org.il/sitemap.xml",
+      "bodyBytes": 5502,
+      "sha256": "59017e191ebc617f3db5cb3a2774eb111089895e5f545d5774dfbfeb33034d88",
+      "title": "Just a moment...",
+      "textChars": 58,
+      "statusUrls": [],
+      "links": [],
+      "images": [],
+      "pollTextSnippets": []
+    },
+    {
+      "label": "kan-rss",
+      "url": "https://www.kan.org.il/rss/news",
+      "checkedAtUtc": "2026-10-04T18:30:57.453658+00:00",
+      "status": 403,
+      "finalUrl": "https://www.kan.org.il/rss/news",
+      "bodyBytes": 5493,
+      "sha256": "4614a36509c9c915b1159b323e1ef4fcd39b8aefc3634fc8dc436163fdeb369d",
+      "title": "Just a moment...",
+      "textChars": 58,
+      "statusUrls": [],
+      "links": [],
+      "images": [],
+      "pollTextSnippets": []
+    }
+  ]
+}

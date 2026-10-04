@@ -1,0 +1,801 @@
+{
+  "checks": [
+    {
+      "label": "israelpolls-profile",
+      "url": "https://x.com/IsraelPolls?s=20",
+      "checkedAtUtc": "2026-10-04T18:26:27.384461+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls?s=20",
+      "bodyBytes": 139097,
+      "sha256": "ef850dc24c529e92d0f9f2213492c2c1ddc925b556057d9d9fb400374ecca70d",
+      "title": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X",
+      "textChars": 1148,
+      "statusUrls": [
+        "https://x.com/IsraelPolls/status/2106285422116774305",
+        "https://x.com/IsraelPolls/status/2106284699110830565",
+        "https://x.com/IsraelPolls/status/2106064320014721136",
+        "https://x.com/IsraelPolls/status/2106057542313132059",
+        "https://x.com/IsraelPolls/status/2105881232269537421"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/header_photo"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/photo"
+        },
+        {
+          "text": "uzit.co.il",
+          "href": "https://t.co/1KePBOkzHh"
+        },
+        {
+          "text": "Joined February 2020",
+          "href": "/IsraelPolls/about"
+        },
+        {
+          "text": "15 Following",
+          "href": "/IsraelPolls/following"
+        },
+        {
+          "text": "1,874 Followers",
+          "href": "/IsraelPolls/verified_followers"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?text=%40IsraelPolls+"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Replies Replies",
+          "href": "/IsraelPolls/with_replies"
+        },
+        {
+          "text": "Reposts Reposts",
+          "href": "/IsraelPolls/reposts"
+        },
+        {
+          "text": "Media Media",
+          "href": "/IsraelPolls/media"
+        },
+        {
+          "text": "Continue with phone",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "Log in with username or email",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "Terms",
+          "href": "https://x.com/tos"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://x.com/privacy"
+        },
+        {
+          "text": "Cookies",
+          "href": "https://support.x.com/articles/20170514"
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://help.x.com/resources/accessibility"
+        },
+        {
+          "text": "Ads Info",
+          "href": "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 3",
+          "href": "/IsraelPolls/status/2106285422116774305"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106285422116774305/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106285422116774305/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106285422116774305"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 3",
+          "href": "/IsraelPolls/status/2106284699110830565"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106284699110830565/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106284699110830565/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106284699110830565"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2106064320014721136"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106064320014721136/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106064320014721136/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106064320014721136"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2106057542313132059"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106057542313132059/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2106057542313132059/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106057542313132059"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "@IsraelPolls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 2",
+          "href": "/IsraelPolls/status/2105881232269537421"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/2"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2105881232269537421/photo/2"
+        },
+        {
+          "text": "1",
+          "href": "/compose/post?in_reply_to=2105881232269537421"
+        }
+      ],
+      "images": [
+        {
+          "alt": "סקרים פוליטיים - Israel Political Polls profile banner",
+          "src": "https://pbs.twimg.com/profile_banners/1226405431377043456/1582187230/1500x500"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_400x400.jpg"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTsHZ9NXcAApRAr?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTsGw6kXwAAor10?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTo-STTW8AAd4Rl?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTo4Ky7XoAE-rnV?format=webp&name=large"
+        },
+        {
+          "alt": "@IsraelPolls",
+          "src": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTmX0KGWsAAkmwy?format=webp&name=large"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTmX0Z0W8AAetid?format=webp&name=large"
+        }
+      ],
+      "pollTextSnippets": [
+        "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Pol",
+        "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בצ",
+        "@IsraelPolls) / X Log in Sign up Log in Sign up סקרים פוליטיים - Israel Political Polls 2,732 posts סקרים פוליטיים - Israel Political Polls @IsraelPolls Israel uzit.co.il Joined February 2020 15 Following 1,874 Followers Mention Follow Posts Posts Replies Replies Reposts Reposts Media Media Log in or sign up for X See what’s happening and join the conversation Continue with phone Continue with Apple Continue with Google or Log in with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 511 סקרים פוליטיי",
+        "n with username or email Terms · Privacy · Cookies · Accessibility · Ads Info · More © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 511 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 361 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "e © 2026 X Corp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 511 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 361 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "orp. סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 511 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 361 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "t 3 ממוצעים שבועיים של כלל הסקרים, פרט לסקרי פילבר-דיירקט (בציוץ קודם), מתחילת אוגוסט ועד עתה 3 511 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 361 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "תחילת אוגוסט ועד עתה 3 511 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 361 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "יטיים - Israel Political Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 361 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "l Polls @IsraelPolls Oct 3 השוואת ממוצעי סקרים שבועיים מתחילת אוגוסט - ממוצע סקרי פילבר ודיירקט 361 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "רים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 Current week's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "k's polls (English version) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        "rsion) 302 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        " סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K",
+        " ריכוז כל סקרי השבוע, וממוצעי הסקרים 478 סקרים פוליטיים - Israel Political Polls @IsraelPolls Oct 2 סקר מנחם לזר במעריב 1 4 1.1K"
+      ]
+    },
+    {
+      "label": "kan-home",
+      "url": "https://www.kan.org.il/",
+      "checkedAtUtc": "2026-10-04T18:26:27.385462+00:00",
+      "status": 403,
+      "finalUrl": "https://www.kan.org.il/",
+      "bodyBytes": 5448,
+      "sha256": "0ec10b5b34aa0a185216fcb7cc842397a456491a2dcfe04c3bd6ced420ef7b66",
+      "title": "Just a moment...",
+      "textChars": 58,
+      "statusUrls": [],
+      "links": [],
+      "images": [],
+      "pollTextSnippets": []
+    },
+    {
+      "label": "kan-politics",
+      "url": "https://www.kan.org.il/content/kan-news/politic/",
+      "checkedAtUtc": "2026-10-04T18:26:27.385462+00:00",
+      "status": 403,
+      "finalUrl": "https://www.kan.org.il/content/kan-news/politic/",
+      "bodyBytes": 5565,
+      "sha256": "a1802d39972291a7d5b03a3af8647343b8c21d698292acc0f798887007b74ca8",
+      "title": "Just a moment...",
+      "textChars": 58,
+      "statusUrls": [],
+      "links": [],
+      "images": [],
+      "pollTextSnippets": []
+    },
+    {
+      "label": "kan-news",
+      "url": "https://www.kan.org.il/lobby/news/",
+      "checkedAtUtc": "2026-10-04T18:26:27.385462+00:00",
+      "status": 403,
+      "finalUrl": "https://www.kan.org.il/lobby/news/",
+      "bodyBytes": 5502,
+      "sha256": "2dbcca2bf2513bdcc91ce9ab26309d3b8827980cd66aad6db93979747455810b",
+      "title": "Just a moment...",
+      "textChars": 58,
+      "statusUrls": [],
+      "links": [],
+      "images": [],
+      "pollTextSnippets": []
+    },
+    {
+      "label": "kan-polls",
+      "url": "https://skarim.kan.org.il/",
+      "checkedAtUtc": "2026-10-04T18:26:27.385462+00:00",
+      "status": 403,
+      "finalUrl": "https://skarim.kan.org.il/",
+      "bodyBytes": 5451,
+      "sha256": "dc8304aa72808b571f8cf413e7d3e35f0f7e9cadb1cd2523928b9e3c94cd687f",
+      "title": "Just a moment...",
+      "textChars": 58,
+      "statusUrls": [],
+      "links": [],
+      "images": [],
+      "pollTextSnippets": []
+    },
+    {
+      "label": "kan-x-profile",
+      "url": "https://x.com/kann_news",
+      "checkedAtUtc": "2026-10-04T18:26:27.385462+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/kann_news",
+      "bodyBytes": 174236,
+      "sha256": "bd1130bfd35d00429d9f6a3ab4f00c71126b5787055913822aebb1a511d88eab",
+      "title": "כאן חדשות (@kann_news) / X",
+      "textChars": 1597,
+      "statusUrls": [
+        "https://x.com/kann_news/status/2106452462333034886",
+        "https://x.com/kann_news/status/2106811888134754479",
+        "https://x.com/kann_news/status/2106807683919532325",
+        "https://x.com/kann_news/status/2106805478231552461",
+        "https://x.com/kann_news/status/2106804648094965909"
+      ],
+      "links": [
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2Fkann_news"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2Fkann_news"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Log in",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2Fkann_news"
+        },
+        {
+          "text": "Sign up",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2Fkann_news"
+        },
+        {
+          "text": "",
+          "href": "/kann"
+        },
+        {
+          "text": "",
+          "href": "/kann_news/header_photo"
+        },
+        {
+          "text": "",
+          "href": "/kann_news/photo"
+        },
+        {
+          "text": "",
+          "href": "/kann"
+        },
+        {
+          "text": "onelink.to/vp5yhc",
+          "href": "http://onelink.to/vp5yhc"
+        },
+        {
+          "text": "kan.org.il",
+          "href": "https://t.co/IXKaBQ7jLv"
+        },
+        {
+          "text": "Joined April 2017",
+          "href": "/kann_news/about"
+        },
+        {
+          "text": "340 Following",
+          "href": "/kann_news/following"
+        },
+        {
+          "text": "377.1K Followers",
+          "href": "/kann_news/verified_followers"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?text=%40kann_news+"
+        },
+        {
+          "text": "",
+          "href": "/kann_news"
+        },
+        {
+          "text": "Replies Replies",
+          "href": "/kann_news/with_replies"
+        },
+        {
+          "text": "Reposts Reposts",
+          "href": "/kann_news/reposts"
+        },
+        {
+          "text": "Media Media",
+          "href": "/kann_news/media"
+        },
+        {
+          "text": "Continue with phone",
+          "href": "/i/jf/onboarding/web?mode=signup&redirect_after_login=%2Fkann_news"
+        },
+        {
+          "text": "Log in with username or email",
+          "href": "/i/jf/onboarding/web?mode=login&redirect_after_login=%2Fkann_news"
+        },
+        {
+          "text": "Terms",
+          "href": "https://x.com/tos"
+        },
+        {
+          "text": "Privacy",
+          "href": "https://x.com/privacy"
+        },
+        {
+          "text": "Cookies",
+          "href": "https://support.x.com/articles/20170514"
+        },
+        {
+          "text": "Accessibility",
+          "href": "https://help.x.com/resources/accessibility"
+        },
+        {
+          "text": "Ads Info",
+          "href": "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+        },
+        {
+          "text": "",
+          "href": "/kann_news"
+        },
+        {
+          "text": "כאן חדשות",
+          "href": "/kann_news"
+        },
+        {
+          "text": "",
+          "href": "/kann"
+        },
+        {
+          "text": "@kann_news",
+          "href": "/kann_news"
+        },
+        {
+          "text": "23h",
+          "href": "/kann_news/status/2106452462333034886"
+        },
+        {
+          "text": "@ TaliMoreno_",
+          "href": "/TaliMoreno_"
+        },
+        {
+          "text": "1",
+          "href": "/compose/post?in_reply_to=2106452462333034886"
+        },
+        {
+          "text": "",
+          "href": "/kann_news"
+        },
+        {
+          "text": "כאן חדשות",
+          "href": "/kann_news"
+        },
+        {
+          "text": "",
+          "href": "/kann"
+        },
+        {
+          "text": "@kann_news",
+          "href": "/kann_news"
+        },
+        {
+          "text": "5m",
+          "href": "/kann_news/status/2106811888134754479"
+        },
+        {
+          "text": "@ DovGilHar",
+          "href": "/DovGilHar"
+        },
+        {
+          "text": "#מהדורתכאןחדשות",
+          "href": "/hashtag/%D7%9E%D7%94%D7%93%D7%95%D7%A8%D7%AA%D7%9B%D7%90%D7%9F%D7%97%D7%93%D7%A9%D7%95%D7%AA"
+        },
+        {
+          "text": "@ TaliMoreno_",
+          "href": "/TaliMoreno_"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106811888134754479"
+        },
+        {
+          "text": "",
+          "href": "/kann_news"
+        },
+        {
+          "text": "כאן חדשות",
+          "href": "/kann_news"
+        },
+        {
+          "text": "",
+          "href": "/kann"
+        },
+        {
+          "text": "@kann_news",
+          "href": "/kann_news"
+        },
+        {
+          "text": "22m",
+          "href": "/kann_news/status/2106807683919532325"
+        },
+        {
+          "text": "#מהדורתכאןחדשות",
+          "href": "/hashtag/%D7%9E%D7%94%D7%93%D7%95%D7%A8%D7%AA%D7%9B%D7%90%D7%9F%D7%97%D7%93%D7%A9%D7%95%D7%AA"
+        },
+        {
+          "text": "@ TaliMoreno_",
+          "href": "/TaliMoreno_"
+        },
+        {
+          "text": "2",
+          "href": "/compose/post?in_reply_to=2106807683919532325"
+        },
+        {
+          "text": "",
+          "href": "/kann_news"
+        },
+        {
+          "text": "כאן חדשות",
+          "href": "/kann_news"
+        },
+        {
+          "text": "",
+          "href": "/kann"
+        },
+        {
+          "text": "@kann_news",
+          "href": "/kann_news"
+        },
+        {
+          "text": "30m",
+          "href": "/kann_news/status/2106805478231552461"
+        },
+        {
+          "text": "#מהדורתכאןחדשות",
+          "href": "/hashtag/%D7%9E%D7%94%D7%93%D7%95%D7%A8%D7%AA%D7%9B%D7%90%D7%9F%D7%97%D7%93%D7%A9%D7%95%D7%AA"
+        },
+        {
+          "text": "@ TaliMoreno_",
+          "href": "/TaliMoreno_"
+        },
+        {
+          "text": "",
+          "href": "/compose/post?in_reply_to=2106805478231552461"
+        },
+        {
+          "text": "",
+          "href": "/kann_news"
+        },
+        {
+          "text": "כאן חדשות",
+          "href": "/kann_news"
+        },
+        {
+          "text": "",
+          "href": "/kann"
+        },
+        {
+          "text": "@kann_news",
+          "href": "/kann_news"
+        },
+        {
+          "text": "34m",
+          "href": "/kann_news/status/2106804648094965909"
+        },
+        {
+          "text": "@ glick_sh",
+          "href": "/glick_sh"
+        },
+        {
+          "text": "#מהדורתכאןחדשות",
+          "href": "/hashtag/%D7%9E%D7%94%D7%93%D7%95%D7%A8%D7%AA%D7%9B%D7%90%D7%9F%D7%97%D7%93%D7%A9%D7%95%D7%AA"
+        },
+        {
+          "text": "@ TaliMoreno_",
+          "href": "/TaliMoreno_"
+        },
+        {
+          "text": "1",
+          "href": "/compose/post?in_reply_to=2106804648094965909"
+        }
+      ],
+      "images": [
+        {
+          "alt": "כאן",
+          "src": "https://pbs.twimg.com/profile_images/2046635160280428544/SOrNeI-y_normal.jpg"
+        },
+        {
+          "alt": "כאן חדשות profile banner",
+          "src": "https://pbs.twimg.com/profile_banners/848511075935039492/1764594926/1500x500"
+        },
+        {
+          "alt": "@kann_news",
+          "src": "https://pbs.twimg.com/profile_images/2046620182622208001/EjXoDlJg_400x400.jpg"
+        },
+        {
+          "alt": "כאן",
+          "src": "https://pbs.twimg.com/profile_images/2046635160280428544/SOrNeI-y_normal.jpg"
+        },
+        {
+          "alt": "@kann_news",
+          "src": "https://pbs.twimg.com/profile_images/2046620182622208001/EjXoDlJg_normal.jpg"
+        },
+        {
+          "alt": "כאן",
+          "src": "https://pbs.twimg.com/profile_images/2046635160280428544/SOrNeI-y_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTufobDWwAADSbj?format=webp&name=medium"
+        },
+        {
+          "alt": "@kann_news",
+          "src": "https://pbs.twimg.com/profile_images/2046620182622208001/EjXoDlJg_normal.jpg"
+        },
+        {
+          "alt": "כאן",
+          "src": "https://pbs.twimg.com/profile_images/2046635160280428544/SOrNeI-y_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzmUS6bAAAapcN?format=webp&name=medium"
+        },
+        {
+          "alt": "@kann_news",
+          "src": "https://pbs.twimg.com/profile_images/2046620182622208001/EjXoDlJg_normal.jpg"
+        },
+        {
+          "alt": "כאן",
+          "src": "https://pbs.twimg.com/profile_images/2046635160280428544/SOrNeI-y_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzg7PrXEAE0tCO?format=webp&name=medium"
+        },
+        {
+          "alt": "@kann_news",
+          "src": "https://pbs.twimg.com/profile_images/2046620182622208001/EjXoDlJg_normal.jpg"
+        },
+        {
+          "alt": "כאן",
+          "src": "https://pbs.twimg.com/profile_images/2046635160280428544/SOrNeI-y_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzge59bIAABRnr?format=webp&name=medium"
+        },
+        {
+          "alt": "@kann_news",
+          "src": "https://pbs.twimg.com/profile_images/2046620182622208001/EjXoDlJg_normal.jpg"
+        },
+        {
+          "alt": "כאן",
+          "src": "https://pbs.twimg.com/profile_images/2046635160280428544/SOrNeI-y_normal.jpg"
+        },
+        {
+          "alt": "",
+          "src": "https://pbs.twimg.com/media/HTzfytVWQAArgkk?format=webp&name=medium"
+        }
+      ],
+      "pollTextSnippets": [
+        "של חמאס | @ DovGilHar עם הפרטים #מהדורתכאןחדשות עם @ TaliMoreno_ 00:00 664 כאן חדשות @kann_news 22m סקר כאן חדשות: איזנקוט חזר להוביל על נתניהו בשאלת ההתאמה לראשות הממשלה #מהדורתכאןחדשות עם @ TaliMoreno_ 00:00 2 2 1.3K כאן חדשות @kann_news 30m הדרמה בסקר הראשון של השבוע של סוקר כאן חדשות דודי חסיד: לראשונה, עמך ישראל בראשות עופר וינטר לא עוברת את אחוז החסימה. גוש איזנקוט מוביל במנדט אחד על גוש נתניהו #מהדורתכאןחדשות עם @ TaliMoreno_ 00:00 2 6 1.6K כאן חדשות @kann_news 34m במסגרת הגישושים מול בני גנץ על חבירה לליכוד, הוצע למנות אותו לשר כבר בממשלה הנוכחית - ובין השאר נזרקה כאפשרות תיאורטית כהונה כשר ביטחון, אך גנץ דחה את ההצעה. מהליכוד נמסר: \"בני גנץ לא קיבל הצעה לשריון\" | פרסום ראשון של @ gl",
+        "התאמה לראשות הממשלה #מהדורתכאןחדשות עם @ TaliMoreno_ 00:00 2 2 1.3K כאן חדשות @kann_news 30m הדרמה בסקר הראשון של השבוע של סוקר כאן חדשות דודי חסיד: לראשונה, עמך ישראל בראשות עופר וינטר לא עוברת את אחוז החסימה. גוש איזנקוט מוביל במנדט אחד על גוש נתניהו #מהדורתכאןחדשות עם @ TaliMoreno_ 00:00 2 6 1.6K כאן חדשות @kann_news 34m במסגרת הגישושים מול בני גנץ על חבירה לליכוד, הוצע למנות אותו לשר כבר בממשלה הנוכחית - ובין השאר נזרקה כאפשרות תיאורטית כהונה כשר ביטחון, אך גנץ דחה את ההצעה. מהליכוד נמסר: \"בני גנץ לא קיבל הצעה לשריון\" | פרסום ראשון של @ glick_sh #מהדורתכאןחדשות עם @ TaliMoreno_ 00:00 1 2 2 1.8K"
+      ]
+    },
+    {
+      "label": "skarim-kan",
+      "url": "https://www.skarim.org/polls/kan-2026-10-04",
+      "checkedAtUtc": "2026-10-04T18:26:28.030239+00:00",
+      "status": 429,
+      "finalUrl": "https://www.skarim.org/polls/kan-2026-10-04",
+      "bodyBytes": 33945,
+      "sha256": "6d9e372ebfff76ed81a2d6667e7c7a6f7dc6293c35e32c47f70b5b4642a2885e",
+      "title": "Vercel Security Checkpoint",
+      "textChars": 276,
+      "statusUrls": [],
+      "links": [
+        {
+          "text": "Website owner? Click here to fix",
+          "href": "https://vercel.link/security-checkpoint"
+        }
+      ],
+      "images": [],
+      "pollTextSnippets": []
+    }
+  ]
+}

@@ -4,3 +4,8 @@
 /sources/2026-10-02/*.html -diff
 /sources/2026-10-02-trends/* -text
 /sources/2026-10-02-comparison/* -text
+/sources/2026-10-04/* -text
+/sources/2026-10-04/*.html -diff
+/sources/2026-10-04-trends/* -text
+/sources/2026-10-04-comparison/* -text
+/updates/2026-10-04/* -text
