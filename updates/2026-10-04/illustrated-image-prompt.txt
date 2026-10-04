@@ -1,0 +1,30 @@
+Use case: infographic-diagram / style-transfer.
+Asset type: a polished Hebrew social-media infographic, landscape approximately 1600x1100, easy to read on a phone.
+Input images:
+Image 1 is the existing infographic to redesign. Preserve its underlying verified factual story, but replace the dry dashboard-card appearance with an engaging, restrained editorial illustration.
+Image 2 is the exact Amcha Israel (Winter) party logo reference. Use this real mark prominently and legibly without inventing a logo. Other parties can be identified by clear Hebrew names.
+Image 3 is a portrait reference ONLY: Ofer Winter is the second person from the left in the bottom row, above the orange 'עמך ישראל' label, with short dark hair and short dark beard. Ignore all poll data/numbers in Image 3. Draw a recognizable dignified stylized ink-and-watercolor portrait of this person, not other leaders.
+
+Primary request: Add Winter's weighted model probability of clearing the electoral threshold, and make the infographic more visual and pictorial, with a neutral illustrated portrait, party logos, simple ballot/threshold motif and generous whitespace. Keep it a data explainer, not a campaign ad. No mocking caricature, excessive decorations or visual clutter.
+Style: sophisticated editorial illustration, hand-drawn ink outlines and subtle watercolor washes on warm ivory paper, navy typography, restrained red for coalition changes, teal-blue for model probability. A ballot-box illustration beside the Winter portrait can provide a visual motif. An approximately half-filled circular probability gauge is allowed, but label it as a model probability, not vote share. Avoid dry generic rounded UI cards. Make numerals and Hebrew crisp, generously sized and accurate.
+Composition: Strong single hierarchy: title and illustrated Winter with his logo; enormous '49.2%' as main focal number with its model label; a smaller clearly labelled before-update '58.8%'; compact separate strip with raw Kan poll results; three small illustrated ballot labels with party names and +1 each as an explanation of the bloc change. Source/method and small author credit at bottom. Preserve right-to-left reading order for Hebrew, with conventional digit order.
+
+Text to render verbatim:
+Title: "וינטר על הקצה"
+Main number: "49.2%"
+Main label: "סיכוי לעבור את אחוז החסימה"
+Model qualifier near main number: "לפי המודל המשוקלל לאחר עדכון סקר כאן"
+Before comparison: "לפני העדכון: 58.8% (נתוני 2.10)"
+Date badge: "מעודכן ל־4.10.2026"
+Raw-poll strip header: "בסקר כאן עצמו"
+Raw-poll Winter result: "וינטר: מ־4 ל־0 מנדטים"
+Raw-poll vote share: "תמיכה בסקר: 2.6%"
+Raw-poll bloc result: "גוש נתניהו: מ־52 ל־51 מנדטים"
+Raw-poll comparison dates: "27.9 לעומת 4.10"
+Three small illustrated ballot labels, with these exact Hebrew party names and "+1" each: "ש״ס", "יהדות התורה", "עוצמה יהודית". Use names instead of guessing their logo designs.
+Explanation beside these: "כל אחת עולה במנדט"
+Methods footnote, readable but secondary: "דיוק היסטורי · 10,000 הרצות · טעות בסקרים · בסיס הצבעה 2022"
+Source line: "מקור: כאן חדשות / קנטאר — דודי חסיד"
+Small credit: "ויקטור רינה בן דוד"
+
+Accuracy constraints: 49.2% is the simulated passing probability from ALL weighted active polls and uncertainty, not Winter's vote share in Kan. 58.8% is the model before the October 4 update (model data dated October 2), NOT the September 27 Kan poll. 2.6% is Winter's published vote share in the new Kan poll. The two raw Kan poll publication dates are September 27 and October 4, 2026. Do not portray a statistical significance finding. Do not invent extra numbers, odds, party facts, insignia or quotes. No ChatGPT/OpenAI logo. Preserve correct Hebrew spelling and small author credit.
