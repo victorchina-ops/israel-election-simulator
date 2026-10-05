@@ -1,0 +1,176 @@
+{
+  "beforeDate": "2026-09-22",
+  "afterDate": "2026-10-05",
+  "beforeSourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm",
+  "afterSourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+  "seatChanges": [
+    {
+      "partyId": "yashar",
+      "before": 23,
+      "after": 23,
+      "delta": 0
+    },
+    {
+      "partyId": "likud",
+      "before": 20,
+      "after": 21,
+      "delta": 1
+    },
+    {
+      "partyId": "beyachad",
+      "before": 13,
+      "after": 13,
+      "delta": 0
+    },
+    {
+      "partyId": "democrats",
+      "before": 9,
+      "after": 9,
+      "delta": 0
+    },
+    {
+      "partyId": "yisrael_beiteinu",
+      "before": 9,
+      "after": 9,
+      "delta": 0
+    },
+    {
+      "partyId": "utj",
+      "before": 8,
+      "after": 8,
+      "delta": 0
+    },
+    {
+      "partyId": "joint",
+      "before": 7,
+      "after": 8,
+      "delta": 1
+    },
+    {
+      "partyId": "shas",
+      "before": 7,
+      "after": 7,
+      "delta": 0
+    },
+    {
+      "partyId": "otzma",
+      "before": 6,
+      "after": 7,
+      "delta": 1
+    },
+    {
+      "partyId": "rz_zehut",
+      "before": 5,
+      "after": 6,
+      "delta": 1
+    },
+    {
+      "partyId": "raam",
+      "before": 5,
+      "after": 5,
+      "delta": 0
+    },
+    {
+      "partyId": "winter",
+      "before": 4,
+      "after": 0,
+      "delta": -4
+    },
+    {
+      "partyId": "hendel",
+      "before": 4,
+      "after": 4,
+      "delta": 0
+    },
+    {
+      "partyId": "gantz",
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    {
+      "partyId": "haredi_public",
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    {
+      "partyId": "noam",
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    {
+      "partyId": "israel_first",
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    }
+  ],
+  "belowThresholdChanges": [
+    {
+      "partyId": "winter",
+      "beforePublishedPct": null,
+      "afterPublishedPct": 1.5,
+      "delta": null
+    },
+    {
+      "partyId": "haredi_public",
+      "beforePublishedPct": 0.3,
+      "afterPublishedPct": 0.6,
+      "delta": 0.3
+    },
+    {
+      "partyId": "gantz",
+      "beforePublishedPct": 0.7,
+      "afterPublishedPct": 0.5,
+      "delta": -0.2
+    },
+    {
+      "partyId": "noam",
+      "beforePublishedPct": 0.1,
+      "afterPublishedPct": 0.0,
+      "delta": -0.1
+    },
+    {
+      "partyId": "israel_first",
+      "beforePublishedPct": 0.0,
+      "afterPublishedPct": 0.0,
+      "delta": 0.0
+    },
+    {
+      "partyId": "other",
+      "beforePublishedPct": null,
+      "afterPublishedPct": 0.0,
+      "delta": null
+    }
+  ],
+  "sourceBlocChanges": {
+    "coalition": {
+      "before": 50,
+      "after": 49,
+      "delta": -1
+    },
+    "opposition": {
+      "before": 54,
+      "after": 54,
+      "delta": 0
+    },
+    "arab_parties": {
+      "before": 12,
+      "after": 13,
+      "delta": 1
+    },
+    "hendel": {
+      "before": 4,
+      "after": 4,
+      "delta": 0
+    }
+  },
+  "winterBeforePublishedSeats": 4,
+  "winterBeforePublishedPct": null,
+  "winterAfterPublishedSeats": 0,
+  "winterAfterPublishedPct": 1.5,
+  "articleProseInconsistency": "Original article claims opposition +1 seat but its linked previous article Sept22 and partyvector give54nonArabopposition inboth. Follow verifiedcounts54→54, not proseclaim.",
+  "testsOfStatisticalSignificancePerformed": false
+}

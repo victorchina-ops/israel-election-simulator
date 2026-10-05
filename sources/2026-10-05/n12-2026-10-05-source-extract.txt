@@ -1,0 +1,10 @@
+Verified original N12/Midgam poll, publication and fieldwork 2026-10-05.
+Original: https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm
+Publication: 2026-10-05 21:10 Asia/Jerusalem (article visible and article:published_time metadata).
+Seats: {"yashar": 23, "likud": 21, "beyachad": 13, "democrats": 9, "yisrael_beiteinu": 9, "utj": 8, "joint": 8, "shas": 7, "otzma": 7, "rz_zehut": 6, "raam": 5, "winter": 0, "hendel": 4, "gantz": 0, "haredi_public": 0, "noam": 0, "israel_first": 0}
+Published below-threshold support: Winter1.5%, HarediPublic0.6%, Gantz0.5%; article explicitly says all other parties0%.
+Source blocs: coalition49, nonArabopposition54, Arab13, Hendel4.
+Actual respondents501; initialtarget500; invited2501; maximumsamplingerror4.4%; Israeli adults18+; stratifiedrandomsampling; internet+telephone.
+PanelProvider iPanel shown in original branded broadcastgraphic republished by IsraelPolls; not named in articletext.
+Source internalprose inconsistency: article says oppositionstrengthens1 but its Sep22 linked previous article and both seatvectors sum54nonArabopposition. Use verified54→54, coal50→49, Arab12→13, Hendel4→4.
+No updated N12 historicaltable exposed in latest profile at initial check; new post contains one broadcastgraphic.

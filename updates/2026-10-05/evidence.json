@@ -1,0 +1,62 @@
+{
+  "modelAsOf": "2026-10-05",
+  "comparisonModelDates": [
+    "2026-10-05",
+    "2026-10-05"
+  ],
+  "comparison": "Same weighted polls, baseline turnout versus assumed60%Arab-locality/+5%opposition/−5%coalition scenario. The figure is not a poll-to-poll comparison.",
+  "latestPollDate": "2026-10-05",
+  "previousN12PollDate": "2026-09-22",
+  "priorModelDataDate": "2026-10-04",
+  "publishedPollSourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+  "sourceSimulation": "sources/2026-10-05-comparison/turnout-sensitivity.json",
+  "numbers": {
+    "baselineWithRaamPct": 12.5,
+    "scenarioWithRaamPct": 46.21,
+    "baselineWithRaamAndHendelPct": 30.74,
+    "scenarioWithRaamAndHendelPct": 64.38
+  },
+  "settings": {
+    "weightMode": "quality",
+    "iterations": 10000,
+    "seed": 20260912,
+    "pollError": true,
+    "baselineTurnout": "2022",
+    "scenarioArabLocalityTurnoutPct": 60,
+    "oppositionMotivation": 1.05,
+    "coalitionMotivation": 0.95,
+    "motivatedOpposition": [
+      "yashar",
+      "beyachad",
+      "democrats",
+      "yisrael_beiteinu"
+    ],
+    "motivatedCoalition": [
+      "likud",
+      "shas",
+      "utj",
+      "otzma",
+      "rz_zehut",
+      "winter",
+      "noam"
+    ],
+    "RaamJointHendelMotivation": 1
+  },
+  "interpretation": "Conditional probability of capacity for61seats assuming the named parties cooperate; not an estimated probability of forming a government, a predicted turnout, or a significance claim.",
+  "sourceSimulationSHA256": "b34195e0b1725c24c081a9635ea11944f7baaf27ab9c1e36ca254d9491416ed9",
+  "inputSHA256": "befbca0479fecd4a350c77badb98b2994cb7abb6b4e4c2c1251e2254b773198f",
+  "pngSha256": "41a5d7b5b7dd0a31ed797482a01eaded214fbcab0823b090709d2699a2b8ac43",
+  "pngDimensions": [
+    1536,
+    1024
+  ],
+  "imageGeneration": "Built-in image_gen; original bitmap copied unchanged; image-prompt.txt retained. Verified logos provided as references.",
+  "visualQA": {
+    "status": "passed",
+    "rootReview": "Hebrew text, percentages, gauge directions, date, sources, model assumptions and credit inspected.",
+    "independentReview": "Independent reviewer confirmed all labels and12.5/46.2/30.7/64.4 figures; all were readable and unclipped.",
+    "numericAudit": "Independent unmodified-model replay and seat-array recount for all50,000 worlds matched; eachworld120."
+  },
+  "credit": "ויקטור רינה בן דוד",
+  "tweetWeightedCharacters": 254
+}

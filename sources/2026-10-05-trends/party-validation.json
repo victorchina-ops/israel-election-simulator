@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "asOf": "2026-10-05",
+  "polls": 29,
+  "series": 7,
+  "deltas": 22,
+  "parties": 17,
+  "individualTests": 119,
+  "exactPermutations": 42998169600,
+  "newN12EligibleStrict": true,
+  "excludedPollCount": 7,
+  "independentAgreement": "All bloc slopes, exact counts and p-values; all party slopes, net changes, exact p/q and sign-flip p/q within 1e-12",
+  "sourceEvidenceSha256Verified": true,
+  "correctedPartyFindings": [
+    "beyachad",
+    "joint",
+    "hendel"
+  ],
+  "correctedBlocFindings": [
+    "opposition",
+    "opposition_raam"
+  ],
+  "noCorrectedPartyFindings": false,
+  "noCorrectedBlocSensitivityFindings": true
+}

@@ -1,0 +1,239 @@
+[
+  {
+    "charset": "utf-8",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "viewport",
+    "content": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "color-scheme",
+    "content": "light dark"
+  },
+  {
+    "name": "theme-color",
+    "media": "(prefers-color-scheme: light)",
+    "content": "#FFFFFF"
+  },
+  {
+    "name": "theme-color",
+    "media": "(prefers-color-scheme: dark)",
+    "content": "#000000"
+  },
+  {
+    "property": "csp-nonce",
+    "content": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "robots",
+    "content": "index, follow",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "fb:app_id",
+    "content": "2231777543",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:site_name",
+    "content": "X (formerly Twitter)",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:locale",
+    "content": "en_US",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "application-name",
+    "content": "X (formerly Twitter)",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "google-site-verification",
+    "content": "reUF-TgZq93ZGtzImw42sfYglI2hY0QiGRmfc4jeKbs",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "facebook-domain-verification",
+    "content": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "http-equiv": "onion-location",
+    "content": "https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "al:ios:app_store_id",
+    "content": "333903271",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "al:ios:app_name",
+    "content": "X",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "al:android:package",
+    "content": "com.twitter.android",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "al:android:app_name",
+    "content": "X",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "apple-itunes-app",
+    "content": "app-id=333903271",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "apple-mobile-web-app-title",
+    "content": "X (formerly Twitter)",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "apple-mobile-web-app-capable",
+    "content": "yes",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "apple-mobile-web-app-status-bar-style",
+    "content": "default",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "mobile-web-app-capable",
+    "content": "yes",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "app-version",
+    "content": "7f9a8dd513350b1d1ad055bf8b3a98aee68c3954",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "twitter-site-verification",
+    "content": "tUZ2lgKLwTO+0EUyOpRDXtCFqyxQsvchuD0Y6zqaDwEq+74Utw0QGAmYsS8BumYX",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "sentry-trace",
+    "content": "04db51859c2c4a1cbef254caad671b1c-b8b0b920a1338b29-0",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "baggage",
+    "content": "sentry-environment=production,sentry-release=7f9a8dd513350b1d1ad055bf8b3a98aee68c3954,sentry-public_key=b523016f172e2f101d4f771b022ba96c,sentry-trace_id=04db51859c2c4a1cbef254caad671b1c,sentry-org_id=30969,sentry-sampled=false,sentry-sample_rand=0.5139094232080225,sentry-sample_rate=0.003",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:url",
+    "content": "https://x.com/IsraelPolls/status/2107177325205020786",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:type",
+    "content": "article",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "article:published_time",
+    "content": "2026-10-05T18:33:18.000Z",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "article:author",
+    "content": "https://x.com/IsraelPolls",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:title",
+    "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "title",
+    "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "twitter:title",
+    "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:description",
+    "content": "סקר מדגם לחדשות 12",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "description",
+    "content": "סקר מדגם לחדשות 12",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "twitter:description",
+    "content": "סקר מדגם לחדשות 12",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:image",
+    "content": "https://pbs.twimg.com/media/HT4ymuZXgAAt_KG?format=webp&name=large",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:image:secure_url",
+    "content": "https://pbs.twimg.com/media/HT4ymuZXgAAt_KG?format=webp&name=large",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:image:type",
+    "content": "image/webp",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:image:width",
+    "content": "4096",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "og:image:height",
+    "content": "2368",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "twitter:card",
+    "content": "summary_large_image",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "twitter:site",
+    "content": "@x",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "twitter:creator",
+    "content": "@IsraelPolls",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "name": "twitter:image",
+    "content": "https://pbs.twimg.com/media/HT4ymuZXgAAt_KG?format=webp&name=large",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "al:ios:url",
+    "content": "twitter://status?id=2107177325205020786",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  },
+  {
+    "property": "al:android:url",
+    "content": "twitter://status?id=2107177325205020786",
+    "nonce": "P6kJGs0wIbEwcmxTuOEYZQ=="
+  }
+]

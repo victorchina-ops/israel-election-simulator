@@ -1,0 +1,142 @@
+{
+  "id": "midgam_geva_2026-10-05",
+  "pollsterId": "midgam_geva",
+  "pollster": "מדגם — מנו גבע",
+  "publisher": "חדשות 12",
+  "date": "2026-10-05",
+  "publicationTime": "21:10",
+  "publishedAt": "2026-10-05T21:10:00+03:00",
+  "updatedTime": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "dateKind": "תאריך הפרסום ועבודת השדה לפי המקור הראשוני של חדשות 12",
+  "fieldworkStart": "2026-10-05",
+  "fieldworkEnd": "2026-10-05",
+  "sampleSize": 501,
+  "initialSampleSize": 500,
+  "invitedSampleSize": 2501,
+  "sampleSizeSourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+  "samplingMethod": "אינטרנט וטלפון; דגימת שכבות ובתוכן דגימה אקראית",
+  "population": "מדגם מייצג של כלל האוכלוסייה בישראל מגיל 18 ומעלה",
+  "panelProvider": "iPanel",
+  "panelProviderSourceUrl": "https://x.com/IsraelPolls/status/2107177325205020786",
+  "panelProviderEvidenceKind": "original-branded-broadcast-graphic-republished-by-IsraelPolls",
+  "reportedMarginOfErrorPct": 4.4,
+  "undecidedPct": null,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "percentageDenominator": "מכנה האחוזים לא פורסם. פורסמו אחוזים לשלוש רשימות שמתחת לחסימה, וכן נאמר במפורש ששאר המפלגות עם 0%. אחוזי הרשימות העוברות משוחזרים במודל.",
+  "originalCoveragePct": 2.6,
+  "knownPercentageSum": 2.6,
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 13,
+    "democrats": 9,
+    "yisrael_beiteinu": 9,
+    "utj": 8,
+    "joint": 8,
+    "shas": 7,
+    "otzma": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 4,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0,
+    "israel_first": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 1.5,
+    "haredi_public": 0.6,
+    "gantz": 0.5,
+    "noam": 0.0,
+    "israel_first": 0.0,
+    "other": 0.0
+  },
+  "reportedPercentages": {
+    "winter": 1.5,
+    "haredi_public": 0.6,
+    "gantz": 0.5,
+    "noam": 0.0,
+    "israel_first": 0.0,
+    "other": 0.0
+  },
+  "unmodelledNamedParties": [],
+  "percentageSourceUrls": {
+    "winter": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+    "haredi_public": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+    "gantz": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+    "noam": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+    "israel_first": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+    "other": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm"
+  },
+  "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+  "sourceTier": "original-publisher",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2107177325205020786",
+    "https://x.com/IsraelPolls?s=20",
+    "https://www.mako.co.il/news-israel-elections/2026"
+  ],
+  "checkedAt": "2026-10-05",
+  "validationSourceUrl": "https://x.com/IsraelPolls/status/2107177325205020786",
+  "replacesPollId": "midgam_geva_2026-09-22",
+  "sourceBlocSeats": {
+    "coalition": 49,
+    "opposition": 54,
+    "arab_parties": 13,
+    "hendel": 4
+  },
+  "sourceDocument": {
+    "fileName": "n12-2026-10-05-original.html",
+    "kind": "web-page",
+    "sha256": "4a73f0d5794a7358f50a14ad65510b2ebaa78d8a2fd1ba19f8720d6e0e6a09d9",
+    "reviewedAt": "2026-10-05",
+    "providedBy": "original-publisher",
+    "publicationCrossChecked": true,
+    "primarySourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+    "primaryPublicationVerified": true,
+    "archivedArticleFileName": "n12-2026-10-05-original.html",
+    "archivedArticleSha256": "4a73f0d5794a7358f50a14ad65510b2ebaa78d8a2fd1ba19f8720d6e0e6a09d9",
+    "extractFileName": "n12-2026-10-05-source-extract.txt",
+    "extractSha256": "41842bcd8b0077facc19eb53cf35f6ddc01ec76ad846423de9af0a59043c5a80",
+    "originalGraphicFileName": "2107177325205020786-0.webp",
+    "originalGraphicSha256": "1e21b71dca8808e46e41a55060b162ff3db01009c18eff674db94547c522fc00",
+    "graphicProvidedBy": "secondary-source-IsraelPolls-original-N12-broadcast-graphic",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "undecidedPct",
+      "percentageDenominator"
+    ]
+  },
+  "notes": [
+    "סקר חדשות 12 / מדגם בראשות מנו גבע, שנערך ב־5.10.2026 ופורסם ב־21:10; מחליף את סקר אותו מכון מ־22.9 במאגר הפעיל ללא ספירה כפולה.",
+    "לפי המקור הראשוני: 501 משיבים בפועל מתוך 2,501 שהתבקשו להשתתף; המדגם ההתחלתי 500. מדגם מייצג של כלל האוכלוסייה בישראל מגיל 18 ומעלה; טעות דגימה מרבית של 4.4%.",
+    "איסוף אינטרנטי וטלפוני; דגימת שכבות ובתוך השכבות דגימה אקראית. בגרפיקת השידור המקורית שפורסמה ב־IsraelPolls מצוין איסוף נתונים בשיתוף iPanel; ספק זה אינו מצוין בטקסט הכתבה. שיעור המתלבטים ומכנה האחוזים לא פורסמו ונשמרים כחסרים.",
+    "מתחת לחסימה פורסמו עמך ישראל 1.5%, הציבור החרדי 0.6% וכחול לבן 0.5%. המקור מציין במפורש ששאר המפלגות עם 0%; לכן אפס לשאר הרשימות הוא נתון מפורש של המקור, ולא השלמת נתון חסר.",
+    "אחוזי הרשימות העוברות לא פורסמו. המודל משחזר אותם מהמנדטים תוך שמירה על האחוזים שפורסמו; השחזור אינו נתון סקר גולמי.",
+    "סיכום הגושים במקור: אופוזיציה ציונית 54, קואליציה 49, מפלגות ערביות 13 והנדל–זליכה 4 מחוץ לגושים. האתר מחשב את הגושים מחדש לפי בחירת המשתמש.",
+    "בטקסט הכתבה נאמר שהאופוזיציה מתחזקת במנדט, אך הקישור לסקר הקודם מ־22.9 והסכומים לפי מפלגות בשני הסקרים מראים 54 מנדטים בשניהם. השוואתנו משתמשת בסכומים המאומתים: קואליציה 50→49, אופוזיציה 54→54, מפלגות ערביות 12→13 והנדל–זליכה 4→4.",
+    "דף הבית, מדור הפוליטיקה ומדור הבחירות של N12 נפתחו ישירות והציגו תוכן קריא. IsraelPolls נפתח, ובפוסט החדש אומתו ויזואלית המנדטים, אחוזי המפלגות שמתחת לחסימה והגושים. הפוסט שנפתח הכיל גרפיקת שידור אחת ולא חשף טבלת היסטוריה חדשה ל־5.10."
+  ],
+  "sourceAccessSummary": [
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "contentVerified": true,
+      "note": "Profile readable with new Oct5 N12 and Oct4 Kan posts. Oct5 N12 broadcastgraphic opened and visually inspected; no new Midgamhistoricaltable exposed at initialcheck. Webreader failed but directpublicrequestsuccessfullyreadcontent."
+    },
+    {
+      "urls": [
+        "https://www.n12.co.il/",
+        "https://www.mako.co.il/news-politics",
+        "https://www.mako.co.il/news-israel-elections/2026",
+        "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm"
+      ],
+      "status": 200,
+      "contentVerified": true,
+      "note": "Fresh direct currentprimaryhome,politics,electionindex and originalarticle accessible; electionindexlinksnewpoll. Originalarticle containscompleteverifiedmetadata."
+    }
+  ]
+}

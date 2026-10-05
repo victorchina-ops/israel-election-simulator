@@ -1,0 +1,31 @@
+Create an original, beautifully illustrated Hebrew editorial infographic for an Israeli election simulation tweet. Landscape around 1536x1024, extremely legible on a phone, warm cream paper, restrained navy and watercolor blue with red only for coalition motivation. Picture a hand placing a ballot into a small box, and a faint watercolor Knesset in the background. No realistic political portraits. The illustrations should enliven the graphic, not compete with its few clear numbers.
+Reference image1 is STYLE ONLY: use its readable illustrated editorial treatment but replace its entire story; do not copy any Winter portrait or old numbers. Reference2 is verified Raam logo and reference3 Yashar logo, use small clean logos beside the coalition-composition subtitle. Reference4 verified Hendel/Zelicha logo may appear only beside the small bottom alternative. Preserve logo typography.
+Exact Hebrew text, accurate right-to-left, no invented labels:
+Top headline, large: "מה משנה ההגעה לקלפי?"
+Date badge: "נתוני המודל: 5.10.2026"
+Clear subtitle: "הסיכוי ל־61 מנדטים לאופוזיציה עם רע״ם"
+Second smaller subtitle: "ללא הנדל–זליכה"
+
+Two big comparative panels, BASELINE ON RIGHT and ASSUMED TURNOUT SCENARIO ON LEFT, both using the exact same weighted polls including the newly added N12 poll. Put a simple circular probability gauge in each (approximately 12.5% and 46.2% filled respectively), not a complex chart.
+RIGHT panel exact label: "בסיס"
+Huge navy number "12.5%"
+Below: "השתתפות לפי בסיס 2022"
+LEFT panel exact label: "תרחיש ההצבעה"
+Huge blue number "46.2%"
+Below, three visually expressive ballot-ticket or arrow labels:
+"יישובים ערביים: 60%"
+"אופוזיציה: מוטיבציה +5%"
+"קואליציה: מוטיבציה −5%"
+Small common clarifying line under the panels:
+"שינוי מוטיבציה יחסי; רע״ם אינה מקבלת תוספת כפולה"
+
+Bottom small but readable strip, with reference4 logo at its side:
+"עם הנדל–זליכה: 30.7% בבסיס | 64.4% בתרחיש"
+Avoid any arrow direction ambiguity, explicitly label baseline and scenario.
+
+Footer, readable smaller text across two lines:
+"דיוק היסטורי • 10,000 הרצות • טעות סקרים פעילה"
+"תרחיש מותנה, לא תחזית השתתפות או הסתברות להרכבת ממשלה"
+Source line: "מקורות: כלל הסקרים במודל, כולל N12 / מדגם מ־5.10"
+Small credit: "ויקטור רינה בן דוד"
+Keep all text inside safe margins. This graphic compares two MODEL SCENARIOS at the SAME 5Oct model data date, not 4Oct vs5Oct and not the single-poll results. The percentages describe simulated capacity for61 under assumed cooperation. Do not include Winter statistics, raw49/54 bloc counts, significance claims, political slogans, extrapeople, extra text, or web URLs. Harmonious illustrated polish with lots of breathing room.

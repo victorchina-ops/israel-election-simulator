@@ -1,0 +1,61 @@
+{
+  "asOf": "2026-10-05",
+  "baselineAsOf": "2026-10-04",
+  "activePollCount": 8,
+  "historyPollCount": 107,
+  "pollId": "midgam_geva_2026-10-05",
+  "replacesPollId": "midgam_geva_2026-09-22",
+  "snapshotManifestSha256": "b2ad8d5c5571a5e5dbc289131f961da23a8bd7e5ea406c57695eb0775d5a1708",
+  "reviewedPollSha256": "bc066f47ab3425ea3ea4747890d8025b6da4e35f2af96b899758a64df322de03",
+  "extractSha256": "41842bcd8b0077facc19eb53cf35f6ddc01ec76ad846423de9af0a59043c5a80",
+  "publicEvidenceFiles": [
+    {
+      "fileName": "2107177325205020786-0.webp",
+      "sha256": "1e21b71dca8808e46e41a55060b162ff3db01009c18eff674db94547c522fc00"
+    },
+    {
+      "fileName": "2107177325205020786-metadata.json",
+      "sha256": "5bcc9f9195acbf5d19a9e2fc10f1b4ee5ca07638f7d0b1364cf2b19d1578b59d"
+    },
+    {
+      "fileName": "extracted-surveys.json",
+      "sha256": "ae7778029fb265b36aa99c4a0c45238c183a6fbaec48fe47c5ae2f6148b808f4"
+    },
+    {
+      "fileName": "independent-poll-deltas.json",
+      "sha256": "07faeebdbf2b84324778aaad0d64172a2baad3170ac93c85a2688dcc8d2c0ae7"
+    },
+    {
+      "fileName": "n12-2026-10-05-original-metadata.json",
+      "sha256": "ab721735bebe0ec4e78d32a34a86a03524c1db47f6c917386bd8daf0f62bd050"
+    },
+    {
+      "fileName": "n12-2026-10-05-original.html",
+      "sha256": "4a73f0d5794a7358f50a14ad65510b2ebaa78d8a2fd1ba19f8720d6e0e6a09d9"
+    },
+    {
+      "fileName": "n12-2026-10-05-source-extract.txt",
+      "sha256": "41842bcd8b0077facc19eb53cf35f6ddc01ec76ad846423de9af0a59043c5a80"
+    },
+    {
+      "fileName": "original-posts.json",
+      "sha256": "ced59f1605576a92c3fd856cbfe70f200e6e4a7cfdc999da22fab4fa4825f133"
+    },
+    {
+      "fileName": "primary-recheck.json",
+      "sha256": "82030653ed2ee95756a058e36ada1e611493819e93e30b97529222ef3c05b53e"
+    },
+    {
+      "fileName": "reviewed-poll.json",
+      "sha256": "bc066f47ab3425ea3ea4747890d8025b6da4e35f2af96b899758a64df322de03"
+    },
+    {
+      "fileName": "source-scan.json",
+      "sha256": "76844adf99c08f8c0684c21045ad8a86f4708b14e62698e77ec7e75c76ed33f9"
+    },
+    {
+      "fileName": "surveys-extracted-2026-10-05.csv",
+      "sha256": "d44fd8b21799ec4a17ef6f0530a11a6d6b9025d8110b80835063ec693c72e7b3"
+    }
+  ]
+}
