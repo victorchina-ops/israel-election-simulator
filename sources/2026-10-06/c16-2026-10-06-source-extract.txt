@@ -1,0 +1,10 @@
+Verified original publisher clip: https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a
+Publication date 2026-10-06; publisher upload 20:19:45 Israel is upload metadata, not a verified exact broadcast start.
+Original intro: נערך אתמול והיום וכלל 550 משיבים, טעות הדגימה המרבית 4.2%
+Fieldwork: October 5–6, based on yesterday/today relative to the October 6 broadcast.
+Seats: {"yashar": 23, "likud": 21, "beyachad": 14, "democrats": 9, "shas": 8, "utj": 7, "otzma": 7, "yisrael_beiteinu": 7, "joint": 7, "rz_zehut": 7, "raam": 6, "winter": 4, "hendel": 0, "gantz": 0, "haredi_public": 0}
+Published below-threshold percentages: {"hendel": 2.4, "gantz": 1.4, "haredi_public": 0.6, "other": 1.0}
+Other1.0% is an explicitly published aggregate, not an individual party estimate; Noam and IsraelFirst remain missing.
+Primary method, population, denominator, undecided share and confidence level not published in inspected clip.
+Source conflict: News1 reports n552, Hendel3.1, Gantz1.8, HarediPublic0.8, fieldworkTuesday; original broadcast n550, 2.4/1.4/0.6, yesterday/today controls.
+Public original publisher metadata and selected stills only; complete HLS segments and app JavaScript are local research only.

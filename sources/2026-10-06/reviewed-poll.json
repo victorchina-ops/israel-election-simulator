@@ -1,0 +1,220 @@
+{
+  "id": "maagar_mochot_2026-10-06",
+  "pollsterId": "maagar_mochot",
+  "pollster": "מאגר מוחות — יצחק כץ",
+  "publisher": "ערוץ 16",
+  "date": "2026-10-06",
+  "dateKind": "תאריך השידור המקורי; ימי האיסוף אומתו בנפרד מתוך דברי המבוא",
+  "publicationTime": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "primaryUploadTimeUtc": "2026-10-06T17:19:45.232000+00:00",
+  "primaryUploadTimeIsrael": "2026-10-06T20:19:45.232000+03:00",
+  "publicationTimeKind": "publisher upload timestamp is separate from unknown broadcast start time",
+  "fieldworkStart": "2026-10-05",
+  "fieldworkEnd": "2026-10-06",
+  "fieldworkDateBasis": "Primary intro says yesterday and today; primary video title and upload date identify the broadcast as 6 October. Dates resolved relative to the broadcast, not the retrieval date.",
+  "fieldworkSourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+  "sampleSize": 550,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+  "samplingMethod": null,
+  "population": null,
+  "panelProvider": null,
+  "reportedMarginOfErrorPct": 4.2,
+  "reportedConfidenceLevelPct": null,
+  "undecidedPct": null,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "percentageDenominator": "מכנה האחוזים לא פורסם; האחוזים נשמרים כפי שהוצגו. אחוזי הרשימות העוברות משוחזרים במודל.",
+  "originalCoveragePct": 5.4,
+  "knownPercentageSum": 5.4,
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 14,
+    "democrats": 9,
+    "shas": 8,
+    "utj": 7,
+    "otzma": 7,
+    "yisrael_beiteinu": 7,
+    "joint": 7,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "hendel": 2.4,
+    "gantz": 1.4,
+    "haredi_public": 0.6,
+    "other": 1.0
+  },
+  "reportedPercentages": {
+    "hendel": 2.4,
+    "gantz": 1.4,
+    "haredi_public": 0.6,
+    "other": 1.0
+  },
+  "unmodelledNamedParties": [],
+  "percentageSourceUrls": {
+    "hendel": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "gantz": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "haredi_public": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "other": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a"
+  },
+  "sourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+  "sourceTier": "original-publisher",
+  "checkedAt": "2026-10-07",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2107524884544823592",
+    "https://t.me/amitsegal/65570",
+    "https://www.news1.co.il/Archive/001-D-524688-00.html"
+  ],
+  "validationSourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+  "replacesPollId": "maagar_mochot_2026-09-29",
+  "sourceBlocSeats": {
+    "coalition": 54,
+    "opposition": 53,
+    "arab_parties": 13,
+    "hendel": 0
+  },
+  "sourceConflicts": [
+    {
+      "url": "https://www.news1.co.il/Archive/001-D-524688-00.html",
+      "title": "סקר: גוש נתניהו מתחזק ל-54 מושבים; המילואימניקים-הכלכלית יורדת מתחת לאחוז החסימה",
+      "publicationDisplay": "23:49 06/10/26",
+      "readableVia": "https://www.news1.co.il/showAreaPageTitles.aspx?areaid=739",
+      "reportedSampleSize": 552,
+      "reportedBelowThresholdPct": {
+        "hendel": 3.1,
+        "gantz": 1.8,
+        "haredi_public": 0.8
+      },
+      "reportedFieldwork": "Tuesday",
+      "resolution": "Rejected those conflicting fields in favor of the original C16 broadcast: sample 550, fieldwork yesterday/today, and 2.4/1.4/0.6%. No denominator explanation established; do not normalize."
+    }
+  ],
+  "statusLabel": "הסקר הפעיל — השידור המקורי אומת; דיווח משני סותר נשמר לביקורת",
+  "sourceDocument": {
+    "fileName": "c16-2026-10-06-original-metadata.json",
+    "kind": "publisher-video-metadata-and-reviewed-stills",
+    "sha256": "fd0a436db3d46318d3858285685f80312576136555bc6821790ab0c8e9db2508",
+    "reviewedAt": "2026-10-07",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "publicationCrossChecked": true,
+    "primaryPublicationVerified": true,
+    "extractFileName": "c16-2026-10-06-source-extract.txt",
+    "extractSha256": "19eccdf37109edd654fd84bb7c82ef67eb44e03a57b715d68f3eea71277bba82",
+    "originalGraphicFileName": "primary-frame-006s.png",
+    "originalGraphicSha256": "0b82c0fa1704305f0e56ded37ffd36da8669854ca175b09b2faec0c7835ea3ec",
+    "reviewedFrames": [
+      {
+        "fileName": "primary-frame-006s.png",
+        "sha256": "0b82c0fa1704305f0e56ded37ffd36da8669854ca175b09b2faec0c7835ea3ec",
+        "second": 6
+      },
+      {
+        "fileName": "primary-frame-033s.png",
+        "sha256": "b76842a186bfc56616c9c31696185118189429b8b986590c634ca831ebb304c1",
+        "second": 33
+      },
+      {
+        "fileName": "primary-frame-040s.png",
+        "sha256": "2850881c054e08e659a8087312abc6482e718b4a402609e9dc4bbb1754259b58",
+        "second": 40
+      },
+      {
+        "fileName": "primary-frame-045s.png",
+        "sha256": "61d567225630c8e13ee39090ab842a0e4b5eb4f9adffdd630248640b108e0914",
+        "second": 45
+      },
+      {
+        "fileName": "primary-frame-050s.png",
+        "sha256": "e206cf320bb3311490a35908d8874fd7a5475e66adf14a0b826e6f2f2803e781",
+        "second": 50
+      },
+      {
+        "fileName": "primary-frame-070s.png",
+        "sha256": "cfa8c419d8367d1470ef7930ca14cefe12237c9c01f4e020374b30042c085d67",
+        "second": 70
+      },
+      {
+        "fileName": "primary-frame-093s.png",
+        "sha256": "afa5b369d9b2f68decdb0f8eefd754b35cd4b218d8af6537b681b3b6323ee731",
+        "second": 93
+      }
+    ],
+    "secondaryGraphics": [
+      {
+        "fileName": "2107524884544823592-0.webp",
+        "sha256": "5cd1cf6b31316e1aef6c03b90055b7676a12d2b691ee4cc958a30376518f6e93",
+        "sourceUrl": "https://x.com/IsraelPolls/status/2107524884544823592"
+      },
+      {
+        "fileName": "2107524884544823592-1.webp",
+        "sha256": "2f06500e99fcc46eb997253b347c057c74adbb9ce3b025adc82b72368861e20b",
+        "sourceUrl": "https://x.com/IsraelPolls/status/2107524884544823592"
+      }
+    ],
+    "originalBroadcastArchiveScope": "local-research-only",
+    "originalBroadcastSourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "publicationTime",
+      "initialSampleSize",
+      "invitedSampleSize",
+      "samplingMethod",
+      "population",
+      "panelProvider",
+      "reportedConfidenceLevelPct",
+      "undecidedPct",
+      "percentageDenominator"
+    ]
+  },
+  "notes": [
+    "סקר חדשות 16 / מאגר מוחות מ־6.10.2026; מחליף את סקר אותו מכון מ־29.9 במאגר הפעיל ללא כפילות.",
+    "השידור המקורי מציין 550 משיבים, טעות דגימה מרבית של 4.2% ושהסקר נערך אתמול והיום. ביחס לשידור 6.10 אלו ימי האיסוף 5–6.10, ולא מועד האחזור ב־7.10.",
+    "מתחת לחסימה פורסמו הנדל–זליכה 2.4%, כחול לבן 1.4%, הציבור החרדי 0.6% ומפלגות אחרות יחד 1.0%. אין לשייך את ה־1% לרשימה מסוימת; תמיכת נעם וישראל תחילה לא פורסמה ונשארת חסרה.",
+    "הדיווח המשני ב־News1 סותר את המקור: 552 משיבים ו־3.1%/1.8%/0.8%. המספרים המקוריים בשידור, שאומתו גם ב־IsraelPolls, גוברים עליו; נשמר תיעוד הסתירה בלי לנרמל או לערבב מכנים.",
+    "חלוקת הגושים במקור: קואליציה כולל וינטר 54, אופוזיציה ללא ערביות 53 וערביות 13; ההנדל–זליכה אינו עובר. שיוך הגושים באתר ניתן לשינוי.",
+    "שיטת האיסוף, האוכלוסייה, ספק הפאנל, שיעור המתלבטים, מכנה האחוזים ורמת הסמך לא הוצגו במקור שנבדק ונשארים חסרים. אין להעתיק אותם מהסקר הקודם.",
+    "מטא־דאטה של המפרסם מציין העלאת הקטע ב־6.10 בשעה 20:19:45 בישראל. זוהי שעת העלאה בלבד ולא שעת תחילת שידור מאומתת.",
+    "אחוזי הרשימות העוברות לא פורסמו ומשוחזרים במודל מהמנדטים. אחוז חסר אינו אפס; אפס מנדטים אינו אפס תמיכה."
+  ],
+  "sourceAccessSummary": [
+    {
+      "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "status": 200,
+      "contentVerified": true,
+      "note": "Original publisher clip discovered via public search metadata; selected HLS frames and intro reviewed."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2107524884544823592",
+      "status": 200,
+      "contentVerified": true,
+      "note": "Branded poll graphic and historical table corroborate original mandates and below-threshold shares."
+    },
+    {
+      "url": "https://www.ch16.co.il/",
+      "status": 200,
+      "contentVerified": false,
+      "note": "Static homepage is an application shell; original video discovery used the publisher public search API."
+    },
+    {
+      "url": "https://www.maagar-mochot.co.il/",
+      "status": 403,
+      "contentVerified": false,
+      "note": "Institute homepage blocked."
+    }
+  ],
+  "sourceCheckLimitations": [
+    "שיטת האיסוף, רמת הסמך, מכנה האחוזים ושיעור המתלבטים לא פורסמו בקטע שנבדק.",
+    "דף הבית הסטטי של ערוץ 16 הוא מעטפת יישום; אתר מאגר מוחות חסום. הקטע המקורי נמצא באינדקס החיפוש הציבורי של המפרסם.",
+    "דיווח News1 סותר את המקור הראשוני במספר המשיבים ובאחוזים; הוא אינו שולט בנתוני המודל."
+  ]
+}

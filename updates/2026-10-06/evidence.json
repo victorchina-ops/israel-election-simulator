@@ -1,0 +1,62 @@
+{
+  "modelAsOf": "2026-10-06",
+  "priorModelDataDate": "2026-10-05",
+  "pollComparisonDates": [
+    "2026-09-29",
+    "2026-10-06"
+  ],
+  "publishedPollSourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+  "corroborationUrl": "https://x.com/IsraelPolls/status/2107524884544823592",
+  "comparison": "Published C16/Maagar mandates on29Sep versus6Oct; a spatially separate badge reports the current weighted-model threshold probability for Winter.",
+  "numbers": {
+    "hendelSeatsBefore": 4,
+    "hendelSeatsAfter": 0,
+    "hendelPublishedPct": 2.4,
+    "winterSeatsBefore": 5,
+    "winterSeatsAfter": 4,
+    "winterModelPassingPctExact": 29.61,
+    "winterModelPassingPctDisplayed": 29.6,
+    "thresholdPct": 3.25,
+    "trials": 10000
+  },
+  "settings": {
+    "weightMode": "quality",
+    "iterations": 10000,
+    "seed": 20260912,
+    "pollError": true,
+    "baselineTurnout": "2022",
+    "motivationMultipliers": {
+      "coalition": 1,
+      "opposition": 1
+    }
+  },
+  "interpretation": "The29.6% badge is a model-conditional passing probability, not a poll vote share or a significance claim. Hendel2.4% is published support in this one poll.",
+  "sourceSimulation": "sources/2026-10-06-comparison/turnout-sensitivity.json",
+  "sourceSimulationSHA256": "b34195e0b1725c24c081a9635ea11944f7baaf27ab9c1e36ca254d9491416ed9",
+  "inputSHA256": "c8e45150abbdb88327250fa2819085f5aed745b2e6934aa7221487de0cc49483",
+  "pngSha256": "0e533f52e5cb6cdf23812c4f23ec0218af9936a914b696bd1c3a44cd471123b0",
+  "pngDimensions": [
+    1513,
+    1040
+  ],
+  "imageGeneration": "Built-in image_gen; verified party logos supplied as references; original bitmap copied unchanged; prompt retained in image-prompt.txt.",
+  "visualQA": {
+    "status": "passed",
+    "rootReview": "Rendered image inspected: Hebrew, dates, logos, quantities, separate source/model labels, assumptions and credit are legible and unclipped.",
+    "independentReview": [
+      "All principal Hebrew titles and labels legible and unclipped",
+      "Source result cards distinguish C16 October6 from September29 comparison",
+      "Hendel2.4% explicitly published below-threshold support",
+      "Winter4seats explicitly passes in this poll",
+      "29.6% explicitly model probability rather than vote share",
+      "Exact29.61model result rounds correctly to29.6",
+      "Modeldata date separate from poll-comparison dates",
+      "Historical accuracy weights,10000trials,pollerror and unchangedturnout visible",
+      "Publisher/institute/IsraelPolls source and small Victor credit visible",
+      "No significance claim or prediction of actual coalition formation"
+    ],
+    "numericAudit": "All six scenarios independently reproduced from the unmodified model;60000jointtrials each total120."
+  },
+  "credit": "ויקטור רינה בן דוד",
+  "tweetWeightedCharacters": 229
+}

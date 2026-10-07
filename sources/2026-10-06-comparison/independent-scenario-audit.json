@@ -1,0 +1,1540 @@
+{
+  "checkedAt": "2026-10-07T14:47:58.980Z",
+  "status": "PASS",
+  "scope": "New C16 poll, original Kan revision, scenario arithmetic and source meaning; no rendered UI review.",
+  "inputSHA256": "c8e45150abbdb88327250fa2819085f5aed745b2e6934aa7221487de0cc49483",
+  "simulationSHA256": "b34195e0b1725c24c081a9635ea11944f7baaf27ab9c1e36ca254d9491416ed9",
+  "scenariosAudited": 6,
+  "trialsPerScenario": 10000,
+  "totalTrials": 60000,
+  "checks": [
+    "Every saved joint trial allocates exactly120 seats",
+    "Unmodified direct simulation reproduces all saved probabilities and party histograms",
+    "Capacities independently recomputed from the joint seat vectors",
+    "C16-only controlled scenario isolates new poll from Kan source revision",
+    "Eight unique active institutes,108 unique historical observations",
+    "Missing methodology/individual shares remain missing",
+    "Full Kan raw shares sum100 with explicit model-only subtotalother1.3",
+    "Relative motivation does not give Raam/Joint/Hendel a second boost"
+  ],
+  "baselineArabLocalityTurnoutPct": 53.164265596477414,
+  "probabilityInterpretation": "Conditional model capacity for at least61 seats among the listed parties, not government-formation probability or a significance test.",
+  "sourceVisualReview": {
+    "c16Frames": [
+      6,
+      33,
+      40,
+      45,
+      50,
+      70,
+      93
+    ],
+    "kanPdfPages": [
+      1,
+      2
+    ],
+    "receiptChecksums": "PASS"
+  },
+  "sourceBlocComparison": {
+    "before": {
+      "coalition": 53,
+      "opposition": 51,
+      "arab_parties": 12,
+      "hendel": 4
+    },
+    "after": {
+      "coalition": 54,
+      "opposition": 53,
+      "arab_parties": 13,
+      "hendel": 0
+    }
+  },
+  "seatDelta": {
+    "beyachad": {
+      "before": 14,
+      "after": 14,
+      "delta": 0
+    },
+    "democrats": {
+      "before": 9,
+      "after": 9,
+      "delta": 0
+    },
+    "gantz": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "haredi_public": {
+      "before": 0,
+      "after": 0,
+      "delta": 0
+    },
+    "hendel": {
+      "before": 4,
+      "after": 0,
+      "delta": -4
+    },
+    "israel_first": {
+      "before": 0,
+      "after": null,
+      "delta": null
+    },
+    "joint": {
+      "before": 7,
+      "after": 7,
+      "delta": 0
+    },
+    "likud": {
+      "before": 19,
+      "after": 21,
+      "delta": 2
+    },
+    "noam": {
+      "before": 0,
+      "after": null,
+      "delta": null
+    },
+    "otzma": {
+      "before": 8,
+      "after": 7,
+      "delta": -1
+    },
+    "raam": {
+      "before": 5,
+      "after": 6,
+      "delta": 1
+    },
+    "rz_zehut": {
+      "before": 6,
+      "after": 7,
+      "delta": 1
+    },
+    "shas": {
+      "before": 8,
+      "after": 8,
+      "delta": 0
+    },
+    "utj": {
+      "before": 7,
+      "after": 7,
+      "delta": 0
+    },
+    "winter": {
+      "before": 5,
+      "after": 4,
+      "delta": -1
+    },
+    "yashar": {
+      "before": 21,
+      "after": 23,
+      "delta": 2
+    },
+    "yisrael_beiteinu": {
+      "before": 7,
+      "after": 7,
+      "delta": 0
+    }
+  },
+  "kanRevision": {
+    "sameObservation": true,
+    "newRawShares": true,
+    "newVerifiedFieldwork": true,
+    "previousN": 554,
+    "officialN": 553
+  },
+  "outcomes": [
+    {
+      "id": "before_baseline",
+      "capacities": {
+        "coalition": {
+          "mean": 53.6741,
+          "majorityCount": 624,
+          "majorityPct": 6.24
+        },
+        "opposition": {
+          "mean": 52.1201,
+          "majorityCount": 6,
+          "majorityPct": 0.06
+        },
+        "opposition_hendel": {
+          "mean": 53.4946,
+          "majorityCount": 101,
+          "majorityPct": 1.01
+        },
+        "opposition_raam": {
+          "mean": 56.9562,
+          "majorityCount": 1250,
+          "majorityPct": 12.5
+        },
+        "opposition_raam_hendel": {
+          "mean": 58.3307,
+          "majorityCount": 3074,
+          "majorityPct": 30.74
+        }
+      },
+      "parties": {
+        "yashar": {
+          "mean": 22.732,
+          "passPct": 100
+        },
+        "likud": {
+          "mean": 23.3142,
+          "passPct": 100
+        },
+        "beyachad": {
+          "mean": 11.6596,
+          "passPct": 100
+        },
+        "democrats": {
+          "mean": 9.2706,
+          "passPct": 100
+        },
+        "yisrael_beiteinu": {
+          "mean": 8.4579,
+          "passPct": 100
+        },
+        "utj": {
+          "mean": 7.6957,
+          "passPct": 100
+        },
+        "joint": {
+          "mean": 7.9952,
+          "passPct": 100
+        },
+        "shas": {
+          "mean": 7.8259,
+          "passPct": 100
+        },
+        "otzma": {
+          "mean": 7.5515,
+          "passPct": 100
+        },
+        "rz_zehut": {
+          "mean": 5.6931,
+          "passPct": 99.97
+        },
+        "raam": {
+          "mean": 4.8361,
+          "passPct": 96.39999999999999
+        },
+        "winter": {
+          "mean": 1.5937,
+          "passPct": 37.81
+        },
+        "hendel": {
+          "mean": 1.3745,
+          "passPct": 32.48
+        },
+        "gantz": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "noam": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "haredi_public": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "israel_first": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "other": {
+          "mean": 0,
+          "passPct": 0
+        }
+      },
+      "factors": {
+        "yashar": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "likud": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "beyachad": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "democrats": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "yisrael_beiteinu": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "utj": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "joint": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "shas": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "otzma": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "rz_zehut": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "raam": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "winter": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "hendel": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "gantz": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "noam": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "haredi_public": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "israel_first": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "other": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        }
+      }
+    },
+    {
+      "id": "c16_only",
+      "capacities": {
+        "coalition": {
+          "mean": 53.5542,
+          "majorityCount": 618,
+          "majorityPct": 6.18
+        },
+        "opposition": {
+          "mean": 52.3351,
+          "majorityCount": 5,
+          "majorityPct": 0.05
+        },
+        "opposition_hendel": {
+          "mean": 53.4464,
+          "majorityCount": 84,
+          "majorityPct": 0.84
+        },
+        "opposition_raam": {
+          "mean": 57.3325,
+          "majorityCount": 1679,
+          "majorityPct": 16.79
+        },
+        "opposition_raam_hendel": {
+          "mean": 58.4438,
+          "majorityCount": 3225,
+          "majorityPct": 32.25
+        }
+      },
+      "parties": {
+        "yashar": {
+          "mean": 22.9598,
+          "passPct": 100
+        },
+        "likud": {
+          "mean": 23.5629,
+          "passPct": 100
+        },
+        "beyachad": {
+          "mean": 11.6467,
+          "passPct": 100
+        },
+        "democrats": {
+          "mean": 9.2691,
+          "passPct": 100
+        },
+        "yisrael_beiteinu": {
+          "mean": 8.4595,
+          "passPct": 100
+        },
+        "utj": {
+          "mean": 7.6967,
+          "passPct": 100
+        },
+        "joint": {
+          "mean": 8.002,
+          "passPct": 100
+        },
+        "shas": {
+          "mean": 7.8238,
+          "passPct": 100
+        },
+        "otzma": {
+          "mean": 7.4378,
+          "passPct": 100
+        },
+        "rz_zehut": {
+          "mean": 5.8094,
+          "passPct": 99.98
+        },
+        "raam": {
+          "mean": 4.9974,
+          "passPct": 97.2
+        },
+        "winter": {
+          "mean": 1.2236,
+          "passPct": 29.509999999999998
+        },
+        "hendel": {
+          "mean": 1.1113,
+          "passPct": 26.229999999999997
+        },
+        "gantz": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "noam": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "haredi_public": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "israel_first": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "other": {
+          "mean": 0,
+          "passPct": 0
+        }
+      },
+      "factors": {
+        "yashar": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "likud": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "beyachad": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "democrats": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "yisrael_beiteinu": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "utj": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "joint": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "shas": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "otzma": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "rz_zehut": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "raam": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "winter": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "hendel": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "gantz": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "noam": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "haredi_public": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "israel_first": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "other": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        }
+      }
+    },
+    {
+      "id": "baseline",
+      "capacities": {
+        "coalition": {
+          "mean": 53.515,
+          "majorityCount": 617,
+          "majorityPct": 6.17
+        },
+        "opposition": {
+          "mean": 52.3101,
+          "majorityCount": 5,
+          "majorityPct": 0.05
+        },
+        "opposition_hendel": {
+          "mean": 53.4834,
+          "majorityCount": 88,
+          "majorityPct": 0.88
+        },
+        "opposition_raam": {
+          "mean": 57.3065,
+          "majorityCount": 1664,
+          "majorityPct": 16.64
+        },
+        "opposition_raam_hendel": {
+          "mean": 58.4798,
+          "majorityCount": 3286,
+          "majorityPct": 32.86
+        }
+      },
+      "parties": {
+        "yashar": {
+          "mean": 22.966,
+          "passPct": 100
+        },
+        "likud": {
+          "mean": 23.5147,
+          "passPct": 100
+        },
+        "beyachad": {
+          "mean": 11.6428,
+          "passPct": 100
+        },
+        "democrats": {
+          "mean": 9.2731,
+          "passPct": 100
+        },
+        "yisrael_beiteinu": {
+          "mean": 8.4282,
+          "passPct": 100
+        },
+        "utj": {
+          "mean": 7.7029,
+          "passPct": 100
+        },
+        "joint": {
+          "mean": 8.0052,
+          "passPct": 100
+        },
+        "shas": {
+          "mean": 7.8343,
+          "passPct": 100
+        },
+        "otzma": {
+          "mean": 7.4386,
+          "passPct": 100
+        },
+        "rz_zehut": {
+          "mean": 5.797,
+          "passPct": 99.98
+        },
+        "raam": {
+          "mean": 4.9964,
+          "passPct": 97.34
+        },
+        "winter": {
+          "mean": 1.2275,
+          "passPct": 29.609999999999996
+        },
+        "hendel": {
+          "mean": 1.1733,
+          "passPct": 27.62
+        },
+        "gantz": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "noam": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "haredi_public": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "israel_first": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "other": {
+          "mean": 0,
+          "passPct": 0
+        }
+      },
+      "factors": {
+        "yashar": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "likud": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "beyachad": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "democrats": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "yisrael_beiteinu": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "utj": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "joint": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "shas": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "otzma": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "rz_zehut": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "raam": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "winter": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "hendel": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "gantz": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "noam": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "haredi_public": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "israel_first": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "other": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        }
+      }
+    },
+    {
+      "id": "arab60",
+      "capacities": {
+        "coalition": {
+          "mean": 52.6847,
+          "majorityCount": 340,
+          "majorityPct": 3.4
+        },
+        "opposition": {
+          "mean": 51.8961,
+          "majorityCount": 0,
+          "majorityPct": 0
+        },
+        "opposition_hendel": {
+          "mean": 53.03,
+          "majorityCount": 41,
+          "majorityPct": 0.41
+        },
+        "opposition_raam": {
+          "mean": 57.4975,
+          "majorityCount": 1842,
+          "majorityPct": 18.42
+        },
+        "opposition_raam_hendel": {
+          "mean": 58.6314,
+          "majorityCount": 3465,
+          "majorityPct": 34.65
+        }
+      },
+      "parties": {
+        "yashar": {
+          "mean": 22.8369,
+          "passPct": 100
+        },
+        "likud": {
+          "mean": 23.1155,
+          "passPct": 100
+        },
+        "beyachad": {
+          "mean": 11.5734,
+          "passPct": 100
+        },
+        "democrats": {
+          "mean": 9.163,
+          "passPct": 100
+        },
+        "yisrael_beiteinu": {
+          "mean": 8.3228,
+          "passPct": 100
+        },
+        "utj": {
+          "mean": 7.5543,
+          "passPct": 100
+        },
+        "joint": {
+          "mean": 8.6839,
+          "passPct": 100
+        },
+        "shas": {
+          "mean": 7.6807,
+          "passPct": 100
+        },
+        "otzma": {
+          "mean": 7.3949,
+          "passPct": 100
+        },
+        "rz_zehut": {
+          "mean": 5.7652,
+          "passPct": 99.96000000000001
+        },
+        "raam": {
+          "mean": 5.6014,
+          "passPct": 99.62
+        },
+        "winter": {
+          "mean": 1.1741,
+          "passPct": 28.410000000000004
+        },
+        "hendel": {
+          "mean": 1.1339,
+          "passPct": 26.740000000000002
+        },
+        "gantz": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "noam": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "haredi_public": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "israel_first": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "other": {
+          "mean": 0,
+          "passPct": 0
+        }
+      },
+      "factors": {
+        "yashar": {
+          "bloc": "b",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "likud": {
+          "bloc": "a",
+          "geography": 1.0012463083604495,
+          "motivation": 1,
+          "combined": 1.0012463083604495,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "beyachad": {
+          "bloc": "b",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "democrats": {
+          "bloc": "b",
+          "geography": 1.0067049929303542,
+          "motivation": 1,
+          "combined": 1.0067049929303542,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "yisrael_beiteinu": {
+          "bloc": "b",
+          "geography": 1.006030338037951,
+          "motivation": 1,
+          "combined": 1.006030338037951,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "utj": {
+          "bloc": "a",
+          "geography": 1.000094989778625,
+          "motivation": 1,
+          "combined": 1.000094989778625,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "joint": {
+          "bloc": "other",
+          "geography": 1.1013275155538704,
+          "motivation": 1,
+          "combined": 1.1013275155538704,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "shas": {
+          "bloc": "a",
+          "geography": 1.000751577189326,
+          "motivation": 1,
+          "combined": 1.000751577189326,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "otzma": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "rz_zehut": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "raam": {
+          "bloc": "other",
+          "geography": 1.1151504709601576,
+          "motivation": 1,
+          "combined": 1.1151504709601576,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "winter": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "hendel": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "gantz": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "noam": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "haredi_public": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "israel_first": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "other": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        }
+      }
+    },
+    {
+      "id": "motivation5",
+      "capacities": {
+        "coalition": {
+          "mean": 50.5507,
+          "majorityCount": 63,
+          "majorityPct": 0.63
+        },
+        "opposition": {
+          "mean": 55.2059,
+          "majorityCount": 326,
+          "majorityPct": 3.26
+        },
+        "opposition_hendel": {
+          "mean": 56.3888,
+          "majorityCount": 1107,
+          "majorityPct": 11.07
+        },
+        "opposition_raam": {
+          "mean": 60.2254,
+          "majorityCount": 5006,
+          "majorityPct": 50.06
+        },
+        "opposition_raam_hendel": {
+          "mean": 61.4083,
+          "majorityCount": 6524,
+          "majorityPct": 65.24
+        }
+      },
+      "parties": {
+        "yashar": {
+          "mean": 24.2114,
+          "passPct": 100
+        },
+        "likud": {
+          "mean": 22.4236,
+          "passPct": 100
+        },
+        "beyachad": {
+          "mean": 12.2854,
+          "passPct": 100
+        },
+        "democrats": {
+          "mean": 9.8075,
+          "passPct": 100
+        },
+        "yisrael_beiteinu": {
+          "mean": 8.9016,
+          "passPct": 100
+        },
+        "utj": {
+          "mean": 7.3288,
+          "passPct": 100
+        },
+        "joint": {
+          "mean": 8.041,
+          "passPct": 100
+        },
+        "shas": {
+          "mean": 7.451,
+          "passPct": 100
+        },
+        "otzma": {
+          "mean": 7.0746,
+          "passPct": 100
+        },
+        "rz_zehut": {
+          "mean": 5.4999,
+          "passPct": 99.71
+        },
+        "raam": {
+          "mean": 5.0195,
+          "passPct": 97.46000000000001
+        },
+        "winter": {
+          "mean": 0.7728,
+          "passPct": 18.86
+        },
+        "hendel": {
+          "mean": 1.1829,
+          "passPct": 27.810000000000002
+        },
+        "gantz": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "noam": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "haredi_public": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "israel_first": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "other": {
+          "mean": 0,
+          "passPct": 0
+        }
+      },
+      "factors": {
+        "yashar": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1.05,
+          "combined": 1.05,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "likud": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 0.95,
+          "combined": 0.95,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "beyachad": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1.05,
+          "combined": 1.05,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "democrats": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1.05,
+          "combined": 1.05,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "yisrael_beiteinu": {
+          "bloc": "b",
+          "geography": 1,
+          "motivation": 1.05,
+          "combined": 1.05,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "utj": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 0.95,
+          "combined": 0.95,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "joint": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "shas": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 0.95,
+          "combined": 0.95,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "otzma": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 0.95,
+          "combined": 0.95,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "rz_zehut": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 0.95,
+          "combined": 0.95,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "raam": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "winter": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 0.95,
+          "combined": 0.95,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "hendel": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "gantz": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "noam": {
+          "bloc": "a",
+          "geography": 1,
+          "motivation": 0.95,
+          "combined": 0.95,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "haredi_public": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "israel_first": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "other": {
+          "bloc": "other",
+          "geography": 1,
+          "motivation": 1,
+          "combined": 1,
+          "mappingStatus": "unresolved-national-proxy"
+        }
+      }
+    },
+    {
+      "id": "arab60_motivation5",
+      "capacities": {
+        "coalition": {
+          "mean": 49.7576,
+          "majorityCount": 15,
+          "majorityPct": 0.15
+        },
+        "opposition": {
+          "mean": 54.7619,
+          "majorityCount": 177,
+          "majorityPct": 1.77
+        },
+        "opposition_hendel": {
+          "mean": 55.9019,
+          "majorityCount": 754,
+          "majorityPct": 7.54
+        },
+        "opposition_raam": {
+          "mean": 60.3807,
+          "majorityCount": 5146,
+          "majorityPct": 51.46
+        },
+        "opposition_raam_hendel": {
+          "mean": 61.5207,
+          "majorityCount": 6593,
+          "majorityPct": 65.93
+        }
+      },
+      "parties": {
+        "yashar": {
+          "mean": 24.0784,
+          "passPct": 100
+        },
+        "likud": {
+          "mean": 22.0217,
+          "passPct": 100
+        },
+        "beyachad": {
+          "mean": 12.2136,
+          "passPct": 100
+        },
+        "democrats": {
+          "mean": 9.6817,
+          "passPct": 100
+        },
+        "yisrael_beiteinu": {
+          "mean": 8.7882,
+          "passPct": 100
+        },
+        "utj": {
+          "mean": 7.1861,
+          "passPct": 100
+        },
+        "joint": {
+          "mean": 8.7217,
+          "passPct": 100
+        },
+        "shas": {
+          "mean": 7.3154,
+          "passPct": 100
+        },
+        "otzma": {
+          "mean": 7.0313,
+          "passPct": 100
+        },
+        "rz_zehut": {
+          "mean": 5.4649,
+          "passPct": 99.68
+        },
+        "raam": {
+          "mean": 5.6188,
+          "passPct": 99.63
+        },
+        "winter": {
+          "mean": 0.7382,
+          "passPct": 18.05
+        },
+        "hendel": {
+          "mean": 1.14,
+          "passPct": 26.840000000000003
+        },
+        "gantz": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "noam": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "haredi_public": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "israel_first": {
+          "mean": 0,
+          "passPct": 0
+        },
+        "other": {
+          "mean": 0,
+          "passPct": 0
+        }
+      },
+      "factors": {
+        "yashar": {
+          "bloc": "b",
+          "geography": 1.0133305640201662,
+          "motivation": 1.05,
+          "combined": 1.0639970922211746,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "likud": {
+          "bloc": "a",
+          "geography": 1.0012463083604495,
+          "motivation": 0.95,
+          "combined": 0.951183992942427,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "beyachad": {
+          "bloc": "b",
+          "geography": 1.0133305640201662,
+          "motivation": 1.05,
+          "combined": 1.0639970922211746,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "democrats": {
+          "bloc": "b",
+          "geography": 1.0067049929303542,
+          "motivation": 1.05,
+          "combined": 1.057040242576872,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "yisrael_beiteinu": {
+          "bloc": "b",
+          "geography": 1.006030338037951,
+          "motivation": 1.05,
+          "combined": 1.0563318549398486,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "utj": {
+          "bloc": "a",
+          "geography": 1.000094989778625,
+          "motivation": 0.95,
+          "combined": 0.9500902402896938,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "joint": {
+          "bloc": "other",
+          "geography": 1.1013275155538704,
+          "motivation": 1,
+          "combined": 1.1013275155538704,
+          "mappingStatus": "assumed-merged-profile"
+        },
+        "shas": {
+          "bloc": "a",
+          "geography": 1.000751577189326,
+          "motivation": 0.95,
+          "combined": 0.9507139983298597,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "otzma": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 0.95,
+          "combined": 0.9626640358191578,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "rz_zehut": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 0.95,
+          "combined": 0.9626640358191578,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "raam": {
+          "bloc": "other",
+          "geography": 1.1151504709601576,
+          "motivation": 1,
+          "combined": 1.1151504709601576,
+          "mappingStatus": "assumed-profile-stability"
+        },
+        "winter": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 0.95,
+          "combined": 0.9626640358191578,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "hendel": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "gantz": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "noam": {
+          "bloc": "a",
+          "geography": 1.0133305640201662,
+          "motivation": 0.95,
+          "combined": 0.9626640358191578,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "haredi_public": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "israel_first": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        },
+        "other": {
+          "bloc": "other",
+          "geography": 1.0133305640201662,
+          "motivation": 1,
+          "combined": 1.0133305640201662,
+          "mappingStatus": "unresolved-national-proxy"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "checkedAt": "2026-10-07",
+  "activePollCount": 8,
+  "historyPollCount": 108,
+  "sameObservationRevisions": [
+    {
+      "pollId": "kantar_2026-10-04",
+      "addsNewObservation": false,
+      "priorSampleSize": 554,
+      "officialSampleSize": 553,
+      "seatVectorChanged": false,
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+      "officialPdfSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc",
+      "modelPercentagesChanged": true,
+      "rawColumnsKeptDistinct": true
+    },
+    {
+      "pollId": "maagar_mochot_2026-09-29",
+      "addsNewObservation": false,
+      "priorSampleSize": 500,
+      "officialSampleSize": 550,
+      "seatVectorChanged": false,
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+      "officialPdfSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8",
+      "modelPercentagesChanged": false,
+      "rawColumnsKeptDistinct": true
+    }
+  ],
+  "publicOfficialFiles": [
+    {
+      "fileName": "c16-2026-10-06-original-metadata.json",
+      "sha256": "fd0a436db3d46318d3858285685f80312576136555bc6821790ab0c8e9db2508"
+    },
+    {
+      "fileName": "kan-2026-10-04-original-extract.txt",
+      "sha256": "9d6d93b10099f24def69af20c5d4d8663c3fe87a3503d6b76106a75f844e9a8d"
+    },
+    {
+      "fileName": "kan-2026-10-04-original-receipt.json",
+      "sha256": "dbdb4df4e861b5dca0a7c6b523484c570b9ee809ae29f068237785a2a3e0af55"
+    },
+    {
+      "fileName": "kan-2026-10-04-reviewed-original.json",
+      "sha256": "c6b7ac5f75d8f022f72e727b3d45761e13b68e6c88a77cadc64695de8aee1258"
+    },
+    {
+      "fileName": "maagar-2026-09-29-original-extract.txt",
+      "sha256": "3c670d32dc07472723e7ca31dfa9c5137911f691ec8d4acd9328531bb194f4d5"
+    },
+    {
+      "fileName": "maagar-2026-09-29-original-receipt.json",
+      "sha256": "f1307fddd199db118d54dd7da6922f7706ca8a6709530c61e7ed06ee71338f6d"
+    },
+    {
+      "fileName": "maagar-2026-09-29-reviewed-original.json",
+      "sha256": "bdee7f223de1100455ae5c2dcad7a32cea5fb497255b59c4e393be26f0198243"
+    },
+    {
+      "fileName": "Survey_4173.pdf",
+      "sha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "fileName": "Survey_4188.pdf",
+      "sha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    }
+  ]
+}

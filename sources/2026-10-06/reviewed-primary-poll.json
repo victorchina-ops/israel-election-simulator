@@ -1,0 +1,182 @@
+{
+  "reviewedAt": "2026-10-07T14:34:10.930761+00:00",
+  "status": "verified-primary-poll-ready-for-ingestion",
+  "publisher": "חדשות 16",
+  "pollster": "מאגר מוחות",
+  "pollsterDirector": "פרופ׳ יצחק כץ",
+  "publicationDate": "2026-10-06",
+  "fieldworkStart": "2026-10-05",
+  "fieldworkEnd": "2026-10-06",
+  "fieldworkDateBasis": "Primary intro says yesterday and today; primary video title and upload date identify the broadcast as 6 October. Dates resolved relative to the broadcast, not the retrieval date.",
+  "sampleSize": 550,
+  "marginOfErrorPercentagePoints": 4.2,
+  "method": null,
+  "confidenceLevel": null,
+  "undecidedPct": null,
+  "voteShareDenominator": null,
+  "missingDataPolicy": "Unpublished mode, confidence level, undecided percentage and denominator remain null; do not substitute zero or infer a normalization.",
+  "publishedSeats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 14,
+    "democrats": 9,
+    "shas": 8,
+    "utj": 7,
+    "otzma": 7,
+    "yisrael_beiteinu": 7,
+    "joint": 7,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "publishedSeatsSum": 120,
+  "publishedBelowThresholdPct": {
+    "hendel": 2.4,
+    "gantz": 1.4,
+    "haredi_public": 0.6
+  },
+  "publishedOtherPartiesAggregatePct": 1.0,
+  "otherPartiesNote": "The primary broadcaster reports an aggregate other parties 1%; it does not identify the individual parties. Do not assign this aggregate to any missing individual vote share.",
+  "publisherBlocs": {
+    "coalitionIncludingWinter": 54,
+    "oppositionExcludingArabParties": 53,
+    "arabParties": 13
+  },
+  "sourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+  "sourceTitle": "סקר בחירות 6ֿֿ.10",
+  "sourceVideoGuid": "80f53181-a612-4602-beb3-3fe551524bcb",
+  "sourceHlsUrl": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/master.m3u8",
+  "primaryUploadTimeUtc": "2026-10-06T17:19:45.232000+00:00",
+  "primaryUploadTimeIsrael": "2026-10-06T20:19:45.232000+03:00",
+  "uploadTimeNote": "Publisher upload metadata is corroborating publication evidence, not an independently reported exact airing time or fieldwork time.",
+  "primaryEvidence": {
+    "metadataPath": "public-search-poll.json",
+    "metadataSha256": "fd0a436db3d46318d3858285685f80312576136555bc6821790ab0c8e9db2508",
+    "receiptPath": "primary-frame-receipts.json",
+    "introWording": "נערך אתמול והיום וכלל 550 משיבים, טעות הדגימה המרבית 4.2%",
+    "frames": [
+      {
+        "path": "primary-frame-006s.png",
+        "broadcastSeconds": 6,
+        "sha256": "0b82c0fa1704305f0e56ded37ffd36da8669854ca175b09b2faec0c7835ea3ec",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-033s.png",
+        "broadcastSeconds": 33,
+        "sha256": "b76842a186bfc56616c9c31696185118189429b8b986590c634ca831ebb304c1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-040s.png",
+        "broadcastSeconds": 40,
+        "sha256": "2850881c054e08e659a8087312abc6482e718b4a402609e9dc4bbb1754259b58",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-045s.png",
+        "broadcastSeconds": 45,
+        "sha256": "61d567225630c8e13ee39090ab842a0e4b5eb4f9adffdd630248640b108e0914",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-050s.png",
+        "broadcastSeconds": 50,
+        "sha256": "e206cf320bb3311490a35908d8874fd7a5475e66adf14a0b826e6f2f2803e781",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-070s.png",
+        "broadcastSeconds": 70,
+        "sha256": "cfa8c419d8367d1470ef7930ca14cefe12237c9c01f4e020374b30042c085d67",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-093s.png",
+        "broadcastSeconds": 93,
+        "sha256": "afa5b369d9b2f68decdb0f8eefd754b35cd4b218d8af6537b681b3b6323ee731",
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "frameTimeNote": "Frame filenames denote nominal HLS segment positions; decoder seeks can be approximate. The visible content, provenance URL, segment hash and frame hash establish the evidence.",
+    "accessNote": "Public C16 player content found through its own public unauthenticated GET search API with tenant/platform headers from public app JavaScript; no login or access token used.",
+    "localResearchOnly": [
+      "*.ts",
+      "thumb-tile_1.jpg",
+      "app-chunk-*.js",
+      "header-helper.js"
+    ],
+    "publicationScope": "Use the original publisher link and selected stills for audit; do not publish full broadcast segments or incidental app JavaScript."
+  },
+  "secondaryCorroboration": [
+    {
+      "url": "https://x.com/IsraelPolls/status/2107524884544823592",
+      "match": "C16 branded graphic date, complete seat vector and historical table raw percentages match original broadcast."
+    },
+    {
+      "url": "https://t.me/amitsegal/65570",
+      "timeUtc": "2026-10-06T17:16:14+00:00",
+      "match": "Contemporaneous post identifies C16 poll, Winter passes, Hendel fails, coalition 54."
+    }
+  ],
+  "sourceConflicts": [
+    {
+      "url": "https://www.news1.co.il/Archive/001-D-524688-00.html",
+      "title": "סקר: גוש נתניהו מתחזק ל-54 מושבים; המילואימניקים-הכלכלית יורדת מתחת לאחוז החסימה",
+      "publicationDisplay": "23:49 06/10/26",
+      "readableVia": "https://www.news1.co.il/showAreaPageTitles.aspx?areaid=739",
+      "reportedSampleSize": 552,
+      "reportedBelowThresholdPct": {
+        "hendel": 3.1,
+        "gantz": 1.8,
+        "haredi_public": 0.8
+      },
+      "reportedFieldwork": "Tuesday",
+      "resolution": "Rejected those conflicting fields in favor of the original C16 broadcast: sample 550, fieldwork yesterday/today, and 2.4/1.4/0.6%. No denominator explanation established; do not normalize."
+    }
+  ],
+  "sourceAvailability": [
+    {
+      "source": "C16 static homepage/programs/news-series HTML",
+      "httpStatus": 200,
+      "readability": "App shell; no readable poll article body in server-rendered HTML."
+    },
+    {
+      "source": "C16 public news-series API",
+      "httpStatus": 200,
+      "readability": "Readable series index; latest full broadcast Oct5. It omits standalone Oct6 poll clip."
+    },
+    {
+      "source": "C16 public search API q=סקר",
+      "httpStatus": 200,
+      "readability": "Readable, returns original Oct6 poll clip; decisive discovery route."
+    },
+    {
+      "source": "C16 original HLS video fragments",
+      "httpStatus": 200,
+      "readability": "Readable original poll tables and methodology on screen; definitive evidence."
+    },
+    {
+      "source": "Maagar homepage",
+      "httpStatus": 403,
+      "readability": "Blocked; do not claim checked successfully."
+    },
+    {
+      "source": "News1 direct article/index HTTP",
+      "httpStatus": 403,
+      "readability": "Blocked direct request; index readable through web tool, original full article unavailable."
+    }
+  ],
+  "duplicatePolicy": "This is one national poll, published Oct6; News1, IsraelPolls, Telegram and the original C16 clip are corroborating records, not additional polls.",
+  "canonicalEditsMade": false
+}

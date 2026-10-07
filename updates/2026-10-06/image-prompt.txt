@@ -1,0 +1,23 @@
+Use case: infographic-diagram
+Asset type: Original Hebrew social-media infographic, landscape approximately 1600 x 1100, very readable on a phone.
+Primary request: Show one verified finding from the new Channel 16 / Maagar Mochot poll: the threshold changes the picture for Hendel–Zelicha and Ofer Winter. Use attractive editorial illustration, not a spreadsheet or dry bar chart.
+Input images: Image 1 (hendel.png) is a verified party logo reference for the Hendel–Zelicha card. Image 2 (winter.png) is a verified party logo reference for the Winter card. Preserve their wording and recognizability; use the logos as small identity labels, not as the dominant art.
+Composition: Off-white paper background, dark navy Hebrew typography, strong teal and warm terracotta accents, two generous rounded illustrated cards. Main title top, two party cards middle, one clearly separated model-probability badge below, compact source/assumptions/credit footer. Elegant pictorial motif of election ballots and simple parliamentary seats/threshold doorway. No portraits needed. Large numbers. All text RTL, Hebrew spelled exactly. Avoid complex charts, unnecessary statistics, crowded text, or causal claims about transfer of voters.
+Text verbatim:
+Title: "אחוז החסימה משנה את התמונה"
+Subtitle: "סקר חדשות 16 · מאגר מוחות · 6.10.2026"
+Small section label: "מנדטים בסקר — השוואה ל־29.9.2026"
+First card party label: "הנדל–זליכה"
+First card earlier column label "29.9" above number "4"; latest column label "6.10" above number "0".
+First card explanation: "מתחת לחסימה: 2.4%"
+Second card party label: "עמך ישראל — וינטר"
+Second card earlier column label "29.9" above number "5"; latest column label "6.10" above number "4".
+Second card explanation: "עובר בסקר הזה"
+Separate lower badge: "ומה אומר המודל המשוקלל?"
+Very large badge number: "29.6%"
+Badge explanation: "סיכוי המעבר של וינטר"
+Footer readable: "תוצאת מודל, לא אחוז תמיכה בסקר. נתוני מודל: 6.10.2026"
+Footer second line: "דיוק היסטורי · 10,000 הרצות · טעות סקרים פעילה · הצבעה ללא שינוי"
+Footer source: "מקור: חדשות 16 / מאגר מוחות; בדיקת IsraelPolls"
+Small credit exact: "ויקטור רינה בן דוד"
+Constraints: Dates are poll publication dates. Do not imply statistical significance. 29.6% is the weighted-model probability of crossing the electoral threshold, NOT the poll's vote share. The first card 2.4% is Hendel's vote share in this one poll. Keep these spatially distinct. NO Ask ChatGPT branding. No extra numerical data. Include all requested text, nothing misleading. Bold contemporary illustration, polished and warm, comfortably unclipped margins.

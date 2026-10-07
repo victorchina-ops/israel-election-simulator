@@ -1,0 +1,246 @@
+[
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_0.ts",
+    "retrievedAt": "2026-10-07T14:30:47.113136+00:00",
+    "httpStatus": 200,
+    "bytes": 1915344,
+    "sha256": "eba6c3219a7b1b22c9ea53f61c6191b44a5b8e6f195bff0648b185cee89a2373",
+    "path": "seg_2169650_0.ts",
+    "segmentStartSeconds": 0,
+    "frames": [
+      {
+        "path": "primary-frame-000s.png",
+        "broadcastSeconds": 0,
+        "sha256": "2da3f6841ea64098d01b8aa57c3744d2417dd4cc87d5482a32e2aa1df7607997",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-003s.png",
+        "broadcastSeconds": 3,
+        "sha256": "b735af94bca511e07a9ae746a3063ac34f9e1b8304f2616c0d0c832d2ffc818b",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_1.ts",
+    "retrievedAt": "2026-10-07T14:30:48.260393+00:00",
+    "httpStatus": 200,
+    "bytes": 1542164,
+    "sha256": "dcd444848411d469d17a4409e6ecb7aeedc57fcef4dfc89b805e58e91bf5b7c5",
+    "path": "seg_2169650_1.ts",
+    "segmentStartSeconds": 6,
+    "frames": [
+      {
+        "path": "primary-frame-006s.png",
+        "broadcastSeconds": 6,
+        "sha256": "0b82c0fa1704305f0e56ded37ffd36da8669854ca175b09b2faec0c7835ea3ec",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-009s.png",
+        "broadcastSeconds": 9,
+        "sha256": "5a8a86ea6040331a02b96c519fce7e2535a42acf894932f5f3db385e7691090f",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_11.ts",
+    "retrievedAt": "2026-10-07T14:30:49.383419+00:00",
+    "httpStatus": 200,
+    "bytes": 2506040,
+    "sha256": "1bfa63a58a4f10e53032f430ffbdce58f1924fb7e88bac168a59ed5aa0b70000",
+    "path": "seg_2169650_11.ts",
+    "segmentStartSeconds": 66,
+    "frames": [
+      {
+        "path": "primary-frame-069s.png",
+        "broadcastSeconds": 69,
+        "sha256": "57d7df52da0319bb8f2a0ac5f5a04ec169a71b4826529ecd0c4dae2d56003d32",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-070s.png",
+        "broadcastSeconds": 70,
+        "sha256": "cfa8c419d8367d1470ef7930ca14cefe12237c9c01f4e020374b30042c085d67",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_12.ts",
+    "retrievedAt": "2026-10-07T14:30:50.654157+00:00",
+    "httpStatus": 200,
+    "bytes": 2431028,
+    "sha256": "0d8013551b62e19f024daada07d92d480c13d5404b62952c812fda1b0ea58ec7",
+    "path": "seg_2169650_12.ts",
+    "segmentStartSeconds": 72,
+    "frames": [
+      {
+        "path": "primary-frame-072s.png",
+        "broadcastSeconds": 72,
+        "sha256": "bae03730bdbc4597431a8055f9d8c246f4bac846bf5e72d741d314e907571eb1",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "path": "primary-frame-074s.png",
+        "broadcastSeconds": 74,
+        "sha256": "fc9c4b1b7f9fa4c18b35758bdaf898428b2ee86ba972ec3c95f86916831b81b0",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_13.ts",
+    "retrievedAt": "2026-10-07T14:30:51.902700+00:00",
+    "httpStatus": 200,
+    "bytes": 2361468,
+    "sha256": "e7b936378ba53619d4bdb7cbcb3b3444117449cb65e483710697ead2fa4aef86",
+    "path": "seg_2169650_13.ts",
+    "segmentStartSeconds": 78,
+    "frames": [
+      {
+        "path": "primary-frame-080s.png",
+        "broadcastSeconds": 80,
+        "sha256": "f70329b0a6c3728a854f325018cc5fc169e0279d7d5edb4840e41ccf412ee306",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_3.ts",
+    "retrievedAt": "2026-10-07T14:32:10.610373+00:00",
+    "httpStatus": 200,
+    "bytes": 1756296,
+    "sha256": "569452ea49e501b1aa3a9cb0e0210c90121fc02889bd9af1e773548099e162df",
+    "path": "seg_2169650_3.ts",
+    "segmentStartSeconds": 18,
+    "frames": [
+      {
+        "path": "primary-frame-020s.png",
+        "broadcastSeconds": 20,
+        "sha256": "39df3a1c232e6bccfad4d185b0634988972dcb5933f25828a60b47e83b132254",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_5.ts",
+    "retrievedAt": "2026-10-07T14:32:11.762300+00:00",
+    "httpStatus": 200,
+    "bytes": 2085296,
+    "sha256": "e02d0ad656ee4bd44a462f452a4600b504d44d455e6673b09cd465f75eeee6d3",
+    "path": "seg_2169650_5.ts",
+    "segmentStartSeconds": 30,
+    "frames": [
+      {
+        "path": "primary-frame-033s.png",
+        "broadcastSeconds": 33,
+        "sha256": "b76842a186bfc56616c9c31696185118189429b8b986590c634ca831ebb304c1",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_6.ts",
+    "retrievedAt": "2026-10-07T14:32:12.970135+00:00",
+    "httpStatus": 200,
+    "bytes": 2009908,
+    "sha256": "312415fd82e1587a74d7be726cab3e60799e4ef3ec1183cbac4deabb9feb7bab",
+    "path": "seg_2169650_6.ts",
+    "segmentStartSeconds": 36,
+    "frames": [
+      {
+        "path": "primary-frame-040s.png",
+        "broadcastSeconds": 40,
+        "sha256": "2850881c054e08e659a8087312abc6482e718b4a402609e9dc4bbb1754259b58",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_8.ts",
+    "retrievedAt": "2026-10-07T14:32:14.146337+00:00",
+    "httpStatus": 200,
+    "bytes": 1863268,
+    "sha256": "b360d6006b17a01693c318814cac3dc25e23b80f311a3ddfb3932df803e1f297",
+    "path": "seg_2169650_8.ts",
+    "segmentStartSeconds": 48,
+    "frames": [
+      {
+        "path": "primary-frame-050s.png",
+        "broadcastSeconds": 50,
+        "sha256": "e206cf320bb3311490a35908d8874fd7a5475e66adf14a0b826e6f2f2803e781",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_9.ts",
+    "retrievedAt": "2026-10-07T14:32:15.422751+00:00",
+    "httpStatus": 200,
+    "bytes": 1956328,
+    "sha256": "d557b078244273e89f6f2204cd62487b61713990a7c2627d264c0b9c9a597eab",
+    "path": "seg_2169650_9.ts",
+    "segmentStartSeconds": 54,
+    "frames": [
+      {
+        "path": "primary-frame-058s.png",
+        "broadcastSeconds": 58,
+        "sha256": "76b81496aaa00e8a72a4216254c4dfb4f728146b40d072b0fc94688a215698dd",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_7.ts",
+    "retrievedAt": "2026-10-07T14:32:57.647335+00:00",
+    "httpStatus": 200,
+    "bytes": 1973436,
+    "sha256": "c4981aa72ec1a5e91a73cb661cccebfece3caa2dccbce612ce0fcc2656529cb3",
+    "path": "seg_2169650_7.ts",
+    "segmentStartSeconds": 42,
+    "frames": [
+      {
+        "path": "primary-frame-045s.png",
+        "broadcastSeconds": 45,
+        "sha256": "61d567225630c8e13ee39090ab842a0e4b5eb4f9adffdd630248640b108e0914",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  },
+  {
+    "url": "https://ch16israel.vod.immergo.tv/ch16israel/transcoded/80f53181-a612-4602-beb3-3fe551524bcb/hls/4000k/seg_2169650_15.ts",
+    "retrievedAt": "2026-10-07T14:32:58.801609+00:00",
+    "httpStatus": 200,
+    "bytes": 1808184,
+    "sha256": "c3f12a9444db142175810fc6117af7f894408563daa1f82e2228e2648a21c61b",
+    "path": "seg_2169650_15.ts",
+    "segmentStartSeconds": 90,
+    "frames": [
+      {
+        "path": "primary-frame-093s.png",
+        "broadcastSeconds": 93,
+        "sha256": "afa5b369d9b2f68decdb0f8eefd754b35cd4b218d8af6537b681b3b6323ee731",
+        "width": 1280,
+        "height": 720
+      }
+    ]
+  }
+]

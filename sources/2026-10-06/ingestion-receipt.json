@@ -1,0 +1,146 @@
+{
+  "asOf": "2026-10-06",
+  "checkedAt": "2026-10-07",
+  "baselineAsOf": "2026-10-05",
+  "activePollCount": 8,
+  "historyPollCount": 108,
+  "pollId": "maagar_mochot_2026-10-06",
+  "replacesPollId": "maagar_mochot_2026-09-29",
+  "snapshotManifestSha256": "bb8160dcae8303de03ec582f914a50f5f3fa5b0f45b09cef436c218fd37ec4bb",
+  "reviewedPollSha256": "d8b512dd8695734624f0dbe5b302520aa4b518536a70200d8ffb61be949d0cb7",
+  "publicEvidenceFiles": [
+    {
+      "fileName": "2107524884544823592-0.webp",
+      "sha256": "5cd1cf6b31316e1aef6c03b90055b7676a12d2b691ee4cc958a30376518f6e93"
+    },
+    {
+      "fileName": "2107524884544823592-1.webp",
+      "sha256": "2f06500e99fcc46eb997253b347c057c74adbb9ce3b025adc82b72368861e20b"
+    },
+    {
+      "fileName": "c16-2026-10-06-original-metadata.json",
+      "sha256": "fd0a436db3d46318d3858285685f80312576136555bc6821790ab0c8e9db2508"
+    },
+    {
+      "fileName": "c16-2026-10-06-source-extract.txt",
+      "sha256": "19eccdf37109edd654fd84bb7c82ef67eb44e03a57b715d68f3eea71277bba82"
+    },
+    {
+      "fileName": "extracted-surveys.json",
+      "sha256": "32daf7f310148370b97c3279a5cc054caa99e97235b813f39700ad4ff84e9b71"
+    },
+    {
+      "fileName": "kan-2026-10-04-original-extract.txt",
+      "sha256": "9d6d93b10099f24def69af20c5d4d8663c3fe87a3503d6b76106a75f844e9a8d"
+    },
+    {
+      "fileName": "kan-2026-10-04-original-receipt.json",
+      "sha256": "dbdb4df4e861b5dca0a7c6b523484c570b9ee809ae29f068237785a2a3e0af55"
+    },
+    {
+      "fileName": "kan-2026-10-04-reviewed-original.json",
+      "sha256": "c6b7ac5f75d8f022f72e727b3d45761e13b68e6c88a77cadc64695de8aee1258"
+    },
+    {
+      "fileName": "maagar-2026-09-29-original-extract.txt",
+      "sha256": "3c670d32dc07472723e7ca31dfa9c5137911f691ec8d4acd9328531bb194f4d5"
+    },
+    {
+      "fileName": "maagar-2026-09-29-original-receipt.json",
+      "sha256": "f1307fddd199db118d54dd7da6922f7706ca8a6709530c61e7ed06ee71338f6d"
+    },
+    {
+      "fileName": "maagar-2026-09-29-reviewed-original.json",
+      "sha256": "bdee7f223de1100455ae5c2dcad7a32cea5fb497255b59c4e393be26f0198243"
+    },
+    {
+      "fileName": "official-revisions-receipt.json",
+      "sha256": "242c7f7ae2060b865914ff6e68c0b1233b3e7565ee69790d5ef4d6a73aa0009f"
+    },
+    {
+      "fileName": "primary-frame-006s.png",
+      "sha256": "0b82c0fa1704305f0e56ded37ffd36da8669854ca175b09b2faec0c7835ea3ec"
+    },
+    {
+      "fileName": "primary-frame-033s.png",
+      "sha256": "b76842a186bfc56616c9c31696185118189429b8b986590c634ca831ebb304c1"
+    },
+    {
+      "fileName": "primary-frame-040s.png",
+      "sha256": "2850881c054e08e659a8087312abc6482e718b4a402609e9dc4bbb1754259b58"
+    },
+    {
+      "fileName": "primary-frame-045s.png",
+      "sha256": "61d567225630c8e13ee39090ab842a0e4b5eb4f9adffdd630248640b108e0914"
+    },
+    {
+      "fileName": "primary-frame-050s.png",
+      "sha256": "e206cf320bb3311490a35908d8874fd7a5475e66adf14a0b826e6f2f2803e781"
+    },
+    {
+      "fileName": "primary-frame-070s.png",
+      "sha256": "cfa8c419d8367d1470ef7930ca14cefe12237c9c01f4e020374b30042c085d67"
+    },
+    {
+      "fileName": "primary-frame-093s.png",
+      "sha256": "afa5b369d9b2f68decdb0f8eefd754b35cd4b218d8af6537b681b3b6323ee731"
+    },
+    {
+      "fileName": "primary-frame-receipts.json",
+      "sha256": "7ec7a3980ce0dc146c7af4fca9ae328e081252be5a92abd6c2b21b9d38ac5d62"
+    },
+    {
+      "fileName": "reviewed-poll.json",
+      "sha256": "d8b512dd8695734624f0dbe5b302520aa4b518536a70200d8ffb61be949d0cb7"
+    },
+    {
+      "fileName": "reviewed-primary-poll.json",
+      "sha256": "4a00b557955ba29423cb11fa71422f69f3fde89d8f9a8917dc9d9b39b08a6a6d"
+    },
+    {
+      "fileName": "source-scan.json",
+      "sha256": "c5d62b1366fd922d930b73b716c1de7d17d89d07dd06f77f7195790b3683ad72"
+    },
+    {
+      "fileName": "Survey_4173.pdf",
+      "sha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "fileName": "Survey_4188.pdf",
+      "sha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "fileName": "surveys-extracted-2026-10-06.csv",
+      "sha256": "da0aa6c8ef0123eafc6f1e07023130a12f5ba37ca8f47d4e8eec298fe3e7d4ec"
+    }
+  ],
+  "sameObservationRevisions": [
+    {
+      "pollId": "kantar_2026-10-04",
+      "addsNewObservation": false,
+      "priorSampleSize": 554,
+      "officialSampleSize": 553,
+      "seatVectorChanged": false,
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+      "officialPdfSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc",
+      "modelPercentagesChanged": true,
+      "rawColumnsKeptDistinct": true
+    },
+    {
+      "pollId": "maagar_mochot_2026-09-29",
+      "addsNewObservation": false,
+      "priorSampleSize": 500,
+      "officialSampleSize": 550,
+      "seatVectorChanged": false,
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+      "officialPdfSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8",
+      "modelPercentagesChanged": false,
+      "rawColumnsKeptDistinct": true
+    }
+  ],
+  "finalPublicationTablesIncludeOriginalRevisions": true
+}

@@ -1,0 +1,179 @@
+{
+  "dateIsrael": "2026-10-07",
+  "checks": [
+    {
+      "label": "home",
+      "url": "https://www.ch16.co.il/",
+      "checkedAtUtc": "2026-10-07T14:18:29.106061+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ch16.co.il/",
+      "bytes": 118493,
+      "sha256": "e30830c75af84a014fd2a1843be74ed441cfde03b5e6bee5a1cdbc3afe8c7000",
+      "textChars": 10,
+      "sourceFile": "home.html",
+      "textFile": "home.txt",
+      "links": [],
+      "snippets": []
+    },
+    {
+      "label": "actual-home",
+      "url": "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+      "checkedAtUtc": "2026-10-07T14:18:29.107096+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+      "bytes": 127511,
+      "sha256": "bdf7d833e7fa7b79331e8c8dac4e55f9a299c7b0958fc7ef949f884de4e4f0d2",
+      "textChars": 17,
+      "sourceFile": "actual-home.html",
+      "textFile": "actual-home.txt",
+      "links": [],
+      "snippets": []
+    },
+    {
+      "label": "programs",
+      "url": "https://www.ch16.co.il/page/6a74e49e6e5de181504dc279",
+      "checkedAtUtc": "2026-10-07T14:18:29.107096+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ch16.co.il/page/6a74e49e6e5de181504dc279",
+      "bytes": 127102,
+      "sha256": "b742906bda27c090567a1e60b8e6990189f3a2f0f37eb2a082acebf557c52ecc",
+      "textChars": 20,
+      "sourceFile": "programs.html",
+      "textFile": "programs.txt",
+      "links": [],
+      "snippets": []
+    },
+    {
+      "label": "news-series",
+      "url": "https://www.ch16.co.il/serie/6a71856d4a2ff1d9cb40cf61",
+      "checkedAtUtc": "2026-10-07T14:18:29.107096+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.ch16.co.il/serie/6a71856d4a2ff1d9cb40cf61",
+      "bytes": 129128,
+      "sha256": "375de95ac6e3ea3417d9ca40204ad0a4ecb701b0fad899490adc667189d6ee2c",
+      "textChars": 22,
+      "sourceFile": "news-series.html",
+      "textFile": "news-series.txt",
+      "links": [],
+      "snippets": []
+    },
+    {
+      "label": "instagram",
+      "url": "https://www.instagram.com/ch16israel/",
+      "checkedAtUtc": "2026-10-07T14:18:29.107096+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://www.instagram.com/ch16israel/",
+      "bytes": 740010,
+      "sha256": "7ab4d4d347a8394da6b89647efb4719890b9362da5013bd17a20cbf9c21914bd",
+      "textChars": 749,
+      "sourceFile": "instagram.html",
+      "textFile": "instagram.txt",
+      "links": [],
+      "snippets": []
+    },
+    {
+      "label": "maagar",
+      "url": "https://www.maagar-mochot.co.il/",
+      "checkedAtUtc": "2026-10-07T14:18:29.108095+00:00",
+      "httpStatus": 403,
+      "finalUrl": "https://www.maagar-mochot.co.il/",
+      "bytes": 1242,
+      "sha256": "7271dd5c11fb9a1052a5e91a09afbe7d148fd3388dc51c338df62a0a16f06739",
+      "textChars": 258,
+      "sourceFile": "maagar.html",
+      "textFile": "maagar.txt",
+      "links": [],
+      "snippets": []
+    },
+    {
+      "label": "news1-index",
+      "url": "https://www.news1.co.il/ShowHotStories.aspx?caid=24",
+      "checkedAtUtc": "2026-10-07T14:18:29.936739+00:00",
+      "httpStatus": 403,
+      "finalUrl": "https://www.news1.co.il/ShowHotStories.aspx?caid=24",
+      "bytes": 5587,
+      "sha256": "bdadd2110e97d3113390099ba47be7408af69d41078ac37393bae37ee80abd6c",
+      "textChars": 16,
+      "sourceFile": "news1-index.html",
+      "textFile": "news1-index.txt",
+      "links": [],
+      "snippets": []
+    },
+    {
+      "label": "israelpolls",
+      "url": "https://x.com/IsraelPolls?s=20",
+      "checkedAtUtc": "2026-10-07T14:18:30.194607+00:00",
+      "httpStatus": 200,
+      "finalUrl": "https://x.com/IsraelPolls?s=20",
+      "bytes": 130852,
+      "sha256": "b7855557afab6065fe45498ec4507f412c54bd4dddd226d072e3eac8c67088ff",
+      "textChars": 1181,
+      "sourceFile": "israelpolls.html",
+      "textFile": "israelpolls.txt",
+      "links": [
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "https://x.com/IsraelPolls"
+        },
+        {
+          "text": "20h",
+          "url": "https://x.com/IsraelPolls/status/2107524884544823592"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2107524884544823592/photo/1"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "https://x.com/IsraelPolls"
+        },
+        {
+          "text": "Oct 5",
+          "url": "https://x.com/IsraelPolls/status/2107189599391146360"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2107189599391146360/photo/1"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "https://x.com/IsraelPolls"
+        },
+        {
+          "text": "Oct 5",
+          "url": "https://x.com/IsraelPolls/status/2107177325205020786"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2107177325205020786/photo/1"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "https://x.com/IsraelPolls"
+        },
+        {
+          "text": "Oct 4",
+          "url": "https://x.com/IsraelPolls/status/2106826257505907043"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2106826257505907043/photo/1"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "https://x.com/IsraelPolls"
+        },
+        {
+          "text": "Oct 3",
+          "url": "https://x.com/IsraelPolls/status/2106285422116774305"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2106285422116774305/photo/1"
+        }
+      ],
+      "snippets": []
+    }
+  ],
+  "canonicalDataEdited": false
+}

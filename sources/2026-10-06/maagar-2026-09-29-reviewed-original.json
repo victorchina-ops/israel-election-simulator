@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "canonicalPollId": "maagar_mochot_2026-09-29",
+  "pollsterId": "maagar_mochot",
+  "pollster": "מאגר מוחות — יצחק כץ",
+  "publisher": "ערוץ16",
+  "pollDate": "2026-09-29",
+  "publicationDate": "2026-09-29",
+  "reportCreatedAt": "2026-09-30T08:29:54+03:00",
+  "filingTransferredAt": "2026-09-30",
+  "fieldworkStart": "2026-09-29",
+  "fieldworkEnd": "2026-09-29",
+  "fieldworkStartTime": "07:00",
+  "fieldworkEndTime": "12:00",
+  "fieldworkTimeZone": "Asia/Jerusalem",
+  "fieldworkVerified": true,
+  "fieldworkSourcePage": 2,
+  "sampleSize": 550,
+  "initialSampleSize": 550,
+  "invitedSampleSize": 2403,
+  "responseRatePct": 23,
+  "reportedMarginOfErrorPct": 4.2,
+  "reportedConfidenceLevelPct": 95,
+  "samplingMethod": "משולב: פאנל אינטרנטי ועיבוי טלפוני; דגימת שכבות + אקראית הסתברותית בתוך כל שכבה",
+  "population": "האוכלוסייה הישראלית הבוגרת בגילי18 ומעלה",
+  "panelProvider": null,
+  "undecidedPct": 4.0,
+  "reportedPercentagesRawUnadjusted": {
+    "yashar": 16.0,
+    "likud": 15.0,
+    "beyachad": 11.0,
+    "otzma": 7.0,
+    "shas": 6.0,
+    "democrats": 7.0,
+    "utj": 6.0,
+    "yisrael_beiteinu": 5.0,
+    "joint": 5.0,
+    "raam": 4.0,
+    "rz_zehut": 5.0,
+    "winter": 4.0,
+    "hendel": 3.0,
+    "gantz": 0.4,
+    "haredi_public": 0.6,
+    "other": 0.8
+  },
+  "reportedPercentagesAmongOpinion": {
+    "yashar": 17.0,
+    "likud": 16.0,
+    "beyachad": 12.0,
+    "otzma": 7.0,
+    "shas": 6.0,
+    "democrats": 8.0,
+    "utj": 6.0,
+    "yisrael_beiteinu": 5.0,
+    "joint": 6.0,
+    "raam": 4.0,
+    "rz_zehut": 5.0,
+    "winter": 4.0,
+    "hendel": 3.3,
+    "gantz": 0.4,
+    "haredi_public": 0.6
+  },
+  "percentageSourcePage": 3,
+  "percentageDenominatorRaw": "עמודת אחוזים גולמיים ללא שקלול מנדטים; כולל שורת לא יודע/ת4% ושורת מפלגות אחרות0.8%.",
+  "percentageDenominatorOpinion": "עמודת בעלי הדעה נפרדת; אין שורות אחוזים למתלבטים ולאחרים בעמודה זו. יש לשמור את שתי העמודות בנפרד ולא לערבב מכנים.",
+  "percentageTotals": {
+    "printedRawTotal": 100,
+    "observedRawPartySum": 95.8,
+    "observedRawSumIncludingUndecided": 99.8,
+    "printedOpinionTotal": 100,
+    "observedOpinionPartySum": 100.3,
+    "note": "Published rounded percentages total99.8% with undecided in raw column and100.3% in opinion column despite printed100%. Retain source values without silently normalizing."
+  },
+  "reportedSeats": {
+    "yashar": 21,
+    "likud": 19,
+    "beyachad": 14,
+    "otzma": 8,
+    "shas": 8,
+    "democrats": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "joint": 7,
+    "raam": 5,
+    "rz_zehut": 6,
+    "winter": 5,
+    "hendel": 4
+  },
+  "seatTotal": 120,
+  "belowThresholdZeroSeatImpliedIds": [
+    "gantz",
+    "haredi_public"
+  ],
+  "sourceForecastColumnBelowThresholdEntries": {
+    "gantz": 0.5,
+    "haredi_public": 0.8,
+    "note": "Red entries under the Sept29 mandate-history column are displayed as0.5/0.8 below threshold; they cannot be treated as fractional mandate awards. Passing party seats sum120 and source blocs reconcile120. Keep separately from both percentage columns."
+  },
+  "missingPercentageIds": [
+    "noam",
+    "israel_first"
+  ],
+  "sourceBlocSeats": {
+    "coalition": 53,
+    "opposition": 51,
+    "arab_parties": 12,
+    "hendel": 4
+  },
+  "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+  "sourceTier": "official-submission",
+  "sourceDocument": {
+    "fileName": "Survey_4173.pdf",
+    "sha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8",
+    "byteCount": 219524,
+    "pages": 3,
+    "checkedAtUtc": "2026-10-07T14:30:15.715164+00:00",
+    "relevantPagesVisuallyReviewed": [
+      1,
+      2,
+      3
+    ],
+    "extractFileName": "extract.txt",
+    "extractSha256": "3c670d32dc07472723e7ca31dfa9c5137911f691ec8d4acd9328531bb194f4d5"
+  },
+  "discrepancyResolution": {
+    "field": "sampleSize",
+    "oldSecondaryValue": 500,
+    "officialReportValue": 550,
+    "resolution": "Original official submission states550 actual respondents; this overrides the previous secondary n500."
+  },
+  "strictCohortImplication": "Verified Sep29 collection dates provide an eligible same-institute predecessor for the new Oct5–6 C16 poll. This supplements an existing poll; it is not a new survey and must not add a duplicate historical record.",
+  "canonicalEdited": false
+}

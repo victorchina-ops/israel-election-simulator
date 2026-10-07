@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "canonicalPollId": "kantar_2026-10-04",
+  "pollsterId": "kantar",
+  "pollster": "קנטאר ישראל — דודי חסיד",
+  "publisher": "תאגיד השידור כאן",
+  "pollDate": "2026-10-04",
+  "publicationDate": "2026-10-04",
+  "publicationDateEvidence": "PDF title plus previously verified Kan original Oct4 broadcast/post. The PDF creation/filing dates do not create a new poll.",
+  "reportCreatedAt": "2026-10-05T14:08:31+03:00",
+  "filingTransferredAt": "2026-10-06",
+  "filingTransferEvidence": "k26polls dataset filing knesset_election97",
+  "fieldworkStart": "2026-10-04",
+  "fieldworkEnd": "2026-10-04",
+  "fieldworkStartTime": "11:30",
+  "fieldworkEndTime": "16:15",
+  "fieldworkTimeZone": "Asia/Jerusalem",
+  "fieldworkVerified": true,
+  "fieldworkSourcePage": 1,
+  "sampleSize": 553,
+  "initialSampleSize": 550,
+  "invitedSampleSize": 2390,
+  "refusedOrIneligibleSampleSize": 1837,
+  "responseRatePct": 23,
+  "refusedOrIneligibleRatePct": 77,
+  "reportedMarginOfErrorPct": 4.2,
+  "samplingMethod": "אינטרנטי, פאנל משיבים; שיטת הדגימה המדווחת: אקראית הסתברותית",
+  "samplingMethodEnglish": "Internet respondent panel; reported sampling design: random probability sampling. This is the report's stated design, not an independent validation of panel representativeness.",
+  "population": "מדגם ארצי ומייצג של האוכלוסייה בישראל בגילאי18+ (יהודים וערבים)",
+  "panelProvider": null,
+  "undecidedPct": null,
+  "reportedPercentages": {
+    "likud": 16.2,
+    "beyachad": 9.4,
+    "yashar": 18.0,
+    "democrats": 6.3,
+    "hendel": 3.4,
+    "rz_zehut": 4.6,
+    "otzma": 6.3,
+    "yisrael_beiteinu": 6.9,
+    "shas": 6.3,
+    "utj": 6.3,
+    "joint": 6.3,
+    "raam": 3.9,
+    "winter": 2.6,
+    "gantz": 1.3,
+    "haredi_public": 0.9
+  },
+  "unmodelledNamedParties": [
+    {
+      "name": "מפלגת אח״י בראשות הרב אברג׳ל",
+      "percentage": 0.7
+    },
+    {
+      "name": "צבע שחור - מגן עולם התורה בראשות אליהו בוימרינד",
+      "percentage": 0.6
+    }
+  ],
+  "modelPercentages": {
+    "likud": 16.2,
+    "beyachad": 9.4,
+    "yashar": 18.0,
+    "democrats": 6.3,
+    "hendel": 3.4,
+    "rz_zehut": 4.6,
+    "otzma": 6.3,
+    "yisrael_beiteinu": 6.9,
+    "shas": 6.3,
+    "utj": 6.3,
+    "joint": 6.3,
+    "raam": 3.9,
+    "winter": 2.6,
+    "gantz": 1.3,
+    "haredi_public": 0.9,
+    "other": 1.3
+  },
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "percentageSourcePage": 2,
+  "percentageTotalRawNamed": 100.0,
+  "modelPercentageTotal": 100.0,
+  "percentageDenominator": "עמודת אחוזים (נתונים גולמיים) בטבלת תחזית המנדטים; סכום17 הרשימות הוא100%. מכנה המשיבים ושיעור המתלבטים אינם מפורטים בנפרד.",
+  "requiresReconstruction": false,
+  "reportedSeats": {
+    "likud": 21,
+    "beyachad": 12,
+    "yashar": 23,
+    "democrats": 8,
+    "hendel": 4,
+    "rz_zehut": 6,
+    "otzma": 8,
+    "yisrael_beiteinu": 9,
+    "shas": 8,
+    "utj": 8,
+    "joint": 8,
+    "raam": 5
+  },
+  "seatTotal": 120,
+  "belowThresholdZeroSeatImpliedIds": [
+    "winter",
+    "gantz",
+    "haredi_public"
+  ],
+  "missingPercentageIds": [
+    "noam",
+    "israel_first"
+  ],
+  "missingNamedPartiesNote": "Noam and IsraelFirst are not listed in this report; their shares must remain missing rather than0. Model other1.3 is an explicit subtotal of named אח״י0.7 and צבעשחור0.6, not a reported catch-all party percentage.",
+  "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+  "sourceTier": "official-submission",
+  "sourceDocument": {
+    "fileName": "Survey_4188.pdf",
+    "sha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc",
+    "byteCount": 239185,
+    "pages": 5,
+    "checkedAtUtc": "2026-10-07T14:26:18.142633+00:00",
+    "relevantPagesVisuallyReviewed": [
+      1,
+      2,
+      3
+    ],
+    "extractFileName": "extract.txt",
+    "extractSha256": "9d6d93b10099f24def69af20c5d4d8663c3fe87a3503d6b76106a75f844e9a8d"
+  },
+  "discrepancyResolution": {
+    "field": "sampleSize",
+    "oldBroadcastGraphicValue": 554,
+    "secondaryAggregatorValue": 553,
+    "officialReportValue": 553,
+    "resolution": "Original election-committee PDF explicitly states553 actual respondents; it overrides the broadcast graphic554. Retain conflicting source provenance in the audit."
+  },
+  "seatVectorStatus": "Same reported mandates as existing KanOct4; no new poll, no new historical record. Supplement originalraw percentages and corrected metadata.",
+  "strictCohortImplication": "Oct4 collection start/end now explicitly verified after list closure; KanOct4 can be considered in the strict post-close fieldwork cohort. Do not infer missing dates for other polls.",
+  "supplementaryQuestions": {
+    "turnoutIntention": {
+      "page": 3,
+      "question": "האם אתה מתכוון להצביע בבחירות אלו?",
+      "allRespondents": {
+        "certainYesPct": 68,
+        "thinkYesPct": 21,
+        "maybeUnknownPct": 8,
+        "thinkNoPct": 1,
+        "certainNoPct": 2
+      },
+      "futureCoalitionVoters": {
+        "certainYesPct": 70,
+        "thinkYesPct": 23,
+        "maybeUnknownPct": 5,
+        "thinkNoPct": 2,
+        "certainNoPct": 0
+      },
+      "futureOppositionVoters": {
+        "certainYesPct": 74,
+        "thinkYesPct": 20,
+        "maybeUnknownPct": 4,
+        "thinkNoPct": 2,
+        "certainNoPct": 0
+      },
+      "limitation": "Self-reported intention among poll respondents, not actual turnout or a turnout forecast; subgroup n and sampling errors are not given. Do not insert these into turnoutmodel as population turnout."
+    }
+  },
+  "datasetMaagarFilingCheck": {
+    "checkedDatasetFile": "artifacts/poll-checks/2026-10-07/k26polls/dataset.json",
+    "filings": [
+      {
+        "filingId": "knesset_election12",
+        "date": "2026-08-10",
+        "fieldDates": [
+          "9.8.2026",
+          "10.8.2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election12/he/4059-סקר בחירות מיום 11.8.2026.pdf",
+        "sourceSha256": "ce8d64222c44f38140b3633ee621b1bce21618c49448e8117bad44c89da08aeb",
+        "transferDate": "2026-08-11"
+      },
+      {
+        "filingId": "knesset_election28",
+        "date": "2026-08-19",
+        "fieldDates": [
+          "18.8.2026",
+          "19.8.2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election28/he/4089-2 סקר בחירות מיום 23.8.2026.pdf",
+        "sourceSha256": "414a6d6091e92b41d5f200e600118b5dd3414fd8754e17498ba1c4d181b96206",
+        "transferDate": "2026-08-23"
+      },
+      {
+        "filingId": "knesset_election38",
+        "date": "2026-08-25",
+        "fieldDates": [
+          "25.8.2026",
+          "26.8.2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election38/he/סקר בחירות מיום 27.8.2026 4104-1.pdf",
+        "sourceSha256": "e7997868b311a86158016c3c24c96b2e4085175a9c2d8ad154462e9003ed7ba3",
+        "transferDate": "2026-08-27"
+      },
+      {
+        "filingId": "knesset_election48",
+        "date": "2026-09-01",
+        "fieldDates": [
+          "1/8/2026",
+          "2/9/2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election48/he/סקר בחירות מיום 3.9.2026 4117.pdf",
+        "sourceSha256": "e3fe5c22553110ac9b3b9a6b91d6be2786ed2f84ae0773346cd125bb6d1b3434",
+        "transferDate": "2026-09-03"
+      },
+      {
+        "filingId": "knesset_election5",
+        "date": "2026-08-03",
+        "fieldDates": [
+          "2.8.2026",
+          "3.8.2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election5/he/4047-סקר בחירות מיום 5.8.2026.pdf",
+        "sourceSha256": "db94f6db7f9cf7e9ac2a9ad8673d869ed00ac898fdab9b3f1ba25dd6af04cef1",
+        "transferDate": "2026-08-05"
+      },
+      {
+        "filingId": "knesset_election62",
+        "date": "2026-09-08",
+        "fieldDates": [
+          "8.9.2026",
+          "9.9.2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election62/he/Survey_4134.pdf",
+        "sourceSha256": "9a42672629d5689e87b084a4f7187546cc38f0885a2dfcacd59287c89e207253",
+        "transferDate": "2026-09-10"
+      },
+      {
+        "filingId": "knesset_election74",
+        "date": "2026-09-15",
+        "fieldDates": [
+          "15.9.2026",
+          "16.9.2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election74/he/Survey_4151.pdf",
+        "sourceSha256": "7a806c54dbbc7ed031d9121749091906a64282894ebd080c18ed60c9ab17542b",
+        "transferDate": "2026-09-17"
+      },
+      {
+        "filingId": "knesset_election88",
+        "date": "2026-09-29",
+        "fieldDates": [
+          "29.9.2026",
+          "29.9.2026"
+        ],
+        "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+        "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8",
+        "transferDate": "2026-09-30"
+      }
+    ],
+    "oct6FilingFound": false,
+    "latestFilingPollDate": "2026-09-29",
+    "scopeLimitation": "This public secondary registry dataset may lag filings; absence here is not evidence that no original Oct6 Maagar filing exists."
+  },
+  "canonicalEdited": false
+}
