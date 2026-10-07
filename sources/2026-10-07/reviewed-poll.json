@@ -1,0 +1,209 @@
+{
+  "id": "hamadad_consortium_2026-10-07",
+  "pollsterId": "hamadad_consortium",
+  "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+  "publisher": "חדשות 13",
+  "date": "2026-10-07",
+  "publicationTime": "20:35",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": "2026-10-07T20:35:10+03:00",
+  "updatedAt": "2026-10-07T20:40:38+03:00",
+  "dateKind": "תאריך פרסום הכתבה בלבד; מועד עבודת השדה לא פורסם במקור שנבדק",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": 1013,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+  "samplingMethod": null,
+  "population": null,
+  "panelProvider": null,
+  "reportedMarginOfErrorPct": 2.5,
+  "undecidedPct": null,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "percentageDenominator": "מכנה האחוזים לא פורסם; שלושת אחוזי התמיכה שפורסמו נשמרים כלשונם.",
+  "originalCoveragePct": 4.8,
+  "knownPercentageSum": 4.8,
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 20,
+    "likud": 20,
+    "beyachad": 12,
+    "democrats": 10,
+    "joint": 9,
+    "yisrael_beiteinu": 8,
+    "otzma": 8,
+    "utj": 8,
+    "shas": 7,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 5,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "hendel": 2.9,
+    "haredi_public": 1.1,
+    "gantz": 0.8
+  },
+  "reportedPercentages": {
+    "hendel": 2.9,
+    "haredi_public": 1.1,
+    "gantz": 0.8
+  },
+  "percentageSourceUrls": {
+    "hendel": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "haredi_public": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "gantz": "https://13tv.co.il/item/news/politics/politics/survey-905386103/"
+  },
+  "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+  "sourceTier": "original-publisher",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2107887588119916617",
+    "https://themadad.com/",
+    "https://themadad.com/allpolls/",
+    "https://themadad.com/polls26/"
+  ],
+  "checkedAt": "2026-10-07",
+  "replacesPollId": "hamadad_consortium_2026-09-30",
+  "sourceBlocSeats": {
+    "coalition": 55,
+    "opposition": 50,
+    "arab_parties": 15
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "כולל עמך ישראל",
+    "opposition": "ללא ערביות",
+    "arab_parties": "הרשימה המשותפת ורע״מ"
+  },
+  "consortium": "המדד (שמואל רוזנר, נח סלפקוב), סטט־נט (יוסף מקלדה), פרויקט המדגם (ד״ר אריאל איילון), אסקריא (דודי דרור); נתונים נוספים Hive; ייעוץ סטטיסטי פרופ׳ דוד שטיינברג",
+  "notes": [
+    "סקר חדשות 13 / המדד מ־7.10.2026 מחליף את סקר 30.9 של אותו מכון במאגר הפעיל; הסקר הקודם נשמר בהיסטוריה.",
+    "כל 120 המנדטים, שלושת האחוזים מתחת לחסימה, 1,013 משיבים וטעות הדגימה המדווחת של 2.5% אומתו בכתבת חדשות 13 המקורית; המנדטים אומתו גם בגרפיקה המקורית.",
+    "תאריך ושעת הרשומה הם מועד פרסום הכתבה. תאריכי עבודת השדה, שיטת הדגימה, מכנה האחוזים ואחוז המתלבטים לא פורסמו במקור שנבדק ונשארים חסרים.",
+    "לא אותר עדיין דוח מלא של סקר 7.10 במדד או בהגשות שנחשפו במאגר ועדת הבחירות. דפי הבית, הסקרים, הבחירות, הקטגוריה וה־API הציבורי נבדקו. נתוני תחזית או מודל של המדד אינם נתוני הסקר הגולמיים.",
+    "רק הנדל–זליכה 2.9%, הציבור החרדי 1.1% וכחול לבן 0.8% הם אחוזים שפורסמו. אחוזי המפלגות העוברות נשארים חסרים ומושחזרים במודל מהמנדטים; אחוז חסר אינו אפס.",
+    "ישראלPolls פרסם את אותה תצפית. ה־65 שלו כוללים את המפלגות הערביות: בכתבה המקורית מוצגים 55 לקואליציה, 50 לאופוזיציה ללא ערביות ו־15 לערביות. וינטר נשאר על 5 מנדטים לעומת הסקר הקודם; אינו יורד מ־6.",
+    "עד אימות ימי האיסוף, סקר זה אינו נוסף לניתוח המגמות המחמיר המוגבל לעבודת שדה לאחר סגירת הרשימות."
+  ],
+  "statusLabel": "הסקר הפעיל — תאריכי איסוף ואחוזי תמיכה של המפלגות העוברות טרם פורסמו",
+  "sourceDocument": {
+    "fileName": "c13-2026-10-07-original.html",
+    "kind": "original-publisher-web-article",
+    "sha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013",
+    "extractFileName": "c13-2026-10-07-source-extract.txt",
+    "extractSha256": "94eb01d34edac50afc508560350881ce7eac311e354a8a3f704fc00e9d2bcb5b",
+    "originalGraphicFileName": "c13-2026-10-07-original-graphic-1.webp",
+    "originalGraphicSha256": "b92e88d5b849e3251475215beb6dca03253bd9b9633d51c21b6c421fb1223dd6",
+    "originalGraphicUrl": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1791389155/uploads/2026/905386337.webp",
+    "reviewedAt": "2026-10-07",
+    "providedBy": "original-publisher",
+    "publicationCrossChecked": true,
+    "primarySourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "primaryPublicationVerified": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "fieldworkStart",
+      "fieldworkEnd",
+      "samplingMethod",
+      "population",
+      "panelProvider",
+      "undecidedPct",
+      "percentageDenominator"
+    ],
+    "publishedAt": "2026-10-07T20:35:10+03:00",
+    "articleUpdatedAt": "2026-10-07T20:40:38+03:00",
+    "timestampSourceKind": "NewsArticle.datePublished",
+    "videoUploadDate": "2026-10-07T20:35:10+03:00",
+    "fullPollSearchReceiptFileName": "full-poll-search-receipt.json"
+  },
+  "sourceCheckLimitations": [
+    "כתבת חדשות 13 והגרפיקה המקורית נגישות ונבדקו. קורא האינטרנט המתווך נכשל בכתבה החדשה; הורדת HTTP ישירה הצליחה.",
+    "פרופיל IsraelPolls והפוסט החדש נגישים ב־HTTP. בעת הבדיקה הפוסט החדש חשף טקסט בלבד, ללא גרפיקה או טבלה היסטורית מצורפות.",
+    "לא אותר עדיין פרסום מלא של סקר 7.10 במדד או ברשומות ההגשה שנחשפו במאגר המקושר לוועדת הבחירות; אין בכך קביעה שלא הוגש דוח.",
+    "לא ניתן להסיק את ימי עבודת השדה מתאריך פרסום 7.10; אין להחליפם בתאריך הפרסום."
+  ],
+  "sourceAccessSummary": [
+    {
+      "url": "https://themadad.com/",
+      "status": 200,
+      "archiveFile": "madad-home.html"
+    },
+    {
+      "url": "https://themadad.com/allpolls/",
+      "status": 200,
+      "archiveFile": "madad-allpolls.html"
+    },
+    {
+      "url": "https://13tv.co.il/news/",
+      "status": 200,
+      "archiveFile": "c13-home.html"
+    },
+    {
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "status": 200,
+      "archiveFile": "c13-politics.html"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "archiveFile": "IsraelPolls-profile.html"
+    },
+    {
+      "url": "https://k26polls.co.il/data/dataset.json",
+      "status": 200,
+      "archiveFile": "official-registry.json"
+    },
+    {
+      "url": "https://themadad.com/%d7%91%d7%97%d7%99%d7%a8%d7%95%d7%aa-2026/",
+      "status": 200,
+      "fileName": "madad-election-index.html"
+    },
+    {
+      "url": "https://themadad.com/category/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93/",
+      "status": 200,
+      "fileName": "madad-survey-category.html"
+    },
+    {
+      "url": "https://themadad.com/md7-10-26/",
+      "status": 200,
+      "fileName": "madad-oct7-original.html"
+    },
+    {
+      "url": "https://themadad.com/wp-json/",
+      "status": 200,
+      "fileName": "madad-api-index.json"
+    },
+    {
+      "url": "https://themadad.com/wp-json/wp/v2/pages/26810",
+      "status": 200,
+      "fileName": "madad-allpolls-api.json"
+    },
+    {
+      "url": "https://themadad.com/polls26/",
+      "status": 200,
+      "fileName": "madad-polls26.html"
+    },
+    {
+      "url": "https://themadad.com/wp-json/wp/v2/posts?per_page=15&orderby=date&order=desc",
+      "status": 200,
+      "fileName": "madad-latest-posts.json"
+    },
+    {
+      "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "status": 200,
+      "sourceKind": "original-publisher",
+      "articleBodyRead": true,
+      "archiveFile": "c13-2026-10-07-original.html"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2107887588119916617",
+      "status": 200,
+      "postTextRead": true,
+      "attachedMediaExposed": false,
+      "archiveFile": "IsraelPolls-oct7-post.html"
+    }
+  ]
+}

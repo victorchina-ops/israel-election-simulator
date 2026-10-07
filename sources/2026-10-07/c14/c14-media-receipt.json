@@ -1,0 +1,23 @@
+[
+  {
+    "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57-1.jpeg",
+    "checkedAtUtc": "2026-10-07T17:50:53.219082+00:00",
+    "status": 200,
+    "fileName": "c14-primary-0.jpeg",
+    "sha256": "16f886242c65c06019bbf9e73ffe0f446b788da4d45e71968f6100d676b4cd45"
+  },
+  {
+    "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+    "checkedAtUtc": "2026-10-07T17:50:53.814706+00:00",
+    "status": 200,
+    "fileName": "c14-primary-1.jpeg",
+    "sha256": "f0809507e546677a41fb744c568c857dfc48780e25b63ac83d0086cce4547839"
+  },
+  {
+    "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.58.jpeg",
+    "checkedAtUtc": "2026-10-07T17:50:54.471271+00:00",
+    "status": 200,
+    "fileName": "c14-primary-2.jpeg",
+    "sha256": "d432ef70114247f87b7e34bc236c82532f415a05cc925b24727a26b176e8f46e"
+  }
+]

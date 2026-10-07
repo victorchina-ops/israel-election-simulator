@@ -1,0 +1,128 @@
+{
+  "asOf": "2026-10-07",
+  "checkedAt": "2026-10-07",
+  "baselineAsOf": "2026-10-06",
+  "activePollCount": 8,
+  "historyPollCount": 110,
+  "addedPollIds": [
+    "hamadad_consortium_2026-10-07",
+    "next_data_2026-10-07"
+  ],
+  "sameObservationRevisions": [
+    "hamadad_consortium_2026-09-30"
+  ],
+  "stageReceipts": [
+    "c14/ingestion-receipt.json"
+  ],
+  "supersedesEarlierC13Stage": {
+    "historyPollCount": 109,
+    "immutableLocalCheckpoint": "data/history/before-c14-2026-10-07",
+    "note": "The final aggregate receipt supersedes the unpublished C13-only source listing; the complete earlier source stage remains frozen locally."
+  },
+  "publicEvidenceFiles": [
+    {
+      "fileName": "c13-2026-10-07-original-graphic-1.webp",
+      "sha256": "b92e88d5b849e3251475215beb6dca03253bd9b9633d51c21b6c421fb1223dd6"
+    },
+    {
+      "fileName": "c13-2026-10-07-original.html",
+      "sha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013"
+    },
+    {
+      "fileName": "c13-2026-10-07-source-extract.txt",
+      "sha256": "94eb01d34edac50afc508560350881ce7eac311e354a8a3f704fc00e9d2bcb5b"
+    },
+    {
+      "fileName": "c14/c14-1728516.html",
+      "sha256": "68a3335e05735b564bdf62f8bbaf03e38f4c0cfc9f83aa63d80bf5ae8198045b"
+    },
+    {
+      "fileName": "c14/c14-1728516.txt",
+      "sha256": "7028a2d74c1bb801728969610060a96f55bc1c46bcc6151f525ca06f67605fd0"
+    },
+    {
+      "fileName": "c14/c14-media-receipt.json",
+      "sha256": "f956c6c154b1ad7651d610dd05a75ac460f28e7b21d6eda99d4e7fd1db153943"
+    },
+    {
+      "fileName": "c14/c14-primary-0.jpeg",
+      "sha256": "16f886242c65c06019bbf9e73ffe0f446b788da4d45e71968f6100d676b4cd45"
+    },
+    {
+      "fileName": "c14/c14-primary-1.jpeg",
+      "sha256": "f0809507e546677a41fb744c568c857dfc48780e25b63ac83d0086cce4547839"
+    },
+    {
+      "fileName": "c14/c14-primary-2.jpeg",
+      "sha256": "d432ef70114247f87b7e34bc236c82532f415a05cc925b24727a26b176e8f46e"
+    },
+    {
+      "fileName": "c14/ingestion-receipt.json",
+      "sha256": "27cc8bbf9e876e8c5b1a51b9022907d38d83f477d027987c32bbe7c02052d778"
+    },
+    {
+      "fileName": "c14/primary-publisher-scan.json",
+      "sha256": "268b7f0d7c5f29231d064d9e0ce72df44cab023643d6ddc1027ec8734976dc4f"
+    },
+    {
+      "fileName": "c14/profile-refresh-receipt.json",
+      "sha256": "e45415f915381a533c1cce32d58cc8ffc1b1b7d473cb01a6d8fad7fd065969c4"
+    },
+    {
+      "fileName": "c14/reviewed-c14-primary-poll.json",
+      "sha256": "37216d64fd1abc7184293657f046c8be9b8890e897d9ecf9554bdee0daab08a3"
+    },
+    {
+      "fileName": "c14/reviewed-poll.json",
+      "sha256": "3e07cc81c9f6c97073be9f7fbe7bf39864b54d026d5aef1e39b8a783e74d6246"
+    },
+    {
+      "fileName": "c14/source-scan.json",
+      "sha256": "293885e0bc46ebb2e16d4e5c9eb477be25bc0964eef3aff3d7b0f826279d3606"
+    },
+    {
+      "fileName": "c14/surveys-extracted-2026-10-07.csv",
+      "sha256": "d91bcb0814714068471bd3752a0b709c9ef6ac7342600115bb4006a490152a11"
+    },
+    {
+      "fileName": "extracted-surveys.json",
+      "sha256": "3bb98f7cc2ff056e47f6e337308eabe30dfaaa4cb6ac43a8527a77ce8aae3a3a"
+    },
+    {
+      "fileName": "full-poll-search-receipt.json",
+      "sha256": "8be622c9638ee37f24299a0ac6d3d88f3adc02aa165b3119d3b1c3f864774fca"
+    },
+    {
+      "fileName": "independent-poll-deltas.json",
+      "sha256": "1d7293a14528ca4e57bd09ad0861d4d3a8cccea9ec51c785e6bb3fbff66ea1ea"
+    },
+    {
+      "fileName": "original-revision-receipt.json",
+      "sha256": "b0869cbd887f6ce447705a6325a415cdab7ed29cc8349ac1e016bbe4098e1602"
+    },
+    {
+      "fileName": "reviewed-poll.json",
+      "sha256": "9df33b4514ae0ef21af7df36ca82f9fbe4fb8d49bde24de5b77483233f4ef4bb"
+    },
+    {
+      "fileName": "reviewed-rosner-sep30-original.json",
+      "sha256": "5265d8cc3bf8c53b7448a03a1a17239275322d2a45e3956a6e5b86cbeb983fa0"
+    },
+    {
+      "fileName": "rosner-sep30-original-extract.txt",
+      "sha256": "467a475489a6d002dfb5185a0a5776a3be948a129977a87f0b638be9417069d2"
+    },
+    {
+      "fileName": "source-scan.json",
+      "sha256": "4d3443043bc23b0a0d6279f804fa0b654bf4ad911c7445a61891df174536ff05"
+    },
+    {
+      "fileName": "Survey_4182.pdf",
+      "sha256": "f3d9ccad37ee833ba64e01b0f8d64aac57ec0af58ad641df1e9fe9a286718081"
+    },
+    {
+      "fileName": "surveys-extracted-2026-10-07.csv",
+      "sha256": "d91bcb0814714068471bd3752a0b709c9ef6ac7342600115bb4006a490152a11"
+    }
+  ]
+}

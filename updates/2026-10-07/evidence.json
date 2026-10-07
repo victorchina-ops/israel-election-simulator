@@ -1,0 +1,183 @@
+{
+  "dataAsOf": "2026-10-07",
+  "priorModelDataDate": "2026-10-06",
+  "trendCoverage": {
+    "pollCount": 34,
+    "seriesCount": 8,
+    "deltaCount": 26,
+    "partyCount": 17,
+    "from": "2026-09-09",
+    "to": "2026-10-07",
+    "closureDate": "2026-09-08",
+    "excludedPollCount": 5
+  },
+  "trendComparisonDates": [
+    "2026-09-09",
+    "2026-10-07"
+  ],
+  "closureDate": "2026-09-08",
+  "numbers": {
+    "blocQExact": 0.8711503113977073,
+    "blocQDisplayed": 0.87,
+    "partyPrimaryQExact": 0.014663542355599647,
+    "partyPrimaryQDisplayed": 0.015,
+    "partySensitivityQExact": 0.53125,
+    "partySensitivityQDisplayed": 0.531,
+    "pollCount": 34,
+    "instituteCount": 8,
+    "deltaCount": 26
+  },
+  "strictEligibility": "New Oct7 C14 included on explicit original fieldwork date; new Oct7 C13 excluded because fieldwork missing. The same Sep30 C13 observation is now eligible after its original filing verifies29–30Sep; no duplicate observation.",
+  "mainFindings": [
+    {
+      "group": "coalition",
+      "weightedNetDelta": -0.26357680427560193,
+      "slopePerWeek": 0.03157139898167165,
+      "pValue": 0.8711503113977073,
+      "wholeInstituteSignFlipP": 0.890625,
+      "qValue": 0.8711503113977073,
+      "wholeInstituteSignFlipQ": 0.890625
+    },
+    {
+      "group": "opposition",
+      "weightedNetDelta": -1.661116938935226,
+      "slopePerWeek": -0.3480190214642382,
+      "pValue": 0.3348228236607143,
+      "wholeInstituteSignFlipP": 0.40625,
+      "qValue": 0.8711503113977073,
+      "wholeInstituteSignFlipQ": 0.890625
+    },
+    {
+      "group": "opposition_raam",
+      "weightedNetDelta": -1.6755748069636207,
+      "slopePerWeek": -0.2480160288662387,
+      "pValue": 0.6782773230820106,
+      "wholeInstituteSignFlipP": 0.65625,
+      "qValue": 0.8711503113977073,
+      "wholeInstituteSignFlipQ": 0.890625
+    }
+  ],
+  "partySignals": [
+    {
+      "partyId": "beyachad",
+      "partyName": "ביחד",
+      "weightedFirstSeats": 12.227447617930666,
+      "weightedLastSeats": 11.218374073261193,
+      "weightedNetDelta": -1.0090735446694739,
+      "slopePerWeek": -0.39118898204258423,
+      "pValue": 0.0017251226300705467,
+      "wholeSeriesSignFlipP": 0.0625,
+      "upwardSeries": 1,
+      "downwardSeries": 5,
+      "flatSeries": 2,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.014663542355599647,
+      "wholeSeriesSignFlipQ": 0.53125
+    },
+    {
+      "partyId": "joint",
+      "partyName": "הרשימה המשותפת",
+      "weightedFirstSeats": 7.0,
+      "weightedLastSeats": 7.7592568989300155,
+      "weightedNetDelta": 0.7592568989300155,
+      "slopePerWeek": 0.1833352889695366,
+      "pValue": 0.0009300595238095238,
+      "wholeSeriesSignFlipP": 0.03125,
+      "upwardSeries": 6,
+      "downwardSeries": 0,
+      "flatSeries": 2,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.014663542355599647,
+      "wholeSeriesSignFlipQ": 0.53125
+    }
+  ],
+  "method": "Exact within-institute result-vector permutation of time slopes, historical-accuracy weights, BH separately for3blocs and17parties; whole-institute sign-flip sensitivity with BH.",
+  "interpretation": "Party signals pass only the primaryBHtest and do not survive the whole-institute sensitivityBHtest. No-significance is not proof of no opinion change or of randomness. The graphic has no model majority or threshold probabilities.",
+  "sources": [
+    "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "https://www.c14.co.il/article/1728516",
+    "https://x.com/IsraelPolls?s=20",
+    "sources/2026-10-07-trends/party-trends.json",
+    "sources/2026-10-07-trends/bloc-analysis.json"
+  ],
+  "pngSha256": "5f80f11059111fc8a662959cd1402dcb4a597bb9fd95bf583382d910627f1b7f",
+  "pngDimensions": [
+    1536,
+    1024
+  ],
+  "imageGeneration": "Built-in image_gen; original editorial illustration without supplied logos. Original bitmap copied unchanged; prompt retained in image-prompt.txt.",
+  "visualQA": {
+    "status": "passed",
+    "rootReview": "Inspected original generated image: all Hebrew, dates, numbers, cautious significance labels, missing-fieldwork note and creator credit are legible and unclipped.",
+    "independentReview": {
+      "legibleHebrew": true,
+      "correctNumeralsAndDate": true,
+      "noTextClipping": true,
+      "partyDirectionsCorrect": true,
+      "sourceCreditPresent": "מפרסמי הסקרים ו־IsraelPolls",
+      "authorCreditPresent": "ויקטור רינה בן דוד",
+      "mainVersusSensitivityDistinguished": true,
+      "c13ExclusionExplicitInFooter": true,
+      "noClaimOfProofOfRandomnessOrNoChange": true,
+      "methodFootnote": "שינויים בתוך כל סוקר · משקלי דיוק היסטורי · פרמוטציות + BH",
+      "allVisibleTextReviewed": true
+    },
+    "verifiedValues": {
+      "asOf": "2026-10-07",
+      "analysisWindow": {
+        "from": "2026-09-09",
+        "to": "2026-10-07"
+      },
+      "eligiblePolls": 34,
+      "pollsterSeries": 8,
+      "adjacentDeltas": 26,
+      "blocResults": [
+        {
+          "group": "coalition",
+          "qValue": 0.8711503113977073
+        },
+        {
+          "group": "opposition",
+          "qValue": 0.8711503113977073
+        },
+        {
+          "group": "opposition_raam",
+          "qValue": 0.8711503113977073
+        }
+      ],
+      "displayedBlocBHq": 0.87,
+      "partyResults": [
+        {
+          "partyId": "beyachad",
+          "partyName": "ביחד",
+          "weightedNetDelta": -1.0090735446694739,
+          "slopePerWeek": -0.39118898204258423,
+          "qValue": 0.014663542355599647,
+          "wholeSeriesSignFlipQ": 0.53125
+        },
+        {
+          "partyId": "joint",
+          "partyName": "הרשימה המשותפת",
+          "weightedNetDelta": 0.7592568989300155,
+          "slopePerWeek": 0.1833352889695366,
+          "qValue": 0.014663542355599647,
+          "wholeSeriesSignFlipQ": 0.53125
+        }
+      ],
+      "displayedPartyBHq": 0.015,
+      "displayedWholeInstituteSensitivityBHq": 0.531,
+      "c13Oct7": {
+        "includedInCurrentModel": true,
+        "includedInStrictTrendTest": false,
+        "reason": "Fieldwork dates unpublished"
+      },
+      "c14Oct7": {
+        "includedInStrictTrendTest": true,
+        "fieldwork": "2026-10-07"
+      }
+    },
+    "numericAudit": "34-poll strict analysis reproduced independently; main and sensitivity tests agree within1e-12. Six forecast scenarios also independently reproduced,60000jointworlds total120."
+  },
+  "credit": "ויקטור רינה בן דוד",
+  "tweetWeightedCharacters": 252
+}

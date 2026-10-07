@@ -1,0 +1,118 @@
+{
+  "reviewedAt": "2026-10-07T17:55:06.207787+00:00",
+  "status": "verified-primary-poll-ready-for-ingestion",
+  "publisher": "חדשות 14",
+  "pollster": "NEXT DATA",
+  "pollsterDirector": "שלמה פילבר — ניתוח הנתונים",
+  "publicationDate": "2026-10-07",
+  "publishedAt": "2026-10-07T20:34:55+03:00",
+  "fieldworkStart": "2026-10-07",
+  "fieldworkEnd": "2026-10-07",
+  "fieldworkDateBasis": "Original publisher article explicitly says the survey was conducted today 7 October 2026.",
+  "sampleSize": 1100,
+  "population": "בוגרים מכלל האוכלוסייה",
+  "marginOfErrorPercentagePoints": null,
+  "method": null,
+  "confidenceLevel": null,
+  "undecidedPct": null,
+  "voteShareDenominator": null,
+  "publishedSeats": {
+    "likud": 31,
+    "yashar": 23,
+    "shas": 10,
+    "democrats": 9,
+    "beyachad": 8,
+    "utj": 8,
+    "otzma": 8,
+    "joint": 7,
+    "rz_zehut": 6,
+    "yisrael_beiteinu": 5,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "publishedSeatsSum": 120,
+  "publishedBelowThresholdPct": {
+    "winter": 2.2,
+    "hendel": 1.8,
+    "gantz": 1.3,
+    "noam": 0.9,
+    "haredi_public": 0.4
+  },
+  "publishedUnmappedNamedVoteShares": [
+    {
+      "name": "אח״י — חוזרים לשורשים",
+      "pct": 0.1
+    }
+  ],
+  "missingDataPolicy": "No published mode, margin of error, confidence level, undecided share or denominator in article or three referenced graphics; keep missing. Missing individual parties remain missing rather than zero. The source explicitly lists Noam 0.9 and Haredi Public 0.4 in its graphic.",
+  "publisherBlocs": {
+    "coalitionIncludingWinter": 63,
+    "oppositionExcludingArabParties": 45,
+    "arabParties": 12
+  },
+  "sourceUrl": "https://www.c14.co.il/article/1728516",
+  "sourceTitle": "דרמטי: המפלגה שמתרסקת בסקרים ומתקרבת לאחוז החסימה",
+  "primaryEvidence": {
+    "articleReceipt": "new-article-receipt.json",
+    "articleFile": "c14-1728516.html",
+    "articleSha256": "68a3335e05735b564bdf62f8bbaf03e38f4c0cfc9f83aa63d80bf5ae8198045b",
+    "graphics": [
+      {
+        "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57-1.jpeg",
+        "checkedAtUtc": "2026-10-07T17:50:53.219082+00:00",
+        "status": 200,
+        "fileName": "c14-primary-0.jpeg",
+        "sha256": "16f886242c65c06019bbf9e73ffe0f446b788da4d45e71968f6100d676b4cd45"
+      },
+      {
+        "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+        "checkedAtUtc": "2026-10-07T17:50:53.814706+00:00",
+        "status": 200,
+        "fileName": "c14-primary-1.jpeg",
+        "sha256": "f0809507e546677a41fb744c568c857dfc48780e25b63ac83d0086cce4547839"
+      },
+      {
+        "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.58.jpeg",
+        "checkedAtUtc": "2026-10-07T17:50:54.471271+00:00",
+        "status": 200,
+        "fileName": "c14-primary-2.jpeg",
+        "sha256": "d432ef70114247f87b7e34bc236c82532f415a05cc925b24727a26b176e8f46e"
+      }
+    ],
+    "visuallyReviewed": [
+      "c14-primary-0.jpeg",
+      "c14-primary-1.jpeg",
+      "c14-primary-2.jpeg"
+    ],
+    "seatAndRawGraphic": "c14-primary-1.jpeg",
+    "articleMethodWording": "הסקרשבוצעבאמצעותחברתNEXT DATAבהשתתפות1100בוגרים מכלל האוכלוסייהנערךהיום7באוקטובר2026ניתוחהנתונים:שלמהפילבר."
+  },
+  "otherPublishedQuestions": {
+    "primeMinisterSuitabilityPct": {
+      "netanyahu": 52,
+      "eisenkot": 34,
+      "bennett": 10,
+      "liberman": 4
+    },
+    "headToHeadPct": {
+      "netanyahu": 52,
+      "eisenkot": 48
+    },
+    "headToHeadSourceUrl": "https://www.c14.co.il/article/1728552"
+  },
+  "duplicatePolicy": "Two C14 articles and three graphics describe one Oct7 survey; count only one mandate poll.",
+  "canonicalEditsMade": false,
+  "secondaryCorroboration": [
+    {
+      "url": "https://x.com/IsraelPolls/status/2107891979690643875",
+      "match": "Attached C14 graphic visually agrees with original publisher: all 120 mandates, blocs 63/45/12 and six named below-threshold percentages.",
+      "graphicFile": "2107891979690643875-0.webp",
+      "graphicSha256": "dc439fab8ba2b1619a45d321b1761a4653d3b649aefc2cf53002560e2b1828e0",
+      "receipt": "posts-refresh-receipt.json"
+    }
+  ]
+}

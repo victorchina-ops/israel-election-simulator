@@ -1,0 +1,81 @@
+{
+  "previousDate": "2026-09-30",
+  "currentDate": "2026-10-07",
+  "previousSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+  "currentSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+  "previousSeats": {
+    "beyachad": 11,
+    "democrats": 11,
+    "gantz": 0,
+    "haredi_public": 0,
+    "hendel": 0,
+    "israel_first": 0,
+    "joint": 9,
+    "likud": 19,
+    "noam": 0,
+    "otzma": 8,
+    "raam": 5,
+    "rz_zehut": 7,
+    "shas": 7,
+    "utj": 8,
+    "winter": 5,
+    "yashar": 21,
+    "yisrael_beiteinu": 9
+  },
+  "currentSeats": {
+    "yashar": 20,
+    "likud": 20,
+    "beyachad": 12,
+    "democrats": 10,
+    "joint": 9,
+    "yisrael_beiteinu": 8,
+    "otzma": 8,
+    "utj": 8,
+    "shas": 7,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 5,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "deltas": {
+    "yashar": -1,
+    "likud": 1,
+    "beyachad": 1,
+    "democrats": -1,
+    "joint": 0,
+    "yisrael_beiteinu": -1,
+    "otzma": 0,
+    "utj": 0,
+    "shas": 0,
+    "rz_zehut": 0,
+    "raam": 1,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "previousBlocs": {
+    "coalition": 54,
+    "opposition": 52,
+    "arab_parties": 14
+  },
+  "currentBlocs": {
+    "coalition": 55,
+    "opposition": 50,
+    "arab_parties": 15
+  },
+  "blocDeltas": {
+    "coalition": 1,
+    "opposition": -2,
+    "arab_parties": 1
+  },
+  "rawBelowThresholdDeltas": {
+    "hendel": 0.1,
+    "haredi_public": -0.2,
+    "gantz": -0.1
+  },
+  "significanceClaim": null,
+  "fieldworkDatesConfirmed": false
+}

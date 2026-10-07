@@ -1,0 +1,19 @@
+Create an original Hebrew editorial infographic for sharing on X, a polished warm newspaper illustration, landscape 3:2, generous white space, excellent RTL typography and large accessible text. Stylish ink and watercolor illustration: a magnifying glass examining red and blue ballot slips and a calendar, suggesting noisy poll observations. The illustrative marks must NOT imitate a measured chart. Use a restrained cream background, navy headline, red and blue accents, warm amber for tentative findings. No photorealistic portraits, no invented party logos. One simple story: blocs have no statistically significant trend, while two party-level signals depend on the test. Avoid a crowded dashboard or complex graph.
+
+Exact Hebrew text, faithfully typeset and not paraphrased:
+Top date badge: "עדכון 7.10.2026"
+Small subheading: "מאז סגירת הרשימות · 9.9–7.10"
+Large main headline: "בגושים: עדיין אין מגמה מובהקת"
+Under the headline: "קואליציה · אופוזיציה · אופוזיציה עם רע״ם"
+Prominent short evidence line: "אחרי תיקון לריבוי בדיקות: q=0.87"
+Secondary evidence line: "34 סקרים מאומתים · 8 סוקרים"
+
+Lower portion: two balanced illustrated ballot cards, clearly distinguish tentative party signals from the bloc conclusion. One card labelled "ביחד" with a downward arrow and the word "ירידה"; the other labelled "המשותפת" with an upward arrow and the word "עלייה". These arrows indicate direction, not magnitude and not a seat transfer between these parties. Shared clear amber caption directly below both cards: "אותות במבחן הראשי — אינם יציבים בבדיקת רגישות"
+Small but readable supporting line: "מבחן ראשי: q=0.015 · בדיקת רגישות: q=0.531"
+
+Readable footer across full width with no clipping:
+"שינויים בתוך כל סוקר · משקלי דיוק היסטורי · פרמוטציות + BH"
+"סקר 13 החדש נוסף למודל; חסרים מועדי איסוף ולכן אינו במבחן המגמות."
+"מקורות: מפרסמי הסקרים ו־IsraelPolls · ויקטור רינה בן דוד"
+
+Do not add any numerical forecast, election outcome probabilities, vote percentages, or political persuasion. These q-values refer to the strict post-close analysis, not a p-value for the newest poll alone. No-significance must not be portrayed as proof of no change or proof of randomness. All lettering must remain inside safe margins, visually simple, publication-ready, legible on a phone. Use attractive illustrative icons rather than a plain table.

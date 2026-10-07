@@ -1,0 +1,577 @@
+{
+  "pollId": "hamadad_consortium_2026-09-30",
+  "publicationDate": "2026-09-30",
+  "sameObservationRevision": true,
+  "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+  "sourceFileName": "Survey_4182.pdf",
+  "sourceSha256": "f3d9ccad37ee833ba64e01b0f8d64aac57ec0af58ad641df1e9fe9a286718081",
+  "reviewedAt": "2026-10-07",
+  "fieldworkStart": "2026-09-29",
+  "fieldworkEnd": "2026-09-30",
+  "fieldworkStartTime": "10:00",
+  "fieldworkEndTime": "09:00",
+  "sampleSize": 1013,
+  "initialSampleSize": 7066,
+  "invitedSampleSize": null,
+  "subgroups": [
+    {
+      "id": "jewish_adults",
+      "label": "בוגרים יהודים",
+      "validResponses": 600,
+      "invited": 4677,
+      "partialResponses": 12
+    },
+    {
+      "id": "young",
+      "label": "צעירים",
+      "validResponses": 61,
+      "invited": 1728,
+      "partialResponses": 49
+    },
+    {
+      "id": "haredi",
+      "label": "חרדים",
+      "validResponses": 230,
+      "invited": 1031,
+      "partialResponses": null
+    },
+    {
+      "id": "arab",
+      "label": "מגזר ערבי",
+      "validResponses": 122,
+      "invited": 230,
+      "partialResponses": null
+    }
+  ],
+  "reportedMarginOfErrorPct": 3.1,
+  "collectionMethod": "891 Jewish online respondents and122 non-Jewish telephone respondents",
+  "samplingMethod": "דגימת שכבות עם דגימה אקראית בתוך השכבות",
+  "population": "מדגם שכבות מייצג של אוכלוסיית המדינה בגילאי 18+",
+  "nationalRawSharesPublished": false,
+  "subgroupColumnsAreNotNationalShares": true,
+  "tables": [
+    {
+      "label": "מנדטים ארציים ואחוזים גולמיים בלתי משוקללים בכל מדגם בנפרד — אינם אחוזי קולות ארציים",
+      "page": 1,
+      "continuedOnPage": 2,
+      "columns": [
+        {
+          "key": "party",
+          "label": "מפלגה / תשובה",
+          "type": "text"
+        },
+        {
+          "key": "seats",
+          "label": "מנדטים ארציים שפורסמו",
+          "type": "seats"
+        },
+        {
+          "key": "jewish_adults",
+          "label": "בוגרים יהודים — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        },
+        {
+          "key": "young",
+          "label": "צעירים — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        },
+        {
+          "key": "haredi",
+          "label": "חרדים — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        },
+        {
+          "key": "arab",
+          "label": "מגזר ערבי — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        }
+      ],
+      "denominator": "כל מדגם בנפרד, כולל מתלבטים ותגובות אי הצבעה; משקלי האוכלוסייה לא פורסמו",
+      "includedInModelPercentages": false,
+      "rows": [
+        {
+          "party": "כחול לבן",
+          "partyId": "gantz",
+          "seats": 0,
+          "jewish_adults": 0.7,
+          "young": 1.6,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "ליכוד",
+          "partyId": "likud",
+          "seats": 19,
+          "jewish_adults": 14.3,
+          "young": 4.9,
+          "haredi": 4.3,
+          "arab": 0.8
+        },
+        {
+          "party": "ש״ס",
+          "partyId": "shas",
+          "seats": 7,
+          "jewish_adults": 3.8,
+          "young": 4.9,
+          "haredi": 17,
+          "arab": 0
+        },
+        {
+          "party": "הציונות הדתית",
+          "partyId": "rz_zehut",
+          "seats": 7,
+          "jewish_adults": 6,
+          "young": 18,
+          "haredi": 2.2,
+          "arab": 0
+        },
+        {
+          "party": "יהדות התורה",
+          "partyId": "utj",
+          "seats": 8,
+          "jewish_adults": 4.7,
+          "young": 13.1,
+          "haredi": 47.8,
+          "arab": 0
+        },
+        {
+          "party": "ישראל ביתנו",
+          "partyId": "yisrael_beiteinu",
+          "seats": 9,
+          "jewish_adults": 6.5,
+          "young": 6.6,
+          "haredi": 0,
+          "arab": 4.1
+        },
+        {
+          "party": "עמך ישראל (וינטר)",
+          "partyId": "winter",
+          "seats": 5,
+          "jewish_adults": 4.7,
+          "young": 1.6,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "רע״מ",
+          "partyId": "raam",
+          "seats": 5,
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 0,
+          "arab": 23.8
+        },
+        {
+          "party": "הרשימה המשותפת",
+          "partyId": "joint",
+          "seats": 9,
+          "jewish_adults": 0.2,
+          "young": 0,
+          "haredi": 0,
+          "arab": 43.4
+        },
+        {
+          "party": "עוצמה יהודית",
+          "partyId": "otzma",
+          "seats": 8,
+          "jewish_adults": 6.7,
+          "young": 8.2,
+          "haredi": 8.3,
+          "arab": 0
+        },
+        {
+          "party": "הדמוקרטים",
+          "partyId": "democrats",
+          "seats": 11,
+          "jewish_adults": 8.3,
+          "young": 8.2,
+          "haredi": 0.4,
+          "arab": 3.3
+        },
+        {
+          "party": "ביחד",
+          "partyId": "beyachad",
+          "seats": 11,
+          "jewish_adults": 8.8,
+          "young": 4.9,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "ישר",
+          "partyId": "yashar",
+          "seats": 21,
+          "jewish_adults": 16.5,
+          "young": 11.5,
+          "haredi": 0,
+          "arab": 4.1
+        },
+        {
+          "party": "המילואימניקים והכלכלית",
+          "partyId": "hendel",
+          "seats": 0,
+          "jewish_adults": 2.5,
+          "young": 1.6,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "הציבור החרדי",
+          "partyId": "haredi_public",
+          "seats": 0,
+          "jewish_adults": 1,
+          "young": 3.3,
+          "haredi": 7.8,
+          "arab": 0
+        },
+        {
+          "party": "נעם (מתוך מפלגה אחרת)",
+          "partyId": "noam",
+          "seats": 0,
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "הקהל (מתוך מפלגה אחרת)",
+          "partyId": null,
+          "seats": 0,
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "צבע שחור (מתוך מפלגה אחרת)",
+          "partyId": null,
+          "seats": 0,
+          "jewish_adults": 0.3,
+          "young": 0,
+          "haredi": 1.3,
+          "arab": 0
+        },
+        {
+          "party": "ישראל תחילה (מתוך מפלגה אחרת)",
+          "partyId": "israel_first",
+          "seats": 0,
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "מפלגה אחרת — טקסט חופשי",
+          "partyId": null,
+          "seats": null,
+          "jewish_adults": 0.3,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "עדיין לא החלטתי",
+          "partyId": null,
+          "seats": null,
+          "jewish_adults": 11.2,
+          "young": 6.6,
+          "haredi": 6.5,
+          "arab": 10.7
+        },
+        {
+          "party": "פתק לבן",
+          "partyId": null,
+          "seats": null,
+          "jewish_adults": 0.3,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "לא מתכוון להצביע",
+          "partyId": null,
+          "seats": null,
+          "jewish_adults": 3.2,
+          "young": 4.9,
+          "haredi": 4.3,
+          "arab": 9.8
+        }
+      ]
+    },
+    {
+      "label": "נטיית מתלבטים בלבד — מכנים נפרדים לכל מדגם; אינם תמיכה ארצית",
+      "page": 2,
+      "columns": [
+        {
+          "key": "party",
+          "label": "מפלגה / תשובה",
+          "type": "text"
+        },
+        {
+          "key": "jewish_adults",
+          "label": "בוגרים יהודים — מתלבטים בלבד, n=67",
+          "type": "percent"
+        },
+        {
+          "key": "young",
+          "label": "צעירים — מתלבטים בלבד, n=4",
+          "type": "percent"
+        },
+        {
+          "key": "haredi",
+          "label": "חרדים — מתלבטים בלבד, n=15",
+          "type": "percent"
+        },
+        {
+          "key": "arab",
+          "label": "מגזר ערבי — מתלבטים בלבד, n=13",
+          "type": "percent"
+        }
+      ],
+      "includedInModelPercentages": false,
+      "rows": [
+        {
+          "party": "כחול לבן",
+          "partyId": "gantz",
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "ליכוד",
+          "partyId": "likud",
+          "jewish_adults": 11.9,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "ש״ס",
+          "partyId": "shas",
+          "jewish_adults": 1.5,
+          "young": 0,
+          "haredi": 13.3,
+          "arab": 0
+        },
+        {
+          "party": "הציונות הדתית",
+          "partyId": "rz_zehut",
+          "jewish_adults": 0,
+          "young": 25,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "יהדות התורה",
+          "partyId": "utj",
+          "jewish_adults": 1.5,
+          "young": 0,
+          "haredi": 13.3,
+          "arab": 0
+        },
+        {
+          "party": "ישראל ביתנו",
+          "partyId": "yisrael_beiteinu",
+          "jewish_adults": 7.5,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "עמך ישראל (וינטר)",
+          "partyId": "winter",
+          "jewish_adults": 3,
+          "young": 25,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "רע״מ",
+          "partyId": "raam",
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 0,
+          "arab": 30.8
+        },
+        {
+          "party": "הרשימה המשותפת",
+          "partyId": "joint",
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 0,
+          "arab": 30.8
+        },
+        {
+          "party": "עוצמה יהודית",
+          "partyId": "otzma",
+          "jewish_adults": 4.5,
+          "young": 0,
+          "haredi": 13.3,
+          "arab": 0
+        },
+        {
+          "party": "הדמוקרטים",
+          "partyId": "democrats",
+          "jewish_adults": 1.5,
+          "young": 25,
+          "haredi": 0,
+          "arab": 7.7
+        },
+        {
+          "party": "ביחד",
+          "partyId": "beyachad",
+          "jewish_adults": 10.4,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "ישר",
+          "partyId": "yashar",
+          "jewish_adults": 9,
+          "young": 25,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "המילואימניקים והכלכלית",
+          "partyId": "hendel",
+          "jewish_adults": 3,
+          "young": 0,
+          "haredi": 0,
+          "arab": 0
+        },
+        {
+          "party": "הציבור החרדי",
+          "partyId": "haredi_public",
+          "jewish_adults": 3,
+          "young": 0,
+          "haredi": 20,
+          "arab": 0
+        },
+        {
+          "party": "מפלגה אחרת",
+          "partyId": null,
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 13.3,
+          "arab": 0
+        },
+        {
+          "party": "פתק לבן",
+          "partyId": null,
+          "jewish_adults": 0,
+          "young": 0,
+          "haredi": 6.7,
+          "arab": 0
+        },
+        {
+          "party": "עדיין לא החלטתי / באמת לא יודע",
+          "partyId": null,
+          "jewish_adults": 43.3,
+          "young": 0,
+          "haredi": 20,
+          "arab": 30.8
+        }
+      ]
+    },
+    {
+      "label": "כוונת הצבעה — אחוזים גולמיים בלתי משוקללים בכל מדגם בנפרד",
+      "page": 2,
+      "columns": [
+        {
+          "key": "party",
+          "label": "תשובה",
+          "type": "text"
+        },
+        {
+          "key": "jewish_adults",
+          "label": "בוגרים יהודים — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        },
+        {
+          "key": "young",
+          "label": "צעירים — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        },
+        {
+          "key": "haredi",
+          "label": "חרדים — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        },
+        {
+          "key": "arab",
+          "label": "מגזר ערבי — אחוז גולמי לא משוקלל",
+          "type": "percent"
+        }
+      ],
+      "includedInModelPercentages": false,
+      "rows": [
+        {
+          "party": "אצביע בוודאות",
+          "partyId": null,
+          "jewish_adults": 73,
+          "young": 73.8,
+          "haredi": 67,
+          "arab": 73
+        },
+        {
+          "party": "די בטוח/ה שאצביע",
+          "partyId": null,
+          "jewish_adults": 18.5,
+          "young": 18,
+          "haredi": 21.7,
+          "arab": 16.4
+        },
+        {
+          "party": "לא כל כך בטוח/ה שאצביע",
+          "partyId": null,
+          "jewish_adults": 3,
+          "young": 3.3,
+          "haredi": 3.5,
+          "arab": 0.8
+        },
+        {
+          "party": "סיכוי גדול שלא אצביע",
+          "partyId": null,
+          "jewish_adults": 3.8,
+          "young": 4.9,
+          "haredi": 6.5,
+          "arab": 9.8
+        },
+        {
+          "party": "לא יודע/ת",
+          "partyId": null,
+          "jewish_adults": 1.7,
+          "young": 0,
+          "haredi": 1.3,
+          "arab": 0
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "דוח הסוקר המקורי לסקר 30.9 אותר ונבדק ב־7.10; זוהי אותה תצפית היסטורית, ללא הוספת סקר או משקל פעיל.",
+    "האיסוף התקיים ב־29.9 10:00 עד 30.9 09:00; 1,013 משיבים תקינים, 891 יהודים באינטרנט ו־122 לא יהודים בטלפון; דגימת שכבות עם דגימה אקראית בתוך השכבות.",
+    "בדוח המקורי טעות הדגימה היא 3.1%, לעומת 2.5% בכתבת השידור הקודמת; נשמרת הסתירה והדוח המקורי הוא המקור לשדה זה.",
+    "ארבעת טורי האחוזים גולמיים ובלתי משוקללים בכל מדגם בנפרד. הדוח מבהיר במפורש שהם אינם התפלגות הקולות הארצית; אין להמירם או למזגם לאחוזים ארציים ללא משקלי האוכלוסייה.",
+    "אחוזי התמיכה הארציים מתחת לחסימה נשארים כפי שפורסמו בכתבה המקורית, 2.8% / 1.3% / 0.9%; שאר אחוזי המודל נשארים חסרים ומושחזרים ממנדטים.",
+    "הדוח רושם מדגם התחלתי 7,066, אך סכום ההזמנות בארבעת המדגמים הוא 7,666. נשמרים שני הנתונים עם הסתירה; לא מתקנים מספר מקור באמצעות ניחוש."
+  ],
+  "sourceConflicts": [
+    {
+      "field": "reportedMarginOfErrorPct",
+      "officialValue": 3.1,
+      "broadcastValue": 2.5,
+      "broadcastUrl": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+      "resolution": "Original filing controls metadata; previous publisher report retained."
+    },
+    {
+      "field": "initialSampleSize",
+      "officialValue": 7066,
+      "sumOfReportedSubgroupInvitations": 7666,
+      "resolution": "Both original statements retained; aggregate invitation count remains null."
+    }
+  ]
+}

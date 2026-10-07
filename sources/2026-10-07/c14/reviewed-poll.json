@@ -1,0 +1,300 @@
+{
+  "id": "next_data_2026-10-07",
+  "pollsterId": "next_data",
+  "pollster": "NEXT DATA — ניתוח שלמה פילבר",
+  "publisher": "חדשות 14",
+  "date": "2026-10-07",
+  "publishedAt": "2026-10-07T20:34:55+03:00",
+  "publicationTime": "20:34:55",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "dateKind": "תאריך פרסום 7.10; יום האיסוף 7.10 אומת בנפרד בכתבה המקורית",
+  "fieldworkStart": "2026-10-07",
+  "fieldworkEnd": "2026-10-07",
+  "fieldworkDateBasis": "Original publisher article explicitly says the survey was conducted today 7 October 2026.",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "sampleSize": 1100,
+  "sampleSizeSourceUrl": "https://www.c14.co.il/article/1728516",
+  "population": "בוגרים מכלל האוכלוסייה",
+  "samplingMethod": null,
+  "panelProvider": null,
+  "invitedSampleSize": null,
+  "initialSampleSize": null,
+  "reportedMarginOfErrorPct": null,
+  "marginConfidencePct": null,
+  "undecidedPct": null,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "percentageDenominator": "מכנה האחוזים לא פורסם; האחוזים שפורסמו נשמרים כלשונם, ללא הפחתת מתלבטים נוספת.",
+  "originalCoveragePct": 6.7,
+  "knownPercentageSum": 6.7,
+  "requiresReconstruction": true,
+  "seats": {
+    "likud": 31,
+    "yashar": 23,
+    "shas": 10,
+    "democrats": 9,
+    "beyachad": 8,
+    "utj": 8,
+    "otzma": 8,
+    "joint": 7,
+    "rz_zehut": 6,
+    "yisrael_beiteinu": 5,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 2.2,
+    "hendel": 1.8,
+    "gantz": 1.3,
+    "noam": 0.9,
+    "haredi_public": 0.4,
+    "other": 0.1
+  },
+  "reportedPercentages": {
+    "winter": 2.2,
+    "hendel": 1.8,
+    "gantz": 1.3,
+    "noam": 0.9,
+    "haredi_public": 0.4
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+    "hendel": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+    "gantz": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+    "noam": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+    "haredi_public": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+    "other": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg"
+  },
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "unmodelledNamedParties": [
+    {
+      "name": "אח״י – חוזרים לשורשים",
+      "pct": 0.1,
+      "mappedTo": "other",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg"
+    }
+  ],
+  "sourceUrl": "https://www.c14.co.il/article/1728516",
+  "sourceTier": "original-publisher",
+  "checkedAt": "2026-10-07",
+  "replacesPollId": "next_data_2026-10-01",
+  "secondarySourceUrls": [
+    "https://www.c14.co.il/article/1728552",
+    "https://x.com/IsraelPolls/status/2107891979690643875",
+    "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg"
+  ],
+  "sourceBlocSeats": {
+    "coalition": 63,
+    "opposition": 45,
+    "arab_parties": 12
+  },
+  "notes": [
+    "סקר חדשות 14 / NEXT DATA מ־7.10.2026 מחליף את סקר 1.10 של אותו מכון; דיירקט פולס / i24NEWS נשאר מכון נפרד ללא שינוי.",
+    "בכתבה המקורית פורסמו 1,100 בוגרים מכלל האוכלוסייה ונכתב במפורש שהסקר נערך היום 7.10.2026. שעת הפרסום היא 20:34:55; אין להפוך אותה לשעת האיסוף.",
+    "כל 120 המנדטים ושלושת סכומי הגושים אומתו בכתבה ובגרפיקה המקוריות: קואליציה 63, אופוזיציה ללא ערביות 45 וערביות 12.",
+    "מתחת לחסימה: עמך ישראל 2.2%, המילואימניקים והכלכלית 1.8%, כחול לבן 1.3%, נעם 0.9%, הציבור החרדי 0.4% ואח״י – חוזרים לשורשים 0.1%.",
+    "אח״י נשמרת בשמה המקורי ו־0.1% שלה ממופים לרכיב רשימות אחרות במודל בלבד. זה אינו אחוז כולל שפורסם ליתר המפלגות ואין לספור אותו פעמיים.",
+    "שיטת האיסוף, טעות הדגימה, רמת הביטחון, ספק הפאנל, מספר המוזמנים, שיעור המתלבטים ומכנה האחוזים לא פורסמו במקור שנבדק ונשארים חסרים.",
+    "אחוזי המפלגות העוברות וישראל תחילה לא פורסמו ונשארים חסרים; אחוזי המודל של הרשימות העוברות משוחזרים ממנדטים. אפס מנדטים אינו אפס תמיכה.",
+    "כתבת מנדטים, כתבה נפרדת על ראש־בראש ושלוש גרפיקות מתארות סקר אחד; פרסום חוזר ב־IsraelPolls אינו סקר נוסף."
+  ],
+  "sourceDocument": {
+    "fileName": "c14-1728516.html",
+    "kind": "original-publisher-web-article",
+    "sha256": "68a3335e05735b564bdf62f8bbaf03e38f4c0cfc9f83aa63d80bf5ae8198045b",
+    "extractFileName": "c14-1728516.txt",
+    "extractSha256": "7028a2d74c1bb801728969610060a96f55bc1c46bcc6151f525ca06f67605fd0",
+    "originalGraphicFileName": "c14-primary-1.jpeg",
+    "originalGraphicSha256": "f0809507e546677a41fb744c568c857dfc48780e25b63ac83d0086cce4547839",
+    "originalGraphicUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+    "reviewedGraphics": [
+      {
+        "fileName": "c14-primary-0.jpeg",
+        "sha256": "16f886242c65c06019bbf9e73ffe0f446b788da4d45e71968f6100d676b4cd45",
+        "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57-1.jpeg",
+        "visuallyReviewed": true
+      },
+      {
+        "fileName": "c14-primary-2.jpeg",
+        "sha256": "d432ef70114247f87b7e34bc236c82532f415a05cc925b24727a26b176e8f46e",
+        "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.58.jpeg",
+        "visuallyReviewed": true
+      }
+    ],
+    "reviewedAt": "2026-10-07",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.c14.co.il/article/1728516",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "samplingMethod",
+      "reportedMarginOfErrorPct",
+      "marginConfidencePct",
+      "panelProvider",
+      "invitedSampleSize",
+      "undecidedPct",
+      "percentageDenominator"
+    ],
+    "publishedAt": "2026-10-07T20:34:55+03:00",
+    "timestampSourceKind": "original-publisher structured publication metadata",
+    "fieldworkQuote": "הסקר שבוצע באמצעות חברת NEXT DATA בהשתתפות1100 בוגרים מכלל האוכלוסייה נערך היום 7 באוקטובר2026"
+  },
+  "sourceCheckLimitations": [
+    "מדורי חלק מהמפרסמים החזירו403 או מעטפת יישום; כשל גישה נשמר ואין להסיק ממנו שלא פורסם סקר.",
+    "שיטת האיסוף, טעות הדגימה, שיעור מתלבטים ומכנה האחוזים אינם מפורטים בכתבה או בגרפיקות שנבדקו; לא מועתקים נתונים מהסקר הקודם."
+  ],
+  "sourceAccessSummary": [
+    {
+      "url": "https://13tv.co.il/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://13tv.co.il/news/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://13tv.co.il/tags/survey/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.n12.co.il/",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.mako.co.il/news-politics",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.mako.co.il/news-israel-elections/2026",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.kan.org.il/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.kan.org.il/content/kan-news/politic/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://skarim.kan.org.il/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.c14.co.il/",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.c14.co.il/archive/53747",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.c14.co.il/archive/65839",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.i24news.tv/he",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026",
+      "status": 200,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.maariv.co.il/",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026",
+      "status": 200,
+      "access": "readable",
+      "contentVerified": true
+    },
+    {
+      "url": "https://www.zman.co.il/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.zman.co.il/feed/609/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.zman.co.il/feed/33350/",
+      "status": 403,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.ch16.co.il/",
+      "status": 200,
+      "access": "blocked-or-shell",
+      "contentVerified": false
+    },
+    {
+      "url": "https://www.c14.co.il/article/1728516",
+      "status": 200,
+      "contentVerified": true,
+      "primaryPollVerified": true
+    }
+  ]
+}

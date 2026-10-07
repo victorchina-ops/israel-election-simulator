@@ -19,3 +19,11 @@
 /sources/2026-10-06-trends/* -text
 /sources/2026-10-06-comparison/* -text
 /updates/2026-10-06/* -text
+/sources/2026-10-07/* -text
+/sources/2026-10-07/*.html -diff
+/sources/2026-10-07-trends/* -text
+/sources/2026-10-07-comparison/* -text
+/updates/2026-10-07/* -text
+/sources/2026-10-07/** -text
+/sources/2026-10-07/**/*.html -diff
+/sources/2026-10-07/rosner-sep30-original-extract.txt -diff

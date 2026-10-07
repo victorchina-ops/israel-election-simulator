@@ -1,0 +1,38 @@
+{
+  "asOf": "2026-10-07",
+  "sameObservationRevision": "hamadad_consortium_2026-09-30",
+  "newPollCount": 0,
+  "activePollCount": 8,
+  "historyPollCount": 110,
+  "officialPdfSha256": "f3d9ccad37ee833ba64e01b0f8d64aac57ec0af58ad641df1e9fe9a286718081",
+  "modelSeatVectorUnchanged": true,
+  "modelPercentageVectorUnchanged": true,
+  "subgroupPercentagesNotAddedToNationalModel": true,
+  "outputs": [
+    {
+      "path": "data/current-polls.json",
+      "sha256": "d44937fab034e316c51109b1c18408d4535f7ccd1ef1d0ea19464e7db28bc988"
+    },
+    {
+      "path": "data/poll-history.json",
+      "sha256": "aacf7061b6483959312fbf34ccdf6f3d97b0258c04497d19caf59532f50a0a19"
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "d4975e793cc43ebf76bd7528496d96e12cd960b7731ae6ade4870d50a73492d7"
+    },
+    {
+      "path": "data/survey-documents-2026-09-14.json",
+      "sha256": "3bb98f7cc2ff056e47f6e337308eabe30dfaaa4cb6ac43a8527a77ce8aae3a3a"
+    },
+    {
+      "path": "outputs/surveys-extracted-2026-10-07.csv",
+      "sha256": "d91bcb0814714068471bd3752a0b709c9ef6ac7342600115bb4006a490152a11"
+    }
+  ],
+  "receiptScope": "final-two-poll-2026-10-07-release",
+  "earlierStageHistoryPollCount": 109,
+  "earlierStageCheckpoint": "data/history/before-c14-2026-10-07",
+  "retainedNationalTableSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+  "officialSubgroupTableSourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf"
+}

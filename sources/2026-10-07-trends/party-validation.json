@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "asOf": "2026-10-07",
+  "polls": 34,
+  "series": 8,
+  "deltas": 26,
+  "parties": 17,
+  "individualTests": 136,
+  "exactPermutations": 9631589990400,
+  "newC13EligibleStrict": false,
+  "lastVerifiedFieldworkEnd": "2026-10-07",
+  "newlyEligiblePollIds": [
+    "history_next_data_2026-10-07_current",
+    "history_hamadad_consortium_2026-09-30_current"
+  ],
+  "newC14EligibleStrict": true,
+  "excludedPollCount": 5,
+  "independentAgreement": "All bloc slopes, exact counts and p-values; all party slopes, net changes, exact p/q and sign-flip p/q within 1e-12",
+  "sourceEvidenceSha256Verified": true,
+  "october6ArchiveSha256Verified": true,
+  "correctedPartyFindings": [
+    "beyachad",
+    "joint"
+  ],
+  "correctedBlocFindings": [],
+  "correctedPartySensitivityFindings": [],
+  "correctedBlocSensitivityFindings": []
+}

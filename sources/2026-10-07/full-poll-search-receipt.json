@@ -1,0 +1,282 @@
+{
+  "checkedAt": "2026-10-07",
+  "pollDate": "2026-10-07",
+  "originalArticleUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+  "originalArticlePublishedAt": "2026-10-07T20:35:10+03:00",
+  "sampleSize": 1013,
+  "reportedMarginOfErrorPct": 2.5,
+  "fieldworkDatesFound": false,
+  "fullPassingVoteSharesFound": false,
+  "methodologyFound": false,
+  "unknownFieldsRemainNull": true,
+  "madadPagesChecked": [
+    "https://themadad.com/",
+    "https://themadad.com/allpolls/",
+    "https://themadad.com/polls26/",
+    "https://themadad.com/category/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93/",
+    "https://themadad.com/wp-json/wp/v2/posts?per_page=15&orderby=date&order=desc"
+  ],
+  "registryUrl": "https://k26polls.co.il/data/dataset.json",
+  "rosnerFilingsExposed": [
+    {
+      "filing_id": "knesset_election22",
+      "date_the_survey": "2026-08-11",
+      "field_dates": [
+        "11.8.2026 09:00",
+        "12.8.2026 09:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election22/he/4077-סקר בחירות מיום 17.8.2026.pdf",
+      "transfer_to_cec": "2026-08-17"
+    },
+    {
+      "filing_id": "knesset_election34",
+      "date_the_survey": "2026-08-18",
+      "field_dates": [
+        "18.8.2026 10:22",
+        "18.8.2026 22:48"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election34/he/4094-סקר בחירות מיום 24.8.2026.pdf",
+      "transfer_to_cec": "2026-08-24"
+    },
+    {
+      "filing_id": "knesset_election39",
+      "date_the_survey": "2026-08-25",
+      "field_dates": [
+        "25.8.2026 09:00",
+        "26.8.2026 10:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election39/he/סקר בחירות מיום 30.8.2026 4106.pdf",
+      "transfer_to_cec": "2026-08-30"
+    },
+    {
+      "filing_id": "knesset_election50",
+      "date_the_survey": "2026-09-01",
+      "field_dates": [
+        "1.9.2026 09:50",
+        "2.9.2026 10:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election50/he/סקר בחירות מיום 3.9.2026 4118.pdf",
+      "transfer_to_cec": "2026-09-03"
+    },
+    {
+      "filing_id": "knesset_election6",
+      "date_the_survey": "2026-07-28",
+      "field_dates": [
+        "28.7.2026 09:00",
+        "29.7.2026 09:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election6/he/4048-סקר בחירות מיום 5.8.2026.pdf",
+      "transfer_to_cec": "2026-08-05"
+    },
+    {
+      "filing_id": "knesset_election64",
+      "date_the_survey": "2026-09-09",
+      "field_dates": [
+        "9.9.2026 08:00",
+        "9.9.2026 15:30"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election64/he/Survey4140.pdf",
+      "transfer_to_cec": "2026-09-14"
+    },
+    {
+      "filing_id": "knesset_election7",
+      "date_the_survey": "2026-08-04",
+      "field_dates": [
+        "4.8.2026 09:00",
+        "5.8.2026 09:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election7/he/סקר בחירות מיום 6.8.2026.pdf",
+      "transfer_to_cec": "2026-08-06"
+    },
+    {
+      "filing_id": "knesset_election75",
+      "date_the_survey": "2026-09-15",
+      "field_dates": [
+        "15.9.2026 09:00",
+        "16.9.2026 09:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election75/he/Survey_4153.pdf",
+      "transfer_to_cec": "2026-09-17"
+    },
+    {
+      "filing_id": "knesset_election86",
+      "date_the_survey": "2026-09-22",
+      "field_dates": [
+        "22.9.2026 08:00",
+        "23.9.2026 09:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election86/he/Survey_4169.pdf",
+      "transfer_to_cec": "2026-09-28"
+    },
+    {
+      "filing_id": "knesset_election94",
+      "date_the_survey": "2026-09-29",
+      "field_dates": [
+        "29.9.2026 10:00",
+        "30.9.2026 09:00"
+      ],
+      "source_url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+      "transfer_to_cec": "2026-10-04"
+    }
+  ],
+  "registryIsSecondaryIndex": true,
+  "noNewFilingFoundIsNotProofOfNoSubmission": true,
+  "israelPollsUrl": "https://x.com/IsraelPolls/status/2107887588119916617",
+  "israelPollsPostTextChecked": true,
+  "newPostAttachedMediaExposed": false,
+  "rootIndependentOriginalReview": "Passed original body/vector/n/MOE/consortium verification before ingestion.",
+  "evidenceFiles": [
+    {
+      "fileName": "c13-2026-10-07-original-graphic-1.webp",
+      "sha256": "b92e88d5b849e3251475215beb6dca03253bd9b9633d51c21b6c421fb1223dd6"
+    },
+    {
+      "fileName": "c13-2026-10-07-original-inspection.json",
+      "sha256": "dd4c5f8f53d919d24772c5b6747324ded3d0b6fddcecfdf6a4810f08027f0a3c"
+    },
+    {
+      "fileName": "c13-2026-10-07-original.html",
+      "sha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013"
+    },
+    {
+      "fileName": "c13-2026-10-07-source-extract.txt",
+      "sha256": "94eb01d34edac50afc508560350881ce7eac311e354a8a3f704fc00e9d2bcb5b"
+    },
+    {
+      "fileName": "c13-home-links.json",
+      "sha256": "ae19b57f07558d7eaf401a4cfed851a626d9a7c246311582ef89038f20024c93"
+    },
+    {
+      "fileName": "c13-home.html",
+      "sha256": "5b28e580c4e97ab1b3b32e101b4ee3f763ac0ad0f883ac2126744bb876a2b65e"
+    },
+    {
+      "fileName": "c13-politics-links.json",
+      "sha256": "38b10236d22228192867e0da5a9fdd903a4de79d60d0aaea844f8eec71e5e6a7"
+    },
+    {
+      "fileName": "c13-politics.html",
+      "sha256": "7f9b90b6b125e1d09137069e87dac72637935d51e04c79d42ba9554a5d9fb6bb"
+    },
+    {
+      "fileName": "independent-poll-deltas.json",
+      "sha256": "1d7293a14528ca4e57bd09ad0861d4d3a8cccea9ec51c785e6bb3fbff66ea1ea"
+    },
+    {
+      "fileName": "IsraelPolls-oct7-post.html",
+      "sha256": "c4af2a742d73bc83ae72a95796e269798cfad3226df9aa9645af48b3d37fb6f2"
+    },
+    {
+      "fileName": "IsraelPolls-profile-inspection.json",
+      "sha256": "5d6e7b8fb2649555ef24f46773cde10c58880212be686d77586317b1f81ab47d"
+    },
+    {
+      "fileName": "IsraelPolls-profile-links.json",
+      "sha256": "79ba52873e16371a338780287b23f83a122c0b3c3fcd4cbb18675eae058cc3b8"
+    },
+    {
+      "fileName": "IsraelPolls-profile.html",
+      "sha256": "adc169db574a7e4c702b790c88745dfdfeeec046f2004275bcecda16e8862247"
+    },
+    {
+      "fileName": "madad-allpolls-api.json",
+      "sha256": "7df91d79530b7b4257ed950243bd39fe762c48d83d93c36b0657aec2bcf1b65c"
+    },
+    {
+      "fileName": "madad-allpolls-inspection.json",
+      "sha256": "9ab47f970de6b68cc3bc4154c67fcc77448b1292948d786b8b3a2a41fc5d55db"
+    },
+    {
+      "fileName": "madad-allpolls-links.json",
+      "sha256": "5d81d062fd3b7bf6740627097ef52345849fb150e85ae4aa4d44673996811059"
+    },
+    {
+      "fileName": "madad-allpolls.html",
+      "sha256": "f9c7780cb45168fa5a35346dc48c0fb76ad836420db8d991d5006f16cb264c6f"
+    },
+    {
+      "fileName": "madad-api-index.json",
+      "sha256": "5243cce02b6356f5487fed0a899496ddebf24d057a003c196291b82597b0d39e"
+    },
+    {
+      "fileName": "madad-election-index-extract.txt",
+      "sha256": "6df310596a5f7394470ef722cc508edf833c3b6be27b7d0116beba31707d2a7f"
+    },
+    {
+      "fileName": "madad-election-index.html",
+      "sha256": "7ef00a8d411d06bb469553d63179ad6cba7dbb177ac95c4e70ccd67c5da05678"
+    },
+    {
+      "fileName": "madad-full-data-checks.json",
+      "sha256": "4e32b65dc2cbd6c9f8c3a913d5aceee217dbdf0cfecabde1694a020ebc957f19"
+    },
+    {
+      "fileName": "madad-home-inspection.json",
+      "sha256": "9376afe6e2b16b7914a0e8118060e1f3874a7a4cb79a48fca0b5a37d84b1fcbe"
+    },
+    {
+      "fileName": "madad-home-links.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "fileName": "madad-home.html",
+      "sha256": "19ff854b0799a3af6aa91e48f58539613c1dd1a1e3cc1b21022b6b4899064b2b"
+    },
+    {
+      "fileName": "madad-latest-data-inspection.json",
+      "sha256": "985fcec78e8796b7e038809cfd94606c5f444a4efbcb79b491bdc95ecdd6bfab"
+    },
+    {
+      "fileName": "madad-latest-posts.json",
+      "sha256": "986ad1121e899e0621c2c4d9bad6b7100e0c79f609d41a8f26b26336ba4c8ebd"
+    },
+    {
+      "fileName": "madad-oct7-original-extract.txt",
+      "sha256": "68d6d907c4169813c3e26b0970a43b72a3d02c24a110ea6d2a660a99b84f6e15"
+    },
+    {
+      "fileName": "madad-oct7-original.html",
+      "sha256": "a3d973bbcd73082e2233a92fd38d779a3d41de53e22b2573f0dfe63fdabf460f"
+    },
+    {
+      "fileName": "madad-polls26.html",
+      "sha256": "246cac1dddd9d719acfd58660ab5d09150af894b71de744ef2d57b35b87043fc"
+    },
+    {
+      "fileName": "madad-survey-category-extract.txt",
+      "sha256": "7b5d124a4245d703286ed6d1833f62c3b102c5ce3deb53f1954d941f564ed8a9"
+    },
+    {
+      "fileName": "madad-survey-category.html",
+      "sha256": "69f56ae676b71bd307359440925db3415a679a415aa039e914b5a4d010b05998"
+    },
+    {
+      "fileName": "official-registry.json",
+      "sha256": "0bc5ce5831f45b17cda4b195cf9436143550ad4fc35c0ca47144cf7ff67dc65c"
+    },
+    {
+      "fileName": "reviewed-poll.json",
+      "sha256": "9df33b4514ae0ef21af7df36ca82f9fbe4fb8d49bde24de5b77483233f4ef4bb"
+    },
+    {
+      "fileName": "rosner-sep30-original-extract.txt",
+      "sha256": "467a475489a6d002dfb5185a0a5776a3be948a129977a87f0b638be9417069d2"
+    },
+    {
+      "fileName": "rosner-sep30-original-page-1.png",
+      "sha256": "a4ee42a78c16c4cfca5cc303f8635fc877d13819dc836e2dffea061f2ee759fd"
+    },
+    {
+      "fileName": "rosner-sep30-original-page-2.png",
+      "sha256": "1823a7f9466ffe36ff0862694e9185d0aef31a34205c8da9b847a5bb91d8bfd6"
+    },
+    {
+      "fileName": "source-scan.json",
+      "sha256": "4d3443043bc23b0a0d6279f804fa0b654bf4ad911c7445a61891df174536ff05"
+    },
+    {
+      "fileName": "Survey_4182.pdf",
+      "sha256": "f3d9ccad37ee833ba64e01b0f8d64aac57ec0af58ad641df1e9fe9a286718081"
+    }
+  ]
+}

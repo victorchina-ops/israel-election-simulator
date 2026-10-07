@@ -1,0 +1,191 @@
+{
+  "checkedAt": "2026-10-07",
+  "checks": [
+    {
+      "name": "madad-home",
+      "url": "https://themadad.com/",
+      "finalUrl": "https://themadad.com/",
+      "status": 200,
+      "bytes": 161421,
+      "sha256": "19ff854b0799a3af6aa91e48f58539613c1dd1a1e3cc1b21022b6b4899064b2b",
+      "archiveFile": "madad-home.html",
+      "pollLinks": []
+    },
+    {
+      "name": "madad-allpolls",
+      "url": "https://themadad.com/allpolls/",
+      "finalUrl": "https://themadad.com/allpolls/",
+      "status": 200,
+      "bytes": 545827,
+      "sha256": "f9c7780cb45168fa5a35346dc48c0fb76ad836420db8d991d5006f16cb264c6f",
+      "archiveFile": "madad-allpolls.html",
+      "pollLinks": [
+        {
+          "text": "רוצה שגם לדעות שלך יקשיבו? הרשמה קצרה לפאנל הסקרים של המדד. העמדה שלך חשובה לנו. להרשמה רוצה שגם לדעות שלך יקשיבו? הרשמה קצרה לפאנל הסקרים של המדד. העמדה שלך חשובה לנו. להרשמה",
+          "url": "https://themadad.com/monthly-survey?utm_medium=regBanner"
+        },
+        {
+          "text": "בחירות 2026",
+          "url": "https://themadad.com/%d7%91%d7%97%d7%99%d7%a8%d7%95%d7%aa-2026/"
+        },
+        {
+          "text": "תוצאות הבחירות",
+          "url": "https://themadad.com/election2022/"
+        },
+        {
+          "text": "בחירות 2026",
+          "url": "https://themadad.com/%d7%91%d7%97%d7%99%d7%a8%d7%95%d7%aa-2026/"
+        },
+        {
+          "text": "תוצאות הבחירות",
+          "url": "https://themadad.com/election2022/"
+        },
+        {
+          "text": "סקר המדד",
+          "url": "https://themadad.com/category/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93/?utm_source=madad&utm_medium=leftSideBar&campaign=skarHaMadad"
+        },
+        {
+          "text": "דיוק הסקרים",
+          "url": "https://themadad.com/poll-trends-2022/?utm_source=madad&utm_medium=leftSideBar&campaign=pollAccuracy"
+        },
+        {
+          "text": "תחזית הבחירות",
+          "url": "https://themadad.com/%D7%AA%D7%97%D7%96%D7%99%D7%AA%D7%91%D7%97%D7%99%D7%A8%D7%95%D7%AA2026?utm_source=madad&utm_medium=leftSideBar"
+        },
+        {
+          "text": "מודל הבחירות",
+          "url": "https://themadad.com/electionmodel2026/?utm_source=madad&utm_medium=leftSideBar&campaign=model"
+        },
+        {
+          "text": "מחנה ״יותר״ נגד מחנה ״אחר״: ניסיון לטיפולוגיה של מערכת הבחירות",
+          "url": "https://themadad.com/md7-10-26/"
+        },
+        {
+          "text": "רוב גדול של ישראלים נמצאים בשני מחנות שינוי. יש מי שרוצים שינוי שמשמעותו ״אותו כיוון אבל יותר״. יש מי שרוצים שינוי שמשמעותו ״כיוון אחר״. ודווקא מי שלא נמצאים בשני המחנות האלה, הם שעשויים להכריע את גורל הבחירות",
+          "url": "https://themadad.com/md7-10-26/"
+        },
+        {
+          "text": "דוד שטיינברג, אפשר להאמין לסקרי הבחירות?",
+          "url": "https://themadad.com/md4-9-26/"
+        },
+        {
+          "text": "פרופ׳ שטיינברג ושמואל רוזנר משיבים לשאלות על סקרים, שאלונים, הטיות, דגימה, שקרים, פערים, אתיקה, סטטיסטיקה, הצבעה, דתיות, דמוגרפיה, אמינות, אחוז החסימה, דיוק – ועל כדורים בצבע כחול וכדורים בצבע אדום",
+          "url": "https://themadad.com/md4-9-26/"
+        }
+      ]
+    },
+    {
+      "name": "c13-home",
+      "url": "https://13tv.co.il/news/",
+      "finalUrl": "https://13tv.co.il/news/",
+      "status": 200,
+      "bytes": 457709,
+      "sha256": "5b28e580c4e97ab1b3b32e101b4ee3f763ac0ad0f883ac2126744bb876a2b65e",
+      "archiveFile": "c13-home.html",
+      "pollLinks": [
+        {
+          "text": "סקר חדשות 13: שוויון בצמרת, גוש נתניהו מגדיל את הפער",
+          "url": "/item/news/politics/politics/survey-905386103/?pid=62&refc=902992383"
+        },
+        {
+          "text": "סקר חדשות 13: שוויון בצמרת, גוש נתניהו מגדיל את הפער",
+          "url": "/item/news/politics/politics/survey-905386103/?pid=62&refc=902992443"
+        }
+      ]
+    },
+    {
+      "name": "c13-politics",
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "finalUrl": "https://13tv.co.il/news/politics/politics/",
+      "status": 200,
+      "bytes": 202095,
+      "sha256": "7f9b90b6b125e1d09137069e87dac72637935d51e04c79d42ba9554a5d9fb6bb",
+      "archiveFile": "c13-politics.html",
+      "pollLinks": [
+        {
+          "text": "מתקרבים לבחירות: הליכוד והציונות הדתית חתמו על הסכם עודפים",
+          "url": "/item/news/politics/politics/likud-905383727/?pid=519"
+        },
+        {
+          "text": "22 ימים לבחירות: המחדל, ההאשמות וההזמנה לעימות של איזנקוט",
+          "url": "/item/news/politics/politics/ao3cc-905383007/?pid=519"
+        },
+        {
+          "text": "לקראת פרישה? איזנקוט וגנץ ידונו בהמשך ריצת \"כחול לבן\" בבחירות",
+          "url": "/item/news/politics/politics/pz0u6-905377801/?pid=519"
+        },
+        {
+          "text": "מפלגות האופוזיציה: \"הוקמו צוותי עבודה משותפים לניצחון בבחירות\"",
+          "url": "/item/news/politics/politics/ry9l7-905374437/?pid=519"
+        },
+        {
+          "text": "החרדים בוחנים: תלמידות סמינרים ישתתפו בעידוד הצבעה בבחירות",
+          "url": "/item/news/politics/politics/m3ndv-905373859/?pid=519"
+        },
+        {
+          "text": "חודש לבחירות: מי קרוב לאחוז החסימה - וכמה מנדטים יילכו לפח?",
+          "url": "/item/news/politics/politics/z29kf-905372405/?pid=519"
+        },
+        {
+          "text": "30 יום לבחירות: המאבק של נתניהו והשאלות הפתוחות של גוש השינוי",
+          "url": "/item/news/politics/politics/dfw8c-905371952/?pid=519"
+        },
+        {
+          "text": "\"סקר המתלבטים\": איפה נמצאים הקולות הצפים בבחירות?",
+          "url": "/item/news/politics/politics/l72gq-905369468/?pid=519"
+        }
+      ]
+    },
+    {
+      "name": "IsraelPolls-profile",
+      "url": "https://x.com/IsraelPolls?s=20",
+      "finalUrl": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "bytes": 128077,
+      "sha256": "adc169db574a7e4c702b790c88745dfdfeeec046f2004275bcecda16e8862247",
+      "archiveFile": "IsraelPolls-profile.html",
+      "pollLinks": [
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "/IsraelPolls"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "url": "/IsraelPolls"
+        }
+      ]
+    },
+    {
+      "name": "official-registry",
+      "url": "https://k26polls.co.il/data/dataset.json",
+      "finalUrl": "https://k26polls.co.il/data/dataset.json",
+      "status": 200,
+      "bytes": 260802,
+      "sha256": "0bc5ce5831f45b17cda4b195cf9436143550ad4fc35c0ca47144cf7ff67dc65c",
+      "archiveFile": "official-registry.json",
+      "shape": "dict",
+      "keys": [
+        "build",
+        "election_frame",
+        "filings",
+        "law",
+        "reading_notes",
+        "rule_labels_he",
+        "surveys",
+        "warning_digest"
+      ]
+    }
+  ]
+}
