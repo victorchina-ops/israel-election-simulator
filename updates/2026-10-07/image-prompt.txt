@@ -1,19 +1,51 @@
-Create an original Hebrew editorial infographic for sharing on X, a polished warm newspaper illustration, landscape 3:2, generous white space, excellent RTL typography and large accessible text. Stylish ink and watercolor illustration: a magnifying glass examining red and blue ballot slips and a calendar, suggesting noisy poll observations. The illustrative marks must NOT imitate a measured chart. Use a restrained cream background, navy headline, red and blue accents, warm amber for tentative findings. No photorealistic portraits, no invented party logos. One simple story: blocs have no statistically significant trend, while two party-level signals depend on the test. Avoid a crowded dashboard or complex graph.
+Edit the supplied Hebrew editorial infographic. Preserve the attractive watercolor/ink illustration, cream and navy palette, ballot slips, magnifying glass, calendar and warm newspaper feel. Make the statistical verdict unambiguous for a nontechnical reader, with large clear RTL lettering. Do not change any numbers or fabricate new data. Landscape 3:2, safe margins. Keep the design simple; separate party direction, primary test and sensitivity test. The original image was factually accurate but the phrase 'אינם יציבים' was too indirect: explicitly say 'מובהק' and 'לא מובהק' for the respective tests.
 
-Exact Hebrew text, faithfully typeset and not paraphrased:
-Top date badge: "עדכון 7.10.2026"
-Small subheading: "מאז סגירת הרשימות · 9.9–7.10"
-Large main headline: "בגושים: עדיין אין מגמה מובהקת"
-Under the headline: "קואליציה · אופוזיציה · אופוזיציה עם רע״ם"
-Prominent short evidence line: "אחרי תיקון לריבוי בדיקות: q=0.87"
-Secondary evidence line: "34 סקרים מאומתים · 8 סוקרים"
+Exact text and desired hierarchy:
+Date badge: "עדכון 7.10.2026"
+Subheading: "מאז סגירת הרשימות · 9.9–7.10"
+Large headline: "בגושים: לא נמצאה מגמה מובהקת"
+Under it: "קואליציה · אופוזיציה · אופוזיציה עם רע״ם"
+Short evidence line: "אחרי תיקון לריבוי מבחנים: q=0.87"
+Coverage: "34 סקרים מאומתים · 8 סוקרים"
 
-Lower portion: two balanced illustrated ballot cards, clearly distinguish tentative party signals from the bloc conclusion. One card labelled "ביחד" with a downward arrow and the word "ירידה"; the other labelled "המשותפת" with an upward arrow and the word "עלייה". These arrows indicate direction, not magnitude and not a seat transfer between these parties. Shared clear amber caption directly below both cards: "אותות במבחן הראשי — אינם יציבים בבדיקת רגישות"
-Small but readable supporting line: "מבחן ראשי: q=0.015 · בדיקת רגישות: q=0.531"
+Keep two illustrated party ballot cards: "ביחד" with downward arrow and "ירידה"; "המשותפת" with upward arrow and "עלייה". Arrows show estimated direction only, not an established trend or a seat transfer.
 
-Readable footer across full width with no clipping:
-"שינויים בתוך כל סוקר · משקלי דיוק היסטורי · פרמוטציות + BH"
+Directly below the party cards, put two distinct readable test verdicts, side by side or stacked. Both refer to BOTH parties:
+"מבחן ראשי: מובהק"
+"q=0.015"
+"בדיקת רגישות לפי סוקרים: לא מובהק"
+"q=0.531"
+Supporting line, clearly connecting the two test results: "בשני המבחנים בוצע תיקון לריבוי מבחנים."
+Short precise explanation: "בדיקת הרגישות בוחנת את סדרת כל סוקר כיחידה אחת."
+Prominent cautious conclusion: "לכן אין ראיה יציבה למגמה."
+
+Footer, readable and unclipped:
+"משקלי דיוק היסטורי · פרמוטציות + BH"
 "סקר 13 החדש נוסף למודל; חסרים מועדי איסוף ולכן אינו במבחן המגמות."
 "מקורות: מפרסמי הסקרים ו־IsraelPolls · ויקטור רינה בן דוד"
 
-Do not add any numerical forecast, election outcome probabilities, vote percentages, or political persuasion. These q-values refer to the strict post-close analysis, not a p-value for the newest poll alone. No-significance must not be portrayed as proof of no change or proof of randomness. All lettering must remain inside safe margins, visually simple, publication-ready, legible on a phone. Use attractive illustrative icons rather than a plain table.
+Do NOT say that the primary party results became non-significant after multiple-testing correction: they remain significant with q=0.015. The loss of significance occurs in the separate whole-institute sensitivity test after its own correction, q=0.531. The bloc results are nonsignificant, q=0.87. Do not claim that all changes are random, that no change exists, or that a rising party gained seats from the declining party. No model probabilities or single-poll vote shares. Remove the earlier vague banner 'אותות במבחן הראשי — אינם יציבים בבדיקת רגישות' and replace it with these explicit verdicts and simple explanation. No invented extra facts. Use plenty of whitespace and compress the illustration if needed to keep the text readable.
+
+
+--- Follow-up edit: total change requested by user ---
+
+Make one focused edit to the supplied revised Hebrew infographic. Preserve its warm watercolor illustration, layout, all dates, coverage, explicit significant/non-significant test verdicts, q-values, reason, footer and credit. Add the TOTAL weighted within-pollster first-to-last mandate change to EACH party ballot card, clearly and legibly. The user explicitly wants the TOTAL CHANGE, NOT the weekly rate.
+
+On the "המשותפת" card with upward arrow, beneath "עלייה", add two large clear lines:
+"+0.76"
+"מנדטים"
+
+On the "ביחד" card with downward arrow, beneath "ירידה", add:
+"−1.01"
+"מנדטים"
+
+Put a clear shared caption connecting both party cards:
+"שינוי ראשון–אחרון בתוך כל סוקר, משוקלל"
+And a short readable clarification near the test boxes:
+"המובהקות נבדקה על המגמה לאורך הסדרה."
+
+These are the historical-accuracy-weighted FIRST-TO-LAST differences within each of the8eligiblepollster series in the strict post-close9.9–7.10window. Individual pollster endpoint dates differ within that window. They are NOT the latest-poll-versus-previous-poll changes, NOT fixed-date common endpoint differences, NOT weekly rates, and NOT current model mandate forecasts. Do NOT include 'לשבוע', +0.18 or−0.39 anywhere. Keep plus on Joint and minus on Beyachad; do not reverse signs through RTL ordering.
+
+The existing q-values refer to the full time-trend tests and are correct: primary after BH q=0.015 is significant for both parties, whole-institute sensitivity after BH q=0.531 is not significant. Bloc q=0.87 is not significant. Preserve the explicit banners 'מבחן ראשי: מובהק' and 'בדיקת רגישות לפי סוקרים: לא מובהק', the line that BOTH tests have multiple-testing correction, the whole-institute explanation, and cautious conclusion 'לכן אין ראיה יציבה למגמה.' No other numerical change.
+
+Keep everything unclipped and readable on a phone. You may slightly reduce decorative illustration space or expand the two ballot cards to make the totals fit, but keep the precise explicit test labels and all footer text. Keep the note that new C13 has missing fieldwork dates and is excluded from the strict trend test. Keep landscape aspect ratio. No added invented facts, no model majority probabilities, no claims proving randomness or no change.

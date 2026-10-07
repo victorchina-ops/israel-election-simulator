@@ -133,7 +133,7 @@ IsraelPolls נפתח מחדש; הפרסומים והגרפיקות של שני �
 
 תרחישי השתתפות אינם תחזית שהשינויים אכן יתרחשו. המיפוי הגאוגרפי נשען על 2022 ואינו זיהוי מלא של מצביעי 2026. שינוי בהסתברות של המודל אינו מבחן מובהקות לשינוי בדעת הקהל. רווחי הסמך של התוחלת מודדים שגיאת מונטה־קרלו; אחוזונים מתארים את פיזור תוצאות הבחירות במודל.
 
-[הסקר החדש והמקורות](sources/2026-10-07/reviewed-poll.json) · [השוואת שלבי המודל ותרחישי ההצבעה](sources/2026-10-07-comparison/turnout-sensitivity.json) · [השוואת מבחני המגמות](sources/2026-10-07-comparison/strict-trends-comparison.json) · [מגמות מפלגות וכללי ההכללה](sources/2026-10-07-trends/party-trends.json) · [ניתוח הגושים](sources/2026-10-07-trends/bloc-analysis.json) · [אינפוגרפיקה לשיתוף](updates/2026-10-07/c13-trends.png) · [טיוטת ציוץ](updates/2026-10-07/tweet.he.txt)
+[הסקר החדש והמקורות](sources/2026-10-07/reviewed-poll.json) · [השוואת שלבי המודל ותרחישי ההצבעה](sources/2026-10-07-comparison/turnout-sensitivity.json) · [השוואת מבחני המגמות](sources/2026-10-07-comparison/strict-trends-comparison.json) · [מגמות מפלגות וכללי ההכללה](sources/2026-10-07-trends/party-trends.json) · [ניתוח הגושים](sources/2026-10-07-trends/bloc-analysis.json) · [אינפוגרפיקה לשיתוף](updates/2026-10-07/c13-trends.png) · [טיוטת ציוץ](updates/2026-10-07/tweet.he.txt) · [ציוץ הסבר על המבחנים](updates/2026-10-07/explanation-tweet.he.txt)
 
 הסמלים מוצגים לצורך זיהוי הרשימות ושייכים לבעליהם. צבעי הגושים משקפים את השיוך שנבחר בתרחיש.
 

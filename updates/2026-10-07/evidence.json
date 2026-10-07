@@ -100,26 +100,34 @@
     "sources/2026-10-07-trends/party-trends.json",
     "sources/2026-10-07-trends/bloc-analysis.json"
   ],
-  "pngSha256": "5f80f11059111fc8a662959cd1402dcb4a597bb9fd95bf583382d910627f1b7f",
+  "pngSha256": "bb15e6d571e22df3e93bf55c56b1e62a013cf9dbc292c429edbfa8207b233545",
   "pngDimensions": [
     1536,
     1024
   ],
-  "imageGeneration": "Built-in image_gen; original editorial illustration without supplied logos. Original bitmap copied unchanged; prompt retained in image-prompt.txt.",
+  "imageGeneration": "Built-in image_gen edits of the original editorial illustration; final edited bitmap copied unchanged. Initial artwork, prompt, tweet and evidence preserved locally. Revision prompts image-prompt-v2.txt and image-prompt-total-change-edit.txt retained.",
   "visualQA": {
     "status": "passed",
-    "rootReview": "Inspected original generated image: all Hebrew, dates, numbers, cautious significance labels, missing-fieldwork note and creator credit are legible and unclipped.",
+    "rootReview": "Inspected revised image: explicit main/sensitivity significance labels, q-values, whole-institute explanation, cautious conclusion, dates, coverage, source and creator credit are readable and unclipped.",
     "independentReview": {
       "legibleHebrew": true,
       "correctNumeralsAndDate": true,
       "noTextClipping": true,
-      "partyDirectionsCorrect": true,
+      "partyDirectionsAndSignsCorrect": true,
+      "mandateUnitExplicit": true,
+      "totalEndpointChangesNotWeeklyRates": true,
+      "endpointDefinitionExplicit": "שינוי ראשון–אחרון בתוך כל סוקר, משוקלל",
+      "fullSeriesTrendTestSeparate": "המובהקות נבדקה על המגמה לאורך הסדרה",
+      "bothTestsMultiplicityCorrectionExplicit": true,
+      "mainSignificanceLabelExplicit": "מובהק",
+      "sensitivityNonSignificanceLabelExplicit": "לא מובהק",
+      "wholeInstituteSensitivityUnitExplained": "בדיקת הרגישות בוחנת את סדרת כל סוקר כיחידה אחת",
       "sourceCreditPresent": "מפרסמי הסקרים ו־IsraelPolls",
       "authorCreditPresent": "ויקטור רינה בן דוד",
-      "mainVersusSensitivityDistinguished": true,
       "c13ExclusionExplicitInFooter": true,
       "noClaimOfProofOfRandomnessOrNoChange": true,
-      "methodFootnote": "שינויים בתוך כל סוקר · משקלי דיוק היסטורי · פרמוטציות + BH",
+      "conclusionQualified": "לכן אין ראיה יציבה למגמה",
+      "methodFootnote": "משקלי דיוק היסטורי · פרמוטציות + BH",
       "allVisibleTextReviewed": true
     },
     "verifiedValues": {
@@ -146,6 +154,7 @@
         }
       ],
       "displayedBlocBHq": 0.87,
+      "blocSignificant": false,
       "partyResults": [
         {
           "partyId": "beyachad",
@@ -153,7 +162,11 @@
           "weightedNetDelta": -1.0090735446694739,
           "slopePerWeek": -0.39118898204258423,
           "qValue": 0.014663542355599647,
-          "wholeSeriesSignFlipQ": 0.53125
+          "wholeSeriesSignFlipQ": 0.53125,
+          "displayedEndpointChange": -1.01,
+          "displayUnit": "mandates",
+          "mainBHSignificant": true,
+          "wholeInstituteSensitivityBHSignificant": false
         },
         {
           "partyId": "joint",
@@ -161,7 +174,11 @@
           "weightedNetDelta": 0.7592568989300155,
           "slopePerWeek": 0.1833352889695366,
           "qValue": 0.014663542355599647,
-          "wholeSeriesSignFlipQ": 0.53125
+          "wholeSeriesSignFlipQ": 0.53125,
+          "displayedEndpointChange": 0.76,
+          "displayUnit": "mandates",
+          "mainBHSignificant": true,
+          "wholeInstituteSensitivityBHSignificant": false
         }
       ],
       "displayedPartyBHq": 0.015,
@@ -176,8 +193,29 @@
         "fieldwork": "2026-10-07"
       }
     },
-    "numericAudit": "34-poll strict analysis reproduced independently; main and sensitivity tests agree within1e-12. Six forecast scenarios also independently reproduced,60000jointworlds total120."
+    "numericAudit": "Original source-backed34-poll trends and60,000simulation worlds unchanged; attachment tables independently match existing C13/C14 entries and specify publication rather than fieldwork dates."
   },
   "credit": "ויקטור רינה בן דוד",
-  "tweetWeightedCharacters": 252
+  "tweetWeightedCharacters": 253,
+  "revision": 2,
+  "revisionReason": "User requested explicit significant/non-significant labels and the exact reason why primary and sensitivity tests differ.",
+  "previousPublicCommit": "4d6ac8ac0b3f7536a08e6ca05869529d84fe5476",
+  "previousPNGsha256": "5f80f11059111fc8a662959cd1402dcb4a597bb9fd95bf583382d910627f1b7f",
+  "displayedTotals": {
+    "beyachad": {
+      "weightedNetDeltaExact": -1.0090735446694739,
+      "displayedMandates": -1.01
+    },
+    "joint": {
+      "weightedNetDeltaExact": 0.7592568989300155,
+      "displayedMandates": 0.76
+    }
+  },
+  "totalDefinition": "Historical-accuracy-weighted first-to-last mandate difference within each eligible institute series. Endpoints differ between institutes within9.9–7.10. This is a total change, not a weekly slope; significance tests the full time trend.",
+  "testVerdicts": {
+    "blocsAfterBH": "not significant",
+    "partyPrimaryAfterBH": "significant",
+    "partyWholeInstituteSensitivityAfterBH": "not significant"
+  },
+  "explanationTweetWeightedCharacters": 253
 }
