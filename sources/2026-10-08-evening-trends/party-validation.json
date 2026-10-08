@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "asOf": "2026-10-08",
+  "polls": 38,
+  "series": 8,
+  "deltas": 30,
+  "parties": 17,
+  "individualTests": 136,
+  "exactPermutations": 6019743744000000,
+  "excludedPollCount": 4,
+  "addedPollCount": 3,
+  "newlyEligiblePollIds": [
+    "history_direct_polls_2026-10-08_current",
+    "history_kantar_2026-10-08_current",
+    "history_tatika_2026-10-08_current"
+  ],
+  "lastVerifiedFieldworkEnd": "2026-10-08",
+  "independentAgreement": "All exact bloc counts and party p/q, slopes, net deltas and signflip p/q agree within 1e-12",
+  "correctedPartyFindings": [
+    "joint"
+  ],
+  "correctedBlocFindings": [],
+  "correctedPartySensitivityFindings": [],
+  "correctedBlocSensitivityFindings": [],
+  "sourceEvidenceSha256Verified": true
+}

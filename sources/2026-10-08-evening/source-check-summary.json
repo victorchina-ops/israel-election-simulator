@@ -1,0 +1,797 @@
+{
+  "checkedAt": "2026-10-08",
+  "scanScope": "current primary homepages and politics/election indexes, IsraelPolls graphics and historical tables",
+  "verifiedNewPollCount": 3,
+  "newPollIds": [
+    "kantar_2026-10-08",
+    "direct_polls_2026-10-08",
+    "tatika_2026-10-08"
+  ],
+  "directHttpChecks": [
+    {
+      "label": "maariv-home",
+      "url": "https://www.maariv.co.il/",
+      "checkedAtUtc": "2026-10-08T19:28:30.359249+00:00",
+      "status": 200,
+      "textLength": 11538,
+      "sourceFile": "maariv-home.html",
+      "extractFile": "maariv-home.txt",
+      "sha256": "40583df70af0382d9bdd83da122903f937b54cc75c4c4197a392a55413cd4af8",
+      "pollLinks": [
+        {
+          "text": "בחירות 2026",
+          "url": "https://www.maariv.co.il/news/elections-2026"
+        },
+        {
+          "text": "19:23 דונלד טראמפ: \"לא נתקוף את איראן בשום שלב לפני בחירות האמצע\"",
+          "url": "https://www.maariv.co.il/breaking-news/article-1375124"
+        },
+        {
+          "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\"",
+          "url": "https://www.maariv.co.il/news/politics/article-1375084"
+        },
+        {
+          "text": "הסקר שמסעיר את המפלגות: זה המועמד שיגרוף את 17 המנדטים של הצעירים",
+          "url": "https://www.maariv.co.il/news/politics/article-1374513"
+        },
+        {
+          "text": "בגלל הבחירות: השינוי המשמעותי במשחק בין מכבי חיפה להפועל באר שבע",
+          "url": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1966515"
+        },
+        {
+          "text": "אחרי 25 שנה פול ניומן חזר לשולחן - וסוף סוף לקח אוסקר",
+          "url": "https://www.maariv.co.il/culture/movies/article-1374650"
+        }
+      ]
+    },
+    {
+      "label": "maariv-politics",
+      "url": "https://www.maariv.co.il/news/politics",
+      "checkedAtUtc": "2026-10-08T19:28:30.360250+00:00",
+      "status": 200,
+      "textLength": 3456,
+      "sourceFile": "maariv-politics.html",
+      "extractFile": "maariv-politics.txt",
+      "sha256": "38a6d68ca253d9dccf4dec126c8fddc855ae980542f992266595a33971a54bc1",
+      "pollLinks": [
+        {
+          "text": "בחירות 2026",
+          "url": "https://www.maariv.co.il/news/elections-2026"
+        },
+        {
+          "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\" 21:50",
+          "url": "https://www.maariv.co.il/news/politics/article-1375084"
+        },
+        {
+          "text": "הסקר שמסעיר את המפלגות: זה המועמד שיגרוף את 17 המנדטים של הצעירים 11:51",
+          "url": "https://www.maariv.co.il/news/politics/article-1374513"
+        }
+      ]
+    },
+    {
+      "label": "maariv-elections",
+      "url": "https://www.maariv.co.il/news/elections-2026",
+      "checkedAtUtc": "2026-10-08T19:28:30.360250+00:00",
+      "status": 200,
+      "textLength": 3346,
+      "sourceFile": "maariv-elections.html",
+      "extractFile": "maariv-elections.txt",
+      "sha256": "5992836ced8c31d081c6939c1afe5e75116a6335713121551b95b1060e09efb6",
+      "pollLinks": [
+        {
+          "text": "בחירות 2026",
+          "url": "https://www.maariv.co.il/news/elections-2026"
+        },
+        {
+          "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\"",
+          "url": "https://www.maariv.co.il/news/politics/article-1375084"
+        },
+        {
+          "text": "הסקר שמסעיר את המפלגות: זה המועמד שיגרוף את 17 המנדטים של הצעירים",
+          "url": "https://www.maariv.co.il/news/politics/article-1374513"
+        },
+        {
+          "text": "התוכנית להוסיף חמישה מנדטים לימין - ובן גביר לא בפנים",
+          "url": "https://www.maariv.co.il/news/elections-2026/article-1374851"
+        },
+        {
+          "text": "המוקש שמרסק את גוש הימין: \"אם הוא לא עובר - כל החישובים נופלים\" | ניתוח סקרים",
+          "url": "https://www.maariv.co.il/news/elections-2026/article-1374811"
+        }
+      ]
+    },
+    {
+      "label": "walla-home",
+      "url": "https://www.walla.co.il/",
+      "checkedAtUtc": "2026-10-08T19:28:30.360250+00:00",
+      "status": 200,
+      "textLength": 13426,
+      "sourceFile": "walla-home.html",
+      "extractFile": "walla-home.txt",
+      "sha256": "785371feec6cedf4d31765c6ccb496a8008fb47241c76dfcf5a1d267b7d3edfe",
+      "pollLinks": [
+        {
+          "text": "בחירות 2026",
+          "url": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "ברק סרי המהפכה שלא הושלמה: התוכניות של נתניהו ליום שאחרי הבחירות 08.10.2026",
+          "url": "https://www.walla.co.il/news/opinions/383956725"
+        }
+      ]
+    },
+    {
+      "label": "walla-politics",
+      "url": "https://www.walla.co.il/news/politics",
+      "checkedAtUtc": "2026-10-08T19:28:30.361249+00:00",
+      "status": 200,
+      "textLength": 3994,
+      "sourceFile": "walla-politics.html",
+      "extractFile": "walla-politics.txt",
+      "sha256": "b297eefc2c00b4eca525ee323ac9af9df87400cb65d350b0c3bbd3c465e768de",
+      "pollLinks": [
+        {
+          "text": "בחירות 2026",
+          "url": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "כנס מערכת בחירות, ללא בן גביר: נתניהו וסמוטריץ' יכנסו את בכירי הציונות הדתית יהודה שלזינגר, אבי סולומון | 07.10.2026",
+          "url": "https://www.walla.co.il/news/politics/383956582"
+        },
+        {
+          "text": "\"מתמודדים עד הסוף\": למרות הירידה בסקרים - עופר וינטר לא מתכוון לפרוש יהודה שלזינגר | 06.10.2026",
+          "url": "https://www.walla.co.il/news/politics/383956530"
+        },
+        {
+          "text": "\"תעמולת בחירות\": השופט סולברג הורה לנתניהו להסיר את הסרטון מבסיס חיל האוויר אבי סולומון | 06.10.2026",
+          "url": "https://www.walla.co.il/news/politics/383956521"
+        },
+        {
+          "text": "נתניהו: \"חמאס ינסה להשפיע על הבחירות; אם יאתגר אותנו - נגיב בעוצמה אדירה\" יהודה שלזינגר, עידן קוולר | 06.10.2026",
+          "url": "https://www.walla.co.il/news/politics/383956476"
+        },
+        {
+          "text": "מעורבות איראנית בבחירות? טיקטוק חשפה רשת השפעה שפעלה בישראל אבי סולומון | 06.10.2026",
+          "url": "https://www.walla.co.il/news/politics/383956460"
+        },
+        {
+          "text": "המשותפת השיקה קמפיין בעברית: \"נכריע את הבחירות ונגיע לעשרה מנדטים\" יואב איתיאל | 05.10.2026",
+          "url": "https://www.walla.co.il/news/politics/383956389"
+        },
+        {
+          "text": "המשותפת עולה, איזנקוט יציב - ווינטר בחוץ | סקר מנדטים מערכת וואלה חדשות | 04.10.2026",
+          "url": "https://www.walla.co.il/news/politics/383956264"
+        }
+      ]
+    },
+    {
+      "label": "ch16-home",
+      "url": "https://www.ch16.co.il/",
+      "checkedAtUtc": "2026-10-08T19:28:30.361249+00:00",
+      "status": 200,
+      "textLength": 10,
+      "sourceFile": "ch16-home.html",
+      "extractFile": "ch16-home.txt",
+      "sha256": "e30830c75af84a014fd2a1843be74ed441cfde03b5e6bee5a1cdbc3afe8c7000",
+      "pollLinks": []
+    },
+    {
+      "label": "ch16-last-poll",
+      "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "checkedAtUtc": "2026-10-08T19:28:31.186675+00:00",
+      "status": 200,
+      "textLength": 30,
+      "sourceFile": "ch16-last-poll.html",
+      "extractFile": "ch16-last-poll.txt",
+      "sha256": "a47f742962b33ff8bb54493ccfcafcc846a41141564f151f7289b1cd9a227937",
+      "pollLinks": []
+    },
+    {
+      "label": "israelpolls-profile",
+      "url": "https://x.com/IsraelPolls?s=20",
+      "checkedAtUtc": "2026-10-08T19:28:31.324493+00:00",
+      "status": 200,
+      "textLength": 1269,
+      "sourceFile": "israelpolls-profile.html",
+      "extractFile": "israelpolls-profile.txt",
+      "sha256": "e66e3dea52b7f6410711398ac9d5ae4ee5e1411ffc01bcbdeefd84afdf50b885",
+      "pollLinks": [
+        {
+          "text": "Log in with username or email",
+          "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "Continue with phone",
+          "url": "https://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/header_photo"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/photo"
+        },
+        {
+          "text": "Joined February 2020",
+          "url": "https://x.com/IsraelPolls/about"
+        },
+        {
+          "text": "15 Following",
+          "url": "https://x.com/IsraelPolls/following"
+        },
+        {
+          "text": "1,896 Followers",
+          "url": "https://x.com/IsraelPolls/verified_followers"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/compose/post?text=%40IsraelPolls+"
+        },
+        {
+          "text": "@IsraelPolls",
+          "url": "https://x.com/IsraelPolls"
+        },
+        {
+          "text": "Replies Replies",
+          "url": "https://x.com/IsraelPolls/with_replies"
+        },
+        {
+          "text": "Reposts Reposts",
+          "url": "https://x.com/IsraelPolls/reposts"
+        },
+        {
+          "text": "Media Media",
+          "url": "https://x.com/IsraelPolls/media"
+        },
+        {
+          "text": "1h",
+          "url": "https://x.com/IsraelPolls/status/2108251564217340145"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2108251564217340145/photo/1"
+        },
+        {
+          "text": "2h",
+          "url": "https://x.com/IsraelPolls/status/2108243221012688996"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2108243221012688996/photo/1"
+        },
+        {
+          "text": "4h",
+          "url": "https://x.com/IsraelPolls/status/2108213216752881742"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2108213216752881742/photo/1"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2108213216752881742/photo/2"
+        },
+        {
+          "text": "Oct 7",
+          "url": "https://x.com/IsraelPolls/status/2107891979690643875"
+        },
+        {
+          "text": "",
+          "url": "https://x.com/IsraelPolls/status/2107891979690643875/photo/1"
+        },
+        {
+          "text": "Oct 7",
+          "url": "https://x.com/IsraelPolls/status/2107887588119916617"
+        }
+      ]
+    },
+    {
+      "label": "n12-home",
+      "url": "https://www.n12.co.il/",
+      "checkedAtUtc": "2026-10-08T19:28:31.436164+00:00",
+      "status": 200,
+      "textLength": 10849,
+      "sourceFile": "n12-home.html",
+      "extractFile": "n12-home.txt",
+      "sha256": "037fbac114ff6ec2e22c47a9bcada48776a64e79d73fde5aef7192a6347080d9",
+      "pollLinks": [
+        {
+          "text": "בחירות 2026",
+          "url": "https://www.mako.co.il/news-israel-elections/2026"
+        },
+        {
+          "text": "פרסום ראשון פרסום ראשון אזהרת הרמטכ\"ל מפני חידוש הלחימה: עלול לדחות את הבחירות זמיר הבהיר לעמיתיו: צה\"ל צפוי להשתתף בתקיפות אם יהיו 20:30 ברק רביד",
+          "url": "https://www.mako.co.il/news-military/2026_q4/Article-198fad7077c11a1026.htm#main_article=3"
+        },
+        {
+          "text": "על רקע הדיווחים טראמפ מבהיר: \"לא נתקוף את איראן לפני בחירות האמצע\" 19:23 ספיר ליפקין",
+          "url": "https://www.mako.co.il/news-world/2026_q4/Article-29cc0dbd96b11a1026.htm"
+        },
+        {
+          "text": "בחירות 2026 פייק או אמת? לפני שמפיצים - בודקים את השמועות ברשת",
+          "url": "https://special.n12.co.il/elections_factcheck"
+        },
+        {
+          "text": "בחירות 2026: התוצאה שלא רואים בסקרים דפנה ליאל",
+          "url": "https://www.mako.co.il/news-israel-elections/2026/Article-06343a8a5f411a1026.htm"
+        },
+        {
+          "text": "ההפתעות הביטחוניות שיכולות לשנות את תוצאות הבחירות ראש אמ\"ן לשעבר עמוס ידלין, אודי אבנטל",
+          "url": "https://www.mako.co.il/news-n12_magazine/eb54fba84b900a10/Article-3ccc109327611a1027.htm"
+        },
+        {
+          "text": "על זה הבחירות: השוויון בנטל | \"אחד ביום\" 08.10.26 אלעד שמחיוף",
+          "url": "https://www.mako.co.il/news-podcast_n12/one_a_day/Article-4e57a19ec5811a1027.htm"
+        },
+        {
+          "text": "העולם הערבי סופר מנדטים 01.10.26 אלעד שמחיוף",
+          "url": "https://www.mako.co.il/news-podcast_n12/one_a_day/Article-69cb14efdd4f0a1027.htm"
+        },
+        {
+          "text": "בפסטיבל נבהלו וסילקו את המועמד הישראלי לאוסקר 22:00 עמית אטיאס",
+          "url": "https://www.mako.co.il/news-entertainment/2026_q4/Article-9a739ee6cac11a1027.htm"
+        },
+        {
+          "text": "בעולם בחירות מוכרעות על דיור, בישראל שותקים 06.10.26 עופר פטרסבורג",
+          "url": "https://www.mako.co.il/news-money/real_estate/Article-7cfe91f8d0111a1027.htm"
+        }
+      ]
+    },
+    {
+      "label": "n12-politics",
+      "url": "https://www.mako.co.il/news-politics",
+      "checkedAtUtc": "2026-10-08T19:28:31.471223+00:00",
+      "status": 403,
+      "textLength": 108,
+      "sourceFile": "n12-politics.html",
+      "extractFile": "n12-politics.txt",
+      "sha256": "e9b547d4a83337f6835fa1868fe3102b2950e86038c5deee5e3094cdb2745993",
+      "pollLinks": []
+    },
+    {
+      "label": "n12-elections",
+      "url": "https://www.mako.co.il/news-israel-elections/2026",
+      "checkedAtUtc": "2026-10-08T19:28:31.483740+00:00",
+      "status": 403,
+      "textLength": 108,
+      "sourceFile": "n12-elections.html",
+      "extractFile": "n12-elections.txt",
+      "sha256": "9f5d656e4c91d78021bd162311cf6fe40b2b3f2e4b7df75b5fd5945690225074",
+      "pollLinks": []
+    },
+    {
+      "label": "n12-latest-known",
+      "url": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+      "checkedAtUtc": "2026-10-08T19:28:32.200505+00:00",
+      "status": 403,
+      "textLength": 108,
+      "sourceFile": "n12-latest-known.html",
+      "extractFile": "n12-latest-known.txt",
+      "sha256": "fcf290bdfac0b69aeb29442cc09677a76133f467da1c41c2063d75d67bd7c683",
+      "pollLinks": []
+    },
+    {
+      "label": "c13-home",
+      "url": "https://13tv.co.il/",
+      "checkedAtUtc": "2026-10-08T19:28:32.224052+00:00",
+      "status": 403,
+      "textLength": 200,
+      "sourceFile": "c13-home.html",
+      "extractFile": "c13-home.txt",
+      "sha256": "ff116ab83ffddfb843232dfe96504236b9dc57ded27df0a6303f1f8530b09cd2",
+      "pollLinks": []
+    },
+    {
+      "label": "c13-news",
+      "url": "https://13tv.co.il/news/",
+      "checkedAtUtc": "2026-10-08T19:28:32.256089+00:00",
+      "status": 403,
+      "textLength": 209,
+      "sourceFile": "c13-news.html",
+      "extractFile": "c13-news.txt",
+      "sha256": "485f5e9481901234021bcb53040e9b9a7b7757d8934c1bbd038d2918bd138bbc",
+      "pollLinks": []
+    },
+    {
+      "label": "c13-politics",
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "checkedAtUtc": "2026-10-08T19:28:32.281620+00:00",
+      "status": 403,
+      "textLength": 227,
+      "sourceFile": "c13-politics.html",
+      "extractFile": "c13-politics.txt",
+      "sha256": "a7c0b8359f6bedd53c5a8848dafe0c2532a48e43342a669d30f81bf47c37d44c",
+      "pollLinks": []
+    },
+    {
+      "label": "c13-surveys",
+      "url": "https://13tv.co.il/tags/survey/",
+      "checkedAtUtc": "2026-10-08T19:28:32.356244+00:00",
+      "status": 403,
+      "textLength": 216,
+      "sourceFile": "c13-surveys.html",
+      "extractFile": "c13-surveys.txt",
+      "sha256": "f1a2ad37e1b63a4b3461ec2eecc7da19681d1401acfcfc2076ad32dc9a52d24d",
+      "pollLinks": []
+    },
+    {
+      "label": "c13-latest-known",
+      "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "checkedAtUtc": "2026-10-08T19:28:32.796934+00:00",
+      "status": 403,
+      "textLength": 247,
+      "sourceFile": "c13-latest-known.html",
+      "extractFile": "c13-latest-known.txt",
+      "sha256": "b96aa9d4aa049acb0ddd4b3d8776deaabbd7285306353dd264cd41d42f087d12",
+      "pollLinks": []
+    },
+    {
+      "label": "kan-home",
+      "url": "https://www.kan.org.il/",
+      "checkedAtUtc": "2026-10-08T19:28:32.829476+00:00",
+      "status": 403,
+      "textLength": 16,
+      "sourceFile": "kan-home.html",
+      "extractFile": "kan-home.txt",
+      "sha256": "a6d1bae2bb95b830ab4db7538178e7a596e432e86608a4f56174adf63c18456b",
+      "pollLinks": []
+    },
+    {
+      "label": "kan-news",
+      "url": "https://www.kan.org.il/lobby/news/",
+      "checkedAtUtc": "2026-10-08T19:28:32.927115+00:00",
+      "status": 403,
+      "textLength": 16,
+      "sourceFile": "kan-news.html",
+      "extractFile": "kan-news.txt",
+      "sha256": "a8077fa9adf305a8337bad5ba9f4d78a20f2f0b3fe9eb8c5e6f5872c4461e260",
+      "pollLinks": []
+    },
+    {
+      "label": "kan-politics",
+      "url": "https://www.kan.org.il/content/kan-news/politic/",
+      "checkedAtUtc": "2026-10-08T19:28:32.948643+00:00",
+      "status": 403,
+      "textLength": 16,
+      "sourceFile": "kan-politics.html",
+      "extractFile": "kan-politics.txt",
+      "sha256": "8493db2dc568998d4dada1e494952d020798c04f1c8969c7ffefbe983f96c87f",
+      "pollLinks": []
+    },
+    {
+      "label": "kan-polls",
+      "url": "https://skarim.kan.org.il/",
+      "checkedAtUtc": "2026-10-08T19:28:32.983701+00:00",
+      "status": 403,
+      "textLength": 16,
+      "sourceFile": "kan-polls.html",
+      "extractFile": "kan-polls.txt",
+      "sha256": "48a102795177e4a0ea00c61032eaafba74858b04b3ceeedef8be2cbe0fc956e9",
+      "pollLinks": []
+    },
+    {
+      "label": "c14-home",
+      "url": "https://www.c14.co.il/",
+      "checkedAtUtc": "2026-10-08T19:28:33.406794+00:00",
+      "status": 200,
+      "textLength": 9234,
+      "sourceFile": "c14-home.html",
+      "extractFile": "c14-home.txt",
+      "sha256": "941151ac2a69685a131f407270c399826fbd2e7cb82a74caf918d75e61b84c91",
+      "pollLinks": [
+        {
+          "text": "מרדים את המשטר? טראמפ: \"לא נתקוף את איראן לפני הבחירות בנובמבר\" לפני 3 שעות יצחק אבוחצירא",
+          "url": "https://www.c14.co.il/article/1730414"
+        },
+        {
+          "text": "עם \"תודות\" לבן גביר וסמוטריץ': כך נערך המגזר הערבי לבחירות לפני כשעה",
+          "url": "https://www.c14.co.il/article/1730376"
+        },
+        {
+          "text": "19 ימים לבחירות: ההקלטות שחושפות מה באמת קורה בתוך הגושים לפני כשעה",
+          "url": "https://www.c14.co.il/article/1730479"
+        },
+        {
+          "text": "לפיד הבחירות המלא >>",
+          "url": "https://www.c14.co.il/archive/112541"
+        },
+        {
+          "text": "בחירות 2026 מזכיר הממשלה לנתניהו: \"בעוד 50 שנה כבר לא יוכלו להסתיר\" דסק C14 לפני 47 דקות",
+          "url": "https://www.c14.co.il/article/1730600"
+        },
+        {
+          "text": "האם נתניהו באמת התחיל להאמין יותר או שהכול זה רק קמפיין בחירות? ידידיה מאיר",
+          "url": "https://www.c14.co.il/article/1729163"
+        },
+        {
+          "text": "החל מראשון הסדרה החדשה שתעלה את הפוליטיקאים על שולחן הניתוחים חמישה מומחים וסקר מיוחד ינתחו את הבכירים מכל הזוויות 7 תגובות 7 13:57 דסק דוקו",
+          "url": "https://www.c14.co.il/article/1729616"
+        },
+        {
+          "text": "בצל הבחירות: בהתיישבות מציבים יעד מהפכני - גם בשטחי A ו-B 21 תגובות 21 04.10.26 נעמי רחליס",
+          "url": "https://www.c14.co.il/article/1722653"
+        }
+      ]
+    },
+    {
+      "label": "c14-polls",
+      "url": "https://www.c14.co.il/archive/53747",
+      "checkedAtUtc": "2026-10-08T19:28:33.440331+00:00",
+      "status": 200,
+      "textLength": 3414,
+      "sourceFile": "c14-polls.html",
+      "extractFile": "c14-polls.txt",
+      "sha256": "fdaef3b1900b61883fa92193e86e0a65d2114e98341c738b9da0a87e325992fa",
+      "pollLinks": [
+        {
+          "text": "סקר מנדטים",
+          "url": "https://www.c14.co.il/archive/53747"
+        },
+        {
+          "text": "סקר חדשות 14: איזנקוט מצמצם דרמטית את הפער מנתניהו 19 תגובות 19 אתמול 20:35 החדשות",
+          "url": "https://www.c14.co.il/article/1728552"
+        },
+        {
+          "text": "ראיתם את זה בא? דרמטי: המפלגה שמתרסקת בסקרים ומתקרבת לאחוז החסימה 93 תגובות 93 אתמול 20:34 החדשות",
+          "url": "https://www.c14.co.il/article/1728516"
+        },
+        {
+          "text": "סקר חדשות 14 מתקרבים לרגע האמת: כך נראית מפת המנדטים המעודכנת 68 תגובות 68 01.10.26 אפרת ברינר",
+          "url": "https://www.c14.co.il/article/1720749"
+        },
+        {
+          "text": "סקר חדשות 14: בנט מתחזק, איזנקוט נחלש - ומה עם וינטר? 51 תגובות 51 28.09.26 החדשות",
+          "url": "https://www.c14.co.il/article/1716250"
+        },
+        {
+          "text": "סקר חדשות 14 וינטר בקריסה - הפער בין נתניהו לאיזנקוט מצטמצם משמעותית 89 תגובות 89 23.09.26 אפרת ברינר",
+          "url": "https://www.c14.co.il/article/1711606"
+        },
+        {
+          "text": "סקר חדשות 14 הציבור בוחן חלופות? המפלגות הקטנות מתחילות להרים ראש 41 תגובות 41 15.09.26 החדשות",
+          "url": "https://www.c14.co.il/article/1703304"
+        },
+        {
+          "text": "אפקט השריונים? השינוי במפת המנדטים אחרי המהלך של נתניהו 34 תגובות 34 09.09.26 החדשות",
+          "url": "https://www.c14.co.il/article/1697000"
+        },
+        {
+          "text": "סקר חדשות 14: כמה מניב איחוד הנדל-זליכה - והאם וינטר עובר? 68 תגובות 68 07.09.26 החדשות",
+          "url": "https://www.c14.co.il/article/1693697"
+        },
+        {
+          "text": "הערב ב-19:50 רגע לפני סגירת הרשימות לכנסת: סקר מנדטים מיוחד 07.09.26 החדשות",
+          "url": "https://www.c14.co.il/article/1693649"
+        },
+        {
+          "text": "המספרים בסקרים מתהפכים - והשקר שניסו למכור לציבור נחשף ריצה נפרדת של עופר וינטר עדיין עלולה לסכן את הגוש 27 תגובות 27 07.09.26 יעקב ברדוגו",
+          "url": "https://www.c14.co.il/article/1692644"
+        },
+        {
+          "text": "סקר חדשות 14 תוצאות האיחוד: סמוטריץ' ופייגלין בפנים - וינטר בחוץ 31 תגובות 31 03.09.26 החדשות",
+          "url": "https://www.c14.co.il/article/1690265"
+        },
+        {
+          "text": "למרות קמפיין הגעוואלד זה מספר המנדטים שמקבל איתמר בן גביר בסקר חדשות 14 52 תגובות 52 30.08.26 אפרת ברינר",
+          "url": "https://www.c14.co.il/article/1683992"
+        },
+        {
+          "text": "סקר מנדטים דרמטי: טלטלה בגוש הימין לאחר הצטרפות וינטר 54 תגובות 54 27.08.26 החדשות",
+          "url": "https://www.c14.co.il/article/1681141"
+        },
+        {
+          "text": "סקר חדשות 14: לאחר ההכרזה - כמה מנדטים שווה עופר וינטר? הליכוד מזנקת עם 32 מנדטים, הימין פותח פער מול האופוזיציה 70 תגובות 70 24.08.26 החדשות",
+          "url": "https://www.c14.co.il/article/1674991"
+        },
+        {
+          "text": "סקר חדשות 14 53% מאמינים שרשימת הליכוד החדשה תחזק את הסיכויים בבחירות 18.08.26 דסק C14",
+          "url": "https://www.c14.co.il/article/1666804"
+        },
+        {
+          "text": "התרסקות מפוארת סקר חדשות 14: מפלגת ביחד של בנט ולפיד מתקרבת לאחוז החסימה 69 תגובות 69 18.08.26 החדשות",
+          "url": "https://www.c14.co.il/article/1666708"
+        },
+        {
+          "text": "הראשונים לזהות הסקרים של חדשות 14 מקדימים את הערוצים האחרים במגמתיות 39 תגובות 39 15.08.26 תמיר שנייד",
+          "url": "https://www.c14.co.il/article/1661612"
+        },
+        {
+          "text": "סקר חדשות 14: הליכוד מתחזקת - על חשבון המפלגות החרדיות הליכוד שומר על כוחו, ומי המועמד שמתרסק בשאלת ההתאמה? 67 תגובות 67 10.08.26 החדשות",
+          "url": "https://www.c14.co.il/article/1655982"
+        },
+        {
+          "text": "סקר חדשות 14 הפער נמחק: סמוטריץ' ובן גביר משתווים במנדטים 52 תגובות 52 04.08.26 דסק C14",
+          "url": "https://www.c14.co.il/article/1646973"
+        },
+        {
+          "text": "צפו \"מסוכן לגוש הימין\": האזהרה של שלמה פילבר לקראת הבחירות 114 תגובות 114 30.07.26 דסק C14",
+          "url": "https://www.c14.co.il/article/1639667"
+        },
+        {
+          "text": "סקר חדשות 14 איזנקוט והדמוקרטים נחלשים, גוש הימין נשאר יציב 47 תגובות 47 29.07.26 החדשות",
+          "url": "https://www.c14.co.il/article/1639107"
+        },
+        {
+          "text": "סקר חדשות 14 מתקרב לאחוז החסימה: כמה מנדטים בנט איבד השבוע? 70 תגובות 70 26.07.26 החדשות",
+          "url": "https://www.c14.co.il/article/1634621"
+        }
+      ]
+    },
+    {
+      "label": "c14-politics",
+      "url": "https://www.c14.co.il/archive/65839",
+      "checkedAtUtc": "2026-10-08T19:28:33.493917+00:00",
+      "status": 200,
+      "textLength": 3443,
+      "sourceFile": "c14-politics.html",
+      "extractFile": "c14-politics.txt",
+      "sha256": "2a03070f157394ae08d11dd7e4788210e5d64f7f74923688f0fd9c20b8f9d57b",
+      "pollLinks": [
+        {
+          "text": "עם \"תודות\" לבן גביר וסמוטריץ': כך נערך המגזר הערבי לבחירות לפני כשעה אחיקם הימלפרב",
+          "url": "https://www.c14.co.il/article/1730376"
+        },
+        {
+          "text": "19 ימים לבחירות: ההקלטות שחושפות מה באמת קורה בתוך הגושים לפני כשעה אברהם חסון",
+          "url": "https://www.c14.co.il/article/1730479"
+        }
+      ]
+    },
+    {
+      "label": "c14-latest-known",
+      "url": "https://www.c14.co.il/article/1728516",
+      "checkedAtUtc": "2026-10-08T19:28:33.531454+00:00",
+      "status": 200,
+      "textLength": 3025,
+      "sourceFile": "c14-latest-known.html",
+      "extractFile": "c14-latest-known.txt",
+      "sha256": "3ec8aa74b5cc6eaa8d4b8b7eb7e8b3701f8bec200ba2d58fd1eb1dcc6502ec10",
+      "pollLinks": [
+        {
+          "text": "סקר מנדטים",
+          "url": "https://www.c14.co.il/archive/53747"
+        },
+        {
+          "text": "הסקר בשבוע שעבר,",
+          "url": "https://www.c14.co.il/article/1720749"
+        },
+        {
+          "text": "עם \"תודות\" לבן גביר וסמוטריץ': כך נערך המגזר הערבי לבחירות לפני כשעה אחיקם הימלפרב",
+          "url": "https://www.c14.co.il/article/1730376"
+        }
+      ]
+    }
+  ],
+  "verifiedSources": [
+    {
+      "id": "kantar_2026-10-08",
+      "publisher": "ישראל היום",
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "sourceAccessSummary": [
+        {
+          "url": "https://www.israelhayom.co.il/",
+          "status": 200,
+          "access": "readable",
+          "sourceFile": "israelhayom-home.html",
+          "sha256": "119e07bf566b2d7dc2a821724f0244f21a8c42fbae5e1558ec8e27c5d985a4b3"
+        },
+        {
+          "url": "https://www.israelhayom.co.il/news/politics",
+          "status": 200,
+          "access": "readable",
+          "sourceFile": "israelhayom-politics.html",
+          "sha256": "914efeec2ef49159bc9e8b2ca320e3c0543c3f76e0e335081239294d3f77b2b4"
+        },
+        {
+          "url": "https://www.israelhayom.co.il/news/politics/election2026",
+          "status": 200,
+          "access": "readable",
+          "sourceFile": "israelhayom-elections.html",
+          "sha256": "44074db1395ab1b5fbab3e8412a13f7ba1d3b3d12aec7976b9940d2cfe1d9d63"
+        },
+        {
+          "url": "https://www.israelhayom.co.il/news/politics/article/21582636",
+          "status": 200,
+          "access": "readable",
+          "sourceFile": "israelhayom-2026-10-08-original.html",
+          "sha256": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3"
+        },
+        {
+          "url": "https://x.com/IsraelPolls?s=20",
+          "status": 200,
+          "access": "readable",
+          "sourceFile": "israelpolls-profile.html",
+          "sha256": "28c5fb00bf64f937d515555e25e5c956cf0ab6f95b4b350f86b599b5d2e8dc0e"
+        },
+        {
+          "url": "https://x.com/IsraelPolls/status/2108251564217340145",
+          "status": 200,
+          "access": "readable",
+          "sourceFile": "israelpolls-2108251564217340145.html",
+          "sha256": "bb80c09a3d14353bac34519dbffc63b7dd4db5d540aba2d8133fcbc28f8608c9"
+        }
+      ],
+      "sourceCheckLimitations": null
+    },
+    {
+      "id": "direct_polls_2026-10-08",
+      "publisher": "i24NEWS",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+      "sourceAccessSummary": null,
+      "sourceCheckLimitations": [
+        "קורא האינטרנט המתווך נכשל בכתבה החדשה; הורדת HTTP ישירה הצליחה עם גוף כתבה מלא.",
+        "דף הבחירות ודף politics שנבדקו החזירו מעטפת קצרה ב־HTTP200; דפי הבית ומדור הסקרים היו נגישים ומלאים.",
+        "directpolls.com החזיר מעטפת קצרה בלבד; אין לטעון שנבדק מקור של המכון בהצלחה.",
+        "הגרפיקה המקורית הממותגת נגישה דרך IsraelPolls; לא נמצאה בכתבה עצמה תמונה נפרדת של כל תוצאות הסקר."
+      ]
+    },
+    {
+      "id": "tatika_2026-10-08",
+      "publisher": "זמן ישראל",
+      "sourceUrl": "https://www.zman.co.il/731622/",
+      "sourceAccessSummary": [
+        {
+          "url": "https://www.zman.co.il/731622/",
+          "status": "primary-original-read-via-web-reader-direct-http-403",
+          "contentVerified": true,
+          "note": "הכתבה המקורית הציגה את המנדטים, שלושת האחוזים המפורשים, עבודת השדה, המדגם, טעות הדגימה והגושים."
+        },
+        {
+          "url": "https://www.zman.co.il/",
+          "status": "primary-homepage-read-via-web-reader-direct-http-403",
+          "contentVerified": true,
+          "note": "דף הבית הציג את הסקר החדש והווקטור המלא וקישר לכתבה 731622."
+        },
+        {
+          "url": "https://x.com/IsraelPolls/status/2108213216752881742",
+          "status": "secondary-post-and-original-media-verified",
+          "contentVerified": true,
+          "note": "פוסט 8.10 כולל שתי גרפיקות: וקטור המנדטים וחלוקת 51/69."
+        }
+      ],
+      "sourceCheckLimitations": [
+        "בקשות HTTP ישירות לזמן ישראל החזירו 403; הכתבה ודף הבית נקראו באמצעות קורא טקסט.",
+        "לא פורסמו מספר מוזמנים, שיעור מתלבטים, שעת פרסום מדויקת או רמת הביטחון של טעות הדגימה.",
+        "אחוזי רשימות שלא פורסמו במפורש נשמרים כחסרים ואינם אפס."
+      ]
+    }
+  ],
+  "contentReview": [
+    {
+      "source": "IsraelPolls",
+      "result": "Profile links and all three new posts were read; original graphics were downloaded and visually checked. IsraelHayom and i24 historical tables were crosschecked. Zman post has a party graphic and bloc graphic, no separate historical table."
+    },
+    {
+      "source": "N12",
+      "result": "Home readable directly; elections index readable through web reader despite direct403. Latest verified national poll remains5Oct; no additional national poll was identified in the reviewed current index."
+    },
+    {
+      "source": "C13",
+      "result": "Direct routes403; politics index readable through web reader, leading existing7Oct poll."
+    },
+    {
+      "source": "C14",
+      "result": "Current home, politics and polls indexes readable directly. Latest national poll shown7Oct matches existing record."
+    },
+    {
+      "source": "Maariv/Walla",
+      "result": "Current home and politics/election indexes reviewed directly. Youth study and commentary are not new national mandate observations."
+    },
+    {
+      "source": "IsraelHayom/i24",
+      "result": "Current homes/indexes and new original articles reviewed via direct archives. All source metadata, fieldwork and complete seat vectors reviewed."
+    },
+    {
+      "source": "Zman",
+      "result": "Home and original national poll readable through web reader. Direct HTTP403 is preserved as a route limitation."
+    }
+  ],
+  "unresolvedCoverageLimitations": [
+    "Kan home/news/politics/poll routes403; cannot infer absence of new polls.",
+    "Channel16 home/latest VOD returned a JavaScript shell without substantive content.",
+    "DirectPolls homepage114byte shell; i24 original article and branded graphics supplied the poll evidence."
+  ],
+  "deduplication": "Three unique institutes/date observations; duplicate IsraelHayom user graphics counted once.",
+  "missingData": "Absent reported shares remain missing; <1% remains censored, never a published0 estimate."
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "reviewedAtUtc": "2026-10-08T19:49:33.923750+00:00",
+  "artifact": "threshold-probabilities.png",
+  "sha256": "2af5f1a7e8100b5cd56513f8448d43d03a5c2799ec586bb997fada1367cb3b6b",
+  "inspection": "Generated full-resolution initial and edited images were visually inspected; the copied PNG is byte-identical to the inspected selected output.",
+  "checks": {
+    "exactValuesMatchAuthoritativeComparison": true,
+    "correctRounding": true,
+    "beforeAfterValuesPairedWithCorrectParty": true,
+    "percentagePointChangesNotRelativePercentChanges": true,
+    "explicitModelProbabilityLabel": true,
+    "latestPollWeightingClarified": true,
+    "voteShareThresholdDistinctFromPassProbability": true,
+    "beforeAndAfterModelDataDatesVisible": true,
+    "allThreeNewSourceNamesVisible": true,
+    "scenarioCountAndTurnoutAssumptionsVisible": true,
+    "creditVisible": true,
+    "hebrewRTLReadable": true,
+    "mainNumbersLargeAndUnobstructed": true,
+    "noPartyLogoOrPortraitFabricated": true,
+    "noStatisticalSignificanceClaim": true,
+    "noAutomaticPosting": true
+  },
+  "notes": [
+    "Illustrated Knesset entrance and ballot slips support one simple threshold-probability message.",
+    "Large labels are 36.5%/28.3%; exact stored model results are36.53%/28.33%.",
+    "This is a model-update graphic, not a trend significance graphic."
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": "tatika_2026-10-08",
+  "pollsterId": "tatika",
+  "pollster": "יוסי טאטיקה",
+  "publisher": "זמן ישראל",
+  "date": "2026-10-08",
+  "publicationTime": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "dateKind": "תאריך הפרסום; תאריכי עבודת השדה נשמרים בנפרד",
+  "fieldworkStart": "2026-10-07",
+  "fieldworkEnd": "2026-10-08",
+  "sampleSize": 500,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://www.zman.co.il/731622/",
+  "population": "500 משיבים יהודים וערבים בישראל",
+  "samplingMethod": "פאנל Adgenda; פילוח לפי גיל, דת, מגדר ואזור מגורים",
+  "panelProvider": "Adgenda — רועי שינדלר",
+  "reportedMarginOfErrorPct": 4.4,
+  "reportedMarginOfErrorDescription": "טעות הדגימה המרבית",
+  "reportedMarginOfErrorConfidencePct": null,
+  "undecidedPct": null,
+  "voteShareType": "published-seats-and-selected-explicit-percentages",
+  "percentageDenominator": "מכנה אחוזי התמיכה לא פורט; רק אחוזים שפורסמו במפורש נשמרים כנתונים גולמיים.",
+  "originalCoveragePct": 8,
+  "knownPercentageSum": 8,
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 24,
+    "likud": 20,
+    "beyachad": 13,
+    "yisrael_beiteinu": 10,
+    "joint": 9,
+    "shas": 8,
+    "utj": 8,
+    "democrats": 8,
+    "otzma": 6,
+    "raam": 5,
+    "rz_zehut": 5,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": 0,
+    "noam": 0,
+    "haredi_public": 0,
+    "israel_first": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 3.6,
+    "hendel": 3.2,
+    "gantz": 1.2
+  },
+  "reportedPercentages": {
+    "winter": 3.6,
+    "hendel": 3.2,
+    "gantz": 1.2
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.zman.co.il/731622/",
+    "hendel": "https://www.zman.co.il/731622/",
+    "gantz": "https://www.zman.co.il/731622/"
+  },
+  "sourceUrl": "https://www.zman.co.il/731622/",
+  "sourceTier": "original-publisher",
+  "secondarySourceUrls": [
+    "https://www.zman.co.il/",
+    "https://www.zman.co.il/feed/33350/",
+    "https://x.com/IsraelPolls/status/2108213216752881742",
+    "https://pbs.twimg.com/media/HUHgvgQW4AA4-vx.jpg?name=orig",
+    "https://pbs.twimg.com/media/HUHgvxVXYAAQgkl.jpg?name=orig"
+  ],
+  "checkedAt": "2026-10-08",
+  "replacesPollId": "tatika_2026-10-01",
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab_parties": 14
+  },
+  "sourceBlocBreakdown": {
+    "coalitionCore": 47,
+    "winter": 4,
+    "change": 55,
+    "raam": 5,
+    "joint": 9
+  },
+  "sourceDocument": {
+    "fileName": "zman-web-reader-reviewed.json",
+    "kind": "web-reader-reviewed-primary-article",
+    "sha256": "dd63106eac754ad8a4d5dfe22b2aa9487ef0be5158155293d219a282ed209612",
+    "reviewedAt": "2026-10-08",
+    "providedBy": "original-publisher",
+    "publicationCrossChecked": true,
+    "primarySourceUrl": "https://www.zman.co.il/731622/",
+    "primaryPublicationVerified": true,
+    "directHttpStatus": 403,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "publicationTime",
+      "invitedSampleSize",
+      "undecidedPct",
+      "reportedMarginOfErrorConfidencePct"
+    ],
+    "reviewedGraphics": [
+      {
+        "fileName": "israelpolls-zman-oct8-0.jpg",
+        "sha256": "91121d2b199034e3326f34218a658a05430d68c990723860e4af4ef78caf03b8",
+        "sourceUrl": "https://pbs.twimg.com/media/HUHgvgQW4AA4-vx.jpg?name=orig"
+      },
+      {
+        "fileName": "israelpolls-zman-oct8-1.jpg",
+        "sha256": "5ab59522e4f9ac6a4d269346f1ac0c4733ce050ac6e686250ec91ac78be3d9a2",
+        "sourceUrl": "https://pbs.twimg.com/media/HUHgvxVXYAAQgkl.jpg?name=orig"
+      }
+    ]
+  },
+  "sourceAccessSummary": [
+    {
+      "url": "https://www.zman.co.il/731622/",
+      "status": "primary-original-read-via-web-reader-direct-http-403",
+      "contentVerified": true,
+      "note": "הכתבה המקורית הציגה את המנדטים, שלושת האחוזים המפורשים, עבודת השדה, המדגם, טעות הדגימה והגושים."
+    },
+    {
+      "url": "https://www.zman.co.il/",
+      "status": "primary-homepage-read-via-web-reader-direct-http-403",
+      "contentVerified": true,
+      "note": "דף הבית הציג את הסקר החדש והווקטור המלא וקישר לכתבה 731622."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2108213216752881742",
+      "status": "secondary-post-and-original-media-verified",
+      "contentVerified": true,
+      "note": "פוסט 8.10 כולל שתי גרפיקות: וקטור המנדטים וחלוקת 51/69."
+    }
+  ],
+  "sourceCheckLimitations": [
+    "בקשות HTTP ישירות לזמן ישראל החזירו 403; הכתבה ודף הבית נקראו באמצעות קורא טקסט.",
+    "לא פורסמו מספר מוזמנים, שיעור מתלבטים, שעת פרסום מדויקת או רמת הביטחון של טעות הדגימה.",
+    "אחוזי רשימות שלא פורסמו במפורש נשמרים כחסרים ואינם אפס."
+  ],
+  "notes": [
+    "סקר זמן ישראל / טאטיקה מ־8.10.2026; מחליף במאגר הפעיל את סקר אותו מכון מ־1.10.",
+    "עבודת השדה נערכה 7–8.10 בקרב 500 משיבים יהודים וערבים, בשיתוף פאנל Adgenda ובפילוח גיל, דת, מגדר ואזור מגורים.",
+    "טעות הדגימה המרבית שפורסמה היא 4.4%; רמת הביטחון לא צוינה בפרסום שנבדק.",
+    "פורסם במפורש: עמך ישראל 3.6%, המילואימניקים והכלכלית 3.2% וכחול לבן 1.2%. אחוזי רשימות אחרות שלא פורסמו נשמרים כחסרים.",
+    "אחוזי הרשימות העוברות משוחזרים במודל מהמנדטים, ואינם נתוני משיבים שפורסמו.",
+    "חלוקת המקור: גרעין קואליציה 47 ועמך ישראל 4; גוש השינוי 55; רע״ם 5 והמשותפת 9."
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "dataAsOf": "2026-10-08",
+  "beforeModelDataAsOf": "2026-10-07",
+  "beforeMetadataReviewAt": "2026-10-08",
+  "addedPollCount": 3,
+  "newPolls": [
+    "kantar_2026-10-08",
+    "direct_polls_2026-10-08",
+    "tatika_2026-10-08"
+  ],
+  "weightedProbabilities": {
+    "winter": {
+      "id": "winter",
+      "name": "עמך ישראל",
+      "beforeMean": 1.3011,
+      "afterMean": 1.5171,
+      "meanChange": 0.21599999999999997,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 31.4,
+      "afterPassPct": 36.53,
+      "passPercentagePointChange": 5.130000000000001,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    "hendel": {
+      "id": "hendel",
+      "name": "המילואימניקים והכלכלית",
+      "beforeMean": 1.2702,
+      "afterMean": 1.2003,
+      "meanChange": -0.06990000000000007,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 29.84,
+      "afterPassPct": 28.33,
+      "passPercentagePointChange": -1.5100000000000002,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    }
+  },
+  "thresholdPct": 3.25,
+  "weights": "historical accuracy / quality",
+  "assumptions": "10,000 scenarios, seed20260912, mandatory poll uncertainty, turnout2022, no additional recency weighting",
+  "pngSha256": "2af5f1a7e8100b5cd56513f8448d43d03a5c2799ec586bb997fada1367cb3b6b",
+  "tweetWeightedCharacters": 211,
+  "posted": false,
+  "visualQA": {
+    "schemaVersion": 1,
+    "status": "PASS",
+    "reviewedAtUtc": "2026-10-08T19:49:33.923750+00:00",
+    "artifact": "threshold-probabilities.png",
+    "sha256": "2af5f1a7e8100b5cd56513f8448d43d03a5c2799ec586bb997fada1367cb3b6b",
+    "inspection": "Generated full-resolution initial and edited images were visually inspected; the copied PNG is byte-identical to the inspected selected output.",
+    "checks": {
+      "exactValuesMatchAuthoritativeComparison": true,
+      "correctRounding": true,
+      "beforeAfterValuesPairedWithCorrectParty": true,
+      "percentagePointChangesNotRelativePercentChanges": true,
+      "explicitModelProbabilityLabel": true,
+      "latestPollWeightingClarified": true,
+      "voteShareThresholdDistinctFromPassProbability": true,
+      "beforeAndAfterModelDataDatesVisible": true,
+      "allThreeNewSourceNamesVisible": true,
+      "scenarioCountAndTurnoutAssumptionsVisible": true,
+      "creditVisible": true,
+      "hebrewRTLReadable": true,
+      "mainNumbersLargeAndUnobstructed": true,
+      "noPartyLogoOrPortraitFabricated": true,
+      "noStatisticalSignificanceClaim": true,
+      "noAutomaticPosting": true
+    },
+    "notes": [
+      "Illustrated Knesset entrance and ballot slips support one simple threshold-probability message.",
+      "Large labels are 36.5%/28.3%; exact stored model results are36.53%/28.33%.",
+      "This is a model-update graphic, not a trend significance graphic."
+    ]
+  },
+  "imageGeneration": "built-in imagegen; original editorial illustration"
+}

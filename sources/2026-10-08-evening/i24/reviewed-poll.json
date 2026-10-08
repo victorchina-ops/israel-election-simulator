@@ -1,0 +1,320 @@
+{
+  "id": "direct_polls_2026-10-08",
+  "pollsterId": "direct_polls",
+  "pollster": "דיירקט פולס — צוריאל שרון",
+  "publisher": "i24NEWS",
+  "date": "2026-10-08",
+  "publicationTime": "19:40",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": "2026-10-08T19:40:55+03:00",
+  "updatedAt": "2026-10-08T19:53:08+03:00",
+  "dateKind": "תאריך פרסום 8.10.2026; עבודת שדה מפורשת 7.10.2026 בפסקת המתודולוגיה",
+  "fieldworkStart": "2026-10-07",
+  "fieldworkEnd": "2026-10-07",
+  "fieldworkSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+  "sampleSize": 518,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+  "samplingMethod": "מערכת דיגיטלית בשילוב פאנל",
+  "population": "בוגרים 18+ המהווים מדגם מייצג של האוכלוסייה הכללית בישראל, לפי טענת המפרסם",
+  "panelProvider": null,
+  "reportedMarginOfErrorPct": 4.3,
+  "reportedMarginOfErrorConfidencePct": 95,
+  "undecidedPct": null,
+  "voteShareType": "published-seats-and-exact-or-censored-below-threshold-percentages",
+  "percentageDenominator": null,
+  "requiresReconstruction": true,
+  "seats": {
+    "likud": 26,
+    "yashar": 20,
+    "beyachad": 11,
+    "democrats": 10,
+    "otzma": 9,
+    "utj": 8,
+    "shas": 7,
+    "joint": 7,
+    "yisrael_beiteinu": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0,
+    "israel_first": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "hendel": 2.3
+  },
+  "reportedPercentages": {
+    "hendel": 2.3
+  },
+  "percentageSourceUrls": {
+    "hendel": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large"
+  },
+  "censoredPercentages": [
+    {
+      "partyName": "כחול לבן",
+      "partyId": "gantz",
+      "value": null,
+      "operator": "<",
+      "upperBoundPct": 1,
+      "lowerBoundPct": 0,
+      "lowerBoundInclusive": true,
+      "upperBoundInclusive": false,
+      "display": "פחות מ־1%",
+      "sourceUrl": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "sourceViaUrl": "https://x.com/IsraelPolls/status/2108243221012688996",
+      "sourceTier": "original-branded-poll-graphic-via-secondary"
+    },
+    {
+      "partyName": "הציבור החרדי",
+      "partyId": "haredi_public",
+      "value": null,
+      "operator": "<",
+      "upperBoundPct": 1,
+      "lowerBoundPct": 0,
+      "lowerBoundInclusive": true,
+      "upperBoundInclusive": false,
+      "display": "פחות מ־1%",
+      "sourceUrl": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "sourceViaUrl": "https://x.com/IsraelPolls/status/2108243221012688996",
+      "sourceTier": "original-branded-poll-graphic-via-secondary"
+    },
+    {
+      "partyName": "צבע שחור",
+      "partyId": null,
+      "value": null,
+      "operator": "<",
+      "upperBoundPct": 1,
+      "lowerBoundPct": 0,
+      "lowerBoundInclusive": true,
+      "upperBoundInclusive": false,
+      "display": "פחות מ־1%",
+      "sourceUrl": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "sourceViaUrl": "https://x.com/IsraelPolls/status/2108243221012688996",
+      "sourceTier": "original-branded-poll-graphic-via-secondary"
+    },
+    {
+      "partyName": "נעם לישראל",
+      "partyId": "noam",
+      "value": null,
+      "operator": "<",
+      "upperBoundPct": 1,
+      "lowerBoundPct": 0,
+      "lowerBoundInclusive": true,
+      "upperBoundInclusive": false,
+      "display": "פחות מ־1%",
+      "sourceUrl": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "sourceViaUrl": "https://x.com/IsraelPolls/status/2108243221012688996",
+      "sourceTier": "original-branded-poll-graphic-via-secondary"
+    },
+    {
+      "partyName": "ישראל תחילה – עלה ירוק",
+      "partyId": "israel_first",
+      "value": null,
+      "operator": "<",
+      "upperBoundPct": 1,
+      "lowerBoundPct": 0,
+      "lowerBoundInclusive": true,
+      "upperBoundInclusive": false,
+      "display": "פחות מ־1%",
+      "sourceUrl": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "sourceViaUrl": "https://x.com/IsraelPolls/status/2108243221012688996",
+      "sourceTier": "original-branded-poll-graphic-via-secondary"
+    },
+    {
+      "partyName": "אח״י",
+      "partyId": null,
+      "value": null,
+      "operator": "<",
+      "upperBoundPct": 1,
+      "lowerBoundPct": 0,
+      "lowerBoundInclusive": true,
+      "upperBoundInclusive": false,
+      "display": "פחות מ־1%",
+      "sourceUrl": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "sourceViaUrl": "https://x.com/IsraelPolls/status/2108243221012688996",
+      "sourceTier": "original-branded-poll-graphic-via-secondary"
+    }
+  ],
+  "namedUnmappedParties": [
+    {
+      "partyName": "צבע שחור",
+      "assignedSeats": 0,
+      "voteShare": null,
+      "voteShareConstraint": "<1%"
+    },
+    {
+      "partyName": "אח״י",
+      "assignedSeats": 0,
+      "voteShare": null,
+      "voteShareConstraint": "<1%"
+    }
+  ],
+  "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+  "sourceTier": "original-publisher",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2108243221012688996",
+    "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+    "https://pbs.twimg.com/media/HUIBdlgXQAAdUQU?format=webp&name=large",
+    "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+    "https://www.i24news.tv/he"
+  ],
+  "checkedAt": "2026-10-08",
+  "replacesPollId": "direct_polls_2026-10-01",
+  "sourceBlocSeats": {
+    "coalition": 60,
+    "opposition": 48,
+    "arab_parties": 12
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "כולל עמך ישראל",
+    "opposition": "ללא ערביות",
+    "arab_parties": "הרשימה המשותפת ורע״מ"
+  },
+  "duplicateCheck": {
+    "matchingCanonicalRecords": [],
+    "distinctInstitutePublicationDate": true,
+    "sameGraphicArticleAndIsraelPollsCountAsOneObservation": true
+  },
+  "sourceDocument": {
+    "fileName": "i24-oct8-original.html",
+    "kind": "original-publisher-web-article",
+    "sha256": "3f29b187a745034024f81bab1e1248e08f7d41b87fdf1d1c82ad12ddc9d5e250",
+    "extractFileName": "i24-oct8-original.txt",
+    "extractSha256": "5625078792928ca22fdc63088c7e6ca316d0d1a31a88a378d2fab220442b9722",
+    "primaryPublicationVerified": true,
+    "timestampSourceKind": "NewsArticle.datePublished",
+    "publishedAtUtc": "2026-10-08T16:40:55.000Z",
+    "articleUpdatedAtUtc": "2026-10-08T16:53:08.000Z",
+    "originalGraphicFileName": "IsraelPolls-i24-oct8-original-graphic.webp",
+    "originalGraphicSha256": "de0f442baf96f235c8256cb0466e8fd0f86df82c50bf457b97a9b4b2fb97db80",
+    "originalGraphicUrl": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+    "graphicProvidedVia": "https://x.com/IsraelPolls/status/2108243221012688996",
+    "historyGraphicFileName": "IsraelPolls-i24-history.webp",
+    "historyGraphicSha256": "0680058571794f4c1368c28a9d0e95c64b57eb118acc3e3cdad2cbae79a97d0b",
+    "reviewedAt": "2026-10-08"
+  },
+  "visualReview": {
+    "status": "PASS",
+    "primaryBrandedGraphicViewed": true,
+    "historicalTableViewed": true,
+    "sameCompleteMandateVector": true,
+    "historicalHeaderDateMeaning": "פורסם בתאריך — publication date",
+    "fieldworkConfirmedIndependentlyByOriginalArticleMethodology": true,
+    "belowThresholdExactPoint": {
+      "hendel": 2.3
+    },
+    "censoredListsCount": 6
+  },
+  "notes": [
+    "מנדטי 12 המפלגות העוברות מסתכמים ל־120 ואומתו בכתבה המקורית, בגרפיקה הממותגת של i24/דיירקט פולס ובטבלה ההיסטורית של IsraelPolls.",
+    "תאריך 8.10 הוא תאריך הפרסום; פסקת המתודולוגיה והגרפיקה מציינות איסוף ב־7.10. אין להחליף את מועד האיסוף בניסוח הפתיחה הכללי ״ערך היום״.",
+    "המילואימניקים והכלכלית קיבלו 2.3% לפי הגרפיקה הממותגת; אחוז זה אינו מופיע בטקסט הכתבה.",
+    "שש רשימות דווחו רק כפחות מ־1%; הנתונים נשמרים כצנזור ולא כאומדן נקודתי או אפס. צבע שחור ואח״י נשמרות כרשימות בלתי ממופות.",
+    "שיעורי תמיכה של המפלגות העוברות, מכנה אחוזי התמיכה, שיעור המתלבטים, ספק הפאנל, יעדי השקלול ומספר הפניות לא פורסמו במקורות שנבדקו.",
+    "מדד המנדטים המוטמע במדור הסקרים עדיין מציג את סקר 1.10, אך קישורי המדור והבית מפנים במפורש לסקר החדש; אין לסמוך על המדד המוטמע בלבד.",
+    "תחליף לסקר הפעיל מ־1.10 של אותו מכון; אין לספור את הפרסום, הגרפיקה והפוסט כתצפיות נפרדות."
+  ],
+  "sourceCheckLimitations": [
+    "קורא האינטרנט המתווך נכשל בכתבה החדשה; הורדת HTTP ישירה הצליחה עם גוף כתבה מלא.",
+    "דף הבחירות ודף politics שנבדקו החזירו מעטפת קצרה ב־HTTP200; דפי הבית ומדור הסקרים היו נגישים ומלאים.",
+    "directpolls.com החזיר מעטפת קצרה בלבד; אין לטעון שנבדק מקור של המכון בהצלחה.",
+    "הגרפיקה המקורית הממותגת נגישה דרך IsraelPolls; לא נמצאה בכתבה עצמה תמונה נפרדת של כל תוצאות הסקר."
+  ],
+  "sourceReceipts": [
+    {
+      "url": "https://www.i24news.tv/he",
+      "status": 200,
+      "bytes": 282466,
+      "file": "i24-home.html",
+      "sha256": "ff6ca870c5f01e57f9f1dc4d287b6eced029be2f3d23edb15578b6bc65a1e016",
+      "checkedAtUtc": "2026-10-08T19:26:26.006131+00:00"
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026",
+      "status": 200,
+      "bytes": 6949,
+      "file": "i24-election-index.html",
+      "sha256": "50e4c37fe889a4c54293c344bab20dd8594e9f9433b85b80fe6e7424085964b5",
+      "checkedAtUtc": "2026-10-08T19:26:25.860441+00:00"
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+      "status": 200,
+      "bytes": 402758,
+      "file": "i24-polls-index.html",
+      "sha256": "331949e6491438659df6258fec1ef303882ef0a1a1bf5197ca1ad9a836a73f5d",
+      "checkedAtUtc": "2026-10-08T19:26:25.959064+00:00"
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/politics",
+      "status": 200,
+      "bytes": 6949,
+      "file": "i24-politics-index.html",
+      "sha256": "50e4c37fe889a4c54293c344bab20dd8594e9f9433b85b80fe6e7424085964b5",
+      "checkedAtUtc": "2026-10-08T19:26:25.910502+00:00"
+    },
+    {
+      "url": "https://directpolls.com/",
+      "status": 200,
+      "bytes": 114,
+      "file": "directpolls-home.html",
+      "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+      "checkedAtUtc": "2026-10-08T19:26:26.688559+00:00"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "bytes": 129452,
+      "file": "IsraelPolls-profile.html",
+      "sha256": "9295cfe65b85083e0fbbb9f961e3c533e3bbcc14631a22b1ff8e2e4ec0a004a7",
+      "checkedAtUtc": "2026-10-08T19:26:27.607350+00:00"
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+      "status": 200,
+      "bytes": 186783,
+      "file": "i24-oct8-original.html",
+      "sha256": "3f29b187a745034024f81bab1e1248e08f7d41b87fdf1d1c82ad12ddc9d5e250",
+      "checkedAtUtc": "2026-10-08T19:27:03.236244+00:00"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2108251564217340145",
+      "status": 200,
+      "bytes": 102638,
+      "file": "IsraelPolls-2108251564217340145.html",
+      "sha256": "66453fd7b91ce1b413b23612d77bebac5af29c6f866fd3fda1fd67d3deb82a42",
+      "checkedAtUtc": "2026-10-08T19:27:03.724935+00:00"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2108243221012688996",
+      "status": 200,
+      "bytes": 100614,
+      "file": "IsraelPolls-2108243221012688996.html",
+      "sha256": "eda13ffdf8719ab1e7a337cc4a1a9cf91041bdc27ed88cb7ef62c80cdb4dc9fe",
+      "checkedAtUtc": "2026-10-08T19:27:03.488104+00:00"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "status": 200,
+      "bytes": 129788,
+      "file": "IsraelPolls-i24-oct8-original-graphic.webp",
+      "sha256": "de0f442baf96f235c8256cb0466e8fd0f86df82c50bf457b97a9b4b2fb97db80",
+      "checkedAtUtc": "2026-10-08T19:27:56.124910+00:00"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HUIBdlgXQAAdUQU?format=webp&name=large",
+      "status": 200,
+      "bytes": 72520,
+      "file": "IsraelPolls-i24-history.webp",
+      "sha256": "0680058571794f4c1368c28a9d0e95c64b57eb118acc3e3cdad2cbae79a97d0b",
+      "checkedAtUtc": "2026-10-08T19:27:56.908454+00:00"
+    }
+  ],
+  "status": "reviewed-new-poll-no-canonical-write",
+  "reviewedAtUtc": "2026-10-08T19:30:07.263045+00:00"
+}

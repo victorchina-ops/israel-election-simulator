@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-08",
+  "status": "verified-new-national-mandate-poll",
+  "pollId": "tatika_2026-10-08",
+  "replacesPollId": "tatika_2026-10-01",
+  "primaryArticleUrl": "https://www.zman.co.il/731622/",
+  "israelPollsStatusUrl": "https://x.com/IsraelPolls/status/2108213216752881742",
+  "checks": {
+    "newObservation": true,
+    "notRepost": true,
+    "seatTotal": 120,
+    "sourceBlocTotal": 120,
+    "fieldworkVerified": true,
+    "sampleSizeVerified": true,
+    "marginOfErrorVerified": true,
+    "exactPublishedPercentagesPreserved": true,
+    "unreportedPercentagesRemainMissing": true,
+    "sourceGraphicsMatchPrimaryArticle": true
+  },
+  "files": [
+    {
+      "fileName": "reviewed-poll.json",
+      "sha256": "64b12efadb5f8bb3e798e085f73951a22b05dbf4bd4b9293d4f92b83488b8815",
+      "bytes": 6098
+    },
+    {
+      "fileName": "zman-web-reader-reviewed.json",
+      "sha256": "dd63106eac754ad8a4d5dfe22b2aa9487ef0be5158155293d219a282ed209612",
+      "bytes": 3339
+    },
+    {
+      "fileName": "capture-receipt.json",
+      "sha256": "c0e6ef688f1b2d470d113d7350df9dda3d8b1c52266b9f4ce90142bc94372932",
+      "bytes": 6096
+    },
+    {
+      "fileName": "israelpolls-zman-oct8-0.jpg",
+      "sha256": "91121d2b199034e3326f34218a658a05430d68c990723860e4af4ef78caf03b8",
+      "bytes": 49771
+    },
+    {
+      "fileName": "israelpolls-zman-oct8-1.jpg",
+      "sha256": "5ab59522e4f9ac6a4d269346f1ac0c4733ce050ac6e686250ec91ac78be3d9a2",
+      "bytes": 79668
+    }
+  ],
+  "limitations": [
+    "Direct HTTP access to Zman Israel returned 403; primary article content was read through the web text reader.",
+    "The IsraelPolls status contains a party-vector graphic and a bloc graphic, but no separate history-table graphic.",
+    "Publication time, invitation count, undecided share and MOE confidence level were not reported in the primary article."
+  ]
+}

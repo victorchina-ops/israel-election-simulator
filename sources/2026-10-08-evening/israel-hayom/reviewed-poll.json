@@ -1,0 +1,200 @@
+{
+  "id": "kantar_2026-10-08",
+  "pollsterId": "kantar",
+  "pollster": "קנטאר — דודי חסיד",
+  "publisher": "ישראל היום",
+  "date": "2026-10-08",
+  "dateKind": "Publication date shown on the original IsraelHayom article; fieldwork separately explicit in its methodology block.",
+  "publicationTime": "15:15",
+  "updatedTime": "15:22",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": null,
+  "sourceTimestampAmbiguity": {
+    "visiblePublication": "08.10.2026, 15:15",
+    "visibleModified": "08.10.2026, 15:22",
+    "metaPublished": "2026-10-08T15:15:09Z",
+    "metaModified": "2026-10-08T15:22:52Z",
+    "note": "Meta appends Z to the same clock shown locally; preserve both and do not silently convert the visible clock into UTC or infer precise offset."
+  },
+  "fieldworkStart": "2026-10-07",
+  "fieldworkEnd": "2026-10-08",
+  "sampleSize": 555,
+  "invitedSampleSize": 2359,
+  "reportedMarginOfErrorPct": 4.2,
+  "reportedMarginOfErrorConfidencePct": null,
+  "population": "גברים ונשים בגילאי18 ומעלה, כולל המגזר הערבי",
+  "samplingMethod": null,
+  "panelProvider": null,
+  "undecidedPct": null,
+  "percentageDenominator": null,
+  "seats": {
+    "yashar": 22,
+    "likud": 21,
+    "beyachad": 13,
+    "otzma": 9,
+    "democrats": 8,
+    "yisrael_beiteinu": 8,
+    "utj": 8,
+    "joint": 8,
+    "shas": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 5,
+    "winter": 0,
+    "gantz": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "winter": 2.9,
+    "gantz": 1.2
+  },
+  "percentages": {
+    "winter": 2.9,
+    "gantz": 1.2
+  },
+  "percentageSourceUrls": {
+    "winter": "https://x.com/IsraelPolls/status/2108251564217340145",
+    "gantz": "https://x.com/IsraelPolls/status/2108251564217340145"
+  },
+  "percentageEvidenceKind": "Poll graphic republished by IsraelPolls, independently visually inspected; identical values also in its Kantar historical-table latest column. Original article text does not publish these two exact percentages.",
+  "voteShareType": "published-seats-and-two-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "otzma",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "rz_zehut",
+    "raam",
+    "hendel",
+    "haredi_public",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 51,
+    "arab_parties": 13,
+    "hendel": 5
+  },
+  "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+  "sourceTier": "original-publisher",
+  "sampleSizeSourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+  "fieldworkSourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+  "reportedMarginOfErrorSourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2108251564217340145",
+    "https://x.com/IsraelPolls?s=20"
+  ],
+  "checkedAt": "2026-10-08",
+  "reviewedAtUtc": "2026-10-08T19:28:10.736639+00:00",
+  "activeReplacementRecommendation": {
+    "replacesPollId": "kantar_2026-10-04",
+    "reason": "Same Kantar institute as prior active Kan Oct4. Keep one latest active Kantar observation; retain all older history."
+  },
+  "visualReview": {
+    "status": "PASS",
+    "files": [
+      "2108251564217340145-0.webp",
+      "2108251564217340145-1.webp"
+    ],
+    "graphicMandatesMatchArticle": true,
+    "historyLatestColumnPublication": "2026-10-08",
+    "latestVectorMatchesGraphic": true,
+    "publishedPctMatchesGraphicAndTable": true,
+    "graphicBlocSum": 120,
+    "historyIncludesExistingKantarKanOct4": true,
+    "previousIsraelHayomPublicationInTable": "2026-09-17",
+    "headerMeaning": "Publication date; not fieldwork date."
+  },
+  "sourceDocument": {
+    "fileName": "israelhayom-2026-10-08-original.html",
+    "kind": "web-page",
+    "sha256": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3",
+    "primarySourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+    "providedBy": "original-publisher",
+    "primaryPublicationVerified": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "samplingMethod",
+      "panelProvider",
+      "undecidedPct",
+      "percentageDenominator",
+      "full-passing-party-percentages",
+      "reportedMarginOfErrorConfidencePct"
+    ]
+  },
+  "evidenceFiles": {
+    "israelhayom-2026-10-08-original.html": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3",
+    "israelhayom-2026-10-08-original.txt": "6c3f772bdbaf44cb9c0965fcff6d5c4f9ceddb310aea34f03edf8447747db66e",
+    "israelpolls-profile.html": "28c5fb00bf64f937d515555e25e5c956cf0ab6f95b4b350f86b599b5d2e8dc0e",
+    "israelpolls-2108251564217340145.html": "bb80c09a3d14353bac34519dbffc63b7dd4db5d540aba2d8133fcbc28f8608c9",
+    "2108251564217340145-0.webp": "0a43b298927cacfd4beaa8de695394a022b556979ee8d4b96c4f71e40bd90b30",
+    "2108251564217340145-1.webp": "f9d77c15c16636a278dec7eb0f89d4260f1961b4f4b64ddead59f3e2a3baf59a"
+  },
+  "sourceAccessSummary": [
+    {
+      "url": "https://www.israelhayom.co.il/",
+      "status": 200,
+      "access": "readable",
+      "sourceFile": "israelhayom-home.html",
+      "sha256": "119e07bf566b2d7dc2a821724f0244f21a8c42fbae5e1558ec8e27c5d985a4b3"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics",
+      "status": 200,
+      "access": "readable",
+      "sourceFile": "israelhayom-politics.html",
+      "sha256": "914efeec2ef49159bc9e8b2ca320e3c0543c3f76e0e335081239294d3f77b2b4"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/election2026",
+      "status": 200,
+      "access": "readable",
+      "sourceFile": "israelhayom-elections.html",
+      "sha256": "44074db1395ab1b5fbab3e8412a13f7ba1d3b3d12aec7976b9940d2cfe1d9d63"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "status": 200,
+      "access": "readable",
+      "sourceFile": "israelhayom-2026-10-08-original.html",
+      "sha256": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "access": "readable",
+      "sourceFile": "israelpolls-profile.html",
+      "sha256": "28c5fb00bf64f937d515555e25e5c956cf0ab6f95b4b350f86b599b5d2e8dc0e"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2108251564217340145",
+      "status": 200,
+      "access": "readable",
+      "sourceFile": "israelpolls-2108251564217340145.html",
+      "sha256": "bb80c09a3d14353bac34519dbffc63b7dd4db5d540aba2d8133fcbc28f8608c9"
+    }
+  ],
+  "limitations": [
+    "Original article explicitly gives fieldwork, n, invitations, population and maximum reported sampling error, but does not state sampling mode, panel provider, confidence level, undecided share or percentage denominator. These remain missing.",
+    "Full national passing-party vote shares are not published in the article or the two reviewed images. Do not reconstruct and label them raw published values.",
+    "Graphic/table publish Winter2.9% and Gantz1.2%; blanks for other small parties remain missing, not zero. No previous-poll percentages are copied.",
+    "Graphic source explicitly separates Hendel5 from the non-Arab opposition51 and coalition51; site may reassign according to user settings.",
+    "Latest historical-table column is8.10 publication. Its previous IsraelHayom column is17.9; a screenshot reference to15.9 cannot be treated as publication date without separate original fieldwork evidence.",
+    "The article narrates recovery since the start of the week, but this is not a statistical trend test; no significance claim is inferred.",
+    "Bounded web search did not expose a current official national raw-percentage submission for this poll. Search absence does not establish registry absence.",
+    "Web reader failed to open the new article, but fresh direct public HTTP200 original article and publisher home/politics/elections were archived and read."
+  ],
+  "notes": [
+    "Primary published vector independently verified and sums120. One new observation with a new publication date; differs from previously recorded KantarKanOct4.",
+    "Sampling mode from earlier IsraelHayom polls is not carried forward.",
+    "No canonical or public file modified by this review agent."
+  ]
+}

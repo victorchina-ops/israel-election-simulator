@@ -1,0 +1,18 @@
+[
+  {
+    "url": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+    "status": 200,
+    "file": "IsraelPolls-i24-oct8-original-graphic.webp",
+    "bytes": 129788,
+    "sha256": "de0f442baf96f235c8256cb0466e8fd0f86df82c50bf457b97a9b4b2fb97db80",
+    "checkedAtUtc": "2026-10-08T19:27:56.124910+00:00"
+  },
+  {
+    "url": "https://pbs.twimg.com/media/HUIBdlgXQAAdUQU?format=webp&name=large",
+    "status": 200,
+    "file": "IsraelPolls-i24-history.webp",
+    "bytes": 72520,
+    "sha256": "0680058571794f4c1368c28a9d0e95c64b57eb118acc3e3cdad2cbae79a97d0b",
+    "checkedAtUtc": "2026-10-08T19:27:56.908454+00:00"
+  }
+]

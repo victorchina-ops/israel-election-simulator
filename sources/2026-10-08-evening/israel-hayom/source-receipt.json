@@ -1,0 +1,4568 @@
+[
+  {
+    "name": "israelhayom-home",
+    "url": "https://www.israelhayom.co.il/",
+    "checkedAtUtc": "2026-10-08T19:26:15.830690+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/",
+    "sha256": "119e07bf566b2d7dc2a821724f0244f21a8c42fbae5e1558ec8e27c5d985a4b3",
+    "bytes": 7348769,
+    "sourceFile": "israelhayom-home.html",
+    "textFile": "israelhayom-home.txt",
+    "textLength": 9982,
+    "links": [
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "חדשות",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "מגזין",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "אנחנו מגייסים",
+        "url": "https://www.israelhayom.co.il/careers"
+      },
+      {
+        "text": "English",
+        "url": "https://www.israelhayom.com"
+      },
+      {
+        "text": "לכל המבזקים",
+        "url": "https://www.israelhayom.co.il/israelnow"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/defense/article/21584202"
+      },
+      {
+        "text": "האמר התהפך, סרן אליאב חיים צפלמוס בן ה-21 נהרג",
+        "url": "https://www.israelhayom.co.il/news/defense/article/21584202"
+      },
+      {
+        "text": "לילך שובל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9c%d7%99%d7%9c%d7%9a-%d7%a9%d7%95%d7%91%d7%9c"
+      },
+      {
+        "text": "לכל המבזקים",
+        "url": "https://www.israelhayom.co.il/israelnow"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/podcasts/basketball-podcast?_gl=1*5ibsmo*_gcl_au*MjA1NTg2ODAuMTc4ODY2NzYwNw..*_ga*OTc3MTg5Mzg3LjE3NjUyODM3Mjk.*_ga_510EBDDMBG*czE3OTE0MzE5ODgkbzY1JGcxJHQxNzkxNDYwNTM3JGo1MyRsMCRoMA..*_ga_S0QHS3EN08*czE3OTE0MzE5ODgkbzYwJGcxJHQxNzkxNDYwNTM2JGo1NCRsMCRoMA..*_ga_FQ42EXWVPB*czE3OTE0MzE5ODgkbzEzJGcxJHQxNzkxNDYwNTM2JGo2MCRsMCRoMTYwMDQwODk4MA.."
+      },
+      {
+        "text": "עוד בכותרות",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21584488"
+      },
+      {
+        "text": "פדרו סנצ׳ס בכאפייה: הקמפיין ששואל את ספרד ״מה הייתם עושים?״",
+        "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21584488"
+      },
+      {
+        "text": "ניסן שטראוכלר, כתבנו באירופה",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%99%d7%a1%d7%9f-%d7%a9%d7%98%d7%a8%d7%90%d7%95%d7%9b%d7%9c%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/sport/israeli-soccer/article/21584688"
+      },
+      {
+        "text": "כדורגלן העבר חשף למי יצביע: \"לא רוצים חנויות בשבת\"",
+        "url": "https://www.israelhayom.co.il/sport/israeli-soccer/article/21584688"
+      },
+      {
+        "text": "מערכת ספורט היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%a1%d7%a4%d7%95%d7%a8%d7%98-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/films/article/21584563"
+      },
+      {
+        "text": "הסרט \"עצמאות\" הוסר מפסטיבל בגלל לחץ פרו-פלסטיני",
+        "url": "https://www.israelhayom.co.il/culture/films/article/21584563"
+      },
+      {
+        "text": "מערכת תרבות היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21583598"
+      },
+      {
+        "text": "אבינתן אור על הפרידה: \"צריך להתקדם הלאה\"",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21583598"
+      },
+      {
+        "text": "אביב דרורי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%91%d7%99%d7%91-%d7%93%d7%a8%d7%95%d7%a8%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/special/israelelections/article/21557503"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21572415"
+      },
+      {
+        "text": "רמז לגבי הגירושים: 5 דברים שלא ידעתם על חנן בן ארי",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21572415"
+      },
+      {
+        "text": "טל אריאל יקיר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%98%d7%9c-%d7%90%d7%a8%d7%99%d7%90%d7%9c-%d7%99%d7%a7%d7%99%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21578231"
+      },
+      {
+        "text": "האיש שהעיר את נתניהו ב-06:29: \"מגיע לציבור לדעת\"",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21578231"
+      },
+      {
+        "text": "יואב לימור",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%90%d7%91-%d7%9c%d7%99%d7%9e%d7%95%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21573853"
+      },
+      {
+        "text": "\"לא מודים בזה\": הצרה החדשה של בני 40 פלוס",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21573853"
+      },
+      {
+        "text": "טל מזרחי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%98%d7%9c-%d7%9e%d7%96%d7%a8%d7%97%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21574641"
+      },
+      {
+        "text": "ניר וולף",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%99%d7%a8-%d7%95%d7%95%d7%9c%d7%a3"
+      },
+      {
+        "text": "למה \"ארץ נהדרת\" לא תפיל את נתניהו",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21574641"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21575019"
+      },
+      {
+        "text": "מור שמעוני",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%95%d7%a8-%d7%a9%d7%9e%d7%a2%d7%95%d7%a0%d7%99"
+      },
+      {
+        "text": "\"פתחו עלי עין. ידעו שהייתי במחלקה סגורה\"",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21575019"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/21565784"
+      },
+      {
+        "text": "קובי אדרי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a7%d7%95%d7%91%d7%99-%d7%90%d7%93%d7%a8%d7%99"
+      },
+      {
+        "text": "כתום - השחור החדש: מתכונים מושלמים לסתיו",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/21565784"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21559307"
+      },
+      {
+        "text": "דוד ברון",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%95%d7%93-%d7%91%d7%a8%d7%95%d7%9f"
+      },
+      {
+        "text": "הפרט ה\"מיסטי\" בתוכנית המרצה מבר אילן",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21559307"
+      },
+      {
+        "text": "וידאו היום",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21578231"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/tech/space/article/21575036"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/magazine/shishabat/article/21578231"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/tech/article/21578463"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21570064"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21570068"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21571277"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21564138"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21562256"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/geopolitics/article/21566344"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21557851"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21554133"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/world-news/other/article/21550060"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/crime/article/21545466"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/geopolitics/article/21515922"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/local/article/21545616"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/food/food-news/article/21530856"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/culture/internet-culture/article/21529553"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/culture/internet-culture/article/21271900"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/electionmonitor26?utm_source=homepage"
+      },
+      {
+        "text": "פור ריל",
+        "url": "https://www.forreal.co.il"
+      },
+      {
+        "text": "עוד בפור ריל >",
+        "url": "https://www.forreal.co.il"
+      },
+      {
+        "text": "",
+        "url": "https://www.forreal.co.il"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/forreal/localy/article/21580853"
+      },
+      {
+        "text": "GUESS AGAIN: הכירו את מועמדות THE TEN 2026",
+        "url": "https://www.israelhayom.co.il/forreal/localy/article/21580853"
+      },
+      {
+        "text": "מערכת ForReal",
+        "url": "https://www.israelhayom.co.il/writer/forreal"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/forreal/localy/article/21580863"
+      },
+      {
+        "text": "אנה ארונוב מתפרקת: \"איך זה קרה לנו\"",
+        "url": "https://www.israelhayom.co.il/forreal/localy/article/21580863"
+      },
+      {
+        "text": "יוסי דלאל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%a1%d7%99-%d7%93%d7%9c%d7%90%d7%9c"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/forreal/localy/article/21581253"
+      },
+      {
+        "text": "ספיר אביסרור: \"לדבר על פוליטיקה זה אולי לא סקסי\"",
+        "url": "https://www.israelhayom.co.il/forreal/localy/article/21581253"
+      },
+      {
+        "text": "לין סלמאן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9c%d7%99%d7%9f-%d7%a1%d7%9c%d7%9e%d7%90%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/forreal/global/article/21580868"
+      },
+      {
+        "text": "באמצע ההופעה בפריז: סלין דיון הסתבכה",
+        "url": "https://www.israelhayom.co.il/forreal/global/article/21580868"
+      },
+      {
+        "text": "ברק אברגיל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%a8%d7%a7-%d7%90%d7%91%d7%a8%d7%92%d7%99%d7%9c"
+      },
+      {
+        "text": "חדשות",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "text": "עופר וינטר מתחת לאחוז החסימה, הנדל וזליכה יציבים | סקר מנדטים",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "text": "שירית אביטן כהן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a9%d7%99%d7%a8%d7%99%d7%aa-%d7%90%d7%91%d7%99%d7%98%d7%9f-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/local/article/21581498"
+      },
+      {
+        "text": "4 חרדים נעצרו; הנהג שדרס מפגין נלקח לחקירה | צפו בעימותים",
+        "url": "https://www.israelhayom.co.il/news/local/article/21581498"
+      },
+      {
+        "text": "יעקב הרשקוביץ",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%a2%d7%a7%d7%91-%d7%94%d7%a8%d7%a9%d7%a7%d7%95%d7%91%d7%99%d7%a5"
+      },
+      {
+        "text": "כרמי יוגב",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9b%d7%a8%d7%9e%d7%99-%d7%99%d7%95%d7%92%d7%91"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/local/article/21582834"
+      },
+      {
+        "text": "ניצב אמיר כהן הודיע על פרישה - וצפוי להתמודד על המפכ\"לות",
+        "url": "https://www.israelhayom.co.il/news/local/article/21582834"
+      },
+      {
+        "text": "כרמי יוגב",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9b%d7%a8%d7%9e%d7%99-%d7%99%d7%95%d7%92%d7%91"
+      },
+      {
+        "text": "הודיה בושרי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%94%d7%95%d7%93%d7%99%d7%94-%d7%91%d7%95%d7%a9%d7%a8%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584008"
+      },
+      {
+        "text": "טראמפ: \"לא נתקוף באיראן עד בחירות האמצע\"",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584008"
+      },
+      {
+        "text": "אור שקד, שליח \"היום\" בארה\"ב",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a8-%d7%a9%d7%a7%d7%93"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/sport/israeli-basketball/article/21584348"
+      },
+      {
+        "text": "אחרי 2 ניצחונות: הפועל תל אביב בפיגור משמעותי מול ולנסיה",
+        "url": "https://www.israelhayom.co.il/sport/israeli-basketball/article/21584348"
+      },
+      {
+        "text": "תומר גבעתי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%aa%d7%95%d7%9e%d7%a8-%d7%92%d7%91%d7%a2%d7%aa%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/sport/opinions-sport/article/21583674"
+      },
+      {
+        "text": "ליגת המתנ\"סים: העסקנים חולמים על יורוליג - והקהל סובל",
+        "url": "https://www.israelhayom.co.il/sport/opinions-sport/article/21583674"
+      },
+      {
+        "text": "עמיר פלג",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%9e%d7%99%d7%a8-%d7%a4%d7%9c%d7%92"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/sport/offside/article/21578396"
+      },
+      {
+        "text": "יעקב בוזגלו עוקץ: \"אמא שלכם כבר דיברה איתי?\"",
+        "url": "https://www.israelhayom.co.il/sport/offside/article/21578396"
+      },
+      {
+        "text": "מערכת אופסייד",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%90%d7%95%d7%a4%d7%a1%d7%99%d7%99%d7%93"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21269430"
+      },
+      {
+        "text": "חברת המזון שייצרה מהפכה טכנולוגית",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21269430"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/electionsquiz"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/films/article/21584563"
+      },
+      {
+        "text": "הסרט \"עצמאות\" הוסר מפסטיבל קולנוע בגלל לחץ פרו-פלסטיני",
+        "url": "https://www.israelhayom.co.il/culture/films/article/21584563"
+      },
+      {
+        "text": "מערכת תרבות היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21577093"
+      },
+      {
+        "text": "מתן חרמוני מציג: המילייה הספרותי כאסופת אנשים שמתקוטטים על פירורי תהילה עבשים",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21577093"
+      },
+      {
+        "text": "אהוד פירר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%94%d7%95%d7%93-%d7%a4%d7%99%d7%a8%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/21583038"
+      },
+      {
+        "text": "נפתלי בנט עולה להתקפה: \"יאיר נתניהו אדם בזוי\"",
+        "url": "https://www.israelhayom.co.il/culture/tv/article/21583038"
+      },
+      {
+        "text": "מערכת תרבות היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%aa%d7%a8%d7%91%d7%95%d7%aa-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/internet-culture/article/21583336"
+      },
+      {
+        "text": "מאי חטואל מ\"המירוץ למיליון\" מתקשה לעכל את הפרידות: \"פעם היה לי\"",
+        "url": "https://www.israelhayom.co.il/culture/internet-culture/article/21583336"
+      },
+      {
+        "text": "אביב דרורי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%91%d7%99%d7%91-%d7%93%d7%a8%d7%95%d7%a8%d7%99"
+      },
+      {
+        "text": "עוד בתרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/arroword?_gl=1*1fi2gxr*_gcl_au*NzM2NjM3NjU0LjE3NTc0MzIxOTg.*_ga*MTY4ODIzODY2OS4xNzQ5Mzk2MTUy*_ga_510EBDDMBG*czE3NjI3OTEzMTkkbzQ2JGcxJHQxNzYyNzkyMjE3JGo1NiRsMCRoMA..*_ga_S0QHS3EN08*czE3NjI3OTEzMTkkbzQ2JGcxJHQxNzYyNzkyMjEyJGo1OSRsMCRoMA..*_ga_FQ42EXWVPB*czE3NjI3OTEzMTkkbzMwJGcxJHQxNzYyNzkyMjEyJGo1OSRsMCRoMTE0MDM5NTIwMg"
+      },
+      {
+        "text": "בעולם",
+        "url": "https://www.israelhayom.co.il/news/world-news"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/news/world-news"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584897"
+      },
+      {
+        "text": "\"איראן לא טוענת או פורקת מכליות נפט\": ארה\"ב מחזקת את הסנקציות על טהרן",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584897"
+      },
+      {
+        "text": "אור שקד, שליח \"היום\" בארה\"ב",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a8-%d7%a9%d7%a7%d7%93"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21584488"
+      },
+      {
+        "text": "פדרו סנצ׳ס בכאפייה: הקמפיין ששואל את ספרד ״מה הייתם עושים?״",
+        "url": "https://www.israelhayom.co.il/news/world-news/europe/article/21584488"
+      },
+      {
+        "text": "ניסן שטראוכלר, כתבנו באירופה",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%99%d7%a1%d7%9f-%d7%a9%d7%98%d7%a8%d7%90%d7%95%d7%9b%d7%9c%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584008"
+      },
+      {
+        "text": "טראמפ: \"לא נתקוף באיראן עד בחירות האמצע\"",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21584008"
+      },
+      {
+        "text": "אור שקד, שליח \"היום\" בארה\"ב",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a8-%d7%a9%d7%a7%d7%93"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21583605"
+      },
+      {
+        "text": "פסטה בטעם רע: באוניברסיטת קולומביה הגישו איטריות ברוטב \"7 באוקטובר\"",
+        "url": "https://www.israelhayom.co.il/news/world-news/usa/article/21583605"
+      },
+      {
+        "text": "נטע בר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%98%d7%a2-%d7%91%d7%a8"
+      },
+      {
+        "text": "אופנה",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21579470"
+      },
+      {
+        "text": "הטרנדים שכדאי לסמן: 5 בשורות משבוע האופנה בפריז",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21579470"
+      },
+      {
+        "text": "ליהיא גלמן רם",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9c%d7%99%d7%94%d7%99%d7%90-%d7%92%d7%9c%d7%9e%d7%9f-%d7%a8%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21578763"
+      },
+      {
+        "text": "לא סתם דומות: סידני סוויני ומרילין מונרו קרובות משפחה",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21578763"
+      },
+      {
+        "text": "ענבל חייט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%a0%d7%91%d7%9c-%d7%97%d7%99%d7%99%d7%98"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21578077"
+      },
+      {
+        "text": "חודש בתפקיד, וכבר טלטלה בצמרת לולולמון",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21578077"
+      },
+      {
+        "text": "ליהיא גלמן רם",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9c%d7%99%d7%94%d7%99%d7%90-%d7%92%d7%9c%d7%9e%d7%9f-%d7%a8%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21572905"
+      },
+      {
+        "text": "\"מתפללת לשלום\": המשקפיים מישראל שהגיעו לוונציה - והסיפור הלא צפוי",
+        "url": "https://www.israelhayom.co.il/lifestyle/fashion/article/21572905"
+      },
+      {
+        "text": "ליהיא גלמן רם",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9c%d7%99%d7%94%d7%99%d7%90-%d7%92%d7%9c%d7%9e%d7%9f-%d7%a8%d7%9d"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/21579780"
+      },
+      {
+        "text": "בלי שמנת ובלי ביצים: מוס שוקולד ממרכיב אחד בלבד",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/21579780"
+      },
+      {
+        "text": "אופיר רבינוביץ'",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a4%d7%99%d7%a8-%d7%a8%d7%91%d7%99%d7%a0%d7%95%d7%91%d7%99%d7%a5"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/food/restaurant-reviews/article/21524980"
+      },
+      {
+        "text": "לא רק הבייקרי המדובר: 3 עצירות חובה בהרי ירושלים",
+        "url": "https://www.israelhayom.co.il/food/restaurant-reviews/article/21524980"
+      },
+      {
+        "text": "מיקה לופו וייס",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%99%d7%a7%d7%94-%d7%9c%d7%95%d7%a4%d7%95-%d7%95%d7%99%d7%99%d7%a1"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/food/food-news/article/21574623"
+      },
+      {
+        "text": "\"בא לי לז*** אותו\": רותי ברודו פותחת פה גדול",
+        "url": "https://www.israelhayom.co.il/food/food-news/article/21574623"
+      },
+      {
+        "text": "אופיר רבינוביץ'",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a4%d7%99%d7%a8-%d7%a8%d7%91%d7%99%d7%a0%d7%95%d7%91%d7%99%d7%a5"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/21579056"
+      },
+      {
+        "text": "ביס אחד ואתם בסנטוריני: לביבות העגבניות היווניות המושלמות",
+        "url": "https://www.israelhayom.co.il/food/recipes/article/21579056"
+      },
+      {
+        "text": "אופיר רבינוביץ'",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a4%d7%99%d7%a8-%d7%a8%d7%91%d7%99%d7%a0%d7%95%d7%91%d7%99%d7%a5"
+      },
+      {
+        "text": "עוד באוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "כלכלה וצרכנות",
+        "url": "https://www.israelhayom.co.il/economy"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/economy"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/consumers/article/21584120"
+      },
+      {
+        "text": "כאן תיקנו אייפון 18 פרו - במחיר הכי זול שמצאנו",
+        "url": "https://www.israelhayom.co.il/business/consumers/article/21584120"
+      },
+      {
+        "text": "היאלי יעקבי-הנדלסמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%94%d7%99%d7%90%d7%9c%d7%99-%d7%99%d7%a2%d7%a7%d7%91%d7%99%d6%be%d7%94%d7%a0%d7%93%d7%9c%d7%a1%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/article/21583095"
+      },
+      {
+        "text": "230 מיליון שקל: הקיפאון בנדל\"ן עולה למדינה ביוקר",
+        "url": "https://www.israelhayom.co.il/business/article/21583095"
+      },
+      {
+        "text": "ניצן כהן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%99%d7%a6%d7%9f-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/article/21582896"
+      },
+      {
+        "text": "דירוג חברות התקשורת נחשף: פרטנר מובילה בסלולר",
+        "url": "https://www.israelhayom.co.il/business/article/21582896"
+      },
+      {
+        "text": "ניצן כהן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%99%d7%a6%d7%9f-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "היאלי יעקבי-הנדלסמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%94%d7%99%d7%90%d7%9c%d7%99-%d7%99%d7%a2%d7%a7%d7%91%d7%99%d6%be%d7%94%d7%a0%d7%93%d7%9c%d7%a1%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21578039"
+      },
+      {
+        "text": "יקר יותר, ממונף יותר: לוקחים יותר משכנתה, דווקא כשהריבית גבוהה",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21578039"
+      },
+      {
+        "text": "יוסי ניסן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%a1%d7%99-%d7%a0%d7%99%d7%a1%d7%9f"
+      },
+      {
+        "text": "עוד בכלכלה וצרכנות",
+        "url": "https://www.israelhayom.co.il/economy"
+      },
+      {
+        "text": "תיירות",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/travel/aviation/article/21583793"
+      },
+      {
+        "text": "הלם בנמל התעופה: גבר ניסה להבריח ציפורים - במיקום אסטרטגי במיוחד",
+        "url": "https://www.israelhayom.co.il/travel/aviation/article/21583793"
+      },
+      {
+        "text": "אסף גולן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%a1%d7%a3-%d7%92%d7%95%d7%9c%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/travel/tourism-news/article/21583426"
+      },
+      {
+        "text": "כמו מעצר של משפחת פשע: המוני שוטרים פשטו על עסקים ישראלים בבנגקוק",
+        "url": "https://www.israelhayom.co.il/travel/tourism-news/article/21583426"
+      },
+      {
+        "text": "סהר אברהמי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a1%d7%94%d7%a8-%d7%90%d7%91%d7%a8%d7%94%d7%9e%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/travel/tourism-news/article/21582822"
+      },
+      {
+        "text": "\"הכל כלול\", חוץ מגברים: יעד הנופש שסוגר להם את הדלת בפנים",
+        "url": "https://www.israelhayom.co.il/travel/tourism-news/article/21582822"
+      },
+      {
+        "text": "סוכנויות הידיעות",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a1%d7%95%d7%9b%d7%a0%d7%95%d7%99%d7%95%d7%aa-%d7%94%d7%99%d7%93%d7%99%d7%a2%d7%95%d7%aa"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/travel/aviation/article/21581375"
+      },
+      {
+        "text": "מלון יוקרה בשמיים: חברת התעופה שחוזרת לישראל חושפת מהפכה",
+        "url": "https://www.israelhayom.co.il/travel/aviation/article/21581375"
+      },
+      {
+        "text": "ליאת מופז מילצ'ן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9c%d7%99%d7%90%d7%aa-%d7%9e%d7%95%d7%a4%d7%96-%d7%9e%d7%99%d7%9c%d7%a6%d7%9f"
+      },
+      {
+        "text": "עוד בתיירות",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "לקריאת העיתון היומי",
+        "url": "https://digital-edition.israelhayom.co.il/israel-hayom?utm_source=dehp"
+      },
+      {
+        "text": "",
+        "url": "https://digital-edition.israelhayom.co.il/israel-hayom?utm_source=dehp"
+      },
+      {
+        "text": "נדב שרגאי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%93%d7%91-%d7%a9%d7%a8%d7%92%d7%90%d7%99"
+      },
+      {
+        "text": "רומי ולדמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a8%d7%95%d7%9e%d7%99-%d7%95%d7%9c%d7%93%d7%9e%d7%9f"
+      },
+      {
+        "text": "פרופ' אשר כהן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a4%d7%a8%d7%95%d7%a4-%d7%90%d7%a9%d7%a8-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "ד\"ר ניסים כץ",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%a8-%d7%a0%d7%99%d7%a1%d7%99%d7%9d-%d7%9b%d7%a5"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/caricature/08-10-2026"
+      },
+      {
+        "text": "משחקים",
+        "url": "https://games.israelhayom.co.il/"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://games.israelhayom.co.il/"
+      },
+      {
+        "text": "",
+        "url": "https://games.israelhayom.co.il/games/sudoku_puzzle"
+      },
+      {
+        "text": "",
+        "url": "https://games.israelhayom.co.il/games/sidurim"
+      },
+      {
+        "text": "",
+        "url": "https://games.israelhayom.co.il/games/one_move"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/threetwoone"
+      },
+      {
+        "text": "עוד במשחקים",
+        "url": "https://games.israelhayom.co.il/?_gl=1*12yv5qe*_ga*NzEzNjczMjM2LjE3NDQ5NTE0NjI.*_ga_S0QHS3EN08*czE3NjY5MTY1NjUkbzEkZzEkdDE3NjY5MjM5MjUkajYwJGwwJGgw*_ga_FQ42EXWVPB*czE3NjY5MDA0MTgkbzE4JGcxJHQxNzY2OTIzOTI1JGo2MCRsMCRoMjQ2MjY0MjQx*_gcl_au*MTMyNjU0MjUxMS4xNzYxNzE2OTY4*_ga_510EBDDMBG*czE3NjY5MTYwMjYkbzEkZzEkdDE3NjY5MjM5NjgkajE4JGwwJGgw"
+      },
+      {
+        "text": "טכנולוגיה, מדע וסביבה",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/tech/space/article/21575036"
+      },
+      {
+        "text": "זו לא אשליה: הסוד שגורם לשקיעות להיראות יפות במיוחד",
+        "url": "https://www.israelhayom.co.il/tech/space/article/21575036"
+      },
+      {
+        "text": "אלעד מרגי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%a2%d7%93-%d7%9e%d7%a8%d7%92%d7%99"
+      },
+      {
+        "text": "מערכת היום פלוס",
+        "url": "https://www.israelhayom.co.il/writer/hayom-plus"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/tech/tech-news/article/21577545"
+      },
+      {
+        "text": "קריירה מנצחת - בלי תואר: רשימת החיסול של האקדמיה",
+        "url": "https://www.israelhayom.co.il/tech/tech-news/article/21577545"
+      },
+      {
+        "text": "יוחאי שויגר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%97%d7%90%d7%99-%d7%a9%d7%95%d7%99%d7%92%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/tech/archaeology/article/21577457"
+      },
+      {
+        "text": "נמחקו מההיסטוריה: הציוויליזציה המסתורית ששלטה בעולם לפני 6,000 שנה",
+        "url": "https://www.israelhayom.co.il/tech/archaeology/article/21577457"
+      },
+      {
+        "text": "שחר שפירו",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a9%d7%97%d7%a8-%d7%a9%d7%a4%d7%99%d7%a8%d7%95"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/tech/gadget-review/article/21570398"
+      },
+      {
+        "text": "לא חייבים להוציא אלפי שקלים: הכירו את האוזניות המוזלות של סוני",
+        "url": "https://www.israelhayom.co.il/tech/gadget-review/article/21570398"
+      },
+      {
+        "text": "עדי רובינשטיין",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%93%d7%99-%d7%a8%d7%95%d7%91%d7%99%d7%a0%d7%a9%d7%98%d7%99%d7%99%d7%9f"
+      },
+      {
+        "text": "עוד בטכנולוגיה",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "לייף סטייל",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21583598"
+      },
+      {
+        "text": "אבינתן אור על הפרידה מנועה ארגמני: \"אני פנוי\"",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21583598"
+      },
+      {
+        "text": "אביב דרורי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%91%d7%99%d7%91-%d7%93%d7%a8%d7%95%d7%a8%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/faith-and-tradition/article/21583159"
+      },
+      {
+        "text": "מגי טביבי חוזרת לתקרית בשידור: ''האשימו אותי''",
+        "url": "https://www.israelhayom.co.il/lifestyle/faith-and-tradition/article/21583159"
+      },
+      {
+        "text": "אביב דרורי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%91%d7%99%d7%91-%d7%93%d7%a8%d7%95%d7%a8%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21582646"
+      },
+      {
+        "text": "35 מיליון דולר על הכף: אילון מאסק נפרד מאם ארבעת ילדיו",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21582646"
+      },
+      {
+        "text": "אביב דרורי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%91%d7%99%d7%91-%d7%93%d7%a8%d7%95%d7%a8%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21582138"
+      },
+      {
+        "text": "רחוק מכולם: יעל שלביה ולאנס סטרול לקחו פסק זמן",
+        "url": "https://www.israelhayom.co.il/lifestyle/relationship/article/21582138"
+      },
+      {
+        "text": "אביב דרורי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%91%d7%99%d7%91-%d7%93%d7%a8%d7%95%d7%a8%d7%99"
+      },
+      {
+        "text": "עוד בלייף סטייל",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "הורוסקופ",
+        "url": "https://www.israelhayom.co.il/horoscopes"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/horoscopes"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/horoscopes/aries/article/21535749"
+      },
+      {
+        "text": "מזל טלה, תחזית הורוסקופ יומית 08.10.2026",
+        "url": "https://www.israelhayom.co.il/horoscopes/aries/article/21535749"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/horoscopes/taurus/article/21535750"
+      },
+      {
+        "text": "מזל שור, תחזית הורוסקופ יומית 08.10.2026",
+        "url": "https://www.israelhayom.co.il/horoscopes/taurus/article/21535750"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/horoscopes/gemini/article/21535751"
+      },
+      {
+        "text": "מזל תאומים, תחזית הורוסקופ יומית 08.10.2026",
+        "url": "https://www.israelhayom.co.il/horoscopes/gemini/article/21535751"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/horoscopes/cancer/article/21535771"
+      },
+      {
+        "text": "מזל סרטן, תחזית הורוסקופ יומית 08.10.2026",
+        "url": "https://www.israelhayom.co.il/horoscopes/cancer/article/21535771"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "עוד במזלות",
+        "url": "https://www.israelhayom.co.il/horoscopes"
+      },
+      {
+        "text": "רכב",
+        "url": "https://www.israelhayom.co.il/auto"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/auto"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/auto/world/article/21561382"
+      },
+      {
+        "text": "במעורבות חייל מארינס: פרשת הרצח ביפן שמחריפה את המתיחות עם ארה\"ב",
+        "url": "https://www.israelhayom.co.il/auto/world/article/21561382"
+      },
+      {
+        "text": "סוכנויות הידיעות",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a1%d7%95%d7%9b%d7%a0%d7%95%d7%99%d7%95%d7%aa-%d7%94%d7%99%d7%93%d7%99%d7%a2%d7%95%d7%aa"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/auto/article/21561405"
+      },
+      {
+        "text": "יונדאי טוסון החדש נחשף בגרסה האירופאית",
+        "url": "https://www.israelhayom.co.il/auto/article/21561405"
+      },
+      {
+        "text": "אופיר דואק",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a4%d7%99%d7%a8-%d7%93%d7%95%d7%90%d7%a7"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/auto/article/21544130"
+      },
+      {
+        "text": "איון UT במבחן: חשמלי עירוני",
+        "url": "https://www.israelhayom.co.il/auto/article/21544130"
+      },
+      {
+        "text": "אריאל אלסיבוני",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%a8%d7%99%d7%90%d7%9c-%d7%90%d7%9c%d7%a1%d7%99%d7%91%d7%95%d7%a0%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/auto/article/21505759"
+      },
+      {
+        "text": "פורד ריינג’ר V6 בישראל והמחיר? 305,000 שקלים",
+        "url": "https://www.israelhayom.co.il/auto/article/21505759"
+      },
+      {
+        "text": "אופיר דואק",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%95%d7%a4%d7%99%d7%a8-%d7%93%d7%95%d7%90%d7%a7"
+      },
+      {
+        "text": "עוד ברכב",
+        "url": "https://www.israelhayom.co.il/auto"
+      },
+      {
+        "text": "בריאות",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/health/article/21582376"
+      },
+      {
+        "text": "מאחורי האבחון הרפואי: המחסור שמתחיל להדאיג את מערכת הבריאות",
+        "url": "https://www.israelhayom.co.il/health/article/21582376"
+      },
+      {
+        "text": "מיטל יסעור בית-אור",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%99%d7%98%d7%9c-%d7%99%d7%a1%d7%a2%d7%95%d7%a8-%d7%91%d7%99%d7%aa-%d7%90%d7%95%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/health/article/21579878"
+      },
+      {
+        "text": "הרופא ביצע לידות בית בניגוד להנחיות ורשיונו בוטל לצמיתות",
+        "url": "https://www.israelhayom.co.il/health/article/21579878"
+      },
+      {
+        "text": "מיטל יסעור בית-אור",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%99%d7%98%d7%9c-%d7%99%d7%a1%d7%a2%d7%95%d7%a8-%d7%91%d7%99%d7%aa-%d7%90%d7%95%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/health/article/21572915"
+      },
+      {
+        "text": "\"אלכס דואג מלמעלה\": אביו של החטוף שנרצח עבר השתלה",
+        "url": "https://www.israelhayom.co.il/health/article/21572915"
+      },
+      {
+        "text": "מיטל יסעור בית-אור",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%99%d7%98%d7%9c-%d7%99%d7%a1%d7%a2%d7%95%d7%a8-%d7%91%d7%99%d7%aa-%d7%90%d7%95%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/health/article/21571128"
+      },
+      {
+        "text": "טראומה לאומית: 3 שנים אחרי הטבח, 1 מכל 5 ישראלים לא חזר לתפקוד מלא",
+        "url": "https://www.israelhayom.co.il/health/article/21571128"
+      },
+      {
+        "text": "מיטל יסעור בית-אור",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%99%d7%98%d7%9c-%d7%99%d7%a1%d7%a2%d7%95%d7%a8-%d7%91%d7%99%d7%aa-%d7%90%d7%95%d7%a8"
+      },
+      {
+        "text": "עוד בבריאות",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21269430"
+      },
+      {
+        "text": "חברת המזון שייצרה מהפכה טכנולוגית",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21269430"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21400455"
+      },
+      {
+        "text": "חזרה לשגרה: 4 כללים לחדות ולפוקוס",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21400455"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21444642"
+      },
+      {
+        "text": "להחלים בסלון: התחליף לאשפוז בבית חולים",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21444642"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21387483"
+      },
+      {
+        "text": "אסם-שדרות: מנוע הצמיחה של הדרום",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21387483"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "מעריב לנוער",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/interviews/article/21582669"
+      },
+      {
+        "text": "\"כל מי שהיה ב-7 באוקטובר בתפקיד מנהיגותי חייב להתפטר מהחיים הפוליטיים\": גדי איזנקוט ב…",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/interviews/article/21582669"
+      },
+      {
+        "text": "מערכת מעריב לנוער",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%9e%d7%a2%d7%a8%d7%99%d7%91-%d7%9c%d7%a0%d7%95%d7%a2%d7%a8"
+      },
+      {
+        "text": "כ״נ ענר שרן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9b%d7%b4%d7%a0-%d7%a2%d7%a0%d7%a8-%d7%a9%d7%a8%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21582554"
+      },
+      {
+        "text": "מדליות, שיאים ועירום: ככה נראה ייצוג נשי בספורט",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21582554"
+      },
+      {
+        "text": "כ\"נ מור אבידן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9b%d7%a0-%d7%9e%d7%95%d7%a8-%d7%90%d7%91%d7%99%d7%93%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21582494"
+      },
+      {
+        "text": "הפוליטיקאים הגדולים מגיעים ל\"מעריב לנוער\" בגיליון הבחירות החדש",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21582494"
+      },
+      {
+        "text": "בר ציבלין",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%a8-%d7%a6%d7%99%d7%91%d7%9c%d7%99%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21570908"
+      },
+      {
+        "text": "דור ההמשך: בני הנוער שהולכים בדרכו של הלוחם שזינק לקרב ב-7 באוקטובר",
+        "url": "https://www.israelhayom.co.il/maariv-lanoar/teen-magazine/article/21570908"
+      },
+      {
+        "text": "דנה שנקר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%a0%d7%94-%d7%a9%d7%a0%d7%a7%d7%a8"
+      },
+      {
+        "text": "ספרים",
+        "url": "https://www.israelhayom.co.il/culture/books"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/culture/books"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21577093"
+      },
+      {
+        "text": "מתן חרמוני מציג: המילייה הספרותי כאסופת אנשי…",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21577093"
+      },
+      {
+        "text": "אהוד פירר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%94%d7%95%d7%93-%d7%a4%d7%99%d7%a8%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21582427"
+      },
+      {
+        "text": "פמיניסטית ורגישה: זו הזוכה בפרס נובל לספרות",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21582427"
+      },
+      {
+        "text": "דפנה לוי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%a4%d7%a0%d7%94-%d7%9c%d7%95%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21577076"
+      },
+      {
+        "text": "טראומת הילדות של אפרת מישורי נחשפת בספר שירה…",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21577076"
+      },
+      {
+        "text": "עדו ניצן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%93%d7%95-%d7%a0%d7%99%d7%a6%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21578542"
+      },
+      {
+        "text": "אן קרסון היא זוכת פרס נובל לספרות לשנת 2026",
+        "url": "https://www.israelhayom.co.il/culture/books/article/21578542"
+      },
+      {
+        "text": "דפנה לוי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%a4%d7%a0%d7%94-%d7%9c%d7%95%d7%99"
+      },
+      {
+        "text": "עוד בספרים",
+        "url": "https://www.israelhayom.co.il/culture/books"
+      },
+      {
+        "text": "נדל\"ן היום",
+        "url": "https://www.israelhayom.co.il/nadlan"
+      },
+      {
+        "text": "לעוד תוכן",
+        "url": "https://www.israelhayom.co.il/nadlan"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21578039"
+      },
+      {
+        "text": "יקר יותר, ממונף יותר: לוקחים יותר משכנתה, דווקא כשהריבית גבוהה",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21578039"
+      },
+      {
+        "text": "יוסי ניסן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%a1%d7%99-%d7%a0%d7%99%d7%a1%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21577976"
+      },
+      {
+        "text": "קבוצת שובל החלה בבניית שני פרויקטים חדשים בחיפה",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21577976"
+      },
+      {
+        "text": "יוסי ניסן ,נדל\"ן מדיה",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%a1%d7%99-%d7%a0%d7%99%d7%a1%d7%9f-%d7%a0%d7%93%d7%9c%d7%9f-%d7%9e%d7%93%d7%99%d7%94"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21577909"
+      },
+      {
+        "text": "אושרה התב\"ע לפרויקט פינוי-בינוי ברחוב בורוכוב בירושלים",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21577909"
+      },
+      {
+        "text": "יוסי ניסן ,נדל\"ן מדיה",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%a1%d7%99-%d7%a0%d7%99%d7%a1%d7%9f-%d7%a0%d7%93%d7%9c%d7%9f-%d7%9e%d7%93%d7%99%d7%94"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21570581"
+      },
+      {
+        "text": "המגרש שאיש לא רצה הפך לאחד הבתים המפורסמים בלוס אנג'לס",
+        "url": "https://www.israelhayom.co.il/business/real-estate/article/21570581"
+      },
+      {
+        "text": "נאוה סילוורה",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%90%d7%95%d7%94-%d7%a1%d7%99%d7%9c%d7%95%d7%95%d7%a8%d7%94"
+      },
+      {
+        "text": "בארץ",
+        "url": "https://www.israelhayom.co.il/news/local"
+      },
+      {
+        "text": "בעולם",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "ביטחוני",
+        "url": "https://www.israelhayom.co.il/news/defense"
+      },
+      {
+        "text": "פוליטי",
+        "url": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "text": "פלילים",
+        "url": "https://www.israelhayom.co.il/news/crime"
+      },
+      {
+        "text": "בריאות",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "חינוך",
+        "url": "https://www.israelhayom.co.il/news/education"
+      },
+      {
+        "text": "משפט",
+        "url": "https://www.israelhayom.co.il/news/law"
+      },
+      {
+        "text": "פוליטי-מדיני",
+        "url": "https://www.israelhayom.co.il/news/geopolitics"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il/"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "תיירות",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "אופנה ולייף סטייל",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "טכנולוגיה",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "כלכלה וצרכנות",
+        "url": "https://www.israelhayom.co.il/economy"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "דף הבית",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "זמני כניסת וצאת שבת",
+        "url": "https://www.israelhayom.co.il/judaism/shabat-times"
+      },
+      {
+        "text": "מגזין השבוע",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "בחירות 2026",
+        "url": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "text": "אודות",
+        "url": "https://www.israelhayom.co.il/about"
+      },
+      {
+        "text": "צור קשר",
+        "url": "https://www.israelhayom.co.il/contact-us"
+      },
+      {
+        "text": "נבחרת הכתבים והפרשנים",
+        "url": "https://www.israelhayom.co.il/journalists"
+      },
+      {
+        "text": "מדיניות פרטיות",
+        "url": "https://www.israelhayom.co.il/privacy_policy"
+      },
+      {
+        "text": "הצהרת נגישות",
+        "url": "https://www.israelhayom.co.il/accessibility-statement"
+      },
+      {
+        "text": "תנאי שימוש",
+        "url": "https://www.israelhayom.co.il/terms"
+      },
+      {
+        "text": "Hosted by SPD",
+        "url": "https://www.spd.co.il"
+      },
+      {
+        "text": "",
+        "url": "https://www.facebook.com/IsraelHayom/"
+      },
+      {
+        "text": "",
+        "url": "https://twitter.com/IsraelHayomHeb"
+      },
+      {
+        "text": "",
+        "url": "https://www.instagram.com/israelhayom/"
+      },
+      {
+        "text": "בארץ",
+        "url": "https://www.israelhayom.co.il/news/local"
+      },
+      {
+        "text": "בעולם",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "ביטחוני",
+        "url": "https://www.israelhayom.co.il/news/defense"
+      },
+      {
+        "text": "פוליטי",
+        "url": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "text": "פלילים",
+        "url": "https://www.israelhayom.co.il/news/crime"
+      },
+      {
+        "text": "בריאות",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "חינוך",
+        "url": "https://www.israelhayom.co.il/news/education"
+      },
+      {
+        "text": "משפט",
+        "url": "https://www.israelhayom.co.il/news/law"
+      },
+      {
+        "text": "פוליטי-מדיני",
+        "url": "https://www.israelhayom.co.il/news/geopolitics"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il/"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "תיירות",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "אופנה ולייף סטייל",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "טכנולוגיה",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "כלכלה וצרכנות",
+        "url": "https://www.israelhayom.co.il/economy"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "דף הבית",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "זמני כניסת וצאת שבת",
+        "url": "https://www.israelhayom.co.il/judaism/shabat-times"
+      },
+      {
+        "text": "מגזין השבוע",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "בחירות 2026",
+        "url": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "text": "אודות",
+        "url": "https://www.israelhayom.co.il/about"
+      },
+      {
+        "text": "צור קשר",
+        "url": "https://www.israelhayom.co.il/contact-us"
+      },
+      {
+        "text": "נבחרת הכתבים והפרשנים",
+        "url": "https://www.israelhayom.co.il/journalists"
+      },
+      {
+        "text": "מדיניות פרטיות",
+        "url": "https://www.israelhayom.co.il/privacy_policy"
+      },
+      {
+        "text": "הצהרת נגישות",
+        "url": "https://www.israelhayom.co.il/accessibility-statement"
+      },
+      {
+        "text": "תנאי שימוש",
+        "url": "https://www.israelhayom.co.il/terms"
+      },
+      {
+        "text": "Hosted by SPD",
+        "url": "https://www.spd.co.il"
+      },
+      {
+        "text": "",
+        "url": "https://www.facebook.com/IsraelHayom/"
+      },
+      {
+        "text": "",
+        "url": "https://twitter.com/IsraelHayomHeb"
+      },
+      {
+        "text": "",
+        "url": "https://www.instagram.com/israelhayom/"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "robots",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "googlebot",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "description",
+        "content": "האתר הרשמי של היום. חדשות ועדכונים שוטפים מהארץ ומהעולם, מבזקים, בידור, פוליטיקה, בריאות, רכילות, אוכל, כלכלה, צרכנות ועוד | דף הבית"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.israelhayom.co.il/"
+      },
+      {
+        "property": "og:title",
+        "content": "היום: חדשות, דעות, תרבות, ספורט, כלכלה מהארץ והעולם"
+      },
+      {
+        "property": "og:description",
+        "content": "האתר הרשמי של היום. חדשות ועדכונים שוטפים מהארץ ומהעולם, מבזקים, בידור, פוליטיקה, בריאות, רכילות, אוכל, כלכלה, צרכנות ועוד | דף הבית"
+      },
+      {
+        "property": "og:image",
+        "content": "https://www.israelhayom.co.il"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      {
+        "property": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "property": "twitter:description",
+        "content": ""
+      },
+      {
+        "property": "twitter:image",
+        "content": "https://www.israelhayom.co.il"
+      },
+      {
+        "property": "twitter:title",
+        "content": "היום: חדשות, דעות, תרבות, ספורט, כלכלה מהארץ והעולם"
+      },
+      {
+        "property": "twitter:url",
+        "content": "https://www.israelhayom.co.il/"
+      },
+      {
+        "property": "twitter:creator",
+        "content": "@IsraelHayomHeb"
+      },
+      {
+        "name": "keywords",
+        "content": ""
+      },
+      {
+        "name": "abstract",
+        "content": ""
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "next-head-count",
+        "content": "35"
+      }
+    ],
+    "media": [],
+    "access": "readable"
+  },
+  {
+    "name": "israelhayom-politics",
+    "url": "https://www.israelhayom.co.il/news/politics",
+    "checkedAtUtc": "2026-10-08T19:26:15.830690+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/news/politics",
+    "sha256": "914efeec2ef49159bc9e8b2ca320e3c0543c3f76e0e335081239294d3f77b2b4",
+    "bytes": 3587240,
+    "sourceFile": "israelhayom-politics.html",
+    "textFile": "israelhayom-politics.txt",
+    "textLength": 5233,
+    "links": [
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "חדשות",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "מגזין",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "אנחנו מגייסים",
+        "url": "https://www.israelhayom.co.il/careers"
+      },
+      {
+        "text": "English",
+        "url": "https://www.israelhayom.com"
+      },
+      {
+        "text": "לכל המבזקים",
+        "url": "https://www.israelhayom.co.il/israelnow"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "19 יום לבחירות, לא תאמינו כמה מנדטים עדיין מתנדנדים",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "משה קלוגהפט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a9%d7%94-%d7%a7%d7%95%d7%9c%d7%92%d7%94%d7%a4%d7%98"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584168"
+      },
+      {
+        "text": "מסלים את הטון: נתניהו לרוטמן - \"אתה נאבק בדיקטטורה המשפטית\" | צפו",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584168"
+      },
+      {
+        "text": "אלינור שירקני-קופמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%99%d7%a8%d7%a7%d7%a0%d7%99-%d7%a7%d7%95%d7%a4%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583998"
+      },
+      {
+        "text": "איזנקוט בעקבות הראיון של אבי גיל ב\"היום\": יש לפתוח בחקירה פלילית",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583998"
+      },
+      {
+        "text": "אלינור שירקני-קופמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%99%d7%a8%d7%a7%d7%a0%d7%99-%d7%a7%d7%95%d7%a4%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "19 יום לבחירות, לא תאמינו כמה מנדטים עדיין מתנדנדים",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "משה קלוגהפט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a9%d7%94-%d7%a7%d7%95%d7%9c%d7%92%d7%94%d7%a4%d7%98"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584168"
+      },
+      {
+        "text": "מסלים את הטון: נתניהו לרוטמן - \"אתה נאבק בדיקטטורה המשפטית\" | צפו",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584168"
+      },
+      {
+        "text": "אלינור שירקני-קופמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%99%d7%a8%d7%a7%d7%a0%d7%99-%d7%a7%d7%95%d7%a4%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583546"
+      },
+      {
+        "text": "\"היתה בגידה?\": התשובה שהיממה את חילי טרופר - והתגובה שלו",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583546"
+      },
+      {
+        "text": "אילי זילברברג",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%99%d7%9c%d7%99-%d7%96%d7%99%d7%9c%d7%91%d7%a8%d7%91%d7%a8%d7%92"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583400"
+      },
+      {
+        "text": "הקונספירציה של ש\"ס: \"אנשי מחאת קפלן מממנים את הפגנות החרדים\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583400"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/ih-flash-writer"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579963"
+      },
+      {
+        "text": "משה פייגלין ללא פילטר: \"הייתי שמח לרוץ עם וינטר\" | ראיון",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579963"
+      },
+      {
+        "text": "יותם דשא",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%95%d7%aa%d7%9d-%d7%93%d7%a9%d7%90"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579965"
+      },
+      {
+        "text": "הקרב על הקול הרוסי: בן גביר מסתער על המעוז של ליברמן",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579965"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "text": "עופר וינטר מתחת לאחוז החסימה, הנדל וזליכה יציבים | סקר מנדטים",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "text": "שירית אביטן כהן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a9%d7%99%d7%a8%d7%99%d7%aa-%d7%90%d7%91%d7%99%d7%98%d7%9f-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579643"
+      },
+      {
+        "text": "הנדל מציע לווינטר: \"גוש חוסם לממשלות לא ציוניות\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579643"
+      },
+      {
+        "text": "אילי זילברברג",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%99%d7%9c%d7%99-%d7%96%d7%99%d7%9c%d7%91%d7%a8%d7%91%d7%a8%d7%92"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579147"
+      },
+      {
+        "text": "סמוטריץ' שילב ילדים בתעמולת בחירות - ונקנס ב-10,000 שקלים",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21579147"
+      },
+      {
+        "text": "אלינור שירקני-קופמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%99%d7%a8%d7%a7%d7%a0%d7%99-%d7%a7%d7%95%d7%a4%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21578832"
+      },
+      {
+        "text": "אחותו של ראש השב\"כ דוד זיני: \"את המחלקה היהודית צריך לסגור - וזה יהיה\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21578832"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21578588"
+      },
+      {
+        "text": "המתקפה של הרב יצחק יוסף וש״ס: ״אסור לתת כוח לבן גביר\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21578588"
+      },
+      {
+        "text": "יעקב הרשקוביץ",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%a2%d7%a7%d7%91-%d7%94%d7%a8%d7%a9%d7%a7%d7%95%d7%91%d7%99%d7%a5"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21577698"
+      },
+      {
+        "text": "ראשי הישיבות מתגייסים למען סמוטריץ' - אך לא ברור שהחוק מתיר זאת",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21577698"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21577530"
+      },
+      {
+        "text": "איזנקוט ובנט תוקפים: \"צריך ללכת הביתה - חקירה פלילית צריכה להיפתח\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21577530"
+      },
+      {
+        "text": "אילי זילברברג",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%99%d7%9c%d7%99-%d7%96%d7%99%d7%9c%d7%91%d7%a8%d7%91%d7%a8%d7%92"
+      },
+      {
+        "text": "*",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21568484"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21577139"
+      },
+      {
+        "text": "התרעת פיקוד העורף בקמפיין פוליטי: וינטר תוקף את נתניהו וכ״ץ",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21577139"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21576019"
+      },
+      {
+        "text": "קללות, נאצות ומתקפה על בנה שנפל: ללי דרעי חושפת מה עברה מאז כניסתה לפוליטיקה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21576019"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21575835"
+      },
+      {
+        "text": "בקואליציה טענו שבקשותיהם להגיע לטקסים נדחו - בדיקת \"היום\" חושפת סיפור שונה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21575835"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "הודיה בושרי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%94%d7%95%d7%93%d7%99%d7%94-%d7%91%d7%95%d7%a9%d7%a8%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21575745"
+      },
+      {
+        "text": "הליכוד נגד ערוץ 12: \"משדר תעמולה שקרית פוליטית נגד ראש הממשלה\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21575745"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21574085"
+      },
+      {
+        "text": "בזמן שהממשלה נעדרה: וינטר והנדל הגיעו לטקס בקיבוץ בארי",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21574085"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21572631"
+      },
+      {
+        "text": "שלוש שנים לטבח: נציג אחד בלבד מהקואליציה הגיע היום לעוטף עזה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21572631"
+      },
+      {
+        "text": "הודיה בושרי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%94%d7%95%d7%93%d7%99%d7%94-%d7%91%d7%95%d7%a9%d7%a8%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21572407"
+      },
+      {
+        "text": "אמירה בעייתית נוספת של יוסף חדאד: ‏״לסגת מכל סנטימטר בעזה\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21572407"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21571774"
+      },
+      {
+        "text": "שיתוף הפעולה שינסה להביא את מצביעי הימין לקלפי",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21571774"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21567767"
+      },
+      {
+        "text": "\"ישראל בקרוב מאוד תחדל להיות המדינה שאנחנו מכירים\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21567767"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21567310"
+      },
+      {
+        "text": "תעמולה מבסיס חיל האוויר: ועדת הבחירות המרכזית בהחלטה נגד נתניהו",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21567310"
+      },
+      {
+        "text": "אלינור שירקני-קופמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%99%d7%a8%d7%a7%d7%a0%d7%99-%d7%a7%d7%95%d7%a4%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21566544"
+      },
+      {
+        "text": "גילינו למה האופוזיציה איבדה גובה ולמה נתניהו לא מזנק",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21566544"
+      },
+      {
+        "text": "עמית סגל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%9e%d7%99%d7%aa-%d7%a1%d7%92%d7%9c"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21566310"
+      },
+      {
+        "text": "פשרה בעתירת הליכוד: מיזם Fly&Vote לא יציע טיסות נוספות לקראת הבחירות",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21566310"
+      },
+      {
+        "text": "אלינור שירקני-קופמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%99%d7%a8%d7%a7%d7%a0%d7%99-%d7%a7%d7%95%d7%a4%d7%9e%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21564949"
+      },
+      {
+        "text": "בנט כבש את התיכוניסטים בגבעתיים, ומדוע הליכוד לא שלחו נציג?",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21564949"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21563100"
+      },
+      {
+        "text": "ח\"כ מיש עתיד: \"אם לטלי גוטליב היו קוראים אחמד טיבי היא כבר הייתה בכלא\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21563100"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21561929"
+      },
+      {
+        "text": "מחלוקת בגוש השינוי סביב עופר וינטר - בנט תוקף: \"הוא נשבע אמונים לנתניהו\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21561929"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21559934"
+      },
+      {
+        "text": "מנהיג הציבור הליטאי הרב לנדו על רינה מצליח: \"רק שונא פרימיטיבי מדבר ככה\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21559934"
+      },
+      {
+        "text": "יעקב הרשקוביץ",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%a2%d7%a7%d7%91-%d7%94%d7%a8%d7%a9%d7%a7%d7%95%d7%91%d7%99%d7%a5"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21559882"
+      },
+      {
+        "text": "יום אחרי המהומה: יוסף חדאד לא הופיע בפרסום של \"עמך ישראל\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21559882"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558612"
+      },
+      {
+        "text": "יו\"ר יהדות התורה ל\"היום\": \"זו הסיבה שלא אקרא לחרדים להתגייס\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558612"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558334"
+      },
+      {
+        "text": "פרקליטו לשעבר של נתניהו: \"הוא בגד בכולם\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558334"
+      },
+      {
+        "text": "דין ברנדשטטר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%99%d7%9f-%d7%91%d7%a8%d7%a0%d7%93%d7%a9%d7%98%d7%98%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558144"
+      },
+      {
+        "text": "\"מקורבו של הנייה\"? העיתונאי שלומי אלדר מאיים בתביעה על השר שיקלי",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558144"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558142"
+      },
+      {
+        "text": "איציק בונצל על איזנקוט: \"שלח את בנינו להילחם – וברח באמצע\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21558142"
+      },
+      {
+        "text": "אילי זילברברג",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%99%d7%9c%d7%99-%d7%96%d7%99%d7%9c%d7%91%d7%a8%d7%91%d7%a8%d7%92"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21557821"
+      },
+      {
+        "text": "גנץ חושש מכישלון הקמפיין - ורומז לצעד שעשוי להציל את הגוש",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21557821"
+      },
+      {
+        "text": "אילי זילברברג",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%99%d7%9c%d7%99-%d7%96%d7%99%d7%9c%d7%91%d7%a8%d7%91%d7%a8%d7%92"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21556906"
+      },
+      {
+        "text": "משכילות יותר, ותיקות פחות: כך נראות הנשים שבדרך לכנסת",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21556906"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21556232"
+      },
+      {
+        "text": "למה דווקא עכשיו? הגורמים שהציפו את הסרטון של יוסף חדאד - והמטרה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21556232"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21554881"
+      },
+      {
+        "text": "בלי בושה: הרשימה המשותפת תשיק קמפיין - ביום הזיכרון הממלכתי לטבח",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21554881"
+      },
+      {
+        "text": "דין ברנדשטטר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%99%d7%9f-%d7%91%d7%a8%d7%a0%d7%93%d7%a9%d7%98%d7%98%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21553822"
+      },
+      {
+        "text": "הלחץ בימין גובר - וינטר כינס מסיבת עיתונאים: \"אין אחד שלוקח אחריות\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21553822"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21552944"
+      },
+      {
+        "text": "\"הציבור יכריע\": איזנקוט מזמין את נתניהו לעימות טלוויזיוני",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21552944"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21549997"
+      },
+      {
+        "text": "בכירים בליכוד מגיבים לסערת יוסף חדאד: \"הדברים מדברים בעד עצמם\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21549997"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21550453"
+      },
+      {
+        "text": "בנט במתקפה על נתניהו ורגב: \"קו ישיר בין מחדל המטוס ל-7 באוקטובר\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21550453"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21549264"
+      },
+      {
+        "text": "וינטר על סערת חדאד: \"מי שלא שינה את עמדותיו אחרי 7 באוקטובר - בור וטיפש\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21549264"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21548432"
+      },
+      {
+        "text": "בנט לאחר דברי פרוש וחשיפת \"היום\": \"מי שלא משרת לא יקבל שקל מהמדינה\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21548432"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "יעקב הרשקוביץ",
+        "url": "https://www.israelhayom.co.il/writer/%d7%99%d7%a2%d7%a7%d7%91-%d7%94%d7%a8%d7%a9%d7%a7%d7%95%d7%91%d7%99%d7%a5"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21547947"
+      },
+      {
+        "text": "לא מעידה חד פעמית: גם אחרי \"שומר החומות\" יוסף חדאד תמך במדינה פלסטינית",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21547947"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "יוסף חדאד ממזער נזקים: \"שיניתי דעתי על מדינה פלסטינית אחרי 'שומר החומות'\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21546878"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21545322"
+      },
+      {
+        "text": "איזנקוט תוקף: \"אירוע פליי-דובאי - מחדל ענק. רגב נכשלה כישלון חרוץ\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21545322"
+      },
+      {
+        "text": "דין ברנדשטטר",
+        "url": "https://www.israelhayom.co.il/writer/%d7%93%d7%99%d7%9f-%d7%91%d7%a8%d7%a0%d7%93%d7%a9%d7%98%d7%98%d7%a8"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21544984"
+      },
+      {
+        "text": "יוסף חדאד בראיון עבר: \"הפתרון הסופי אינשאללה - הוא מדינה פלסטינית\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21544984"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21545047"
+      },
+      {
+        "text": "למרות התנגדות הדרג המקצועי: מחיר הדלק יירד הלילה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21545047"
+      },
+      {
+        "text": "ניצן כהן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%99%d7%a6%d7%9f-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21544879"
+      },
+      {
+        "text": "יו\"ר מפלגת המשותפת: \"הפצצות בלתי אנושיות בעזה, ראינו זוועות\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21544879"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/ih-flash-writer"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21543131"
+      },
+      {
+        "text": "\"יותר מ-5 מנדטים\": גנץ מתעקש שיתמודד, ייפגש עם איזנקוט?",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21543131"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21543090"
+      },
+      {
+        "text": "האמירה של יאיר גולן - והתגובה הזועמת של ליברמן: \"הוא כנראה בלחץ\"",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21543090"
+      },
+      {
+        "text": "ביני אשכנזי",
+        "url": "https://www.israelhayom.co.il/writer/%d7%91%d7%99%d7%a0%d7%99-%d7%90%d7%a9%d7%9b%d7%a0%d7%96%d7%99"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21541877"
+      },
+      {
+        "text": "ניסיון ההטעיה השקוף של נתניהו רגע לפני הבחירות",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21541877"
+      },
+      {
+        "text": "נחמה דואק",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a0%d7%97%d7%9e%d7%94-%d7%93%d7%95%d7%90%d7%a7"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21539208"
+      },
+      {
+        "text": "\"נחסום את טיבי לזכר עראפת\": אחות של דוד זיני הצטרפה למרדכי דוד | צפו",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21539208"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21538659"
+      },
+      {
+        "text": "\"איך זה לא עונש מאסר?!\": סערה סביב שיחת ה\"ברא ברא\" של בן גביר",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21538659"
+      },
+      {
+        "text": "מערכת היום",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a2%d7%a8%d7%9b%d7%aa-%d7%99%d7%a9%d7%a8%d7%90%d7%9c-%d7%94%d7%99%d7%95%d7%9d"
+      },
+      {
+        "text": "בארץ",
+        "url": "https://www.israelhayom.co.il/news/local"
+      },
+      {
+        "text": "בעולם",
+        "url": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "text": "ביטחוני",
+        "url": "https://www.israelhayom.co.il/news/defense"
+      },
+      {
+        "text": "פוליטי",
+        "url": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "text": "פלילים",
+        "url": "https://www.israelhayom.co.il/news/crime"
+      },
+      {
+        "text": "בריאות",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "חינוך",
+        "url": "https://www.israelhayom.co.il/news/education"
+      },
+      {
+        "text": "משפט",
+        "url": "https://www.israelhayom.co.il/news/law"
+      },
+      {
+        "text": "פוליטי-מדיני",
+        "url": "https://www.israelhayom.co.il/news/geopolitics"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il/"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "תיירות",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "אופנה ולייף סטייל",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "טכנולוגיה",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "כלכלה וצרכנות",
+        "url": "https://www.israelhayom.co.il/economy"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "דף הבית",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "זמני כניסת וצאת שבת",
+        "url": "https://www.israelhayom.co.il/judaism/shabat-times"
+      },
+      {
+        "text": "מגזין השבוע",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "בחירות 2026",
+        "url": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "text": "אודות",
+        "url": "https://www.israelhayom.co.il/about"
+      },
+      {
+        "text": "צור קשר",
+        "url": "https://www.israelhayom.co.il/contact-us"
+      },
+      {
+        "text": "נבחרת הכתבים והפרשנים",
+        "url": "https://www.israelhayom.co.il/journalists"
+      },
+      {
+        "text": "מדיניות פרטיות",
+        "url": "https://www.israelhayom.co.il/privacy_policy"
+      },
+      {
+        "text": "הצהרת נגישות",
+        "url": "https://www.israelhayom.co.il/accessibility-statement"
+      },
+      {
+        "text": "תנאי שימוש",
+        "url": "https://www.israelhayom.co.il/terms"
+      },
+      {
+        "text": "Hosted by SPD",
+        "url": "https://www.spd.co.il"
+      },
+      {
+        "text": "",
+        "url": "https://www.facebook.com/IsraelHayom/"
+      },
+      {
+        "text": "",
+        "url": "https://twitter.com/IsraelHayomHeb"
+      },
+      {
+        "text": "",
+        "url": "https://www.instagram.com/israelhayom/"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "robots",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "googlebot",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "description",
+        "content": "מדור חדשות פוליטיקה היום - כל החדשות והדיווחים החמים על התחום המדיני בישראל ויחסי החוץ של ממשלת ישראל עם העולם. לכל העדכונים היכנסו לאתר היום"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "property": "og:title",
+        "content": "פוליטי"
+      },
+      {
+        "property": "og:description",
+        "content": "מדור חדשות פוליטיקה היום - כל החדשות והדיווחים החמים על התחום המדיני בישראל ויחסי החוץ של ממשלת ישראל עם העולם. לכל העדכונים היכנסו לאתר היום"
+      },
+      {
+        "property": "og:image",
+        "content": "https://www.israelhayom.co.il"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      {
+        "property": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "property": "twitter:description",
+        "content": ""
+      },
+      {
+        "property": "twitter:image",
+        "content": "https://www.israelhayom.co.il"
+      },
+      {
+        "property": "twitter:title",
+        "content": "פוליטי"
+      },
+      {
+        "property": "twitter:url",
+        "content": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "property": "twitter:creator",
+        "content": "@IsraelHayomHeb"
+      },
+      {
+        "name": "keywords",
+        "content": ""
+      },
+      {
+        "name": "abstract",
+        "content": ""
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "next-head-count",
+        "content": "36"
+      }
+    ],
+    "media": [],
+    "access": "readable"
+  },
+  {
+    "name": "israelhayom-elections",
+    "url": "https://www.israelhayom.co.il/news/politics/election2026",
+    "checkedAtUtc": "2026-10-08T19:26:15.831691+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/news/politics/election2026",
+    "sha256": "44074db1395ab1b5fbab3e8412a13f7ba1d3b3d12aec7976b9940d2cfe1d9d63",
+    "bytes": 1780344,
+    "sourceFile": "israelhayom-elections.html",
+    "textFile": "israelhayom-elections.txt",
+    "textLength": 3583,
+    "links": [
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "חדשות",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "מגזין",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "אנחנו מגייסים",
+        "url": "https://www.israelhayom.co.il/careers"
+      },
+      {
+        "text": "English",
+        "url": "https://www.israelhayom.com"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "משה קלוגהפט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a9%d7%94-%d7%a7%d7%95%d7%9c%d7%92%d7%94%d7%a4%d7%98"
+      },
+      {
+        "text": "19 יום לבחירות, לא תאמינו כמה מנדטים עדיין מתנדנדים",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583998"
+      },
+      {
+        "text": "אלינור שירקני-קופמן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%9c%d7%99%d7%a0%d7%95%d7%a8-%d7%a9%d7%99%d7%a8%d7%a7%d7%a0%d7%99-%d7%a7%d7%95%d7%a4%d7%9e%d7%9f"
+      },
+      {
+        "text": "איזנקוט בעקבות הראיון של אבי גיל ב\"היום\": יש לפתוח בחקירה פלילית",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583998"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21575990"
+      },
+      {
+        "text": "עמית סגל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%9e%d7%99%d7%aa-%d7%a1%d7%92%d7%9c"
+      },
+      {
+        "text": "לישראל נשארו שנתיים לפעול - אחר כך יהיה מאוחר מדי",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21575990"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583546"
+      },
+      {
+        "text": "אילי זילברברג",
+        "url": "https://www.israelhayom.co.il/writer/%d7%90%d7%99%d7%9c%d7%99-%d7%96%d7%99%d7%9c%d7%91%d7%a8%d7%91%d7%a8%d7%92"
+      },
+      {
+        "text": "\"היתה בגידה?\": התשובה שהיממה את חילי טרופר - והתגובה שלו",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21583546"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/electionmonitor26?utm_source=elections_page&utm_medium=internal&utm_campaign=election_monitor_2026"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21575990"
+      },
+      {
+        "text": "עמית סגל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%9e%d7%99%d7%aa-%d7%a1%d7%92%d7%9c"
+      },
+      {
+        "text": "לישראל נשארו שנתיים לפעול - אחר כך יהיה מאוחר מדי",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21575990"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21575752"
+      },
+      {
+        "text": "עמית סגל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%9e%d7%99%d7%aa-%d7%a1%d7%92%d7%9c"
+      },
+      {
+        "text": "נתניהו וגם איזנקוט בטוחים שהם מנצחים - אחד מהם עושה את טעות חייו",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21575752"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21566544"
+      },
+      {
+        "text": "עמית סגל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%9e%d7%99%d7%aa-%d7%a1%d7%92%d7%9c"
+      },
+      {
+        "text": "גילינו למה האופוזיציה איבדה גובה ולמה נתניהו לא מזנק",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21566544"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21533931"
+      },
+      {
+        "text": "עמית סגל",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a2%d7%9e%d7%99%d7%aa-%d7%a1%d7%92%d7%9c"
+      },
+      {
+        "text": "האירוע שמתקרב בצעדי ענק - בזמן שכולם עסוקים במלחמה בין הגושים",
+        "url": "https://www.israelhayom.co.il/magazine/hashavua/article/21533931"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/geopolitics/article/21338353"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/geopolitics/article/21177414"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/geopolitics/article/21312941"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21168376"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/20825355"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/20736996"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21143612"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21143612"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21162935"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21087660"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21087660"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21080347"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21077824"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21081179"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21046127"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/israelnow/article/21027165"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21000443"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21024202"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/20931010"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/20936165"
+      },
+      {
+        "text": "| לצפייה בכתבה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/20931010"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "משה קלוגהפט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a9%d7%94-%d7%a7%d7%95%d7%9c%d7%92%d7%94%d7%a4%d7%98"
+      },
+      {
+        "text": "19 יום לבחירות, לא תאמינו כמה מנדטים עדיין מתנדנדים",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21584295"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21534196"
+      },
+      {
+        "text": "משה קלוגהפט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a9%d7%94-%d7%a7%d7%95%d7%9c%d7%92%d7%94%d7%a4%d7%98"
+      },
+      {
+        "text": "המנהיגים רבים בקוקפיט, התמיכה בממשלת אחדות ממריאה",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21534196"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21482500"
+      },
+      {
+        "text": "משה קלוגהפט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a9%d7%94-%d7%a7%d7%95%d7%9c%d7%92%d7%94%d7%a4%d7%98"
+      },
+      {
+        "text": "איזנקוט מוליך את הגוש לנקודת אל-חזור",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21482500"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21445720"
+      },
+      {
+        "text": "משה קלוגהפט",
+        "url": "https://www.israelhayom.co.il/writer/%d7%9e%d7%a9%d7%94-%d7%a7%d7%95%d7%9c%d7%92%d7%94%d7%a4%d7%98"
+      },
+      {
+        "text": "אחרי חמש מערכת בחירות: זו הטלטלה שצפויה בכנסת",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21445720"
+      },
+      {
+        "text": "בארץ",
+        "url": "https://www.israelhayom.co.il/news/local"
+      },
+      {
+        "text": "בעולם",
+        "url": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "text": "ביטחוני",
+        "url": "https://www.israelhayom.co.il/news/defense"
+      },
+      {
+        "text": "פוליטי",
+        "url": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "text": "פלילים",
+        "url": "https://www.israelhayom.co.il/news/crime"
+      },
+      {
+        "text": "בריאות",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "חינוך",
+        "url": "https://www.israelhayom.co.il/news/education"
+      },
+      {
+        "text": "משפט",
+        "url": "https://www.israelhayom.co.il/news/law"
+      },
+      {
+        "text": "פוליטי-מדיני",
+        "url": "https://www.israelhayom.co.il/news/geopolitics"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il/"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "תיירות",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "אופנה ולייף סטייל",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "טכנולוגיה",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "כלכלה וצרכנות",
+        "url": "https://www.israelhayom.co.il/economy"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "דף הבית",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "זמני כניסת וצאת שבת",
+        "url": "https://www.israelhayom.co.il/judaism/shabat-times"
+      },
+      {
+        "text": "מגזין השבוע",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "בחירות 2026",
+        "url": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "text": "אודות",
+        "url": "https://www.israelhayom.co.il/about"
+      },
+      {
+        "text": "צור קשר",
+        "url": "https://www.israelhayom.co.il/contact-us"
+      },
+      {
+        "text": "נבחרת הכתבים והפרשנים",
+        "url": "https://www.israelhayom.co.il/journalists"
+      },
+      {
+        "text": "מדיניות פרטיות",
+        "url": "https://www.israelhayom.co.il/privacy_policy"
+      },
+      {
+        "text": "הצהרת נגישות",
+        "url": "https://www.israelhayom.co.il/accessibility-statement"
+      },
+      {
+        "text": "תנאי שימוש",
+        "url": "https://www.israelhayom.co.il/terms"
+      },
+      {
+        "text": "Hosted by SPD",
+        "url": "https://www.spd.co.il"
+      },
+      {
+        "text": "",
+        "url": "https://www.facebook.com/IsraelHayom/"
+      },
+      {
+        "text": "",
+        "url": "https://twitter.com/IsraelHayomHeb"
+      },
+      {
+        "text": "",
+        "url": "https://www.instagram.com/israelhayom/"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "robots",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "googlebot",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "description",
+        "content": "כל מה שצריך לדעת על בחירות 2026 לכנסת ה-26: סקרי מנדטים, מפת הגושים, הצהרות המפלגות והמועמדים המובילים - סיקור שוטף ומעמיק של המרוץ לכנסת באתר היום."
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "property": "og:title",
+        "content": "בחירות לכנסת 2026"
+      },
+      {
+        "property": "og:description",
+        "content": "כל מה שצריך לדעת על בחירות 2026 לכנסת ה-26: סקרי מנדטים, מפת הגושים, הצהרות המפלגות והמועמדים המובילים - סיקור שוטף ומעמיק של המרוץ לכנסת באתר היום."
+      },
+      {
+        "property": "og:image",
+        "content": "https://www.israelhayom.co.il"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      {
+        "property": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "property": "twitter:description",
+        "content": ""
+      },
+      {
+        "property": "twitter:image",
+        "content": "https://www.israelhayom.co.il"
+      },
+      {
+        "property": "twitter:title",
+        "content": "בחירות לכנסת 2026"
+      },
+      {
+        "property": "twitter:url",
+        "content": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "property": "twitter:creator",
+        "content": "@IsraelHayomHeb"
+      },
+      {
+        "name": "keywords",
+        "content": ""
+      },
+      {
+        "name": "abstract",
+        "content": ""
+      },
+      {
+        "property": "og:type",
+        "content": "website"
+      },
+      {
+        "name": "next-head-count",
+        "content": "36"
+      }
+    ],
+    "media": [],
+    "access": "readable"
+  },
+  {
+    "name": "israelhayom-2026-10-08-original",
+    "url": "https://www.israelhayom.co.il/news/politics/article/21582636",
+    "checkedAtUtc": "2026-10-08T19:26:15.831691+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+    "sha256": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3",
+    "bytes": 938352,
+    "sourceFile": "israelhayom-2026-10-08-original.html",
+    "textFile": "israelhayom-2026-10-08-original.txt",
+    "textLength": 6455,
+    "links": [
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "חדשות",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.forreal.co.il"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "מגזין",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "אנחנו מגייסים",
+        "url": "https://www.israelhayom.co.il/careers"
+      },
+      {
+        "text": "English",
+        "url": "https://www.israelhayom.com"
+      },
+      {
+        "text": "היום",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "חדשות",
+        "url": "https://www.israelhayom.co.il/news"
+      },
+      {
+        "text": "פוליטי",
+        "url": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "text": "",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a9%d7%99%d7%a8%d7%99%d7%aa-%d7%90%d7%91%d7%99%d7%98%d7%9f-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "שירית אביטן כהן",
+        "url": "https://www.israelhayom.co.il/writer/%d7%a9%d7%99%d7%a8%d7%99%d7%aa-%d7%90%d7%91%d7%99%d7%98%d7%9f-%d7%9b%d7%94%d7%9f"
+      },
+      {
+        "text": "0",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "text": "",
+        "url": "https://appslink.israelhayom.com/applink?target_app=ilh"
+      },
+      {
+        "text": ">>מצפן הבחירות: היכנסו לבדוק איזו מפלגה באמת מייצגת אתכם | מיוחד<<",
+        "url": "https://www.israelhayom.co.il/electionsquiz"
+      },
+      {
+        "text": ">>פולימרקט, מדד הבאזז וכל הסקרים במקום אחד: מוניטור הבחירות של \"היום\"<<",
+        "url": "https://www.israelhayom.co.il/electionsquiz"
+      },
+      {
+        "text": "טעינו? נתקן! אם מצאתם טעות בכתבה, נשמח שתשתפו אותנו",
+        "url": "mailto:error@israelhayom.co.il?subject=/news/politics/article/21582636 כותרת הכתבה: עופר וינטר מתחת לאחוז החסימה, הנדל וזליכה יציבים | סקר מנדטים"
+      },
+      {
+        "text": "עקבו אחרינו G o o g l e News",
+        "url": "https://news.google.com/publications/CAAqLQgKIidDQklTRndnTWFoTUtFV2x6Y21GbGJHaGhlVzl0TG1OdkxtbHNLQUFQAQ?hl=he&gl=IL&ceid=IL%3Ahe"
+      },
+      {
+        "text": "בחירות 2026",
+        "url": "https://www.israelhayom.co.il/tag/election-2026"
+      },
+      {
+        "text": "סקר מנדטים",
+        "url": "https://www.israelhayom.co.il/tag/%d7%a1%d7%a7%d7%a8-%d7%9e%d7%a0%d7%93%d7%98%d7%99%d7%9d"
+      },
+      {
+        "text": "ספורט",
+        "url": "https://www.israelhayom.co.il/sport"
+      },
+      {
+        "text": "תרבות ובידור",
+        "url": "https://www.israelhayom.co.il/culture"
+      },
+      {
+        "text": "לייף סטייל",
+        "url": "https://www.israelhayom.co.il/lifestyle"
+      },
+      {
+        "text": "אוכל",
+        "url": "https://www.israelhayom.co.il/food"
+      },
+      {
+        "text": "תיירות",
+        "url": "https://www.israelhayom.co.il/travel"
+      },
+      {
+        "text": "טכנולוגיה ומדע",
+        "url": "https://www.israelhayom.co.il/tech"
+      },
+      {
+        "text": "הורוסקופ",
+        "url": "https://www.israelhayom.co.il/horoscopes"
+      },
+      {
+        "text": "ForReal",
+        "url": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "text": "מגזין השבוע",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "דעות",
+        "url": "https://www.israelhayom.co.il/opinions"
+      },
+      {
+        "text": "חדשות בארץ",
+        "url": "https://www.israelhayom.co.il/news/local"
+      },
+      {
+        "text": "חדשות בעולם",
+        "url": "https://www.israelhayom.co.il/news/world-news"
+      },
+      {
+        "text": "פוליטי",
+        "url": "https://www.israelhayom.co.il/news/politics"
+      },
+      {
+        "text": "ביטחוני",
+        "url": "https://www.israelhayom.co.il/news/defense"
+      },
+      {
+        "text": "חינוך",
+        "url": "https://www.israelhayom.co.il/news/education"
+      },
+      {
+        "text": "בריאות",
+        "url": "https://www.israelhayom.co.il/news/health"
+      },
+      {
+        "text": "משפט",
+        "url": "https://www.israelhayom.co.il/news/law"
+      },
+      {
+        "text": "תחבורה",
+        "url": "https://www.israelhayom.co.il/news/transportation"
+      },
+      {
+        "text": "פוליטי-מדיני",
+        "url": "https://www.israelhayom.co.il/news/geopolitics"
+      },
+      {
+        "text": "דף הבית",
+        "url": "https://www.israelhayom.co.il/"
+      },
+      {
+        "text": "זמני כניסת וצאת שבת",
+        "url": "https://www.israelhayom.co.il/judaism/shabat-times"
+      },
+      {
+        "text": "מגזין השבוע",
+        "url": "https://www.israelhayom.co.il/magazine"
+      },
+      {
+        "text": "בחירות 2026",
+        "url": "https://www.israelhayom.co.il/news/politics/election2026"
+      },
+      {
+        "text": "אודות",
+        "url": "https://www.israelhayom.co.il/about"
+      },
+      {
+        "text": "צור קשר",
+        "url": "https://www.israelhayom.co.il/contact-us"
+      },
+      {
+        "text": "נבחרת הכתבים והפרשנים",
+        "url": "https://www.israelhayom.co.il/journalists"
+      },
+      {
+        "text": "מדיניות פרטיות",
+        "url": "https://www.israelhayom.co.il/privacy_policy"
+      },
+      {
+        "text": "הצהרת נגישות",
+        "url": "https://www.israelhayom.co.il/accessibility-statement"
+      },
+      {
+        "text": "תנאי שימוש",
+        "url": "https://www.israelhayom.co.il/terms"
+      },
+      {
+        "text": "Hosted by SPD",
+        "url": "https://www.spd.co.il"
+      },
+      {
+        "text": "",
+        "url": "https://www.facebook.com/IsraelHayom/"
+      },
+      {
+        "text": "",
+        "url": "https://twitter.com/IsraelHayomHeb"
+      },
+      {
+        "text": "",
+        "url": "https://www.instagram.com/israelhayom/"
+      },
+      {
+        "text": "אסם-שדרות: מנוע הצמיחה של הדרום זינוק של 25% במלגות לחינוך טכנולוגי והשמה מיידית בתעשייה המקומית בשיתוף אסם-נסטלה",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21387483"
+      },
+      {
+        "text": "להחלים בסלון: התחליף לאשפוז בבית חולים מערך ניטור מתקדם, רופאים עד המיטה והחלמה בטוחה מזיהומים בשיתוף ארגון יד שרה",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21444642"
+      },
+      {
+        "text": "חברת המזון שייצרה מהפכה טכנולוגית פריצת דרך סביבתית: פיתוחי אנרגיה מקוריים, מערכות AI ואפס תלות ברשת החשמל בשיתוף אסם -נסטלה",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21269430"
+      },
+      {
+        "text": "חזרה לשגרה: 4 כללים לחדות ולפוקוס בין ישיבות לילדים: הכלים שיעזרו לכם לשמור על חדות ואנרגיה לאורך היום בשיתוף Be Focus Plus",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21400455"
+      },
+      {
+        "text": "אסם-שדרות: מנוע הצמיחה של הדרום זינוק של 25% במלגות לחינוך טכנולוגי והשמה מיידית בתעשייה המקומית בשיתוף אסם-נסטלה",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21387483"
+      },
+      {
+        "text": "להחלים בסלון: התחליף לאשפוז בבית חולים מערך ניטור מתקדם, רופאים עד המיטה והחלמה בטוחה מזיהומים בשיתוף ארגון יד שרה",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21444642"
+      },
+      {
+        "text": "חברת המזון שייצרה מהפכה טכנולוגית פריצת דרך סביבתית: פיתוחי אנרגיה מקוריים, מערכות AI ואפס תלות ברשת החשמל בשיתוף אסם -נסטלה",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21269430"
+      },
+      {
+        "text": "חזרה לשגרה: 4 כללים לחדות ולפוקוס בין ישיבות לילדים: הכלים שיעזרו לכם לשמור על חדות ואנרגיה לאורך היום בשיתוף Be Focus Plus",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21400455"
+      },
+      {
+        "text": "אסם-שדרות: מנוע הצמיחה של הדרום זינוק של 25% במלגות לחינוך טכנולוגי והשמה מיידית בתעשייה המקומית בשיתוף אסם-נסטלה",
+        "url": "https://www.israelhayom.co.il/you-may-find-interesting/article/21387483"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8"
+      },
+      {
+        "name": "robots",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "googlebot",
+        "content": "index,follow,max-image-preview:large"
+      },
+      {
+        "name": "description",
+        "content": "הקמפיין של בן גביר, שלפיו נתניהו מתרחק ממנו לכיוון ממשלה עם איזנקוט, מתחיל להשתלם והוא מתחזק במנדט • יוקר המחיה מספק להנדל ולזליכה בידול ברור מול שאר המפלגות החדשות • וינטר נשאר מתחת לאחוז החסימה, אך במפלגתו מזהים התאוששות אחרי שבוע של מתקפות • וברקע, רוב מצביעי שני הגושים מעדיפים בחירות חוזרות על פני ממשלת אחדות"
+      },
+      {
+        "property": "og:url",
+        "content": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "property": "og:title",
+        "content": "עופר וינטר מתחת לאחוז החסימה, הנדל וזליכה יציבים | סקר מנדטים | היום"
+      },
+      {
+        "property": "og:description",
+        "content": "הקמפיין של בן גביר, שלפיו נתניהו מתרחק ממנו לכיוון ממשלה עם איזנקוט, מתחיל להשתלם והוא מתחזק במנדט • יוקר המחיה מספק להנדל ולזליכה בידול ברור מול שאר המפלגות החדשות • וינטר נשאר מתחת לאחוז החסימה, אך במפלגתו מזהים התאוששות אחרי שבוע של מתקפות • וברקע, רוב מצביעי שני הגושים מעדיפים בחירות חוזרות על פני ממשלת אחדות"
+      },
+      {
+        "property": "og:image",
+        "content": "https://www.israelhayom.co.il/wp-content/uploads/2026/10/08/rgylh___avrn_bn_chkvn_EPA_gdavn_mrkvbytz_yvsy_zlygr_-1-1280x853.jpg"
+      },
+      {
+        "property": "og:image:width",
+        "content": "1280"
+      },
+      {
+        "property": "og:image:height",
+        "content": "853"
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width, initial-scale=1.0, viewport-fit=cover"
+      },
+      {
+        "property": "twitter:card",
+        "content": "summary_large_image"
+      },
+      {
+        "property": "twitter:description",
+        "content": "הקמפיין של בן גביר, שלפיו נתניהו מתרחק ממנו לכיוון ממשלה עם איזנקוט, מתחיל להשתלם והוא מתחזק במנדט • יוקר המחיה מספק להנדל ולזליכה בידול ברור מול שאר המפלגות החדשות • וינטר נשאר מתחת לאחוז החסימה, אך במפלגתו מזהים התאוששות אחרי שבוע של מתקפות • וברקע, רוב מצביעי שני הגושים מעדיפים בחירות חוזרות על פני ממשלת אחדות"
+      },
+      {
+        "property": "twitter:image",
+        "content": "https://www.israelhayom.co.il/wp-content/uploads/2026/10/08/rgylh___avrn_bn_chkvn_EPA_gdavn_mrkvbytz_yvsy_zlygr_-1-1280x853.jpg"
+      },
+      {
+        "property": "twitter:title",
+        "content": "עופר וינטר מתחת לאחוז החסימה, הנדל וזליכה יציבים | סקר מנדטים | היום"
+      },
+      {
+        "property": "twitter:url",
+        "content": "https://www.israelhayom.co.il/news/politics/article/21582636"
+      },
+      {
+        "property": "twitter:creator",
+        "content": "@IsraelHayomHeb"
+      },
+      {
+        "name": "keywords",
+        "content": "בחירות 2026,סקר מנדטים"
+      },
+      {
+        "name": "abstract",
+        "content": "כללי"
+      },
+      {
+        "property": "og:type",
+        "content": "article"
+      },
+      {
+        "property": "article:published_time",
+        "content": "2026-10-08T15:15:09Z"
+      },
+      {
+        "property": "article:modified_time",
+        "content": "2026-10-08T15:22:52Z"
+      },
+      {
+        "name": "next-head-count",
+        "content": "41"
+      }
+    ],
+    "media": [],
+    "access": "readable"
+  },
+  {
+    "name": "israelpolls-profile",
+    "url": "https://x.com/IsraelPolls?s=20",
+    "checkedAtUtc": "2026-10-08T19:26:15.832196+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/IsraelPolls?s=20",
+    "sha256": "28c5fb00bf64f937d515555e25e5c956cf0ab6f95b4b350f86b599b5d2e8dc0e",
+    "bytes": 129451,
+    "sourceFile": "israelpolls-profile.html",
+    "textFile": "israelpolls-profile.txt",
+    "textLength": 1269,
+    "links": [
+      {
+        "text": "",
+        "url": "https://x.com/"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/"
+      },
+      {
+        "text": "Log in",
+        "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+      },
+      {
+        "text": "Sign up",
+        "url": "https://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+      },
+      {
+        "text": "Log in",
+        "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+      },
+      {
+        "text": "Sign up",
+        "url": "https://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/header_photo"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/photo"
+      },
+      {
+        "text": "uzit.co.il",
+        "url": "https://t.co/1KePBOkzHh"
+      },
+      {
+        "text": "Joined February 2020",
+        "url": "https://x.com/IsraelPolls/about"
+      },
+      {
+        "text": "15 Following",
+        "url": "https://x.com/IsraelPolls/following"
+      },
+      {
+        "text": "1,896 Followers",
+        "url": "https://x.com/IsraelPolls/verified_followers"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/compose/post?text=%40IsraelPolls+"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "Replies Replies",
+        "url": "https://x.com/IsraelPolls/with_replies"
+      },
+      {
+        "text": "Reposts Reposts",
+        "url": "https://x.com/IsraelPolls/reposts"
+      },
+      {
+        "text": "Media Media",
+        "url": "https://x.com/IsraelPolls/media"
+      },
+      {
+        "text": "Continue with phone",
+        "url": "https://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+      },
+      {
+        "text": "Log in with username or email",
+        "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%3Fs%3D20"
+      },
+      {
+        "text": "Terms",
+        "url": "https://x.com/tos"
+      },
+      {
+        "text": "Privacy",
+        "url": "https://x.com/privacy"
+      },
+      {
+        "text": "Cookies",
+        "url": "https://support.x.com/articles/20170514"
+      },
+      {
+        "text": "Accessibility",
+        "url": "https://help.x.com/resources/accessibility"
+      },
+      {
+        "text": "Ads Info",
+        "url": "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "1h",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145/photo/1"
+      },
+      {
+        "text": "1",
+        "url": "https://x.com/compose/post?in_reply_to=2108251564217340145"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "2h",
+        "url": "https://x.com/IsraelPolls/status/2108243221012688996"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2108243221012688996/photo/1"
+      },
+      {
+        "text": "2",
+        "url": "https://x.com/compose/post?in_reply_to=2108243221012688996"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "4h",
+        "url": "https://x.com/IsraelPolls/status/2108213216752881742"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2108213216752881742/photo/1"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2108213216752881742/photo/2"
+      },
+      {
+        "text": "1",
+        "url": "https://x.com/compose/post?in_reply_to=2108213216752881742"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "Oct 7",
+        "url": "https://x.com/IsraelPolls/status/2107891979690643875"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2107891979690643875/photo/1"
+      },
+      {
+        "text": "1",
+        "url": "https://x.com/compose/post?in_reply_to=2107891979690643875"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "Oct 7",
+        "url": "https://x.com/IsraelPolls/status/2107887588119916617"
+      },
+      {
+        "text": "1",
+        "url": "https://x.com/compose/post?in_reply_to=2107887588119916617"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "color-scheme",
+        "content": "light dark"
+      },
+      {
+        "name": "theme-color",
+        "media": "(prefers-color-scheme: light)",
+        "content": "#FFFFFF"
+      },
+      {
+        "name": "theme-color",
+        "media": "(prefers-color-scheme: dark)",
+        "content": "#000000"
+      },
+      {
+        "property": "csp-nonce",
+        "content": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "robots",
+        "content": "index, follow",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "fb:app_id",
+        "content": "2231777543",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:site_name",
+        "content": "X (formerly Twitter)",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:locale",
+        "content": "en_US",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "application-name",
+        "content": "X (formerly Twitter)",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "google-site-verification",
+        "content": "reUF-TgZq93ZGtzImw42sfYglI2hY0QiGRmfc4jeKbs",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "facebook-domain-verification",
+        "content": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "http-equiv": "onion-location",
+        "content": "https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "al:ios:app_store_id",
+        "content": "333903271",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "al:ios:app_name",
+        "content": "X",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "al:android:package",
+        "content": "com.twitter.android",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "al:android:app_name",
+        "content": "X",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "apple-itunes-app",
+        "content": "app-id=333903271",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "apple-mobile-web-app-title",
+        "content": "X (formerly Twitter)",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "default",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "mobile-web-app-capable",
+        "content": "yes",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "app-version",
+        "content": "27330b3dea0e0f419d8a35a85537ec03629b89a6",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter-site-verification",
+        "content": "N+bl+86ueeKUaZvmhRoKxVvH82Q69pMILq6tjdSeuWz6Q+cD6sRNh1WH/akJ9W4V",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "sentry-trace",
+        "content": "71e2c5159fff4ca3a363c5d8452ef611-9ebf27cf05cb36d4-0",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "baggage",
+        "content": "sentry-environment=production,sentry-release=27330b3dea0e0f419d8a35a85537ec03629b89a6,sentry-public_key=b523016f172e2f101d4f771b022ba96c,sentry-trace_id=71e2c5159fff4ca3a363c5d8452ef611,sentry-org_id=30969,sentry-sampled=false,sentry-sample_rand=0.8681366835838652,sentry-sample_rate=0.003",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:type",
+        "content": "profile",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:url",
+        "content": "https://x.com/IsraelPolls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:title",
+        "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "title",
+        "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "author",
+        "content": "סקרים פוליטיים - Israel Political Polls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "keywords",
+        "content": "סקרים פוליטיים - Israel Political Polls, IsraelPolls, X, social media, profile, timeline",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "profile:first_name",
+        "content": "סקרים",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "profile:last_name",
+        "content": "פוליטיים - Israel Political Polls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "profile:username",
+        "content": "IsraelPolls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "al:ios:url",
+        "content": "twitter://user?screen_name=IsraelPolls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "al:android:url",
+        "content": "twitter://user?screen_name=IsraelPolls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:site",
+        "content": "@x",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:title",
+        "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:description",
+        "content": "",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:creator",
+        "content": "@IsraelPolls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://pbs.twimg.com/profile_banners/1226405431377043456/1582187230",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:image:alt",
+        "content": "סקרים פוליטיים - Israel Political Polls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:label1",
+        "content": "Posts",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:data1",
+        "content": "2.8K",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:label2",
+        "content": "Joined",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "twitter:data2",
+        "content": "February 2020",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "name": "description",
+        "content": "1896 followers · 15 following. Israel. Joined Feb 2020. See the latest conversations with @IsraelPolls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:description",
+        "content": "1896 followers · 15 following. Israel. Joined Feb 2020. See the latest conversations with @IsraelPolls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:image",
+        "content": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_200x200.jpg",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:image:secure_url",
+        "content": "https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_200x200.jpg",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:image:type",
+        "content": "image/jpeg",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:image:width",
+        "content": "200",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:image:height",
+        "content": "200",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      },
+      {
+        "property": "og:image:alt",
+        "content": "סקרים פוליטיים - Israel Political Polls",
+        "nonce": "qkAiAvJgnjRnPEZbjK16lg=="
+      }
+    ],
+    "media": [
+      "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+      "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+      "https://pbs.twimg.com/media/HUHgvgQW4AA4-vx?format=webp&name=large",
+      "https://pbs.twimg.com/media/HUHgvxVXYAAQgkl?format=webp&name=large",
+      "https://pbs.twimg.com/media/HUC8khuXoAEYUxe?format=webp&name=large"
+    ],
+    "access": "readable"
+  },
+  {
+    "name": "israelpolls-2108251564217340145",
+    "url": "https://x.com/IsraelPolls/status/2108251564217340145",
+    "checkedAtUtc": "2026-10-08T19:26:15.832196+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/IsraelPolls/status/2108251564217340145",
+    "sha256": "bb80c09a3d14353bac34519dbffc63b7dd4db5d540aba2d8133fcbc28f8608c9",
+    "bytes": 102639,
+    "sourceFile": "israelpolls-2108251564217340145.html",
+    "textFile": "israelpolls-2108251564217340145.txt",
+    "textLength": 856,
+    "links": [
+      {
+        "text": "",
+        "url": "https://x.com/"
+      },
+      {
+        "text": "Log in",
+        "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%2Fstatus%2F2108251564217340145"
+      },
+      {
+        "text": "Sign up",
+        "url": "https://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%2Fstatus%2F2108251564217340145"
+      },
+      {
+        "text": "Log in",
+        "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%2Fstatus%2F2108251564217340145"
+      },
+      {
+        "text": "Sign up",
+        "url": "https://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%2Fstatus%2F2108251564217340145"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145/photo/1"
+      },
+      {
+        "text": "5:41 PM · Oct 8, 2026",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145"
+      },
+      {
+        "text": "867 Views",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145"
+      },
+      {
+        "text": "1",
+        "url": "https://x.com/compose/post?in_reply_to=2108251564217340145"
+      },
+      {
+        "text": "Continue with phone",
+        "url": "https://x.com/i/jf/onboarding/web?mode=signup&redirect_after_login=%2FIsraelPolls%2Fstatus%2F2108251564217340145"
+      },
+      {
+        "text": "Log in with username or email",
+        "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls%2Fstatus%2F2108251564217340145"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls @ IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "Follow",
+        "url": "https://x.com/i/jf/onboarding/web?mode=login&redirect_after_login=%2FIsraelPolls"
+      },
+      {
+        "text": "Terms",
+        "url": "https://x.com/tos"
+      },
+      {
+        "text": "Privacy",
+        "url": "https://x.com/privacy"
+      },
+      {
+        "text": "Cookies",
+        "url": "https://support.x.com/articles/20170514"
+      },
+      {
+        "text": "Accessibility",
+        "url": "https://help.x.com/resources/accessibility"
+      },
+      {
+        "text": "Ads Info",
+        "url": "https://business.x.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145/photo/1"
+      },
+      {
+        "text": "5:41 PM · Oct 8, 2026",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145"
+      },
+      {
+        "text": "867 Views",
+        "url": "https://x.com/IsraelPolls/status/2108251564217340145"
+      },
+      {
+        "text": "1",
+        "url": "https://x.com/compose/post?in_reply_to=2108251564217340145"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "סקרים פוליטיים - Israel Political Polls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "@IsraelPolls",
+        "url": "https://x.com/IsraelPolls"
+      },
+      {
+        "text": "1h",
+        "url": "https://x.com/IsraelPolls/status/2108253328765284515"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/IsraelPolls/status/2108253328765284515/photo/1"
+      },
+      {
+        "text": "",
+        "url": "https://x.com/compose/post?in_reply_to=2108253328765284515"
+      }
+    ],
+    "metadata": [
+      {
+        "charset": "utf-8",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "viewport",
+        "content": "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "color-scheme",
+        "content": "light dark"
+      },
+      {
+        "name": "theme-color",
+        "media": "(prefers-color-scheme: light)",
+        "content": "#FFFFFF"
+      },
+      {
+        "name": "theme-color",
+        "media": "(prefers-color-scheme: dark)",
+        "content": "#000000"
+      },
+      {
+        "property": "csp-nonce",
+        "content": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "robots",
+        "content": "index, follow",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "fb:app_id",
+        "content": "2231777543",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:site_name",
+        "content": "X (formerly Twitter)",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:locale",
+        "content": "en_US",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "application-name",
+        "content": "X (formerly Twitter)",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "google-site-verification",
+        "content": "reUF-TgZq93ZGtzImw42sfYglI2hY0QiGRmfc4jeKbs",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "facebook-domain-verification",
+        "content": "x6sdcc8b5ju3bh8nbm59eswogvg6t1",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "http-equiv": "onion-location",
+        "content": "https://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "al:ios:app_store_id",
+        "content": "333903271",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "al:ios:app_name",
+        "content": "X",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "al:android:package",
+        "content": "com.twitter.android",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "al:android:app_name",
+        "content": "X",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "apple-itunes-app",
+        "content": "app-id=333903271",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "apple-mobile-web-app-title",
+        "content": "X (formerly Twitter)",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "apple-mobile-web-app-capable",
+        "content": "yes",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "apple-mobile-web-app-status-bar-style",
+        "content": "default",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "mobile-web-app-capable",
+        "content": "yes",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "app-version",
+        "content": "27330b3dea0e0f419d8a35a85537ec03629b89a6",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "twitter-site-verification",
+        "content": "PqYXwW8G3cbfq7p3vmrhdp/HFLfTTBMgbXVUpJRJOunleggLh4AdY1fAPEYcXPMj",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "sentry-trace",
+        "content": "f44ba99d75b446c187bcd9a0f8eea55e-b09ed7454aabc9f6-0",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "baggage",
+        "content": "sentry-environment=production,sentry-release=27330b3dea0e0f419d8a35a85537ec03629b89a6,sentry-public_key=b523016f172e2f101d4f771b022ba96c,sentry-trace_id=f44ba99d75b446c187bcd9a0f8eea55e,sentry-org_id=30969,sentry-sampled=false,sentry-sample_rand=0.34328064136714753,sentry-sample_rate=0.003",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:url",
+        "content": "https://x.com/IsraelPolls/status/2108251564217340145",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:type",
+        "content": "article",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "article:published_time",
+        "content": "2026-10-08T17:41:56.000Z",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "article:author",
+        "content": "https://x.com/IsraelPolls",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:title",
+        "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "title",
+        "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "twitter:title",
+        "content": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:description",
+        "content": "סקר קנטאר לישראל היום",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "description",
+        "content": "סקר קנטאר לישראל היום",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "twitter:description",
+        "content": "סקר קנטאר לישראל היום",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:image",
+        "content": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:image:secure_url",
+        "content": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:image:type",
+        "content": "image/webp",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:image:width",
+        "content": "603",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "og:image:height",
+        "content": "789",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "twitter:card",
+        "content": "summary_large_image",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "twitter:site",
+        "content": "@x",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "twitter:creator",
+        "content": "@IsraelPolls",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "name": "twitter:image",
+        "content": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "al:ios:url",
+        "content": "twitter://status?id=2108251564217340145",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      },
+      {
+        "property": "al:android:url",
+        "content": "twitter://status?id=2108251564217340145",
+        "nonce": "5JVNGelAusCc11+qYw+9OA=="
+      }
+    ],
+    "media": [
+      "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+      "https://pbs.twimg.com/media/HUIFOHsWAAIRYQN?format=webp&name=large"
+    ],
+    "access": "readable",
+    "images": [
+      {
+        "url": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+        "status": 200,
+        "fileName": "2108251564217340145-0.webp",
+        "sha256": "0a43b298927cacfd4beaa8de695394a022b556979ee8d4b96c4f71e40bd90b30"
+      },
+      {
+        "url": "https://pbs.twimg.com/media/HUIFOHsWAAIRYQN?format=webp&name=large",
+        "status": 200,
+        "fileName": "2108251564217340145-1.webp",
+        "sha256": "f9d77c15c16636a278dec7eb0f89d4260f1961b4f4b64ddead59f3e2a3baf59a"
+      }
+    ]
+  }
+]

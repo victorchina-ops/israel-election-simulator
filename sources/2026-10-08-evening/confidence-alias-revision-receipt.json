@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "revisedAtUtc": "2026-10-08T19:59:38.501978+00:00",
+  "baselineDirectory": "artifacts/sources/2026-10-08-new-polls/confidence-alias-revision-baseline",
+  "fieldChanges": [
+    {
+      "path": "data/current-polls.json",
+      "locator": "polls[id=direct_polls_2026-10-08]",
+      "field": "marginConfidencePct",
+      "before": null,
+      "beforeKeyPresent": false,
+      "after": 95
+    },
+    {
+      "path": "data/current-polls.json",
+      "locator": "documentReview.reports[id=direct_polls-2026-10-08]",
+      "field": "marginConfidencePct",
+      "before": null,
+      "beforeKeyPresent": false,
+      "after": 95
+    },
+    {
+      "path": "data/poll-history.json",
+      "locator": "polls[sourcePollId=direct_polls_2026-10-08]",
+      "field": "marginConfidencePct",
+      "before": null,
+      "beforeKeyPresent": false,
+      "after": 95
+    },
+    {
+      "path": "data/survey-documents-2026-09-14.json",
+      "locator": "reports[id=direct_polls-2026-10-08]",
+      "field": "marginConfidencePct",
+      "before": null,
+      "beforeKeyPresent": false,
+      "after": 95
+    },
+    {
+      "path": "artifacts/strict-post-close/c14-i24-fieldwork.json",
+      "locator": "polls[sourcePollId=direct_polls_2026-10-08]",
+      "field": "marginConfidencePct",
+      "before": null,
+      "beforeKeyPresent": false,
+      "after": 95
+    }
+  ],
+  "source": "Explicit 95% confidence published in the original i24 methodology; alias copies reportedMarginOfErrorConfidencePct=95.",
+  "checks": {
+    "onlyConfidenceAliasesChanged": true,
+    "allSeatVectorsAndDatesUnchanged": true,
+    "allOtherHistoricalFieldsUnchanged": true,
+    "otherPollsUnchanged": true,
+    "existingReportedError4_3Unchanged": true,
+    "extractedCSVBytesUnchanged": true,
+    "originalReviewedCandidateUnchanged": true,
+    "originalEvidenceHashesUnchanged": true,
+    "oldPublicBundlesUntouched": true
+  },
+  "outputs": [
+    {
+      "path": "data/current-polls.json",
+      "sha256": "4305a3941db50e79710a0af284f98474888f33d4b409bc69c2013c1e4ad5b037"
+    },
+    {
+      "path": "data/poll-history.json",
+      "sha256": "8caa0f0ea907499e14e08b8f1de26b877a2c955af4a5969b1ad5ecbe879aeac4"
+    },
+    {
+      "path": "data/survey-documents-2026-09-14.json",
+      "sha256": "30afa28bab5755b142806d3122fde1c29db501b5f1c76534a88264de15549c7a"
+    },
+    {
+      "path": "artifacts/strict-post-close/c14-i24-fieldwork.json",
+      "sha256": "fe7cf7d4c37a3e15f1ac6329b93d75c5305c8d7662a741340379d1bf6d74e003"
+    },
+    {
+      "path": "github-pages/sources/2026-10-08-evening/extracted-surveys.json",
+      "sha256": "30afa28bab5755b142806d3122fde1c29db501b5f1c76534a88264de15549c7a"
+    },
+    {
+      "path": "outputs/surveys-extracted-2026-10-08-evening.csv",
+      "sha256": "f44a6bc4f53c217264b7be312154600253b6134a6d74a0af4244f52c38969ee7"
+    },
+    {
+      "path": "github-pages/sources/2026-10-08-evening/surveys-extracted-2026-10-08-evening.csv",
+      "sha256": "f44a6bc4f53c217264b7be312154600253b6134a6d74a0af4244f52c38969ee7"
+    }
+  ],
+  "importerPath": "scripts/ingest-new-polls-2026-10-08.py",
+  "importerSha256": "e669b88d7363b934d5acca30eff3a4a626e54c67cc698e704ab29763e92cb750"
+}

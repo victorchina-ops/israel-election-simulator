@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-10-08",
+  "timeZone": "Asia/Jerusalem",
+  "publisher": "זמן ישראל",
+  "pollster": "יוסי טאטיקה — טאטיקה מחקרים ומדיה",
+  "panelProvider": "Adgenda — רועי שינדלר",
+  "primaryArticleUrl": "https://www.zman.co.il/731622/",
+  "primaryHomepageUrl": "https://www.zman.co.il/",
+  "primaryPollIndexUrl": "https://www.zman.co.il/feed/33350/",
+  "primaryPoliticsIndexUrl": "https://www.zman.co.il/topic/politics/",
+  "access": {
+    "webTextReader": "success-homepage-and-article",
+    "directHttp": "403-homepage-poll-index-politics-index-article",
+    "jinaFallback": "security-verification-page-only"
+  },
+  "newObservation": true,
+  "publicationDate": "2026-10-08",
+  "fieldworkStart": "2026-10-07",
+  "fieldworkEnd": "2026-10-08",
+  "sampleSize": 500,
+  "population": "משיבים יהודים וערבים",
+  "samplingMethod": "פאנל Adgenda; פילוח לפי גיל, דת, מגדר ואזור מגורים בישראל",
+  "reportedMarginOfErrorPct": 4.4,
+  "reportedMarginOfErrorDescription": "טעות הדגימה המרבית",
+  "seatVector": {
+    "yashar": 24,
+    "likud": 20,
+    "beyachad": 13,
+    "yisrael_beiteinu": 10,
+    "joint": 9,
+    "shas": 8,
+    "utj": 8,
+    "democrats": 8,
+    "otzma": 6,
+    "raam": 5,
+    "rz_zehut": 5,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "winter": 3.6,
+    "hendel": 3.2,
+    "gantz": 1.2
+  },
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab_parties": 14
+  },
+  "sourceBlocBreakdown": {
+    "coalitionCore": 47,
+    "winter": 4,
+    "change": 55,
+    "raam": 5,
+    "joint": 9
+  },
+  "primaryReaderEvidence": [
+    {
+      "page": "homepage",
+      "lines": "96-123",
+      "verified": ["new weekly Zman Israel poll", "Tatika attribution", "complete 120-seat vector", "Hendel 3.2%", "Gantz 1.2%"]
+    },
+    {
+      "page": "article",
+      "lines": "66-89,108-141",
+      "verified": ["Tatika Research & Media with Adgenda", "fieldwork 7-8 October", "n=500 Jewish and Arab respondents", "maximum MOE 4.4%", "age/religion/gender/region stratification", "Winter 3.6%", "complete mandate vector", "source bloc breakdown"]
+    }
+  ],
+  "secondaryCrossCheck": {
+    "statusUrl": "https://x.com/IsraelPolls/status/2108213216752881742",
+    "publishedAtUtc": "2026-10-08T15:09:34Z",
+    "text": "סקר טאטיקה ב'זמן ישראל'",
+    "graphicFiles": [
+      {
+        "fileName": "israelpolls-zman-oct8-0.jpg",
+        "sha256": "91121d2b199034e3326f34218a658a05430d68c990723860e4af4ef78caf03b8",
+        "role": "51 supporters versus 69 opponents of Netanyahu"
+      },
+      {
+        "fileName": "israelpolls-zman-oct8-1.jpg",
+        "sha256": "5ab59522e4f9ac6a4d269346f1ac0c4733ce050ac6e686250ec91ac78be3d9a2",
+        "role": "complete party vector and explicit 3.2% / 1.2% below-threshold values"
+      }
+    ]
+  },
+  "limitations": [
+    "The publisher's direct HTTP routes returned 403; the primary article and homepage were reviewed through a text reader.",
+    "The article does not report an invitation count, undecided share, exact publication time, or a confidence level for the 4.4% maximum margin of error.",
+    "No unreported small-party vote share is treated as zero."
+  ]
+}

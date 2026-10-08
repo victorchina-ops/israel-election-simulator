@@ -1,0 +1,86 @@
+[
+  {
+    "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+    "status": 200,
+    "bytes": 186783,
+    "file": "i24-oct8-original.html",
+    "sha256": "3f29b187a745034024f81bab1e1248e08f7d41b87fdf1d1c82ad12ddc9d5e250",
+    "checkedAtUtc": "2026-10-08T19:27:03.236244+00:00",
+    "metadata": [
+      {
+        "type": "application/ld+json",
+        "text": "{\"@context\":\"https:\\u002F\\u002Fschema.org\",\"@type\":\"VideoObject\",\"name\":\"סקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים\",\"description\":\"סקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים\",\"thumbnailUrl\":\"https:\\u002F\\u002Fi24israel-aws.vod.immergo.tv\\u002Fapi-uploaded\\u002FWILDMOKA_69692717188.jpg\",\"uploadDate\":\"2026-10-08\",\"duration\":\"PT1M7S\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"i24 NEWS\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\u002F\\u002Fyt3.ggpht.com\\u002Fytc\\u002FAAUvwnij-uZkbeQI1YKo37I042hL_RbXCg00R4sBVuO4Dw=s48-c-k-c0xffffffff-no-rj-mo\",\"width\":48,\"height\":48}},\"contentUrl\":\"https:\\u002F\\u002Fi24israel-aws.vod.immergo.tv\\u002Ftranscoded\\u002Fd9f75cc8-67f9-4006-b805-703aaa4830c9\\u002Fhls\\u002Fmaster.m3u8\",\"embedUrl\":\"https:\\u002F\\u002Fsnippet.univtec.com\\u002Fplayer.html?data-insight=eyJndWlkIjoiZDlmNzVjYzgtNjdmOS00MDA2LWI4MDUtNzAzYWFhNDgzMGM5IiwidHlwZSI6InZvZHMiLCJhY2NvdW50SWQiOiI2ODc1NjU3Y2Q5YTcwNmU1MzEyNjgxYzEiLCJjbGllbnQiOiJpMjRpc3JhZWwiLCJhcGkiOiJodHRwczovL2luc2lnaHQtYXBpLXNoYXJlZC51bml2dGVjLmNvbS8ifQ==\"}"
+      },
+      {
+        "type": "application/ld+json",
+        "text": "{\"@context\":\"https:\\u002F\\u002Fschema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"i24NEWS\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"בחירות 2026\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"סקרי בחירות 2026\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\\u002Fpolls\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"סקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\\u002Fpolls\\u002Fartc-fa0f56f4\"}]}"
+      },
+      {
+        "type": "application/ld+json",
+        "text": "{\"@context\":\"https:\\u002F\\u002Fschema.org\",\"@type\":\"NewsArticle\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\\u002Fpolls\\u002Fartc-fa0f56f4\"},\"headline\":\"סקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים\",\"description\":\"מפלגת הליכוד ומפלגת ישר מאבדות 2 מנדטים כל אחת • בנט מתחזק על חשבון איזנקוט • ושינוי בתמונת הגושים • הנתונים המלאים\",\"image\":\"https:\\u002F\\u002Fcdn.i24news.tv\\u002Fuploads\\u002Fbb\\u002Ff9\\u002F22\\u002Ffc\\u002F8e\\u002F90\\u002F66\\u002Fdb\\u002F20\\u002F97\\u002F47\\u002Fa4\\u002F54\\u002F1e\\u002Faa\\u002F6b\\u002Fbbf922fc8e9066db209747a4541eaa6b.jpg\",\"author\":{\"@type\":\"Person\",\"name\":\"נדב אלימלך \",\"url\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fauthors\\u002Fnadav-elimelech\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"i24news\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\u002F\\u002Fyt3.ggpht.com\\u002Fytc\\u002FAAUvwnij-uZkbeQI1YKo37I042hL_RbXCg00R4sBVuO4Dw=s88-c-k-c0x00ffffff-no-rj\",\"width\":88,\"height\":88}},\"datePublished\":\"2026-10-08T16:40:55.000Z\",\"dateModified\":\"2026-10-08T16:53:08.000Z\"}"
+      }
+    ],
+    "images": [
+      {
+        "alt": "סקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים",
+        "src": null,
+        "srcset": null
+      }
+    ],
+    "text": "סקר מנדטים דרמטי של I24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים - i24NEWS\nYou have to enable JavaScript to run this app.\nContent\nMenu\nFooter\nהתחבר\nראשי\nחדשות\nבחירות 2026\nהעולם\nדעות ופרשנויות\nאוכל\nתחזית מזג האוויר\nמיוחד לסופ\"ש\nVOD\nרדיו\nתוכניות\nלוח שידורים\nערוצים\nהטאלנטים של i24NEWS\nhe\nEnglish\nFrançais\nعربى\nעברית\nרדיו\nLive & VOD\ni24NEWS\nבחירות 2026\nסקרי בחירות 2026\nסקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים\nסקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים\nמפלגת הליכוד ומפלגת ישר מאבדות 2 מנדטים כל אחת • בנט מתחזק על חשבון איזנקוט • ושינוי בתמונת הגושים • הנתונים המלאים\nנדב אלימלך\n■\nכתב פוליטי\n■\n2 דקות קריאה\n2 דקות קריאה\n■\nסקר מנדטים\nבחירות 2026\n7 נדב אלימלך\nGoogle News\nעקבו אחרינו\nעקבו\nגדי איזנקוט, ימין לבנימין נתניהו?\nנועם ריבקין פנטון, פלאש 90\nשבוע סוער עבר על המערכת הפוליטית, הקמפיינים עלו מדרגה, המתקפות ההדדיות עלו שלב גם בתוך הגושים, וב-i24NEWS באמצעות מכון \"דיירקט פולס\" בראשות צוריאל שרון, ערך היום (חמישי, 08.10.26), סקר מנדטים, שבודק את תמונת המצב של המנדטים, ושודר בתוכנית \"7 נדב אלימלך\".\n>>> הצטרפו לערוץ הוואטסאפ החדש של i24NEWS עברית <<<\nסקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים\nאם הבחירות לכנסת היו נערכות היום, מפלגת הליכוד הייתה מקבלת 26 מנדטים, ירידה משמעותית של שני מנדטים לעומת סקר i24NEWS האחרון ב-1.10. מפלגת ישר של איזנקוט רשמה גם היא ירידה של שני מנדטים, ומקבלת 20 מנדטים.\nמפלגת ביחד בראשות בנט רשמה התחזקות של שני מנדטים, ככל הנראה על חשבון איזנקוט, ומקבלת 11 מנדטים. מפלגת הדמוקרטים של יאיר גולן מקבלת 10 מנדטים, התחזקות של מנדט אחד לעומת השבוע שעבר.\nמפלגת עוצמה יהודית של בן גביר מקבלת 9 מנדטים, ורושמת עלייה של מנדט אחד לעומת השבוע שעבר, ככל הנראה על חשבון הליכוד. יהדות התורה שומרת על 8 מנדטים, כמו גם מפלגת ש\"ס ששומרת על 7 מנדטים, ומפלגת ישראל ביתנו ששומרת אף היא על 7 מנדטים ונשארת יציבה בשבועות האחרונים.\nלקריאה נוספת\nסקר i24NEWS: כשלושה וחצי שבועות לבחירות - לאף גוש אין רוב\n| נדב אלימלך\nסקר i24NEWS: בן גביר מתחזק, וינטר וליברמן נחלשים | הנתונים המלאים\n| נדב אלימלך\nכפי שפורסם ב-i24NEWS: תוכנית הליכוד להעלאת אחוזי ההצבעה - והמידור של בן גביר\n| עמיאל ירחי\nהרשימה המשותפת מקבלת גם היא 7 מנדטים, ורושמת ירידה של מנדט אחד מהשבוע שעבר, הציונות הדתית וזהות מתחזקת במנדט אחד, ככל הנראה על חשבון הליכוד, ומקבלת 6 מנדטים. מפלגת רע\"ם שומרת על כוחה ומקבלת 5 מנדטים, ואת הרשימה סוגרת עמך ישראל של וינטר, שנשארת יציבה בשבועות האחרונים עם 4 מנדטים.\nבחלוקה לגושים, גוש הקואליציה מקבל 60 מנדטים, גוש השינוי מקבל 48 מנדטים, והמפלגות הערביות מקבלות 12 מנדטים. מדובר בתזוזה של מנדט אחד מהמפלגות הערביות – לגוש השינוי לעומת השבוע שעבר.\nהמדגם נאסף ונערך על ידי דיירקט פולס בע\"מ בראשות צוריאל שרון עבור ערוץ i24NEWS, בתאריך ה-7 באוקטובר 2026, באמצעות מערכת דיגיטלית בשילוב פאנל, בקרב 518 נדגמים בוגרים (18+) המהווים מדגם מייצג של האוכלוסייה הכללית בישראל. טעות הדגימה הסטטיסטית 4.3% ± בהסתברות של 95%.\nהכתבה הזו קיבלה 0 תגובות\nהוסף תגובה\nתגובות\nחדשות\nפיד חדשות\nLive\nרדיו\nתוכניות\nמידע\nהוועד המנהל של i24NEWS\nהטאלנטים של i24NEWS\nתוכניות הטלוויזיה של i24NEWS\nרדיו בשידור חי\nדרושים\nצור קשר\nמפת אתר\nקטגוריות\nחדשות מתפרצות\nחדשות\nבחירות 2026\nהעולם\nדעות ופרשנויות\nאוכל\nתחזית מזג האוויר\nמיוחד לסופ\"ש\nמשפטי\nתנאי שימוש\nמדיניות פרטיות\nתנאי פרסום ותנאי מכירות\nהצהרת נגישות\nנהל העדפות\nרשימת עוגיות\nעקבו אחרינו\nהירשם לניוזלטר"
+  },
+  {
+    "url": "https://x.com/IsraelPolls/status/2108251564217340145",
+    "status": 200,
+    "bytes": 102638,
+    "file": "IsraelPolls-2108251564217340145.html",
+    "sha256": "66453fd7b91ce1b413b23612d77bebac5af29c6f866fd3fda1fd67d3deb82a42",
+    "checkedAtUtc": "2026-10-08T19:27:03.724935+00:00",
+    "metadata": [],
+    "images": [
+      {
+        "alt": "",
+        "src": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+        "srcset": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=small 680w, https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large 2048w"
+      },
+      {
+        "alt": "",
+        "src": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large",
+        "srcset": "https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=small 680w, https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUIDmyaW8AAWayW?format=webp&name=large 2048w"
+      },
+      {
+        "alt": "",
+        "src": "https://pbs.twimg.com/media/HUIFOHsWAAIRYQN?format=webp&name=large",
+        "srcset": "https://pbs.twimg.com/media/HUIFOHsWAAIRYQN?format=webp&name=small 680w, https://pbs.twimg.com/media/HUIFOHsWAAIRYQN?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUIFOHsWAAIRYQN?format=webp&name=large 2048w"
+      }
+    ],
+    "text": "סקרים פוליטיים - Israel Political Polls on X: \"סקר קנטאר לישראל היום\" / X\nPost\nLog in\nSign up\nPost\nLog in\nSign up\nסקרים פוליטיים - Israel Political Polls on X: \"סקר קנטאר לישראל היום\"\nסקרים פוליטיים - Israel Political Polls\n@IsraelPolls\nShow translation\nסקר קנטאר לישראל היום\n5:41 PM · Oct 8, 2026\n·\n872\nViews\n1\n3\nLog in or sign up for X\nSee what’s happening and join the conversation\nContinue with phone\nContinue with Apple\nContinue with Google\nor\nLog in with username or email\nRelevant people\nסקרים פוליטיים - Israel Political Polls\n@\nIsraelPolls\nFollow\nTrending now\nTerms\n·\nPrivacy\n·\nCookies\n·\nAccessibility\n·\nAds Info\n·\nMore\n© 2026 X Corp.\nסקרים פוליטיים - Israel Political Polls\n@IsraelPolls\nShow translation\nסקר קנטאר לישראל היום\n5:41 PM · Oct 8, 2026\n·\n872\nViews\n1\n3\nסקרים פוליטיים - Israel Political Polls\n@IsraelPolls\n1h\nפרספקטיבה - סקרי קנטאר\n119"
+  },
+  {
+    "url": "https://x.com/IsraelPolls/status/2108243221012688996",
+    "status": 200,
+    "bytes": 100614,
+    "file": "IsraelPolls-2108243221012688996.html",
+    "sha256": "eda13ffdf8719ab1e7a337cc4a1a9cf91041bdc27ed88cb7ef62c80cdb4dc9fe",
+    "checkedAtUtc": "2026-10-08T19:27:03.488104+00:00",
+    "metadata": [],
+    "images": [
+      {
+        "alt": "",
+        "src": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+        "srcset": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=small 680w, https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large 2048w"
+      },
+      {
+        "alt": "",
+        "src": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large",
+        "srcset": "https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=small 680w, https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUH8BmhWQAATpwI?format=webp&name=large 2048w"
+      },
+      {
+        "alt": "",
+        "src": "https://pbs.twimg.com/media/HUIBdlgXQAAdUQU?format=webp&name=large",
+        "srcset": "https://pbs.twimg.com/media/HUIBdlgXQAAdUQU?format=webp&name=small 680w, https://pbs.twimg.com/media/HUIBdlgXQAAdUQU?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUIBdlgXQAAdUQU?format=webp&name=large 2048w"
+      }
+    ],
+    "text": "סקרים פוליטיים - Israel Political Polls on X: \"סקר דיירקט פולס בערוץ i24news\" / X\nPost\nLog in\nSign up\nPost\nLog in\nSign up\nסקרים פוליטיים - Israel Political Polls on X: \"סקר דיירקט פולס בערוץ i24news\"\nסקרים פוליטיים - Israel Political Polls\n@IsraelPolls\nסקר דיירקט פולס בערוץ i24news\n5:08 PM · Oct 8, 2026\n·\n356\nViews\n2\nLog in or sign up for X\nSee what’s happening and join the conversation\nContinue with phone\nContinue with Apple\nContinue with Google\nor\nLog in with username or email\nRelevant people\nסקרים פוליטיים - Israel Political Polls\n@\nIsraelPolls\nFollow\nTrending now\nTerms\n·\nPrivacy\n·\nCookies\n·\nAccessibility\n·\nAds Info\n·\nMore\n© 2026 X Corp.\nסקרים פוליטיים - Israel Political Polls\n@IsraelPolls\nסקר דיירקט פולס בערוץ i24news\n5:08 PM · Oct 8, 2026\n·\n356\nViews\n2\nסקרים פוליטיים - Israel Political Polls\n@IsraelPolls\n1h\nסקרי דיירקט בחודשיים האחרונים\n91"
+  }
+]

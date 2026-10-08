@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "capturedAtUtc": "2026-10-08T19:33:25.168881+00:00",
+  "primaryPublisher": "Zman Israel",
+  "primaryArticleUrl": "https://www.zman.co.il/731622/",
+  "israelPollsStatusUrl": "https://x.com/IsraelPolls/status/2108213216752881742",
+  "files": [
+    {
+      "name": "zman-home-direct.html",
+      "url": "https://www.zman.co.il/",
+      "finalUrl": "https://www.zman.co.il/",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5597,
+      "sha256": "c8e073ebb206d69a0c05058a8bc9a3eb246132cc0796b357212d751d4f05b346",
+      "binary": false
+    },
+    {
+      "name": "zman-polls-index-direct.html",
+      "url": "https://www.zman.co.il/feed/33350/",
+      "finalUrl": "https://www.zman.co.il/feed/33350/",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5651,
+      "sha256": "0d45448a4faa604a4f065978c222b966a699f6f28697a73f04b5286cc45ecbd6",
+      "binary": false
+    },
+    {
+      "name": "zman-politics-direct.html",
+      "url": "https://www.zman.co.il/topic/politics/",
+      "finalUrl": "https://www.zman.co.il/topic/politics/",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5663,
+      "sha256": "bfcd8d9a46ad9657466ed620da0421fd31e2a258d7efbd1c099146e5db651003",
+      "binary": false
+    },
+    {
+      "name": "zman-731622-direct.html",
+      "url": "https://www.zman.co.il/731622/",
+      "finalUrl": "https://www.zman.co.il/731622/",
+      "status": 403,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 5618,
+      "sha256": "73d81a79340a18bb842702e727357443a629373d584c814bb5efb186a8b8a494",
+      "binary": false
+    },
+    {
+      "name": "zman-home-jina.txt",
+      "url": "https://r.jina.ai/https://www.zman.co.il/",
+      "finalUrl": "https://r.jina.ai/https://www.zman.co.il/",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 259,
+      "sha256": "b4f9f149e74482c682174c769ef260f710bcbff9e032c01feaafd87273f39bfd",
+      "binary": false
+    },
+    {
+      "name": "zman-polls-index-jina.txt",
+      "url": "https://r.jina.ai/https://www.zman.co.il/feed/33350/",
+      "finalUrl": "https://r.jina.ai/https://www.zman.co.il/feed/33350/",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 463,
+      "sha256": "3165393b36db861089c840ed253ad38a66966319eedd1e99ac505b0dd5736040",
+      "binary": false
+    },
+    {
+      "name": "zman-politics-jina.txt",
+      "url": "https://r.jina.ai/https://www.zman.co.il/topic/politics/",
+      "finalUrl": "https://r.jina.ai/https://www.zman.co.il/topic/politics/",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 467,
+      "sha256": "3bfab3bc7512354832d59d01c845a42ffcb23fea532c3f6bebd1bd79d04d96c5",
+      "binary": false
+    },
+    {
+      "name": "zman-731622-jina.txt",
+      "url": "https://r.jina.ai/https://www.zman.co.il/731622/",
+      "finalUrl": "https://r.jina.ai/https://www.zman.co.il/731622/",
+      "status": 200,
+      "contentType": "text/plain; charset=utf-8",
+      "bytes": 459,
+      "sha256": "669a34750c74028dee9638a2753e99e9f2ed4f8b14d0e4cae809e8fa70d0ece6",
+      "binary": false
+    },
+    {
+      "name": "israelpolls-status-2108213216752881742.html",
+      "url": "https://x.com/IsraelPolls/status/2108213216752881742",
+      "finalUrl": "https://x.com/IsraelPolls/status/2108213216752881742",
+      "status": 200,
+      "contentType": "text/html; charset=UTF-8",
+      "bytes": 104944,
+      "sha256": "82fe64d667ec49078635944e6b993320b29d853dfb6b263753b2f5f689920412",
+      "binary": false
+    },
+    {
+      "name": "israelpolls-status-2108213216752881742-oembed.json",
+      "url": "https://publish.twitter.com/oembed?url=https://twitter.com/IsraelPolls/status/2108213216752881742",
+      "finalUrl": "https://publish.x.com/oembed?url=https://twitter.com/IsraelPolls/status/2108213216752881742",
+      "status": 200,
+      "contentType": "application/json; charset=utf-8",
+      "bytes": 906,
+      "sha256": "16d11d66a83a408e6c8db7ea12f6d60639dc0239244892e832090a31280b6b7b",
+      "binary": false
+    },
+    {
+      "name": "israelpolls-status-2108213216752881742-fxtwitter.json",
+      "url": "https://api.fxtwitter.com/IsraelPolls/status/2108213216752881742",
+      "finalUrl": "https://api.fxtwitter.com/IsraelPolls/status/2108213216752881742",
+      "status": 200,
+      "contentType": "application/json",
+      "bytes": 2595,
+      "sha256": "443e765721d819b97bbda113049d7337e60e49cc11ea59097aa443b74dab2140",
+      "binary": false
+    },
+    {
+      "name": "israelpolls-zman-oct8-0.jpg",
+      "url": "https://pbs.twimg.com/media/HUHgvgQW4AA4-vx.jpg?name=orig",
+      "finalUrl": "https://pbs.twimg.com/media/HUHgvgQW4AA4-vx.jpg?name=orig",
+      "status": 200,
+      "contentType": null,
+      "bytes": 49771,
+      "sha256": "91121d2b199034e3326f34218a658a05430d68c990723860e4af4ef78caf03b8",
+      "binary": true
+    },
+    {
+      "name": "israelpolls-zman-oct8-1.jpg",
+      "url": "https://pbs.twimg.com/media/HUHgvxVXYAAQgkl.jpg?name=orig",
+      "finalUrl": "https://pbs.twimg.com/media/HUHgvxVXYAAQgkl.jpg?name=orig",
+      "status": 200,
+      "contentType": null,
+      "bytes": 79668,
+      "sha256": "5ab59522e4f9ac6a4d269346f1ac0c4733ce050ac6e686250ec91ac78be3d9a2",
+      "binary": true
+    }
+  ],
+  "limitations": [
+    "Direct requests to the Zman Israel homepage, poll feed, politics index and article returned HTTP 403.",
+    "The r.jina.ai fallback reached the site's security-verification page rather than the article.",
+    "The primary article remained readable through the independent web text reader and is recorded separately in zman-web-reader-reviewed.json.",
+    "The X page and official X oEmbed were archived directly. FxTwitter was used only to expose the two original pbs.twimg.com media URLs; the image bytes were then downloaded from pbs.twimg.com."
+  ]
+}

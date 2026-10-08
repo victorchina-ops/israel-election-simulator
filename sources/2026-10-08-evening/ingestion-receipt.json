@@ -1,0 +1,396 @@
+{
+  "asOf": "2026-10-08",
+  "baselineAsOf": "2026-10-07",
+  "active": 8,
+  "history": 113,
+  "added": [
+    "kantar_2026-10-08",
+    "direct_polls_2026-10-08",
+    "tatika_2026-10-08"
+  ],
+  "replaced": [
+    "kantar_2026-10-04",
+    "direct_polls_2026-10-01",
+    "tatika_2026-10-01"
+  ],
+  "evidenceFileCount": 57,
+  "canonicalMutation": true,
+  "strictAdditions": 3,
+  "snapshotManifestSha256": "c307a8023e53c056e2fddb78148df2004bb885d46d532c8593a3796e4d9acc9c",
+  "immutableBaseline": "data/history/before-new-polls-2026-10-08",
+  "baselineHashes": {
+    "data/current-polls.json": "38b7c9d14ab39f90f8c463f8f5e353d9d236590afdbf00d6b210133064d60422",
+    "data/poll-history.json": "479325605d01a71a8460799f1f03f89de08cc9ec96f21c47b9914eaf71698077",
+    "data/sources.json": "44c141cc420cbc6a23ec4b1ee5921fb91b43335739712554906023c4dafcf1e6",
+    "data/survey-documents-2026-09-14.json": "aa001c89e171412989415a5e88da060e475dfc155cf1d5cad5637a5ccf288c92",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "c98572ff2f68d147ab13e07d0d1b4d0d65914e91a677688d5d7fbd95b7b2e2aa",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "442d1cb2e9a1ed28ebccbbf00f5673c156bd4cad67bbf6e32d888e20d937b816",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "88ad5a03170e26f38c2fc536083996d8fc5af36525fe2f22c90d2ec219965e07"
+  },
+  "reviewedPollSha256": {
+    "israel-hayom": "3f14ffc61ade0536579379db2449b5aa5c407c295ffc390b591ac34cf1c2291a",
+    "i24": "e45dd9705b049cff17832d3e9b2cc0a82b5b80ee90bbb58b66fa2845774bded4",
+    "zman": "64b12efadb5f8bb3e798e085f73951a22b05dbf4bd4b9293d4f92b83488b8815"
+  },
+  "sourceEvidenceHashesBeforeMutation": {
+    "israel-hayom": {
+      "2108251564217340145-0.webp": "0a43b298927cacfd4beaa8de695394a022b556979ee8d4b96c4f71e40bd90b30",
+      "2108251564217340145-1.webp": "f9d77c15c16636a278dec7eb0f89d4260f1961b4f4b64ddead59f3e2a3baf59a",
+      "israelhayom-2026-10-08-original.html": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3",
+      "israelhayom-2026-10-08-original.txt": "6c3f772bdbaf44cb9c0965fcff6d5c4f9ceddb310aea34f03edf8447747db66e",
+      "israelhayom-elections.html": "44074db1395ab1b5fbab3e8412a13f7ba1d3b3d12aec7976b9940d2cfe1d9d63",
+      "israelhayom-elections.txt": "db62ee26d5511654a5aab889dba64e8ce59a41f85174331f3b303c3968bc049a",
+      "israelhayom-home.html": "119e07bf566b2d7dc2a821724f0244f21a8c42fbae5e1558ec8e27c5d985a4b3",
+      "israelhayom-home.txt": "dd5aa7b5fb717faff6200b8f093cafbbd8a555495b73f442b6b42b3cc48135c2",
+      "israelhayom-politics.html": "914efeec2ef49159bc9e8b2ca320e3c0543c3f76e0e335081239294d3f77b2b4",
+      "israelhayom-politics.txt": "837f9ab8fcd9652c2df814035bfc7d0a6bb9c1e583c89709e3d3b4ec7c03d90f",
+      "israelpolls-2108251564217340145.html": "bb80c09a3d14353bac34519dbffc63b7dd4db5d540aba2d8133fcbc28f8608c9",
+      "israelpolls-2108251564217340145.txt": "5e8dc72963b8a460f1e5d12aad22aa40ed99160e156b2780e04181115f0d495c",
+      "israelpolls-profile.html": "28c5fb00bf64f937d515555e25e5c956cf0ab6f95b4b350f86b599b5d2e8dc0e",
+      "israelpolls-profile.txt": "af3525adb988385ac4f6c6cfb3bb18bebbae69ec987875a4e08c3804be77f47e",
+      "reviewed-poll.json": "3f14ffc61ade0536579379db2449b5aa5c407c295ffc390b591ac34cf1c2291a",
+      "source-receipt.json": "36ff4ef8b4f06a3a2da8e62959219bbb0b8c3f61e8464af99dcde76bfc0491cc"
+    },
+    "i24": {
+      "article-and-post-receipt.json": "cd19156867b0504ee7736ac460cdb279cbed6b06621b8648b7b5723bd0d1dc02",
+      "directpolls-home.html": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023",
+      "directpolls-home.txt": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6",
+      "graphic-receipt.json": "40bcc9f3c829c0cf44116b3aa6629780a69dc34cbe86e422a22d6ed1c20f2047",
+      "i24-election-index.html": "50e4c37fe889a4c54293c344bab20dd8594e9f9433b85b80fe6e7424085964b5",
+      "i24-election-index.txt": "f58b0927c2cb51d696bafd0943d144681e8745c4724a933a1eac813c44983bd1",
+      "i24-home.html": "ff6ca870c5f01e57f9f1dc4d287b6eced029be2f3d23edb15578b6bc65a1e016",
+      "i24-home.txt": "ad33961c63e0cc6ee18fa0eece3e9c98fbeb4158bf526ee90b95c750825cdd4c",
+      "i24-oct8-original.html": "3f29b187a745034024f81bab1e1248e08f7d41b87fdf1d1c82ad12ddc9d5e250",
+      "i24-oct8-original.txt": "5625078792928ca22fdc63088c7e6ca316d0d1a31a88a378d2fab220442b9722",
+      "i24-politics-index.html": "50e4c37fe889a4c54293c344bab20dd8594e9f9433b85b80fe6e7424085964b5",
+      "i24-politics-index.txt": "f58b0927c2cb51d696bafd0943d144681e8745c4724a933a1eac813c44983bd1",
+      "i24-polls-index.html": "331949e6491438659df6258fec1ef303882ef0a1a1bf5197ca1ad9a836a73f5d",
+      "i24-polls-index.txt": "a956561291a7f9e1cd21ccb4ad2804fe7cab1692f554a062b0cd0fb74b2e06f7",
+      "index-check-receipt.json": "cfda5ea289620cd461b0febe02953e42365109548169c06e426391159dea28ab",
+      "IsraelPolls-2108243221012688996.html": "eda13ffdf8719ab1e7a337cc4a1a9cf91041bdc27ed88cb7ef62c80cdb4dc9fe",
+      "IsraelPolls-2108243221012688996.txt": "bd9450964d8a2c738e120433fcf538efe97a322bdfc059ac4426245c2a929ad7",
+      "IsraelPolls-2108251564217340145.html": "66453fd7b91ce1b413b23612d77bebac5af29c6f866fd3fda1fd67d3deb82a42",
+      "IsraelPolls-2108251564217340145.txt": "f09616b5aeae298aae91a05ac124214fdb3f354a7829bb7d41c51f5824f53199",
+      "IsraelPolls-i24-history.webp": "0680058571794f4c1368c28a9d0e95c64b57eb118acc3e3cdad2cbae79a97d0b",
+      "IsraelPolls-i24-oct8-original-graphic.webp": "de0f442baf96f235c8256cb0466e8fd0f86df82c50bf457b97a9b4b2fb97db80",
+      "IsraelPolls-profile.html": "9295cfe65b85083e0fbbb9f961e3c533e3bbcc14631a22b1ff8e2e4ec0a004a7",
+      "IsraelPolls-profile.txt": "85e5d2c9a5df277ceb75a1eec13942f8360fc1c7e12d6930a800327612d73565",
+      "reviewed-poll.json": "e45dd9705b049cff17832d3e9b2cc0a82b5b80ee90bbb58b66fa2845774bded4"
+    },
+    "zman": {
+      "capture-receipt.json": "c0e6ef688f1b2d470d113d7350df9dda3d8b1c52266b9f4ce90142bc94372932",
+      "israelpolls-status-2108213216752881742-fxtwitter.json": "443e765721d819b97bbda113049d7337e60e49cc11ea59097aa443b74dab2140",
+      "israelpolls-status-2108213216752881742-oembed.json": "16d11d66a83a408e6c8db7ea12f6d60639dc0239244892e832090a31280b6b7b",
+      "israelpolls-status-2108213216752881742.html": "82fe64d667ec49078635944e6b993320b29d853dfb6b263753b2f5f689920412",
+      "israelpolls-zman-oct8-0.jpg": "91121d2b199034e3326f34218a658a05430d68c990723860e4af4ef78caf03b8",
+      "israelpolls-zman-oct8-1.jpg": "5ab59522e4f9ac6a4d269346f1ac0c4733ce050ac6e686250ec91ac78be3d9a2",
+      "review-receipt.json": "0b9f68e8e67354516fcb12df1a2d7693083b2e38ac8e9aca6b62e6bd99bcef29",
+      "reviewed-poll.json": "64b12efadb5f8bb3e798e085f73951a22b05dbf4bd4b9293d4f92b83488b8815",
+      "zman-731622-direct.html": "73d81a79340a18bb842702e727357443a629373d584c814bb5efb186a8b8a494",
+      "zman-731622-jina.txt": "669a34750c74028dee9638a2753e99e9f2ed4f8b14d0e4cae809e8fa70d0ece6",
+      "zman-home-direct.html": "c8e073ebb206d69a0c05058a8bc9a3eb246132cc0796b357212d751d4f05b346",
+      "zman-home-jina.txt": "b4f9f149e74482c682174c769ef260f710bcbff9e032c01feaafd87273f39bfd",
+      "zman-politics-direct.html": "bfcd8d9a46ad9657466ed620da0421fd31e2a258d7efbd1c099146e5db651003",
+      "zman-politics-jina.txt": "3bfab3bc7512354832d59d01c845a42ffcb23fea532c3f6bebd1bd79d04d96c5",
+      "zman-polls-index-direct.html": "0d45448a4faa604a4f065978c222b966a699f6f28697a73f04b5286cc45ecbd6",
+      "zman-polls-index-jina.txt": "3165393b36db861089c840ed253ad38a66966319eedd1e99ac505b0dd5736040",
+      "zman-web-reader-reviewed.json": "dd63106eac754ad8a4d5dfe22b2aa9487ef0be5158155293d219a282ed209612"
+    }
+  },
+  "outputs": [
+    {
+      "path": "data/current-polls.json",
+      "sha256": "4305a3941db50e79710a0af284f98474888f33d4b409bc69c2013c1e4ad5b037"
+    },
+    {
+      "path": "data/poll-history.json",
+      "sha256": "8caa0f0ea907499e14e08b8f1de26b877a2c955af4a5969b1ad5ecbe879aeac4"
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "f06cd57f3785b3e54b67ad25d1799a473b8b97edc58450593c15a6a65269ec3f"
+    },
+    {
+      "path": "data/survey-documents-2026-09-14.json",
+      "sha256": "30afa28bab5755b142806d3122fde1c29db501b5f1c76534a88264de15549c7a"
+    },
+    {
+      "path": "artifacts/strict-post-close/n12-kan-c13-fieldwork.json",
+      "sha256": "af05e235fad432f20f2bb2e1706d46cd17f08ce911e7ee74686bc7656744e3cb"
+    },
+    {
+      "path": "artifacts/strict-post-close/c14-i24-fieldwork.json",
+      "sha256": "fe7cf7d4c37a3e15f1ac6329b93d75c5305c8d7662a741340379d1bf6d74e003"
+    },
+    {
+      "path": "artifacts/strict-post-close/c16-tatika-fieldwork.json",
+      "sha256": "92df577bbd22fd10ab0989a1002611477f1a49a1c5e4c380edb5f864345dbf56"
+    },
+    {
+      "path": "outputs/surveys-extracted-2026-10-08-evening.csv",
+      "sha256": "f44a6bc4f53c217264b7be312154600253b6134a6d74a0af4244f52c38969ee7"
+    }
+  ],
+  "publicEvidenceFiles": [
+    {
+      "fileName": "extracted-surveys.json",
+      "sha256": "30afa28bab5755b142806d3122fde1c29db501b5f1c76534a88264de15549c7a"
+    },
+    {
+      "fileName": "i24/article-and-post-receipt.json",
+      "sha256": "cd19156867b0504ee7736ac460cdb279cbed6b06621b8648b7b5723bd0d1dc02"
+    },
+    {
+      "fileName": "i24/directpolls-home.html",
+      "sha256": "6dc9c7fc93bb488bb0520a6c780a8d3c0fb5486a4711aca49b4c53fac7393023"
+    },
+    {
+      "fileName": "i24/directpolls-home.txt",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "fileName": "i24/graphic-receipt.json",
+      "sha256": "40bcc9f3c829c0cf44116b3aa6629780a69dc34cbe86e422a22d6ed1c20f2047"
+    },
+    {
+      "fileName": "i24/i24-election-index.html",
+      "sha256": "50e4c37fe889a4c54293c344bab20dd8594e9f9433b85b80fe6e7424085964b5"
+    },
+    {
+      "fileName": "i24/i24-election-index.txt",
+      "sha256": "f58b0927c2cb51d696bafd0943d144681e8745c4724a933a1eac813c44983bd1"
+    },
+    {
+      "fileName": "i24/i24-home.html",
+      "sha256": "ff6ca870c5f01e57f9f1dc4d287b6eced029be2f3d23edb15578b6bc65a1e016"
+    },
+    {
+      "fileName": "i24/i24-home.txt",
+      "sha256": "ad33961c63e0cc6ee18fa0eece3e9c98fbeb4158bf526ee90b95c750825cdd4c"
+    },
+    {
+      "fileName": "i24/i24-oct8-original.html",
+      "sha256": "3f29b187a745034024f81bab1e1248e08f7d41b87fdf1d1c82ad12ddc9d5e250"
+    },
+    {
+      "fileName": "i24/i24-oct8-original.txt",
+      "sha256": "5625078792928ca22fdc63088c7e6ca316d0d1a31a88a378d2fab220442b9722"
+    },
+    {
+      "fileName": "i24/i24-politics-index.html",
+      "sha256": "50e4c37fe889a4c54293c344bab20dd8594e9f9433b85b80fe6e7424085964b5"
+    },
+    {
+      "fileName": "i24/i24-politics-index.txt",
+      "sha256": "f58b0927c2cb51d696bafd0943d144681e8745c4724a933a1eac813c44983bd1"
+    },
+    {
+      "fileName": "i24/i24-polls-index.html",
+      "sha256": "331949e6491438659df6258fec1ef303882ef0a1a1bf5197ca1ad9a836a73f5d"
+    },
+    {
+      "fileName": "i24/i24-polls-index.txt",
+      "sha256": "a956561291a7f9e1cd21ccb4ad2804fe7cab1692f554a062b0cd0fb74b2e06f7"
+    },
+    {
+      "fileName": "i24/index-check-receipt.json",
+      "sha256": "cfda5ea289620cd461b0febe02953e42365109548169c06e426391159dea28ab"
+    },
+    {
+      "fileName": "i24/IsraelPolls-2108243221012688996.html",
+      "sha256": "eda13ffdf8719ab1e7a337cc4a1a9cf91041bdc27ed88cb7ef62c80cdb4dc9fe"
+    },
+    {
+      "fileName": "i24/IsraelPolls-2108243221012688996.txt",
+      "sha256": "bd9450964d8a2c738e120433fcf538efe97a322bdfc059ac4426245c2a929ad7"
+    },
+    {
+      "fileName": "i24/IsraelPolls-2108251564217340145.html",
+      "sha256": "66453fd7b91ce1b413b23612d77bebac5af29c6f866fd3fda1fd67d3deb82a42"
+    },
+    {
+      "fileName": "i24/IsraelPolls-2108251564217340145.txt",
+      "sha256": "f09616b5aeae298aae91a05ac124214fdb3f354a7829bb7d41c51f5824f53199"
+    },
+    {
+      "fileName": "i24/IsraelPolls-i24-history.webp",
+      "sha256": "0680058571794f4c1368c28a9d0e95c64b57eb118acc3e3cdad2cbae79a97d0b"
+    },
+    {
+      "fileName": "i24/IsraelPolls-i24-oct8-original-graphic.webp",
+      "sha256": "de0f442baf96f235c8256cb0466e8fd0f86df82c50bf457b97a9b4b2fb97db80"
+    },
+    {
+      "fileName": "i24/IsraelPolls-profile.html",
+      "sha256": "9295cfe65b85083e0fbbb9f961e3c533e3bbcc14631a22b1ff8e2e4ec0a004a7"
+    },
+    {
+      "fileName": "i24/IsraelPolls-profile.txt",
+      "sha256": "85e5d2c9a5df277ceb75a1eec13942f8360fc1c7e12d6930a800327612d73565"
+    },
+    {
+      "fileName": "i24/reviewed-poll.json",
+      "sha256": "e45dd9705b049cff17832d3e9b2cc0a82b5b80ee90bbb58b66fa2845774bded4"
+    },
+    {
+      "fileName": "israel-hayom/2108251564217340145-0.webp",
+      "sha256": "0a43b298927cacfd4beaa8de695394a022b556979ee8d4b96c4f71e40bd90b30"
+    },
+    {
+      "fileName": "israel-hayom/2108251564217340145-1.webp",
+      "sha256": "f9d77c15c16636a278dec7eb0f89d4260f1961b4f4b64ddead59f3e2a3baf59a"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-2026-10-08-original.html",
+      "sha256": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-2026-10-08-original.txt",
+      "sha256": "6c3f772bdbaf44cb9c0965fcff6d5c4f9ceddb310aea34f03edf8447747db66e"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-elections.html",
+      "sha256": "44074db1395ab1b5fbab3e8412a13f7ba1d3b3d12aec7976b9940d2cfe1d9d63"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-elections.txt",
+      "sha256": "db62ee26d5511654a5aab889dba64e8ce59a41f85174331f3b303c3968bc049a"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-home.html",
+      "sha256": "119e07bf566b2d7dc2a821724f0244f21a8c42fbae5e1558ec8e27c5d985a4b3"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-home.txt",
+      "sha256": "dd5aa7b5fb717faff6200b8f093cafbbd8a555495b73f442b6b42b3cc48135c2"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-politics.html",
+      "sha256": "914efeec2ef49159bc9e8b2ca320e3c0543c3f76e0e335081239294d3f77b2b4"
+    },
+    {
+      "fileName": "israel-hayom/israelhayom-politics.txt",
+      "sha256": "837f9ab8fcd9652c2df814035bfc7d0a6bb9c1e583c89709e3d3b4ec7c03d90f"
+    },
+    {
+      "fileName": "israel-hayom/israelpolls-2108251564217340145.html",
+      "sha256": "bb80c09a3d14353bac34519dbffc63b7dd4db5d540aba2d8133fcbc28f8608c9"
+    },
+    {
+      "fileName": "israel-hayom/israelpolls-2108251564217340145.txt",
+      "sha256": "5e8dc72963b8a460f1e5d12aad22aa40ed99160e156b2780e04181115f0d495c"
+    },
+    {
+      "fileName": "israel-hayom/israelpolls-profile.html",
+      "sha256": "28c5fb00bf64f937d515555e25e5c956cf0ab6f95b4b350f86b599b5d2e8dc0e"
+    },
+    {
+      "fileName": "israel-hayom/israelpolls-profile.txt",
+      "sha256": "af3525adb988385ac4f6c6cfb3bb18bebbae69ec987875a4e08c3804be77f47e"
+    },
+    {
+      "fileName": "israel-hayom/reviewed-poll.json",
+      "sha256": "3f14ffc61ade0536579379db2449b5aa5c407c295ffc390b591ac34cf1c2291a"
+    },
+    {
+      "fileName": "israel-hayom/source-receipt.json",
+      "sha256": "36ff4ef8b4f06a3a2da8e62959219bbb0b8c3f61e8464af99dcde76bfc0491cc"
+    },
+    {
+      "fileName": "surveys-extracted-2026-10-08-evening.csv",
+      "sha256": "f44a6bc4f53c217264b7be312154600253b6134a6d74a0af4244f52c38969ee7"
+    },
+    {
+      "fileName": "zman/capture-receipt.json",
+      "sha256": "c0e6ef688f1b2d470d113d7350df9dda3d8b1c52266b9f4ce90142bc94372932"
+    },
+    {
+      "fileName": "zman/israelpolls-status-2108213216752881742-fxtwitter.json",
+      "sha256": "443e765721d819b97bbda113049d7337e60e49cc11ea59097aa443b74dab2140"
+    },
+    {
+      "fileName": "zman/israelpolls-status-2108213216752881742-oembed.json",
+      "sha256": "16d11d66a83a408e6c8db7ea12f6d60639dc0239244892e832090a31280b6b7b"
+    },
+    {
+      "fileName": "zman/israelpolls-status-2108213216752881742.html",
+      "sha256": "82fe64d667ec49078635944e6b993320b29d853dfb6b263753b2f5f689920412"
+    },
+    {
+      "fileName": "zman/israelpolls-zman-oct8-0.jpg",
+      "sha256": "91121d2b199034e3326f34218a658a05430d68c990723860e4af4ef78caf03b8"
+    },
+    {
+      "fileName": "zman/israelpolls-zman-oct8-1.jpg",
+      "sha256": "5ab59522e4f9ac6a4d269346f1ac0c4733ce050ac6e686250ec91ac78be3d9a2"
+    },
+    {
+      "fileName": "zman/review-receipt.json",
+      "sha256": "0b9f68e8e67354516fcb12df1a2d7693083b2e38ac8e9aca6b62e6bd99bcef29"
+    },
+    {
+      "fileName": "zman/reviewed-poll.json",
+      "sha256": "64b12efadb5f8bb3e798e085f73951a22b05dbf4bd4b9293d4f92b83488b8815"
+    },
+    {
+      "fileName": "zman/zman-731622-direct.html",
+      "sha256": "73d81a79340a18bb842702e727357443a629373d584c814bb5efb186a8b8a494"
+    },
+    {
+      "fileName": "zman/zman-731622-jina.txt",
+      "sha256": "669a34750c74028dee9638a2753e99e9f2ed4f8b14d0e4cae809e8fa70d0ece6"
+    },
+    {
+      "fileName": "zman/zman-home-direct.html",
+      "sha256": "c8e073ebb206d69a0c05058a8bc9a3eb246132cc0796b357212d751d4f05b346"
+    },
+    {
+      "fileName": "zman/zman-home-jina.txt",
+      "sha256": "b4f9f149e74482c682174c769ef260f710bcbff9e032c01feaafd87273f39bfd"
+    },
+    {
+      "fileName": "zman/zman-politics-direct.html",
+      "sha256": "bfcd8d9a46ad9657466ed620da0421fd31e2a258d7efbd1c099146e5db651003"
+    },
+    {
+      "fileName": "zman/zman-politics-jina.txt",
+      "sha256": "3bfab3bc7512354832d59d01c845a42ffcb23fea532c3f6bebd1bd79d04d96c5"
+    },
+    {
+      "fileName": "zman/zman-polls-index-direct.html",
+      "sha256": "0d45448a4faa604a4f065978c222b966a699f6f28697a73f04b5286cc45ecbd6"
+    },
+    {
+      "fileName": "zman/zman-polls-index-jina.txt",
+      "sha256": "3165393b36db861089c840ed253ad38a66966319eedd1e99ac505b0dd5736040"
+    },
+    {
+      "fileName": "zman/zman-web-reader-reviewed.json",
+      "sha256": "dd63106eac754ad8a4d5dfe22b2aa9487ef0be5158155293d219a282ed209612"
+    },
+    {
+      "fileName": "confidence-alias-revision-receipt.json",
+      "sha256": "9a7821420ddbf5f601a3ed5b99ac430bfa531fd5f5203d842c9aaa5c11ba4e50"
+    }
+  ],
+  "checks": {
+    "oldHistoryPreservedExceptReplacementStatus": true,
+    "unrelatedActivePollsPreserved": true,
+    "eightUniqueActiveInstitutes": true,
+    "oneNewObservationPerInstitute": true,
+    "allNewSeatTotals120": true,
+    "missingPercentagesNotZero": true,
+    "censoredSharesPreservedAsBounds": true,
+    "existingStrictRowsUnchanged": true,
+    "allEvidenceVerifiedBeforeMutation": true,
+    "oldPublicBundlesUntouchedByImporter": true
+  },
+  "confidenceAliasRevision": {
+    "receiptUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08-evening/confidence-alias-revision-receipt.json",
+    "field": "marginConfidencePct",
+    "pollId": "direct_polls_2026-10-08",
+    "value": 95,
+    "originalEvidenceHashesUnchanged": true,
+    "baselineDirectory": "artifacts/sources/2026-10-08-new-polls/confidence-alias-revision-baseline"
+  }
+}

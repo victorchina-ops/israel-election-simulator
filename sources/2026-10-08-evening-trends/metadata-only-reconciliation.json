@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "reason": "Only explicit i24 95% confidence schema alias added; no input to seat trend regressions or permutations changed.",
+  "beforeHistorySha256": "ab12bd7b85806ca4468f432960773c160da97583535f3f561cbf7557a7bba563",
+  "afterHistorySha256": "8caa0f0ea907499e14e08b8f1de26b877a2c955af4a5969b1ad5ecbe879aeac4",
+  "beforeCheckpoint": "artifacts/sources/2026-10-08-new-polls/confidence-alias-revision-baseline",
+  "proof": "Full current/history/review/strict-i24 JSONs are semantically identical after removing marginConfidencePct only; complete seats, dates, identifiers, fieldwork, sample sizes and weights are unchanged.",
+  "allComputedSlopesDeltasCountsPQsAndVerdictsUnchanged": true,
+  "field": "marginConfidencePct",
+  "value": 95
+}

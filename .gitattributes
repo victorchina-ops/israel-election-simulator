@@ -32,3 +32,8 @@
 /sources/2026-10-08-trends/* -text
 /sources/2026-10-08-comparison/* -text
 /updates/2026-10-08/* -text
+/sources/2026-10-08-evening/** -text
+/sources/2026-10-08-evening/**/*.html -diff
+/sources/2026-10-08-evening-trends/* -text
+/sources/2026-10-08-evening-comparison/* -text
+/updates/2026-10-08-evening/* -text

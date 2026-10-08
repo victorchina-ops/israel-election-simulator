@@ -1,0 +1,40 @@
+Use case: infographic-diagram
+Asset type: original Hebrew editorial infographic, shareable PNG, landscape about 1536 x 1024.
+Primary request: A simple, attractive, illustrated graphic explaining how the weighted MODEL probabilities of passing Israel's electoral threshold changed after three new polls on 8 October 2026. Focus exclusively on Winter and Hendel–Zalicha. Hebrew right-to-left text must be correct and easy to read on a phone.
+Style: tasteful hand-drawn editorial illustration, cream paper background, deep navy typography, restrained turquoise and warm rust accents. Illustrate two clean ballot slips near an open parliamentary entrance, a small stylized Knesset silhouette, and a threshold doorway; the illustration supports the statistics without chart complexity. No portraits, no invented or copied party logos, no photorealism.
+Composition: wide spacious poster; strong headline at top; two equally weighted statistic panels in the middle, Winter on the right and Hendel–Zalicha on the left; a modest illustration integrated below/behind the panels, keeping every numeral clear. Large updated percentages, smaller previous percentages, clear change in percentage points. Compact readable footer. Prefer clean readable typography and generous whitespace over decorative clutter.
+Render the following Hebrew text verbatim, all text fully inside margins, no extra text:
+Headline: "מי יעבור את אחוז החסימה?"
+Subtitle: "סיכוי לפי המודל — משוקלל לפי דיוק היסטורי"
+Date line: "שלושה סקרים חדשים | נתונים עד 8.10.2026"
+
+RIGHT panel:
+"עמך ישראל — וינטר"
+"36.5%"
+"לעומת 31.4% לפני העדכון"
+"+5.1 נקודות אחוז"
+
+LEFT panel:
+"המילואימניקים והכלכלית"
+"הנדל–זליכה"
+"28.3%"
+"לעומת 29.8% לפני העדכון"
+"−1.5 נקודות אחוז"
+
+Explanatory line, clearly visible under both panels:
+"סיכוי לחצות 3.25% — לא אחוז התמיכה בסקר"
+
+Footer, compact but readable:
+"לפני: נתוני 7.10 | אחרי: נתוני 8.10"
+"10,000 תרחישים • אי־ודאות סקרים • הצבעה כמו ב־2022"
+"מקורות: ישראל היום, i24NEWS, זמן ישראל"
+"ויקטור רינה בן דוד"
+
+Constraints: The updated 36.5% and 28.3% are model threshold-passage probabilities. The 3.25% is the vote-share electoral threshold, not a simulated probability. Do not confuse the two. The before values 31.4% and 29.8% must be paired with the correct party. Changes are +5.1 and minus1.5 percentage points, not percentage changes. Make no statistical significance claim, no certainty of election results, no additional political claims. Keep this simple and editorial, not a dense dashboard.
+
+TARGETED EDIT PROMPT (final selected image):
+Use case: text-localization / infographic editorial clarification.
+Edit the supplied infographic. Change ONLY its subtitle underneath the headline to the following exact Hebrew text:
+"סיכוי לפי המודל — שקלול הסקרים האחרונים לפי דיוק היסטורי"
+
+Fit this subtitle neatly within the existing margins, reducing only its font size slightly if needed. Preserve all other typography, illustration, names, numbers, dates, footer, composition, and colors exactly. In particular preserve Winter 36.5% after / 31.4% before / +5.1 percentage points, Hendel–Zalicha 28.3% after / 29.8% before / minus1.5 percentage points, electoral threshold3.25%, model data dates7.10 and8.10, the10000-scenario note, turnout2022, sources and credit. Do not add new statistics, a statistical significance claim, or any other text. The new subtitle clarifies these are the latest selected polls weighted by historical accuracy, not a pool of all113 historical observations.
