@@ -1,0 +1,87 @@
+{
+  "dataAsOf": "2026-10-07",
+  "metadataReviewedAt": "2026-10-08",
+  "addedPollCount": 0,
+  "trendCoverage": {
+    "pollCount": 35,
+    "seriesCount": 8,
+    "deltaCount": 27,
+    "partyCount": 17,
+    "from": "2026-09-09",
+    "to": "2026-10-07",
+    "closureDate": "2026-09-08",
+    "excludedPollCount": 4
+  },
+  "pngSha256": "54ea143485ca3f926d4958a3f631cb4d580f2b31e249049fef2df393063ef0f2",
+  "tweetWeightedCharacters": 245,
+  "posted": false,
+  "visualQA": {
+    "status": "PASS",
+    "reviewedAtUtc": "2026-10-08T10:29:21.608083+00:00",
+    "pngFile": "outputs\\social\\2026-10-08\\joint-trends-v2.png",
+    "pngSha256": "54ea143485ca3f926d4958a3f631cb4d580f2b31e249049fef2df393063ef0f2",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "sourceAnalysisFile": "artifacts\\strict-post-close\\party-analysis.json",
+    "sourceAnalysisSha256": "e3cd01c1d6b08446bbbff7584280db235ea28b3f8986a4724254cc20c8dc66e0",
+    "sourceAsOf": "2026-10-07",
+    "nVerifiedPolls": 35,
+    "nInstitutes": 8,
+    "sourcePartyRow": {
+      "partyId": "joint",
+      "partyName": "הרשימה המשותפת",
+      "weightedFirstSeats": 7.0,
+      "weightedLastSeats": 7.7592568989300155,
+      "weightedNetDelta": 0.7592568989300155,
+      "slopePerWeek": 0.18402169929780848,
+      "pValue": 0.0004836309523809524,
+      "wholeSeriesSignFlipP": 0.03125,
+      "upwardSeries": 6,
+      "downwardSeries": 0,
+      "flatSeries": 2,
+      "zeroSeatsThroughout": false,
+      "qValue": 0.00822172619047619,
+      "wholeSeriesSignFlipQ": 0.53125
+    },
+    "displayedValues": {
+      "totalChangeMandates": 0.76,
+      "primaryQ": 0.008,
+      "instituteSensitivityQ": 0.531,
+      "upwardInstitutes": 6,
+      "flatInstitutes": 2,
+      "downwardInstitutes": 0
+    },
+    "visualChecks": [
+      "Generated PNG viewed at full tool resolution. Correct +0.76 total-change caption; does not say per week.",
+      "Both tests named, with separate explicit significant/not-significant verdicts.",
+      "Both tests marked as corrected across 17 parties.",
+      "Six rising, two flat and zero falling institute slopes correctly displayed.",
+      "The limited power of the 8-institute sensitivity is stated; no claim of institute disagreement or proof of no change.",
+      "Data7Oct, metadata8Oct, fieldwork9Sep–7Oct and historical accuracy weights correctly displayed.",
+      "No invented logos, people, political slogans or handwritten side labels remain.",
+      "Credit spells ויקטור רינה בן דוד with one initial vav.",
+      "Opaque cream background and original editorial ballot illustration; main text remains clearly legible.",
+      "Final edited PNG viewed at full tool resolution: only the two card titles changed, explicitly naming time permutation and institute-direction sign flips; all values, verdicts, illustration, total-change caption and footer preserved."
+    ],
+    "scope": "Infographic only; no site or tweet publication by this agent.",
+    "supersedes": "joint-trends.png — title precision only",
+    "displayedTestNames": {
+      "primary": "פרמוטציות בזמן",
+      "sensitivity": "רגישות: היפוך כיווני מכונים"
+    }
+  },
+  "testVerdicts": {
+    "jointPrimaryAfterBH": "significant",
+    "jointWholeInstituteSensitivityAfterBH": "not significant",
+    "blocsAfterBH": "not significant"
+  },
+  "displayedTotals": {
+    "joint": 0.76
+  },
+  "imageGeneration": "built-in imagegen; original editorial illustration",
+  "primaryQ": 0.00822172619047619,
+  "sensitivityQ": 0.53125
+}

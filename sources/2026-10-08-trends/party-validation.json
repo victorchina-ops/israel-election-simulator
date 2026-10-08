@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "asOf": "2026-10-07",
+  "metadataReviewedAt": "2026-10-08",
+  "polls": 35,
+  "series": 8,
+  "deltas": 27,
+  "parties": 17,
+  "individualTests": 136,
+  "exactPermutations": 48157949952000,
+  "newC13EligibleStrict": true,
+  "newC14EligibleStrict": true,
+  "excludedPollCount": 4,
+  "addedPollCount": 0,
+  "newlyEligiblePollIds": [
+    "history_hamadad_consortium_2026-10-07_current"
+  ],
+  "lastVerifiedFieldworkEnd": "2026-10-07",
+  "independentAgreement": "All exact bloc counts and party p/q, slopes, net deltas and signflip p/q agree within 1e-12",
+  "correctedPartyFindings": [
+    "beyachad",
+    "joint"
+  ],
+  "correctedBlocFindings": [],
+  "correctedPartySensitivityFindings": [],
+  "correctedBlocSensitivityFindings": [],
+  "sourceEvidenceSha256Verified": true
+}

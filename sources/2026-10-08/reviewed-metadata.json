@@ -1,0 +1,361 @@
+{
+  "reviewedAtUtc": "2026-10-08T10:06:41.574679+00:00",
+  "scope": "Same-observation C13/Rosner Oct7 metadata supplement only; no canonical/site/git writes.",
+  "canonicalPollId": "hamadad_consortium_2026-10-07",
+  "canonicalAsOf": "2026-10-07",
+  "originalPollsterPageUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+  "wpApiUrl": "https://themadad.com/wp-json/wp/v2/posts/35781",
+  "postId": 35781,
+  "publishedAtLocal": "2026-10-07T21:00:00",
+  "modifiedAtLocal": "2026-10-07T21:00:00",
+  "classification": "Original pollster summary of actual poll, not participant prediction or weighted average.",
+  "newExplicitMetadata": {
+    "fieldworkStart": "2026-10-06",
+    "fieldworkEnd": "2026-10-06",
+    "fieldworkEvidence": "מועד האיסוף: 6 באוקטובר 2026.",
+    "sampleSize": 1263,
+    "reportedMarginOfErrorPct": 2.8,
+    "reportedMarginOfErrorConfidencePct": 95,
+    "reportedMarginOfErrorDescription": "טעות דגימה ממוצעת ברמה הארצית",
+    "undecidedPct": 4.1,
+    "reportedBelowThresholdTotalPct": 5.4,
+    "samplingMethod": null,
+    "population": null,
+    "panelProvider": null,
+    "percentageDenominator": null,
+    "fullPassingPartySharesPublished": false
+  },
+  "seats": {
+    "yashar": 20,
+    "likud": 20,
+    "beyachad": 12,
+    "democrats": 10,
+    "joint": 9,
+    "yisrael_beiteinu": 8,
+    "utj": 8,
+    "otzma": 8,
+    "shas": 7,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 5
+  },
+  "seatTotal": 120,
+  "sameMandateVectorAsCanonical": true,
+  "namedBelowThresholdPercentages": {
+    "hendel": 2.9,
+    "haredi_public": 1.1,
+    "gantz": 0.8
+  },
+  "sourceBlocSeats": {
+    "coalitionIncludingWinter": 55,
+    "nonArabOpposition": 50,
+    "ArabParties": 15
+  },
+  "conflicts": [
+    {
+      "field": "sampleSize",
+      "broadcastValue": 1013,
+      "originalPollsterValue": 1263,
+      "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+    },
+    {
+      "field": "reportedMarginOfErrorPct",
+      "broadcastValue": 2.5,
+      "originalPollsterValue": 2.8,
+      "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+    }
+  ],
+  "limitations": [
+    "No new complete C13 Oct7 filing was exposed in the inspected registry; latest Rosner filing remains Survey_4182 for Sep29–30.",
+    "Full original text has no PDF links, sampling mode/population/panel specification or passing-party raw national shares.",
+    "Aggregate below-threshold 5.4% differs from named shares 4.8% by 0.6 percentage points. Do not assign the unnamed remainder to a particular party; the denominator is not explicit.",
+    "The narrative says Hendel drops below threshold, but existing Sep30 C13 already had 0 seats and 2.8%; preserve the raw text without counting a new observation.",
+    "The web read tool failed for the new post/URL; direct HTTP API and human page were both read successfully with status200."
+  ],
+  "sourceReceipts": [
+    {
+      "url": "https://themadad.com/wp-json/wp/v2/posts/35781",
+      "status": 200,
+      "bytes": 39161,
+      "file": "madad-wp-post-35781.json",
+      "sha256": "33bba6880278d6291feeee465df5df8d17eeb032f790dabecf67201a8b18d7b0",
+      "checkedAtUtc": "2026-10-08T10:06:38.354865+00:00"
+    },
+    {
+      "url": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+      "status": 200,
+      "bytes": 138819,
+      "file": "madad-c13-oct7-original.html",
+      "sha256": "05885a3bfb969c0769f87147ac6f1588850f9342fea95db6db62f963e26f9436",
+      "checkedAtUtc": "2026-10-08T10:06:40.275055+00:00"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2107887588119916617",
+      "status": 200,
+      "bytes": 104813,
+      "file": "IsraelPolls-c13-oct7-post.html",
+      "sha256": "7baddde41141c3f820d47f69008c866d71edc081c2cb9f74bf7fe2530aebbc02",
+      "checkedAtUtc": "2026-10-08T10:06:40.977120+00:00"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HUC7FTzWMAEJGuJ?format=webp&name=large",
+      "status": 200,
+      "bytes": 66104,
+      "file": "IsraelPolls-c13-history.webp",
+      "sha256": "55eb653b4231ffd0e4d55bc78571235fffd804eeb3db2301b718ac514faff249",
+      "checkedAtUtc": "2026-10-08T10:06:41.524679+00:00"
+    }
+  ],
+  "tables": [
+    {
+      "index": 0,
+      "headers": [
+        "",
+        "שבוע שעבר",
+        "השבוע"
+      ],
+      "rows": [
+        [
+          "",
+          "שבוע שעבר",
+          "השבוע"
+        ],
+        [
+          "סך הכל לא החליטו (ולא נוטים למפלגה)",
+          "3.7%",
+          "4.1%"
+        ],
+        [
+          "סך הכל מצביעים למפלגות מתחת לאחוז החסימה",
+          "5.9%",
+          "5.4%"
+        ]
+      ]
+    },
+    {
+      "index": 1,
+      "headers": [
+        "מועמד",
+        "שבוע שעבר",
+        "השבוע"
+      ],
+      "rows": [
+        [
+          "מועמד",
+          "שבוע שעבר",
+          "השבוע"
+        ],
+        [
+          "נתניהו",
+          "38%",
+          "40%"
+        ],
+        [
+          "איזנקוט",
+          "44%",
+          "44%"
+        ],
+        [
+          "לא יודע/ת",
+          "17%",
+          "16%"
+        ]
+      ]
+    },
+    {
+      "index": 2,
+      "headers": [
+        "",
+        "אחוז"
+      ],
+      "rows": [
+        [
+          "",
+          "אחוז"
+        ],
+        [
+          "יכול לחזור",
+          "63%"
+        ],
+        [
+          "לא יכול לחזור",
+          "20%"
+        ],
+        [
+          "לא יודע/ת",
+          "17%"
+        ]
+      ]
+    },
+    {
+      "index": 3,
+      "headers": [
+        "",
+        "קואליציה",
+        "אופוזיציה",
+        "אחר"
+      ],
+      "rows": [
+        [
+          "",
+          "קואליציה",
+          "אופוזיציה",
+          "אחר"
+        ],
+        [
+          "יכול לחזור",
+          "66%",
+          "59%",
+          "64%"
+        ],
+        [
+          "לא יכול לחזור",
+          "14%",
+          "25%",
+          "18%"
+        ],
+        [
+          "לא יודע/ת",
+          "20%",
+          "16%",
+          "18%"
+        ]
+      ]
+    },
+    {
+      "index": 4,
+      "headers": [
+        "",
+        "אחוז"
+      ],
+      "rows": [
+        [
+          "",
+          "אחוז"
+        ],
+        [
+          "ישראל",
+          "37%"
+        ],
+        [
+          "חמאס",
+          "13%"
+        ],
+        [
+          "אף אחד / לא יודע/ת",
+          "50%"
+        ]
+      ]
+    },
+    {
+      "index": 5,
+      "headers": [
+        "",
+        "נשארו בקואליציה",
+        "עזבו את הקואליציה"
+      ],
+      "rows": [
+        [
+          "",
+          "נשארו בקואליציה",
+          "עזבו את הקואליציה"
+        ],
+        [
+          "ישראל ניצחה",
+          "63%",
+          "39%"
+        ],
+        [
+          "חמאס ניצח",
+          "6%",
+          "13%"
+        ],
+        [
+          "אף אחד לא ניצח / לא יודע/ת",
+          "31%",
+          "49%"
+        ]
+      ]
+    },
+    {
+      "index": 6,
+      "headers": [
+        "",
+        "אחוז"
+      ],
+      "rows": [
+        [
+          "",
+          "אחוז"
+        ],
+        [
+          "ועדת חקירה ממלכתית שימנה נשיא בית המשפט העליון",
+          "54%"
+        ],
+        [
+          "ועדת חקירה ״ממלכתית-לאומית״ שתמנה הכנסת",
+          "33%"
+        ],
+        [
+          "לא יודע/ת",
+          "13%"
+        ]
+      ]
+    },
+    {
+      "index": 7,
+      "headers": [
+        "",
+        "נשארו בקואליציה",
+        "עזבו את הקואליציה"
+      ],
+      "rows": [
+        [
+          "",
+          "נשארו בקואליציה",
+          "עזבו את הקואליציה"
+        ],
+        [
+          "ועדת חקירה ממלכתית (נשיא בית המשפט)",
+          "10%",
+          "54%"
+        ],
+        [
+          "ועדת חקירה ממלכתית-לאומית (הכנסת)",
+          "76%",
+          "33%"
+        ],
+        [
+          "לא יודע/ת",
+          "14%",
+          "13%"
+        ]
+      ]
+    }
+  ],
+  "IsraelPollsGraphicVisualReview": {
+    "file": "IsraelPolls-c13-history.webp",
+    "verdict": "PASS",
+    "latestColumnPublicationDate": "2026-10-07",
+    "headerDateMeaning": "פורסם בתאריך — publication date, not fieldwork date",
+    "mandateVectorMatchesCanonical": true,
+    "blocSeats": {
+      "coalitionIncludingWinter": 55,
+      "nonArabOpposition": 50,
+      "ArabParties": 15
+    },
+    "belowThresholdPercentages": {
+      "gantz": 0.8,
+      "hendel": 2.9,
+      "haredi_public": 1.1
+    },
+    "metadataNotSuppliedByGraphic": [
+      "sampleSize",
+      "marginOfError",
+      "fieldworkStart",
+      "fieldworkEnd"
+    ]
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "preparedAtUtc": "2026-10-08T10:18:52.976136+00:00",
+  "reviewDateLocal": "2026-10-08",
+  "timeZone": "Asia/Jerusalem",
+  "status": "PASS",
+  "newVerifiedNationalPollCount": 0,
+  "summary": "No new national mandate poll beyond existing Oct7 C13/C14 was verified. A newly located original Madad summary supplies substantive metadata for the same Oct7 C13 observation; it is a correction/supplement, not a new poll.",
+  "latestIsraelPollsObserved": [
+    {
+      "postId": "2107891979690643875",
+      "pollPublicationDate": "2026-10-07",
+      "canonicalPollId": "next_data_2026-10-07"
+    },
+    {
+      "postId": "2107887588119916617",
+      "pollPublicationDate": "2026-10-07",
+      "canonicalPollId": "hamadad_consortium_2026-10-07"
+    }
+  ],
+  "evidence": {
+    "primaryDirectReceipt": "../primary-publisher-scan.json",
+    "primaryDirectRouteCount": 18,
+    "secondaryDirectReceipt": "source-receipt.json",
+    "secondaryDirectRouteCount": 22,
+    "latestXPostReceipt": "israelpolls-posts-receipt.json",
+    "visualReview": "independent-source-review.json",
+    "imagesInspected": 8,
+    "visualMandateAndDisplayedPercentageComparisons": "PASS",
+    "originalMetadataReview": "../c13-metadata/reviewed-metadata.json",
+    "originalMetadataReviewSha256": "aebe97b689798806046298384f0c3d60f59e1c293f591a496105fbacb29bb9fb"
+  },
+  "sourceLabelCorrections": [
+    {
+      "archivedFile": "c14-politics.html",
+      "url": "https://www.c14.co.il/archive/53747",
+      "actualLabel": "mandate-poll tag/index",
+      "pageTitle": "סקר מנדטים - ערוץ 14 | C14",
+      "h1": [
+        "סקר מנדטים"
+      ],
+      "caveat": "Archive filename label is reversed; retain original evidence filenames but identify route by actual URL/title."
+    },
+    {
+      "archivedFile": "c14-polls.html",
+      "url": "https://www.c14.co.il/archive/65839",
+      "actualLabel": "politics index",
+      "pageTitle": "פוליטי-מדיני - כתבות ועדכונים - ערוץ 14 | C14",
+      "h1": [
+        "פוליטי-מדיני"
+      ],
+      "caveat": "Archive filename label is reversed; retain original evidence filenames but identify route by actual URL/title."
+    }
+  ],
+  "fallbackRoutes": [
+    {
+      "publisher": "N12",
+      "urls": [
+        "https://www.mako.co.il/news-politics",
+        "https://www.mako.co.il/news-israel-elections/2026"
+      ],
+      "rawArchiveStatus": 403,
+      "fallback": "Root directly opened and reviewed readable web-reader content; lead poll remains Oct5. Fallback is reported from root review, not a saved HTTP200 receipt in the primary scan."
+    },
+    {
+      "publisher": "C13",
+      "urls": [
+        "https://13tv.co.il/",
+        "https://13tv.co.il/news/politics/politics/",
+        "https://13tv.co.il/item/news/politics/politics/survey-905386103/"
+      ],
+      "rawArchiveStatus": 403,
+      "fallback": "Root directly opened and reviewed readable web-reader homepage/politics/current article; same Oct7 poll. Exact successful fallback snapshot is not persisted in the raw archive."
+    },
+    {
+      "publisher": "C14",
+      "urls": [
+        "https://www.c14.co.il/archive/65839",
+        "https://www.c14.co.il/archive/53747"
+      ],
+      "rawArchiveStatus": 200,
+      "fallback": "Root reviewed web-reader politics index and mandate-poll tag; primary direct HTML200 also archived. Correct route labels above."
+    },
+    {
+      "publisher": "IsraelPolls",
+      "urls": [
+        "https://x.com/IsraelPolls?s=20"
+      ],
+      "rawArchiveStatus": 200,
+      "fallback": "Web reader failed, but direct requests succeeded and archived the latest five posts and eight images; all images visually inspected."
+    },
+    {
+      "publisher": "Madad",
+      "urls": [
+        "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+        "https://themadad.com/wp-json/wp/v2/posts/35781"
+      ],
+      "rawArchiveStatus": 200,
+      "fallback": "Web-reader cache miss; direct original HTML and WP public API200 read/archived under c13-metadata."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "urls": [
+        "https://www.israelhayom.co.il/news/politics/article/21566544"
+      ],
+      "rawArchiveStatus": 200,
+      "fallback": "Web-reader403, direct publisher HTTP200 succeeded; issue-poll article archived as israelhayom-kantar-issues.html/txt."
+    }
+  ],
+  "readableSecondaryPublisherConclusions": [
+    {
+      "publisher": "Maariv",
+      "urls": [
+        "https://www.maariv.co.il/",
+        "https://www.maariv.co.il/news/politics",
+        "https://www.maariv.co.il/news/elections-2026"
+      ],
+      "access": "readable-direct-http200",
+      "finding": "No new Lazar national mandate vector exposed. Current Oct8 headline poll story is C13 Oct7 repost; youth-attitudes survey is not national mandate poll; separate current article analyzes already-released Kan/N12/C13 polls."
+    },
+    {
+      "publisher": "Walla",
+      "urls": [
+        "https://www.walla.co.il/",
+        "https://www.walla.co.il/news/politics",
+        "https://elections.walla.co.il/"
+      ],
+      "access": "readable-direct-http200",
+      "finding": "Election index poll article /news/israel/383956663 dated Oct7 22:32 is duplicate reporting of C13 Oct7, not a new Walla/Lazar survey."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "urls": [
+        "https://www.israelhayom.co.il/",
+        "https://www.israelhayom.co.il/news/politics",
+        "https://www.israelhayom.co.il/news/politics/election2026"
+      ],
+      "access": "readable-direct-http200",
+      "finding": "No new national mandate vector exposed. Segal article /news/politics/article/21566544 dated Oct6 is Kantar issue polling (responsibility for war and hypothetical government outcomes); readable directHTTP200, web-reader403. Do not import as mandate poll."
+    },
+    {
+      "publisher": "i24",
+      "urls": [
+        "https://www.i24news.tv/he",
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls"
+      ],
+      "access": "readable-direct-http200",
+      "finding": "Current original polling index still leads with Oct1 existing DirectPolls poll and links artc-761931ef."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "urls": [
+        "https://www.zman.co.il/",
+        "https://www.zman.co.il/topic/politics/",
+        "https://www.zman.co.il/?s=%D7%A1%D7%A7%D7%A8"
+      ],
+      "access": "direct-http403",
+      "finding": "Not successfully checked live. Search snapshot surfaced existing Oct1 poll; no absence inference for live site."
+    },
+    {
+      "publisher": "Channel16",
+      "urls": [
+        "https://www.ch16.co.il/",
+        "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a"
+      ],
+      "access": "http200-js-shell",
+      "finding": "Title identifies existing Oct6 poll but page body not inspectable; content not claimed successfully checked. Fresh IsraelPolls Oct6 broadcast graphic and historical table independently inspected and match canonical."
+    }
+  ],
+  "sameObservationMetadataCrossCheck": {
+    "canonicalPollId": "hamadad_consortium_2026-10-07",
+    "publicationDate": "2026-10-07",
+    "fieldworkDate": "2026-10-06",
+    "sameMandateVector": true,
+    "seatTotal": 120,
+    "pollCountImpact": 0,
+    "verifiedOriginalMetadata": {
+      "fieldworkStart": "2026-10-06",
+      "fieldworkEnd": "2026-10-06",
+      "fieldworkEvidence": "מועד האיסוף: 6 באוקטובר 2026.",
+      "sampleSize": 1263,
+      "reportedMarginOfErrorPct": 2.8,
+      "reportedMarginOfErrorConfidencePct": 95,
+      "reportedMarginOfErrorDescription": "טעות דגימה ממוצעת ברמה הארצית",
+      "undecidedPct": 4.1,
+      "reportedBelowThresholdTotalPct": 5.4,
+      "samplingMethod": null,
+      "population": null,
+      "panelProvider": null,
+      "percentageDenominator": null,
+      "fullPassingPartySharesPublished": false
+    },
+    "preservedConflictingBroadcastMetadata": [
+      {
+        "field": "sampleSize",
+        "broadcastValue": 1013,
+        "originalPollsterValue": 1263,
+        "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+      },
+      {
+        "field": "reportedMarginOfErrorPct",
+        "broadcastValue": 2.5,
+        "originalPollsterValue": 2.8,
+        "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+      }
+    ],
+    "sourceReviewScope": "This summary verifies source identity/classification and records original-vs-broadcast conflicts; canonical revision and model/trend recalculation are root responsibilities."
+  },
+  "remainingUnverifiableCoverage": [
+    {
+      "publisher": "Kan",
+      "urls": [
+        "https://www.kan.org.il/",
+        "https://www.kan.org.il/lobby/news/",
+        "https://www.kan.org.il/content/kan-news/politic/",
+        "https://skarim.kan.org.il/"
+      ],
+      "rawStatus": 403,
+      "rootWebReader": "Empty zero-line responses",
+      "limitation": "Current primary publisher home/news/politics/poll index coverage remains unverifiable. Do not infer no new Kan poll."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "urls": [
+        "https://www.zman.co.il/",
+        "https://www.zman.co.il/topic/politics/",
+        "https://www.zman.co.il/?s=%D7%A1%D7%A7%D7%A8"
+      ],
+      "rawStatus": 403,
+      "webReader": "Failed",
+      "limitation": "Search snapshot surfaced existing Oct1 poll but does not verify current live homepage/index. No absence inference."
+    },
+    {
+      "publisher": "Channel16",
+      "urls": [
+        "https://www.ch16.co.il/",
+        "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a"
+      ],
+      "rawStatus": 200,
+      "body": "JS shell,10/30 readable characters",
+      "limitation": "Current homepage/VOD discovery not inspectable. Existing Oct6 poll title and fresh IsraelPolls broadcast/table verified; cannot rule out later unexposed content."
+    },
+    {
+      "publisher": "IsraelPolls",
+      "limitation": "Only bounded latest-five-post public profile/thread exposure inspected. Not a complete account/media-history archive."
+    },
+    {
+      "publisher": "All publishers",
+      "limitation": "Accessible leading homepage/index entries are bounded coverage, not a guarantee of exhaustive unpublished/unindexed or later same-day content."
+    }
+  ],
+  "excludedCurrentStories": [
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1374740",
+      "reason": "Oct8 repost/report of existing C13 Oct7; not new Lazar survey."
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics/article-1374513",
+      "reason": "Attitudes among first-time voters; not representative national party mandate vector."
+    },
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1374811",
+      "reason": "Analysis of already released polls; not new observation."
+    },
+    {
+      "url": "https://www.walla.co.il/news/israel/383956663",
+      "reason": "Oct7 C13 duplicate reporting."
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/article/21566544",
+      "reason": "Oct6 Kantar issue polling with no mandate vector; not importable as mandate poll."
+    }
+  ],
+  "noAbsenceInferenceFromBlockedSources": true,
+  "agentWrites": "Only dedicated secondary check evidence and this summary; no canonical/public/site/git edits."
+}

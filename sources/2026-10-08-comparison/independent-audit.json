@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "auditedAt": "2026-10-08T10:30:55.972Z",
+  "preservation": {
+    "frozenCanonicalHashesVerified": 9,
+    "authoredDashboardContentFilesVerified": 93,
+    "unchangedActivePollsVerified": 7,
+    "unchangedHistoryPollsVerified": 109,
+    "activePollCount": 8,
+    "historyPollCount": 110,
+    "uniqueHistoryIds": 110,
+    "uniquePollsterDates": 110,
+    "allCurrentSeatTotals120": true,
+    "allHistorySeatTotals120": true
+  },
+  "targetRevision": {
+    "currentId": "hamadad_consortium_2026-10-07",
+    "historyId": "history_hamadad_consortium_2026-10-07_current",
+    "fieldwork": [
+      "2026-10-06",
+      "2026-10-06"
+    ],
+    "sampleSize": 1263,
+    "reportedMarginOfErrorPct": 2.8,
+    "reportedMarginOfErrorDescription": "טעות דגימה ממוצעת ברמה הארצית",
+    "broadcasterConflicts": [
+      {
+        "field": "sampleSize",
+        "broadcastValue": 1013,
+        "originalPollsterValue": 1263,
+        "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+      },
+      {
+        "field": "reportedMarginOfErrorPct",
+        "broadcastValue": 2.5,
+        "originalPollsterValue": 2.8,
+        "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+      }
+    ],
+    "belowThreshold": {
+      "reportedTotal": 5.4,
+      "namedTotal": 4.8,
+      "unexplained": 0.6
+    },
+    "modelVoteShareInputsUnchanged": true
+  },
+  "strictTrend": {
+    "coverage": {
+      "pollCount": 35,
+      "seriesCount": 8,
+      "deltaCount": 27,
+      "partyCount": 17,
+      "from": "2026-09-09",
+      "to": "2026-10-07",
+      "closureDate": "2026-09-08",
+      "excludedPollCount": 4
+    },
+    "exactPermutations": 48157949952000,
+    "significant": [
+      {
+        "partyId": "beyachad",
+        "weightedNetDelta": -0.8830846496969242,
+        "slopePerWeek": -0.3418328108192268,
+        "pValue": 0.004871775793650794,
+        "qValue": 0.041410094246031745,
+        "sensitivityQ": 0.53125
+      },
+      {
+        "partyId": "joint",
+        "weightedNetDelta": 0.7592568989300155,
+        "slopePerWeek": 0.18402169929780848,
+        "pValue": 0.0004836309523809524,
+        "qValue": 0.00822172619047619,
+        "sensitivityQ": 0.53125
+      }
+    ],
+    "wholeSeriesSignificant": [],
+    "independentBlocVerified": true,
+    "independentPartyVerified": true
+  },
+  "finalModel": {
+    "iterations": 10000,
+    "before": {
+      "probabilities": {
+        "a": 0.0456,
+        "b": 0.0009,
+        "neither": 0.9535,
+        "coalitionA": 0.0456,
+        "coalitionB": 0.0009,
+        "coalitionNeither": 0.9535,
+        "coalitionBoth": 0
+      },
+      "blocStats": {
+        "a": {
+          "mean": 53.4817,
+          "meanSE": 0.036841311583926034,
+          "meanMargin": 0.07220897070449503,
+          "meanCI": [
+            53.4094910292955,
+            53.55390897070449
+          ],
+          "median": 53,
+          "low": 48,
+          "high": 60
+        },
+        "b": {
+          "mean": 52.1228,
+          "meanSE": 0.030103531989848407,
+          "meanMargin": 0.05900292270010288,
+          "meanCI": [
+            52.063797077299895,
+            52.1818029227001
+          ],
+          "median": 52,
+          "low": 47,
+          "high": 57
+        },
+        "arab": {
+          "mean": 0,
+          "meanSE": 0,
+          "meanMargin": 0,
+          "meanCI": [
+            0,
+            0
+          ],
+          "median": 0,
+          "low": 0,
+          "high": 0
+        },
+        "other": {
+          "mean": 14.3955,
+          "meanSE": 0.023748355173302926,
+          "meanMargin": 0.046546776139673736,
+          "meanCI": [
+            14.348953223860326,
+            14.442046776139675
+          ],
+          "median": 14,
+          "low": 11,
+          "high": 18
+        }
+      },
+      "nEffective": 3243.778976873945
+    },
+    "after": {
+      "probabilities": {
+        "a": 0.0454,
+        "b": 0.001,
+        "neither": 0.9536,
+        "coalitionA": 0.0454,
+        "coalitionB": 0.001,
+        "coalitionNeither": 0.9536,
+        "coalitionBoth": 0
+      },
+      "blocStats": {
+        "a": {
+          "mean": 53.4825,
+          "meanSE": 0.03680359799642622,
+          "meanMargin": 0.07213505207299539,
+          "meanCI": [
+            53.41036494792701,
+            53.554635052072996
+          ],
+          "median": 53,
+          "low": 48,
+          "high": 60
+        },
+        "b": {
+          "mean": 52.1205,
+          "meanSE": 0.030060744166337326,
+          "meanMargin": 0.05891905856602116,
+          "meanCI": [
+            52.06158094143398,
+            52.17941905856602
+          ],
+          "median": 52,
+          "low": 47,
+          "high": 57
+        },
+        "arab": {
+          "mean": 0,
+          "meanSE": 0,
+          "meanMargin": 0,
+          "meanCI": [
+            0,
+            0
+          ],
+          "median": 0,
+          "low": 0,
+          "high": 0
+        },
+        "other": {
+          "mean": 14.397,
+          "meanSE": 0.02375827320228799,
+          "meanMargin": 0.04656621547648446,
+          "meanCI": [
+            14.350433784523515,
+            14.443566215476485
+          ],
+          "median": 14,
+          "low": 11,
+          "high": 18
+        }
+      },
+      "nEffective": 3293.482784291582
+    },
+    "probabilityDelta": {
+      "a": -0.0001999999999999988,
+      "b": 0.00010000000000000005,
+      "neither": 0.00009999999999998899,
+      "coalitionA": -0.0001999999999999988,
+      "coalitionB": 0.00010000000000000005,
+      "coalitionNeither": 0.00009999999999998899,
+      "coalitionBoth": 0
+    },
+    "blocMeanDelta": {
+      "a": 0.000800000000005241,
+      "b": -0.0022999999999981924,
+      "arab": 0,
+      "other": 0.0015000000000000568
+    },
+    "targetWeight": {
+      "before": {
+        "id": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+        "publisher": "חדשות 13",
+        "weight": 0.12598889497254961,
+        "sampleSize": 1013,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      "after": {
+        "id": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+        "publisher": "חדשות 13",
+        "weight": 0.12598889497254961,
+        "sampleSize": 1263,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      }
+    },
+    "checks": {
+      "seatsSum": 120,
+      "eachWorld120": true,
+      "blocPartition120": true,
+      "probabilityTotal": 1
+    },
+    "assembly": {
+      "inputHash": "ca80367605e2380db1eafb54309ef99bc089112ebf61785078c36708da39d8df",
+      "modelHash": "05582e155dba40d136e63352560bf4c9b9a9512299b15494fcc1400cae8ddcb4",
+      "signature": "1f1318d79886e6f97ccbfb56fef79891e724d8de3335267073fdf968bcb56c8a",
+      "baselineGeneratedAt": "2026-10-08T10:27:45.855Z",
+      "benchmark": {
+        "iterations": 10000,
+        "seconds": 0.5344099,
+        "checks": {
+          "seatsSum": 120,
+          "eachWorld120": true,
+          "blocPartition120": true,
+          "probabilityTotal": 1
+        },
+        "signature": "1f1318d79886e6f97ccbfb56fef79891e724d8de3335267073fdf968bcb56c8a"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-10-08",
+  "latestPollPublicationDate": "2026-10-07",
+  "sameObservationRevision": "hamadad_consortium_2026-10-07",
+  "addedPollCount": 0,
+  "activePollCount": 8,
+  "historyPollCount": 110,
+  "allMandateVectorsUnchanged": true,
+  "allModelVoteShareInputsUnchanged": true,
+  "fieldworkNewlyVerified": true,
+  "sourceConflictsRetained": true,
+  "unexplainedBelowThresholdGapNotAllocated": true,
+  "files": {
+    "extracted-surveys.json": "aa001c89e171412989415a5e88da060e475dfc155cf1d5cad5637a5ccf288c92",
+    "IsraelPolls-c13-history.webp": "55eb653b4231ffd0e4d55bc78571235fffd804eeb3db2301b718ac514faff249",
+    "IsraelPolls-c13-oct7-post.html": "7baddde41141c3f820d47f69008c866d71edc081c2cb9f74bf7fe2530aebbc02",
+    "madad-c13-oct7-original.html": "05885a3bfb969c0769f87147ac6f1588850f9342fea95db6db62f963e26f9436",
+    "madad-c13-oct7-source-extract.txt": "54b5522790d8f04978bd0c719c344321bbdd7df67c8f39a2d4c6196ce335e787",
+    "madad-wp-post-35781.json": "33bba6880278d6291feeee465df5df8d17eeb032f790dabecf67201a8b18d7b0",
+    "reviewed-metadata.json": "aebe97b689798806046298384f0c3d60f59e1c293f591a496105fbacb29bb9fb",
+    "source-check-summary.json": "dd470f65d20da16d8b3d75e788e2b953208c5ed71e92ec8e67285802accf4df1"
+  },
+  "invariants": {
+    "targetMandatesAndModelVoteSharesUnchanged": true,
+    "nonTargetCurrentAndHistoricalRecordsUnchanged": true,
+    "activeSourceDescriptionUpdated": true,
+    "publicationDateUnchanged": true,
+    "sampleSizeRevisionAffectsModelUncertainty": true
+  }
+}
