@@ -1,0 +1,60 @@
+{
+  "publishedCommit": "f3d7dd03a077d321f767708ed2dadcd5ad7c78fe",
+  "files": [
+    {
+      "path": "dashboard/src/data.json",
+      "sha256": "98337a43435334f4aa77b19cc3867f3ee4b236bf679228b26fbb227437b508fb",
+      "bytes": 6686495
+    },
+    {
+      "path": "github-pages/index.html",
+      "sha256": "ff4304cf8f2d715d17495c85b5b33494d404091b5f6eec6cfb62a0bc916e674c",
+      "bytes": 8487214
+    },
+    {
+      "path": "github-pages/README.md",
+      "sha256": "758b9bd93b41a6eb861222789aa61e93d7d9cd6b56f6a02d7eafa007e70a7300",
+      "bytes": 49214
+    },
+    {
+      "path": "data/current-polls.json",
+      "sha256": "1dc2da8939c2bc0dfebbdcebce0b8fb10a9f88df3c076258e90006e009975945",
+      "bytes": 401481
+    },
+    {
+      "path": "data/poll-history.json",
+      "sha256": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a",
+      "bytes": 385337
+    },
+    {
+      "path": "data/calibration.json",
+      "sha256": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+      "bytes": 29969
+    },
+    {
+      "path": "data/history/final-polls-2022.json",
+      "sha256": "fb39b611fbfaa67066aace533baa64f6afa1ab42bbc5196ba1b182c840643c4c",
+      "bytes": 13197
+    },
+    {
+      "path": "data/weight-presets.json",
+      "sha256": "4b78d63175ef13945d80dfc51ec91a0fcdde332908fda385922236ec887e402c",
+      "bytes": 12281
+    },
+    {
+      "path": "data/strict-party-trends.json",
+      "sha256": "015bb39c83cf5bb8e039bf61bc1fd4a9c4f64460da9dbddf1f3ebf3e85534fe2",
+      "bytes": 226695
+    },
+    {
+      "path": "data/strict-party-trends-without-channel14.json",
+      "sha256": "51da1999cd28255efe226b048d79b7c4f5a4ff5a8b679a16810d2bf564e73843",
+      "bytes": 201975
+    },
+    {
+      "path": "data/signal-noise-observations.json",
+      "sha256": "b04ee5adbcd7c8d6881a6a89ccd460d0a0e693a625c2921dcb4f6016aa4fb6ab",
+      "bytes": 147176
+    }
+  ]
+}

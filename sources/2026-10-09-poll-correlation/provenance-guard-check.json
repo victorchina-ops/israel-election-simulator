@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scope": "Disposable fixture copies only; canonical files never edited.",
+  "canonicalHashesUnchanged": {
+    "data/poll-history.json": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a",
+    "data/current-polls.json": "1dc2da8939c2bc0dfebbdcebce0b8fb10a9f88df3c076258e90006e009975945",
+    "data/strict-party-trends.json": "015bb39c83cf5bb8e039bf61bc1fd4a9c4f64460da9dbddf1f3ebf3e85534fe2",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "data/poll-correlation.json": "7405bf9d8316edde65f32bb89536532445fe865dcc2b0d6ab4b37ffd629c3884"
+  },
+  "identicalFrozenRunsReusedWithoutMtimeChanges": true,
+  "sameDayChangedSourceRejectedBeforePromotion": true,
+  "newRunIdRetainsEarlierEvidence": true,
+  "unsafeRunIdRejected": true,
+  "mismatchedAuditDateRejected": true,
+  "changedIndependentReceiptNotOverwritten": true,
+  "changedValidationReceiptRejectedBeforePromotion": true
+}

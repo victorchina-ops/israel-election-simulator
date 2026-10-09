@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "profileSha256": "7405bf9d8316edde65f32bb89536532445fe865dcc2b0d6ab4b37ffd629c3884",
+  "inputHashesUnchanged": true,
+  "inputHashes": {
+    "data/poll-history.json": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a",
+    "data/current-polls.json": "1dc2da8939c2bc0dfebbdcebce0b8fb10a9f88df3c076258e90006e009975945",
+    "data/strict-party-trends.json": "015bb39c83cf5bb8e039bf61bc1fd4a9c4f64460da9dbddf1f3ebf3e85534fe2",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e"
+  },
+  "election2022Used": false,
+  "forecastErrorsUsed": false,
+  "missingPartyFieldsImputed": false,
+  "syntheticPollsAdded": false,
+  "matrixAudit": {
+    "rawKernelMinimumEigenvalue": 0.04256543832077494,
+    "initialModeledMinimumEigenvalue": 0.7606413595801933,
+    "finalModeledMinimumEigenvalue": 0.7606413595801933,
+    "psdRepair": "Additional minimal convex shrinkage toward identity, if needed; no entries invented from missing pairs.",
+    "positiveDefinite": true
+  },
+  "coverage": {
+    "closureDate": "2026-09-08",
+    "from": "2026-09-09",
+    "to": "2026-10-08",
+    "publishedPollCount": 39,
+    "instituteCount": 8,
+    "modeledInstituteCount": 8,
+    "calendarBinCount": 5,
+    "calendarBinsAreIndependentObservations": false,
+    "partyCount": 11,
+    "partyIds": [
+      "beyachad",
+      "democrats",
+      "joint",
+      "likud",
+      "otzma",
+      "raam",
+      "rz_zehut",
+      "shas",
+      "utj",
+      "yashar",
+      "yisrael_beiteinu"
+    ],
+    "omittedPartyIdsWithMissingPublishedFields": [
+      "gantz",
+      "haredi_public",
+      "hendel",
+      "israel_first",
+      "noam",
+      "winter"
+    ],
+    "knownPairs": 28,
+    "unknownPairs": 0,
+    "totalPairs": 28,
+    "minimumMatchedBinCount": 1,
+    "maximumMatchedBinCount": 5,
+    "excludedUnverifiedFieldworkPollCount": 4,
+    "excludedInstitutesWithoutCompleteComparableBlock": []
+  }
+}

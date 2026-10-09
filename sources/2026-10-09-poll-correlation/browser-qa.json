@@ -1,0 +1,751 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791/",
+  "startedAt": "2026-10-09T09:41:39.660Z",
+  "checks": [
+    {
+      "defaultAllThreeFeaturesOff": true,
+      "independentPollCorrelationSwitch": true,
+      "onChangesForecast": true,
+      "offExactlyRestoresForecast": true,
+      "threeCardsSameRowAt1440And1280And1100": true,
+      "eightCurrentWeightingChoices": true,
+      "currentSeriesHeuristicAndLimitationsDisclosed": true
+    },
+    {
+      "allEightDisplayedBasePoliciesAcceptFeature": true,
+      "signalNoiseAndDependenceWorkTogether": true,
+      "channel14SelectionIndependent": true,
+      "allWorldsAndBlocPartitions120": true
+    },
+    {
+      "interactiveIndependencePValuesSuppressedWhenSimilarityEnabled": true,
+      "originalVerifiedSignificanceTableUnchangedAndClearlySeparated": true
+    },
+    {
+      "summaryPngIncludesNewFlagOnAndOff": [
+        "דמיון בין סקרים: מופעל — ניסיוני, סדרות הסקרים הנוכחיות",
+        "דמיון בין סקרים: כבוי"
+      ],
+      "thresholdPngIncludesNewFlag": "אות ורעש: מופעל — ניסיוני  ·  דמיון בין סקרים: מופעל — ניסיוני",
+      "mainAndThresholdCsvIncludeNewFlag": true
+    },
+    {
+      "legacyFixedMultiplierOnlyVisibleForLegacyImport": true,
+      "manualFactorsAndExclusionsPreserved": true,
+      "selectionResetPreservesAllFeatureFlags": true,
+      "jsonRoundtripPreservesAllFeatureFlags": true,
+      "nonBooleanNewFlagRejected": true,
+      "allSixTabsPreserveFeatures": true,
+      "mobile390And320ReadableWithoutOverflow": true,
+      "resetAllReturnsDefaultFlagsAndOriginalForecast": true,
+      "javaScriptErrors": 0
+    }
+  ],
+  "geometry": [
+    {
+      "label": "desktop-1440",
+      "oneRow": true,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 944.671875,
+          "right": 1393,
+          "top": -3122.296875,
+          "bottom": -2903.109375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 488.34375,
+          "right": 936.671875,
+          "top": -3122.296875,
+          "bottom": -2903.109375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 480.34375,
+          "top": -3122.296875,
+          "bottom": -2903.109375,
+          "width": 448.34375,
+          "height": 219.1875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-1280",
+      "oneRow": true,
+      "viewport": 1280,
+      "client": 1280,
+      "scroll": 1265,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 838,
+          "right": 1233,
+          "top": 558.484375,
+          "bottom": 806.46875,
+          "width": 395,
+          "height": 247.984375,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 435,
+          "right": 830,
+          "top": 558.484375,
+          "bottom": 806.46875,
+          "width": 395,
+          "height": 247.984375,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 427,
+          "top": 558.484375,
+          "bottom": 806.46875,
+          "width": 395,
+          "height": 247.984375,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-1100",
+      "oneRow": true,
+      "viewport": 1100,
+      "client": 1100,
+      "scroll": 1085,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 718,
+          "right": 1053,
+          "top": 587.28125,
+          "bottom": 835.265625,
+          "width": 335,
+          "height": 247.984375,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 375,
+          "right": 710,
+          "top": 587.28125,
+          "bottom": 835.265625,
+          "width": 335,
+          "height": 247.984375,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 367,
+          "top": 587.28125,
+          "bottom": 835.265625,
+          "width": 335,
+          "height": 247.984375,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "tablet900",
+      "oneRow": false,
+      "viewport": 900,
+      "client": 900,
+      "scroll": 885,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 853,
+          "top": 747.4375,
+          "bottom": 927.625,
+          "width": 821,
+          "height": 180.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 32,
+          "right": 853,
+          "top": 935.625,
+          "bottom": 1035.21875,
+          "width": 821,
+          "height": 99.59375,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 853,
+          "top": 1043.21875,
+          "bottom": 1171.609375,
+          "width": 821,
+          "height": 128.390625,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-dashboard",
+      "oneRow": true,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 944.671875,
+          "right": 1393,
+          "top": -4136.296875,
+          "bottom": -3917.109375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 488.34375,
+          "right": 936.671875,
+          "top": -4136.296875,
+          "bottom": -3917.109375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 480.34375,
+          "top": -4136.296875,
+          "bottom": -3917.109375,
+          "width": 448.34375,
+          "height": 219.1875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-probabilities",
+      "oneRow": true,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 944.671875,
+          "right": 1393,
+          "top": 876.703125,
+          "bottom": 1095.890625,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 488.34375,
+          "right": 936.671875,
+          "top": 876.703125,
+          "bottom": 1095.890625,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 480.34375,
+          "top": 876.703125,
+          "bottom": 1095.890625,
+          "width": 448.34375,
+          "height": 219.1875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-seat-probabilities",
+      "oneRow": true,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 944.671875,
+          "right": 1393,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 488.34375,
+          "right": 936.671875,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 480.34375,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.34375,
+          "height": 219.1875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-poll-trends",
+      "oneRow": true,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 944.671875,
+          "right": 1393,
+          "top": 876.703125,
+          "bottom": 1095.890625,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 488.34375,
+          "right": 936.671875,
+          "top": 876.703125,
+          "bottom": 1095.890625,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 480.34375,
+          "top": 876.703125,
+          "bottom": 1095.890625,
+          "width": 448.34375,
+          "height": 219.1875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-method-data",
+      "oneRow": true,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 944.671875,
+          "right": 1393,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 488.34375,
+          "right": 936.671875,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 480.34375,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.34375,
+          "height": 219.1875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-poll-data",
+      "oneRow": true,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 944.671875,
+          "right": 1393,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 488.34375,
+          "right": 936.671875,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.328125,
+          "height": 219.1875,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 32,
+          "right": 480.34375,
+          "top": 841.90625,
+          "bottom": 1061.09375,
+          "width": 448.34375,
+          "height": 219.1875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-390",
+      "oneRow": false,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "top": 1778.1875,
+          "bottom": 2017.1875,
+          "width": 343,
+          "height": 239,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 359,
+          "top": 2025.1875,
+          "bottom": 2185.1875,
+          "width": 343,
+          "height": 160,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 359,
+          "top": 2193.1875,
+          "bottom": 2380.1875,
+          "width": 343,
+          "height": 187,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-320",
+      "oneRow": false,
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 289,
+          "top": 1973.359375,
+          "bottom": 2255.359375,
+          "width": 273,
+          "height": 282,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 289,
+          "top": 2263.359375,
+          "bottom": 2480.359375,
+          "width": 273,
+          "height": 217,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 289,
+          "top": 2488.359375,
+          "bottom": 2702.359375,
+          "width": 273,
+          "height": 214,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-dashboard",
+      "oneRow": false,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "top": -19.8125,
+          "bottom": 219.1875,
+          "width": 343,
+          "height": 239,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 359,
+          "top": 227.1875,
+          "bottom": 387.1875,
+          "width": 343,
+          "height": 160,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 359,
+          "top": 395.1875,
+          "bottom": 582.1875,
+          "width": 343,
+          "height": 187,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-probabilities",
+      "oneRow": false,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "top": 1761.796875,
+          "bottom": 2000.796875,
+          "width": 343,
+          "height": 239,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 359,
+          "top": 2008.796875,
+          "bottom": 2168.796875,
+          "width": 343,
+          "height": 160,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 359,
+          "top": 2176.796875,
+          "bottom": 2363.796875,
+          "width": 343,
+          "height": 187,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-seat-probabilities",
+      "oneRow": false,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "top": 1701.796875,
+          "bottom": 1940.796875,
+          "width": 343,
+          "height": 239,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 359,
+          "top": 1948.796875,
+          "bottom": 2108.796875,
+          "width": 343,
+          "height": 160,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 359,
+          "top": 2116.796875,
+          "bottom": 2303.796875,
+          "width": 343,
+          "height": 187,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-poll-trends",
+      "oneRow": false,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "top": 1761.796875,
+          "bottom": 2000.796875,
+          "width": 343,
+          "height": 239,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 359,
+          "top": 2008.796875,
+          "bottom": 2168.796875,
+          "width": 343,
+          "height": 160,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 359,
+          "top": 2176.796875,
+          "bottom": 2363.796875,
+          "width": 343,
+          "height": 187,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-method-data",
+      "oneRow": false,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "top": 1701.796875,
+          "bottom": 1940.796875,
+          "width": 343,
+          "height": 239,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 359,
+          "top": 1948.796875,
+          "bottom": 2108.796875,
+          "width": 343,
+          "height": 160,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 359,
+          "top": 2116.796875,
+          "bottom": 2303.796875,
+          "width": 343,
+          "height": 187,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-poll-data",
+      "oneRow": false,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "top": 1701.796875,
+          "bottom": 1940.796875,
+          "width": 343,
+          "height": 239,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__channel14",
+          "left": 16,
+          "right": 359,
+          "top": 1948.796875,
+          "bottom": 2108.796875,
+          "width": 343,
+          "height": 160,
+          "visible": true
+        },
+        {
+          "className": "scenario-controls__poll-correlation",
+          "left": 16,
+          "right": 359,
+          "top": 2116.796875,
+          "bottom": 2303.796875,
+          "width": 343,
+          "height": 187,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-09T09:42:27.814Z"
+}

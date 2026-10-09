@@ -1,0 +1,3650 @@
+{
+  "status": "PASS",
+  "newPollCount": 0,
+  "frozenPublicCommit": "f3d7dd03a077d321f767708ed2dadcd5ad7c78fe",
+  "iterations": 10000,
+  "exactOffNumericalCollections": [
+    "iterations",
+    "parties",
+    "blocHist",
+    "blocStats",
+    "reportingGroups",
+    "coalitionHist",
+    "coalitionStats",
+    "counts",
+    "probabilities",
+    "probabilityCI",
+    "meanBallots",
+    "meanValid",
+    "meanTurnout",
+    "worlds",
+    "nEffective",
+    "methodWeights",
+    "pointProbabilities",
+    "expectedVotesRounded",
+    "turnout",
+    "checks"
+  ],
+  "off": {
+    "polls": 7,
+    "weights": [
+      {
+        "id": "midgam_geva_2026-10-05",
+        "pollsterId": "midgam_geva",
+        "pollster": "מדגם — מנו גבע",
+        "publisher": "חדשות 12",
+        "weight": 0.14179236395909886,
+        "sampleSize": 501,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "kantar_2026-10-08",
+        "pollsterId": "kantar",
+        "pollster": "קנטאר — דודי חסיד",
+        "publisher": "ישראל היום",
+        "weight": 0.1503106969417103,
+        "sampleSize": 555,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+        "publisher": "חדשות 13",
+        "weight": 0.14415022217434256,
+        "sampleSize": 1263,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "lazar_2026-10-09",
+        "pollsterId": "lazar",
+        "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+        "publisher": "מעריב",
+        "weight": 0.14548016510343192,
+        "sampleSize": 700,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "maagar_mochot_2026-10-06",
+        "pollsterId": "maagar_mochot",
+        "pollster": "מאגר מוחות — יצחק כץ",
+        "publisher": "ערוץ 16",
+        "weight": 0.12996610747273118,
+        "sampleSize": 550,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "tatika_2026-10-08",
+        "pollsterId": "tatika",
+        "pollster": "יוסי טאטיקה",
+        "publisher": "זמן ישראל",
+        "weight": 0.14415022217434256,
+        "sampleSize": 500,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "direct_polls_2026-10-08",
+        "pollsterId": "direct_polls",
+        "pollster": "דיירקט פולס — צוריאל שרון",
+        "publisher": "i24NEWS",
+        "weight": 0.14415022217434256,
+        "sampleSize": 518,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      }
+    ],
+    "nEffective": 2778.81843363431,
+    "meanSeats": {
+      "a": 51.9555,
+      "b": 53.3276,
+      "arab": 0,
+      "other": 14.7169
+    },
+    "winterPass": 0.447,
+    "hendelPass": 0.364,
+    "majority": {
+      "a": 0.0065,
+      "b": 0.003,
+      "neither": 0.9905,
+      "coalitionA": 0.0065,
+      "coalitionB": 0.003,
+      "coalitionNeither": 0.9905,
+      "coalitionBoth": 0
+    },
+    "checks": {
+      "seatsSum": 120,
+      "eachWorld120": true,
+      "blocPartition120": true,
+      "probabilityTotal": 1
+    },
+    "correlation": null,
+    "signalNoiseCorrelation": null
+  },
+  "on": [
+    {
+      "includeChannel14": false,
+      "signalNoiseEnabled": false,
+      "polls": 7,
+      "weights": [
+        {
+          "id": "midgam_geva_2026-10-05",
+          "pollsterId": "midgam_geva",
+          "pollster": "מדגם — מנו גבע",
+          "publisher": "חדשות 12",
+          "weight": 0.13055836779896313,
+          "sampleSize": 501,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+          ]
+        },
+        {
+          "id": "kantar_2026-10-08",
+          "pollsterId": "kantar",
+          "pollster": "קנטאר — דודי חסיד",
+          "publisher": "ישראל היום",
+          "weight": 0.13850800042041125,
+          "sampleSize": 555,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "hamadad_consortium_2026-10-07",
+          "pollsterId": "hamadad_consortium",
+          "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+          "publisher": "חדשות 13",
+          "weight": 0.14163862602001948,
+          "sampleSize": 1263,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "lazar_2026-10-09",
+          "pollsterId": "lazar",
+          "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+          "publisher": "מעריב",
+          "weight": 0.139163062845426,
+          "sampleSize": 700,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "maagar_mochot_2026-10-06",
+          "pollsterId": "maagar_mochot",
+          "pollster": "מאגר מוחות — יצחק כץ",
+          "publisher": "ערוץ 16",
+          "weight": 0.12623853962982992,
+          "sampleSize": 550,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "tatika_2026-10-08",
+          "pollsterId": "tatika",
+          "pollster": "יוסי טאטיקה",
+          "publisher": "זמן ישראל",
+          "weight": 0.14642643619365828,
+          "sampleSize": 500,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+          ]
+        },
+        {
+          "id": "direct_polls_2026-10-08",
+          "pollsterId": "direct_polls",
+          "pollster": "דיירקט פולס — צוריאל שרון",
+          "publisher": "i24NEWS",
+          "weight": 0.17746696709169194,
+          "sampleSize": 518,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+          ]
+        }
+      ],
+      "nEffective": 1397.8125387403854,
+      "meanSeats": {
+        "a": 52.257,
+        "b": 53.2145,
+        "arab": 0,
+        "other": 14.5285
+      },
+      "winterPass": 0.4519,
+      "hendelPass": 0.3517,
+      "majority": {
+        "a": 0.0144,
+        "b": 0.0094,
+        "neither": 0.9762,
+        "coalitionA": 0.0144,
+        "coalitionB": 0.0094,
+        "coalitionNeither": 0.9762,
+        "coalitionBoth": 0
+      },
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "correlation": {
+        "enabled": true,
+        "profileId": "post-closure-prediction-similarity-v1",
+        "kind": "forecast_similarity_density_discount",
+        "similarityDataset": "verified_post_closure_2026_published_forecasts",
+        "historicalAccuracyApplied": "unchanged_selected_base_policy",
+        "eligibleInstitutes": [
+          "direct_polls",
+          "hamadad_consortium",
+          "kantar",
+          "lazar",
+          "maagar_mochot",
+          "midgam_geva",
+          "tatika"
+        ],
+        "eligibleMassBeforeManual": 1,
+        "unmodeledInstitutes": [],
+        "unknownInstituteWeightPolicy": "preserve_proposed_mass_before_manual",
+        "redundancyDensity": {
+          "direct_polls": 1.6333306941377996,
+          "hamadad_consortium": 2.0464915022928385,
+          "kantar": 2.182183982332026,
+          "lazar": 2.1021134037468183,
+          "maagar_mochot": 2.0702103942632117,
+          "midgam_geva": 2.1838583511140564,
+          "tatika": 1.9795759022847619
+        },
+        "redundancyDiscounts": {
+          "direct_polls": 0.6122458872469048,
+          "hamadad_consortium": 0.4886411689858593,
+          "kantar": 0.4582565027039259,
+          "lazar": 0.4757117281197078,
+          "maagar_mochot": 0.4830426911057512,
+          "midgam_geva": 0.4579051564813569,
+          "tatika": 0.5051587053801941
+        },
+        "weightCorrectionApplied": "once_after_policy_aggregation_before_manual",
+        "manualMultipliersApplied": "last",
+        "similarityStrength": 0.25,
+        "bandwidthSeats": 2,
+        "evidenceLimit": "experimental_forecast_similarity_not_measured_sampling_dependence",
+        "coverage": {
+          "closureDate": "2026-09-08",
+          "from": "2026-09-09",
+          "to": "2026-10-08",
+          "publishedPollCount": 39,
+          "instituteCount": 8,
+          "modeledInstituteCount": 8,
+          "calendarBinCount": 5,
+          "calendarBinsAreIndependentObservations": false,
+          "partyCount": 11,
+          "partyIds": [
+            "beyachad",
+            "democrats",
+            "joint",
+            "likud",
+            "otzma",
+            "raam",
+            "rz_zehut",
+            "shas",
+            "utj",
+            "yashar",
+            "yisrael_beiteinu"
+          ],
+          "omittedPartyIdsWithMissingPublishedFields": [
+            "gantz",
+            "haredi_public",
+            "hendel",
+            "israel_first",
+            "noam",
+            "winter"
+          ],
+          "knownPairs": 28,
+          "unknownPairs": 0,
+          "totalPairs": 28,
+          "minimumMatchedBinCount": 1,
+          "maximumMatchedBinCount": 5,
+          "excludedUnverifiedFieldworkPollCount": 4,
+          "excludedInstitutesWithoutCompleteComparableBlock": []
+        },
+        "informationCorrection": {
+          "factor": 1.9482963939831666,
+          "independentVarianceScale": 0.0003671943933617461,
+          "modeledVarianceScale": 0.0007154035124775263,
+          "nEffectiveIndependent": 2723.353128692348,
+          "nEffectiveModeled": 1397.8125387403854,
+          "profileId": "post-closure-prediction-similarity-v1",
+          "eligibleInstitutes": [
+            "midgam_geva",
+            "kantar",
+            "hamadad_consortium",
+            "lazar",
+            "maagar_mochot",
+            "tatika",
+            "direct_polls"
+          ],
+          "unmodeledInstitutes": [],
+          "unmodeledPairs": [],
+          "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+          "correctedAt": "sampling_information_once",
+          "commonBlocSensitivityChanged": false
+        }
+      },
+      "signalNoiseCorrelation": null
+    },
+    {
+      "includeChannel14": false,
+      "signalNoiseEnabled": true,
+      "polls": 7,
+      "weights": [
+        {
+          "id": "midgam_geva_2026-10-05",
+          "pollsterId": "midgam_geva",
+          "pollster": "מדגם — מנו גבע",
+          "publisher": "חדשות 12",
+          "weight": 0.2775337948726045,
+          "sampleSize": 501,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "kantar_2026-10-08",
+          "pollsterId": "kantar",
+          "pollster": "קנטאר — דודי חסיד",
+          "publisher": "ישראל היום",
+          "weight": 0.2579716761863653,
+          "sampleSize": 555,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "hamadad_consortium_2026-10-07",
+          "pollsterId": "hamadad_consortium",
+          "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+          "publisher": "חדשות 13",
+          "weight": 0,
+          "sampleSize": 1263,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "lazar_2026-10-09",
+          "pollsterId": "lazar",
+          "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+          "publisher": "מעריב",
+          "weight": 0.3328270330853614,
+          "sampleSize": 700,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "maagar_mochot_2026-10-06",
+          "pollsterId": "maagar_mochot",
+          "pollster": "מאגר מוחות — יצחק כץ",
+          "publisher": "ערוץ 16",
+          "weight": 0.1316674958556689,
+          "sampleSize": 550,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "tatika_2026-10-08",
+          "pollsterId": "tatika",
+          "pollster": "יוסי טאטיקה",
+          "publisher": "זמן ישראל",
+          "weight": 0,
+          "sampleSize": 500,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "direct_polls_2026-10-08",
+          "pollsterId": "direct_polls",
+          "pollster": "דיירקט פולס — צוריאל שרון",
+          "publisher": "i24NEWS",
+          "weight": 0,
+          "sampleSize": 518,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        }
+      ],
+      "nEffective": null,
+      "meanSeats": {
+        "a": 49.1948,
+        "b": 56.1141,
+        "arab": 0,
+        "other": 14.6911
+      },
+      "winterPass": 0.3633,
+      "hendelPass": 0.5173,
+      "majority": {
+        "a": 0.0001,
+        "b": 0.0502,
+        "neither": 0.9497,
+        "coalitionA": 0.0001,
+        "coalitionB": 0.0502,
+        "coalitionNeither": 0.9497,
+        "coalitionBoth": 0
+      },
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "correlation": {
+        "enabled": true,
+        "profileId": "post-closure-prediction-similarity-v1",
+        "kind": "forecast_similarity_density_discount",
+        "similarityDataset": "verified_post_closure_2026_published_forecasts",
+        "historicalAccuracyApplied": "unchanged_selected_base_policy",
+        "eligibleInstitutes": [
+          "direct_polls",
+          "hamadad_consortium",
+          "kantar",
+          "lazar",
+          "maagar_mochot",
+          "midgam_geva",
+          "tatika"
+        ],
+        "eligibleMassBeforeManual": 1,
+        "unmodeledInstitutes": [],
+        "unknownInstituteWeightPolicy": "preserve_proposed_mass_before_manual",
+        "redundancyDensity": {
+          "direct_polls": 1.6333306941377996,
+          "hamadad_consortium": 2.0464915022928385,
+          "kantar": 2.182183982332026,
+          "lazar": 2.1021134037468183,
+          "maagar_mochot": 2.0702103942632117,
+          "midgam_geva": 2.1838583511140564,
+          "tatika": 1.9795759022847619
+        },
+        "redundancyDiscounts": {
+          "direct_polls": 0.6122458872469048,
+          "hamadad_consortium": 0.4886411689858593,
+          "kantar": 0.4582565027039259,
+          "lazar": 0.4757117281197078,
+          "maagar_mochot": 0.4830426911057512,
+          "midgam_geva": 0.4579051564813569,
+          "tatika": 0.5051587053801941
+        },
+        "weightCorrectionApplied": "once_after_policy_aggregation_before_manual",
+        "manualMultipliersApplied": "last",
+        "similarityStrength": 0.25,
+        "bandwidthSeats": 2,
+        "evidenceLimit": "experimental_forecast_similarity_not_measured_sampling_dependence",
+        "coverage": {
+          "closureDate": "2026-09-08",
+          "from": "2026-09-09",
+          "to": "2026-10-08",
+          "publishedPollCount": 39,
+          "instituteCount": 8,
+          "modeledInstituteCount": 8,
+          "calendarBinCount": 5,
+          "calendarBinsAreIndependentObservations": false,
+          "partyCount": 11,
+          "partyIds": [
+            "beyachad",
+            "democrats",
+            "joint",
+            "likud",
+            "otzma",
+            "raam",
+            "rz_zehut",
+            "shas",
+            "utj",
+            "yashar",
+            "yisrael_beiteinu"
+          ],
+          "omittedPartyIdsWithMissingPublishedFields": [
+            "gantz",
+            "haredi_public",
+            "hendel",
+            "israel_first",
+            "noam",
+            "winter"
+          ],
+          "knownPairs": 28,
+          "unknownPairs": 0,
+          "totalPairs": 28,
+          "minimumMatchedBinCount": 1,
+          "maximumMatchedBinCount": 5,
+          "excludedUnverifiedFieldworkPollCount": 4,
+          "excludedInstitutesWithoutCompleteComparableBlock": []
+        },
+        "informationCorrection": {
+          "factor": 1.9482963939831666,
+          "independentVarianceScale": 0.0003671943933617461,
+          "modeledVarianceScale": 0.0007154035124775263,
+          "nEffectiveIndependent": 2723.353128692348,
+          "nEffectiveModeled": 1397.8125387403854,
+          "profileId": "post-closure-prediction-similarity-v1",
+          "eligibleInstitutes": [
+            "midgam_geva",
+            "kantar",
+            "hamadad_consortium",
+            "lazar",
+            "maagar_mochot",
+            "tatika",
+            "direct_polls"
+          ],
+          "unmodeledInstitutes": [],
+          "unmodeledPairs": [],
+          "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+          "correctedAt": "sampling_information_once",
+          "commonBlocSensitivityChanged": false
+        }
+      },
+      "signalNoiseCorrelation": {
+        "enabled": true,
+        "profileId": "post-closure-prediction-similarity-v1",
+        "appliedAt": "party_and_week_measurement_precision_before_fit_once",
+        "approximation": "within_7_day_fieldwork_bins_shared_variance_inflation_not_full_joint_error_covariance",
+        "diagnostics": [
+          {
+            "partyId": "yashar",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yashar",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yashar",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "likud",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "likud",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "likud",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "beyachad",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "beyachad",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "beyachad",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "democrats",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "democrats",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "democrats",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yisrael_beiteinu",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yisrael_beiteinu",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yisrael_beiteinu",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "utj",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "utj",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "utj",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "joint",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "joint",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "joint",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "shas",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "shas",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "shas",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "otzma",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "otzma",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "otzma",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "rz_zehut",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "rz_zehut",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "rz_zehut",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "raam",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "raam",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "raam",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "winter",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "winter",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "winter",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "hendel",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "hendel",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "hendel",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4411835241379263,
+            "independentVarianceScale": 0.000957741978745642,
+            "modeledVarianceScale": 0.001380281960143475,
+            "nEffectiveIndependent": 1044.1225530384536,
+            "nEffectiveModeled": 724.4896541979392,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "gantz",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "gantz",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "gantz",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155506625637886,
+            "independentVarianceScale": 0.0013435252716996592,
+            "modeledVarianceScale": 0.0016331230341857148,
+            "nEffectiveIndependent": 744.3105247547192,
+            "nEffectiveModeled": 612.3237374449293,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "noam",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "noam",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155490766040757,
+            "independentVarianceScale": 0.0013452627705464572,
+            "modeledVarianceScale": 0.0016352329185275866,
+            "nEffectiveIndependent": 743.349196821816,
+            "nEffectiveModeled": 611.5336773555356,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "noam",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "haredi_public",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.216021180347776,
+            "independentVarianceScale": 0.0014251085554294561,
+            "modeledVarianceScale": 0.0017329621876970413,
+            "nEffectiveIndependent": 701.7009309151542,
+            "nEffectiveModeled": 577.046635581192,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "haredi_public",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4103679858395697,
+            "independentVarianceScale": 0.0009026326405685607,
+            "modeledVarianceScale": 0.001273044179231733,
+            "nEffectiveIndependent": 1107.8704171057989,
+            "nEffectiveModeled": 785.5186931560286,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "haredi_public",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155506625637886,
+            "independentVarianceScale": 0.0013435252716996592,
+            "modeledVarianceScale": 0.0016331230341857148,
+            "nEffectiveIndependent": 744.3105247547192,
+            "nEffectiveModeled": 612.3237374449293,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "israel_first",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "other",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "other",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155490766040757,
+            "independentVarianceScale": 0.0013452627705464572,
+            "modeledVarianceScale": 0.0016352329185275866,
+            "nEffectiveIndependent": 743.349196821816,
+            "nEffectiveModeled": 611.5336773555356,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "other",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155506625637886,
+            "independentVarianceScale": 0.0013435252716996592,
+            "modeledVarianceScale": 0.0016331230341857148,
+            "nEffectiveIndependent": 744.3105247547192,
+            "nEffectiveModeled": 612.3237374449293,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          }
+        ]
+      }
+    },
+    {
+      "includeChannel14": true,
+      "signalNoiseEnabled": false,
+      "polls": 8,
+      "weights": [
+        {
+          "id": "midgam_geva_2026-10-05",
+          "pollsterId": "midgam_geva",
+          "pollster": "מדגם — מנו גבע",
+          "publisher": "חדשות 12",
+          "weight": 0.10860934674645552,
+          "sampleSize": 501,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+          ]
+        },
+        {
+          "id": "kantar_2026-10-08",
+          "pollsterId": "kantar",
+          "pollster": "קנטאר — דודי חסיד",
+          "publisher": "ישראל היום",
+          "weight": 0.11469313963800087,
+          "sampleSize": 555,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "hamadad_consortium_2026-10-07",
+          "pollsterId": "hamadad_consortium",
+          "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+          "publisher": "חדשות 13",
+          "weight": 0.11825389599847617,
+          "sampleSize": 1263,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "lazar_2026-10-09",
+          "pollsterId": "lazar",
+          "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+          "publisher": "מעריב",
+          "weight": 0.11638162041674961,
+          "sampleSize": 700,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "maagar_mochot_2026-10-06",
+          "pollsterId": "maagar_mochot",
+          "pollster": "מאגר מוחות — יצחק כץ",
+          "publisher": "ערוץ 16",
+          "weight": 0.105204876815492,
+          "sampleSize": 550,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        },
+        {
+          "id": "tatika_2026-10-08",
+          "pollsterId": "tatika",
+          "pollster": "יוסי טאטיקה",
+          "publisher": "זמן ישראל",
+          "weight": 0.12121055482818367,
+          "sampleSize": 500,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+          ]
+        },
+        {
+          "id": "direct_polls_2026-10-08",
+          "pollsterId": "direct_polls",
+          "pollster": "דיירקט פולס — צוריאל שרון",
+          "publisher": "i24NEWS",
+          "weight": 0.13665731063799724,
+          "sampleSize": 518,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+          ]
+        },
+        {
+          "id": "next_data_2026-10-07",
+          "pollsterId": "next_data",
+          "pollster": "NEXT DATA — ניתוח שלמה פילבר",
+          "publisher": "חדשות 14",
+          "weight": 0.17898925491864504,
+          "sampleSize": 1100,
+          "reconstructed": true,
+          "notes": [
+            "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+            "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+          ]
+        }
+      ],
+      "nEffective": 1796.4845833377271,
+      "meanSeats": {
+        "a": 54.0502,
+        "b": 52.0099,
+        "arab": 0,
+        "other": 13.9399
+      },
+      "winterPass": 0.3471,
+      "hendelPass": 0.2546,
+      "majority": {
+        "a": 0.0778,
+        "b": 0.0026,
+        "neither": 0.9196,
+        "coalitionA": 0.0778,
+        "coalitionB": 0.0026,
+        "coalitionNeither": 0.9196,
+        "coalitionBoth": 0
+      },
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "correlation": {
+        "enabled": true,
+        "profileId": "post-closure-prediction-similarity-v1",
+        "kind": "forecast_similarity_density_discount",
+        "similarityDataset": "verified_post_closure_2026_published_forecasts",
+        "historicalAccuracyApplied": "unchanged_selected_base_policy",
+        "eligibleInstitutes": [
+          "direct_polls",
+          "hamadad_consortium",
+          "kantar",
+          "lazar",
+          "maagar_mochot",
+          "midgam_geva",
+          "next_data",
+          "tatika"
+        ],
+        "eligibleMassBeforeManual": 1,
+        "unmodeledInstitutes": [],
+        "unknownInstituteWeightPolicy": "preserve_proposed_mass_before_manual",
+        "redundancyDensity": {
+          "direct_polls": 1.7941842880541523,
+          "hamadad_consortium": 2.073406525207336,
+          "kantar": 2.229138485485162,
+          "lazar": 2.1261993857775656,
+          "maagar_mochot": 2.1012553997963144,
+          "midgam_geva": 2.220599534207504,
+          "next_data": 1.3698498253756872,
+          "tatika": 2.0228304370191648
+        },
+        "redundancyDiscounts": {
+          "direct_polls": 0.5573563466462693,
+          "hamadad_consortium": 0.482298086671644,
+          "kantar": 0.4486038021017588,
+          "lazar": 0.4703227772000758,
+          "maagar_mochot": 0.47590597511227584,
+          "midgam_geva": 0.45032883444104826,
+          "next_data": 0.7300070281249594,
+          "tatika": 0.49435680900352486
+        },
+        "weightCorrectionApplied": "once_after_policy_aggregation_before_manual",
+        "manualMultipliersApplied": "last",
+        "similarityStrength": 0.25,
+        "bandwidthSeats": 2,
+        "evidenceLimit": "experimental_forecast_similarity_not_measured_sampling_dependence",
+        "coverage": {
+          "closureDate": "2026-09-08",
+          "from": "2026-09-09",
+          "to": "2026-10-08",
+          "publishedPollCount": 39,
+          "instituteCount": 8,
+          "modeledInstituteCount": 8,
+          "calendarBinCount": 5,
+          "calendarBinsAreIndependentObservations": false,
+          "partyCount": 11,
+          "partyIds": [
+            "beyachad",
+            "democrats",
+            "joint",
+            "likud",
+            "otzma",
+            "raam",
+            "rz_zehut",
+            "shas",
+            "utj",
+            "yashar",
+            "yisrael_beiteinu"
+          ],
+          "omittedPartyIdsWithMissingPublishedFields": [
+            "gantz",
+            "haredi_public",
+            "hendel",
+            "israel_first",
+            "noam",
+            "winter"
+          ],
+          "knownPairs": 28,
+          "unknownPairs": 0,
+          "totalPairs": 28,
+          "minimumMatchedBinCount": 1,
+          "maximumMatchedBinCount": 5,
+          "excludedUnverifiedFieldworkPollCount": 4,
+          "excludedInstitutesWithoutCompleteComparableBlock": []
+        },
+        "informationCorrection": {
+          "factor": 1.9292371720606858,
+          "independentVarianceScale": 0.0002885299391548236,
+          "modeledVarianceScale": 0.0005566426838698936,
+          "nEffectiveIndependent": 3465.844837209096,
+          "nEffectiveModeled": 1796.4845833377271,
+          "profileId": "post-closure-prediction-similarity-v1",
+          "eligibleInstitutes": [
+            "midgam_geva",
+            "kantar",
+            "hamadad_consortium",
+            "lazar",
+            "maagar_mochot",
+            "tatika",
+            "direct_polls",
+            "next_data"
+          ],
+          "unmodeledInstitutes": [],
+          "unmodeledPairs": [],
+          "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+          "correctedAt": "sampling_information_once",
+          "commonBlocSensitivityChanged": false
+        }
+      },
+      "signalNoiseCorrelation": null
+    },
+    {
+      "includeChannel14": true,
+      "signalNoiseEnabled": true,
+      "polls": 8,
+      "weights": [
+        {
+          "id": "midgam_geva_2026-10-05",
+          "pollsterId": "midgam_geva",
+          "pollster": "מדגם — מנו גבע",
+          "publisher": "חדשות 12",
+          "weight": 0.19983916634403495,
+          "sampleSize": 501,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "kantar_2026-10-08",
+          "pollsterId": "kantar",
+          "pollster": "קנטאר — דודי חסיד",
+          "publisher": "ישראל היום",
+          "weight": 0.17202202286710466,
+          "sampleSize": 555,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "hamadad_consortium_2026-10-07",
+          "pollsterId": "hamadad_consortium",
+          "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+          "publisher": "חדשות 13",
+          "weight": 0,
+          "sampleSize": 1263,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "lazar_2026-10-09",
+          "pollsterId": "lazar",
+          "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+          "publisher": "מעריב",
+          "weight": 0.22132707979606497,
+          "sampleSize": 700,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "maagar_mochot_2026-10-06",
+          "pollsterId": "maagar_mochot",
+          "pollster": "מאגר מוחות — יצחק כץ",
+          "publisher": "ערוץ 16",
+          "weight": 0.09407379990385697,
+          "sampleSize": 550,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "tatika_2026-10-08",
+          "pollsterId": "tatika",
+          "pollster": "יוסי טאטיקה",
+          "publisher": "זמן ישראל",
+          "weight": 0,
+          "sampleSize": 500,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "direct_polls_2026-10-08",
+          "pollsterId": "direct_polls",
+          "pollster": "דיירקט פולס — צוריאל שרון",
+          "publisher": "i24NEWS",
+          "weight": 0,
+          "sampleSize": 518,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        },
+        {
+          "id": "next_data_2026-10-07",
+          "pollsterId": "next_data",
+          "pollster": "NEXT DATA — ניתוח שלמה פילבר",
+          "publisher": "חדשות 14",
+          "weight": 0.31273793108893844,
+          "sampleSize": 1100,
+          "reconstructed": false,
+          "notes": [
+            "הסקר משמש בורר מכון בלבד; מרכז החלופה נאמד מאחוזים מקוריים לאורך זמן."
+          ]
+        }
+      ],
+      "nEffective": null,
+      "meanSeats": {
+        "a": 54.3338,
+        "b": 52.342,
+        "arab": 0,
+        "other": 13.3242
+      },
+      "winterPass": 0.137,
+      "hendelPass": 0.2305,
+      "majority": {
+        "a": 0.009,
+        "b": 0.0002,
+        "neither": 0.9908,
+        "coalitionA": 0.009,
+        "coalitionB": 0.0002,
+        "coalitionNeither": 0.9908,
+        "coalitionBoth": 0
+      },
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "correlation": {
+        "enabled": true,
+        "profileId": "post-closure-prediction-similarity-v1",
+        "kind": "forecast_similarity_density_discount",
+        "similarityDataset": "verified_post_closure_2026_published_forecasts",
+        "historicalAccuracyApplied": "unchanged_selected_base_policy",
+        "eligibleInstitutes": [
+          "direct_polls",
+          "hamadad_consortium",
+          "kantar",
+          "lazar",
+          "maagar_mochot",
+          "midgam_geva",
+          "next_data",
+          "tatika"
+        ],
+        "eligibleMassBeforeManual": 1,
+        "unmodeledInstitutes": [],
+        "unknownInstituteWeightPolicy": "preserve_proposed_mass_before_manual",
+        "redundancyDensity": {
+          "direct_polls": 1.7941842880541523,
+          "hamadad_consortium": 2.073406525207336,
+          "kantar": 2.229138485485162,
+          "lazar": 2.1261993857775656,
+          "maagar_mochot": 2.1012553997963144,
+          "midgam_geva": 2.220599534207504,
+          "next_data": 1.3698498253756872,
+          "tatika": 2.0228304370191648
+        },
+        "redundancyDiscounts": {
+          "direct_polls": 0.5573563466462693,
+          "hamadad_consortium": 0.482298086671644,
+          "kantar": 0.4486038021017588,
+          "lazar": 0.4703227772000758,
+          "maagar_mochot": 0.47590597511227584,
+          "midgam_geva": 0.45032883444104826,
+          "next_data": 0.7300070281249594,
+          "tatika": 0.49435680900352486
+        },
+        "weightCorrectionApplied": "once_after_policy_aggregation_before_manual",
+        "manualMultipliersApplied": "last",
+        "similarityStrength": 0.25,
+        "bandwidthSeats": 2,
+        "evidenceLimit": "experimental_forecast_similarity_not_measured_sampling_dependence",
+        "coverage": {
+          "closureDate": "2026-09-08",
+          "from": "2026-09-09",
+          "to": "2026-10-08",
+          "publishedPollCount": 39,
+          "instituteCount": 8,
+          "modeledInstituteCount": 8,
+          "calendarBinCount": 5,
+          "calendarBinsAreIndependentObservations": false,
+          "partyCount": 11,
+          "partyIds": [
+            "beyachad",
+            "democrats",
+            "joint",
+            "likud",
+            "otzma",
+            "raam",
+            "rz_zehut",
+            "shas",
+            "utj",
+            "yashar",
+            "yisrael_beiteinu"
+          ],
+          "omittedPartyIdsWithMissingPublishedFields": [
+            "gantz",
+            "haredi_public",
+            "hendel",
+            "israel_first",
+            "noam",
+            "winter"
+          ],
+          "knownPairs": 28,
+          "unknownPairs": 0,
+          "totalPairs": 28,
+          "minimumMatchedBinCount": 1,
+          "maximumMatchedBinCount": 5,
+          "excludedUnverifiedFieldworkPollCount": 4,
+          "excludedInstitutesWithoutCompleteComparableBlock": []
+        },
+        "informationCorrection": {
+          "factor": 1.9292371720606858,
+          "independentVarianceScale": 0.0002885299391548236,
+          "modeledVarianceScale": 0.0005566426838698936,
+          "nEffectiveIndependent": 3465.844837209096,
+          "nEffectiveModeled": 1796.4845833377271,
+          "profileId": "post-closure-prediction-similarity-v1",
+          "eligibleInstitutes": [
+            "midgam_geva",
+            "kantar",
+            "hamadad_consortium",
+            "lazar",
+            "maagar_mochot",
+            "tatika",
+            "direct_polls",
+            "next_data"
+          ],
+          "unmodeledInstitutes": [],
+          "unmodeledPairs": [],
+          "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+          "correctedAt": "sampling_information_once",
+          "commonBlocSensitivityChanged": false
+        }
+      },
+      "signalNoiseCorrelation": {
+        "enabled": true,
+        "profileId": "post-closure-prediction-similarity-v1",
+        "appliedAt": "party_and_week_measurement_precision_before_fit_once",
+        "approximation": "within_7_day_fieldwork_bins_shared_variance_inflation_not_full_joint_error_covariance",
+        "diagnostics": [
+          {
+            "partyId": "yashar",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yashar",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yashar",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yashar",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "likud",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "likud",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "likud",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "likud",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "beyachad",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "beyachad",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "beyachad",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "beyachad",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "democrats",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "democrats",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "democrats",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "democrats",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "yisrael_beiteinu",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yisrael_beiteinu",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yisrael_beiteinu",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "yisrael_beiteinu",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "utj",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "utj",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "utj",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "utj",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "joint",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "joint",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "joint",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "joint",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "shas",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "shas",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "shas",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "shas",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "otzma",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "otzma",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "otzma",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "otzma",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "rz_zehut",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "rz_zehut",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "rz_zehut",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "rz_zehut",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "raam",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "raam",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "raam",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "raam",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "winter",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "winter",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "winter",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "winter",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "hendel",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "hendel",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "hendel",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.4410804480100345,
+            "independentVarianceScale": 0.0009577853417258535,
+            "modeledVarianceScale": 0.001380245729351737,
+            "nEffectiveIndependent": 1044.0752812087092,
+            "nEffectiveModeled": 724.5086717056333,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "midgam_geva"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "hendel",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "gantz",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "gantz",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "gantz",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155100438915234,
+            "independentVarianceScale": 0.0013435895141231972,
+            "modeledVarianceScale": 0.001633146549284078,
+            "nEffectiveIndependent": 744.2749362721712,
+            "nEffectiveModeled": 612.3149208124462,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "gantz",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "noam",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "noam",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 3,
+            "observationCount": 3,
+            "factor": 1.1480788116711345,
+            "independentVarianceScale": 0.0009413679582560572,
+            "modeledVarianceScale": 0.0010807646068598962,
+            "nEffectiveIndependent": 1062.2838723473892,
+            "nEffectiveModeled": 925.270862547439,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar",
+              "next_data"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "noam",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "noam",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "haredi_public",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2157866335556924,
+            "independentVarianceScale": 0.0014253501833594927,
+            "modeledVarianceScale": 0.0017329217010646264,
+            "nEffectiveIndependent": 701.5819773096324,
+            "nEffectiveModeled": 577.060117249179,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "midgam_geva",
+              "lazar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "haredi_public",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 4,
+            "observationCount": 5,
+            "factor": 1.2123017247435428,
+            "independentVarianceScale": 0.0005780614663498258,
+            "modeledVarianceScale": 0.0007007849126636752,
+            "nEffectiveIndependent": 1729.9198410759134,
+            "nEffectiveModeled": 1426.9713601553033,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "next_data",
+              "lazar",
+              "kantar",
+              "maagar_mochot"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "haredi_public",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155100438915234,
+            "independentVarianceScale": 0.0013435895141231972,
+            "modeledVarianceScale": 0.001633146549284078,
+            "nEffectiveIndependent": 744.2749362721712,
+            "nEffectiveModeled": 612.3149208124462,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "haredi_public",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "israel_first",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "other",
+            "bin": 0,
+            "from": "2026-09-09",
+            "to": "2026-09-15",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          },
+          {
+            "partyId": "other",
+            "bin": 2,
+            "from": "2026-09-23",
+            "to": "2026-09-29",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155073653997375,
+            "independentVarianceScale": 0.0013453270948955542,
+            "modeledVarianceScale": 0.0016352549927173778,
+            "nEffectiveIndependent": 743.3136549425075,
+            "nEffectiveModeled": 611.5254223063123,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "other",
+            "bin": 3,
+            "from": "2026-09-30",
+            "to": "2026-10-06",
+            "instituteCount": 2,
+            "observationCount": 2,
+            "factor": 1.2155100438915234,
+            "independentVarianceScale": 0.0013435895141231972,
+            "modeledVarianceScale": 0.001633146549284078,
+            "nEffectiveIndependent": 744.2749362721712,
+            "nEffectiveModeled": 612.3149208124462,
+            "profileId": "post-closure-prediction-similarity-v1",
+            "eligibleInstitutes": [
+              "lazar",
+              "kantar"
+            ],
+            "unmodeledInstitutes": [],
+            "unmodeledPairs": [],
+            "unknownPairAssumption": "uncorrected_variance_fallback_not_estimated_independence",
+            "correctedAt": "sampling_information_once",
+            "commonBlocSensitivityChanged": false
+          },
+          {
+            "partyId": "other",
+            "bin": 4,
+            "from": "2026-10-07",
+            "to": "2026-10-13",
+            "instituteCount": 1,
+            "observationCount": 1,
+            "factor": 1
+          }
+        ]
+      }
+    }
+  ],
+  "historicalAccuracyUnchanged": true,
+  "immutableFiles": [
+    {
+      "path": "data/current-polls.json",
+      "sha256": "1dc2da8939c2bc0dfebbdcebce0b8fb10a9f88df3c076258e90006e009975945"
+    },
+    {
+      "path": "data/poll-history.json",
+      "sha256": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a"
+    },
+    {
+      "path": "data/calibration.json",
+      "sha256": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb"
+    },
+    {
+      "path": "data/history/final-polls-2022.json",
+      "sha256": "fb39b611fbfaa67066aace533baa64f6afa1ab42bbc5196ba1b182c840643c4c"
+    },
+    {
+      "path": "data/weight-presets.json",
+      "sha256": "4b78d63175ef13945d80dfc51ec91a0fcdde332908fda385922236ec887e402c"
+    },
+    {
+      "path": "data/strict-party-trends.json",
+      "sha256": "015bb39c83cf5bb8e039bf61bc1fd4a9c4f64460da9dbddf1f3ebf3e85534fe2"
+    },
+    {
+      "path": "data/strict-party-trends-without-channel14.json",
+      "sha256": "51da1999cd28255efe226b048d79b7c4f5a4ff5a8b679a16810d2bf564e73843"
+    },
+    {
+      "path": "data/signal-noise-observations.json",
+      "sha256": "b04ee5adbcd7c8d6881a6a89ccd460d0a0e693a625c2921dcb4f6016aa4fb6ab"
+    }
+  ],
+  "profileSha256": "7405bf9d8316edde65f32bb89536532445fe865dcc2b0d6ab4b37ffd629c3884",
+  "significance": "Audited historical-accuracy tests unchanged; similarity is not a validated error covariance. Interactive sign-flip p/q hidden when ON."
+}

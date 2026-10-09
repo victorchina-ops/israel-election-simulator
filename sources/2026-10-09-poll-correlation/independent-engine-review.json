@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "implementationImports": false,
+  "defaultWeighting": "unchanged historical calibration, Channel 14 excluded, no recency/manual multiplier",
+  "profileId": "post-closure-prediction-similarity-v1",
+  "weightsMaximumAbsoluteDifference": 5.551115123125783e-17,
+  "nEffectiveIndependentSameWeights": 2723.3531286923485,
+  "nEffectiveModeled": 1397.8125387403852,
+  "varianceInflation": 1.948296393983167,
+  "historicalAccuracySha256Unchanged": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+  "instituteDensity": {
+    "midgam_geva": 2.1838583511140564,
+    "kantar": 2.182183982332026,
+    "hamadad_consortium": 2.046491502292838,
+    "lazar": 2.1021134037468183,
+    "maagar_mochot": 2.0702103942632117,
+    "tatika": 1.9795759022847619,
+    "direct_polls": 1.6333306941377994
+  },
+  "instituteWeights": {
+    "midgam_geva": 0.13055836779896313,
+    "kantar": 0.13850800042041125,
+    "hamadad_consortium": 0.14163862602001953,
+    "lazar": 0.13916306284542598,
+    "maagar_mochot": 0.12623853962982992,
+    "tatika": 0.14642643619365828,
+    "direct_polls": 0.17746696709169194
+  },
+  "interpretation": "heuristic forecast similarity; no respondent-overlap, accuracy-improvement or new significance claim",
+  "reviewFindings": [
+    {
+      "id": "signal_noise_duplicate_precision_before_fit",
+      "status": "resolved",
+      "resolution": "Inflation units deduplicate source IDs and conservatively collapse same institute/day precision and quality before aggregation; original observations remain intact for the filter.",
+      "test": "tests/poll-correlation-signal-noise.test.mjs"
+    },
+    {
+      "id": "interactive_p_q_with_similarity_enabled",
+      "status": "resolved",
+      "resolution": "Interactive p/q are suppressed with the independence-assumption explanation; the audited historical-accuracy significance table remains separately identified and unchanged.",
+      "files": [
+        "dashboard/src/content/dashboard/PollTrendsPage.jsx",
+        "dashboard/src/content/dashboard/VerifiedPartyTrends.jsx"
+      ]
+    }
+  ],
+  "signalNoiseReview": {
+    "precisionCorrectionApplied": "party/week scalar inflation once before fit, without posterior reweighting",
+    "manualMultiplierApplied": "once in selected institute reliability; not reapplied after fitting",
+    "sourceObservationsUnchanged": true,
+    "limitation": "Within-week scalar sensitivity approximation, not a full joint measurement covariance or measured respondent overlap."
+  },
+  "reviewedImplementationHashes": {
+    "dashboard/src/content/dashboard/model/poll-correlation.js": "da5828b56263bd579f4f23d9f1ec270a34ccf674302ab98cfe03fa31fb9ca770",
+    "dashboard/src/content/dashboard/model/signal-noise.js": "dfdacc63e1e0bed376ecfe432b52f438fe42d312aadbb6eeafe5e8ab4845ce7d",
+    "dashboard/src/content/dashboard/PollTrendsPage.jsx": "15885f1a80db239f6c7900d9752565037ab37462b8df005267ae78bef5c38c56",
+    "dashboard/src/content/dashboard/VerifiedPartyTrends.jsx": "ed749b37ca14b21e8f68170e3b1ce51bb4619df0171aa94a1e093fc006e3f4d5"
+  }
+}
