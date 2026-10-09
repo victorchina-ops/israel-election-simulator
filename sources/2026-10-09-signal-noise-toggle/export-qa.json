@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791/",
+  "startedAt": "2026-10-09T06:54:24.477Z",
+  "checks": [
+    {
+      "legacyStandaloneMigrates": true,
+      "legacyHistoricalQuality": true,
+      "newWeightMode": "quality",
+      "independentSwitchOn": true
+    },
+    {
+      "legacyStandaloneMigrates": true,
+      "legacyHistoricalQuality": false,
+      "newWeightMode": "equal",
+      "independentSwitchOn": true
+    },
+    {
+      "normalJSONRoundtripPreservesIndependentFlag": true,
+      "ordinaryWeightingMethod": "reference",
+      "seededPartyResultsPreserved": true
+    },
+    {
+      "invalidNonBooleanToggleRejected": true,
+      "error": "תרחיש לא תקין: מתג אות ורעש חייב להיות מופעל או כבוי.",
+      "existingToggleStatePreserved": true
+    },
+    {
+      "summaryPNG": true,
+      "thresholdPNG": true,
+      "thresholdCSV": true,
+      "allExportsNameChosenWeightingAndFeature": true,
+      "javaScriptErrors": 0
+    }
+  ],
+  "exports": [
+    {
+      "file": "summary-reference-signal-noise-on.png",
+      "width": 2720,
+      "height": 5638,
+      "bytes": 1363151,
+      "chosenMethodAndFeatureInRenderedCanvas": true,
+      "sourceCoverageDatesAndArielTo120Credit": true
+    },
+    {
+      "file": "threshold-reference-signal-noise-on.csv",
+      "rows": 17,
+      "chosenMethodAndFeatureOnEveryCSVRow": true
+    },
+    {
+      "file": "threshold-reference-signal-noise-on.png",
+      "width": 2880,
+      "height": 3160,
+      "bytes": 621301,
+      "chosenMethodAndFeatureInRenderedCanvas": true,
+      "sourceCoverageDatesAndArielTo120Credit": true
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-09T06:54:38.283Z"
+}

@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-09-12",
+  "scope": "source weighting alternatives applied to the same local poll observations",
+  "methods": {
+    "equal": {
+      "id": "equal",
+      "label": "משקל שווה",
+      "exactness": "local-definition",
+      "weights": {
+        "midgam_geva": 1,
+        "kantar": 1,
+        "hamadad_consortium": 1,
+        "lazar": 1,
+        "maagar_mochot": 1,
+        "tatika": 1,
+        "direct_polls": 1,
+        "next_data": 1
+      },
+      "notes": [
+        "אותו משקל לכל אחד משמונת הסקרים. דעיכת זמן מתווספת רק אם מפעילים אותה."
+      ],
+      "sourceUrls": []
+    },
+    "reference": {
+      "schemaVersion": 1,
+      "id": "reference",
+      "label": "מדד 120 — משקלי המקורות המפורסמים",
+      "exactness": "published-base-weights-exact; not-full-project-replication",
+      "asOf": "2026-09-12T06:58:00+03:00",
+      "retrievedAt": "2026-09-12",
+      "sourceHomepageAsOf": "2026-09-12",
+      "available": true,
+      "weightsByPollster": {
+        "midgam_geva": 0.26,
+        "kantar": 0.24,
+        "hamadad_consortium": 0.14,
+        "lazar": 0.11,
+        "maagar_mochot": 0.1,
+        "tatika": 0.09,
+        "direct_polls": 0.04,
+        "next_data": 0.02
+      },
+      "pollSelection": {
+        "mode": "latest-per-pollster",
+        "sourceRuleVerified": true,
+        "currentInputPollIds": [
+          "midgam_geva_2026-09-09",
+          "kantar_2026-09-09",
+          "hamadad_consortium_2026-09-09",
+          "lazar_2026-09-11",
+          "maagar_mochot_2026-09-09",
+          "tatika_2026-09-10",
+          "direct_polls_2026-09-09",
+          "next_data_2026-09-09"
+        ],
+        "allCurrentPollsterIdsUnique": true,
+        "sameMeasurementPublishedElsewhereCountsOnce": true,
+        "recency": "Published values are the snapshot weights. Any additional age decay is our explicit adaptation, not an exact replay."
+      },
+      "partySpecificException": {
+        "partyIds": [
+          "joint",
+          "raam"
+        ],
+        "pollsterId": "hamadad_consortium",
+        "weight": 0.5,
+        "remainingWeight": 0.5,
+        "remainingAllocationFormula": null,
+        "basePresetAppliesException": false,
+        "note": "החריג מפורסם, אך חלוקת 50% הנותרים אינה מפורטת מספרית. בחירת משקלי הבסיס אינה משחזרת שכבה זו."
+      },
+      "sourceUrls": [
+        "https://madad120.co.il/model/model-current.json",
+        "https://madad120.co.il/model/methodology-current",
+        "https://madad120.co.il/"
+      ],
+      "sourceSnapshot": {
+        "path": "data/raw/weight-madad120-model-2026-09-12.json",
+        "sha256": "e20d583ff831668f9cd88dcf06d796002d4ac8321912a88be10329bb321e1657"
+      },
+      "notes": [
+        "הסקר האחרון מכל מקור מחליף את קודמו. לא מצרפים את מדד 120 עצמו כסקר נוסף לצד הסקרים שמהם נבנה.",
+        "השם מתייחס לשמונת המשקלים המפורסמים בלבד; שחזור אחוזים, רעש, השתתפות וחישוב מנדטים נעשים במנוע המקומי.",
+        "מדד 120 מפרסם גם התאמות טריות וניסוח ושכבה מיוחדת לערביות; אין כאן שחזור מלא שלהן.",
+        "מצב הסכמי העודפים בקובץ המקור מתוארך ל-11.9, בעוד הדף הראשי עודכן ב-12.9. ההסכמים במודל המקומי מגיעים מבדיקת המקורות הנפרדת.",
+        "הסתברויות הסף המפורסמות באתר אינן משקלי סקרים ואינן מועתקות לתוצאות הסימולציה."
+      ]
+    },
+    "littlepolls": {
+      "id": "littlepolls",
+      "label": "מואיז הקטן — ציוני הסוקרים",
+      "exactness": "published_current_pollster_base_scores_only",
+      "available": true,
+      "asOf": "2026-09-09",
+      "weights": {
+        "midgam_geva": 1,
+        "kantar": 0.75,
+        "hamadad_consortium": 0.6,
+        "lazar": 0.75,
+        "maagar_mochot": 0.75,
+        "tatika": 0.6,
+        "direct_polls": 1,
+        "next_data": 0.6
+      },
+      "sourceUrls": [
+        "https://littlepolls.com/",
+        "https://littlepolls.com/#/method"
+      ],
+      "notes": [
+        "מיישמים את ציוני הסוקרים המפורסמים על שמונת הסקרים שלנו, ללא דעיכת זמן נוספת.",
+        "זה אינו שחזור מלא של מואיז הקטן: באתר קיימים חלון זמן, צבירה שבועית ותמהיל סקרים אחרים.",
+        "שיוך ההיסטוריה לדיירקט הנוכחי הוא החלטה של הפרויקט המקורי, ולא אימות עצמאי שלנו."
+      ]
+    },
+    "rosner": {
+      "id": "rosner",
+      "label": "בהשראת המדד של רוזנר — קירוב שלנו",
+      "exactness": "our-inspired-proxy-not-published-formula",
+      "available": true,
+      "sourceExactWeightsAvailable": false,
+      "weights": null,
+      "sourceUrls": [
+        "https://themadad.com/polls26/",
+        "https://themadad.com/poll-trends-2022/",
+        "https://themadad.com/ממוצע-הסקרים-גלים-קטנים-במים-עומדים/"
+      ],
+      "notes": [
+        "לא נמצאה נוסחה מספרית עדכנית שפורסמה בידי המדד.",
+        "הקירוב שלנו משלב דעיכת זמן, שורש גודל המדגם והפחתת חריגות. כל הפרמטרים המספריים הם הנחות שלנו.",
+        "עקרונות אלה תוארו ב־2022; התאמתם לשיטת המדד ב־2026 לא אומתה."
+      ],
+      "proxy": {
+        "formula": "2^(-ageDays/halfLifeDays) * sqrt(sampleSize/500) * min(1, cutoffPP/RMSDistanceToEqualConsensusPP)",
+        "halfLifeDays": 14,
+        "cutoffPP": 2,
+        "defaultEnsembleWeight": 0
+      }
+    },
+    "gilead": {
+      "id": "gilead",
+      "label": "מיכאל גלעד — תרחיש 50%",
+      "exactness": "published-proposal-current-entity-assignment-is-scenario",
+      "available": true,
+      "weights": null,
+      "sourceUrls": [
+        "https://x.com/Michael_Gilead/status/2083866004795326596",
+        "https://x.com/Michael_Gilead/status/2083925571101217253"
+      ],
+      "notes": [
+        "בודקים את הצעת 50% לדיירקט ו־50% לשאר; מכפילי המשתמש מופעלים לאחר החלוקה הזאת.",
+        "הבחירה לשייך כיום את ה־50% לדיירקט או ל־NEXT DATA היא הנחת תרחיש מפורשת. אין העברה אוטומטית של דיוק היסטורי לישות חדשה.",
+        "ההצעה היא חלופת רגישות; מחקר העבר אינו מוכיח שזהו המשקל האופטימלי."
+      ]
+    },
+    "robust": {
+      "id": "robust",
+      "label": "שילוב עמיד ושמרני",
+      "exactness": "our-transparent-heuristic-not-accuracy-calibrated",
+      "status": "our_heuristic",
+      "available": true,
+      "weights": null,
+      "sourceUrls": [
+        "https://madad120.co.il/model/methodology-current",
+        "https://littlepolls.com/#/method",
+        "https://x.com/Michael_Gilead/status/2083925571101217253",
+        "https://themadad.com/poll-trends-2022/"
+      ],
+      "notes": [
+        "משלבים את השיטות שנבחרו בחציון משוקלל לכל סוקר, מנרמלים את החציונים, ומכווצים 25% למשקל שווה כברירת מחדל. אפשר לשנות את שיעור הכיווץ.",
+        "החציון נועד לצמצם השפעה של המלצת שקלול חריגה; הוא אינו מגן מפני טעות משותפת לכמה שיטות או לכמה סוקרים.",
+        "זהו כלל שמרני שלנו: לא הוכחה עדיפות בחיזוי, ושיעור הכיווץ אינו פרמטר שנאמד מדיוק היסטורי.",
+        "מקורות הקישור מתעדים את גישות הקלט; הם אינם מפרסמים או מאמתים את נוסחת השילוב הזאת.",
+        "מכפילי המשתמש מופעלים לאחר החציון והכיווץ. מספר הסקרים הייחודיים נשאר זהה. וקטורי הקלט אינם תרומות חיבוריות."
+      ],
+      "aggregation": {
+        "method": "weighted-coordinate-median",
+        "normalizeEachMethodFirst": true,
+        "halfMassTie": "midpoint of adjacent central values",
+        "normalizeMedianVector": true,
+        "uniformShrinkageDefault": 0.25,
+        "uniformShrinkageRange": [
+          0,
+          1
+        ],
+        "zeroMedianFallback": "uniform among active polls",
+        "manualMultipliers": "last",
+        "defaultMethodWeights": {
+          "equal": 1,
+          "reference": 1,
+          "littlepolls": 1,
+          "gilead": 1,
+          "rosner": 0
+        },
+        "noIndependentEvidenceAdded": true,
+        "lessThanThreeMethods": "limited protection against an outlying prescription"
+      }
+    },
+    "signal_noise": {
+      "id": "signal_noise",
+      "label": "אות ורעש — תוספת ניסיונית בהשראת עד120",
+      "asOf": "2026-10-09",
+      "status": "experimental-not-probability-calibrated",
+      "exactness": "independent-local-adaptation-not-full-replication",
+      "sourceUrls": [
+        "https://twonetwenty.com/he/articles/he-about-to-120",
+        "https://twonetwenty.com/he/methodology",
+        "https://x.com/realGreenerik/status/2108279713685016913"
+      ],
+      "credit": "אריאל דניאלי — עד120",
+      "weights": null,
+      "notes": [
+        "תוספת עצמאית עם מתג ON/OFF לכל שיטת שקלול; ברירת המחדל היא כבוי ושקלול לפי דיוק היסטורי.",
+        "מודל רמה מקומית לכל מפלגה: מסנן קלמן עם שונות תמיכה לאורך זמן, רעש מדידה והיסט קבוע בין מכונים.",
+        "משקלי השיטה שנבחרה, הכוללים דיוק היסטורי ומכפילים ידניים לפי הבחירה, משנים את שונות המדידה פעם אחת במהלך האמידה; אין משקל נוסף לאחר הסינון.",
+        "משתמשים רק באחוזי מקור עם בסיס מתועד או מוסק מטבלה שלמה; חסר אינו אפס. חלון עבודת השדה המאומת מתחיל אחרי 8.9.2026.",
+        "כיסוי האחוזים שונה מכיסוי סקרי המנדטים. אין כאן שימוש בתחזיות או כיול שהועתקו מעד120.",
+        "אמידת האות והרעש בסדרה קצרה תלויה בהנחות. ההסתברויות לא כוילו בבחירות עצמאיות ואין טענה לעדיפות מוכחת.",
+        "בעת הפעלת התוספת, תמהיל השיטות מגדיר אמון יחסי במכונים בזמן האמידה. התחזית המסוננת אינה מצטרפת לסקרים כתצפית או כשיטת שקלול נוספת."
+      ],
+      "kind": "global_forecasting_feature",
+      "featureEnabledDefault": false,
+      "policyFromSelectedWeightMode": true
+    }
+  },
+  "ensemble": {
+    "defaultWeights": {
+      "equal": 1,
+      "reference": 1,
+      "littlepolls": 1,
+      "gilead": 1,
+      "rosner": 0
+    },
+    "formula": "normalize(sum(normalized_method_weight * normalized_poll_weight_for_method)); then apply manual poll multipliers and normalize",
+    "noIndependentEvidenceAdded": true
+  },
+  "notes": [
+    "אין לצרף את תוצרי הפרויקטים כסקרים נוספים לאותו מאגר.",
+    "סכום המדגם האפקטיבי נגזר ממשקלי הסקרים הייחודיים בלבד.",
+    "קירוב רוזנר זמין לבחירה אך כבוי בתערובת הראשונית."
+  ]
+}

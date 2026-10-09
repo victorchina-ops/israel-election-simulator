@@ -1,0 +1,531 @@
+{
+  "date": "2026-10-09",
+  "status": "passed",
+  "frozenSnapshot": {
+    "path": "artifacts/signal-noise-2026-10-09/before/dashboard/src/data.json",
+    "sha256": "ae6907fc43e5f21c3f02568e93188bf852a1f653b972a46bbc04e8b1a821a0e6"
+  },
+  "sourceObservationsSha256": "b04ee5adbcd7c8d6881a6a89ccd460d0a0e693a625c2921dcb4f6016aa4fb6ab",
+  "offExactlyMatchesFrozenPartyResults": true,
+  "off": {
+    "iterations": 10000,
+    "weightMode": "quality",
+    "enabled": false,
+    "checks": {
+      "seatsSum": 120,
+      "eachWorld120": true,
+      "blocPartition120": true,
+      "probabilityTotal": 1
+    },
+    "coalitionMean": 53.2874,
+    "oppositionMean": 52.4959,
+    "coalitionMajorityProbability": 0.0414,
+    "oppositionMajorityProbability": 0.0012,
+    "winterPassProbability": 0.3649,
+    "hendelPassProbability": 0.2802,
+    "coverage": null,
+    "sourceReliability": null,
+    "unavailableInstitutes": null
+  },
+  "on": [
+    {
+      "iterations": 1000,
+      "weightMode": "equal",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 53.071,
+      "oppositionMean": 53.362,
+      "coalitionMajorityProbability": 0.002,
+      "oppositionMajorityProbability": 0.001,
+      "winterPassProbability": 0.149,
+      "hendelPassProbability": 0.265,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 1,
+        "lazar": 1,
+        "next_data": 1,
+        "kantar": 1,
+        "maagar_mochot": 1
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "quality",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 53.054,
+      "oppositionMean": 53.36,
+      "coalitionMajorityProbability": 0.002,
+      "oppositionMajorityProbability": 0.002,
+      "winterPassProbability": 0.146,
+      "hendelPassProbability": 0.27,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 0.9961532421453951,
+        "lazar": 1.022061654726587,
+        "next_data": 1.0127182251956226,
+        "kantar": 1.0559982491780033,
+        "maagar_mochot": 0.9130686287543917
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "correlation",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 54.42,
+      "oppositionMean": 52.321,
+      "coalitionMajorityProbability": 0.007,
+      "oppositionMajorityProbability": 0,
+      "winterPassProbability": 0.116,
+      "hendelPassProbability": 0.218,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 0.8283717986077632,
+        "lazar": 0.8499164740863394,
+        "next_data": 1.6842935046447718,
+        "kantar": 0.8781371499773272,
+        "maagar_mochot": 0.7592810726837987
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "reference",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 50.288,
+      "oppositionMean": 55.429,
+      "coalitionMajorityProbability": 0,
+      "oppositionMajorityProbability": 0.019,
+      "winterPassProbability": 0.193,
+      "hendelPassProbability": 0.412,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 1.7808219178082194,
+        "lazar": 0.7534246575342466,
+        "next_data": 0.13698630136986303,
+        "kantar": 1.6438356164383563,
+        "maagar_mochot": 0.6849315068493151
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "littlepolls",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 52.517,
+      "oppositionMean": 53.808,
+      "coalitionMajorityProbability": 0.001,
+      "oppositionMajorityProbability": 0.001,
+      "winterPassProbability": 0.15,
+      "hendelPassProbability": 0.283,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 1.2987012987012987,
+        "lazar": 0.9740259740259739,
+        "next_data": 0.7792207792207791,
+        "kantar": 0.9740259740259739,
+        "maagar_mochot": 0.9740259740259739
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "rosner",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 53.593,
+      "oppositionMean": 52.948,
+      "coalitionMajorityProbability": 0.002,
+      "oppositionMajorityProbability": 0,
+      "winterPassProbability": 0.141,
+      "hendelPassProbability": 0.248,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 0.7899766036576888,
+        "lazar": 1.083305165315088,
+        "next_data": 1.2923971568447044,
+        "kantar": 0.9646022830051211,
+        "maagar_mochot": 0.8697187911773984
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "gilead",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 53.071,
+      "oppositionMean": 53.362,
+      "coalitionMajorityProbability": 0.002,
+      "oppositionMajorityProbability": 0.001,
+      "winterPassProbability": 0.149,
+      "hendelPassProbability": 0.265,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 1,
+        "lazar": 1,
+        "next_data": 1,
+        "kantar": 1,
+        "maagar_mochot": 1
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "ensemble",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 52.588,
+      "oppositionMean": 53.741,
+      "coalitionMajorityProbability": 0.001,
+      "oppositionMajorityProbability": 0.001,
+      "winterPassProbability": 0.146,
+      "hendelPassProbability": 0.28,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 1.2127911392670563,
+        "lazar": 0.9510042766987736,
+        "next_data": 0.8008066440056678,
+        "kantar": 1.145627692153438,
+        "maagar_mochot": 0.8897702478750642
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    },
+    {
+      "iterations": 1000,
+      "weightMode": "robust",
+      "enabled": true,
+      "checks": {
+        "seatsSum": 120,
+        "eachWorld120": true,
+        "blocPartition120": true,
+        "probabilityTotal": 1
+      },
+      "coalitionMean": 52.766,
+      "oppositionMean": 53.579,
+      "coalitionMajorityProbability": 0.002,
+      "oppositionMajorityProbability": 0.001,
+      "winterPassProbability": 0.149,
+      "hendelPassProbability": 0.277,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      },
+      "sourceReliability": {
+        "midgam_geva": 1.0592649065522528,
+        "lazar": 1.052579519941903,
+        "next_data": 0.8921302412935098,
+        "kantar": 1.052579519941903,
+        "maagar_mochot": 0.943445812270431
+      },
+      "unavailableInstitutes": [
+        "hamadad_consortium",
+        "tatika",
+        "direct_polls"
+      ]
+    }
+  ],
+  "limits": [
+    "Comparing methods changes relative institute reliability, not the compatible percentage source cohort.",
+    "ON probabilities remain experimental and uncalibrated; 1,000 audit runs are checks, not recommended publication precision."
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791/",
+  "startedAt": "2026-10-09T06:53:52.177Z",
+  "checks": [
+    {
+      "independentVisibleSwitch": true,
+      "defaultOff": true,
+      "defaultMethodUnchanged": true,
+      "qualityInsideFit": true,
+      "coverage": {
+        "observationCount": 11,
+        "sourcePollCount": 11,
+        "instituteCount": 5,
+        "from": "2026-09-09",
+        "to": "2026-10-07",
+        "reportedPercentageCount": 177,
+        "reconstructedPercentageCount": 0,
+        "estimatedDecidedSampleSizePollCount": 7,
+        "includedPollIds": [
+          "history_midgam_geva_2026-09-09_717",
+          "history_lazar_2026-09-11_722",
+          "history_next_data_2026-09-23_current",
+          "history_lazar_2026-09-25_current",
+          "history_kantar_2026-09-27_current",
+          "history_next_data_2026-09-28_current",
+          "history_maagar_mochot_2026-09-29_current",
+          "history_lazar_2026-10-02_current",
+          "history_kantar_2026-10-04_current",
+          "history_midgam_geva_2026-10-05_current",
+          "history_next_data_2026-10-07_current"
+        ],
+        "excluded": [],
+        "missingPartyIds": [],
+        "priorPartyIds": []
+      }
+    },
+    {
+      "allNineRegularChoicesRetained": true,
+      "noStandaloneSignalNoiseChoice": true,
+      "referenceAndEnsembleUseGlobalFeature": true,
+      "gileadUnavailableTargetDisclosed": true,
+      "otherScenarioSettingsPreserved": true,
+      "deterministicMethodRestore": true
+    },
+    {
+      "sourceBinding": true,
+      "instituteSelectionAffectsHistory": true,
+      "featurePersistsAcrossTabs": true,
+      "supportComparisonUsesFilteredCenters": true,
+      "seatsComparisonCompletes": true,
+      "allSixTabs": true
+    },
+    {
+      "independentComparisonUsesFeature": true,
+      "comparisonExportNamesFeature": true,
+      "turningOffRestoresLegacyForecast": true
+    },
+    {
+      "mobile390SwitchWorks": true,
+      "noHorizontalPageOverflow": true,
+      "javaScriptErrors": 0
+    }
+  ],
+  "geometry": [
+    {
+      "label": "desktop-controls",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 1393,
+          "width": 1361,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component weighting-control",
+          "left": 48,
+          "right": 1392,
+          "width": 1344,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 69,
+          "right": 1354,
+          "width": 1285,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 53,
+          "right": 1372,
+          "width": 1319,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-dashboard",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 1393,
+          "width": 1361,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component weighting-control",
+          "left": 48,
+          "right": 1392,
+          "width": 1344,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 69,
+          "right": 1354,
+          "width": 1285,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 53,
+          "right": 1372,
+          "width": 1319,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 1393,
+          "width": 1361,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-seat-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 1393,
+          "width": 1361,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-poll-trends",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 1393,
+          "width": 1361,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-method-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 1393,
+          "width": 1361,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-methods",
+          "left": 54,
+          "right": 1371,
+          "width": 1317,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-methods",
+          "left": 54,
+          "right": 1371,
+          "width": 1317,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "desktop-poll-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 32,
+          "right": 1393,
+          "width": 1361,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-polls-table",
+          "left": -486.40625,
+          "right": 1371,
+          "width": 1857.40625,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-register",
+          "left": 54,
+          "right": 1371,
+          "width": 1317,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-controls",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "width": 343,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component weighting-control",
+          "left": 32,
+          "right": 358,
+          "width": 326,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 53,
+          "right": 320,
+          "width": 267,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 37,
+          "right": 338,
+          "width": 301,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-dashboard",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "width": 343,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component weighting-control",
+          "left": 32,
+          "right": 358,
+          "width": 326,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 53,
+          "right": 320,
+          "width": 267,
+          "visible": true
+        },
+        {
+          "className": "dashboard-component sn-diagnostics",
+          "left": 37,
+          "right": 338,
+          "width": 301,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-probabilities",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "width": 343,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-seat-probabilities",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "width": 343,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-poll-trends",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "width": 343,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-method-data",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "width": 343,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-methods",
+          "left": -674.59375,
+          "right": 337,
+          "width": 1011.59375,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-methods",
+          "left": -687.390625,
+          "right": 337,
+          "width": 1024.390625,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "label": "mobile-poll-data",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "cards": [
+        {
+          "className": "scenario-controls__signal-noise",
+          "left": 16,
+          "right": 359,
+          "width": 343,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-polls-table",
+          "left": -1416.40625,
+          "right": 337,
+          "width": 1753.40625,
+          "visible": true
+        },
+        {
+          "className": "tp-table tp-register",
+          "left": -703,
+          "right": 337,
+          "width": 1040,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-09T06:54:36.576Z"
+}

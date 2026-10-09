@@ -1,0 +1,86 @@
+{
+  "dataAsOf": "2026-10-09",
+  "newPollCount": 0,
+  "feature": "signalNoiseEnabled",
+  "featureDefault": false,
+  "selectedWeightingDefault": "quality",
+  "compatibleWeightingPolicyCount": 9,
+  "policyAppliedAt": "measurement_variance_once",
+  "sourceDataSha256": "b04ee5adbcd7c8d6881a6a89ccd460d0a0e693a625c2921dcb4f6016aa4fb6ab",
+  "offExactlyMatchesPrevious": true,
+  "forecastOutputsUseSharedConfiguration": true,
+  "testsPassed": 318,
+  "legacyEvidenceFilesPreserved": 461,
+  "supplementaryDiscoverySource": "https://twonetwenty.com/data",
+  "credit": "אריאל דניאלי — עד120",
+  "snapshotSha256": "c09e33653c57fc25c0ae7c9c92631f98b98848f4371ee2643d981a85832794bb",
+  "publishedHtmlSha256": "3749fd3fa2234d854db12b6f3bdc3360c5913405b54ac2a8d59cb5aee21e3908",
+  "publicThreadMetadataRemoved": true,
+  "postedTweet": false,
+  "files": [
+    {
+      "path": "browser-qa.json",
+      "sha256": "a9da63d5258e4d2b38e18311553a8db2a9905ef77900948e02f37738d39081d6"
+    },
+    {
+      "path": "engine-policy-audit.json",
+      "sha256": "add3b4c742f2493e356e1c22ab780aa407f6a316b6a9de91d4b335a78fd9a815"
+    },
+    {
+      "path": "export-qa.json",
+      "sha256": "d55e2de3fac48b23e3d9e476a7ad410634bdf90cf7b80f46d4a42326423732b8"
+    },
+    {
+      "path": "full-tests.txt",
+      "sha256": "64181927485e54454b9dae4ac35ddd9172f1cf19a3c58cee50ff3fc327769dd3"
+    },
+    {
+      "path": "method.md",
+      "sha256": "0002d0d76887d0a3ea3ae2f6081d3b0bc80ff3370d8dac2bc9347b5036c0200b"
+    },
+    {
+      "path": "summary-export-text.txt",
+      "sha256": "0cc5833afe564e628dbebc29c0cd297a0e0596a4dd64ab5648a8592f7eda85b2"
+    },
+    {
+      "path": "threshold-export-text.txt",
+      "sha256": "42a0a3fc179e7ab646c5f494e82caa13f9a5a1a8615be68896550331a45e901b"
+    },
+    {
+      "path": "to120-source-check.json",
+      "sha256": "7ccfc71be1babc50f2dddff306dcf25edfffd120fc3d874feb47607bf1e58e1a"
+    },
+    {
+      "path": "to120-source-policy.md",
+      "sha256": "ab81331d5c7f892e74a451438991861b72bebd52f10a8a0650ce3a693ce69be2"
+    },
+    {
+      "path": "weight-presets.json",
+      "sha256": "4b78d63175ef13945d80dfc51ec91a0fcdde332908fda385922236ec887e402c"
+    },
+    {
+      "path": "implementation/forecast.js",
+      "sha256": "8fcf484a9717849c94d5326565a9763895a4e2d3f58fc2765bb9d7f62775c74f"
+    },
+    {
+      "path": "implementation/ScenarioControls.jsx",
+      "sha256": "4754240a04400b63bb0c20b4c8dc5a9fc898c56ce06cbc6628bb654755f72f8c"
+    },
+    {
+      "path": "implementation/signal-noise-content.js",
+      "sha256": "b6aa1473dc44b767831e5b1524cc6e8227be2f19af613c5ebc23fa03c94246ad"
+    },
+    {
+      "path": "implementation/signal-noise.js",
+      "sha256": "5991331d83fd4686cdecf9092cf1da1b8194d259cc5b480e09367d349ca6188a"
+    },
+    {
+      "path": "implementation/SignalNoiseDiagnostics.jsx",
+      "sha256": "0fdfdb158ad2857ecf9fe638a5a23dc9b4db0abf591754aefb182956b4f0a58d"
+    },
+    {
+      "path": "implementation/simulate.js",
+      "sha256": "16b2d0d596a927e8db545e31eec12235e96f61de2b32f5acc118c3133f27f0dd"
+    }
+  ]
+}
