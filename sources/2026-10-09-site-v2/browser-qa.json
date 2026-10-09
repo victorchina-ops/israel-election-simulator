@@ -1,0 +1,195 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791/",
+  "checks": [
+    "Default10k-party-results-exactly-match-published-V1",
+    "Current-switches-preserved-across6tabs-and-significance-clearly-separated",
+    "All8policies-work-retired-option-blocked-through-import-legacy-mode-normalized-invalid-flags-rejected",
+    "Source-model-column-matches-selected-main-simulation-original-source-rows-unchanged",
+    "PNG-CSV-JSON-exports-and-folded-archives-preserved",
+    "All6pages-no-overflow1440-390-320-light-and-dark"
+  ],
+  "geometry": [
+    {
+      "label": "shared-settings-dashboard",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4216,
+      "firstNumberY": -1474.109375
+    },
+    {
+      "label": "shared-settings-probabilities",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4990
+    },
+    {
+      "label": "shared-settings-poll-trends",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 7114
+    },
+    {
+      "label": "shared-settings-seat-probabilities",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 3294
+    },
+    {
+      "label": "shared-settings-poll-data",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4995
+    },
+    {
+      "label": "shared-settings-method-data",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4124
+    },
+    {
+      "label": "1440-dashboard",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 3182,
+      "firstNumberY": 627.609375
+    },
+    {
+      "label": "1440-probabilities",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 3956
+    },
+    {
+      "label": "1440-poll-trends",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6278
+    },
+    {
+      "label": "1440-seat-probabilities",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 2264
+    },
+    {
+      "label": "1440-poll-data",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 3961
+    },
+    {
+      "label": "1440-method-data",
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 3090
+    },
+    {
+      "label": "390-dashboard",
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 4451,
+      "firstNumberY": 720.75
+    },
+    {
+      "label": "390-probabilities",
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 6296
+    },
+    {
+      "label": "390-poll-trends",
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 9453
+    },
+    {
+      "label": "390-seat-probabilities",
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 2841
+    },
+    {
+      "label": "390-poll-data",
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 4488
+    },
+    {
+      "label": "390-method-data",
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 5336
+    },
+    {
+      "label": "320-dashboard",
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 5064,
+      "firstNumberY": 793.234375
+    },
+    {
+      "label": "320-probabilities",
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 6780
+    },
+    {
+      "label": "320-poll-trends",
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 10330
+    },
+    {
+      "label": "320-seat-probabilities",
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 3225
+    },
+    {
+      "label": "320-poll-data",
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 4789
+    },
+    {
+      "label": "320-method-data",
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 5829
+    },
+    {
+      "label": "dark-home",
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 5064,
+      "firstNumberY": 793.234375
+    }
+  ],
+  "errors": []
+}

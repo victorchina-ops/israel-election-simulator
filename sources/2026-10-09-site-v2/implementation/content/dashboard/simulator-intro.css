@@ -1,0 +1,31 @@
+.sim-intro{margin:0 0 18px;padding:16px 18px;border:1px solid var(--border);border-radius:12px;background:var(--surface,var(--background));color:var(--text);font-size:14px;line-height:1.7;min-width:0}
+.sim-intro .sim-intro__overview{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:24px;align-items:center}
+.sim-intro .sim-intro__explanation{min-width:0}
+.sim-intro h2{font-size:17px;line-height:1.5;margin:0 0 5px;font-weight:650}
+.sim-intro p{margin:5px 0}
+.sim-intro .sim-intro__freshness{margin:8px 0 10px;padding:8px 10px;border:1px solid var(--border);border-inline-start:3px solid var(--accent,#2378cf);border-radius:6px;color:var(--text)}
+.sim-intro .sim-intro__freshness>strong{display:block;font-size:16px;line-height:1.5;font-weight:700}
+.sim-intro .sim-intro__freshness>span{display:block;font-size:14px;color:var(--secondary)}
+.sim-intro .sim-intro__prompt{color:var(--secondary);font-size:14px}
+.sim-intro a,.sim-intro .sim-intro__text-button{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+.sim-intro .sim-intro__author{display:flex;gap:12px;align-items:center;padding-inline-start:20px;border-inline-start:1px solid var(--border)}
+.sim-intro .sim-intro__author img{width:80px;height:80px;border-radius:50%;object-fit:cover;flex:none;border:1px solid var(--border)}
+.sim-intro .sim-intro__author strong,.sim-intro .sim-intro__author a,.sim-intro .sim-intro__author span{display:block}
+.sim-intro .sim-intro__author strong{font-size:14px}
+.sim-intro .sim-intro__author a{font-size:14px;overflow-wrap:anywhere}
+.sim-intro .sim-intro__byline,.sim-intro .sim-intro__contact-note{color:var(--secondary);font-size:14px}
+.sim-intro .sim-intro__projects{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;min-width:0;margin:10px 0 4px;font-size:14px}
+.sim-intro .sim-intro__projects>span{color:var(--secondary)}
+.sim-intro .sim-intro__projects>a{min-width:0;overflow-wrap:anywhere;font-weight:600}
+.sim-intro .sim-intro__credits{margin-top:8px;border-top:1px solid var(--border)}
+.sim-intro .sim-intro__credits>summary{cursor:pointer;padding:9px 0;min-height:40px;box-sizing:border-box;font-size:14px;font-weight:600}
+.sim-intro .sim-intro__credits>p{font-size:14px;color:var(--secondary)}
+.sim-intro .sim-intro__credits ul{display:grid;grid-template-columns:1fr 1fr;gap:10px 24px;list-style:none;padding:0;margin:10px 0 14px}
+.sim-intro .sim-intro__credits li{min-width:0}
+.sim-intro .sim-intro__credits li>a{font-weight:600}
+.sim-intro .sim-intro__credits li>span{display:block;font-size:14px;color:var(--secondary)}
+.sim-intro .sim-intro__text-button{appearance:none;font:inherit;border:0;padding:0 3px;background:none;cursor:pointer}
+.sim-intro .sim-intro__attribution{font-size:14px;color:var(--secondary);margin:0}
+.sim-intro a:focus-visible,.sim-intro summary:focus-visible,.sim-intro button:focus-visible{outline:2px solid var(--accent,#2378cf);outline-offset:3px;border-radius:2px}
+@media(max-width:850px){.sim-intro .sim-intro__overview{grid-template-columns:1fr;gap:12px}.sim-intro .sim-intro__author{padding-inline-start:0;border-inline-start:0}.sim-intro .sim-intro__author img{width:60px;height:60px}.sim-intro .sim-intro__author strong{font-size:14px}.sim-intro .sim-intro__author .sim-intro__contact-note{display:none}}
+@media(max-width:560px){.sim-intro .sim-intro__freshness>strong{font-size:15px}.sim-intro{padding:12px;font-size:14px}.sim-intro h2{font-size:16px}.sim-intro .sim-intro__credits ul{grid-template-columns:1fr}.sim-intro .sim-intro__credits>summary{min-height:44px}}

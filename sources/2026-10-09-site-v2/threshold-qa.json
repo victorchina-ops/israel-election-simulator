@@ -1,0 +1,40 @@
+{
+  "base": "http://127.0.0.1:8791/",
+  "checks": [
+    {
+      "all17PartiesRetained": true,
+      "defaultAllClosed": true,
+      "nearThresholdFirst": true,
+      "sourceComponentIDsRetained": true,
+      "csvAll17Rows": true,
+      "csvRetiredFeatureAbsent": true,
+      "keyboardOpenClose": true,
+      "uncertaintyDetailsRetained": true
+    },
+    {
+      "width": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 3902,
+      "partyCount": 17
+    },
+    {
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 6218,
+      "partyCount": 17
+    },
+    {
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 6702,
+      "partyCount": 17
+    }
+  ],
+  "errors": [],
+  "status": "passed",
+  "buildSha256": "cab59010c1be0e720316caddc2d76410b3230bd7e4cd14afa5f07973640c265c",
+  "finalHistogramVisualReview": "LTR scroll centered on 3.25 with readable ticks and visible peak verified at1440/390/320"
+}

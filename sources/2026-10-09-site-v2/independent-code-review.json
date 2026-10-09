@@ -1,0 +1,79 @@
+{
+  "reviewer": "independent subagent /root/v2_methods",
+  "reviewedAtUtc": "2026-10-09T11:48:49.182042+00:00",
+  "dataAsOf": "2026-10-09",
+  "conclusion": "PASS",
+  "scope": "Read-only review of final Version 2 integration, plus isolated browser and exported CSV checks. No raw poll or model input changes.",
+  "sourceSha256": {
+    "dashboard/src/content/dashboard/DashboardContent.jsx": "22aa0d219477a7391ef3ab35743fcb66eb9faf2707a96bf73730b4a7b8f89da5",
+    "dashboard/src/content/dashboard/site-scenario-policy.js": "b032237129bb60e633e7d5382accf7fa7b16bc70f03075532534524870fb426f",
+    "dashboard/src/content/dashboard/PollDataPage.jsx": "48a90337f64bf1764be1bf45d2ba15ae4d619cf6103d6295c61bd1166c0e6fc9",
+    "dashboard/src/content/dashboard/TakeHomeMessage.jsx": "f52d59d21d4cf10dfed3354fc033cd38bf47c51e7c005da445d8a68c356b9735",
+    "dashboard/src/content/dashboard/site-v2.css": "d113a47922599115d8067ca96dcd04806984e2767a135aeb1829a9cfdd22958f",
+    "dashboard/src/content/dashboard/MeanSeats.jsx": "06dcb908fb17c911ee6861edc1a3329c24c370af6071d06555cec243962e80c5",
+    "dashboard/src/content/dashboard/SeatDistributionSummary.jsx": "c997715bd5b903b999381de57ac499e2e7a0f8940aef5a9ecd21c9ac62c440e3",
+    "dashboard/src/content/dashboard/VerifiedPartyTrends.jsx": "ed749b37ca14b21e8f68170e3b1ce51bb4619df0171aa94a1e093fc006e3f4d5",
+    "dashboard/src/content/dashboard/WeightingControl.jsx": "26df887622943a2f7a8bd001b7345037165b8eb661a5478748ea10610ae1b775"
+  },
+  "checks": [
+    {
+      "area": "Canceled signal/noise option",
+      "verdict": "PASS",
+      "evidence": "Every live config setter and imported scenario passes normalizeSiteScenario before resolveForecastConfig. signalNoiseEnabled is forced false, legacy signal_noise weightMode maps to equal/quality, defaults/reset remain false, import announces retirement. The live controls do not expose the canceled mode."
+    },
+    {
+      "area": "Weighting policies",
+      "verdict": "PASS",
+      "evidence": "All 8 existing choices remain: quality, equal, reference, littlepolls, gilead, rosner, ensemble, robust. Historical accuracy stays default. Similarity remains a separate optional heuristic. Legacy imported correlation handling is retained."
+    },
+    {
+      "area": "Selected source-model column",
+      "verdict": "PASS",
+      "evidence": "combineForecast uses current selected config; mandate estimates use the actual main result prop when ready. The highlighted column identifies the selected policy and scenario, rather than silently selecting robust weighting. All original source columns remain visible, including excluded surveys."
+    },
+    {
+      "area": "Missing versus zero",
+      "verdict": "PASS",
+      "evidence": "For israel_first the model column is a dash explicitly labeled אין אומדן תמיכה נפרד. The CSV derived support, mandate mean and both CI fields are empty with status אין אומדן. N12 source 0 mandates and 0% are preserved; Channel 13 missing values remain empty. Verified in both mandates and published-support UI views."
+    },
+    {
+      "area": "Monte Carlo error versus modeled outcome variation",
+      "verdict": "PASS",
+      "evidence": "MeanSeats labels its 95% interval as error in the simulation mean, not election uncertainty. TakeHomeMessage uses modeled outcome 5th–95th percentiles separately from Monte Carlo error for probability estimates. SeatDistributionSummary uses the discrete result distribution and keeps all observed bins, including rare outcomes."
+    },
+    {
+      "area": "Global controls versus strict significance cohort",
+      "verdict": "PASS",
+      "evidence": "Descriptive forecast and charts follow global selected sources/weights. Strict significance uses separately audited fixed post-closure snapshots selected by the Channel 14 switch only. The guide states that manual exclusions or weighting do not recompute this stored table; sample/coverage counts update accurately."
+    },
+    {
+      "area": "UI scope and guide usability",
+      "verdict": "PASS",
+      "evidence": "New site-v2 styles are scoped beneath election-app; no protected chrome/root hiding or new fixed overlay. Previously completed guide QA covers 1440, 390 and 320 pixel views, closed-by-default method comparison sections, source/help callbacks, source links and dynamic 7/8 versus 8/8 coverage with strict counts 32/39. Compact intro is 109.75px on mobile."
+    }
+  ],
+  "findings": [
+    {
+      "id": "unsupported-source-estimate",
+      "priority": "P2",
+      "status": "resolved",
+      "description": "The selected-model source column initially represented an unsupported separate party estimate as an exact zero.",
+      "resolution": "Root added hasModelledSupport-aware dash, explicit support-status and null derived CSV values. Final browser and CSV recheck passed."
+    }
+  ],
+  "unresolvedFindings": [],
+  "nonBlockingLimitations": [
+    "The historical signal/noise engine and evidence are retained for archive reproducibility; removal applies to the live product and live scenario imports.",
+    "Forecast similarity is explicitly heuristic and does not establish respondent overlap, independent errors or improved calibration.",
+    "Probabilities and modeled ranges remain conditional on current polls and chosen assumptions; Monte Carlo precision does not imply forecast certainty.",
+    "The strict significance snapshot follows its audited fixed cohort and Channel 14 selection; arbitrary user weights are descriptive settings rather than a fresh significance test."
+  ],
+  "browserEvidence": {
+    "guideReport": "artifacts/site-v2-2026-10-09/qa/methods/report.json",
+    "finalSourceReport": "artifacts/site-v2-2026-10-09/qa/methods/independent-source-report.json",
+    "finalSourceScreenshot": "artifacts/site-v2-2026-10-09/qa/methods/independent-source-table.png",
+    "csv": "artifacts/site-v2-2026-10-09/qa/methods/independent-selected-scenario.csv",
+    "csvRowCount": 153,
+    "pageErrors": []
+  }
+}

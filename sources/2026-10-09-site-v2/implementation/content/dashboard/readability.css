@@ -1,0 +1,153 @@
+/* App-owned surfaces and type. Coalition/party mark colors retain their meaning. */
+.election-app{
+ --e-panel-intro:light-dark(#f0f4fa,#232c38);
+ --e-panel-summary:light-dark(#f1eeff,#2d2940);
+ --e-panel-polls:light-dark(#f3effc,#2e283a);
+ --e-panel-blocs:light-dark(#fff5e6,#372e21);
+ --e-panel-turnout:light-dark(#edf8f1,#21352b);
+ --e-panel-question:light-dark(#eef5ff,#243144);
+ --e-panel-result:light-dark(#fff7ed,#352d24);
+ --e-panel-chart:light-dark(#eff8f6,#20332f);
+ font-size:16px;
+}
+.election-app.e-simple-app p{font-size:16px;line-height:1.8}
+.election-app.e-simple-app small{font-size:14px;line-height:1.7}
+.election-app.e-simple-app li{font-size:16px;line-height:1.75}
+.election-app.e-simple-app summary{font-size:16px;line-height:1.7}
+.election-app.e-simple-app .e-page-heading h1{font-size:30px;line-height:1.4}
+.election-app.e-simple-app .e-data-caption{font-size:16px}
+.election-app button{font-size:16px;line-height:1.4}
+.election-app :is(table,.tp-table,.wc-composition){font-size:15px}
+.election-app .e-disclosure{background:var(--e-panel-intro)}
+.election-app .sim-intro{background:var(--e-panel-intro);border-color:light-dark(#d8e2ef,#415064);font-size:16px}
+.election-app .sim-intro h2{font-size:20px}
+.election-app .sim-intro .sim-intro__author strong{font-size:17px}
+.election-app .sim-intro .sim-intro__author a,.election-app .sim-intro .sim-intro__projects{font-size:15px}
+.election-app .sim-intro .sim-intro__freshness>strong{font-size:19px}
+.election-app .sim-intro .sim-intro__credits li>span{font-size:15px}
+
+/* Each of the three parameter groups has a consistent, subtle surface. */
+.election-app .scenario-controls{background:transparent}
+.election-app [data-scenario-control="polls"],.election-app #scenario-panel-polls{background:var(--e-panel-polls);border-color:light-dark(#d6c9eb,#635574)}
+.election-app [data-scenario-control="blocs"],.election-app #scenario-panel-blocs{background:var(--e-panel-blocs);border-color:light-dark(#e6d2b2,#6b593e)}
+.election-app [data-scenario-control="turnout"],.election-app #scenario-panel-turnout{background:var(--e-panel-turnout);border-color:light-dark(#badcc8,#456752)}
+.election-app .scenario-controls__label{font-size:17px}
+.election-app .scenario-controls__value{font-size:18px}
+.election-app .scenario-controls .scenario-controls__trigger{min-height:78px;padding:13px 17px;border-width:2px;box-shadow:0 3px 10px #17274012}
+.election-app .scenario-controls .scenario-controls__panel{max-height:min(580px,65dvh)}
+.election-app .weighting-control__method>label,.election-app .bloc-settings__group h3{font-size:16px}
+
+/* Public Dropdown styling slots also reach its portalled choice list. */
+.election-app .e-content-select{min-height:48px;height:auto;font-size:16px;padding:10px 14px;max-width:100%}
+.election-app .e-content-select .select-value{font-size:17px;line-height:1.45;font-weight:600;white-space:normal;overflow-wrap:anywhere}
+.election-app .e-content-select .filter-label{font-size:15px;line-height:1.45;white-space:normal}
+.election-app .e-content-select .native-filter-control{font-size:16px}
+.election-select-menu .menu-item,.election-select-menu .menu-item-label{font-size:17px;line-height:1.5}
+.election-select-menu .menu-item{min-height:44px;padding-block:10px;white-space:normal}
+.election-select-menu .menu-item-label{white-space:normal;overflow-wrap:anywhere}
+.election-app .data-slider-label,.election-app .data-slider-value{font-size:16px;line-height:1.5}
+.election-app .data-slider-bound{font-size:14px}
+.election-app .step-control__entry{width:180px}
+.election-app .step-control__input{font-size:18px;height:48px}
+.election-app .step-control__suffix{font-size:16px}
+.election-app .step-control__buttons{flex-basis:38px}
+.election-app .step-control__arrow{font-size:14px;min-height:23px}
+
+/* The main message remains in normal page flow. */
+.election-app .take-home-message{--data-card-background:var(--e-panel-summary);background:var(--e-panel-summary);border:1px solid light-dark(#cfc4ef,#625779);box-shadow:0 4px 16px #40336e12}
+.election-app .thm-pin .thm-message{font-size:18px;line-height:1.75;max-height:none;overflow:visible}
+.election-app .thm-pin .thm-calculated,.election-app .thm-pin .thm-tools{max-height:none;overflow:visible}
+.election-app .thm-pin .thm-bloc-name{font-size:20px}
+.election-app .thm-pin .thm-chance{font-size:32px}
+.election-app .thm-pin .thm-mean{font-size:26px}
+.election-app .thm-pin :is(.thm-label,.thm-seat-label,.thm-chance-label,.thm-ci-note,.thm-neutral>span){font-size:14px;line-height:1.65}
+.election-app .thm-pin .thm-likud{font-size:17px}
+.election-app .thm-pin .thm-party-seats{font-size:15px;line-height:1.5}
+.election-app .thm-party-chip{min-width:42px}
+.election-app .thm-pin .thm-neither{font-size:16px}
+.election-app .thm-pin .thm-neither strong{font-size:26px}
+.election-app .thm-pin .outcome-waffle--compact .outcome-waffle__grid{width:160px}
+.election-app .thm-reference-outcomes span{font-size:16px}
+.election-app .thm-reference-outcomes strong{font-size:27px}
+.election-app .thm-pin--reference .thm-reference-actions{flex-wrap:wrap;gap:12px}
+.election-app .thm-pin--reference .thm-reference-actions button{font-size:16px}
+
+.election-app .spp-controls{background:var(--e-panel-question);border:1px solid light-dark(#c8dbf2,#425a75);border-radius:14px;padding:20px}
+.election-app [data-component-id="party-seat-question"]{--data-card-background:var(--e-panel-result);background:var(--e-panel-result)}
+.election-app [data-component-id="party-seat-distribution"]{--data-card-background:var(--e-panel-chart);background:var(--e-panel-chart)}
+.election-app .spp-answer h2{font-size:25px}
+.election-app .spp-answer .spp-interval{font-size:18px}
+.election-app .threshold-page .tp-overview{--data-card-background:var(--e-panel-chart);background:var(--e-panel-chart)}
+.election-app .threshold-page .tp-party-card{--data-card-background:var(--e-panel-question);background:var(--e-panel-question)}
+.election-app .threshold-page .tp-party-slot:nth-child(3n+2) .tp-party-card{--data-card-background:var(--e-panel-result);background:var(--e-panel-result)}
+.election-app .threshold-page .tp-party-slot:nth-child(3n) .tp-party-card{--data-card-background:var(--e-panel-chart);background:var(--e-panel-chart)}
+.election-app .transparency-page>[data-component-id]{--data-card-background:var(--e-panel-question);background:var(--e-panel-question)}
+.election-app .transparency-page>[data-component-id]:nth-of-type(even){--data-card-background:var(--e-panel-chart);background:var(--e-panel-chart)}
+.election-app .weight-comparison-page .wc-result{--data-card-background:var(--e-panel-chart);background:var(--e-panel-chart)}
+
+@media(max-width:760px){
+ .election-app.e-simple-app p{font-size:15px}
+ .election-app.e-simple-app .e-page-heading h1{font-size:27px}
+ .election-app .thm-live{grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-areas:"coalition opposition" "waffle waffle";gap:20px 14px}
+ .election-app .thm-bloc--a{grid-area:coalition}.election-app .thm-bloc--b{grid-area:opposition}.election-app .thm-visual{grid-area:waffle}
+ .election-app .thm-pin .thm-bloc-name{font-size:18px}
+ .election-app .thm-pin .thm-mean{font-size:21px}
+ .election-app .thm-pin .thm-chance{font-size:28px}
+ .election-app .thm-pin .thm-message{font-size:17px}
+ .election-app .thm-pin .thm-likud{font-size:15px}
+ .election-app .thm-pin .thm-logos .party-logo{width:44px;flex-basis:44px;height:26px}
+ .election-app .thm-pin .thm-neutral .party-logo{width:36px;height:23px;flex-basis:36px}
+ .election-app .thm-pin .thm-party-seats{font-size:14px}
+ .election-app .thm-logos{gap:8px}
+ .election-app .sim-intro .sim-intro__freshness>strong{font-size:18px}
+}
+@media(max-width:560px){
+ .election-app .scenario-controls__buttons{grid-template-columns:1fr;gap:8px}
+ .election-app .scenario-controls .scenario-controls__trigger{flex-direction:column;align-items:stretch;justify-content:center;gap:8px;min-height:0;padding:12px}
+ .election-app .scenario-controls__label{font-size:16px;flex:1}
+ .election-app .scenario-controls__description{font-size:14px}
+ .election-app .scenario-controls__value{font-size:16px;flex:none;text-align:right;padding-top:8px;border-top:1px solid var(--border)}
+ .election-app .seat-probability-page .spp-controls{grid-template-columns:1fr;gap:20px;padding:16px}
+ .election-app .spp-controls>.step-control{grid-column:auto}
+ .election-app .e-content-select{width:100%}
+ .election-app .spp-answer h2{font-size:22px}
+ .election-app .thm-reference-outcomes{gap:6px}
+ .election-app .thm-reference-outcomes strong{font-size:24px}
+}
+
+.election-app.e-simple-app .dashboard-component>.component-header>.component-title{font-size:18px;line-height:1.5}
+.election-app .data-switch .data-switch-label{font-size:16px;line-height:1.5}
+
+.election-app .wc-composition-scroll{max-width:100%;min-width:0;overflow-x:auto;overscroll-behavior-inline:contain}
+.election-app .wc-composition-scroll:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+.election-app .recharts-cartesian-axis-tick-value{font-size:14px}
+
+.election-app .thm-distribution{display:block;font-size:15px;line-height:1.65;margin:6px 0 10px}
+.election-app .spp-median{font-size:17px}
+@media(max-width:760px){.election-app .thm-distribution{font-size:14px}}
+
+@media(max-width:760px){
+ .election-app .take-home-message>.component-header.has-controls{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:12px}
+ .election-app .take-home-message>.component-header.has-controls>.component-title{grid-column:1;grid-row:1;min-width:0;max-width:none}
+ .election-app .take-home-message>.component-header.has-controls>.component-header-controls{grid-column:1/-1;grid-row:2;width:100%;max-width:100%;margin:0}
+ .election-app .take-home-message>.component-header.has-controls>:is(.component-custom-actions,.component-native-actions){grid-column:2;grid-row:1}
+ .election-app .take-home-message .component-header-controls .thm-reference-actions{justify-content:flex-start}
+}
+
+/* Shared scenario controls stay available without repeating the home summary. */
+.election-app .e-page-settings{margin-bottom:20px;min-width:0}
+.election-app .e-page-settings__actions{display:flex;justify-content:flex-end;gap:12px;margin-top:10px}
+.election-app .e-page-settings__actions button{min-height:44px;font-weight:600;padding:10px 16px}
+
+/* Each page begins with the same tone as its navigation button. */
+.election-app[data-page="probabilities"] .threshold-page .tp-overview{--data-card-background:var(--e-nav-parties);background:var(--e-nav-parties)}
+.election-app[data-page="seat-probabilities"] .spp-controls{background:var(--e-nav-seats)}
+.election-app[data-page="method-data"] .transparency-page>[data-component-id]:first-child{--data-card-background:var(--e-nav-methods);background:var(--e-nav-methods)}
+.election-app[data-page="poll-data"] .transparency-page>[data-component-id]:first-child{--data-card-background:var(--e-nav-polls);background:var(--e-nav-polls)}
+.election-app[data-page="comparison"] .weight-comparison-page .wc-result{--data-card-background:var(--e-nav-weighting);background:var(--e-nav-weighting)}
+
+.election-app [data-dashboard-home-anchor]{scroll-margin-top:calc(var(--dashboard-topbar-base-height,52px) + var(--dashboard-tabs-expanded-height,68px) + 16px)}
+.election-app .e-home-methods{margin-block:24px}
+.election-app .e-home-methods>h2{font-size:23px;line-height:1.5;margin-block:0 16px}
+.election-app .e-home-methods .wc-result{--data-card-background:var(--e-nav-weighting);background:var(--e-nav-weighting)}

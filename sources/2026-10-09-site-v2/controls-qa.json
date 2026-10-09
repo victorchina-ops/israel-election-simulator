@@ -1,0 +1,275 @@
+{
+  "status": "pass",
+  "base": "http://127.0.0.1:8791/",
+  "startedAt": "2026-10-09T11:32:11.021Z",
+  "checks": [
+    {
+      "workspaceStartsClosed": true,
+      "threeCategories": true,
+      "twoSwitchesInPollPanelOnly": true,
+      "fourViewportsNoHorizontalOverflow": true,
+      "naturalHeightPanels": true,
+      "eightMethodsQualityFirst": true,
+      "dropdownEscapeDoesNotClosePanel": true,
+      "numericEscapeCancelsOnlyDraft": true,
+      "closeAndEscapeRestoreTriggerFocus": true,
+      "globalFlagsAndTurnoutPersistAcrossAllSixTabs": true,
+      "partyAssignmentMutuallyExclusive": true,
+      "everyExportPartitions120": true,
+      "noLiveSignalNoiseOption": true
+    }
+  ],
+  "geometry": [
+    {
+      "label": "controls-1440",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "categories": [
+        {
+          "left": 940.34375,
+          "right": 1376,
+          "top": 548.6875,
+          "bottom": 677.0625,
+          "width": 435.65625,
+          "height": 128.375
+        },
+        {
+          "left": 494.671875,
+          "right": 930.34375,
+          "top": 548.6875,
+          "bottom": 677.0625,
+          "width": 435.671875,
+          "height": 128.375
+        },
+        {
+          "left": 49.015625,
+          "right": 484.671875,
+          "top": 548.6875,
+          "bottom": 677.0625,
+          "width": 435.65625,
+          "height": 128.375
+        }
+      ],
+      "switches": [
+        {
+          "left": 718.5,
+          "right": 1357,
+          "top": 778.0625,
+          "bottom": 927.84375,
+          "width": 638.5,
+          "height": 149.78125
+        },
+        {
+          "left": 68,
+          "right": 706.5,
+          "top": 778.0625,
+          "bottom": 927.84375,
+          "width": 638.5,
+          "height": 149.78125
+        }
+      ],
+      "panel": {
+        "left": 49,
+        "right": 1376,
+        "top": 703.0625,
+        "bottom": 1344.203125,
+        "width": 1327,
+        "height": 641.140625,
+        "maxHeight": "none",
+        "overflow": "visible",
+        "client": 639,
+        "scroll": 639
+      }
+    },
+    {
+      "label": "controls-1100",
+      "viewport": 1100,
+      "client": 1100,
+      "scroll": 1085,
+      "categories": [
+        {
+          "left": 713.671875,
+          "right": 1036,
+          "top": 284.6875,
+          "bottom": 413.0625,
+          "width": 322.328125,
+          "height": 128.375
+        },
+        {
+          "left": 381.34375,
+          "right": 703.671875,
+          "top": 284.6875,
+          "bottom": 413.0625,
+          "width": 322.328125,
+          "height": 128.375
+        },
+        {
+          "left": 49,
+          "right": 371.34375,
+          "top": 284.6875,
+          "bottom": 413.0625,
+          "width": 322.34375,
+          "height": 128.375
+        }
+      ],
+      "switches": [
+        {
+          "left": 548.5,
+          "right": 1017,
+          "top": 514.0625,
+          "bottom": 690.234375,
+          "width": 468.5,
+          "height": 176.171875
+        },
+        {
+          "left": 68,
+          "right": 536.5,
+          "top": 514.0625,
+          "bottom": 690.234375,
+          "width": 468.5,
+          "height": 176.171875
+        }
+      ],
+      "panel": {
+        "left": 49,
+        "right": 1036,
+        "top": 439.0625,
+        "bottom": 1106.59375,
+        "width": 987,
+        "height": 667.53125,
+        "maxHeight": "none",
+        "overflow": "visible",
+        "client": 666,
+        "scroll": 666
+      }
+    },
+    {
+      "label": "controls-390",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "categories": [
+        {
+          "left": 29,
+          "right": 346,
+          "top": 338.109375,
+          "bottom": 461.546875,
+          "width": 317,
+          "height": 123.4375
+        },
+        {
+          "left": 29,
+          "right": 346,
+          "top": 469.546875,
+          "bottom": 592.984375,
+          "width": 317,
+          "height": 123.4375
+        },
+        {
+          "left": 29,
+          "right": 346,
+          "top": 600.984375,
+          "bottom": 724.421875,
+          "width": 317,
+          "height": 123.4375
+        }
+      ],
+      "switches": [
+        {
+          "left": 42,
+          "right": 333,
+          "top": 817.421875,
+          "bottom": 984.671875,
+          "width": 291,
+          "height": 167.25
+        },
+        {
+          "left": 42,
+          "right": 333,
+          "top": 996.671875,
+          "bottom": 1188.671875,
+          "width": 291,
+          "height": 192
+        }
+      ],
+      "panel": {
+        "left": 29,
+        "right": 346,
+        "top": 746.421875,
+        "bottom": 1735.03125,
+        "width": 317,
+        "height": 988.609375,
+        "maxHeight": "none",
+        "overflow": "visible",
+        "client": 987,
+        "scroll": 987
+      }
+    },
+    {
+      "label": "controls-320",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "categories": [
+        {
+          "left": 29,
+          "right": 276,
+          "top": 701.703125,
+          "bottom": 846.140625,
+          "width": 247,
+          "height": 144.4375
+        },
+        {
+          "left": 29,
+          "right": 276,
+          "top": 854.140625,
+          "bottom": 998.578125,
+          "width": 247,
+          "height": 144.4375
+        },
+        {
+          "left": 29,
+          "right": 276,
+          "top": 1006.578125,
+          "bottom": 1148.859375,
+          "width": 247,
+          "height": 142.28125
+        }
+      ],
+      "switches": [
+        {
+          "left": 42,
+          "right": 263,
+          "top": 1241.859375,
+          "bottom": 1465.453125,
+          "width": 221,
+          "height": 223.59375
+        },
+        {
+          "left": 42,
+          "right": 263,
+          "top": 1477.453125,
+          "bottom": 1725.796875,
+          "width": 221,
+          "height": 248.34375
+        }
+      ],
+      "panel": {
+        "left": 29,
+        "right": 276,
+        "top": 1170.859375,
+        "bottom": 2425.421875,
+        "width": 247,
+        "height": 1254.5625,
+        "maxHeight": "none",
+        "overflow": "visible",
+        "client": 1253,
+        "scroll": 1253
+      }
+    }
+  ],
+  "errors": [],
+  "toolLimitation": "CUA kernel startup failed twice with Windows deny-read ACL error; rendered checks use the project Playwright and Chrome headless test harness.",
+  "finishedAt": "2026-10-09T11:32:26.511Z"
+}

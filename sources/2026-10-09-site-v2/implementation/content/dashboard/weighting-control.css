@@ -1,0 +1,26 @@
+.weighting-control{min-width:0;margin:0 0 18px}
+.weighting-control .weighting-control__primary{display:grid;grid-template-columns:minmax(230px,.7fr) minmax(250px,1.5fr);align-items:center;gap:20px;direction:rtl}
+.weighting-control .weighting-control__description{font-size:15px;line-height:1.65;margin:0;color:var(--secondary);text-align:right}
+.weighting-control .weighting-control__details{border-top:1px solid var(--border);margin-top:17px;padding-top:12px;direction:rtl}
+.weighting-control .weighting-control__details>summary{cursor:pointer;font-size:16px;line-height:1.7;min-height:44px;font-weight:600;padding:6px 0}
+.weighting-control .weighting-control__details>summary>span{font-size:14px;color:var(--secondary);margin-inline-start:12px;white-space:normal}
+.weighting-control .weighting-control__details[open]>summary{margin-bottom:18px}
+.weighting-control .weighting-control__tuning{border-top:1px solid var(--border);padding-top:18px;margin-top:20px;min-width:0;text-align:right}
+.weighting-control .weighting-control__tuning h3{font-size:14px;font-weight:550;margin:0 0 12px}
+.weighting-control .weighting-control__caption{font-size:14px;line-height:1.85;color:var(--secondary);margin:8px 0 14px}
+.weighting-control .weighting-control__actions{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin-bottom:15px}
+.weighting-control .weighting-control__mixture{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.weighting-control .weighting-control__method{padding:13px 15px;border:1px solid var(--border);border-radius:10px;min-width:0}
+.weighting-control .weighting-control__method>label{display:flex;align-items:center;gap:9px;font-size:14px;line-height:1.7;margin-bottom:13px;cursor:pointer}
+.weighting-control .weighting-control__method input[type=checkbox]{width:17px;height:17px;flex-shrink:0;accent-color:var(--accent,#2378cf);margin:0}
+.weighting-control .weighting-control__parameter-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.weighting-control .weighting-control__tuning>.step-control{max-width:540px}
+.weighting-control .weighting-control__empty{font-size:14px;line-height:1.75;border-inline-start:3px solid #a58b45;background:var(--muted);padding:10px 12px;border-radius:6px}
+.weighting-control .weighting-control__notes{border-top:1px solid var(--border);margin-top:18px;padding-top:14px;font-size:14px;line-height:1.75}
+.weighting-control .weighting-control__notes>summary{cursor:pointer}
+.weighting-control .weighting-control__method-explanation{margin:14px 0;font-size:14px;line-height:1.6;color:var(--secondary);direction:rtl}
+.weighting-control .weighting-control__method-explanation>summary{cursor:pointer;min-height:36px;padding:7px 0;color:var(--accent,#2378cf)}
+.weighting-control .weighting-control__method-explanation .weighting-control__caption{padding-inline-start:18px;margin:4px 0 10px}
+.weighting-control summary:focus-visible,.weighting-control input[type=checkbox]:focus-visible{outline:2px solid var(--accent,#2378cf);outline-offset:3px}
+@media(max-width:760px){.weighting-control .weighting-control__primary{grid-template-columns:1fr;gap:12px}.weighting-control .weighting-control__details>summary>span{display:block;margin-inline-start:18px}.weighting-control .weighting-control__mixture,.weighting-control .weighting-control__parameter-grid{grid-template-columns:1fr}.weighting-control .weighting-control__description{font-size:14px}}
+@media print{.weighting-control .weighting-control__actions{display:none}.weighting-control .weighting-control__method{break-inside:avoid}}

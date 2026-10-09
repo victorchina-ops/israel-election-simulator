@@ -1,0 +1,4 @@
+.party-name{display:inline-flex;align-items:center;gap:8px;vertical-align:middle;font-weight:700;min-width:0;text-align:right}.party-name>span{overflow-wrap:anywhere}.party-logo{width:76px;height:30px;object-fit:contain;flex:0 0 76px;background:white;border-radius:4px;padding:2px;box-sizing:border-box}.party-logo-source{font-size:14px;color:var(--muted-foreground);line-height:1.65;margin:12px 0}.party-heading{font-size:18px;margin:0 0 14px}.e-poll-detail{margin-block:20px}.e-poll-detail>summary,.e-extra-details>summary{cursor:pointer;font-weight:700;padding:14px 0}.e-poll-detail table{width:100%;border-collapse:collapse}.e-poll-detail th,.e-poll-detail td{padding:9px;text-align:right;border-bottom:1px solid var(--border)}.e-extra-details{margin-block:16px}
+@media(max-width:600px){.party-logo{width:60px;flex-basis:60px;height:26px}.party-name{gap:6px}}
+
+.party-logo--dark{background:#172740}

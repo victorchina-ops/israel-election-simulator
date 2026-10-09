@@ -1,0 +1,158 @@
+{
+  "url": "http://127.0.0.1:8791/",
+  "checks": [
+    {
+      "kind": "dynamic_coverage",
+      "selected": 7,
+      "current": 8,
+      "archive": 114,
+      "strict": 32,
+      "text": "7 / 8\nסקרים עדכניים נבחרים\n114\nסקרים בארכיון המגמות\n32\nסקרים בניתוח המובהקות השמור\n09.10.2026\nתאריך עדכון המאגר"
+    },
+    {
+      "kind": "first_view",
+      "pipelineSteps": 5,
+      "comparisonAccordionsInitiallyClosed": true
+    },
+    {
+      "kind": "help_callbacks",
+      "guideToPolls": true,
+      "guideToTrends": true,
+      "headerToPolls": true,
+      "headerToGuide": true
+    },
+    {
+      "kind": "dynamic_coverage",
+      "selected": 8,
+      "current": 8,
+      "archive": 114,
+      "strict": 39,
+      "text": "8 / 8\nסקרים עדכניים נבחרים\n114\nסקרים בארכיון המגמות\n39\nסקרים בניתוח המובהקות השמור\n09.10.2026\nתאריך עדכון המאגר"
+    },
+    {
+      "kind": "dynamic_coverage",
+      "selected": 7,
+      "current": 8,
+      "archive": 114,
+      "strict": 39,
+      "text": "7 / 8\nסקרים עדכניים נבחרים\n114\nסקרים בארכיון המגמות\n39\nסקרים בניתוח המובהקות השמור\n09.10.2026\nתאריך עדכון המאגר"
+    },
+    {
+      "kind": "dynamic_coverage",
+      "selected": 7,
+      "current": 8,
+      "archive": 114,
+      "strict": 32,
+      "text": "7 / 8\nסקרים עדכניים נבחרים\n114\nסקרים בארכיון המגמות\n32\nסקרים בניתוח המובהקות השמור\n09.10.2026\nתאריך עדכון המאגר"
+    },
+    {
+      "kind": "selection_scope",
+      "explicitExclusionChangesCurrentOnly": true,
+      "significanceCohortFollowsChannel14Only": true
+    },
+    {
+      "kind": "dynamic_coverage",
+      "selected": 6,
+      "current": 8,
+      "archive": 114,
+      "strict": 32,
+      "text": "6 / 8\nסקרים עדכניים נבחרים\n114\nסקרים בארכיון המגמות\n32\nסקרים בניתוח המובהקות השמור\n09.10.2026\nתאריך עדכון המאגר"
+    },
+    {
+      "kind": "zero_multiplier_scope",
+      "selected": 6,
+      "strict": 32,
+      "zeroSourcePreservedInDatabase": true
+    },
+    {
+      "kind": "dynamic_coverage",
+      "selected": 7,
+      "current": 8,
+      "archive": 114,
+      "strict": 32,
+      "text": "7 / 8\nסקרים עדכניים נבחרים\n114\nסקרים בארכיון המגמות\n32\nסקרים בניתוח המובהקות השמור\n09.10.2026\nתאריך עדכון המאגר"
+    },
+    {
+      "kind": "source_register",
+      "rows": 8,
+      "links": [
+        {
+          "href": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        },
+        {
+          "href": "https://www.israelhayom.co.il/news/politics/article/21582636",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        },
+        {
+          "href": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        },
+        {
+          "href": "https://www.maariv.co.il/news/politics/article-1375198",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        },
+        {
+          "href": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        },
+        {
+          "href": "https://www.zman.co.il/731622/",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        },
+        {
+          "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        },
+        {
+          "href": "https://www.c14.co.il/article/1728516",
+          "target": "_blank",
+          "text": "מקור הסקר ↗"
+        }
+      ]
+    },
+    {
+      "kind": "method_comparisons",
+      "weightsRows": 8,
+      "partyRows": 17,
+      "mandateSimulationsCompleted": true
+    },
+    {
+      "kind": "mobile_expanded_sources",
+      "width": 390,
+      "client": 390,
+      "scroll": 375
+    },
+    {
+      "kind": "mobile_expanded_sources",
+      "width": 320,
+      "client": 320,
+      "scroll": 305
+    }
+  ],
+  "viewports": [
+    {
+      "width": 390,
+      "client": 390,
+      "scroll": 375,
+      "introHeight": 109.75,
+      "pipelineColumns": "301px"
+    },
+    {
+      "width": 320,
+      "client": 320,
+      "scroll": 305,
+      "introHeight": 109.75,
+      "pipelineColumns": "231px"
+    }
+  ],
+  "pageErrors": [],
+  "passed": true
+}
