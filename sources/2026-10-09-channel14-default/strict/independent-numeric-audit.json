@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "method": "Independent lstsq slopes for all outcomes; sampled direct Cartesian tail enumeration with integer score multiplicities",
+  "exactPrimaryCounter": "Inherited reviewed compressed_searchsorted_exact.py; exact multiplicities over every within-series permutation",
+  "independentlyCountedOutcomeIds": [
+    "shas",
+    "utj",
+    "raam",
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first"
+  ],
+  "independentTailScope": "Three smallest nonconstant null spaces and every zero-statistic outcome; not a new all-outcome exhaustive independent audit",
+  "nPermutationsExact": "7166361600000",
+  "extremeCountsExact": [
+    "2595815424000",
+    "4720243507200",
+    "2821157683200",
+    "7166361600000",
+    "7166361600000",
+    "7166361600000",
+    "7166361600000"
+  ],
+  "compressedHalfSizes": [
+    [
+      11,
+      30
+    ],
+    [
+      50,
+      42
+    ],
+    [
+      50,
+      84
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "historySha256": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a",
+  "partiesSha256": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+  "primaryAnalysisSha256": "b711319fc20a034a0687a4d10789d2d4ed76d436d2c84aa2b62acb2c92377005"
+}

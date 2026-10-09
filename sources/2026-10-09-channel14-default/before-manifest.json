@@ -1,0 +1,50 @@
+{
+  "publishedCommit": "8bf1c8a52eb8a24057833a191f2bdb9f7c202267",
+  "files": [
+    {
+      "path": "dashboard/src/data.json",
+      "sha256": "c09e33653c57fc25c0ae7c9c92631f98b98848f4371ee2643d981a85832794bb",
+      "bytes": 6460328
+    },
+    {
+      "path": "github-pages/index.html",
+      "sha256": "3749fd3fa2234d854db12b6f3bdc3360c5913405b54ac2a8d59cb5aee21e3908",
+      "bytes": 8359865
+    },
+    {
+      "path": "github-pages/README.md",
+      "sha256": "a1d9033d4923d09441bb9beee772d47b3f57fb67add45ab25808eee2bcd6ad04",
+      "bytes": 46190
+    },
+    {
+      "path": "data/current-polls.json",
+      "sha256": "1dc2da8939c2bc0dfebbdcebce0b8fb10a9f88df3c076258e90006e009975945",
+      "bytes": 401481
+    },
+    {
+      "path": "data/poll-history.json",
+      "sha256": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a",
+      "bytes": 385337
+    },
+    {
+      "path": "data/calibration.json",
+      "sha256": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+      "bytes": 29969
+    },
+    {
+      "path": "data/weight-presets.json",
+      "sha256": "4b78d63175ef13945d80dfc51ec91a0fcdde332908fda385922236ec887e402c",
+      "bytes": 12281
+    },
+    {
+      "path": "data/strict-party-trends.json",
+      "sha256": "015bb39c83cf5bb8e039bf61bc1fd4a9c4f64460da9dbddf1f3ebf3e85534fe2",
+      "bytes": 226695
+    },
+    {
+      "path": "data/signal-noise-observations.json",
+      "sha256": "b04ee5adbcd7c8d6881a6a89ccd460d0a0e693a625c2921dcb4f6016aa4fb6ab",
+      "bytes": 147176
+    }
+  ]
+}

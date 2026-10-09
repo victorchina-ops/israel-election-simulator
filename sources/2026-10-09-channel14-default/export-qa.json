@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791/",
+  "startedAt": "2026-10-09T08:48:20.480Z",
+  "checks": [
+    {
+      "includeChannel14": false,
+      "summaryPNG": true,
+      "thresholdPNG": true,
+      "thresholdCSV": true,
+      "mainComparisonCSV": true,
+      "separateComparisonCSV": true,
+      "signalNoiseCreditAndActualCoveragePreserved": true
+    },
+    {
+      "includeChannel14": true,
+      "summaryPNG": true,
+      "thresholdPNG": true,
+      "thresholdCSV": true,
+      "mainComparisonCSV": true,
+      "separateComparisonCSV": true,
+      "signalNoiseCreditAndActualCoveragePreserved": true
+    },
+    {
+      "javaScriptErrors": 0
+    }
+  ],
+  "exports": [
+    {
+      "file": "summary-reference-signal-noise-channel14-off.png",
+      "width": 2720,
+      "height": 5732,
+      "bytes": 1366923,
+      "includeChannel14": false,
+      "methodCreditCoverageAndPublisherFlagPainted": true,
+      "noDuplicatePublisherMetadata": true
+    },
+    {
+      "file": "threshold-reference-signal-noise-channel14-off.csv",
+      "rows": 17,
+      "includeChannel14": false,
+      "methodAndBothFeatureFlagsInEveryRow": true
+    },
+    {
+      "file": "threshold-reference-signal-noise-channel14-off.png",
+      "width": 2880,
+      "height": 3160,
+      "bytes": 624298,
+      "includeChannel14": false,
+      "methodCreditCoverageAndPublisherFlagPainted": true,
+      "noDuplicatePublisherMetadata": true
+    },
+    {
+      "file": "comparison-reference-channel14-off.csv",
+      "rows": 12,
+      "includeChannel14": false,
+      "chosenMethodSignalNoiseFlagAndCoverageInEveryRow": true
+    },
+    {
+      "file": "comparison-separate-reference-channel14-off.csv",
+      "rows": 12,
+      "includeChannel14": false,
+      "separateMethodCSVPreservesFlagsAndCoverage": true
+    },
+    {
+      "file": "summary-reference-signal-noise-channel14-on.png",
+      "width": 2720,
+      "height": 5732,
+      "bytes": 1374809,
+      "includeChannel14": true,
+      "methodCreditCoverageAndPublisherFlagPainted": true,
+      "noDuplicatePublisherMetadata": true
+    },
+    {
+      "file": "threshold-reference-signal-noise-channel14-on.csv",
+      "rows": 17,
+      "includeChannel14": true,
+      "methodAndBothFeatureFlagsInEveryRow": true
+    },
+    {
+      "file": "threshold-reference-signal-noise-channel14-on.png",
+      "width": 2880,
+      "height": 3160,
+      "bytes": 623907,
+      "includeChannel14": true,
+      "methodCreditCoverageAndPublisherFlagPainted": true,
+      "noDuplicatePublisherMetadata": true
+    },
+    {
+      "file": "comparison-reference-channel14-on.csv",
+      "rows": 12,
+      "includeChannel14": true,
+      "chosenMethodSignalNoiseFlagAndCoverageInEveryRow": true
+    },
+    {
+      "file": "comparison-separate-reference-channel14-on.csv",
+      "rows": 12,
+      "includeChannel14": true,
+      "separateMethodCSVPreservesFlagsAndCoverage": true
+    }
+  ],
+  "errors": [],
+  "finishedAt": "2026-10-09T08:48:31.961Z"
+}

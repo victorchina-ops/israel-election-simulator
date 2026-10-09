@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-09",
+  "polls": 32,
+  "series": 7,
+  "deltas": 25,
+  "partyTests": 17,
+  "individualTests": 119,
+  "signPatterns": 128,
+  "exactPermutations": "7166361600000",
+  "immutableSourceHashes": {
+    "data\\poll-history.json": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a",
+    "data\\parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "artifacts\\strict-post-close\\party-analysis.json": "bdbc3c16ffbe31af1110db830fb8f46155351d046be4fb3743d57a6967ee6a10",
+    "artifacts\\strict-post-close\\analysis.json": "af74aa4d42ff4d0aa41f64d6932ef836fb407e7cb46c0720cfef419c9d5034a3",
+    "data\\strict-party-trends.json": "015bb39c83cf5bb8e039bf61bc1fd4a9c4f64460da9dbddf1f3ebf3e85534fe2"
+  },
+  "primarySignificantAfterBH": [
+    "joint"
+  ],
+  "sensitivitySignificantAfterBH": [],
+  "snapshotSha256": "51da1999cd28255efe226b048d79b7c4f5a4ff5a8b679a16810d2bf564e73843",
+  "analysisSha256": "b711319fc20a034a0687a4d10789d2d4ed76d436d2c84aa2b62acb2c92377005",
+  "independentAuditSha256": "85c0c7189f02b7d750e9a55218e2d44e325fbabe8b9f908c3a1b8d78fd242161"
+}

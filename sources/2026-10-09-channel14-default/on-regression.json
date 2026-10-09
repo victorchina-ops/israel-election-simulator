@@ -1,0 +1,83 @@
+{
+  "status": "PASS",
+  "frozenPublicCommit": "8bf1c8a52eb8a24057833a191f2bdb9f7c202267",
+  "frozenSnapshotSha256": "c09e33653c57fc25c0ae7c9c92631f98b98848f4371ee2643d981a85832794bb",
+  "iterations": 10000,
+  "seed": 20260912,
+  "weightMode": "quality",
+  "exactFrozenComparisons": [
+    "iterations",
+    "parties",
+    "blocHist",
+    "blocStats",
+    "reportingGroups",
+    "coalitionHist",
+    "coalitionStats",
+    "counts",
+    "probabilities",
+    "probabilityCI",
+    "meanBallots",
+    "meanValid",
+    "meanTurnout",
+    "worlds",
+    "nEffective",
+    "methodWeights",
+    "pointProbabilities",
+    "expectedVotesRounded",
+    "turnout",
+    "checks"
+  ],
+  "comparisonReason": "Explicit ON restores all numerical results of the frozen previous public default; OFF changes only the active publisher selection.",
+  "on": {
+    "polls": 8,
+    "meanSeats": {
+      "a": 53.2874,
+      "b": 52.4959,
+      "arab": 0,
+      "other": 14.2167
+    },
+    "winProbability": 0.3649,
+    "hendelProbability": 0.2802,
+    "blocMajorityProbability": {
+      "a": 0.0414,
+      "b": 0.0012,
+      "neither": 0.9574,
+      "coalitionA": 0.0414,
+      "coalitionB": 0.0012,
+      "coalitionNeither": 0.9574,
+      "coalitionBoth": 0
+    },
+    "checks": {
+      "seatsSum": 120,
+      "eachWorld120": true,
+      "blocPartition120": true,
+      "probabilityTotal": 1
+    }
+  },
+  "off": {
+    "polls": 7,
+    "meanSeats": {
+      "a": 51.9555,
+      "b": 53.3276,
+      "arab": 0,
+      "other": 14.7169
+    },
+    "winProbability": 0.447,
+    "hendelProbability": 0.364,
+    "blocMajorityProbability": {
+      "a": 0.0065,
+      "b": 0.003,
+      "neither": 0.9905,
+      "coalitionA": 0.0065,
+      "coalitionB": 0.003,
+      "coalitionNeither": 0.9905,
+      "coalitionBoth": 0
+    },
+    "checks": {
+      "seatsSum": 120,
+      "eachWorld120": true,
+      "blocPartition120": true,
+      "probabilityTotal": 1
+    }
+  }
+}

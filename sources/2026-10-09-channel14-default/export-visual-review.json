@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "reviewMethod": "Viewed each downloaded PNG through view_image after the browser export assertions passed.",
+  "files": [
+    "summary-reference-signal-noise-channel14-off.png",
+    "summary-reference-signal-noise-channel14-on.png",
+    "threshold-reference-signal-noise-channel14-off.png",
+    "threshold-reference-signal-noise-channel14-on.png"
+  ],
+  "findings": {
+    "publisherFlagReadableAndShownOnce": true,
+    "chosenWeightingMethodReadable": true,
+    "signalNoiseFeatureAndCreditPreserved": true,
+    "actualSourceCoverageDatesReadable": true,
+    "partyLogosLabelsValuesAndBarsReadable": true,
+    "noVisibleClippingOrOverlaps": true
+  }
+}

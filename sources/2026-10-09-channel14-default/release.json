@@ -1,0 +1,170 @@
+{
+  "dataAsOf": "2026-10-09",
+  "newPollCount": 0,
+  "feature": "includeChannel14",
+  "featureDefault": false,
+  "signalNoiseEnabledDefault": false,
+  "selectedWeightingDefault": "quality",
+  "compatibleWeightingPolicyCount": 9,
+  "currentRawPollCount": 8,
+  "defaultActivePollCount": 7,
+  "historicalRawPollCount": 114,
+  "sourcePollsPreserved": true,
+  "onExactlyMatchesFrozenPreviousRelease": true,
+  "numericalCollectionsCompared": 20,
+  "strictTrendCoverageWithoutChannel14": {
+    "polls": 32,
+    "institutes": 7,
+    "deltas": 25
+  },
+  "strictTrendCoverageWithChannel14": {
+    "polls": 39,
+    "institutes": 8,
+    "deltas": 31
+  },
+  "testsPassed": 344,
+  "legacyEvidenceFilesPreserved": 478,
+  "correlationProposalAppliedToProduction": false,
+  "correlationEvidenceCoverageDefault": {
+    "knownInstitutePairs": 6,
+    "totalInstitutePairs": 21
+  },
+  "snapshotSha256": "98337a43435334f4aa77b19cc3867f3ee4b236bf679228b26fbb227437b508fb",
+  "publishedHtmlSha256": "ff4304cf8f2d715d17495c85b5b33494d404091b5f6eec6cfb62a0bc916e674c",
+  "publicThreadMetadataRemoved": true,
+  "postedTweet": false,
+  "files": [
+    {
+      "path": "audit-on-regression.mjs",
+      "sha256": "13eaefec6a4f3d7acb26c60f9977df279dab5ce3f8717d709ef3bb96333851a6"
+    },
+    {
+      "path": "before-manifest.json",
+      "sha256": "1565ceff498afa64e389017eb0a5de0bd09dead2a8eec7757816d4a8b15e6738"
+    },
+    {
+      "path": "browser-qa.json",
+      "sha256": "c0e2751b3a03374582e42b578bf9e6a3fe78b5b6ac4aedb2d5eaa7aa0946f296"
+    },
+    {
+      "path": "export-qa.json",
+      "sha256": "477a6449b23aa3057cd3aac15816fdbd5029930fa59c4d75a4a5cc6a8493258b"
+    },
+    {
+      "path": "export-visual-review.json",
+      "sha256": "5b3c3eb284eb8aa6283ae18e5f42e66847733aa15b8d39103f17c3926a2b0535"
+    },
+    {
+      "path": "full-tests.txt",
+      "sha256": "ead037d720fcd6ca7563946674fb72095ae0979ec0c48cfc23dff572227e0b3a"
+    },
+    {
+      "path": "implementation/poll-selection-policy.js",
+      "sha256": "4075780ae195f16c566767c547da03aaedafd0e3333dba45b4a29172c0c0d123"
+    },
+    {
+      "path": "implementation/PollSelectionControl.jsx",
+      "sha256": "4c0644b50ee11aecc2f631f7be18878b654f839148611ea1eb5e5329d7a0789a"
+    },
+    {
+      "path": "implementation/ScenarioControls.jsx",
+      "sha256": "f08b80ebb98b08589833b0e9b5a6b40cce13443913a1e699d6af0e6ea8e5d390"
+    },
+    {
+      "path": "implementation/signal-noise-content.js",
+      "sha256": "d6fd8d92c62adce6f0a094f38a0beeb6cfab6c9ea524b1efc1a311cc2ca2e1c6"
+    },
+    {
+      "path": "implementation/signal-noise.js",
+      "sha256": "9e5cf16321de6b451489326945cdd708761bd33a46f4725fe0e550c68ea5f911"
+    },
+    {
+      "path": "implementation/SignalNoiseInstituteControl.jsx",
+      "sha256": "9011caf94db5052194864f2ea2b5bf6d1c07d9286184f03b0d5700f95e758b35"
+    },
+    {
+      "path": "implementation/VerifiedPartyTrends.jsx",
+      "sha256": "9bbaa649304bf5df9d058c500cf0c1f4c0165fbf28d55ce81ea8edb2e96f8a87"
+    },
+    {
+      "path": "implementation/WeightingControl.jsx",
+      "sha256": "31f1d4c3425f145f9e6ffc46e35414e318e97ccb0341a910ceba65a3963b8612"
+    },
+    {
+      "path": "implementation/weights.js",
+      "sha256": "a6750f54c25bb0398a9dbb3f16b2c298b6476d436fc45b33e5ba2442469a6b70"
+    },
+    {
+      "path": "method.he.md",
+      "sha256": "ca108fd21cd7db6d295186497fbf78953130e622aaabfdb88a48b21390355253"
+    },
+    {
+      "path": "on-regression.json",
+      "sha256": "ef54f93f677907402029826e698b84c0138d72d5ff121e94f2f243883fe35c18"
+    },
+    {
+      "path": "research/analysis.json",
+      "sha256": "722005ce2ec7c59aa99ae255f8bc5ccb9ff39742625f9b78e15460b25feaeda3"
+    },
+    {
+      "path": "research/proposal.he.md",
+      "sha256": "1f30b7f84ffc644111ba6ebdcc6a97f8408ff148df0868e77125555ecab23936"
+    },
+    {
+      "path": "research/research-accuracy-dependence-2026-10-09.py",
+      "sha256": "ea15c6eb0e6554990f0418b345ec51ecd2e075c1371a4b9590a9d66ac83fd479"
+    },
+    {
+      "path": "strict/compressed_searchsorted_exact.py",
+      "sha256": "9598e42587587375cf5cfaacd5f1a2edbea23512c0148f167c64a4b248b99f1c"
+    },
+    {
+      "path": "strict/derive-2026-10-09.py",
+      "sha256": "1781794ed4a9d01444d75740a7222e73ecb80db2c0ca2590984f11ea2613bf8a"
+    },
+    {
+      "path": "strict/derive-reusable.py",
+      "sha256": "3767d61f3341a4ccbe41775ae2b76422c7b8911ce8ee239f7569f0b994a2a05d"
+    },
+    {
+      "path": "strict/independent-compressed-counts.py",
+      "sha256": "6c77359d39ad0131bbd7e780a57b6667b5b8f5cfc19803dc155ed34290118990"
+    },
+    {
+      "path": "strict/independent-numeric-audit.json",
+      "sha256": "85c0c7189f02b7d750e9a55218e2d44e325fbabe8b9f908c3a1b8d78fd242161"
+    },
+    {
+      "path": "strict/party-analysis.json",
+      "sha256": "b711319fc20a034a0687a4d10789d2d4ed76d436d2c84aa2b62acb2c92377005"
+    },
+    {
+      "path": "strict/party-trends.json",
+      "sha256": "51da1999cd28255efe226b048d79b7c4f5a4ff5a8b679a16810d2bf564e73843"
+    },
+    {
+      "path": "strict/regeneration-guard.test.mjs",
+      "sha256": "8dd3a0cff14f0070752e77e1d7666b3e7350d2cce2fd5538f4f3189f1855428b"
+    },
+    {
+      "path": "strict/validation.json",
+      "sha256": "9bcc3ba4cd75241267e43ef1c624926cf67761ef5654f38a272d3f8e986dc908"
+    },
+    {
+      "path": "summary-canvas-text-channel14-off.txt",
+      "sha256": "dbeac529fb68a37e73a055d5c65fc7485b3b401e3fa7f50f9d7b65c0f4fbd963"
+    },
+    {
+      "path": "summary-canvas-text-channel14-on.txt",
+      "sha256": "fa5538f658a66f8bf7e071abe35019a65574cd6b4d1b3e7c3f1a381174176f43"
+    },
+    {
+      "path": "threshold-canvas-text-channel14-off.txt",
+      "sha256": "725287426cfa6fa783a32a06cfb2f74780d2192b27d46f1824472f5a89baf776"
+    },
+    {
+      "path": "threshold-canvas-text-channel14-on.txt",
+      "sha256": "ab6801d9e72aba5e0ef1813a6ea545faffa7729d94d8d66c3a7639fe1da48bca"
+    }
+  ]
+}
