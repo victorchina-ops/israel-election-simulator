@@ -1,0 +1,3818 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-09",
+  "listClosureDate": "2026-09-08",
+  "observations": [
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-09-09",
+      "publicationDateSourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "fieldworkVerified": true,
+      "sampleSize": 504,
+      "canonicalSampleSize": 504,
+      "reportedPercentages": {
+        "yashar": 19.4,
+        "likud": 16.3,
+        "beyachad": 9.2,
+        "democrats": 8.5,
+        "yisrael_beiteinu": 7,
+        "utj": 6.3,
+        "shas": 5.4,
+        "joint": 5.3,
+        "otzma": 4.6,
+        "rz_zehut": 4.4,
+        "winter": 3.9,
+        "raam": 3.3,
+        "hendel": 2.9,
+        "gantz": 1.4,
+        "haredi_public": 1,
+        "israel_first": 0.3,
+        "noam": 0.2,
+        "other": 0.6
+      },
+      "rawReportedPercentages": {
+        "yashar": 19.4,
+        "likud": 16.3,
+        "beyachad": 9.2,
+        "democrats": 8.5,
+        "yisrael_beiteinu": 7,
+        "utj": 6.3,
+        "shas": 5.4,
+        "joint": 5.3,
+        "otzma": 4.6,
+        "rz_zehut": 4.4,
+        "winter": 3.9,
+        "raam": 3.3,
+        "hendel": 2.9,
+        "gantz": 1.4,
+        "haredi_public": 1,
+        "israel_first": 0.3,
+        "noam": 0.2,
+        "other": 0.6
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4145.pdf",
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8",
+      "sourceTablePage": 2,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4145-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4145-page-2.txt",
+      "visuallyVerified": true,
+      "undecidedPct": 10.2,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": true,
+        "note": "Complete party distribution reports total100%; undecided (if supplied) is separately listed. Conditional party-choice denominator is inferred from this table structure, not claimed as an explicit verbal definition. No second undecided adjustment."
+      },
+      "sourcePartyPercentageSum": 100.0,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [
+        {
+          "name": "הקהל בראשות שלמה אלבוים",
+          "rawPct": 0.1,
+          "mappedTo": "other"
+        }
+      ],
+      "unallocatedAggregates": [],
+      "notes": [
+        "Reused exact source-PDFhash and prior14Sep visual-review receipt; original report not newly dated by filecreation. Complete100party-table denominator remains inferred."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 2,
+          "quote": "אחוז גולמי",
+          "role": "column heading"
+        },
+        {
+          "page": 2,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "priorReviewEvidence": "data/raw/surveys-2026-09-14/agent-b/reviewed-surveys.json",
+      "percentageSampleSize": 452.592,
+      "percentageSampleSizeIsEstimate": true,
+      "percentageSampleSizeMethod": "actual respondents × (1 − reported undecided / 100); approximate decided count, not an independently reported count or effective size after weighting",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": true
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-11",
+      "publicationDateSourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "fieldworkVerified": true,
+      "sampleSize": 601,
+      "canonicalSampleSize": 601,
+      "reportedPercentages": {
+        "yashar": 18.8,
+        "likud": 13.9,
+        "beyachad": 11.7,
+        "democrats": 9.4,
+        "yisrael_beiteinu": 7,
+        "otzma": 6.2,
+        "utj": 5,
+        "shas": 5.2,
+        "joint": 5.4,
+        "raam": 4.5,
+        "rz_zehut": 4.3,
+        "winter": 3.4,
+        "hendel": 3,
+        "gantz": 1.1,
+        "noam": 0.7,
+        "haredi_public": 0.4
+      },
+      "rawReportedPercentages": {
+        "yashar": 18.8,
+        "likud": 13.9,
+        "beyachad": 11.7,
+        "democrats": 9.4,
+        "yisrael_beiteinu": 7,
+        "otzma": 6.2,
+        "utj": 5,
+        "shas": 5.2,
+        "joint": 5.4,
+        "raam": 4.5,
+        "rz_zehut": 4.3,
+        "winter": 3.4,
+        "hendel": 3,
+        "gantz": 1.1,
+        "noam": 0.7,
+        "haredi_public": 0.4
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4144.pdf",
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6",
+      "sourceTablePage": 1,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4144-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4144-page-1.txt",
+      "visuallyVerified": true,
+      "undecidedPct": null,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": true,
+        "note": "Complete party distribution reports total100%; undecided (if supplied) is separately listed. Conditional party-choice denominator is inferred from this table structure, not claimed as an explicit verbal definition. No second undecided adjustment."
+      },
+      "sourcePartyPercentageSum": 100.0,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [],
+      "unallocatedAggregates": [],
+      "notes": [
+        "Reused exact source-PDFhash and prior14Sep visual-review receipt; original report not newly dated by filecreation. Complete100party-table denominator remains inferred."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 1,
+          "quote": "אחוזים גולמיים",
+          "role": "column heading"
+        },
+        {
+          "page": 1,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "priorReviewEvidence": "data/raw/surveys-2026-09-14/agent-b/reviewed-surveys.json",
+      "percentageSampleSize": 601,
+      "percentageSampleSizeIsEstimate": false,
+      "percentageSampleSizeMethod": "actual respondent count ceiling; decided and design-effective respondent count unavailable",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-23",
+      "publicationDateSourceUrl": "https://www.c14.co.il/article/1711606",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "fieldworkVerified": true,
+      "sampleSize": 535,
+      "canonicalSampleSize": 647,
+      "reportedPercentages": {
+        "likud": 24.923076923076923,
+        "yashar": 17.64102564102564,
+        "shas": 8.82051282051282,
+        "democrats": 7.384615384615384,
+        "beyachad": 5.23076923076923,
+        "rz_zehut": 5.6410256410256405,
+        "utj": 5.23076923076923,
+        "joint": 5.538461538461538,
+        "yisrael_beiteinu": 5.6410256410256405,
+        "otzma": 4.615384615384615,
+        "raam": 4.102564102564102,
+        "hendel": 2.2564102564102564,
+        "winter": 1.9487179487179485,
+        "haredi_public": 0.5128205128205128,
+        "gantz": 0.30769230769230765
+      },
+      "rawReportedPercentages": {
+        "likud": 24.3,
+        "yashar": 17.2,
+        "shas": 8.6,
+        "democrats": 7.2,
+        "beyachad": 5.1,
+        "rz_zehut": 5.5,
+        "utj": 5.1,
+        "joint": 5.4,
+        "yisrael_beiteinu": 5.5,
+        "otzma": 4.5,
+        "raam": 4,
+        "hendel": 2.2,
+        "winter": 1.9,
+        "haredi_public": 0.5,
+        "gantz": 0.3
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4171.pdf",
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a",
+      "sourceTablePage": 2,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4171-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4171-page-2.txt",
+      "visuallyVerified": true,
+      "undecidedPct": 2.5,
+      "denominatorTransformation": {
+        "kind": "remove-explicit-same-table-undecided-once",
+        "factor": 1.0256410256410255,
+        "rawDenominatorPct": 97.5,
+        "inferred": true,
+        "note": "Raw party table and undecided share use one complete response distribution; transform each party by 100/(100-undecided). Small rounding disagreement is preserved, not silently forced into other."
+      },
+      "sourcePartyPercentageSum": 97.3,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [],
+      "unallocatedAggregates": [],
+      "notes": [
+        "Printed passing-party subtotal92.4 plus below parties4.9 plusundecided2.5=99.8 due rounding; do not turn.2 into invented other. Noam is absent from filing though publisher reported.1; basis of that external row unverified, leave missing."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 2,
+          "quote": "אחוז גולמי",
+          "role": "column heading"
+        },
+        {
+          "page": 2,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "sourceConflicts": [
+        {
+          "field": "sampleSize",
+          "canonical": 647,
+          "originalReportActualRespondents": 535,
+          "resolution": "Use original actual respondents in this additional model only; canonical poll remains untouched."
+        }
+      ],
+      "percentageSampleSize": 521.625,
+      "percentageSampleSizeIsEstimate": true,
+      "percentageSampleSizeMethod": "actual respondents × (1 − reported undecided / 100); approximate decided count, not an independently reported count or effective size after weighting",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-25",
+      "publicationDateSourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1370546",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "fieldworkVerified": true,
+      "sampleSize": 610,
+      "canonicalSampleSize": 610,
+      "reportedPercentages": {
+        "yashar": 15.9,
+        "likud": 14.4,
+        "beyachad": 11,
+        "democrats": 9.3,
+        "yisrael_beiteinu": 7.7,
+        "otzma": 7.2,
+        "joint": 5.4,
+        "utj": 5,
+        "shas": 5,
+        "rz_zehut": 4.8,
+        "raam": 4.4,
+        "winter": 3.4,
+        "hendel": 3.4,
+        "gantz": 1.3,
+        "haredi_public": 0.9,
+        "noam": 0.7,
+        "other": 0.2
+      },
+      "rawReportedPercentages": {
+        "yashar": 15.9,
+        "likud": 14.4,
+        "beyachad": 11,
+        "democrats": 9.3,
+        "yisrael_beiteinu": 7.7,
+        "otzma": 7.2,
+        "joint": 5.4,
+        "utj": 5,
+        "shas": 5,
+        "rz_zehut": 4.8,
+        "raam": 4.4,
+        "winter": 3.4,
+        "hendel": 3.4,
+        "gantz": 1.3,
+        "haredi_public": 0.9,
+        "noam": 0.7,
+        "other": 0.2
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4164.pdf",
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7",
+      "sourceTablePage": 1,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4164-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4164-page-1.txt",
+      "visuallyVerified": true,
+      "undecidedPct": 7.7,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": true,
+        "note": "Complete party distribution reports total100%; undecided (if supplied) is separately listed. Conditional party-choice denominator is inferred from this table structure, not claimed as an explicit verbal definition. No second undecided adjustment."
+      },
+      "sourcePartyPercentageSum": 100.0,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [
+        {
+          "name": "צומת–בית ישראל בראשות גדי יברקן",
+          "rawPct": 0.2,
+          "mappedTo": "other"
+        }
+      ],
+      "unallocatedAggregates": [],
+      "notes": [
+        "To120 discovery dates this poll26Sep; original local publisher25Sep retained. Filing printed24Sep matches fieldwork end."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 1,
+          "quote": "אחוזים גולמיים",
+          "role": "column heading"
+        },
+        {
+          "page": 1,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "percentageSampleSize": 563.03,
+      "percentageSampleSizeIsEstimate": true,
+      "percentageSampleSizeMethod": "actual respondents × (1 − reported undecided / 100); approximate decided count, not an independently reported count or effective size after weighting",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-27",
+      "publicationDateSourceUrl": "https://www.kan.org.il/content/kan-news/politic/1103667/",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "fieldworkVerified": true,
+      "sampleSize": 552,
+      "canonicalSampleSize": 552,
+      "reportedPercentages": {
+        "likud": 16.2,
+        "beyachad": 9,
+        "yashar": 18.6,
+        "democrats": 7.1,
+        "hendel": 3.6,
+        "rz_zehut": 5.1,
+        "otzma": 5.8,
+        "winter": 3.5,
+        "yisrael_beiteinu": 7.1,
+        "shas": 5.5,
+        "utj": 5.7,
+        "joint": 5.8,
+        "raam": 4.4,
+        "gantz": 0.7,
+        "haredi_public": 0.9,
+        "noam": 0.4,
+        "other": 0.6
+      },
+      "rawReportedPercentages": {
+        "likud": 16.2,
+        "beyachad": 9,
+        "yashar": 18.6,
+        "democrats": 7.1,
+        "hendel": 3.6,
+        "rz_zehut": 5.1,
+        "otzma": 5.8,
+        "winter": 3.5,
+        "yisrael_beiteinu": 7.1,
+        "shas": 5.5,
+        "utj": 5.7,
+        "joint": 5.8,
+        "raam": 4.4,
+        "gantz": 0.7,
+        "haredi_public": 0.9,
+        "noam": 0.4,
+        "other": 0.6
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4179.pdf",
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b",
+      "sourceTablePage": 2,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4179-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4179-page-2.txt",
+      "visuallyVerified": true,
+      "undecidedPct": null,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": true,
+        "note": "Complete party distribution reports total100%; undecided (if supplied) is separately listed. Conditional party-choice denominator is inferred from this table structure, not claimed as an explicit verbal definition. No second undecided adjustment."
+      },
+      "sourcePartyPercentageSum": 100.0,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [
+        {
+          "name": "צבע שחור מגן התורה",
+          "rawPct": 0.6,
+          "mappedTo": "other"
+        }
+      ],
+      "unallocatedAggregates": [],
+      "notes": [],
+      "sourceQuotes": [
+        {
+          "page": 2,
+          "quote": "אחוזים",
+          "role": "column heading"
+        },
+        {
+          "page": 2,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "percentageSampleSize": 552,
+      "percentageSampleSizeIsEstimate": false,
+      "percentageSampleSizeMethod": "actual respondent count ceiling; decided and design-effective respondent count unavailable",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-28",
+      "publicationDateSourceUrl": "https://www.c14.co.il/article/1716250",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "fieldworkVerified": true,
+      "sampleSize": 573,
+      "canonicalSampleSize": 573,
+      "reportedPercentages": {
+        "likud": 24.79338842975207,
+        "yashar": 16.838842975206614,
+        "shas": 7.747933884297521,
+        "beyachad": 7.1280991735537205,
+        "democrats": 7.334710743801653,
+        "utj": 6.611570247933885,
+        "rz_zehut": 5.475206611570249,
+        "otzma": 5.268595041322314,
+        "joint": 5.371900826446282,
+        "yisrael_beiteinu": 4.958677685950414,
+        "raam": 3.925619834710744,
+        "hendel": 2.169421487603306,
+        "winter": 1.6528925619834713,
+        "gantz": 0.6198347107438017,
+        "haredi_public": 0.20661157024793392,
+        "noam": 0.20661157024793392
+      },
+      "rawReportedPercentages": {
+        "likud": 24,
+        "yashar": 16.3,
+        "shas": 7.5,
+        "beyachad": 6.9,
+        "democrats": 7.1,
+        "utj": 6.4,
+        "rz_zehut": 5.3,
+        "otzma": 5.1,
+        "joint": 5.2,
+        "yisrael_beiteinu": 4.8,
+        "raam": 3.8,
+        "hendel": 2.1,
+        "winter": 1.6,
+        "gantz": 0.6,
+        "haredi_public": 0.2,
+        "noam": 0.2
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4175.pdf",
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4",
+      "sourceTablePage": 2,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4175-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4175-page-2.txt",
+      "visuallyVerified": true,
+      "undecidedPct": 3.2,
+      "denominatorTransformation": {
+        "kind": "remove-explicit-same-table-undecided-once",
+        "factor": 1.0330578512396695,
+        "rawDenominatorPct": 96.8,
+        "inferred": true,
+        "note": "Raw party table and undecided share use one complete response distribution; transform each party by 100/(100-undecided). Small rounding disagreement is preserved, not silently forced into other."
+      },
+      "sourcePartyPercentageSum": 97.1,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [],
+      "unallocatedAggregates": [],
+      "notes": [
+        "Published printed passing-party total92.4; individual rows sum92.4. Complete party+undecided totals100.3; preserve rounding conflict without residual fabrication."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 2,
+          "quote": "אחוז גולמי",
+          "role": "column heading"
+        },
+        {
+          "page": 2,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "percentageSampleSize": 554.664,
+      "percentageSampleSizeIsEstimate": true,
+      "percentageSampleSizeMethod": "actual respondents × (1 − reported undecided / 100); approximate decided count, not an independently reported count or effective size after weighting",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-29",
+      "publicationDateSourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "fieldworkVerified": true,
+      "sampleSize": 550,
+      "canonicalSampleSize": 550,
+      "reportedPercentages": {
+        "yashar": 17,
+        "likud": 16,
+        "beyachad": 12,
+        "otzma": 7,
+        "shas": 6,
+        "democrats": 8,
+        "utj": 6,
+        "yisrael_beiteinu": 5,
+        "joint": 6,
+        "raam": 4,
+        "rz_zehut": 5,
+        "winter": 4,
+        "hendel": 3.3,
+        "gantz": 0.4,
+        "haredi_public": 0.6
+      },
+      "rawReportedPercentages": {
+        "yashar": 17,
+        "likud": 16,
+        "beyachad": 12,
+        "otzma": 7,
+        "shas": 6,
+        "democrats": 8,
+        "utj": 6,
+        "yisrael_beiteinu": 5,
+        "joint": 6,
+        "raam": 4,
+        "rz_zehut": 5,
+        "winter": 4,
+        "hendel": 3.3,
+        "gantz": 0.4,
+        "haredi_public": 0.6
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4173.pdf",
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8",
+      "sourceTablePage": 3,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4173-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4173-page-3.txt",
+      "visuallyVerified": true,
+      "undecidedPct": null,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": false,
+        "note": "Identity on explicit בעלי הדעה (party-choice/decided) column; raw whole-response percentages and undecided are a separate column and not subtracted again."
+      },
+      "sourcePartyPercentageSum": 100.3,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [],
+      "unallocatedAggregates": [],
+      "notes": [
+        "Use explicitly labelled בעלי הדעה column; raw all-respondents column kept separately below. Source column total100, individually rounded values100.3. Noam/israel_first/other have no decided-columnpoint, remain missing."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 3,
+          "quote": "בעלי הדעה"
+        },
+        {
+          "page": 3,
+          "quote": "אחוזים גולמיים ללא שקלול מנדטים"
+        }
+      ],
+      "sourceRawAllRespondentsPercentages": {
+        "yashar": 16,
+        "likud": 15,
+        "beyachad": 11,
+        "otzma": 7,
+        "shas": 6,
+        "democrats": 7,
+        "utj": 6,
+        "yisrael_beiteinu": 5,
+        "joint": 5,
+        "raam": 4,
+        "rz_zehut": 5,
+        "winter": 4,
+        "hendel": 3,
+        "gantz": 0.4,
+        "haredi_public": 0.6,
+        "other": 0.8,
+        "undecided": 4
+      },
+      "percentageSampleSize": 550,
+      "percentageSampleSizeIsEstimate": false,
+      "percentageSampleSizeMethod": "actual respondent count ceiling; decided and design-effective respondent count unavailable",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-10-02",
+      "publicationDateSourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "fieldworkVerified": true,
+      "sampleSize": 602,
+      "canonicalSampleSize": 602,
+      "reportedPercentages": {
+        "yashar": 15.4,
+        "likud": 14.8,
+        "beyachad": 11.3,
+        "democrats": 8.6,
+        "yisrael_beiteinu": 7.4,
+        "otzma": 7.6,
+        "joint": 6,
+        "utj": 5.5,
+        "shas": 5.7,
+        "rz_zehut": 3.9,
+        "raam": 4.7,
+        "winter": 3.5,
+        "hendel": 3.6,
+        "gantz": 0.7,
+        "haredi_public": 0.6,
+        "noam": 0.4,
+        "other": 0.3
+      },
+      "rawReportedPercentages": {
+        "yashar": 15.4,
+        "likud": 14.8,
+        "beyachad": 11.3,
+        "democrats": 8.6,
+        "yisrael_beiteinu": 7.4,
+        "otzma": 7.6,
+        "joint": 6,
+        "utj": 5.5,
+        "shas": 5.7,
+        "rz_zehut": 3.9,
+        "raam": 4.7,
+        "winter": 3.5,
+        "hendel": 3.6,
+        "gantz": 0.7,
+        "haredi_public": 0.6,
+        "noam": 0.4,
+        "other": 0.3
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4177.pdf",
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03",
+      "sourceTablePage": 1,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4177-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4177-page-1.txt",
+      "visuallyVerified": true,
+      "undecidedPct": 6.4,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": true,
+        "note": "Complete party distribution reports total100%; undecided (if supplied) is separately listed. Conditional party-choice denominator is inferred from this table structure, not claimed as an explicit verbal definition. No second undecided adjustment."
+      },
+      "sourcePartyPercentageSum": 100.0,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [
+        {
+          "name": "צומת–בית ישראל בראשות גדי יברקן",
+          "rawPct": 0.3,
+          "mappedTo": "other"
+        }
+      ],
+      "unallocatedAggregates": [],
+      "notes": [],
+      "sourceQuotes": [
+        {
+          "page": 1,
+          "quote": "אחוזים גולמיים",
+          "role": "column heading"
+        },
+        {
+          "page": 1,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "percentageSampleSize": 563.472,
+      "percentageSampleSizeIsEstimate": true,
+      "percentageSampleSizeMethod": "actual respondents × (1 − reported undecided / 100); approximate decided count, not an independently reported count or effective size after weighting",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-10-04",
+      "publicationDateSourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "fieldworkVerified": true,
+      "sampleSize": 553,
+      "canonicalSampleSize": 553,
+      "reportedPercentages": {
+        "likud": 16.2,
+        "beyachad": 9.4,
+        "yashar": 18,
+        "democrats": 6.3,
+        "hendel": 3.4,
+        "rz_zehut": 4.6,
+        "otzma": 6.3,
+        "yisrael_beiteinu": 6.9,
+        "shas": 6.3,
+        "utj": 6.3,
+        "joint": 6.3,
+        "raam": 3.9,
+        "winter": 2.6,
+        "gantz": 1.3,
+        "haredi_public": 0.9,
+        "other": 1.3
+      },
+      "rawReportedPercentages": {
+        "likud": 16.2,
+        "beyachad": 9.4,
+        "yashar": 18,
+        "democrats": 6.3,
+        "hendel": 3.4,
+        "rz_zehut": 4.6,
+        "otzma": 6.3,
+        "yisrael_beiteinu": 6.9,
+        "shas": 6.3,
+        "utj": 6.3,
+        "joint": 6.3,
+        "raam": 3.9,
+        "winter": 2.6,
+        "gantz": 1.3,
+        "haredi_public": 0.9,
+        "other": 1.3
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4188.pdf",
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc",
+      "sourceTablePage": 2,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4188-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4188-page-2.txt",
+      "visuallyVerified": true,
+      "undecidedPct": null,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": true,
+        "note": "Complete party distribution reports total100%; undecided (if supplied) is separately listed. Conditional party-choice denominator is inferred from this table structure, not claimed as an explicit verbal definition. No second undecided adjustment."
+      },
+      "sourcePartyPercentageSum": 100.0,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [
+        {
+          "name": "אח״י בראשות הרב אברג׳ל",
+          "rawPct": 0.7,
+          "mappedTo": "other"
+        },
+        {
+          "name": "צבע שחור מגן עולם התורה",
+          "rawPct": 0.6,
+          "mappedTo": "other"
+        }
+      ],
+      "unallocatedAggregates": [],
+      "notes": [
+        "Noam absent from this report, remains missing rather than0. Other1.3 is explicit sum of two named unmapped rows."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 2,
+          "quote": "אחוזים",
+          "role": "column heading"
+        },
+        {
+          "page": 2,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "percentageSampleSize": 553,
+      "percentageSampleSizeIsEstimate": false,
+      "percentageSampleSizeMethod": "actual respondent count ceiling; decided and design-effective respondent count unavailable",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-10-05",
+      "publicationDateSourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "fieldworkVerified": true,
+      "sampleSize": 501,
+      "canonicalSampleSize": 501,
+      "reportedPercentages": {
+        "yashar": 18.7,
+        "likud": 17,
+        "beyachad": 10.5,
+        "democrats": 7.2,
+        "yisrael_beiteinu": 7.1,
+        "utj": 6.5,
+        "joint": 6.4,
+        "shas": 5.7,
+        "otzma": 5.5,
+        "rz_zehut": 4.9,
+        "raam": 4.1,
+        "hendel": 3.4,
+        "winter": 1.5
+      },
+      "rawReportedPercentages": {
+        "yashar": 18.7,
+        "likud": 17,
+        "beyachad": 10.5,
+        "democrats": 7.2,
+        "yisrael_beiteinu": 7.1,
+        "utj": 6.5,
+        "joint": 6.4,
+        "shas": 5.7,
+        "otzma": 5.5,
+        "rz_zehut": 4.9,
+        "raam": 4.1,
+        "hendel": 3.4,
+        "winter": 1.5
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey4190.pdf",
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507",
+      "sourceTablePage": 2,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey4190-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey4190-page-2.txt",
+      "visuallyVerified": true,
+      "undecidedPct": 10,
+      "denominatorTransformation": {
+        "kind": "identity",
+        "factor": 1,
+        "rawDenominatorPct": 100,
+        "inferred": true,
+        "note": "Complete party distribution reports total100%; undecided (if supplied) is separately listed. Conditional party-choice denominator is inferred from this table structure, not claimed as an explicit verbal definition. No second undecided adjustment."
+      },
+      "sourcePartyPercentageSum": 98.5,
+      "completePartyTable": false,
+      "namedUnmodelledParties": [],
+      "unallocatedAggregates": [
+        {
+          "name": "מפלגות אחרות עד1%כ״א",
+          "valuePct": 1.5,
+          "unmappedReason": "Includes separately modelled small parties; cannot put whole aggregate into residual other without double-counting."
+        }
+      ],
+      "notes": [
+        "Table13named+otheraggregate1.5 totals100%. External publisher below-partyexact shares not mixed in because denominator unverified. AlternateTo120sourceSurvey_4189 path404; Survey4190 is original reachable source."
+      ],
+      "sourceQuotes": [
+        {
+          "page": 2,
+          "quote": "אחוז גולמי",
+          "role": "column heading"
+        },
+        {
+          "page": 2,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "percentageSampleSize": 450.90000000000003,
+      "percentageSampleSizeIsEstimate": true,
+      "percentageSampleSizeMethod": "actual respondents × (1 − reported undecided / 100); approximate decided count, not an independently reported count or effective size after weighting",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-10-07",
+      "publicationDateSourceUrl": "https://www.c14.co.il/article/1728516",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "fieldworkVerified": true,
+      "sampleSize": 1079,
+      "canonicalSampleSize": 1100,
+      "reportedPercentages": {
+        "likud": 24.217961654894047,
+        "yashar": 17.55802219979818,
+        "shas": 7.971745711402623,
+        "democrats": 6.760847628657921,
+        "otzma": 6.155398587285569,
+        "beyachad": 6.256306760847629,
+        "utj": 6.357214934409686,
+        "joint": 5.348133198789101,
+        "rz_zehut": 4.641775983854692,
+        "yisrael_beiteinu": 3.9354187689202824,
+        "raam": 4.036326942482341,
+        "winter": 2.219979818365288,
+        "hendel": 1.8163471241170535,
+        "gantz": 1.311806256306761,
+        "noam": 0.9081735620585267,
+        "haredi_public": 0.4036326942482341,
+        "other": 0.10090817356205853
+      },
+      "rawReportedPercentages": {
+        "likud": 24,
+        "yashar": 17.4,
+        "shas": 7.9,
+        "democrats": 6.7,
+        "otzma": 6.1,
+        "beyachad": 6.2,
+        "utj": 6.3,
+        "joint": 5.3,
+        "rz_zehut": 4.6,
+        "yisrael_beiteinu": 3.9,
+        "raam": 4,
+        "winter": 2.2,
+        "hendel": 1.8,
+        "gantz": 1.3,
+        "noam": 0.9,
+        "haredi_public": 0.4,
+        "other": 0.1
+      },
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceFile": "artifacts/signal-noise-2026-10-09/sources/Survey_4192.pdf",
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72",
+      "sourceTablePage": 2,
+      "sourceTableImage": "artifacts/signal-noise-2026-10-09/sources/Survey_4192-table.png",
+      "sourceTableText": "artifacts/signal-noise-2026-10-09/sources/Survey_4192-page-2.txt",
+      "visuallyVerified": true,
+      "undecidedPct": 0.9,
+      "denominatorTransformation": {
+        "kind": "remove-explicit-same-table-undecided-once",
+        "factor": 1.0090817356205852,
+        "rawDenominatorPct": 99.1,
+        "inferred": true,
+        "note": "Raw party table and undecided share use one complete response distribution; transform each party by 100/(100-undecided). Small rounding disagreement is preserved, not silently forced into other."
+      },
+      "sourcePartyPercentageSum": 99.1,
+      "completePartyTable": true,
+      "namedUnmodelledParties": [
+        {
+          "name": "אח״י–חוזרים לשורשים",
+          "rawPct": 0.1,
+          "mappedTo": "other"
+        }
+      ],
+      "unallocatedAggregates": [],
+      "notes": [],
+      "sourceQuotes": [
+        {
+          "page": 2,
+          "quote": "אחוז גולמי",
+          "role": "column heading"
+        },
+        {
+          "page": 2,
+          "quote": "100%",
+          "role": "table total, typography varies"
+        }
+      ],
+      "sourceConflicts": [
+        {
+          "field": "sampleSize",
+          "canonical": 1100,
+          "originalReportActualRespondents": 1079,
+          "resolution": "Use original actual respondents in this additional model only; canonical poll remains untouched."
+        }
+      ],
+      "percentageSampleSize": 1069.289,
+      "percentageSampleSizeIsEstimate": true,
+      "percentageSampleSizeMethod": "actual respondents × (1 − reported undecided / 100); approximate decided count, not an independently reported count or effective size after weighting",
+      "rawReportedPercentagesMeaning": "Values as reported in the selected original column before our denominator conversion; label does not establish unweighted respondent counts.",
+      "completePublishedPartyTable": true,
+      "completeBallotPartyCoverage": false
+    }
+  ],
+  "rows": [
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "yashar",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 19.4,
+      "reportedPct": 19.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "likud",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 16.3,
+      "reportedPct": 16.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "beyachad",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 9.2,
+      "reportedPct": 9.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "democrats",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 8.5,
+      "reportedPct": 8.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 7,
+      "reportedPct": 7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "utj",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 6.3,
+      "reportedPct": 6.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "shas",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 5.4,
+      "reportedPct": 5.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "joint",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 5.3,
+      "reportedPct": 5.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "otzma",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 4.6,
+      "reportedPct": 4.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 4.4,
+      "reportedPct": 4.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "winter",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 3.9,
+      "reportedPct": 3.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "raam",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 3.3,
+      "reportedPct": 3.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "hendel",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 2.9,
+      "reportedPct": 2.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "gantz",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 1.4,
+      "reportedPct": 1.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 1,
+      "reportedPct": 1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "israel_first",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 0.3,
+      "reportedPct": 0.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "noam",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 0.2,
+      "reportedPct": 0.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "partyId": "other",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "valuePct": 0.6,
+      "reportedPct": 0.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "sourceSha256": "c7e70e5205283b72036525fe71e86e4376ac686ce0b6debd43e2bad5776570b8"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "yashar",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 18.8,
+      "reportedPct": 18.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "likud",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 13.9,
+      "reportedPct": 13.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "beyachad",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 11.7,
+      "reportedPct": 11.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "democrats",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 9.4,
+      "reportedPct": 9.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 7,
+      "reportedPct": 7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "otzma",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 6.2,
+      "reportedPct": 6.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "utj",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 5,
+      "reportedPct": 5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "shas",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 5.2,
+      "reportedPct": 5.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "joint",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 5.4,
+      "reportedPct": 5.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "raam",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 4.5,
+      "reportedPct": 4.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 4.3,
+      "reportedPct": 4.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "winter",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 3.4,
+      "reportedPct": 3.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "hendel",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 3,
+      "reportedPct": 3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "gantz",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 1.1,
+      "reportedPct": 1.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "noam",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 0.7,
+      "reportedPct": 0.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "valuePct": 0.4,
+      "reportedPct": 0.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "sourceSha256": "899231779acb39f5083cbf8b21193dafa2a5fa4c57ec54dfe930f5760ec837a6"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "likud",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 24.923076923076923,
+      "reportedPct": 24.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "yashar",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 17.64102564102564,
+      "reportedPct": 17.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "shas",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 8.82051282051282,
+      "reportedPct": 8.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "democrats",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 7.384615384615384,
+      "reportedPct": 7.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "beyachad",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 5.23076923076923,
+      "reportedPct": 5.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 5.6410256410256405,
+      "reportedPct": 5.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "utj",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 5.23076923076923,
+      "reportedPct": 5.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "joint",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 5.538461538461538,
+      "reportedPct": 5.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 5.6410256410256405,
+      "reportedPct": 5.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "otzma",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 4.615384615384615,
+      "reportedPct": 4.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "raam",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 4.102564102564102,
+      "reportedPct": 4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "hendel",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 2.2564102564102564,
+      "reportedPct": 2.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "winter",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 1.9487179487179485,
+      "reportedPct": 1.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 0.5128205128205128,
+      "reportedPct": 0.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "partyId": "gantz",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "valuePct": 0.30769230769230765,
+      "reportedPct": 0.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election87/he/Survey_4171.pdf"
+      ],
+      "sourceSha256": "97fc91aa21f45ca159a0d8bfcf012949e794a0ac6649d47d56c66575245d6d2a"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "yashar",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 15.9,
+      "reportedPct": 15.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "likud",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 14.4,
+      "reportedPct": 14.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "beyachad",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 11,
+      "reportedPct": 11,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "democrats",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 9.3,
+      "reportedPct": 9.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 7.7,
+      "reportedPct": 7.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "otzma",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 7.2,
+      "reportedPct": 7.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "joint",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 5.4,
+      "reportedPct": 5.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "utj",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 5,
+      "reportedPct": 5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "shas",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 5,
+      "reportedPct": 5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 4.8,
+      "reportedPct": 4.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "raam",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 4.4,
+      "reportedPct": 4.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "winter",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 3.4,
+      "reportedPct": 3.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "hendel",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 3.4,
+      "reportedPct": 3.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "gantz",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 1.3,
+      "reportedPct": 1.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 0.9,
+      "reportedPct": 0.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "noam",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 0.7,
+      "reportedPct": 0.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "partyId": "other",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "valuePct": 0.2,
+      "reportedPct": 0.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election83/he/Survey_4164.pdf"
+      ],
+      "sourceSha256": "5cf6cd50ed7d9e9ace062290ddb94596e2458ce159b99aedeebf00434f7c98a7"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "likud",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 16.2,
+      "reportedPct": 16.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "beyachad",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 9,
+      "reportedPct": 9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "yashar",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 18.6,
+      "reportedPct": 18.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "democrats",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 7.1,
+      "reportedPct": 7.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "hendel",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 3.6,
+      "reportedPct": 3.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 5.1,
+      "reportedPct": 5.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "otzma",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 5.8,
+      "reportedPct": 5.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "winter",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 3.5,
+      "reportedPct": 3.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 7.1,
+      "reportedPct": 7.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "shas",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 5.5,
+      "reportedPct": 5.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "utj",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 5.7,
+      "reportedPct": 5.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "joint",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 5.8,
+      "reportedPct": 5.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "raam",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 4.4,
+      "reportedPct": 4.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "gantz",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 0.7,
+      "reportedPct": 0.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 0.9,
+      "reportedPct": 0.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "noam",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 0.4,
+      "reportedPct": 0.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "partyId": "other",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "valuePct": 0.6,
+      "reportedPct": 0.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election93/he/Survey_4179.pdf"
+      ],
+      "sourceSha256": "75a36ed26a153bd94b5b34db160827076a34f40611636d2407da8ab0bfc2c65b"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "likud",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 24.79338842975207,
+      "reportedPct": 24,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "yashar",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 16.838842975206614,
+      "reportedPct": 16.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "shas",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 7.747933884297521,
+      "reportedPct": 7.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "beyachad",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 7.1280991735537205,
+      "reportedPct": 6.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "democrats",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 7.334710743801653,
+      "reportedPct": 7.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "utj",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 6.611570247933885,
+      "reportedPct": 6.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 5.475206611570249,
+      "reportedPct": 5.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "otzma",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 5.268595041322314,
+      "reportedPct": 5.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "joint",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 5.371900826446282,
+      "reportedPct": 5.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 4.958677685950414,
+      "reportedPct": 4.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "raam",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 3.925619834710744,
+      "reportedPct": 3.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "hendel",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 2.169421487603306,
+      "reportedPct": 2.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "winter",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 1.6528925619834713,
+      "reportedPct": 1.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "gantz",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 0.6198347107438017,
+      "reportedPct": 0.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 0.20661157024793392,
+      "reportedPct": 0.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "partyId": "noam",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "valuePct": 0.20661157024793392,
+      "reportedPct": 0.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election89/he/Survey_4175.pdf"
+      ],
+      "sourceSha256": "0d1219bf1add4f53b1de45292c0b9e66a4caa9089656aeac3042fb07e5b27fd4"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "yashar",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 17,
+      "reportedPct": 17,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "likud",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 16,
+      "reportedPct": 16,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "beyachad",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 12,
+      "reportedPct": 12,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "otzma",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 7,
+      "reportedPct": 7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "shas",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 6,
+      "reportedPct": 6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "democrats",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 8,
+      "reportedPct": 8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "utj",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 6,
+      "reportedPct": 6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 5,
+      "reportedPct": 5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "joint",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 6,
+      "reportedPct": 6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "raam",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 4,
+      "reportedPct": 4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 5,
+      "reportedPct": 5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "winter",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 4,
+      "reportedPct": 4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "hendel",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 3.3,
+      "reportedPct": 3.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "gantz",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 0.4,
+      "reportedPct": 0.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "valuePct": 0.6,
+      "reportedPct": 0.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "sourceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "yashar",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 15.4,
+      "reportedPct": 15.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "likud",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 14.8,
+      "reportedPct": 14.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "beyachad",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 11.3,
+      "reportedPct": 11.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "democrats",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 8.6,
+      "reportedPct": 8.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 7.4,
+      "reportedPct": 7.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "otzma",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 7.6,
+      "reportedPct": 7.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "joint",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 6,
+      "reportedPct": 6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "utj",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 5.5,
+      "reportedPct": 5.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "shas",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 5.7,
+      "reportedPct": 5.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 3.9,
+      "reportedPct": 3.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "raam",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 4.7,
+      "reportedPct": 4.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "winter",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 3.5,
+      "reportedPct": 3.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "hendel",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 3.6,
+      "reportedPct": 3.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "gantz",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 0.7,
+      "reportedPct": 0.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 0.6,
+      "reportedPct": 0.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "noam",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 0.4,
+      "reportedPct": 0.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "partyId": "other",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "valuePct": 0.3,
+      "reportedPct": 0.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election90/he/Survey_4177.pdf"
+      ],
+      "sourceSha256": "bfe3df2fb71ae9ac92fa17271c2f411e90d628db7abe732c3a7c22c54ae99f03"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "likud",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 16.2,
+      "reportedPct": 16.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "beyachad",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 9.4,
+      "reportedPct": 9.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "yashar",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 18,
+      "reportedPct": 18,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "democrats",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 6.3,
+      "reportedPct": 6.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "hendel",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 3.4,
+      "reportedPct": 3.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 4.6,
+      "reportedPct": 4.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "otzma",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 6.3,
+      "reportedPct": 6.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 6.9,
+      "reportedPct": 6.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "shas",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 6.3,
+      "reportedPct": 6.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "utj",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 6.3,
+      "reportedPct": 6.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "joint",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 6.3,
+      "reportedPct": 6.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "raam",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 3.9,
+      "reportedPct": 3.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "winter",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 2.6,
+      "reportedPct": 2.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "gantz",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 1.3,
+      "reportedPct": 1.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 0.9,
+      "reportedPct": 0.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "partyId": "other",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "valuePct": 1.3,
+      "reportedPct": 1.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "sourceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "yashar",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 18.7,
+      "reportedPct": 18.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "likud",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 17,
+      "reportedPct": 17,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "beyachad",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 10.5,
+      "reportedPct": 10.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "democrats",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 7.2,
+      "reportedPct": 7.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 7.1,
+      "reportedPct": 7.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "utj",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 6.5,
+      "reportedPct": 6.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "joint",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 6.4,
+      "reportedPct": 6.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "shas",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 5.7,
+      "reportedPct": 5.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "otzma",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 5.5,
+      "reportedPct": 5.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 4.9,
+      "reportedPct": 4.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "raam",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 4.1,
+      "reportedPct": 4.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "hendel",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 3.4,
+      "reportedPct": 3.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "partyId": "winter",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "valuePct": 1.5,
+      "reportedPct": 1.5,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election99/he/Survey4190.pdf"
+      ],
+      "sourceSha256": "e2858b27feda8cfe55101b5fc92ea92491f9dfe719d1a7fb8451b50242ded507"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "likud",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 24.217961654894047,
+      "reportedPct": 24,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "yashar",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 17.55802219979818,
+      "reportedPct": 17.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "shas",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 7.971745711402623,
+      "reportedPct": 7.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "democrats",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 6.760847628657921,
+      "reportedPct": 6.7,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "otzma",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 6.155398587285569,
+      "reportedPct": 6.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "beyachad",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 6.256306760847629,
+      "reportedPct": 6.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "utj",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 6.357214934409686,
+      "reportedPct": 6.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "joint",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 5.348133198789101,
+      "reportedPct": 5.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "rz_zehut",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 4.641775983854692,
+      "reportedPct": 4.6,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "yisrael_beiteinu",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 3.9354187689202824,
+      "reportedPct": 3.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "raam",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 4.036326942482341,
+      "reportedPct": 4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "winter",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 2.219979818365288,
+      "reportedPct": 2.2,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "hendel",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 1.8163471241170535,
+      "reportedPct": 1.8,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "gantz",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 1.311806256306761,
+      "reportedPct": 1.3,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "noam",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 0.9081735620585267,
+      "reportedPct": 0.9,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "haredi_public",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 0.4036326942482341,
+      "reportedPct": 0.4,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "partyId": "other",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "valuePct": 0.10090817356205853,
+      "reportedPct": 0.1,
+      "percentageBasis": "decided_valid_votes",
+      "sourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election100/he/Survey_4192.pdf"
+      ],
+      "sourceSha256": "ea111c27b82bb46109460d7c0a7a1ef8b650a26d398bc4a0c18dc357bd2f3b72"
+    }
+  ],
+  "coverage": {
+    "pollCount": 11,
+    "coordinateCount": 177,
+    "instituteCount": 5,
+    "byInstitute": {
+      "midgam_geva": 2,
+      "lazar": 3,
+      "next_data": 3,
+      "kantar": 2,
+      "maagar_mochot": 1
+    },
+    "partyIds": [
+      "beyachad",
+      "democrats",
+      "gantz",
+      "haredi_public",
+      "hendel",
+      "israel_first",
+      "joint",
+      "likud",
+      "noam",
+      "other",
+      "otzma",
+      "raam",
+      "rz_zehut",
+      "shas",
+      "utj",
+      "winter",
+      "yashar",
+      "yisrael_beiteinu"
+    ],
+    "perPartyCount": {
+      "yashar": 11,
+      "likud": 11,
+      "beyachad": 11,
+      "democrats": 11,
+      "yisrael_beiteinu": 11,
+      "utj": 11,
+      "shas": 11,
+      "joint": 11,
+      "otzma": 11,
+      "rz_zehut": 11,
+      "winter": 11,
+      "raam": 11,
+      "hendel": 11,
+      "gantz": 10,
+      "haredi_public": 10,
+      "israel_first": 1,
+      "noam": 7,
+      "other": 6
+    },
+    "inferredDenominatorPollCount": 10,
+    "explicitDecidedColumnPollCount": 1,
+    "rawUndecidedNormalisedPollCount": 3,
+    "strictCohortPollCount": 39,
+    "inputFieldworkStart": "2026-09-09",
+    "inputFieldworkEnd": "2026-10-07",
+    "dataPublicationEnd": "2026-10-07"
+  },
+  "notes": [
+    "Additional source-enriched input only; canonical114poll history and active8poll panel unchanged.",
+    "Reported percentages are source data; completeparty100 table implies conditionalpartychoice but raw counts and design weights remain unavailable.",
+    "Fiveinstitutes in rich vote-shareinput; 3institutes with only seats or incomplete unknownbasis shares not silently reconstructed into source data.",
+    "Missing means missing; no absent party injected as0. Point estimates for17parties all have sourcecoverage; residual other is explicitly mapped sumofuntrackednamedparties/remainingother from a complete table.",
+    "Existingpoliticalpartydefinitions andlists after8Sepused. No thirdpartyforecast values copied."
+  ],
+  "discoveryCredit": {
+    "name": "עד120 / אריאל דניאלי",
+    "url": "https://twonetwenty.com/he/evidence",
+    "role": "Official-PDF discovery leads only, not numeric authority."
+  },
+  "excludedReports": [
+    {
+      "file": "Survey_4165.pdf",
+      "reason": "DirectPolls24Sep percentages do not form complete distribution (remaining individually<1); no explicit undecided/whole denominator. Saved raw evidence only."
+    },
+    {
+      "file": "Survey_4178.pdf",
+      "reason": "DirectPolls1Oct same incomplete denominator. Published<1bounds retained as source evidence, not exact0 or pointobservations."
+    },
+    {
+      "file": "Survey_4189.html",
+      "reason": "404 duplicate N12 lead; Survey4190 used once instead."
+    }
+  ],
+  "canonicalDataSha256": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a"
+}

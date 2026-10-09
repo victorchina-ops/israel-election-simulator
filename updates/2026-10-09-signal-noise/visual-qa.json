@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "review": "human-equivalent visual inspection by assistant via view_image",
+  "imageType": "original editorial illustration",
+  "generatedWith": "built-in imagegen",
+  "checked": [
+    "Hebrew headline and all key labels",
+    "credit and data date",
+    "clear illustrative uncertainty ribbon",
+    "no numerical result or significance assertion",
+    "explicit experimental/adaptation limitation"
+  ],
+  "sha256": "f4191bb6fe2eda95b13be76aa275ac5cc38b673e7684908b32598de2cf833769",
+  "tweetWeightedCharacters": 249,
+  "posted": false
+}

@@ -42,3 +42,5 @@
 /sources/2026-10-09-trends/* -text
 /sources/2026-10-09-comparison/* -text
 /updates/2026-10-09/* -text
+/sources/2026-10-09-signal-noise/** -text
+/updates/2026-10-09-signal-noise/* -text
