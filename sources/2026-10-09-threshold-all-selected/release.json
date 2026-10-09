@@ -1,0 +1,164 @@
+{
+  "uiUpdate": "all-selected-threshold-failure",
+  "siteVersion": 3,
+  "newPollCount": 0,
+  "appId": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+  "snapshotSha256": "82f38d65e55f6b19e027ac8b3a797bc9dce551995052641b2f57f631200ce1b4",
+  "compiledHtmlSha256": "29b6b5d331e4be57e3d7352e3bea599eee97ad1b1cd1fe8d4b29fcb3d99c447a",
+  "publishedHtmlSha256": "bd32c1bd6e350874fa256f23f924bf8b7f97012aaced23d24ac366cb9d093e45",
+  "audit": {
+    "status": "PASS",
+    "event": "all selected parties fail in the same simulation trial",
+    "dataFilesUnchanged": 573,
+    "priorEvidenceFilesUnchanged": 790,
+    "queryRowCollectionsUnchanged": 21,
+    "protectedRuntimeUnchanged": true,
+    "independentReview": "PASS, no findings",
+    "jointMathTestsPassed": 9,
+    "browserChecks": [
+      "Two, three and four selections always require all selected parties to fail; count, label, CSV and table agree; fewer than two has no probability",
+      "Desktop and mobile controls keep the all-selected condition without horizontal overflow"
+    ],
+    "pair": {
+      "status": "ready",
+      "count": 3129,
+      "total": 10000,
+      "probability": 0.3129,
+      "ci": [
+        0.3038854634195617,
+        0.3220582287707454
+      ],
+      "distribution": [
+        {
+          "failedCount": 0,
+          "count": 1239,
+          "probability": 0.1239
+        },
+        {
+          "failedCount": 1,
+          "count": 5632,
+          "probability": 0.5632
+        },
+        {
+          "failedCount": 2,
+          "count": 3129,
+          "probability": 0.3129
+        }
+      ],
+      "selectedIds": [
+        "winter",
+        "hendel"
+      ]
+    },
+    "threeSelected": {
+      "status": "ready",
+      "count": 67,
+      "total": 10000,
+      "probability": 0.0067,
+      "ci": [
+        0.005279633317542014,
+        0.008499219474967495
+      ],
+      "distribution": [
+        {
+          "failedCount": 0,
+          "count": 1205,
+          "probability": 0.1205
+        },
+        {
+          "failedCount": 1,
+          "count": 5506,
+          "probability": 0.5506
+        },
+        {
+          "failedCount": 2,
+          "count": 3222,
+          "probability": 0.3222
+        },
+        {
+          "failedCount": 3,
+          "count": 67,
+          "probability": 0.0067
+        }
+      ],
+      "selectedIds": [
+        "winter",
+        "hendel",
+        "raam"
+      ]
+    },
+    "fourSelected": {
+      "status": "ready",
+      "count": 0,
+      "total": 10000,
+      "probability": 0,
+      "ci": [
+        0,
+        0.00038399837067657454
+      ],
+      "distribution": [
+        {
+          "failedCount": 0,
+          "count": 1202,
+          "probability": 0.1202
+        },
+        {
+          "failedCount": 1,
+          "count": 5502,
+          "probability": 0.5502
+        },
+        {
+          "failedCount": 2,
+          "count": 3228,
+          "probability": 0.3228
+        },
+        {
+          "failedCount": 3,
+          "count": 68,
+          "probability": 0.0068
+        },
+        {
+          "failedCount": 4,
+          "count": 0,
+          "probability": 0
+        }
+      ],
+      "selectedIds": [
+        "winter",
+        "hendel",
+        "raam",
+        "rz_zehut"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "audit.json",
+      "sha256": "3cf0bc73cb6994a5aa19cf5a2e4030f66eea4b4cd8d8466333fd7041a58123f6"
+    },
+    {
+      "path": "browser-qa.json",
+      "sha256": "45d06eb54cbdd19036b21a67cd90d5eea9a60340da65af5947ad235d3a07c608"
+    },
+    {
+      "path": "implementation/joint-threshold-panel.css",
+      "sha256": "e4cb70b9e422ced7ed04942e3fbd6f013317c9bef9a6ec0542bb2f8cd1c80cb8"
+    },
+    {
+      "path": "implementation/JointThresholdPanel.jsx",
+      "sha256": "ad56396a49f6f6619a96879b0d96ccf452c5b7d93237ce7f60f22b0bb0ec9a18"
+    },
+    {
+      "path": "reproduction/browser-threshold-all-selected-qa.mjs",
+      "sha256": "c8869b159320cc38a3f245422845494a185662cafdff5d9fa6c3b500fbc4d4e3"
+    },
+    {
+      "path": "reproduction/package-threshold-all-selected-2026-10-09.py",
+      "sha256": "b53bd166db4bf8481dfc4056cfc8ca08ea29dcecdf072697740c711badbc53c5"
+    },
+    {
+      "path": "targeted-tests.txt",
+      "sha256": "11eb3801e8961c146bdd3016b934ba5afc4f2318bf840696fbda335532b16a9e"
+    }
+  ]
+}

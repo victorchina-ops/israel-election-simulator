@@ -1,0 +1,125 @@
+{
+  "status": "PASS",
+  "event": "all selected parties fail in the same simulation trial",
+  "dataFilesUnchanged": 573,
+  "priorEvidenceFilesUnchanged": 790,
+  "queryRowCollectionsUnchanged": 21,
+  "protectedRuntimeUnchanged": true,
+  "independentReview": "PASS, no findings",
+  "jointMathTestsPassed": 9,
+  "browserChecks": [
+    "Two, three and four selections always require all selected parties to fail; count, label, CSV and table agree; fewer than two has no probability",
+    "Desktop and mobile controls keep the all-selected condition without horizontal overflow"
+  ],
+  "pair": {
+    "status": "ready",
+    "count": 3129,
+    "total": 10000,
+    "probability": 0.3129,
+    "ci": [
+      0.3038854634195617,
+      0.3220582287707454
+    ],
+    "distribution": [
+      {
+        "failedCount": 0,
+        "count": 1239,
+        "probability": 0.1239
+      },
+      {
+        "failedCount": 1,
+        "count": 5632,
+        "probability": 0.5632
+      },
+      {
+        "failedCount": 2,
+        "count": 3129,
+        "probability": 0.3129
+      }
+    ],
+    "selectedIds": [
+      "winter",
+      "hendel"
+    ]
+  },
+  "threeSelected": {
+    "status": "ready",
+    "count": 67,
+    "total": 10000,
+    "probability": 0.0067,
+    "ci": [
+      0.005279633317542014,
+      0.008499219474967495
+    ],
+    "distribution": [
+      {
+        "failedCount": 0,
+        "count": 1205,
+        "probability": 0.1205
+      },
+      {
+        "failedCount": 1,
+        "count": 5506,
+        "probability": 0.5506
+      },
+      {
+        "failedCount": 2,
+        "count": 3222,
+        "probability": 0.3222
+      },
+      {
+        "failedCount": 3,
+        "count": 67,
+        "probability": 0.0067
+      }
+    ],
+    "selectedIds": [
+      "winter",
+      "hendel",
+      "raam"
+    ]
+  },
+  "fourSelected": {
+    "status": "ready",
+    "count": 0,
+    "total": 10000,
+    "probability": 0,
+    "ci": [
+      0,
+      0.00038399837067657454
+    ],
+    "distribution": [
+      {
+        "failedCount": 0,
+        "count": 1202,
+        "probability": 0.1202
+      },
+      {
+        "failedCount": 1,
+        "count": 5502,
+        "probability": 0.5502
+      },
+      {
+        "failedCount": 2,
+        "count": 3228,
+        "probability": 0.3228
+      },
+      {
+        "failedCount": 3,
+        "count": 68,
+        "probability": 0.0068
+      },
+      {
+        "failedCount": 4,
+        "count": 0,
+        "probability": 0
+      }
+    ],
+    "selectedIds": [
+      "winter",
+      "hendel",
+      "raam",
+      "rz_zehut"
+    ]
+  }
+}

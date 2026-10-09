@@ -1,0 +1,17 @@
+✔ perfect positive dependence preserves a joint 50% failure instead of a product of 25% (1.6923ms)
+✔ perfect negative dependence yields no observed joint failure with a nonzero uncertainty bound (0.1538ms)
+✔ two-or-more and all-selected events remain distinct for three parties (0.4331ms)
+✔ selection requires at least two distinct known ballot parties (0.22ms)
+✔ missing separate support stays unavailable while reconstruction and explicit scenario zeros remain modeled (0.1875ms)
+✔ one observed election does not become an estimated probability (0.1151ms)
+✔ complete histogram validation rejects partial, malformed, and incompatible result data (0.6941ms)
+✔ returned analysis does not mutate saved selections or reviewed simulation data (0.181ms)
+✔ every simulated joint marginal reconciles and accounting preserves frozen stochastic outputs (136.55ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 269.4422
