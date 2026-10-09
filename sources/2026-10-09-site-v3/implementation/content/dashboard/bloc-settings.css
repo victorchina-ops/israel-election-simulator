@@ -1,0 +1,75 @@
+.bloc-settings{min-width:0}
+.bloc-settings__intro{display:flex;align-items:flex-start;justify-content:space-between;gap:16px 24px;flex-wrap:wrap}
+.bloc-settings__intro>p{margin:0;max-width:820px;font-size:16px;line-height:1.65}
+.bloc-settings__summary{display:flex;align-items:center;flex-wrap:wrap;gap:8px 14px;font-size:15px;line-height:1.55;color:#87909d}
+.bloc-settings__summary span{display:inline-flex;align-items:baseline;gap:5px;padding:5px 9px;border-radius:999px;background:color-mix(in srgb,currentColor 9%,transparent)}
+.bloc-settings__summary [data-bloc-count="a"]{color:#dc454c}
+.bloc-settings__summary [data-bloc-count="b"]{color:#2378cf}
+.bloc-settings__summary [data-bloc-count="other"]{color:#737e8c}
+.bloc-settings__summary strong{font-size:18px;font-weight:800;font-variant-numeric:tabular-nums}
+.bloc-settings__summary .bloc-settings__exclusive{background:transparent;color:var(--secondary,#68758a);font-size:14px}
+.bloc-settings__quick{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:18px 0 14px;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:color-mix(in srgb,var(--background) 76%,transparent)}
+.bloc-settings__quick>span{font-weight:700;font-size:15px}
+.bloc-settings .bloc-settings__quick-button{min-height:40px;padding:8px 12px;font-size:15px;font-weight:650;background:var(--card,var(--background));border-color:color-mix(in srgb,var(--text) 22%,var(--border))}
+.bloc-settings .bloc-settings__quick-button:hover{border-color:var(--accent,#2378cf)}
+.bloc-settings__editor{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-areas:"opposition neutral coalition";direction:ltr;gap:14px;align-items:start}
+.bloc-settings__column{direction:rtl;min-width:0;border:1px solid var(--border);border-top:5px solid #87909d;border-radius:14px;padding:12px;background:color-mix(in srgb,#87909d 6%,var(--card,var(--background)))}
+.bloc-settings__column[data-bloc-column="a"]{grid-area:coalition;border-top-color:#dc454c;background:color-mix(in srgb,#dc454c 7%,var(--card,var(--background)))}
+.bloc-settings__column[data-bloc-column="b"]{grid-area:opposition;border-top-color:#2378cf;background:color-mix(in srgb,#2378cf 7%,var(--card,var(--background)))}
+.bloc-settings__column[data-bloc-column="other"]{grid-area:neutral}
+.bloc-settings__column>header{min-height:66px;margin:-2px 0 12px;padding:2px 2px 11px;border-bottom:1px solid var(--border)}
+.bloc-settings__column>header h3{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:0;font-size:20px;line-height:1.4;color:#737e8c}
+.bloc-settings__column[data-bloc-column="a"]>header h3{color:#dc454c}
+.bloc-settings__column[data-bloc-column="b"]>header h3{color:#2378cf}
+.bloc-settings__column>header h3 strong{display:grid;place-items:center;min-width:32px;height:32px;border-radius:999px;background:color-mix(in srgb,currentColor 12%,transparent);font-size:16px;font-variant-numeric:tabular-nums}
+.bloc-settings__column>header p{margin:3px 0 0;font-size:14px;line-height:1.45;color:var(--secondary,#68758a)}
+.bloc-settings__party-list{display:flex;flex-direction:column;gap:10px;min-width:0}
+.bloc-settings__party{display:flex;flex-direction:column;align-items:stretch;gap:9px;min-width:0;padding:11px 12px;border:1px solid var(--border);border-inline-start:5px solid #87909d;border-radius:11px;background:color-mix(in srgb,#87909d 7%,var(--card,var(--background)));transition:border-color .16s ease,background .16s ease,transform .16s ease}
+.bloc-settings__party[data-assigned-bloc="a"]{border-inline-start-color:#dc454c;background:color-mix(in srgb,#dc454c 8%,var(--card,var(--background)))}
+.bloc-settings__party[data-assigned-bloc="b"]{border-inline-start-color:#2378cf;background:color-mix(in srgb,#2378cf 8%,var(--card,var(--background)))}
+.bloc-settings__party:focus-within{outline:2px solid var(--accent,#2378cf);outline-offset:2px}
+.bloc-settings__party .party-name{font-size:16px;min-height:34px}
+.bloc-settings__party .party-logo{width:86px;flex-basis:86px;height:34px}
+.bloc-settings__segmented{direction:rtl}
+.bloc-settings__party .data-segmented-control .data-segmented-control-button{min-height:44px!important;padding-inline:7px;font-size:14px;font-weight:700;border-color:color-mix(in srgb,var(--text) 18%,var(--border))}
+.bloc-settings__party .data-segmented-control .data-segmented-control-button[aria-pressed="true"]{color:white;box-shadow:inset 0 0 0 1px #ffffff40}
+.bloc-settings__party .data-segmented-control .data-segmented-control-button:nth-child(1)[aria-pressed="true"]{background:#dc454c}
+.bloc-settings__party .data-segmented-control .data-segmented-control-button:nth-child(2)[aria-pressed="true"]{background:#2378cf}
+.bloc-settings__party .data-segmented-control .data-segmented-control-button:nth-child(3)[aria-pressed="true"]{background:#737e8c}
+.bloc-settings__empty{margin:0;padding:18px 10px;text-align:center;border:1px dashed var(--border);border-radius:10px;color:var(--secondary,#68758a);font-size:15px}
+.bloc-settings__caption{font-size:15px;line-height:1.7;color:var(--secondary,#68758a);margin:16px 0 0}
+.election-app .scenario-controls[data-open="blocs"] .scenario-controls__panel{max-height:none;overflow:visible;scrollbar-gutter:auto}
+@media(max-width:1050px){
+ .bloc-settings__editor{grid-template-columns:1fr;grid-template-areas:"coalition" "neutral" "opposition";gap:12px}
+ .bloc-settings__column>header{min-height:0}
+ .bloc-settings__party-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:680px){
+ .bloc-settings__intro{gap:12px}.bloc-settings__summary{gap:6px 8px}.bloc-settings__summary .bloc-settings__exclusive{flex-basis:100%;padding-inline:0}
+ .bloc-settings__quick{align-items:stretch}.bloc-settings__quick>span{flex-basis:100%}.bloc-settings .bloc-settings__quick-button{flex:1 1 150px}
+ .bloc-settings__party-list{display:flex}.bloc-settings__party{padding:11px}.bloc-settings__party .party-logo{width:76px;flex-basis:76px;height:30px}
+ .bloc-settings__party .data-segmented-control .data-segmented-control-button{min-height:46px!important;font-size:14px;padding-inline:5px}
+}
+@media(prefers-reduced-motion:reduce){.bloc-settings__party{transition:none}}
+
+/* A compact global settings card is a shortcut to the visible results board. */
+.election-app .bloc-settings--compact .bloc-settings__intro{gap:8px}
+.election-app .bloc-settings--compact .bloc-settings__intro>p{font-size:14px}
+.election-app .bloc-settings--compact .bloc-settings__summary{gap:5px;font-size:12px}
+.election-app .bloc-settings--compact .bloc-settings__summary span{padding:4px 7px}
+.election-app .bloc-settings--compact .bloc-settings__summary strong{font-size:15px}
+.election-app .bloc-settings--compact .bloc-settings__exclusive{font-size:12px;padding:0;flex-basis:100%}
+.election-app .bloc-settings--compact .bloc-settings__quick{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px;padding:0;background:transparent;border:0;margin:12px 0}
+.election-app .bloc-settings--compact .bloc-settings__quick>span{grid-column:1/-1;font-size:13px}
+.election-app .bloc-settings--compact .bloc-settings__quick-button{white-space:normal;padding:7px;min-height:44px;font-size:12px}
+.election-app .bloc-settings--compact .bloc-settings__caption{font-size:12px;margin-top:10px}
+.election-app .bloc-settings--compact .bloc-settings__full-editor>summary{font-size:14px;padding:9px 0;cursor:pointer;color:var(--accent)}
+.election-app .bloc-settings--compact .bloc-settings__editor{grid-template-columns:1fr;grid-template-areas:'coalition' 'neutral' 'opposition';gap:10px}
+.election-app .bloc-settings--compact .bloc-settings__column{padding:8px}
+.election-app .bloc-settings--compact .bloc-settings__column>header{min-height:0}
+.election-app .bloc-settings--compact .bloc-settings__column>header h3{font-size:16px}
+.election-app .bloc-settings--compact .bloc-settings__party-list{display:flex;flex-direction:column}
+.election-app .bloc-settings--compact .bloc-settings__party{padding:8px}
+.election-app .bloc-settings--compact .bloc-settings__party .party-name{font-size:13px;flex-wrap:wrap}
+.election-app .bloc-settings--compact .bloc-settings__party .party-logo{width:65px;flex-basis:65px;height:31px}
+.election-app .bloc-settings--compact .bloc-settings__party .data-segmented-control .data-segmented-control-button{font-size:12px;padding-inline:4px}

@@ -1,0 +1,177 @@
+{
+  "status": "PASS",
+  "siteVersion": 3,
+  "newPollCount": 0,
+  "appId": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+  "previousPublicHead": "e5d00ffa5fcf7bd8ac43d37090908d4215ef9bfb",
+  "exactNumericalCollections": [
+    "iterations",
+    "parties",
+    "blocHist",
+    "blocStats",
+    "reportingGroups",
+    "coalitionHist",
+    "coalitionStats",
+    "counts",
+    "probabilities",
+    "probabilityCI",
+    "meanBallots",
+    "meanValid",
+    "meanTurnout",
+    "worlds",
+    "nEffective",
+    "methodWeights",
+    "pointProbabilities",
+    "expectedVotesRounded",
+    "turnout",
+    "checks"
+  ],
+  "iterations": 10000,
+  "unchangedSourceFiles": [
+    {
+      "path": "data/calibration-2022-dependence.json",
+      "sha256": "5384b5d0a081cb30bae840a27db0a062ed400ba6e7b13435336a92af8d70fb65"
+    },
+    {
+      "path": "data/calibration.json",
+      "sha256": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb"
+    },
+    {
+      "path": "data/current-polls.json",
+      "sha256": "1dc2da8939c2bc0dfebbdcebce0b8fb10a9f88df3c076258e90006e009975945"
+    },
+    {
+      "path": "data/historical-results.json",
+      "sha256": "fb7f2edf79425c7d00de8d94581a65a56b87fb5440dca528ba9739b5160aafb3"
+    },
+    {
+      "path": "data/parties.json",
+      "sha256": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e"
+    },
+    {
+      "path": "data/party-logos.json",
+      "sha256": "eae4b4b5537ea40eaf6f5c8beaa9c78434d4df4dde660969d3dcb0a99831e8e8"
+    },
+    {
+      "path": "data/poll-correlation.json",
+      "sha256": "7405bf9d8316edde65f32bb89536532445fe865dcc2b0d6ab4b37ffd629c3884"
+    },
+    {
+      "path": "data/poll-history.json",
+      "sha256": "b9264de273a2de5b893b491396b39306238c7826671a03a4b8251fe827b0ad7a"
+    },
+    {
+      "path": "data/signal-noise-observations.json",
+      "sha256": "b04ee5adbcd7c8d6881a6a89ccd460d0a0e693a625c2921dcb4f6016aa4fb6ab"
+    },
+    {
+      "path": "data/sources.json",
+      "sha256": "c2ce3e8300236113a316c094258c29cc3d76f46ab4d84068556a655ab8edaf7f"
+    },
+    {
+      "path": "data/strict-party-trends-without-channel14.json",
+      "sha256": "51da1999cd28255efe226b048d79b7c4f5a4ff5a8b679a16810d2bf564e73843"
+    },
+    {
+      "path": "data/strict-party-trends.json",
+      "sha256": "015bb39c83cf5bb8e039bf61bc1fd4a9c4f64460da9dbddf1f3ebf3e85534fe2"
+    },
+    {
+      "path": "data/survey-documents-2026-09-14.json",
+      "sha256": "e1c69c7e5f2f37fe3c8c9bdb7205ada18e8a8384f50dd26f3cac07ff3e8d0ee7"
+    },
+    {
+      "path": "data/turnout-2022.json",
+      "sha256": "fb39b3fc028b9119e210ed697ea5273303059cdd947e7ec90e9b516467ed45cb"
+    },
+    {
+      "path": "data/weight-littlepolls.json",
+      "sha256": "4b35cfba4cdd901b5a2d426bfacada549eb89ab67db3a1d222ca238833da99d8"
+    },
+    {
+      "path": "data/weight-madad120.json",
+      "sha256": "cd0f115c1c792150324a3a990ba6df0ebb0b4730b134dbd5f6f6a5e29c4dfaaf"
+    },
+    {
+      "path": "data/weight-presets.json",
+      "sha256": "4b78d63175ef13945d80dfc51ec91a0fcdde332908fda385922236ec887e402c"
+    },
+    {
+      "path": "data/weight-rationale.json",
+      "sha256": "761436a65cc13a62379e7145f4209ba88edd8cc502b2020de183268f00eb9cc6"
+    },
+    {
+      "path": "data/weight-rosner.json",
+      "sha256": "79e749ac9212382e3f92c834ff4d480b7874b470286183873346fcec06997532"
+    }
+  ],
+  "disabledRetiredFeatureThroughImport": true,
+  "default": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": false,
+    "signalNoiseEnabled": false
+  },
+  "results": {
+    "blocs": {
+      "a": {
+        "mean": 51.9555,
+        "meanSE": 0.03182724104171194,
+        "meanMargin": 0.0623813924417554,
+        "meanCI": [
+          51.89311860755824,
+          52.01788139244176
+        ],
+        "median": 52,
+        "low": 47,
+        "high": 58
+      },
+      "b": {
+        "mean": 53.3276,
+        "meanSE": 0.026919886553052236,
+        "meanMargin": 0.052762977643982384,
+        "meanCI": [
+          53.27483702235602,
+          53.380362977643976
+        ],
+        "median": 53,
+        "low": 49,
+        "high": 58
+      },
+      "arab": {
+        "mean": 0,
+        "meanSE": 0,
+        "meanMargin": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0
+      },
+      "other": {
+        "mean": 14.7169,
+        "meanSE": 0.024487453982401968,
+        "meanMargin": 0.04799540980550786,
+        "meanCI": [
+          14.668904590194494,
+          14.764895409805508
+        ],
+        "median": 14,
+        "low": 11,
+        "high": 19
+      }
+    },
+    "majority": {
+      "a": 0.0065,
+      "b": 0.003,
+      "neither": 0.9905,
+      "coalitionA": 0.0065,
+      "coalitionB": 0.003,
+      "coalitionNeither": 0.9905,
+      "coalitionBoth": 0
+    }
+  },
+  "snapshotSha256": "8693236755a16c2924c2d3ae5f63927d10e08cd556c6a17ae6a4954cc2eac7eb"
+}

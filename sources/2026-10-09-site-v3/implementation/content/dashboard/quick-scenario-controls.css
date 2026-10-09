@@ -1,0 +1,25 @@
+.quick-scenario-controls{min-width:0;direction:rtl;margin:16px 0 22px}
+.quick-scenario-controls__intro{font-size:13px;line-height:1.6;margin:0 0 10px;color:var(--secondary)}
+.quick-scenario-controls__grid{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px;align-items:stretch}
+.quick-scenario-controls__card{min-width:0;display:flex;flex-direction:column;padding:12px;border:1px solid var(--border);border-radius:12px;background:var(--card,var(--background))}
+.quick-scenario-controls__card--coalition{border-top:3px solid var(--e-coalition,#dc454c)}
+.quick-scenario-controls__card--opposition{border-top:3px solid var(--e-opposition,#2378cf)}
+.quick-scenario-controls__label{display:block;font-size:13px;font-weight:700;line-height:1.55;color:var(--text);margin:0 0 8px;overflow-wrap:anywhere}
+.quick-scenario-controls__card>p{font-size:11px;line-height:1.6;color:var(--secondary);margin:auto 0 0;padding-top:6px;overflow-wrap:anywhere}
+.quick-scenario-controls__label select{display:block;width:100%;min-width:0;max-width:100%;margin-top:12px;border:1px solid var(--border);border-radius:8px;background:var(--control,var(--card));color:var(--text);font:inherit;font-size:13px;min-height:44px;padding:7px;cursor:pointer}
+.quick-scenario-controls__toggle{display:flex;flex-direction:column;min-height:91px;cursor:pointer}
+.quick-scenario-controls__toggle-row{display:flex;align-items:center;gap:8px;min-height:44px;margin:3px 0 6px}
+.quick-scenario-controls__toggle-row input{appearance:auto;accent-color:var(--accent,#2378cf);width:22px;height:22px;margin:0;flex:none;cursor:pointer}
+.quick-scenario-controls__toggle-row strong{font-size:12px;font-weight:650;color:var(--text);overflow-wrap:anywhere}
+.quick-scenario-controls__card .step-control__entry{width:116px;margin:5px 0 5px auto}
+.quick-scenario-controls__card .step-control__input{height:44px;font-size:13px;padding:5px 7px}
+.quick-scenario-controls__card .step-control__buttons{flex-basis:28px}
+.quick-scenario-controls__card .step-control__arrow{min-height:21px;font-size:11px}
+.quick-scenario-controls__card .step-control__suffix{font-size:12px}
+.quick-scenario-controls__card .step-control__error{font-size:11px}
+.quick-scenario-controls select:focus-visible,.quick-scenario-controls input[type="checkbox"]:focus-visible{outline:2px solid var(--accent,#2378cf);outline-offset:3px}
+.quick-scenario-controls select:disabled,.quick-scenario-controls input:disabled{cursor:default;opacity:.55}
+@media(max-width:1200px){.quick-scenario-controls__grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.quick-scenario-controls__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.quick-scenario-controls__card{padding:10px}.quick-scenario-controls__label{font-size:12px}.quick-scenario-controls__card .step-control__input{height:48px}.quick-scenario-controls__card .step-control__arrow{min-height:24px}.quick-scenario-controls__toggle{min-height:100px}.quick-scenario-controls__card .step-control__entry{width:110px}}
+@media(max-width:350px){.quick-scenario-controls__grid{grid-template-columns:1fr}.quick-scenario-controls__toggle{min-height:0}.quick-scenario-controls__card{padding:12px}.quick-scenario-controls__card .step-control__entry{width:142px}}
+@media print{.quick-scenario-controls{display:none}}

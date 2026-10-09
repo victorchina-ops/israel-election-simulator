@@ -1,0 +1,23 @@
+.seat-distribution-summary{min-width:0;--data-card-background:light-dark(#eff7fa,#23323b)}
+.election-app .seat-distribution-summary .sds-intro,.election-app .seat-distribution-summary .sds-note,.election-app .seat-distribution-summary .sds-keyboard-note,.election-app .seat-distribution-summary .sds-credit{font-size:14px;line-height:1.75;color:var(--secondary);margin:12px 0}
+.election-app .seat-distribution-summary .sds-intro{font-size:16px;color:var(--text)}
+.seat-distribution-summary .sds-histogram-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain}
+.seat-distribution-summary .sds-frequency-details{margin-top:12px}
+.seat-distribution-summary .sds-members{display:block;white-space:normal;max-width:360px;color:var(--secondary);font-weight:400;font-size:14px;line-height:1.65;margin-top:4px}
+.seat-distribution-summary .sds-table-scroll{min-width:0;max-width:100%;overflow:auto;overscroll-behavior-inline:contain;margin-block:18px}
+.election-app .seat-distribution-summary .sds-table{width:100%;font-size:14px;border-collapse:collapse;font-variant-numeric:tabular-nums}
+.seat-distribution-summary .sds-table caption{text-align:right;font-size:18px;font-weight:600;color:var(--text);padding-bottom:12px}
+.election-app .seat-distribution-summary .sds-table th,.election-app .seat-distribution-summary .sds-table td{font-size:14px;padding:10px 12px;border-bottom:1px solid var(--border);text-align:right;white-space:nowrap}
+.election-app .seat-distribution-summary .sds-table thead th{font-size:14px;line-height:1.5;white-space:normal;min-width:66px}
+.seat-distribution-summary .sds-table th:first-child{min-width:150px}
+.election-app .seat-distribution-summary .sds-table .mean-seats__margin{font-size:14px}
+.seat-distribution-summary .sds-bloc-label{font-weight:600}
+.seat-distribution-summary .sds-unmodelled{display:block;font-size:14px;color:var(--secondary);font-weight:400;white-space:normal}
+.election-app .seat-distribution-summary .sds-party-details{margin-top:18px;border-top:1px solid var(--border);padding-top:14px}
+.election-app .seat-distribution-summary .sds-party-details>summary{font-size:16px;line-height:1.6;cursor:pointer;min-height:40px}
+.seat-distribution-summary .sds-actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:18px}
+.seat-distribution-summary .sds-actions>span{font-size:14px;line-height:1.7;color:var(--secondary);flex:1 1 260px}
+.seat-distribution-summary .sds-table-scroll:focus-visible,.seat-distribution-summary .sds-party-details>summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.election-app .seat-distribution-summary .sds-state{font-size:16px;padding:12px;line-height:1.7;background:var(--muted);border-radius:8px}
+@media(max-width:700px){.seat-distribution-summary .sds-actions{align-items:stretch}.seat-distribution-summary .sds-actions>button{width:100%;white-space:normal}.election-app .seat-distribution-summary .sds-table th,.election-app .seat-distribution-summary .sds-table td{padding:10px 8px}.seat-distribution-summary .sds-table th:first-child{min-width:140px}}
+@media print{.seat-distribution-summary .sds-actions{display:none}.seat-distribution-summary .sds-table-scroll{overflow:visible}}

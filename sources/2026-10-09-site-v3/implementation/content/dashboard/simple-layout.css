@@ -1,0 +1,25 @@
+.e-simple-app{padding-top:16px}
+.e-simple-app .e-page-heading{margin:0 0 18px}
+.e-simple-app .e-page-heading h1{font-size:26px;letter-spacing:0;margin:0 0 6px}
+.e-simple-app .e-page-heading p,.e-simple-app .e-data-caption{font-size:14px;color:var(--secondary);margin:4px 0}
+.e-simple-app .e-simple-controls{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:20px 0 12px;align-items:start}
+.e-simple-app .e-scenario-adjustments{display:block;margin-bottom:20px}
+.e-simple-app .e-disclosure{border:1px solid var(--border);border-radius:12px;padding:0 16px;margin:12px 0;background:var(--surface,var(--background))}
+.e-simple-app .e-disclosure>summary{margin:0;padding:15px 0;line-height:1.6;font-size:14px;min-height:48px;box-sizing:border-box}
+.e-simple-app .e-disclosure[open]>summary{border-bottom:1px solid var(--border);margin-bottom:14px}
+.e-simple-app .e-summary-hint{display:block;font-size:14px;font-weight:400;color:var(--secondary);padding-inline-start:18px}
+.e-simple-app .e-scenario-adjustments .e-disclosure{margin:0;align-self:start;min-width:0}
+.e-simple-app .e-next-actions{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.e-simple-app #detailed-results .e-results{margin-top:18px}
+.e-simple-app #participation-settings .e-lever{margin:18px 0}
+.e-simple-app #participation-settings .e-lever .step-control{max-width:540px}
+.e-simple-app #run-settings .e-toolbar{margin-block:12px}
+.e-simple-app #uncertainty-settings{font-size:14px}
+.e-simple-app .bloc-settings__caption{font-size:14px}
+.e-simple-app .e-page-heading+.wc-page{margin-top:18px}
+@media(max-width:760px){
+ .e-simple-app .e-simple-controls,.e-simple-app .e-scenario-adjustments{grid-template-columns:1fr;gap:12px}
+ .e-simple-app .e-page-heading h1{font-size:23px}
+ .e-simple-app .e-disclosure{padding-inline:12px}
+ .e-simple-app .e-next-actions{flex-direction:column;align-items:stretch}
+}

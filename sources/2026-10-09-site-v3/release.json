@@ -1,0 +1,553 @@
+{
+  "siteVersion": 3,
+  "dataAsOf": "2026-10-09",
+  "newPollCount": 0,
+  "appId": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+  "buildPath": "official-project-source",
+  "protectedRuntimeFilesUnchanged": 234,
+  "askChatGptDisabled": true,
+  "appearanceControlVerified": true,
+  "aboutFirstForFreshVisits": true,
+  "originalPortraitAndCopyRestored": true,
+  "directExclusivePartyAssignment": true,
+  "weightsDefault": "quality",
+  "includeChannel14Default": false,
+  "pollCorrelationDefault": false,
+  "signalNoiseRetired": true,
+  "testsPassed": 387,
+  "exactNumericalCollections": 20,
+  "priorEvidenceFilesPreserved": 672,
+  "snapshotSha256": "8693236755a16c2924c2d3ae5f63927d10e08cd556c6a17ae6a4954cc2eac7eb",
+  "compiledHtmlSha256": "b948faff836a4441dd9baa9bfbeb575b02de9549039ed5d40d50a70ab57a4fbb",
+  "publishedHtmlSha256": "72dc1655628d2dbf301293fab1940914b328673536a24d13bac7b54c3cb0c27d",
+  "files": [
+    {
+      "path": "before-manifest.json",
+      "sha256": "69243885aa2fce4f2a085e174c0e58810c39bef083da06b0d9cc5f9f66bef091"
+    },
+    {
+      "path": "browser-qa.json",
+      "sha256": "7eeb25cb297fee53de4d4a4f247d8d26b235ac002f9b1bbe63e1d3083894e14c"
+    },
+    {
+      "path": "full-tests.txt",
+      "sha256": "f8efc82b8ef06f6f39389b15df6fea577860a7f69eef59372c903fe6f48647e6"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/beyachad.png",
+      "sha256": "c7247d95ad0f7cb4cf8ef913447ceb1a8ce29ab2e6376f28793bac40a4477bc1"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/democrats.png",
+      "sha256": "2b35b45bb48a4e533d10a8e16fdc6b926619929092e69f641d7a8e6691591339"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/gantz.png",
+      "sha256": "be8a1824e99ac2ce173e407738371c2f9ba0c0fb2a1e00ad0fc8882ee33c3022"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/haredi_public.svg",
+      "sha256": "2ea0510d33a2ae66fbda0d2d8cf7e7ad36bfa68f25f3e09705521d644f303081"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/hendel.png",
+      "sha256": "2081d494ef8cb86268b2e0a64afa89dbc0794f70febb8f1874fc96633b7c194c"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/israel_first.png",
+      "sha256": "56bbfc0f831e3b9568bd5e589dcb2afbf0891a5f649f4bb8d9375405908917ad"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/joint.png",
+      "sha256": "dfdfd55b85bf8b4d25a036085cc56ca491d1732cbe4966565aa01e5e1f59f83d"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/likud.png",
+      "sha256": "b806a8c4bf00f64f008c72cd9d084c51906920f1f2ddd5799fac4c1672497d48"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/noam.png",
+      "sha256": "603c0974f161a53764b3b5d7b674dd93216d359e0df065dd4ac9f047179d444a"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/otzma.png",
+      "sha256": "cc5450a79a9a3d71c0d983eacaf5a5e2ab69d316ff4cf523fc8dec81773926d9"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/raam.png",
+      "sha256": "e7f71b35b9491820f7f32a82c3abb18c9f3a7c13364b94f9b56f909808abc8c8"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/rz_zehut.png",
+      "sha256": "47b08ca4f5f4829c5ec00c77da67c2385cf619bbc3edae7007e4aa8e75e0ba9e"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/shas.png",
+      "sha256": "0344aaa512379b0c3d817c6e8a343e5da948a3f95af85702b417baaf7f02668a"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/utj.png",
+      "sha256": "614a50ed99a2751ef1eb89374291fae3eddd1db6558fd2d72b520ae4f48075ed"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/winter.png",
+      "sha256": "489ccd6d63bd69de4900df53c3aa2a570fd981eb938d524f034b75f713f2e12a"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/yashar.png",
+      "sha256": "814c1cc109f9ecdbae8276229301e7d9972cade8507eeb1088dc81596ef3c460"
+    },
+    {
+      "path": "implementation/content/assets/party-logos/yisrael_beiteinu.png",
+      "sha256": "0e1af5d2afdecf26ac9bb67c4424c64e7cde0fc6f0b0d27c250e4dc65aec8da3"
+    },
+    {
+      "path": "implementation/content/assets/README.md",
+      "sha256": "1a17117302d00a4301c95b0562c12a244e38efe35aa508831ea404e7051556d7"
+    },
+    {
+      "path": "implementation/content/assets/victor-rina-ben-david.jpg",
+      "sha256": "0766a2daa936e906850bd49db56ccc171b982451e8c57fcf2d4770b34a9b73e6"
+    },
+    {
+      "path": "implementation/content/dashboard/about-page.css",
+      "sha256": "ef9294dddac28834cd0f257e9a1cb8caa95fa10a25894c705739ed474ce0e41e"
+    },
+    {
+      "path": "implementation/content/dashboard/AboutPage.jsx",
+      "sha256": "5185dec06990aecd190acea0cd92043cc001cc990357695b6ad3dcf9065721d8"
+    },
+    {
+      "path": "implementation/content/dashboard/bloc-outcomes.css",
+      "sha256": "32b9741a184d9daf849b3a5df5b6ae9833ffaf3cd9977c25b56ddf65ed1f2128"
+    },
+    {
+      "path": "implementation/content/dashboard/bloc-presets.js",
+      "sha256": "285bad06685da2f128681412127419a500a61dfb99a039d6da421a173fa04c88"
+    },
+    {
+      "path": "implementation/content/dashboard/bloc-settings.css",
+      "sha256": "562e4f903cdf85c2df3592236f17b474b05ff0365f79c5ad390ce3b7632d0eac"
+    },
+    {
+      "path": "implementation/content/dashboard/BlocOutcomes.jsx",
+      "sha256": "aa61e7c2e96af4a373466b32b7f3468d34da4b36b70fd3631f5ea0a4baea5524"
+    },
+    {
+      "path": "implementation/content/dashboard/BlocSettings.jsx",
+      "sha256": "d3c1ea26ad4e2d964e14844f41c3eafbae1fdacd1041519f810829732dd7baaf"
+    },
+    {
+      "path": "implementation/content/dashboard/dashboard-data.js",
+      "sha256": "b33132f59883284ffedfbb13c6f1fd8bd4d7906c708896dd659ae435c1b75003"
+    },
+    {
+      "path": "implementation/content/dashboard/dashboard.css",
+      "sha256": "3c5ebfb626bef6fcd076970cacde9e277a54c9ee1324953f8eba630a08788779"
+    },
+    {
+      "path": "implementation/content/dashboard/DashboardContent.jsx",
+      "sha256": "f727c3d2e5ac0513c0521e284c54b42d433079c785b8af571fdcd5ec55f6ac10"
+    },
+    {
+      "path": "implementation/content/dashboard/election.css",
+      "sha256": "d762405693e132458581b1003944c96942369bbba7942d702d73b5799662ad61"
+    },
+    {
+      "path": "implementation/content/dashboard/mean-seats.css",
+      "sha256": "a6faaedd8f7eac0a8c1580202873a11f68c5f16193c74e668a332f4f2eb69591"
+    },
+    {
+      "path": "implementation/content/dashboard/MeanSeats.jsx",
+      "sha256": "06dcb908fb17c911ee6861edc1a3329c24c370af6071d06555cec243962e80c5"
+    },
+    {
+      "path": "implementation/content/dashboard/method-guide.css",
+      "sha256": "34e87be37f92b2229e2988003bfd98551f16571a74013a8932dab8a94b59d76b"
+    },
+    {
+      "path": "implementation/content/dashboard/MethodDataPage.jsx",
+      "sha256": "49d80b75117f65ba5b4c1938f6963786d4a044bb7c9bed01a0423090158bbfe5"
+    },
+    {
+      "path": "implementation/content/dashboard/MethodGuide.jsx",
+      "sha256": "5f66b8914373967bbb25a5566ea882ba8e60cbcc4d8abd682150cc9be3fed10c"
+    },
+    {
+      "path": "implementation/content/dashboard/model/allocate.js",
+      "sha256": "1b7afe0a20375aeabb15fb62e4be13b3ee8171e624a569e54613dcf36d63537b"
+    },
+    {
+      "path": "implementation/content/dashboard/model/forecast.js",
+      "sha256": "6f33910a04fc980f79ad22af63676541fa5baffff5c700224a3b2da0b9b82e91"
+    },
+    {
+      "path": "implementation/content/dashboard/model/poll-correlation.js",
+      "sha256": "da5828b56263bd579f4f23d9f1ec270a34ccf674302ab98cfe03fa31fb9ca770"
+    },
+    {
+      "path": "implementation/content/dashboard/model/poll-selection-policy.js",
+      "sha256": "4075780ae195f16c566767c547da03aaedafd0e3333dba45b4a29172c0c0d123"
+    },
+    {
+      "path": "implementation/content/dashboard/model/random.js",
+      "sha256": "c9a23bb349e0f53ca101271a680266de138549c39c9352d729ba576b9dd5f8d1"
+    },
+    {
+      "path": "implementation/content/dashboard/model/reconstruct.js",
+      "sha256": "e3117c0650699078e9265a79ebcde8859ec490343fe2af2af289b79b4047117d"
+    },
+    {
+      "path": "implementation/content/dashboard/model/signal-noise-method.md",
+      "sha256": "23a9a35d48e9c4b2b2158fd2581eaedf1b5f42f9c9eb99a18069128cd568faf3"
+    },
+    {
+      "path": "implementation/content/dashboard/model/signal-noise.js",
+      "sha256": "dfdacc63e1e0bed376ecfe432b52f438fe42d312aadbb6eeafe5e8ab4845ce7d"
+    },
+    {
+      "path": "implementation/content/dashboard/model/simulate.js",
+      "sha256": "64c47d803db1f83b35fc782d97a4f28a33a0d15ff5d2aa0330db3b2372b81c38"
+    },
+    {
+      "path": "implementation/content/dashboard/model/turnout.js",
+      "sha256": "75e668f49f3999870408a835113f439932eb4adcd2bdaffdbc87ed0b87aa3f59"
+    },
+    {
+      "path": "implementation/content/dashboard/model/weights.js",
+      "sha256": "2e71144e510a0a7cb67d58a9c5bb081e938d8390c1e5f1499c3957c9a24651d4"
+    },
+    {
+      "path": "implementation/content/dashboard/party-name.css",
+      "sha256": "8c309d3a1013b6fc7d1e1ab46e28772ade815ebc7c77b62dd8e730cc86617e60"
+    },
+    {
+      "path": "implementation/content/dashboard/PartyName.jsx",
+      "sha256": "11e088eb5649b45181a6c9276983997f4fad3bbd1ff0aaf15f13e959dbbe6b01"
+    },
+    {
+      "path": "implementation/content/dashboard/poll-selection-control.css",
+      "sha256": "173875b3544109fe8dc2e0af2fcaa3542856bdf1a052c822f3a574c08ae41de2"
+    },
+    {
+      "path": "implementation/content/dashboard/poll-trends.css",
+      "sha256": "43e37d95c10eb736697033784e1eda0bbe016f0715ac05525ea46b186bbe5814"
+    },
+    {
+      "path": "implementation/content/dashboard/poll-trends.js",
+      "sha256": "f257731aab709b9ecbd98526ed0b195f05c87fe6ba31030b58f008630f3cad33"
+    },
+    {
+      "path": "implementation/content/dashboard/PollDataPage.jsx",
+      "sha256": "48a90337f64bf1764be1bf45d2ba15ae4d619cf6103d6295c61bd1166c0e6fc9"
+    },
+    {
+      "path": "implementation/content/dashboard/PollSelectionControl.jsx",
+      "sha256": "4c0644b50ee11aecc2f631f7be18878b654f839148611ea1eb5e5329d7a0789a"
+    },
+    {
+      "path": "implementation/content/dashboard/PollTrendsPage.jsx",
+      "sha256": "9869d3badb67726bcb30ef8648f9016e9762470742e5f011c75eda681e726718"
+    },
+    {
+      "path": "implementation/content/dashboard/PollViewer.jsx",
+      "sha256": "5254b8b142fe1882d96f6573c5ceed5e9189e2ea340ab8f12580c4810d329096"
+    },
+    {
+      "path": "implementation/content/dashboard/quick-scenario-controls.css",
+      "sha256": "e8d144d1c8462204192908770e0795e59dfc102ef0940296a43e07c2525c3614"
+    },
+    {
+      "path": "implementation/content/dashboard/QuickScenarioControls.jsx",
+      "sha256": "63900cd0949d01164c5864ea6d8fc50b8f84fe470328d0c21f71147be5ec158f"
+    },
+    {
+      "path": "implementation/content/dashboard/readability.css",
+      "sha256": "afa5a1204a71b1d2b874e7541ae2a2c1cceb2998c400321710081d19754a18b2"
+    },
+    {
+      "path": "implementation/content/dashboard/regional-world-map.js",
+      "sha256": "d5fd8be03342924d4b19c71b173815c084e032686a8f3b0df706bea3a08a5f54"
+    },
+    {
+      "path": "implementation/content/dashboard/reporting-groups.js",
+      "sha256": "76e91696f4a4447065380ae7818472e1f201d7c85ce712bac141560526f2352b"
+    },
+    {
+      "path": "implementation/content/dashboard/result-party-assignment.css",
+      "sha256": "1e9d0b08265618aa0029724111c35ed700bdd529e08f244ca59bba5530d22b82"
+    },
+    {
+      "path": "implementation/content/dashboard/result-party-assignment.js",
+      "sha256": "ae62c4a78e08003b23a555c771cd04babbea0a186a6555e5b60ee58fdc476a9b"
+    },
+    {
+      "path": "implementation/content/dashboard/sampling-mode.css",
+      "sha256": "9497bbdb69290e92e9154406a3890fccdb7b0b8f6f2d199cab5bb514237592fb"
+    },
+    {
+      "path": "implementation/content/dashboard/SamplingModeControl.jsx",
+      "sha256": "cc4749d9ae652a47149bdbfff20f5cbe5fbfc97ec07a1fc4a4823178d33b37ec"
+    },
+    {
+      "path": "implementation/content/dashboard/scenario-controls.css",
+      "sha256": "4a0835a2f22aec071e3053b23cc8e0a89ae0f69ae92a1624f2c12ff33e3e4256"
+    },
+    {
+      "path": "implementation/content/dashboard/scenario-policy.js",
+      "sha256": "ee2ba290dc2b3728737ed565a0f63e64c42e2a4e427c5c8101e84cea4ca55012"
+    },
+    {
+      "path": "implementation/content/dashboard/ScenarioControls.jsx",
+      "sha256": "c4cdec4e79b7770f7cc0558166d4bbf2a4a2e8876b7f8e829ea76702a028bbe8"
+    },
+    {
+      "path": "implementation/content/dashboard/seat-distribution-summary.css",
+      "sha256": "f3e373b350335caa99b02cfe3c197da6a01e8819da67239f878fa667761fb765"
+    },
+    {
+      "path": "implementation/content/dashboard/seat-distribution-summary.js",
+      "sha256": "b5dfbbbbc97c3b39fb745054d5aeed55a82141ab4026a28a2eec683154af3663"
+    },
+    {
+      "path": "implementation/content/dashboard/seat-probabilities.js",
+      "sha256": "dee799ae2985adb35839eb0b413bdd05dcd37d95378a46f8d082ef34d43df7e4"
+    },
+    {
+      "path": "implementation/content/dashboard/seat-probability-page.css",
+      "sha256": "54342dd5f8c91b0ea4081910bc30c2e40acbd112ccfe8d7fc9a3caa4d25f1aec"
+    },
+    {
+      "path": "implementation/content/dashboard/SeatDistributionSummary.jsx",
+      "sha256": "c997715bd5b903b999381de57ac499e2e7a0f8940aef5a9ecd21c9ac62c440e3"
+    },
+    {
+      "path": "implementation/content/dashboard/SeatProbabilityPage.jsx",
+      "sha256": "97af9b46b9f5459c4eacd7618e8d2d2a1c4a5a5142091c0c9a7d358262959fe4"
+    },
+    {
+      "path": "implementation/content/dashboard/signal-noise-content.js",
+      "sha256": "d6fd8d92c62adce6f0a094f38a0beeb6cfab6c9ea524b1efc1a311cc2ca2e1c6"
+    },
+    {
+      "path": "implementation/content/dashboard/signal-noise.css",
+      "sha256": "181a4b369a3c7f08bde003dae8f4abc942c857910e1b284a339007b0b69dc058"
+    },
+    {
+      "path": "implementation/content/dashboard/SignalNoiseDiagnostics.jsx",
+      "sha256": "7252af23ede86841807ec56dda785d13df2d96a4a95c5c7957cd78a12e9626dd"
+    },
+    {
+      "path": "implementation/content/dashboard/SignalNoiseInstituteControl.jsx",
+      "sha256": "9011caf94db5052194864f2ea2b5bf6d1c07d9286184f03b0d5700f95e758b35"
+    },
+    {
+      "path": "implementation/content/dashboard/simple-layout.css",
+      "sha256": "af060c8c9def00ab68bb4e3bab70b521a10e3caa3a3c73d87dd5adb62a310ba2"
+    },
+    {
+      "path": "implementation/content/dashboard/simulation.worker.js",
+      "sha256": "dfeeccc6209951ca03e8d4d2179c83ddf081bc3794de6ce7b2ce623ef279bf4d"
+    },
+    {
+      "path": "implementation/content/dashboard/simulator-intro.css",
+      "sha256": "b650f215a33e18fa20d14f145745996ea6fca4b32d597681088ccbd8c9e309df"
+    },
+    {
+      "path": "implementation/content/dashboard/SimulatorIntro.jsx",
+      "sha256": "42666bebc6019e6d7b2838c239fc9da732185472c6c6f71e34bcd37cce477c04"
+    },
+    {
+      "path": "implementation/content/dashboard/site-navigation.js",
+      "sha256": "8fcbb68b9b9e99d8225de3e5b5cd55e054df3f7da8271eb2e209f808019ffb94"
+    },
+    {
+      "path": "implementation/content/dashboard/site-scenario-policy.js",
+      "sha256": "b032237129bb60e633e7d5382accf7fa7b16bc70f03075532534524870fb426f"
+    },
+    {
+      "path": "implementation/content/dashboard/site-v2.css",
+      "sha256": "d113a47922599115d8067ca96dcd04806984e2767a135aeb1829a9cfdd22958f"
+    },
+    {
+      "path": "implementation/content/dashboard/site-v3.css",
+      "sha256": "7d29d053ad2b6fb35c9619ce98f4f4e9aea150e8bc40b6a4d034b82d80cf6cd9"
+    },
+    {
+      "path": "implementation/content/dashboard/step-control.css",
+      "sha256": "429f79737f440cd8a1a921df3ed1855a792269e1fa70c62edcd402f959c2738d"
+    },
+    {
+      "path": "implementation/content/dashboard/StepControl.jsx",
+      "sha256": "62d237a9bb96b0266f51f75ca32205371d45382324ddd5253dc17bc251ae8ea9"
+    },
+    {
+      "path": "implementation/content/dashboard/summary-figure-export.js",
+      "sha256": "70248da8f4b147e71f6cdecebc9aec2b8604e5a83a0a392f7edbf2621246f80a"
+    },
+    {
+      "path": "implementation/content/dashboard/survey-document-review.css",
+      "sha256": "9fa3cdaaadda21fb9d3209382978ab962ca7eb4961d59e4d652792575853698b"
+    },
+    {
+      "path": "implementation/content/dashboard/SurveyDocumentReview.jsx",
+      "sha256": "45c8c3f9f92e63a6608f8bf5bed7a304100e7ebb2d314a6d78e040032c473300"
+    },
+    {
+      "path": "implementation/content/dashboard/take-home-message.css",
+      "sha256": "8e22cabe81f87a84158d02b351e0c2ba5712fc9f68b8a163f8e46e769a8930f8"
+    },
+    {
+      "path": "implementation/content/dashboard/TakeHomeMessage.jsx",
+      "sha256": "6ee696fe920c34ada63645c728494f05f7506799cde139e4477d0a1f5f9f40a1"
+    },
+    {
+      "path": "implementation/content/dashboard/threshold-figure-export.js",
+      "sha256": "0d3647dcd04b3e6bf3748d9d4e83c76fd51811202bfbec7c9126fa9579cbbd60"
+    },
+    {
+      "path": "implementation/content/dashboard/threshold-page.css",
+      "sha256": "bbff7d42cb6618951353f1146b5a46cb3f423aaa4e294d00a7590bf7b016515f"
+    },
+    {
+      "path": "implementation/content/dashboard/ThresholdPage.jsx",
+      "sha256": "ba75f760183b6fa030e575459e836d176ecff3df0cea13a51755e8b66be8d075"
+    },
+    {
+      "path": "implementation/content/dashboard/transparency-data.js",
+      "sha256": "e584f0b5c1f6eb9445e75986800f5e97274624d1bab7a313e9f8948a42c7a0de"
+    },
+    {
+      "path": "implementation/content/dashboard/transparency-pages.css",
+      "sha256": "290e0f03568e1deacb090b19b22257a58897e9835e78a740b4d90d84c9fbd426"
+    },
+    {
+      "path": "implementation/content/dashboard/useMethodSimulation.js",
+      "sha256": "d0bcf8bbee12743963234c8928a2164953030becd2b7ac65e6edecaad41c6e64"
+    },
+    {
+      "path": "implementation/content/dashboard/verified-party-trends.css",
+      "sha256": "964a6bbaaa564d5ce9ee288dc4f226e5ad6ad4349cfd5f4153d35659ea87a0a5"
+    },
+    {
+      "path": "implementation/content/dashboard/VerifiedPartyTrends.jsx",
+      "sha256": "ed749b37ca14b21e8f68170e3b1ce51bb4619df0171aa94a1e093fc006e3f4d5"
+    },
+    {
+      "path": "implementation/content/dashboard/weight-comparison.css",
+      "sha256": "b0716978bf065a30cdebc1b327d76240f8e909a619d06926edc54189a86a2da3"
+    },
+    {
+      "path": "implementation/content/dashboard/weight-rationale.css",
+      "sha256": "eb0d58663026a3e7fe2371bb668514d5f8cf758bd0491b772dffc26bb42dffd7"
+    },
+    {
+      "path": "implementation/content/dashboard/WeightComparisonPage.jsx",
+      "sha256": "f0520ff0dec97f4e14d853cd26462bd0e5f7f4bafca1cd734ba57b2e84b1a736"
+    },
+    {
+      "path": "implementation/content/dashboard/weighting-control.css",
+      "sha256": "ecf99751d6fbed7748faebfd2a18841ecca71f4c0b4f55c85e550b3cceb52705"
+    },
+    {
+      "path": "implementation/content/dashboard/WeightingControl.jsx",
+      "sha256": "26df887622943a2f7a8bd001b7345037165b8eb661a5478748ea10610ae1b775"
+    },
+    {
+      "path": "implementation/content/dashboard/WeightRationale.jsx",
+      "sha256": "f205f123a4e8918b8b36330813ff1188fa6116264588475367054297dfbb167b"
+    },
+    {
+      "path": "implementation/content/report/report.css",
+      "sha256": "b0aed6d085aa46b2b4bace26ebcf4120d0c267a74fa5dcc87bdba2a2dff4f88e"
+    },
+    {
+      "path": "implementation/content/report/ReportContent.jsx",
+      "sha256": "0af29196a6714b72f895de4acbb70205fddda8ed7fde05245ff7103e86f0fe40"
+    },
+    {
+      "path": "implementation/content/shared/README.md",
+      "sha256": "36ae02985b054edb3e526dd75d89d019c4ac6ec14d70f58b40c83d439c6dbf8f"
+    },
+    {
+      "path": "implementation/content/shared/report-disclosure.css",
+      "sha256": "64e07e80151cd95e175185510f1c5e20331223bd786f1f12a56c51cc8c6841bd"
+    },
+    {
+      "path": "implementation/content/shared/report-task-link.css",
+      "sha256": "708b794f8f635ea9328b93d5ed5cdc8a6cca7b04215390ac6eb5616532f7a747"
+    },
+    {
+      "path": "implementation/content/shared/ReportDisclosure.jsx",
+      "sha256": "f559abc00fbd4e01f8276d9df8ed2c7db3ea001a0068119c0d82b4243991b746"
+    },
+    {
+      "path": "implementation/content/shared/ReportTaskLink.jsx",
+      "sha256": "7fc3cabbab44aee60a98b22038842704f7b097d9cb417f38be58133ea4305f88"
+    },
+    {
+      "path": "implementation/content/shared/SortableDashboardLayout.jsx",
+      "sha256": "e072e1e11812bfc3cac5ebd040f2c0cebbe22f04a9034ce84e3d49e7271f3a99"
+    },
+    {
+      "path": "implementation/theme.css",
+      "sha256": "57af949c413db1d5d6646a464883dd2746e7be4e5e3b67b6ef7b326081fac439"
+    },
+    {
+      "path": "independent-code-review.json",
+      "sha256": "63bca3d2e45c80e4793a32fe3de24ecceaf2ebb52d904ebb0ca37c8c178ede3a"
+    },
+    {
+      "path": "keyboard-assignment.json",
+      "sha256": "44b0c2a4037d5f648f3bd634326550fc766b568b2e5a629e1f981c445416daa3"
+    },
+    {
+      "path": "regression.json",
+      "sha256": "ebd779eb375b86accceb6d2280aba5b9467260c380f86e862358e49d2b2404de"
+    },
+    {
+      "path": "reproduction/audit-site-v3.mjs",
+      "sha256": "efea09b799887cf69bb47546a5c00a5c8c87a24fa7325032c5eaad45bc3c79de"
+    },
+    {
+      "path": "reproduction/browser-site-v3-qa.mjs",
+      "sha256": "dafbb23fcfdeb7aff2b453f2294385efd45ec21a3527db8296d117b7d47e1618"
+    },
+    {
+      "path": "reproduction/package-public-site-v3-2026-10-09.py",
+      "sha256": "a59181e2e2fd1af67c680b8899b13e10f9cdf60447cedf792714562d4a1ced4b"
+    },
+    {
+      "path": "tests/about-version3.test.mjs",
+      "sha256": "3acb57b27e9231621871a43d5bfe240648e348bb53b2f1a5f1e9991ceff7929d"
+    },
+    {
+      "path": "tests/quick-scenario-controls.test.mjs",
+      "sha256": "15d0b1d61d4b39ec6b575e017edff45e11a5cf7de52554c67333a470235074f7"
+    },
+    {
+      "path": "tests/site-v3-navigation.test.mjs",
+      "sha256": "c79436337e2a09cad602ccf751a45d3f4ec500a527fa00a74c0e71fbc183886e"
+    },
+    {
+      "path": "tests/step-control-display-precision.test.mjs",
+      "sha256": "08fcd3a83bcba256273f407ee1f28f343f930210657c32c92ceb79ee16e4c093"
+    },
+    {
+      "path": "tests/v2-scenario-controls.test.mjs",
+      "sha256": "5673767c75a2be010ac3dbaa6dcbe74d3f29d0a026d86efd0a530dc8f6fa97a0"
+    },
+    {
+      "path": "tests/v3-result-party-assignment.test.mjs",
+      "sha256": "a68989c826a70cff3d58c5d7aff8a548031cb1c50c5e7b23cdfb4ff13c2d0144"
+    },
+    {
+      "path": "version3.he.md",
+      "sha256": "3242910597137bbea6e0757dc6d613c8f11fe20c155e21f2f26147109b7dea57"
+    },
+    {
+      "path": "visual-review.json",
+      "sha256": "afb961ec1991c0396282aa04aa4607fd007a94f26462407e2ae3232c68da46f0"
+    }
+  ]
+}

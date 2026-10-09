@@ -1,0 +1,40 @@
+.transparency-page{display:grid;gap:22px;min-width:0;color:var(--text)}
+.transparency-page .tp-freshness{display:flex;flex-wrap:wrap;align-items:center;gap:8px 20px;margin:0;padding:14px 0;border-block-end:1px solid var(--border)}
+.transparency-page .tp-freshness span,.transparency-page .tp-note{color:var(--secondary);font-size:14px;line-height:1.65}
+.transparency-page .tp-toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-block:8px 16px}
+.transparency-page .tp-scroll{max-width:100%;min-width:0;overflow:auto;overscroll-behavior-inline:contain;border:1px solid var(--border);border-radius:8px}
+.transparency-page .tp-scroll:focus-visible{outline:2px solid var(--chart-1);outline-offset:3px}
+.transparency-page .tp-table{border-collapse:separate;border-spacing:0;width:100%;font-variant-numeric:tabular-nums;font-size:14px;text-align:right}
+.transparency-page .tp-table th,.transparency-page .tp-table td{padding:12px 14px;border-block-end:1px solid var(--border);vertical-align:middle;min-width:110px}
+.transparency-page .tp-table th{font-weight:600}
+.transparency-page .tp-table small{display:block;font-size:14px;font-weight:400;line-height:1.5;color:var(--secondary);margin-top:4px}
+.transparency-page .tp-table thead th,.transparency-page .tp-table tfoot th,.transparency-page .tp-table tfoot td{background:var(--surface-2,var(--data-card-background));border-block-end:2px solid var(--border)}
+.transparency-page .tp-table tr>:first-child{position:sticky;right:0;z-index:1;min-width:175px;background:var(--data-card-background);box-shadow:-1px 0 0 var(--border)}
+.transparency-page .tp-table td>bdi{font-weight:600}
+.transparency-page .tp-polls-table{min-width:1300px}
+.transparency-page .tp-methods{min-width:830px}
+.transparency-page .tp-register{min-width:1040px}
+.transparency-page .tp-table .party-name{max-width:205px;white-space:normal}
+.transparency-page .tp-source-link{display:inline-block;margin-inline-end:14px;text-decoration:underline;text-underline-offset:3px}
+.transparency-page .tp-poll-notes details{padding:12px 0;border-block-end:1px solid var(--border)}
+.transparency-page .tp-poll-notes summary{cursor:pointer;font-weight:600}
+.transparency-page .tp-poll-notes li,.transparency-page .tp-method-notes p{line-height:1.65}
+.transparency-page .tp-method-notes{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.transparency-page .tp-method-notes h3{font-size:16px;margin:0 0 8px}.transparency-page .tp-method-notes h3 small{font-size:14px;font-weight:400}
+.transparency-page .tp-legend{display:flex;flex-wrap:wrap;gap:10px 20px;font-size:14px;line-height:1.6}
+.transparency-page .tp-max{background:#e2f2e8;color:#155c36}.transparency-page .tp-min{background:#fae6e8;color:#9b2331}
+.transparency-page .tp-table .tp-rank{font-size:14px;color:inherit;font-weight:600;white-space:nowrap}
+.transparency-page .tp-legend-max{color:#187847;font-weight:600}.transparency-page .tp-legend-min{color:#c33747;font-weight:600}
+@media(max-width:650px){.transparency-page{gap:16px}.transparency-page .tp-method-notes{grid-template-columns:1fr}.transparency-page .tp-table th,.transparency-page .tp-table td{padding:10px;min-width:105px}.transparency-page .tp-table tr>:first-child{min-width:140px;max-width:165px}.transparency-page .tp-table .party-name{max-width:145px}.transparency-page .tp-toolbar{align-items:stretch}.transparency-page .tp-toolbar>*{max-width:100%}.transparency-page .tp-freshness{display:grid}}
+
+/* Purple identity is distinct from the red/green per-party extrema. */
+.transparency-page .tp-table .tp-our-method{border-inline:2px solid #8a65cf;background:light-dark(#f2edfc,#30263f);font-weight:700;min-width:165px}
+.transparency-page .tp-table thead .tp-our-method{border-top:3px solid #8a65cf}
+.transparency-page .tp-table .tp-our-method.tp-max{background:#e2f2e8;color:#155c36}
+.transparency-page .tp-table .tp-our-method.tp-min{background:#fae6e8;color:#9b2331}
+.transparency-page .tp-table .tp-our-badge{display:inline-block;background:#6d43a9;color:#fff;font-size:14px;font-weight:700;border-radius:5px;padding:3px 7px;margin-top:6px}
+.transparency-page .tp-our-caption{border-inline-start:3px solid #8a65cf;padding-inline-start:12px;color:var(--secondary);font-size:14px;line-height:1.65}
+.transparency-page .tp-our-caption strong{color:var(--text)}
+.transparency-page .tp-our-explanation{grid-column:1/-1;border-inline-start:3px solid #8a65cf;padding-inline-start:14px}
+.transparency-page .tp-methods{min-width:1010px}.transparency-page .tp-polls-table{min-width:1490px}
+@media(max-width:650px){.transparency-page .tp-table .tp-our-method{min-width:155px}}

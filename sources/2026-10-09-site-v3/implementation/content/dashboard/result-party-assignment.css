@@ -1,0 +1,56 @@
+/* Version 3: readable, directly editable party results. All styles stay within
+   the authored summary component and do not change shared shell controls. */
+.election-app .take-home-message .thm-assignment-intro{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px 16px;margin-top:22px;padding-top:18px;border-top:1px solid var(--border);direction:rtl}
+.election-app .take-home-message .thm-assignment-intro h3{margin:0;font-size:19px;color:var(--text)}
+.election-app .take-home-message .thm-assignment-intro p{margin:0;font-size:14px;color:var(--secondary)}
+.election-app .take-home-message .thm-assignment-board{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;direction:rtl;margin-top:12px;align-items:start}
+.election-app .take-home-message .thm-assignment-group{min-width:0;border:1px solid var(--border);border-top:4px solid var(--thm-bloc-color);border-radius:14px;padding:12px;background:var(--surface);transition:background .15s,border-color .15s;scroll-margin-top:110px}
+.election-app .take-home-message .thm-assignment-group[data-drop-active='true']{border-color:var(--thm-bloc-color);background:color-mix(in srgb,var(--thm-bloc-color) 12%,var(--card));outline:2px dashed var(--thm-bloc-color);outline-offset:2px}
+.election-app .take-home-message .thm-assignment-group h4{display:flex;align-items:center;justify-content:space-between;gap:8px;margin:0 0 4px;font-size:17px;color:var(--thm-bloc-color)}
+.election-app .take-home-message .thm-assignment-group h4 small{font-size:12px;font-weight:500;color:var(--secondary)}
+.election-app .take-home-message .thm-assignment-group-note{margin:0 0 10px;color:var(--secondary);font-size:12px;line-height:1.5}
+.election-app .take-home-message .thm-assignment-list{display:grid;grid-template-columns:minmax(0,1fr);gap:8px}
+.election-app .take-home-message .thm-assignment-card{min-width:0;display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px 8px;align-items:center;background:var(--card);border:1px solid var(--border);border-radius:10px;padding:10px;direction:rtl;cursor:grab}
+.election-app .take-home-message .thm-assignment-card:active{cursor:grabbing}
+.election-app .take-home-message .thm-assignment-card[data-dragging='true']{opacity:.55}
+.election-app .take-home-message .thm-assignment-card .party-name{display:flex;gap:8px;align-items:center;min-width:0;line-height:1.35}
+.election-app .take-home-message .thm-assignment-card .party-name>span{font-size:13px;line-height:1.35;white-space:normal;overflow-wrap:anywhere;color:var(--text)}
+.election-app .take-home-message .thm-assignment-card .party-logo{width:72px;flex-basis:72px;height:39px;object-fit:contain;background:#fff;border-radius:5px;padding:3px;box-sizing:border-box}
+.election-app .take-home-message .thm-assignment-card .thm-party-seats{font-size:21px;color:var(--thm-bloc-color);text-align:center;line-height:1.15;min-width:32px}
+.election-app .take-home-message .thm-assignment-card .thm-party-seats small{display:block;margin-top:2px;font-size:10px;font-weight:500;color:var(--secondary)}
+.election-app .take-home-message .thm-assignment-field{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:8px;cursor:default;color:var(--secondary);font-size:12px}
+.election-app .take-home-message .thm-assignment-field-name{display:none}
+.election-app .take-home-message .thm-assignment-field select{min-width:0;width:136px;min-height:36px;max-width:100%;padding:5px 8px;border:1px solid var(--border);border-radius:7px;background:var(--control);color:var(--text);font-family:inherit;font-size:13px;cursor:pointer;direction:rtl}
+.election-app .take-home-message .thm-assignment-field select:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.election-app .take-home-message .thm-assignment-empty{padding:18px 8px;text-align:center;color:var(--secondary);font-size:13px}
+.election-app .take-home-message .thm-assignment-status{margin:8px 0;font-size:13px;min-height:20px;color:var(--secondary)}
+.election-app .take-home-message .thm-assignment-mobile-hint{display:none}
+.election-app .take-home-message .thm-assignment-accounting{font-size:13px;color:var(--secondary);margin:10px 0 0}
+@media(max-width:980px){
+ .election-app .take-home-message .thm-assignment-card .party-name{flex-wrap:wrap;gap:4px}
+ .election-app .take-home-message .thm-assignment-card .party-name>span{flex-basis:100%}
+}
+@media(max-width:700px){
+ .election-app .take-home-message .thm-assignment-board{grid-template-columns:minmax(0,1fr);gap:12px}
+ .election-app .take-home-message .thm-assignment-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}
+ .election-app .take-home-message .thm-assignment-card{padding:9px;gap:7px 4px}
+ .election-app .take-home-message .thm-assignment-card .party-name{flex-wrap:nowrap}
+ .election-app .take-home-message .thm-assignment-card .party-name>span{display:none}
+ .election-app .take-home-message .thm-assignment-card .party-logo{width:80px;flex-basis:80px;height:42px}
+ .election-app .take-home-message .thm-assignment-field{display:block}
+ .election-app .take-home-message .thm-assignment-field>span{display:block;margin-bottom:5px;font-size:12px;color:var(--text);line-height:1.35;min-height:32px;overflow-wrap:anywhere}
+ .election-app .take-home-message .thm-assignment-field-name{display:block}
+ .election-app .take-home-message .thm-assignment-field-label{display:none}
+ .election-app .take-home-message .thm-assignment-field select{width:100%;min-height:42px;font-size:14px}
+ .election-app .take-home-message .thm-assignment-desktop-hint{display:none}
+ .election-app .take-home-message .thm-assignment-mobile-hint{display:inline}
+ .election-app .take-home-message .thm-assignment-intro h3{font-size:18px}
+}
+@media(max-width:350px){
+ .election-app .take-home-message .thm-assignment-card .party-logo{width:62px;flex-basis:62px;height:36px}
+ .election-app .take-home-message .thm-assignment-card .thm-party-seats{font-size:19px}
+}
+@media print{
+ .election-app .take-home-message .thm-assignment-field,.election-app .take-home-message .thm-assignment-status,.election-app .take-home-message .thm-assignment-intro p{display:none}
+ .election-app .take-home-message .thm-assignment-card{cursor:default;break-inside:avoid}
+}

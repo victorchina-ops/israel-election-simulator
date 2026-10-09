@@ -1,0 +1,23 @@
+.sn-institutes,.sn-diagnostics{min-width:0;direction:rtl;text-align:right}
+.sn-toolbar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;font-size:14px}
+.sn-caption{font-size:14px;line-height:1.85;margin:8px 0 14px;color:var(--secondary)}
+.sn-credit{display:block;font-size:14px;line-height:1.85;margin:8px 0}
+.sn-credit a{color:var(--accent,#2378cf);text-underline-offset:3px}
+.sn-institute-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.sn-institute{min-width:0;border:1px solid var(--border);border-radius:10px;padding:14px 15px}
+.sn-institute.is-excluded{opacity:.68}
+.sn-institute>label{display:flex;align-items:center;gap:9px;cursor:pointer;font-size:14px;line-height:1.7}
+.sn-institute input{width:17px;height:17px;flex-shrink:0;accent-color:var(--accent,#2378cf)}
+.sn-coverage{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:14px;line-height:1.8;padding:10px 12px;background:var(--muted);border-radius:8px}
+.sn-details{border-top:1px solid var(--border);padding-top:12px;margin-top:12px;font-size:14px}
+.sn-details>summary{cursor:pointer;line-height:1.8}
+.sn-table-scroll{max-width:100%;overflow-x:auto;margin-top:12px}
+.sn-table{width:100%;min-width:530px;border-collapse:collapse;font-size:14px}
+.sn-table th,.sn-table td{text-align:right;padding:10px 12px;border-bottom:1px solid var(--border);white-space:nowrap}
+.sn-table th:first-child{white-space:normal;min-width:125px}
+.sn-diagnostics{margin-top:14px}
+.sn-method-choice{border-inline-start:3px solid var(--accent,#2378cf);padding-inline-start:14px;margin:12px 0 20px}
+.sn-coverage-warning{padding:10px 12px;border-inline-start:3px solid var(--accent,#2378cf);background:var(--muted);border-radius:6px}
+.sn-details summary:focus-visible,.sn-table-scroll:focus-visible,.sn-institute input:focus-visible{outline:2px solid var(--accent,#2378cf);outline-offset:3px}
+@media(max-width:760px){.sn-institute-grid{grid-template-columns:1fr}.sn-coverage{display:block}.sn-coverage span{display:block}}
+@media print{.sn-toolbar button{display:none}.sn-institute{break-inside:avoid}}

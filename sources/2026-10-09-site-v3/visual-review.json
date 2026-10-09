@@ -1,0 +1,49 @@
+{
+  "conclusion": "PASS",
+  "reviewedAtDate": "2026-10-09",
+  "buildSha256": "b948faff836a4441dd9baa9bfbeb575b02de9549039ed5d40d50a70ab57a4fbb",
+  "authoredStylesSha256": "7d29d053ad2b6fb35c9619ce98f4f4e9aea150e8bc40b6a4d034b82d80cf6cd9",
+  "scope": "Independent visual and usability review of About, dashboard, visible primary controls, and directly editable party results. Functional/data regression and remaining five tabs have separate root QA.",
+  "renderEvidence": "review/final-render-b948faff/geometry.json",
+  "screenWidths": [1440, 390, 320],
+  "themesInspected": ["light", "dark"],
+  "horizontalOverflow": false,
+  "browserErrors": [],
+  "inspectedScreenshots": [
+    "review/final-render-b948faff/1440-about.png",
+    "review/final-render-b948faff/390-about.png",
+    "review/final-render-b948faff/1440-quick-controls.png",
+    "review/final-render-b948faff/390-quick-controls.png",
+    "review/final-render-b948faff/320-party-board.png",
+    "review/final-render-b948faff/dark-about.png",
+    "review/final-render-b948faff/dark-dashboard.png"
+  ],
+  "verifiedOutcomes": [
+    "Original author portrait, name, contact, explanatory passages, source links and credits are visible in About.",
+    "About has one clearly styled primary start action and secondary source action.",
+    "Ask ChatGPT is absent from the inspected UI; a visible light/dark action remains in the top bar.",
+    "Six independent primary scenario controls are above the results and visible without opening a disclosure.",
+    "Full scenario controls are spread into separately titled panels; only supplementary detailed explanations/settings use disclosures.",
+    "Forecast mean mandates and probability of a 61-seat majority have distinct labels and visual hierarchy.",
+    "Party names and logos remain readable, with direct native assignment selects and optional drag behavior.",
+    "Coalition, unassigned and opposition columns keep continuous separate visual groups, in right/center/left order on desktop.",
+    "At 320px party cards switch to complete compact rows, preventing selected bloc labels from truncating.",
+    "Dark theme uses lighter bloc metric colors and readable neutral text.",
+    "Quick turnout is displayed as 53.2%, rather than long unsupported-looking decimal precision; this is presentation only. Exact-baseline and unchanged-blur behavior is separately verified in control tests."
+  ],
+  "resolvedFindings": [
+    "Collapsed V2 settings were difficult to discover: now visible panels and top quick controls.",
+    "Primary controls were initially below the full party board: quick controls were moved above results.",
+    "Duplicate settings heading was removed.",
+    "About section spacing and mobile author/contact layout were tightened.",
+    "Dark bloc colors and unassigned metric colors were improved for readability.",
+    "320px native select selected labels were truncated: compact complete rows resolve this.",
+    "Quick turnout showed 53.1642655965%: one-decimal presentation resolves this without changing model input."
+  ],
+  "unresolvedFindings": [],
+  "limitations": [
+    "This is an expert visual review, not a study with representative naive users.",
+    "Element screenshots may contain the persistent shell during automated scroll; full-page screenshots are the authoritative layout evidence.",
+    "No poll data, statistical calculations or protected runtime files were edited by the visual reviewer."
+  ]
+}

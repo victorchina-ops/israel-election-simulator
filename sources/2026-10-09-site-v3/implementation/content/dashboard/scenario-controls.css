@@ -1,0 +1,45 @@
+.scenario-controls{min-width:0;direction:rtl;margin:20px 0 28px}
+.scenario-controls__heading{display:flex;align-items:center;justify-content:space-between;gap:16px;margin:0 0 16px}
+.scenario-controls__heading h2{margin:0 0 5px;font-size:22px;line-height:1.35;letter-spacing:-.02em;color:var(--text)}
+.scenario-controls__scope{margin:0;font-size:14px;line-height:1.6;color:var(--secondary);max-width:800px}
+.scenario-controls__live{display:inline-flex;align-items:center;gap:7px;flex-shrink:0;font-size:12px;color:var(--secondary);padding:7px 10px;border:1px solid var(--border);border-radius:999px;background:var(--surface,var(--card))}
+.scenario-controls__live>span{width:7px;height:7px;border-radius:50%;background:#27976b}
+.scenario-controls__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;align-items:start}
+.scenario-controls--spread .scenario-controls__panel{min-width:0;border:1px solid var(--border);border-radius:16px;padding:18px;background:var(--card,var(--background));max-height:none;overflow:visible;margin:0;box-shadow:0 6px 24px #101f3807}
+.scenario-controls--spread .scenario-controls__panel-heading{display:flex;align-items:flex-start;justify-content:flex-start;gap:10px;margin-bottom:8px}
+.scenario-controls--spread .scenario-controls__panel-heading h3{margin:0 0 4px;font-size:18px;line-height:1.45;font-weight:750;color:var(--text)}
+.scenario-controls__number{display:grid;place-items:center;flex:none;font-size:12px;font-weight:750;font-variant-numeric:tabular-nums;width:31px;height:31px;border-radius:9px;color:var(--accent,#2378cf);background:color-mix(in srgb,var(--accent,#2378cf) 10%,var(--card,var(--background)))}
+.scenario-controls__description{margin:0;font-size:13px;line-height:1.6;color:var(--secondary);overflow-wrap:anywhere}
+.scenario-controls--spread .scenario-controls__value{font-size:12px;line-height:1.65;font-weight:600;color:var(--text);overflow-wrap:anywhere;background:var(--surface,var(--background));border-radius:7px;padding:7px 9px;margin:10px 0 16px}
+.scenario-controls__content{min-width:0}
+.scenario-controls__features{display:grid;grid-template-columns:1fr;gap:10px;align-items:stretch;margin-bottom:16px}
+.scenario-controls__channel14,.scenario-controls__poll-correlation{display:flex;flex-direction:column;gap:6px;min-width:0;padding:12px;border:1px solid var(--border);border-radius:10px;background:var(--surface,var(--background))}
+.scenario-controls__channel14[data-channel14-enabled="true"],.scenario-controls__poll-correlation[data-poll-correlation-enabled="true"]{border-color:var(--accent,#2378cf);background:color-mix(in srgb,var(--accent,#2378cf) 6%,var(--card,var(--background)))}
+.scenario-controls__channel14-heading,.scenario-controls__poll-correlation-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;min-width:0}
+.scenario-controls__channel14-state,.scenario-controls__poll-correlation-state{font-size:11px;font-weight:650;white-space:nowrap;color:var(--secondary);border:1px solid var(--border);border-radius:20px;padding:3px 7px;line-height:1.3}
+.scenario-controls__channel14[data-channel14-enabled="true"] .scenario-controls__channel14-state,.scenario-controls__poll-correlation[data-poll-correlation-enabled="true"] .scenario-controls__poll-correlation-state{color:var(--accent,#2378cf)}
+.scenario-controls__channel14-description,.scenario-controls__poll-correlation-description{margin:0;font-size:12px;line-height:1.7;color:var(--secondary);overflow-wrap:anywhere}
+.scenario-controls__feature-note{font-size:12px;line-height:1.7;color:var(--secondary)}
+.scenario-controls__feature-note summary{cursor:pointer;padding:5px 0;color:var(--accent,#2378cf)}
+.scenario-controls__feature-note p{margin:4px 0}
+.scenario-controls .weighting-control__primary{grid-template-columns:1fr;gap:10px}
+.scenario-controls .weighting-control__description{font-size:13px;line-height:1.7}
+.scenario-controls .weighting-control__mixture,.scenario-controls .weighting-control__parameter-grid{grid-template-columns:1fr}
+.scenario-controls .weighting-control__details>summary{font-size:14px}
+.scenario-controls .weighting-control__details>summary>span{display:block;margin-inline-start:18px;font-size:12px}
+.scenario-controls .e-lever{margin:8px 0 14px}
+.scenario-controls .e-lever .step-control{max-width:100%}
+.scenario-controls .e-motivation-controls{padding:0 0 12px;border-bottom:1px solid var(--border)}
+.scenario-controls .e-motivation-controls h3,.scenario-controls .e-turnout-groups-heading{font-size:16px;margin:12px 0}
+.scenario-controls .e-motivation-grid{display:grid;grid-template-columns:1fr;gap:10px;margin:12px 0}
+.scenario-controls .e-motivation-control{min-width:0;padding:10px;border:1px solid var(--border);border-inline-start:3px solid var(--motivation-color);border-radius:9px;background:var(--surface)}
+.scenario-controls .e-motivation-control[data-motivation-bloc="a"]{--motivation-color:var(--e-coalition,#dc454c)}
+.scenario-controls .e-motivation-control[data-motivation-bloc="b"]{--motivation-color:var(--e-opposition,#2378cf)}
+.scenario-controls .e-motivation-control .data-slider-label{font-weight:700}
+.scenario-controls .e-motivation-other summary{font-size:14px;cursor:pointer}
+.scenario-controls .e-motivation-other .step-control{margin-top:12px;max-width:100%}
+.scenario-controls .e-caption{font-size:12px;line-height:1.7}
+.scenario-controls summary:focus-visible{outline:2px solid var(--accent,#2378cf);outline-offset:3px;border-radius:3px}
+@media(max-width:1050px){.scenario-controls__grid{grid-template-columns:repeat(2,minmax(0,1fr))}.scenario-controls__panel[data-scenario-control="turnout"]{grid-column:1/-1}.scenario-controls .e-motivation-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.scenario-controls__grid{grid-template-columns:1fr;gap:12px}.scenario-controls__panel[data-scenario-control="turnout"]{grid-column:auto}.scenario-controls__heading{align-items:flex-start;flex-direction:column;gap:10px}.scenario-controls__heading h2{font-size:20px}.scenario-controls--spread .scenario-controls__panel{padding:14px}.scenario-controls .e-motivation-grid{grid-template-columns:1fr}}
+@media print{.scenario-controls{display:none}}

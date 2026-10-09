@@ -1,0 +1,230 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791/",
+  "checks": [
+    "Fresh-visits-open-About-with-original-loaded-photo-and-author-copy",
+    "AskChatGPT-absent-and-light-dark-toggle-persists-on-reload",
+    "Default10k-results-exactly-match-published-V2",
+    "All-three-settings-panels-and-independent-switches-visible-without-opening",
+    "Quick-controls-precede-results-and-change-the-same-shared-configuration",
+    "Native-party-select-and-desktop-drag-move-exclusive-membership-with-120-total",
+    "Independent-switches-persist-across-all-seven-tabs",
+    "Canceled-feature-stays-disabled-on-import-and-PNG-CSV-JSON-export-works",
+    "All-seven-pages-without-horizontal-overflow-at1440-390-320-and-mobile-dark",
+    "Explicit-tab-links-preserved"
+  ],
+  "geometry": [
+    {
+      "label": "fresh-about",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 1903
+    },
+    {
+      "label": "shared-state-about",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 1903
+    },
+    {
+      "label": "shared-state-dashboard",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6134
+    },
+    {
+      "label": "shared-state-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6053
+    },
+    {
+      "label": "shared-state-poll-trends",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 8153
+    },
+    {
+      "label": "shared-state-seat-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4348
+    },
+    {
+      "label": "shared-state-poll-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6033
+    },
+    {
+      "label": "shared-state-method-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 5185
+    },
+    {
+      "label": "1440-about",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 1903
+    },
+    {
+      "label": "1440-dashboard",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6134
+    },
+    {
+      "label": "1440-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6053
+    },
+    {
+      "label": "1440-poll-trends",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 8351
+    },
+    {
+      "label": "1440-seat-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4348
+    },
+    {
+      "label": "1440-poll-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6033
+    },
+    {
+      "label": "1440-method-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 5185
+    },
+    {
+      "label": "390-about",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 3163
+    },
+    {
+      "label": "390-dashboard",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 10233
+    },
+    {
+      "label": "390-probabilities",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 10627
+    },
+    {
+      "label": "390-poll-trends",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 13759
+    },
+    {
+      "label": "390-seat-probabilities",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 7163
+    },
+    {
+      "label": "390-poll-data",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 8820
+    },
+    {
+      "label": "390-method-data",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 9668
+    },
+    {
+      "label": "320-about",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 3596
+    },
+    {
+      "label": "320-dashboard",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 12259
+    },
+    {
+      "label": "320-probabilities",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 12162
+    },
+    {
+      "label": "320-poll-trends",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 15683
+    },
+    {
+      "label": "320-seat-probabilities",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 8600
+    },
+    {
+      "label": "320-poll-data",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 10147
+    },
+    {
+      "label": "320-method-data",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 11213
+    },
+    {
+      "label": "390-dashboard-dark",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 10233
+    }
+  ],
+  "errors": [],
+  "checkedAt": "2026-10-09T13:51:38.645Z"
+}

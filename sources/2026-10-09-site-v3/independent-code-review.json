@@ -1,0 +1,113 @@
+{
+  "conclusion": "PASS",
+  "reviewType": "Independent final code review of integrated Version 3; party interactions were authored by this reviewer earlier, integration and other controls independently inspected",
+  "reviewedAt": "2026-10-09T13:52:41.863761+00:00",
+  "findings": [],
+  "checks": [
+    {
+      "check": "Fresh About navigation and existing deep links",
+      "result": "PASS",
+      "evidence": "Seven direct helper cases passed: fresh/version+view visits start About; explicit tab IDs and chart/component permalink paths are preserved. Initial redirect ref clears once About is active; all original tab IDs remain."
+    },
+    {
+      "check": "Ask ChatGPT removal and appearance control",
+      "result": "PASS",
+      "evidence": "features.chatGPT=false is consumed by the unchanged copied DataAppShell/DataAppChrome. The copied source build honors this supported metadata flag; no DOM hiding or protected edits. Local browser QA confirms Ask is absent and light/dark persists on reload."
+    },
+    {
+      "check": "Exclusive direct party assignment",
+      "result": "PASS",
+      "evidence": "Native selects and validated drag payloads call the same assignPartyToBloc helper through the root functional config setter. Each party has one a/b/other value; unknown and non-ballot drag IDs are rejected. Local browser exported moves and simulation checks retain 120 seats per world."
+    },
+    {
+      "check": "Shared quick/full controls preserve chosen scenario",
+      "result": "PASS",
+      "evidence": "Quick controls patch existing parent config; nested turnout/motivation maps preserve other values. Full controls use the same change setter, independently toggle Channel 14 and similarity, and persist across all seven tabs."
+    },
+    {
+      "check": "Original About identity and explanations",
+      "result": "PASS",
+      "evidence": "Original portrait asset, author name/contact and explanatory passages restored in About; source/credit links retained, model majority distinguished from government formation."
+    },
+    {
+      "check": "Numerical and source preservation",
+      "result": "PASS",
+      "evidence": "19 raw source JSON files byte unchanged; reviewed query rows unchanged; 20 numerical collections including all 10,000 worlds exactly match published Version 2. Model source files also byte unchanged."
+    },
+    {
+      "check": "Retired experiment blocked",
+      "result": "PASS",
+      "evidence": "Root setter and import normalize signalNoiseEnabled=false and map legacy signal_noise mode before simulation; old imports have a visible removal notice and preserve other settings."
+    },
+    {
+      "check": "Protected copied runtime",
+      "result": "PASS",
+      "evidence": "Protected manifest matches frozen pre-Version-3 hash; all 234 protected files match it. Source build uses those verified copies; no compiler/runtime changes."
+    },
+    {
+      "check": "Keyboard assignment and drop guardrail in local browser",
+      "result": "PASS",
+      "evidence": "Native ArrowDown, End and Home move Likud between all three groups, preserve one card and return focus to the moved field at390px; an unknown app drag payload leaves membership unchanged. Receipt: review/keyboard-assignment.json."
+    },
+    {
+      "check": "Display-only turnout precision",
+      "result": "PASS",
+      "evidence": "Reviewed optional StepControl displayPrecision and its use in QuickScenarioControls. Printed53.2% retains source value53.1642655457856 in current/model and aria-valuenow. Untouched blur/Enter do not publish; arrow steps start from precise currentRef; intentional edits publish. Six combined precision/quick-control tests passed."
+    }
+  ],
+  "publicationPrecondition": "Satisfied: final snapshot buildStatus is complete and parent rebuilt the verified copied source runtime.",
+  "appId": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+  "sourceDataFileCount": 19,
+  "unchangedModelFiles": [
+    "dashboard/src/content/dashboard/model/allocate.js",
+    "dashboard/src/content/dashboard/model/forecast.js",
+    "dashboard/src/content/dashboard/model/poll-correlation.js",
+    "dashboard/src/content/dashboard/model/poll-selection-policy.js",
+    "dashboard/src/content/dashboard/model/random.js",
+    "dashboard/src/content/dashboard/model/reconstruct.js",
+    "dashboard/src/content/dashboard/model/signal-noise-method.md",
+    "dashboard/src/content/dashboard/model/signal-noise.js",
+    "dashboard/src/content/dashboard/model/simulate.js",
+    "dashboard/src/content/dashboard/model/turnout.js",
+    "dashboard/src/content/dashboard/model/weights.js"
+  ],
+  "protectedManifestSha256": "1be7ba9b39bd9256ea1ed551c821ac50d0eec8ad414138eb753dd9cbb9ac83ad",
+  "protectedFileCount": 234,
+  "sourceHashes": {
+    "dashboard/src/content/dashboard/DashboardContent.jsx": "f727c3d2e5ac0513c0521e284c54b42d433079c785b8af571fdcd5ec55f6ac10",
+    "dashboard/src/content/dashboard/site-navigation.js": "8fcbb68b9b9e99d8225de3e5b5cd55e054df3f7da8271eb2e209f808019ffb94",
+    "dashboard/src/content/dashboard/ScenarioControls.jsx": "c4cdec4e79b7770f7cc0558166d4bbf2a4a2e8876b7f8e829ea76702a028bbe8",
+    "dashboard/src/content/dashboard/QuickScenarioControls.jsx": "63900cd0949d01164c5864ea6d8fc50b8f84fe470328d0c21f71147be5ec158f",
+    "dashboard/src/content/dashboard/AboutPage.jsx": "5185dec06990aecd190acea0cd92043cc001cc990357695b6ad3dcf9065721d8",
+    "dashboard/src/content/dashboard/TakeHomeMessage.jsx": "6ee696fe920c34ada63645c728494f05f7506799cde139e4477d0a1f5f9f40a1",
+    "dashboard/src/content/dashboard/result-party-assignment.js": "ae62c4a78e08003b23a555c771cd04babbea0a186a6555e5b60ee58fdc476a9b",
+    "dashboard/src/content/dashboard/BlocSettings.jsx": "d3c1ea26ad4e2d964e14844f41c3eafbae1fdacd1041519f810829732dd7baaf",
+    "dashboard/src/content/dashboard/bloc-presets.js": "285bad06685da2f128681412127419a500a61dfb99a039d6da421a173fa04c88",
+    "dashboard/src/content/dashboard/site-scenario-policy.js": "b032237129bb60e633e7d5382accf7fa7b16bc70f03075532534524870fb426f",
+    "dashboard/src/content/dashboard/site-v3.css": "7d29d053ad2b6fb35c9619ce98f4f4e9aea150e8bc40b6a4d034b82d80cf6cd9",
+    "dashboard/src/theme.css": "57af949c413db1d5d6646a464883dd2746e7be4e5e3b67b6ef7b326081fac439",
+    "dashboard/src/DataAppShell.jsx": "d9f0ff300545f3001d5887c84bf629ea7619c18aee449037f9b39a4573231955",
+    "dashboard/src/components/DataAppChrome.jsx": "4a44a60787ee9c3deb8311b02dddd14d4d325393c50f354ce39767c3792324d7",
+    "tests/v3-result-party-assignment.test.mjs": "a68989c826a70cff3d58c5d7aff8a548031cb1c50c5e7b23cdfb4ff13c2d0144",
+    "tests/quick-scenario-controls.test.mjs": "15d0b1d61d4b39ec6b575e017edff45e11a5cf7de52554c67333a470235074f7",
+    "dashboard/src/content/dashboard/StepControl.jsx": "62d237a9bb96b0266f51f75ca32205371d45382324ddd5253dc17bc251ae8ea9",
+    "tests/step-control-display-precision.test.mjs": "08fcd3a83bcba256273f407ee1f28f343f930210657c32c92ceb79ee16e4c093"
+  },
+  "numericalAuditSha256": "ebd779eb375b86accceb6d2280aba5b9467260c380f86e862358e49d2b2404de",
+  "localBrowserQaSha256": "7eeb25cb297fee53de4d4a4f247d8d26b235ac002f9b1bbe63e1d3083894e14c",
+  "focusedTests": {
+    "passed": 18,
+    "failed": 0
+  },
+  "fullTestEvidence": {
+    "passed": 387,
+    "failed": 0,
+    "sha256": "f8efc82b8ef06f6f39389b15df6fea577860a7f69eef59372c903fe6f48647e6"
+  },
+  "finalSnapshotSha256": "8693236755a16c2924c2d3ae5f63927d10e08cd556c6a17ae6a4954cc2eac7eb",
+  "finalCompiledHtmlSha256": "b948faff836a4441dd9baa9bfbeb575b02de9549039ed5d40d50a70ab57a4fbb",
+  "displayPrecisionFocusedTests": {
+    "passed": 6,
+    "failed": 0
+  }
+}

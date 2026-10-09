@@ -1,0 +1,55 @@
+.method-guide{display:grid;gap:22px;min-width:0;color:var(--text);font-size:15px;line-height:1.7}
+.method-guide .mg-heading{display:flex;gap:20px;align-items:center;justify-content:space-between}
+.method-guide .mg-heading h2{font-size:25px;line-height:1.35;margin:0 0 8px}
+.method-guide .mg-heading p{margin:0;color:var(--secondary)}
+.method-guide .mg-version{flex:none;border:1px solid var(--border);border-radius:999px;padding:5px 13px;color:var(--secondary);font-size:13px;font-weight:700}
+.method-guide .mg-facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:18px;margin:8px 0 20px}
+.method-guide .mg-facts>div{min-width:0;border-inline-start:3px solid var(--chart-1,#5599cf);padding-inline-start:14px}
+.method-guide .mg-facts strong{display:block;font-size:25px;line-height:1.4;font-variant-numeric:tabular-nums}
+.method-guide .mg-facts strong small{font-size:16px;font-weight:500;color:var(--secondary)}
+.method-guide .mg-facts span{display:block;font-size:13px;line-height:1.6;color:var(--secondary)}
+.method-guide .mg-note{color:var(--secondary);font-size:14px;line-height:1.7;margin:12px 0}
+.method-guide .mg-note strong{color:var(--text)}
+.method-guide .mg-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.method-guide .mg-pipeline{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:16px;list-style:none;padding:0;margin:6px 0 0}
+.method-guide .mg-pipeline>li{min-width:0;padding:16px 14px;border:1px solid var(--border);border-radius:14px;background:var(--surface-2,var(--data-card-background))}
+.method-guide .mg-step-number{display:grid;place-items:center;background:light-dark(#daeafb,#243e58);color:var(--text);border-radius:50%;width:32px;height:32px;font-size:16px;font-weight:700;margin-bottom:14px}
+.method-guide .mg-pipeline h3{font-size:16px;line-height:1.6;margin:0 0 10px}
+.method-guide .mg-pipeline p{font-size:14px;margin:8px 0;line-height:1.75}
+.method-guide .mg-pipeline details{margin-top:15px;padding-top:8px;border-top:1px solid var(--border)}
+.method-guide .mg-pipeline summary{font-size:13px;font-weight:600;cursor:pointer;min-height:36px;align-content:center}
+.method-guide .mg-reading-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;align-items:stretch}
+.method-guide .mg-definitions{margin:12px 0;display:grid;gap:16px}
+.method-guide .mg-definitions>div{border-inline-start:2px solid var(--border);padding-inline-start:14px}
+.method-guide .mg-definitions dt{font-size:15px;font-weight:700;margin-bottom:4px}
+.method-guide .mg-definitions dd{margin:0;font-size:14px;color:var(--secondary);line-height:1.75}
+.method-guide .mg-detail{border-top:1px solid var(--border);margin-top:18px;padding-top:10px}
+.method-guide .mg-detail summary{cursor:pointer;font-weight:650;min-height:40px;align-content:center;font-size:14px}
+.method-guide .mg-detail p{font-size:14px;color:var(--secondary)}
+.method-guide .mg-disclosure{min-width:0;border:1px solid var(--border);border-radius:12px;background:var(--data-card-background);overflow:visible}
+.method-guide .mg-disclosure>summary{cursor:pointer;padding:17px 20px;font-size:15px;font-weight:650;min-height:48px;box-sizing:border-box}
+.method-guide .mg-disclosure[open]>summary{border-bottom:1px solid var(--border)}
+.method-guide .mg-disclosure-body{padding:6px 20px 18px;font-size:14px}
+.method-guide .mg-disclosure-body li{margin:12px 0}
+.method-guide .mg-disclosure-body ul{padding-inline-start:22px}
+.method-guide .mg-sources{list-style:none;padding:0;margin:8px 0}
+.method-guide .mg-sources>li{display:grid;grid-template-columns:minmax(130px,1.2fr) minmax(160px,1.3fr) minmax(150px,1fr) auto;gap:14px;align-items:center;padding:16px 0;border-bottom:1px solid var(--border);font-size:14px}
+.method-guide .mg-sources>li:last-child{border-bottom:0}
+.method-guide .mg-sources span,.method-guide .mg-author span{display:block;color:var(--secondary);line-height:1.7}
+.method-guide a{color:var(--text);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+.method-guide .mg-author{display:flex;align-items:center;gap:16px;margin:18px 0 22px}
+.method-guide .mg-author img{width:72px;height:72px;border-radius:50%;object-fit:cover;flex:none}
+.method-guide .mg-author strong{font-size:17px}
+.method-guide .mg-credits{display:grid;grid-template-columns:1fr 1fr;gap:12px 26px;list-style:none;padding:0!important}
+.method-guide .mg-credits li{margin:0;min-width:0}
+.method-guide .mg-credits a{font-weight:700}
+.method-guide .mg-credits span{display:block;color:var(--secondary);margin-top:4px}
+.method-guide summary:focus-visible,.method-guide a:focus-visible,.method-guide button:focus-visible{outline:2px solid var(--chart-1,#3476a9);outline-offset:3px;border-radius:3px}
+.transparency-page .mg-comparison-summary{margin:0;font-size:14px;color:var(--secondary)}
+.transparency-page .mg-comparison-details{min-width:0;border:1px solid var(--border);border-radius:12px;background:var(--data-card-background)}
+.transparency-page .mg-comparison-details>summary{font-weight:650;cursor:pointer;padding:17px 20px;min-height:48px;box-sizing:border-box;font-size:15px}
+.transparency-page .mg-comparison-details[open]>summary{border-bottom:1px solid var(--border);margin-bottom:12px}
+.transparency-page .mg-comparison-body{display:grid;gap:20px;padding:0 16px 16px;min-width:0}
+@media(max-width:1150px){.method-guide .mg-pipeline{grid-template-columns:repeat(3,minmax(0,1fr))}.method-guide .mg-reading-grid{grid-template-columns:1fr}.method-guide .mg-facts strong{font-size:22px}}
+@media(max-width:760px){.method-guide .mg-facts{grid-template-columns:repeat(2,minmax(0,1fr))}.method-guide .mg-pipeline{grid-template-columns:repeat(2,minmax(0,1fr))}.method-guide .mg-sources>li{grid-template-columns:1fr 1fr}.method-guide .mg-credits{grid-template-columns:1fr}.method-guide .mg-heading h2{font-size:22px}}
+@media(max-width:460px){.method-guide{gap:16px}.method-guide .mg-pipeline{grid-template-columns:1fr}.method-guide .mg-pipeline>li{padding:15px}.method-guide .mg-facts{gap:16px 12px}.method-guide .mg-facts strong{font-size:20px}.method-guide .mg-sources>li{grid-template-columns:1fr;gap:8px}.method-guide .mg-heading{gap:10px}.method-guide .mg-version{font-size:12px;padding:4px 8px}.method-guide .mg-disclosure>summary,.transparency-page .mg-comparison-details>summary{padding:15px}.transparency-page .mg-comparison-body{padding:0 10px 10px}}

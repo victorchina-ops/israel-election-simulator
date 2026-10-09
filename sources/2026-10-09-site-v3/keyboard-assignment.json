@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "viewport": 390,
+  "checks": [
+    "Native-keyboard-ArrowDown-End-Home-move-membership",
+    "Focus-follows-moved-native-field",
+    "Exactly-one-card-for-moved-party",
+    "Unknown-drop-payload-is-ignored"
+  ],
+  "checkedAt": "2026-10-09T13:47:28.721Z"
+}

@@ -1,0 +1,30 @@
+.survey-document-review{min-width:0;color:var(--text);font-size:18px;line-height:1.65}
+.survey-document-review .sdr-toolbar{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px 20px;margin-block:4px 14px}
+.survey-document-review .sdr-toolbar p,.survey-document-review .sdr-intro{margin:0}
+.survey-document-review .sdr-intro{margin-block-end:18px;color:var(--secondary)}
+.survey-document-review .sdr-reports{display:grid;gap:12px;min-width:0}
+.survey-document-review .sdr-report{min-width:0;border:1px solid var(--border);border-radius:12px;background:var(--data-card-background)}
+.survey-document-review .sdr-report>summary{cursor:pointer;padding:14px 18px;list-style-position:inside;border-radius:11px;font-size:18px}
+.survey-document-review .sdr-report>summary::marker{color:var(--secondary)}
+.survey-document-review .sdr-report>summary:hover{background:color-mix(in srgb,var(--text) 5%,transparent)}
+.survey-document-review .sdr-report>summary:focus-visible,.survey-document-review .sdr-scroll:focus-visible{outline:2px solid var(--chart-1);outline-offset:3px}
+.survey-document-review .sdr-report-title{display:inline-flex;flex-wrap:wrap;align-items:baseline;gap:5px 18px;max-width:100%;vertical-align:middle}
+.survey-document-review .sdr-report-title strong{font-size:20px}
+.survey-document-review .sdr-report-title>span{color:var(--secondary);font-size:17px}
+.survey-document-review .sdr-status{display:inline-block;max-width:100%;margin:7px 16px 3px 0;padding:3px 10px;border-radius:7px;font-size:16px;font-weight:600;vertical-align:middle}
+.survey-document-review .sdr-current{background:light-dark(#ebe5fa,#362b4a);color:light-dark(#50337f,#dacafa)}
+.survey-document-review .sdr-archive{background:light-dark(#eef0f2,#303338);color:var(--secondary)}
+.survey-document-review .sdr-report-content{padding:0 18px 18px;min-width:0;overflow-wrap:anywhere}
+.survey-document-review .sdr-report-content>p{margin-block:12px}
+.survey-document-review .sdr-source{display:flex;justify-content:space-between;align-items:baseline;flex-wrap:wrap;gap:6px 20px;color:var(--secondary);font-size:17px}
+.survey-document-review .sdr-source a{color:var(--text);text-decoration:underline;text-underline-offset:3px}
+.survey-document-review .sdr-source-table{margin-block-start:24px;min-width:0}
+.survey-document-review .sdr-source-table h3{font-size:19px;line-height:1.5;margin:0 0 10px}
+.survey-document-review .sdr-source-table h3 span{color:var(--secondary);font-size:16px;font-weight:400}
+.survey-document-review .sdr-scroll{min-width:0;max-width:100%;overflow:auto;overscroll-behavior-inline:contain;border:1px solid var(--border);border-radius:8px}
+.survey-document-review .sdr-scroll table{width:100%;border-collapse:collapse;text-align:right;font-size:17px;font-variant-numeric:tabular-nums}
+.survey-document-review th,.survey-document-review td{font-size:inherit;padding:10px 14px;min-width:110px;border-block-end:1px solid var(--border);vertical-align:middle}
+.survey-document-review thead th{background:color-mix(in srgb,var(--text) 6%,var(--data-card-background));font-weight:600}
+.survey-document-review tbody th{min-width:225px;font-weight:500}
+.survey-document-review tbody tr:last-child>*{border-block-end:0}
+@media(max-width:650px){.survey-document-review{font-size:17px}.survey-document-review .sdr-toolbar{align-items:stretch}.survey-document-review .sdr-toolbar>*{max-width:100%}.survey-document-review .sdr-report>summary{padding:12px;font-size:17px}.survey-document-review .sdr-report-title strong{font-size:19px}.survey-document-review .sdr-report-title>span{font-size:16px}.survey-document-review .sdr-status{margin-inline:0;font-size:15px}.survey-document-review .sdr-report-content{padding:0 12px 14px}.survey-document-review th,.survey-document-review td{padding:9px 11px}.survey-document-review tbody th{min-width:190px}}
