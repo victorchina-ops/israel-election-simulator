@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "dataFilesUnchanged": 573,
+  "priorEvidenceFilesUnchanged": 768,
+  "queryRowCollectionsUnchanged": 21,
+  "protectedRuntimeManifestUnchanged": true,
+  "appIdUnchanged": true,
+  "independentReview": "PASS: shared handler, preserved settings, keyboard/focus and responsive button; no findings",
+  "localBrowserChecks": [
+    "Default forecast exactly matches prior published results",
+    "Top reset restores all participation groups, bloc motivation and external multiplier; preserves every other scenario setting",
+    "Existing lower reset remains available and produces the same configuration",
+    "Reset remains visible and keyboard operable at desktop/mobile sizes and both themes, with no horizontal overflow",
+    "Shared quick reset is available on another forecast tab"
+  ]
+}

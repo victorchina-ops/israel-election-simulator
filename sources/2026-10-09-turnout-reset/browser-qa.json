@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791/",
+  "checks": [
+    "Default forecast exactly matches prior published results",
+    "Top reset restores all participation groups, bloc motivation and external multiplier; preserves every other scenario setting",
+    "Existing lower reset remains available and produces the same configuration",
+    "Reset remains visible and keyboard operable at desktop/mobile sizes and both themes, with no horizontal overflow",
+    "Shared quick reset is available on another forecast tab"
+  ],
+  "geometry": [
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "button": {
+        "x": 32,
+        "y": 328.046875,
+        "width": 230.71875,
+        "height": 44
+      }
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "button": {
+        "x": 128.28125,
+        "y": 446.640625,
+        "width": 230.71875,
+        "height": 44
+      }
+    },
+    {
+      "width": 320,
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "button": {
+        "x": 58.28125,
+        "y": 208.390625,
+        "width": 230.71875,
+        "height": 44
+      }
+    }
+  ],
+  "errors": [],
+  "checkedAt": "2026-10-09T14:13:30.477Z"
+}

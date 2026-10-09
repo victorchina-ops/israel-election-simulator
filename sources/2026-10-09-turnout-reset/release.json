@@ -1,0 +1,55 @@
+{
+  "uiUpdate": "quick-participation-reset",
+  "siteVersion": 3,
+  "newPollCount": 0,
+  "appId": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+  "snapshotSha256": "134b34d9f9e11f0e20cf06e469919b8402b448be50411153252ed7545cddc105",
+  "compiledHtmlSha256": "4a225500d3c973fc128620d562fca1f0cf4c91d9cdb9ec527ad9103d62b13b4f",
+  "publishedHtmlSha256": "3bb4a80bb2b3407b933ff4731813115772617db8e1aa8195c87e7ed820b081e3",
+  "audit": {
+    "status": "PASS",
+    "dataFilesUnchanged": 573,
+    "priorEvidenceFilesUnchanged": 768,
+    "queryRowCollectionsUnchanged": 21,
+    "protectedRuntimeManifestUnchanged": true,
+    "appIdUnchanged": true,
+    "independentReview": "PASS: shared handler, preserved settings, keyboard/focus and responsive button; no findings",
+    "localBrowserChecks": [
+      "Default forecast exactly matches prior published results",
+      "Top reset restores all participation groups, bloc motivation and external multiplier; preserves every other scenario setting",
+      "Existing lower reset remains available and produces the same configuration",
+      "Reset remains visible and keyboard operable at desktop/mobile sizes and both themes, with no horizontal overflow",
+      "Shared quick reset is available on another forecast tab"
+    ]
+  },
+  "files": [
+    {
+      "path": "audit.json",
+      "sha256": "4ff168dc68cff02c69c7a40d670464ebc9c1f1e8c72eb8b7565b9e2a65f297b2"
+    },
+    {
+      "path": "browser-qa.json",
+      "sha256": "0ea73827ef6f5b4a5cf94f48fd6c0deb7ba6048d611e6954a9eb9b2691a1ce5a"
+    },
+    {
+      "path": "implementation/DashboardContent.jsx",
+      "sha256": "59d1495c787d450e2fb095d5fd62b12bb86c8584ccc333e4227312daa3d27339"
+    },
+    {
+      "path": "implementation/quick-scenario-controls.css",
+      "sha256": "9dd580277b6f8c5c86efb9b0a80621bac395fb3634c7ec110a8424b6f4736d5c"
+    },
+    {
+      "path": "implementation/QuickScenarioControls.jsx",
+      "sha256": "8ffa88e29e205bdba5e391e6359a8d47243ce374c4c5e8bf5588b8240c6bf10f"
+    },
+    {
+      "path": "reproduction/browser-turnout-reset-qa.mjs",
+      "sha256": "47254a1b4673d7816a27d821b0fffc6bffeae30150161ca66a95422a317df1d7"
+    },
+    {
+      "path": "reproduction/package-turnout-reset-2026-10-09.py",
+      "sha256": "c55797527de1a1cc547b22222473d07c29b3dfb66f32c8593243339c8da1135d"
+    }
+  ]
+}
