@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "dataFilesUnchanged": 573,
+  "priorEvidenceFilesUnchanged": 776,
+  "oldQueryRowValuesUnchanged": true,
+  "addedSummaryField": "thresholdJoint",
+  "oldFullSimulationResultsUnchangedExceptGeneratedAt": true,
+  "jointOutcomeTotal": 10000,
+  "usesAllTrialsExactAllocatorVerdicts": true,
+  "assumesIndependentPartyOutcomes": false,
+  "protectedRuntimeManifestUnchanged": true,
+  "appIdUnchanged": true,
+  "independentCodeReview": "PASS, no blocking findings; stale-result robustness concern resolved by setting busy synchronously before config mutation",
+  "testsPassed": 396,
+  "localBrowserChecks": [
+    "Threshold parties are first; full bloc/settings controls absent; unchanged default forecast and complete joint denominator",
+    "Specific party multiselection and both joint event modes match exact same-run calculations; fewer than two gives no probability",
+    "Global weighting, participation and bloc configuration are shared across threshold and dashboard tabs",
+    "Single run shows no joint probability; restoring completed repeated simulation restores the joint result",
+    "Desktop/mobile geometry, both themes, and keyboard checkbox interaction pass"
+  ],
+  "defaultWinterHendelJointFail": {
+    "status": "ready",
+    "count": 3129,
+    "total": 10000,
+    "probability": 0.3129,
+    "ci": [
+      0.3038854634195617,
+      0.3220582287707454
+    ],
+    "distribution": [
+      {
+        "failedCount": 0,
+        "count": 1239,
+        "probability": 0.1239
+      },
+      {
+        "failedCount": 1,
+        "count": 5632,
+        "probability": 0.5632
+      },
+      {
+        "failedCount": 2,
+        "count": 3129,
+        "probability": 0.3129
+      }
+    ],
+    "selectedIds": [
+      "winter",
+      "hendel"
+    ]
+  }
+}

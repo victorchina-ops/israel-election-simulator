@@ -1,0 +1,116 @@
+{
+  "uiUpdate": "threshold-parties-first-and-joint-probability",
+  "siteVersion": 3,
+  "newPollCount": 0,
+  "appId": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+  "snapshotSha256": "c6d8232369f14bcc1bd38874a2bd773ea7468dc3455850a280dc1bf0e3d53d4b",
+  "compiledHtmlSha256": "a370efa94e40661bdcd33ebeb244e7a4f217553436069d5cce47a245529318d5",
+  "publishedHtmlSha256": "f7f56b23fd8629c19143e117d4a81ad92028b8b00c0d52c258116f06ba02fe61",
+  "audit": {
+    "status": "PASS",
+    "dataFilesUnchanged": 573,
+    "priorEvidenceFilesUnchanged": 776,
+    "oldQueryRowValuesUnchanged": true,
+    "addedSummaryField": "thresholdJoint",
+    "oldFullSimulationResultsUnchangedExceptGeneratedAt": true,
+    "jointOutcomeTotal": 10000,
+    "usesAllTrialsExactAllocatorVerdicts": true,
+    "assumesIndependentPartyOutcomes": false,
+    "protectedRuntimeManifestUnchanged": true,
+    "appIdUnchanged": true,
+    "independentCodeReview": "PASS, no blocking findings; stale-result robustness concern resolved by setting busy synchronously before config mutation",
+    "testsPassed": 396,
+    "localBrowserChecks": [
+      "Threshold parties are first; full bloc/settings controls absent; unchanged default forecast and complete joint denominator",
+      "Specific party multiselection and both joint event modes match exact same-run calculations; fewer than two gives no probability",
+      "Global weighting, participation and bloc configuration are shared across threshold and dashboard tabs",
+      "Single run shows no joint probability; restoring completed repeated simulation restores the joint result",
+      "Desktop/mobile geometry, both themes, and keyboard checkbox interaction pass"
+    ],
+    "defaultWinterHendelJointFail": {
+      "status": "ready",
+      "count": 3129,
+      "total": 10000,
+      "probability": 0.3129,
+      "ci": [
+        0.3038854634195617,
+        0.3220582287707454
+      ],
+      "distribution": [
+        {
+          "failedCount": 0,
+          "count": 1239,
+          "probability": 0.1239
+        },
+        {
+          "failedCount": 1,
+          "count": 5632,
+          "probability": 0.5632
+        },
+        {
+          "failedCount": 2,
+          "count": 3129,
+          "probability": 0.3129
+        }
+      ],
+      "selectedIds": [
+        "winter",
+        "hendel"
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "audit.json",
+      "sha256": "6c72eaa6ae59064824e68776c0cd9605cd965b43b1554a7cefb10756840bdc6a"
+    },
+    {
+      "path": "browser-qa.json",
+      "sha256": "40e2bebdd589e55cbdaae4538a47caa50a9ee9547eaddeb915f2e7a7a7d9ff09"
+    },
+    {
+      "path": "full-tests.txt",
+      "sha256": "b05b1851421c53e881086ffe14ec6df41a2e4c4e0bfae48c286a0cf1847fe93c"
+    },
+    {
+      "path": "implementation/DashboardContent.jsx",
+      "sha256": "3413df0d4196d724dcb4349b563a6bccc2afb8f9de5bc3e415e66afc3cae95dd"
+    },
+    {
+      "path": "implementation/joint-threshold-panel.css",
+      "sha256": "dc8017034e9d32dcb0aa6d0c9268ab06f299f2ea6928a15cb530a3930fcba51f"
+    },
+    {
+      "path": "implementation/joint-threshold-probabilities.js",
+      "sha256": "53e704e613b0c0bbf6d038fafe9026099c8af6080efffea4b12b9116d77eee16"
+    },
+    {
+      "path": "implementation/JointThresholdPanel.jsx",
+      "sha256": "892c44489800fb5f53b1a1d3391b003ab510a3f5c2e50f800ecde855ca1c37f7"
+    },
+    {
+      "path": "implementation/model/simulate.js",
+      "sha256": "7321cffeab040f4440d4116693e158de2d95f176cfd99db766d2f809b2244cd1"
+    },
+    {
+      "path": "implementation/threshold-page.css",
+      "sha256": "94b876c3f269fcedf4ef8be26eabdc21dd9108210bb738c7de06820041beea9d"
+    },
+    {
+      "path": "implementation/ThresholdPage.jsx",
+      "sha256": "dc614d7485f4881ef6fcc234aaf059ea85f826977021e138c54da9569bddc8ec"
+    },
+    {
+      "path": "reproduction/browser-threshold-focus-qa.mjs",
+      "sha256": "57a47a4e093a0eb6b6a7fc653d139a4b21ff97264f6c53f49e544e9576655d30"
+    },
+    {
+      "path": "reproduction/package-threshold-focus-2026-10-09.py",
+      "sha256": "5e9043904949bf0d5df88dd2219a12e1a72eb317788e7c0a1eeda1ca281280f3"
+    },
+    {
+      "path": "tests/joint-threshold-probabilities.test.mjs",
+      "sha256": "66024c81f9c081d05f98b381b3578d8633564af9b321b5e15aeb37f06c1c4721"
+    }
+  ]
+}

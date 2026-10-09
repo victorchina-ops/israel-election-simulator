@@ -1,0 +1,37 @@
+.joint-threshold-panel{min-width:0;color:var(--text);margin-block:20px}
+.joint-threshold-panel .jtp-layout{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(260px,.85fr);gap:28px;align-items:start;min-width:0}
+.joint-threshold-panel .jtp-selection,.joint-threshold-panel .jtp-answer{min-width:0}
+.joint-threshold-panel .jtp-parties{border:0;padding:0;margin:0;min-width:0}
+.joint-threshold-panel .jtp-parties legend{font-size:15px;font-weight:650;padding:0;margin-bottom:10px}
+.joint-threshold-panel .jtp-party-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+.joint-threshold-panel .jtp-party-choice{display:flex;align-items:center;gap:9px;padding:9px 10px;min-height:54px;box-sizing:border-box;border:1px solid var(--border);border-radius:9px;cursor:pointer;min-width:0;background:var(--background)}
+.joint-threshold-panel .jtp-party-choice--selected{background:var(--muted);border-color:var(--secondary)}
+.joint-threshold-panel .jtp-party-choice[data-supported="false"]{cursor:default}
+.joint-threshold-panel .jtp-party-choice input{width:18px;height:18px;margin:0;flex:0 0 18px;accent-color:#64748b}
+.joint-threshold-panel .jtp-party-choice input:focus-visible{outline:2px solid var(--ring,var(--accent));outline-offset:4px}
+.joint-threshold-panel .jtp-party-label{display:grid;gap:3px;min-width:0}
+.joint-threshold-panel .jtp-party-label .party-name{font-size:14px;line-height:1.4;font-weight:600}
+.joint-threshold-panel .jtp-party-label .party-logo{width:62px;height:27px;flex-basis:62px}
+.joint-threshold-panel .jtp-party-label small{font-size:12px;color:var(--secondary);line-height:1.4}
+.joint-threshold-panel .jtp-mode{display:grid;gap:7px;max-width:100%;margin-top:18px;font-size:14px;font-weight:600}
+.joint-threshold-panel .jtp-mode select{width:100%;min-width:0;min-height:44px;padding:9px 12px;border:1px solid var(--border);border-radius:8px;background:var(--background);color:var(--text);font:inherit;line-height:1.5}
+.joint-threshold-panel .jtp-mode select:focus-visible,.joint-threshold-panel .jtp-details>summary:focus-visible{outline:2px solid var(--ring,var(--accent));outline-offset:3px}
+.joint-threshold-panel .jtp-answer{display:grid;justify-items:start;align-content:start;gap:10px;padding-inline-start:24px;border-inline-start:1px solid var(--border);line-height:1.65}
+.joint-threshold-panel .jtp-answer h3{font-size:19px;font-weight:650;line-height:1.5;margin:0}
+.joint-threshold-panel .jtp-answer p{margin:0;font-size:14px;overflow-wrap:anywhere}
+.joint-threshold-panel .jtp-selected-names{color:var(--secondary)}
+.joint-threshold-panel .jtp-result-label{font-size:14px;color:var(--secondary);margin-top:8px}
+.joint-threshold-panel .jtp-probability{font-size:clamp(36px,4vw,54px);line-height:1.15;font-weight:650;font-variant-numeric:tabular-nums;letter-spacing:-1px;direction:ltr;color:var(--text)}
+.joint-threshold-panel .jtp-answer .jtp-interval{font-size:13px;color:var(--secondary)}
+.joint-threshold-panel .jtp-caption{font-size:13px;color:var(--secondary);line-height:1.7;margin:12px 0 0}
+.joint-threshold-panel .jtp-boundary{font-size:13px;color:var(--secondary);background:var(--muted);padding:8px 10px;border-radius:8px}
+.joint-threshold-panel .jtp-details{border-top:1px solid var(--border);margin-top:20px;min-width:0}
+.joint-threshold-panel .jtp-details>summary{cursor:pointer;padding-block:12px;min-height:44px;box-sizing:border-box;font-size:14px;font-weight:600;line-height:1.5}
+.joint-threshold-panel .jtp-table-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-x:contain}
+.joint-threshold-panel table{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.joint-threshold-panel th,.joint-threshold-panel td{text-align:right;padding:10px 12px;border-bottom:1px solid var(--border);white-space:nowrap}
+.joint-threshold-panel tr[data-selected="true"]{background:var(--muted)}
+@media(max-width:1050px){.joint-threshold-panel .jtp-layout{grid-template-columns:1fr;gap:22px}.joint-threshold-panel .jtp-selection{grid-row:2}.joint-threshold-panel .jtp-party-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.joint-threshold-panel .jtp-answer{grid-row:1;border-inline-start:0;border-bottom:1px solid var(--border);padding-inline-start:0;padding-bottom:20px}}
+@media(max-width:760px){.joint-threshold-panel .jtp-party-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.joint-threshold-panel .jtp-party-label .party-name{flex-wrap:wrap}.joint-threshold-panel .jtp-party-choice{padding:9px 8px;gap:7px}.joint-threshold-panel .jtp-answer h3{font-size:18px}}
+@media(max-width:440px){.joint-threshold-panel .jtp-party-grid{grid-template-columns:1fr}.joint-threshold-panel .jtp-party-label .party-name{flex-wrap:nowrap}.joint-threshold-panel .jtp-mode select{font-size:13px;padding-inline:8px}.joint-threshold-panel th,.joint-threshold-panel td{padding:9px 8px}}
+@media print{.joint-threshold-panel .jtp-layout{grid-template-columns:1fr}.joint-threshold-panel .jtp-answer{border-inline-start:0;padding-inline-start:0}.joint-threshold-panel .jtp-mode{display:none}.joint-threshold-panel .jtp-probability{font-size:32px}}
