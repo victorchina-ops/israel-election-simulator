@@ -1,0 +1,1801 @@
+{
+  "id": 502406616,
+  "type": 1,
+  "block_id": "2fb35ccf-9a82-47a4-ab92-8b9bbf188084",
+  "theme_id": 35401,
+  "user_id": 229630626,
+  "team_user_id": 38293351,
+  "path": "b582ce84-1bfb-414c-b88d-4b4818307041",
+  "title": "חלוקת הגושים 8.10.26",
+  "description": "",
+  "tags": "",
+  "public": false,
+  "publicAccess": false,
+  "private_link_enabled": 1,
+  "thumb": "https://infogram-thumbs-200.s3-eu-west-1.amazonaws.com/2fb35ccf-9a82-47a4-ab92-8b9bbf188084.jpg",
+  "embedImageUrl": "https://infogram.io/p/82b7fbb23ecc926f6b21dced877ee103.png",
+  "previewImageUrl": "https://infogram.io/p/1d3a920405f2867721acc3c7f5cce447.png",
+  "width": 550,
+  "copyright": "",
+  "properties": {
+    "tabs": true,
+    "zeropaddingembed": true,
+    "flexTemplateId": "850e19cd-fd59-4118-b58c-230b606fe1e1",
+    "footerSettings": {
+      "customLinkOption": "text",
+      "hasCustomLink": false
+    },
+    "type": "team_templates",
+    "transparent": false,
+    "custom_logo_value": "https://infogram-logo.s3-eu-west-1.amazonaws.com/2e74a347-c139-4bf8-9e41-cb8bb68bd315.png",
+    "publishType": 1,
+    "rtl": false,
+    "language": "en",
+    "export_settings": {
+      "showGrid": true,
+      "showValues": true
+    },
+    "whitelabel": true,
+    "decimal_separator": ".",
+    "grouping_symbol": "none",
+    "embed_button": "enabled",
+    "title_link": "infogram",
+    "custom_logo": "infogram",
+    "custom_link_url": "",
+    "logoName": "Infogram logo",
+    "showChartsOnScroll": true,
+    "pro": true
+  },
+  "elements": {
+    "content": {
+      "allowFullscreen": false,
+      "allowToShare": false,
+      "assets": {
+        "c13ae541-49c8-43a7-a7be-f38c25fbdcab": "https://images.jifo.co/229630626_1767268539183.png",
+        "df2d1ef1-c54a-4bab-8ea4-50840df38ab3": "https://images.jifo.co/229630626_1767267179718.png"
+      },
+      "content": {
+        "blockOrder": [
+          "ecb6c8f2-75e1-4a0f-aae4-87ebb7d0958b"
+        ],
+        "blocks": {
+          "ecb6c8f2-75e1-4a0f-aae4-87ebb7d0958b": {
+            "design": {
+              "background": {
+                "color": "rgba(255, 255, 255,1)",
+                "filters": {},
+                "galleryImageId": null,
+                "opacity": 1
+              },
+              "header": {
+                "text": ""
+              },
+              "hideFooter": false
+            },
+            "entities": [
+              "9b1203d4-0670-4a0c-84ea-2ef6a4c03ae2d69e919f-ebbb-4962-98d4-ec268829effd",
+              "1ac2ad6c-0a20-45aa-8845-d6c12d00d611604f64c7-e2e8-4a12-b4ec-9887fa6c06d3",
+              "2808b398-a4d6-4ed4-b86e-793fc710754559ac6dcf-75fe-4500-b9fc-187da5bb2d00",
+              "39841921-190e-4afa-8cc6-302e15789340d55530ee-8cb3-4e8b-a932-dd202e92176b",
+              "4a45e2be-020c-4cec-92c6-91d0c07c8353fef22cf0-107e-484b-a65c-d0471e725c72",
+              "6de73b5a-194c-4ea7-8fe5-59223f2ee0a9ee37d3ed-f28f-4f79-aade-517dfcfd98ad",
+              "7cb29e73-54be-48a5-b464-a33d922f2e16670fa6e1-9656-41e4-8f69-0c2e5bad8af1",
+              "a4c70295-357a-498d-96ec-c8b237fef3d81e0b7b55-7627-4971-ba8b-3fffb39b7ef9",
+              "866868ec-01fc-4961-a067-d5e3c047b45cf81133b1-27dc-4f4c-b08e-d3cfdc71d1c1",
+              "abd3730c-e0ba-4840-8242-a408d36f63dfb2db8aaf-f13f-4b1d-a746-c5e27b489878",
+              "59bb3e28-5069-4e4c-b2ab-ba175adf8d8fae1cf183-8614-469c-983a-dcbda6f1a4ea",
+              "ba1f9b48-1d24-42c9-8cbb-46676b2a64891ed33d89-f202-48e8-81a1-ba268090318f",
+              "29f1ed10-a231-43d2-a0b1-8a8a00713654511f88f1-75b7-4ea2-9b31-5d0381e3a1b6",
+              "5c7cf773-57c1-4468-bef0-6c8ac2ca41cf01aed15d-0392-4ffa-84ae-a70bbf7c2c66",
+              "f62ff700-1029-40cb-9f38-1a5136d59199"
+            ]
+          }
+        },
+        "entities": {
+          "1ac2ad6c-0a20-45aa-8845-d6c12d00d611604f64c7-e2e8-4a12-b4ec-9887fa6c06d3": {
+            "filters": {},
+            "height": 30,
+            "hidden": false,
+            "left": 35,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "autoExpandWidth": 0,
+              "content": {
+                "blocks": [
+                  {
+                    "data": {
+                      "align": "ALIGN_CENTER",
+                      "ig:color": "rgba(0,0,0,1)",
+                      "ig:fontFamily": "igbr-Open Sans Condensed Bold",
+                      "ig:fontSize": "28px",
+                      "ig:fontStyle": "{{fontStyle|undefined}}",
+                      "ig:fontWeight": "700",
+                      "ig:letterSpacing": "{{letterSpacing|0px}}",
+                      "ig:lineHeight": "1.0862068965517242",
+                      "ig:textDecoration": "{{textDecoration|undefined}}"
+                    },
+                    "depth": 0,
+                    "entityRanges": [],
+                    "inlineStyleRanges": [
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:letterSpacing:{{letterSpacing|0px}}"
+                      },
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:fontStyle:{{fontStyle|undefined}}"
+                      },
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:textDecoration:{{textDecoration|undefined}}"
+                      },
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:color:rgba(0,0,0,1)"
+                      },
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:fontWeight:700"
+                      },
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:lineHeight:1.0862068965517242"
+                      },
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:fontFamily:igbr-Open Sans Condensed Bold"
+                      },
+                      {
+                        "length": 12,
+                        "offset": 0,
+                        "style": "ig:fontSize:28px"
+                      }
+                    ],
+                    "key": "5a2im",
+                    "text": "חלוקת הגושים",
+                    "type": "header-one"
+                  }
+                ],
+                "entityMap": {}
+              },
+              "contentHTML": "<div class=\"DraftEditor-root\"><div class=\"DraftEditor-editorContainer\"><div class=\"public-DraftEditor-content\" contenteditable=\"false\" spellcheck=\"false\" style=\"outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word\"><div data-contents=\"true\"><h1 class=\"__ig-alignCenter\" data-block=\"true\" data-editor=\"ig_static\" data-offset-key=\"5a2im-0-0\"><div data-offset-key=\"5a2im-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-rtl\"><span data-offset-key=\"5a2im-0-0\" style=\"letter-spacing:0px;color:rgba(0,0,0,1);font-weight:700;line-height:30px;font-family:&#x27;igbr-Open Sans Condensed Bold&#x27;;font-size:28px\"><span data-text=\"true\">חלוקת הגושים</span></span></div></h1></div></div></div></div>",
+              "customSizing": true,
+              "opacity": 1,
+              "overflow": true,
+              "resetFontKerning": true,
+              "scaleHeight": 30,
+              "scaleWidth": 623,
+              "scaleX": 1,
+              "scaleY": 1,
+              "template": "h1",
+              "verticalAlign": "top"
+            },
+            "top": 45,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "TEXT",
+            "width": 627
+          },
+          "2808b398-a4d6-4ed4-b86e-793fc710754559ac6dcf-75fe-4500-b9fc-187da5bb2d00": {
+            "filters": {},
+            "groupKey": "866868ec-01fc-4961-a067-d5e3c047b45cf81133b1-27dc-4f4c-b08e-d3cfdc71d1c1",
+            "height": 63,
+            "hidden": false,
+            "left": 159,
+            "lockAspectRatio": true,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "animation": {
+                "delay": 0,
+                "duration": 1,
+                "name": "bounceIn",
+                "regime": "onView",
+                "startAt": 25
+              },
+              "fill": "{{fillColor|#656565}}",
+              "graphicType": "image",
+              "height": 24,
+              "opacity": 1,
+              "path": "M30.723,2.319C30.723,2.319,30.723,19.519,30.723,19.519C30.723,19.519,25.83,18.143,22.194,18.842C18.938,19.468,16.541,21.235,16.137,21.547C16.137,21.547,16.137,21.599,16.137,21.599C16.137,21.599,16.103,21.573,16.103,21.573C16.103,21.573,16.07,21.599,16.07,21.599C16.07,21.599,16.07,21.547,16.07,21.547C15.666,21.235,13.27,19.469,10.014,18.842C6.378,18.143,1.006,19.519,1.006,19.519C1.006,19.519,1.006,2.268,1.006,2.268C1.006,2.268,0,2.419,0,2.419C0,2.419,0,20.948,0,20.948C0,20.948,5.855,19.441,9.837,20.208C13.754,20.961,16.12,23.227,16.12,23.227C16.12,23.227,18.486,20.961,22.402,20.208C26.386,19.441,32,20.948,32,20.948C32,20.948,32,2.499,32,2.499C32,2.499,31.512,2.416,30.723,2.319C30.723,2.319,30.723,2.319,30.723,2.319M9.719,17.101C12.903,17.713,15.365,19.556,15.365,19.556C15.365,19.556,15.365,2.635,15.365,2.635C15.365,2.635,12.89,0.789,9.698,0.176C6.467,-0.446,2.247,0.782,2.247,0.782C2.247,0.782,2.247,17.704,2.247,17.704C2.247,17.704,6.481,16.479,9.719,17.101C9.719,17.101,9.719,17.101,9.719,17.101M29.48,17.766C29.48,17.766,29.48,0.844,29.48,0.844C29.48,0.844,25.611,-0.384,22.381,0.237C19.189,0.851,16.634,2.696,16.634,2.696C16.634,2.696,16.634,19.618,16.634,19.618C16.634,19.618,19.175,17.775,22.36,17.163C25.598,16.541,29.48,17.766,29.48,17.766C29.48,17.766,29.48,17.766,29.48,17.766",
+              "subType": "icon",
+              "width": 32
+            },
+            "top": 7601.80029296875,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "IMAGE",
+            "width": 63
+          },
+          "29f1ed10-a231-43d2-a0b1-8a8a00713654511f88f1-75b7-4ea2-9b31-5d0381e3a1b6": {
+            "filters": {},
+            "groupKey": "f62ff700-1029-40cb-9f38-1a5136d59199",
+            "height": 14,
+            "hidden": false,
+            "left": 281,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "contentHTML": "",
+              "customSizing": true,
+              "markerEnd": "none",
+              "markerStart": "none",
+              "offsetLeft": 0,
+              "offsetRight": 0,
+              "opacity": 1,
+              "stroke": "rgba(239,0,0,1)",
+              "strokeType": "solid",
+              "strokeWidth": 2,
+              "type": "line",
+              "x1": 0,
+              "x2": 200,
+              "y1": 200,
+              "y2": 0
+            },
+            "top": 345,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "SHAPE",
+            "width": 138.24999999999994
+          },
+          "39841921-190e-4afa-8cc6-302e15789340d55530ee-8cb3-4e8b-a932-dd202e92176b": {
+            "filters": {},
+            "groupKey": "866868ec-01fc-4961-a067-d5e3c047b45cf81133b1-27dc-4f4c-b08e-d3cfdc71d1c1",
+            "height": 20,
+            "hidden": false,
+            "left": 174,
+            "lockAspectRatio": true,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "contentHTML": "",
+              "customSizing": true,
+              "fill": "{{fillColor|#656565}}",
+              "offsetLeft": 0,
+              "offsetRight": 0,
+              "opacity": 1,
+              "stroke": "{{strokeColor|#656565}}",
+              "strokeType": "solid",
+              "strokeWidth": 0,
+              "type": "ellipse"
+            },
+            "top": 7869.80029296875,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "SHAPE",
+            "width": 20
+          },
+          "4a45e2be-020c-4cec-92c6-91d0c07c8353fef22cf0-107e-484b-a65c-d0471e725c72": {
+            "filters": {},
+            "height": 370,
+            "hidden": false,
+            "left": 9,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 50,
+            "minWidth": 50,
+            "props": {
+              "chartData": {
+                "accessibility": {
+                  "description": "",
+                  "enabled": true,
+                  "label": "Chart"
+                },
+                "chart_type_nr": 34,
+                "colors": [
+                  "rgba(56,136,255,1)",
+                  "rgba(153,153,153,1)",
+                  "rgba(var(--theme-3),1)",
+                  "rgba(217,10,9,1)",
+                  "#B0A207",
+                  "#38A66C"
+                ],
+                "custom": {
+                  "animation": {
+                    "enabled": true
+                  },
+                  "axis": {
+                    "x": {
+                      "decimalPlaces": false,
+                      "decimalPlacesValue": 2
+                    }
+                  },
+                  "decimalSeparator": ".",
+                  "groupingSymbol": "none",
+                  "labels": {
+                    "graph": {
+                      "center": {
+                        "enabled": false
+                      },
+                      "item": {
+                        "format": {
+                          "affix": false
+                        },
+                        "value": {
+                          "font-family": "Open Sans",
+                          "font-size": "28px",
+                          "font-weight": "700"
+                        }
+                      },
+                      "title": {
+                        "font-family": "Open Sans",
+                        "font-size": "40px",
+                        "font-weight": ""
+                      }
+                    },
+                    "legend": {
+                      "font-family": "Open Sans",
+                      "font-size": "16px",
+                      "font-weight": "",
+                      "position": "top"
+                    },
+                    "sheetSwitch": {
+                      "tab": {
+                        "font-family": "Open Sans",
+                        "font-size": "30px",
+                        "font-weight": ""
+                      }
+                    },
+                    "tooltip": {
+                      "format": {
+                        "x": {
+                          "affix": false
+                        }
+                      }
+                    }
+                  },
+                  "showInLineName": false,
+                  "showInLinePercent": false,
+                  "showInLineValues": true,
+                  "showLabels": true,
+                  "singleColor": {
+                    "enabled": false,
+                    "value": "#48D48A"
+                  },
+                  "textColor": "{{colors.#000000}}"
+                },
+                "data": [
+                  [
+                    [
+                      null,
+                      {
+                        "value": "סקר מעריב"
+                      }
+                    ],
+                    [
+                      {
+                        "ct": {
+                          "fa": "General",
+                          "t": "g"
+                        },
+                        "value": "קואליציית נתניהו כולל וינטר"
+                      },
+                      {
+                        "value": "52"
+                      }
+                    ],
+                    [
+                      {
+                        "ct": {
+                          "fa": "General",
+                          "t": "g"
+                        },
+                        "value": "מפלגות ערביות"
+                      },
+                      {
+                        "value": "10"
+                      }
+                    ],
+                    [
+                      {
+                        "value": "המילואימניקים והכלכלית "
+                      },
+                      {
+                        "value": "4"
+                      }
+                    ],
+                    [
+                      {
+                        "ct": {
+                          "fa": "General",
+                          "t": "g"
+                        },
+                        "value": "אופוזיציה ציונית"
+                      },
+                      {
+                        "value": "52"
+                      }
+                    ]
+                  ]
+                ],
+                "defaultColors": [
+                  "#48D48A",
+                  "#8B20BD",
+                  "#FD6A37",
+                  "#6D53DC",
+                  "#B0A207",
+                  "#38A66C"
+                ],
+                "defaultColorsHeatmap": [],
+                "modifier": 0,
+                "sheetnames": [
+                  "Sheet 1"
+                ],
+                "sheets_settings": []
+              },
+              "opacity": 1
+            },
+            "top": 92,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "CHART",
+            "width": 680
+          },
+          "59bb3e28-5069-4e4c-b2ab-ba175adf8d8fae1cf183-8614-469c-983a-dcbda6f1a4ea": {
+            "filters": {},
+            "groupKey": "f62ff700-1029-40cb-9f38-1a5136d59199",
+            "height": 38.78276478398553,
+            "hidden": false,
+            "left": 281,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "autoExpandWidth": 597,
+              "content": {
+                "blocks": [
+                  {
+                    "data": {
+                      "align": "{{textAlign|ALIGN_LEFT}}",
+                      "ig:color": "rgba(239,0,0,1)",
+                      "ig:fontFamily": "igbr-Open Sans SemiBold",
+                      "ig:fontSize": "38.58028194570188px",
+                      "ig:fontStyle": "{{fontStyle|undefined}}",
+                      "ig:fontWeight": "700",
+                      "ig:letterSpacing": "{{letterSpacing|0px}}",
+                      "ig:lineHeight": "{{lineHeight}}",
+                      "ig:textDecoration": "{{textDecoration|undefined}}"
+                    },
+                    "depth": 0,
+                    "entityRanges": [],
+                    "inlineStyleRanges": [
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:lineHeight:{{lineHeight}}"
+                      },
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:letterSpacing:{{letterSpacing|0px}}"
+                      },
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:fontStyle:{{fontStyle|undefined}}"
+                      },
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:textDecoration:{{textDecoration|undefined}}"
+                      },
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:color:rgba(239,0,0,1)"
+                      },
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:fontWeight:700"
+                      },
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:fontSize:38.58028194570188px"
+                      },
+                      {
+                        "length": 10,
+                        "offset": 0,
+                        "style": "ig:fontFamily:igbr-Open Sans SemiBold"
+                      }
+                    ],
+                    "key": "f791f",
+                    "text": "סקר מנדטים",
+                    "type": "header-one"
+                  }
+                ],
+                "entityMap": {}
+              },
+              "contentHTML": "<div class=\"DraftEditor-root\"><div class=\"DraftEditor-editorContainer\"><div class=\"public-DraftEditor-content\" contenteditable=\"false\" spellcheck=\"false\" style=\"outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word\"><div data-contents=\"true\"><h1 class=\"__ig-alignLeft\" data-block=\"true\" data-editor=\"ig_static\" data-offset-key=\"f791f-0-0\"><div data-offset-key=\"f791f-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-rtl\"><span data-offset-key=\"f791f-0-0\" style=\"line-height:57px;letter-spacing:0px;color:rgba(239,0,0,1);font-weight:700;font-size:38.58028194570188px;font-family:&#x27;igbr-Open Sans SemiBold&#x27;\"><span data-text=\"true\">סקר מנדטים</span></span></div></h1></div></div></div></div>",
+              "customSizing": true,
+              "opacity": 1,
+              "overflow": true,
+              "resetFontKerning": true,
+              "scaleHeight": 57,
+              "scaleWidth": 199,
+              "scaleX": 0.6728674006959562,
+              "scaleY": 0.6803993821751847,
+              "template": "h1",
+              "verticalAlign": "top"
+            },
+            "top": 350,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "TEXT",
+            "width": 137.90061273849528
+          },
+          "5c7cf773-57c1-4468-bef0-6c8ac2ca41cf01aed15d-0392-4ffa-84ae-a70bbf7c2c66": {
+            "filters": {},
+            "groupKey": "f62ff700-1029-40cb-9f38-1a5136d59199",
+            "height": 14,
+            "hidden": false,
+            "left": 281,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "contentHTML": "",
+              "customSizing": true,
+              "markerEnd": "none",
+              "markerStart": "none",
+              "offsetLeft": 0,
+              "offsetRight": 0,
+              "opacity": 1,
+              "stroke": "rgba(239,0,0,1)",
+              "strokeType": "solid",
+              "strokeWidth": 2,
+              "type": "line",
+              "x1": 0,
+              "x2": 200,
+              "y1": 200,
+              "y2": 0
+            },
+            "top": 417,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "SHAPE",
+            "width": 138.24999999999994
+          },
+          "6de73b5a-194c-4ea7-8fe5-59223f2ee0a9ee37d3ed-f28f-4f79-aade-517dfcfd98ad": {
+            "filters": {},
+            "groupKey": "866868ec-01fc-4961-a067-d5e3c047b45cf81133b1-27dc-4f4c-b08e-d3cfdc71d1c1",
+            "height": 187,
+            "hidden": false,
+            "left": 51,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "autoExpandWidth": 0,
+              "content": {
+                "blocks": [
+                  {
+                    "data": {
+                      "align": "ALIGN_CENTER",
+                      "ig:color": "{{foregroundColor}}",
+                      "ig:fontFamily": "{{fontFamily}}",
+                      "ig:fontSize": "13px",
+                      "ig:letterSpacing": "{{letterSpacing|0px}}",
+                      "ig:lineHeight": "{{lineHeight}}"
+                    },
+                    "depth": 0,
+                    "entityRanges": [],
+                    "inlineStyleRanges": [
+                      {
+                        "length": 307,
+                        "offset": 0,
+                        "style": "ig:lineHeight:{{lineHeight}}"
+                      },
+                      {
+                        "length": 307,
+                        "offset": 0,
+                        "style": "ig:color:{{foregroundColor}}"
+                      },
+                      {
+                        "length": 307,
+                        "offset": 0,
+                        "style": "ig:fontFamily:{{fontFamily}}"
+                      },
+                      {
+                        "length": 307,
+                        "offset": 0,
+                        "style": "ig:letterSpacing:{{letterSpacing|0px}}"
+                      },
+                      {
+                        "length": 307,
+                        "offset": 0,
+                        "style": "ig:fontSize:13px"
+                      }
+                    ],
+                    "key": "a7nn",
+                    "text": "There is something about parenthood that gives us a sense of history and a deeply rooted desire to send on into the next generation the great things we have discovered about life. And part of that is the desire to instill in our children the love of science, of learning and particularly the love of nature.",
+                    "type": "unstyled"
+                  }
+                ],
+                "entityMap": {}
+              },
+              "contentHTML": "<div class=\"DraftEditor-root\"><div class=\"DraftEditor-editorContainer\"><div class=\"public-DraftEditor-content\" contenteditable=\"false\" spellcheck=\"false\" style=\"outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word\"><div data-contents=\"true\"><div class=\"__ig-alignCenter\" data-block=\"true\" data-editor=\"ig_static\" data-offset-key=\"a7nn-0-0\"><div data-offset-key=\"a7nn-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"a7nn-0-0\" style=\"line-height:18px;color:#464646;font-family:&#x27;Montserrat&#x27;;letter-spacing:0px;font-size:13px\"><span data-text=\"true\">There is something about parenthood that gives us a sense of history and a deeply rooted desire to send on into the next generation the great things we have discovered about life. And part of that is the desire to instill in our children the love of science, of learning and particularly the love of nature.</span></span></div></div></div></div></div></div>",
+              "customSizing": true,
+              "opacity": 1,
+              "overflow": false,
+              "resetFontKerning": true,
+              "scaleX": 1,
+              "scaleY": 1,
+              "template": "body",
+              "verticalAlign": "top"
+            },
+            "top": 7712.80029296875,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "TEXT",
+            "width": 279
+          },
+          "7cb29e73-54be-48a5-b464-a33d922f2e16670fa6e1-9656-41e4-8f69-0c2e5bad8af1": {
+            "filters": {},
+            "groupKey": "866868ec-01fc-4961-a067-d5e3c047b45cf81133b1-27dc-4f4c-b08e-d3cfdc71d1c1",
+            "height": 14,
+            "hidden": false,
+            "left": 184,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "contentHTML": "",
+              "customSizing": true,
+              "markerEnd": "none",
+              "markerStart": "none",
+              "offsetLeft": 0,
+              "offsetRight": 0,
+              "opacity": 1,
+              "stroke": "{{fillColor|#656565}}",
+              "strokeType": "solid",
+              "strokeWidth": 2,
+              "type": "line",
+              "x1": 0,
+              "x2": 200,
+              "y1": 200,
+              "y2": 0
+            },
+            "top": 7872.80029296875,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "SHAPE",
+            "width": 304
+          },
+          "866868ec-01fc-4961-a067-d5e3c047b45cf81133b1-27dc-4f4c-b08e-d3cfdc71d1c1": {
+            "filters": {},
+            "height": 298,
+            "hidden": false,
+            "left": 50,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "entityKeys": [
+                "2808b398-a4d6-4ed4-b86e-793fc710754559ac6dcf-75fe-4500-b9fc-187da5bb2d00",
+                "39841921-190e-4afa-8cc6-302e15789340d55530ee-8cb3-4e8b-a932-dd202e92176b",
+                "6de73b5a-194c-4ea7-8fe5-59223f2ee0a9ee37d3ed-f28f-4f79-aade-517dfcfd98ad",
+                "7cb29e73-54be-48a5-b464-a33d922f2e16670fa6e1-9656-41e4-8f69-0c2e5bad8af1",
+                "a4c70295-357a-498d-96ec-c8b237fef3d81e0b7b55-7627-4971-ba8b-3fffb39b7ef9"
+              ],
+              "opacity": 1
+            },
+            "top": 7602,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "GROUP",
+            "width": 438
+          },
+          "9b1203d4-0670-4a0c-84ea-2ef6a4c03ae2d69e919f-ebbb-4962-98d4-ec268829effd": {
+            "filters": {},
+            "height": 462,
+            "hidden": false,
+            "left": 1,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 3,
+            "minWidth": 3,
+            "props": {
+              "contentHTML": "",
+              "customSizing": true,
+              "fill": "rgba(255,255,255, 1)",
+              "offsetLeft": 0,
+              "offsetRight": 0,
+              "opacity": 1,
+              "rx": 8,
+              "ry": 8,
+              "stroke": "rgba(226, 225, 225, 1)",
+              "strokeType": "solid",
+              "strokeWidth": 1,
+              "type": "rectangle"
+            },
+            "top": 23,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "SHAPE",
+            "width": 699
+          },
+          "a4c70295-357a-498d-96ec-c8b237fef3d81e0b7b55-7627-4971-ba8b-3fffb39b7ef9": {
+            "filters": {},
+            "groupKey": "866868ec-01fc-4961-a067-d5e3c047b45cf81133b1-27dc-4f4c-b08e-d3cfdc71d1c1",
+            "height": 43,
+            "hidden": false,
+            "left": 50,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "autoExpandWidth": 0,
+              "content": {
+                "blocks": [
+                  {
+                    "data": {
+                      "BOLD": true,
+                      "align": "ALIGN_CENTER",
+                      "ig:color": "{{foregroundColor}}",
+                      "ig:fontFamily": "{{fontFamily}}",
+                      "ig:fontSize": "18px",
+                      "ig:letterSpacing": "{{letterSpacing|0px}}",
+                      "ig:lineHeight": "{{lineHeight}}"
+                    },
+                    "depth": 0,
+                    "entityRanges": [],
+                    "inlineStyleRanges": [
+                      {
+                        "length": 19,
+                        "offset": 0,
+                        "style": "ig:lineHeight:{{lineHeight}}"
+                      },
+                      {
+                        "length": 19,
+                        "offset": 0,
+                        "style": "ig:color:{{foregroundColor}}"
+                      },
+                      {
+                        "length": 19,
+                        "offset": 0,
+                        "style": "ig:fontFamily:{{fontFamily}}"
+                      },
+                      {
+                        "length": 19,
+                        "offset": 0,
+                        "style": "ig:letterSpacing:{{letterSpacing|0px}}"
+                      },
+                      {
+                        "length": 19,
+                        "offset": 0,
+                        "style": "BOLD"
+                      },
+                      {
+                        "length": 19,
+                        "offset": 0,
+                        "style": "ig:fontSize:18px"
+                      }
+                    ],
+                    "key": "15mug",
+                    "text": "Pictures In The Sky",
+                    "type": "unstyled"
+                  }
+                ],
+                "entityMap": {}
+              },
+              "contentHTML": "<div class=\"DraftEditor-root\"><div class=\"DraftEditor-editorContainer\"><div class=\"public-DraftEditor-content\" contenteditable=\"false\" spellcheck=\"false\" style=\"outline:none;user-select:text;-webkit-user-select:text;white-space:pre-wrap;word-wrap:break-word\"><div data-contents=\"true\"><div class=\"__ig-alignCenter\" data-block=\"true\" data-editor=\"ig_static\" data-offset-key=\"15mug-0-0\"><div data-offset-key=\"15mug-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"15mug-0-0\" style=\"font-weight:bold;line-height:27px;color:#464646;font-family:&#x27;Montserrat&#x27;;letter-spacing:0px;font-size:18px\"><span data-text=\"true\">Pictures In The Sky</span></span></div></div></div></div></div></div>",
+              "customSizing": true,
+              "opacity": 1,
+              "overflow": false,
+              "resetFontKerning": true,
+              "scaleX": 1,
+              "scaleY": 1,
+              "template": "h2",
+              "verticalAlign": "top"
+            },
+            "top": 7669.80029296875,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "TEXT",
+            "width": 280
+          },
+          "abd3730c-e0ba-4840-8242-a408d36f63dfb2db8aaf-f13f-4b1d-a746-c5e27b489878": {
+            "filters": {},
+            "height": 23,
+            "hidden": false,
+            "left": 300,
+            "lockAspectRatio": true,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "assetId": "c13ae541-49c8-43a7-a7be-f38c25fbdcab",
+              "graphicType": "uploaded_image",
+              "id": 296030376,
+              "opacity": 1,
+              "subType": "image"
+            },
+            "top": 11,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "IMAGE",
+            "width": 100
+          },
+          "ba1f9b48-1d24-42c9-8cbb-46676b2a64891ed33d89-f202-48e8-81a1-ba268090318f": {
+            "filters": {},
+            "groupKey": "f62ff700-1029-40cb-9f38-1a5136d59199",
+            "height": 25.37499999999999,
+            "hidden": false,
+            "left": 280,
+            "lockAspectRatio": true,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "assetId": "df2d1ef1-c54a-4bab-8ea4-50840df38ab3",
+              "fill": "rgba(239, 0, 0, 1)",
+              "graphicType": "uploaded_image",
+              "id": 296029986,
+              "opacity": 1,
+              "subType": "image"
+            },
+            "top": 389,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "IMAGE",
+            "width": 139.99999999999994
+          },
+          "f62ff700-1029-40cb-9f38-1a5136d59199": {
+            "filters": {},
+            "groupKey": "",
+            "height": 83.99999999999996,
+            "hidden": false,
+            "left": 280,
+            "lockAspectRatio": false,
+            "locked": false,
+            "maxHeight": 10000,
+            "maxWidth": 10000,
+            "minHeight": 1,
+            "minWidth": 1,
+            "props": {
+              "entityKeys": [
+                "59bb3e28-5069-4e4c-b2ab-ba175adf8d8fae1cf183-8614-469c-983a-dcbda6f1a4ea",
+                "ba1f9b48-1d24-42c9-8cbb-46676b2a64891ed33d89-f202-48e8-81a1-ba268090318f",
+                "29f1ed10-a231-43d2-a0b1-8a8a00713654511f88f1-75b7-4ea2-9b31-5d0381e3a1b6",
+                "5c7cf773-57c1-4468-bef0-6c8ac2ca41cf01aed15d-0392-4ffa-84ae-a70bbf7c2c66"
+              ],
+              "opacity": 1
+            },
+            "top": 346,
+            "transform": {
+              "flipHorizontal": false,
+              "flipVertical": false,
+              "rotate": 0
+            },
+            "type": "GROUP",
+            "width": 139.99999999999994
+          }
+        },
+        "layouts": {
+          "mobile": {
+            "entities": {
+              "1ac2ad6c-0a20-45aa-8845-d6c12d00d611604f64c7-e2e8-4a12-b4ec-9887fa6c06d3": {
+                "height": 30,
+                "left": 15,
+                "props": {
+                  "autoExpandWidth": 0,
+                  "scaleHeight": 30,
+                  "scaleWidth": 392,
+                  "scaleX": 1,
+                  "scaleY": 1
+                },
+                "top": 44,
+                "width": 396
+              },
+              "29f1ed10-a231-43d2-a0b1-8a8a00713654511f88f1-75b7-4ea2-9b31-5d0381e3a1b6": {
+                "height": 14,
+                "left": 165,
+                "props": {
+                  "text": null
+                },
+                "top": 272,
+                "width": 95.73368182449002
+              },
+              "4a45e2be-020c-4cec-92c6-91d0c07c8353fef22cf0-107e-484b-a65c-d0471e725c72": {
+                "height": 269,
+                "left": 9,
+                "top": 88,
+                "width": 411
+              },
+              "59bb3e28-5069-4e4c-b2ab-ba175adf8d8fae1cf183-8614-469c-983a-dcbda6f1a4ea": {
+                "height": 26.52982774587191,
+                "left": 168,
+                "props": {
+                  "autoExpandWidth": 597,
+                  "scaleHeight": 57,
+                  "scaleWidth": 199,
+                  "scaleX": 0.45393272353354513,
+                  "scaleY": 0.4654355744889809
+                },
+                "top": 277,
+                "width": 94.33261198317548
+              },
+              "5c7cf773-57c1-4468-bef0-6c8ac2ca41cf01aed15d-0392-4ffa-84ae-a70bbf7c2c66": {
+                "height": 14,
+                "left": 165,
+                "props": {
+                  "text": null
+                },
+                "top": 323,
+                "width": 95.73368182449002
+              },
+              "9b1203d4-0670-4a0c-84ea-2ef6a4c03ae2d69e919f-ebbb-4962-98d4-ec268829effd": {
+                "height": 351,
+                "left": 3,
+                "props": {
+                  "text": null
+                },
+                "top": 25,
+                "width": 423
+              },
+              "abd3730c-e0ba-4840-8242-a408d36f63dfb2db8aaf-f13f-4b1d-a746-c5e27b489878": {
+                "height": 23,
+                "left": 165,
+                "top": 13,
+                "width": 100
+              },
+              "ba1f9b48-1d24-42c9-8cbb-46676b2a64891ed33d89-f202-48e8-81a1-ba268090318f": {
+                "height": 17.35808116829979,
+                "left": 165,
+                "props": {},
+                "top": 304,
+                "width": 95.76872368717126
+              },
+              "f62ff700-1029-40cb-9f38-1a5136d59199": {
+                "height": 65,
+                "left": 165,
+                "top": 272,
+                "transform": {
+                  "flipHorizontal": false,
+                  "flipVertical": false,
+                  "rotate": 0
+                },
+                "width": 97
+              }
+            },
+            "pageSize": {
+              "height": 385,
+              "width": 429
+            }
+          }
+        }
+      },
+      "customFonts": {},
+      "defaultExportSettings": {},
+      "design": {
+        "colors": [
+          "#063773",
+          "#2E81E5",
+          "#5CC4E5",
+          "#A483DD",
+          "#B15959",
+          "#ED814E",
+          "#E3B935"
+        ],
+        "defaults": {
+          "backgroundColor": "#ffffff",
+          "fontFamily": "Fira Sans",
+          "fontSize": 12,
+          "foregroundColor": "#464646",
+          "lineHeight": 1.5,
+          "textAlign": "ALIGN_LEFT"
+        },
+        "elements": {
+          "IMAGE": {
+            "fillColor": "#063773"
+          },
+          "SHAPE": {
+            "fillColor": "#063773",
+            "strokeColor": "#063773"
+          },
+          "TEXT": {
+            "body": {
+              "fontFamily": "Montserrat",
+              "fontSize": "16px",
+              "foregroundColor": "#464646",
+              "lineHeight": 1.4
+            },
+            "caption": {
+              "fontFamily": "Montserrat",
+              "fontSize": "12px",
+              "foregroundColor": "#464646"
+            },
+            "h1": {
+              "fontFamily": "Montserrat",
+              "fontSize": "36px",
+              "fontWeight": 700,
+              "foregroundColor": "#464646"
+            },
+            "h2": {
+              "fontFamily": "Montserrat",
+              "fontSize": "24px",
+              "fontWeight": 700,
+              "foregroundColor": "#464646"
+            }
+          }
+        },
+        "fontFamilies": {
+          "font1": "Roboto"
+        },
+        "fontSizes": {
+          "extraLarge": 64,
+          "large": 48,
+          "medium": 18,
+          "small": 12
+        }
+      },
+      "designDefaults": {
+        "block": {
+          "background": {
+            "color": "{{backgroundColor|#FFFFFF}}",
+            "type": "color"
+          }
+        },
+        "entity": {}
+      },
+      "fonts": {
+        "6dcac19d-aae8-43c7-8102-c7f9243f2618": {
+          "family": "igbr-Open Sans Condensed Bold",
+          "foundry": null,
+          "source": "branding",
+          "url": "https://branding.jifo.co/d012ebdf-895e-4f0f-838a-f884c0ce1d85_open-sans-condensed-bold.css"
+        },
+        "933e36d6-ee3b-4db1-9f8d-2e859e0bb2e3": {
+          "family": "Open Sans",
+          "foundry": "google",
+          "source": "web"
+        },
+        "e54d38db-f5a9-4b0b-a3c6-5c4b221f6677": {
+          "family": "igbr-Open Sans SemiBold",
+          "foundry": null,
+          "source": "branding",
+          "url": "https://branding.jifo.co/0103e465-a70a-412f-b2c4-be1cf61078f5_open-sans-semibold.css"
+        }
+      },
+      "footerSettings": {
+        "backgroundColor": "#FFFFFF",
+        "backgroundOpacity": 1,
+        "bold": false,
+        "buttonBackgroundColor": "#063773",
+        "buttonText": "שתפו",
+        "buttonTextColor": "#ffffff",
+        "customLink": "",
+        "customLinkOption": "text",
+        "fontSize": 11,
+        "footerLayout": "text_left-logo_right",
+        "footnoteText": "Create and publish your infographic",
+        "footnoteType": "shareButton",
+        "hasCustomLink": false,
+        "italic": false,
+        "logoColor": "#063773",
+        "logoHeight": 35,
+        "logoImage": "https://infogram-logo.s3-eu-west-1.amazonaws.com/2e74a347-c139-4bf8-9e41-cb8bb68bd315.png",
+        "logoLink": "",
+        "logoName": "",
+        "logoType": "custom_logo-custom",
+        "logoWidth": 88,
+        "paginationFormat": "x / y",
+        "paginationStartWith": 1,
+        "showFooter": false,
+        "textColor": "#464646"
+      },
+      "gridSettings": {
+        "columnCount": 4,
+        "rowSpacing": 10,
+        "whitespacePercent": 3
+      },
+      "hidePageControls": false,
+      "interactivityHint": false,
+      "interlinkedCharts": false,
+      "language": "en",
+      "pageSize": {
+        "height": 498,
+        "width": 700
+      },
+      "responsive": false,
+      "schemaVersion": 23,
+      "themeId": 35401,
+      "tooltipProjectOptions": {
+        "selectedOption": "transparent"
+      },
+      "transition": "none"
+    },
+    "hash": "7cb83ec73c642a86112d1ea0ffcf062c"
+  },
+  "publishedURLId": "1pj9vq5007kz93i6ll21y2n2yktmwzqxly7",
+  "createdAt": "2026-10-08T18:35:48.000Z",
+  "updatedAt": "2026-10-08T18:52:28.000Z",
+  "isTemplateProject": false,
+  "privateURL": "cjH8bTRHmQWJ2MrxfoMg",
+  "theme": {
+    "title": "Business (light)",
+    "usergroup": "",
+    "picture": "https://themes.jifo.co/35401/thumbnail.png",
+    "order": 37,
+    "public": 1,
+    "width": 550,
+    "fonts": "",
+    "colors": [
+      "#063773",
+      "#2E81E5",
+      "#5CC4E5",
+      "#A483DD",
+      "#B15959",
+      "#ED814E",
+      "#E3B935"
+    ],
+    "logocolor": "",
+    "logoImages": [
+      ""
+    ],
+    "logoUrl": "",
+    "showLogo": "custom",
+    "showEmbed": "enabled",
+    "embedButtonText": "Share",
+    "top": 0,
+    "padding": 30,
+    "spacing": 30,
+    "shrinkMargin": 30,
+    "shrinkPadding": 0,
+    "spacingElementMin": null,
+    "spacingElementMax": null,
+    "css": ".quote {\n    font-family: Montserrat;\n    font-size: 28px;\n    font-weight: 400;\n    color: #464646;\n    text-align: left;\n}\n\n.quotetitle {\n    font-family: Montserrat;\n    font-size: 16px;\n    font-weight: 400;\n    color: #464646;\n    text-align: left;\n    line-height: 22px;\n}\n.quote .innertext {\n    line-height: 34px;\n}\n.quote .quotetitle .innertext {\n    line-height: 22px;\n}\n/* igc-pie:start */\nsvg .igc-semi-pie-center-text .igc-pie-center-text-node,\nsvg .igc-pie-center-text .igc-pie-center-text-node {\n    font-family: Montserrat;\n    font-size: 28px;\n    font-weight: 400;\n    fill: #464646;\n}\n/* igc-pie:end */\n\n/*igc-textual:start*/\n.igc-textual-figure {\n    font-family: Montserrat;\n    font-size: 28px;\n    font-weight: 400;\n}\n.igc-textual-text.innertext {\n    line-height: 34px;\n}\n.igc-textual-fact {\n    color: #464646;\n    font-family: Montserrat;\n    font-size: 16px;\n    font-weight: 400;\n}\n.innertext .igc-textual-fact {\n    line-height: 22px;\n}\n.igc-textual-icon {\n    padding-right: 30px;\n    padding-top: 7px;\n}\n/*igc-textual:end*/\n\n.igc-table .igc-table-cell {\n    font-family: Fira Sans;\n    font-size: 13px;\n    font-weight: 400;\n}\n.igc-table .igc-table-header {\n    font-family: Fira Sans;\n    font-size: 13px;\n    font-weight: 400;\n    padding-left: 9px;\n}\n.ig-container {\n    background: #ffffff;\n}\n.ig-copyright {\n    display: none;\n}\n.headline {\n    font-family: Montserrat Semibold;\n    font-size: 36px;\n    font-weight: 400;\n    color: #464646;\n    text-align: left;\n}\n.headline .innertext {\n    line-height: 42px;\n}\n.chart-title {\n    font-family: Montserrat Semibold;\n    font-size: 24px;\n    font-weight: 400;\n    color: #464646;\n    text-align: left;\n}\n.chart-title .innertext {\n    line-height: 29px;\n}\n.bodytext {\n    font-family: Montserrat;\n    font-size: 16px;\n    font-weight: 400;\n    color: #464646;\n    text-align: left;\n    line-height: 22px;\n}\n\n.heatmap-legend {\n\tbackground: rgba(255,255,255,0.7);\n}\n.heatmap-legend-item,\n.heatmap-label {\n \tcolor: #464646;\n\tfont-size: 13px;\n\tfont-weight: 400;\n\tfont-family: Montserrat;\n}\n.igc-graph-pie-piece {\n\tstroke: rgb(255,255,255);\n}\n\n\n.captiontext {\n    font-family: Montserrat;\n    color: #464646;\n    font-size: 12px;\n    font-weight: 400;\n    text-align: left;\n}\n.captiontext .innertext {\n    line-height: 14px;\n}\n\n.igc-table-search {\n    color: #232323;\n    font-size: 13px;\n    font-weight: 400;\n    font-family: Montserrat;\n}\n\n.ig-logo .ig-logo-text {\n       color: #757575;\n}",
+    "charts": {
+      "candle": {
+        "colors": {
+          "down": "#1F995C",
+          "up": "#163254"
+        }
+      },
+      "gauge": {
+        "colors": {
+          "background": "#dddddd"
+        }
+      },
+      "legend": {
+        "color": {
+          "label": {
+            "active": "#464646",
+            "hover": "rgba(70,70,70,0.7)",
+            "inactive": "#464646"
+          },
+          "icon": {
+            "inactive": "rgba(70,70,70,0.2)"
+          }
+        },
+        "layouts": {
+          "bottom": {
+            "legend": {
+              "entry": {
+                "marginTop": "15px"
+              },
+              "marginTop": "10px",
+              "marginBottom": "0"
+            }
+          }
+        }
+      },
+      "tooltip": {
+        "value": {
+          "fontWeight": 400,
+          "fontFamily": "Montserrat"
+        },
+        "container": {
+          "color": "#FFFFFF",
+          "font": "400 16px Montserrat"
+        },
+        "body": {
+          "background": "#333333"
+        },
+        "left": {
+          "borderRight": "8px solid #333333"
+        },
+        "right": {
+          "borderLeft": "8px solid #333333"
+        }
+      },
+      "sheetSwitch": {
+        "style": {
+          "tab": {
+            "font-family": "Montserrat",
+            "font-weight": 400,
+            "font-style": "normal",
+            "colors": {
+              "tab": {
+                "background": "rgba(0, 0, 0, 0.1)",
+                "top": "rgba(0, 0, 0, 0.1)",
+                "topLeftCorner": "rgba(0, 0, 0, 0.1)",
+                "topRightCorner": "rgba(0, 0, 0, 0.1)"
+              },
+              "dropdown": {
+                "selectIcon": "#464646",
+                "leftSwitcherIcon": "#464646",
+                "rightSwitcherIcon": "#464646"
+              }
+            },
+            "font-size": "13px",
+            "color": "#464646"
+          }
+        }
+      },
+      "table": {
+        "shapeFill": "#3C577C",
+        "headerColor": "#232323",
+        "cellColor": "#232323",
+        "headerBackground": "#ffffff",
+        "cellBackground": "#f3f3f3",
+        "cell": {
+          "font-family": "Fira Sans",
+          "font-size": "13px",
+          "font-weight": "400"
+        },
+        "header": {
+          "font-family": "Fira Sans",
+          "font-size": "13px",
+          "font-weight": "400"
+        }
+      },
+      "treemap": {
+        "labels": {
+          "name": {
+            "fontFamily": "Montserrat",
+            "fontWeight": "400"
+          },
+          "value": {
+            "fontFamily": "Montserrat"
+          }
+        }
+      },
+      "waterfall": {
+        "colors": "163254 1F995C 9FD9E5"
+      },
+      "wordcloud": {
+        "labels": {
+          "fontWeight": "400",
+          "fontFamily": "Montserrat"
+        }
+      },
+      "barProgress": {
+        "colors": {
+          "background": "#dddddd"
+        }
+      },
+      "pictorialBar": {
+        "colors": {
+          "background": "#dddddd"
+        },
+        "style": {
+          "graph": {
+            "item": {
+              "value": {
+                "fontFamily": "Montserrat"
+              }
+            }
+          }
+        }
+      },
+      "map": {
+        "countryFill": "#dddddd",
+        "polygonStrokeColor": "#ffffff"
+      }
+    },
+    "chartOptions": {},
+    "chartDefaults": {},
+    "color": {
+      "element": {
+        "text": "#464646",
+        "bg": "transparent"
+      },
+      "chart": {
+        "text": "#464646",
+        "bg": "transparent"
+      },
+      "text": "#464646",
+      "bg": "#ffffff"
+    },
+    "colorPresets": [],
+    "localFonts": {
+      "local": [
+        {
+          "fontFamily": "Montserrat Semibold",
+          "styles": [
+            {
+              "fontWeight": 400,
+              "fontStyle": "normal",
+              "src": [
+                "url(https://themes.jifo.co/35401/montserrat-semibold.woff) format(\"woff\")"
+              ]
+            },
+            {
+              "fontWeight": 400,
+              "fontStyle": "italic",
+              "src": [
+                "url(https://themes.jifo.co/35401/montserrat-semibolditalic.woff) format(\"woff\")"
+              ]
+            },
+            {
+              "fontWeight": 700,
+              "fontStyle": "normal",
+              "src": [
+                "url(https://themes.jifo.co/35401/montserrat-black.woff) format(\"woff\")"
+              ]
+            },
+            {
+              "fontWeight": 700,
+              "fontStyle": "italic",
+              "src": [
+                "url(https://themes.jifo.co/35401/montserrat-blackitalic.woff) format(\"woff\")"
+              ]
+            }
+          ]
+        }
+      ],
+      "typekit": [],
+      "google": [
+        {
+          "fontFamily": "Montserrat",
+          "fontWeights": [
+            700,
+            400
+          ]
+        },
+        {
+          "fontFamily": "Fira Sans",
+          "fontWeights": [
+            700,
+            400
+          ]
+        }
+      ]
+    },
+    "font": {
+      "label": {
+        "fontSize": 13,
+        "fontWeight": 400
+      },
+      "common": {
+        "textAlign": "initial",
+        "fontSize": 13,
+        "fontStyle": "normal",
+        "fontWeight": "400",
+        "fontFamily": "Fira Sans"
+      },
+      "legend": {
+        "fontWeight": "400",
+        "fontSize": "13px",
+        "fontFamily": "Montserrat"
+      }
+    },
+    "fontPresets": [],
+    "fontFamilies": [
+      "Montserrat",
+      "Montserrat Semibold",
+      "Fira Sans"
+    ],
+    "footerOptions": {
+      "common": {},
+      "copyrightNotice": {
+        "enabled": false,
+        "fontFamily": "Montserrat",
+        "fontSize": "13",
+        "color": "#757575",
+        "fontWeight": "400",
+        "fontStyle": "normal"
+      },
+      "shareButton": {
+        "enabled": true,
+        "background": "#063773",
+        "text": "Share",
+        "color": "#ffffff",
+        "fontFamily": "Montserrat",
+        "fontSize": 13,
+        "fontWeight": "400",
+        "fontStyle": "normal",
+        "position": "left"
+      },
+      "logo": {
+        "position": "right",
+        "enabled": true,
+        "background": "#063773",
+        "width": 88,
+        "height": 35
+      }
+    },
+    "archived": false,
+    "tabs": true,
+    "zeroPaddingEmbed": true,
+    "freelayoutContents": {
+      "defaults": {
+        "foregroundColor": "#464646",
+        "backgroundColor": "#ffffff",
+        "fontFamily": "Fira Sans",
+        "fontSize": 12,
+        "lineHeight": 1.5,
+        "textAlign": "ALIGN_LEFT"
+      },
+      "fontFamilies": {
+        "font1": "Roboto"
+      },
+      "fontSizes": {
+        "extraLarge": 64,
+        "large": 48,
+        "medium": 18,
+        "small": 12
+      },
+      "elements": {
+        "TEXT": {
+          "h1": {
+            "fontSize": "36px",
+            "fontFamily": "Montserrat Semibold",
+            "fontWeight": 700,
+            "foregroundColor": "#464646"
+          },
+          "h2": {
+            "fontSize": "24px",
+            "fontFamily": "Montserrat Semibold",
+            "fontWeight": 700,
+            "foregroundColor": "#464646"
+          },
+          "body": {
+            "fontSize": "16px",
+            "fontFamily": "Montserrat",
+            "foregroundColor": "#464646",
+            "lineHeight": 1.4
+          },
+          "caption": {
+            "fontSize": "12px",
+            "fontFamily": "Montserrat",
+            "foregroundColor": "#464646"
+          }
+        },
+        "SHAPE": {
+          "fillColor": "#063773",
+          "strokeColor": "#063773"
+        },
+        "IMAGE": {
+          "fillColor": "#063773"
+        }
+      },
+      "colors": [
+        "#063773",
+        "#2E81E5",
+        "#5CC4E5",
+        "#A483DD",
+        "#B15959",
+        "#ED814E",
+        "#E3B935"
+      ]
+    },
+    "id": 35401,
+    "thumb": null,
+    "version": 1,
+    "parentId": 0,
+    "enabledResponsive": true,
+    "enabledFreeLayout": true,
+    "createdAt": "2023-05-05T09:53:52.000Z",
+    "updatedAt": "2025-04-11T12:05:19.000Z",
+    "created_at": "2023-05-05T09:53:52.000Z",
+    "updated_at": "2025-04-11T12:05:19.000Z"
+  },
+  "canUseLinks": true,
+  "embed": "<script id=\"infogram_0__/cjH8bTRHmQWJ2MrxfoMg\" title=\"חלוקת הגושים 8.10.26\" src=\"https://e.infogram.com/js/dist/embed.js?LqY\" type=\"text/javascript\"></script>",
+  "embedIframe": "<iframe src=\"https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed\" title=\"חלוקת הגושים 8.10.26\" width=\"700\" height=\"498\" scrolling=\"no\" frameborder=\"0\" style=\"border:none;\" allowfullscreen=\"allowfullscreen\"></iframe>",
+  "embedImageResponsive": "<script id=\"infogramimg_0__/cjH8bTRHmQWJ2MrxfoMg\" title=\"חלוקת הגושים 8.10.26\" src=\"https://e.infogram.com/js/dist/embed.js?wG8\" type=\"text/javascript\"></script>",
+  "embedImageIframe": "",
+  "embedAMP": "<amp-iframe width=\"700\" height=\"498\" layout=\"responsive\" sandbox=\"allow-scripts allow-same-origin allow-popups\" resizable allowfullscreen frameborder=\"0\" src=\"https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed\"><div style=\"visibility: hidden\" overflow tabindex=0 role=button aria-label=\"Loading...\" placeholder>Loading...</div></amp-iframe>",
+  "embedAMPImage": "<amp-iframe width=\"700\" height=\"498\" layout=\"responsive\" sandbox=\"allow-scripts allow-same-origin allow-popups\" resizable allowfullscreen frameborder=\"0\" src=\"https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed\"><div style=\"visibility: hidden\" overflow tabindex=0 role=button aria-label=\"Loading...\" placeholder>Loading...</div></amp-iframe>",
+  "embedWordpress": "[infogram id=\"_/cjH8bTRHmQWJ2MrxfoMg\" prefix=\"VT4\" format=\"interactive\" title=\"חלוקת הגושים 8.10.26\"]",
+  "embedWordpressImage": "[infogram id=\"_/cjH8bTRHmQWJ2MrxfoMg\" prefix=\"lR4\" format=\"image\" title=\"חלוקת הגושים 8.10.26\"]",
+  "embedAsync": "<div class=\"infogram-embed\" data-id=\"_/cjH8bTRHmQWJ2MrxfoMg\" data-type=\"interactive\" data-title=\"חלוקת הגושים 8.10.26\"></div><script>!function(e,n,i,s){var d=\"InfogramEmbeds\";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,\"script\",\"infogram-async\",\"https://e.infogram.com/js/dist/embed-loader-min.js\");</script>",
+  "embedImageAsync": "<div class=\"infogram-embed\" data-id=\"_/cjH8bTRHmQWJ2MrxfoMg\" data-type=\"image\" data-title=\"חלוקת הגושים 8.10.26\"></div><script>!function(e,n,i,s){var d=\"InfogramEmbeds\";var o=e.getElementsByTagName(n)[0];if(window[d]&&window[d].initialized)window[d].process&&window[d].process();else if(!e.getElementById(i)){var r=e.createElement(n);r.async=1,r.id=i,r.src=s,o.parentNode.insertBefore(r,o)}}(document,\"script\",\"infogram-async\",\"https://e.infogram.com/js/dist/embed-loader-min.js\");</script>",
+  "indexStatus": true,
+  "branding": {
+    "fonts": [
+      {
+        "template": false,
+        "value": {
+          "id": "d1fc0b08-8eb3-4787-a582-db87ed36f10f",
+          "name": "Adom Black"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "fdbb8424-c6e3-4adb-aa9b-97550015c9f6",
+          "name": "Adom Bold"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "ee954247-12d8-4d67-86cf-1c393792c2a9",
+          "name": "Adom Medium"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "84ce1fae-78c3-4885-8959-6e36cabc40da",
+          "name": "Adom Regular"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "af6a2cfe-05a1-4f8f-9b6f-c17695ce6a1b",
+          "name": "Narkiss Block Bold"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "0bf628f4-db97-4ed7-869f-e56f57aadeb1",
+          "name": "Narkiss Block Light"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "ee33abf9-ba62-41f3-8f52-7fcc5045c12e",
+          "name": "Narkiss Block Regular"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "232d4801-c5c1-47d1-abc3-4ca9bc23167a",
+          "name": "Narkiss Block Semibold"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "dd474fa5-336c-44ea-80a2-a31df50038db",
+          "name": "Open Sans Condensed Bold"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "0d3fab66-5f27-44f3-b378-6ded8ffca6de",
+          "name": "Open Sans Condensed ExtraBold"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "6fabab36-e11f-4994-8ca9-f82e67d257af",
+          "name": "Open Sans Condensed Light"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "0e79f6bc-30f5-4d16-9e45-dc6055c8a085",
+          "name": "Open Sans Condensed Medium"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "47dfc203-f8de-4107-8fa5-0bb4730e78e3",
+          "name": "Open Sans Condensed Regular"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "b5fd0fca-dcab-4248-b42a-f090aa9fd06e",
+          "name": "Open Sans Condensed SemiBold"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "683d6b44-2d22-4fa8-8c0a-46c1c2a27f36",
+          "name": "Open Sans ExtraBold"
+        }
+      },
+      {
+        "template": false,
+        "value": {
+          "id": "c2fc95c1-4ec4-4bcc-b07a-f0e4541a1447",
+          "name": "Open Sans SemiBold"
+        }
+      }
+    ],
+    "webfonts": [
+      {
+        "id": "igbr-Adom Black",
+        "familyName": "Adom Black",
+        "url": "https://branding.jifo.co/3354de6a-82bb-47a5-b39b-522462a27620_adom-black.css"
+      },
+      {
+        "id": "igbr-Adom Bold",
+        "familyName": "Adom Bold",
+        "url": "https://branding.jifo.co/ea1e3c21-3258-4adb-95b1-6b96aa990b11_adom-bold.css"
+      },
+      {
+        "id": "igbr-Adom Medium",
+        "familyName": "Adom Medium",
+        "url": "https://branding.jifo.co/3ffdeebb-3ee0-47e5-abd7-cbcf8ea731cc_adom-medium.css"
+      },
+      {
+        "id": "igbr-Adom Regular",
+        "familyName": "Adom Regular",
+        "url": "https://branding.jifo.co/4a56791f-54eb-4652-9948-09ff10dbca4f_adom-regular.css"
+      },
+      {
+        "id": "igbr-Narkiss Block Bold",
+        "familyName": "Narkiss Block Bold",
+        "url": "https://branding.jifo.co/a758ff55-c17d-49be-8065-49b94e500779_narkiss-block-bold.css"
+      },
+      {
+        "id": "igbr-Narkiss Block Light",
+        "familyName": "Narkiss Block Light",
+        "url": "https://branding.jifo.co/dd6e9e0a-f759-47db-b24a-595e497fcf7d_narkiss-block-light.css"
+      },
+      {
+        "id": "igbr-Narkiss Block Regular",
+        "familyName": "Narkiss Block Regular",
+        "url": "https://branding.jifo.co/cb89606b-b495-4fa9-8a4f-349eb48a16e7_narkiss-block-regular.css"
+      },
+      {
+        "id": "igbr-Narkiss Block Semibold",
+        "familyName": "Narkiss Block Semibold",
+        "url": "https://branding.jifo.co/9e02fccf-d62e-4e43-b95f-0a467bba8294_narkiss-block-semibold.css"
+      },
+      {
+        "id": "igbr-Open Sans Condensed Bold",
+        "familyName": "Open Sans Condensed Bold",
+        "url": "https://branding.jifo.co/a62e9407-202a-4a92-b7e9-341c5b3d8aca_open-sans-condensed-bold.css"
+      },
+      {
+        "id": "igbr-Open Sans Condense-14c27cc",
+        "familyName": "Open Sans Condensed ExtraBold",
+        "url": "https://branding.jifo.co/eebfddf0-4fdd-47f8-bf75-004ed6a6f2a6_open-sans-condensed-extrabold.css"
+      },
+      {
+        "id": "igbr-Open Sans Condensed Light",
+        "familyName": "Open Sans Condensed Light",
+        "url": "https://branding.jifo.co/bcfcb2af-3759-4778-b393-8effa3675e1a_open-sans-condensed-light.css"
+      },
+      {
+        "id": "igbr-Open Sans Condensed Medium",
+        "familyName": "Open Sans Condensed Medium",
+        "url": "https://branding.jifo.co/81976fa9-0885-49ed-8b8e-69b1f04dc219_open-sans-condensed-medium.css"
+      },
+      {
+        "id": "igbr-Open Sans Condense-0c31dbc",
+        "familyName": "Open Sans Condensed Regular",
+        "url": "https://branding.jifo.co/779c0d21-4840-4380-9c14-8e6939e078a2_open-sans-condensed-regular.css"
+      },
+      {
+        "id": "igbr-Open Sans Condense-d664c13",
+        "familyName": "Open Sans Condensed SemiBold",
+        "url": "https://branding.jifo.co/99c07b50-1fbe-40e5-bc4b-e927639d44c8_open-sans-condensed-semibold.css"
+      },
+      {
+        "id": "igbr-Open Sans ExtraBold",
+        "familyName": "Open Sans ExtraBold",
+        "url": "https://branding.jifo.co/16fbc94c-302a-40a7-9b2b-efa73dcb21e9_open-sans-extrabold.css"
+      },
+      {
+        "id": "igbr-Open Sans SemiBold",
+        "familyName": "Open Sans SemiBold",
+        "url": "https://branding.jifo.co/0103e465-a70a-412f-b2c4-be1cf61078f5_open-sans-semibold.css"
+      }
+    ],
+    "colors": [
+      {
+        "template": false,
+        "value": "#EF0000"
+      },
+      {
+        "template": false,
+        "value": "#FFFFFF"
+      },
+      {
+        "template": false,
+        "value": "#3E9828"
+      }
+    ]
+  }
+}

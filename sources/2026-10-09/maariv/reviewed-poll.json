@@ -1,0 +1,403 @@
+{
+  "id": "lazar_2026-10-09",
+  "pollsterId": "lazar",
+  "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+  "publisher": "מעריב",
+  "date": "2026-10-09",
+  "publicationTime": "06:00:47",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": "2026-10-09T06:00:47+03:00",
+  "updatedAt": "2026-10-08T23:20:17+03:00",
+  "displayedArticleTime": "06:00",
+  "dateKind": "תאריך הפרסום המקורי במעריב; עבודת השדה ופרסום מוקדם של אותה תצפית בוואלה נשמרים בנפרד",
+  "earlierSameObservationPublication": {
+    "publisher": "וואלה",
+    "url": "https://www.walla.co.il/news/politics/383956803",
+    "publishedAt": "2026-10-08T23:04:01+03:00",
+    "date": "2026-10-08",
+    "notSeparatePoll": true
+  },
+  "sourcePublicationTimestampNotes": "מטא־נתון העדכון מוקדם מהפרסום במעריב; פרסום וואלה מוקדם ביום. נשמרות התאריכים המקוריים ללא יצירת תצפית כפולה.",
+  "fieldworkStart": "2026-10-07",
+  "fieldworkEnd": "2026-10-08",
+  "fieldworkSourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+  "sampleSize": 700,
+  "initialSampleSize": 700,
+  "invitedSampleSize": 4667,
+  "sampleSizeSourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+  "population": "האוכלוסייה הבוגרת בישראל מגיל 18 ומעלה, יהודים וערבים",
+  "samplingMethod": "פאנל משיבים אינטרנטי Panel4All",
+  "samplingMethodSourceUrl": "https://www.walla.co.il/news/politics/383956803",
+  "samplingDesign": null,
+  "panelProvider": "Panel4ALL",
+  "panelProviderSourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+  "panelProviderEvidenceKind": "explicit-original-publisher-methodology",
+  "reportedMarginOfErrorPct": 3.7,
+  "reportedMarginOfErrorDescription": "טעות הדגימה המרבית",
+  "reportedMarginOfErrorConfidencePct": null,
+  "marginConfidencePct": null,
+  "reportedMarginOfErrorSourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+  "undecidedPct": 5.3,
+  "undecidedSourceUrl": null,
+  "undecidedSourceKind": "user-provided-report-image",
+  "undecidedEvidencePath": "artifacts/sources/2026-10-09-maariv/user-provided-lazar-report.png",
+  "undecidedEvidenceSha256": "31d28c8e5a88ffd18b69a349a7ee3da4b9e8dbaf6f7f27370dddee4a8b91f5b5",
+  "undecidedDenominator": null,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "percentageDenominator": null,
+  "originalCoveragePct": 2.6,
+  "knownPercentageSum": 2.6,
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 21,
+    "likud": 20,
+    "beyachad": 13,
+    "democrats": 9,
+    "yisrael_beiteinu": 9,
+    "otzma": 8,
+    "joint": 7,
+    "utj": 7,
+    "shas": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "gantz": 0.9,
+    "haredi_public": 0.8,
+    "noam": 0.6,
+    "other": 0.3
+  },
+  "reportedPercentages": {
+    "gantz": 0.9,
+    "haredi_public": 0.8,
+    "noam": 0.6
+  },
+  "percentageSourceUrls": {
+    "gantz": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+    "haredi_public": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+    "noam": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+    "other": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed"
+  },
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "unmodelledNamedParties": [
+    {
+      "name": "צומת–בית ישראל בראשות גדי יברקן",
+      "seats": 0,
+      "pct": 0.3,
+      "mappedTo": "other",
+      "sourceUrl": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed"
+    }
+  ],
+  "sourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+  "sourceTier": "original-publisher",
+  "secondarySourceUrls": [
+    "https://www.walla.co.il/news/politics/383956803",
+    "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+    "https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed",
+    "https://x.com/IsraelPolls?s=20",
+    "https://x.com/IsraelPolls/status/2105881232269537421"
+  ],
+  "checkedAt": "2026-10-09",
+  "reviewedAtUtc": "2026-10-09T03:34:59.139502+00:00",
+  "replacesPollId": "lazar_2026-10-02",
+  "sourceBlocSeats": {
+    "coalition": 52,
+    "opposition": 52,
+    "arab_parties": 12,
+    "hendel": 4
+  },
+  "sourceBlocDefinitions": "קואליציה כוללת עמך ישראל; אופוזיציה ציונית ללא ערביות וללא המילואימניקים והכלכלית.",
+  "sourceConflicts": [
+    {
+      "kind": "original-publisher-bloc-graphic-arithmetic-error",
+      "fileName": "maariv-original-blocs-infogram.png",
+      "reportedGraphicArabSeats": 10,
+      "reportedGraphicTotal": 118,
+      "resolvedArabSeats": 12,
+      "resolvedTotal": 120,
+      "resolutionEvidence": [
+        "Original Maariv article explicitly says12Arab mandates",
+        "Original party vector Joint7+Raam5",
+        "Walla bloc graphic12",
+        "User-provided report12"
+      ],
+      "doNotUseConflictingGraphicForModel": true
+    }
+  ],
+  "supplementalFindings": {
+    "reportedVotingCertainty": {
+      "question": "בטוחים שיגיעו להצביע",
+      "overallPct": 78,
+      "oppositionPct": 86,
+      "coalitionPct": 81,
+      "sourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+      "notTurnoutForecast": true,
+      "subgroupSampleSizes": null,
+      "conditionalDenominatorsNotFullyReported": true
+    }
+  },
+  "sourceDocument": {
+    "fileName": "maariv-oct9-original.html",
+    "kind": "web-page",
+    "sha256": "9472d7a1e58030f639e5f31365f0e26c1a825e70d8d02a39f2818349199849bf",
+    "extractFileName": "maariv-oct9-original.txt",
+    "extractSha256": "5bd1df3bff9579fecc6fdc0b05ca82fb765fcdafb3fbc2db0647c55f756c6532",
+    "primarySourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+    "providedBy": "original-publisher",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "reviewedAt": "2026-10-09",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "marginConfidencePct",
+      "full-passing-party-percentages",
+      "percentageDenominator",
+      "samplingDesign",
+      "undecided-online-original-filing"
+    ],
+    "embeddedSourceFileName": "maariv-original-mandates-infogram.html",
+    "embeddedSourceSha256": "0838b7bec23ef47b8097b5f28bca81bf9c6332c594d590402793d02daf14a475",
+    "reviewedGraphics": [
+      {
+        "fileName": "maariv-original-mandates-infogram.png",
+        "sourceUrl": "https://infogram.io/p/1c7e24be5064e87de017e04939daa141.png",
+        "role": "original-published-party-seats-and-below-threshold-shares",
+        "visuallyReviewed": true,
+        "sha256": "31f700ea34ef64c8bdc036c1564c7c3271f12bec7dda7ef29c559bb468193df6"
+      },
+      {
+        "fileName": "maariv-original-blocs-infogram.png",
+        "sourceUrl": "https://infogram.io/p/82b7fbb23ecc926f6b21dced877ee103.png",
+        "role": "original-bloc-graphic-with-documented-Arab-seat-error-do-not-use-as-numerical-authority",
+        "visuallyReviewed": true,
+        "sha256": "b420bf182f7025c77de124cb36e711ff1df80756a90e4eb01da0121cb43d479c"
+      },
+      {
+        "fileName": "walla-published-seats.webp",
+        "sourceUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791486897005_walla-media-picture_1360x2484.webp?width=1920&quality=75",
+        "role": "same-observation-publisher-party-vector",
+        "visuallyReviewed": true,
+        "sha256": "fae6ca2e39f6031e7f51a8178b0f0c44413e939f06df6f6c23376d0c53de6bcc"
+      },
+      {
+        "fileName": "walla-published-blocs.webp",
+        "sourceUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791489772193_walla-media-picture_1200x958.webp?width=1920&quality=75",
+        "role": "same-observation-publisher-correct-52-52-12-4-bloc-graphic",
+        "visuallyReviewed": true,
+        "sha256": "1cf55f1276a9903f1e994b7c529f76ebba87925a3a8eed458ef152c6d803c231"
+      }
+    ],
+    "reviewedHistoricalGraphics": [
+      {
+        "fileName": "IsraelPolls-Lazar-last-history-0.webp",
+        "url": "https://pbs.twimg.com/media/HTmX0KGWsAAkmwy?format=webp&name=large",
+        "status": 200,
+        "sha256": "fa93f852a0cd27865947cace6e02bbd4b3368de439926d62d0cb990de4a444cd",
+        "role": "previous-October2-bloc-graphic",
+        "visuallyReviewed": true
+      },
+      {
+        "fileName": "IsraelPolls-Lazar-last-history-1.webp",
+        "url": "https://pbs.twimg.com/media/HTmX0Z0W8AAetid?format=webp&name=large",
+        "status": 200,
+        "sha256": "624a85c572e3925961e162c6c8828ec19d40f3ff44895095d545d115af3805e8",
+        "role": "previous-October2-party-graphic",
+        "visuallyReviewed": true
+      },
+      {
+        "fileName": "IsraelPolls-Lazar-last-history-2.webp",
+        "url": "https://pbs.twimg.com/media/HTmmKr-XEAACOaX?format=webp&name=large",
+        "status": 200,
+        "sha256": "3e808b44062421f727386a661d95034c9afe3aa18077bf1d0d2a8eda84f410bb",
+        "role": "historical-table-through-October2-only",
+        "visuallyReviewed": true
+      }
+    ],
+    "userProvidedDocuments": [
+      {
+        "fileName": "user-provided-lazar-report.png",
+        "sha256": "31d28c8e5a88ffd18b69a349a7ee3da4b9e8dbaf6f7f27370dddee4a8b91f5b5",
+        "providedBy": "user",
+        "sourceKind": "user-provided-report-image-not-independently-located-official-filing",
+        "originalLocalFileName": "codex-clipboard-81df2c74-427f-4efa-ab27-ab2960eb8b4a.png",
+        "visuallyReviewed": true,
+        "supports": "5.3% undecided; same vector and exact below-threshold values as independently verified primary publications",
+        "comparisonColumnLabel": "01 אוקטובר",
+        "comparisonLabelIsNotPublicationDate": true
+      }
+    ]
+  },
+  "sourceAccessSummary": [
+    {
+      "url": "https://www.maariv.co.il/",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.maariv.co.il/",
+      "fileName": "maariv-home.html",
+      "sha256": "ec4d5087de988ac7fc9791a7bd4203266847af24aa867e185009eb938bad30f6",
+      "title": "חדשות היום, כלכלה, ספורט, רכילות, בריאות, טכנולוגיה | מעריב"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.maariv.co.il/news/politics",
+      "fileName": "maariv-politics.html",
+      "sha256": "2cb7ecc7e1cb57e29bed48c933b1bc1ca6a411c505436494213374bc14c284d1",
+      "title": "פוליטי-מדיני | מעריב"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.maariv.co.il/news/elections-2026",
+      "fileName": "maariv-elections.html",
+      "sha256": "4af808b4979f62e4c5598bd04e2ba51c7262bb3b85dd7cdbee020c4b5aadb83c",
+      "title": "בחירות 2026 : סקר מנדטים, כתבות ופרשנויות של הכתבים המובילים | מעריב"
+    },
+    {
+      "url": "https://www.walla.co.il/",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.walla.co.il/",
+      "fileName": "walla-home.html",
+      "sha256": "1e4553d89c3934aad8c592021c4b206edf78fa99024d20d4c9c31ded8b111124",
+      "title": "וואלה חדשות. ספורט. סלבס. אוכל - עדכונים ודיווחים שוטפים"
+    },
+    {
+      "url": "https://news.walla.co.il/",
+      "checkedAtUtc": "2026-10-09T03:26:14.718718+00:00",
+      "status": 200,
+      "finalUrl": "https://www.walla.co.il/news",
+      "fileName": "walla-news.html",
+      "sha256": "ca67e530f7e9547d5eb6ac1d259576563631c6e82363253f6c2c93f95e3592b3",
+      "title": "עדכונים חמים על כל מתחרש בארצנו ומחוצה לה | וואלה חדשות"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "checkedAtUtc": "2026-10-09T03:26:14.718718+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls?s=20",
+      "fileName": "IsraelPolls-profile.html",
+      "sha256": "d02e3bf00373fd31a4bbe0d5413c4f47390f7d94b29efaff43795ab9a5d9e753",
+      "title": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics/article-1375198",
+      "checkedAtUtc": "2026-10-09T03:26:43.497948+00:00",
+      "status": 200,
+      "finalUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+      "fileName": "maariv-oct9-original.html",
+      "sha256": "9472d7a1e58030f639e5f31365f0e26c1a825e70d8d02a39f2818349199849bf",
+      "title": "סקר מנדטים: מפלגת הליכוד מתחזקת - והקרב מול איזנקוט מתחמם | חדשות מעריב"
+    },
+    {
+      "url": "https://news.walla.co.il/category/2686",
+      "checkedAtUtc": "2026-10-09T03:26:43.497948+00:00",
+      "status": 200,
+      "finalUrl": "https://www.walla.co.il/news/politics",
+      "fileName": "walla-politics.html",
+      "sha256": "dbade2d4c89151c2a59093da41031b591e7012a801300c23db16257cb4e15b68",
+      "title": "חדשות פוליטיקה וממשל - כל העדכונים, המידע והפרשנויות | וואלה חדשות"
+    },
+    {
+      "url": "https://elections.walla.co.il/",
+      "checkedAtUtc": "2026-10-09T03:26:43.497948+00:00",
+      "status": 200,
+      "finalUrl": "https://elections.walla.co.il/",
+      "fileName": "walla-election-index.html",
+      "sha256": "b96705adbfb9b195da6cf7932f075c924643130f1208d18da62d69fdce264d6f",
+      "title": "בחירות 2026: כל העדכונים, הסקרים והפרשנויות | וואלה בחירות  - וואלה בחירות 2026"
+    },
+    {
+      "url": "https://www.walla.co.il/news/politics",
+      "checkedAtUtc": "2026-10-09T03:26:43.497948+00:00",
+      "status": 200,
+      "finalUrl": "https://www.walla.co.il/news/politics",
+      "fileName": "walla-current-politics.html",
+      "sha256": "dbade2d4c89151c2a59093da41031b591e7012a801300c23db16257cb4e15b68",
+      "title": "חדשות פוליטיקה וממשל - כל העדכונים, המידע והפרשנויות | וואלה חדשות"
+    },
+    {
+      "url": "https://www.walla.co.il/news/politics/383956803",
+      "checkedAtUtc": "2026-10-09T03:26:43.498954+00:00",
+      "status": 200,
+      "finalUrl": "https://www.walla.co.il/news/politics/383956803",
+      "fileName": "walla-oct8-or9-original.html",
+      "sha256": "9726b6ce89eea1f87ae68c34030b1db6d05cbf3430dadc280e79c25a206de3b7",
+      "title": "הליכוד מתחזקת, הגושים בשוויון ואיזנקוט עדיין ראשון | סקר | וואלה חדשות"
+    },
+    {
+      "url": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791486897005_walla-media-picture_1360x2484.webp?width=1920&quality=75",
+      "status": 200,
+      "finalUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791486897005_walla-media-picture_1360x2484.webp?width=1920&quality=75",
+      "fileName": "walla-published-seats.webp",
+      "sha256": "fae6ca2e39f6031e7f51a8178b0f0c44413e939f06df6f6c23376d0c53de6bcc",
+      "checkedAtUtc": "2026-10-09T03:28:29.601031+00:00"
+    },
+    {
+      "url": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791489772193_walla-media-picture_1200x958.webp?width=1920&quality=75",
+      "status": 200,
+      "finalUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791489772193_walla-media-picture_1200x958.webp?width=1920&quality=75",
+      "fileName": "walla-published-blocs.webp",
+      "sha256": "1cf55f1276a9903f1e994b7c529f76ebba87925a3a8eed458ef152c6d803c231",
+      "checkedAtUtc": "2026-10-09T03:28:29.595510+00:00"
+    },
+    {
+      "url": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+      "status": 200,
+      "finalUrl": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+      "fileName": "maariv-original-mandates-infogram.html",
+      "sha256": "0838b7bec23ef47b8097b5f28bca81bf9c6332c594d590402793d02daf14a475",
+      "checkedAtUtc": "2026-10-09T03:28:29.599022+00:00"
+    },
+    {
+      "url": "https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed",
+      "status": 200,
+      "finalUrl": "https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed",
+      "fileName": "maariv-original-blocs-infogram.html",
+      "sha256": "0ea17b79959c1c7cba839e1c1875a8005a655bfa808da879ebcbc7538385f9d6",
+      "checkedAtUtc": "2026-10-09T03:28:29.602027+00:00"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2105881232269537421",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls/status/2105881232269537421",
+      "fileName": "IsraelPolls-last-Lazar-history.html",
+      "sha256": "f78d52a95c8e5ed2ecf4d861d0ef91f1a7662584dfee1d29b8cebc853e9105fa",
+      "checkedAtUtc": "2026-10-09T03:28:31.325350+00:00"
+    }
+  ],
+  "sourceCheckLimitations": [
+    "The exact 5.3% undecided value is verified only in the user-provided report image; it is not present in the inspected Maariv/Walla article text or the current mandate Infogram.",
+    "The original publications do not supply the confidence level of the reported maximum 3.7% sampling error; marginConfidencePct and reportedMarginOfErrorConfidencePct remain null.",
+    "Internet Panel4All is explicit in Walla. A stratified/random sampling design for this particular poll is not stated in the inspected publications and is not inherited from October2.",
+    "Full passing-party vote percentages, exact support for Winter/Hendel, percentage denominator, invitations response outcomes beyond actual n, and small parties not named in the publication remain missing.",
+    "Maariv original bloc Infogram incorrectly shows Arab parties10 and totals118; verified mandates, article narrative, Walla original bloc graphic and user report all establish Arab12 and total120.",
+    "Maariv publication is9October06:00:47; Walla published the same survey8October23:04:01. These are one observation, not two new polls.",
+    "Maariv dateModified metadata8October23:20:17 precedes its publication metadata9October06:00:47. Both values are retained; no publication date is inferred from modified metadata.",
+    "Fresh IsraelPolls readable profile exposed posts only through8October; no9October Lazar graphic/history table was exposed in that bounded timeline. The most recent accessible Lazar history post, dated2October, was archived and its three images visually inspected.",
+    "The user report prior-column label1October matches the previous poll fieldwork end, while the active prior Maariv publication is2October; the historical publication date is not relabelled.",
+    "Initial web text-reader requests for Maariv home/politics and IsraelPolls profile failed with Internal Error; fresh direct public HTTP200 content was separately retained and read."
+  ],
+  "notes": [
+    "סקר מעריב / לזר מ־9.10 מחליף את סקר אותו מכון מ־2.10; הפרסום המוקדם בוואלה מ־8.10 הוא אותה תצפית ונשמר כמקור נוסף בלבד.",
+    "עבודת השדה: 7–8.10; 700 משיבים בפועל מתוך 4,667 מוזמנים; מדגם התחלתי700. טעות דגימה מרבית שפורסמה:3.7%; רמת ביטחון שלא פורסמה נשארת חסרה.",
+    "Panel4All ופאנל אינטרנטי אומתו בפרסומים המקוריים; תכנון שכבות או בחירה אקראית לא הועתקו מסקר קודם.",
+    "מתחת לחסימה: כחול לבן0.9%, הציבור החרדי0.8%, נעם לישראל0.6% וצומת–בית ישראל0.3%; אומתו גם ב־Infogram המקורי.",
+    "0.3% של צומת–בית ישראל ממופים לרכיב רשימות אחרות במודל בלבד; זה אינו שיעור כולל שפורסם לכל הרשימות האחרות.",
+    "5.3% מתלבטים מופיעים בצילום דוח שסיפק המשתמש; נתון זה לא אומת בפרסום המקוון המקורי שנבדק ומקורו מסומן בנפרד.",
+    "צילום המשתמש מתייג את הסקר הקודם1באוקטובר; מועד הפרסום המקורי של אותה תצפית הוא2באוקטובר ועבודת השדה הסתיימה1באוקטובר.",
+    "חלוקה מאומתת:52קואליציה כולל וינטר,52אופוזיציה ציונית,12ערביות ו־4המילואימניקים והכלכלית. בגרפיקת הגושים של מעריב מופיע בטעות10לערביות, בניגוד לווקטור120ולכתבה; הסתירה נשמרה ולא הועתקה למודל.",
+    "אחוזים שלא פורסמו נשארים חסרים; אפס מנדטים אינו אפס תמיכה. אחוזי הרשימות העוברות משוחזרים במודל מהמנדטים ואינם נתוני משיבים שפורסמו.",
+    "86% ממצביעי האופוזיציה ו־81% ממצביעי הקואליציה אמרו שהם בטוחים שיצביעו; אלה תשובות מותנות בסקר, לא תחזית לאחוזי הצבעה בפועל."
+  ]
+}

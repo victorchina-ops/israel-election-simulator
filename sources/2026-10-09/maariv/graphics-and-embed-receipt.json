@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "url": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791486897005_walla-media-picture_1360x2484.webp?width=1920&quality=75",
+      "status": 200,
+      "finalUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791486897005_walla-media-picture_1360x2484.webp?width=1920&quality=75",
+      "fileName": "walla-published-seats.webp",
+      "sha256": "fae6ca2e39f6031e7f51a8178b0f0c44413e939f06df6f6c23376d0c53de6bcc",
+      "bytes": 54840,
+      "checkedAtUtc": "2026-10-09T03:28:29.601031+00:00"
+    },
+    {
+      "url": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791489772193_walla-media-picture_1200x958.webp?width=1920&quality=75",
+      "status": 200,
+      "finalUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791489772193_walla-media-picture_1200x958.webp?width=1920&quality=75",
+      "fileName": "walla-published-blocs.webp",
+      "sha256": "1cf55f1276a9903f1e994b7c529f76ebba87925a3a8eed458ef152c6d803c231",
+      "bytes": 18852,
+      "checkedAtUtc": "2026-10-09T03:28:29.595510+00:00"
+    },
+    {
+      "url": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+      "status": 200,
+      "finalUrl": "https://e.infogram.com/_/wYQb9hR6ycgg99I3A4d0?src=embed",
+      "fileName": "maariv-original-mandates-infogram.html",
+      "sha256": "0838b7bec23ef47b8097b5f28bca81bf9c6332c594d590402793d02daf14a475",
+      "bytes": 52012,
+      "checkedAtUtc": "2026-10-09T03:28:29.599022+00:00"
+    },
+    {
+      "url": "https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed",
+      "status": 200,
+      "finalUrl": "https://e.infogram.com/_/cjH8bTRHmQWJ2MrxfoMg?src=embed",
+      "fileName": "maariv-original-blocs-infogram.html",
+      "sha256": "0ea17b79959c1c7cba839e1c1875a8005a655bfa808da879ebcbc7538385f9d6",
+      "bytes": 50297,
+      "checkedAtUtc": "2026-10-09T03:28:29.602027+00:00"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2105881232269537421",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls/status/2105881232269537421",
+      "fileName": "IsraelPolls-last-Lazar-history.html",
+      "sha256": "f78d52a95c8e5ed2ecf4d861d0ef91f1a7662584dfee1d29b8cebc853e9105fa",
+      "bytes": 111328,
+      "checkedAtUtc": "2026-10-09T03:28:31.325350+00:00"
+    }
+  ]
+}

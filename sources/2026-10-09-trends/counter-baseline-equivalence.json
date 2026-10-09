@@ -1,0 +1,513 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "purpose": "Independent exact equivalence and scalability audit before the Oct9 Lazar series grows from5 to6 polls.",
+  "method": {
+    "null": "All complete result vectors are permuted across time within each institute; institutes combine independently.",
+    "statistic": "Absolute historical-quality-weighted mean of within-institute OLS slopes in seats/week.",
+    "counter": "Scalar integer-score multiplicity compression plus balanced meet-in-the-middle searchsorted cumulative tails.",
+    "tolerance": 1e-12,
+    "sampling": "none; every permutation retains its exact multiplicity",
+    "independenceNote": "This implementation does not call the existing direct-mask independent verifier."
+  },
+  "oct8": {
+    "seriesSizes": [
+      5,
+      5,
+      5,
+      5,
+      2,
+      4,
+      7,
+      5
+    ],
+    "nPermutations": 6019743744000000,
+    "axesVerified": 4,
+    "partyOutcomesPerAxis": 17,
+    "blocOutcomesPerAxis": 3
+  },
+  "projectedOct9IfLazarGrows5To6": {
+    "seriesSizes": [
+      5,
+      5,
+      5,
+      6,
+      2,
+      4,
+      7,
+      5
+    ],
+    "factorIncrease": 6,
+    "nPermutations": 36118462464000000,
+    "fitsSignedInt64": true,
+    "fitsJavascriptSafeInteger": false,
+    "warning": "Exact integer counts remain safe in int64/Python int; JSON/JavaScript must not treat the count as an exact Number."
+  },
+  "results": [
+    {
+      "label": "bloc-primary-fieldwork-midpoint",
+      "status": "PASS",
+      "outcomeCount": 3,
+      "outcomeIds": [
+        "coalition",
+        "opposition",
+        "opposition_raam"
+      ],
+      "nPermutations": 6019743744000000,
+      "extremeCounts": [
+        5598001558978560,
+        3816761282555904,
+        5779258810122240
+      ],
+      "pValues": [
+        0.929940176366843,
+        0.6340404915674603,
+        0.9600506360229277
+      ],
+      "tolerance": 1e-12,
+      "seriesComplexity": [
+        {
+          "pollsterId": "direct_polls",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 10
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 20,
+          "uniqueStatesMax": 53
+        },
+        {
+          "pollsterId": "kantar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 5,
+          "uniqueStatesMax": 10
+        },
+        {
+          "pollsterId": "lazar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 19,
+          "uniqueStatesMax": 69
+        },
+        {
+          "pollsterId": "maagar_mochot",
+          "nPolls": 2,
+          "rawPermutations": 2,
+          "uniqueStatesMin": 2,
+          "uniqueStatesMax": 2
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "nPolls": 4,
+          "rawPermutations": 24,
+          "uniqueStatesMin": 4,
+          "uniqueStatesMax": 12
+        },
+        {
+          "pollsterId": "next_data",
+          "nPolls": 7,
+          "rawPermutations": 5040,
+          "uniqueStatesMin": 25,
+          "uniqueStatesMax": 25
+        },
+        {
+          "pollsterId": "tatika",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 13,
+          "uniqueStatesMax": 31
+        }
+      ],
+      "maxCompressedHalfSizes": [
+        43125,
+        38688
+      ],
+      "conservativeWorkingBytes": 5236032,
+      "conservativeWorkingMiB": 4.99346923828125,
+      "oct9HardUpperBoundIfAll720LazarScoresUnique": {
+        "maxHalfSizes": [
+          180000,
+          96720
+        ],
+        "conservativeWorkingBytes": 17710080,
+        "conservativeWorkingMiB": 16.8896484375
+      },
+      "elapsedSeconds": 0.01821050001308322
+    },
+    {
+      "label": "bloc-publication-date-sensitivity",
+      "status": "PASS",
+      "outcomeCount": 3,
+      "outcomeIds": [
+        "coalition",
+        "opposition",
+        "opposition_raam"
+      ],
+      "nPermutations": 6019743744000000,
+      "extremeCounts": [
+        5786299926282240,
+        3489580159856640,
+        5614884291944448
+      ],
+      "pValues": [
+        0.9612203064373898,
+        0.579689154265873,
+        0.9327447364417989
+      ],
+      "tolerance": 1e-12,
+      "seriesComplexity": [
+        {
+          "pollsterId": "direct_polls",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 9
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 13,
+          "uniqueStatesMax": 19
+        },
+        {
+          "pollsterId": "kantar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 5,
+          "uniqueStatesMax": 10
+        },
+        {
+          "pollsterId": "lazar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 19,
+          "uniqueStatesMax": 69
+        },
+        {
+          "pollsterId": "maagar_mochot",
+          "nPolls": 2,
+          "rawPermutations": 2,
+          "uniqueStatesMin": 2,
+          "uniqueStatesMax": 2
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "nPolls": 4,
+          "rawPermutations": 24,
+          "uniqueStatesMin": 4,
+          "uniqueStatesMax": 12
+        },
+        {
+          "pollsterId": "next_data",
+          "nPolls": 7,
+          "rawPermutations": 5040,
+          "uniqueStatesMin": 25,
+          "uniqueStatesMax": 25
+        },
+        {
+          "pollsterId": "tatika",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 13,
+          "uniqueStatesMax": 31
+        }
+      ],
+      "maxCompressedHalfSizes": [
+        25875,
+        18600
+      ],
+      "conservativeWorkingBytes": 2846400,
+      "conservativeWorkingMiB": 2.71453857421875,
+      "oct9HardUpperBoundIfAll720LazarScoresUnique": {
+        "maxHalfSizes": [
+          54000,
+          93000
+        ],
+        "conservativeWorkingBytes": 9408000,
+        "conservativeWorkingMiB": 8.97216796875
+      },
+      "elapsedSeconds": 0.012020100024528801
+    },
+    {
+      "label": "party-primary-fieldwork-midpoint",
+      "status": "PASS",
+      "outcomeCount": 17,
+      "outcomeIds": [
+        "yashar",
+        "likud",
+        "beyachad",
+        "democrats",
+        "yisrael_beiteinu",
+        "utj",
+        "joint",
+        "shas",
+        "otzma",
+        "rz_zehut",
+        "raam",
+        "winter",
+        "hendel",
+        "gantz",
+        "noam",
+        "haredi_public",
+        "israel_first"
+      ],
+      "nPermutations": 6019743744000000,
+      "extremeCounts": [
+        5331339349152768,
+        4603403985518592,
+        1141269508767744,
+        4309031308492800,
+        4401920413532160,
+        5204269124812800,
+        1375941427200,
+        1724513255424000,
+        5998952038809600,
+        1297765403983872,
+        3451176419328000,
+        1110542391705600,
+        5899348869120000,
+        6019743744000000,
+        6019743744000000,
+        6019743744000000,
+        6019743744000000
+      ],
+      "pValues": [
+        0.8856422425733025,
+        0.7647175995002939,
+        0.18958772288359788,
+        0.7158164021164021,
+        0.7312471428571429,
+        0.8645333333333334,
+        0.00022857142857142857,
+        0.2864761904761905,
+        0.9965460813492063,
+        0.21558482539682539,
+        0.5733095238095238,
+        0.18448333333333333,
+        0.98,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tolerance": 1e-12,
+      "seriesComplexity": [
+        {
+          "pollsterId": "direct_polls",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 18
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 26
+        },
+        {
+          "pollsterId": "kantar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 26
+        },
+        {
+          "pollsterId": "lazar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 44
+        },
+        {
+          "pollsterId": "maagar_mochot",
+          "nPolls": 2,
+          "rawPermutations": 2,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 2
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "nPolls": 4,
+          "rawPermutations": 24,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 12
+        },
+        {
+          "pollsterId": "next_data",
+          "nPolls": 7,
+          "rawPermutations": 5040,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 98
+        },
+        {
+          "pollsterId": "tatika",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 25
+        }
+      ],
+      "maxCompressedHalfSizes": [
+        52920,
+        77792
+      ],
+      "conservativeWorkingBytes": 8365568,
+      "conservativeWorkingMiB": 7.97802734375,
+      "oct9HardUpperBoundIfAll720LazarScoresUnique": {
+        "maxHalfSizes": [
+          318240,
+          346528
+        ],
+        "conservativeWorkingBytes": 42545152,
+        "conservativeWorkingMiB": 40.57421875
+      },
+      "elapsedSeconds": 0.03740599995944649
+    },
+    {
+      "label": "party-publication-date-sensitivity",
+      "status": "PASS",
+      "outcomeCount": 17,
+      "outcomeIds": [
+        "yashar",
+        "likud",
+        "beyachad",
+        "democrats",
+        "yisrael_beiteinu",
+        "utj",
+        "joint",
+        "shas",
+        "otzma",
+        "rz_zehut",
+        "raam",
+        "winter",
+        "hendel",
+        "gantz",
+        "noam",
+        "haredi_public",
+        "israel_first"
+      ],
+      "nPermutations": 6019743744000000,
+      "extremeCounts": [
+        5056796114307072,
+        4731614447468544,
+        1231113709043712,
+        4355926386278400,
+        4463823445032960,
+        5052915567820800,
+        1476270489600,
+        1687821484032000,
+        5795946779295744,
+        1166869133918208,
+        3386679164928000,
+        1147262828544000,
+        5896940971622400,
+        6019743744000000,
+        6019743744000000,
+        6019743744000000,
+        6019743744000000
+      ],
+      "pValues": [
+        0.8400351126818784,
+        0.7860159250440917,
+        0.20451264395943564,
+        0.7236066137566137,
+        0.7415304761904762,
+        0.8393904761904762,
+        0.00024523809523809524,
+        0.2803809523809524,
+        0.9628228419312169,
+        0.19384033333333334,
+        0.5625952380952381,
+        0.19058333333333333,
+        0.9796,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tolerance": 1e-12,
+      "seriesComplexity": [
+        {
+          "pollsterId": "direct_polls",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 16
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 11
+        },
+        {
+          "pollsterId": "kantar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 29
+        },
+        {
+          "pollsterId": "lazar",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 44
+        },
+        {
+          "pollsterId": "maagar_mochot",
+          "nPolls": 2,
+          "rawPermutations": 2,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 2
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "nPolls": 4,
+          "rawPermutations": 24,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 12
+        },
+        {
+          "pollsterId": "next_data",
+          "nPolls": 7,
+          "rawPermutations": 5040,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 98
+        },
+        {
+          "pollsterId": "tatika",
+          "nPolls": 5,
+          "rawPermutations": 120,
+          "uniqueStatesMin": 1,
+          "uniqueStatesMax": 25
+        }
+      ],
+      "maxCompressedHalfSizes": [
+        68992,
+        38280
+      ],
+      "conservativeWorkingBytes": 6865408,
+      "conservativeWorkingMiB": 6.54736328125,
+      "oct9HardUpperBoundIfAll720LazarScoresUnique": {
+        "maxHalfSizes": [
+          253440,
+          170520
+        ],
+        "conservativeWorkingBytes": 27133440,
+        "conservativeWorkingMiB": 25.87646484375
+      },
+      "elapsedSeconds": 0.029220000025816262
+    }
+  ],
+  "totalElapsedSeconds": 0.09685660002287477
+}

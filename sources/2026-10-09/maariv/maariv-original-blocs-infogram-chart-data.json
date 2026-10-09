@@ -1,0 +1,62 @@
+[
+  {
+    "path": ".elements.content.content.entities.4a45e2be-020c-4cec-92c6-91d0c07c8353fef22cf0-107e-484b-a65c-d0471e725c72.props.chartData",
+    "data": [
+      [
+        [
+          null,
+          {
+            "value": "סקר מעריב"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "קואליציית נתניהו כולל וינטר"
+          },
+          {
+            "value": "52"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "מפלגות ערביות"
+          },
+          {
+            "value": "10"
+          }
+        ],
+        [
+          {
+            "value": "המילואימניקים והכלכלית "
+          },
+          {
+            "value": "4"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "אופוזיציה ציונית"
+          },
+          {
+            "value": "52"
+          }
+        ]
+      ]
+    ],
+    "sheetnames": [
+      "Sheet 1"
+    ]
+  }
+]

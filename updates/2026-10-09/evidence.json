@@ -1,0 +1,114 @@
+{
+  "dataAsOf": "2026-10-09",
+  "beforeModelDataAsOf": "2026-10-08",
+  "addedPollCount": 1,
+  "newPolls": [
+    "lazar_2026-10-09"
+  ],
+  "singlePollSeats": {
+    "winter": 4,
+    "hendel": 4
+  },
+  "weightedProbabilities": {
+    "winter": {
+      "id": "winter",
+      "name": "עמך ישראל",
+      "beforeMean": 1.5171,
+      "afterMean": 1.5162,
+      "meanChange": -0.0008999999999999009,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 36.53,
+      "afterPassPct": 36.49,
+      "passPercentagePointChange": -0.040000000000001146,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    "hendel": {
+      "id": "hendel",
+      "name": "המילואימניקים והכלכלית",
+      "beforeMean": 1.2003,
+      "afterMean": 1.1876,
+      "meanChange": -0.012699999999999934,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 28.33,
+      "afterPassPct": 28.02,
+      "passPercentagePointChange": -0.30999999999999917,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    }
+  },
+  "thresholdPct": 3.25,
+  "weights": "historical accuracy / quality",
+  "assumptions": "10,000 scenarios; seed20260912; mandatory poll uncertainty; turnout2022; latest poll per institute; no extra recency weighting",
+  "pngSha256": "930b5f641fac24f9a11d72404626aec4a1198217f2fd2b74724fb32a9fa35b95",
+  "tweetWeightedCharacters": 206,
+  "posted": false,
+  "visualQA": {
+    "status": "PASS",
+    "reviewMethod": "Visual inspection of the saved PNG using view_image at original resolution; manual Hebrew/numeric/source/assumption checks",
+    "file": "outputs/social/2026-10-09/threshold-context.png",
+    "sha256": "930b5f641fac24f9a11d72404626aec4a1198217f2fd2b74724fb32a9fa35b95",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "modelComparisonPath": "artifacts/2026-10-09-comparison/default.json",
+    "modelComparisonSha256": "ac0be2230185f971967282e350a7e5474d6880aed169b20d7857078b9d1d402a",
+    "exactModelValues": {
+      "winter": 36.49,
+      "hendel": 28.02
+    },
+    "displayValues": {
+      "winter": "36.5%",
+      "hendel": "28.0%"
+    },
+    "publishedSinglePollSeats": {
+      "publisher": "Maariv/Lazar",
+      "date": "2026-10-09",
+      "winter": 4,
+      "hendel": 4
+    },
+    "checks": {
+      "correctHebrewHeadline": true,
+      "partyNamesCorrect": true,
+      "modelAndPublishedSurveyLayersExplicitlySeparate": true,
+      "probabilitiesCorrectAfterRounding": true,
+      "modelProbabilityNotPublishedVoteShareClarifierVisible": true,
+      "threshold325Explicit": true,
+      "latestSurveysHistoricalAccuracyWeightsClearlyLabelled": true,
+      "eightInstitutes10000ScenariosPollingUncertaintySpecified": true,
+      "turnout2022BaselineVisible": true,
+      "pollAndModelDateVisible": true,
+      "primarySourceMaarivLazarVisible": true,
+      "creditVictorRinaBenDavidCorrectSingleVav": true,
+      "noStatisticalSignificanceClaim": true,
+      "noBeforeAfterClaim": true,
+      "noPortraitsOrPartyLogos": true,
+      "phoneReadableMainFindingAndValues": true,
+      "noClippingOrOverlaps": true,
+      "originalIllustrationNotCopiedPublisherGraphic": true
+    },
+    "notes": [
+      "Core headline, published4-seat badges, model probabilities and vote-share clarification use large high-contrast text; detailed provenance stays in the compact footer.",
+      "Illustrated Knesset/threshold door and ballot papers support the single message without graphs.",
+      "Generated using the default built-in image_gen tool; original preserved under Codex generated_images; selected PNG copied into workspace."
+    ],
+    "automaticallyPosted": false,
+    "finalSnapshotComparisonBinding": {
+      "previousComparisonSha256": "7d467a4b635bc600a008a03237a7b232fab59d9c759c9fb81b418e4dbd908875",
+      "finalComparisonSha256": "ac0be2230185f971967282e350a7e5474d6880aed169b20d7857078b9d1d402a",
+      "exactModelValuesUnchanged": true,
+      "finalDataAsOf": "2026-10-09"
+    },
+    "rootIndependentVisualInspection": {
+      "status": "PASS",
+      "numericValuesAndHebrewLabelsReadable": true,
+      "modelVersusPublishedPollDistinct": true,
+      "sourceDateAssumptionsCreditCorrect": true,
+      "selectedPngSha256": "930b5f641fac24f9a11d72404626aec4a1198217f2fd2b74724fb32a9fa35b95"
+    }
+  },
+  "imageGeneration": "built-in imagegen; original editorial illustration"
+}

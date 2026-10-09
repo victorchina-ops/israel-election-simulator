@@ -1,0 +1,530 @@
+{
+  "checkedAt": "2026-10-09",
+  "scope": "Fresh publisher homepages and politics/poll/elections indexes, bounded current index contents and IsraelPolls accessible profile/images, compared with Oct8 active/history baseline",
+  "result": "One verified new observation: Maariv/Lazar published9Oct with identical earlier Walla publication8Oct; included once. Other readable reviewed indexes exposed existing polls. Inaccessible or shell-only sources do not establish absence.",
+  "verifiedNewPollIds": [
+    "lazar_2026-10-09"
+  ],
+  "canonicalApplied": true,
+  "canonicalAndStrictFrozenAfterExactQuoteCorrection": true,
+  "newObservation": {
+    "primaryUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+    "publicationDate": "2026-10-09",
+    "publishedAt": "2026-10-09T06:00:47+03:00",
+    "sameObservationEarlierUrl": "https://www.walla.co.il/news/politics/383956803",
+    "earlierPublishedAt": "2026-10-08T23:04:01+03:00",
+    "fieldworkStart": "2026-10-07",
+    "fieldworkEnd": "2026-10-08",
+    "sampleSize": 700,
+    "initialSampleSize": 700,
+    "invitedSampleSize": 4667,
+    "reportedMarginOfErrorPct": 3.7,
+    "marginConfidencePct": null,
+    "samplingMethod": "Internet Panel4ALL explicit in Walla; unspecified sampling design retained null",
+    "primarySeatsFull120": true,
+    "resolvedSourceBlocSeats": {
+      "coalitionIncludingWinter": 52,
+      "nonArabOppositionWithoutHendel": 52,
+      "ArabParties": 12,
+      "Hendel": 4
+    },
+    "sourceConflict": "Maariv original bloc Infogram incorrectly totals118 withArab10; article and party vector plus original Walla bloc image establishArab12/full120",
+    "undecided": "5.3% verified only in user-provided report image; online original not located; preserved explicit provenance"
+  },
+  "israelPolls": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "readableFreshReceipt": "artifacts/sources/2026-10-09-maariv/IsraelPolls-profile.html",
+    "readableFreshSha256": "d02e3bf00373fd31a4bbe0d5413c4f47390f7d94b29efaff43795ab9a5d9e753",
+    "boundedTimelineLatestExposedDate": "2026-10-08",
+    "newMaarivOct9GraphicOrHistoryExposed": false,
+    "latestAccessibleLazarPostUrl": "https://x.com/IsraelPolls/status/2105881232269537421",
+    "historyThrough": "2026-10-02",
+    "graphicsArchivedAndVisuallyReviewed": [
+      "IsraelPolls-Lazar-last-history-0.webp",
+      "IsraelPolls-Lazar-last-history-1.webp",
+      "IsraelPolls-Lazar-last-history-2.webp"
+    ],
+    "limitation": "Bounded readable timeline only; no assertion that no newer post exists elsewhere."
+  },
+  "rootPrimaryScan": {
+    "path": "artifacts/poll-checks/2026-10-09/primary-publisher-scan.json",
+    "sha256": "dc6ab93ac04fe58fb44bbdd0fc36c0a4ae03bc7df4c9fbce6e4fb20f8334127f",
+    "rawUrlCount": 32,
+    "receipts": [
+      {
+        "label": "israelhayom-home",
+        "url": "https://www.israelhayom.co.il/",
+        "status": 200,
+        "finalUrl": "https://www.israelhayom.co.il/",
+        "textLength": 10174,
+        "access": "response-received",
+        "sourceFile": "israelhayom-home.html",
+        "extractFile": "israelhayom-home.txt",
+        "sha256": "f93588b97dbfb17c9032a187dde9c4e3d5333b940b1049001357b955acd675b0",
+        "checkedAtUtc": "2026-10-09T03:27:12.669892+00:00"
+      },
+      {
+        "label": "israelhayom-politics",
+        "url": "https://www.israelhayom.co.il/news/politics",
+        "status": 200,
+        "finalUrl": "https://www.israelhayom.co.il/news/politics",
+        "textLength": 5284,
+        "access": "response-received",
+        "sourceFile": "israelhayom-politics.html",
+        "extractFile": "israelhayom-politics.txt",
+        "sha256": "b872cfdb380080f8f0bfd591dacfcd0cfe5d0db425d3ef33ea1466b4ad8cf80b",
+        "checkedAtUtc": "2026-10-09T03:27:12.669892+00:00"
+      },
+      {
+        "label": "israelhayom-elections",
+        "url": "https://www.israelhayom.co.il/israel-elections",
+        "status": 200,
+        "finalUrl": "https://www.israelhayom.co.il/israel-elections",
+        "textLength": 525,
+        "access": "response-received",
+        "sourceFile": "israelhayom-elections.html",
+        "extractFile": "israelhayom-elections.txt",
+        "sha256": "cb818032162bf5437e6c3524b7f0e81e14b128bd1e2d133e0c3226d0e7a4e4c8",
+        "checkedAtUtc": "2026-10-09T03:27:12.669892+00:00",
+        "actualSurface": "525-character shell; links proper election2026 navigation; not a successfully reviewed elections news index"
+      },
+      {
+        "label": "i24-home",
+        "url": "https://www.i24news.tv/he",
+        "status": 200,
+        "finalUrl": "https://www.i24news.tv/he",
+        "textLength": 8415,
+        "access": "response-received",
+        "sourceFile": "i24-home.html",
+        "extractFile": "i24-home.txt",
+        "sha256": "5897489c3ad7d4d28d7d5d93e1d2ed916784031a1562d93187f4ec5f8bb694b7",
+        "checkedAtUtc": "2026-10-09T03:27:12.669892+00:00"
+      },
+      {
+        "label": "i24-polls",
+        "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+        "status": 200,
+        "finalUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+        "textLength": 8391,
+        "access": "response-received",
+        "sourceFile": "i24-polls.html",
+        "extractFile": "i24-polls.txt",
+        "sha256": "88be2f6d001082a14370002ed606a92a7b69e5cde3645bf40f831f88c7976f8e",
+        "checkedAtUtc": "2026-10-09T03:27:12.670893+00:00"
+      },
+      {
+        "label": "zman-home",
+        "url": "https://www.zman.co.il/",
+        "status": 403,
+        "finalUrl": "https://www.zman.co.il/",
+        "textLength": 16,
+        "access": "http-error",
+        "sourceFile": "zman-home.html",
+        "extractFile": "zman-home.txt",
+        "sha256": "d82811a459f4736719bfb50f5170a2a081b196b60f8dc6c4fad948c68171a073",
+        "checkedAtUtc": "2026-10-09T03:27:12.670893+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "zman-politics",
+        "url": "https://www.zman.co.il/feed/33350/",
+        "status": 403,
+        "finalUrl": "https://www.zman.co.il/feed/33350/",
+        "textLength": 16,
+        "access": "http-error",
+        "sourceFile": "zman-politics.html",
+        "extractFile": "zman-politics.txt",
+        "sha256": "fde6b63a3c860c6d9ea28cf774d914c54727cfe86951d94391e65603abb27aad",
+        "checkedAtUtc": "2026-10-09T03:27:13.356843+00:00",
+        "actualSurface": "poll index/feed33350, not general politics index",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "maariv-home",
+        "url": "https://www.maariv.co.il/",
+        "status": 200,
+        "finalUrl": "https://www.maariv.co.il/",
+        "textLength": 12026,
+        "access": "response-received",
+        "sourceFile": "maariv-home.html",
+        "extractFile": "maariv-home.txt",
+        "sha256": "dd3fe038df2f845314800803d01f8670badf0262d65d9f8e2e18b2da556b305c",
+        "checkedAtUtc": "2026-10-09T03:27:13.358848+00:00"
+      },
+      {
+        "label": "maariv-politics",
+        "url": "https://www.maariv.co.il/news/politics",
+        "status": 200,
+        "finalUrl": "https://www.maariv.co.il/news/politics",
+        "textLength": 3550,
+        "access": "response-received",
+        "sourceFile": "maariv-politics.html",
+        "extractFile": "maariv-politics.txt",
+        "sha256": "7f1fcc14aebea1cc89e5e346ec0096b5892b6edb527d9a1b8108d271ed3536ad",
+        "checkedAtUtc": "2026-10-09T03:27:13.362360+00:00"
+      },
+      {
+        "label": "maariv-elections",
+        "url": "https://www.maariv.co.il/news/elections-2026",
+        "status": 200,
+        "finalUrl": "https://www.maariv.co.il/news/elections-2026",
+        "textLength": 3378,
+        "access": "response-received",
+        "sourceFile": "maariv-elections.html",
+        "extractFile": "maariv-elections.txt",
+        "sha256": "83e7f9d7366ea9bbd4842cb9b5601bfced4f9264026d5d26d5ed880b2e46cb22",
+        "checkedAtUtc": "2026-10-09T03:27:13.659800+00:00"
+      },
+      {
+        "label": "walla-home",
+        "url": "https://www.walla.co.il/",
+        "status": 200,
+        "finalUrl": "https://www.walla.co.il/",
+        "textLength": 13269,
+        "access": "response-received",
+        "sourceFile": "walla-home.html",
+        "extractFile": "walla-home.txt",
+        "sha256": "3a9bfa5f97b722f68bdf054c8c1333e649ec586366b14c06122360befb88570d",
+        "checkedAtUtc": "2026-10-09T03:27:13.944200+00:00"
+      },
+      {
+        "label": "walla-politics",
+        "url": "https://www.walla.co.il/news/politics",
+        "status": 200,
+        "finalUrl": "https://www.walla.co.il/news/politics",
+        "textLength": 3962,
+        "access": "response-received",
+        "sourceFile": "walla-politics.html",
+        "extractFile": "walla-politics.txt",
+        "sha256": "dbade2d4c89151c2a59093da41031b591e7012a801300c23db16257cb4e15b68",
+        "checkedAtUtc": "2026-10-09T03:27:14.014301+00:00"
+      },
+      {
+        "label": "ch16-home",
+        "url": "https://www.ch16.co.il/",
+        "status": 200,
+        "finalUrl": "https://www.ch16.co.il/",
+        "textLength": 10,
+        "access": "response-received",
+        "sourceFile": "ch16-home.html",
+        "extractFile": "ch16-home.txt",
+        "sha256": "ed75d1f8211c853bae0f02e9ef8fc3a0e2227ab15c751cdd29398f3a9587402b",
+        "checkedAtUtc": "2026-10-09T03:27:14.035830+00:00",
+        "contentStatus": "JavaScript shell only; cannot infer absence of a new poll from HTTP200"
+      },
+      {
+        "label": "ch16-last-poll",
+        "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+        "status": 200,
+        "finalUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+        "textLength": 30,
+        "access": "response-received",
+        "sourceFile": "ch16-last-poll.html",
+        "extractFile": "ch16-last-poll.txt",
+        "sha256": "9b8953b5fd25cdc6c61af76d298f3a61a211bc67412885596692c08aa4bb331f",
+        "checkedAtUtc": "2026-10-09T03:27:14.073900+00:00",
+        "contentStatus": "JavaScript shell only; cannot infer absence of a new poll from HTTP200"
+      },
+      {
+        "label": "israelpolls-profile",
+        "url": "https://x.com/IsraelPolls?s=20",
+        "status": 200,
+        "finalUrl": "https://x.com/IsraelPolls?s=20",
+        "textLength": 1272,
+        "access": "response-received",
+        "sourceFile": "israelpolls-profile.html",
+        "extractFile": "israelpolls-profile.txt",
+        "sha256": "d4d49bfd94d2cf2ba3b8c2e7a2b1368c0817ae02253447d6c720159cfdb120a5",
+        "checkedAtUtc": "2026-10-09T03:27:14.320839+00:00",
+        "contentStatus": "root scan1272-character shell; independent retained readable profile in Maariv evidence exposed only posts throughOct8"
+      },
+      {
+        "label": "n12-home",
+        "url": "https://www.n12.co.il/",
+        "status": 200,
+        "finalUrl": "https://www.n12.co.il/",
+        "textLength": 11062,
+        "access": "response-received",
+        "sourceFile": "n12-home.html",
+        "extractFile": "n12-home.txt",
+        "sha256": "6748ef62c2247eb82cf6cceb1afd975a4b36127d90a4f01ddd0822fe02f957a3",
+        "checkedAtUtc": "2026-10-09T03:27:14.369929+00:00"
+      },
+      {
+        "label": "n12-politics",
+        "url": "https://www.mako.co.il/news-politics",
+        "status": 403,
+        "finalUrl": "https://www.mako.co.il/news-politics",
+        "textLength": 108,
+        "access": "http-error",
+        "sourceFile": "n12-politics.html",
+        "extractFile": "n12-politics.txt",
+        "sha256": "ff91567d0d8d2efccfea079165131d689cf256778ce39b9e4d4f39efd8cebb2c",
+        "checkedAtUtc": "2026-10-09T03:27:14.595788+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "n12-elections",
+        "url": "https://www.mako.co.il/news-israel-elections/2026",
+        "status": 403,
+        "finalUrl": "https://www.mako.co.il/news-israel-elections/2026",
+        "textLength": 108,
+        "access": "http-error",
+        "sourceFile": "n12-elections.html",
+        "extractFile": "n12-elections.txt",
+        "sha256": "6e1842210448d6757cbe7cafdc1a6f7a7bdea94f559165468d62d5d093eae0e0",
+        "checkedAtUtc": "2026-10-09T03:27:14.655868+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "n12-latest-known",
+        "url": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+        "status": 403,
+        "finalUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+        "textLength": 108,
+        "access": "http-error",
+        "sourceFile": "n12-latest-known.html",
+        "extractFile": "n12-latest-known.txt",
+        "sha256": "a53928997ef4703d2186986f01d068ad7b5fdb2cf47e3a65029c63f77f62c354",
+        "checkedAtUtc": "2026-10-09T03:27:15.180078+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "c13-home",
+        "url": "https://13tv.co.il/",
+        "status": 403,
+        "finalUrl": "https://13tv.co.il/",
+        "textLength": 202,
+        "access": "http-error",
+        "sourceFile": "c13-home.html",
+        "extractFile": "c13-home.txt",
+        "sha256": "cf3df5aae1aa03effb7dd7017e4975c668ec9c89952332093f54768ded5bbc5b",
+        "checkedAtUtc": "2026-10-09T03:27:15.297232+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "c13-news",
+        "url": "https://13tv.co.il/news/",
+        "status": 403,
+        "finalUrl": "https://13tv.co.il/news/",
+        "textLength": 207,
+        "access": "http-error",
+        "sourceFile": "c13-news.html",
+        "extractFile": "c13-news.txt",
+        "sha256": "9cad52a38b0acfa7237e6d6cf23e6128854905519135d335b58dbb7089ab5bb0",
+        "checkedAtUtc": "2026-10-09T03:27:15.305743+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "c13-politics",
+        "url": "https://13tv.co.il/news/politics/politics/",
+        "status": 403,
+        "finalUrl": "https://13tv.co.il/news/politics/politics/",
+        "textLength": 225,
+        "access": "http-error",
+        "sourceFile": "c13-politics.html",
+        "extractFile": "c13-politics.txt",
+        "sha256": "d520ccba9f5369f19ab73e9ba97f1e47630b7421a3b7f6a070dc08c2b39507c2",
+        "checkedAtUtc": "2026-10-09T03:27:15.330776+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "c13-surveys",
+        "url": "https://13tv.co.il/tags/survey/",
+        "status": 403,
+        "finalUrl": "https://13tv.co.il/tags/survey/",
+        "textLength": 214,
+        "access": "http-error",
+        "sourceFile": "c13-surveys.html",
+        "extractFile": "c13-surveys.txt",
+        "sha256": "e076c24971a6951fa0d9be0c1d99bc2030823a8441e4e25d8ea541e756147c09",
+        "checkedAtUtc": "2026-10-09T03:27:15.822944+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "c13-latest-known",
+        "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "status": 403,
+        "finalUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "textLength": 247,
+        "access": "http-error",
+        "sourceFile": "c13-latest-known.html",
+        "extractFile": "c13-latest-known.txt",
+        "sha256": "3ac1cf699957bb29fe4c1e5e803e200feba75d5abe68a0400e98f225c0e67cd6",
+        "checkedAtUtc": "2026-10-09T03:27:15.861002+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "kan-home",
+        "url": "https://www.kan.org.il/",
+        "status": 403,
+        "finalUrl": "https://www.kan.org.il/",
+        "textLength": 16,
+        "access": "http-error",
+        "sourceFile": "kan-home.html",
+        "extractFile": "kan-home.txt",
+        "sha256": "d84f11509d3f5d936d611574d4f51a08d4a6a9f4800bb6410e39e009a15585a0",
+        "checkedAtUtc": "2026-10-09T03:27:15.862004+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "kan-news",
+        "url": "https://www.kan.org.il/lobby/news/",
+        "status": 403,
+        "finalUrl": "https://www.kan.org.il/lobby/news/",
+        "textLength": 16,
+        "access": "http-error",
+        "sourceFile": "kan-news.html",
+        "extractFile": "kan-news.txt",
+        "sha256": "72b2092fb9aa8b1788f71dc44fb8bd8df626578e2fa8797fe3b1ba7d431d67b8",
+        "checkedAtUtc": "2026-10-09T03:27:15.876023+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "kan-politics",
+        "url": "https://www.kan.org.il/content/kan-news/politic/",
+        "status": 403,
+        "finalUrl": "https://www.kan.org.il/content/kan-news/politic/",
+        "textLength": 16,
+        "access": "http-error",
+        "sourceFile": "kan-politics.html",
+        "extractFile": "kan-politics.txt",
+        "sha256": "39d8f34f794ab766ee2853d9c0eb6efef761275f5640e2febe05a2c77466aa50",
+        "checkedAtUtc": "2026-10-09T03:27:16.339138+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "kan-polls",
+        "url": "https://skarim.kan.org.il/",
+        "status": 403,
+        "finalUrl": "https://skarim.kan.org.il/",
+        "textLength": 16,
+        "access": "http-error",
+        "sourceFile": "kan-polls.html",
+        "extractFile": "kan-polls.txt",
+        "sha256": "23056ace766c006af4f7981d9a6f1d5062e9f6d4d4edd0d87c1222782812a75a",
+        "checkedAtUtc": "2026-10-09T03:27:16.392711+00:00",
+        "contentStatus": "raw access failed; fallback status recorded separately"
+      },
+      {
+        "label": "c14-home",
+        "url": "https://www.c14.co.il/",
+        "status": 200,
+        "finalUrl": "https://www.c14.co.il/",
+        "textLength": 9418,
+        "access": "response-received",
+        "sourceFile": "c14-home.html",
+        "extractFile": "c14-home.txt",
+        "sha256": "b4f4fb6517d40c51b089752aa8362922aec295e8988ba69c08cb78852a5b8313",
+        "checkedAtUtc": "2026-10-09T03:27:16.397220+00:00"
+      },
+      {
+        "label": "c14-polls",
+        "url": "https://www.c14.co.il/archive/53747",
+        "status": 200,
+        "finalUrl": "https://www.c14.co.il/archive/53747",
+        "textLength": 3407,
+        "access": "response-received",
+        "sourceFile": "c14-polls.html",
+        "extractFile": "c14-polls.txt",
+        "sha256": "75248145d6c0b04571e18807dd5999e978055a1c8e1cc103e56c6c5463e8b2a2",
+        "checkedAtUtc": "2026-10-09T03:27:16.401225+00:00",
+        "actualSurface": "poll tag archive53747"
+      },
+      {
+        "label": "c14-politics",
+        "url": "https://www.c14.co.il/archive/65839",
+        "status": 200,
+        "finalUrl": "https://www.c14.co.il/archive/65839",
+        "textLength": 3460,
+        "access": "response-received",
+        "sourceFile": "c14-politics.html",
+        "extractFile": "c14-politics.txt",
+        "sha256": "6dc69e09232f1c9ba99a438b1793f2cfa815f22fed4f2fb5a46c8d5451b4b47d",
+        "checkedAtUtc": "2026-10-09T03:27:16.883919+00:00",
+        "actualSurface": "politics archive65839"
+      },
+      {
+        "label": "c14-latest-known",
+        "url": "https://www.c14.co.il/article/1728516",
+        "status": 200,
+        "finalUrl": "https://www.c14.co.il/article/1728516",
+        "textLength": 3049,
+        "access": "response-received",
+        "sourceFile": "c14-latest-known.html",
+        "extractFile": "c14-latest-known.txt",
+        "sha256": "f306ea50f4585a88d2610a08fdb94312ebaf0a510dfb83a5ca5231a9ee9b02e5",
+        "checkedAtUtc": "2026-10-09T03:27:17.027191+00:00"
+      }
+    ],
+    "receiptHTTP200AloneDoesNotMeanContentSuccessfullyReviewed": true
+  },
+  "rootFallbackReceipt": {
+    "path": "artifacts/poll-checks/2026-10-09/web-reader-fallback.json",
+    "sha256": "2b00e133aed7b9f204d7bf0774cd4dccd6560687a1547ab24984ee41551d0280",
+    "format": "JSON string containing raw browser-reader output",
+    "savedContent": "N12 elections index readable; Zman poll feed readable with existingOct8 vector; clicked C13 original existing survey-905386103",
+    "additionalParentReviewedRoutes": "Parent reported direct reader N12 politics/elections and Zman home/pollindex readable; C13 politics link labelled yesterday matched existingOct7, originaltheMadad publication controls; Kan home reader returned0lines",
+    "inferenceLimits": "Relative yesterday/crawl/repost dates are not poll publication or fieldwork dates."
+  },
+  "publisherConclusions": [
+    {
+      "publisher": "Maariv/Walla",
+      "status": "originalHTML andgraphics readable, inspected andretained",
+      "finding": "One new verifiedLazar survey, countedonce; Maarivhome/politics linkedfresh9Octarticle; Walla politics linked identical8Oct23:04 report"
+    },
+    {
+      "publisher": "IsraelHayom",
+      "status": "home/politics readable inrootfreshscan; legacy elections URL onlyshell",
+      "finding": "Politics links existing8Oct Kantar article21582636 alreadyinmodel",
+      "limitation": "Do not treat525-character legacy/israel-elections shellasreviewednewselectionsindex"
+    },
+    {
+      "publisher": "i24NEWS",
+      "status": "home andpollindex readable inrootfreshscan",
+      "finding": "Lead currentpollartc-fa0f56f4 matchesexisting8Oct DirectPolls observation"
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "status": "rawhome/feed33350HTTP403; parentbrowser-readerfallback readable",
+      "finding": "Fallbackpollindex lead existing8Oct Tatika fullvector",
+      "limitation": "Feed33350is pollfeed ratherthan generalpolitics"
+    },
+    {
+      "publisher": "N12",
+      "status": "homeHTTP200; rawpolitics/elections/currentarticleHTTP403; browser-readerfallbackindexes readable",
+      "finding": "Latestconfirmedpoll inparentreviewedindexesexisting5Oct",
+      "limitation": "Raw403is notsuccessfulrawarticleinspection"
+    },
+    {
+      "publisher": "Channel13",
+      "status": "rawhome/news/politics/polltag/currentarticleHTTP403; fallbackpolitics andexistingarticle readable",
+      "finding": "Accessiblelead refers existing7Oct survey-905386103; parentusesoriginaltheMadad publicationdate",
+      "limitation": "Relativeyesterday label is not a new survey or newpublicationdate"
+    },
+    {
+      "publisher": "Channel14",
+      "status": "home/polltagarchive53747/politicsarchive65839/existingarticle1728516HTTP200andreadable",
+      "finding": "Latestpolltag lead7OctmatchesexistingNextData observation"
+    },
+    {
+      "publisher": "Kan",
+      "status": "rawhome/news/politics/pollsHTTP403; parentreaderhome0lines",
+      "finding": null,
+      "limitation": "Coverage inaccessible; cannot assert no newKanpoll"
+    },
+    {
+      "publisher": "Channel16",
+      "status": "HTTP200 home10characters,currentVOD30characters; shellonly",
+      "finding": null,
+      "limitation": "No fresh inspectable primarycontent; cannot assert no newChannel16poll"
+    }
+  ],
+  "limits": [
+    "No claim of complete internet or login-onlyXcoverage.",
+    "Passing-party vote percentages, percentage denominator and confidence level absent in originals remainmissing.",
+    "Source and methodology evidence is retained; repost timing and prior-column fieldwork label do not alter historical publication dates."
+  ],
+  "ingestionReceipt": "github-pages/sources/2026-10-09/ingestion-receipt.json",
+  "noFurtherCanonicalWrites": true
+}

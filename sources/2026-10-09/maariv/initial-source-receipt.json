@@ -1,0 +1,332 @@
+{
+  "capturedAtUtc": "2026-10-09T03:26:16.099739+00:00",
+  "sources": [
+    {
+      "url": "https://www.maariv.co.il/",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.maariv.co.il/",
+      "fileName": "maariv-home.html",
+      "sha256": "ec4d5087de988ac7fc9791a7bd4203266847af24aa867e185009eb938bad30f6",
+      "bytes": 495986,
+      "title": "חדשות היום, כלכלה, ספורט, רכילות, בריאות, טכנולוגיה | מעריב",
+      "links": [
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "פוליטי מדיני",
+          "href": "/news/politics"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "691 שקלים לחודש שירות: המציאות ערב הבחירות - משתמט לפני לוחם במאבק על רכש 12 מסוקי אפאצ'י, משרד האוצר פנה ליועמ\"שית והעסקה נעצרה רגע לפני הבחירות. במקביל, לוחמים אחרי 26 חודשי לחימה צפויים לקבל מענק שחרור של 22 אלף שקל בלבד.",
+          "href": "news/military/article-1375192"
+        },
+        {
+          "text": "סקר מנדטים: מפלגת הליכוד מתחזקת - והקרב מול איזנקוט מתחמם",
+          "href": "news/politics/article-1375198"
+        },
+        {
+          "text": "שמחה רוטמן לא עוצר לקראת פתיחת הקלפיות: \"עדיף בחירות חוזרות מממשלת שמאל\"",
+          "href": "news/politics/article-1375174"
+        },
+        {
+          "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\"",
+          "href": "/news/politics/article-1375084"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "הסקר שמסעיר את המפלגות: זה המועמד שיגרוף את 17 המנדטים של הצעירים",
+          "href": "news/politics/article-1374513"
+        },
+        {
+          "text": "בגלל הבחירות: השינוי המשמעותי במשחק בין מכבי חיפה להפועל באר שבע",
+          "href": "https://sport1.maariv.co.il/israeli-soccer/ligat-haal/article/1966515"
+        },
+        {
+          "text": "אחרי 25 שנה פול ניומן חזר לשולחן - וסוף סוף לקח אוסקר",
+          "href": "culture/movies/article-1374650"
+        },
+        {
+          "text": "\"הוא המיידוף של הפוליטיקה הישראלית\": ח\"כ קרויזר סוגר חשבון – ומבקר גם את נתניהו",
+          "href": "/news/politics/article-1373841"
+        }
+      ]
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.maariv.co.il/news/politics",
+      "fileName": "maariv-politics.html",
+      "sha256": "2cb7ecc7e1cb57e29bed48c933b1bc1ca6a411c505436494213374bc14c284d1",
+      "bytes": 188934,
+      "title": "פוליטי-מדיני | מעריב",
+      "links": [
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "פוליטי מדיני",
+          "href": "/news/politics"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "פוליטי-מדיני",
+          "href": "/news/politics"
+        },
+        {
+          "text": "מפלגת הליכוד מתחזקת - והקרב מול איזנקוט מתחמם | סקר המנדטים של מעריב 06:00",
+          "href": "/news/politics/article-1375198"
+        },
+        {
+          "text": "שמחה רוטמן לא עוצר לקראת פתיחת הקלפיות: \"עדיף בחירות חוזרות מממשלת שמאל\" 06:00",
+          "href": "/news/politics/article-1375174"
+        },
+        {
+          "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\" 08/10/2026 | 21:50",
+          "href": "/news/politics/article-1375084"
+        },
+        {
+          "text": "הסקר שמסעיר את המפלגות: זה המועמד שיגרוף את 17 המנדטים של הצעירים 08/10/2026 | 11:51",
+          "href": "/news/politics/article-1374513"
+        },
+        {
+          "text": "ארכיון פוליטי-מדיני",
+          "href": "/articlearchive/category/1/subcategory/1/year/2026"
+        }
+      ]
+    },
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.maariv.co.il/news/elections-2026",
+      "fileName": "maariv-elections.html",
+      "sha256": "4af808b4979f62e4c5598bd04e2ba51c7262bb3b85dd7cdbee020c4b5aadb83c",
+      "bytes": 148726,
+      "title": "בחירות 2026 : סקר מנדטים, כתבות ופרשנויות של הכתבים המובילים | מעריב",
+      "links": [
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "פוליטי מדיני",
+          "href": "/news/politics"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "/news/elections-2026"
+        },
+        {
+          "text": "שמחה רוטמן לא עוצר לקראת פתיחת הקלפיות: \"עדיף בחירות חוזרות מממשלת שמאל\"",
+          "href": "/news/politics/article-1375174"
+        },
+        {
+          "text": "קרב הבחירות: השיעור של הליכוד החל אצל בגין - ונמשך עם נתניהו",
+          "href": "/news/opinions/article-1375147"
+        },
+        {
+          "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\"",
+          "href": "/news/politics/article-1375084"
+        },
+        {
+          "text": "הסקר שמסעיר את המפלגות: זה המועמד שיגרוף את 17 המנדטים של הצעירים",
+          "href": "/news/politics/article-1374513"
+        }
+      ]
+    },
+    {
+      "url": "https://www.walla.co.il/",
+      "checkedAtUtc": "2026-10-09T03:26:14.717714+00:00",
+      "status": 200,
+      "finalUrl": "https://www.walla.co.il/",
+      "fileName": "walla-home.html",
+      "sha256": "1e4553d89c3934aad8c592021c4b206edf78fa99024d20d4c9c31ded8b111124",
+      "bytes": 874261,
+      "title": "וואלה חדשות. ספורט. סלבס. אוכל - עדכונים ודיווחים שוטפים",
+      "links": [
+        {
+          "text": "פוליטי ומדיני",
+          "href": "https://news.walla.co.il/category/2686"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "פוליטי ומדיני",
+          "href": "https://news.walla.co.il/category/2686"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "\"לא לפני הבחירות\": ההבהרה של טראמפ לגבי תקיפה באיראן עידן קוולר | 19:26",
+          "href": "/news/world/383956782"
+        },
+        {
+          "text": "\"בפוליטיקה דופקים כמויות של סמים\" הילה רוזן | 08:45",
+          "href": "https://e.walla.co.il/item/3870825"
+        },
+        {
+          "text": "ברק סרי המהפכה שלא הושלמה: התוכניות של נתניהו ליום שאחרי הבחירות 08.10.2026",
+          "href": "/news/opinions/383956725"
+        }
+      ]
+    },
+    {
+      "url": "https://news.walla.co.il/",
+      "checkedAtUtc": "2026-10-09T03:26:14.718718+00:00",
+      "status": 200,
+      "finalUrl": "https://www.walla.co.il/news",
+      "fileName": "walla-news.html",
+      "sha256": "ca67e530f7e9547d5eb6ac1d259576563631c6e82363253f6c2c93f95e3592b3",
+      "bytes": 397950,
+      "title": "עדכונים חמים על כל מתחרש בארצנו ומחוצה לה | וואלה חדשות",
+      "links": [
+        {
+          "text": "פוליטי ומדיני",
+          "href": "https://news.walla.co.il/category/2686"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "פוליטי ומדיני",
+          "href": "https://news.walla.co.il/category/2686"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "בחירות 2026",
+          "href": "https://elections.walla.co.il/"
+        },
+        {
+          "text": "ברקע הדיווחים על תקיפה באיראן, טראמפ: \"לא נתקוף לפני בחירות עידן קוולר | 19:26",
+          "href": "/news/world/383956782"
+        },
+        {
+          "text": "פוליטיקה וממשל",
+          "href": "/news/politics"
+        },
+        {
+          "text": "הליכוד מתחזקת, הגושים בשוויון ואיזנקוט עדיין ראשון | סקר וואלה | 23:04",
+          "href": "/news/politics/383956803"
+        },
+        {
+          "text": "המהפכה שלא הושלמה: התוכניות של נתניהו ליום שאחרי הבחירות ברק סרי | 12:28",
+          "href": "/news/opinions/383956725"
+        }
+      ]
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "checkedAtUtc": "2026-10-09T03:26:14.718718+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls?s=20",
+      "fileName": "IsraelPolls-profile.html",
+      "sha256": "d02e3bf00373fd31a4bbe0d5413c4f47390f7d94b29efaff43795ab9a5d9e753",
+      "bytes": 135468,
+      "title": "סקרים פוליטיים - Israel Political Polls (@IsraelPolls) / X",
+      "links": [
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "9h",
+          "href": "/IsraelPolls/status/2108251564217340145"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2108251564217340145/photo/1"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "10h",
+          "href": "/IsraelPolls/status/2108243221012688996"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2108243221012688996/photo/1"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "12h",
+          "href": "/IsraelPolls/status/2108213216752881742"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2108213216752881742/photo/1"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2108213216752881742/photo/2"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 7",
+          "href": "/IsraelPolls/status/2107891979690643875"
+        },
+        {
+          "text": "",
+          "href": "/IsraelPolls/status/2107891979690643875/photo/1"
+        },
+        {
+          "text": "סקרים פוליטיים - Israel Political Polls",
+          "href": "/IsraelPolls"
+        },
+        {
+          "text": "Oct 7",
+          "href": "/IsraelPolls/status/2107887588119916617"
+        }
+      ]
+    }
+  ],
+  "webReaderLimitations": [
+    "Initial web reader returned Internal Error for Maariv home, politics, and IsraelPolls profile; direct HTTP receipts are separately recorded."
+  ]
+}

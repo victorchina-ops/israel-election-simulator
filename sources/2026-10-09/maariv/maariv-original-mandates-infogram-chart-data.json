@@ -1,0 +1,220 @@
+[
+  {
+    "path": ".elements.content.content.entities.bf055f9d-02b9-4b42-8693-d8dd21d812cc973ebafe-1f4a-4e2a-b672-a1d59e85ecbf.props.chartData",
+    "data": [
+      [
+        [
+          null,
+          null
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "!ישר"
+          },
+          {
+            "value": "21"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "הליכוד"
+          },
+          {
+            "value": "20"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "ביחד "
+          },
+          {
+            "value": "13"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "הדמוקרטים"
+          },
+          {
+            "value": "9"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "ישראל ביתנו"
+          },
+          {
+            "value": "9"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "עוצמה יהודית"
+          },
+          {
+            "value": "8"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "רשימה משותפת"
+          },
+          {
+            "value": "7"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "יהדות התורה"
+          },
+          {
+            "value": "7"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "שס"
+          },
+          {
+            "value": "7"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "הציונות הדתית"
+          },
+          {
+            "value": "6"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "רעמ"
+          },
+          {
+            "value": "5"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "עמך ישראל"
+          },
+          {
+            "value": "4"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "המילואימניקים והכלכלית"
+          },
+          {
+            "value": "4"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "כחול לבן"
+          },
+          {
+            "ct": {},
+            "value": "0(0.9%)"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "הציבור החרדי"
+          },
+          {
+            "ct": {},
+            "value": "0(0.8%)"
+          }
+        ],
+        [
+          {
+            "ct": {
+              "fa": "General",
+              "t": "g"
+            },
+            "value": "נעם לישראל"
+          },
+          {
+            "ct": {},
+            "value": "0(0.6%)"
+          }
+        ],
+        [
+          {
+            "value": "צומת בית ישראל "
+          },
+          {
+            "ct": {},
+            "value": "0(0.3%)"
+          }
+        ]
+      ]
+    ],
+    "sheetnames": [
+      "גיליון1"
+    ]
+  }
+]

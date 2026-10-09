@@ -1,0 +1,31 @@
+Use case: infographic-diagram
+Asset type: original shareable Hebrew election-poll editorial infographic, landscape 1536 x 1024 pixels.
+Primary request: a beautiful, very clear public-facing illustrated infographic explaining one finding: a published result of 4 seats for a party does not guarantee it crosses the electoral threshold. Separate published Maariv survey seats from probabilities produced by a weighted simulation model.
+Style/medium: polished editorial illustration, subtle paper grain, clean readable Hebrew typography, original hand-drawn ballot papers and a simple tasteful sketch of the Knesset entrance / electoral threshold doorway. Calm cream background, dark navy typography, teal and muted rust accents. Spacious, visually engaging, uncluttered. No photorealistic people or party logos.
+Composition: top headline and short subtitle, two equally prominent roomy panels across the center. Right panel for Winter in teal, left panel for Hendel–Zalicha in muted rust. Panels each use the name as an easy-to-read heading, a distinct small outlined badge for published seats, then a very large model probability with its explicit label. A compact subtle ballot-paper/threshold-door illustration can be placed between or below the panels, but it must not reduce text size. The design must be legible on a phone. Use large text, generous margins, high contrast, and right-to-left Hebrew accurately.
+Text (verbatim, spell accurately, no extra invented wording):
+Main headline: "4 מנדטים בסקר. מה הסיכוי לעבור?"
+Subtitle: "סיכוי לפי המודל — הסקרים האחרונים משוקללים לפי דיוק היסטורי"
+
+RIGHT PANEL:
+"עמך ישראל — וינטר"
+small clearly separated published-survey badge: "בסקר מעריב: 4 מנדטים"
+huge number: "36.5%"
+directly below: "סיכוי מעבר במודל"
+
+LEFT PANEL:
+"הנדל–זליכה"
+secondary name line: "המילואימניקים והכלכלית"
+small clearly separated published-survey badge: "בסקר מעריב: 4 מנדטים"
+huge number: "28.0%"
+directly below: "סיכוי מעבר במודל"
+
+Highly visible clarifier across bottom below panels: "סיכוי לחצות 3.25% — לא אחוז התמיכה בסקר"
+
+Readable compact footer, 3 lines:
+"סקר מעריב: 9.10 | נתוני המודל עד 9.10.2026"
+"שמונה מכונים • 10,000 תרחישים • אי־ודאות סקרים"
+"בסיס הצבעה: 2022 | מקור הסקר: מעריב / לזר"
+Small credit: "ויקטור רינה בן דוד"
+
+Constraints: all text is exact Hebrew; ensure dates and percent digits read left-to-right without reordering. The two huge numbers must be exactly 36.5% and 28.0%. 4 seats each is a published single-poll result, 36.5% / 28.0% are model probabilities, not vote shares. No statistical-significance claim. Model uses latest survey per each of eight institutes, historical-accuracy weights, 10,000 simulated scenarios, polling uncertainty, turnout baseline 2022. No before/after comparison. No false official logos, no invented portraits, no gauges implying deterministic prediction, no pie charts or dense axes. Keep the visual delightful and clear.

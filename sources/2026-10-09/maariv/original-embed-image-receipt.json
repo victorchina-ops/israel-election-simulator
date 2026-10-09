@@ -1,0 +1,16 @@
+[
+  {
+    "fileName": "maariv-original-mandates-infogram.png",
+    "url": "https://infogram.io/p/1c7e24be5064e87de017e04939daa141.png",
+    "status": 200,
+    "sha256": "31f700ea34ef64c8bdc036c1564c7c3271f12bec7dda7ef29c559bb468193df6",
+    "embeddedDocumentTitle": "סקר מנדטים 8.10.26"
+  },
+  {
+    "fileName": "maariv-original-blocs-infogram.png",
+    "url": "https://infogram.io/p/82b7fbb23ecc926f6b21dced877ee103.png",
+    "status": 200,
+    "sha256": "b420bf182f7025c77de124cb36e711ff1df80756a90e4eb01da0121cb43d479c",
+    "embeddedDocumentTitle": "חלוקת הגושים 8.10.26"
+  }
+]

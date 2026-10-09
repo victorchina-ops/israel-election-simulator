@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "asOf": "2026-10-09",
+  "polls": 39,
+  "series": 8,
+  "deltas": 31,
+  "parties": 17,
+  "individualTests": 136,
+  "exactPermutations": "36118462464000000",
+  "excludedPollCount": 4,
+  "addedPollCount": 1,
+  "newlyEligiblePollIds": [
+    "history_lazar_2026-10-09_current"
+  ],
+  "lastVerifiedFieldworkEnd": "2026-10-08",
+  "independentAgreement": "All exact bloc counts and party p/q, slopes, net deltas and signflip p/q agree within 1e-12",
+  "correctedPartyFindings": [
+    "joint"
+  ],
+  "correctedBlocFindings": [],
+  "correctedPartySensitivityFindings": [],
+  "correctedBlocSensitivityFindings": [],
+  "sourceEvidenceSha256Verified": true
+}

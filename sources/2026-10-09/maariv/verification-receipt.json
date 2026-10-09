@@ -1,0 +1,193 @@
+{
+  "status": "PASS",
+  "pollId": "lazar_2026-10-09",
+  "newObservation": true,
+  "replacesPollId": "lazar_2026-10-02",
+  "checks": {
+    "publishedFullVector120": true,
+    "primaryFieldworkExplicit": true,
+    "actualPlannedInvitedSamplesExplicit": true,
+    "belowThresholdVerifiedAgainstOriginalEmbedAndWalla": true,
+    "userUndecidedProvenanceSeparated": true,
+    "reportedMarginConfidenceUnknownNotInferred": true,
+    "sameWallaObservationNotDuplicated": true,
+    "wrongBlocGraphicDocumentedAndNotUsed": true,
+    "priorPublicationOct2NotRelabelledOct1": true,
+    "IsraelPollsGraphicsAndHistoricalTableReviewed": true
+  },
+  "reviewedPollSha256": "352db132ad347096e4f5e47d15e5a4358b652cb3da3e9afa0ecb9ab5f6bdaab4",
+  "evidenceFiles": [
+    {
+      "fileName": "graphics-and-embed-receipt.json",
+      "sha256": "5f18bcc51accbd7cda3c61ca47a14006a8edfea95ae45946c2c485d70ebf6900"
+    },
+    {
+      "fileName": "initial-source-receipt.json",
+      "sha256": "d7c28bf07874c8633bfc49acc564259b44d1db48aa543101b57ab4fa397bdfd1"
+    },
+    {
+      "fileName": "IsraelPolls-history-media-receipt.json",
+      "sha256": "a00e768962e8a66f82268f6d96ec25334022e6ea10460d53ff23bfda06f00abf"
+    },
+    {
+      "fileName": "IsraelPolls-last-Lazar-history.html",
+      "sha256": "f78d52a95c8e5ed2ecf4d861d0ef91f1a7662584dfee1d29b8cebc853e9105fa"
+    },
+    {
+      "fileName": "IsraelPolls-Lazar-last-history-0.webp",
+      "sha256": "fa93f852a0cd27865947cace6e02bbd4b3368de439926d62d0cb990de4a444cd"
+    },
+    {
+      "fileName": "IsraelPolls-Lazar-last-history-1.webp",
+      "sha256": "624a85c572e3925961e162c6c8828ec19d40f3ff44895095d545d115af3805e8"
+    },
+    {
+      "fileName": "IsraelPolls-Lazar-last-history-2.webp",
+      "sha256": "3e808b44062421f727386a661d95034c9afe3aa18077bf1d0d2a8eda84f410bb"
+    },
+    {
+      "fileName": "IsraelPolls-profile.html",
+      "sha256": "d02e3bf00373fd31a4bbe0d5413c4f47390f7d94b29efaff43795ab9a5d9e753"
+    },
+    {
+      "fileName": "IsraelPolls-profile.txt",
+      "sha256": "611eb969bef3588fb459b1809f8fe0ad5bc44b97cf0c1bd248b815f906be3c40"
+    },
+    {
+      "fileName": "maariv-elections.html",
+      "sha256": "4af808b4979f62e4c5598bd04e2ba51c7262bb3b85dd7cdbee020c4b5aadb83c"
+    },
+    {
+      "fileName": "maariv-elections.txt",
+      "sha256": "30813f6f7ba80694f3c57a2c71e42c87d5fa8d6374ecf5aa530db825269047ed"
+    },
+    {
+      "fileName": "maariv-home.html",
+      "sha256": "ec4d5087de988ac7fc9791a7bd4203266847af24aa867e185009eb938bad30f6"
+    },
+    {
+      "fileName": "maariv-home.txt",
+      "sha256": "6929fff9a3099b44d1cd5a3e797568b195a866c3d212537c2dd4ba8ae7d2b4c8"
+    },
+    {
+      "fileName": "maariv-oct9-original.html",
+      "sha256": "9472d7a1e58030f639e5f31365f0e26c1a825e70d8d02a39f2818349199849bf"
+    },
+    {
+      "fileName": "maariv-oct9-original.txt",
+      "sha256": "5bd1df3bff9579fecc6fdc0b05ca82fb765fcdafb3fbc2db0647c55f756c6532"
+    },
+    {
+      "fileName": "maariv-original-blocs-infogram-chart-data.json",
+      "sha256": "b6da68581358e9718a558525290772fd9ea09f6d725b2b987e12a89b28a107a5"
+    },
+    {
+      "fileName": "maariv-original-blocs-infogram.html",
+      "sha256": "0ea17b79959c1c7cba839e1c1875a8005a655bfa808da879ebcbc7538385f9d6"
+    },
+    {
+      "fileName": "maariv-original-blocs-infogram.json",
+      "sha256": "e32d76e7ee8268e89943327a5c19edd531f61c80b2c19fbef12a9a40bca17a81"
+    },
+    {
+      "fileName": "maariv-original-blocs-infogram.png",
+      "sha256": "b420bf182f7025c77de124cb36e711ff1df80756a90e4eb01da0121cb43d479c"
+    },
+    {
+      "fileName": "maariv-original-mandates-infogram-chart-data.json",
+      "sha256": "dcd7963f3d6b08d33a88ecf5ba3331d2ed4f7ad51d77e455d6c80fee0f2b353c"
+    },
+    {
+      "fileName": "maariv-original-mandates-infogram.html",
+      "sha256": "0838b7bec23ef47b8097b5f28bca81bf9c6332c594d590402793d02daf14a475"
+    },
+    {
+      "fileName": "maariv-original-mandates-infogram.json",
+      "sha256": "13afb02eec3660d770be9ba4d3c3c993cba59d881daea526ad25453e61ae427b"
+    },
+    {
+      "fileName": "maariv-original-mandates-infogram.png",
+      "sha256": "31f700ea34ef64c8bdc036c1564c7c3271f12bec7dda7ef29c559bb468193df6"
+    },
+    {
+      "fileName": "maariv-politics.html",
+      "sha256": "2cb7ecc7e1cb57e29bed48c933b1bc1ca6a411c505436494213374bc14c284d1"
+    },
+    {
+      "fileName": "maariv-politics.txt",
+      "sha256": "e059e49c7789338458c799c98f459639de3f120340cf1f662d7479ebb0bb3260"
+    },
+    {
+      "fileName": "original-embed-image-receipt.json",
+      "sha256": "d7d00735c0c02ae949430f3393a2a714d6c22da8b48d536a97d3a8080908d6b0"
+    },
+    {
+      "fileName": "primary-followup-receipt.json",
+      "sha256": "58c37d424f8369aec908a6d32c62be5855895d4c42f7ffaaec86183c7a306596"
+    },
+    {
+      "fileName": "reviewed-poll.json",
+      "sha256": "352db132ad347096e4f5e47d15e5a4358b652cb3da3e9afa0ecb9ab5f6bdaab4"
+    },
+    {
+      "fileName": "user-provided-lazar-report.png",
+      "sha256": "31d28c8e5a88ffd18b69a349a7ee3da4b9e8dbaf6f7f27370dddee4a8b91f5b5"
+    },
+    {
+      "fileName": "walla-current-politics.html",
+      "sha256": "dbade2d4c89151c2a59093da41031b591e7012a801300c23db16257cb4e15b68"
+    },
+    {
+      "fileName": "walla-current-politics.txt",
+      "sha256": "642a3be174a867251c455169601700020c798b4ad7ba8df9e8a5b12b16c966f2"
+    },
+    {
+      "fileName": "walla-election-index.html",
+      "sha256": "b96705adbfb9b195da6cf7932f075c924643130f1208d18da62d69fdce264d6f"
+    },
+    {
+      "fileName": "walla-election-index.txt",
+      "sha256": "94ac8d8fe02edcdb4413430942dd320fbebf845d710bfcebed193953e47d97a4"
+    },
+    {
+      "fileName": "walla-home.html",
+      "sha256": "1e4553d89c3934aad8c592021c4b206edf78fa99024d20d4c9c31ded8b111124"
+    },
+    {
+      "fileName": "walla-home.txt",
+      "sha256": "06bb375bc88cf01ff1eede6322f222bebde53e9658b6b3b1b950dbc350ba0c22"
+    },
+    {
+      "fileName": "walla-news.html",
+      "sha256": "ca67e530f7e9547d5eb6ac1d259576563631c6e82363253f6c2c93f95e3592b3"
+    },
+    {
+      "fileName": "walla-news.txt",
+      "sha256": "8cdd0d5d68ea54c8d46e6febf18ce9073ebfa7be1ba06396e0eeb41c10174b78"
+    },
+    {
+      "fileName": "walla-oct8-or9-original.html",
+      "sha256": "9726b6ce89eea1f87ae68c34030b1db6d05cbf3430dadc280e79c25a206de3b7"
+    },
+    {
+      "fileName": "walla-oct8-or9-original.txt",
+      "sha256": "af96081e96bac11b668f9eacaddb49f8fb7c25dbf1cc0fc9372ae6cb44fde975"
+    },
+    {
+      "fileName": "walla-politics.html",
+      "sha256": "dbade2d4c89151c2a59093da41031b591e7012a801300c23db16257cb4e15b68"
+    },
+    {
+      "fileName": "walla-politics.txt",
+      "sha256": "642a3be174a867251c455169601700020c798b4ad7ba8df9e8a5b12b16c966f2"
+    },
+    {
+      "fileName": "walla-published-blocs.webp",
+      "sha256": "1cf55f1276a9903f1e994b7c529f76ebba87925a3a8eed458ef152c6d803c231"
+    },
+    {
+      "fileName": "walla-published-seats.webp",
+      "sha256": "fae6ca2e39f6031e7f51a8178b0f0c44413e939f06df6f6c23376d0c53de6bcc"
+    }
+  ]
+}
