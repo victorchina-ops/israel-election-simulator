@@ -1,0 +1,2350 @@
+{
+  "status": "passed",
+  "generatedAt": "2026-10-10T15:25:03.606Z",
+  "beforePath": "C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\artifacts\\poll-checks\\2026-10-10\\before\\dashboard\\src\\data.json",
+  "afterPath": "C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\dashboard\\src\\data.json",
+  "oppositionMode": "none",
+  "comparisonDefinition": "Both snapshots replayed with the same currently authored browser model and shared website model settings:10,000 trials, seed20260912, mandatory poll uncertainty, quality weighting, Arab parties outside both blocs, turnout2022. Stored old baseline results and model_configuration are ignored.",
+  "interpretation": "Probability intervals are Monte Carlo uncertainty conditional on this model. Differences below are point differences; no unpaired or paired significance claim is made.",
+  "authoredModelHashes": {
+    "dashboard/src/content/dashboard/model/allocate.js": "1b7afe0a20375aeabb15fb62e4be13b3ee8171e624a569e54613dcf36d63537b",
+    "dashboard/src/content/dashboard/model/random.js": "c9a23bb349e0f53ca101271a680266de138549c39c9352d729ba576b9dd5f8d1",
+    "dashboard/src/content/dashboard/model/reconstruct.js": "e3117c0650699078e9265a79ebcde8859ec490343fe2af2af289b79b4047117d",
+    "dashboard/src/content/dashboard/model/simulate.js": "7321cffeab040f4440d4116693e158de2d95f176cfd99db766d2f809b2244cd1",
+    "dashboard/src/content/dashboard/model/turnout.js": "75e668f49f3999870408a835113f439932eb4adcd2bdaffdbc87ed0b87aa3f59",
+    "dashboard/src/content/dashboard/model/weights.js": "2e71144e510a0a7cb67d58a9c5bb081e938d8390c1e5f1499c3957c9a24651d4",
+    "dashboard/src/content/dashboard/reporting-groups.js": "76e91696f4a4447065380ae7818472e1f201d7c85ce712bac141560526f2352b",
+    "dashboard/src/content/dashboard/bloc-presets.js": "285bad06685da2f128681412127419a500a61dfb99a039d6da421a173fa04c88"
+  },
+  "inputs": {
+    "beforeSha": "071a3f8540536229e182a85c1f5650e06d8887a1e0a8b2f228b27a9d3ed9172b",
+    "afterSha": "0e10b2f99e7cbe888255b011ce939e9e487573a9babf5b3b03c9f8a91fa63ff4"
+  },
+  "snapshotMetadata": {
+    "before": {
+      "id": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+      "features": {
+        "chatGPT": false
+      },
+      "asOf": "2026-10-09",
+      "generatedAt": "2026-10-09T16:19:13.704Z",
+      "buildStatus": "complete",
+      "storedConfiguration": {
+        "asOf": "2026-10-09",
+        "iterations": 10000,
+        "seed": 20260912,
+        "registered": 7336553,
+        "samplingMode": "poll",
+        "weightMode": "quality",
+        "pollCorrelationEnabled": false,
+        "pollWeights": {},
+        "excludedPolls": [],
+        "halfLifeDays": 14,
+        "designEffect": 1.5,
+        "scatterStrength": 0.65,
+        "commonBlocSD": 1,
+        "uncertaintyScale": 1,
+        "forecastDays": 0,
+        "dailyDrift": 0.06,
+        "unreportedSmallPct": 0.5,
+        "rounding": true,
+        "partyBlocs": {
+          "yashar": "b",
+          "likud": "a",
+          "beyachad": "b",
+          "democrats": "b",
+          "yisrael_beiteinu": "b",
+          "utj": "a",
+          "joint": "other",
+          "shas": "a",
+          "otzma": "a",
+          "rz_zehut": "a",
+          "raam": "other",
+          "winter": "a",
+          "hendel": "other",
+          "gantz": "other",
+          "noam": "a",
+          "haredi_public": "other",
+          "israel_first": "other",
+          "other": "other"
+        },
+        "partyMultipliers": {},
+        "turnout": {
+          "arab_localities": 53.164265596477414,
+          "haredi_three_cities": 82.43233776241739,
+          "remaining_localities": 65.2636702639851
+        },
+        "turnoutMappings": {},
+        "externalMultiplier": 1,
+        "blocMultipliers": {
+          "a": 1,
+          "b": 1,
+          "arab": 1,
+          "other": 1
+        },
+        "agreements": [
+          "yashar_democrats",
+          "beyachad_yisrael_beiteinu",
+          "joint_raam"
+        ],
+        "customAgreements": [],
+        "coalitionA": {
+          "extraSupport": [],
+          "abstain": [],
+          "minority": false
+        },
+        "coalitionB": {
+          "extraSupport": [],
+          "abstain": [],
+          "minority": false
+        },
+        "applyRecency": false,
+        "signalNoiseEnabled": false,
+        "includeChannel14": false,
+        "robustShrinkage": 0.25,
+        "methodWeights": {
+          "equal": 1,
+          "reference": 1,
+          "littlepolls": 1,
+          "gilead": 1,
+          "rosner": 0
+        },
+        "oppositionMode": "none"
+      }
+    },
+    "after": {
+      "id": "dashboard:ad5864c5-c821-45f8-abfc-62e02191e56c",
+      "features": {
+        "chatGPT": false
+      },
+      "asOf": "2026-10-10",
+      "generatedAt": "2026-10-10T15:25:01.966Z",
+      "buildStatus": "complete",
+      "storedConfiguration": {
+        "asOf": "2026-10-10",
+        "iterations": 10000,
+        "seed": 20260912,
+        "registered": 7336553,
+        "samplingMode": "poll",
+        "weightMode": "quality",
+        "pollCorrelationEnabled": false,
+        "pollWeights": {},
+        "excludedPolls": [],
+        "halfLifeDays": 14,
+        "designEffect": 1.5,
+        "scatterStrength": 0.65,
+        "commonBlocSD": 1,
+        "uncertaintyScale": 1,
+        "forecastDays": 0,
+        "dailyDrift": 0.06,
+        "unreportedSmallPct": 0.5,
+        "rounding": true,
+        "partyBlocs": {
+          "yashar": "b",
+          "likud": "a",
+          "beyachad": "b",
+          "democrats": "b",
+          "yisrael_beiteinu": "b",
+          "utj": "a",
+          "joint": "other",
+          "shas": "a",
+          "otzma": "a",
+          "rz_zehut": "a",
+          "raam": "other",
+          "winter": "a",
+          "hendel": "other",
+          "gantz": "other",
+          "noam": "a",
+          "haredi_public": "other",
+          "israel_first": "other",
+          "other": "other"
+        },
+        "partyMultipliers": {},
+        "turnout": {
+          "arab_localities": 53.164265596477414,
+          "haredi_three_cities": 82.43233776241739,
+          "remaining_localities": 65.2636702639851
+        },
+        "turnoutMappings": {},
+        "externalMultiplier": 1,
+        "blocMultipliers": {
+          "a": 1,
+          "b": 1,
+          "arab": 1,
+          "other": 1
+        },
+        "agreements": [
+          "yashar_democrats",
+          "beyachad_yisrael_beiteinu",
+          "joint_raam"
+        ],
+        "customAgreements": [],
+        "coalitionA": {
+          "extraSupport": [],
+          "abstain": [],
+          "minority": false
+        },
+        "coalitionB": {
+          "extraSupport": [],
+          "abstain": [],
+          "minority": false
+        },
+        "applyRecency": false,
+        "signalNoiseEnabled": false,
+        "includeChannel14": false,
+        "robustShrinkage": 0.25,
+        "methodWeights": {
+          "equal": 1,
+          "reference": 1,
+          "littlepolls": 1,
+          "gilead": 1,
+          "rosner": 0
+        },
+        "oppositionMode": "none"
+      }
+    }
+  },
+  "controlDifferences": [
+    {
+      "key": "asOf",
+      "before": "2026-10-09",
+      "after": "2026-10-10"
+    }
+  ],
+  "onlyControlDateDiffers": true,
+  "nonPollInputChanges": [
+    "history",
+    "calibration"
+  ],
+  "currentMetadataChanges": [
+    {
+      "key": "asOf",
+      "before": "2026-10-09",
+      "after": "2026-10-10"
+    },
+    {
+      "key": "version",
+      "before": "2026-10-09.maariv-v1",
+      "after": "2026-10-10.c13-official-metadata-v1"
+    },
+    {
+      "key": "notes",
+      "before": [
+        "נוסף סקר מעריב / לזר מ־9.10, עבודת שדה7–8.10; פרסום וואלה מ־8.10 הוא אותה תצפית. נשמרים שמונה מכונים פעילים ו־114 סקרים היסטוריים. נתונים חסרים אינם אפס; 5.3% מתלבטים מקורם בצילום המשתמש; טעות סכום בגרפיקת הגושים המקורית מתועדת ונפתרה לפי וקטור המפלגות והמקורות הנוספים.",
+        "נוספו שלושה סקרים מאומתים מ־8.10: ישראל היום / קנטאר, i24NEWS / דיירקט פולס וזמן ישראל / טאטיקה. נשמרים שמונה מכונים פעילים ו־113 סקרים היסטוריים. תאריכי האיסוף מפורשים; נתון חסר אינו אפס ו״פחות מ־1%״ נשמר כגבול.",
+        "השלמת פרטי סקר13 מ־7.10 אומתה ב־8.10; אותם8 מכונים ו־110 סקרים, ללא סקר חדש או שינוי במנדטים. האיסוף6.10 מאומת ולכן נכלל במגמות.",
+        "אחוזים חסרים אינם אפס; הסתירות במקורות נשמרות."
+      ],
+      "after": [
+        "ב־10.10 הושלמו פרטי אותה תצפית של סקר13 מ־7.10 לפי דוח ועדת הבחירות4193: איסוף6.10 בבוקר עד7.10 בבוקר ו־1,263 משיבים. לא נוסף סקר מנדטים; נשמרו8 מכונים ו־114 סקרים. סקר עמדות N12 מ־9.10 ללא מנדטים למפלגות נשמר כמקור נפרד ואינו נכנס לשקלול.",
+        "נוסף סקר מעריב / לזר מ־9.10, עבודת שדה7–8.10; פרסום וואלה מ־8.10 הוא אותה תצפית. נשמרים שמונה מכונים פעילים ו־114 סקרים היסטוריים. נתונים חסרים אינם אפס; 5.3% מתלבטים מקורם בצילום המשתמש; טעות סכום בגרפיקת הגושים המקורית מתועדת ונפתרה לפי וקטור המפלגות והמקורות הנוספים.",
+        "נוספו שלושה סקרים מאומתים מ־8.10: ישראל היום / קנטאר, i24NEWS / דיירקט פולס וזמן ישראל / טאטיקה. נשמרים שמונה מכונים פעילים ו־113 סקרים היסטוריים. תאריכי האיסוף מפורשים; נתון חסר אינו אפס ו״פחות מ־1%״ נשמר כגבול.",
+        "השלמת פרטי סקר13 מ־7.10 אומתה ב־8.10; אותם8 מכונים ו־110 סקרים, ללא סקר חדש או שינוי במנדטים. האיסוף6.10 מאומת ולכן נכלל במגמות.",
+        "אחוזים חסרים אינם אפס; הסתירות במקורות נשמרות."
+      ]
+    },
+    {
+      "key": "updateNote",
+      "before": "נוסף סקר מעריב / לזר מ־9.10, עבודת שדה7–8.10; פרסום וואלה מ־8.10 הוא אותה תצפית. נשמרים שמונה מכונים פעילים ו־114 סקרים היסטוריים. נתונים חסרים אינם אפס; 5.3% מתלבטים מקורם בצילום המשתמש; טעות סכום בגרפיקת הגושים המקורית מתועדת ונפתרה לפי וקטור המפלגות והמקורות הנוספים.",
+      "after": "ב־10.10 הושלמו פרטי אותה תצפית של סקר13 מ־7.10 לפי דוח ועדת הבחירות4193: איסוף6.10 בבוקר עד7.10 בבוקר ו־1,263 משיבים. לא נוסף סקר מנדטים; נשמרו8 מכונים ו־114 סקרים. סקר עמדות N12 מ־9.10 ללא מנדטים למפלגות נשמר כמקור נפרד ואינו נכנס לשקלול."
+    },
+    {
+      "key": "metadataUpdatedAt",
+      "before": "2026-10-08",
+      "after": "2026-10-10"
+    }
+  ],
+  "pollChanges": [
+    {
+      "pollsterId": "midgam_geva",
+      "beforeIds": [
+        "midgam_geva_2026-10-05"
+      ],
+      "afterIds": [
+        "midgam_geva_2026-10-05"
+      ],
+      "beforeDates": [
+        "2026-10-05"
+      ],
+      "afterDates": [
+        "2026-10-05"
+      ],
+      "changed": false,
+      "changedFields": []
+    },
+    {
+      "pollsterId": "kantar",
+      "beforeIds": [
+        "kantar_2026-10-08"
+      ],
+      "afterIds": [
+        "kantar_2026-10-08"
+      ],
+      "beforeDates": [
+        "2026-10-08"
+      ],
+      "afterDates": [
+        "2026-10-08"
+      ],
+      "changed": false,
+      "changedFields": []
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "beforeIds": [
+        "hamadad_consortium_2026-10-07"
+      ],
+      "afterIds": [
+        "hamadad_consortium_2026-10-07"
+      ],
+      "beforeDates": [
+        "2026-10-07"
+      ],
+      "afterDates": [
+        "2026-10-07"
+      ],
+      "changed": true,
+      "changedFields": [
+        "dateKind",
+        "fieldworkEnd",
+        "initialSampleSize",
+        "invitedSampleSize",
+        "sampleSizeSourceUrl",
+        "samplingMethod",
+        "population",
+        "panelProvider",
+        "sourceUrl",
+        "sourceTier",
+        "secondarySourceUrls",
+        "checkedAt",
+        "notes",
+        "statusLabel",
+        "sourceDocument",
+        "sourceCheckLimitations",
+        "sourceAccessSummary",
+        "validationSourceUrl",
+        "fieldworkSourceUrl",
+        "metadataUpdatedAt",
+        "metadataRevisionHistory",
+        "fieldworkStartedAt",
+        "fieldworkEndedAt",
+        "fieldworkTimeZone",
+        "invitedSampleSizeKind",
+        "collectionMode",
+        "sampleComposition",
+        "weightingMethod",
+        "fieldworkStartTime",
+        "fieldworkEndTime"
+      ]
+    },
+    {
+      "pollsterId": "lazar",
+      "beforeIds": [
+        "lazar_2026-10-09"
+      ],
+      "afterIds": [
+        "lazar_2026-10-09"
+      ],
+      "beforeDates": [
+        "2026-10-09"
+      ],
+      "afterDates": [
+        "2026-10-09"
+      ],
+      "changed": false,
+      "changedFields": []
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "beforeIds": [
+        "maagar_mochot_2026-10-06"
+      ],
+      "afterIds": [
+        "maagar_mochot_2026-10-06"
+      ],
+      "beforeDates": [
+        "2026-10-06"
+      ],
+      "afterDates": [
+        "2026-10-06"
+      ],
+      "changed": false,
+      "changedFields": []
+    },
+    {
+      "pollsterId": "tatika",
+      "beforeIds": [
+        "tatika_2026-10-08"
+      ],
+      "afterIds": [
+        "tatika_2026-10-08"
+      ],
+      "beforeDates": [
+        "2026-10-08"
+      ],
+      "afterDates": [
+        "2026-10-08"
+      ],
+      "changed": false,
+      "changedFields": []
+    },
+    {
+      "pollsterId": "direct_polls",
+      "beforeIds": [
+        "direct_polls_2026-10-08"
+      ],
+      "afterIds": [
+        "direct_polls_2026-10-08"
+      ],
+      "beforeDates": [
+        "2026-10-08"
+      ],
+      "afterDates": [
+        "2026-10-08"
+      ],
+      "changed": false,
+      "changedFields": []
+    },
+    {
+      "pollsterId": "next_data",
+      "beforeIds": [
+        "next_data_2026-10-07"
+      ],
+      "afterIds": [
+        "next_data_2026-10-07"
+      ],
+      "beforeDates": [
+        "2026-10-07"
+      ],
+      "afterDates": [
+        "2026-10-07"
+      ],
+      "changed": false,
+      "changedFields": []
+    }
+  ],
+  "before": {
+    "asOf": "2026-10-09",
+    "pollCount": 8,
+    "polls": [
+      {
+        "id": "midgam_geva_2026-10-05",
+        "pollsterId": "midgam_geva",
+        "publisher": "חדשות 12",
+        "date": "2026-10-05",
+        "fieldworkStart": "2026-10-05",
+        "fieldworkEnd": "2026-10-05",
+        "sampleSize": 501,
+        "checkedAt": "2026-10-05"
+      },
+      {
+        "id": "kantar_2026-10-08",
+        "pollsterId": "kantar",
+        "publisher": "ישראל היום",
+        "date": "2026-10-08",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-08",
+        "sampleSize": 555,
+        "checkedAt": "2026-10-08"
+      },
+      {
+        "id": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "publisher": "חדשות 13",
+        "date": "2026-10-07",
+        "fieldworkStart": "2026-10-06",
+        "fieldworkEnd": "2026-10-06",
+        "sampleSize": 1263,
+        "checkedAt": "2026-10-08"
+      },
+      {
+        "id": "lazar_2026-10-09",
+        "pollsterId": "lazar",
+        "publisher": "מעריב",
+        "date": "2026-10-09",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-08",
+        "sampleSize": 700,
+        "checkedAt": "2026-10-09"
+      },
+      {
+        "id": "maagar_mochot_2026-10-06",
+        "pollsterId": "maagar_mochot",
+        "publisher": "ערוץ 16",
+        "date": "2026-10-06",
+        "fieldworkStart": "2026-10-05",
+        "fieldworkEnd": "2026-10-06",
+        "sampleSize": 550,
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "id": "tatika_2026-10-08",
+        "pollsterId": "tatika",
+        "publisher": "זמן ישראל",
+        "date": "2026-10-08",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-08",
+        "sampleSize": 500,
+        "checkedAt": "2026-10-08"
+      },
+      {
+        "id": "direct_polls_2026-10-08",
+        "pollsterId": "direct_polls",
+        "publisher": "i24NEWS",
+        "date": "2026-10-08",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-07",
+        "sampleSize": 518,
+        "checkedAt": "2026-10-08"
+      },
+      {
+        "id": "next_data_2026-10-07",
+        "pollsterId": "next_data",
+        "publisher": "חדשות 14",
+        "date": "2026-10-07",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-07",
+        "sampleSize": 1100,
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "config": {
+      "asOf": "2026-10-09",
+      "iterations": 10000,
+      "seed": 20260912,
+      "registered": 7336553,
+      "samplingMode": "poll",
+      "weightMode": "quality",
+      "pollCorrelationEnabled": false,
+      "pollWeights": {},
+      "excludedPolls": [],
+      "halfLifeDays": 14,
+      "designEffect": 1.5,
+      "scatterStrength": 0.65,
+      "commonBlocSD": 1,
+      "uncertaintyScale": 1,
+      "forecastDays": 0,
+      "dailyDrift": 0.06,
+      "unreportedSmallPct": 0.5,
+      "rounding": true,
+      "partyBlocs": {
+        "yashar": "b",
+        "likud": "a",
+        "beyachad": "b",
+        "democrats": "b",
+        "yisrael_beiteinu": "b",
+        "utj": "a",
+        "joint": "other",
+        "shas": "a",
+        "otzma": "a",
+        "rz_zehut": "a",
+        "raam": "other",
+        "winter": "a",
+        "hendel": "other",
+        "gantz": "other",
+        "noam": "a",
+        "haredi_public": "other",
+        "israel_first": "other",
+        "other": "other"
+      },
+      "partyMultipliers": {},
+      "turnout": {
+        "arab_localities": 53.164265596477414,
+        "haredi_three_cities": 82.43233776241739,
+        "remaining_localities": 65.2636702639851
+      },
+      "turnoutMappings": {},
+      "externalMultiplier": 1,
+      "blocMultipliers": {
+        "a": 1,
+        "b": 1,
+        "arab": 1,
+        "other": 1
+      },
+      "agreements": [
+        "yashar_democrats",
+        "beyachad_yisrael_beiteinu",
+        "joint_raam"
+      ],
+      "customAgreements": [],
+      "coalitionA": {
+        "extraSupport": [],
+        "abstain": [],
+        "minority": false
+      },
+      "coalitionB": {
+        "extraSupport": [],
+        "abstain": [],
+        "minority": false
+      },
+      "applyRecency": false,
+      "robustShrinkage": 0.25,
+      "methodWeights": {
+        "equal": 1,
+        "reference": 1,
+        "littlepolls": 1,
+        "gilead": 1,
+        "rosner": 0
+      },
+      "oppositionMode": "none"
+    },
+    "probabilities": {
+      "a": 0.0414,
+      "b": 0.0012,
+      "neither": 0.9574,
+      "coalitionA": 0.0414,
+      "coalitionB": 0.0012,
+      "coalitionNeither": 0.9574,
+      "coalitionBoth": 0
+    },
+    "probabilityCI": {
+      "a": [
+        0.037668367463940436,
+        0.045483835841644116
+      ],
+      "b": [
+        0.0006866043187699709,
+        0.0020964724558169795
+      ],
+      "neither": [
+        0.9532630064195401,
+        0.9611857118709649
+      ],
+      "coalitionA": [
+        0.037668367463940436,
+        0.045483835841644116
+      ],
+      "coalitionB": [
+        0.0006866043187699709,
+        0.0020964724558169795
+      ],
+      "coalitionNeither": [
+        0.9532630064195401,
+        0.9611857118709649
+      ],
+      "coalitionBoth": [
+        0,
+        0.00038399837067657454
+      ]
+    },
+    "blocStats": {
+      "a": {
+        "mean": 53.2874,
+        "meanSE": 0.03752227226716966,
+        "meanMargin": 0.07354365364365252,
+        "meanCI": [
+          53.213856346356344,
+          53.36094365364365
+        ],
+        "median": 53,
+        "low": 48,
+        "high": 60
+      },
+      "b": {
+        "mean": 52.4959,
+        "meanSE": 0.029833996140855364,
+        "meanMargin": 0.058474632436076514,
+        "meanCI": [
+          52.437425367563925,
+          52.55437463243607
+        ],
+        "median": 53,
+        "low": 47,
+        "high": 57
+      },
+      "arab": {
+        "mean": 0,
+        "meanSE": 0,
+        "meanMargin": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0
+      },
+      "other": {
+        "mean": 14.2167,
+        "meanSE": 0.02357434380780506,
+        "meanMargin": 0.046205713863297915,
+        "meanCI": [
+          14.170494286136702,
+          14.262905713863297
+        ],
+        "median": 14,
+        "low": 11,
+        "high": 18
+      }
+    },
+    "reportingGroups": [
+      {
+        "id": "a",
+        "label": "הקואליציה הנוכחית",
+        "color": "#dc454c",
+        "partyIds": [
+          "likud",
+          "utj",
+          "shas",
+          "otzma",
+          "rz_zehut",
+          "winter",
+          "noam"
+        ],
+        "stats": {
+          "mean": 53.2874,
+          "meanSE": 0.03752227226716966,
+          "meanMargin": 0.07354365364365252,
+          "meanCI": [
+            53.213856346356344,
+            53.36094365364365
+          ],
+          "median": 53,
+          "low": 48,
+          "high": 60
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      },
+      {
+        "id": "b",
+        "label": "האופוזיציה",
+        "color": "#2378cf",
+        "partyIds": [
+          "yashar",
+          "beyachad",
+          "democrats",
+          "yisrael_beiteinu"
+        ],
+        "stats": {
+          "mean": 52.4959,
+          "meanSE": 0.029833996140855364,
+          "meanMargin": 0.058474632436076514,
+          "meanCI": [
+            52.437425367563925,
+            52.55437463243607
+          ],
+          "median": 53,
+          "low": 47,
+          "high": 57
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      },
+      {
+        "id": "arab",
+        "label": "המפלגות הערביות מחוץ לגושים",
+        "color": "#87909d",
+        "partyIds": [
+          "joint",
+          "raam"
+        ],
+        "stats": {
+          "mean": 13.0291,
+          "meanSE": 0.015517390178112878,
+          "meanMargin": 0.03041408474910124,
+          "meanCI": [
+            12.9986859152509,
+            13.0595140847491
+          ],
+          "median": 13,
+          "low": 11,
+          "high": 15
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      },
+      {
+        "id": "other",
+        "label": "שאר הרשימות מחוץ לגושים",
+        "color": "#87909d",
+        "partyIds": [
+          "hendel",
+          "gantz",
+          "haredi_public",
+          "israel_first"
+        ],
+        "stats": {
+          "mean": 1.1876,
+          "meanSE": 0.01918378027768704,
+          "meanMargin": 0.0376002093442666,
+          "meanCI": [
+            1.1499997906557333,
+            1.2252002093442667
+          ],
+          "median": 0,
+          "low": 0,
+          "high": 5
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      }
+    ],
+    "meanBallots": 5181432.485,
+    "meanValid": 5149172.3752,
+    "meanTurnout": 0.7062500257777914,
+    "pollWeights": [
+      {
+        "id": "midgam_geva_2026-10-05",
+        "pollsterId": "midgam_geva",
+        "pollster": "מדגם — מנו גבע",
+        "publisher": "חדשות 12",
+        "weight": 0.12392810070834641,
+        "sampleSize": 501,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "kantar_2026-10-08",
+        "pollsterId": "kantar",
+        "pollster": "קנטאר — דודי חסיד",
+        "publisher": "ישראל היום",
+        "weight": 0.1313732183314704,
+        "sampleSize": 555,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+        "publisher": "חדשות 13",
+        "weight": 0.12598889497254961,
+        "sampleSize": 1263,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "lazar_2026-10-09",
+        "pollsterId": "lazar",
+        "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+        "publisher": "מעריב",
+        "weight": 0.12715127986162644,
+        "sampleSize": 700,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "maagar_mochot_2026-10-06",
+        "pollsterId": "maagar_mochot",
+        "pollster": "מאגר מוחות — יצחק כץ",
+        "publisher": "ערוץ 16",
+        "weight": 0.11359182120835813,
+        "sampleSize": 550,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "tatika_2026-10-08",
+        "pollsterId": "tatika",
+        "pollster": "יוסי טאטיקה",
+        "publisher": "זמן ישראל",
+        "weight": 0.12598889497254961,
+        "sampleSize": 500,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "direct_polls_2026-10-08",
+        "pollsterId": "direct_polls",
+        "pollster": "דיירקט פולס — צוריאל שרון",
+        "publisher": "i24NEWS",
+        "weight": 0.12598889497254961,
+        "sampleSize": 518,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "next_data_2026-10-07",
+        "pollsterId": "next_data",
+        "pollster": "NEXT DATA — ניתוח שלמה פילבר",
+        "publisher": "חדשות 14",
+        "weight": 0.12598889497254961,
+        "sampleSize": 1100,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      }
+    ],
+    "parties": [
+      {
+        "id": "yashar",
+        "name": "ישר!",
+        "mean": 22.9166,
+        "meanCI": [
+          22.886536642958344,
+          22.946663357041654
+        ],
+        "median": 23,
+        "low": 20,
+        "high": 25,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 24,
+        "pointSeats": 24,
+        "meanVotePct": 17.515305724260504
+      },
+      {
+        "id": "likud",
+        "name": "הליכוד",
+        "mean": 23.0991,
+        "meanCI": [
+          23.044569526731543,
+          23.153630473268457
+        ],
+        "median": 22,
+        "low": 20,
+        "high": 29,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 23,
+        "pointSeats": 23,
+        "meanVotePct": 17.916567505175752
+      },
+      {
+        "id": "beyachad",
+        "name": "ביחד",
+        "mean": 12.5194,
+        "meanCI": [
+          12.49017531574577,
+          12.548624684254229
+        ],
+        "median": 13,
+        "low": 10,
+        "high": 15,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 13,
+        "pointSeats": 13,
+        "meanVotePct": 9.658033919940824
+      },
+      {
+        "id": "democrats",
+        "name": "הדמוקרטים",
+        "mean": 9.0743,
+        "meanCI": [
+          9.056421375525982,
+          9.092178624474016
+        ],
+        "median": 9,
+        "low": 8,
+        "high": 11,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 9,
+        "pointSeats": 9,
+        "meanVotePct": 7.160610507701522
+      },
+      {
+        "id": "yisrael_beiteinu",
+        "name": "ישראל ביתנו",
+        "mean": 7.9856,
+        "meanCI": [
+          7.961488462902492,
+          8.009711537097509
+        ],
+        "median": 8,
+        "low": 6,
+        "high": 10,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.298882976420914
+      },
+      {
+        "id": "utj",
+        "name": "יהדות התורה",
+        "mean": 7.6412,
+        "meanCI": [
+          7.626814128306563,
+          7.655585871693438
+        ],
+        "median": 8,
+        "low": 7,
+        "high": 9,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.181414921942474
+      },
+      {
+        "id": "joint",
+        "name": "הרשימה המשותפת",
+        "mean": 7.9314,
+        "meanCI": [
+          7.912074447120307,
+          7.950725552879693
+        ],
+        "median": 8,
+        "low": 6,
+        "high": 10,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.182640599168009
+      },
+      {
+        "id": "shas",
+        "name": "ש״ס",
+        "mean": 7.4765,
+        "meanCI": [
+          7.457756217548796,
+          7.495243782451204
+        ],
+        "median": 7,
+        "low": 6,
+        "high": 9,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.0558703030437995
+      },
+      {
+        "id": "otzma",
+        "name": "עוצמה יהודית",
+        "mean": 7.6512,
+        "meanCI": [
+          7.632043728821032,
+          7.670356271178968
+        ],
+        "median": 8,
+        "low": 6,
+        "high": 9,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.1927830141422175
+      },
+      {
+        "id": "rz_zehut",
+        "name": "הציונות הדתית–זהות",
+        "mean": 5.9032,
+        "meanCI": [
+          5.88835195342645,
+          5.91804804657355
+        ],
+        "median": 6,
+        "low": 5,
+        "high": 7,
+        "passProbability": 0.9998,
+        "passCI": [
+          0.9992710041559925,
+          0.9999451510726791
+        ],
+        "pollPointSeats": 6,
+        "pointSeats": 6,
+        "meanVotePct": 4.863842324591895
+      },
+      {
+        "id": "raam",
+        "name": "רע״ם",
+        "mean": 5.0977,
+        "meanCI": [
+          5.076917833047539,
+          5.11848216695246
+        ],
+        "median": 5,
+        "low": 4,
+        "high": 6,
+        "passProbability": 0.9772,
+        "passCI": [
+          0.9740860353306088,
+          0.9799474766244173
+        ],
+        "pollPointSeats": 5,
+        "pointSeats": 5,
+        "meanVotePct": 4.169240951439273
+      },
+      {
+        "id": "winter",
+        "name": "עמך ישראל",
+        "mean": 1.5162,
+        "meanCI": [
+          1.4767531186188987,
+          1.5556468813811013
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 5,
+        "passProbability": 0.3649,
+        "passCI": [
+          0.35551823933195126,
+          0.3743855170278054
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 3.007227969217073
+      },
+      {
+        "id": "hendel",
+        "name": "המילואימניקים והכלכלית",
+        "mean": 1.1876,
+        "meanCI": [
+          1.1499997906557333,
+          1.2252002093442667
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 5,
+        "passProbability": 0.2802,
+        "passCI": [
+          0.2714835522088507,
+          0.28908525347489866
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 2.9152225890483043
+      },
+      {
+        "id": "gantz",
+        "name": "כחול לבן",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.9082521511975867
+      },
+      {
+        "id": "noam",
+        "name": "נעם לישראל",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.18867996815886093
+      },
+      {
+        "id": "haredi_public",
+        "name": "הציבור החרדי",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.4298700633503965
+      },
+      {
+        "id": "israel_first",
+        "name": "ישראל תחילה",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0
+      },
+      {
+        "id": "other",
+        "name": "רשימות אחרות",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.35555451120060755
+      }
+    ]
+  },
+  "after": {
+    "asOf": "2026-10-10",
+    "pollCount": 8,
+    "polls": [
+      {
+        "id": "midgam_geva_2026-10-05",
+        "pollsterId": "midgam_geva",
+        "publisher": "חדשות 12",
+        "date": "2026-10-05",
+        "fieldworkStart": "2026-10-05",
+        "fieldworkEnd": "2026-10-05",
+        "sampleSize": 501,
+        "checkedAt": "2026-10-05"
+      },
+      {
+        "id": "kantar_2026-10-08",
+        "pollsterId": "kantar",
+        "publisher": "ישראל היום",
+        "date": "2026-10-08",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-08",
+        "sampleSize": 555,
+        "checkedAt": "2026-10-08"
+      },
+      {
+        "id": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "publisher": "חדשות 13",
+        "date": "2026-10-07",
+        "fieldworkStart": "2026-10-06",
+        "fieldworkEnd": "2026-10-07",
+        "sampleSize": 1263,
+        "checkedAt": "2026-10-10"
+      },
+      {
+        "id": "lazar_2026-10-09",
+        "pollsterId": "lazar",
+        "publisher": "מעריב",
+        "date": "2026-10-09",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-08",
+        "sampleSize": 700,
+        "checkedAt": "2026-10-09"
+      },
+      {
+        "id": "maagar_mochot_2026-10-06",
+        "pollsterId": "maagar_mochot",
+        "publisher": "ערוץ 16",
+        "date": "2026-10-06",
+        "fieldworkStart": "2026-10-05",
+        "fieldworkEnd": "2026-10-06",
+        "sampleSize": 550,
+        "checkedAt": "2026-10-07"
+      },
+      {
+        "id": "tatika_2026-10-08",
+        "pollsterId": "tatika",
+        "publisher": "זמן ישראל",
+        "date": "2026-10-08",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-08",
+        "sampleSize": 500,
+        "checkedAt": "2026-10-08"
+      },
+      {
+        "id": "direct_polls_2026-10-08",
+        "pollsterId": "direct_polls",
+        "publisher": "i24NEWS",
+        "date": "2026-10-08",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-07",
+        "sampleSize": 518,
+        "checkedAt": "2026-10-08"
+      },
+      {
+        "id": "next_data_2026-10-07",
+        "pollsterId": "next_data",
+        "publisher": "חדשות 14",
+        "date": "2026-10-07",
+        "fieldworkStart": "2026-10-07",
+        "fieldworkEnd": "2026-10-07",
+        "sampleSize": 1100,
+        "checkedAt": "2026-10-07"
+      }
+    ],
+    "config": {
+      "asOf": "2026-10-10",
+      "iterations": 10000,
+      "seed": 20260912,
+      "registered": 7336553,
+      "samplingMode": "poll",
+      "weightMode": "quality",
+      "pollCorrelationEnabled": false,
+      "pollWeights": {},
+      "excludedPolls": [],
+      "halfLifeDays": 14,
+      "designEffect": 1.5,
+      "scatterStrength": 0.65,
+      "commonBlocSD": 1,
+      "uncertaintyScale": 1,
+      "forecastDays": 0,
+      "dailyDrift": 0.06,
+      "unreportedSmallPct": 0.5,
+      "rounding": true,
+      "partyBlocs": {
+        "yashar": "b",
+        "likud": "a",
+        "beyachad": "b",
+        "democrats": "b",
+        "yisrael_beiteinu": "b",
+        "utj": "a",
+        "joint": "other",
+        "shas": "a",
+        "otzma": "a",
+        "rz_zehut": "a",
+        "raam": "other",
+        "winter": "a",
+        "hendel": "other",
+        "gantz": "other",
+        "noam": "a",
+        "haredi_public": "other",
+        "israel_first": "other",
+        "other": "other"
+      },
+      "partyMultipliers": {},
+      "turnout": {
+        "arab_localities": 53.164265596477414,
+        "haredi_three_cities": 82.43233776241739,
+        "remaining_localities": 65.2636702639851
+      },
+      "turnoutMappings": {},
+      "externalMultiplier": 1,
+      "blocMultipliers": {
+        "a": 1,
+        "b": 1,
+        "arab": 1,
+        "other": 1
+      },
+      "agreements": [
+        "yashar_democrats",
+        "beyachad_yisrael_beiteinu",
+        "joint_raam"
+      ],
+      "customAgreements": [],
+      "coalitionA": {
+        "extraSupport": [],
+        "abstain": [],
+        "minority": false
+      },
+      "coalitionB": {
+        "extraSupport": [],
+        "abstain": [],
+        "minority": false
+      },
+      "applyRecency": false,
+      "robustShrinkage": 0.25,
+      "methodWeights": {
+        "equal": 1,
+        "reference": 1,
+        "littlepolls": 1,
+        "gilead": 1,
+        "rosner": 0
+      },
+      "oppositionMode": "none"
+    },
+    "probabilities": {
+      "a": 0.0414,
+      "b": 0.0012,
+      "neither": 0.9574,
+      "coalitionA": 0.0414,
+      "coalitionB": 0.0012,
+      "coalitionNeither": 0.9574,
+      "coalitionBoth": 0
+    },
+    "probabilityCI": {
+      "a": [
+        0.037668367463940436,
+        0.045483835841644116
+      ],
+      "b": [
+        0.0006866043187699709,
+        0.0020964724558169795
+      ],
+      "neither": [
+        0.9532630064195401,
+        0.9611857118709649
+      ],
+      "coalitionA": [
+        0.037668367463940436,
+        0.045483835841644116
+      ],
+      "coalitionB": [
+        0.0006866043187699709,
+        0.0020964724558169795
+      ],
+      "coalitionNeither": [
+        0.9532630064195401,
+        0.9611857118709649
+      ],
+      "coalitionBoth": [
+        0,
+        0.00038399837067657454
+      ]
+    },
+    "blocStats": {
+      "a": {
+        "mean": 53.2874,
+        "meanSE": 0.03752227226716966,
+        "meanMargin": 0.07354365364365252,
+        "meanCI": [
+          53.213856346356344,
+          53.36094365364365
+        ],
+        "median": 53,
+        "low": 48,
+        "high": 60
+      },
+      "b": {
+        "mean": 52.4959,
+        "meanSE": 0.029833996140855364,
+        "meanMargin": 0.058474632436076514,
+        "meanCI": [
+          52.437425367563925,
+          52.55437463243607
+        ],
+        "median": 53,
+        "low": 47,
+        "high": 57
+      },
+      "arab": {
+        "mean": 0,
+        "meanSE": 0,
+        "meanMargin": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0
+      },
+      "other": {
+        "mean": 14.2167,
+        "meanSE": 0.02357434380780506,
+        "meanMargin": 0.046205713863297915,
+        "meanCI": [
+          14.170494286136702,
+          14.262905713863297
+        ],
+        "median": 14,
+        "low": 11,
+        "high": 18
+      }
+    },
+    "reportingGroups": [
+      {
+        "id": "a",
+        "label": "הקואליציה הנוכחית",
+        "color": "#dc454c",
+        "partyIds": [
+          "likud",
+          "utj",
+          "shas",
+          "otzma",
+          "rz_zehut",
+          "winter",
+          "noam"
+        ],
+        "stats": {
+          "mean": 53.2874,
+          "meanSE": 0.03752227226716966,
+          "meanMargin": 0.07354365364365252,
+          "meanCI": [
+            53.213856346356344,
+            53.36094365364365
+          ],
+          "median": 53,
+          "low": 48,
+          "high": 60
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      },
+      {
+        "id": "b",
+        "label": "האופוזיציה",
+        "color": "#2378cf",
+        "partyIds": [
+          "yashar",
+          "beyachad",
+          "democrats",
+          "yisrael_beiteinu"
+        ],
+        "stats": {
+          "mean": 52.4959,
+          "meanSE": 0.029833996140855364,
+          "meanMargin": 0.058474632436076514,
+          "meanCI": [
+            52.437425367563925,
+            52.55437463243607
+          ],
+          "median": 53,
+          "low": 47,
+          "high": 57
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      },
+      {
+        "id": "arab",
+        "label": "המפלגות הערביות מחוץ לגושים",
+        "color": "#87909d",
+        "partyIds": [
+          "joint",
+          "raam"
+        ],
+        "stats": {
+          "mean": 13.0291,
+          "meanSE": 0.015517390178112878,
+          "meanMargin": 0.03041408474910124,
+          "meanCI": [
+            12.9986859152509,
+            13.0595140847491
+          ],
+          "median": 13,
+          "low": 11,
+          "high": 15
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      },
+      {
+        "id": "other",
+        "label": "שאר הרשימות מחוץ לגושים",
+        "color": "#87909d",
+        "partyIds": [
+          "hendel",
+          "gantz",
+          "haredi_public",
+          "israel_first"
+        ],
+        "stats": {
+          "mean": 1.1876,
+          "meanSE": 0.01918378027768704,
+          "meanMargin": 0.0376002093442666,
+          "meanCI": [
+            1.1499997906557333,
+            1.2252002093442667
+          ],
+          "median": 0,
+          "low": 0,
+          "high": 5
+        },
+        "empty": false,
+        "status": "ready",
+        "source": "joint-simulation"
+      }
+    ],
+    "meanBallots": 5181432.485,
+    "meanValid": 5149172.3752,
+    "meanTurnout": 0.7062500257777914,
+    "pollWeights": [
+      {
+        "id": "midgam_geva_2026-10-05",
+        "pollsterId": "midgam_geva",
+        "pollster": "מדגם — מנו גבע",
+        "publisher": "חדשות 12",
+        "weight": 0.12392810070834641,
+        "sampleSize": 501,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "kantar_2026-10-08",
+        "pollsterId": "kantar",
+        "pollster": "קנטאר — דודי חסיד",
+        "publisher": "ישראל היום",
+        "weight": 0.1313732183314704,
+        "sampleSize": 555,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+        "publisher": "חדשות 13",
+        "weight": 0.12598889497254961,
+        "sampleSize": 1263,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "lazar_2026-10-09",
+        "pollsterId": "lazar",
+        "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+        "publisher": "מעריב",
+        "weight": 0.12715127986162644,
+        "sampleSize": 700,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "maagar_mochot_2026-10-06",
+        "pollsterId": "maagar_mochot",
+        "pollster": "מאגר מוחות — יצחק כץ",
+        "publisher": "ערוץ 16",
+        "weight": 0.11359182120835813,
+        "sampleSize": 550,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      },
+      {
+        "id": "tatika_2026-10-08",
+        "pollsterId": "tatika",
+        "pollster": "יוסי טאטיקה",
+        "publisher": "זמן ישראל",
+        "weight": 0.12598889497254961,
+        "sampleSize": 500,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "direct_polls_2026-10-08",
+        "pollsterId": "direct_polls",
+        "pollster": "דיירקט פולס — צוריאל שרון",
+        "publisher": "i24NEWS",
+        "weight": 0.12598889497254961,
+        "sampleSize": 518,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם."
+        ]
+      },
+      {
+        "id": "next_data_2026-10-07",
+        "pollsterId": "next_data",
+        "pollster": "NEXT DATA — ניתוח שלמה פילבר",
+        "publisher": "חדשות 14",
+        "weight": 0.12598889497254961,
+        "sampleSize": 1100,
+        "reconstructed": true,
+        "notes": [
+          "אחוזי חלק מהרשימות שוחזרו ממנדטים, לאחר שמירת האחוזים שפורסמו. השחזור אינו נתוני גלם.",
+          "רשימות שלא נמדדו בנפרד כלולות ביתרה, אם ישנה; אין כאן מדידת תמיכה אפס."
+        ]
+      }
+    ],
+    "parties": [
+      {
+        "id": "yashar",
+        "name": "ישר!",
+        "mean": 22.9166,
+        "meanCI": [
+          22.886536642958344,
+          22.946663357041654
+        ],
+        "median": 23,
+        "low": 20,
+        "high": 25,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 24,
+        "pointSeats": 24,
+        "meanVotePct": 17.515305724260504
+      },
+      {
+        "id": "likud",
+        "name": "הליכוד",
+        "mean": 23.0991,
+        "meanCI": [
+          23.044569526731543,
+          23.153630473268457
+        ],
+        "median": 22,
+        "low": 20,
+        "high": 29,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 23,
+        "pointSeats": 23,
+        "meanVotePct": 17.916567505175752
+      },
+      {
+        "id": "beyachad",
+        "name": "ביחד",
+        "mean": 12.5194,
+        "meanCI": [
+          12.49017531574577,
+          12.548624684254229
+        ],
+        "median": 13,
+        "low": 10,
+        "high": 15,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 13,
+        "pointSeats": 13,
+        "meanVotePct": 9.658033919940824
+      },
+      {
+        "id": "democrats",
+        "name": "הדמוקרטים",
+        "mean": 9.0743,
+        "meanCI": [
+          9.056421375525982,
+          9.092178624474016
+        ],
+        "median": 9,
+        "low": 8,
+        "high": 11,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 9,
+        "pointSeats": 9,
+        "meanVotePct": 7.160610507701522
+      },
+      {
+        "id": "yisrael_beiteinu",
+        "name": "ישראל ביתנו",
+        "mean": 7.9856,
+        "meanCI": [
+          7.961488462902492,
+          8.009711537097509
+        ],
+        "median": 8,
+        "low": 6,
+        "high": 10,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.298882976420914
+      },
+      {
+        "id": "utj",
+        "name": "יהדות התורה",
+        "mean": 7.6412,
+        "meanCI": [
+          7.626814128306563,
+          7.655585871693438
+        ],
+        "median": 8,
+        "low": 7,
+        "high": 9,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.181414921942474
+      },
+      {
+        "id": "joint",
+        "name": "הרשימה המשותפת",
+        "mean": 7.9314,
+        "meanCI": [
+          7.912074447120307,
+          7.950725552879693
+        ],
+        "median": 8,
+        "low": 6,
+        "high": 10,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.182640599168009
+      },
+      {
+        "id": "shas",
+        "name": "ש״ס",
+        "mean": 7.4765,
+        "meanCI": [
+          7.457756217548796,
+          7.495243782451204
+        ],
+        "median": 7,
+        "low": 6,
+        "high": 9,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.0558703030437995
+      },
+      {
+        "id": "otzma",
+        "name": "עוצמה יהודית",
+        "mean": 7.6512,
+        "meanCI": [
+          7.632043728821032,
+          7.670356271178968
+        ],
+        "median": 8,
+        "low": 6,
+        "high": 9,
+        "passProbability": 1,
+        "passCI": [
+          0.9996160016293234,
+          1
+        ],
+        "pollPointSeats": 8,
+        "pointSeats": 8,
+        "meanVotePct": 6.1927830141422175
+      },
+      {
+        "id": "rz_zehut",
+        "name": "הציונות הדתית–זהות",
+        "mean": 5.9032,
+        "meanCI": [
+          5.88835195342645,
+          5.91804804657355
+        ],
+        "median": 6,
+        "low": 5,
+        "high": 7,
+        "passProbability": 0.9998,
+        "passCI": [
+          0.9992710041559925,
+          0.9999451510726791
+        ],
+        "pollPointSeats": 6,
+        "pointSeats": 6,
+        "meanVotePct": 4.863842324591895
+      },
+      {
+        "id": "raam",
+        "name": "רע״ם",
+        "mean": 5.0977,
+        "meanCI": [
+          5.076917833047539,
+          5.11848216695246
+        ],
+        "median": 5,
+        "low": 4,
+        "high": 6,
+        "passProbability": 0.9772,
+        "passCI": [
+          0.9740860353306088,
+          0.9799474766244173
+        ],
+        "pollPointSeats": 5,
+        "pointSeats": 5,
+        "meanVotePct": 4.169240951439273
+      },
+      {
+        "id": "winter",
+        "name": "עמך ישראל",
+        "mean": 1.5162,
+        "meanCI": [
+          1.4767531186188987,
+          1.5556468813811013
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 5,
+        "passProbability": 0.3649,
+        "passCI": [
+          0.35551823933195126,
+          0.3743855170278054
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 3.007227969217073
+      },
+      {
+        "id": "hendel",
+        "name": "המילואימניקים והכלכלית",
+        "mean": 1.1876,
+        "meanCI": [
+          1.1499997906557333,
+          1.2252002093442667
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 5,
+        "passProbability": 0.2802,
+        "passCI": [
+          0.2714835522088507,
+          0.28908525347489866
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 2.9152225890483043
+      },
+      {
+        "id": "gantz",
+        "name": "כחול לבן",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.9082521511975867
+      },
+      {
+        "id": "noam",
+        "name": "נעם לישראל",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.18867996815886093
+      },
+      {
+        "id": "haredi_public",
+        "name": "הציבור החרדי",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.4298700633503965
+      },
+      {
+        "id": "israel_first",
+        "name": "ישראל תחילה",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0
+      },
+      {
+        "id": "other",
+        "name": "רשימות אחרות",
+        "mean": 0,
+        "meanCI": [
+          0,
+          0
+        ],
+        "median": 0,
+        "low": 0,
+        "high": 0,
+        "passProbability": 0,
+        "passCI": [
+          0,
+          0.00038399837067657454
+        ],
+        "pollPointSeats": 0,
+        "pointSeats": 0,
+        "meanVotePct": 0.35555451120060755
+      }
+    ]
+  },
+  "probabilityPercentagePointChanges": {
+    "a": 0,
+    "b": 0,
+    "neither": 0,
+    "coalitionA": 0,
+    "coalitionB": 0,
+    "coalitionNeither": 0,
+    "coalitionBoth": 0
+  },
+  "partyChanges": [
+    {
+      "id": "yashar",
+      "name": "ישר!",
+      "beforeMean": 22.9166,
+      "afterMean": 22.9166,
+      "meanChange": 0,
+      "beforeMedian": 23,
+      "afterMedian": 23,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 24,
+      "afterPollPointSeats": 24
+    },
+    {
+      "id": "likud",
+      "name": "הליכוד",
+      "beforeMean": 23.0991,
+      "afterMean": 23.0991,
+      "meanChange": 0,
+      "beforeMedian": 22,
+      "afterMedian": 22,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 23,
+      "afterPollPointSeats": 23
+    },
+    {
+      "id": "beyachad",
+      "name": "ביחד",
+      "beforeMean": 12.5194,
+      "afterMean": 12.5194,
+      "meanChange": 0,
+      "beforeMedian": 13,
+      "afterMedian": 13,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 13,
+      "afterPollPointSeats": 13
+    },
+    {
+      "id": "democrats",
+      "name": "הדמוקרטים",
+      "beforeMean": 9.0743,
+      "afterMean": 9.0743,
+      "meanChange": 0,
+      "beforeMedian": 9,
+      "afterMedian": 9,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 9,
+      "afterPollPointSeats": 9
+    },
+    {
+      "id": "yisrael_beiteinu",
+      "name": "ישראל ביתנו",
+      "beforeMean": 7.9856,
+      "afterMean": 7.9856,
+      "meanChange": 0,
+      "beforeMedian": 8,
+      "afterMedian": 8,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 8,
+      "afterPollPointSeats": 8
+    },
+    {
+      "id": "utj",
+      "name": "יהדות התורה",
+      "beforeMean": 7.6412,
+      "afterMean": 7.6412,
+      "meanChange": 0,
+      "beforeMedian": 8,
+      "afterMedian": 8,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 8,
+      "afterPollPointSeats": 8
+    },
+    {
+      "id": "joint",
+      "name": "הרשימה המשותפת",
+      "beforeMean": 7.9314,
+      "afterMean": 7.9314,
+      "meanChange": 0,
+      "beforeMedian": 8,
+      "afterMedian": 8,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 8,
+      "afterPollPointSeats": 8
+    },
+    {
+      "id": "shas",
+      "name": "ש״ס",
+      "beforeMean": 7.4765,
+      "afterMean": 7.4765,
+      "meanChange": 0,
+      "beforeMedian": 7,
+      "afterMedian": 7,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 8,
+      "afterPollPointSeats": 8
+    },
+    {
+      "id": "otzma",
+      "name": "עוצמה יהודית",
+      "beforeMean": 7.6512,
+      "afterMean": 7.6512,
+      "meanChange": 0,
+      "beforeMedian": 8,
+      "afterMedian": 8,
+      "beforePassPct": 100,
+      "afterPassPct": 100,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 8,
+      "afterPollPointSeats": 8
+    },
+    {
+      "id": "rz_zehut",
+      "name": "הציונות הדתית–זהות",
+      "beforeMean": 5.9032,
+      "afterMean": 5.9032,
+      "meanChange": 0,
+      "beforeMedian": 6,
+      "afterMedian": 6,
+      "beforePassPct": 99.98,
+      "afterPassPct": 99.98,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 6,
+      "afterPollPointSeats": 6
+    },
+    {
+      "id": "raam",
+      "name": "רע״ם",
+      "beforeMean": 5.0977,
+      "afterMean": 5.0977,
+      "meanChange": 0,
+      "beforeMedian": 5,
+      "afterMedian": 5,
+      "beforePassPct": 97.72,
+      "afterPassPct": 97.72,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 5,
+      "afterPollPointSeats": 5
+    },
+    {
+      "id": "winter",
+      "name": "עמך ישראל",
+      "beforeMean": 1.5162,
+      "afterMean": 1.5162,
+      "meanChange": 0,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 36.49,
+      "afterPassPct": 36.49,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    {
+      "id": "hendel",
+      "name": "המילואימניקים והכלכלית",
+      "beforeMean": 1.1876,
+      "afterMean": 1.1876,
+      "meanChange": 0,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 28.02,
+      "afterPassPct": 28.02,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    {
+      "id": "gantz",
+      "name": "כחול לבן",
+      "beforeMean": 0,
+      "afterMean": 0,
+      "meanChange": 0,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 0,
+      "afterPassPct": 0,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    {
+      "id": "noam",
+      "name": "נעם לישראל",
+      "beforeMean": 0,
+      "afterMean": 0,
+      "meanChange": 0,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 0,
+      "afterPassPct": 0,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    {
+      "id": "haredi_public",
+      "name": "הציבור החרדי",
+      "beforeMean": 0,
+      "afterMean": 0,
+      "meanChange": 0,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 0,
+      "afterPassPct": 0,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    {
+      "id": "israel_first",
+      "name": "ישראל תחילה",
+      "beforeMean": 0,
+      "afterMean": 0,
+      "meanChange": 0,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 0,
+      "afterPassPct": 0,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    },
+    {
+      "id": "other",
+      "name": "רשימות אחרות",
+      "beforeMean": 0,
+      "afterMean": 0,
+      "meanChange": 0,
+      "beforeMedian": 0,
+      "afterMedian": 0,
+      "beforePassPct": 0,
+      "afterPassPct": 0,
+      "passPercentagePointChange": 0,
+      "beforePollPointSeats": 0,
+      "afterPollPointSeats": 0
+    }
+  ],
+  "seconds": 1.4816688000000002
+}

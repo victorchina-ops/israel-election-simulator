@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "operation": "Normalize generated text extraction CRLF to LF only; preserve original extraction bytes under a distinct name. Original PDF unchanged.",
+  "originalFile": "Survey_4193-extract-original-crlf.txt",
+  "originalPhysicalSha256": "a0bc9610b565d085a0bfaf93fd8645de5bbe3ad565bf7b1e9b672754b940eaa4",
+  "normalizedFile": "Survey_4193-extract.txt",
+  "normalizedPhysicalSha256": "14692eff4a8bdd3d4b77b1b3b39846b7fc4b216888655c204d659c831636527d",
+  "extractedTextUnchangedApartFromLineEndings": true
+}

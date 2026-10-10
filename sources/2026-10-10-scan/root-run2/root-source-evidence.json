@@ -1,0 +1,410 @@
+{
+  "checkedAtUtc": "2026-10-10T15:10:51.717894+00:00",
+  "scope": "Fresh bounded IsraelPolls timeline, all exposed post media, and newN12opinion survey",
+  "records": [
+    {
+      "label": "israelpolls-profile",
+      "url": "https://x.com/IsraelPolls?s=20",
+      "checkedAtUtc": "2026-10-10T15:10:36.105260+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls?s=20",
+      "sha256": "7d703632c24f2c33340cfe6286e849ea155e36124731e7347437dc3f804555b9",
+      "textLength": 1102,
+      "sourceFile": "israelpolls-profile.html",
+      "extractFile": "israelpolls-profile.txt",
+      "mediaUrls": [
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8.png",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7.png",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI.png",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2.png",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw.jpg",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5.jpg",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&amp;name=medium"
+      ],
+      "access": "readable"
+    },
+    {
+      "label": "2108564557971296373",
+      "url": "https://x.com/IsraelPolls/status/2108564557971296373",
+      "checkedAtUtc": "2026-10-10T15:10:36.726412+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls/status/2108564557971296373",
+      "sha256": "310405b47a20b42312381f3fbbaeb8e3eb81bddfe550050fdef5409da1236862",
+      "textLength": 1005,
+      "sourceFile": "2108564557971296373.html",
+      "extractFile": "2108564557971296373.txt",
+      "mediaUrls": [
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=large",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=small",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=medium",
+        "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8.png"
+      ],
+      "access": "readable",
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=small",
+          "file": "2108564557971296373-media-0.webp",
+          "sha256": "efc97b4cf6e6b34dc4702093b266fd83b01e45def8796c45e623e953c8c464b9",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=medium",
+          "file": "2108564557971296373-media-1.webp",
+          "sha256": "053a662c83e289a13e45f6be7b35fef00df825ba7ce909e810138b4e3b758e3a",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=large",
+          "file": "2108564557971296373-media-2.webp",
+          "sha256": "053a662c83e289a13e45f6be7b35fef00df825ba7ce909e810138b4e3b758e3a",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=large",
+          "file": "2108564557971296373-media-3.webp",
+          "sha256": "053a662c83e289a13e45f6be7b35fef00df825ba7ce909e810138b4e3b758e3a",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=small",
+          "file": "2108564557971296373-media-4.webp",
+          "sha256": "efc97b4cf6e6b34dc4702093b266fd83b01e45def8796c45e623e953c8c464b9",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8?format=webp&name=medium",
+          "file": "2108564557971296373-media-5.webp",
+          "sha256": "053a662c83e289a13e45f6be7b35fef00df825ba7ce909e810138b4e3b758e3a",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUMgSJwXEAEjBX8.png",
+          "file": "2108564557971296373-media-6.png",
+          "sha256": "505ac82ca55e0cb41aa8975fa6aae586fcb9a94c9d6c3cce7784fd103cd11d4c",
+          "contentType": "image/png"
+        }
+      ]
+    },
+    {
+      "label": "2108507352156848560",
+      "url": "https://x.com/IsraelPolls/status/2108507352156848560",
+      "checkedAtUtc": "2026-10-10T15:10:38.976972+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls/status/2108507352156848560",
+      "sha256": "1481883ec606267cdad737b7db68d14975ea991510bb1e1392820223efaef682",
+      "textLength": 801,
+      "sourceFile": "2108507352156848560.html",
+      "extractFile": "2108507352156848560.txt",
+      "mediaUrls": [
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=large",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=small",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=medium",
+        "https://pbs.twimg.com/media/HULsQS1WUAAcNR7.png"
+      ],
+      "access": "readable",
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=small",
+          "file": "2108507352156848560-media-0.webp",
+          "sha256": "c138b43732cd48c95a6a7b0ffd629caafc1eccfcca0aa4bff196aa57c19cd883",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=medium",
+          "file": "2108507352156848560-media-1.webp",
+          "sha256": "4c725381503c15d2cf8b15baa83abf2ce212b035ba8d8bac271d1dbfa47448d4",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=large",
+          "file": "2108507352156848560-media-2.webp",
+          "sha256": "4c725381503c15d2cf8b15baa83abf2ce212b035ba8d8bac271d1dbfa47448d4",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=large",
+          "file": "2108507352156848560-media-3.webp",
+          "sha256": "4c725381503c15d2cf8b15baa83abf2ce212b035ba8d8bac271d1dbfa47448d4",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=small",
+          "file": "2108507352156848560-media-4.webp",
+          "sha256": "c138b43732cd48c95a6a7b0ffd629caafc1eccfcca0aa4bff196aa57c19cd883",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULsQS1WUAAcNR7?format=webp&name=medium",
+          "file": "2108507352156848560-media-5.webp",
+          "sha256": "4c725381503c15d2cf8b15baa83abf2ce212b035ba8d8bac271d1dbfa47448d4",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULsQS1WUAAcNR7.png",
+          "file": "2108507352156848560-media-6.png",
+          "sha256": "9cbfec4f8e9319d6718e6469eaf509bc91d6183a65fdfdb0c783d0043fefde31",
+          "contentType": "image/png"
+        }
+      ]
+    },
+    {
+      "label": "2108506489958846528",
+      "url": "https://x.com/IsraelPolls/status/2108506489958846528",
+      "checkedAtUtc": "2026-10-10T15:10:41.344493+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls/status/2108506489958846528",
+      "sha256": "4322eda79c6d30290f2a38bd7899bca3ed1218db09146481ed89c478ed4c0aaa",
+      "textLength": 917,
+      "sourceFile": "2108506489958846528.html",
+      "extractFile": "2108506489958846528.txt",
+      "mediaUrls": [
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=large",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=small",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=medium",
+        "https://pbs.twimg.com/media/HULreN_XsAAv2HI.png"
+      ],
+      "access": "readable",
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=small",
+          "file": "2108506489958846528-media-0.webp",
+          "sha256": "8a99a1ef12124586b9a0fecff008b22431233c9c453005e154252f82fd4683a2",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=medium",
+          "file": "2108506489958846528-media-1.webp",
+          "sha256": "d7e11916be6d196762b5b16e259532da49d5ff7e8206d53e38676ef64e90f0e2",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=large",
+          "file": "2108506489958846528-media-2.webp",
+          "sha256": "d7e11916be6d196762b5b16e259532da49d5ff7e8206d53e38676ef64e90f0e2",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=large",
+          "file": "2108506489958846528-media-3.webp",
+          "sha256": "d7e11916be6d196762b5b16e259532da49d5ff7e8206d53e38676ef64e90f0e2",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=small",
+          "file": "2108506489958846528-media-4.webp",
+          "sha256": "8a99a1ef12124586b9a0fecff008b22431233c9c453005e154252f82fd4683a2",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULreN_XsAAv2HI?format=webp&name=medium",
+          "file": "2108506489958846528-media-5.webp",
+          "sha256": "d7e11916be6d196762b5b16e259532da49d5ff7e8206d53e38676ef64e90f0e2",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULreN_XsAAv2HI.png",
+          "file": "2108506489958846528-media-6.png",
+          "sha256": "ff49b8acf369b3b2362fcdb7e5bc87bbde1dba8d369e9fd4dbb4e0bc995ebbd5",
+          "contentType": "image/png"
+        }
+      ]
+    },
+    {
+      "label": "2108502768361087306",
+      "url": "https://x.com/IsraelPolls/status/2108502768361087306",
+      "checkedAtUtc": "2026-10-10T15:10:44.552719+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls/status/2108502768361087306",
+      "sha256": "45814dc10770139265ca153513f0920cd52ab5cb2f50d7650e2477dfebf9b319",
+      "textLength": 783,
+      "sourceFile": "2108502768361087306.html",
+      "extractFile": "2108502768361087306.txt",
+      "mediaUrls": [
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=large",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=small",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=medium",
+        "https://pbs.twimg.com/media/HULoFplWgAAu1t2.png"
+      ],
+      "access": "readable",
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=small",
+          "file": "2108502768361087306-media-0.webp",
+          "sha256": "ba80da430837985b7399cd55ff04375e0a2aa706df2d0f5af9865cbe4edf6d46",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=medium",
+          "file": "2108502768361087306-media-1.webp",
+          "sha256": "c0ab52d6fb69521e50c28fb4da56fde40c0e7953057370b37fc6f0ad4f1c9739",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=large",
+          "file": "2108502768361087306-media-2.webp",
+          "sha256": "f82c79688c229d74af0a19ddfd743223b2d142ae1ee1264545bf1e3d2e56638e",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=large",
+          "file": "2108502768361087306-media-3.webp",
+          "sha256": "f82c79688c229d74af0a19ddfd743223b2d142ae1ee1264545bf1e3d2e56638e",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=small",
+          "file": "2108502768361087306-media-4.webp",
+          "sha256": "ba80da430837985b7399cd55ff04375e0a2aa706df2d0f5af9865cbe4edf6d46",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULoFplWgAAu1t2?format=webp&name=medium",
+          "file": "2108502768361087306-media-5.webp",
+          "sha256": "c0ab52d6fb69521e50c28fb4da56fde40c0e7953057370b37fc6f0ad4f1c9739",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HULoFplWgAAu1t2.png",
+          "file": "2108502768361087306-media-6.png",
+          "sha256": "2f9ce35ffdfd8a871faec5103d70c55cedd53c3e70800bff5b5b8cdba30e5b93",
+          "contentType": "image/png"
+        }
+      ]
+    },
+    {
+      "label": "2108415517052551402",
+      "url": "https://x.com/IsraelPolls/status/2108415517052551402",
+      "checkedAtUtc": "2026-10-10T15:10:48.007721+00:00",
+      "status": 200,
+      "finalUrl": "https://x.com/IsraelPolls/status/2108415517052551402",
+      "sha256": "013f3aa36b00aa6c9c8f22518037fd657e6f2a7dfee10a4dc4be4ef49fc13b7a",
+      "textLength": 828,
+      "sourceFile": "2108415517052551402.html",
+      "extractFile": "2108415517052551402.txt",
+      "mediaUrls": [
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&amp;name=large",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&amp;name=small",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&amp;name=medium",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=large",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=small",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=medium",
+        "https://pbs.twimg.com/media/HUKYu-oXMAAYllw.jpg",
+        "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5.jpg"
+      ],
+      "access": "readable",
+      "media": [
+        {
+          "url": "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=small",
+          "file": "2108415517052551402-media-0.webp",
+          "sha256": "7572efbf75c07e9353137df7d7b1e6ec5b3198fab11a353a1173ddfdefa5cf9b",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=medium",
+          "file": "2108415517052551402-media-1.webp",
+          "sha256": "61a6558e85b5069542c15817979bbb1f5840b94dfaa97556444506d8c5545660",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=large",
+          "file": "2108415517052551402-media-2.webp",
+          "sha256": "61a6558e85b5069542c15817979bbb1f5840b94dfaa97556444506d8c5545660",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&name=large",
+          "file": "2108415517052551402-media-3.webp",
+          "sha256": "afc264134bf6e5ea22bedf74c8dc3011a345e2ffd4e76aa606cdf42ef321b886",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&name=small",
+          "file": "2108415517052551402-media-4.webp",
+          "sha256": "473de7e29b49880e652b09110c5154fd1d1b26e4c042b8faed48727dae012e71",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5?format=webp&name=medium",
+          "file": "2108415517052551402-media-5.webp",
+          "sha256": "3d7daf06a7f2c7f77be9459076660ce1d3627d374484fec11c9c5e168c2b5908",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=large",
+          "file": "2108415517052551402-media-6.webp",
+          "sha256": "61a6558e85b5069542c15817979bbb1f5840b94dfaa97556444506d8c5545660",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=small",
+          "file": "2108415517052551402-media-7.webp",
+          "sha256": "7572efbf75c07e9353137df7d7b1e6ec5b3198fab11a353a1173ddfdefa5cf9b",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYu-oXMAAYllw?format=webp&name=medium",
+          "file": "2108415517052551402-media-8.webp",
+          "sha256": "61a6558e85b5069542c15817979bbb1f5840b94dfaa97556444506d8c5545660",
+          "contentType": "image/webp"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYu-oXMAAYllw.jpg",
+          "file": "2108415517052551402-media-9.jpg",
+          "sha256": "6d36bb235b41b1236040701a2fb9230df4521c4d60e14d42fbcf2c67c70468ec",
+          "contentType": "image/jpeg"
+        },
+        {
+          "url": "https://pbs.twimg.com/media/HUKYvPLXkAAjKn5.jpg",
+          "file": "2108415517052551402-media-10.jpg",
+          "sha256": "85c117fc720ec5cd44cc327ac6156b0ef564678fb0d2c00849a7fce169f67fff",
+          "contentType": "image/jpeg"
+        }
+      ]
+    },
+    {
+      "label": "n12-opinion-2026-10-09",
+      "url": "https://www.mako.co.il/news-politics/2026_q4/Article-2497091942121a1026.htm",
+      "checkedAtUtc": "2026-10-10T15:10:51.347289+00:00",
+      "status": 200,
+      "finalUrl": "https://www.mako.co.il/news-politics/2026_q4/Article-2497091942121a1026.htm",
+      "sha256": "87390575b0506d1bd9ac4ddb4776fc2ed242b4e089b212937d6033b14be5614d",
+      "textLength": 3622,
+      "sourceFile": "n12-opinion-2026-10-09.html",
+      "extractFile": "n12-opinion-2026-10-09.txt",
+      "mediaUrls": [],
+      "access": "readable"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+[
+  {
+    "id": "yashar",
+    "name": "ישר!",
+    "color": "#277eb5",
+    "defaultBloc": "b",
+    "ballot": true
+  },
+  {
+    "id": "likud",
+    "name": "הליכוד",
+    "color": "#1c4d8d",
+    "defaultBloc": "a",
+    "ballot": true
+  },
+  {
+    "id": "beyachad",
+    "name": "ביחד",
+    "color": "#49a8bd",
+    "defaultBloc": "b",
+    "ballot": true
+  },
+  {
+    "id": "democrats",
+    "name": "הדמוקרטים",
+    "color": "#bf477f",
+    "defaultBloc": "b",
+    "ballot": true
+  },
+  {
+    "id": "yisrael_beiteinu",
+    "name": "ישראל ביתנו",
+    "color": "#8f75b5",
+    "defaultBloc": "b",
+    "ballot": true
+  },
+  {
+    "id": "utj",
+    "name": "יהדות התורה",
+    "color": "#6f78a5",
+    "defaultBloc": "a",
+    "ballot": true
+  },
+  {
+    "id": "joint",
+    "name": "הרשימה המשותפת",
+    "color": "#55987d",
+    "defaultBloc": "arab",
+    "ballot": true
+  },
+  {
+    "id": "shas",
+    "name": "ש״ס",
+    "color": "#946238",
+    "defaultBloc": "a",
+    "ballot": true
+  },
+  {
+    "id": "otzma",
+    "name": "עוצמה יהודית",
+    "color": "#3f599c",
+    "defaultBloc": "a",
+    "ballot": true
+  },
+  {
+    "id": "rz_zehut",
+    "name": "הציונות הדתית–זהות",
+    "color": "#d28a46",
+    "defaultBloc": "a",
+    "ballot": true
+  },
+  {
+    "id": "raam",
+    "name": "רע״ם",
+    "color": "#4ca78e",
+    "defaultBloc": "arab",
+    "ballot": true
+  },
+  {
+    "id": "winter",
+    "name": "עמך ישראל",
+    "color": "#6a79b3",
+    "defaultBloc": "a",
+    "ballot": true,
+    "classificationNote": "שיוך תרחיש ברירת מחדל; ניתן לשינוי ואינו התחייבות קואליציונית"
+  },
+  {
+    "id": "hendel",
+    "name": "המילואימניקים והכלכלית",
+    "color": "#cb9162",
+    "defaultBloc": "other",
+    "ballot": true,
+    "classificationNote": "שיוך תרחיש בלבד; אין להסיק ממנו התחייבות פוליטית"
+  },
+  {
+    "id": "gantz",
+    "name": "כחול לבן",
+    "color": "#728b9c",
+    "defaultBloc": "other",
+    "ballot": true,
+    "classificationNote": "שיוך תרחיש בלבד; אין להסיק ממנו התחייבות פוליטית"
+  },
+  {
+    "id": "noam",
+    "name": "נעם לישראל",
+    "color": "#8b7465",
+    "defaultBloc": "a",
+    "ballot": true,
+    "classificationNote": "שיוך תרחיש בלבד; אין להסיק ממנו התחייבות פוליטית"
+  },
+  {
+    "id": "haredi_public",
+    "name": "הציבור החרדי",
+    "color": "#a6946a",
+    "defaultBloc": "other",
+    "ballot": true,
+    "classificationNote": "שיוך תרחיש בלבד; אין להסיק ממנו התחייבות פוליטית"
+  },
+  {
+    "id": "israel_first",
+    "name": "ישראל תחילה",
+    "color": "#7e9296",
+    "defaultBloc": "other",
+    "ballot": true,
+    "classificationNote": "רשימה קטנה שדווחה בסקר; שיוך הגוש הוא תרחיש בלבד"
+  },
+  {
+    "id": "other",
+    "name": "רשימות אחרות",
+    "color": "#a3aab5",
+    "defaultBloc": "other",
+    "ballot": false,
+    "classificationNote": "שיוך תרחיש בלבד; אין להסיק ממנו התחייבות פוליטית"
+  }
+]

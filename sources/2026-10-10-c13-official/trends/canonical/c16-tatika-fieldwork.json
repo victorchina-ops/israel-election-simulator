@@ -1,0 +1,244 @@
+{
+  "auditDate": "2026-10-08",
+  "cutoff": {
+    "listClosureDate": "2026-09-08",
+    "firstEligibleFieldworkDate": "2026-09-09",
+    "rule": "Include only polls whose entire observed fieldwork interval starts on or after9Sep2026, verified explicitly; do not infer from publication."
+  },
+  "polls": [
+    {
+      "pollId": "history_tatika_2026-09-10_721",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/723041/",
+      "evidencePath": "artifacts/strict-post-close/tatika-2026-09-10-fieldwork-web-reader.txt",
+      "evidenceSha256": "1c56e9b4b36592320d8eb085d914e371d52cfbd99f622910a6b5ca2dd7f90f5e",
+      "evidenceParagraph": "הסקר התקיים ב-9 וב-10 בספטמבר 2026 והשתתפו בו 500 משיבים יהודים וערבים.",
+      "methodologyLocator": "Original article final methodology paragraph; web reader lines 129"
+    },
+    {
+      "pollId": "history_tatika_2026-09-17_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/725468/",
+      "evidencePath": "artifacts/strict-post-close/tatika-2026-09-17-fieldwork-web-reader.txt",
+      "evidenceSha256": "002d53b59c11e6568e9049cea9062b8dcde1c4252a3fd9a068c66719adf13625",
+      "evidenceParagraph": "הסקר התקיים ב-16 וב-17 בספטמבר 2026 והשתתפו בו 500 משיבים יהודים וערבים.",
+      "methodologyLocator": "Original article final methodology paragraph; web reader lines 131"
+    },
+    {
+      "pollId": "history_tatika_2026-09-24_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/727390/",
+      "evidencePath": "artifacts/strict-post-close/tatika-2026-09-24-fieldwork-web-reader.txt",
+      "evidenceSha256": "0eb9ffe267ced57aa444a330622e85506f703fdacf218924e4a7f4c110f31ada",
+      "evidenceParagraph": "הסקר התקיים ב-23 וב-24 בספטמבר 2026 והשתתפו בו 500 משיבים יהודים וערבים.",
+      "methodologyLocator": "Original article final methodology paragraph; web reader lines 127"
+    },
+    {
+      "pollId": "history_tatika_2026-10-01_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "sampleSize": 500,
+      "reportedMarginOfErrorPct": 4.4,
+      "eligibleStrict": true,
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "sourceUrl": "https://www.zman.co.il/729422/",
+      "evidencePath": "artifacts/sources/2026-10-01-check/zman-2026-10-01-web-reader.txt",
+      "evidenceSha256": "5217d08d3d3d7bdc1a1a5afb9c784192c557e2e1c005f7c686c3055b77576c0a",
+      "evidenceParagraph": "Fieldwork: 30 September–1 October 2026. Sample: 500 Jewish and Arab respondents in Israel.",
+      "methodologyLocator": "Original article methodology, web reader lines 87 and 130–131"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-10_720",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "certainty": "unknown-excluded-no-imputation",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "evidencePath": "github-pages/sources/2026-09-16/maagar-mochot-history-through-2026-09-09.png",
+      "evidenceParagraph": null,
+      "notes": "No explicit fieldwork start/end found in available poll graphic, original social post, or accessible reporting. Publication date cannot substitute for fieldwork. Historical table supplied by user labels column9Sep whereas TheMadad publication row is10Sep; neither establishes fieldwork dates. Existing fieldworkEnd10Sep is not verified and is not used."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-16_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "certainty": "unknown-excluded-no-imputation",
+      "sourceUrl": "https://x.com/Ch16_IL/status/2100275361430786359",
+      "evidencePath": "github-pages/sources/2026-09-16/channel16-maagar-mochot-2026-09-16.png",
+      "evidenceParagraph": null,
+      "notes": "No explicit fieldwork start/end found in available poll graphic, original social post, or accessible reporting. Publication date cannot substitute for fieldwork."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-24_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "certainty": "unknown-excluded-no-imputation",
+      "sourceUrl": "https://www.skarim.org/polls/channel-16-2026-09-24",
+      "evidencePath": "artifacts/sources/2026-09-25-check/channel16-2026-09-24-web-reader.txt",
+      "evidenceParagraph": null,
+      "notes": "No explicit fieldwork start/end found in available poll graphic, original social post, or accessible reporting. Publication date cannot substitute for fieldwork."
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-10-06_current",
+      "sourcePollId": "maagar_mochot_2026-10-06",
+      "pollsterId": "maagar_mochot",
+      "publisher": "ערוץ 16",
+      "publicationDate": "2026-10-06",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-06",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure-original-broadcast",
+      "sampleSize": 550,
+      "collectionMode": null,
+      "marginOfErrorPct": 4.2,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "evidencePath": "artifacts/poll-checks/2026-10-07/c16/primary-frame-006s.png",
+      "evidenceSha256": "0b82c0fa1704305f0e56ded37ffd36da8669854ca175b09b2faec0c7835ea3ec",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-07/c16/primary-frame-006s.png",
+          "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+          "kind": "original-publisher-broadcast-frame",
+          "quote": "נערך אתמול והיום וכלל 550 משיבים, טעות הדגימה המרבית 4.2%",
+          "locator": "Original October6 broadcast at6s; relative days refer explicitly to collection, establishing October5–6. The publication date is independently printed on the original broadcast graphic.",
+          "sha256": "0b82c0fa1704305f0e56ded37ffd36da8669854ca175b09b2faec0c7835ea3ec"
+        },
+        {
+          "file": "artifacts/poll-checks/2026-10-07/c16/primary-frame-receipts.json",
+          "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+          "kind": "original-broadcast-hashed-segment-and-frame-receipts",
+          "quote": null,
+          "locator": "seg_2169650_1.ts, primary-frame-006s.png and70s corroborating frame",
+          "sha256": "7ec7a3980ce0dc146c7af4fca9ae328e081252be5a92abd6c2b21b9d38ac5d62"
+        }
+      ],
+      "reason": "Original broadcast explicitly states collection yesterday and today, referenced to the independently dated October6 publication. Thus the interval is October5–6, wholly after closure; no publication-only imputation. Official September29 predecessor establishes a two-observation within-Maagar series.",
+      "accessNote": "Primary broadcast resolves secondary News1 metadata conflicts: n550, not552; collectionOctober5–6, not onlyTuesday. Sampling mode and population remain missing unless separately verified."
+    },
+    {
+      "pollId": "history_tatika_2026-10-08_current",
+      "sourcePollId": "tatika_2026-10-08",
+      "pollsterId": "tatika",
+      "publisher": "זמן ישראל",
+      "publicationDate": "2026-10-08",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-08",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 500,
+      "marginOfErrorPct": 4.4,
+      "collectionMode": "פאנל Adgenda; פילוח לפי גיל, דת, מגדר ואזור מגורים",
+      "sourceUrl": "https://www.zman.co.il/731622/",
+      "evidencePath": "artifacts/sources/2026-10-08-new-polls/zman/zman-web-reader-reviewed.json",
+      "evidenceSha256": "dd63106eac754ad8a4d5dfe22b2aa9487ef0be5158155293d219a282ed209612",
+      "sourceParagraph": "הסקר התקיים ב-7 וב-8 באוקטובר 2026 והשתתפו בו 500 משיבים יהודים וערבים; טעות הדגימה המרבית 4.4%.",
+      "evidenceParagraph": "הסקר התקיים ב-7 וב-8 באוקטובר 2026 והשתתפו בו 500 משיבים יהודים וערבים; טעות הדגימה המרבית 4.4%.",
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "reason": "Explicit original fieldwork interval wholly after September8 list closure; publication does not substitute for fieldwork.",
+      "seats": {
+        "yashar": 24,
+        "likud": 20,
+        "beyachad": 13,
+        "yisrael_beiteinu": 10,
+        "joint": 9,
+        "shas": 8,
+        "utj": 8,
+        "democrats": 8,
+        "otzma": 6,
+        "raam": 5,
+        "rz_zehut": 5,
+        "winter": 4,
+        "hendel": 0,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": 0
+      },
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "winter": 3.6,
+        "hendel": 3.2,
+        "gantz": 1.2
+      },
+      "publishedBounds": {},
+      "unmodelledNamedParties": [],
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-10-08-new-polls/zman/zman-web-reader-reviewed.json",
+          "url": "https://www.zman.co.il/731622/",
+          "kind": "web-reader-reviewed-primary-article",
+          "quote": "הסקר התקיים ב-7 וב-8 באוקטובר 2026 והשתתפו בו 500 משיבים יהודים וערבים; טעות הדגימה המרבית 4.4%.",
+          "sha256": "dd63106eac754ad8a4d5dfe22b2aa9487ef0be5158155293d219a282ed209612"
+        }
+      ]
+    }
+  ],
+  "sourceChecks": [
+    {
+      "url": "https://www.ch16.co.il/",
+      "retrieved": "2026-09-28",
+      "status": "HTTP200-JavaScript-shell",
+      "limitation": "No usable original poll article or fieldwork in homepage; web reader empty.",
+      "archive": "artifacts/strict-post-close/ch16-home.html"
+    },
+    {
+      "url": "https://x.com/Ch16_IL/status/2100275361430786359",
+      "status": "HTTP200-read-original-post",
+      "limitation": "Post verifies publication but contains no fieldwork dates; graphic includes publication date and4.2% margin only.",
+      "archive": "artifacts/strict-post-close/ch16-x16.html"
+    },
+    {
+      "url": "https://x.com/Ch16_IL",
+      "status": "HTTP200-profile-readable",
+      "limitation": "Latest visible five posts do not contain assigned older poll dates.",
+      "archive": "artifacts/strict-post-close/ch16-xprofile.html"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": "HTTP200-profile-readable",
+      "limitation": "Latest five posts Sep25–28; no additional original C16 fieldwork. Historical supplied graphics retained.",
+      "archive": "artifacts/strict-post-close/israelpolls-current.html"
+    }
+  ],
+  "summary": {
+    "assignedPolls": 9,
+    "verifiedEligible": 6,
+    "excludedUnverified": 3
+  },
+  "dataMutated": false
+}

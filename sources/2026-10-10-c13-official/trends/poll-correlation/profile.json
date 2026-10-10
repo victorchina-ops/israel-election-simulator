@@ -1,0 +1,3362 @@
+{
+  "schemaVersion": 1,
+  "id": "post-closure-prediction-similarity-v1",
+  "asOf": "2026-10-10",
+  "status": "experimental_forecast_similarity_heuristic_not_estimated_error_correlation",
+  "productionUse": "forecast_similarity_density_discount_and_modeled_shared_uncertainty",
+  "instituteIds": [
+    "direct_polls",
+    "hamadad_consortium",
+    "kantar",
+    "lazar",
+    "maagar_mochot",
+    "midgam_geva",
+    "next_data",
+    "tatika"
+  ],
+  "allInstituteIds": [
+    "direct_polls",
+    "hamadad_consortium",
+    "kantar",
+    "lazar",
+    "maagar_mochot",
+    "midgam_geva",
+    "next_data",
+    "tatika"
+  ],
+  "predictionSimilarityMatrix": [
+    [
+      1.0,
+      0.41421919272165275,
+      0.548674236873963,
+      0.37266715646206494,
+      0.36627351213257664,
+      0.45220162973220823,
+      0.6434143756654108,
+      0.4301321071890836
+    ],
+    [
+      0.41421919272165275,
+      1.0,
+      0.8131633583927091,
+      0.8369651312795463,
+      0.7419963743422169,
+      0.7868125120456485,
+      0.11252214180717862,
+      0.631132823586531
+    ],
+    [
+      0.548674236873963,
+      0.8131633583927091,
+      1.0,
+      0.8622883357283768,
+      0.811459842877122,
+      0.931609068312964,
+      0.1878180126125452,
+      0.767226648106533
+    ],
+    [
+      0.37266715646206494,
+      0.8369651312795463,
+      0.8622883357283768,
+      1.0,
+      0.7928162343247387,
+      0.8824171572870828,
+      0.09634392812298995,
+      0.6716444167375444
+    ],
+    [
+      0.36627351213257664,
+      0.7419963743422169,
+      0.811459842877122,
+      0.7928162343247387,
+      1.0,
+      0.8925824723203238,
+      0.12418002213241064,
+      0.649369350485855
+    ],
+    [
+      0.45220162973220823,
+      0.7868125120456485,
+      0.931609068312964,
+      0.8824171572870828,
+      0.8925824723203238,
+      1.0,
+      0.14696473237379093,
+      0.7782002826012335
+    ],
+    [
+      0.6434143756654108,
+      0.11252214180717862,
+      0.1878180126125452,
+      0.09634392812298995,
+      0.12418002213241064,
+      0.14696473237379093,
+      1.0,
+      0.17301813893761028
+    ],
+    [
+      0.4301321071890836,
+      0.631132823586531,
+      0.767226648106533,
+      0.6716444167375444,
+      0.649369350485855,
+      0.7782002826012335,
+      0.17301813893761028,
+      1.0
+    ]
+  ],
+  "allInstitutePredictionSimilarityMatrixWithMissing": [
+    [
+      1.0,
+      0.41421919272165275,
+      0.548674236873963,
+      0.37266715646206494,
+      0.36627351213257664,
+      0.45220162973220823,
+      0.6434143756654108,
+      0.4301321071890836
+    ],
+    [
+      0.41421919272165275,
+      1.0,
+      0.8131633583927091,
+      0.8369651312795463,
+      0.7419963743422169,
+      0.7868125120456485,
+      0.11252214180717862,
+      0.631132823586531
+    ],
+    [
+      0.548674236873963,
+      0.8131633583927091,
+      1.0,
+      0.8622883357283768,
+      0.811459842877122,
+      0.931609068312964,
+      0.1878180126125452,
+      0.767226648106533
+    ],
+    [
+      0.37266715646206494,
+      0.8369651312795463,
+      0.8622883357283768,
+      1.0,
+      0.7928162343247387,
+      0.8824171572870828,
+      0.09634392812298995,
+      0.6716444167375444
+    ],
+    [
+      0.36627351213257664,
+      0.7419963743422169,
+      0.811459842877122,
+      0.7928162343247387,
+      1.0,
+      0.8925824723203238,
+      0.12418002213241064,
+      0.649369350485855
+    ],
+    [
+      0.45220162973220823,
+      0.7868125120456485,
+      0.931609068312964,
+      0.8824171572870828,
+      0.8925824723203238,
+      1.0,
+      0.14696473237379093,
+      0.7782002826012335
+    ],
+    [
+      0.6434143756654108,
+      0.11252214180717862,
+      0.1878180126125452,
+      0.09634392812298995,
+      0.12418002213241064,
+      0.14696473237379093,
+      1.0,
+      0.17301813893761028
+    ],
+    [
+      0.4301321071890836,
+      0.631132823586531,
+      0.767226648106533,
+      0.6716444167375444,
+      0.649369350485855,
+      0.7782002826012335,
+      0.17301813893761028,
+      1.0
+    ]
+  ],
+  "modeledCorrelationMatrix": [
+    [
+      1.0,
+      0.10355479818041319,
+      0.13716855921849075,
+      0.09316678911551624,
+      0.09156837803314416,
+      0.11305040743305206,
+      0.1608535939163527,
+      0.1075330267972709
+    ],
+    [
+      0.10355479818041319,
+      1.0,
+      0.2032908395981773,
+      0.20924128281988658,
+      0.18549909358555422,
+      0.19670312801141213,
+      0.028130535451794655,
+      0.15778320589663275
+    ],
+    [
+      0.13716855921849075,
+      0.2032908395981773,
+      1.0,
+      0.2155720839320942,
+      0.2028649607192805,
+      0.232902267078241,
+      0.0469545031531363,
+      0.19180666202663324
+    ],
+    [
+      0.09316678911551624,
+      0.20924128281988658,
+      0.2155720839320942,
+      1.0,
+      0.19820405858118467,
+      0.2206042893217707,
+      0.024085982030747487,
+      0.1679111041843861
+    ],
+    [
+      0.09156837803314416,
+      0.18549909358555422,
+      0.2028649607192805,
+      0.19820405858118467,
+      1.0,
+      0.22314561808008096,
+      0.03104500553310266,
+      0.16234233762146374
+    ],
+    [
+      0.11305040743305206,
+      0.19670312801141213,
+      0.232902267078241,
+      0.2206042893217707,
+      0.22314561808008096,
+      1.0,
+      0.03674118309344773,
+      0.19455007065030838
+    ],
+    [
+      0.1608535939163527,
+      0.028130535451794655,
+      0.0469545031531363,
+      0.024085982030747487,
+      0.03104500553310266,
+      0.03674118309344773,
+      1.0,
+      0.04325453473440257
+    ],
+    [
+      0.1075330267972709,
+      0.15778320589663275,
+      0.19180666202663324,
+      0.1679111041843861,
+      0.16234233762146374,
+      0.19455007065030838,
+      0.04325453473440257,
+      1.0
+    ]
+  ],
+  "matchedBinCounts": [
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      4,
+      4
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2
+    ],
+    [
+      3,
+      2,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ]
+  ],
+  "allInstituteMatchedBinCounts": [
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      4,
+      4,
+      4,
+      4,
+      2,
+      2,
+      4,
+      4
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      2,
+      2,
+      2,
+      2,
+      2,
+      1,
+      2,
+      2
+    ],
+    [
+      3,
+      2,
+      3,
+      3,
+      1,
+      3,
+      3,
+      3
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ],
+    [
+      5,
+      4,
+      5,
+      5,
+      2,
+      3,
+      5,
+      5
+    ]
+  ],
+  "similarityStrength": 0.25,
+  "bandwidthSeats": 2.0,
+  "additionalIdentityShrinkage": 0.0,
+  "effectiveSimilarityStrength": 0.25,
+  "matrixAudit": {
+    "rawKernelMinimumEigenvalue": 0.04167668166383076,
+    "initialModeledMinimumEigenvalue": 0.7604191704159576,
+    "finalModeledMinimumEigenvalue": 0.7604191704159576,
+    "psdRepair": "Additional minimal convex shrinkage toward identity, if needed; no entries invented from missing pairs.",
+    "positiveDefinite": true
+  },
+  "coverage": {
+    "closureDate": "2026-09-08",
+    "from": "2026-09-09",
+    "to": "2026-10-08",
+    "publishedPollCount": 39,
+    "instituteCount": 8,
+    "modeledInstituteCount": 8,
+    "calendarBinCount": 5,
+    "calendarBinsAreIndependentObservations": false,
+    "partyCount": 11,
+    "partyIds": [
+      "beyachad",
+      "democrats",
+      "joint",
+      "likud",
+      "otzma",
+      "raam",
+      "rz_zehut",
+      "shas",
+      "utj",
+      "yashar",
+      "yisrael_beiteinu"
+    ],
+    "omittedPartyIdsWithMissingPublishedFields": [
+      "gantz",
+      "haredi_public",
+      "hendel",
+      "israel_first",
+      "noam",
+      "winter"
+    ],
+    "knownPairs": 28,
+    "unknownPairs": 0,
+    "totalPairs": 28,
+    "minimumMatchedBinCount": 1,
+    "maximumMatchedBinCount": 5,
+    "excludedUnverifiedFieldworkPollCount": 4,
+    "excludedInstitutesWithoutCompleteComparableBlock": []
+  },
+  "pairProfiles": [
+    {
+      "first": "direct_polls",
+      "second": "hamadad_consortium",
+      "matchedBinCount": 4,
+      "matchedBinIndexes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.3849870989234836,
+        0.3475599253416697,
+        0.32465246735834974,
+        0.5996772792631081
+      ],
+      "predictionSimilarity": 0.41421919272165275,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "direct_polls",
+      "second": "kantar",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.5929013373120886,
+        0.45653454459633336,
+        0.5795782787848095,
+        0.4723665527410147,
+        0.6419904709355693
+      ],
+      "predictionSimilarity": 0.548674236873963,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "direct_polls",
+      "second": "lazar",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.40060766294145334,
+        0.30325482564841544,
+        0.2800667608216489,
+        0.29982825411399744,
+        0.5795782787848095
+      ],
+      "predictionSimilarity": 0.37266715646206494,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "direct_polls",
+      "second": "maagar_mochot",
+      "matchedBinCount": 2,
+      "matchedBinIndexes": [
+        2,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.3475599253416697,
+        0.3849870989234836
+      ],
+      "predictionSimilarity": 0.36627351213257664,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "direct_polls",
+      "second": "midgam_geva",
+      "matchedBinCount": 3,
+      "matchedBinIndexes": [
+        0,
+        1,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.4791241858408102,
+        0.4362475355958307,
+        0.44123316775998395
+      ],
+      "predictionSimilarity": 0.45220162973220823,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "direct_polls",
+      "second": "next_data",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.6872892787909722,
+        0.6872892787909722,
+        0.645648526427892,
+        0.6795233813363141,
+        0.5173214129809032
+      ],
+      "predictionSimilarity": 0.6434143756654108,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "direct_polls",
+      "second": "tatika",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.4513760173687867,
+        0.4264446374012106,
+        0.43131823765560356,
+        0.45653454459633336,
+        0.3849870989234836
+      ],
+      "predictionSimilarity": 0.4301321071890836,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "hamadad_consortium",
+      "second": "kantar",
+      "matchedBinCount": 4,
+      "matchedBinIndexes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.7877012671239861,
+        0.8243320819526037,
+        0.7877012671239861,
+        0.8529188173702604
+      ],
+      "predictionSimilarity": 0.8131633583927091,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "hamadad_consortium",
+      "second": "lazar",
+      "matchedBinCount": 4,
+      "matchedBinIndexes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.7788007830714049,
+        0.8432814197310923,
+        0.8432814197310923,
+        0.8824969025845955
+      ],
+      "predictionSimilarity": 0.8369651312795463,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "hamadad_consortium",
+      "second": "maagar_mochot",
+      "matchedBinCount": 2,
+      "matchedBinIndexes": [
+        2,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.7967034698934616,
+        0.6872892787909722
+      ],
+      "predictionSimilarity": 0.7419963743422169,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "hamadad_consortium",
+      "second": "midgam_geva",
+      "matchedBinCount": 2,
+      "matchedBinIndexes": [
+        0,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.767816470224425,
+        0.805808553866872
+      ],
+      "predictionSimilarity": 0.7868125120456485,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "hamadad_consortium",
+      "second": "next_data",
+      "matchedBinCount": 4,
+      "matchedBinIndexes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.12011349616442474,
+        0.0893876519888147,
+        0.09733998248185555,
+        0.14324743659361946
+      ],
+      "predictionSimilarity": 0.11252214180717862,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "hamadad_consortium",
+      "second": "tatika",
+      "matchedBinCount": 4,
+      "matchedBinIndexes": [
+        0,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.48322508118982543,
+        0.6419904709355693,
+        0.7274705090242836,
+        0.6718452331964458
+      ],
+      "predictionSimilarity": 0.631132823586531,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "kantar",
+      "second": "lazar",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.8774969335467694,
+        0.9340906234779491,
+        0.7613003866968737,
+        0.8150176948166803,
+        0.923536040103612
+      ],
+      "predictionSimilarity": 0.8622883357283768,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "kantar",
+      "second": "maagar_mochot",
+      "matchedBinCount": 2,
+      "matchedBinIndexes": [
+        2,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.7700008683839835,
+        0.8529188173702604
+      ],
+      "predictionSimilarity": 0.811459842877122,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "kantar",
+      "second": "midgam_geva",
+      "matchedBinCount": 3,
+      "matchedBinIndexes": [
+        0,
+        1,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.9261634523883452,
+        0.9131007162822623,
+        0.9555630362682842
+      ],
+      "predictionSimilarity": 0.931609068312964,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "kantar",
+      "second": "next_data",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.21080575080715655,
+        0.17377394345044514,
+        0.20029689354250987,
+        0.16605195702782047,
+        0.1881615182347939
+      ],
+      "predictionSimilarity": 0.1878180126125452,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "kantar",
+      "second": "tatika",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.6642538428642953,
+        0.744193240919829,
+        0.7967034698934616,
+        0.8432814197310923,
+        0.7877012671239861
+      ],
+      "predictionSimilarity": 0.767226648106533,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "lazar",
+      "second": "maagar_mochot",
+      "matchedBinCount": 2,
+      "matchedBinIndexes": [
+        2,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.8243320819526037,
+        0.7613003866968737
+      ],
+      "predictionSimilarity": 0.7928162343247387,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "lazar",
+      "second": "midgam_geva",
+      "matchedBinCount": 3,
+      "matchedBinIndexes": [
+        0,
+        1,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.9209160814657443,
+        0.8925824723203238,
+        0.8337529180751806
+      ],
+      "predictionSimilarity": 0.8824171572870828,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "lazar",
+      "second": "next_data",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.11412572978748024,
+        0.09196348927905086,
+        0.060054667895307945,
+        0.08024047041649794,
+        0.1353352832366127
+      ],
+      "predictionSimilarity": 0.09634392812298995,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "lazar",
+      "second": "tatika",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.6833952989889805,
+        0.6795233813363141,
+        0.5292133415000503,
+        0.6872892787909722,
+        0.7788007830714049
+      ],
+      "predictionSimilarity": 0.6716444167375444,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "maagar_mochot",
+      "second": "midgam_geva",
+      "matchedBinCount": 1,
+      "matchedBinIndexes": [
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.8925824723203238
+      ],
+      "predictionSimilarity": 0.8925824723203238,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "maagar_mochot",
+      "second": "next_data",
+      "matchedBinCount": 2,
+      "matchedBinIndexes": [
+        2,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.10014497792730111,
+        0.14821506633752016
+      ],
+      "predictionSimilarity": 0.12418002213241064,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "maagar_mochot",
+      "second": "tatika",
+      "matchedBinCount": 2,
+      "matchedBinIndexes": [
+        2,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.6567482300361407,
+        0.6419904709355693
+      ],
+      "predictionSimilarity": 0.649369350485855,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "midgam_geva",
+      "second": "next_data",
+      "matchedBinCount": 3,
+      "matchedBinIndexes": [
+        0,
+        1,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.1477945983466126,
+        0.14821506633752016,
+        0.14488453243724003
+      ],
+      "predictionSimilarity": 0.14696473237379093,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "midgam_geva",
+      "second": "tatika",
+      "matchedBinCount": 3,
+      "matchedBinIndexes": [
+        0,
+        1,
+        3
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.713146662604534,
+        0.8337529180751806,
+        0.7877012671239861
+      ],
+      "predictionSimilarity": 0.7782002826012335,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    },
+    {
+      "first": "next_data",
+      "second": "tatika",
+      "matchedBinCount": 5,
+      "matchedBinIndexes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "matchedWindows": [
+        {
+          "from": "2026-09-09",
+          "to": "2026-09-15"
+        },
+        {
+          "from": "2026-09-16",
+          "to": "2026-09-22"
+        },
+        {
+          "from": "2026-09-23",
+          "to": "2026-09-29"
+        },
+        {
+          "from": "2026-09-30",
+          "to": "2026-10-06"
+        },
+        {
+          "from": "2026-10-07",
+          "to": "2026-10-10"
+        }
+      ],
+      "perBinPredictionSimilarities": [
+        0.18185502876824997,
+        0.2037403090557072,
+        0.1747641056990142,
+        0.18393334946157305,
+        0.12079790170350702
+      ],
+      "predictionSimilarity": 0.17301813893761028,
+      "status": "observed_prediction_similarity_not_error_correlation",
+      "independentObservationCount": null
+    }
+  ],
+  "weeklyComparisonVectors": [
+    {
+      "binIndex": 0,
+      "from": "2026-09-09",
+      "to": "2026-09-15",
+      "instituteCount": 7,
+      "publishedPollCount": 11,
+      "institutes": [
+        {
+          "pollsterId": "direct_polls",
+          "pollIds": [
+            "history_direct_polls_2026-09-09_718"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-09"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/allpolls/"
+          ],
+          "forecastSeats": {
+            "beyachad": 10.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 27.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-09_715",
+            "history_hamadad_consortium_2026-09-16_current"
+          ],
+          "publishedPollCount": 2,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-09"
+            },
+            {
+              "start": "2026-09-15",
+              "end": "2026-09-15"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-16-2026/",
+            "https://themadad.com/allpolls/"
+          ],
+          "forecastSeats": {
+            "beyachad": 12.5,
+            "democrats": 10.0,
+            "joint": 8.0,
+            "likud": 18.5,
+            "otzma": 8.5,
+            "raam": 6.0,
+            "rz_zehut": 7.0,
+            "shas": 7.0,
+            "utj": 7.5,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 8.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "kantar",
+          "pollIds": [
+            "history_kantar_2026-09-09_716"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-09"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/allpolls/"
+          ],
+          "forecastSeats": {
+            "beyachad": 12.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 21.0,
+            "otzma": 7.0,
+            "raam": 5.0,
+            "rz_zehut": 5.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 24.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "lazar",
+          "pollIds": [
+            "history_lazar_2026-09-09_714",
+            "history_lazar_2026-09-11_722"
+          ],
+          "publishedPollCount": 2,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-09"
+            },
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-10"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/allpolls/"
+          ],
+          "forecastSeats": {
+            "beyachad": 14.0,
+            "democrats": 9.5,
+            "joint": 7.0,
+            "likud": 20.0,
+            "otzma": 7.5,
+            "raam": 5.0,
+            "rz_zehut": 5.0,
+            "shas": 7.0,
+            "utj": 7.0,
+            "yashar": 25.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "pollIds": [
+            "history_midgam_geva_2026-09-09_717",
+            "history_midgam_geva_2026-09-14_current"
+          ],
+          "publishedPollCount": 2,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-09"
+            },
+            {
+              "start": "2026-09-14",
+              "end": "2026-09-14"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/allpolls/",
+            "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 10.0,
+            "joint": 7.5,
+            "likud": 20.5,
+            "otzma": 6.0,
+            "raam": 4.0,
+            "rz_zehut": 5.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 24.0,
+            "yisrael_beiteinu": 8.5
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "next_data",
+          "pollIds": [
+            "history_next_data_2026-09-09_719",
+            "history_next_data_2026-09-15_current"
+          ],
+          "publishedPollCount": 2,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-09"
+            },
+            {
+              "start": "2026-09-15",
+              "end": "2026-09-15"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/allpolls/",
+            "https://www.c14.co.il/article/1703304"
+          ],
+          "forecastSeats": {
+            "beyachad": 7.5,
+            "democrats": 8.5,
+            "joint": 6.5,
+            "likud": 30.5,
+            "otzma": 8.0,
+            "raam": 5.5,
+            "rz_zehut": 8.0,
+            "shas": 10.0,
+            "utj": 7.5,
+            "yashar": 21.5,
+            "yisrael_beiteinu": 6.5
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "tatika",
+          "pollIds": [
+            "history_tatika_2026-09-10_721"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-09",
+              "end": "2026-09-10"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/allpolls/"
+          ],
+          "forecastSeats": {
+            "beyachad": 15.0,
+            "democrats": 8.0,
+            "joint": 7.0,
+            "likud": 23.0,
+            "otzma": 6.0,
+            "raam": 5.0,
+            "rz_zehut": 4.0,
+            "shas": 10.0,
+            "utj": 9.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 10.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        }
+      ]
+    },
+    {
+      "binIndex": 1,
+      "from": "2026-09-16",
+      "to": "2026-09-22",
+      "instituteCount": 6,
+      "publishedPollCount": 6,
+      "institutes": [
+        {
+          "pollsterId": "direct_polls",
+          "pollIds": [
+            "history_direct_polls_2026-09-17_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-17",
+              "end": "2026-09-17"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa"
+          ],
+          "forecastSeats": {
+            "beyachad": 9.0,
+            "democrats": 10.0,
+            "joint": 7.0,
+            "likud": 27.0,
+            "otzma": 7.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 21.0,
+            "yisrael_beiteinu": 8.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "kantar",
+          "pollIds": [
+            "history_kantar_2026-09-17_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-16",
+              "end": "2026-09-17"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.israelhayom.co.il/news/politics/article/21444759"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 20.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 7.0,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 8.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "lazar",
+          "pollIds": [
+            "history_lazar_2026-09-18_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-16",
+              "end": "2026-09-17"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.maariv.co.il/news/politics/article-1368599"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 18.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 7.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "pollIds": [
+            "history_midgam_geva_2026-09-22_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-22",
+              "end": "2026-09-22"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 20.0,
+            "otzma": 6.0,
+            "raam": 5.0,
+            "rz_zehut": 5.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "next_data",
+          "pollIds": [
+            "history_next_data_2026-09-17_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-17",
+              "end": "2026-09-17"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.c14.co.il/article/1706627"
+          ],
+          "forecastSeats": {
+            "beyachad": 9.0,
+            "democrats": 8.0,
+            "joint": 7.0,
+            "likud": 31.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 7.0,
+            "shas": 10.0,
+            "utj": 8.0,
+            "yashar": 20.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "tatika",
+          "pollIds": [
+            "history_tatika_2026-09-17_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-16",
+              "end": "2026-09-17"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.zman.co.il/725468/"
+          ],
+          "forecastSeats": {
+            "beyachad": 14.0,
+            "democrats": 8.0,
+            "joint": 8.0,
+            "likud": 22.0,
+            "otzma": 7.0,
+            "raam": 6.0,
+            "rz_zehut": 4.0,
+            "shas": 9.0,
+            "utj": 9.0,
+            "yashar": 24.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        }
+      ]
+    },
+    {
+      "binIndex": 2,
+      "from": "2026-09-23",
+      "to": "2026-09-29",
+      "instituteCount": 7,
+      "publishedPollCount": 8,
+      "institutes": [
+        {
+          "pollsterId": "direct_polls",
+          "pollIds": [
+            "history_direct_polls_2026-09-24_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-24",
+              "end": "2026-09-24"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577"
+          ],
+          "forecastSeats": {
+            "beyachad": 9.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 27.0,
+            "otzma": 8.0,
+            "raam": 6.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-23_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-23",
+              "end": "2026-09-23"
+            }
+          ],
+          "sourceUrls": [
+            "https://themadad.com/סקר-המדד-ספטמבר-22-2026/"
+          ],
+          "forecastSeats": {
+            "beyachad": 11.0,
+            "democrats": 11.0,
+            "joint": 8.0,
+            "likud": 18.0,
+            "otzma": 7.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 8.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "kantar",
+          "pollIds": [
+            "history_kantar_2026-09-27_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-27",
+              "end": "2026-09-27"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.kan.org.il/content/kan-news/politic/1103667/"
+          ],
+          "forecastSeats": {
+            "beyachad": 11.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 21.0,
+            "otzma": 7.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 7.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "lazar",
+          "pollIds": [
+            "history_lazar_2026-09-25_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-23",
+              "end": "2026-09-24"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.maariv.co.il/news/elections-2026/article-1370546"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 11.0,
+            "joint": 7.0,
+            "likud": 18.0,
+            "otzma": 9.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 6.0,
+            "utj": 6.0,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "maagar_mochot",
+          "pollIds": [
+            "history_maagar_mochot_2026-09-29_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-29",
+              "end": "2026-09-29"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+          ],
+          "forecastSeats": {
+            "beyachad": 14.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 19.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 8.0,
+            "utj": 7.0,
+            "yashar": 21.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "next_data",
+          "pollIds": [
+            "history_next_data_2026-09-23_current",
+            "history_next_data_2026-09-28_current"
+          ],
+          "publishedPollCount": 2,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-23",
+              "end": "2026-09-23"
+            },
+            {
+              "start": "2026-09-28",
+              "end": "2026-09-28"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.c14.co.il/article/1711606",
+            "https://www.c14.co.il/article/1716250"
+          ],
+          "forecastSeats": {
+            "beyachad": 8.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 31.5,
+            "otzma": 6.5,
+            "raam": 5.0,
+            "rz_zehut": 7.0,
+            "shas": 10.5,
+            "utj": 7.5,
+            "yashar": 21.5,
+            "yisrael_beiteinu": 6.5
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "tatika",
+          "pollIds": [
+            "history_tatika_2026-09-24_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-23",
+              "end": "2026-09-24"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.zman.co.il/727390/"
+          ],
+          "forecastSeats": {
+            "beyachad": 12.0,
+            "democrats": 8.0,
+            "joint": 8.0,
+            "likud": 21.0,
+            "otzma": 6.0,
+            "raam": 6.0,
+            "rz_zehut": 4.0,
+            "shas": 10.0,
+            "utj": 8.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 10.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        }
+      ]
+    },
+    {
+      "binIndex": 3,
+      "from": "2026-09-30",
+      "to": "2026-10-06",
+      "instituteCount": 8,
+      "publishedPollCount": 8,
+      "institutes": [
+        {
+          "pollsterId": "direct_polls",
+          "pollIds": [
+            "history_direct_polls_2026-10-01_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-01",
+              "end": "2026-10-01"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef"
+          ],
+          "forecastSeats": {
+            "beyachad": 9.0,
+            "democrats": 9.0,
+            "joint": 8.0,
+            "likud": 28.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 5.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "pollIds": [
+            "history_hamadad_consortium_2026-09-30_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-29",
+              "end": "2026-09-30"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf"
+          ],
+          "forecastSeats": {
+            "beyachad": 11.0,
+            "democrats": 11.0,
+            "joint": 9.0,
+            "likud": 19.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 7.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 21.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "kantar",
+          "pollIds": [
+            "history_kantar_2026-10-04_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-04",
+              "end": "2026-10-04"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+          ],
+          "forecastSeats": {
+            "beyachad": 12.0,
+            "democrats": 8.0,
+            "joint": 8.0,
+            "likud": 21.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 8.0,
+            "utj": 8.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "lazar",
+          "pollIds": [
+            "history_lazar_2026-10-02_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-30",
+              "end": "2026-10-01"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.maariv.co.il/news/elections-2026/article-1372750"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 10.0,
+            "joint": 7.0,
+            "likud": 19.0,
+            "otzma": 9.0,
+            "raam": 5.0,
+            "rz_zehut": 5.0,
+            "shas": 7.0,
+            "utj": 7.0,
+            "yashar": 21.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "maagar_mochot",
+          "pollIds": [
+            "history_maagar_mochot_2026-10-06_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-05",
+              "end": "2026-10-06"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a"
+          ],
+          "forecastSeats": {
+            "beyachad": 14.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 21.0,
+            "otzma": 7.0,
+            "raam": 6.0,
+            "rz_zehut": 7.0,
+            "shas": 8.0,
+            "utj": 7.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "midgam_geva",
+          "pollIds": [
+            "history_midgam_geva_2026-10-05_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-05",
+              "end": "2026-10-05"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 9.0,
+            "joint": 8.0,
+            "likud": 21.0,
+            "otzma": 7.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "next_data",
+          "pollIds": [
+            "history_next_data_2026-10-01_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-01",
+              "end": "2026-10-01"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.c14.co.il/article/1720749"
+          ],
+          "forecastSeats": {
+            "beyachad": 8.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 32.0,
+            "otzma": 7.0,
+            "raam": 5.0,
+            "rz_zehut": 7.0,
+            "shas": 10.0,
+            "utj": 8.0,
+            "yashar": 21.0,
+            "yisrael_beiteinu": 6.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "tatika",
+          "pollIds": [
+            "history_tatika_2026-10-01_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-09-30",
+              "end": "2026-10-01"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.zman.co.il/729422/"
+          ],
+          "forecastSeats": {
+            "beyachad": 10.0,
+            "democrats": 8.0,
+            "joint": 8.0,
+            "likud": 21.0,
+            "otzma": 6.0,
+            "raam": 5.0,
+            "rz_zehut": 5.0,
+            "shas": 9.0,
+            "utj": 8.0,
+            "yashar": 21.0,
+            "yisrael_beiteinu": 10.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        }
+      ]
+    },
+    {
+      "binIndex": 4,
+      "from": "2026-10-07",
+      "to": "2026-10-10",
+      "instituteCount": 6,
+      "publishedPollCount": 6,
+      "institutes": [
+        {
+          "pollsterId": "direct_polls",
+          "pollIds": [
+            "history_direct_polls_2026-10-08_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-07",
+              "end": "2026-10-07"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4"
+          ],
+          "forecastSeats": {
+            "beyachad": 11.0,
+            "democrats": 10.0,
+            "joint": 7.0,
+            "likud": 26.0,
+            "otzma": 9.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 20.0,
+            "yisrael_beiteinu": 7.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "hamadad_consortium",
+          "pollIds": [
+            "history_hamadad_consortium_2026-10-07_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-06",
+              "end": "2026-10-07"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf"
+          ],
+          "forecastSeats": {
+            "beyachad": 12.0,
+            "democrats": 10.0,
+            "joint": 9.0,
+            "likud": 20.0,
+            "otzma": 8.0,
+            "raam": 6.0,
+            "rz_zehut": 7.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 20.0,
+            "yisrael_beiteinu": 8.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "kantar",
+          "pollIds": [
+            "history_kantar_2026-10-08_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-07",
+              "end": "2026-10-08"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.israelhayom.co.il/news/politics/article/21582636"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 8.0,
+            "joint": 8.0,
+            "likud": 21.0,
+            "otzma": 9.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 8.0,
+            "yashar": 22.0,
+            "yisrael_beiteinu": 8.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "lazar",
+          "pollIds": [
+            "history_lazar_2026-10-09_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-07",
+              "end": "2026-10-08"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.maariv.co.il/news/politics/article-1375198"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 20.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 7.0,
+            "utj": 7.0,
+            "yashar": 21.0,
+            "yisrael_beiteinu": 9.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "next_data",
+          "pollIds": [
+            "history_next_data_2026-10-07_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-07",
+              "end": "2026-10-07"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.c14.co.il/article/1728516"
+          ],
+          "forecastSeats": {
+            "beyachad": 8.0,
+            "democrats": 9.0,
+            "joint": 7.0,
+            "likud": 31.0,
+            "otzma": 8.0,
+            "raam": 5.0,
+            "rz_zehut": 6.0,
+            "shas": 10.0,
+            "utj": 8.0,
+            "yashar": 23.0,
+            "yisrael_beiteinu": 5.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        },
+        {
+          "pollsterId": "tatika",
+          "pollIds": [
+            "history_tatika_2026-10-08_current"
+          ],
+          "publishedPollCount": 1,
+          "fieldworkDates": [
+            {
+              "start": "2026-10-07",
+              "end": "2026-10-08"
+            }
+          ],
+          "sourceUrls": [
+            "https://www.zman.co.il/731622/"
+          ],
+          "forecastSeats": {
+            "beyachad": 13.0,
+            "democrats": 8.0,
+            "joint": 9.0,
+            "likud": 20.0,
+            "otzma": 6.0,
+            "raam": 5.0,
+            "rz_zehut": 5.0,
+            "shas": 8.0,
+            "utj": 8.0,
+            "yashar": 24.0,
+            "yisrael_beiteinu": 10.0
+          },
+          "aggregation": "Average of actual published projections in this institute/week; derived comparison vector, not an additional survey."
+        }
+      ]
+    }
+  ],
+  "cohort": [
+    {
+      "pollId": "history_lazar_2026-09-09_714",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://www.walla.co.il/news/politics/3866713"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-16/lazar-history-through-2026-09-11.png"
+    },
+    {
+      "pollId": "history_lazar_2026-09-11_722",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-11",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-16/lazar-history-through-2026-09-11.png"
+    },
+    {
+      "pollId": "history_lazar_2026-09-18_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-18",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.maariv.co.il/news/politics/article-1368599",
+      "fieldworkSourceUrls": [
+        "https://www.maariv.co.il/news/politics/article-1368599"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-18/maariv-lazar-2026-09-18.png"
+    },
+    {
+      "pollId": "history_lazar_2026-09-25_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-09-25",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1370546",
+      "fieldworkSourceUrls": [
+        "https://www.maariv.co.il/news/elections-2026/article-1370546"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-25/maariv-lazar-2026-09-25-1370546.html"
+    },
+    {
+      "pollId": "history_lazar_2026-10-02_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-10-02",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "fieldworkSourceUrls": [
+        "https://www.maariv.co.il/news/elections-2026/article-1372750"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-02/maariv-lazar-2026-10-02-1372750.html"
+    },
+    {
+      "pollId": "history_lazar_2026-10-09_current",
+      "pollsterId": "lazar",
+      "publicationDate": "2026-10-09",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-08",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+      "fieldworkSourceUrls": [
+        "https://www.maariv.co.il/news/politics/article-1375198"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-09/maariv/maariv-oct9-original.html"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-09_715",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey4140.pdf",
+        "https://themadad.com/סקר-המדד-ספטמבר-9-2026/"
+      ],
+      "validationSourceUrl": null
+    },
+    {
+      "pollId": "history_kantar_2026-09-09_716",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://www.kan.org.il/content/kan-news/politic/1098105/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/kan11-kantar-history-through-2026-09-14.png"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/n12-midgam-history-through-2026-09-14.png"
+    },
+    {
+      "pollId": "history_kantar_2026-09-14_723",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligible": false,
+      "eligibilityReason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://www.kan.org.il/content/kan-news/politic/1099439/",
+        "https://www.kan.org.il/media/oqkl1dgw/whatsapp-image-2026-09-14-at-191436.jpeg",
+        "https://infogram.com/1p0jwwvknyx5q2cemgy9d23e6jin1kg75lx"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/kan11-kantar-history-through-2026-09-14.png"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-14_current",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": "2026-09-14",
+      "fieldworkEnd": "2026-09-14",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm",
+      "fieldworkSourceUrls": [
+        "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/n12-midgam-history-through-2026-09-14.png"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-16_current",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-15",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-16-2026/",
+      "fieldworkSourceUrls": [
+        "https://themadad.com/סקר-המדד-ספטמבר-16-2026/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-16/news13-themadad-2026-09-16.png"
+    },
+    {
+      "pollId": "history_kantar_2026-09-17_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21444759",
+      "fieldworkSourceUrls": [
+        "https://www.israelhayom.co.il/news/politics/article/21444759"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/kan11-kantar-history-through-2026-09-14.png"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-22_current",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-09-22",
+      "fieldworkStart": "2026-09-22",
+      "fieldworkEnd": "2026-09-22",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm",
+      "fieldworkSourceUrls": [
+        "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-22/n12-midgam-article-fad59e819c9c0a1027.html"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-23_current",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/סקר-המדד-ספטמבר-22-2026/",
+      "fieldworkSourceUrls": [
+        "https://themadad.com/סקר-המדד-ספטמבר-22-2026/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-25/themadad-channel13-2026-09-23.html"
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1103667/",
+      "fieldworkSourceUrls": [
+        "https://www.kan.org.il/content/kan-news/politic/1103667/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-28/kan-sept27-1103667-primary.html"
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+      "fieldworkSourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-06/Survey_4188.pdf"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+      "fieldworkSourceUrls": [
+        "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-05/n12-2026-10-05-original.html"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-10-07_current",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-06",
+      "fieldworkEnd": "2026-10-07",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+      "fieldworkSourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+        "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-10-c13-official/Survey_4193.pdf"
+    },
+    {
+      "pollId": "history_kantar_2026-10-08_current",
+      "pollsterId": "kantar",
+      "publicationDate": "2026-10-08",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-08",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "fieldworkSourceUrls": [
+        "https://www.israelhayom.co.il/news/politics/article/21582636"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08-evening/israel-hayom/israelhayom-2026-10-08-original.html"
+    },
+    {
+      "pollId": "history_next_data_2026-09-09_719",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4143.pdf"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-15/channel14-next-data-history-through-2026-09-15.png"
+    },
+    {
+      "pollId": "history_next_data_2026-09-15_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-15",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-15",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.c14.co.il/article/1703304",
+      "fieldworkSourceUrls": [
+        "https://www.c14.co.il/article/1703304"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-15/channel14-next-data-history-through-2026-09-15.png"
+    },
+    {
+      "pollId": "history_next_data_2026-09-17_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-17",
+      "fieldworkEnd": "2026-09-17",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.c14.co.il/article/1706627",
+      "fieldworkSourceUrls": [
+        "https://www.c14.co.il/article/1706627"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-17/channel14-next-data-2026-09-17-4.jpeg"
+    },
+    {
+      "pollId": "history_next_data_2026-09-23_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.c14.co.il/article/1711606",
+      "fieldworkSourceUrls": [
+        "https://www.c14.co.il/article/1711606"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-25/channel14-2026-09-23-primary.html"
+    },
+    {
+      "pollId": "history_next_data_2026-09-28_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-09-28",
+      "fieldworkStart": "2026-09-28",
+      "fieldworkEnd": "2026-09-28",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.c14.co.il/article/1716250",
+      "fieldworkSourceUrls": [
+        "https://www.c14.co.il/article/1716250"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-28/c14-1716250.html"
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-09_718",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-a92f58d0"
+      ],
+      "validationSourceUrl": null
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-17_current",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-17",
+      "fieldworkEnd": "2026-09-17",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa",
+      "fieldworkSourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa"
+      ],
+      "validationSourceUrl": null
+    },
+    {
+      "pollId": "history_direct_polls_2026-09-24_current",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": "2026-09-24",
+      "fieldworkEnd": "2026-09-24",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577",
+      "fieldworkSourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-25/i24-2026-09-24.html"
+    },
+    {
+      "pollId": "history_next_data_2026-10-01_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-10-01",
+      "fieldworkEnd": "2026-10-01",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.c14.co.il/article/1720749",
+      "fieldworkSourceUrls": [
+        "https://www.c14.co.il/article/1720749"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-02/c14-2026-10-01-1720749.html"
+    },
+    {
+      "pollId": "history_direct_polls_2026-10-01_current",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-10-01",
+      "fieldworkEnd": "2026-10-01",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef",
+      "fieldworkSourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-02/i24-2026-10-01-761931ef.html"
+    },
+    {
+      "pollId": "history_next_data_2026-10-07_current",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.c14.co.il/article/1728516",
+      "fieldworkSourceUrls": [
+        "https://www.c14.co.il/article/1728516",
+        "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-07/c14/c14-1728516.html"
+    },
+    {
+      "pollId": "history_direct_polls_2026-10-08_current",
+      "pollsterId": "direct_polls",
+      "publicationDate": "2026-10-08",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-07",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+      "fieldworkSourceUrls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08-evening/i24/i24-oct8-original.html"
+    },
+    {
+      "pollId": "history_tatika_2026-09-10_721",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-10",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://www.zman.co.il/723041/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-16/tatika-history-through-2026-09-10.png"
+    },
+    {
+      "pollId": "history_tatika_2026-09-17_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.zman.co.il/725468/",
+      "fieldworkSourceUrls": [
+        "https://www.zman.co.il/725468/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-16/tatika-history-through-2026-09-10.png"
+    },
+    {
+      "pollId": "history_tatika_2026-09-24_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-24",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.zman.co.il/727390/",
+      "fieldworkSourceUrls": [
+        "https://www.zman.co.il/727390/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-25/zman-2026-09-24-web-reader.txt"
+    },
+    {
+      "pollId": "history_tatika_2026-10-01_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-10-01",
+      "fieldworkStart": "2026-09-30",
+      "fieldworkEnd": "2026-10-01",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.zman.co.il/729422/",
+      "fieldworkSourceUrls": [
+        "https://www.zman.co.il/729422/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-01/zman-2026-10-01-web-reader.txt"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-10_720",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-10",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligible": false,
+      "eligibilityReason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://themadad.com/allpolls/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-16/maagar-mochot-history-through-2026-09-09.png"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-16_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligible": false,
+      "eligibilityReason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה.",
+      "sourceUrl": "https://x.com/Ch16_IL/status/2100275361430786359",
+      "fieldworkSourceUrls": [
+        "https://x.com/Ch16_IL/status/2100275361430786359"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-16/channel16-maagar-mochot-2026-09-16.png"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-24_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-24",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligible": false,
+      "eligibilityReason": "מועדי האיסוף לא אומתו; תאריך הפרסום לבדו אינו מספיק להכללה.",
+      "sourceUrl": "https://themadad.com/allpolls/",
+      "fieldworkSourceUrls": [
+        "https://www.skarim.org/polls/channel-16-2026-09-24"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-25/themadad-allpolls.html"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-10-06_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-10-06",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-06",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "fieldworkSourceUrls": [
+        "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-06/c16-2026-10-06-original-metadata.json"
+    },
+    {
+      "pollId": "history_tatika_2026-10-08_current",
+      "pollsterId": "tatika",
+      "publicationDate": "2026-10-08",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-08",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.zman.co.il/731622/",
+      "fieldworkSourceUrls": [
+        "https://www.zman.co.il/731622/"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08-evening/zman/zman-web-reader-reviewed.json"
+    },
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "pollsterId": "maagar_mochot",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+      "fieldworkSourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-06/Survey_4173.pdf"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-30_current",
+      "pollsterId": "hamadad_consortium",
+      "publicationDate": "2026-09-30",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-30",
+      "eligible": true,
+      "eligibilityReason": "מועדי האיסוף אומתו במקור; כל האיסוף החל אחרי סגירת הרשימות.",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+      "fieldworkSourceUrls": [
+        "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf"
+      ],
+      "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-07/Survey_4182.pdf"
+    }
+  ],
+  "densityReferences": {
+    "allModeledInstitutes": {
+      "instituteIds": [
+        "direct_polls",
+        "hamadad_consortium",
+        "kantar",
+        "lazar",
+        "maagar_mochot",
+        "midgam_geva",
+        "next_data",
+        "tatika"
+      ],
+      "density": {
+        "direct_polls": 1.80689555269424,
+        "hamadad_consortium": 2.084202883543871,
+        "kantar": 2.2305598757260534,
+        "lazar": 2.128785589985586,
+        "maagar_mochot": 2.094669452153811,
+        "midgam_geva": 2.2176969636683133,
+        "next_data": 1.371065337912984,
+        "tatika": 2.0251809419110978
+      },
+      "weightMultipliersBeforeNormalization": {
+        "direct_polls": 0.5534354204972789,
+        "hamadad_consortium": 0.47979973921715896,
+        "kantar": 0.4483179361748795,
+        "lazar": 0.46975139474087246,
+        "maagar_mochot": 0.4774022932218569,
+        "midgam_geva": 0.45091823471945,
+        "next_data": 0.7293598432895879,
+        "tatika": 0.493783038989263
+      }
+    },
+    "withoutChannel14": {
+      "instituteIds": [
+        "direct_polls",
+        "hamadad_consortium",
+        "kantar",
+        "lazar",
+        "maagar_mochot",
+        "midgam_geva",
+        "tatika"
+      ],
+      "density": {
+        "direct_polls": 1.6460419587778876,
+        "hamadad_consortium": 2.0560723480920764,
+        "kantar": 2.183605372572917,
+        "lazar": 2.1046996079548386,
+        "maagar_mochot": 2.0636244466207083,
+        "midgam_geva": 2.180955780574865,
+        "tatika": 1.981926407176695
+      },
+      "weightMultipliersBeforeNormalization": {
+        "direct_polls": 0.6075179278798307,
+        "hamadad_consortium": 0.48636420840343764,
+        "kantar": 0.45795820644172147,
+        "lazar": 0.4751271850008619,
+        "maagar_mochot": 0.484584296157933,
+        "midgam_geva": 0.4585145691199736,
+        "tatika": 0.5045596024044735
+      }
+    },
+    "scope": "Illustrative active-subset row sums; recompute when the user excludes institutes, including source-compatibility exclusions in signal/noise."
+  },
+  "method": {
+    "inputs": "Actual published 2026 party seat projections only; no election outcome, 2022 calibration, forecast errors, compiled model forecasts or respondent microdata.",
+    "selectedBaseAccuracyUnchanged": true,
+    "matching": "Seven-day fieldwork-end bins anchored the day after verified list closure; only records whose full fieldwork starts after closure are eligible.",
+    "withinBinAggregation": "One comparison vector per institute/bin; equal average of its distinct published polls. It is not a new poll and is never added to the forecast ensemble.",
+    "missingParties": "Use the intersection of explicitly present party seat fields across eligible polls; omitted fields stay missing and are not treated as zero.",
+    "kernelFormula": "Average over shared bins of exp(-mean_party((forecast_i - forecast_j)^2)/(2 * bandwidthSeats^2)).",
+    "whyNotPearsonAcrossParties": "Direct seat differences compare the same party; no large-party/small-party ranking can produce a spurious high Pearson correlation merely because both forecasts rank party sizes similarly.",
+    "modeledMatrixFormula": "Initially R=(1-similarityStrength)I+similarityStrength*K; additional minimal identity shrinkage guarantees PSD if heterogeneous pair coverage makes the initial matrix non-PSD.",
+    "densityCorrection": "d_i=sum_j R_ij over active comparable institutes; multiply selected base weight by 1/d_i once, then normalize within the comparable group while preserving its mass relative to unsupported institutes.",
+    "unknownPairs": "Raw unknown similarities remain null. Only a largest complete comparable-institute block is eligible; unsupported institutes keep their proposed group mass. No zero-correlation assumption or automatic missing-data bonus.",
+    "completeBlockSelection": "Maximum cardinality supported clique; maximize matched-pair-window count to break ties, then deterministic institute-ID ordering.",
+    "uncertaintyUse": "R is an explicit forecast-similarity model assumption for shared simulation uncertainty, not an empirically estimated polling-error or respondent-overlap correlation. No proven effective sample count or probability calibration is inferred.",
+    "parameterSelection": "Bandwidth 2 seats and strength .25 are fixed conservative heuristic assumptions, not estimates fitted to an election outcome."
+  },
+  "sources": {
+    "historySourceUrl": "https://themadad.com/allpolls/",
+    "originalPollUrls": [
+      "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-%d7%a1%d7%a4%d7%98%d7%9e%d7%91%d7%a8-16-2026/",
+      "https://themadad.com/allpolls/",
+      "https://themadad.com/סקר-המדד-ספטמבר-22-2026/",
+      "https://www.c14.co.il/article/1703304",
+      "https://www.c14.co.il/article/1706627",
+      "https://www.c14.co.il/article/1711606",
+      "https://www.c14.co.il/article/1716250",
+      "https://www.c14.co.il/article/1720749",
+      "https://www.c14.co.il/article/1728516",
+      "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+      "https://www.israelhayom.co.il/news/politics/article/21444759",
+      "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "https://www.kan.org.il/content/kan-news/politic/1103667/",
+      "https://www.maariv.co.il/news/elections-2026/article-1370546",
+      "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "https://www.maariv.co.il/news/politics/article-1368599",
+      "https://www.maariv.co.il/news/politics/article-1375198",
+      "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+      "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm",
+      "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm",
+      "https://www.zman.co.il/725468/",
+      "https://www.zman.co.il/727390/",
+      "https://www.zman.co.il/729422/",
+      "https://www.zman.co.il/731622/"
+    ],
+    "fieldworkVerificationUrls": [
+      "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+      "https://themadad.com/סקר-המדד-ספטמבר-16-2026/",
+      "https://themadad.com/סקר-המדד-ספטמבר-22-2026/",
+      "https://themadad.com/סקר-המדד-ספטמבר-9-2026/",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey4140.pdf",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4143.pdf",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4144.pdf",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf",
+      "https://www.c14.co.il/article/1703304",
+      "https://www.c14.co.il/article/1706627",
+      "https://www.c14.co.il/article/1711606",
+      "https://www.c14.co.il/article/1716250",
+      "https://www.c14.co.il/article/1720749",
+      "https://www.c14.co.il/article/1728516",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-07-at-19.11.57.jpeg",
+      "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-a92f58d0",
+      "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+      "https://www.israelhayom.co.il/news/politics/article/21444759",
+      "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "https://www.kan.org.il/content/kan-news/politic/1098105/",
+      "https://www.kan.org.il/content/kan-news/politic/1103667/",
+      "https://www.maariv.co.il/news/elections-2026/article-1370546",
+      "https://www.maariv.co.il/news/elections-2026/article-1372750",
+      "https://www.maariv.co.il/news/politics/article-1368599",
+      "https://www.maariv.co.il/news/politics/article-1375198",
+      "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+      "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm",
+      "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm",
+      "https://www.walla.co.il/news/politics/3866713",
+      "https://www.zman.co.il/723041/",
+      "https://www.zman.co.il/725468/",
+      "https://www.zman.co.il/727390/",
+      "https://www.zman.co.il/729422/",
+      "https://www.zman.co.il/731622/"
+    ],
+    "rawInputHashes": {
+      "data/poll-history.json": "08951b5dcad80f6117cd7d0d0459d96c758cec153b09ef93eab870bba9d72ee4",
+      "data/current-polls.json": "ad22bcf2f982200d37a5d1e81e245946af4b9f37d7875418ced8ee8e8e919d86",
+      "data/strict-party-trends.json": "ce3e35dca535979287f0ec3133c667733bfc05da81383eda62e90da44b5ddc70",
+      "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e"
+    }
+  },
+  "limitations": [
+    "Similar published forecasts may reflect true public opinion, common political developments or rounding; they do not establish shared polling error, overlapping respondents or coordination.",
+    "This is not a Pearson significance test, an estimate of historical accuracy, or a validated VIF correction.",
+    "Some pairs share only one comparable calendar bin. Bins and repeated institute surveys are not independent experiments.",
+    "The common 11-party comparison currently omits parties with missing fields, including Winter and Hendel; no missing seat or support share is converted to zero.",
+    "Weekly averages are derived comparison summaries and fieldwork dates inside a shared week can differ; no interpolation or survey reconstruction is used.",
+    "The mapping from forecast similarity to shared uncertainty is heuristic. Model crossing/majority probabilities are conditional outputs, not validated probabilities.",
+    "Discounting similar forecasts can increase the relative weight of an outlying source; that is not proof that the outlier is more accurate."
+  ],
+  "reproduction": "python -X utf8 scripts/build-poll-correlation.py --as-of 2026-10-10"
+}

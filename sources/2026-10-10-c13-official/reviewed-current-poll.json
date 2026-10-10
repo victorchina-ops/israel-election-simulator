@@ -1,0 +1,416 @@
+{
+  "id": "hamadad_consortium_2026-10-07",
+  "pollsterId": "hamadad_consortium",
+  "pollster": "המדד — שמואל רוזנר ונח סלפקוב",
+  "publisher": "חדשות 13",
+  "date": "2026-10-07",
+  "publicationTime": "20:35",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": "2026-10-07T20:35:10+03:00",
+  "updatedAt": "2026-10-07T20:40:38+03:00",
+  "dateKind": "פרסום7.10.2026; הדוח הרשמי מאמת איסוף6.10 בשעה09:00 עד7.10 בשעה09:00",
+  "fieldworkStart": "2026-10-06",
+  "fieldworkEnd": "2026-10-07",
+  "sampleSize": 1263,
+  "initialSampleSize": 9694,
+  "invitedSampleSize": 9694,
+  "sampleSizeSourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+  "samplingMethod": "דגימת שכבות עם דגימה אקראית בתוך השכבות",
+  "population": "אוכלוסיית המדינה בגילאי18 ומעלה",
+  "panelProvider": "פרויקט המדגם, סטטנט, אסקריא",
+  "reportedMarginOfErrorPct": 2.8,
+  "undecidedPct": 4.1,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "percentageDenominator": "מכנה האחוזים לא פורסם; שלושת אחוזי התמיכה שפורסמו נשמרים כלשונם.",
+  "originalCoveragePct": 4.8,
+  "knownPercentageSum": 4.8,
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 20,
+    "likud": 20,
+    "beyachad": 12,
+    "democrats": 10,
+    "joint": 9,
+    "yisrael_beiteinu": 8,
+    "otzma": 8,
+    "utj": 8,
+    "shas": 7,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 5,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "hendel": 2.9,
+    "haredi_public": 1.1,
+    "gantz": 0.8
+  },
+  "reportedPercentages": {
+    "hendel": 2.9,
+    "haredi_public": 1.1,
+    "gantz": 0.8
+  },
+  "percentageSourceUrls": {
+    "hendel": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "haredi_public": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "gantz": "https://13tv.co.il/item/news/politics/politics/survey-905386103/"
+  },
+  "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+  "sourceTier": "official-submission",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2107887588119916617",
+    "https://themadad.com/",
+    "https://themadad.com/allpolls/",
+    "https://themadad.com/polls26/",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-07/c13-2026-10-07-original.html",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-07/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-07/c13-2026-10-07-source-extract.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-07/c13-2026-10-07-original-graphic-1.webp",
+    "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08/madad-c13-oct7-original.html",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08/reviewed-metadata.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08/IsraelPolls-c13-history.webp",
+    "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-10-c13-official/Survey_4193.pdf",
+    "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+  ],
+  "checkedAt": "2026-10-10",
+  "replacesPollId": "hamadad_consortium_2026-09-30",
+  "sourceBlocSeats": {
+    "coalition": 55,
+    "opposition": 50,
+    "arab_parties": 15
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "כולל עמך ישראל",
+    "opposition": "ללא ערביות",
+    "arab_parties": "הרשימה המשותפת ורע״מ"
+  },
+  "consortium": "המדד (שמואל רוזנר, נח סלפקוב), סטט־נט (יוסף מקלדה), פרויקט המדגם (ד״ר אריאל איילון), אסקריא (דודי דרור); נתונים נוספים Hive; ייעוץ סטטיסטי פרופ׳ דוד שטיינברג",
+  "notes": [
+    "ב־10.10 אומת דוח ועדת הבחירות4193 של אותו סקר7.10; האיסוף מ־6.10 בשעה09:00 עד7.10 בשעה09:00. הרשומה אינה נוספת שוב;120 המנדטים והאחוזים הארציים שכבר פורסמו נשארו ללא שינוי.",
+    "הדוח מאשר1,263 משיבים ו־2.8% טעות דגימה; מספר המדגם ההתחלתי9,694. סכום ארבע קבוצות ההזמנות9,694 מחושב מהדוח ומסומן ככזה.",
+    "איסוף משולב:1,163 משיבים יהודים באינטרנט ו־100 לא יהודים בטלפון; דגימת שכבות ואקראית בתוך שכבות. טבלאות האחוזים כוללות ארבע קבוצות בלתי משוקללות; אינן אחוזי תמיכה ארציים ולא משמשות כאחוזי הקלט למודל.",
+    "מתודולוגיית המנדטים משתמשת במשקלי המגזרים באוכלוסייה; המשקלים המספריים אינם מפורטים.4.1% מתלבטים ושלושת האחוזים מתחת לחסימה נשארים מיוחסים לפרסום המדד וערוץ13; לא מוחלפים באחוזי תת־קבוצות.",
+    "המדד מציין4.1% שלא החליטו ולא נוטים למפלגה ו־5.4% למפלגות שמתחת לחסימה. שלושת האחוזים המפורטים מסתכמים ל־4.8%. ההפרש0.6 נקודות נשמר כפער לא מוסבר, ללא שיוך למפלגה או שינוי אחוזי המודל; המכנים אינם מפורטים ולא מחסרים מתלבטים שוב.",
+    "ההשוואה המילולית במקור אומרת שהנדל ירד מתחת לחסימה, אך גם בסקר13 הקודם קיבל0 מנדטים. הניתוח משתמש במספרים שפורסמו ולא בטענה מילולית זו."
+  ],
+  "statusLabel": "דוח רשמי אומת; איסוף6–7.10;1,263 משיבים; אחוזים ארציים לרשימות העוברות לא פורסמו",
+  "sourceDocument": {
+    "fileName": "Survey_4193.pdf",
+    "kind": "official-election-committee-poll-filing",
+    "sha256": "9efadc7b68b43f2628378c7ad6f896f238f08ce542cc6d77061cbbd446318af2",
+    "extractFileName": "Survey_4193-extract.txt",
+    "extractSha256": "14692eff4a8bdd3d4b77b1b3b39846b7fc4b216888655c204d659c831636527d",
+    "primarySourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+    "reviewedAt": "2026-10-10",
+    "providedBy": "Central Elections Committee",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "sameObservationRevision": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "nationalVoteShares",
+      "percentageDenominator",
+      "numericalSectorWeights"
+    ],
+    "sourceConflicts": [
+      {
+        "field": "sampleSize",
+        "broadcastValue": 1013,
+        "originalPollsterValue": 1263,
+        "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+      },
+      {
+        "field": "reportedMarginOfErrorPct",
+        "broadcastValue": 2.5,
+        "originalPollsterValue": 2.8,
+        "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+      }
+    ],
+    "sourceTableScope": "Four separate unweighted subgroup percentage columns, explicitly not national vote shares."
+  },
+  "sourceCheckLimitations": [
+    "The official report supplies metadata and four unweighted subgroup percentage columns, explicitly not national vote shares. Passing-party national percentages remain missing.",
+    "Numerical sector weighting targets/weights are not published; no national percentage vector is reconstructed from the subgroup table.",
+    "Broadcaster sample1013 and MOE2.5 differ from actual filed1263 and2.8; source conflicts and previous records remain archived."
+  ],
+  "sourceAccessSummary": [
+    {
+      "url": "https://themadad.com/",
+      "status": 200,
+      "archiveFile": "madad-home.html"
+    },
+    {
+      "url": "https://themadad.com/allpolls/",
+      "status": 200,
+      "archiveFile": "madad-allpolls.html"
+    },
+    {
+      "url": "https://13tv.co.il/news/",
+      "status": 200,
+      "archiveFile": "c13-home.html"
+    },
+    {
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "status": 200,
+      "archiveFile": "c13-politics.html"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "status": 200,
+      "archiveFile": "IsraelPolls-profile.html"
+    },
+    {
+      "url": "https://k26polls.co.il/data/dataset.json",
+      "status": 200,
+      "archiveFile": "official-registry.json"
+    },
+    {
+      "url": "https://themadad.com/%d7%91%d7%97%d7%99%d7%a8%d7%95%d7%aa-2026/",
+      "status": 200,
+      "fileName": "madad-election-index.html"
+    },
+    {
+      "url": "https://themadad.com/category/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93/",
+      "status": 200,
+      "fileName": "madad-survey-category.html"
+    },
+    {
+      "url": "https://themadad.com/md7-10-26/",
+      "status": 200,
+      "fileName": "madad-oct7-original.html"
+    },
+    {
+      "url": "https://themadad.com/wp-json/",
+      "status": 200,
+      "fileName": "madad-api-index.json"
+    },
+    {
+      "url": "https://themadad.com/wp-json/wp/v2/pages/26810",
+      "status": 200,
+      "fileName": "madad-allpolls-api.json"
+    },
+    {
+      "url": "https://themadad.com/polls26/",
+      "status": 200,
+      "fileName": "madad-polls26.html"
+    },
+    {
+      "url": "https://themadad.com/wp-json/wp/v2/posts?per_page=15&orderby=date&order=desc",
+      "status": 200,
+      "fileName": "madad-latest-posts.json"
+    },
+    {
+      "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "status": 200,
+      "sourceKind": "original-publisher",
+      "articleBodyRead": true,
+      "archiveFile": "c13-2026-10-07-original.html"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2107887588119916617",
+      "status": 200,
+      "postTextRead": true,
+      "attachedMediaExposed": false,
+      "archiveFile": "IsraelPolls-oct7-post.html"
+    },
+    {
+      "url": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+      "status": 200,
+      "checkedAt": "2026-10-08",
+      "archiveFile": "madad-c13-oct7-original.html",
+      "archivedSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08/madad-c13-oct7-original.html"
+    },
+    {
+      "url": "https://themadad.com/wp-json/wp/v2/posts/35781",
+      "status": 200,
+      "checkedAt": "2026-10-08",
+      "archiveFile": "madad-wp-post-35781.json",
+      "archivedSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08/madad-wp-post-35781.json"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2107887588119916617",
+      "status": 200,
+      "checkedAt": "2026-10-08",
+      "archiveFile": "IsraelPolls-c13-oct7-post.html",
+      "archivedSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-08/IsraelPolls-c13-oct7-post.html"
+    },
+    {
+      "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+      "status": 200,
+      "checkedAt": "2026-10-10",
+      "archiveFile": "Survey_4193.pdf",
+      "sha256": "9efadc7b68b43f2628378c7ad6f896f238f08ce542cc6d77061cbbd446318af2"
+    }
+  ],
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-10-c13-official/Survey_4193.pdf",
+  "marginConfidencePct": 95,
+  "reportedMarginOfErrorDescription": "טעות דגימה ממוצעת ברמה הארצית",
+  "fieldworkSourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+  "undecidedSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+  "undecidedDenominator": "לא החליטו ולא נוטים למפלגה; מכנה המשיבים אינו מפורט",
+  "reportedBelowThresholdTotalPct": 5.4,
+  "belowThresholdTotalSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+  "belowThresholdNamedSumPct": 4.8,
+  "belowThresholdUnexplainedDifferencePP": 0.6,
+  "metadataUpdatedAt": "2026-10-10",
+  "previousSourceDocument": {
+    "fileName": "c13-2026-10-07-original.html",
+    "kind": "original-publisher-web-article",
+    "sha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013",
+    "extractFileName": "c13-2026-10-07-source-extract.txt",
+    "extractSha256": "94eb01d34edac50afc508560350881ce7eac311e354a8a3f704fc00e9d2bcb5b",
+    "originalGraphicFileName": "c13-2026-10-07-original-graphic-1.webp",
+    "originalGraphicSha256": "b92e88d5b849e3251475215beb6dca03253bd9b9633d51c21b6c421fb1223dd6",
+    "originalGraphicUrl": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1791389155/uploads/2026/905386337.webp",
+    "reviewedAt": "2026-10-07",
+    "providedBy": "original-publisher",
+    "publicationCrossChecked": true,
+    "primarySourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "primaryPublicationVerified": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "fieldworkStart",
+      "fieldworkEnd",
+      "samplingMethod",
+      "population",
+      "panelProvider",
+      "undecidedPct",
+      "percentageDenominator"
+    ],
+    "publishedAt": "2026-10-07T20:35:10+03:00",
+    "articleUpdatedAt": "2026-10-07T20:40:38+03:00",
+    "timestampSourceKind": "NewsArticle.datePublished",
+    "videoUploadDate": "2026-10-07T20:35:10+03:00",
+    "fullPollSearchReceiptFileName": "full-poll-search-receipt.json"
+  },
+  "previousSourceMetadata": {
+    "sampleSize": 1013,
+    "reportedMarginOfErrorPct": 2.5,
+    "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+    "fieldworkStart": null,
+    "fieldworkEnd": null,
+    "undecidedPct": null
+  },
+  "previousNotes": [
+    "סקר חדשות 13 / המדד מ־7.10.2026 מחליף את סקר 30.9 של אותו מכון במאגר הפעיל; הסקר הקודם נשמר בהיסטוריה.",
+    "כל 120 המנדטים, שלושת האחוזים מתחת לחסימה, 1,013 משיבים וטעות הדגימה המדווחת של 2.5% אומתו בכתבת חדשות 13 המקורית; המנדטים אומתו גם בגרפיקה המקורית.",
+    "תאריך ושעת הרשומה הם מועד פרסום הכתבה. תאריכי עבודת השדה, שיטת הדגימה, מכנה האחוזים ואחוז המתלבטים לא פורסמו במקור שנבדק ונשארים חסרים.",
+    "לא אותר עדיין דוח מלא של סקר 7.10 במדד או בהגשות שנחשפו במאגר ועדת הבחירות. דפי הבית, הסקרים, הבחירות, הקטגוריה וה־API הציבורי נבדקו. נתוני תחזית או מודל של המדד אינם נתוני הסקר הגולמיים.",
+    "רק הנדל–זליכה 2.9%, הציבור החרדי 1.1% וכחול לבן 0.8% הם אחוזים שפורסמו. אחוזי המפלגות העוברות נשארים חסרים ומושחזרים במודל מהמנדטים; אחוז חסר אינו אפס.",
+    "ישראלPolls פרסם את אותה תצפית. ה־65 שלו כוללים את המפלגות הערביות: בכתבה המקורית מוצגים 55 לקואליציה, 50 לאופוזיציה ללא ערביות ו־15 לערביות. וינטר נשאר על 5 מנדטים לעומת הסקר הקודם; אינו יורד מ־6.",
+    "עד אימות ימי האיסוף, סקר זה אינו נוסף לניתוח המגמות המחמיר המוגבל לעבודת שדה לאחר סגירת הרשימות."
+  ],
+  "sourceConflicts": [
+    {
+      "field": "sampleSize",
+      "broadcastValue": 1013,
+      "originalPollsterValue": 1263,
+      "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+    },
+    {
+      "field": "reportedMarginOfErrorPct",
+      "broadcastValue": 2.5,
+      "originalPollsterValue": 2.8,
+      "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+      "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+    }
+  ],
+  "metadataRevisionHistory": [
+    {
+      "reviewedAt": "2026-10-10",
+      "previousSourceDocument": {
+        "fileName": "madad-c13-oct7-original.html",
+        "kind": "original-pollster-web-article",
+        "sha256": "05885a3bfb969c0769f87147ac6f1588850f9342fea95db6db62f963e26f9436",
+        "extractFileName": "madad-c13-oct7-source-extract.txt",
+        "extractSha256": "54b5522790d8f04978bd0c719c344321bbdd7df67c8f39a2d4c6196ce335e787",
+        "primarySourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+        "reviewedAt": "2026-10-08",
+        "providedBy": "original-pollster",
+        "primaryPublicationVerified": true,
+        "publicationCrossChecked": true,
+        "metadataPending": true,
+        "metadataPendingFields": [
+          "samplingMethod",
+          "population",
+          "panelProvider",
+          "percentageDenominator",
+          "nationalVoteShares",
+          "weightingMethod"
+        ],
+        "sourceConflicts": [
+          {
+            "field": "sampleSize",
+            "broadcastValue": 1013,
+            "originalPollsterValue": 1263,
+            "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+            "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+          },
+          {
+            "field": "reportedMarginOfErrorPct",
+            "broadcastValue": 2.5,
+            "originalPollsterValue": 2.8,
+            "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+            "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+          }
+        ],
+        "sameObservationRevision": true
+      },
+      "previousNotes": [
+        "ב־8.10 אומת פרסום הסוקר המקורי של אותה תצפית מ־7.10: האיסוף נערך ב־6.10.2026. הסקר לא נוסף שוב למאגר; כעת הוא נכלל בניתוח המגמות המחמיר לאחר סגירת הרשימות.",
+        "המדד מפרסם 1,263 משיבים וטעות דגימה ממוצעת ברמה הארצית של ±2.8 נקודות אחוז ברמת ביטחון95%. כתבת ערוץ13 מפרסמת1,013 ו־2.5%; נשמרים שני הדיווחים. המקור הישיר של הסוקר משמש לפרטים אלה עד שיופיע דוח מלא; ניסוח הטעות הממוצעת נשמר ואינו מוצג כטעות מרבית.",
+        "כל120 המנדטים ושלושת אחוזי התמיכה מתחת לחסימה נשארים ללא שינוי. אחוזי הרשימות העוברות, שיטת האיסוף, אוכלוסיית היעד, ספק הפאנל וכללי השקלול עדיין חסרים; לא מועתקים מהסקר הקודם.",
+        "המדד מציין4.1% שלא החליטו ולא נוטים למפלגה ו־5.4% למפלגות שמתחת לחסימה. שלושת האחוזים המפורטים מסתכמים ל־4.8%. ההפרש0.6 נקודות נשמר כפער לא מוסבר, ללא שיוך למפלגה או שינוי אחוזי המודל; המכנים אינם מפורטים ולא מחסרים מתלבטים שוב.",
+        "ההשוואה המילולית במקור אומרת שהנדל ירד מתחת לחסימה, אך גם בסקר13 הקודם קיבל0 מנדטים. הניתוח משתמש במספרים שפורסמו ולא בטענה מילולית זו."
+      ],
+      "previousSourceCheckLimitations": [
+        "No new complete C13 Oct7 filing was exposed in the inspected registry; latest Rosner filing remains Survey_4182 for Sep29–30.",
+        "Full original text has no PDF links, sampling mode/population/panel specification or passing-party raw national shares.",
+        "Aggregate below-threshold 5.4% differs from named shares 4.8% by 0.6 percentage points. Do not assign the unnamed remainder to a particular party; the denominator is not explicit.",
+        "The narrative says Hendel drops below threshold, but existing Sep30 C13 already had 0 seats and 2.8%; preserve the raw text without counting a new observation.",
+        "The web read tool failed for the new post/URL; direct HTTP API and human page were both read successfully with status200."
+      ],
+      "previousFieldwork": {
+        "start": "2026-10-06",
+        "end": "2026-10-06"
+      },
+      "reason": "Official fullreport newly verified; same observation, no new poll."
+    }
+  ],
+  "fieldworkStartedAt": "2026-10-06T09:00:00+03:00",
+  "fieldworkEndedAt": "2026-10-07T09:00:00+03:00",
+  "fieldworkTimeZone": "Asia/Jerusalem",
+  "invitedSampleSizeKind": "sum-of-four-reported-invitation-groups",
+  "collectionMode": "תשאול משולב:1,163 מהאוכלוסייה היהודית באינטרנט ו־100 מהאוכלוסייה הלא יהודית בטלפון",
+  "sampleComposition": [
+    {
+      "group": "בוגרים יהודים",
+      "respondents": 603,
+      "invited": 4478
+    },
+    {
+      "group": "צעירים",
+      "respondents": 60,
+      "invited": 1642
+    },
+    {
+      "group": "חרדים",
+      "respondents": 500,
+      "invited": 3135
+    },
+    {
+      "group": "ערבים",
+      "respondents": 100,
+      "invited": 439
+    }
+  ],
+  "weightingMethod": "המנדטים משוקללים לפי משקלי המגזרים באוכלוסייה; ערכי המשקולות המספריים אינם מפורטים בדוח."
+}

@@ -1,0 +1,13 @@
+{
+  "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+  "finalUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+  "status": 200,
+  "checkedAtUtc": "2026-10-10T15:09:52.594001+00:00",
+  "sha256": "9efadc7b68b43f2628378c7ad6f896f238f08ce542cc6d77061cbbd446318af2",
+  "byteCount": 243950,
+  "pages": 2,
+  "extractSha256": "14692eff4a8bdd3d4b77b1b3b39846b7fc4b216888655c204d659c831636527d",
+  "discoveryUrl": "https://twonetwenty.com/he/evidence",
+  "firstKnownLinkEvidence": "github-pages/sources/2026-10-09-signal-noise-toggle/to120-source-check.json",
+  "scope": "same Oct7 observation; original metadata verification only; no national vote percentages published in official table"
+}

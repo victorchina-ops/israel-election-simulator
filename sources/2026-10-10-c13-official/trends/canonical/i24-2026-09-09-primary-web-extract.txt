@@ -1,0 +1,5 @@
+Primary publisher web-reader extract; checked 2026-09-28
+Source: https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-a92f58d0
+Web reader lines 64 and 79. The direct HTTP request returned an app shell and is NOT treated as article evidence.
+
+המדגם נאסף ונערך על ידי דיירקט פולס בע"מ בראשות צוריאל שרון עבור ערוץ i24NEWS, בתאריך ה-9 בספטמבר 2026, באמצעות מערכת דיגיטלית בשילוב פאנל, בקרב 1,054 נדגמים בוגרים (18+) המהווים מדגם מייצג של האוכלוסייה בישראל. טעות הדגימה הסטטיסטית 3.0% ± בהסתברות של 95%.

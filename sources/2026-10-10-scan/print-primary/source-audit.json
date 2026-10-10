@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "dateIsrael": "2026-10-10",
+  "requestedScanStartIsrael": "2026-10-10T18:03:00+03:00",
+  "auditScope": "Read-only new published Knesset election poll scan: Maariv, Walla, IsraelHayom, ZmanIsrael, i24NEWS, Channel16. IsraelPolls and other outlets are handled by the root audit.",
+  "baseline": {
+    "file": "data/current-polls.json",
+    "asOf": "2026-10-09",
+    "historicalPollCountProvidedByRoot": 114
+  },
+  "result": "No verified new poll found in the readable primary sources and Channel16 public poll-search index. This is bounded by the content limitations recorded below.",
+  "canonicalDataEdited": false,
+  "sitePublished": false,
+  "checks": [
+    {
+      "publisher": "Maariv",
+      "url": "https://www.maariv.co.il/",
+      "access": "HTTP200-readable-direct",
+      "note": "Web reader failed; approved direct HTTP succeeded. Current homepage links to recorded poll article1375198 and later analysis articles1375267/1375388."
+    },
+    {
+      "publisher": "Maariv",
+      "url": "https://www.maariv.co.il/news/politics",
+      "access": "HTTP200-readable-direct",
+      "note": "Latest poll entry dated9.10.2026,06:00 points to already recorded article1375198. Later entries include commentary, not another observation."
+    },
+    {
+      "publisher": "Maariv",
+      "url": "https://www.maariv.co.il/news/elections-2026",
+      "access": "HTTP200-readable-direct",
+      "note": "Current primary election index inspected. Embedded center displays older5.10 figures, so it is not used alone to date newest polls."
+    },
+    {
+      "publisher": "Maariv",
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1375388",
+      "access": "HTTP200-readable-direct",
+      "note": "Oct10 analysis of Lazar's existing weekly poll; no new sample, fieldwork or seat vector. Visible publication12:06; structured datePublished2026-10-10T06:00:47+03:00 and dateModified12:49. These are article timestamps, not a new survey date."
+    },
+    {
+      "publisher": "Maariv",
+      "url": "https://www.maariv.co.il/news/politics/article-1375267",
+      "access": "HTTP200-readable-direct",
+      "note": "Oct9 interview/commentary by103FM; structured datePublished2026-10-09T10:30:39+03:00, dateModified11:32:58. Discusses existing Lazar poll."
+    },
+    {
+      "publisher": "Walla",
+      "url": "https://news.walla.co.il/",
+      "access": "web-reader-readable",
+      "finalUrl": "https://www.walla.co.il/news",
+      "note": "Current news homepage lists the existing Lazar poll, updated9.10."
+    },
+    {
+      "publisher": "Walla",
+      "url": "https://news.walla.co.il/category/2686",
+      "access": "web-reader-readable",
+      "finalUrl": "https://www.walla.co.il/news/politics",
+      "note": "Current politics index points to existing poll383956803."
+    },
+    {
+      "publisher": "Walla",
+      "url": "https://elections.walla.co.il/",
+      "access": "web-reader-readable",
+      "note": "Election index directly inspected; no verified new observation found."
+    },
+    {
+      "publisher": "Walla",
+      "url": "https://www.walla.co.il/news/politics/383956803",
+      "access": "web-reader-readable",
+      "note": "Updated9.10,08:30; picture labels poll8.10. Fieldwork7–8.10,n700,Panel4All,maximum error3.7%. Seats and below-threshold figures matchlazar_2026-10-09. Repost/update is not counted as another poll."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "url": "https://www.israelhayom.co.il/",
+      "access": "web-reader-readable",
+      "note": "Current homepage directly inspected."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "url": "https://www.israelhayom.co.il/news/politics",
+      "access": "web-reader-readable",
+      "note": "Current politics index links to recorded Kantar article21582636; no newer verified poll found."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "url": "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "access": "HTTP200-readable-direct",
+      "note": "Web reader failed on article; direct HTTP succeeded. Structured publication2026-10-08T15:15:09Z, update15:22:52Z. Original fieldwork7–8.10,n555,invited2359,error4.2%; vector matcheskantar_2026-10-08."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "url": "https://www.zman.co.il/",
+      "access": "web-reader-readable",
+      "note": "Current homepage inspected; existing Tatika poll shown among popular weekly items."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "url": "https://www.zman.co.il/feed/33350/",
+      "access": "web-reader-readable",
+      "note": "Dedicated poll index directly inspected. Latest item731622 labeled two days ago, matching8.10. Seat table,Hendel3.2%,Gantz1.2% match canonical record."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "url": "https://www.zman.co.il/feed/2365/",
+      "access": "web-reader-readable",
+      "note": "Election journal index directly inspected; no new election poll identified."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "url": "https://www.zman.co.il/731622/",
+      "access": "web-reader-readable",
+      "note": "Original poll article directly inspected. Confirms fieldwork7–8.10,n500,error4.4%,Adgenda panel; matches tatika_2026-10-08."
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he",
+      "access": "web-reader-readable",
+      "note": "Current homepage directly inspected."
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+      "access": "web-reader-readable",
+      "note": "Primary dedicated poll index directly inspected. Latest displayed poll8.10; twelve-party vector totals120 and matches canonical DirectPolls record. Methodology says collection7.10,n518,error4.3%,confidence95%."
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026",
+      "access": "application-shell-only",
+      "note": "Web reader returned only JavaScript requirement; no readable election index. Do not infer no new publication from this surface."
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/politics",
+      "access": "web-reader-inaccessible",
+      "note": "Web reader reported not accessible. The dedicated poll index and original article were separately readable."
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+      "access": "web-reader-readable",
+      "note": "Original article directly inspected; introduction says publication8.10, methodological paragraph specifies collection7.10. Published mandate vector matchesdirect_polls_2026-10-08; no new observation."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/",
+      "access": "HTTP200-application-shell-only",
+      "note": "Web reader0lines; direct HTTP returned99816characters but stripped readable content onlych16israel. Homepage poll feed not successfully readable."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/serie/6a71856d4a2ff1d9cb40cf61",
+      "access": "HTTP200-application-shell-only",
+      "note": "Direct primary news-series index returned110249characters but readable title only. Public backing API inspected separately."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "access": "HTTP200-application-shell-only",
+      "note": "Known original Oct6 poll player returned109447characters without readable article text; not claimed as new content verification."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://insight-api-shared.univtec.com/interface/search/search?q=%D7%A1%D7%A7%D7%A8",
+      "access": "HTTP200-readable-public-publisher-API",
+      "note": "Public unauthenticated GET with publisher app headersx-tenant-id=ch16israel,platform=web,x-device-type=web; noAuthorization token. Returned8poll clips. Newest is6ac52db1be11035fe627ec5a,titleסקר בחירות6.10,date1791307185232,dateUpdate1791307378290,already recordedmaagar_mochot_2026-10-06. No newer clip found in this search result."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://insight-api-shared.univtec.com/interface/pages/series/6a71856d4a2ff1d9cb40cf61",
+      "access": "HTTP200-readable-public-publisher-API",
+      "note": "Public news-programme series metadata inspected:90episodes,5seasons,8October entries. No item explicitly identified as a new poll. News-programme uploads are not polls by themselves."
+    }
+  ],
+  "candidateDecisions": [
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1375388",
+      "articleDate": "2026-10-10",
+      "classification": "commentary-on-existing-poll",
+      "newPoll": false,
+      "reason": "Lazar analysis of existing weekly results; no distinct sample/fieldwork or published new party vector."
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics/article-1375267",
+      "articleDate": "2026-10-09",
+      "classification": "interview-on-existing-poll",
+      "newPoll": false
+    },
+    {
+      "url": "https://www.walla.co.il/news/politics/383956803",
+      "articleLastUpdateIsrael": "2026-10-09T08:30:00+03:00",
+      "classification": "same-poll-republication-or-update",
+      "matchesCanonicalId": "lazar_2026-10-09",
+      "newPoll": false
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "classification": "same-original-poll",
+      "matchesCanonicalId": "kantar_2026-10-08",
+      "newPoll": false
+    },
+    {
+      "url": "https://www.zman.co.il/731622/",
+      "classification": "same-original-poll",
+      "matchesCanonicalId": "tatika_2026-10-08",
+      "newPoll": false
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+      "classification": "same-original-poll",
+      "matchesCanonicalId": "direct_polls_2026-10-08",
+      "newPoll": false
+    },
+    {
+      "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "classification": "same-known-poll-clip-metadata",
+      "matchesCanonicalId": "maagar_mochot_2026-10-06",
+      "newPoll": false
+    }
+  ],
+  "newVerifiedPolls": [],
+  "limitations": [
+    "Channel16 static pages and i24 election index were application shells; i24 politics was inaccessible to the web reader. These are not successfully read surfaces.",
+    "A bounded accessible-primary-source scan and public poll-search result cannot prove that no poll exists on an inaccessible surface.",
+    "No raw surveys, historical rows, scenarios, weighting profiles or published site were edited. This file is a concise audit receipt; root handles full evidence archiving."
+  ],
+  "completedAtUtc": "2026-10-10T15:12:09.4652553Z"
+}

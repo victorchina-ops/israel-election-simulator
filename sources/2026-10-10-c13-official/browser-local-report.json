@@ -1,0 +1,277 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "runId": "2026-10-10T15-28-13-383Z-30236",
+  "base": "http://127.0.0.1:8791/",
+  "asOf": "2026-10-10",
+  "expectedCoverage": {
+    "pollCount": 32,
+    "seriesCount": 7,
+    "deltaCount": 25,
+    "partyCount": 17,
+    "from": "2026-09-09",
+    "to": "2026-10-08",
+    "closureDate": "2026-09-08",
+    "excludedPollCount": 11,
+    "fieldworkExcludedPollCount": 4,
+    "unverifiedExcludedPollCount": 4,
+    "channel14ExcludedPollCount": 7
+  },
+  "checks": [
+    "Fresh About with loaded author photo; seven stable tab labels; no Ask ChatGPT; light/dark persists after reload",
+    "Current data/date and C13 metadata served exactly; quality weights, Channel 14 off, signal/noise off, similarity off; 120-seat partition",
+    "All seven stable tab IDs render and preserve desktop geometry",
+    "Strict analysis is dated October 10 and defaults to independently recomputed without-14 coverage, exact p/q/verdicts and corrected C13 cohort dates",
+    "Poll register shows C13 publication October 7, fieldwork October 6-7, n=1263, retained source links and published seat vector",
+    "Pair and triple ALL-selected-fail counts/probabilities/Wilson intervals/distributions match independent aggregation of the same exported simulation histogram; CSV retains the event",
+    "All seven tabs fit 390px and 320px without document overflow; mobile joint selection and explicit poll-trends deep link work"
+  ],
+  "geometry": [
+    {
+      "label": "1440-about",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 1903
+    },
+    {
+      "label": "1440-about",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 1903
+    },
+    {
+      "label": "1440-dashboard",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6103
+    },
+    {
+      "label": "1440-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4687
+    },
+    {
+      "label": "1440-poll-trends",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 8319
+    },
+    {
+      "label": "1440-seat-probabilities",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 4316
+    },
+    {
+      "label": "1440-poll-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 6002
+    },
+    {
+      "label": "1440-method-data",
+      "viewport": 1440,
+      "client": 1440,
+      "scroll": 1425,
+      "height": 5154
+    },
+    {
+      "label": "390-about",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 3163
+    },
+    {
+      "label": "390-dashboard",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 10252
+    },
+    {
+      "label": "390-probabilities",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 8095
+    },
+    {
+      "label": "390-poll-trends",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 13778
+    },
+    {
+      "label": "390-seat-probabilities",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 7182
+    },
+    {
+      "label": "390-poll-data",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 8838
+    },
+    {
+      "label": "390-method-data",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 9687
+    },
+    {
+      "label": "320-about",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 3596
+    },
+    {
+      "label": "320-dashboard",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 12255
+    },
+    {
+      "label": "320-probabilities",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 8736
+    },
+    {
+      "label": "320-poll-trends",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 15679
+    },
+    {
+      "label": "320-seat-probabilities",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 8596
+    },
+    {
+      "label": "320-poll-data",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 10143
+    },
+    {
+      "label": "320-method-data",
+      "viewport": 320,
+      "client": 320,
+      "scroll": 305,
+      "height": 11209
+    },
+    {
+      "label": "390-joint-triple",
+      "viewport": 390,
+      "client": 390,
+      "scroll": 375,
+      "height": 8304
+    }
+  ],
+  "pageErrors": [],
+  "sourceHashes": {
+    "data/current-polls.json": "ad22bcf2f982200d37a5d1e81e245946af4b9f37d7875418ced8ee8e8e919d86",
+    "data/strict-party-trends.json": "ce3e35dca535979287f0ec3133c667733bfc05da81383eda62e90da44b5ddc70",
+    "data/strict-party-trends-without-channel14.json": "98fc1157fbcc4055f3d42d6a98ce914d65f660bf59dcf30f1c333cb7e0a7b659",
+    "scripts/browser-c13-official-revision-2026-10-10.mjs": "ef80ff7604b4a46be7a155a4d502652db75c52e506781d409c1d155350cdd273"
+  },
+  "response": {
+    "url": "http://127.0.0.1:8791/?qa=2026-10-10T15-28-13-383Z-30236",
+    "status": 200
+  },
+  "strict": {
+    "asOf": "2026-10-10",
+    "coverage": {
+      "pollCount": 32,
+      "seriesCount": 7,
+      "deltaCount": 25,
+      "partyCount": 17,
+      "from": "2026-09-09",
+      "to": "2026-10-08",
+      "closureDate": "2026-09-08",
+      "excludedPollCount": 11,
+      "fieldworkExcludedPollCount": 4,
+      "unverifiedExcludedPollCount": 4,
+      "channel14ExcludedPollCount": 7
+    },
+    "significant": [
+      "joint"
+    ],
+    "c13": {
+      "text": "חדשות 13 / המדד\t07.10.2026\t06.10.2026\t07.10.2026\tנכלל\tמקור הסקר",
+      "href": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+      "decision": "נכלל"
+    },
+    "cohortRows": 43
+  },
+  "c13Register": {
+    "pollId": "hamadad_consortium_2026-10-07",
+    "text": "חדשות 13\nהמדד — שמואל רוזנר ונח סלפקוב\n\t07.10.2026\t06.10.2026–07.10.2026\t1263\nמקור גודל המדגם\n\t10.10.2026\tמקור שנאסף\nנתונים ממאגר משני",
+    "source": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+    "sampleSource": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf"
+  },
+  "pair": {
+    "ids": [
+      "winter",
+      "hendel"
+    ],
+    "count": 3129,
+    "total": 10000,
+    "probability": 0.3129,
+    "distribution": [
+      1239,
+      5632,
+      3129
+    ],
+    "ci": [
+      0.3038854634195614,
+      0.3220582287707457
+    ],
+    "atLeastTwoCount": 3129,
+    "independenceProduct": 0.351708
+  },
+  "triple": {
+    "ids": [
+      "winter",
+      "hendel",
+      "raam"
+    ],
+    "count": 67,
+    "total": 10000,
+    "probability": 0.0067,
+    "distribution": [
+      1205,
+      5506,
+      3222,
+      67
+    ],
+    "ci": [
+      0.00527963331754198,
+      0.00849921947496755
+    ],
+    "atLeastTwoCount": 3289,
+    "independenceProduct": 0.009179578800000001
+  },
+  "checkedAt": "2026-10-10T15:28:25.524Z"
+}

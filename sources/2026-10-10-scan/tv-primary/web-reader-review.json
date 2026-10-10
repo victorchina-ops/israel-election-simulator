@@ -1,0 +1,51 @@
+{
+  "checkedAtUtc": "2026-10-10T15:24:44.640798+00:00",
+  "method": "Primary web text reader separately from archived direct HTTP responses",
+  "records": [
+    {
+      "url": "https://www.mako.co.il/news-politics",
+      "access": "readable-primary-index",
+      "finding": "9 October opinion article; no later national mandate vector exposed"
+    },
+    {
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "access": "readable-primary-index",
+      "finding": "7 October national mandate article plus 9 October opinion/subgroup followups"
+    },
+    {
+      "url": "https://www.kan.org.il/content/kan-news/politic/",
+      "access": "zero-extracted-lines",
+      "finding": null
+    },
+    {
+      "label": "c13-public-expectations",
+      "url": "https://13tv.co.il/item/news/politics/politics/elections-905389093/?pid=519",
+      "primaryWebReader": "readable-and-reviewed",
+      "classification": "supplementary-not-mandate-model-input",
+      "meaning": "Public expectations about which bloc will win, not intended party vote or a new mandate vector.",
+      "articleDate": "2026-10-09",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "status": 403,
+      "finalUrl": "https://13tv.co.il/item/news/politics/politics/elections-905389093/?pid=519",
+      "sourceFile": "tv-primary/c13-public-expectations.html",
+      "sha256": "fda64d43d12bae5c4b0111a5a22850691d6420af2120051e2600e3c9d9c088ed",
+      "checkedAtUtc": "2026-10-10T15:24:44.572747+00:00"
+    },
+    {
+      "label": "c13-age-sector",
+      "url": "https://13tv.co.il/item/news/politics/politics/turw1-905388684/?pid=519",
+      "primaryWebReader": "readable-and-reviewed",
+      "classification": "supplementary-not-mandate-model-input",
+      "meaning": "Age/sector preferences discussed in a follow-up article; no new national mandate vector.",
+      "articleDate": "2026-10-09",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "status": 403,
+      "finalUrl": "https://13tv.co.il/item/news/politics/politics/turw1-905388684/?pid=519",
+      "sourceFile": "tv-primary/c13-age-sector.html",
+      "sha256": "78f2aa7ad0bcc73741b82b216b19d1eb2032d1cea8a2cc53feca8a0af51c32d4",
+      "checkedAtUtc": "2026-10-10T15:24:44.640798+00:00"
+    }
+  ]
+}

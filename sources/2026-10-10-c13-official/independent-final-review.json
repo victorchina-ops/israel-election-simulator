@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-10T15:26:48.708681+00:00",
+  "reviewer": "independent-original-source-verification-agent",
+  "status": "PASS",
+  "asOf": "2026-10-10",
+  "scope": "Independent original C13 filing verification, checkpoint comparison of canonical model inputs, N12 supplementary-opinion classification and article/date distinction, IsraelPolls graphic/table review, source access limitations, extraction provenance; no independent re-run of statistical tests or website build.",
+  "checks": {
+    "currentIdsAndOrderUnchanged": true,
+    "currentCountCorrect": true,
+    "currentNumericalModelInputsUnchanged": true,
+    "currentOtherRowsEntirelyUnchanged": true,
+    "currentC13MetadataMatchesOfficialReport": true,
+    "currentC13OfficialSeatVectorMatches": true,
+    "currentC13SampleCompositionMatches": true,
+    "currentC13PublicationStillOct7": true,
+    "currentNationalPctAttributionPreserved": true,
+    "historyIdsAndOrderUnchanged": true,
+    "historyCountCorrect": true,
+    "historyNumericalModelInputsUnchanged": true,
+    "historyOtherRowsEntirelyUnchanged": true,
+    "historyC13MetadataMatchesOfficialReport": true,
+    "historyC13OfficialSeatVectorMatches": true,
+    "historyC13SampleCompositionMatches": true,
+    "historyC13PublicationStillOct7": true,
+    "historyNationalPctAttributionPreserved": true,
+    "NoOpinionMandateRecords": true,
+    "N12OpinionExcluded": true,
+    "N12UnknownDatesAndSamplePreserved": true,
+    "N12ArticleDateSeparated": true,
+    "N12BlocSharesAndInclusionsCorrect": true,
+    "SourceClassificationCountsCorrect": true,
+    "LatestSourceCheckUpdated": true,
+    "N12SourceTitleNamesArticle": true,
+    "CanonicalAuditDatesAligned": true,
+    "OriginalPdfHashMatches": true,
+    "OriginalPhysicalExtractPreserved": true,
+    "NormalizedExtractHashMatches": true,
+    "OnlyExtractLineEndingsChanged": true
+  },
+  "errors": [],
+  "checkedModelFields": [
+    "seats",
+    "seatTotal",
+    "percentages",
+    "reportedPercentages",
+    "unmodelledNamedParties",
+    "requiresReconstruction",
+    "originalCoveragePct",
+    "knownPercentageSum",
+    "undecidedPct"
+  ],
+  "physicalInputSha256": {
+    "data/current-polls.json": "ad22bcf2f982200d37a5d1e81e245946af4b9f37d7875418ced8ee8e8e919d86",
+    "data/poll-history.json": "08951b5dcad80f6117cd7d0d0459d96c758cec153b09ef93eab870bba9d72ee4",
+    "data/sources.json": "ec72c999c31fb9b5dcefa9fc12d4f8a102cbb436d6c306fbadee54e43323885f",
+    "data/strict-party-trends.json": "ce3e35dca535979287f0ec3133c667733bfc05da81383eda62e90da44b5ddc70",
+    "data/strict-party-trends-without-channel14.json": "98fc1157fbcc4055f3d42d6a98ce914d65f660bf59dcf30f1c333cb7e0a7b659",
+    "data/poll-correlation.json": "d948abbfed461290653442de2b30d6add869b1d3390e053a5ff70864efe6a0ef",
+    "artifacts/poll-checks/2026-10-10/source-scan-summary.json": "25eb1683f85288ec9082d91343e2cf77940fcde96c76d1ef82fa7018ba99aca1",
+    "artifacts/poll-checks/2026-10-10/c13-official-discovery/original-receipt.json": "d5a60032ee12e986c90fc5f85ae344e8e66c8369949f8daef0576e0cba5ebae0",
+    "artifacts/poll-checks/2026-10-10/c13-official-discovery/extract-normalization-receipt.json": "d726095faf1b3d5dd6a0a5c849721dd54fd08664db3736589adbaa8404eeedd5",
+    "artifacts/poll-checks/2026-10-10/social/figure-source-evidence.json": "39e8a2d7bba798ebb7325b931aa4fbddb304c4fe56091c01e54f9ac8117400e0"
+  },
+  "findings": [
+    "Same October7 C13 observation; original report pages1 and2 visually inspected. Fieldwork corrected to6October09:00 through7October09:00. OnlineJewish1163 plus nonJewishtelephone100; four subgroupcolumns are unweighted and not national vote shares.",
+    "N12 50/35 percentages use the stated bloc inclusions. They are support figures, not mandate counts or model probabilities; article9October21:28 says the survey was published previously (אמש), so its first publication and fieldwork/sample remain unconfirmed.",
+    "All fresh IsraelPolls latest seat vectors match existing records; weekly average/comparison tables are compiled summaries rather than new surveys. Maariv bloc graphic repeats the documented118-seat error while party vector remains120.",
+    "Original extraction physicalCRLF bytes retained; operationalLF extraction changes only line endings and now matches the existing extract digest."
+  ],
+  "limitations": [
+    "Source-summary claims are bounded to readable content; Kan403/zero-line responses and application shells do not prove absence of new polls.",
+    "Separate Channel13 web-reader opinions were reviewed by root; their archived directHTTP403 responses are correctly distinguished from the successful reader method.",
+    "Published numerical sector weights and passing-party national C13 vote percentages remain missing. No subgroup percentage vector was ingested into model inputs."
+  ],
+  "filesEditedByThisReview": [
+    "artifacts/poll-checks/2026-10-10/independent-final-review.json"
+  ]
+}

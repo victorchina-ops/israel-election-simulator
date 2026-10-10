@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-10",
+  "newMandatePolls": 0,
+  "authoredContentFilesUnchanged": 117,
+  "everyComparedNumericalCollectionExactlyEqual": [
+    "probabilities",
+    "probabilityCI",
+    "blocStats",
+    "reportingGroups",
+    "parties",
+    "meanBallots",
+    "meanValid",
+    "meanTurnout",
+    "thresholdJoint",
+    "checks",
+    "blocHist",
+    "coalitionHist",
+    "coalitionStats",
+    "counts",
+    "worlds"
+  ],
+  "simulations": 10000,
+  "allPartyMandatesAndPassProbabilitiesExactlyUnchanged": true,
+  "jointFailureHistogramExactlyUnchanged": true,
+  "defaultSignificanceVerdictsUnchanged": true,
+  "defaultStrictCohort": {
+    "pollCount": 32,
+    "seriesCount": 7,
+    "deltaCount": 25,
+    "partyCount": 17,
+    "from": "2026-09-09",
+    "to": "2026-10-08",
+    "closureDate": "2026-09-08",
+    "excludedPollCount": 11,
+    "fieldworkExcludedPollCount": 4,
+    "unverifiedExcludedPollCount": 4,
+    "channel14ExcludedPollCount": 7
+  },
+  "joint": {
+    "partyId": "joint",
+    "partyName": "הרשימה המשותפת",
+    "weightedFirstSeats": 7.144150222174343,
+    "weightedLastSeats": 7.868703949598179,
+    "weightedNetDelta": 0.7245537274238368,
+    "slopePerWeek": 0.17987034283510772,
+    "pValue": 0.00095,
+    "wholeSeriesSignFlipP": 0.0625,
+    "upwardSeries": 5,
+    "downwardSeries": 0,
+    "flatSeries": 2,
+    "zeroSeatsThroughout": false,
+    "qValue": 0.01615,
+    "wholeSeriesSignFlipQ": 0.53125
+  },
+  "probabilities": {
+    "a": 0.0414,
+    "b": 0.0012,
+    "neither": 0.9574,
+    "coalitionA": 0.0414,
+    "coalitionB": 0.0012,
+    "coalitionNeither": 0.9574,
+    "coalitionBoth": 0
+  },
+  "checks": {
+    "seatsSum": 120,
+    "eachWorld120": true,
+    "blocPartition120": true,
+    "probabilityTotal": 1
+  }
+}

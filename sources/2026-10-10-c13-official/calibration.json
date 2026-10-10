@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-09-12",
+  "status": "limited_historical_benchmark_not_probability_calibrated",
+  "recommendedMode": "equal",
+  "recommendationHe": "ברירת המחדל: משקל שווה למכונים. משקלי דיוק ותלות הם חלופות רגישות; אין הכרזה על עדיפות מוכחת מארבע מערכות אימון ומערכת מבחן אחת.",
+  "history": {
+    "trainElections": [
+      "2019-04",
+      "2019-09",
+      "2020",
+      "2021"
+    ],
+    "holdoutElection": "2022",
+    "trainingFinalInstituteObservations": 25,
+    "testFinalInstituteObservations": 7,
+    "lastPollWindowDays": 8,
+    "aggregation": "latest date per institute; average distinct same-day projections; no exit polls",
+    "unit": "seat projections, within-election party definitions"
+  },
+  "pollsterQuality": {
+    "midgam_geva": {
+      "weight": 0.9836430483444417,
+      "nElections": 5,
+      "historyId": "midgam",
+      "continuityFraction": 1.0,
+      "status": "limited_seat_error_evidence",
+      "note": "same named institute; long-term methodology stability not established"
+    },
+    "kantar": {
+      "weight": 1.042736491657411,
+      "nElections": 5,
+      "historyId": "kantar",
+      "continuityFraction": 1.0,
+      "status": "limited_seat_error_evidence",
+      "note": "TNS/Kantar mapping, method changes possible"
+    },
+    "maagar_mochot": {
+      "weight": 0.901601853346737,
+      "nElections": 5,
+      "historyId": "maagar_mochot",
+      "continuityFraction": 1.0,
+      "status": "limited_seat_error_evidence",
+      "note": "same named institute; current public shares unavailable"
+    },
+    "lazar": {
+      "weight": 1.0092260900401586,
+      "nElections": 5,
+      "historyId": "panels_lazar",
+      "continuityFraction": 0.5,
+      "status": "limited_seat_error_evidence",
+      "note": "partial transfer by pollster Menachem Lazar; company/panel continuity not assumed"
+    },
+    "hamadad_consortium": {
+      "weight": 1.0,
+      "nElections": 0,
+      "historyId": null,
+      "continuityFraction": 0.0,
+      "status": "neutral_prior_no_transfer",
+      "note": "new consortium; not legacy Camil Fuchs"
+    },
+    "tatika": {
+      "weight": 1.0,
+      "nElections": 0,
+      "historyId": null,
+      "continuityFraction": 0.0,
+      "status": "neutral_prior_no_transfer",
+      "note": "no independently benchmarked election history"
+    },
+    "direct_polls": {
+      "weight": 1.0,
+      "nElections": 0,
+      "historyId": null,
+      "continuityFraction": 0.0,
+      "status": "neutral_prior_no_transfer",
+      "note": "legacy Filber–Sharon results not automatically transferable after organizational change"
+    },
+    "next_data": {
+      "weight": 1.0,
+      "nElections": 0,
+      "historyId": null,
+      "continuityFraction": 0.0,
+      "status": "neutral_prior_no_transfer",
+      "note": "new entity; legacy Direct Polls results not automatically transferable"
+    }
+  },
+  "historicalQuality": {
+    "midgam": {
+      "nElections": 5,
+      "mseByElection": [
+        15.423076923076923,
+        3.4,
+        1.25,
+        3.6923076923076925,
+        3.6363636363636362
+      ],
+      "rawMseSeats": 5.48034965034965,
+      "shrunkMseSeats": 5.427087287712288,
+      "relativeWeight": 0.9836430483444417,
+      "priorStrengthElections": 3
+    },
+    "kantar": {
+      "nElections": 5,
+      "mseByElection": [
+        13.23076923076923,
+        3.2,
+        1.0,
+        3.6923076923076925,
+        3.8181818181818183
+      ],
+      "rawMseSeats": 4.9882517482517486,
+      "shrunkMseSeats": 5.119526098901099,
+      "relativeWeight": 1.042736491657411,
+      "priorStrengthElections": 3
+    },
+    "panels_lazar": {
+      "nElections": 5,
+      "mseByElection": [
+        13.846153846153847,
+        4.0,
+        1.75,
+        3.230769230769231,
+        3.090909090909091
+      ],
+      "rawMseSeats": 5.183566433566433,
+      "shrunkMseSeats": 5.241597777222777,
+      "relativeWeight": 1.0184521800803172,
+      "priorStrengthElections": 3
+    },
+    "maagar_mochot": {
+      "nElections": 5,
+      "mseByElection": [
+        16.153846153846153,
+        2.8,
+        3.0,
+        6.3076923076923075,
+        3.090909090909091
+      ],
+      "rawMseSeats": 6.27048951048951,
+      "shrunkMseSeats": 5.9209247002997,
+      "relativeWeight": 0.901601853346737,
+      "priorStrengthElections": 3
+    },
+    "smith": {
+      "nElections": 4,
+      "mseByElection": [
+        13.846153846153847,
+        1.15,
+        0.75,
+        2.3636363636363638
+      ],
+      "rawMseSeats": 4.527447552447553,
+      "shrunkMseSeats": 4.874962894248609,
+      "relativeWeight": 1.0950476545400438,
+      "priorStrengthElections": 3
+    },
+    "fuchs_legacy": {
+      "nElections": 5,
+      "mseByElection": [
+        16.46153846153846,
+        3.6,
+        2.25,
+        4.153846153846154,
+        4.545454545454546
+      ],
+      "rawMseSeats": 6.202167832167833,
+      "shrunkMseSeats": 5.878223651348652,
+      "relativeWeight": 0.9081513395789055,
+      "priorStrengthElections": 3
+    },
+    "direct_legacy": {
+      "nElections": 3,
+      "mseByElection": [
+        1.5,
+        2.0,
+        2.909090909090909
+      ],
+      "rawMseSeats": 2.1363636363636362,
+      "shrunkMseSeats": 3.73734015984016,
+      "relativeWeight": 1.4283732427355487,
+      "priorStrengthElections": 3
+    }
+  },
+  "benchmark": [
+    {
+      "weights": {
+        "midgam": 0.14285714285714285,
+        "kantar": 0.14285714285714285,
+        "panels_lazar": 0.14285714285714285,
+        "maagar_mochot": 0.14285714285714285,
+        "smith": 0.14285714285714285,
+        "fuchs_legacy": 0.14285714285714285,
+        "direct_legacy": 0.14285714285714285
+      },
+      "expectedSeatProjection": {
+        "likud": 31.142857142857142,
+        "smotrich": 13.999999999999998,
+        "shas": 8.57142857142857,
+        "utj": 6.857142857142858,
+        "yeshAtid": 24.857142857142854,
+        "bw": 11.285714285714285,
+        "israelBeitanu": 5.7142857142857135,
+        "avoda": 5.142857142857142,
+        "meretz": 4.428571428571428,
+        "raam": 3.999999999999999,
+        "hadashTal": 3.999999999999999
+      },
+      "maeSeatsPerParty": 1.1688311688311688,
+      "rmseSeatsPerParty": 1.6759789319481173,
+      "maxAbsolutePartyErrorSeats": 4.428571428571428,
+      "sumSeatProjection": 119.99999999999999,
+      "partyCount": 11,
+      "errors": {
+        "likud": -0.8571428571428577,
+        "smotrich": -1.7763568394002505e-15,
+        "shas": -2.4285714285714306,
+        "utj": -0.14285714285714235,
+        "yeshAtid": 0.8571428571428541,
+        "bw": -0.7142857142857153,
+        "israelBeitanu": -0.2857142857142865,
+        "avoda": 1.1428571428571423,
+        "meretz": 4.428571428571428,
+        "raam": -1.0000000000000009,
+        "hadashTal": -1.0000000000000009
+      },
+      "id": "equal",
+      "labelHe": "משקל שווה לכל מכון",
+      "trainElectionIds": [
+        "2019-04",
+        "2019-09",
+        "2020",
+        "2021"
+      ],
+      "testElectionId": "2022",
+      "status": "chronological_holdout_point_forecast_only",
+      "designTiming": "retrospective_replay_2026; weights computed from pre-2022 election records only",
+      "netanyahuBlocSeats": 60.57142857142857,
+      "netanyahuBlocErrorSeats": -3.4285714285714306
+    },
+    {
+      "weights": {
+        "midgam": 0.13514825828663637,
+        "kantar": 0.14439274661471602,
+        "panels_lazar": 0.1382928948361203,
+        "maagar_mochot": 0.12187135160780978,
+        "smith": 0.14377841164932104,
+        "fuchs_legacy": 0.1268496162129643,
+        "direct_legacy": 0.18966672079243224
+      },
+      "expectedSeatProjection": {
+        "likud": 31.320279194556527,
+        "smotrich": 13.869387526235911,
+        "shas": 8.593609378885684,
+        "utj": 6.86170710516388,
+        "yeshAtid": 24.729973044226348,
+        "bw": 11.39077672020802,
+        "israelBeitanu": 5.751279032179227,
+        "avoda": 5.065154098806938,
+        "meretz": 4.417833899737473,
+        "raam": 4.0,
+        "hadashTal": 4.0
+      },
+      "maeSeatsPerParty": 1.1296292805037735,
+      "rmseSeatsPerParty": 1.6488730621921115,
+      "maxAbsolutePartyErrorSeats": 4.417833899737473,
+      "sumSeatProjection": 120.00000000000001,
+      "partyCount": 11,
+      "errors": {
+        "likud": -0.6797208054434734,
+        "smotrich": -0.13061247376408858,
+        "shas": -2.4063906211143156,
+        "utj": -0.13829289483611973,
+        "yeshAtid": 0.7299730442263481,
+        "bw": -0.6092232797919799,
+        "israelBeitanu": -0.24872096782077335,
+        "avoda": 1.0651540988069383,
+        "meretz": 4.417833899737473,
+        "raam": -1.0,
+        "hadashTal": -1.0
+      },
+      "id": "accuracy_shrunk",
+      "labelHe": "דיוק היסטורי מכווץ",
+      "trainElectionIds": [
+        "2019-04",
+        "2019-09",
+        "2020",
+        "2021"
+      ],
+      "testElectionId": "2022",
+      "status": "chronological_holdout_point_forecast_only",
+      "designTiming": "retrospective_replay_2026; weights computed from pre-2022 election records only",
+      "netanyahuBlocSeats": 60.644983204842006,
+      "netanyahuBlocErrorSeats": -3.3550167951579937
+    },
+    {
+      "weights": {
+        "midgam": 0.11049475057328101,
+        "kantar": 0.13454032239746325,
+        "panels_lazar": 0.12485957666068317,
+        "maagar_mochot": 0.100489007546647,
+        "smith": 0.13694483812801903,
+        "fuchs_legacy": 0.10205614359935189,
+        "direct_legacy": 0.29061536109455466
+      },
+      "expectedSeatProjection": {
+        "likud": 31.669300932137666,
+        "smotrich": 13.62131442895689,
+        "shas": 8.652908783429904,
+        "utj": 6.875140423339317,
+        "yeshAtid": 24.488341242612133,
+        "bw": 11.604034155250442,
+        "israelBeitanu": 5.797454848854001,
+        "avoda": 4.921610535788224,
+        "meretz": 4.369894649631427,
+        "raam": 4.0,
+        "hadashTal": 4.0
+      },
+      "maeSeatsPerParty": 1.0508811687330513,
+      "rmseSeatsPerParty": 1.599966693239576,
+      "maxAbsolutePartyErrorSeats": 4.369894649631427,
+      "sumSeatProjection": 120.00000000000001,
+      "partyCount": 11,
+      "errors": {
+        "likud": -0.3306990678623336,
+        "smotrich": -0.3786855710431105,
+        "shas": -2.347091216570096,
+        "utj": -0.12485957666068259,
+        "yeshAtid": 0.4883412426121332,
+        "bw": -0.39596584474955776,
+        "israelBeitanu": -0.20254515114599858,
+        "avoda": 0.9216105357882238,
+        "meretz": 4.369894649631427,
+        "raam": -1.0,
+        "hadashTal": -1.0
+      },
+      "id": "accuracy_dependence",
+      "labelHe": "דיוק ותלות (כיווץ חזק)",
+      "trainElectionIds": [
+        "2019-04",
+        "2019-09",
+        "2020",
+        "2021"
+      ],
+      "testElectionId": "2022",
+      "status": "chronological_holdout_point_forecast_only",
+      "designTiming": "retrospective_replay_2026; weights computed from pre-2022 election records only",
+      "netanyahuBlocSeats": 60.81866456786378,
+      "netanyahuBlocErrorSeats": -3.1813354321362226
+    },
+    {
+      "weights": {
+        "midgam": 0.08333333333333333,
+        "kantar": 0.08333333333333333,
+        "panels_lazar": 0.08333333333333333,
+        "maagar_mochot": 0.08333333333333333,
+        "smith": 0.08333333333333333,
+        "fuchs_legacy": 0.08333333333333333,
+        "direct_legacy": 0.5
+      },
+      "expectedSeatProjection": {
+        "likud": 32.33333333333333,
+        "smotrich": 13.166666666666666,
+        "shas": 8.75,
+        "utj": 6.916666666666666,
+        "yeshAtid": 24.083333333333332,
+        "bw": 12.0,
+        "israelBeitanu": 5.833333333333334,
+        "avoda": 4.666666666666666,
+        "meretz": 4.25,
+        "raam": 4.0,
+        "hadashTal": 4.0
+      },
+      "maeSeatsPerParty": 0.9696969696969692,
+      "rmseSeatsPerParty": 1.5496822743759933,
+      "maxAbsolutePartyErrorSeats": 4.25,
+      "sumSeatProjection": 119.99999999999999,
+      "partyCount": 11,
+      "errors": {
+        "likud": 0.3333333333333286,
+        "smotrich": -0.8333333333333339,
+        "shas": -2.25,
+        "utj": -0.08333333333333393,
+        "yeshAtid": 0.08333333333333215,
+        "bw": 0.0,
+        "israelBeitanu": -0.16666666666666607,
+        "avoda": 0.6666666666666661,
+        "meretz": 4.25,
+        "raam": -1.0,
+        "hadashTal": -1.0
+      },
+      "id": "direct50",
+      "labelHe": "רגישות: 50% לדיירקט ההיסטורי",
+      "trainElectionIds": [
+        "2019-04",
+        "2019-09",
+        "2020",
+        "2021"
+      ],
+      "testElectionId": "2022",
+      "status": "chronological_holdout_point_forecast_only",
+      "designTiming": "retrospective_replay_2026; weights computed from pre-2022 election records only",
+      "netanyahuBlocSeats": 61.16666666666666,
+      "netanyahuBlocErrorSeats": -2.833333333333343
+    }
+  ],
+  "dependency": {
+    "ids": [
+      "midgam",
+      "kantar",
+      "panels_lazar",
+      "maagar_mochot",
+      "smith",
+      "fuchs_legacy",
+      "direct_legacy"
+    ],
+    "riskMatrixSeatsSquared": [
+      [
+        5.895869309262167,
+        1.2508836986231726,
+        1.1926109728690282,
+        1.2701802625626708,
+        1.3575938062121846,
+        1.405790743423176,
+        0.5973496313910108
+      ],
+      [
+        1.2508836986231722,
+        5.51839678178963,
+        1.0893954704698408,
+        1.2540370204504236,
+        1.1793673558194055,
+        1.28673069531666,
+        0.5634959649409623
+      ],
+      [
+        1.1926109728690284,
+        1.089395470469841,
+        5.761803375196232,
+        1.1458602772755373,
+        1.3088296072958434,
+        1.2671344780655045,
+        0.6118916259615538
+      ],
+      [
+        1.2701802625626706,
+        1.2540370204504236,
+        1.1458602772755373,
+        6.538177001569852,
+        1.2341693006922045,
+        1.371274855567162,
+        0.6234202555090042
+      ],
+      [
+        1.3575938062121846,
+        1.1793673558194058,
+        1.3088296072958434,
+        1.2341693006922045,
+        5.54197573260073,
+        1.401297979123064,
+        0.3482718013910482
+      ],
+      [
+        1.405790743423176,
+        1.28673069531666,
+        1.2671344780655043,
+        1.3712748555671628,
+        1.401297979123064,
+        6.281583594976447,
+        0.4881114269017487
+      ],
+      [
+        0.5973496313910108,
+        0.5634959649409624,
+        0.6118916259615538,
+        0.6234202555090042,
+        0.348271801391048,
+        0.48811142690174875,
+        4.201140109890101
+      ]
+    ],
+    "pairMatchedElectionCounts": [
+      [
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        2
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        2
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        2
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        2
+      ],
+      [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        1
+      ],
+      [
+        4,
+        4,
+        4,
+        4,
+        3,
+        4,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        1,
+        2,
+        2
+      ]
+    ],
+    "correlationShrinkageToIdentity": 0.75,
+    "note": "Final-poll prediction-error cross-products at comparable election horizon; no dense time-series residual correlation was estimated. Shared election risk requires an uncertainty floor."
+  },
+  "uncertainty": {
+    "status": "empirical_seat_error_scale_not_vote_probability_calibration",
+    "units": "Knesset seats",
+    "equalEnsembleRmseSeats": 2.134028757707261,
+    "definition": "sqrt(mean across elections of mean across active parties of squared final equal-ensemble seat error)); zero-in-all-polls-and-result parties excluded uniformly",
+    "nElections": 5,
+    "perElection": [
+      {
+        "electionId": "2019-04",
+        "rmseSeatsPerParty": 3.679029275536743,
+        "maeSeatsPerParty": 2.9871794871794872,
+        "nInstitutes": 6,
+        "partyCount": 13
+      },
+      {
+        "electionId": "2019-09",
+        "rmseSeatsPerParty": 1.4293549438664825,
+        "maeSeatsPerParty": 1.2166666666666663,
+        "nInstitutes": 6,
+        "partyCount": 10
+      },
+      {
+        "electionId": "2020",
+        "rmseSeatsPerParty": 1.1316413941253474,
+        "maeSeatsPerParty": 1.0000000000000004,
+        "nInstitutes": 7,
+        "partyCount": 8
+      },
+      {
+        "electionId": "2021",
+        "rmseSeatsPerParty": 1.7614096918559585,
+        "maeSeatsPerParty": 1.4871794871794877,
+        "nInstitutes": 6,
+        "partyCount": 13
+      },
+      {
+        "electionId": "2022",
+        "rmseSeatsPerParty": 1.6759789319481173,
+        "maeSeatsPerParty": 1.1688311688311688,
+        "nInstitutes": 7,
+        "partyCount": 11
+      }
+    ],
+    "bloc2022Diagnostic": {
+      "electionId": "2022",
+      "nIndependentElections": 1,
+      "blocParties": [
+        "likud",
+        "smotrich",
+        "shas",
+        "utj"
+      ],
+      "actualBlocSeats": 64,
+      "equalEnsembleBlocSeats": 60.57142857142857,
+      "equalEnsembleBlocErrorSeats": -3.4285714285714306,
+      "instituteBlocErrorsSeats": {
+        "midgam": -4.0,
+        "kantar": -4.0,
+        "panels_lazar": -4.0,
+        "maagar_mochot": -3.0,
+        "smith": -3.0,
+        "fuchs_legacy": -4.0,
+        "direct_legacy": -2.0
+      },
+      "instituteBlocRmseSeats": 3.5050983275386565,
+      "withinBlocPartyResidualRmseSeats": 1.545665004924306,
+      "withinBlocPartyResidualsSeats": {
+        "likud": 0.0,
+        "smotrich": 0.8571428571428559,
+        "shas": -1.571428571428573,
+        "utj": 0.7142857142857153,
+        "yeshAtid": 0.3673469387755069,
+        "bw": -1.2040816326530626,
+        "israelBeitanu": -0.7755102040816337,
+        "avoda": 0.6530612244897951,
+        "meretz": 3.938775510204081,
+        "raam": -1.4897959183673481,
+        "hadashTal": -1.4897959183673481
+      },
+      "method": "Subtract bloc error / 4 from each bloc-party error; add bloc error / 7 to each other-party error, retaining zero-sum group residuals. Descriptive projection, not causal attribution.",
+      "limitation": "Seven institutes share one election outcome; institute count is not independent event count. Do not combine this diagnostic with overall party RMS by quadrature: they overlap."
+    },
+    "uncertaintyMultipliers": [
+      0.5,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "sharedErrorDoesNotShrinkWithPollCount": true,
+    "futureDriftStatus": "not_estimated; final-poll history cannot validate early-campaign drift",
+    "voteSpaceConversionStatus": "not_estimated; use an explicit local numerical derivative and user-visible assumption if converting seat error to vote-share error",
+    "coverageDiagnostics": [
+      {
+        "electionId": "2019-09",
+        "priorElectionIds": [
+          "2019-04"
+        ],
+        "sigmaSeats": 3.679029275536743,
+        "nominal95HalfWidthSeats": 7.210897380052017,
+        "coveredPartyCounts": 10,
+        "partyCount": 10,
+        "jointAllPartiesCovered": true,
+        "interpretation": "Descriptive seat-space normal interval diagnostic; parties not independent, not a probability validation of the vote simulation."
+      },
+      {
+        "electionId": "2020",
+        "priorElectionIds": [
+          "2019-04",
+          "2019-09"
+        ],
+        "sigmaSeats": 2.7909059430417904,
+        "nominal95HalfWidthSeats": 5.470175648361909,
+        "coveredPartyCounts": 8,
+        "partyCount": 8,
+        "jointAllPartiesCovered": true,
+        "interpretation": "Descriptive seat-space normal interval diagnostic; parties not independent, not a probability validation of the vote simulation."
+      },
+      {
+        "electionId": "2021",
+        "priorElectionIds": [
+          "2019-04",
+          "2019-09",
+          "2020"
+        ],
+        "sigmaSeats": 2.370578284632249,
+        "nominal95HalfWidthSeats": 4.646333437879208,
+        "coveredPartyCounts": 13,
+        "partyCount": 13,
+        "jointAllPartiesCovered": true,
+        "interpretation": "Descriptive seat-space normal interval diagnostic; parties not independent, not a probability validation of the vote simulation."
+      },
+      {
+        "electionId": "2022",
+        "priorElectionIds": [
+          "2019-04",
+          "2019-09",
+          "2020",
+          "2021"
+        ],
+        "sigmaSeats": 2.233914071382001,
+        "nominal95HalfWidthSeats": 4.378471579908722,
+        "coveredPartyCounts": 10,
+        "partyCount": 11,
+        "jointAllPartiesCovered": false,
+        "interpretation": "Descriptive seat-space normal interval diagnostic; parties not independent, not a probability validation of the vote simulation."
+      }
+    ],
+    "probabilityCalibrationValidated": false
+  },
+  "sourceVerification": {
+    "auditFile": "data/history/manual-source-audit.json",
+    "fullVectorConfirmed": 17,
+    "conflictResolvedSecondary": 1,
+    "partialOnly": 3,
+    "originalUnavailable": 4,
+    "sensitivity": [
+      {
+        "weights": {
+          "midgam": 0.11315932289663636,
+          "kantar": 0.11918809130124008,
+          "panels_lazar": 0.12475804199646995,
+          "maagar_mochot": 0.11531723966844924,
+          "smith": 0.19630263453734886,
+          "fuchs_legacy": 0.15017572995633355,
+          "direct_legacy": 0.1810989396435219
+        },
+        "expectedSeatProjection": {
+          "likud": 31.277803849305784,
+          "smotrich": 13.903295090337739,
+          "shas": 8.617476855845789,
+          "utj": 6.875241958003529,
+          "yeshAtid": 24.81896548932438,
+          "bw": 11.336780191327177,
+          "israelBeitanu": 5.734507030375217,
+          "avoda": 5.078824079286031,
+          "meretz": 4.357105456194346,
+          "raam": 4.0,
+          "hadashTal": 4.0
+        },
+        "maeSeatsPerParty": 1.1372536408735932,
+        "rmseSeatsPerParty": 1.6390734931603617,
+        "maxAbsolutePartyErrorSeats": 4.357105456194346,
+        "sumSeatProjection": 120.0,
+        "partyCount": 11,
+        "errors": {
+          "likud": -0.7221961506942165,
+          "smotrich": -0.09670490966226097,
+          "shas": -2.382523144154211,
+          "utj": -0.12475804199647111,
+          "yeshAtid": 0.8189654893243805,
+          "bw": -0.6632198086728227,
+          "israelBeitanu": -0.2654929696247832,
+          "avoda": 1.078824079286031,
+          "meretz": 4.357105456194346,
+          "raam": -1.0,
+          "hadashTal": -1.0
+        },
+        "id": "accuracy_shrunk",
+        "trainingInstituteObservations": 18,
+        "scope": "Excludes seven incomplete/unavailable original-report vectors; keeps contemporary secondary confirmations and the explicitly resolved DP2020 conflict."
+      },
+      {
+        "weights": {
+          "midgam": 0.07337012956182862,
+          "kantar": 0.13036814937876545,
+          "panels_lazar": 0.09120542179264418,
+          "maagar_mochot": 0.08317423620676898,
+          "smith": 0.24412014397176168,
+          "fuchs_legacy": 0.16450966770261485,
+          "direct_legacy": 0.21325225138561626
+        },
+        "expectedSeatProjection": {
+          "likud": 31.392072850247466,
+          "smotrich": 13.821179401138151,
+          "shas": 8.631752053356792,
+          "utj": 6.908794578207356,
+          "yeshAtid": 24.772146683255233,
+          "bw": 11.353200256861264,
+          "israelBeitanu": 5.752316096090616,
+          "avoda": 5.073594380109889,
+          "meretz": 4.2949437007332385,
+          "raam": 4.0,
+          "hadashTal": 4.0
+        },
+        "maeSeatsPerParty": 1.1164881389269743,
+        "rmseSeatsPerParty": 1.6150857844270448,
+        "maxAbsolutePartyErrorSeats": 4.2949437007332385,
+        "sumSeatProjection": 120.00000000000001,
+        "partyCount": 11,
+        "errors": {
+          "likud": -0.607927149752534,
+          "smotrich": -0.17882059886184898,
+          "shas": -2.3682479466432085,
+          "utj": -0.0912054217926439,
+          "yeshAtid": 0.7721466832552331,
+          "bw": -0.646799743138736,
+          "israelBeitanu": -0.2476839039093841,
+          "avoda": 1.0735943801098893,
+          "meretz": 4.2949437007332385,
+          "raam": -1.0,
+          "hadashTal": -1.0
+        },
+        "id": "accuracy_dependence",
+        "trainingInstituteObservations": 18,
+        "scope": "Excludes seven incomplete/unavailable original-report vectors; keeps contemporary secondary confirmations and the explicitly resolved DP2020 conflict."
+      }
+    ]
+  },
+  "dataQuality2022": {
+    "rawRows": 156,
+    "non120KnownSeatTotalRows": 74,
+    "rowsWithMissingPartyFields": 106,
+    "non120OrIncompleteRows": 106,
+    "excludedRawRowIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118
+    ],
+    "usableStableListRows": 50,
+    "finalVectorsCrossChecked": 7,
+    "metricDenominator": 11,
+    "excludedFromMetric": "Balad, projected and actual zero in all final rows; adding it mechanically lowers MAE from 11 to 12 denominator."
+  },
+  "limitations": [
+    "No confidence interval for a pollster rank: only four training elections, and legacy Direct Polls only two.",
+    "Historical 2019–2021 rows were extracted from Wikipedia snapshots with original-report links; original-report fetches and manual verification are separately logged.",
+    "Only final-poll horizons (3–8 days) are benchmarked; current September polls are much earlier.",
+    "No raw respondent-level data, common-panel overlap or dense detrended residual covariance has been identified.",
+    "The dependence model is a strongly shrunk exploratory final-error risk matrix, not evidence of coordination.",
+    "Seat error is not invertible to vote-share error, especially around the threshold. No vote-share uncertainty is estimated here.",
+    "Current Direct Polls and Next Data do not automatically inherit the Filber–Sharon historical ranking.",
+    "Retrospective replay designed in 2026; parameters fit only to 2019–2021 data, but methodological choices were not prospectively preregistered before 2022.",
+    "Probability coverage, Brier score and log score of the actual nonlinear simulation have not been independently backtested.",
+    "No correction of current house bias is inferred from only historical seat errors."
+  ],
+  "sources": [
+    {
+      "url": "https://littlepolls.com/",
+      "role": "Independent final-2022 seat-vector cross-check; source own backtest not treated as reproduced"
+    },
+    {
+      "url": "https://themadad.com/poll-trends-2022/",
+      "role": "2022 final and stable-list polling archive"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_April_2019_Israeli_legislative_election",
+      "role": "2019–2021 final-poll source table and original report links"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_September_2019_Israeli_legislative_election",
+      "role": "2019–2021 final-poll source table and original report links"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2020_Israeli_legislative_election",
+      "role": "2019–2021 final-poll source table and original report links"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Opinion_polling_for_the_2021_Israeli_legislative_election",
+      "role": "2019–2021 final-poll source table and original report links"
+    }
+  ],
+  "reproduction": "python scripts/calibrate.py; optional --fetch-originals downloads cited public reports",
+  "artifacts": [
+    "docs/calibration.he.md",
+    "data/history/manual-source-audit.json",
+    "data/history/input-manifest.json",
+    "data/history/benchmark-errors.json",
+    "data/history/final-polls-2019-04.json",
+    "data/history/final-polls-2019-09.json",
+    "data/history/final-polls-2020.json",
+    "data/history/final-polls-2021.json",
+    "data/history/final-polls-2022.json"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "originalUrl": "https://www.mako.co.il/news-politics/2026_q4/Article-2497091942121a1026.htm",
+  "archivedAtReviewDate": "2026-10-10",
+  "articlePublishedAtIsrael": "2026-10-09T21:28:00+03:00",
+  "firstSurveyPublicationDate": null,
+  "dateLimitation": "Article body says the survey was published yesterday; article publication is not treated as verified first poll publication or fieldwork.",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": null,
+  "sourceFiles": [
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\artifacts\\poll-checks\\2026-10-10\\social\\n12-opinion-2026-10-09.html",
+      "sha256": "87390575b0506d1bd9ac4ddb4776fc2ed242b4e089b212937d6033b14be5614d"
+    },
+    {
+      "path": "C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\artifacts\\poll-checks\\2026-10-10\\social\\n12-opinion-2026-10-09.txt",
+      "sha256": "df7eef23fb8d2af76e31dbceeae188814b5d3f42ce07660bdc565c3066cf48ce"
+    }
+  ],
+  "publishedBlocShares": [
+    {
+      "label": "גוש מתנגדי נתניהו",
+      "scope": "כולל המפלגות הערביות",
+      "sharePct": 50
+    },
+    {
+      "label": "גוש נתניהו",
+      "scope": "כולל מפלגתו של וינטר",
+      "sharePct": 35
+    }
+  ],
+  "descriptiveDifferencePercentagePoints": 15,
+  "questionWordingPublished": null,
+  "exactPercentageDenominatorPublished": null,
+  "noPartyVectorInReadArticle": true,
+  "includedInMandateAggregate": false,
+  "independentOfModel": true,
+  "areSeatCounts": false,
+  "areModelProbabilities": false,
+  "fullResponsePartitionShown": false,
+  "undecidedOmitted": "11% is reported separately and is not used to complete the 50/35 display.",
+  "significanceClaimMade": false,
+  "testPerformed": null,
+  "sourceValidation": "Read archived original article, checked bloc inclusions and shares, and independent copy QA.",
+  "publicSimulatorUrl": "https://victorchina-ops.github.io/israel-election-simulator/"
+}

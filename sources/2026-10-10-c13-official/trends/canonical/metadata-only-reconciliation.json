@@ -1,0 +1,9 @@
+{
+  "status": "RECOMPUTED",
+  "asOf": "2026-10-10",
+  "reason": "The same C13 October 7 observation has verified October 6–7 fieldwork, ending at 09:00. Published seats, national shares, cohort membership and historical weights are unchanged. Midpoint increases by 0.5 day; all primary slopes, exact permutation p/q values and sensitivity tests are recomputed and independently audited.",
+  "beforeCheckpoint": "artifacts/poll-checks/2026-10-10/before",
+  "allComputedSlopesDeltasCountsPQsAndVerdictsUnchanged": false,
+  "sourcePdfSha256": "9efadc7b68b43f2628378c7ad6f896f238f08ce542cc6d77061cbbd446318af2",
+  "validationReceipt": "artifacts/poll-checks/2026-10-10/c13-official-revision-validation.json"
+}

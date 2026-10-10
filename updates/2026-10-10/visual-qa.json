@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "builtAtUtc": "2026-10-10T18:20:36.477112+03:00",
+  "imagePath": "C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\outputs\\social\\2026-10-10\\n12-bloc-shares.png",
+  "imageSizePx": [
+    1200,
+    820
+  ],
+  "imageSha256": "933a520576a1773a3f45c66d7e14c29c9c992319b4b674a44b16d9e8859cc53e",
+  "renderer": "Pillow supersampled2x, python-bidi, local Arial fonts",
+  "fontFiles": [
+    {
+      "path": "C:\\Windows\\Fonts\\arial.ttf",
+      "sha256": "b3658eadae55e682b5f69eb64c439c1ecc8f196c0bb8d4756d145d13bc86476a"
+    },
+    {
+      "path": "C:\\Windows\\Fonts\\arialbd.ttf",
+      "sha256": "e8f4e3baf6cc35fed6fcce3a540e8b39e8f6cda1d22a28f2ec8f526fef7a43f5"
+    }
+  ],
+  "chartScalePct": [
+    0,
+    100
+  ],
+  "commonOriginX": 72,
+  "barGeometry": [
+    {
+      "bloc": "גוש מתנגדי נתניהו",
+      "valuePct": 50,
+      "originX": 72,
+      "endX": 600.0,
+      "widthPx": 528.0,
+      "y": 321,
+      "heightPx": 34
+    },
+    {
+      "bloc": "גוש נתניהו",
+      "valuePct": 35,
+      "originX": 72,
+      "endX": 441.6,
+      "widthPx": 369.6,
+      "y": 465,
+      "heightPx": 34
+    }
+  ],
+  "textBounds": [
+    {
+      "logicalText": "סקרים ושקרים",
+      "visualText": "םירקשו םירקס",
+      "sizePx": 26,
+      "color": "#315C7B",
+      "role": "brand",
+      "bounds": [
+        976.5,
+        42.0,
+        1128.0,
+        61.0
+      ]
+    },
+    {
+      "logicalText": "סקר גושים ≠ סקר מנדטים",
+      "visualText": "םיטדנמ רקס ≠ םישוג רקס",
+      "sizePx": 54,
+      "color": "#172D41",
+      "role": "headline",
+      "bounds": [
+        563.5,
+        94.0,
+        1128.0,
+        143.5
+      ]
+    },
+    {
+      "logicalText": "סקר אולפן שישי • שיעור התמיכה שפורסם",
+      "visualText": "םסרופש הכימתה רועיש • ישיש ןפלוא רקס",
+      "sizePx": 29,
+      "color": "#586574",
+      "role": "subtitle",
+      "bounds": [
+        660.5,
+        164.0,
+        1128.0,
+        191.0
+      ]
+    },
+    {
+      "logicalText": "גוש מתנגדי נתניהו",
+      "visualText": "והינתנ ידגנתמ שוג",
+      "sizePx": 38,
+      "color": "#172D41",
+      "role": "bloc-label",
+      "bounds": [
+        840.0,
+        236.0,
+        1128.0,
+        257.0
+      ]
+    },
+    {
+      "logicalText": "כולל המפלגות הערביות",
+      "visualText": "תויברעה תוגלפמה ללוכ",
+      "sizePx": 27,
+      "color": "#586574",
+      "role": "bloc-scope",
+      "bounds": [
+        884.0,
+        280.0,
+        1128.0,
+        301.0
+      ]
+    },
+    {
+      "logicalText": "50%",
+      "visualText": "50%",
+      "sizePx": 76,
+      "color": "#315C7B",
+      "role": "published-share",
+      "bounds": [
+        72.0,
+        221.0,
+        224.5,
+        278.5
+      ]
+    },
+    {
+      "logicalText": "גוש נתניהו",
+      "visualText": "והינתנ שוג",
+      "sizePx": 38,
+      "color": "#172D41",
+      "role": "bloc-label",
+      "bounds": [
+        963.5,
+        380.0,
+        1128.0,
+        401.0
+      ]
+    },
+    {
+      "logicalText": "כולל מפלגתו של וינטר",
+      "visualText": "רטניו לש ותגלפמ ללוכ",
+      "sizePx": 27,
+      "color": "#586574",
+      "role": "bloc-scope",
+      "bounds": [
+        899.0,
+        424.0,
+        1128.0,
+        443.5
+      ]
+    },
+    {
+      "logicalText": "35%",
+      "visualText": "35%",
+      "sizePx": 76,
+      "color": "#B87726",
+      "role": "published-share",
+      "bounds": [
+        72.0,
+        365.0,
+        224.5,
+        422.5
+      ]
+    },
+    {
+      "logicalText": "0%",
+      "visualText": "0%",
+      "sizePx": 18,
+      "color": "#586574",
+      "role": "axis-tick",
+      "bounds": [
+        72.0,
+        523.0,
+        98.0,
+        536.0
+      ]
+    },
+    {
+      "logicalText": "50%",
+      "visualText": "50%",
+      "sizePx": 18,
+      "color": "#586574",
+      "role": "axis-tick",
+      "bounds": [
+        581.0,
+        523.0,
+        617.0,
+        536.0
+      ]
+    },
+    {
+      "logicalText": "100%",
+      "visualText": "100%",
+      "sizePx": 18,
+      "color": "#586574",
+      "role": "axis-tick",
+      "bounds": [
+        1082.0,
+        523.0,
+        1128.0,
+        536.0
+      ]
+    },
+    {
+      "logicalText": "פער בתמיכה שדווחה: 15 נקודות אחוז",
+      "visualText": "זוחא תודוקנ 15 :החוודש הכימתב רעפ",
+      "sizePx": 29,
+      "color": "#172D41",
+      "role": "descriptive-gap",
+      "bounds": [
+        681.5,
+        564.0,
+        1128.0,
+        591.0
+      ]
+    },
+    {
+      "logicalText": "אחוזי תמיכה בסקר; אינם מנדטים או הסתברות במודל.",
+      "visualText": ".לדומב תורבתסה וא םיטדנמ םניא ;רקסב הכימת יזוחא",
+      "sizePx": 25,
+      "color": "#586574",
+      "role": "scope-note",
+      "bounds": [
+        608.5,
+        609.0,
+        1128.0,
+        632.0
+      ]
+    },
+    {
+      "logicalText": "בכתבה אין פירוט מפלגות; הסקר לא צורף לשקלול המנדטים.",
+      "visualText": ".םיטדנמה לולקשל ףרוצ אל רקסה ;תוגלפמ טוריפ ןיא הבתכב",
+      "sizePx": 25,
+      "color": "#586574",
+      "role": "model-exclusion-note",
+      "bounds": [
+        553.0,
+        643.0,
+        1128.0,
+        666.0
+      ]
+    },
+    {
+      "logicalText": "מקור: N12, אולפן שישי | פרסום הכתבה: 9.10.2026 | בדיקה: 10.10.2026",
+      "visualText": "10.10.2026 :הקידב | 9.10.2026 :הבתכה םוסרפ | ישיש ןפלוא ,N12 :רוקמ",
+      "sizePx": 21,
+      "color": "#586574",
+      "role": "source-date",
+      "bounds": [
+        515.0,
+        706.0,
+        1128.0,
+        725.0
+      ]
+    },
+    {
+      "logicalText": "https://www.mako.co.il/news-politics/2026_q4/Article-2497091942121a1026.htm",
+      "visualText": "https://www.mako.co.il/news-politics/2026_q4/Article-2497091942121a1026.htm",
+      "sizePx": 16,
+      "color": "#586574",
+      "role": "source-url",
+      "bounds": [
+        72.0,
+        742.0,
+        644.0,
+        757.0
+      ]
+    },
+    {
+      "logicalText": "ימי האיסוף המדויקים וגודל המדגם לא נמסרו בכתבה.",
+      "visualText": ".הבתכב ורסמנ אל םגדמה לדוגו םיקיודמה ףוסיאה ימי",
+      "sizePx": 20,
+      "color": "#586574",
+      "role": "missing-methodology",
+      "bounds": [
+        719.5,
+        769.0,
+        1128.0,
+        787.5
+      ]
+    },
+    {
+      "logicalText": "ויקטור רינה בן דוד",
+      "visualText": "דוד ןב הניר רוטקיו",
+      "sizePx": 18,
+      "color": "#586574",
+      "role": "credit",
+      "bounds": [
+        72.0,
+        779.0,
+        198.0,
+        792.0
+      ]
+    }
+  ],
+  "allTextBoundsWithinCanvas": true,
+  "barLengthRatioMatchesPublishedShareRatio": true,
+  "tweetWeightedCharacters": 224,
+  "tweetCodepoints": 260,
+  "tweetPublished": false,
+  "sitePublished": false,
+  "canonicalDataEdited": false,
+  "visualInspectionCompleted": true,
+  "visualInspectionAtUtc": "2026-10-10T15:21:14.6977322Z",
+  "visualInspectionNotes": [
+    "Final PNG inspected directly after article-date footer clarification; correct Hebrew ordering, complete source URL and visible credit.",
+    "Independent subagent inspected the earlier identical layout and found no clipping, correct common-zero scale, correct bar lengths, clear percentage-point gap and visible unknown-sample/fieldwork note.",
+    "Final footer explicitly says article publication9.10.2026; no inferred first survey publication or collection date."
+  ],
+  "finalFigureScriptSha256": "ae352155e865d7c9ccb5525f699959ac9d32a8be65cefb4b48af98309cc8b6a9"
+}

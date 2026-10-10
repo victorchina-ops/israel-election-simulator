@@ -1,0 +1,14 @@
+{
+  "asOf": "2026-10-10",
+  "kind": "same-observation-metadata-revision",
+  "pollId": "hamadad_consortium_2026-10-07",
+  "historyPollId": "history_hamadad_consortium_2026-10-07_current",
+  "newMandatePolls": 0,
+  "activeCount": 8,
+  "historyCount": 114,
+  "seatsAndPercentagesUnchanged": true,
+  "sampleSizeUnchanged": true,
+  "nationalUnweightedSubgroupsNotIngested": true,
+  "sourcePdfSha256": "9efadc7b68b43f2628378c7ad6f896f238f08ce542cc6d77061cbbd446318af2",
+  "beforeCheckpoint": "artifacts/poll-checks/2026-10-10/before"
+}

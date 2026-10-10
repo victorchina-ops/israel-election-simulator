@@ -1,0 +1,144 @@
+{
+  "auditedAt": "2026-09-30",
+  "criterion": "Entire fieldwork interval must be independently verified to start on or after 2026-09-09. Publication dates do not establish fieldwork dates.",
+  "polls": [
+    {
+      "pollId": "history_maagar_mochot_2026-09-29_current",
+      "sourcePollId": "maagar_mochot_2026-09-29",
+      "pollsterId": "maagar_mochot",
+      "publisher": "ערוץ 16",
+      "publicationDate": "2026-09-29",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-29",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure-original-filing",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-09-29-maagar-original-review/Survey_4173.pdf",
+          "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+          "kind": "original-pollster-election-committee-submission",
+          "quote": "Original fieldwork 2026-09-29 07:00–2026-09-29 12:00; actual respondents550.",
+          "locator": "Original report methodology page2, independently visually inspected.",
+          "sha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+        },
+        {
+          "file": "artifacts/sources/2026-09-29-maagar-original-review/reviewed-original.json",
+          "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election88/he/Survey_4173.pdf",
+          "kind": "review-of-primary-official-submission",
+          "quote": null,
+          "locator": "fieldworkVerified and discrepancyResolution",
+          "sha256": "bdee7f223de1100455ae5c2dcad7a32cea5fb497255b59c4e393be26f0198243"
+        }
+      ],
+      "reason": "Official original filing newly verifies the entire fieldwork interval after list closure. This supplements the existing poll, not a second survey; previous exclusion and conflicting metadata are retained in previousDecision.",
+      "previousDecision": {
+        "pollId": "history_maagar_mochot_2026-09-29_current",
+        "sourcePollId": "maagar_mochot_2026-09-29",
+        "pollsterId": "maagar_mochot",
+        "publisher": "ערוץ 16",
+        "publicationDate": "2026-09-29",
+        "fieldworkStart": null,
+        "fieldworkEnd": null,
+        "eligibleStrict": false,
+        "crossesClosureDate": null,
+        "status": "unknown-fieldwork",
+        "sourceUrl": "https://themadad.com/allpolls/",
+        "evidence": [
+          {
+            "url": "https://themadad.com/allpolls/",
+            "kind": "secondary-poll-archive",
+            "quote": null,
+            "locator": "Maagar Mochot publication row dated 29 September"
+          },
+          {
+            "url": "https://www.news1.co.il/Archive/001-D-524346-00.html",
+            "kind": "secondary-report",
+            "quote": null,
+            "locator": "29 September poll report"
+          }
+        ],
+        "reason": "The publication is corroborated by secondary reports, but the original poll is inaccessible and no explicit fieldwork start/end was verified. Publication date is not used as collection date."
+      },
+      "revisionReviewedAt": "2026-10-07",
+      "fieldworkStartTime": "07:00",
+      "fieldworkEndTime": "12:00",
+      "fieldworkTimeZone": "Asia/Jerusalem",
+      "includeInStrictPostClose": true,
+      "sampleSize": 550,
+      "collectionMode": "משולב: פאנל אינטרנטי ועיבוי טלפוני; דגימת שכבות + אקראית הסתברותית בתוך כל שכבה",
+      "marginOfErrorPct": 4.2,
+      "evidencePath": "artifacts/sources/2026-09-29-maagar-original-review/Survey_4173.pdf",
+      "evidenceSha256": "0c56cc40cdb47d25e329b1a82fa1bbf4dc1865192a6d85ad6a2c9da46ce128b8"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-30_current",
+      "sourcePollId": "hamadad_consortium_2026-09-30",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-30",
+      "fieldworkStart": "2026-09-29",
+      "fieldworkEnd": "2026-09-30",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure-original-filing",
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-10-07-hamadad-update/Survey_4182.pdf",
+          "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+          "kind": "original-pollster-election-committee-submission",
+          "quote": "מועד איסוף נתונים: 29.9.2026 בשעה 10:00 עד 30.9.2026 בשעה 9:00; 1,013 משיבים בפועל; טעות הדגימה 3.1%",
+          "locator": "Original report page1, independently visually inspected. Collection interval is explicit, not inferred from publication.",
+          "sha256": "f3d9ccad37ee833ba64e01b0f8d64aac57ec0af58ad641df1e9fe9a286718081"
+        },
+        {
+          "file": "artifacts/sources/2026-10-07-hamadad-update/reviewed-rosner-sep30-original.json",
+          "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election94/he/Survey_4182.pdf",
+          "kind": "independent-review-of-primary-official-submission",
+          "quote": null,
+          "locator": "Verified dates, source conflicts and separate unweighted subgroup columns.",
+          "sha256": "5265d8cc3bf8c53b7448a03a1a17239275322d2a45e3956a6e5b86cbeb983fa0"
+        }
+      ],
+      "reason": "Official original report explicitly verifies September29 10:00 through September30 09:00, wholly after list closure. This revises the existing September30 observation, not a new poll. Prior unknown-fieldwork exclusion is retained in previousDecision and the October6 immutable archive.",
+      "previousDecision": {
+        "pollId": "history_hamadad_consortium_2026-09-30_current",
+        "sourcePollId": "hamadad_consortium_2026-09-30",
+        "pollsterId": "hamadad_consortium",
+        "publisher": "חדשות 13",
+        "publicationDate": "2026-09-30",
+        "fieldworkStart": null,
+        "fieldworkEnd": null,
+        "eligibleStrict": false,
+        "crossesClosureDate": null,
+        "status": "unknown-fieldwork",
+        "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+        "evidence": [
+          {
+            "url": "https://13tv.co.il/item/news/politics/politics/survey-905376242/?pid=98577",
+            "kind": "primary-publisher-web",
+            "quote": null,
+            "locator": "30 September poll publication; no verified fieldwork interval"
+          }
+        ],
+        "reason": "The original broadcaster publication supplies the poll date but no independently verified fieldwork start/end. It is excluded from strict trend testing until those dates are verified."
+      },
+      "revisionReviewedAt": "2026-10-07",
+      "fieldworkStartTime": "10:00",
+      "fieldworkEndTime": "09:00",
+      "fieldworkTimeZone": "Asia/Jerusalem",
+      "includeInStrictPostClose": true,
+      "sampleSize": 1013,
+      "collectionMode": "891 Jewish online respondents and122 non-Jewish telephone respondents",
+      "samplingMethod": "דגימת שכבות עם דגימה אקראית בתוך השכבות",
+      "marginOfErrorPct": 3.1,
+      "evidencePath": "artifacts/sources/2026-10-07-hamadad-update/Survey_4182.pdf",
+      "evidenceSha256": "f3d9ccad37ee833ba64e01b0f8d64aac57ec0af58ad641df1e9fe9a286718081",
+      "accessNote": "Original filing reports3.1% sampling error versus2.5% in prior broadcast. These descriptive metadata do not alter the published120-seat vector used in the strict trend test. Four unweighted subgroup percentage columns are not national vote shares."
+    }
+  ],
+  "supplementReviewedAt": "2026-10-07",
+  "supplementNote": "Original reports now verify existing MaagarSeptember29 and C13September30 fieldwork. Earlier exclusions remain in previousDecision and immutable archives; neither filing adds another observation."
+}
