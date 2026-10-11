@@ -1,0 +1,195 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-11",
+  "scope": "Independent direct-data reread against the immutable Oct10 checkpoint, user graphic transcribed values and frozen source candidate; this review is separate from importer assertions but performed by the scoped ingestion agent. Numerical strict analyses, app build and publication are reviewed separately by root.",
+  "baselineManifestSha256": "446da72c4b6a0409da33dd77dbbcb1f69c5b8e04849b870ec8716d4f16bff9cd",
+  "frozenCandidateSha256": "ec6ce92b80a023eb9b76706a8d39178949ad6cd090f0681ac743aeca620aafd9",
+  "activeCount": 8,
+  "uniqueActiveInstituteCount": 8,
+  "historyCount": 115,
+  "previousHistoryRowsPreserved": 114,
+  "unchangedOtherActivePollIds": [
+    "midgam_geva_2026-10-05",
+    "hamadad_consortium_2026-10-07",
+    "lazar_2026-10-09",
+    "maagar_mochot_2026-10-06",
+    "tatika_2026-10-08",
+    "direct_polls_2026-10-08",
+    "next_data_2026-10-07"
+  ],
+  "unchangedOtherActiveSourceIds": [
+    "midgam_geva",
+    "maagar_mochot",
+    "hamadad_consortium",
+    "next_data",
+    "direct_polls",
+    "tatika",
+    "lazar"
+  ],
+  "newPoll": {
+    "id": "kantar_2026-10-11",
+    "date": "2026-10-11",
+    "sampleSize": 554,
+    "seats": {
+      "yashar": 22,
+      "likud": 20,
+      "beyachad": 12,
+      "otzma": 9,
+      "democrats": 8,
+      "yisrael_beiteinu": 8,
+      "utj": 8,
+      "joint": 8,
+      "shas": 7,
+      "rz_zehut": 5,
+      "raam": 5,
+      "winter": 4,
+      "hendel": 4,
+      "gantz": 0,
+      "haredi_public": 0
+    },
+    "seatSum": 120,
+    "publishedBlocSeats": {
+      "coalition": 53,
+      "opposition": 50,
+      "arab_parties": 13,
+      "hendel": 4
+    },
+    "reportedPercentages": {
+      "gantz": 0.9,
+      "haredi_public": 0.9
+    },
+    "modelOnlyPercentageIds": [
+      "other"
+    ],
+    "derivedOtherPct": 1.2,
+    "unmodelledNamedParties": [
+      {
+        "name": "צבע שחור — מגן עולם התורה",
+        "seats": 0,
+        "pct": 0.7,
+        "mappedTo": "other",
+        "sourceUrl": "https://x.com/IsraelPolls/status/2109340303660552420"
+      },
+      {
+        "name": "אח״י",
+        "seats": 0,
+        "pct": 0.5,
+        "mappedTo": "other",
+        "sourceUrl": "https://x.com/IsraelPolls/status/2109340303660552420"
+      }
+    ],
+    "unknownFieldsPreservedAsNull": [
+      "publicationTime",
+      "publishedAt",
+      "fieldworkStart",
+      "fieldworkEnd",
+      "invitedSampleSize",
+      "initialSampleSize",
+      "reportedMarginOfErrorPct",
+      "reportedMarginOfErrorConfidencePct",
+      "population",
+      "samplingMethod",
+      "panelProvider",
+      "undecidedPct",
+      "percentageDenominator",
+      "fieldworkSourceUrl"
+    ],
+    "missingPercentagePartyIdsChecked": [
+      "winter",
+      "noam",
+      "israel_first"
+    ],
+    "strictEligible": false
+  },
+  "preservationChecks": {
+    "authorContent": {
+      "checked": 117,
+      "unchanged": 117,
+      "failures": []
+    },
+    "previousPublicEvidence": {
+      "checked": 1072,
+      "unchanged": 1072,
+      "failures": []
+    }
+  },
+  "historicalWeightAndPartyCatalogueHashes": {
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "data/weight-presets.json": "4b78d63175ef13945d80dfc51ec91a0fcdde332908fda385922236ec887e402c",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e"
+  },
+  "unchangedExistingAnalysisScriptCount": 49,
+  "strictFieldworkCohort": {
+    "candidateCount": 44,
+    "verifiedCountFull": 39,
+    "verifiedCountWithoutChannel14": 32,
+    "unknownFieldworkExcludedCount": 5,
+    "sourceEvidenceHashesChecked": 54,
+    "audits": {
+      "artifacts/strict-post-close/lazar-fieldwork.json": "53953455d63015f48c3bb34b604adb3eb629e94d6e3cd17fdadd47928be7b514",
+      "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "effbd82d2f26dcf458c4104ef4f2676e8a65891579a933f06bc7724c9966c9e8",
+      "artifacts/strict-post-close/c14-i24-fieldwork.json": "fe7cf7d4c37a3e15f1ac6329b93d75c5305c8d7662a741340379d1bf6d74e003",
+      "artifacts/strict-post-close/c16-tatika-fieldwork.json": "92df577bbd22fd10ab0989a1002611477f1a49a1c5e4c380edb5f864345dbf56",
+      "artifacts/strict-post-close/new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+    },
+    "criterion": "Verified entire fieldwork starts after closure 2026-09-08; publication or repost is never substituted for collection dates."
+  },
+  "publicArchiveURLs": {
+    "checkedOccurrenceCount": 991,
+    "newKanOccurrenceCount": 71,
+    "newKanUniqueCount": 16,
+    "newKanAllResolveLocally": true,
+    "newKanURLs": [
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/index-network-receipts.json",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-graphic.jpg",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-history-graphic.png",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-history-post.html",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-history-post.txt",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-new-post.html",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-new-post.txt",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls.html",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls.txt",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/media-history-receipts.json",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/model-only-r1/reviewed-poll.json",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/model-only-r1/revision-receipt.json",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/reviewed-poll.json",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/social-receipts.json",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/source-extract.txt",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/verification-summary.json"
+    ],
+    "legacyAllResolve": false
+  },
+  "preExistingLimitations": [
+    {
+      "url": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-04/kan-original-broadcast.mp4",
+      "canonicalLocation": "data/poll-history.json/supplementalSourceUrls/39",
+      "alreadyPresentInImmutableBaseline": true,
+      "actualLocalEvidencePath": "artifacts/sources/2026-10-04-kan-update/kan-original-broadcast.mp4",
+      "decision": "Parent instructed preserving this frozen historical pointer; it remains a nonpublic large original broadcast retained locally. This PASS does not claim all legacy public URLs resolve."
+    }
+  ],
+  "sourceAccessLimitations": [
+    {
+      "publisher": "Kan",
+      "originalHomeNewsPoliticsAndPollsIndexes": "HTTP403",
+      "verifiedEvidence": "IsraelPolls republished Kan broadcast graphic, historical table and user screenshot; original full publisher report/methodology unavailable.",
+      "consequence": "Published mandates/date/n554 retained; fieldwork, collection method, full percentages and margin remain missing. New poll excluded from strict trend cohort."
+    }
+  ],
+  "GileadContext": {
+    "rememberedPrivately": "docs/gilead-research-context.he.md",
+    "notInCanonicalPollInputs": true,
+    "notInNewPublicArchive": true,
+    "rawRespondentDatasetNotAttached": true
+  },
+  "inputHashes": {
+    "data/current-polls.json": "acf51be93cf4d59600b02d4b06ded136928e6494ed40ddf2dbf16f0bfaa7620d",
+    "data/poll-history.json": "d79a7014a6369e1a00b3bec950442bda37e338e3ef3f4650003ff62b52174a77",
+    "data/sources.json": "a374dddce9a9ee5380efe71f278402ef327b25751c554fd7aeccb219d782abd7",
+    "data/survey-documents-2026-09-14.json": "37598d49dd0af6f41e65b4702fe7ad49d521322e43f6db0ec812b82737737d7f",
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "data/weight-presets.json": "4b78d63175ef13945d80dfc51ec91a0fcdde332908fda385922236ec887e402c",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e"
+  },
+  "errors": []
+}

@@ -1,0 +1,213 @@
+{
+  "id": "kantar_2026-10-11",
+  "pollsterId": "kantar",
+  "pollster": "קנטאר — דודי חסיד",
+  "publisher": "כאן חדשות",
+  "date": "2026-10-11",
+  "dateKind": "תאריך הסקר המופיע בגרפיקה המשודרת של כאן חדשות ובטבלת IsraelPolls; תאריך עבודת השדה אינו מאומת",
+  "publicationTime": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": null,
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": 554,
+  "invitedSampleSize": null,
+  "initialSampleSize": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "population": null,
+  "samplingMethod": null,
+  "panelProvider": null,
+  "undecidedPct": null,
+  "percentageDenominator": null,
+  "seats": {
+    "yashar": 22,
+    "likud": 20,
+    "beyachad": 12,
+    "otzma": 9,
+    "democrats": 8,
+    "yisrael_beiteinu": 8,
+    "utj": 8,
+    "joint": 8,
+    "shas": 7,
+    "rz_zehut": 5,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "gantz": 0.9,
+    "haredi_public": 0.9
+  },
+  "percentages": {
+    "gantz": 0.9,
+    "haredi_public": 0.9,
+    "other": 1.2
+  },
+  "percentageSourceUrls": {
+    "gantz": "https://x.com/IsraelPolls/status/2109340303660552420",
+    "haredi_public": "https://x.com/IsraelPolls/status/2109340303660552420",
+    "other": "https://x.com/IsraelPolls/status/2109340303660552420"
+  },
+  "percentageEvidenceKind": "Below-threshold percentages visually verified in IsraelPolls Kantar history latest11.10column; original Kan methodology/fullpercenttable inaccessible. Other1.2 is explicit derived sum of two named nonmodelled parties, not a published aggregate.",
+  "voteShareType": "published-mandates-with-partial-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "sourceBlocSeats": {
+    "coalition": 53,
+    "opposition": 50,
+    "arab_parties": 13,
+    "hendel": 4
+  },
+  "sourceUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+  "sourceTier": "republished-publisher-graphic",
+  "sampleSizeSourceUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+  "fieldworkSourceUrl": null,
+  "reportedMarginOfErrorSourceUrl": null,
+  "panelProviderSourceUrl": null,
+  "panelProviderEvidenceKind": null,
+  "unmodelledNamedParties": [
+    {
+      "name": "צבע שחור — מגן עולם התורה",
+      "seats": 0,
+      "pct": 0.7,
+      "mappedTo": "other",
+      "sourceUrl": "https://x.com/IsraelPolls/status/2109340303660552420"
+    },
+    {
+      "name": "אח״י",
+      "seats": 0,
+      "pct": 0.5,
+      "mappedTo": "other",
+      "sourceUrl": "https://x.com/IsraelPolls/status/2109340303660552420"
+    }
+  ],
+  "knownPercentageSum": 3.0,
+  "originalCoveragePct": 3.0,
+  "checkedAt": "2026-10-11",
+  "reviewedAtUtc": "2026-10-11T18:18:37.535510+00:00",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2109340303660552420",
+    "https://x.com/IsraelPolls?s=20",
+    "https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb.jpg",
+    "https://pbs.twimg.com/media/HUXh0psWYAEDF_A.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-graphic.jpg",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-history-graphic.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-new-post.html",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-new-post.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-history-post.html",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-history-post.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls.html",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/verification-summary.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/index-network-receipts.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/social-receipts.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/media-history-receipts.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/source-extract.txt"
+  ],
+  "sourceDocument": {
+    "fileName": "israelpolls-graphic.jpg",
+    "kind": "republished-original-broadcast-graphic",
+    "sha256": "916471fc0629dcce4f8b3d0c8e30f7459a9fdf58fc76a0b0785994824754e158",
+    "primarySourceUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+    "providedBy": "IsraelPolls-republication-of-Kan-broadcast-graphic",
+    "primaryPublicationVerified": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "fieldworkStart",
+      "fieldworkEnd",
+      "samplingMethod",
+      "population",
+      "invitedSampleSize",
+      "reportedMarginOfErrorPct",
+      "reportedMarginOfErrorConfidencePct",
+      "undecidedPct",
+      "percentageDenominator",
+      "full-passing-party-percentages"
+    ],
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/israelpolls-graphic.jpg",
+    "extractFileName": "source-extract.txt",
+    "extractSha256": "2d9d6b5bb1194672793e5f754b1f0b052b2dc37ffa074fe88e1a115e4a80f17d"
+  },
+  "sourceRepostPublishedAtUtc": "2026-10-11T17:39:58+00:00",
+  "sourceRepostPublishedAtIsrael": "2026-10-11T20:39:58+03:00",
+  "sourceHistoryRepostPublishedAtUtc": "2026-10-11T17:48:12+00:00",
+  "sourceHistoryRepostPublishedAtIsrael": "2026-10-11T20:48:12+03:00",
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-11-kan/reviewed-poll.json",
+  "limitations": [
+    "Kan homepage, news, politics and polls index returnedHTTP403 in fresh directHTTP checks; web-reader yielded no readable content. Do not claim successfully read original Kan publisher report.",
+    "Original Kan broadcast graphic is republished by IsraelPolls and matches user-provided screenshot. n554 is visible in graphic; full fieldwork, collection mode, margin and undecided share are not verified and remain null.",
+    "Publication date11Oct is printed in graphic and latest historical-table column. IsraelPolls repost timestamps are recorded separately and are not fieldwork evidence.",
+    "Winter passes with4mandates, but no published Winter nationalvote% in reviewed sources. Never reuse prior2.9/2.6%.",
+    "TablebelowthresholdGantz.9,HarediPublic.9,TzevaShahor.7,Ahi.5. Unmodelled lattertwo are aggregated to modelother1.2 as a documentedderivedsum; noam/israel_first remain missing, notzero.",
+    "Unknownfieldworkexcludes this poll from strictpostclosure significancecohort pendingverifieddates; currentforecast can ingest it as a clearly sourcedpublishedobservation.",
+    "FetchedTelegramprofileswere not verified as broadcaster-owned; kann_news contents contained unrelatedtrading and olderposts and were not used as evidence."
+  ],
+  "notes": [
+    "סקר כאן חדשות / קנטאר מ־11.10.2026, במדגם של 554 נשאלים כפי שמופיע בגרפיקה. מחליף רק את סקר קנטאר / ישראל היום מ־8.10 בשקלול הפעיל; שתי התצפיות נשמרות בהיסטוריה.",
+    "המנדטים, המדגם ותאריך הסקר נבדקו בגרפיקה של כאן שפרסם IsraelPolls; אחוזים מתחת לחסימה נבדקו בעמודת 11.10 בטבלה ההיסטורית. אתר כאן ומדורי החדשות, הפוליטיקה והסקרים החזירו HTTP403; הפרסום המקורי המלא והמתודולוגיה לא נקראו בהצלחה.",
+    "לא אומתו תאריכי עבודת השדה, השיטה, האוכלוסייה, מספר המוזמנים, טעות הדגימה ושיעור המתלבטים; השדות נשארים חסרים. הסקר אינו נוסף למבחני המגמה המחמירים עד אימות מועדי האיסוף.",
+    "עמך ישראל מקבלת 4 מנדטים, אך אחוז התמיכה שלה לא פורסם במקורות שנבדקו; אין להעתיק את 2.9% או 2.6% מהסקרים הקודמים. אחוזי הרשימות העוברות משוחזרים במודל ואינם אחוזי משיבים שפורסמו.",
+    "בטבלת IsraelPolls: כחול לבן 0.9%, הציבור החרדי 0.9%, צבע שחור 0.7% ואח״י 0.5%. שתי האחרונות נשמרות בשם המקור; 1.2% שלהן הוא סכום מחושב לרכיב אחרים במודל, לא אחוז מצרפי שפורסם. נעם וישראל תחילה נשארות חסרות.",
+    "חלוקת המקור: גוש נתניהו 53 כולל וינטר, גוש איזנקוט 50, ערביות 13 והנדל־זליכה 4. שיוך הגושים באתר נתון לבחירת המשתמש.",
+    "חותמות הפרסום החוזר ב־IsraelPolls נשמרות בנפרד; אינן תאריכי עבודת שדה או שעת הפרסום הראשונה של כאן."
+  ],
+  "replacesPollId": "kantar_2026-10-08",
+  "sourceAccessSummary": [
+    {
+      "url": "https://www.kan.org.il/",
+      "access": "blocked",
+      "status": 403
+    },
+    {
+      "url": "https://www.kan.org.il/content/kan-news/",
+      "access": "blocked",
+      "status": 403
+    },
+    {
+      "url": "https://www.kan.org.il/content/kan-news/politic/",
+      "access": "blocked",
+      "status": 403
+    },
+    {
+      "url": "https://skarim.kan.org.il/",
+      "access": "blocked",
+      "status": 403
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2109338230902693893",
+      "access": "readable-with-graphic",
+      "status": 200,
+      "sourceFile": "israelpolls-new-post.html",
+      "sha256": "2fb8c1bd4d49ad99f90440995b5fdbca596880337aba36f9139f894f345fb6bc"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2109340303660552420",
+      "access": "readable-with-history-table",
+      "status": 200,
+      "sourceFile": "israelpolls-history-post.html",
+      "sha256": "e1e5960afbc9134f60820f80a4a1bb8a807f6684922448afd19853c764a77d70"
+    }
+  ]
+}

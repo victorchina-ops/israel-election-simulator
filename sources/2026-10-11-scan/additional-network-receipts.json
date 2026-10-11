@@ -1,0 +1,51 @@
+[
+  {
+    "name": "maariv-elections",
+    "requestedUrl": "https://www.maariv.co.il/news/elections-2026",
+    "fetchedAtUtc": "2026-10-11T18:16:14.219774+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/news/elections-2026",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 148774,
+    "sha256": "f32c8399c5277072b691859a45f1dfa29c858eab1761c234e56bd357f08a754f",
+    "pollLinks": []
+  },
+  {
+    "name": "maariv-kan-oct11",
+    "requestedUrl": "https://www.maariv.co.il/news/elections-2026/article-1376070",
+    "fetchedAtUtc": "2026-10-11T18:16:14.721505+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/news/elections-2026/article-1376070",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 202497,
+    "sha256": "b68cef0ebf8e2d3298b7b5a69563ced3b25c163288bdb34ed9c6a6c4a2da980e",
+    "pollLinks": [
+      {
+        "href": "/tags/סקר-מנדטים",
+        "text": "סקר מנדטים"
+      }
+    ]
+  },
+  {
+    "name": "maariv-kan-alert-blocs",
+    "requestedUrl": "https://www.maariv.co.il/breaking-news/article-1376077",
+    "fetchedAtUtc": "2026-10-11T18:16:15.659234+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/breaking-news/article-1376077",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 153530,
+    "sha256": "76bf8ade9a317fd7349eaa19132687fecf3c9986935925bbcea0607cb8db4eab",
+    "pollLinks": []
+  },
+  {
+    "name": "maariv-kan-alert-thirdbloc",
+    "requestedUrl": "https://www.maariv.co.il/breaking-news/article-1376078",
+    "fetchedAtUtc": "2026-10-11T18:16:16.110084+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/breaking-news/article-1376078",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 154280,
+    "sha256": "50bfff6009727b40b5d5dc1aefba0533fe1222152b477d95d0fe24862145fc28",
+    "pollLinks": []
+  }
+]

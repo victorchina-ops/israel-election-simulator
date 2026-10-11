@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-11",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "activeSelectedInstitutes": 7,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "comparisonSha256": "b0a65ff44a0008080a8cdd188844c612d70b6f57c04cadab1e8d5ec2b0de8299",
+  "snapshotSha256": "c5c424aa1e7cf5068ec71852b5617a77e167f202441b18273afa0b74c848dd7c",
+  "baselineSha256": "43741e4bf9abf763b17ccb61c8c69215dec42f1e42695370fae9639152a1149b",
+  "diagnosticLimitation": "The first comparison helper omitted explicit Channel14 exclusion and was retained as including14-diagnostic. It is superseded for the current report; site defaults and source-built UI were already correct."
+}

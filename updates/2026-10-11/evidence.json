@@ -1,0 +1,30 @@
+{
+  "asOf": "2026-10-11",
+  "beforeModelAsOf": "2026-10-10",
+  "comparisonSha256": "b0a65ff44a0008080a8cdd188844c612d70b6f57c04cadab1e8d5ec2b0de8299",
+  "currentDataSha256": "acf51be93cf4d59600b02d4b06ded136928e6494ed40ddf2dbf16f0bfaa7620d",
+  "sourceUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+  "historyTableUrl": "https://x.com/IsraelPolls/status/2109340303660552420",
+  "method": "Identical browser model replay, historicalaccuracyweights, latestselectedpollperinstitute,7activeinstitutes withoutChannel14,10000 trials seed20260912,baseline2022turnout. Original passingpartypercentagesunpublished and reconstructed.",
+  "marks": [
+    {
+      "partyId": "winter",
+      "modelPassPct": 51.81,
+      "previousModelPassPct": 44.7,
+      "ringSweepDegrees": 186.516,
+      "publishedKanSeats": 4
+    },
+    {
+      "partyId": "hendel",
+      "modelPassPct": 28.17,
+      "previousModelPassPct": 36.4,
+      "ringSweepDegrees": 101.412,
+      "publishedKanSeats": 4
+    }
+  ],
+  "statisticsClaim": null,
+  "areModelProbabilities": true,
+  "arePublishedVoteShares": false,
+  "publicSimulatorUrl": "https://victorchina-ops.github.io/israel-election-simulator/",
+  "tweetPublished": false
+}

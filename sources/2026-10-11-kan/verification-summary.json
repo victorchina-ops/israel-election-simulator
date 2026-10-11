@@ -1,0 +1,25 @@
+{
+  "status": "verified-published-observation-partial-metadata",
+  "poll": "kantar_2026-10-11",
+  "primarySourceAccess": "Kanwebblocked; broadcastgraphicrepublishedbyIsraelPollsverified",
+  "comparisonToActiveKantarOct8": {
+    "likud": -1,
+    "beyachad": -1,
+    "rz_zehut": -1,
+    "winter": 4,
+    "hendel": -1
+  },
+  "sourceHashes": {
+    "israelpolls-graphic.jpg": "916471fc0629dcce4f8b3d0c8e30f7459a9fdf58fc76a0b0785994824754e158",
+    "israelpolls-history-graphic.png": "06060ca1cb29b9d58c5648380241bac72842b4336a89bdbc6bb9677b3ad87c99",
+    "israelpolls-new-post.html": "2fb8c1bd4d49ad99f90440995b5fdbca596880337aba36f9139f894f345fb6bc",
+    "israelpolls-history-post.html": "e1e5960afbc9134f60820f80a4a1bb8a807f6684922448afd19853c764a77d70",
+    "israelpolls.html": "33318271705e5cd3e91891112017f3bff1b619c9e23483a168aea47a17fcf0c5",
+    "index-network-receipts.json": "01263232866c09926b171ea9fabcabbb17154c4c3239fe31e2615e31e357a630",
+    "social-receipts.json": "466856e44000f736c6484e5d39aa6764e1dfe8a4261807d8ee81396faeec7b52",
+    "media-history-receipts.json": "dc7fb0085c6f171bcb42d8b13ac616ffeeed2a878b9fb5a83105452d35ddefc6",
+    "kan-fallback-receipts.json": "d11ca1004c65e38ed20991145f3625e0f0f3e12108e13be7971691fcd94ed2ae"
+  },
+  "strictEligible": false,
+  "candidateFile": "reviewed-poll.json"
+}

@@ -1,0 +1,1029 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-11",
+  "newMandatePolls": 1,
+  "pollId": "kantar_2026-10-11",
+  "activePollCount": 8,
+  "historyPollCount": 115,
+  "strictNewPollEligible": false,
+  "testsPassed": 402,
+  "authorContentFilesUnchanged": 117,
+  "previousPublishedEvidenceFilesPreserved": 1072,
+  "snapshotSha256": "c5c424aa1e7cf5068ec71852b5617a77e167f202441b18273afa0b74c848dd7c",
+  "compiledHtmlSha256": "7468e0d779ce54ccd8de4b6ed4ae122e9b2e01aba4766f45b0e75a39f7f6093b",
+  "publishedHtmlSha256": "3b3e35c7309816b81cab4dcd0d5669b042fa03ada1428cbbdad85878d70a4df9",
+  "featuresChatGPT": false,
+  "defaultWeighting": "quality",
+  "includeChannel14": false,
+  "signalNoiseEnabled": false,
+  "pollCorrelationEnabled": false,
+  "privateGileadResearchPublished": false,
+  "socialDraftOnly": true,
+  "files": [
+    {
+      "path": "sources/2026-10-11-kan/current-polls.json",
+      "sha256": "acf51be93cf4d59600b02d4b06ded136928e6494ed40ddf2dbf16f0bfaa7620d",
+      "bytes": 406715
+    },
+    {
+      "path": "sources/2026-10-11-kan/poll-history.json",
+      "sha256": "d79a7014a6369e1a00b3bec950442bda37e338e3ef3f4650003ff62b52174a77",
+      "bytes": 398657
+    },
+    {
+      "path": "sources/2026-10-11-kan/sources.json",
+      "sha256": "a374dddce9a9ee5380efe71f278402ef327b25751c554fd7aeccb219d782abd7",
+      "bytes": 125340
+    },
+    {
+      "path": "sources/2026-10-11-kan/parties.json",
+      "sha256": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+      "bytes": 3261
+    },
+    {
+      "path": "sources/2026-10-11-kan/calibration.json",
+      "sha256": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+      "bytes": 29969
+    },
+    {
+      "path": "sources/2026-10-11-kan/strict-party-trends.json",
+      "sha256": "f140e7f4901259cfd492e12fecec25818c50a994a33a1643a2c6f94fa47ceb46",
+      "bytes": 227372
+    },
+    {
+      "path": "sources/2026-10-11-kan/strict-party-trends-without-channel14.json",
+      "sha256": "16ebc916046239d784e83cb127fbf187a8a4228eb02efed336282ab8e6df6942",
+      "bytes": 202726
+    },
+    {
+      "path": "sources/2026-10-11-kan/poll-correlation.json",
+      "sha256": "0647d5264046b6a90f41b6e28ef06c162b49d5d2dd9f99442033986b2cb2fd65",
+      "bytes": 110913
+    },
+    {
+      "path": "sources/2026-10-11-kan/survey-documents-2026-09-14.json",
+      "sha256": "37598d49dd0af6f41e65b4702fe7ad49d521322e43f6db0ec812b82737737d7f",
+      "bytes": 258151
+    },
+    {
+      "path": "sources/2026-10-11-kan/ingestion-validation.json",
+      "sha256": "b2630cc84706850b56df9c588b9299fce243917a98bdf6bcbf8222308bd896f1",
+      "bytes": 1689
+    },
+    {
+      "path": "sources/2026-10-11-kan/ingestion-validation-model-only-r1.json",
+      "sha256": "3993f4ce5792d3b338dab05e156e3e8c280eb168ccb39fb5a33737ebe2a80314",
+      "bytes": 1769
+    },
+    {
+      "path": "sources/2026-10-11-kan/ingestion-receipt-model-only-r1.json",
+      "sha256": "f703027cae549670ee41008bbe720ef12f7552d0a2a3a07d774e68207866f86d",
+      "bytes": 6169
+    },
+    {
+      "path": "sources/2026-10-11-kan/strict-validation.json",
+      "sha256": "87ce8cea6d84b3f06e4295b2c45133b28bb0036cfbd0b3e249f63685cb3b3397",
+      "bytes": 17268
+    },
+    {
+      "path": "sources/2026-10-11-kan/independent-final-review.json",
+      "sha256": "f4b9e254a2ea23396a8148892ae081ac191dd96d40c3a0c2dec5efa6192ede6b",
+      "bytes": 8813
+    },
+    {
+      "path": "sources/2026-10-11-kan/model-comparison.json",
+      "sha256": "b0a65ff44a0008080a8cdd188844c612d70b6f57c04cadab1e8d5ec2b0de8299",
+      "bytes": 652082
+    },
+    {
+      "path": "sources/2026-10-11-kan/model-comparison-validation.json",
+      "sha256": "c72105de880cb7b0af5b3e9d8cc23637c49684705dc7ecbd1ddc623e9e21a99b",
+      "bytes": 750
+    },
+    {
+      "path": "sources/2026-10-11-kan/test-results-final.txt",
+      "sha256": "a1d3cdc638637ae8ed691c2bc14b2f66a4ed8d9a30c37db702c03138eab1b7fd",
+      "bytes": 38898
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/add-c14-fieldwork-2026-10-07.py",
+      "sha256": "a650f22c20036aa796620a39848a8600712e301b2ca39cd01414ccb0dc3db386",
+      "bytes": 4293
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/add-fieldwork-2026-10-02.py",
+      "sha256": "9ba655b7ab0f08eb2ab24519241b6677847acc384817e2383e94f1d15e8384eb",
+      "bytes": 4542
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/add-fieldwork-2026-10-04.py",
+      "sha256": "984674b56c7ed81db67a634b28f88e4d49e8055f173f16f315e75234ddc20e20",
+      "bytes": 4311
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/add-fieldwork-2026-10-05.py",
+      "sha256": "b2e75b5ea1b2e29a724332dd3920f5a47c522e78d27315c39897c812402e9f38",
+      "bytes": 3465
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/add-fieldwork-2026-10-06.py",
+      "sha256": "95b3416b2ab46b160f679c588da0a519d7961ea3dc0c6a5d9b50e195bef26ed8",
+      "bytes": 8397
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/add-fieldwork-2026-10-07.py",
+      "sha256": "7443406f95afa4ea803e2a5e421d7168f60d696b235c67c38f0ee4516a808e24",
+      "bytes": 7650
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/analysis.json",
+      "sha256": "83e3caf5711bb9bbc0c3ab7e885fc802a20ee1f94f68453cf7a06205356fd4e3",
+      "bytes": 167315
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/bloc-independent-run-2026-10-02.log",
+      "sha256": "836faa7dce12f43aef2bd840f91023203992f35cd9e60d91b6a1d16c64e75d76",
+      "bytes": 2566
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/bloc-independent-run-2026-10-04.log",
+      "sha256": "836faa7dce12f43aef2bd840f91023203992f35cd9e60d91b6a1d16c64e75d76",
+      "bytes": 2566
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/bloc-run-2026-10-02.log",
+      "sha256": "22855cf9c906aa39b5a58dd29ef574de25e6ce47079ce2af09b6250dddb2c2cd",
+      "bytes": 7057
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/bloc-run-2026-10-04.log",
+      "sha256": "04d443bfbb7d006857fa36fdfe97c6ed7f8743762aa5ef185282030a8b3e5ce3",
+      "bytes": 7057
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-party-summary.py",
+      "sha256": "8d56bf2a53b7ece270eb0c12377f8ab3c0ba0918739493e1f52aaebbb6874330",
+      "bytes": 238
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summaries-2026-10-04.py",
+      "sha256": "5ac6625340d9257b699bcb8db730b037f73aabc00beaaebb8de86ab874d3d90d",
+      "bytes": 13538
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summaries-2026-10-05.py",
+      "sha256": "d9e01b6be34bb053092d5740ab1b0fdabcd3f3fa2bf5ce0bbd06e4fb9ef890c2",
+      "bytes": 13555
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summaries-2026-10-06.py",
+      "sha256": "c2efe4552a9c7df917ad98213e242c321ab6c2075b24667c818ef1624d69212a",
+      "bytes": 14087
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summaries-2026-10-07.py",
+      "sha256": "e6daba7d49c22760475019988666c4fda6b003f997558cf51fa9972297830113",
+      "bytes": 14673
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summaries-2026-10-08-evening.py",
+      "sha256": "51444139e849a29ce52e0234d9a63adf4fa60a5ca85280479b9c60defe024d04",
+      "bytes": 5002
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summaries-2026-10-08.py",
+      "sha256": "80b88a919bdf14dca220f07aa1afde607a6fc186dd12e349ad1451205f62d742",
+      "bytes": 5776
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summaries-2026-10-09.py",
+      "sha256": "d05536a542d5942935ad0f5363c478999f13985b6b9a4d2e672c745fd6f3110d",
+      "bytes": 4996
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/build-summary.py",
+      "sha256": "8d56bf2a53b7ece270eb0c12377f8ab3c0ba0918739493e1f52aaebbb6874330",
+      "bytes": 238
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/by-pollster.csv",
+      "sha256": "8e021bfd8d5a514c757aa0b785f5132a3ad7b21d70c6c9cca1e06302468fddfd",
+      "bytes": 5538
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/c14-2026-09-15-primary.html",
+      "sha256": "41157de200b06d976c3a25a8090e4874b393b96a72b2a2dca306184978ede870",
+      "bytes": 202208
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/c14-i24-fieldwork.json",
+      "sha256": "fe7cf7d4c37a3e15f1ac6329b93d75c5305c8d7662a741340379d1bf6d74e003",
+      "bytes": 20090
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/c16-tatika-fieldwork.json",
+      "sha256": "92df577bbd22fd10ab0989a1002611477f1a49a1c5e4c380edb5f864345dbf56",
+      "bytes": 12523
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/ch16-home.html",
+      "sha256": "b87619faf95cacfab83481c01ddb7b8c6164b23cbb0de99a3336047a86aa0b05",
+      "bytes": 118371
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/ch16-x16.html",
+      "sha256": "fed0469aa48e484b1bbde6fd8cb11aa55d1c91b11f3311390c34dbb639f3c10f",
+      "bytes": 142491
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/ch16-xprofile.html",
+      "sha256": "2d1d6434b3ebc99318918ae883032eb89285f834ee71020142fd7b7ced04381f",
+      "bytes": 182972
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/check-archived-counts.py",
+      "sha256": "5dd1963ba434ad3f037f23dce0f226c153e95b4ac5aabc0a8edb3bb3c24cd9dc",
+      "bytes": 1174
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/check-compressed-counts.py",
+      "sha256": "80e9e215d89c4cb36af2eeb7bee56b35fbaf4645390c946feb47ef5c79ae4735",
+      "bytes": 1370
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/compare-2026-10-01.py",
+      "sha256": "42970ecf960cf700b56ccede64b3c7243211a92543ebd8145841996aa056ab88",
+      "bytes": 3991
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/compare-2026-10-02.py",
+      "sha256": "cffd568cf258e619fc348751100ced1ed6f470896e7187840f485edebe51bb18",
+      "bytes": 2834
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/compare-2026-10-04.py",
+      "sha256": "eab841097373e6846e12c4892c9aa76287289bac898c76046661d87bd0b03f66",
+      "bytes": 3982
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/compare-2026-10-05.py",
+      "sha256": "4536ad4fb2425c927986efef1aa89d8ddaa0e17f25a5cace1370759f5dffa587",
+      "bytes": 3992
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/compare-2026-10-06.py",
+      "sha256": "d77dc08b30c044c74e701a1e3c9a349a331d164f947d4b34946cbaac82adafcb",
+      "bytes": 5980
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/compare-2026-10-07.py",
+      "sha256": "c980b0dfb3d5d9ea7b7393042324625913dc206e2371a70f1706b54b465903e8",
+      "bytes": 6182
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/comparison-2026-10-01.json",
+      "sha256": "ddf3be0bd6082ca6c9310d1ea6c4fede92dbcfc3b837d047e9e0407c1b775216",
+      "bytes": 41387
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/compressed_searchsorted_exact.py",
+      "sha256": "9598e42587587375cf5cfaacd5f1a2edbea23512c0148f167c64a4b248b99f1c",
+      "bytes": 6390
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/i24-2026-09-09-primary-web-extract.txt",
+      "sha256": "6087e4845c3ea960860e1ddd05298b5b24a99b090a03bf5c8c25969d8c43ea56",
+      "bytes": 696
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/i24-2026-09-09-primary.html",
+      "sha256": "fcd662c2ad4f5df11af1bb18827eeb074e07e93fc2fcbd420b416ac30a4cf0b3",
+      "bytes": 6949
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/i24-2026-09-17-primary.html",
+      "sha256": "31d985a38ee67aa1da2924876c43aea7f882518d360bd6300a791ed970bfbe6f",
+      "bytes": 185831
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/independent-compressed-counts.py",
+      "sha256": "6c77359d39ad0131bbd7e780a57b6667b5b8f5cfc19803dc155ed34290118990",
+      "bytes": 2863
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/independent-strict-numeric-audit.json",
+      "sha256": "da2badbca39c1d93b860f9cfb44b3065951d7598a168e3777f9f4b833366f6b0",
+      "bytes": 3005
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/israelpolls-current.html",
+      "sha256": "306525d3c210b7a0b83d35ca6244f59069fdf7fa9ad74c668a979071155576f7",
+      "bytes": 162443
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/kan-2026-09-09-primary.html",
+      "sha256": "0196c6a8912caa8efb0f0c865ff85ff2844ecc0be6db61e569c75838544ec833",
+      "bytes": 127200
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/kan-2026-09-14-graphic.jpeg",
+      "sha256": "04a500ac4fc5cddc9463b416658abd4076d4bac58cdd05c9289838436381f11a",
+      "bytes": 253389
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/kan-2026-09-14-infogram.html",
+      "sha256": "841c161ce88e5b5ae356920cbd2d19c889b17e40478913f6eb4012ecede944e6",
+      "bytes": 361361
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/kan-2026-09-14-primary.html",
+      "sha256": "953c6bb8d9cd101c7c1f70b87db83cdc7aee28d58b6f75667ff85c4a615d5fca",
+      "bytes": 155435
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/lazar-fieldwork.json",
+      "sha256": "53953455d63015f48c3bb34b604adb3eb629e94d6e3cd17fdadd47928be7b514",
+      "bytes": 13164
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/metadata-only-reconciliation.json",
+      "sha256": "8f0aac3cf7efa70261e6f5dd623c13b5ad1c41dd0cfad3f614dc1c76604b441b",
+      "bytes": 717
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/n12-2026-09-14-primary.html",
+      "sha256": "fdf309dd84a49f28b218233f5c25c14efbc03b1854d5852fae10b1fcee372899",
+      "bytes": 15749
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/n12-2026-09-14-web-reader-evidence.txt",
+      "sha256": "d436c43a7938045957fba8b7718a8aa46bdebda29bad983a1e524f663e5f3612",
+      "bytes": 460
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/n12-kan-c13-fieldwork.json",
+      "sha256": "effbd82d2f26dcf458c4104ef4f2676e8a65891579a933f06bc7724c9966c9e8",
+      "bytes": 36158
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/n12-kan-c13-source-fetch.json",
+      "sha256": "f7b9c8c720aa59ebf587dcdd57bfac2810f57e5d33f33a7ca692b093feb261fc",
+      "bytes": 9554
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/new-unverified-fieldwork-2026-09-30.json",
+      "sha256": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db",
+      "bytes": 8337
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-analysis.json",
+      "sha256": "f76b6bba0559c242930bbb3e7691e7b3ce6bd0373ffee9e065119f07dacf98d9",
+      "bytes": 355878
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-by-pollster.csv",
+      "sha256": "1e07144395b6edfc75c21cc7371622997b5971e8ce87e1fea8d910941908e7fc",
+      "bytes": 21435
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-independent-run-2026-10-02.log",
+      "sha256": "992136b54ea51b82f912b9aee0970a02bbdfe9d708ba315b448523491ba607b0",
+      "bytes": 5500
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-independent-run-2026-10-04.log",
+      "sha256": "992136b54ea51b82f912b9aee0970a02bbdfe9d708ba315b448523491ba607b0",
+      "bytes": 5500
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-independent.json",
+      "sha256": "0833c3c56be489e95def6211160f72aed2cbddbb3bb8b9ce74edf8be62a9cb2e",
+      "bytes": 46719
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-independent.py",
+      "sha256": "7620fae14b10717d0443d3338235789c52cf02e6b77ddf6928bc49f2f6b4d800",
+      "bytes": 5722
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-overall.csv",
+      "sha256": "996b3a1d8682734cffb944f209fdd77df1ff2bf7b6fd8e891e81e2a05e09dfa4",
+      "bytes": 2520
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-run-2026-10-02.log",
+      "sha256": "06fafce4d5d55a3e7535b6d106104aa5a9ab061b02728dca77c2137e5c54b678",
+      "bytes": 9479
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-run-2026-10-04.log",
+      "sha256": "06fafce4d5d55a3e7535b6d106104aa5a9ab061b02728dca77c2137e5c54b678",
+      "bytes": 9479
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-summary-he.md",
+      "sha256": "8039184e78713439673f8453615cda5ec05e5d5b0cd7be608f23e46fd9fd2d18",
+      "bytes": 8770
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/party-validation.json",
+      "sha256": "eb37beb8d64b1daa58fc614a07bc63327e864ed021066cadb6d64da101a0df37",
+      "bytes": 17446
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/prepare-2026-10-02.py",
+      "sha256": "0ad33fa01fc0f551045010031c8ebab4c02eafe857a1f3f7a29ec79d14245b50",
+      "bytes": 4398
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/prepare-2026-10-05.py",
+      "sha256": "9c7e547f7d0c93e0235690a522ab10849c4e26a5482908a7a9421b56c4d81b8e",
+      "bytes": 1309
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/prepare-2026-10-06.py",
+      "sha256": "25a1220aa88d03e0ad1176108ec65fd4e917806026f44ea33dc4086f87ad093c",
+      "bytes": 1302
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/prepare-2026-10-07.py",
+      "sha256": "54b7e3036de474c248ab4d06d07a77c9310de52d6db39edc1b74e4e75adc8270",
+      "bytes": 1786
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/prepare-helpers-2026-10-05.py",
+      "sha256": "6dadbcd4dad8c16d52da136ecd46bc0e6e53db8bfddbea483e0d911714bf9484",
+      "bytes": 3645
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/prepare-helpers-2026-10-06.py",
+      "sha256": "f618703d62d61ad3520f1b08b205d1f46fd57edb905c41c302f9e4ad3ad2b42d",
+      "bytes": 3670
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/refresh-reproducers-2026-10-04.py",
+      "sha256": "30d40bf58df12065e2e94b4fe0964ee48dcf9f7d3ce40500eb30784b69bdb815",
+      "bytes": 1878
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/refresh-reproducers-2026-10-05.py",
+      "sha256": "d90362ba92286322210914c16307a1241987b4101f507536b148f831064554ba",
+      "bytes": 1878
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/refresh-reproducers-2026-10-06.py",
+      "sha256": "7c3665ce820ec1186386dc76e6c57896ddeb66077ce4b44881a3c77abfcf58c7",
+      "bytes": 1878
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/refresh-reproducers-2026-10-07.py",
+      "sha256": "b92449211b99a1572eee35fc9fd5d13798d4f18facf064624a59a4b571fea984",
+      "bytes": 2010
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/refresh-tests-2026-10-02.py",
+      "sha256": "2e7a83f3d6cb53548532dab4cdc7baaa4bec9184cdef033299b94b59e1f05572",
+      "bytes": 2855
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/refresh-text-2026-10-02.py",
+      "sha256": "c34168acb44807156613e890329d62835a2c9b9c1d6dc11ad28fb8fc21a541f9",
+      "bytes": 5621
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/summary-he.md",
+      "sha256": "e3e6c8d56b78337af7f360a85ff6bc4640429682c45606bf893afbfebd2f7524",
+      "bytes": 7084
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/tatika-2026-09-10-fieldwork-web-reader.txt",
+      "sha256": "1c56e9b4b36592320d8eb085d914e371d52cfbd99f622910a6b5ca2dd7f90f5e",
+      "bytes": 401
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/tatika-2026-09-17-fieldwork-web-reader.txt",
+      "sha256": "002d53b59c11e6568e9049cea9062b8dcde1c4252a3fd9a068c66719adf13625",
+      "bytes": 402
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/tatika-2026-09-24-fieldwork-web-reader.txt",
+      "sha256": "0eb9ffe267ced57aa444a330622e85506f703fdacf218924e4a7f4c110f31ada",
+      "bytes": 402
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/themadad-c13-2026-09-09-primary.html",
+      "sha256": "df59e94f31dccbcf1e2abda2cd57da02bee4cd42f72eddb155571aac98832963",
+      "bytes": 137141
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/themadad-c13-2026-09-16-primary.html",
+      "sha256": "adf2a1ab04a57850774bd1dc5ae15300f4af5c91eb38f91bc7f8fbcb64b37412",
+      "bytes": 142984
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current-2026-10-04.py",
+      "sha256": "b32ad84134d460c478d511b80d125e907982efea5367d80a41b10605ba89a93d",
+      "bytes": 4832
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current-2026-10-05.py",
+      "sha256": "af0c8255627bf6ef838bd4761e935ea3f549656e58c3924d1b96f081c431adbb",
+      "bytes": 4907
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current-2026-10-06.py",
+      "sha256": "f55728c405feef40a1c49adf2969eaaf9aca16b5bf9a94cf1e32ed47ebebd554",
+      "bytes": 4980
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current-2026-10-07.py",
+      "sha256": "4a7f9be35b5a06dbba66054132d338716e7d741d4f3f6a45d40a1086cdad7892",
+      "bytes": 5810
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current-2026-10-08-evening.py",
+      "sha256": "fff9723ab99eb4313f2a2af246951ce1d326dec8d14b4ee2a800ff07e895dda0",
+      "bytes": 3908
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current-2026-10-08.py",
+      "sha256": "7c53ea8db2c3dcd81717088fc3d0363d0fb9b0d977740800643d639bf22c778f",
+      "bytes": 4017
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current-2026-10-09.py",
+      "sha256": "f1f150a539c61905381d7818c7bf1a74f62eb7fcdf7ef42953c48715dd92afeb",
+      "bytes": 5237
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/validate-current.py",
+      "sha256": "ecf89b112f708935de6f853aa84dfc55af9f6d3e33e4c9db9e8d0b4219848d40",
+      "bytes": 243
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/zman-2026-09-10.html",
+      "sha256": "c928aee899254627dffc927663c36180fc23de87653ed768d915631e4c26f040",
+      "bytes": 5468
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/zman-2026-09-17.html",
+      "sha256": "d8ebb20eb60d67f68cd2dd9bfc3b506421144f4a7e7d2992706e4896e9edef10",
+      "bytes": 5468
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/canonical/zman-2026-09-24.html",
+      "sha256": "414a1cd8d18c8387cf334e72dae90f3a952e273dcf48b4a2e9b0fd07fa41e6df",
+      "bytes": 5490
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/without-channel14/compressed_searchsorted_exact.py",
+      "sha256": "9598e42587587375cf5cfaacd5f1a2edbea23512c0148f167c64a4b248b99f1c",
+      "bytes": 6390
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/without-channel14/independent-compressed-counts.py",
+      "sha256": "6c77359d39ad0131bbd7e780a57b6667b5b8f5cfc19803dc155ed34290118990",
+      "bytes": 2863
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/without-channel14/independent-numeric-audit.json",
+      "sha256": "ab29ac19b27f3509e9d32899fe189bca69567f6124508defdc1c649194775c8a",
+      "bytes": 1384
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/without-channel14/inputs-manifest.json",
+      "sha256": "3bb39aea53269237cee0bd18ae6e367dffb792dfb15768e9fd416fd20ae6857d",
+      "bytes": 1172
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/without-channel14/party-analysis.json",
+      "sha256": "d2505be6a6876d557dc85a2fa7b3bbd8e6b3eb44006cbfaf1a129d39f1be6e75",
+      "bytes": 327767
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/without-channel14/strict-party-trends-without-channel14.json",
+      "sha256": "16ebc916046239d784e83cb127fbf187a8a4228eb02efed336282ab8e6df6942",
+      "bytes": 202726
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/without-channel14/validation.json",
+      "sha256": "d4723f0fb46616ab62dba35ac9b858232ead311df04500c2676f214a03e13aca",
+      "bytes": 1735
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/poll-correlation/independent-audit.json",
+      "sha256": "b85371a119eaa8abc5e2ce2be5d1423d081c3590f922bd9c1a73b56f5d511af7",
+      "bytes": 758
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/poll-correlation/profile.json",
+      "sha256": "0647d5264046b6a90f41b6e28ef06c162b49d5d2dd9f99442033986b2cb2fd65",
+      "bytes": 110913
+    },
+    {
+      "path": "sources/2026-10-11-kan/trends/poll-correlation/validation.json",
+      "sha256": "374423a8d42371841bb813c4c2dcce9298417e6aa98b457c89ae9c8e5e1ab1a2",
+      "bytes": 2003
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/ingest-kan-2026-10-11.py",
+      "sha256": "a6a3f8525d3c3a81bbee17a5a5ccbd6b059ceaddd3bb7a62927a8a276c8c9428",
+      "bytes": 23154
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/validate-kan-2026-10-11.py",
+      "sha256": "f00655d5000b1c747839268e185b724ffc17b65dd9fadbedfbe653ff4f15a683",
+      "bytes": 10869
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/revise-kan-model-only-2026-10-11.py",
+      "sha256": "175f555f608e5f9d4b6fc8a0831880d33a7b2289795d329dba2bcd23dcfe1b26",
+      "bytes": 4057
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/validate-kan-update-2026-10-11.py",
+      "sha256": "b4944fb1e00c17f90572770d89a8078d5f3d63bab3674d28b2be2f3b8e586f5b",
+      "bytes": 18349
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/build-trend-summaries-2026-10-11.py",
+      "sha256": "2c2010dbe75b2a172936da1477c9a8f4c0f31a784caceb3e59e27173e04a9111",
+      "bytes": 11533
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/build-strict-party-trends.py",
+      "sha256": "1cce135e69a75eeffc50b9e2ab874244a6175da592c89ab7d9a87169cfd95d71",
+      "bytes": 6249
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/derive-strict-trends-without-channel14.py",
+      "sha256": "3767d61f3341a4ccbe41775ae2b76422c7b8911ce8ee239f7569f0b994a2a05d",
+      "bytes": 25707
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/build-poll-correlation.py",
+      "sha256": "abef20712252b03bebb4cfb84544b9a87b678d24bb838739b319bcc79b916a0f",
+      "bytes": 19859
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/audit-poll-correlation.py",
+      "sha256": "3c4423e7bfc75e6d80f5f1f6c4eb194f5f995fedf4eec89b313949ae78d00fc8",
+      "bytes": 8893
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/compare-poll-update.mjs",
+      "sha256": "550a534fa168952fc4ec93569b60a094e822c6ebee183ba7e110a3691587f20e",
+      "bytes": 10292
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/validate-model-comparison-2026-10-11.mjs",
+      "sha256": "6846bd0ce72a1cceb7e796ad58465cdf1b814149195fdb33700449ae3a8ae787",
+      "bytes": 2137
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/browser-kan-update-2026-10-11.mjs",
+      "sha256": "ea54ddb34bc206d67e01ce337f8762afa428c7f9dda1c2adb511d341bfb26429",
+      "bytes": 26149
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/package-kan-update-2026-10-11.py",
+      "sha256": "a67e0357db74b7d4cf8b0503e884dc38512e5196ce4b129c4ae98cb42458b01e",
+      "bytes": 11148
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/analyze-strict-post-close-2026-09-28.py",
+      "sha256": "fc5a4ce6c242192f71380c9ddfe96f3b7889308ded25a41abb1f43a61c5b25f2",
+      "bytes": 10542
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/audit-strict-full-series-2026-09-28.py",
+      "sha256": "f1d4e8dd56fef89e890d6ef6c957afe2f4a210a94450e888404e527c7bd3cd09",
+      "bytes": 3440
+    },
+    {
+      "path": "sources/2026-10-11-kan/reproduction/analyze-party-trends-strict-2026-09-28.py",
+      "sha256": "4aff7e6b7310e25a5e7845ecc6b084a58d819cae98fac9e14d32c640faafb34c",
+      "bytes": 9065
+    },
+    {
+      "path": "sources/2026-10-11-kan/browser-local-report.json",
+      "sha256": "3a235589b7bad98c0592e0037d6f43b097407379f3bc99502bd2ac88faeb8062",
+      "bytes": 8568
+    },
+    {
+      "path": "sources/2026-10-11-scan/additional-network-receipts.json",
+      "sha256": "dc75977b7e5d0b4dc74dae16f31144e0fbb656bb480766377fc4da29b6ae11c2",
+      "bytes": 1916
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-elections-links.json",
+      "sha256": "d9752037813209652de7fb1a15ea172a7da9a530d366c866117cedd84ad16b98",
+      "bytes": 5741
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-elections.html",
+      "sha256": "3f6c118dd757a9f17bb2faeb3e0e874eac55e380d1566a9a216b0e15a4c8a14e",
+      "bytes": 223247
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-elections.txt",
+      "sha256": "0411d669536d4961e58158bb5eb5f1ab9a02f6c6ab155fba8f0e13fea23ba3dd",
+      "bytes": 2019
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-home-links.json",
+      "sha256": "81bd1c7380a827ebf14f20641f60eb9f9fcf87f13d54e2cd24cb4430bbbdd025",
+      "bytes": 35326
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-home.html",
+      "sha256": "605422304daa05f0d555e626a3852331273202b64100dbf0b85b5c3f16427afc",
+      "bytes": 879816
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-home.txt",
+      "sha256": "139d9057c80879763f58c5c0079a9e40409cfd91a68504ea0b72292ba1b2d053",
+      "bytes": 16092
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-politics-links.json",
+      "sha256": "4726f6b65f1f260af8ab65156e790ea6bb7e8911a0e24cf3917a44eeec38752c",
+      "bytes": 12795
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-politics.html",
+      "sha256": "0f19be435b9ee85f43abb985decba557cc35e725ded992843e1045dd3164873e",
+      "bytes": 238898
+    },
+    {
+      "path": "sources/2026-10-11-scan/c14-politics.txt",
+      "sha256": "9936de86936ef673552bfa8ca6bf595091b7b74d4bca318c963207a646b80940",
+      "bytes": 6098
+    },
+    {
+      "path": "sources/2026-10-11-scan/ch16-home-links.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "path": "sources/2026-10-11-scan/ch16-home.html",
+      "sha256": "ed75d1f8211c853bae0f02e9ef8fc3a0e2227ab15c751cdd29398f3a9587402b",
+      "bytes": 118493
+    },
+    {
+      "path": "sources/2026-10-11-scan/ch16-home.txt",
+      "sha256": "1a1ee19b17e4abcdd36aa8c2a5da2f8fddba101d4aadc6386f8cfc5ccd40ce60",
+      "bytes": 10
+    },
+    {
+      "path": "sources/2026-10-11-scan/fetch_sources.py",
+      "sha256": "6806f6a5404602a0046772ba3e7d84bb754cf295b9bad7cf9d67a670659f1b08",
+      "bytes": 3230
+    },
+    {
+      "path": "sources/2026-10-11-scan/i24-elections-links.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2
+    },
+    {
+      "path": "sources/2026-10-11-scan/i24-elections.html",
+      "sha256": "4c7d04d04e32905824e4e844c9d1c6234be6e8a0ac50f55b40578ff4e2e12cf9",
+      "bytes": 7310
+    },
+    {
+      "path": "sources/2026-10-11-scan/i24-elections.txt",
+      "sha256": "60da4e1fc4aca4b33ee43b07ddf06f64906e00238c62cabd878a5722c29e1cda",
+      "bytes": 55
+    },
+    {
+      "path": "sources/2026-10-11-scan/i24-home-links.json",
+      "sha256": "a88e35ddc4d2a29e0a7e1e42a81ad11d26a0be9fced91b2e871d0f8bcadc31fa",
+      "bytes": 18562
+    },
+    {
+      "path": "sources/2026-10-11-scan/i24-home.html",
+      "sha256": "137ba285e2774e0ab647c0256dd5c09f68648e2cd451424482bb3fd8846c15a4",
+      "bytes": 291831
+    },
+    {
+      "path": "sources/2026-10-11-scan/i24-home.txt",
+      "sha256": "d1b67e4148020b31fa1510088d1643af3d3028e6fa8024c0a91542f0fb8c37e2",
+      "bytes": 14962
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-home-links.json",
+      "sha256": "71c5b579febccc5d6e071f1c53f4c87b9733d370d66b50b24812e86d513d4e21",
+      "bytes": 47377
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-home.html",
+      "sha256": "f4f38db254120450cd833ec9f7685670dc4a9ee147a3add3ba53d455bfc0b984",
+      "bytes": 7090040
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-home.txt",
+      "sha256": "0e08afd953338490b6e96f9f8f54d5bec3dee6bef3737e15e47032401ad53aa6",
+      "bytes": 17751
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-news-links.json",
+      "sha256": "b4372dc71d7d4edfabb3bbe41a7f873925f595c0fb9539cc257d3a9bf1dfd4bc",
+      "bytes": 31201
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-news.html",
+      "sha256": "63c2c2039b677b91d34cc8b4150285adca42bb7bb79144e61f42b48848d1146a",
+      "bytes": 2921400
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-news.txt",
+      "sha256": "406a7ca8f008fc2728515bee3ab1aa1bd355c8ca06b667e28e73fe8a76ba1703",
+      "bytes": 10703
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-politics-links.json",
+      "sha256": "1842f1eb5790b74cddc0e2053d1951796bcf8419be393d5d2dc0043243c1d12d",
+      "bytes": 28626
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-politics.html",
+      "sha256": "47477b8066918e6bf21875b3ff4499a33118b52d3d4472e1860f96db83428df1",
+      "bytes": 3721048
+    },
+    {
+      "path": "sources/2026-10-11-scan/ih-politics.txt",
+      "sha256": "868b65605a7b22cdf10728f97379ab6be52ca4836a2b3e3f15c2954d0e4c94b6",
+      "bytes": 9250
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-elections-links.json",
+      "sha256": "325dffa0865daa955a91ab831867fcad8b5b0e8033c121121644e034eb754d67",
+      "bytes": 14654
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-elections.html",
+      "sha256": "f32c8399c5277072b691859a45f1dfa29c858eab1761c234e56bd357f08a754f",
+      "bytes": 148774
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-elections.txt",
+      "sha256": "8bbbde20038d8d9e1141f2599f09e17ce2f7166597b719237278f6ece890f31a",
+      "bytes": 6140
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-home-links.json",
+      "sha256": "e73442c3ab7b5d282e5d4fd3d3bde9b85629a731447a2c94099b967df8eb6969",
+      "bytes": 46728
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-home.html",
+      "sha256": "e0b3bb0f041e79849c865e7ab317cd7d8c125979fce26c46ec9e246ccedaa9b5",
+      "bytes": 473788
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-home.txt",
+      "sha256": "24ce077f55b564951a699f71c1844e5751c39ce3ce2dd6c0c3c58a0bdcd6e11b",
+      "bytes": 20799
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-alert-blocs-links.json",
+      "sha256": "74ad43c5b83d910469f717ef409757ba7fa347656c0be9152bdfb4c557699f93",
+      "bytes": 14133
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-alert-blocs.html",
+      "sha256": "76bf8ade9a317fd7349eaa19132687fecf3c9986935925bbcea0607cb8db4eab",
+      "bytes": 153530
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-alert-blocs.txt",
+      "sha256": "835393eef3a4d172bdddaf05680e4aa7fca1fbbe91fb545cc3383229c5cb2de3",
+      "bytes": 4833
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-alert-thirdbloc-links.json",
+      "sha256": "8c6fb409c3dd6e501a141c497c5856648c40f2e9e2d3ba5394d0bef2dd58dacf",
+      "bytes": 14179
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-alert-thirdbloc.html",
+      "sha256": "50bfff6009727b40b5d5dc1aefba0533fe1222152b477d95d0fe24862145fc28",
+      "bytes": 154280
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-alert-thirdbloc.txt",
+      "sha256": "2363d5eac51bbce834ecf8614afdc18a83b1949b0cdc507b916c02c64a864b62",
+      "bytes": 4926
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-oct11-links.json",
+      "sha256": "1b39977c5da5416e00db54c89bfb500cfe9a9cbbc159a2ab7e2d824f57f33fd7",
+      "bytes": 13431
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-oct11.html",
+      "sha256": "b68cef0ebf8e2d3298b7b5a69563ced3b25c163288bdb34ed9c6a6c4a2da980e",
+      "bytes": 202497
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-kan-oct11.txt",
+      "sha256": "ce1559442dfea7c20944b036c330dd1f05d162d6c2ded88a06ec23edd1fd38d9",
+      "bytes": 4549
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-last-known-links.json",
+      "sha256": "549bff6ccc1b82c963fa389866d7ce13bad1287328b9fd49ff7862ae7b78c5ad",
+      "bytes": 13485
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-last-known.html",
+      "sha256": "2f002c8bd818ef9c627d7fc6e99904f42ac057bcdf183e58d58d027c24882ae1",
+      "bytes": 246205
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-last-known.txt",
+      "sha256": "c24d602441fe6df7097a0309c646295102f69b209ad6c5529a2d408a81a365ba",
+      "bytes": 7430
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-politics-links.json",
+      "sha256": "d001ff4cc9f3235ac9e97900a0f21dc75f582bfcefd91b8cc052e430792eb36f",
+      "bytes": 16596
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-politics.html",
+      "sha256": "462f51045efe35a35fb274cc961f69d58016deb76f779f6a6f6c63d549c4d2a8",
+      "bytes": 190960
+    },
+    {
+      "path": "sources/2026-10-11-scan/maariv-politics.txt",
+      "sha256": "726ee71c8ce7ddd96555ffeb6c99d6cb3a99d882d0296c059f688d6e7d2b4d28",
+      "bytes": 6199
+    },
+    {
+      "path": "sources/2026-10-11-scan/n12-home-links.json",
+      "sha256": "0d71c099f26c98f517e2aca953894d949e74c14b4364e80c961008ebb8a2263c",
+      "bytes": 45903
+    },
+    {
+      "path": "sources/2026-10-11-scan/n12-home.html",
+      "sha256": "004ea300666e97d2e517c7437951843eb56c21e18688c04ed1018ae6581ff212",
+      "bytes": 665036
+    },
+    {
+      "path": "sources/2026-10-11-scan/n12-home.txt",
+      "sha256": "93f1e40629a077cd9d53e5ea1541e3e00c065c16818b5cf253a637e3e1497e37",
+      "bytes": 19096
+    },
+    {
+      "path": "sources/2026-10-11-scan/network-receipts.json",
+      "sha256": "e06d3d11043a33a353b6a156798503d6bc298044a0ac4b4bae7dd89524e2762a",
+      "bytes": 10744
+    },
+    {
+      "path": "sources/2026-10-11-scan/summary.json",
+      "sha256": "9e9cfdff67ab5bfa1258e201eb3040456c86302368f92acce94bcc0efa836638",
+      "bytes": 7218
+    },
+    {
+      "path": "sources/2026-10-11-scan/to120-data-links.json",
+      "sha256": "8881546298de154e5ec9de74e0b0118a9f6c6f953614338d310fd232907fb823",
+      "bytes": 8875
+    },
+    {
+      "path": "sources/2026-10-11-scan/to120-evidence-links.json",
+      "sha256": "9dcf22849a583d7980b60059e2d605a9b290bb8ae8450a0f6224cf614bf4f99e",
+      "bytes": 5423
+    },
+    {
+      "path": "sources/2026-10-11-scan/web-final.json",
+      "sha256": "865fcc9e8a442255364d219eb3831242250887d16eddb3d60bcf389111556849",
+      "bytes": 30332
+    },
+    {
+      "path": "sources/2026-10-11-scan/web-initial.json",
+      "sha256": "02503a43eeafdf5ce15cd51ac98a4485a1a5ef50c888bf1874df23a30c721601",
+      "bytes": 29471
+    },
+    {
+      "path": "updates/2026-10-11/evidence.json",
+      "sha256": "62388a14620f1c56bc74f7f1cba384dd9d928a6ba85b9dd024f6831ddf147b1a",
+      "bytes": 1236
+    },
+    {
+      "path": "updates/2026-10-11/threshold-chances.png",
+      "sha256": "c2d1ea5bff922f86562e3de63e246bd95fc85adc8b13a7da65dbe0572f33e8c2",
+      "bytes": 163480
+    },
+    {
+      "path": "updates/2026-10-11/tweet.he.txt",
+      "sha256": "2e7bc0a0d71785b1ef04a114b0f870f5990aad49b9d4814cc8fc94e6c3d3ad07",
+      "bytes": 405
+    },
+    {
+      "path": "updates/2026-10-11/build-figure.py",
+      "sha256": "824d68e2fbd6a8e04a087f857132c791ff1d4909582afebeee7886b6c2dcf238",
+      "bytes": 7622
+    }
+  ]
+}

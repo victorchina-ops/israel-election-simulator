@@ -1,0 +1,57 @@
+[
+  {
+    "name": "home",
+    "url": "https://www.kan.org.il/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "news",
+    "url": "https://www.kan.org.il/content/kan-news/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "politics",
+    "url": "https://www.kan.org.il/content/kan-news/politic/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "polls",
+    "url": "https://skarim.kan.org.il/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "israelpolls",
+    "url": "https://x.com/IsraelPolls?s=20",
+    "finalUrl": "https://x.com/IsraelPolls?s=20",
+    "checkedAtUtc": "2026-10-11T18:12:41.303105+00:00",
+    "status": 200,
+    "bytes": 135613,
+    "sha256": "33318271705e5cd3e91891112017f3bff1b619c9e23483a168aea47a17fcf0c5",
+    "links": [
+      {
+        "text": " ",
+        "href": "/IsraelPolls/header_photo"
+      },
+      {
+        "text": " סקרים פוליטיים - Israel Political Polls ",
+        "href": "/IsraelPolls"
+      },
+      {
+        "text": " סקרים פוליטיים - Israel Political Polls ",
+        "href": "/IsraelPolls"
+      },
+      {
+        "text": " סקרים פוליטיים - Israel Political Polls ",
+        "href": "/IsraelPolls"
+      },
+      {
+        "text": " סקרים פוליטיים - Israel Political Polls ",
+        "href": "/IsraelPolls"
+      },
+      {
+        "text": " סקרים פוליטיים - Israel Political Polls ",
+        "href": "/IsraelPolls"
+      }
+    ]
+  }
+]

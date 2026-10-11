@@ -1,0 +1,83 @@
+[
+  {
+    "name": "kan-x-profile",
+    "url": "https://x.com/kann_news",
+    "finalUrl": "https://x.com/kann_news",
+    "checkedAtUtc": "2026-10-11T18:14:08.764661+00:00",
+    "status": 200,
+    "bytes": 165585,
+    "sha256": "fc6e68c31d9e51fc9c34fcead92ded42dd4f65b1804a76ef4698da028f7e627f",
+    "posts": [
+      "/kann_news/status/2109345619105976378",
+      "/kann_news/status/2109345619105976378/video/1",
+      "/kann_news/status/2109343304512937998/video/1",
+      "/kann_news/status/2109343008152047635/video/1",
+      "/kann_news/status/2109338880885289283/video/1",
+      "/kann_news/status/2109336305863696498/video/1",
+      "/kann_news/status/2109343304512937998",
+      "/kann_news/status/2109343008152047635",
+      "/kann_news/status/2109338880885289283",
+      "/kann_news/status/2109336305863696498"
+    ],
+    "matches": []
+  },
+  {
+    "name": "kan-telegram",
+    "url": "https://t.me/s/kan_news",
+    "finalUrl": "https://t.me/kan_news",
+    "checkedAtUtc": "2026-10-11T18:14:08.634870+00:00",
+    "status": 200,
+    "bytes": 9604,
+    "sha256": "042cf0fca74721051181d6c39dc39165d7b5e37f8f9ad34721e23daba2a89607",
+    "posts": [],
+    "matches": []
+  },
+  {
+    "name": "israelpolls-new-post",
+    "url": "https://x.com/IsraelPolls/status/2109338230902693893",
+    "finalUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+    "checkedAtUtc": "2026-10-11T18:14:08.604458+00:00",
+    "status": 200,
+    "bytes": 108556,
+    "sha256": "2fb8c1bd4d49ad99f90440995b5fdbca596880337aba36f9139f894f345fb6bc",
+    "posts": [
+      "/IsraelPolls/status/2109338230902693893",
+      "https://x.com/IsraelPolls/status/2109338230902693893",
+      "/IsraelPolls/status/2109338230902693893/photo/1",
+      "/IsraelPolls/status/2109340303660552420/photo/1",
+      "/IsraelPolls/status/2109340303660552420"
+    ],
+    "matches": [
+      "me: dark)\" content=\"#000000\"/>  סקרים פוליטיים - Israel Political Polls on X: \"סקר קנטאר בכאן 11\" / X       <meta name=\"f",
+      "nce\" content=\"L7cx9Ox8ZM1mtth9g2btUg==\"/> סקרים פוליטיים - Israel Political Polls on X: \"סקר קנטאר בכאן 11\" / X       <meta name=\"facebook-domain-verification\" content=\"x6sdcc8b5ju3bh",
+      "nt=\"https://x.com/IsraelPolls\" nonce=\"L7cx9Ox8ZM1mtth9g2btUg==\"/>      <meta property=\"og:image\" co",
+      " Political Polls (@IsraelPolls) on X\" nonce=\"L7cx9Ox8ZM1mtth9g2btUg==\"/>      <meta prop",
+      "al Polls (@IsraelPolls) on X\" nonce=\"L7cx9Ox8ZM1mtth9g2btUg==\"/>     <meta property=\"og:image:secure_url\" content=\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=large\" nonce=\"L7cx9Ox8ZM1mtth9",
+      "lls (@IsraelPolls) on X\" nonce=\"L7cx9Ox8ZM1mtth9g2btUg==\"/>      <meta property=\"og:image:width\" content",
+      "on\" content=\"סקר קנטאר בכאן 11\" nonce=\"L7cx9Ox8ZM1mtth9g2btUg==\"/>      <meta property=\"og:image:height\" content=\"720",
+      "ent=\"סקר קנטאר בכאן 11\" nonce=\"L7cx9Ox8ZM1mtth9g2btUg==\"/>      <meta name=\"twitter:card\" content=\"summary_large_image\" non",
+      "2F2109338230902693893\">Sign up         סקרים פוליטיים - Israel Political Polls on X: \"סקר קנטאר בכאן 11\"              <a class=\"x-link focus-",
+      "     סקרים פוליטיים - Israel Political Polls on X: \"סקר קנטאר בכאן 11\"              <a class=\"x-link focus-visible:outline-ring disabled:cursor-not-allowed dis",
+      "rent=\"page\"> סקרים פוליטיים - Israel Political Polls      @IsraelPolls     <button data-slot=\"xds-menu-trigger\" tabindex=\"0\" aria-haspopup=\"menu\" aria-expanded=\"false\" id=\"base-ui-_R_d7j2ekmcl",
+      "ir=\"auto\"> סקר קנטאר בכאן 11       <img fetchPriority=\"high\" height=\"720\" width=\"1280\" alt=\"\" class=\"w-full\" decoding=\"async\" loading=\"eager\" sizes=\"(max-width: 600px) calc(100vw - 80px), 600px\" src=\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&n",
+      " gap-1 rounded-xl px-3 py-2.5 transition-colors\">      <div",
+      "a-status=\"active\" aria-current=\"page\"> סקרים פוליטיים - Israel Political Polls  @ IsraelPolls   Follow           Trending now <div class=\"outline-blue-",
+      ".twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg\",authorDescription:\"\",authorName:\"סקרים פוליטיים - Israel Political Polls\",focalTweetId:\"2109338230902693893\",hasArticle:!1,headMetadata:$R[10]={appLinkUrl:\"twitter://status?id=2109338230902693893\",articleTags:void 0,author:$R[11]={image:$R[12]={alt:\"סקרים פוליטיים - Israel Political Polls profile picture\",url:\"https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_400x400.jpg\"},screenName:\"IsraelPolls\",url:\"https://x.com/IsraelPolls\"},bodyText:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\",canonicalPath:\"/IsraelPolls/status/2109338230902693893\",canonicalUrl:\"https://x.com/IsraelPolls/status/2109338230902693893\",description:\"סקר קנטאר בכאן 11\",faviconUrl:void 0,hasAiGene",
+      "kUrl:\"twitter://status?id=2109338230902693893\",articleTags:void 0,author:$R[11]={image:$R[12]={alt:\"סקרים פוליטיים - Israel Political Polls profile picture\",url:\"https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_400x400.jpg\"},screenName:\"IsraelPolls\",url:\"https://x.com/IsraelPolls\"},bodyText:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\",canonicalPath:\"/IsraelPolls/status/2109338230902693893\",canonicalUrl:\"https://x.com/IsraelPolls/status/2109338230902693893\",description:\"סקר קנטאר בכאן 11\",faviconUrl:void 0,hasAiGeneratedMedia:void 0,image:$R[13]={alt:void 0,height:720,isContent:!0,preloadUrl:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=large\",preloadSrcSet:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp",
+      "43753473/wDmaZ3tz_400x400.jpg\"},screenName:\"IsraelPolls\",url:\"https://x.com/IsraelPolls\"},bodyText:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\",canonicalPath:\"/IsraelPolls/status/2109338230902693893\",canonicalUrl:\"https://x.com/IsraelPolls/status/2109338230902693893\",description:\"סקר קנטאר בכאן 11\",faviconUrl:void 0,hasAiGeneratedMedia:void 0,image:$R[13]={alt:void 0,height:720,isContent:!0,preloadUrl:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=large\",preloadSrcSet:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=small 680w, https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=large 2048w\",preloadSizes:\"(max-width: 600px) calc(100vw",
+      "09338230902693893\",canonicalUrl:\"https://x.com/IsraelPolls/status/2109338230902693893\",description:\"סקר קנטאר בכאן 11\",faviconUrl:void 0,hasAiGeneratedMedia:void 0,image:$R[13]={alt:void 0,height:720,isContent:!0,preloadUrl:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=large\",preloadSrcSet:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=small 680w, https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=medium 1200w, https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=large 2048w\",preloadSizes:\"(max-width: 600px) calc(100vw - 80px), 600px\",url:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb?format=webp&name=large\",width:1280},isAdult:!1,isArticle:!1,mediaPreviewImageUrl:void 0,moneyShareImageUrl:void 0,",
+      "areImageUrl:void 0,publishedTime:\"2026-10-11T17:39:58.000Z\",replyCount:1,schema:void 0,socialTitle:\"סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X\",title:\"סקרים פוליטיים - Israel Political Polls on X: \\\"סקר קנטאר בכאן 11\\\"\"},replyCount:1,screenName:\"IsraelPolls\",status:\"available\",text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\"},isSinglePost:!1},ssr:!0}],dehydratedData:$R[14]={messagesBeforeDehydration:$R[15]=[$R[16]={kind:\"GraphQLRequestStream.Started\",requestId:0,key:\"vEO-5QkqZwFZlJZoNTs6fA{\\\"__relay_internal__pv__xclientsfeaturesappviewerisloggedinrelayprovider\\\":false,\\\"__relay_internal__pv__xclientsfeaturestranslationnoteautotranslationenabledrelayprovider\\\":true,\\\"restId\\\":\\\"2109338230902693893\\\",\\\"withFocalTweet\\\":true}\",n",
+      "nt:1,schema:void 0,socialTitle:\"סקרים פוליטיים - Israel Political Polls (@IsraelPolls) on X\",title:\"סקרים פוליטיים - Israel Political Polls on X: \\\"סקר קנטאר בכאן 11\\\"\"},replyCount:1,screenName:\"IsraelPolls\",status:\"available\",text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\"},isSinglePost:!1},ssr:!0}],dehydratedData:$R[14]={messagesBeforeDehydration:$R[15]=[$R[16]={kind:\"GraphQLRequestStream.Started\",requestId:0,key:\"vEO-5QkqZwFZlJZoNTs6fA{\\\"__relay_internal__pv__xclientsfeaturesappviewerisloggedinrelayprovider\\\":false,\\\"__relay_internal__pv__xclientsfeaturestranslationnoteautotranslationenabledrelayprovider\\\":true,\\\"restId\\\":\\\"2109338230902693893\\\",\\\"withFocalTweet\\\":true}\",name:\"TweetResultByRestId\"},$R[17]={kind:\"GraphQLRequestStream.Comple",
+      " Israel Political Polls (@IsraelPolls) on X\",title:\"סקרים פוליטיים - Israel Political Polls on X: \\\"סקר קנטאר בכאן 11\\\"\"},replyCount:1,screenName:\"IsraelPolls\",status:\"available\",text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\"},isSinglePost:!1},ssr:!0}],dehydratedData:$R[14]={messagesBeforeDehydration:$R[15]=[$R[16]={kind:\"GraphQLRequestStream.Started\",requestId:0,key:\"vEO-5QkqZwFZlJZoNTs6fA{\\\"__relay_internal__pv__xclientsfeaturesappviewerisloggedinrelayprovider\\\":false,\\\"__relay_internal__pv__xclientsfeaturestranslationnoteautotranslationenabledrelayprovider\\\":true,\\\"restId\\\":\\\"2109338230902693893\\\",\\\"withFocalTweet\\\":true}\",name:\"TweetResultByRestId\"},$R[17]={kind:\"GraphQLRequestStream.Completed\",requestId:0,key:\"vEO-5QkqZwFZlJZoNTs6fA{\\\"_",
+      " Polls on X: \\\"סקר קנטאר בכאן 11\\\"\"},replyCount:1,screenName:\"IsraelPolls\",status:\"available\",text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\"},isSinglePost:!1},ssr:!0}],dehydratedData:$R[14]={messagesBeforeDehydration:$R[15]=[$R[16]={kind:\"GraphQLRequestStream.Started\",requestId:0,key:\"vEO-5QkqZwFZlJZoNTs6fA{\\\"__relay_internal__pv__xclientsfeaturesappviewerisloggedinrelayprovider\\\":false,\\\"__relay_internal__pv__xclientsfeaturestranslationnoteautotranslationenabledrelayprovider\\\":true,\\\"restId\\\":\\\"2109338230902693893\\\",\\\"withFocalTweet\\\":true}\",name:\"TweetResultByRestId\"},$R[17]={kind:\"GraphQLRequestStream.Completed\",requestId:0,key:\"vEO-5QkqZwFZlJZoNTs6fA{\\\"__relay_internal__pv__xclientsfeaturesappviewerisloggedinrelayprovider\\\":false,\\\"__rel",
+      ":\"https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg\"},core:$R[28]={name:\"סקרים פוליטיים - Israel Political Polls\",screen_name:\"IsraelPolls\"},id:\"VXNlcjoxMjI2NDA1NDMxMzc3MDQzNDU2\",identity_profile_labels_highlighted_label:$R[29]={},privacy:$R[30]={protected:!1},profile_bio:$R[31]={description:\"\"},profile_image_shape:\"Circle\",profile_translation:$R[32]={translator_type_enum:\"None\"},relationship_counts:$R[33]={followers:1898,following:15},rest_id:\"1226405431377043456\",super_follow_eligible:!1,tweet_counts:$R[34]={tweets:2758},verification:$R[35]={is_blue_verified:!1}}}},counts:$R[36]={bookmark_count:0,favorite_count:0,quote_count:0,reply_count:1,retweet_count:0},details:$R[37]={cashtag_entities:$R[38]=[],created_at_ms:1",
+      "{cashtag_entities:$R[38]=[],created_at_ms:1791740398000,display_text_range:$R[39]=[0,17],full_text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\",hashtag_entities:$R[40]=[],smarttags:$R[41]=[],timestamp_entities:$R[42]=[]},edit_control:$R[43]={__typename:\"EditControlInitial\",edit_tweet_ids:$R[44]=[\"2109338230902693893\"]},grok_translated_post_with_availability:$R[45]={is_available:!1},id:\"VHdlZXQ6MjEwOTMzODIzMDkwMjY5Mzg5Mw==\",is_translatable:!0,legacy:$R[46]={lang:\"iw\",possibly_sensitive:!1},media_entities2:$R[47]=[$R[48]={expanded_url:\"https://x.com/IsraelPolls/status/2109338230902693893/photo/1\",ext_media_availability:$R[49]={status:\"Available\"},ext_playlists:$R[50]=[],features:$R[51]={},id_str:\"2109338215886815232\",indices:$R[52]=[18,41],media_",
+      ":\"https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg\"},core:$R[82]={name:\"סקרים פוליטיים - Israel Political Polls\",screen_name:\"IsraelPolls\"},id:\"VXNlcjoxMjI2NDA1NDMxMzc3MDQzNDU2\",identity_profile_labels_highlighted_label:$R[83]={},privacy:$R[84]={protected:!1},profile_image_shape:\"Circle\",profile_translation:$R[85]={translator_type_enum:\"None\"},relationship_counts:$R[86]={followers:1898,following:15},rest_id:\"1226405431377043456\",super_follow_eligible:!1,tweet_counts:$R[87]={tweets:2758},verification:$R[88]={is_blue_verified:!1}}}},counts:$R[89]={bookmark_count:0,favorite_count:0,quote_count:0,reply_count:1,retweet_count:0},details:$R[90]={cashtag_entities:$R[91]=[],created_at_ms:1791740398000,display_text_range:$R[9",
+      "{cashtag_entities:$R[91]=[],created_at_ms:1791740398000,display_text_range:$R[92]=[0,17],full_text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\",hashtag_entities:$R[93]=[],smarttags:$R[94]=[],timestamp_entities:$R[95]=[]},edit_control:$R[96]={__typename:\"EditControlInitial\",edit_tweet_ids:$R[97]=[\"2109338230902693893\"]},grok_translated_post_with_availability:$R[98]={is_available:!1},id:\"VHdlZXQ6MjEwOTMzODIzMDkwMjY5Mzg5Mw==\",is_translatable:!0,legacy:$R[99]={lang:\"iw\",possibly_sensitive:!1},media_entities2:$R[100]=[$R[101]={expanded_url:\"https://x.com/IsraelPolls/status/2109338230902693893/photo/1\",ext_media_availability:$R[102]={status:\"Available\"},ext_playlists:$R[103]=[],features:$R[104]={},id_str:\"2109338215886815232\",indices:$R[105]=[18,41],",
+      "\"https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg\"},core:$R[128]={name:\"סקרים פוליטיים - Israel Political Polls\",screen_name:\"IsraelPolls\"},id:\"VXNlcjoxMjI2NDA1NDMxMzc3MDQzNDU2\",identity_profile_labels_highlighted_label:$R[129]={},privacy:$R[130]={protected:!1},profile_image_shape:\"Circle\",profile_translation:$R[131]={translator_type_enum:\"None\"},relationship_counts:$R[132]={followers:1898,following:15},rest_id:\"1226405431377043456\",super_follow_eligible:!1,tweet_counts:$R[133]={tweets:2758},verification:$R[134]={is_blue_verified:!1}}}},counts:$R[135]={bookmark_count:0,favorite_count:0,quote_count:0,reply_count:0,retweet_count:0},details:$R[136]={cashtag_entities:$R[137]=[],created_at_ms:1791740892000,display_text_r",
+      "ies:$R[137]=[],created_at_ms:1791740892000,display_text_range:$R[138]=[0,22],full_text:\"פרספקטיבה - סקרי קנטאר https://t.co/jHUYE4S3He\",hashtag_entities:$R[139]=[],smarttags:$R[140]=[],timestamp_entities:$R[141]=[]},edit_control:$R[142]={__typename:\"EditControlInitial\",edit_tweet_ids:$R[143]=[\"2109340303660552420\"]},grok_translated_post_with_availability:$R[144]={is_available:!1},id:\"VHdlZXQ6MjEwOTM0MDMwMzY2MDU1MjQyMA==\",is_translatable:!0,legacy:$R[145]={lang:\"iw\",possibly_sensitive:!1},media_entities2:$R[146]=[$R[147]={expanded_url:\"https://x.com/IsraelPolls/status/2109340303660552420/photo/1\",ext_media_availability:$R[148]={status:\"Available\"},ext_playlists:$R[149]=[],features:$R[150]={},id_str:\"2109340295154262017\",indices:$R[151]=[23,46],",
+      "\"https://pbs.twimg.com/profile_images/1226406961643753473/wDmaZ3tz_normal.jpg\"},core:$R[171]={name:\"סקרים פוליטיים - Israel Political Polls\",screen_name:\"IsraelPolls\"},id:\"VXNlcjoxMjI2NDA1NDMxMzc3MDQzNDU2\",profile_bio:$R[172]={description:\"\"},rest_id:\"1226405431377043456\"}}},counts:$R[173]={favorite_count:0,reply_count:1,retweet_count:0},details:$R[174]={created_at_ms:1791740398000,full_text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\",hashtag_entities:$R[175]=[],smarttags:$R[176]=[]},id:\"VHdlZXQ6MjEwOTMzODIzMDkwMjY5Mzg5Mw==\",legacy:$R[177]={possibly_sensitive:!1},media_entities2:$R[178]=[$R[179]={indices:$R[180]=[18,41],media_url_https:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb.jpg\",original_info:$R[181]={height:720,width:1280},type:\"photo\"}",
+      "rite_count:0,reply_count:1,retweet_count:0},details:$R[174]={created_at_ms:1791740398000,full_text:\"סקר קנטאר בכאן 11 https://t.co/egKfIIbgfM\",hashtag_entities:$R[175]=[],smarttags:$R[176]=[]},id:\"VHdlZXQ6MjEwOTMzODIzMDkwMjY5Mzg5Mw==\",legacy:$R[177]={possibly_sensitive:!1},media_entities2:$R[178]=[$R[179]={indices:$R[180]=[18,41],media_url_https:\"https://pbs.twimg.com/media/HUXf7n0XAAAj5Cb.jpg\",original_info:$R[181]={height:720,width:1280},type:\"photo\"}],rest_id:\"2109338230902693893\",url_entities:$R[182]=[],views:$R[183]={count:\"233\"}}}}}}}))($R[\"tsr\"]);document.currentScript.remove()  <div role=\"status\" class=\"sticky top-[calc(var(--sticky-header-height,0px)+var(--sticky-subheader-height,0px)+0.5rem)] z-10 flex h-0"
+    ]
+  }
+]

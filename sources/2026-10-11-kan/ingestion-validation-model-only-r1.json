@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-11",
+  "activeInstituteCount": 8,
+  "historyCount": 115,
+  "newObservationCount": 1,
+  "updatedInstitute": "kantar",
+  "replacesPollId": "kantar_2026-10-08",
+  "otherActiveInstitutesExactlyPreserved": true,
+  "existingHistoricalObservationsExactlyPreservedExceptSupersededStatus": true,
+  "historicalWeightsAndPartyCataloguePreserved": true,
+  "sourceEvidenceHashesMatch": true,
+  "checkpointUnchanged": true,
+  "originalKanMethodologySuccessfullyRead": false,
+  "unverifiedFieldworkExcluded": true,
+  "strictEligibleCountsUnchanged": true,
+  "fieldworkAuditCounts": {
+    "records": 15,
+    "verifiedEligible": 13,
+    "unknown": 2
+  },
+  "rawMissingnessPreserved": true,
+  "winterVoteShareMissing": true,
+  "noamAndIsraelFirstMissing": true,
+  "derivedOtherPct": 1.2,
+  "derivedOtherNotLabeledRaw": true,
+  "publicArchiveLinksResolveWithinPackage": true,
+  "privateGileadMaterialNotPublished": true,
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "revisionId": "model-only-r1",
+  "candidateSha256": "ec6ce92b80a023eb9b76706a8d39178949ad6cd090f0681ac743aeca620aafd9",
+  "ingestionReceiptSha256": "f703027cae549670ee41008bbe720ef12f7552d0a2a3a07d774e68207866f86d",
+  "canonicalHashes": {
+    "data/current-polls.json": "acf51be93cf4d59600b02d4b06ded136928e6494ed40ddf2dbf16f0bfaa7620d",
+    "data/poll-history.json": "d79a7014a6369e1a00b3bec950442bda37e338e3ef3f4650003ff62b52174a77",
+    "data/sources.json": "a374dddce9a9ee5380efe71f278402ef327b25751c554fd7aeccb219d782abd7",
+    "data/survey-documents-2026-09-14.json": "37598d49dd0af6f41e65b4702fe7ad49d521322e43f6db0ec812b82737737d7f",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "effbd82d2f26dcf458c4104ef4f2676e8a65891579a933f06bc7724c9966c9e8"
+  }
+}

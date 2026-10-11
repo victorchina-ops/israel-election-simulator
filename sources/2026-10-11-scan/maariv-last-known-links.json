@@ -1,0 +1,578 @@
+[
+  {
+    "href": "/",
+    "text": ""
+  },
+  {
+    "href": "/news",
+    "text": "חדשות"
+  },
+  {
+    "href": "/news/elections-2026",
+    "text": "בחירות 2026"
+  },
+  {
+    "href": "/journalists",
+    "text": "הנבחרת"
+  },
+  {
+    "href": "/economy",
+    "text": "כלכלה"
+  },
+  {
+    "href": "https://sport1.maariv.co.il",
+    "text": "ספורט"
+  },
+  {
+    "href": "/culture",
+    "text": "תרבות"
+  },
+  {
+    "href": "https://tmi.maariv.co.il",
+    "text": "רכילות"
+  },
+  {
+    "href": "/news/health",
+    "text": "בריאות"
+  },
+  {
+    "href": "/news/law",
+    "text": "פלילים ומשפט"
+  },
+  {
+    "href": "/lifestyle/travel",
+    "text": "תיירות"
+  },
+  {
+    "href": "/jewishism/shabat-times",
+    "text": "זמני כניסת שבת"
+  },
+  {
+    "href": "/jewishism/hebrew-calendar",
+    "text": "לוח שנה"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/MaarivDigitalWeekend/PersonalDetails",
+    "text": "לרכישת מנוי"
+  },
+  {
+    "href": "/landedpages/redmail",
+    "text": ""
+  },
+  {
+    "href": "/breaking-news",
+    "text": "מבזקים"
+  },
+  {
+    "href": "/news/politics",
+    "text": "פוליטי מדיני"
+  },
+  {
+    "href": "/news/military",
+    "text": "צבא וביטחון"
+  },
+  {
+    "href": "/news/law",
+    "text": "פלילים ומשפט"
+  },
+  {
+    "href": "/news/israel",
+    "text": "חדשות בארץ"
+  },
+  {
+    "href": "/news/world",
+    "text": "חדשות בעולם"
+  },
+  {
+    "href": "/news/viral",
+    "text": "בין החדשות"
+  },
+  {
+    "href": "/news/education",
+    "text": "חינוך"
+  },
+  {
+    "href": "/news/environment",
+    "text": "איכות הסביבה"
+  },
+  {
+    "href": "/news/health",
+    "text": "בריאות"
+  },
+  {
+    "href": "/news/elections-2026",
+    "text": "בחירות 2026"
+  },
+  {
+    "href": "/journalists/ben-caspit-10",
+    "text": "בן כספית"
+  },
+  {
+    "href": "/journalists/mati-tuchfeld-59682",
+    "text": "מתי טוכפלד"
+  },
+  {
+    "href": "/journalists/avi-benayahu-9",
+    "text": "אבי בניהו"
+  },
+  {
+    "href": "/journalists/alon-ben-david-36",
+    "text": "אלון בן דוד"
+  },
+  {
+    "href": "/journalists/ron-kofman-53",
+    "text": "רון קופמן"
+  },
+  {
+    "href": "/journalists/shlomo-maoz-1170",
+    "text": "שלמה מעוז"
+  },
+  {
+    "href": "/journalists/ron-maiberg-71",
+    "text": "רון מיברג"
+  },
+  {
+    "href": "/journalists/natan-zahavi-32",
+    "text": "נתן זהבי"
+  },
+  {
+    "href": "/journalists/miki-levin-123",
+    "text": "מיקי לוין"
+  },
+  {
+    "href": "/journalists/meir-ouziel-180",
+    "text": "מאיר עוזיאל"
+  },
+  {
+    "href": "/economy/israel",
+    "text": "כלכלה בארץ"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/the-lounge",
+    "text": "הלאונג'"
+  },
+  {
+    "href": "/economy/international",
+    "text": "עסקים בעולם"
+  },
+  {
+    "href": "/lifestyle/car",
+    "text": "רכב"
+  },
+  {
+    "href": "/economy/realestate",
+    "text": "נדל\"ן"
+  },
+  {
+    "href": "/economy/consumerism",
+    "text": "צרכנות"
+  },
+  {
+    "href": "/economy/currency",
+    "text": "מט\"ח"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/israeli-soccer",
+    "text": "כדורגל ישראלי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/world-soccer",
+    "text": "כדורגל עולמי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/israeli-basketball",
+    "text": "כדורסל ישראלי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/world-basketball",
+    "text": "כדורסל עולמי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/other-industries",
+    "text": "ענפים נוספים"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/Sport-Results",
+    "text": "תוצאות ספורט"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/VOD",
+    "text": "תקצירי ספורט"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/celebs-news",
+    "text": "חדשות סלבס"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/red-carpet",
+    "text": "נתפסו בעדשה"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/style",
+    "text": "סטייל"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/hot-celebs",
+    "text": "הכי חמים"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/fashion-tmf",
+    "text": "אופנה TMF"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/Reality/1/Survivor/6",
+    "text": "הישרדות"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/Reality/2/TheAmazingRace/8",
+    "text": "המירוץ למיליון ALLSTARS"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/Reality/3/BigBrother/4",
+    "text": "האח הגדול"
+  },
+  {
+    "href": "/culture/tv",
+    "text": "טלוויזיה"
+  },
+  {
+    "href": "/culture/music",
+    "text": "מוזיקה"
+  },
+  {
+    "href": "/culture/movies",
+    "text": "קולנוע"
+  },
+  {
+    "href": "/culture/literature",
+    "text": "ספרות"
+  },
+  {
+    "href": "/culture/theater-art",
+    "text": "אמנות ובמה"
+  },
+  {
+    "href": "/jewishism/parashat-hasavua",
+    "text": "פרשת השבוע"
+  },
+  {
+    "href": "/jewishism/holidays",
+    "text": "חגי ישראל"
+  },
+  {
+    "href": "/jewishism/lists-of-holidays",
+    "text": "לוח חגים ומועדים"
+  },
+  {
+    "href": "/jewishism/blessingsandprayers",
+    "text": "ברכות ותפילות"
+  },
+  {
+    "href": "/lifestyle/car",
+    "text": "רכב"
+  },
+  {
+    "href": "/lifestyle/signon-maariv",
+    "text": "סגנון מעריב"
+  },
+  {
+    "href": "/lifestyle/travel",
+    "text": "תיירות"
+  },
+  {
+    "href": "/lifestyle/fashion",
+    "text": "אופנה TMF"
+  },
+  {
+    "href": "/tags/מאיה-רוזמן",
+    "text": "ד\"ר מאיה רוזמן"
+  },
+  {
+    "href": "/lifestyle/the-experts",
+    "text": "המומחים"
+  },
+  {
+    "href": "/food",
+    "text": "אוכל"
+  },
+  {
+    "href": "/news/health",
+    "text": "בריאות"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/MaarivDigitalWeekend/PersonalDetails",
+    "text": "רכישת עיתון דיגיטלי"
+  },
+  {
+    "href": "/magazine/magazineslist",
+    "text": "העיתונים הדיגיטליים"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/maarivprint/home",
+    "text": "מנוי לעיתון"
+  },
+  {
+    "href": "/hamekomon/tel-aviv",
+    "text": "מקומון תל אביב"
+  },
+  {
+    "href": "/hamekomon/ramatgan",
+    "text": "מקומון רמת גן גבעתיים"
+  },
+  {
+    "href": "/hamekomon/petah-tikva",
+    "text": "מקומון פתח תקווה"
+  },
+  {
+    "href": "http://www.hamekomon.co.il",
+    "text": "עיתון דיגיטלי המקומון"
+  },
+  {
+    "href": "/shows/section/הצגות",
+    "text": "הצגות"
+  },
+  {
+    "href": "/shows/section/סטנד אפ",
+    "text": "סטנד אפ"
+  },
+  {
+    "href": "/shows/section/הצגות ילדים",
+    "text": "הצגות ילדים"
+  },
+  {
+    "href": "/shows/section/זאפה הופעות?hall=זאפה&section_title=הופעות",
+    "text": "זאפה הופעות"
+  },
+  {
+    "href": "/shows/section/הופעות בתל אביב?city=תל אביב&section_title=הופעות",
+    "text": "הופעות בתל אביב"
+  },
+  {
+    "href": "/weather",
+    "text": "מזג האוויר"
+  },
+  {
+    "href": "/economy/tech",
+    "text": "טכנולוגיה"
+  },
+  {
+    "href": "/astrology",
+    "text": "הורוסקופ"
+  },
+  {
+    "href": "/terms-of-use",
+    "text": "תנאי שימוש"
+  },
+  {
+    "href": "/privacy-policy",
+    "text": "מדיניות פרטיות"
+  },
+  {
+    "href": "/",
+    "text": "מעריב"
+  },
+  {
+    "href": "/news",
+    "text": "חדשות מהארץ והעולם"
+  },
+  {
+    "href": "/news/politics",
+    "text": "פוליטי-מדיני"
+  },
+  {
+    "href": "/journalists/moshe-cohen-3992",
+    "text": ""
+  },
+  {
+    "href": "/journalists/moshe-cohen-3992",
+    "text": "משה כהן"
+  },
+  {
+    "href": "https://www.facebook.com/dialog/share?app_id=1497004357237302&display=popup&href=https%3A%2F%2Fwww.maariv.co.il%2Fnews%2Fpolitics%2Farticle-1375198&redirect_uri=https%3A%2F%2Fwww.maariv.co.il%2Fnews%2Fpolitics%2Farticle-1375198",
+    "text": ""
+  },
+  {
+    "href": "https://twitter.com/share?text=%D7%9E%D7%A4%D7%9C%D7%92%D7%AA%20%D7%94%D7%9C%D7%99%D7%9B%D7%95%D7%93%20%D7%9E%D7%AA%D7%97%D7%96%D7%A7%D7%AA%20-%20%D7%95%D7%94%D7%A7%D7%A8%D7%91%20%D7%9E%D7%95%D7%9C%20%D7%90%D7%99%D7%96%D7%A0%D7%A7%D7%95%D7%98%20%D7%9E%D7%AA%D7%97%D7%9E%D7%9D%20%7C%20%D7%A1%D7%A7%D7%A8%20%D7%94%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D%20%D7%A9%D7%9C%20%D7%9E%D7%A2%D7%A8%D7%99%D7%91&url=https%3A%2F%2Fwww.maariv.co.il%2Fnews%2Fpolitics%2Farticle-1375198",
+    "text": ""
+  },
+  {
+    "href": "https://api.whatsapp.com/send?text=%D7%9E%D7%A4%D7%9C%D7%92%D7%AA%20%D7%94%D7%9C%D7%99%D7%9B%D7%95%D7%93%20%D7%9E%D7%AA%D7%97%D7%96%D7%A7%D7%AA%20-%20%D7%95%D7%94%D7%A7%D7%A8%D7%91%20%D7%9E%D7%95%D7%9C%20%D7%90%D7%99%D7%96%D7%A0%D7%A7%D7%95%D7%98%20%D7%9E%D7%AA%D7%97%D7%9E%D7%9D%20%7C%20%D7%A1%D7%A7%D7%A8%20%D7%94%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D%20%D7%A9%D7%9C%20%D7%9E%D7%A2%D7%A8%D7%99%D7%91%20https%3A%2F%2Fwww.maariv.co.il%2Fnews%2Fpolitics%2Farticle-1375198",
+    "text": ""
+  },
+  {
+    "href": "/landedpages/printarticle?id=1375198",
+    "text": ""
+  },
+  {
+    "href": "https://news.google.com/publications/CAAqJggKIiBDQklTRWdnTWFnNEtERzFoWVhKcGRpNWpieTVwYkNnQVAB?hl=he&gl=IL&ceid=IL%3Ahe",
+    "text": "עקבו אחרינו"
+  },
+  {
+    "href": "/tags",
+    "text": "תגיות:"
+  },
+  {
+    "href": "/tags/בנימין-נתניהו",
+    "text": "בנימין נתניהו"
+  },
+  {
+    "href": "/tags/הליכוד",
+    "text": "הליכוד"
+  },
+  {
+    "href": "/tags/בחירות",
+    "text": "בחירות"
+  },
+  {
+    "href": "/tags/סקר-מנדטים",
+    "text": "סקר מנדטים"
+  },
+  {
+    "href": "https://www.oref.org.il/heb/alerts-history",
+    "text": "התרעות פיקוד העורף"
+  },
+  {
+    "href": "/news",
+    "text": "חדשות"
+  },
+  {
+    "href": "/breaking-news",
+    "text": "מבזקים"
+  },
+  {
+    "href": "/economy/israel",
+    "text": "כלכלה בארץ"
+  },
+  {
+    "href": "https://sport1.maariv.co.il",
+    "text": "ספורט"
+  },
+  {
+    "href": "https://tmi.maariv.co.il",
+    "text": "רכילות"
+  },
+  {
+    "href": "/culture",
+    "text": "תרבות"
+  },
+  {
+    "href": "/journalists",
+    "text": "הנבחרת"
+  },
+  {
+    "href": "/jewishism",
+    "text": "יהדות"
+  },
+  {
+    "href": "/weather",
+    "text": "מזג האוויר"
+  },
+  {
+    "href": "/shows",
+    "text": "כרטיסים להופעות"
+  },
+  {
+    "href": "/landedpages/contactus",
+    "text": "צור קשר"
+  },
+  {
+    "href": "/landedpages/adswithus",
+    "text": "פרסם אצלנו"
+  },
+  {
+    "href": "/landedpages/redmail",
+    "text": "מייל אדום"
+  },
+  {
+    "href": "/rss",
+    "text": "מעריב RSS"
+  },
+  {
+    "href": "/magazine/maarivsofhashavua",
+    "text": "מעריב סופהשבוע"
+  },
+  {
+    "href": "/magazine/maarivmusaf",
+    "text": "המוסף"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/MaarivDigitalWeekend/PersonalDetails",
+    "text": "מינוי לעיתון"
+  },
+  {
+    "href": "/articlearchive",
+    "text": "ארכיון מעריב"
+  },
+  {
+    "href": "/aboutus",
+    "text": "אודותינו"
+  },
+  {
+    "href": "/landedpages/cancelsubscription",
+    "text": "ביטול מנוי"
+  },
+  {
+    "href": "https://www.jpostlite.co.il",
+    "text": "אימון אישי באנגלית"
+  },
+  {
+    "href": "https://www.jpost.com",
+    "text": "jPOST- Israel News"
+  },
+  {
+    "href": "https://sport1.maariv.co.il",
+    "text": "ספורט"
+  },
+  {
+    "href": "https://103fm.maariv.co.il",
+    "text": "103 FM"
+  },
+  {
+    "href": "https://eco99fm.maariv.co.il",
+    "text": "eco99fm"
+  },
+  {
+    "href": "https://1045fm.maariv.co.il",
+    "text": "104 FM"
+  },
+  {
+    "href": "https://news.walla.co.il/shabbat-times",
+    "text": "זמני שבת"
+  },
+  {
+    "href": "https://www.kamaze.co.il",
+    "text": "השוואת מחירים"
+  },
+  {
+    "href": "/terms-of-use",
+    "text": "תנאי שימוש"
+  },
+  {
+    "href": "/landedpages/contract.pdf",
+    "text": "הסכם התקשרות - מנויים"
+  },
+  {
+    "href": "/privacy-policy",
+    "text": "מדיניות פרטיות"
+  },
+  {
+    "href": "/hamekomon/terms-of-use",
+    "text": "תנאי שימוש המקומון"
+  },
+  {
+    "href": "/landedpages/adswithus",
+    "text": "פרסם אצלנו"
+  },
+  {
+    "href": "/cdn-cgi/l/email-protection#94e7e1f6e7d4fee4fbe7e0baf7fbf9",
+    "text": "[email protected]"
+  },
+  {
+    "href": "/terms-of-use",
+    "text": "תנאי שימוש"
+  },
+  {
+    "href": "/privacy-policy",
+    "text": "מדיניות פרטיות"
+  }
+]

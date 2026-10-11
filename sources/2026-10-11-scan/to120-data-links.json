@@ -1,0 +1,330 @@
+[
+  {
+    "href": "/",
+    "text": "To 120"
+  },
+  {
+    "href": "/k26?view=overview#scenarios",
+    "text": "Forecast"
+  },
+  {
+    "href": "/k26?view=parties#parties",
+    "text": "Parties"
+  },
+  {
+    "href": "/k26?view=threshold#threshold",
+    "text": "Entering parliament"
+  },
+  {
+    "href": "/k26?view=overview#scenarios",
+    "text": "Paths to 61"
+  },
+  {
+    "href": "/history",
+    "text": "Past Elections"
+  },
+  {
+    "href": "/articles",
+    "text": "Articles"
+  },
+  {
+    "href": "/he/data",
+    "text": "עברית"
+  },
+  {
+    "href": "#main-content",
+    "text": "Skip to main content"
+  },
+  {
+    "href": "/k26?view=overview#scenarios",
+    "text": "Forecast"
+  },
+  {
+    "href": "/k26?view=parties#parties",
+    "text": "Parties"
+  },
+  {
+    "href": "/k26?view=overview#scenarios",
+    "text": "Paths to 61"
+  },
+  {
+    "href": "/articles",
+    "text": "Articles"
+  },
+  {
+    "href": "/donate",
+    "text": "Support the project"
+  },
+  {
+    "href": "/history",
+    "text": "Past Elections"
+  },
+  {
+    "href": "/methodology",
+    "text": "Methodology"
+  },
+  {
+    "href": "/guide",
+    "text": "Reading guide"
+  },
+  {
+    "href": "/evidence",
+    "text": "Check the evidence"
+  },
+  {
+    "href": "/data",
+    "text": "Download the data"
+  },
+  {
+    "href": "/he/data",
+    "text": "האתר בעברית"
+  },
+  {
+    "href": "/terms",
+    "text": "Terms of Service"
+  },
+  {
+    "href": "/privacy",
+    "text": "Privacy policy"
+  },
+  {
+    "href": "/k26?view=overview#scenarios",
+    "text": "Overview"
+  },
+  {
+    "href": "/k26?view=parties#parties",
+    "text": "Parties"
+  },
+  {
+    "href": "/k26?view=threshold#threshold",
+    "text": "Entering parliament"
+  },
+  {
+    "href": "/evidence",
+    "text": "Browse the evidence without downloading files"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/k26_reader_data_2026-10-08_tatika.zip",
+    "text": "Complete package · ZIP · about 35 MB ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08/reader/k26_reader_data_2026-10-08_cec_pdfs_accord_excluded.zip",
+    "text": "October 8 package before the Tatika poll · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-07-evening-seat-polls/reader/k26_reader_data_2026-10-07_evening_seat_polls.zip",
+    "text": "October 7 evening package · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-07-frozen-history/reader/k26_reader_data_2026-10-07_frozen_history.zip",
+    "text": "October 7 package before the evening polls · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-07/reader/k26_reader_data_2026-10-07.zip",
+    "text": "October 7 previous package · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-06/reader/k26_reader_data_2026-10-06.zip",
+    "text": "October 6 original published package · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-05/reader/k26_reader_data_2026-10-05.zip",
+    "text": "October 5 original published package · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-01/reader/k26_reader_data_2026-10-01.zip",
+    "text": "October 1 issued package · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-09-29/reader/k26_reader_data_2026-09-29.zip",
+    "text": "September 29 corrected package · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-09-29/revisions/r16/k26_reader_data_2026-09-29.zip",
+    "text": "September 29 before the cutoff correction · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-09-27/reader/k26_reader_data_2026-09-27.zip",
+    "text": "September 27 original package · ZIP ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/forecast.json",
+    "text": "All displayed outputs · JSON ↓ Both approaches, every displayed date, and names in both languages."
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/parties.csv",
+    "text": "Party results · CSV ↓ Seats, vote shares, ranges and chances of clearing the threshold."
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/blocs.csv",
+    "text": "Bloc results · CSV ↓ Chances of 61+, average seats and ranges for each grouping."
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/snapshots.csv",
+    "text": "Dates and poll counts · CSV ↓ Each date’s status, draw count and available poll entries."
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/README.txt",
+    "text": "Field notes and units"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/manifest.json",
+    "text": "File verification manifest"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/poll_observations.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/poll_observations.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/model_inputs.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/model_inputs.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/input_membership.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/input_membership.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/party_forecasts.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/party_forecasts.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/bloc_forecasts.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/bloc_forecasts.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/daily_status.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/daily_status.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/snapshot_archive_ledger.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/snapshot_archive_ledger.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/snapshot_seat_distributions.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/snapshot_seat_distributions.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/snapshot_latest_admitted_polls.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/snapshot_latest_admitted_polls.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_draws.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_draws.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_seat_distributions.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_seat_distributions.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/n1_normalization_audit.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/n1_normalization_audit.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_poll_weights.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_poll_weights.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_calibration.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/current_calibration.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/uncertainty_targets.csv",
+    "text": "CSV ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/uncertainty_targets.json",
+    "text": "JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/README.en.md",
+    "text": "File guide ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/data_dictionary.json",
+    "text": "Columns and units ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/model_parameters.json",
+    "text": "Method and computation details · JSON ↓"
+  },
+  {
+    "href": "/data/k26/2026-10-08-tatika/reader/manifest.json",
+    "text": "File verification manifest ↓"
+  },
+  {
+    "href": "/data/history/v7/website_party_daily_history.json",
+    "text": "Past election outputs · JSON ↓"
+  },
+  {
+    "href": "/data/history/v7/party_daily_history.csv",
+    "text": "Vote Share Only · CSV ↓"
+  },
+  {
+    "href": "/data/history/v7/party_daily_history_d_shadow.csv",
+    "text": "Vote and Seat Fusion · CSV ↓"
+  },
+  {
+    "href": "/data/history/v7/bloc_daily_history.csv",
+    "text": "Blocs · CSV ↓"
+  },
+  {
+    "href": "/methodology",
+    "text": "How were these results calculated?"
+  }
+]

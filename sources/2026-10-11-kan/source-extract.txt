@@ -1,0 +1,13 @@
+Kan/Kantar published observation 2026-10-11.
+Source tier: Kan broadcast graphic republished by IsraelPolls; original Kan webpages HTTP403.
+Published seats and n554 visually verified; date11.10 printed on graphic and latest history-table column.
+Graphic post: https://x.com/IsraelPolls/status/2109338230902693893
+Historical table: https://x.com/IsraelPolls/status/2109340303660552420
+Seats: {"yashar": 22, "likud": 20, "beyachad": 12, "otzma": 9, "democrats": 8, "yisrael_beiteinu": 8, "utj": 8, "joint": 8, "shas": 7, "rz_zehut": 5, "raam": 5, "winter": 4, "hendel": 4, "gantz": 0, "haredi_public": 0}
+Published below-threshold percentages: Gantz0.9; HarediPublic0.9; TzevaShahor0.7; Ahi0.5.
+Derived modelother1.2 = namedTzevaShahor0.7 + namedAhi0.5; not a published aggregate.
+Winter4seats but vote percentage unpublished. Noam/IsraelFirst absent: missing, not zero.
+Fieldwork, collection method, population, invited n, margin, confidence, undecided share and denominator unverified.
+Strict post-closure significance: excluded until verified fieldwork dates; publication/repost dates not imputed.
+Source blocs: Netanyahu53 includingWinter; opposition50; Arab13; Hendel4.
+Repost: 2026-10-11T20:39:58+03:00; table repost: 2026-10-11T20:48:12+03:00.

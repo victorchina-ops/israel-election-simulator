@@ -1,0 +1,282 @@
+[
+  {
+    "name": "n12-home",
+    "requestedUrl": "https://www.n12.co.il/",
+    "fetchedAtUtc": "2026-10-11T18:14:58.552699+00:00",
+    "status": 200,
+    "finalUrl": "https://www.n12.co.il/",
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 665036,
+    "sha256": "004ea300666e97d2e517c7437951843eb56c21e18688c04ed1018ae6581ff212",
+    "pollLinks": [
+      {
+        "href": "https://www.mako.co.il/news-israel-elections/2026/Article-06343a8a5f411a1026.htm",
+        "text": "בחירות 2026: התוצאה שלא רואים בסקרים דפנה ליאל"
+      }
+    ]
+  },
+  {
+    "name": "n12-politics",
+    "requestedUrl": "https://www.mako.co.il/news-politics",
+    "fetchedAtUtc": "2026-10-11T18:14:58.554794+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "n12-elections",
+    "requestedUrl": "https://www.mako.co.il/news-israel-elections/2026",
+    "fetchedAtUtc": "2026-10-11T18:14:58.554794+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "c13-home",
+    "requestedUrl": "https://13tv.co.il/",
+    "fetchedAtUtc": "2026-10-11T18:14:58.554794+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "c13-politics",
+    "requestedUrl": "https://13tv.co.il/news/politics/",
+    "fetchedAtUtc": "2026-10-11T18:14:58.554794+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "c13-political-index",
+    "requestedUrl": "https://13tv.co.il/news/politics/politics/",
+    "fetchedAtUtc": "2026-10-11T18:14:58.554794+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "c14-home",
+    "requestedUrl": "https://www.c14.co.il/",
+    "fetchedAtUtc": "2026-10-11T18:14:58.814704+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 879816,
+    "sha256": "605422304daa05f0d555e626a3852331273202b64100dbf0b85b5c3f16427afc",
+    "pollLinks": []
+  },
+  {
+    "name": "c14-politics",
+    "requestedUrl": "https://www.c14.co.il/archive/65839",
+    "fetchedAtUtc": "2026-10-11T18:14:58.822407+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/archive/65839",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 238898,
+    "sha256": "0f19be435b9ee85f43abb985decba557cc35e725ded992843e1045dd3164873e",
+    "pollLinks": []
+  },
+  {
+    "name": "c14-elections",
+    "requestedUrl": "https://www.c14.co.il/elections26",
+    "fetchedAtUtc": "2026-10-11T18:14:58.832394+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/elections26",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 223247,
+    "sha256": "3f6c118dd757a9f17bb2faeb3e0e874eac55e380d1566a9a216b0e15a4c8a14e",
+    "pollLinks": []
+  },
+  {
+    "name": "i24-home",
+    "requestedUrl": "https://www.i24news.tv/he",
+    "fetchedAtUtc": "2026-10-11T18:14:59.017574+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 291831,
+    "sha256": "137ba285e2774e0ab647c0256dd5c09f68648e2cd451424482bb3fd8846c15a4",
+    "pollLinks": []
+  },
+  {
+    "name": "i24-elections",
+    "requestedUrl": "https://www.i24news.tv/he/news/israel-elections-2026",
+    "fetchedAtUtc": "2026-10-11T18:14:59.019781+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/israel-elections-2026",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 7310,
+    "sha256": "4c7d04d04e32905824e4e844c9d1c6234be6e8a0ac50f55b40578ff4e2e12cf9",
+    "pollLinks": []
+  },
+  {
+    "name": "maariv-home",
+    "requestedUrl": "https://www.maariv.co.il/",
+    "fetchedAtUtc": "2026-10-11T18:14:59.217788+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 473788,
+    "sha256": "e0b3bb0f041e79849c865e7ab317cd7d8c125979fce26c46ec9e246ccedaa9b5",
+    "pollLinks": [
+      {
+        "href": "breaking-news/article-1376078",
+        "text": "לפני 32 דקות סקר מנדטים: מפלגות הגוש השלישי מטלטלות את מפת המנדטים"
+      },
+      {
+        "href": "breaking-news/article-1376077",
+        "text": "לפני 34 דקות סקר מנדטים: מהפך בגושים - גוש נתניהו עולה ל-53 מנדטים"
+      },
+      {
+        "href": "breaking-news/article-1376078",
+        "text": "לפני 32 דקות סקר מנדטים: מפלגות הגוש השלישי מטלטלות את מפת המנדטים"
+      },
+      {
+        "href": "breaking-news/article-1376077",
+        "text": "לפני 34 דקות סקר מנדטים: מהפך בגושים - גוש נתניהו עולה ל-53 מנדטים"
+      },
+      {
+        "href": "news/elections-2026/article-1376070",
+        "text": "סקר מנדטים: יאיר גולן נופל - ומי שמרוויח הוא היריב הכי גדול שלו"
+      },
+      {
+        "href": "https://www.maariv.co.il/news/elections-2026/article-1375582",
+        "text": "סקר הסקרים של ערוצי הטלוויזיה ומעריב - לו הבחירות היו נערכות היום אלו היו התוצאות"
+      }
+    ]
+  },
+  {
+    "name": "maariv-politics",
+    "requestedUrl": "https://www.maariv.co.il/news/politics",
+    "fetchedAtUtc": "2026-10-11T18:14:59.246723+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/news/politics",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 190960,
+    "sha256": "462f51045efe35a35fb274cc961f69d58016deb76f779f6a6f6c63d549c4d2a8",
+    "pollLinks": [
+      {
+        "href": "/news/politics/article-1375267",
+        "text": "הקאמבק של הליכוד בסקרי המנדטים הוא בלוף? \"תלוי איך סופרים\" | סוקר \"מעריב\" 09/10/2026 | 10:30"
+      },
+      {
+        "href": "/news/politics/article-1375198",
+        "text": "מפלגת הליכוד מתחזקת - והקרב מול איזנקוט מתחמם | סקר המנדטים של מעריב 09/10/2026 | 06:00"
+      },
+      {
+        "href": "/news/politics/article-1375084",
+        "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\" 08/10/2026 | 21:50"
+      }
+    ]
+  },
+  {
+    "name": "maariv-last-known",
+    "requestedUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+    "fetchedAtUtc": "2026-10-11T18:14:59.263399+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 246205,
+    "sha256": "2f002c8bd818ef9c627d7fc6e99904f42ac057bcdf183e58d58d027c24882ae1",
+    "pollLinks": [
+      {
+        "href": "/tags/סקר-מנדטים",
+        "text": "סקר מנדטים"
+      }
+    ]
+  },
+  {
+    "name": "zman-home",
+    "requestedUrl": "https://www.zman.co.il/",
+    "fetchedAtUtc": "2026-10-11T18:14:59.342700+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "zman-polls",
+    "requestedUrl": "https://www.zman.co.il/feed/33350/",
+    "fetchedAtUtc": "2026-10-11T18:14:59.414761+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ih-home",
+    "requestedUrl": "https://www.israelhayom.co.il/",
+    "fetchedAtUtc": "2026-10-11T18:14:59.418932+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 7090040,
+    "sha256": "f4f38db254120450cd833ec9f7685670dc4a9ee147a3add3ba53d455bfc0b984",
+    "pollLinks": []
+  },
+  {
+    "name": "ih-news",
+    "requestedUrl": "https://www.israelhayom.co.il/news",
+    "fetchedAtUtc": "2026-10-11T18:14:59.462819+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/news",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 2921400,
+    "sha256": "63c2c2039b677b91d34cc8b4150285adca42bb7bb79144e61f42b48848d1146a",
+    "pollLinks": []
+  },
+  {
+    "name": "ih-politics",
+    "requestedUrl": "https://www.israelhayom.co.il/news/politics",
+    "fetchedAtUtc": "2026-10-11T18:14:59.612792+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/news/politics",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 3721048,
+    "sha256": "47477b8066918e6bf21875b3ff4499a33118b52d3d4472e1860f96db83428df1",
+    "pollLinks": [
+      {
+        "href": "/news/politics/article/21582636",
+        "text": "עופר וינטר מתחת לאחוז החסימה, הנדל וזליכה יציבים | סקר מנדטים"
+      }
+    ]
+  },
+  {
+    "name": "to120-data",
+    "requestedUrl": "https://twonetwenty.com/data",
+    "fetchedAtUtc": "2026-10-11T18:14:59.692852+00:00",
+    "status": 200,
+    "finalUrl": "https://twonetwenty.com/data",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 70136,
+    "sha256": "44aee8703114719d4e7dc62ca626a22792d8361428c2eef6c8740e2bd85c619a",
+    "pollLinks": [
+      {
+        "href": "/data/k26/2026-10-08/reader/k26_reader_data_2026-10-08_cec_pdfs_accord_excluded.zip",
+        "text": "October 8 package before the Tatika poll · ZIP ↓"
+      },
+      {
+        "href": "/data/k26/2026-10-07-frozen-history/reader/k26_reader_data_2026-10-07_frozen_history.zip",
+        "text": "October 7 package before the evening polls · ZIP ↓"
+      },
+      {
+        "href": "/data/k26/2026-10-08-tatika/snapshots.csv",
+        "text": "Dates and poll counts · CSV ↓ Each date’s status, draw count and available poll entries."
+      }
+    ]
+  },
+  {
+    "name": "to120-evidence",
+    "requestedUrl": "https://twonetwenty.com/he/evidence",
+    "fetchedAtUtc": "2026-10-11T18:14:59.760326+00:00",
+    "status": 200,
+    "finalUrl": "https://twonetwenty.com/he/evidence",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 100527,
+    "sha256": "e47def10edd62a801cc0d658f5404e15b8a9de3ecd3ec83de7806b53904658f5",
+    "pollLinks": []
+  },
+  {
+    "name": "ch16-home",
+    "requestedUrl": "https://www.ch16.co.il/",
+    "fetchedAtUtc": "2026-10-11T18:14:59.760843+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 118493,
+    "sha256": "ed75d1f8211c853bae0f02e9ef8fc3a0e2227ab15c751cdd29398f3a9587402b",
+    "pollLinks": []
+  }
+]

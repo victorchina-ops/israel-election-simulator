@@ -1,0 +1,674 @@
+[
+  {
+    "href": "/",
+    "text": ""
+  },
+  {
+    "href": "/news",
+    "text": "חדשות"
+  },
+  {
+    "href": "/news/elections-2026",
+    "text": "בחירות 2026"
+  },
+  {
+    "href": "/journalists",
+    "text": "הנבחרת"
+  },
+  {
+    "href": "/economy",
+    "text": "כלכלה"
+  },
+  {
+    "href": "https://sport1.maariv.co.il",
+    "text": "ספורט"
+  },
+  {
+    "href": "/culture",
+    "text": "תרבות"
+  },
+  {
+    "href": "https://tmi.maariv.co.il",
+    "text": "רכילות"
+  },
+  {
+    "href": "/news/health",
+    "text": "בריאות"
+  },
+  {
+    "href": "/news/law",
+    "text": "פלילים ומשפט"
+  },
+  {
+    "href": "/lifestyle/travel",
+    "text": "תיירות"
+  },
+  {
+    "href": "/jewishism/shabat-times",
+    "text": "זמני כניסת שבת"
+  },
+  {
+    "href": "/jewishism/hebrew-calendar",
+    "text": "לוח שנה"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/MaarivDigitalWeekend/PersonalDetails",
+    "text": "לרכישת מנוי"
+  },
+  {
+    "href": "/landedpages/redmail",
+    "text": ""
+  },
+  {
+    "href": "/breaking-news",
+    "text": "מבזקים"
+  },
+  {
+    "href": "/news/politics",
+    "text": "פוליטי מדיני"
+  },
+  {
+    "href": "/news/military",
+    "text": "צבא וביטחון"
+  },
+  {
+    "href": "/news/law",
+    "text": "פלילים ומשפט"
+  },
+  {
+    "href": "/news/israel",
+    "text": "חדשות בארץ"
+  },
+  {
+    "href": "/news/world",
+    "text": "חדשות בעולם"
+  },
+  {
+    "href": "/news/viral",
+    "text": "בין החדשות"
+  },
+  {
+    "href": "/news/education",
+    "text": "חינוך"
+  },
+  {
+    "href": "/news/environment",
+    "text": "איכות הסביבה"
+  },
+  {
+    "href": "/news/health",
+    "text": "בריאות"
+  },
+  {
+    "href": "/news/elections-2026",
+    "text": "בחירות 2026"
+  },
+  {
+    "href": "/journalists/ben-caspit-10",
+    "text": "בן כספית"
+  },
+  {
+    "href": "/journalists/mati-tuchfeld-59682",
+    "text": "מתי טוכפלד"
+  },
+  {
+    "href": "/journalists/avi-benayahu-9",
+    "text": "אבי בניהו"
+  },
+  {
+    "href": "/journalists/alon-ben-david-36",
+    "text": "אלון בן דוד"
+  },
+  {
+    "href": "/journalists/ron-kofman-53",
+    "text": "רון קופמן"
+  },
+  {
+    "href": "/journalists/shlomo-maoz-1170",
+    "text": "שלמה מעוז"
+  },
+  {
+    "href": "/journalists/ron-maiberg-71",
+    "text": "רון מיברג"
+  },
+  {
+    "href": "/journalists/natan-zahavi-32",
+    "text": "נתן זהבי"
+  },
+  {
+    "href": "/journalists/miki-levin-123",
+    "text": "מיקי לוין"
+  },
+  {
+    "href": "/journalists/meir-ouziel-180",
+    "text": "מאיר עוזיאל"
+  },
+  {
+    "href": "/economy/israel",
+    "text": "כלכלה בארץ"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/the-lounge",
+    "text": "הלאונג'"
+  },
+  {
+    "href": "/economy/international",
+    "text": "עסקים בעולם"
+  },
+  {
+    "href": "/lifestyle/car",
+    "text": "רכב"
+  },
+  {
+    "href": "/economy/realestate",
+    "text": "נדל\"ן"
+  },
+  {
+    "href": "/economy/consumerism",
+    "text": "צרכנות"
+  },
+  {
+    "href": "/economy/currency",
+    "text": "מט\"ח"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/israeli-soccer",
+    "text": "כדורגל ישראלי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/world-soccer",
+    "text": "כדורגל עולמי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/israeli-basketball",
+    "text": "כדורסל ישראלי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/world-basketball",
+    "text": "כדורסל עולמי"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/other-industries",
+    "text": "ענפים נוספים"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/Sport-Results",
+    "text": "תוצאות ספורט"
+  },
+  {
+    "href": "https://sport1.maariv.co.il/VOD",
+    "text": "תקצירי ספורט"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/celebs-news",
+    "text": "חדשות סלבס"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/red-carpet",
+    "text": "נתפסו בעדשה"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/style",
+    "text": "סטייל"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/hot-celebs",
+    "text": "הכי חמים"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/fashion-tmf",
+    "text": "אופנה TMF"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/Reality/1/Survivor/6",
+    "text": "הישרדות"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/Reality/2/TheAmazingRace/8",
+    "text": "המירוץ למיליון ALLSTARS"
+  },
+  {
+    "href": "https://tmi.maariv.co.il/Reality/3/BigBrother/4",
+    "text": "האח הגדול"
+  },
+  {
+    "href": "/culture/tv",
+    "text": "טלוויזיה"
+  },
+  {
+    "href": "/culture/music",
+    "text": "מוזיקה"
+  },
+  {
+    "href": "/culture/movies",
+    "text": "קולנוע"
+  },
+  {
+    "href": "/culture/literature",
+    "text": "ספרות"
+  },
+  {
+    "href": "/culture/theater-art",
+    "text": "אמנות ובמה"
+  },
+  {
+    "href": "/jewishism/parashat-hasavua",
+    "text": "פרשת השבוע"
+  },
+  {
+    "href": "/jewishism/holidays",
+    "text": "חגי ישראל"
+  },
+  {
+    "href": "/jewishism/lists-of-holidays",
+    "text": "לוח חגים ומועדים"
+  },
+  {
+    "href": "/jewishism/blessingsandprayers",
+    "text": "ברכות ותפילות"
+  },
+  {
+    "href": "/lifestyle/car",
+    "text": "רכב"
+  },
+  {
+    "href": "/lifestyle/signon-maariv",
+    "text": "סגנון מעריב"
+  },
+  {
+    "href": "/lifestyle/travel",
+    "text": "תיירות"
+  },
+  {
+    "href": "/lifestyle/fashion",
+    "text": "אופנה TMF"
+  },
+  {
+    "href": "/tags/מאיה-רוזמן",
+    "text": "ד\"ר מאיה רוזמן"
+  },
+  {
+    "href": "/lifestyle/the-experts",
+    "text": "המומחים"
+  },
+  {
+    "href": "/food",
+    "text": "אוכל"
+  },
+  {
+    "href": "/news/health",
+    "text": "בריאות"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/MaarivDigitalWeekend/PersonalDetails",
+    "text": "רכישת עיתון דיגיטלי"
+  },
+  {
+    "href": "/magazine/magazineslist",
+    "text": "העיתונים הדיגיטליים"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/maarivprint/home",
+    "text": "מנוי לעיתון"
+  },
+  {
+    "href": "/hamekomon/tel-aviv",
+    "text": "מקומון תל אביב"
+  },
+  {
+    "href": "/hamekomon/ramatgan",
+    "text": "מקומון רמת גן גבעתיים"
+  },
+  {
+    "href": "/hamekomon/petah-tikva",
+    "text": "מקומון פתח תקווה"
+  },
+  {
+    "href": "http://www.hamekomon.co.il",
+    "text": "עיתון דיגיטלי המקומון"
+  },
+  {
+    "href": "/shows/section/הצגות",
+    "text": "הצגות"
+  },
+  {
+    "href": "/shows/section/סטנד אפ",
+    "text": "סטנד אפ"
+  },
+  {
+    "href": "/shows/section/הצגות ילדים",
+    "text": "הצגות ילדים"
+  },
+  {
+    "href": "/shows/section/זאפה הופעות?hall=זאפה&section_title=הופעות",
+    "text": "זאפה הופעות"
+  },
+  {
+    "href": "/shows/section/הופעות בתל אביב?city=תל אביב&section_title=הופעות",
+    "text": "הופעות בתל אביב"
+  },
+  {
+    "href": "/weather",
+    "text": "מזג האוויר"
+  },
+  {
+    "href": "/economy/tech",
+    "text": "טכנולוגיה"
+  },
+  {
+    "href": "/astrology",
+    "text": "הורוסקופ"
+  },
+  {
+    "href": "/terms-of-use",
+    "text": "תנאי שימוש"
+  },
+  {
+    "href": "/privacy-policy",
+    "text": "מדיניות פרטיות"
+  },
+  {
+    "href": "/",
+    "text": "מעריב"
+  },
+  {
+    "href": "/news",
+    "text": "חדשות מהארץ והעולם"
+  },
+  {
+    "href": "/news/politics",
+    "text": "פוליטי-מדיני"
+  },
+  {
+    "href": "/news/politics/article-1376048",
+    "text": "משה פייגלין שמע מה אמר עליו טאקר קרלסון - והוריד את הכפפות 19:29"
+  },
+  {
+    "href": "/journalists/nachum-perry-63911",
+    "text": "נחום פרי"
+  },
+  {
+    "href": "/news/politics/article-1376046",
+    "text": "לא נפתלי בנט ולא גדי איזנקוט: נתניהו סימן לעצמו יריבים אחרים 10/11/2026 | 20:56"
+  },
+  {
+    "href": "/journalists/anna-barsky-25513",
+    "text": "אנה ברסקי"
+  },
+  {
+    "href": "/news/politics/article-1376007",
+    "text": "40 דקות שנעלמו מהתיעוד: הגילוי המטלטל של גדי איזנקוט 10/11/2026 | 18:01"
+  },
+  {
+    "href": "/journalists/nachum-perry-63911",
+    "text": "נחום פרי"
+  },
+  {
+    "href": "/news/politics/article-1375937",
+    "text": "רשות האוכלוסין דחתה כניסה של עיתונאית - הסיבה: קראה לסנקציות על ישראל 10/11/2026 | 17:29"
+  },
+  {
+    "href": "/journalists/josh-aronson-22316",
+    "text": "ג'וש ארונסון"
+  },
+  {
+    "href": "/journalists/anna-barsky-25513",
+    "text": "אנה ברסקי"
+  },
+  {
+    "href": "/news/politics/article-1375859",
+    "text": "עימות חריף בשידור חי; בוסי לצור: \"מה אתה מבלבל את המוח?\" | האזינו 12:35"
+  },
+  {
+    "href": "/journalists/maariv-online-3781",
+    "text": "מעריב אונליין"
+  },
+  {
+    "href": "/news/politics/article-1375785",
+    "text": "\"מתנהלים כמו ארגון פשע\": קודמו של צחי ברוורמן בתפקיד פותח הכל 10:48"
+  },
+  {
+    "href": "/journalists/103fm-4732",
+    "text": "103FM"
+  },
+  {
+    "href": "/news/politics/article-1375728",
+    "text": "לאחר ה\"קפוץ לי\" - וינטר ממשיך לתקוף: \"עומד מול נתניהו ומבין שהוא בפאניקה\" 09:08"
+  },
+  {
+    "href": "/journalists/103fm-4732",
+    "text": "103FM"
+  },
+  {
+    "href": "/news/politics/article-1375722",
+    "text": "\"אתה ניסית להרוג אותי, ניסית לרצוח אותי\": בן גביר הגיע לסגור חשבון | צפו 08:55"
+  },
+  {
+    "href": "/journalists/alon-hakmon-3754",
+    "text": "אלון חכמון"
+  },
+  {
+    "href": "/news/politics/article-1375638",
+    "text": "המספרים שמאחורי הקלעים: בליכוד מעריכים - זו תמונת הגושים האמיתית | פרסום ראשון 06:00"
+  },
+  {
+    "href": "/journalists/anna-barsky-25513",
+    "text": "אנה ברסקי"
+  },
+  {
+    "href": "/news/politics/article-1375584",
+    "text": "ההודאה הדרמטית: איזנקוט פנה ליועמ\"שית - הכריעי בתיק ברוורמן לפני הבחירות 10/10/2026 | 20:54"
+  },
+  {
+    "href": "/journalists/anna-barsky-25513",
+    "text": "אנה ברסקי"
+  },
+  {
+    "href": "/news/politics/article-1375581",
+    "text": "בבית החולים: הרצוג הפתיע את הקברניט הגיבור של פליי דובאי 10/10/2026 | 20:09"
+  },
+  {
+    "href": "/journalists/anna-barsky-25513",
+    "text": "אנה ברסקי"
+  },
+  {
+    "href": "/news/politics/article-1375297",
+    "text": "רגע אחרי שנשאל על מירי רגב: נפתלי בנט נכנס לעימות חריג | צפו 09/10/2026 | 12:46"
+  },
+  {
+    "href": "/journalists/nachum-perry-63911",
+    "text": "נחום פרי"
+  },
+  {
+    "href": "/news/politics/article-1375267",
+    "text": "הקאמבק של הליכוד בסקרי המנדטים הוא בלוף? \"תלוי איך סופרים\" | סוקר \"מעריב\" 09/10/2026 | 10:30"
+  },
+  {
+    "href": "/journalists/103fm-4732",
+    "text": "103FM"
+  },
+  {
+    "href": "/news/politics/article-1375198",
+    "text": "מפלגת הליכוד מתחזקת - והקרב מול איזנקוט מתחמם | סקר המנדטים של מעריב 09/10/2026 | 06:00"
+  },
+  {
+    "href": "/journalists/moshe-cohen-3992",
+    "text": "משה כהן"
+  },
+  {
+    "href": "/news/politics/article-1375174",
+    "text": "שמחה רוטמן לא עוצר לקראת פתיחת הקלפיות: \"עדיף בחירות חוזרות מממשלת שמאל\" 09/10/2026 | 06:00"
+  },
+  {
+    "href": "/journalists/nachum-perry-63911",
+    "text": "נחום פרי"
+  },
+  {
+    "href": "/news/politics/article-1375185",
+    "text": "השותף שנזרק והגוש שמתפורר: ההחלטה הקרה של נתניהו להשאיר את בן גביר בחוץ 09/10/2026 | 06:00"
+  },
+  {
+    "href": "/journalists/anna-barsky-25513",
+    "text": "אנה ברסקי"
+  },
+  {
+    "href": "/news/politics/article-1375084",
+    "text": "עתירה נגד סקרי ערוץ 14: \"שאלות מוטות וחוסר שקיפות\" 08/10/2026 | 21:50"
+  },
+  {
+    "href": "/journalists/anna-barsky-25513",
+    "text": "אנה ברסקי"
+  },
+  {
+    "href": "/articlearchive/category/1/subcategory/1/year/2026",
+    "text": "ארכיון פוליטי-מדיני"
+  },
+  {
+    "href": "https://www.oref.org.il/heb/alerts-history",
+    "text": "התרעות פיקוד העורף"
+  },
+  {
+    "href": "/news",
+    "text": "חדשות"
+  },
+  {
+    "href": "/breaking-news",
+    "text": "מבזקים"
+  },
+  {
+    "href": "/economy/israel",
+    "text": "כלכלה בארץ"
+  },
+  {
+    "href": "https://sport1.maariv.co.il",
+    "text": "ספורט"
+  },
+  {
+    "href": "https://tmi.maariv.co.il",
+    "text": "רכילות"
+  },
+  {
+    "href": "/culture",
+    "text": "תרבות"
+  },
+  {
+    "href": "/journalists",
+    "text": "הנבחרת"
+  },
+  {
+    "href": "/jewishism",
+    "text": "יהדות"
+  },
+  {
+    "href": "/weather",
+    "text": "מזג האוויר"
+  },
+  {
+    "href": "/shows",
+    "text": "כרטיסים להופעות"
+  },
+  {
+    "href": "/landedpages/contactus",
+    "text": "צור קשר"
+  },
+  {
+    "href": "/landedpages/adswithus",
+    "text": "פרסם אצלנו"
+  },
+  {
+    "href": "/landedpages/redmail",
+    "text": "מייל אדום"
+  },
+  {
+    "href": "/rss",
+    "text": "מעריב RSS"
+  },
+  {
+    "href": "/magazine/maarivsofhashavua",
+    "text": "מעריב סופהשבוע"
+  },
+  {
+    "href": "/magazine/maarivmusaf",
+    "text": "המוסף"
+  },
+  {
+    "href": "https://maarivpayments.maariv.co.il/MaarivDigitalWeekend/PersonalDetails",
+    "text": "מינוי לעיתון"
+  },
+  {
+    "href": "/articlearchive",
+    "text": "ארכיון מעריב"
+  },
+  {
+    "href": "/aboutus",
+    "text": "אודותינו"
+  },
+  {
+    "href": "/landedpages/cancelsubscription",
+    "text": "ביטול מנוי"
+  },
+  {
+    "href": "https://www.jpostlite.co.il",
+    "text": "אימון אישי באנגלית"
+  },
+  {
+    "href": "https://www.jpost.com",
+    "text": "jPOST- Israel News"
+  },
+  {
+    "href": "https://sport1.maariv.co.il",
+    "text": "ספורט"
+  },
+  {
+    "href": "https://103fm.maariv.co.il",
+    "text": "103 FM"
+  },
+  {
+    "href": "https://eco99fm.maariv.co.il",
+    "text": "eco99fm"
+  },
+  {
+    "href": "https://1045fm.maariv.co.il",
+    "text": "104 FM"
+  },
+  {
+    "href": "https://news.walla.co.il/shabbat-times",
+    "text": "זמני שבת"
+  },
+  {
+    "href": "https://www.kamaze.co.il",
+    "text": "השוואת מחירים"
+  },
+  {
+    "href": "/terms-of-use",
+    "text": "תנאי שימוש"
+  },
+  {
+    "href": "/landedpages/contract.pdf",
+    "text": "הסכם התקשרות - מנויים"
+  },
+  {
+    "href": "/privacy-policy",
+    "text": "מדיניות פרטיות"
+  },
+  {
+    "href": "/hamekomon/terms-of-use",
+    "text": "תנאי שימוש המקומון"
+  },
+  {
+    "href": "/landedpages/adswithus",
+    "text": "פרסם אצלנו"
+  },
+  {
+    "href": "/cdn-cgi/l/email-protection#ef9c9a8d9caf859f809c9bc18c8082",
+    "text": "[email protected]"
+  },
+  {
+    "href": "/terms-of-use",
+    "text": "תנאי שימוש"
+  },
+  {
+    "href": "/privacy-policy",
+    "text": "מדיניות פרטיות"
+  }
+]

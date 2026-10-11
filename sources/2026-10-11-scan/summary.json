@@ -1,0 +1,151 @@
+{
+  "checkedAtUtc": "2026-10-11T18:19:08.922Z",
+  "scope": "Read-only discovery scan; no canonical data, site, model or social-post changes.",
+  "newVerifiedDistinctMandatePollsDiscovered": [
+    {
+      "publisher": "כאן חדשות",
+      "institute": "קנטאר",
+      "publicationDate": "2026-10-11",
+      "status": "New Kan poll; numerical and original methodology verification delegated to verify_kan_oct11.",
+      "IsraelPollsUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+      "secondaryArticle": "https://www.maariv.co.il/news/elections-2026/article-1376070",
+      "secondaryPublicationTimeIsrael": "21:12",
+      "secondaryBlocs": {
+        "netanyahuIncludingWinter": 53,
+        "eisenkot": 50
+      }
+    }
+  ],
+  "duplicateAndExcludedItems": [
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1376070",
+      "reason": "Maariv article explicitly attributes survey to Kan11; not a distinct Maariv/Lazar poll."
+    },
+    {
+      "url": "https://www.maariv.co.il/breaking-news/article-1376077",
+      "reason": "Breaking alert about same Kan11 poll, not independent survey."
+    },
+    {
+      "url": "https://www.maariv.co.il/breaking-news/article-1376078",
+      "reason": "Breaking alert about same Kan11 poll, not independent survey."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2108564557971296373",
+      "reason": "Oct9 multiweek averages of Filber/Direct polls, compiled comparison rather than new poll."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2108507352156848560",
+      "reason": "Oct9 weekly English summary of already known polls."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2108506489958846528",
+      "reason": "Oct9 weekly Hebrew summary of already known polls."
+    }
+  ],
+  "checks": [
+    {
+      "publisher": "IsraelPolls",
+      "urls": [
+        "https://x.com/IsraelPolls?s=20",
+        "https://x.com/IsraelPolls"
+      ],
+      "webTool": "Query variant cache miss, bare profile403.",
+      "inAppBrowser": "Profile AX successfully exposed latest five post text/status links including Kan11 new poll; opening its graphic encountered sign-in overlay and full-profile gate. Visual graphic verification not completed in this agent's browser.",
+      "delegatedEvidence": "../kan-source/israelpolls.html plus receipt by verify_kan_oct11 contains fresh profile and media."
+    },
+    {
+      "publisher": "N12",
+      "urls": [
+        "https://www.mako.co.il/news",
+        "https://www.n12.co.il/",
+        "https://www.mako.co.il/news-politics",
+        "https://www.mako.co.il/news-israel-elections/2026"
+      ],
+      "result": "Homepage read via web/directHTTP; politics and elections indexes read via web though directHTTP403. Elections index latest mandate pollOct5, already ingested; Oct9 opinion/analysis excluded. No additional verified mandate poll observed.",
+      "latestKnownMandateDate": "2026-10-05"
+    },
+    {
+      "publisher": "C13",
+      "urls": [
+        "https://13tv.co.il/",
+        "https://13tv.co.il/news/politics/",
+        "https://13tv.co.il/news/politics/politics/?pid=517&refc=902986281"
+      ],
+      "result": "Web homepage and politics indexes readable; directHTTP403. General politics displayed currentOct11 articles; political subindex was cached3days and listed already-knownOct7 mandatepoll. No additional verified mandatepoll observed.",
+      "limitation": "Some index content is cached; cannot infer absence of unpublished or inaccessible fresh content."
+    },
+    {
+      "publisher": "C14",
+      "urls": [
+        "https://www.c14.co.il/",
+        "https://www.c14.co.il/archive/65839",
+        "https://www.c14.co.il/elections26"
+      ],
+      "result": "Homepage/politics/elections opened via web and archived via directHTTP. Homepage bloc63/45/12 matches knownOct7 poll; no new poll linked in extracted current index.",
+      "limitation": "Elections comparison controls require dynamic content."
+    },
+    {
+      "publisher": "i24",
+      "urls": [
+        "https://www.i24news.tv/he",
+        "https://www.i24news.tv/he/news/israel-elections-2026",
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls"
+      ],
+      "result": "Initially baseelectionsURL returnedJSshell. In-app browser loaded actual pollstab automatically; AX and screenshot confirm latestselectedpoll dated08.10.2026 (518 adults, fieldwork7Oct2026). FinalwebopenpollsURLalsoextractedactualtable. Alreadyingested, no new mandatepoll observed.",
+      "latestKnownMandateDate": "2026-10-08"
+    },
+    {
+      "publisher": "Maariv",
+      "urls": [
+        "https://www.maariv.co.il/",
+        "https://www.maariv.co.il/news/politics",
+        "https://www.maariv.co.il/news/elections-2026"
+      ],
+      "result": "Web extraction failed forhomepage/politics/newarticle; directHTTPretrieval succeeded and archived. Latest ownLazar pollpoliticsOct9 alreadyknown. Homepage newarticle and2breakingalerts are tonightKan11 syndication."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "urls": [
+        "https://www.zman.co.il/",
+        "https://www.zman.co.il/feed/33350/"
+      ],
+      "result": "Web homepage andpollsindex accessible; directHTTP403. Latestmandatepoll shownOct8 alreadyknown.",
+      "latestKnownMandateDate": "2026-10-08"
+    },
+    {
+      "publisher": "IsraelHayom",
+      "urls": [
+        "https://www.israelhayom.co.il/",
+        "https://www.israelhayom.co.il/news",
+        "https://www.israelhayom.co.il/news/politics"
+      ],
+      "result": "DirectHTTParchived all3; webhomepage header hadOct8 butpoliticsindexheaderOct11. Latestpoll link remainsknownOct8 https://www.israelhayom.co.il/news/politics/article/21582636. No additionalverifiedpoll observed.",
+      "latestKnownMandateDate": "2026-10-08"
+    },
+    {
+      "publisher": "To120supplementary",
+      "urls": [
+        "https://twonetwenty.com/data",
+        "https://twonetwenty.com/he/evidence"
+      ],
+      "result": "Both directlyopened andHTTParchived. Latest displayed readerpackageOct8Tatika; evidence134pollswithdocumentedrolesasofOct8. Onlydiscovery; compiledforecastsnotingested.",
+      "limitation": "Index's latest package predates tonight's poll."
+    },
+    {
+      "publisher": "Channel16",
+      "urls": [
+        "https://www.ch16.co.il/",
+        "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc"
+      ],
+      "result": "HTTP200shell archived. In-app browser subsequently rendered primary homepage, with latest program links Focus11Oct, MiPoLeSham11Oct,16BaBoker11Oct, andSaturdaynews10Oct. No standalone mandate-poll item exposed in inspected homepage.",
+      "limitation": "Latest homepage/program links inspected; video contents and all previous episodes not reviewed."
+    }
+  ],
+  "receipts": [
+    "network-receipts.json",
+    "additional-network-receipts.json",
+    "web-initial.json",
+    "web-final.json"
+  ],
+  "conclusion": "Kan11Oct11is the only newly identified distinctmandatepoll in this scan. No absenceclaim forinaccessiblesourcesorunexposedcontent."
+}
