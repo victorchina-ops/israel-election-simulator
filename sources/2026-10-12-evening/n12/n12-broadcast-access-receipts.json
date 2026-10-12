@@ -1,0 +1,24 @@
+[
+  {
+    "name": "n12-player-embed",
+    "url": "https://www.mako.co.il/player-embed/?vid=9766cd0033131a10VgnVCM200000650a10acRCRD&cid=25b0c5280b1cb910VgnVCM200000650a10acRCRD&galleryCid=cc91389788031a10VgnVCM200000650a10acRCRD",
+    "checkedAtUtc": "2026-10-12T19:28:26.041570+00:00",
+    "status": 403,
+    "finalUrl": "https://www.mako.co.il/player-embed/?vid=9766cd0033131a10VgnVCM200000650a10acRCRD&cid=25b0c5280b1cb910VgnVCM200000650a10acRCRD&galleryCid=cc91389788031a10VgnVCM200000650a10acRCRD",
+    "contentType": "text/html",
+    "bytes": 225,
+    "sha256": "d94a943d354e8c8fa9380151041bd6ee3be29a9e50baed29062b3d950736483e",
+    "media": []
+  },
+  {
+    "name": "n12-public-video-discovery",
+    "url": "https://www.mako.co.il/VodContent?type=video&vcmid=9766cd0033131a10VgnVCM200000650a10acRCRD&channelId=25b0c5280b1cb910VgnVCM200000650a10acRCRD",
+    "checkedAtUtc": "2026-10-12T19:28:26.460277+00:00",
+    "status": 403,
+    "finalUrl": "https://www.mako.co.il/VodContent?type=video&vcmid=9766cd0033131a10VgnVCM200000650a10acRCRD&channelId=25b0c5280b1cb910VgnVCM200000650a10acRCRD",
+    "contentType": "text/html",
+    "bytes": 224,
+    "sha256": "281eaf70cc51197436a5f9059b35a14c8bfa6e1b11939fc6a0c189357eb64a75",
+    "media": []
+  }
+]

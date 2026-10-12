@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "reviewedAtUtc": "2026-10-12T20:05:17.609870+00:00",
+  "phase": "local",
+  "browserReport": "report.json",
+  "browserReportSha256": "1badbaf485ff7f66147dbaa9cbc5e94e7aadf575782532de4025b91073f48c01",
+  "qaScript": "qa-script-used.mjs",
+  "qaScriptSha256": "e559db160ee77991d3172158898c08eca56cbfcdb67ecc8fe60adef153e592d5",
+  "reviewedScreenshots": {
+    "320-default-threshold-overview.png": "6b13bb4233c338298ee05ea76540cdb222c554b2586ba290e7523f3ddf11304b",
+    "390-default-threshold-overview.png": "6e72aedefcf70241319061b699b3ce74915514834f35cd62e1ccafed115c7a05",
+    "1440-trends.png": "b1841d6610417a7aa8ad106997e3f5454d52e4035abc4e0f58053ed660ddea64",
+    "390-poll-data.png": "93c6bfcaab643ef1f62fc9c58f40bd9da0d02c0340d951a2c594b8472e51e0bf",
+    "390-triple-all-fail.png": "7614841b25b5483db3ef8f340ad8850fbcdf01d21c4d6948536a5d9d50750262"
+  },
+  "aboutScreenshotsIdenticalToPreviouslyVisuallyReviewedRun": {
+    "run": "2026-10-12T20-01-07-411Z-22988",
+    "files": {
+      "1440-about-light.png": true,
+      "1440-about-dark.png": true
+    }
+  },
+  "observations": [
+    "At320and390px, all16 modeled threshold rows retain readable full probabilities and means in matching logo rails. Long party labels use ellipses with full accessible labels; no percentage clipping or logo misalignment.",
+    "Desktop verified trends shows analysis12Oct and defaultwithoutChannel14 coverage33polls/7series/26deltas; primary significance verdict and sensitivity explanation remain distinct.",
+    "Mobile register keeps all8polls visible and scrolls wide data internally. NewN12/C14 dates appear12Oct; desktop register independently inspected in the earlier identical-UI run showed n509/n538, C13n1263/6-7Oct and Kanunknownfieldwork.",
+    "Mobile ALL-selected-fail triple label requires all3; displayed0.62% equals62/10000, with matching distribution/selection.",
+    "Fresh About photo/contact and light/dark views are byte-identical to the earlier visually inspected local run. Theme survives reload. No AskChatGPT control appears.",
+    "Saved JSON import/export retains every setting and exact seeded party and joint-histogram results."
+  ],
+  "geometryCases": 23,
+  "thresholdRowChecks": 80,
+  "maxLogoRailOffsetPx": 0,
+  "canonicalAndSnapshotHashesUnchanged": true,
+  "authorContentFilesPreserved": 117,
+  "protectedRuntimeFilesPreserved": 234,
+  "oldPublicEvidenceFilesPreserved": 1312,
+  "pairAllFail": 0.3196,
+  "tripleAllFail": 0.0062,
+  "localServedHTMLSha256": "7eb478f872cf523c268fe1a91c8d82d7c659a94af04571fea262485273f0de6a"
+}

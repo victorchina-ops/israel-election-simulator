@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-12",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "activeSelectedInstitutes": 7,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "comparisonSha256": "fc8c985a7cdd0851123cd2934538f0fbe16c9d0658158a45eeb18fb7ed1be97f",
+  "snapshotSha256": "33555459bd0a428a36791bd72ad4f3889a65eac0f417ff55b05f22f78a4a739e",
+  "baselineSha256": "227d8ab46f70e4ac1010da25e48769375c54a702420dd893a341edd6b90e31ac",
+  "validationScope": "Explicit flags and actual selected weights are bound to the website defaults; archive results are never reused."
+}

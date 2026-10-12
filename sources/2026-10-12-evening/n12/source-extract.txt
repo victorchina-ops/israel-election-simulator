@@ -1,0 +1,11 @@
+Published observation midgam_geva_2026-10-12, publication and explicitly documented fieldwork 2026-10-12.
+Original source: https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm
+Original article and methodology successfully read; n509.
+Published mandate vector: {"yashar": 23, "likud": 20, "beyachad": 13, "democrats": 9, "yisrael_beiteinu": 9, "utj": 7, "joint": 8, "shas": 8, "otzma": 8, "rz_zehut": 6, "raam": 5, "winter": 0, "hendel": 4, "gantz": 0, "haredi_public": 0, "noam": 0}
+Published national percentages: {"winter": 1.8, "gantz": 0.9, "noam": 0.5, "haredi_public": 0.1}
+Publisher bloc definition: {"coalition": 49, "opposition": 54, "arab_parties": 13, "hendel": 4}
+Named unmodelled lists: []
+Model-only percentage IDs: []
+Other missing percentages and israel_first mandate remain absent, never zero-filled.
+N12 original broadcast player unavailable403; article and IsraelPolls history were reviewed, not broadcast frames.
+Fieldwork proof: מועד איסוף הנתונים: 12.10.2026; 509 משיבים בפועל; 500 התכנון הראשוני; 2,521 מוזמנים; אינטרנט וטלפון; דגימת שכבות ובתוך השכבות דגימה אקראית.

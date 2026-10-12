@@ -1,0 +1,234 @@
+[
+  {
+    "name": "profile",
+    "requestedUrl": "https://x.com/IsraelPolls?s=20",
+    "fetchedAtUtc": "2026-10-12T19:24:38.514266+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/IsraelPolls?s=20",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 135362,
+    "sha256": "760973123f7e917c9415a28486aaeb3ff46285b5ce0de853c3bf017392e90bf7",
+    "pollLinks": [
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      }
+    ]
+  },
+  {
+    "name": "maariv-home",
+    "requestedUrl": "https://www.maariv.co.il/",
+    "fetchedAtUtc": "2026-10-12T19:24:38.516275+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 473814,
+    "sha256": "66638ec0b38d6162468c6c6a9363526fa708332afa0a7f4236755f210b97eadf",
+    "pollLinks": [
+      {
+        "href": "news/elections-2026/article-1376424",
+        "text": "סקר מנדטים חדש: הקמפיין של נתניהו עובר - וינטר צריך לקבל החלטה גורלית"
+      }
+    ]
+  },
+  {
+    "name": "maariv-politics",
+    "requestedUrl": "https://www.maariv.co.il/news/politics",
+    "fetchedAtUtc": "2026-10-12T19:24:38.516275+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/news/politics",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 186465,
+    "sha256": "0b9fac9b935c2b932a136198eda334ff3e35f86133ac3e01147e38d82a420daa",
+    "pollLinks": []
+  },
+  {
+    "name": "maariv-polls",
+    "requestedUrl": "https://www.maariv.co.il/tags/%D7%A1%D7%A7%D7%A8-%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D",
+    "fetchedAtUtc": "2026-10-12T19:24:38.516275+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/tags/%D7%A1%D7%A7%D7%A8-%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 169177,
+    "sha256": "63c3da784d58be0b520afcb9be053e837b760541994308d78eaa0a8e4f36c10c",
+    "pollLinks": [
+      {
+        "href": "/tags/סקר-מנדטים",
+        "text": "סקר מנדטים"
+      },
+      {
+        "href": "/news/elections-2026/article-1376424",
+        "text": "סקר מנדטים של חדשות 12: הקמפיין של נתניהו עובד - עופר וינטר צריך לקבל החלטה גורלית 21:01"
+      },
+      {
+        "href": "/news/elections-2026/article-1376070",
+        "text": "סקר מנדטים של חדשות כאן 11: יאיר גולן נופל - ומי שמרוויח הוא היריב הכי גדול שלו 10/11/2026 | 21:12"
+      },
+      {
+        "href": "/news/elections-2026/article-1375582",
+        "text": "סקר הסקרים של ערוצי הטלוויזיה ומעריב - לו הבחירות היו נערכות היום אלו היו התוצאות 11/10/2026 | 06:00"
+      },
+      {
+        "href": "/news/politics/article-1375267",
+        "text": "הקאמבק של הליכוד בסקרי המנדטים הוא בלוף? \"תלוי איך סופרים\" | סוקר \"מעריב\" 09/10/2026 | 10:30"
+      },
+      {
+        "href": "/news/politics/article-1375198",
+        "text": "מפלגת הליכוד מתחזקת - והקרב מול איזנקוט מתחמם | סקר המנדטים של מעריב 09/10/2026 | 06:00"
+      },
+      {
+        "href": "/news/elections-2026/article-1374740",
+        "text": "סקר מנדטים של חדשות 13: ניצחון ענק לקואליציה, אבל יש קאץ' - ושמו עופר וינטר 10/08/2026 | 06:38"
+      },
+      {
+        "href": "/news/elections-2026/article-1374001",
+        "text": "סקר מנדטים של חדשות 12: מכה נוספת לעופר וינטר - והגוש שיורד מתחת ל-50 10/05/2026 | 21:46"
+      },
+      {
+        "href": "/news/elections-2026/article-1373608",
+        "text": "סקר מנדטים של חדשות כאן 11: מפלה לוינטר, הנדל וזליכה יציבים 10/04/2026 | 21:35"
+      },
+      {
+        "href": "/news/elections-2026/article-1373215",
+        "text": "סקר הסקרים של ערוצי הטלוויזיה ומעריב - לו הבחירות היו נערכות היום אלו היו התוצאות 04/10/2026 | 06:00"
+      },
+      {
+        "href": "/news/elections-2026/article-1373177",
+        "text": "למרות הסקרים בני גנץ מעלה סרטון ומשוכנע: \"נעבור ובגדול\" | צפו 03/10/2026 | 20:07"
+      },
+      {
+        "href": "/news/elections-2026/article-1372750",
+        "text": "צלילה חופשית: סדר היום החדש משחק לידיים של אדם אחד | סקר המנדטים של מעריב 10/02/2026 | 06:41"
+      },
+      {
+        "href": "/news/elections-2026/article-1372375",
+        "text": "סקר מנדטים של חדשות 13: התמונה התהפכה - נתניהו מוביל על איזנקוט 10/01/2026 | 06:00"
+      }
+    ]
+  },
+  {
+    "name": "walla-news",
+    "requestedUrl": "https://www.walla.co.il/news",
+    "fetchedAtUtc": "2026-10-12T19:24:38.516275+00:00",
+    "status": 200,
+    "finalUrl": "https://www.walla.co.il/news",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 396629,
+    "sha256": "c958816325b113f1028a41721ca23da8c6f4714478b9fb2364efdbf15d03adc9",
+    "pollLinks": [
+      {
+        "href": "/news/politics/383957200",
+        "text": "וינטר נותר בחוץ, דרעי ובן גביר מטפסים | סקר מנדטים מערכת וואלה חדשות | 21:32"
+      },
+      {
+        "href": "/news/politics/383957200",
+        "text": "וינטר נותר בחוץ, דרעי ובן גביר מטפסים | סקר מנדטים מערכת וואלה חדשות | 21:32"
+      }
+    ]
+  },
+  {
+    "name": "walla-politics",
+    "requestedUrl": "https://www.walla.co.il/news/politics",
+    "fetchedAtUtc": "2026-10-12T19:24:38.994292+00:00",
+    "status": 200,
+    "finalUrl": "https://www.walla.co.il/news/politics",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 311115,
+    "sha256": "edf3f6c749709549bec29597e4d5b60c0883cd250d1ed83455606a12c12534cf",
+    "pollLinks": [
+      {
+        "href": "/news/politics/383957200",
+        "text": "וינטר נותר בחוץ, דרעי ובן גביר מטפסים | סקר מנדטים מערכת וואלה חדשות | 21:32"
+      },
+      {
+        "href": "/news/politics/383957098",
+        "text": "וינטר חוזר למסלול, איזנקוט מתנדנד - ויחסי הכוחות משתנים | סקר מנדטים מערכת וואלה חדשות | 11.10.2026"
+      },
+      {
+        "href": "/news/politics/383957051",
+        "text": "סקר הסקרים: איזנקוט ממשיך להוביל, הליכוד צמוד - והקרב בתחתית מערכת וואלה חדשות | 11.10.2026"
+      },
+      {
+        "href": "/news/politics/383956803",
+        "text": "נתניהו מתחזק, הגושים בשוויון - ואיזנקוט עדיין ראשון | סקר וואלה | 09.10.2026"
+      }
+    ]
+  },
+  {
+    "name": "zman-home",
+    "requestedUrl": "https://www.zman.co.il/",
+    "fetchedAtUtc": "2026-10-12T19:24:39.076558+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "zman-polls",
+    "requestedUrl": "https://www.zman.co.il/feed/33350/",
+    "fetchedAtUtc": "2026-10-12T19:24:39.114280+00:00",
+    "status": "inaccessible",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "name": "ih-home",
+    "requestedUrl": "https://www.israelhayom.co.il/",
+    "fetchedAtUtc": "2026-10-12T19:24:39.116662+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 7108449,
+    "sha256": "bd7a9edec1f19a733e0a3efc6d47851dbdde26a49eedcfae2f39718296d2623e",
+    "pollLinks": []
+  },
+  {
+    "name": "ih-politics",
+    "requestedUrl": "https://www.israelhayom.co.il/news/politics",
+    "fetchedAtUtc": "2026-10-12T19:24:39.139292+00:00",
+    "status": 200,
+    "finalUrl": "https://www.israelhayom.co.il/news/politics",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 3722998,
+    "sha256": "f4091a42c0678c094ac870e029b19249cb1f684e0265575d2ae3ec5354b19d68",
+    "pollLinks": [
+      {
+        "href": "/news/politics/article/21582636",
+        "text": "עופר וינטר מתחת לאחוז החסימה, הנדל וזליכה יציבים | סקר מנדטים"
+      }
+    ]
+  }
+]

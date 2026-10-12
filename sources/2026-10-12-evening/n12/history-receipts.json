@@ -1,0 +1,63 @@
+[
+  {
+    "name": "c12-history-post",
+    "requestedUrl": "https://x.com/IsraelPolls/status/2109716482946929087",
+    "fetchedAtUtc": "2026-10-12T19:27:28.990285+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/IsraelPolls/status/2109716482946929087",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 108765,
+    "sha256": "72ee6ddf63f6ab9cb7639ad485af39d4815ee693dc97d764c6b3f14b9b11c0ab",
+    "pollLinks": [
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls @ IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      }
+    ]
+  },
+  {
+    "name": "profile-replies",
+    "requestedUrl": "https://x.com/IsraelPolls/with_replies",
+    "fetchedAtUtc": "2026-10-12T19:27:28.992356+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/i/jf/onboarding/web?redirect_after_login=%2FIsraelPolls%2Fwith_replies&mode=login",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 23835,
+    "sha256": "d47b0964f29f7ca11ff6641b6058e193b39a23c3902b0a14809c2be734eac7d4",
+    "pollLinks": []
+  },
+  {
+    "name": "c12-history.png",
+    "requestedUrl": "https://pbs.twimg.com/media/HUc39QGWMAAtryp.png",
+    "fetchedAtUtc": "2026-10-12T19:27:30.048528+00:00",
+    "status": 200,
+    "finalUrl": "https://pbs.twimg.com/media/HUc39QGWMAAtryp.png",
+    "contentType": "image/png",
+    "bytes": 20599,
+    "sha256": "ca83c851b4073dbf591f347c38c5f272b4e7103eea785af82cad834517a9a001"
+  }
+]

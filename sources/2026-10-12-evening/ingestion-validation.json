@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-12",
+  "phase": "canonical-ingestion-independently-validated-before-numerical-analysis",
+  "checkpointManifestSha256": "f6ca241559a0552f172d4ddb04d555723ff69c8b35833f0f309230c2f6953eb7",
+  "ingestionReceiptSha256": "5b7b356ad95f293bd9db44f6aa9f5f1a41d365494dbab3677a2b72e6a56ade67",
+  "ingestionReceiptPath": "artifacts/poll-checks/2026-10-12-evening/ingestion-receipt-proof-wording-r1.json",
+  "proofWordingRevision": "proof-wording-r1",
+  "activePollCount": 8,
+  "historyPollCount": 117,
+  "previousHistoryRecordsPreserved": 115,
+  "otherActivePollsUnchanged": 6,
+  "newPollIds": [
+    "midgam_geva_2026-10-12",
+    "next_data_2026-10-12"
+  ],
+  "newHistoryIds": [
+    "history_midgam_geva_2026-10-12_current",
+    "history_next_data_2026-10-12_current"
+  ],
+  "fullStrict": {
+    "candidates": 46,
+    "polls": 41,
+    "series": 8,
+    "deltas": 33,
+    "unknownFieldworkExcluded": 5,
+    "byInstitute": {
+      "direct_polls": 5,
+      "hamadad_consortium": 5,
+      "kantar": 5,
+      "lazar": 6,
+      "maagar_mochot": 2,
+      "midgam_geva": 5,
+      "next_data": 8,
+      "tatika": 5
+    }
+  },
+  "defaultWithoutChannel14": {
+    "polls": 33,
+    "series": 7,
+    "deltas": 26,
+    "byInstitute": {
+      "direct_polls": 5,
+      "hamadad_consortium": 5,
+      "kantar": 5,
+      "lazar": 6,
+      "maagar_mochot": 2,
+      "midgam_geva": 5,
+      "tatika": 5
+    }
+  },
+  "preserved": {
+    "authorFiles": 117,
+    "protectedRuntimeFiles": 234,
+    "previousPublicEvidenceFiles": 1312,
+    "historicalWeightsAndPartyCatalogue": true,
+    "dashboardAndModelBaselineNotRebuilt": true
+  },
+  "newPublicArchiveURLs": {
+    "uniqueCount": 64,
+    "allExistLocally": true
+  },
+  "publisherBlocDefinitionsPreserved": true,
+  "missingValuesPreserved": true,
+  "modelOnlyOtherC14Pct": 0.1,
+  "limitations": [
+    "N12 original article read, historical table checked; original broadcast player403, no numeric broadcast frames claimed verified."
+  ],
+  "inputHashes": {
+    "data/current-polls.json": "e424788ffd4bf9ff84dfc449c14d51dc15a406d993803461ccccbfac1e90a030",
+    "data/poll-history.json": "6d0e9890a381931888a7b6575d795d72dca5f25097af6aac8d7b0ab7807b6d94",
+    "data/sources.json": "9db27de5ae0ceb19aa768a8070b7c168fa7b9777da3ff8bf1de228186ab9010c",
+    "data/survey-documents-2026-09-14.json": "d19c8b7a37bc68e69b46b626582ade6951096ef59267817a323c0d127b0e0f60",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "b4606d87c005d5e7d17ba37f7bd09d1674ee12e3a384f0bf1dee9a3322695cb0",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "45a4c3ce0a81a99fa1ecdf96b1ecec98ab930436b9e18218e604f7d08271c864"
+  },
+  "fieldworkAuditHashes": {
+    "artifacts/strict-post-close/lazar-fieldwork.json": "53953455d63015f48c3bb34b604adb3eb629e94d6e3cd17fdadd47928be7b514",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "b4606d87c005d5e7d17ba37f7bd09d1674ee12e3a384f0bf1dee9a3322695cb0",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "45a4c3ce0a81a99fa1ecdf96b1ecec98ab930436b9e18218e604f7d08271c864",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "92df577bbd22fd10ab0989a1002611477f1a49a1c5e4c380edb5f864345dbf56",
+    "artifacts/strict-post-close/new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  }
+}

@@ -1,0 +1,1393 @@
+{
+  "baseline": "2026-09-30",
+  "updated": "2026-10-01",
+  "design": "Same strict fieldwork rule, party and bloc definitions, and historical-quality weights; the sole eligible addition is one verified Tatika poll.",
+  "addedPoll": {
+    "pollId": "history_tatika_2026-10-01_current",
+    "pollsterId": "tatika",
+    "publicationDate": "2026-10-01",
+    "fieldworkStart": "2026-09-30",
+    "fieldworkEnd": "2026-10-01",
+    "sampleSize": 500,
+    "reportedMarginOfErrorPct": 4.4,
+    "eligibleStrict": true,
+    "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+    "sourceUrl": "https://www.zman.co.il/729422/",
+    "evidencePath": "artifacts/sources/2026-10-01-check/zman-2026-10-01-web-reader.txt",
+    "evidenceSha256": "5217d08d3d3d7bdc1a1a5afb9c784192c557e2e1c005f7c686c3055b77576c0a",
+    "evidenceParagraph": "Fieldwork: 30 September–1 October 2026. Sample: 500 Jewish and Arab respondents in Israel.",
+    "methodologyLocator": "Original article methodology, web reader lines 87 and 130–131"
+  },
+  "blocs": {
+    "primary": {
+      "counts": {
+        "beforePolls": 24,
+        "afterPolls": 25,
+        "beforeDeltas": 17,
+        "afterDeltas": 18,
+        "beforePermutations": 22394880,
+        "afterPermutations": 89579520
+      },
+      "results": [
+        {
+          "group": "coalition",
+          "weightedNetDelta": {
+            "before": -0.8507779701594017,
+            "after": -0.8507779701594017,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.389619857452159,
+            "after": -0.389619857452159,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 0.09853395061728396,
+            "after": 0.07307098765432099,
+            "change": -0.025462962962962965
+          },
+          "qValue": {
+            "before": 0.09853395061728394,
+            "after": 0.07307098765432099,
+            "change": -0.02546296296296295
+          },
+          "wholeInstituteSignFlipP": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          },
+          "wholeInstituteSignFlipQ": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          }
+        },
+        {
+          "group": "opposition",
+          "weightedNetDelta": {
+            "before": -1.2748556125451966,
+            "after": -1.8433923114926212,
+            "change": -0.5685366989474245
+          },
+          "slopePerWeek": {
+            "before": -0.6885083852166772,
+            "after": -0.8022157250061622,
+            "change": -0.113707339789485
+          },
+          "pValue": {
+            "before": 0.013143004115226337,
+            "after": 0.006147119341563786,
+            "change": -0.006995884773662551
+          },
+          "qValue": {
+            "before": 0.03831018518518518,
+            "after": 0.01578414351851852,
+            "change": -0.022526041666666663
+          },
+          "wholeInstituteSignFlipP": {
+            "before": 0.09375,
+            "after": 0.09375,
+            "change": 0.0
+          },
+          "wholeInstituteSignFlipQ": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          }
+        },
+        {
+          "group": "opposition_raam",
+          "weightedNetDelta": {
+            "before": -1.135046319633114,
+            "after": -1.8457171933173946,
+            "change": -0.7106708736842806
+          },
+          "slopePerWeek": {
+            "before": -0.5904305836223033,
+            "after": -0.7752050107802163,
+            "change": -0.18477442715791303
+          },
+          "pValue": {
+            "before": 0.025540123456790124,
+            "after": 0.010522762345679013,
+            "change": -0.015017361111111112
+          },
+          "qValue": {
+            "before": 0.03831018518518518,
+            "after": 0.01578414351851852,
+            "change": -0.022526041666666663
+          },
+          "wholeInstituteSignFlipP": {
+            "before": 0.125,
+            "after": 0.125,
+            "change": 0.0
+          },
+          "wholeInstituteSignFlipQ": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          }
+        }
+      ]
+    },
+    "publicationDateSensitivity": {
+      "counts": {
+        "beforePolls": 24,
+        "afterPolls": 25,
+        "beforeDeltas": 17,
+        "afterDeltas": 18,
+        "beforePermutations": 22394880,
+        "afterPermutations": 89579520
+      },
+      "results": [
+        {
+          "group": "coalition",
+          "weightedNetDelta": {
+            "before": -0.8507779701594017,
+            "after": -0.8507779701594017,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.37447870225451585,
+            "after": -0.37447870225451585,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 0.11226851851851852,
+            "after": 0.08499228395061728,
+            "change": -0.027276234567901236
+          },
+          "qValue": {
+            "before": 0.11226851851851853,
+            "after": 0.08499228395061727,
+            "change": -0.027276234567901264
+          },
+          "wholeInstituteSignFlipP": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          },
+          "wholeInstituteSignFlipQ": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          }
+        },
+        {
+          "group": "opposition",
+          "weightedNetDelta": {
+            "before": -1.2748556125451966,
+            "after": -1.8433923114926212,
+            "change": -0.5685366989474245
+          },
+          "slopePerWeek": {
+            "before": -0.6779680843350118,
+            "after": -0.7916754241244968,
+            "change": -0.113707339789485
+          },
+          "pValue": {
+            "before": 0.01301440329218107,
+            "after": 0.005928497942386831,
+            "change": -0.007085905349794239
+          },
+          "qValue": {
+            "before": 0.03904320987654321,
+            "after": 0.016261574074074074,
+            "change": -0.022781635802469134
+          },
+          "wholeInstituteSignFlipP": {
+            "before": 0.09375,
+            "after": 0.09375,
+            "change": 0.0
+          },
+          "wholeInstituteSignFlipQ": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          }
+        },
+        {
+          "group": "opposition_raam",
+          "weightedNetDelta": {
+            "before": -1.135046319633114,
+            "after": -1.8457171933173946,
+            "change": -0.7106708736842806
+          },
+          "slopePerWeek": {
+            "before": -0.577009184604079,
+            "after": -0.7617836117619922,
+            "change": -0.18477442715791315
+          },
+          "pValue": {
+            "before": 0.02635030864197531,
+            "after": 0.01084104938271605,
+            "change": -0.015509259259259259
+          },
+          "qValue": {
+            "before": 0.039525462962962964,
+            "after": 0.016261574074074074,
+            "change": -0.02326388888888889
+          },
+          "wholeInstituteSignFlipP": {
+            "before": 0.125,
+            "after": 0.125,
+            "change": 0.0
+          },
+          "wholeInstituteSignFlipQ": {
+            "before": 0.1875,
+            "after": 0.1875,
+            "change": 0.0
+          }
+        }
+      ]
+    }
+  },
+  "parties": {
+    "primary": {
+      "counts": {
+        "beforePolls": 24,
+        "afterPolls": 25,
+        "beforeDeltas": 17,
+        "afterDeltas": 18,
+        "beforePermutations": 22394880,
+        "afterPermutations": 89579520
+      },
+      "results": [
+        {
+          "partyId": "yashar",
+          "weightedNetDelta": {
+            "before": -1.0002978035630383,
+            "after": -1.2845661530367507,
+            "change": -0.2842683494737124
+          },
+          "slopePerWeek": {
+            "before": -0.4203771994064822,
+            "after": -0.5198711217222817,
+            "change": -0.09949392231579945
+          },
+          "pValue": {
+            "before": 0.04991426611796982,
+            "after": 0.015616426611796982,
+            "change": -0.034297839506172836
+          },
+          "qValue": {
+            "before": 0.21213563100137173,
+            "after": 0.08849308413351624,
+            "change": -0.12364254686785549
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.0625,
+            "after": 0.03125,
+            "change": -0.03125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.53125,
+            "after": 0.53125,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "likud",
+          "weightedNetDelta": {
+            "before": -0.9965483694149371,
+            "after": -0.9965483694149371,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.3918858748958965,
+            "after": -0.34924562247483953,
+            "change": 0.04264025242105696
+          },
+          "pValue": {
+            "before": 0.03359053497942387,
+            "after": 0.03587962962962963,
+            "change": 0.0022890946502057627
+          },
+          "qValue": {
+            "before": 0.2098765432098765,
+            "after": 0.15248842592592593,
+            "change": -0.057388117283950574
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.125,
+            "after": 0.125,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.7083333333333334,
+            "after": 0.53125,
+            "change": -0.17708333333333337
+          }
+        },
+        {
+          "partyId": "beyachad",
+          "weightedNetDelta": {
+            "before": -0.8601907070879173,
+            "after": -1.1444590565616295,
+            "change": -0.28426834947371216
+          },
+          "slopePerWeek": {
+            "before": -0.5055995072690364,
+            "after": -0.5340263422164077,
+            "change": -0.028426834947371304
+          },
+          "pValue": {
+            "before": 0.015406378600823046,
+            "after": 0.008112568587105623,
+            "change": -0.0072938100137174226
+          },
+          "qValue": {
+            "before": 0.2098765432098765,
+            "after": 0.07870370370370369,
+            "change": -0.1311728395061728
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.0625,
+            "after": 0.0625,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.53125,
+            "after": 0.53125,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "democrats",
+          "weightedNetDelta": {
+            "before": 0.43135009142315356,
+            "after": 0.43135009142315356,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.13759377638295586,
+            "after": 0.13759377638295586,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 0.32006172839506175,
+            "after": 0.32006172839506175,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 0.7412457912457913,
+            "after": 0.5967171717171718,
+            "change": -0.1445286195286195
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.4375,
+            "after": 0.4375,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.9659090909090909,
+            "after": 0.85,
+            "change": -0.11590909090909096
+          }
+        },
+        {
+          "partyId": "yisrael_beiteinu",
+          "weightedNetDelta": {
+            "before": 0.1542828066826054,
+            "after": 0.1542828066826054,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.09987454507588546,
+            "after": 0.11408796254957107,
+            "change": 0.01421341747368561
+          },
+          "pValue": {
+            "before": 0.47962962962962963,
+            "after": 0.3861111111111111,
+            "change": -0.0935185185185185
+          },
+          "qValue": {
+            "before": 0.7412457912457913,
+            "after": 0.5967171717171718,
+            "change": -0.1445286195286195
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.625,
+            "after": 0.5625,
+            "change": -0.0625
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.9659090909090909,
+            "after": 0.8693181818181818,
+            "change": -0.09659090909090917
+          }
+        },
+        {
+          "partyId": "utj",
+          "weightedNetDelta": {
+            "before": -0.2916540081404928,
+            "after": -0.2916540081404928,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.1596565836586588,
+            "after": -0.1454431661849732,
+            "change": 0.014213417473685624
+          },
+          "pValue": {
+            "before": 0.1527777777777778,
+            "after": 0.15555555555555556,
+            "change": 0.002777777777777768
+          },
+          "qValue": {
+            "before": 0.5194444444444445,
+            "after": 0.5288888888888889,
+            "change": 0.009444444444444366
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.25,
+            "after": 0.25,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.85,
+            "after": 0.85,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "joint",
+          "weightedNetDelta": {
+            "before": 0.28426834947371227,
+            "after": 0.28426834947371227,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.10314650236141241,
+            "after": 0.07471966741404124,
+            "change": -0.02842683494737118
+          },
+          "pValue": {
+            "before": 0.3111111111111111,
+            "after": 0.38333333333333336,
+            "change": 0.07222222222222224
+          },
+          "qValue": {
+            "before": 0.7412457912457913,
+            "after": 0.5967171717171718,
+            "change": -0.1445286195286195
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.5,
+            "after": 0.5,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.9659090909090909,
+            "after": 0.85,
+            "change": -0.11590909090909096
+          }
+        },
+        {
+          "partyId": "shas",
+          "weightedNetDelta": {
+            "before": -0.143445517430762,
+            "after": -0.28557969216761814,
+            "change": -0.14213417473685613
+          },
+          "slopePerWeek": {
+            "before": -0.04230152333135097,
+            "after": -0.0707283582787222,
+            "change": -0.028426834947371235
+          },
+          "pValue": {
+            "before": 0.6,
+            "after": 0.2916666666666667,
+            "change": -0.3083333333333333
+          },
+          "qValue": {
+            "before": 0.85,
+            "after": 0.5967171717171718,
+            "change": -0.2532828282828282
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 0.5,
+            "change": -0.5
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 0.85,
+            "change": -0.15000000000000002
+          }
+        },
+        {
+          "partyId": "otzma",
+          "weightedNetDelta": {
+            "before": -0.1395114893490444,
+            "after": -0.1395114893490444,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.13352231243431362,
+            "after": -0.1477357299079992,
+            "change": -0.014213417473685597
+          },
+          "pValue": {
+            "before": 0.4334876543209877,
+            "after": 0.3654706790123457,
+            "change": -0.06801697530864198
+          },
+          "qValue": {
+            "before": 0.7412457912457913,
+            "after": 0.5967171717171718,
+            "change": -0.1445286195286195
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.5625,
+            "after": 0.4375,
+            "change": -0.125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.9659090909090909,
+            "after": 0.85,
+            "change": -0.11590909090909096
+          }
+        },
+        {
+          "partyId": "rz_zehut",
+          "weightedNetDelta": {
+            "before": 0.14951983340363664,
+            "after": 0.2916540081404928,
+            "change": 0.14213417473685616
+          },
+          "slopePerWeek": {
+            "before": 0.05831037636110314,
+            "after": 0.10095062878215993,
+            "change": 0.0426402524210568
+          },
+          "pValue": {
+            "before": 0.7222222222222222,
+            "after": 0.5314814814814814,
+            "change": -0.19074074074074077
+          },
+          "qValue": {
+            "before": 0.9444444444444444,
+            "after": 0.7529320987654321,
+            "change": -0.19151234567901232
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.75,
+            "after": 0.5,
+            "change": -0.25
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 0.85,
+            "change": -0.15000000000000002
+          }
+        },
+        {
+          "partyId": "raam",
+          "weightedNetDelta": {
+            "before": 0.13980929291208272,
+            "after": -0.002324881824773417,
+            "change": -0.14213417473685613
+          },
+          "slopePerWeek": {
+            "before": 0.09807780159437557,
+            "after": 0.027010714225947502,
+            "change": -0.07106708736842807
+          },
+          "pValue": {
+            "before": 0.43950617283950616,
+            "after": 0.817283950617284,
+            "change": 0.3777777777777778
+          },
+          "qValue": {
+            "before": 0.7412457912457913,
+            "after": 1.0,
+            "change": 0.25875420875420874
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.5625,
+            "after": 0.875,
+            "change": 0.3125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.9659090909090909,
+            "after": 1.0,
+            "change": 0.03409090909090906
+          }
+        },
+        {
+          "partyId": "winter",
+          "weightedNetDelta": {
+            "before": 0.570861580772198,
+            "after": 0.570861580772198,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.2794360605069591,
+            "after": 0.22258239061221666,
+            "change": -0.05685366989474247
+          },
+          "pValue": {
+            "before": 0.36419753086419754,
+            "after": 0.2777777777777778,
+            "change": -0.08641975308641975
+          },
+          "qValue": {
+            "before": 0.7412457912457913,
+            "after": 0.5967171717171718,
+            "change": -0.1445286195286195
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.625,
+            "after": 0.625,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.9659090909090909,
+            "after": 0.8854166666666666,
+            "change": -0.08049242424242431
+          }
+        },
+        {
+          "partyId": "hendel",
+          "weightedNetDelta": {
+            "before": 1.7015559403188034,
+            "after": 2.412226814003084,
+            "change": 0.7106708736842806
+          },
+          "slopePerWeek": {
+            "before": 0.8769039387130455,
+            "after": 1.0901052008183296,
+            "change": 0.21320126210528412
+          },
+          "pValue": {
+            "before": 0.037037037037037035,
+            "after": 0.009259259259259259,
+            "change": -0.027777777777777776
+          },
+          "qValue": {
+            "before": 0.2098765432098765,
+            "after": 0.07870370370370369,
+            "change": -0.1311728395061728
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.25,
+            "after": 0.125,
+            "change": -0.125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.85,
+            "after": 0.53125,
+            "change": -0.31875
+          }
+        },
+        {
+          "partyId": "gantz",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "noam",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "haredi_public",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "israel_first",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        }
+      ]
+    },
+    "publicationDateSensitivity": {
+      "counts": {
+        "beforePolls": 24,
+        "afterPolls": 25,
+        "beforeDeltas": 17,
+        "afterDeltas": 18,
+        "beforePermutations": 22394880,
+        "afterPermutations": 89579520
+      },
+      "results": [
+        {
+          "partyId": "yashar",
+          "weightedNetDelta": {
+            "before": -1.0002978035630383,
+            "after": -1.2845661530367507,
+            "change": -0.2842683494737124
+          },
+          "slopePerWeek": {
+            "before": -0.41022971907287836,
+            "after": -0.5097236413886778,
+            "change": -0.0994939223157994
+          },
+          "pValue": {
+            "before": 0.050805898491083676,
+            "after": 0.015882201646090534,
+            "change": -0.03492369684499314
+          },
+          "qValue": {
+            "before": 0.2159250685871056,
+            "after": 0.0899991426611797,
+            "change": -0.1259259259259259
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.0625,
+            "after": 0.03125,
+            "change": -0.03125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.53125,
+            "after": 0.53125,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "likud",
+          "weightedNetDelta": {
+            "before": -0.9965483694149371,
+            "after": -0.9965483694149371,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.39837066480998423,
+            "after": -0.3557304123889273,
+            "change": 0.04264025242105696
+          },
+          "pValue": {
+            "before": 0.025977366255144033,
+            "after": 0.027276234567901233,
+            "change": 0.0012988683127572002
+          },
+          "qValue": {
+            "before": 0.2098765432098765,
+            "after": 0.11592399691358024,
+            "change": -0.09395254629629626
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.125,
+            "after": 0.125,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.7083333333333334,
+            "after": 0.53125,
+            "change": -0.17708333333333337
+          }
+        },
+        {
+          "partyId": "beyachad",
+          "weightedNetDelta": {
+            "before": -0.8601907070879173,
+            "after": -1.1444590565616295,
+            "change": -0.28426834947371216
+          },
+          "slopePerWeek": {
+            "before": -0.49945274157692343,
+            "after": -0.5278795765242946,
+            "change": -0.028426834947371193
+          },
+          "pValue": {
+            "before": 0.01665809327846365,
+            "after": 0.008845593278463649,
+            "change": -0.007812500000000002
+          },
+          "qValue": {
+            "before": 0.2098765432098765,
+            "after": 0.07870370370370369,
+            "change": -0.1311728395061728
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.0625,
+            "after": 0.0625,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.53125,
+            "after": 0.53125,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "democrats",
+          "weightedNetDelta": {
+            "before": 0.43135009142315356,
+            "after": 0.43135009142315356,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.13125470973474843,
+            "after": 0.13125470973474843,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 0.3277777777777778,
+            "after": 0.3277777777777778,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 0.6965277777777777,
+            "after": 0.5924242424242425,
+            "change": -0.10410353535353523
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.4375,
+            "after": 0.4375,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.95625,
+            "after": 0.7727272727272727,
+            "change": -0.18352272727272734
+          }
+        },
+        {
+          "partyId": "yisrael_beiteinu",
+          "weightedNetDelta": {
+            "before": 0.1542828066826054,
+            "after": 0.1542828066826054,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.10045966658004109,
+            "after": 0.1146730840537267,
+            "change": 0.01421341747368561
+          },
+          "pValue": {
+            "before": 0.4765432098765432,
+            "after": 0.37916666666666665,
+            "change": -0.09737654320987654
+          },
+          "qValue": {
+            "before": 0.736475869809203,
+            "after": 0.5924242424242425,
+            "change": -0.14405162738496047
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.625,
+            "after": 0.5625,
+            "change": -0.0625
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.9659090909090909,
+            "after": 0.796875,
+            "change": -0.16903409090909094
+          }
+        },
+        {
+          "partyId": "utj",
+          "weightedNetDelta": {
+            "before": -0.2916540081404928,
+            "after": -0.2916540081404928,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.1626573117636386,
+            "after": -0.14844389428995297,
+            "change": 0.014213417473685624
+          },
+          "pValue": {
+            "before": 0.1388888888888889,
+            "after": 0.14074074074074075,
+            "change": 0.0018518518518518545
+          },
+          "qValue": {
+            "before": 0.4722222222222222,
+            "after": 0.47851851851851857,
+            "change": 0.006296296296296355
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.25,
+            "after": 0.25,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.85,
+            "after": 0.7727272727272727,
+            "change": -0.07727272727272727
+          }
+        },
+        {
+          "partyId": "joint",
+          "weightedNetDelta": {
+            "before": 0.28426834947371227,
+            "after": 0.28426834947371227,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.10314650236141241,
+            "after": 0.07471966741404124,
+            "change": -0.02842683494737118
+          },
+          "pValue": {
+            "before": 0.3111111111111111,
+            "after": 0.38333333333333336,
+            "change": 0.07222222222222224
+          },
+          "qValue": {
+            "before": 0.6965277777777777,
+            "after": 0.5924242424242425,
+            "change": -0.10410353535353523
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.5,
+            "after": 0.5,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.95625,
+            "after": 0.7727272727272727,
+            "change": -0.18352272727272734
+          }
+        },
+        {
+          "partyId": "shas",
+          "weightedNetDelta": {
+            "before": -0.143445517430762,
+            "after": -0.28557969216761814,
+            "change": -0.14213417473685613
+          },
+          "slopePerWeek": {
+            "before": -0.03724041100818423,
+            "after": -0.06566724595555545,
+            "change": -0.02842683494737122
+          },
+          "pValue": {
+            "before": 0.65,
+            "after": 0.3,
+            "change": -0.35000000000000003
+          },
+          "qValue": {
+            "before": 0.8863247863247863,
+            "after": 0.5924242424242425,
+            "change": -0.29390054390054376
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 0.5,
+            "change": -0.5
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 0.7727272727272727,
+            "change": -0.2272727272727273
+          }
+        },
+        {
+          "partyId": "otzma",
+          "weightedNetDelta": {
+            "before": -0.1395114893490444,
+            "after": -0.1395114893490444,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": -0.13504564037085612,
+            "after": -0.14925905784454174,
+            "change": -0.014213417473685624
+          },
+          "pValue": {
+            "before": 0.4256687242798354,
+            "after": 0.35650077160493826,
+            "change": -0.06916795267489712
+          },
+          "qValue": {
+            "before": 0.7345679012345678,
+            "after": 0.5924242424242425,
+            "change": -0.1421436588103253
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.5625,
+            "after": 0.4375,
+            "change": -0.125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.95625,
+            "after": 0.7727272727272727,
+            "change": -0.18352272727272734
+          }
+        },
+        {
+          "partyId": "rz_zehut",
+          "weightedNetDelta": {
+            "before": 0.14951983340363664,
+            "after": 0.2916540081404928,
+            "change": 0.14213417473685616
+          },
+          "slopePerWeek": {
+            "before": 0.06883523869047678,
+            "after": 0.11147549111153358,
+            "change": 0.042640252421056804
+          },
+          "pValue": {
+            "before": 0.6777777777777778,
+            "after": 0.48657407407407405,
+            "change": -0.19120370370370376
+          },
+          "qValue": {
+            "before": 0.8863247863247863,
+            "after": 0.6893132716049383,
+            "change": -0.197011514719848
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.75,
+            "after": 0.5,
+            "change": -0.25
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 0.7727272727272727,
+            "change": -0.2272727272727273
+          }
+        },
+        {
+          "partyId": "raam",
+          "weightedNetDelta": {
+            "before": 0.13980929291208272,
+            "after": -0.002324881824773417,
+            "change": -0.14213417473685613
+          },
+          "slopePerWeek": {
+            "before": 0.10095889973093358,
+            "after": 0.029891812362505515,
+            "change": -0.07106708736842807
+          },
+          "pValue": {
+            "before": 0.43209876543209874,
+            "after": 0.8,
+            "change": 0.3679012345679013
+          },
+          "qValue": {
+            "before": 0.7345679012345678,
+            "after": 1.0,
+            "change": 0.26543209876543217
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.5625,
+            "after": 0.875,
+            "change": 0.3125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.95625,
+            "after": 1.0,
+            "change": 0.043749999999999956
+          }
+        },
+        {
+          "partyId": "winter",
+          "weightedNetDelta": {
+            "before": 0.570861580772198,
+            "after": 0.570861580772198,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.2900000870076715,
+            "after": 0.23314641711292905,
+            "change": -0.05685366989474244
+          },
+          "pValue": {
+            "before": 0.3271604938271605,
+            "after": 0.25,
+            "change": -0.0771604938271605
+          },
+          "qValue": {
+            "before": 0.6965277777777777,
+            "after": 0.5924242424242425,
+            "change": -0.10410353535353523
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.375,
+            "after": 0.375,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.95625,
+            "after": 0.7727272727272727,
+            "change": -0.18352272727272734
+          }
+        },
+        {
+          "partyId": "hendel",
+          "weightedNetDelta": {
+            "before": 1.7015559403188034,
+            "after": 2.412226814003084,
+            "change": 0.7106708736842806
+          },
+          "slopePerWeek": {
+            "before": 0.848341384497181,
+            "after": 1.0615426466024651,
+            "change": 0.21320126210528412
+          },
+          "pValue": {
+            "before": 0.037037037037037035,
+            "after": 0.009259259259259259,
+            "change": -0.027777777777777776
+          },
+          "qValue": {
+            "before": 0.2098765432098765,
+            "after": 0.07870370370370369,
+            "change": -0.1311728395061728
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 0.25,
+            "after": 0.125,
+            "change": -0.125
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 0.85,
+            "after": 0.53125,
+            "change": -0.31875
+          }
+        },
+        {
+          "partyId": "gantz",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "noam",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "haredi_public",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        },
+        {
+          "partyId": "israel_first",
+          "weightedNetDelta": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "slopePerWeek": {
+            "before": 0.0,
+            "after": 0.0,
+            "change": 0.0
+          },
+          "pValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "qValue": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipP": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          },
+          "wholeSeriesSignFlipQ": {
+            "before": 1.0,
+            "after": 1.0,
+            "change": 0.0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4 @@
+Primary publisher read using web open on 2026-09-28.
+URL: https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm
+Methodology lines136–144: עורך הסקר: מדגם ייעוץ ומחקר בראשות מנו גבע. מועד איסוף הנתונים: 14.9.2026. מספר המשיבים בפועל:502.
+HTTP fetch of same URL returned a CAPTCHA despite status200; saved HTML is a blocked response, not evidence of methodology.

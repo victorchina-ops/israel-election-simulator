@@ -1,0 +1,276 @@
+[
+  {
+    "name": "remaining-c13-home",
+    "url": "https://13tv.co.il/",
+    "checkedAtUtc": "2026-10-12T19:32:55.404911+00:00",
+    "status": 403,
+    "finalUrl": "https://13tv.co.il/",
+    "contentType": "text/html",
+    "bytes": 362,
+    "sha256": "4d7f692a7a2a2502a6097b4895c23af19edc056638044f738e6b89d2352e5d0e",
+    "visibleTextChars": 198,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-c13-politics",
+    "url": "https://13tv.co.il/news/politics/politics/",
+    "checkedAtUtc": "2026-10-12T19:32:55.406656+00:00",
+    "status": 403,
+    "finalUrl": "https://13tv.co.il/news/politics/politics/",
+    "contentType": "text/html",
+    "bytes": 395,
+    "sha256": "5540bbaad25b3a4d801ce75f7a4e902d149cdc0fab4f5a5267f3c106b7543084",
+    "visibleTextChars": 219,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-c13-polls",
+    "url": "https://13tv.co.il/tags/survey/",
+    "checkedAtUtc": "2026-10-12T19:32:55.406656+00:00",
+    "status": 403,
+    "finalUrl": "https://13tv.co.il/tags/survey/",
+    "contentType": "text/html",
+    "bytes": 382,
+    "sha256": "402a88f3a53022182b34edbb53745763b6729a9532a76d5065e4184bbb5c137b",
+    "visibleTextChars": 210,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-hamadad-polls",
+    "url": "https://themadad.com/allpolls/",
+    "checkedAtUtc": "2026-10-12T19:32:55.406656+00:00",
+    "status": 302,
+    "finalUrl": "https://abuse.spd.co.il/",
+    "contentType": "text/html; charset=iso-8859-1",
+    "bytes": 201,
+    "sha256": "6dbddc4074f20e0ee3070addc7c406264a2c2a2d101b03b3b32fefc050af9dd5",
+    "visibleTextChars": 41,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-kan-home",
+    "url": "https://www.kan.org.il/",
+    "checkedAtUtc": "2026-10-12T19:32:55.406656+00:00",
+    "status": 403,
+    "finalUrl": "https://www.kan.org.il/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5394,
+    "sha256": "503b18d21faa93a84982eefff8675bb182813087cca382968289dc4c9640d5a6",
+    "visibleTextChars": 57,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-kan-politics",
+    "url": "https://www.kan.org.il/content/kan-news/politic/",
+    "checkedAtUtc": "2026-10-12T19:32:55.406656+00:00",
+    "status": 403,
+    "finalUrl": "https://www.kan.org.il/content/kan-news/politic/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5511,
+    "sha256": "d25cc32e7d3cc982a68911ff0501d899293c13af589ced10808c8be4a8fc0b87",
+    "visibleTextChars": 57,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-kan-news",
+    "url": "https://www.kan.org.il/lobby/news/",
+    "checkedAtUtc": "2026-10-12T19:32:55.548848+00:00",
+    "status": 403,
+    "finalUrl": "https://www.kan.org.il/lobby/news/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5448,
+    "sha256": "ba584e7ec81b11932c0ed021349f234503784a051f0224bee0af76929abb1603",
+    "visibleTextChars": 57,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-kan-polls",
+    "url": "https://skarim.kan.org.il/",
+    "checkedAtUtc": "2026-10-12T19:32:55.552879+00:00",
+    "status": 403,
+    "finalUrl": "https://skarim.kan.org.il/",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 5397,
+    "sha256": "3d37c6ce005ff6c1d91a2548077df0d64f59f20ea851c37abe970e51c11d1999",
+    "visibleTextChars": 57,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-i24-home",
+    "url": "https://www.i24news.tv/he",
+    "checkedAtUtc": "2026-10-12T19:32:55.560894+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 307217,
+    "sha256": "c46b21be62ddbc27d9fbe7cc5e8cc662ca80910cca7e90378b6f42f1428d616a",
+    "visibleTextChars": 8347,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-i24-politics",
+    "url": "https://www.i24news.tv/he/news/news/politics",
+    "checkedAtUtc": "2026-10-12T19:32:55.564901+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/news/politics",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 353053,
+    "sha256": "54f27b435e4f508a3eefc917acac7c006e383c1c55831059c98106c52477b255",
+    "visibleTextChars": 7712,
+    "pollLinks": [
+      {
+        "href": "https://www.i24news.tv/he/news/news/politics/artc-50e7457c",
+        "text": "1 דקות פוליטי לקראת שבוע גורלי: ההכרעה שנתניהו יאלץ לקבל בנוגע לוינטר | פרסום ראשון בגוש הימין דנים בהסכם עודפים עם וינטר, אף שלפי הסקרים אינו עובר את אחוז החסימה • המהלך ינרמל את התמודדותו בסתירה ישירה לקמפיין הנוכחי, שבו נטען נגדו כי \"הוא מסכן את הגוש ושלא סומכים עליו\" נדב אלימלך זמן קריאה: 1 דקות."
+      }
+    ]
+  },
+  {
+    "name": "remaining-i24-elections",
+    "url": "https://www.i24news.tv/he/news/israel-elections-2026",
+    "checkedAtUtc": "2026-10-12T19:32:55.706892+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/israel-elections-2026",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 7310,
+    "sha256": "4c7d04d04e32905824e4e844c9d1c6234be6e8a0ac50f55b40578ff4e2e12cf9",
+    "visibleTextChars": 53,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-i24-polls",
+    "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+    "checkedAtUtc": "2026-10-12T19:32:55.753403+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 403294,
+    "sha256": "f2cc265550a9934db16217d84518d607a8dcf41a07050ccb5ab56fac31990f62",
+    "visibleTextChars": 8101,
+    "pollLinks": [
+      {
+        "href": "/he/news/israel-elections-2026/polls",
+        "text": "סקרים"
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-fa0f56f4",
+        "text": "2 דקות סקרי בחירות 2026 סקר מנדטים דרמטי של i24NEWS: נתניהו ואיזנקוט בירידה, בנט מתחזק | הנתונים המלאים מפלגת הליכוד ומפלגת ישר מאבדות 2 מנדטים כל אחת • בנט מתחזק על חשבון איזנקוט • ושינוי בתמונת הגושים • הנתונים המלאים נדב אלימלך זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-761931ef",
+        "text": "1 דקות סקרי בחירות 2026 סקר i24NEWS: כשלושה וחצי שבועות לבחירות - לאף גוש אין רוב סקר חדש של דיירקט פולס עבור i24NEWS, שפורסם הערב בתוכנית \"7 - נדב אלימלך\", מראה את הליכוד מתחזק ל-28 מנדטים ו\"ישר!\" יציבה על 22 • בין הממצאים הבולטים: ירידה בציונות הדתית וזהות ל-5 מנדטים בלבד נדב אלימלך זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5d1d4577",
+        "text": "1 דקות סקרי בחירות 2026 סקר i24NEWS: בן גביר מתחזק, וינטר וליברמן נחלשים | הנתונים המלאים הליכוד שומרת על 27 מנדטים, איזנקוט עם 21 • ליברמן מאבד מנדט אחד, כמו גם מפלגת עמך בראשות וינטר • ואיך נראית מפת הגושים? • הסקר המלא נדב אלימלך זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-10924566",
+        "text": "1 דקות סקרי בחירות 2026 סקר קבינט שישי: 88% לא רואים באיזנקוט איש ימין, פער אמון על רע\"ם סקר i24NEWS בדק את המחלוקת סביב פגישת גדי איזנקוט עם ראשי הרשויות הערביות • במקביל, 88% מהציבור אינם מגדירים את איזנקוט כאיש ימין - כולל רוב בקרב מצביעי האופוזיציה נוה דרומי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-5b0e5baa",
+        "text": "2 דקות סקרי בחירות 2026 סקר i24NEWS: וינטר מתחזק - והפער בין הליכוד לאיזנקוט גדל | מפת המנדטים סקר דיירקט פולס ו-i24NEWS מראה: הפער בין הליכוד של נתניהו לאיזנקוט גדל, אך הפער בין הגושים נשמר • בתוך הגושים, לעומת זאת, תזוזות: וינטר וליברמן ממשיכים להתחזק • בנט ירד במנדט נדב אלימלך זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-a92f58d0",
+        "text": "1 דקות סקרי בחירות 2026 סקר i24NEWS אחרי סגירת הרשימות: הליכוד שומרת על כוחה, וינטר נחלש | הנתונים המלאים אחרי סערת השריונים בליכוד, המפלגה שומרת על 27 מנדטים • בנט מתחזק ומקבל 10 מנדטים • מפת הגושים נשארת זהה - עם שוויון מירי מיכאלי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9944edb",
+        "text": "1 דקות סקרי בחירות 2026 סקר קבינט שישי: 16% ממצביעי האופוזיציה יותר שונאים את נתניהו מאשר אוהבים את המדינה סקר חדש של i24NEWS בשיתוף מכון דיירקט פולס בראשות צוריאל שרון, בחן את עמדותיהם של מצביעי האופוזיציה • רוב המצביעים מגדירים עצמם כאוהבי המדינה - אך 16% מעידים כי הם שונאים את נתניהו יותר נוה דרומי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-7cad3b3e",
+        "text": "2 דקות סקרי בחירות 2026 לראשונה מזה חודשים: שוויון בין הגושים בסקר i24NEWS | הנתונים המלאים החיבורים השונים במפה הפוליטית השפיעו על תמונת המנדטים, ומפלגתו של וינטר איבדה 3 מנדטים • הליכוד מתחזקת במנדט אחד • ואיך ישפיע חיבור של סמוטריץ' ווינטר? • סקר המנדטים המלא של i24NEWS ו\"דיירקט פולס\" i24NEWS זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-a44c587c",
+        "text": "2 דקות סקרי בחירות 2026 סקר מנדטים דרמטי של i24NEWS: וינטר מטלטל את תמונת המנדטים בימין | הנתונים המלאים השקת מפלגת \"עמך ישראל\" משנה את מאזן הכוחות בגוש, והליכוד מאבדת חמישה מנדטים • וינטר מקבל 8 מנדטים בסקר ראשון • ולאיזה מחנה הישראלים חושבים שהוא משתייך? • כל הפרטים נדב אלימלך זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-75679",
+        "text": "2 דקות סקרי בחירות 2026 64% מהציבור: טרופר הוא חלק מגוש מתנגדי נתניהו | סקר \"קבינט שישי\" לאחר שאמר כי לא ישב בממשלה בראשות נתניהו רוב הציבור סבור כי לא ניתן לראות בו חלק מ\"הגוש השלישי\" • באשר להחלטה של וינטר להקים מפלגה חדשה: 39% העריכו כי גוש מתנגדי נתניהו ירוויח מהמהלך צוריאל שרון זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-26c56d10",
+        "text": "2 דקות סקרי בחירות 2026 סקר i24NEWS: הליכוד מתחזקת לקראת הפריימריז, עוצמה יהודית נחלשת | הנתונים המלאים הפריימריז בליכוד מחזק את המפלגה, שמקבלת 30 מנדטים • איזנקוט שומר על כוחו עם 23 מנדטים, בנט מתחזק במנדט אחד ל-8 • ואיך נראית תמונת הגושים? נדב אלימלך זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-024b0173-22",
+        "text": "1 דקות סקרי בחירות 2026 כמעט מחצית מהציבור סבורים: החיבור הפוליטי בין בנט ללפיד יחזיק עד הבחירות | סקר \"קבינט שישי\" סקר מיוחד שערך מכון \"דיירקט פולס\" בראשות צוריאל שרון עבור תוכנית \"קבינט שישי\" ב-i24NEWS, חושף כי מחצית מהנשאלים סבורים שגדי איזנקוט לא מייצג את הציבור המזרחי • הנתונים המלאים נוה דרומי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-432a427d",
+        "text": "1 דקות סקרי בחירות 2026 סקר i24NEWS: בנט צולל, איזנקוט מתחזק על חשבונו | הנתונים המלאים מפלגת ביחד יורדת בשני מנדטים, ומפלגת ישר – עולה בשניים בהתאמה • הליכוד מאבדת מנדט אחד • לאף צד אין רוב כדי לגבש קואליציה נדב אלימלך זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-eaae363a",
+        "text": "1 דקות סקרי בחירות 2026 סקר קבינט שישי: 68% מתנגדים לממשלה עם מנסור עבאס סקר i24NEWS ודיירקט פולס: רוב מוחץ דוחה את האשמות יאיר גולן אחרי הפיגוע בשומרון, הציבור חצוי סביב אמינותו של ליברמן, ומתפתח חרם ציבורי נגד הקמת ממשלה עם מנסור עבאס • כל הממצאים נוה דרומי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-02214cba",
+        "text": "2 דקות סקרי בחירות 2026 הליכוד מתחזקת, ישר נחלשת - ושינויים במפת הגושים: סקר המנדטים של i24NEWS שתי המפלגות מציגות תזוזה של מנדט אחד • מפת הגושים משתנה, והקואליציה מתחזקת במנדט אחד • וקרב ראש בראש בין נתניהו ואיזנקוט על ההתאמה לראשות הממשלה • הסקר המלא מירי מיכאלי זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-c18c3d1e",
+        "text": "2 דקות סקרי בחירות 2026 סקר i24NEWS: רוב גורף חושב שיש שנאת חינם, 37% שונאים את נתניהו 92% מהציבור מאמינים שיש שנאת חינם בישראל, ו-79% סבורים שהחרמות פוליטיות תורמות לה • בשאלת נתניהו הפער בין הגושים כמעט מוחלט ו-42% רואים בסרטון ה-AI של הליכוד על איזנקוט ומנסור עבאס חציית קו אדום i24NEWS זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-aad64af3",
+        "text": "1 דקות סקרי בחירות 2026 סקר i24NEWS: הציבור משוכנע - השלמת ימי הכנסת היא כישלון של האופוזיציה סקר מיוחד לסיום כהונת הכנסת ה-25 מציג אכזבה מהאופוזיציה • 86% מהציבור ו-79% ממצביעי האופוזיציה דוחים את הצהרת לפיד כי מדובר ב\"אופוזיציה המוצלחת בתולדות המדינה\" • פילוג בשאלת העתירה לבג\"ץ נגד חוק הגיוס נוה דרומי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-e30c5f36",
+        "text": "1 דקות סקרי בחירות 2026 סקר \"קבינט שישי\": מחצית מהציבור סבורים כי לבג\"ץ יש סמכות לפסוק בניגוד לחוקי הכנסת 87% מהאופוזיציה מעניקים לבג\"ץ סמכות עליונה, מול 81% מהקואליציה ששוללים אותה לחלוטין • וגם: מי מפר יותר את האיזונים והבלמים? • למי צריך ראש השב\"כ להיות נאמן? נוה דרומי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-77fe39ff",
+        "text": "2 דקות סקרי בחירות 2026 סקר המנדטים של i24NEWS: גנץ וטרופר מתחת לאחוז החסימה, איזנקוט מזנק ל-21 מנדטים כחול לבן של גנץ ושמחי והרשימה של טרופר והנדל לא עוברות את אחוז החסימה • הליכוד שומר על יציבות בראשות הטבלה, אך גוש מתנגדי נתניהו מגרד את ה-61 • וגם: האם לדעתכם טראמפ ונתניהו עדיין פועלים בתיאום? נדב אלימלך זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-af744e64",
+        "text": "1 דקות סקרי בחירות 2026 סקר i24NEWS: מפלגת הליכוד נחלשת, איזנקוט מתחזק - ומה יקרה אם נתניהו יחליט לפרוש? אחרי ימים סוערים של הפגנות חרדים וסוגיית השריונים של נתניהו, מפלגת הליכוד תקבל 27 מנדטים, בנט נחלש במנדט | הסקר המלא נדב אלימלך זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-94915760",
+        "text": "2 דקות סקרי בחירות 2026 סקר קבינט שישי: קונצנזוס נגד טראמפ בעקבות החתימה על מזכר ההבנות עם איראן סקר i24NEWS ומכון \"דיירקט פולס\" חושף: רוב מוחלט בימין ובשמאל זועם על הנשיא האמריקאי ומסרב לנסיגה מלבנון • מנגד: מחלוקת עמוקה בתוך גוש האופוזיציה לגבי נחיצות המערכה הצבאית בצפון נוה דרומי זמן קריאה: 2 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-0d0a3764",
+        "text": "1 דקות סקרי בחירות 2026 סקר i24NEWS: הדרישה של מצביעי האופוזיציה מנפתלי בנט סקר חדש של i24NEWS ומכון \"דיירקט פולס\" חושף: 66% מהציבור הכללי שוללים את ההצהרה שרק מועמד ימני יכול להחליף את נתניהו • מנגד, בקרב גוש האופוזיציה נרשם לחץ כבד על נפתלי בנט להתייצב מיידית מאחורי איזנקוט נדב אלימלך זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-dc77442e",
+        "text": "1 דקות סקרי בחירות 2026 סקר קבינט שישי: הציבור חלוק בקרב בין טלי גוטליב ליועמ\"שית הקרב על החסינות מגיע לנקודת רתיחה • סקר חדש של \"קבינט שישי\" ו\"דיירקט פולס\" מראה כי העם מפולג לחלוטין סביב העימות • וגם: אחוז התמיכה באמירה \"הפרקליטות והיועמ\"שית מתנהלות כמו ארגון פשע\" • כל המספרים נוה דרומי זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-ca354d30",
+        "text": "1 דקות סקרי בחירות 2026 סקר מנדטים דרמטי ב-i24NEWS: ההתחזקות של איזנקוט - על חשבון בנט | הסקר המלא גדי איזנקוט ומפלגת \"ישר!\" מתרוממים בסקר ל-17 מנדטים • הרשימה המשותפת זוכה לשבעה מנדטים • ואיחוד הרשימות – שמשנה את תמונת הגושים • הנתונים המלאים נדב אלימלך זמן קריאה: 1 דקות."
+      }
+    ]
+  },
+  {
+    "name": "remaining-ch16-home",
+    "url": "https://www.ch16.co.il/",
+    "checkedAtUtc": "2026-10-12T19:32:55.771174+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 118493,
+    "sha256": "ed75d1f8211c853bae0f02e9ef8fc3a0e2227ab15c751cdd29398f3a9587402b",
+    "visibleTextChars": 10,
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-ch16-known-poll",
+    "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "checkedAtUtc": "2026-10-12T19:32:55.993356+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 128278,
+    "sha256": "9b8953b5fd25cdc6c61af76d298f3a61a211bc67412885596692c08aa4bb331f",
+    "visibleTextChars": 30,
+    "pollLinks": []
+  }
+]

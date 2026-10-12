@@ -1,0 +1,94 @@
+{
+  "asOf": "2026-10-12",
+  "checkedAtUtc": "2026-10-12T19:34:06.582962+00:00",
+  "candidateHashes": {
+    "n12": "38b7fb050b7e3188504a713b8e75d9a3f0051439dfbf1549940bfca9ccbfd725",
+    "c14": "8d300e33e25ca1a881d8d98e85fb07104cfd897fccfc970657f1b5f1770609ed"
+  },
+  "publicDestinationPrefix": "sources/2026-10-12-evening",
+  "files": [
+    {
+      "sourceFile": "reviewed-n12-poll.json",
+      "proposedPublicSubfolder": "n12",
+      "sha256": "38b7fb050b7e3188504a713b8e75d9a3f0051439dfbf1549940bfca9ccbfd725"
+    },
+    {
+      "sourceFile": "n12-article.html",
+      "proposedPublicSubfolder": "n12",
+      "sha256": "768ad5f19fafc1a1e061d9a4bd1185bba330739d22eef443ebdf50b6b7ab1847"
+    },
+    {
+      "sourceFile": "n12-article.txt",
+      "proposedPublicSubfolder": "n12",
+      "sha256": "218d85896ed95dc3e3ace104f01bdda41803a75d9c5db0d5d502e7a3f99fe171"
+    },
+    {
+      "sourceFile": "n12-broadcast-access-receipts.json",
+      "proposedPublicSubfolder": "n12",
+      "sha256": "3f54d0ff45133a30c11c40650125d13e3d0b96f2c71842d6c6af3d32274b7663"
+    },
+    {
+      "sourceFile": "reviewed-c14-poll.json",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "8d300e33e25ca1a881d8d98e85fb07104cfd897fccfc970657f1b5f1770609ed"
+    },
+    {
+      "sourceFile": "c14-article.html",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "c0e6c97ab86d25a5aa41d85836f7aff841cb29a9fbafb39c7a9c7456fbd251bc"
+    },
+    {
+      "sourceFile": "c14-article.txt",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "e453be7ff3068e17d49faf5be53382306ea69d6a345254d5b49f0cbb9dd46aec"
+    },
+    {
+      "sourceFile": "c14-undecided.html",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "5b13630385c78b2241262c60e5e2f03a3aee89b7f64a99b5baa3a90589d1eec0"
+    },
+    {
+      "sourceFile": "c14-undecided.txt",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "3fe5a813e7ec89cb4d7a01e31d449357ca46e8d708b8fed2b6e6b9244403a49d"
+    },
+    {
+      "sourceFile": "c14-winter.html",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "93d9e236f928bef70ec709714544b99b549e0c67b6c8678da43c9c9905a3b1c3"
+    },
+    {
+      "sourceFile": "c14-winter.txt",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "dbea06e866ecdd0986e918ac1d980a836abaa254d611fbda3e1cd8d467946c3d"
+    },
+    {
+      "sourceFile": "c14-primary-4.jpeg",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "0f140e55d4af0bab405b701530a105f4928bd90221fdbca5cee542d513636489"
+    },
+    {
+      "sourceFile": "c14-primary-5.jpeg",
+      "proposedPublicSubfolder": "c14",
+      "sha256": "5124d7ef1bc9663fcb4f49d5785793e545a9de81d956b6e605f73336f14d574f"
+    }
+  ],
+  "notToPublishAsPollGraphics": [
+    "n12-inline-0.png",
+    "n12-inline-1.png",
+    "n12-primary-2.jpg",
+    "n12-primary-3.jpg"
+  ],
+  "notes": [
+    "N12 inline PNGs are coalition-tool and party-platform advertisements; N12 JPGs are an anchor thumbnail and an editorial illustration, not numeric poll graphics.",
+    "N12 original broadcast embed and bounded public metadata path returnedHTTP403. Do not describe its numeric frames as inspected. Add independent branded IsraelPolls broadcast graphics under separately retained provenance.",
+    "C14 full original party/threshold graphic and original bloc graphic were visually inspected and agree with the article.",
+    "No new distinct poll found at accessible C13 andi24indexes; C13 directHTTP403 but readable currentwebindex, Kan all4directHTTP403 andzeroweblines, Channel16client shells withno readablecurrent index. Do not infer no new polls for blockedsurfaces.",
+    "C14 companion1735355 and1735353 are duplicate followups to the same12Octsample538.",
+    "No national supportshare was recovered for passingparties; missing isnotzero."
+  ],
+  "remainingPublisherScanReceipt": "remaining-tv-network-receipts.json",
+  "primaryScanReceipt": "network-receipts.json",
+  "graphicReceipt": "graphic-receipts.json",
+  "noCanonicalEditsBySourceAgent": true
+}

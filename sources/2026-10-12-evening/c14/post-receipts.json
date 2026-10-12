@@ -1,0 +1,128 @@
+[
+  {
+    "name": "c12-post",
+    "requestedUrl": "https://x.com/IsraelPolls/status/2109710758737048007",
+    "fetchedAtUtc": "2026-10-12T19:26:15.964556+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/IsraelPolls/status/2109710758737048007",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 123455,
+    "sha256": "ebb4794f757dda72e9298dbebd9c6285df0b786d7454ca1f3361fc8057095e92",
+    "pollLinks": [
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls @ IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      }
+    ]
+  },
+  {
+    "name": "c14-post",
+    "requestedUrl": "https://x.com/IsraelPolls/status/2109722753712742467",
+    "fetchedAtUtc": "2026-10-12T19:26:15.964556+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/IsraelPolls/status/2109722753712742467",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 95425,
+    "sha256": "66e6444ab7525af93e97cf807626b84a4d370fcf3e7c57bc586ff11fb2367255",
+    "pollLinks": [
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls @ IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      }
+    ]
+  },
+  {
+    "name": "maariv-new-c12",
+    "requestedUrl": "https://www.maariv.co.il/news/elections-2026/article-1376424",
+    "fetchedAtUtc": "2026-10-12T19:26:15.964556+00:00",
+    "status": 200,
+    "finalUrl": "https://www.maariv.co.il/news/elections-2026/article-1376424",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 267523,
+    "sha256": "d7c50ebcbc66f6f39b841feedc5540c0c3395861bc663151d900e409919df80a",
+    "pollLinks": [
+      {
+        "href": "/tags/סקר-מנדטים",
+        "text": "סקר מנדטים"
+      },
+      {
+        "href": "/tags/סקר-בחירות",
+        "text": "סקר בחירות"
+      }
+    ]
+  },
+  {
+    "name": "walla-new-c12",
+    "requestedUrl": "https://www.walla.co.il/news/politics/383957200",
+    "fetchedAtUtc": "2026-10-12T19:26:15.964556+00:00",
+    "status": 200,
+    "finalUrl": "https://www.walla.co.il/news/politics/383957200",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 233270,
+    "sha256": "f841368ea59dd8637616b7bfb091f20f0bb3a7b52392643420dfbe98d0b1f91c",
+    "pollLinks": [
+      {
+        "href": "/tags/סקר_מנדטים",
+        "text": "סקר מנדטים ,"
+      }
+    ]
+  },
+  {
+    "name": "c14-graphic.jpg",
+    "requestedUrl": "https://pbs.twimg.com/media/HUc9qObXMAASkoB.jpg",
+    "fetchedAtUtc": "2026-10-12T19:26:17.648938+00:00",
+    "status": 200,
+    "finalUrl": "https://pbs.twimg.com/media/HUc9qObXMAASkoB.jpg",
+    "contentType": "image/jpeg",
+    "bytes": 150636,
+    "sha256": "1bf6a2a10220af2076916e67193b802fc38c81c4d7d3c9b1dcc021dde32e349e"
+  }
+]

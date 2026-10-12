@@ -1,0 +1,210 @@
+{
+  "asOf": "2026-10-12",
+  "checkedAtUtc": "2026-10-12T19:29:30Z",
+  "newDistinctPolls": [
+    {
+      "publisher": "חדשות 12",
+      "pollster": "מדגם / מנו גבע",
+      "pollsterId": "midgam_geva",
+      "publicationDate": "2026-10-12",
+      "previousActiveId": "midgam_geva_2026-10-05",
+      "postUrl": "https://x.com/IsraelPolls/status/2109710758737048007",
+      "postTimeUtc": "2026-10-12T18:20:16+00:00",
+      "postTimeIsrael": "2026-10-12T21:20:16+03:00",
+      "historyPostUrl": "https://x.com/IsraelPolls/status/2109716482946929087",
+      "historyPostTimeUtc": "2026-10-12T18:43:00+00:00",
+      "historyPostTimeIsrael": "2026-10-12T21:43:00+03:00",
+      "historyGraphicUrl": "https://pbs.twimg.com/media/HUc39QGWMAAtryp.png",
+      "seats": {
+        "yashar": 23,
+        "likud": 20,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 9,
+        "utj": 7,
+        "joint": 8,
+        "shas": 8,
+        "otzma": 8,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 0,
+        "hendel": 4,
+        "gantz": 0
+      },
+      "seatSum": 120,
+      "percentagesVerifiedInIsraelPolls": {
+        "winter": 1.8,
+        "gantz": 0.9
+      },
+      "otherLatestHistoricalTablePercentageCells": "Blank; missing values must not be converted to zero.",
+      "primarySourceVerificationFromRoot": {
+        "sampleSize": 509,
+        "fieldworkStart": "2026-10-12",
+        "fieldworkEnd": "2026-10-12",
+        "additionalReportedPercentages": {
+          "noam": 0.5,
+          "haredi_public": 0.1
+        },
+        "missingReportedPercentages": [
+          "israel_first",
+          "other"
+        ],
+        "note": "Root/primary TV agent independently verify original report; sample and fieldwork do not appear in IsraelPolls table."
+      },
+      "canonicalBlocDefinition": {
+        "coalition": 49,
+        "opposition": 54,
+        "arab": 13,
+        "unassignedHendel": 4
+      },
+      "historicalTablePublishedBloc": {
+        "coalition": 49,
+        "oppositionIncludingHendel": 58,
+        "arab": 13
+      },
+      "priorComparison": {
+        "publicationDate": "2026-10-05",
+        "partySeatChanges": {
+          "likud": -1,
+          "shas": 1,
+          "otzma": 1,
+          "utj": -1
+        },
+        "coalitionChange": 0,
+        "oppositionChange": 0,
+        "winterVoteShareChangePercentagePoints": 0.3,
+        "gantzVoteShareChangePercentagePoints": 0.4
+      },
+      "visualEvidenceFile": "artifacts/poll-checks/2026-10-12-evening/israelpolls/c12-history.png",
+      "visualEvidenceSha256": "ca83c851b4073dbf591f347c38c5f272b4e7103eea785af82cad834517a9a001",
+      "mainPostTextChecked": true,
+      "historicalTableVisuallyChecked": true
+    },
+    {
+      "publisher": "חדשות 14",
+      "pollster": "NEXT DATA / שלמה פילבר",
+      "pollsterId": "next_data",
+      "publicationDate": "2026-10-12",
+      "previousActiveId": "next_data_2026-10-07",
+      "postUrl": "https://x.com/IsraelPolls/status/2109722753712742467",
+      "postTimeUtc": "2026-10-12T19:07:55+00:00",
+      "postTimeIsrael": "2026-10-12T22:07:55+03:00",
+      "graphicUrl": "https://pbs.twimg.com/media/HUc9qObXMAASkoB.jpg",
+      "seats": {
+        "likud": 29,
+        "yashar": 20,
+        "shas": 10,
+        "democrats": 10,
+        "utj": 8,
+        "joint": 8,
+        "beyachad": 7,
+        "otzma": 7,
+        "rz_zehut": 7,
+        "yisrael_beiteinu": 5,
+        "raam": 5,
+        "hendel": 4,
+        "winter": 0,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0
+      },
+      "seatSum": 120,
+      "percentagesVerifiedInGraphic": {
+        "winter": 2.9,
+        "gantz": 0.6,
+        "noam": 0.9,
+        "haredi_public": 0.6
+      },
+      "additionalPublishedListPercentages": [
+        {
+          "name": "אחי – חוזרים לשורשים",
+          "percentage": 0.1,
+          "catalogueMapping": "Not inferred by this source scan"
+        }
+      ],
+      "primarySourceVerificationFromRoot": {
+        "sampleSize": 538,
+        "fieldworkStart": "2026-10-12",
+        "fieldworkEnd": "2026-10-12",
+        "originalArticlePublicationIsraelTime": "2026-10-12T20:32:51+03:00",
+        "originalArticleUpdateIsraelTime": "2026-10-12T20:35:38+03:00",
+        "note": "Original publisher times precede IsraelPolls repost; primary TV agent verifies sample/fieldwork separately."
+      },
+      "publishedBlocDefinition": {
+        "coalition": 61,
+        "oppositionIncludingHendel": 46,
+        "arab": 13
+      },
+      "canonicalBlocDefinition": {
+        "coalition": 61,
+        "opposition": 42,
+        "arab": 13,
+        "unassignedHendel": 4
+      },
+      "priorComparison": {
+        "publicationDate": "2026-10-07",
+        "partySeatChanges": {
+          "likud": -2,
+          "yashar": -3,
+          "democrats": 1,
+          "joint": 1,
+          "beyachad": -1,
+          "otzma": -1,
+          "rz_zehut": 1,
+          "hendel": 4
+        },
+        "coalitionChange": -2,
+        "oppositionExcludingHendelChange": -3,
+        "unassignedHendelChange": 4,
+        "arabChange": 1,
+        "winterVoteShareChangePercentagePoints": 0.7
+      },
+      "visualEvidenceFile": "artifacts/poll-checks/2026-10-12-evening/israelpolls/c14-graphic.jpg",
+      "visualEvidenceSha256": "1bf6a2a10220af2076916e67193b802fc38c81c4d7d3c9b1dcc021dde32e349e",
+      "graphicVisuallyChecked": true,
+      "newHistoricalTableChecked": false,
+      "newHistoricalTableLimitation": "No table linked in currently visible C14 main post/thread. Account replies route redirects to login; do not claim complete reply/media history checked."
+    }
+  ],
+  "primaryPrintScan": {
+    "maariv": {
+      "home": "https://www.maariv.co.il/",
+      "politics": "https://www.maariv.co.il/news/politics",
+      "pollIndex": "https://www.maariv.co.il/tags/%D7%A1%D7%A7%D7%A8-%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D",
+      "httpAccessible": true,
+      "newArticleUrl": "https://www.maariv.co.il/news/elections-2026/article-1376424",
+      "classification": "Republished new N12 observation, not independent sample"
+    },
+    "walla": {
+      "home": "https://www.walla.co.il/news",
+      "politics": "https://www.walla.co.il/news/politics",
+      "httpAccessible": true,
+      "newArticleUrl": "https://www.walla.co.il/news/politics/383957200",
+      "classification": "Republished new N12 observation, not independent sample",
+      "note": "Comparison prose may use different baselines; compare canonical previous observation rather than headline changes"
+    },
+    "zman": {
+      "home": "https://www.zman.co.il/",
+      "pollIndex": "https://www.zman.co.il/feed/33350/",
+      "directHttp": "403",
+      "webPollFeedAccessible": true,
+      "latestVisibleOwnPoll": "2026-10-08",
+      "webHomepageNotClaimedAccessible": true
+    },
+    "israelHayom": {
+      "home": "https://www.israelhayom.co.il/",
+      "politics": "https://www.israelhayom.co.il/news/politics",
+      "httpAccessible": true,
+      "latestVisibleOwnPoll": "2026-10-08"
+    }
+  },
+  "israelPollsScope": "Direct public profile latest5 posts, N12 main plus linked historical-table reply, C14 main graphic. Website/web open cache miss; direct HTTP succeeded. Full reply/media archive login-gated.",
+  "otherDistinctPollsObserved": [],
+  "noCanonicalEdits": true,
+  "sourceReceipts": [
+    "initial-receipts.json",
+    "post-receipts.json",
+    "history-receipts.json"
+  ],
+  "to120NoonConflict": "Compiled owner-supplied CEC4197 metadata conflict remains unverified against an original Gov PDF; no data correction performed."
+}

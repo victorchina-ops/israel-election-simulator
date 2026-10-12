@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head><script>(function(){"use strict";var __webpack_modules__={348:function(e,t,r){r.d(t,{IP:function(){return i},Pz:function(){return a},Sg:function(){return l},XV:function(){return _},_9:function(){return c},e:function(){return o},qQ:function(){return s},t9:function(){return n}});const o="eudaEnableAgent",n="eudaSyncLoad",_="eudaAgentVersion",a="eudaLoaderVersion",c="eudaForce",s="eudaClearText",i="eudaFailed",l="eudaMode"},405:function(e,t,r){r.d(t,{Pt:function(){return n}});let o=!1;function n(e){o=e}}},__webpack_module_cache__={};function __webpack_require__(e){var t=__webpack_module_cache__[e];if(void 0!==t)return t.exports;var r=__webpack_module_cache__[e]={exports:{}};return __webpack_modules__[e](r,r.exports,__webpack_require__),r.exports}__webpack_require__.d=function(e,t){for(var r in t)__webpack_require__.o(t,r)&&!__webpack_require__.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},__webpack_require__.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)};var __webpack_exports__={},_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__=__webpack_require__(348),_lib_service_worker_wrapper_js__WEBPACK_IMPORTED_MODULE_1__=__webpack_require__(405);(function(){let registerSWStarted=!1;const resourceBasePath="/678c37f1-fcea-354f-853d-32b794d02404",csmBasePath="/4359d65e-dd82-3237-8c34-3c0c315503df",getVersionIntervalSeconds="60",loaderVersion="1.2";localStorage.setItem(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.Pz,loaderVersion);const serviceWorkerUrl=`${resourceBasePath}/eudaapi/get-script/serviceworker`;let attempt=0,enableAgent=!1,syncLoad=!1,oldAgentVersion=!1,newAgentVersion=!1,agentVersion=!1,forceAgent=getBooleanFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__._9),clearText=getBooleanFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.qQ),agentLoaded=!1;function getBooleanFromLocalStorage(e){return"true"===getFromLocalStorage(e)}function getFromLocalStorage(e){return localStorage.getItem(e)}function loader(){const e=parseInt(localStorage.getItem("eudaRefreshPolicyInterval"));let t=3e4;e>0?t=1e3*e:parseInt(getVersionIntervalSeconds)>0&&(t=1e3*getVersionIntervalSeconds),captureConfig(),init().then(()=>{"serviceWorker"in navigator&&navigator.serviceWorker.addEventListener("message",function(e){"reload"===e.data.type&&location.reload()}),setTimeout(loader,t)}).catch(e=>{if(attempt<3)setTimeout(loader,t);else{const e=Math.floor(Date.now()/1e3)+86400;localStorage.setItem(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.IP,e.toString())}attempt++})}function captureConfig(e){enableAgent=getBooleanFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.e),syncLoad=getBooleanFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.t9),agentVersion=getFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.XV),forceAgent=getBooleanFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__._9),oldAgentVersion=agentVersion,e&&(enableAgent=e.enableAgent,syncLoad=e.syncLoad,newAgentVersion=e.agentVersion,agentVersion=newAgentVersion,controlServiceWorker(newAgentVersion).then(()=>{}),localStorage.setItem(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.XV,agentVersion),localStorage.setItem(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.e,enableAgent),localStorage.setItem(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.t9,syncLoad))}function init(){const e=getFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.IP);if(!(null!==e&&Date.now()-Number(e)<=0))return localStorage.removeItem(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.IP),new Promise(async(e,t)=>{syncLoad&&enableAgent?loadAgentCode().then(()=>loadConfigFromServer().then(()=>e()).catch(e=>t(e))).catch(e=>t(e)):loadConfigFromServer().then(()=>isAgentRequired()?loadAgentCode().then(()=>e()).catch(e=>t(e)):e()).catch(e=>t(e))})}function loadConfigFromServer(){return new Promise(async(e,t)=>{try{const r=await fetch(`${csmBasePath}/eudaapi/version`,{method:"POST",headers:{Accept:"application/json","Content-Type":"application/json"},body:JSON.stringify({location:location.href})});if(r.status>=400)return t(new Error("Bad response from server"));return captureConfig(await r.json()),e()}catch(e){return t(e)}})}function isAgentRequired(){return!!forceAgent||enableAgent}function loadAgentCodeAsync(e){return new Promise((t,r)=>{let o=0,n=setInterval(()=>{o++;let _=document.getElementsByTagName("head")[0];if(_){clearInterval(n);let r=document.createElement("script");return r.src=e,_.appendChild(r),agentLoaded=!0,t()}if(o>10)return clearInterval(n),console.info("couldn't load script no Head present"),r(new Error("couldn't load script no Head present"))},10)})}function loadAgentCodeSync(url){return new Promise((resolve,reject)=>{let xhr=new XMLHttpRequest;xhr.onreadystatechange=function(){if(this.readyState)return 200===this.status?(eval(xhr.responseText),agentLoaded=!0,resolve()):reject(new Error(`request returned status ${this.status}`))},xhr.open("GET",url,!1),xhr.send()})}function getModeArg(){let e="",t=getFromLocalStorage(_lib_local_storage_js__WEBPACK_IMPORTED_MODULE_0__.Sg);return t&&(e=`&mode=${encodeURIComponent(t)}`),e}function loadAgentCode(){return new Promise((e,t)=>{if(agentLoaded)return e();let r=`${resourceBasePath}/eudaapi/get-script/euda?ver=${agentVersion}${getModeArg()}`;(syncLoad?loadAgentCodeSync:loadAgentCodeAsync)(r).then(()=>e()).catch(e=>t(e))})}function compareAgentVersions(e){if(!oldAgentVersion)return!0;if(!e)return!1;return oldAgentVersion.substring(0,oldAgentVersion.lastIndexOf("."))<e.substring(0,e.lastIndexOf("."))}function registerServiceWorker(){return new Promise((e,t)=>{const r=setTimeout(()=>{t(new Error("service worker registration time out"))},3e4),o=agentVersion.substring(0,agentVersion.lastIndexOf("."));navigator.serviceWorker.register(`${serviceWorkerUrl}?v=${o}${getModeArg()}`,{scope:"/"}).then(t=>((0,_lib_service_worker_wrapper_js__WEBPACK_IMPORTED_MODULE_1__.Pt)(t),clearTimeout(r),e())).catch(e=>(clearTimeout(r),t(new Error(`service worker register failed: ${e}`))))})}function handleRegisterSW(e,t){registerServiceWorker().then(()=>(navigator.serviceWorker.ready.then(e=>{e.active&&e.active.postMessage({type:"FORCE_AGENT_VALUE",forceAgent:forceAgent})}).catch(e=>{console.warn("Failed to send force agent value to service worker:",e)}),registerSWStarted=!1,e())).catch(e=>(registerSWStarted=!1,t(e)))}function controlServiceWorker(e){return new Promise((t,r)=>{if(registerSWStarted)return t();const o="serviceWorker"in navigator,n=window.isSecureContext||"localhost"===location.hostname||"127.0.0.1"===location.hostname;if(!o||!n)return t();let _=compareAgentVersions(e);registerSWStarted=!0,navigator.serviceWorker.getRegistration("/").then(e=>e&&e.active?(e.active.postMessage({type:"FORCE_AGENT_VALUE",forceAgent:forceAgent}),_?handleRegisterSW(t,r):(registerSWStarted=!1,t())):enableAgent||forceAgent?handleRegisterSW(t,r):(registerSWStarted=!1,t())).catch(e=>(console.log(e),registerSWStarted=!1,r()))})}loader()})()})();
+//# sourceMappingURL=capture.bundle.js.map{}
+</script>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="Content-Language" content="he" />
+	<script>
+
+	function getReferrer(){
+		const d = new Date();
+		d.setTime(d.getTime() + (60 * 1000));
+		const expires = "expires=" + d.toGMTString();
+		const domain = "domain=" + location.host.substring(location.host.indexOf("."));
+		const referrer = "mako_referrer=" + (document.referrer || "empty");
+		document.cookie = referrer + ";" + expires + ";" + domain + ";path=/";
+	}	
+		
+	function getStatsParams(altUrl){
+		var params = '';
+		if (location.search && altUrl.indexOf('mako.')!=-1) {
+		    var parts = location.search.substring(1).split('&');	
+		    for (var i = 0; i < parts.length; i++) {
+		        var nv = parts[i].split('=');
+		        if (nv[0] && (nv[0] == 'sCh' || nv[0] == 'pId' || nv[0].toLowerCase() == 'partner' || nv[0].indexOf('utm') == 0)) {
+		              params += '&' + nv[0] +'='+ nv[1];
+		          }
+		    }
+		    if (params !== ''){
+		    	params = (altUrl.indexOf('?') !== altUrl.indexOf('&') ? '&' : '?') + params.substring(1);
+		    }
+		}
+		return params;
+	}
+		var agent = navigator.userAgent.toLowerCase();
+		var myUrl = window.location.href.toLowerCase();
+		var isSmartPhone = (agent.indexOf('ipad') == -1 && (agent.indexOf('iphone') != -1 || agent.indexOf('android') != -1 ) )
+		if(isSmartPhone){			
+			//var isTvbeeDomain = location.host.indexOf("tvbee.co.il") != -1;
+			var isSateliteDomain = location.host.indexOf("tvbee.co.il") != -1 || location.host.indexOf("www.n12")!= -1 || location.host.indexOf("tech12.co.il") != -1;
+			var altUrl="";
+			if(myUrl.indexOf(".mako") !== -1  || isSateliteDomain)
+			{
+					var mobileHostPrefix = isSateliteDomain ? 'm.' : 'mobile.';
+					var isValidUrl = new RegExp("^(http|https)\://.*$").test(altUrl);
+					if(altUrl.length && isValidUrl && (myUrl.toLowerCase().indexOf(altUrl.toLowerCase()) == -1)){
+						getReferrer();
+						var url=altUrl + getStatsParams(altUrl);
+						window.location=url;						
+					}else{
+						if(myUrl.indexOf("/mako-vod-help")===-1){
+							getReferrer();	
+							window.location = window.location.href.replace(location.host.split('.')[0]+'.', mobileHostPrefix);
+						}												
+					}
+			}
+		}
+		</script>
+<link rel="stylesheet" href="https://rcs.mako.co.il/writers-chat/css/main.css" />
+	<meta name="apple-itunes-app"
+		content="app-id=340173260, app-argument=mako://hp?utm_source=makoMobile&utm_medium=SmartAppBanner&utm_campaign=makoMobilePromo" />
+	<meta name="google-play-app"
+		content="app-id=com.goldtouch.mako, app-argument=mako://hp?utm_source=makoMobile&utm_medium=SmartAppBanner&utm_campaign=makoMobilePromo" />
+	<link rel="canonical" href="https://www.mako.co.il/news-politics" />
+	<link rel="alternate" media="handheld" href="https://mobile.mako.co.il/news-politics" />
+	<link rel="apple-touch-icon" href="https://rcs.mako.co.il/images/favicon/N12/apple-touch-icon.png">
+		<link rel="icon" href="https://rcs.mako.co.il/images/N12favicon/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="https://rcs.mako.co.il/images/favicon/N12/favicon.png" type="image/png">
+		<link rel="icon" sizes="16x16" href="https://rcs.mako.co.il/images/favicon/N12/favicon-16x16.png">
+		<link rel="icon" sizes="32x32" href="https://rcs.mako.co.il/images/favicon/N12/favicon-32x32.png">
+		<link rel="icon" sizes="96x96" href="https://rcs.mako.co.il/images/favicon/N12/favicon-96x96.png">
+		<link rel="icon" sizes="192x192" href="https://rcs.mako.co.il/images/favicon/N12/android-icon-192x192.png">
+	<link rel="alternate" href="android-app://com.channel2.mobile.ui/news12/?link=/news-politics?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing" />
+	<link rel="alternate" href="ios-app://333211486/news12?link=/news-politics?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing" />
+	<link rel="alternate" href="ios-app://340173260/mako/openArticle?url=/news-politics?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing" />
+	<link rel="alternate" href="android-app://com.goldtouch.mako/mako/openArticle?url=/news-politics?utm_source=Google&utm_medium=OrganicSearchResults&utm_campaign=AppIndexing" />
+	<script type="application/ld+json">
+			{
+ "@context": "https://schema.org",
+ "@type": "WebPage",
+ "@id": "https://www.mako.co.il/news-politics"
+}</script>
+	<meta name="description" content="חדשות פוליטיקה מבית חדשות N12: היכנסו והתעדכנו לגבי כתבות, סקר מנדטים ופרשנויות על ראש הממשלה וכל הזירה הפוליטית בישראל מצוות הכתבים הפוליטיים של חדשות 12" />
+	<title>פוליטיקה | N12 אתר החדשות של ישראל</title>
+	<meta property="og:title" content="פוליטיקה | N12 אתר החדשות של ישראל" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="https://www.mako.co.il/news-politics" />
+	<meta property="og:image" content="https://img.mako.co.il/2020/02/17/SHAREIMG.png" />
+	<meta property="og:site_name" content="N12" />
+	<meta property="fb:app_id" content="225736910835244" />
+	<meta property="og:description" content="חדשות פוליטיקה מבית חדשות N12: היכנסו והתעדכנו לגבי כתבות, סקר מנדטים ופרשנויות על ראש הממשלה וכל הזירה הפוליטית בישראל מצוות הכתבים הפוליטיים של חדשות 12" />
+	<meta property="fb:pages" content="100462013796" />
+	<meta name="external_title" content="" />
+	<script type="text/javascript">
+		var adsArea  = 'MAKOAREA=Vertical';
+		var contentType = 'Vertical';
+		var contentUsername = '';
+		function MAKO_SETTINGS() {
+            return {
+                            'url' : "https://www.mako.co.il/news-politics",
+                            'type' : "article"
+            }
+		}
+	</script>
+	<link rel="image_src" href="https://img.mako.co.il/2020/02/17/SHAREIMG.png" />
+	<!-- Menuitem:  / nNews / nVerticalPolitiBitchoni / nSubVerticalMedini /   -->
+<!-- google plus 1 -->
+<script>
+	var vcmidOfContent = 'abc7f3226147b610VgnVCM200000650a10acRCRD';
+	var currentChannelId = 'abc7f3226147b610VgnVCM200000650a10acRCRD';
+	var mainChannelId = '31750a2610f26110VgnVCM1000005201000aRCRD';
+	var parentsChannels='abc7f3226147b610VgnVCM200000650a10acRCRD,31750a2610f26110VgnVCM1000005201000aRCRD';
+	var isCM8 =  true;
+	var OB_ContextKeyValue = 'n12';
+	var OB_Platform = 'desktop';
+	
+	var domoPageView = '{"content_type":"channel","page_url":"https://www.mako.co.il/news-politics","item_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","is_blocked_content":{"israel":0,"international":0},"channel_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","channel_depth":1}';</script>
+<script src="https://rcs.mako.co.il/js/domo/domo-1.0.0.js"></script>
+<script src="https://rcs.mako.co.il/js/scripts/domoBundle.js"></script>
+
+
+<link href="https://rcs.mako.co.il/css/news/configured-lobby/cssBundle.css" rel="stylesheet" /><link href="https://rcs.mako.co.il/css/news/themes/header.css" rel="stylesheet" />
+<script src="https://rcs.mako.co.il/js/p13n_mako_v7.js"></script>
+	<script src="https://rcs.mako.co.il/js/bannend.js"></script>
+	<script src="https://rcs.mako.co.il/js/news/preBundle.js"></script>
+	<script>
+		var staticResourcesUriPrefix = 'https://rcs.mako.co.il';
+		var imagesUriPrefix = 'https://img.mako.co.il';
+	</script>
+	<script async src="https://tags.dxmdp.com/tags/36699dd9-d954-4d40-be6a-4bbfce1f3652/dmp-provider.js"></script>
+
+	<!-- header bidding -->
+  <script id="vad-hb-snippet" data-publisher="mako">var _0x2050=['type','head','unshift','document','src','pubads','refresh','//cdn.valuad.cloud/hb/','now','top','random','vad_timestamp','vad-hb-script','push','disableInitialLoad','text/javascript','_vadHb','vad_rollout','appendChild','googletag','cmd','data-publisher','getItem','mako'];(function(_0x2886b3,_0x205089){var _0x484819=function(_0x58ee27){while(--_0x58ee27){_0x2886b3['push'](_0x2886b3['shift']());}};_0x484819(++_0x205089);}(_0x2050,0x10e));var _0x4848=function(_0x2886b3,_0x205089){_0x2886b3=_0x2886b3-0x0;var _0x484819=_0x2050[_0x2886b3];return _0x484819;};(function(){function _0x3568dd(){var _0x30ccc2='mako';window['vadPubId']=_0x30ccc2;var _0x27906d=_0x4848('0x11');var _0x8194e4=_0x4848('0x6');var _0x51c654=Date[_0x4848('0x2')]();var _0x5b82be=window['top'][_0x4848('0x15')]['createElement']('script');_0x5b82be[_0x4848('0x12')]=_0x4848('0x9');_0x5b82be['setAttribute'](_0x4848('0xf'),_0x30ccc2);_0x5b82be['id']=_0x8194e4;_0x5b82be['async']=!![];var _0x3fbf1d=_0x51c654-_0x51c654%(0x15180*0x3e8);var _0x75f0e9=parseInt(localStorage[_0x4848('0x10')](_0x4848('0x5')),0xa)||_0x3fbf1d;_0x5b82be[_0x4848('0x16')]=_0x4848('0x1')+_0x27906d+'-prod.js'+'?timestamp='+(_0x3fbf1d>_0x75f0e9?_0x3fbf1d:_0x75f0e9);window[_0x4848('0x3')]['document'][_0x4848('0x13')][_0x4848('0xc')](_0x5b82be);}function _0x390dd0(){window['googletag']=window[_0x4848('0xd')]||{'cmd':[]};var _0x100c01=window[_0x4848('0xd')];_0x100c01[_0x4848('0xe')]=_0x100c01[_0x4848('0xe')]||[];if(_0x100c01[_0x4848('0xe')]['unshift']){_0x100c01[_0x4848('0xe')][_0x4848('0x14')](function(){_0x100c01['pubads']()[_0x4848('0x8')]();});}else{_0x100c01[_0x4848('0xe')][_0x4848('0x7')](function(){_0x100c01[_0x4848('0x17')]()['disableInitialLoad']();});}}function _0x4c363e(){window[_0x4848('0xd')]=window[_0x4848('0xd')]||{'cmd':[]};var _0x187965=window['googletag'];_0x187965[_0x4848('0xe')][_0x4848('0x7')](function(){if(!window[_0x4848('0xa')]){_0x187965[_0x4848('0x17')]()[_0x4848('0x0')]();}});}var _0x402ccc=parseFloat(localStorage['getItem'](_0x4848('0xb')))||0x1;if(Math[_0x4848('0x4')]()<=_0x402ccc){_0x390dd0();_0x3568dd();setTimeout(function(){_0x4c363e();},0xbb8);}}());</script>
+	
+<script>var __uzdbm_1 = "2b013927-f1e6-43d2-9cdc-3efbf4f5a38c";var __uzdbm_2 = "MTRlZjA0MGUtY2oyai00YmFhLTkzZjctZTNiNDc2NjIxZTA1JDM0LjE2NS4yMTIuMQ==";var __uzdbm_3 = "7f90002b013927-f1e6-43d2-9cdc-3efbf4f5a38c2-1791716150934116931588-0052ba416833510e1043247";var __uzdbm_4 = "false";var __uzdbm_5 = "uzmx";var __uzdbm_6 = "7fc000a80b9e60-167f-4965-af0c-29ca2d9955a42-1791716150934116931588-00963711d453e282cc43247";var __uzdbm_7 = "mako.co.il";</script> <script>   (function (w, d, e, u, c, g, a, b) {     w["SSJSConnectorObj"] = w["SSJSConnectorObj"] || {       ss_cid: c,       domain_info: "auto",     };     w[g] = function (i, j) {       w["SSJSConnectorObj"][i] = j;     };     a = d.createElement(e);     a.async = true;     if (       navigator.userAgent.indexOf('MSIE') !== -1 ||       navigator.appVersion.indexOf('Trident/') > -1     ) {       u = u.replace("/advanced/", "/advanced/ie/");     }     a.src = u;     b = d.getElementsByTagName(e)[0];     b.parentNode.insertBefore(a, b);   })(     window, document, "script", "https://www.mako.co.il/18f5227b-e27b-445a-a53f-f845fbe69b40/stormcaster.js", "cj2l", "ssConf"   );   ssConf("c1", "https://www.mako.co.il");   ssConf("c3", "c99a4269-161c-4242-a3f0-28d44fa6ce24");   ssConf("au", "mako.co.il");   ssConf("cu", "validate.perfdrive.com, ssc"); </script></head>
+<body>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v5.0"></script>
+	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T87PQS" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-T87PQS');</script>
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WH7Q78" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WH7Q78');</script>
+<!-- End Google Tag Manager -->
+<script>(window.upManager || []).push("76410001");</script>
+<!-- GPT script begin -->
+<script>var makoReferrer = 'mako';if(document.referrer.length == 0){	makoReferrer = 'empty';	}else{var ref = document.referrer.split('?');	if (ref[0].indexOf("mako.co.il") ==-1)makoReferrer = 'other';}</script>
+<script src="//www.mako.co.il/Collab/cm8/360Advert.js"></script>
+<style>#Fullscreen_Wrapper iframe{width:100%;height:100%;position:fixed;left:0}</style>
+<div id="Fullscreen_Wrapper" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;visibility:visible;z-index:2147483638;"></div>
+
+<script async src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+var gclidVal = 'FALSE';
+try{gclidVal =(localStorage.getItem('mako_gclid') || location.search.indexOf('gclid=') > -1) ? 'TRUE' : 'FALSE';}catch(err){}
+var agent = navigator.userAgent.toLowerCase();
+var isNoOzenNeeded = (agent.indexOf('ipad') != -1 || agent.indexOf('iphone') != -1 || agent.indexOf('android') != -1 )
+if (isNoOzenNeeded && window.DFP){DFP.ozenReady=true;}
+
+var CM8MakoHN = window.houseNumbers ? ("&makoHN="+houseNumbers) : "";	
+	var googletag = googletag || {};
+	googletag.cmd = googletag.cmd || [];
+
+    function generateAdId() {
+  return (window.crypto?.randomUUID?.() || (Date.now() + Math.random().toString(16).slice(2)));
+}
+
+const pendingAdIds = typeof Map !== 'undefined' ? new Map() : null;
+window._domoBundleAdQueue = window._domoBundleAdQueue || [];
+
+function withAdId(slot){
+  try {
+    const id = generateAdId();
+    slot.setTargeting("ad_id", id);
+    if (pendingAdIds) pendingAdIds.set(slot, id);
+  } catch(e){}
+  return slot;
+}
+
+googletag.cmd.push(function () {
+  var pubads = googletag.pubads();
+
+  // wrap only once
+  if (pubads._adIdWrapped) return;
+  pubads._adIdWrapped = true;
+
+  // -------- refresh wrapper --------
+  var _refresh = pubads.refresh.bind(pubads);
+  pubads.refresh = function (slots, options) {
+    try {
+      var list;
+      if (Array.isArray(slots)) list = slots;
+      else if (slots && slots.getSlotElementId) list = [slots];
+      else list = pubads.getSlots();
+
+      for (var i = 0; i < list.length; i++) {
+        if (list[i] && list[i].setTargeting) {
+          const id = generateAdId();
+          list[i].setTargeting("ad_id", id);
+          if (pendingAdIds) pendingAdIds.set(list[i], id);
+        }
+      }
+    } catch (e) {
+      console.log("setAdIdForDiv on refresh failed:", e);
+    }
+    return _refresh(slots, options);
+  };
+
+  // -------- display wrapper --------
+  if (!googletag._adIdDisplayWrapped) {
+    googletag._adIdDisplayWrapped = true;
+
+    var _display = googletag.display.bind(googletag);
+
+    function setAdIdForDiv(divId) {
+      try {
+        if (!divId) return;
+        var slots = pubads.getSlots();
+        for (var i = 0; i < slots.length; i++) {
+          var s = slots[i];
+          if (s && s.getSlotElementId && s.getSlotElementId() === divId) {
+            if (s.setTargeting) {
+              const id = generateAdId();
+              s.setTargeting("ad_id", id);
+              if (pendingAdIds) pendingAdIds.set(s, id);
+            }
+            return;
+          }
+        }
+      } catch (e) {
+        console.log("setAdIdForDiv on display failed:", e);
+      }
+    }
+
+    googletag.display = function (divId) {
+      setAdIdForDiv(divId);
+      return _display(divId);
+    };
+  }
+});
+
+
+	function addCustomCriteria(name, val){
+		 (val &&  val != '' && val != 'null') ? googletag.pubads().setTargeting(name, val) : '';
+}
+	
+if (isCM8){
+		  window.googleAds = window.googleAds || [];
+    var googleAds = window.googleAds;
+    googletag.cmd.push(function (){
+    // permutive code
+    if (0===window.googletag.pubads().getTargeting("permutive").length){try{var g=window.localStorage.getItem("_pdfps");window.googletag.pubads().setTargeting("permutive",g?JSON.parse(g):[])}catch(e){}}
+    
+    var fullscreen = withAdId(googletag.defineSlot('/242748299/mako/news/politics/FULLSCREEN', [[970,250],[970,540]],'Fullscreen_Wrapper').setTargeting("FORMAT","FULLSCREEN").addService(googletag.pubads()));
+    
+    // end permutive code
+   
+    
+   	googleAds[0]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/PREMIUM', [[970,540],[970,330],[5,5],[3,3],[970,250]],'CM8ShowAd_MEGA_PLASMA_970X330').addService(googletag.pubads()).setTargeting("FORMAT", ["PLASMA1_970","MEGA_PLASMA","ELVIS_MEGAPLASMA","ELVIS_PLASMA","Billboard970"]).setCollapseEmptyDiv(true,true));
+    
+   	
+    googleAds[1]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/PLASMA1_750', [[750,140],[5,5]],'CM8ShowAd_PLASMA1_750X140').addService(googletag.pubads()).setTargeting("FORMAT", ["PLASMA1_750"]).setCollapseEmptyDiv(true,true));
+      
+    googleAds[2]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/OZEN',[[160,600],[120,600],[240,400]],'mako_main_glideDiv').addService(googletag.pubads()).setTargeting("FORMAT","OZEN"));
+	googleAds[3] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/JAMBO1_728',[728,90], 'CM8ShowAd_JAMBO1_728X90').addService(googletag.pubads()).setTargeting("FORMAT", "JAMBO1_728").setCollapseEmptyDiv(true,true));
+    googleAds[4] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/JAMBO1_970',[970,90], 'CM8ShowAd_JAMBO1_970X90').addService(googletag.pubads()).setTargeting("FORMAT", "JAMBO1_970").setCollapseEmptyDiv(true,true));
+	googleAds[5] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/CORNER_PEEL',[1,1], 'CM8ShowAd_CORNER_PEEL_1X1').addService(googletag.pubads()).setTargeting("FORMAT", "CORNER_PEEL").setCollapseEmptyDiv(true,true));
+       
+    googleAds[6] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER1_300',[300,250], 'CM8ShowAd_MONSTER1_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER1_300").setCollapseEmptyDiv(true,true));
+    
+    googleAds[7] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER2_300',[300,250], 'CM8ShowAd_MONSTER2_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER2_300"));
+    
+    googleAds[8] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER3_300',[300,250], 'CM8ShowAd_MONSTER3_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER3_300"));
+	
+    googleAds[9] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER1_250',[250,250], 'CM8ShowAd_MONSTER1_250X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER1_250"));
+    
+    googleAds[10] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER2_250',[250,250], 'CM8ShowAd_MONSTER2_250X250').addService(googletag.pubads()).setTargeting("FORMAT","MONSTER2_250"));
+    
+    googleAds[11] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER3_250',[250,250], 'CM8ShowAd_MONSTER3_250X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER3_250"));
+    
+    googleAds[12] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/POSTER',[300,600], 'CM8ShowAd_POSTER_300X600').setTargeting("FORMAT", "POSTER").setCollapseEmptyDiv(true).addService(googletag.pubads()));
+    
+    googleAds[13] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/POSTER2',[300,600], 'CM8ShowAd_POSTER2_300X600').addService(googletag.pubads()).setTargeting("FORMAT", "POSTER2"));
+    
+    googleAds[14] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/POSTER3',[300,600], 'CM8ShowAd_POSTER3_300X600').addService(googletag.pubads()).setTargeting("FORMAT", "POSTER3"));
+	
+	googleAds[15]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/INNER_OZEN',[120,600],'CM8ShowAd_OZEN1_120X600').addService(googletag.pubads()).setTargeting("FORMAT","OZEN_INNER").setCollapseEmptyDiv(true,true));
+    
+	googleAds[16]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/COAST2COAST1_970',[970,90],'CM8ShowAd_COAST2COAST1_970X90').addService(googletag.pubads()).setTargeting("FORMAT","COAST2COAST1_970"));
+        
+    googleAds[17]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/COAST2COAST1_728',[728,90],'CM8ShowAd_COAST2COAST1_728X90').addService(googletag.pubads()).setTargeting("FORMAT","COAST2COAST1_728"));
+    
+    googleAds[18]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/STANDARD1',[234,60],'CM8ShowAd_STANDARD1_234X60').addService(googletag.pubads()).setTargeting("FORMAT","STANDARD1"));
+   
+    googleAds[19]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/CUBE1',[276,174],'CM8ShowAd_CUBE1_276X174').addService(googletag.pubads()).setTargeting("FORMAT","CUBE1"));   
+   
+	googleAds[20] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/ARTICLE1_250X250',[250,250], 'CM8ShowAd_ARTICLE1_250X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE1_250X250").setCollapseEmptyDiv(true,true));
+	
+    googleAds[21] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/ARTICLE1_300X250',[300,250],'CM8ShowAd_ARTICLE1_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE1_300X250").setCollapseEmptyDiv(true,true));   
+    
+    googleAds[22] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER4_300',[300,250], 'CM8ShowAd_MONSTER4_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER4_300"));
+    googleAds[23] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER5_300',[300,250], 'CM8ShowAd_MONSTER5_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER5_300"));
+    googleAds[24] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER6_300',[300,250], 'CM8ShowAd_MONSTER6_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER6_300"));
+    googleAds[25] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER7_300',[300,250], 'CM8ShowAd_MONSTER7_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER7_300"));
+    googleAds[26] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER8_300',[300,250], 'CM8ShowAd_MONSTER8_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER8_300"));
+    googleAds[27] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER9_300',[300,250], 'CM8ShowAd_MONSTER9_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER9_300"));
+    googleAds[28] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER10_300',[300,250], 'CM8ShowAd_MONSTER10_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER10_300"));
+    googleAds[29] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/ARTICLE2_300X250',[300,250],'CM8ShowAd_ARTICLE2_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE2_300X250").setCollapseEmptyDiv(true,true));
+    googleAds[30] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/ARTICLE3_300X250',[300,250],'CM8ShowAd_ARTICLE3_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE3_300X250").setCollapseEmptyDiv(true,true)); 
+    googleAds[31] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/ARTICLE4_300X250',[300,250],'CM8ShowAd_ARTICLE4_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE4_300X250").setCollapseEmptyDiv(true,true));
+    googleAds[32] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/ARTICLE5_300X250',[300,250],'CM8ShowAd_ARTICLE5_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE5_300X250").setCollapseEmptyDiv(true,true)); 
+    googleAds[33] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/ARTICLE6_300X250',[300,250],'CM8ShowAd_ARTICLE6_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "ARTICLE6_300X250").setCollapseEmptyDiv(true,true));   
+    
+    googleAds[34]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/MONSTER_300',[300,250], 'CM8ShowAd_MONSTER_300X250').addService(googletag.pubads()).setTargeting("FORMAT", "MONSTER_300").setCollapseEmptyDiv(true,true));
+    googleAds[35]=withAdId(googletag.defineSlot('/242748299/mako/news/politics/DOUBLESTANDARD',[468,60],'CM8ShowAd_DOUBLESTANDARD_468X60').addService(googletag.pubads()).setTargeting("FORMAT","DOUBLESTANDARD").setCollapseEmptyDiv(true,true));
+    
+    
+    //googleAds[29] = withAdId(googletag.defineSlot('/242748299/mako/news/politics/PREMIUM', [[6,6],[3,3]],'CM8ShowAd_BILLBOARD_970X400').addService(googletag.pubads()).setTargeting("FORMAT", "Billboard970").setCollapseEmptyDiv(true,true));
+    
+    if(window.contentType=='articleins'){
+    	if(document.querySelector('link[rel="video_src"]')!=null){
+    		addCustomCriteria("video","true");
+    	}
+    }
+    
+    window.DFP && withAdId(googletag.defineOutOfPageSlot('/242748299/mako/news/politics/TOPLAYER','DFP_TOPLAYER').addService(googletag.pubads()).setTargeting("FORMAT", "TOPLAYER"));
+      
+       addCustomCriteria("makoHN", window.houseNumbers);
+       //addCustomCriteria("MAKOAREA", '');
+       addCustomCriteria("MAKOPAGE", 'abc7f3226147b610VgnVCM200000650a10acRCRD');
+       addCustomCriteria("mako_referrer", makoReferrer);
+       addCustomCriteria("CONTENTTYPE", window.contentType);
+       addCustomCriteria("LEVEL4", 'null');
+       addCustomCriteria("LEVEL5", 'null');
+       addCustomCriteria("LEVEL6", 'null');
+       addCustomCriteria("LEVEL7", 'null');  
+       addCustomCriteria("GCLID", gclidVal);
+	   // for test use
+       if (location.hostname.match('int|adm')) {
+       	   addCustomCriteria("TEST", "WINT"); 
+       }
+	   //googletag.pubads().collapseEmptyDivs(true);
+	   //if (DFP && DFP.isHP){
+	   //   googletag.pubads().enableSingleRequest();
+       //}
+       googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+            if (pendingAdIds && event.slot && pendingAdIds.has(event.slot)) {
+                try { event.slot.setTargeting("ad_id", pendingAdIds.get(event.slot)); pendingAdIds.delete(event.slot); } catch(e) {}
+            }
+		        if (window.domoBundle && domoBundle.handleAdEnded) { 
+                domoBundle.handleAdEnded(event); 
+            } else { 
+                window._domoBundleAdQueue.push(event); 
+            }
+
+            DFP && DFP.renderAdEnded && DFP.renderAdEnded(event);
+
+            if (event.slot.getSlotElementId() === 'Fullscreen_Wrapper' && event.isEmpty == false){
+                document.querySelector('#Fullscreen_Wrapper').style.display = 'block';
+            }
+	    });
+        googletag.enableServices();       
+    });
+    googletag.cmd.push(function (){
+        googletag.display('Fullscreen_Wrapper');
+    });
+}    
+</script>
+<div id="DFP_TOPLAYER" style="height:0px"></div>
+<script>googletag.cmd.push(function() { googletag.display('DFP_TOPLAYER'); });</script>
+<script async src="//mrb.upapi.net/code?w=5632346594213888&uponit=true"></script>
+<header class="toolbar">
+		<div class="inner">
+<a class="logo" href="https://www.n12.co.il"data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"bc8e0fea912c2710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.n12.co.il"}></a>
+			<ul class="weather-slider" data-feed="/AjaxPage?jspName=sideBarJsonResponse.jsp&type=weather" data-domo-click={"content_type":"channel","clicked_item_id":"4caece3418897110VgnVCM1000005201000aRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"4caece3418897110VgnVCM1000005201000aRCRD","referring_component":"bc8e0fea912c2710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-weather"}></ul>
+			<span class="date"></span>
+			<a class="s-logo" href="https://www.n12.co.il"data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"bc8e0fea912c2710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.n12.co.il"}></a>
+		</div>
+	</header>
+
+<nav class="menu responsive v-2020">
+		<ul>
+			<li>
+				<ul>
+					<li class="logo" data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.n12.co.il"}>
+						<a href="https://www.n12.co.il"></a>
+					</li>
+					<li data-domo-click={"content_type":"Article","clicked_item_id":"3bf5c3a8e967f510VgnVCM2000002a0c10acRCRD","click_type":"link","channel_depth":4,"clicked_channel_id":"8bf955222beab610VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel2/Channel-2-Newscast-q3_2019/Article-3bf5c3a8e967f51006.htm"}><a href="https://www.mako.co.il/news-channel2/Channel-2-Newscast-q3_2019/Article-3bf5c3a8e967f51006.htm?partner=NewsNavBar">LIVE</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"7bd56f39402f1810VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"7bd56f39402f1810VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-dailynews"}><a href="https://www.mako.co.il/news-dailynews?partner=NewsNavBar">כל החדשות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"45af43ad8df07110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"45af43ad8df07110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-military"}><a href="/news-military?partner=NewsNavBar">ביטחוני</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"dbfcc3bdc7f26110VgnVCM1000005201000aRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"dbfcc3bdc7f26110VgnVCM1000005201000aRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-world"}><a href="https://www.mako.co.il/news-world?partner=NewsNavBar">בעולם</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-politics"}><a href="https://www.mako.co.il/news-politics?partner=NewsNavBar">פוליטי</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026"}><a href="https://www.mako.co.il/news-israel-elections/2026?partner=NewsNavBar">בחירות</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://special.n12.co.il/worday_lobby/"}><a href="https://special.n12.co.il/worday_lobby/?partner=NewsNavBar">מילה ביום</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"adbcb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"adbcb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money"}><a href="https://www.mako.co.il/news-money?partner=NewsNavBar">כלכלה</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"a19b19d0387a5710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"a19b19d0387a5710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-n12_magazine"}><a href="https://www.mako.co.il/news-n12_magazine?partner=NewsNavBar">המגזין</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"9eeefd8e5656b610VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"9eeefd8e5656b610VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-entertainment"}><a href="https://www.mako.co.il/news-entertainment?partner=NewsNavBar">תרבות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"d6f8e21e2c7f7710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"d6f8e21e2c7f7710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-tip12"}><a href="https://www.mako.co.il/news-tip12?partner=NewsNavBar">LifeStyle</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"6b7f002a06267710VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"6b7f002a06267710VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-diplomatic"}><a href="https://www.mako.co.il/news-diplomatic?partner=NewsNavBar">מדיני</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"338cc3bdc7f26110VgnVCM1000005201000aRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"338cc3bdc7f26110VgnVCM1000005201000aRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-israel"}><a href="/news-israel?partner=NewsNavBar">בארץ</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"a52cb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"a52cb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-law"}><a href="https://www.mako.co.il/news-law?partner=NewsNavBar">פלילי</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"368b5b651147b610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"368b5b651147b610VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-education"}><a href="https://www.mako.co.il/news-education?partner=NewsNavBar">חינוך</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"fdccb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"fdccb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/consumer"}><a href="https://www.mako.co.il/news-money/consumer?partner=NewsNavBar">צרכנות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"69a63ec2549a6710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"69a63ec2549a6710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/real_estate"}><a href="https://www.mako.co.il/news-money/real_estate?partner=NewsNavBar">עיצוב ונדל"ן</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"e71eeda1962ba810VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"e71eeda1962ba810VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/tech12"}><a href="https://www.mako.co.il/news-money/tech12?partner=NewsNavBar"target="_blank">TECH12</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"d0289dfc85dab610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"d0289dfc85dab610VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-sport"}><a href="https://www.mako.co.il/news-sport?partner=NewsNavBar">ספורט</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"5fdf43ad8df07110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"5fdf43ad8df07110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-columns"}><a href="https://www.mako.co.il/news-columns?partner=NewsNavBar">פרשנות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"5550fd8e5656b610VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"5550fd8e5656b610VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-lifestyle"}><a href="https://www.mako.co.il/news-lifestyle?partner=NewsNavBar">בריאות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"37c39138919c7710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"37c39138919c7710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-science"}><a href="https://www.mako.co.il/news-science?partner=NewsNavBar">מדע וסביבה</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"b62d385642ba7710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"b62d385642ba7710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-podcast_n12"}><a href="https://www.mako.co.il/news-podcast_n12?partner=NewsNavBar">הפודקאסטים</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"6bec0e6a73322910VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"6bec0e6a73322910VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-n12_magazine/nussbaum_typing"}><a href="https://www.mako.co.il/news-n12_magazine/nussbaum_typing?partner=NewsNavBar">נוסבאום מקליד</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"ee5208a2b1d13810VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"ee5208a2b1d13810VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-specials/data_n12"}><a href="https://www.mako.co.il/news-specials/data_n12?partner=NewsNavBar">DATA</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://story.mako.co.il/keshet-stand4israel"}><a href="https://story.mako.co.il/keshet-stand4israel?partner=NewsNavBar">English</a></li><li data-domo-click={"content_type":"Article","clicked_item_id":"38d67bdbc0c56910VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"7892b3a2a4ac5910VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-dailynews/2025_q2/Article-38d67bdbc0c5691027.htm"}><a href="https://www.mako.co.il/news-dailynews/2025_q2/Article-38d67bdbc0c5691027.htm?partner=NewsNavBar">מפת האתר</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://stories.sc/mako/channel12jobs/?makoOpenChromeTabs=1"}><a href="https://stories.sc/mako/channel12jobs/?makoOpenChromeTabs=1&partner=NewsNavBar">דרושים חדשות 12</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"291362ae3b50a710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"291362ae3b50a710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-business"}><a href="https://www.mako.co.il/news-business?partner=NewsNavBar">BUSINESS</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"b5f4c13070733210VgnVCM2000002a0c10acRCRD","click_type":"link","channel_depth":1,"clicked_channel_id":"b5f4c13070733210VgnVCM2000002a0c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/mako-vod"}><a href="https://www.mako.co.il/mako-vod?partner=NewsNavBar">12+</a></li></ul>
+			</li>
+			<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12"}><a href="https://www.mako.co.il/news-channel12?partner=NewsNavBar">תוכניות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"3d385dd2dd5d4110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":0,"clicked_channel_id":"3d385dd2dd5d4110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il"}><a href="https://www.mako.co.il?partner=NewsNavBar"target="_blank">mako</a></li><li class="more">
+				<span class="open"></span>
+				<ul>
+					<li data-domo-click={"content_type":"Article","clicked_item_id":"3bf5c3a8e967f510VgnVCM2000002a0c10acRCRD","click_type":"link","channel_depth":4,"clicked_channel_id":"8bf955222beab610VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel2/Channel-2-Newscast-q3_2019/Article-3bf5c3a8e967f51006.htm"}><a href="https://www.mako.co.il/news-channel2/Channel-2-Newscast-q3_2019/Article-3bf5c3a8e967f51006.htm?partner=NewsNavBar">LIVE</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"7bd56f39402f1810VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"7bd56f39402f1810VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-dailynews"}><a href="https://www.mako.co.il/news-dailynews?partner=NewsNavBar">כל החדשות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"45af43ad8df07110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"45af43ad8df07110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-military"}><a href="/news-military?partner=NewsNavBar">ביטחוני</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"dbfcc3bdc7f26110VgnVCM1000005201000aRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"dbfcc3bdc7f26110VgnVCM1000005201000aRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-world"}><a href="https://www.mako.co.il/news-world?partner=NewsNavBar">בעולם</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-politics"}><a href="https://www.mako.co.il/news-politics?partner=NewsNavBar">פוליטי</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026"}><a href="https://www.mako.co.il/news-israel-elections/2026?partner=NewsNavBar">בחירות</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://special.n12.co.il/worday_lobby/"}><a href="https://special.n12.co.il/worday_lobby/?partner=NewsNavBar">מילה ביום</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"adbcb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"adbcb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money"}><a href="https://www.mako.co.il/news-money?partner=NewsNavBar">כלכלה</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"a19b19d0387a5710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"a19b19d0387a5710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-n12_magazine"}><a href="https://www.mako.co.il/news-n12_magazine?partner=NewsNavBar">המגזין</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"9eeefd8e5656b610VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"9eeefd8e5656b610VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-entertainment"}><a href="https://www.mako.co.il/news-entertainment?partner=NewsNavBar">תרבות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"d6f8e21e2c7f7710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"d6f8e21e2c7f7710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-tip12"}><a href="https://www.mako.co.il/news-tip12?partner=NewsNavBar">LifeStyle</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"6b7f002a06267710VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"6b7f002a06267710VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-diplomatic"}><a href="https://www.mako.co.il/news-diplomatic?partner=NewsNavBar">מדיני</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"338cc3bdc7f26110VgnVCM1000005201000aRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"338cc3bdc7f26110VgnVCM1000005201000aRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-israel"}><a href="/news-israel?partner=NewsNavBar">בארץ</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"a52cb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"a52cb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-law"}><a href="https://www.mako.co.il/news-law?partner=NewsNavBar">פלילי</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"368b5b651147b610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"368b5b651147b610VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-education"}><a href="https://www.mako.co.il/news-education?partner=NewsNavBar">חינוך</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"fdccb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"fdccb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/consumer"}><a href="https://www.mako.co.il/news-money/consumer?partner=NewsNavBar">צרכנות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"69a63ec2549a6710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"69a63ec2549a6710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/real_estate"}><a href="https://www.mako.co.il/news-money/real_estate?partner=NewsNavBar">עיצוב ונדל"ן</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"e71eeda1962ba810VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"e71eeda1962ba810VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/tech12"}><a href="https://www.mako.co.il/news-money/tech12?partner=NewsNavBar"target="_blank">TECH12</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"d0289dfc85dab610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"d0289dfc85dab610VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-sport"}><a href="https://www.mako.co.il/news-sport?partner=NewsNavBar">ספורט</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"5fdf43ad8df07110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"5fdf43ad8df07110VgnVCM100000290c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-columns"}><a href="https://www.mako.co.il/news-columns?partner=NewsNavBar">פרשנות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"5550fd8e5656b610VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"5550fd8e5656b610VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-lifestyle"}><a href="https://www.mako.co.il/news-lifestyle?partner=NewsNavBar">בריאות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"37c39138919c7710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"37c39138919c7710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-science"}><a href="https://www.mako.co.il/news-science?partner=NewsNavBar">מדע וסביבה</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"b62d385642ba7710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"b62d385642ba7710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-podcast_n12"}><a href="https://www.mako.co.il/news-podcast_n12?partner=NewsNavBar">הפודקאסטים</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"6bec0e6a73322910VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"6bec0e6a73322910VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-n12_magazine/nussbaum_typing"}><a href="https://www.mako.co.il/news-n12_magazine/nussbaum_typing?partner=NewsNavBar">נוסבאום מקליד</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"ee5208a2b1d13810VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"ee5208a2b1d13810VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-specials/data_n12"}><a href="https://www.mako.co.il/news-specials/data_n12?partner=NewsNavBar">DATA</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://story.mako.co.il/keshet-stand4israel"}><a href="https://story.mako.co.il/keshet-stand4israel?partner=NewsNavBar">English</a></li><li data-domo-click={"content_type":"Article","clicked_item_id":"38d67bdbc0c56910VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"7892b3a2a4ac5910VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-dailynews/2025_q2/Article-38d67bdbc0c5691027.htm"}><a href="https://www.mako.co.il/news-dailynews/2025_q2/Article-38d67bdbc0c5691027.htm?partner=NewsNavBar">מפת האתר</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://stories.sc/mako/channel12jobs/?makoOpenChromeTabs=1"}><a href="https://stories.sc/mako/channel12jobs/?makoOpenChromeTabs=1&partner=NewsNavBar">דרושים חדשות 12</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"291362ae3b50a710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"291362ae3b50a710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-business"}><a href="https://www.mako.co.il/news-business?partner=NewsNavBar">BUSINESS</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"b5f4c13070733210VgnVCM2000002a0c10acRCRD","click_type":"link","channel_depth":1,"clicked_channel_id":"b5f4c13070733210VgnVCM2000002a0c10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/mako-vod"}><a href="https://www.mako.co.il/mako-vod?partner=NewsNavBar">12+</a></li></ul>
+			</li>
+			<li class="special" data-text="מיוחד">
+				<span class="open"></span>
+				<ul>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"130b9b060c50a710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"130b9b060c50a710VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-business/duns_100"}><a href="https://www.mako.co.il/news-business/duns_100?partner=NewsNavBar">duns 100</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.din.co.il/"}><a href="https://www.din.co.il/?partner=NewsNavBar">din.co.il</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"3357ebc54d3a9710VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"3357ebc54d3a9710VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-med12"}><a href="https://www.mako.co.il/news-med12?partner=NewsNavBar">MED12</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.drushim.co.il/?utm_source=N12top"}><a href="https://www.drushim.co.il/?utm_source=N12top&partner=NewsNavBar"target="_blank">דרושים IL</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://easy.co.il/home/?utm_source=n12&utm_campaign=homepage&utm_medium=link"}><a href="https://easy.co.il/home/?utm_source=n12&utm_campaign=homepage&utm_medium=link&partner=NewsNavBar"target="_blank">easy</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"631454bc733ed710VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"631454bc733ed710VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-med12/hematology"}><a href="https://www.mako.co.il/news-med12/hematology?partner=NewsNavBar">המטולוגיה</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"20464b4530133810VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"20464b4530133810VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-special_projects/conferences"}><a href="https://www.mako.co.il/news-special_projects/conferences?partner=NewsNavBar">ועידות קשת 12</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"e8829f64c7ff0810VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"e8829f64c7ff0810VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-med12/lung_ambition"}><a href="https://www.mako.co.il/news-med12/lung_ambition?partner=NewsNavBar">לאנג אמבישן</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"acdd34147c2b1910VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"acdd34147c2b1910VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-med12/innovative_cancer_treatment"}><a href="https://www.mako.co.il/news-med12/innovative_cancer_treatment?partner=NewsNavBar">להיאבק בסרטן</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"e3bafa03248a5910VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"e3bafa03248a5910VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-med12/living_with_parkinson"}><a href="https://www.mako.co.il/news-med12/living_with_parkinson?partner=NewsNavBar">פרקינסון</a></li><li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.n12.co.il/news-special_projects/neighborhood_with_everything"}><a href="https://www.n12.co.il/news-special_projects/neighborhood_with_everything?partner=NewsNavBar">שכונה עם הכל</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"2d65a7fb62c33810VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"2d65a7fb62c33810VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-med12/liver_cancer"}><a href="https://www.mako.co.il/news-med12/liver_cancer?partner=NewsNavBar">כַּבֵּד את הַכָּבֵד</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"e503b826c7218910VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"e503b826c7218910VgnVCM200000650a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-special_projects/investments_for_advanced"}><a href="https://www.mako.co.il/news-special_projects/investments_for_advanced?partner=NewsNavBar">השקעות</a></li><li data-domo-click={"content_type":"channel","clicked_item_id":"3b61ca26ba904810VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"3b61ca26ba904810VgnVCM100000700a10acRCRD","referring_component":"46aa2b913ecf4710VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-special_projects/one_question"}><a href="https://www.mako.co.il/news-special_projects/one_question?partner=NewsNavBar">שאלה אחת ביום</a></li></ul>
+			</li>
+			<li class="search-bar">
+				<form action="/newssearch" autocomplete="off">
+					<input type="search" name="searchstring_input" placeholder="חיפוש ב - N12">
+					<input type="hidden" value="abc7f3226147b610VgnVCM200000650a10acRCRD" name="vgnextoid" id="vgnextoid">
+					<input type="hidden" name="pageNum" value="1" />
+					<input type="hidden" name="app" value="thenews" />
+					<input type="hidden" name="fmt" value="json" />
+					<button>
+						<svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24">
+							<path fill="#333538" fill-rule="nonzero" stroke="#333538" stroke-width=".95"
+								d="M6.282 5.782c2.344-2.343 6.179-2.307 8.566.081 2.04 2.04 2.363 5.135.954 7.455l4.907 4.908-1.06 1.06-4.791-4.79-.091.089c-2.355 2.184-6.07 2.097-8.404-.237-2.388-2.387-2.424-6.222-.08-8.566zm.824.824c-1.897 1.897-1.868 5.001.065 6.934 1.933 1.933 5.037 1.962 6.934.065 1.897-1.897 1.868-5.001-.065-6.934-1.933-1.933-5.037-1.962-6.934-.065z"
+								opacity=".8" />
+						</svg>
+					</button>
+				</form>
+			</li>
+		</ul>
+	</nav>
+<div id="mako_main_glideDiv" class="not-for-print">
+      <script>
+		if(window.DFP && !DFP.ozenReady){
+			if(DFP.isStandard || (typeof DFP.isNeo !=="undefined" && !DFP.isNeo && !DFP.isHP))
+				googletag.cmd.push(function() { googletag.display('mako_main_glideDiv'); });
+			else
+				DFP.savedDisplay.push('mako_main_glideDiv');
+			DFP.ozenReady=true;
+		}
+		</script>
+	<div class="ad b160X600 cm8">
+			<div id="CM8ShowAd_OZEN_160X600" data-title="OZEN_160X600">
+			<script>			
+				window.DFP && DFP.showBanner('OZEN','160X600');				
+			</script>
+			</div>
+		</div>
+</div>
+    <div class="main-wrap">
+      <div class="ad b970X90XJAMBO large-mid-ad cm8">
+			<div id="CM8ShowAd_JAMBO1_970X90" data-title="JAMBO1_970X90">
+			<script>			
+				window.DFP && DFP.showBanner('JAMBO1','970X90');				
+			</script>
+			</div>
+		</div>
+<div class="ad b970X330 cm8">
+			<div id="CM8ShowAd_MEGA_PLASMA_970X330" data-title="MEGA_PLASMA_970X330">
+			<script>			
+				window.DFP && DFP.showBanner('MEGA_PLASMA','970X330');				
+			</script>
+			</div>
+		</div>
+<button class="up">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+          viewBox="0 0 50 50"
+        >
+          <path
+            fill="#AE0000"
+            fill-rule="evenodd"
+            d="M50 0v50H0V0h50zM25.142 15L11 29.142l2.828 2.829 11.314-11.314L36.456 31.97l2.828-2.829L25.142 15z"
+          />
+        </svg>
+        <svg
+          class="hover"
+          xmlns="http://www.w3.org/2000/svg"
+          width="50"
+          height="50"
+        >
+          <g fill="#AE0000" fill-rule="evenodd">
+            <path fill-rule="nonzero" d="M2 2v46h46V2H2zM0 0h50v50H0V0z" />
+            <path
+              d="M39.284 29.142l-2.828 2.829-11.314-11.314L13.828 31.97 11 29.142 25.142 15l14.142 14.142z"
+            />
+          </g>
+        </svg>
+      </button>
+      <main>
+        <header class="chat-on">
+				<h1>פוליטי</h1>
+					</header>
+			<section class="content-wrap">
+		<section class="mainItem mainItem6 full" data-ordering-location="1">
+							<ul class="grid-ordering mainItem6">
+	<li class="play-sign" data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"cc91389788031a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":1,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm"} data-teaser-location=1 data-teaser-vcmid="cc91389788031a10VgnVCM200000650a10acRCRD" data-item-vcmid="cc91389788031a10VgnVCM200000650a10acRCRD" data-image-type="i">
+				<figure>
+					<a href="/news-israel-elections/2026/Article-cc91389788031a1026.htm">
+						<img src="https://img.mako.co.il/2026/10/12/n20-1210-Seker-ibud-2-1_re_autoOrient_i.jpg" loading="lazy"/>
+					</a>
+				</figure>
+				<p>
+					<strong><a href="/news-israel-elections/2026/Article-cc91389788031a1026.htm">סקר חדשות 12: וינטר נשאר רחוק מאחוז החסימה</a></strong>
+					<span><a href="/news-israel-elections/2026/Article-cc91389788031a1026.htm">הליכוד נחלשת, ש"ס גדלה לראשונה אחרי חודשיים</a></span>
+					<small><span>דפנה ליאל</span> | <span>21:00</span></small>
+				</p>
+				
+			</li>
+		<li class="play-sign" data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"cd0622829d031a10VgnVCM100000700a10acRCRD","click_type":"link","teaser_location":2,"clicked_channel_id":"42757d37b96fe910VgnVCM100000700a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-politics/2026_q3/Article-cd0622829d031a1027.htm"} data-teaser-location=2 data-teaser-vcmid="cd0622829d031a10VgnVCM100000700a10acRCRD" data-item-vcmid="cd0622829d031a10VgnVCM100000700a10acRCRD" data-image-type="i">
+				<figure>
+					<a href="/news-politics/2026_q3/Article-cd0622829d031a1027.htm">
+						<img src="https://img.mako.co.il/2026/10/11/F260714AVS12_re_autoOrient_i.jpg" loading="lazy"/>
+					</a>
+				</figure>
+				<p>
+					<strong><a href="/news-politics/2026_q3/Article-cd0622829d031a1027.htm">התוכנית של אוריך לשיפור תדמיתה של קטאר בישרא</a></strong>
+					<small><span>אמנון אברמוביץ'</span> | <span>20:06</span></small>
+				</p>
+				
+			</li>
+		<li class="play-sign" data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"65b64636e3d21a10VgnVCM100000700a10acRCRD","click_type":"link","teaser_location":3,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-65b64636e3d21a1027.htm"} data-teaser-location=3 data-teaser-vcmid="65b64636e3d21a10VgnVCM100000700a10acRCRD" data-item-vcmid="65b64636e3d21a10VgnVCM100000700a10acRCRD" data-image-type="i">
+				<figure>
+					<a href="/news-israel-elections/2026/Article-65b64636e3d21a1027.htm">
+						<img src="https://img.mako.co.il/2026/10/08/gadiiii08105_autoOrient_i.jpg" loading="lazy"/>
+					</a>
+				</figure>
+				<p>
+					<strong><a href="/news-israel-elections/2026/Article-65b64636e3d21a1027.htm">ברגע האחרון: איזנקוט משנה כיוון</a></strong>
+					<span><a href="/news-israel-elections/2026/Article-65b64636e3d21a1027.htm">קמפיין המפלגה הגדולה יוצא לדרך</a></span>
+					<small><span>דפנה ליאל</span> | <span>11:22</span></small>
+				</p>
+				
+			</li>
+		<li  data-domo-click={"content_type":"liveblog","channel_depth":-1,"clicked_item_id":"e5da204f54d01a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":4,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/liveblog-e5da204f54d01a1026.htm"} data-teaser-location=4 data-teaser-vcmid="e5da204f54d01a10VgnVCM200000650a10acRCRD" data-item-vcmid="e5da204f54d01a10VgnVCM200000650a10acRCRD" data-image-type="i">
+				<figure>
+					<a href="/news-israel-elections/2026/liveblog-e5da204f54d01a1026.htm">
+						<img src="https://img.mako.co.il/2026/08/13/behirot1308111_re_autoOrient_i.jpg" loading="lazy"/>
+					</a>
+				</figure>
+				<p>
+					<strong><a href="/news-israel-elections/2026/liveblog-e5da204f54d01a1026.htm">15 ימים לבחירות: הפרשנויות והמשמעויות</a></strong>
+					<span><a href="/news-israel-elections/2026/liveblog-e5da204f54d01a1026.htm">פרשני חדשות 12 מעדכנים בזמן אמת </a></span>
+					<small><span>N12</span> | <span>09:40</span></small>
+				</p>
+				
+			</li>
+		<li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"1775a97201c21a10VgnVCM100000700a10acRCRD","click_type":"link","teaser_location":5,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-1775a97201c21a1027.htm"} data-teaser-location=5 data-teaser-vcmid="1775a97201c21a10VgnVCM100000700a10acRCRD" data-item-vcmid="1775a97201c21a10VgnVCM100000700a10acRCRD" data-image-type="i">
+				<figure>
+					<a href="/news-israel-elections/2026/Article-1775a97201c21a1027.htm">
+						<img src="https://img.mako.co.il/2026/10/12/n20-1210-bb96-ibud-1-9_re_autoOrient_i.jpg" loading="lazy"/>
+					</a>
+				</figure>
+				<p>
+					<strong><a href="/news-israel-elections/2026/Article-1775a97201c21a1027.htm">העם הנבחר: פרויקט מיוחד לבחירות</a></strong>
+					<span><a href="/news-israel-elections/2026/Article-1775a97201c21a1027.htm">כך השתנתה הפוליטיקה שלנו</a></span>
+					<small><span>יאיר שרקי</span> | <span>11:14</span></small>
+				</p>
+				
+			</li>
+		<li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"db0ae0d2aac21a10VgnVCM100000700a10acRCRD","click_type":"link","teaser_location":6,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-db0ae0d2aac21a1027.htm"} data-teaser-location=6 data-teaser-vcmid="db0ae0d2aac21a10VgnVCM100000700a10acRCRD" data-item-vcmid="db0ae0d2aac21a10VgnVCM100000700a10acRCRD" data-image-type="i">
+				<figure>
+					<a href="/news-israel-elections/2026/Article-db0ae0d2aac21a1027.htm">
+						<img src="https://img.mako.co.il/2025/06/04/deri_netanyahu_new_re_autoOrient_i.jpg" loading="lazy"/>
+					</a>
+				</figure>
+				<p>
+					<strong><a href="/news-israel-elections/2026/Article-db0ae0d2aac21a1027.htm"></a></strong>
+					<small><span>עמית סגל</span> | <span>10:00</span></small>
+				</p>
+				
+			</li>
+		</ul>
+</section>
+						<section class="ad b300X250 cm8 left">
+						<div id="CM8ShowAd_MONSTER1_300X250" data-title="MONSTER1_300X250">
+							<script>
+								window.DFP && DFP.showBanner('MONSTER1','300X250');
+							</script>
+						</div>
+					</section>
+					<div id="root" data-status="0" data-side-chat="side-chat" data-topic='1'></div>
+							<div id="side-chat"></div>
+						<section class="regular content colx2" data-ordering-location="4">
+						<ul class="more-items">
+<li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"3271a14f84c21a10VgnVCM100000700a10acRCRD","click_type":"link","teaser_location":1,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-3271a14f84c21a1027.htm"} data-teaser-location=1 data-teaser-vcmid="3271a14f84c21a10VgnVCM100000700a10acRCRD" data-item-vcmid="3271a14f84c21a10VgnVCM100000700a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-israel-elections/2026/Article-3271a14f84c21a1027.htm">
+                <img src="https://img.mako.co.il/2026/10/11/bbbenetinudtweet111010_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-israel-elections/2026/Article-3271a14f84c21a1027.htm">בנט לא פוסל את נתניהו כשר בממשלתו</a></strong>
+            <small><span>דפנה ליאל</span> | <span>00:31</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"1b5d451818a21a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":2,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-1b5d451818a21a1026.htm"} data-teaser-location=2 data-teaser-vcmid="1b5d451818a21a10VgnVCM200000650a10acRCRD" data-item-vcmid="1b5d451818a21a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-israel-elections/2026/Article-1b5d451818a21a1026.htm">
+                <img src="https://img.mako.co.il/2026/04/23/F260423YS37_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-israel-elections/2026/Article-1b5d451818a21a1026.htm">עמדות המפלגות בנושא מערכת המשפט</a></strong>
+            <small><span>דביר ג'ברה</span> | <span>11.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"b20b4b0c0da21a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":3,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-b20b4b0c0da21a1026.htm"} data-teaser-location=3 data-teaser-vcmid="b20b4b0c0da21a10VgnVCM200000650a10acRCRD" data-item-vcmid="b20b4b0c0da21a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-israel-elections/2026/Article-b20b4b0c0da21a1026.htm">
+                <img src="https://img.mako.co.il/2026/10/11/n20-1110-gadi_bibi-ibud-1-1_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-israel-elections/2026/Article-b20b4b0c0da21a1026.htm">רשת ביטחון? אלו הדרישות של הרשימה המשותפת</a></strong>
+            <small><span>דביר ג'ברה</span> | <span>11.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"5950a7425ba21a10VgnVCM100000700a10acRCRD","click_type":"link","teaser_location":4,"clicked_channel_id":"36bd04209a0d0a10VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-politics/2026_q4/Article-5950a7425ba21a1027.htm"} data-teaser-location=4 data-teaser-vcmid="5950a7425ba21a10VgnVCM100000700a10acRCRD" data-item-vcmid="5950a7425ba21a10VgnVCM100000700a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-politics/2026_q4/Article-5950a7425ba21a1027.htm">
+                <img src="https://img.mako.co.il/2026/10/11/F260714AVS12_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-politics/2026_q4/Article-5950a7425ba21a1027.htm">שיחות וואטסאפ דלפו לכאורה מהטלפון של אוריך</a></strong>
+            <small><span>אדר גיציס</span> | <span>11.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"7d107b212b221a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":5,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-7d107b212b221a1026.htm"} data-teaser-location=5 data-teaser-vcmid="7d107b212b221a10VgnVCM200000650a10acRCRD" data-item-vcmid="7d107b212b221a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-israel-elections/2026/Article-7d107b212b221a1026.htm">
+                <img src="https://img.mako.co.il/2023/06/21/in_pgosh_re_autoOrient.mxf_1_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-israel-elections/2026/Article-7d107b212b221a1026.htm">פינדרוס: "אנחנו בגוש לומדי התורה"</a></strong>
+            <small><span>עמית סגל</span> | <span>11.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"liveblog","channel_depth":-1,"clicked_item_id":"edcbca53f8921a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":6,"clicked_channel_id":"36bd04209a0d0a10VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-politics/2026_q4/liveblog-edcbca53f8921a1026.htm"} data-teaser-location=6 data-teaser-vcmid="edcbca53f8921a10VgnVCM200000650a10acRCRD" data-item-vcmid="edcbca53f8921a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-politics/2026_q4/liveblog-edcbca53f8921a1026.htm">
+                <img src="https://img.mako.co.il/2026/10/11/bbmendel111026_i33_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-politics/2026_q4/liveblog-edcbca53f8921a1026.htm">מנדלבליט מעיד במשפט נתניהו | כל העדכונים</a></strong>
+            <small><span>N12</span> | <span>11.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"1cd38e1ab4921a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":7,"clicked_channel_id":"36bd04209a0d0a10VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-politics/2026_q4/Article-1cd38e1ab4921a1026.htm"} data-teaser-location=7 data-teaser-vcmid="1cd38e1ab4921a10VgnVCM200000650a10acRCRD" data-item-vcmid="1cd38e1ab4921a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-politics/2026_q4/Article-1cd38e1ab4921a1026.htm">
+                <img src="https://img.mako.co.il/2022/01/18/ibud_bibi_mandelblit_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-politics/2026_q4/Article-1cd38e1ab4921a1026.htm">מנדלבליט יעיד במשפט נתניהו בתיקי האלפים</a></strong>
+            <small><span>יעל יפה</span> | <span>11.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"6cc84dad8d821a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":8,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-6cc84dad8d821a1026.htm"} data-teaser-location=8 data-teaser-vcmid="6cc84dad8d821a10VgnVCM200000650a10acRCRD" data-item-vcmid="6cc84dad8d821a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-israel-elections/2026/Article-6cc84dad8d821a1026.htm">
+                <img src="https://img.mako.co.il/2026/10/10/promote_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-israel-elections/2026/Article-6cc84dad8d821a1026.htm">"אחד ביום": הפסילה של אבו שחאדה</a></strong>
+            <small><span>ערד ניר</span> | <span>11.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"bf2378e5bd621a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":9,"clicked_channel_id":"36bd04209a0d0a10VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-politics/2026_q4/Article-bf2378e5bd621a1026.htm"} data-teaser-location=9 data-teaser-vcmid="bf2378e5bd621a10VgnVCM200000650a10acRCRD" data-item-vcmid="bf2378e5bd621a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-politics/2026_q4/Article-bf2378e5bd621a1026.htm">
+                <img src="https://img.mako.co.il/2026/10/10/F191119OF11_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-politics/2026_q4/Article-bf2378e5bd621a1026.htm">הרשימה המשותפת: רשת ביטחון להחלפת הממשלה</a></strong>
+            <small><span>מוחמד מג'אדלה</span> | <span>10.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"b71878e5bd621a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":10,"clicked_channel_id":"36bd04209a0d0a10VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-politics/2026_q4/Article-b71878e5bd621a1026.htm"} data-teaser-location=10 data-teaser-vcmid="b71878e5bd621a10VgnVCM200000650a10acRCRD" data-item-vcmid="b71878e5bd621a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-politics/2026_q4/Article-b71878e5bd621a1026.htm">
+                <img src="https://img.mako.co.il/2026/10/10/F241223CG505_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-politics/2026_q4/Article-b71878e5bd621a1026.htm">חשיפה - תמליל שיחת זיוף הפרוטוקול</a></strong>
+            <small><span>ירון אברהם</span> | <span>10.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"096b8e33dc321a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":11,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026/Article-096b8e33dc321a1026.htm"} data-teaser-location=11 data-teaser-vcmid="096b8e33dc321a10VgnVCM200000650a10acRCRD" data-item-vcmid="096b8e33dc321a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-israel-elections/2026/Article-096b8e33dc321a1026.htm">
+                <img src="https://img.mako.co.il/2026/09/25/hetziiiii2509111AA_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-israel-elections/2026/Article-096b8e33dc321a1026.htm">יו"ר עמך ישראל בריאיון ל"פגוש את העיתונות"</a></strong>
+            <small><span>עמית סגל</span> | <span>10.10.26</span></small>
+        </p>
+        
+    </li><li  data-domo-click={"content_type":"article","channel_depth":-1,"clicked_item_id":"affa3a9807621a10VgnVCM200000650a10acRCRD","click_type":"link","teaser_location":12,"clicked_channel_id":"36bd04209a0d0a10VgnVCM200000650a10acRCRD","referring_component":"16f079a6-page-prom-refc-4bfb03e240e9","clicked_item_url":"https://www.mako.co.il/news-politics/2026_q4/Article-affa3a9807621a1026.htm"} data-teaser-location=12 data-teaser-vcmid="affa3a9807621a10VgnVCM200000650a10acRCRD" data-item-vcmid="affa3a9807621a10VgnVCM200000650a10acRCRD" data-image-type="i">
+			
+			<figure>
+            <a href="/news-politics/2026_q4/Article-affa3a9807621a1026.htm">
+                <img src="https://img.mako.co.il/2026/02/04/F260202YS113_re_autoOrient_i.jpg" data-type="image" loading="lazy"/>
+            </a>
+        </figure>
+        <p>
+            <strong><a href="/news-politics/2026_q4/Article-affa3a9807621a1026.htm">גנץ בהצהרה: "אני רץ עד הסוף"</a></strong>
+            <small><span>דפנה ליאל</span> | <span>10.10.26</span></small>
+        </p>
+        
+    </li></ul>
+
+
+</section>
+						<section class="pagination-lobby">
+<a class="next" href="/news-politics?page=2"></a>
+       <a href="/news-politics?page=1806"> 1806</a>
+       <span class="more"> <i></i></span>
+                    <a href="/news-politics?page=5" > 5</a>
+                      <a href="/news-politics?page=4" > 4</a>
+                      <a href="/news-politics?page=3" > 3</a>
+                      <a href="/news-politics?page=2" > 2</a>
+                      <a href="/news-politics?page=1" class='currentPage'> 1</a>
+                      <a class="prev" disabled="disabled"></a>                      
+
+</section></section>
+		<section class="extra-content">
+			<div class="OUTBRAIN" data-src="" data-widget-id="SF_4"></div>
+		</section>
+	</main>
+    </div>
+    <footer>
+	<div class="wrapper">
+	<div class="icons">
+		<a data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.n12.co.il"} class="news12_logo" href="https://www.n12.co.il">
+			<img src="https://rcs.mako.co.il/images/svg/news/logo-n-12-footer.svg" alt="N12 חדשות">
+		</a>
+		<a class="twitter" href="https://twitter.com/N12News" target="_blank"></a>
+		<a class="instagram" href="https://www.instagram.com/n12news/" target="_blank"></a>
+		<a class="facebook" href="https://www.facebook.com/N12News/" target="_blank"></a>
+	</div>
+	<ul class="flex-container" style="clear:both;">
+	<li>
+				<span>חדשות</span>
+		<ul class="all_helpfullinks">
+		<li data-domo-click={"content_type":"channel","clicked_item_id":"45af43ad8df07110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"45af43ad8df07110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-military"}><a href="/news-military?partner=NewsfooterLinks" >ביטחוני</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"abc7f3226147b610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-politics"}><a href="/news-politics?partner=NewsfooterLinks" >פוליטי</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"a52cb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"a52cb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-law"}><a href="/news-law?partner=NewsfooterLinks" >פלילי</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"338cc3bdc7f26110VgnVCM1000005201000aRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"338cc3bdc7f26110VgnVCM1000005201000aRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-israel"}><a href="/news-israel?partner=NewsfooterLinks" >בארץ</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"dbfcc3bdc7f26110VgnVCM1000005201000aRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"dbfcc3bdc7f26110VgnVCM1000005201000aRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-world"}><a href="/news-world?partner=NewsfooterLinks" >בעולם</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"368b5b651147b610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"368b5b651147b610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-education"}><a href="/news-education?partner=NewsfooterLinks" >חינוך</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"5fdf43ad8df07110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"5fdf43ad8df07110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-columns"}><a href="/news-columns?partner=NewsfooterLinks" >פרשנות</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"adbcb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"adbcb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money"}><a href="/news-money?partner=NewsfooterLinks" >כלכלה</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"d0289dfc85dab610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"d0289dfc85dab610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-sport"}><a href="/news-sport?partner=NewsfooterLinks" >ספורט</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"9eeefd8e5656b610VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"9eeefd8e5656b610VgnVCM100000700a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-entertainment"}><a href="/news-entertainment?partner=NewsfooterLinks" >תרבות</a></li>
+					<li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://special.n12.co.il/worday_lobby/"}><a href="https://special.n12.co.il/worday_lobby/?partner=NewsfooterLinks" >מילה ביום</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"5550fd8e5656b610VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"5550fd8e5656b610VgnVCM100000700a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-lifestyle"}><a href="/news-lifestyle?partner=NewsfooterLinks" >בריאות</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"637fa599b2ba7710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"637fa599b2ba7710VgnVCM100000700a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-podcast_n12/one_a_day"}><a href="https://www.mako.co.il/news-podcast_n12/one_a_day?partner=NewsfooterLinks" >אחד ביום</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"e71eeda1962ba810VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"e71eeda1962ba810VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/tech12"}><a href="https://www.mako.co.il/news-money/tech12?partner=NewsfooterLinks" >TECH12</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"fdccb2eb226bb110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"fdccb2eb226bb110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/consumer"}><a href="https://www.mako.co.il/news-money/consumer?partner=NewsfooterLinks" >צרכנות</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"25b0c5280b1cb910VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-israel-elections/2026"}><a href="https://www.mako.co.il/news-israel-elections/2026?partner=NewsfooterLinks" >בחירות 2026</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"69a63ec2549a6710VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"69a63ec2549a6710VgnVCM100000700a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-money/real_estate"}><a href="https://www.mako.co.il/news-money/real_estate?partner=NewsfooterLinks" >נדל"ן</a></li>
+					</ul>
+		</li>
+		<li>
+				<span>תוכניות חדשות 12</span>
+		<ul class="all_helpfullinks">
+		<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12?subChannelId=75f651b92fbfc610VgnVCM100000700a10acRCRD"}><a href="/news-channel12?subChannelId=75f651b92fbfc610VgnVCM100000700a10acRCRD&partner=NewsfooterLinks" >שש עם</a></li>
+					<li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.n12.co.il/news-channel12/economy_newcast?Partner=NewslobbyPrograms"}><a href="https://www.n12.co.il/news-channel12/economy_newcast?Partner=NewslobbyPrograms&partner=NewsfooterLinks" >שבע עם</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12?subChannelId=17d45d19cebfc610VgnVCM100000700a10acRCRD"}><a href="/news-channel12?subChannelId=17d45d19cebfc610VgnVCM100000700a10acRCRD&partner=NewsfooterLinks" >אולפן שישי</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12?subChannelId=5445fcf6e2cfc610VgnVCM100000700a10acRCRD"}><a href="/news-channel12?subChannelId=5445fcf6e2cfc610VgnVCM100000700a10acRCRD&partner=NewsfooterLinks" >פגוש את העיתונות</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12?subChannelId=35e7ec884d0fc610VgnVCM200000650a10acRCRD"}><a href="/news-channel12?subChannelId=35e7ec884d0fc610VgnVCM200000650a10acRCRD&partner=NewsfooterLinks" >המהדורה המרכזית</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12?subChannelId=bdb5acc8b2cfc610VgnVCM100000700a10acRCRD"}><a href="/news-channel12?subChannelId=bdb5acc8b2cfc610VgnVCM100000700a10acRCRD&partner=NewsfooterLinks" >חמש עם רפי רשף</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12?subChannelId=4064b3866ebfc610VgnVCM100000700a10acRCRD"}><a href="/news-channel12?subChannelId=4064b3866ebfc610VgnVCM100000700a10acRCRD&partner=NewsfooterLinks" >חדשות סוף השבוע</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"e30cc13e751fc610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-channel12?subChannelId=2d68775b26694710VgnVCM200000650a10acRCRD"}><a href="/news-channel12?subChannelId=2d68775b26694710VgnVCM200000650a10acRCRD&partner=NewsfooterLinks" >מהדורת היום</a></li>
+					<li ><a href="" ></a></li>
+					</ul>
+		</li>
+		<li>
+				<span>הגדרות</span>
+		<ul class="all_helpfullinks settings">
+		<li data-domo-click={"content_type":"Article","clicked_item_id":"d37908dd1674c110VgnVCM2000002a0c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"345705dfcebcb110VgnVCM2000002a0c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/help-terms-of-use/Article-d37908dd1674c11006.htm"}><a href="https://www.mako.co.il/help-terms-of-use/Article-d37908dd1674c11006.htm?partner=NewsfooterLinks" target="_blank">תנאי שימוש</a></li>
+					<li data-domo-click={"content_type":"Article","clicked_item_id":"d37908dd1674c110VgnVCM2000002a0c10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"345705dfcebcb110VgnVCM2000002a0c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/help-terms-of-use/Article-d37908dd1674c11006.htm"}><a href="https://www.mako.co.il/help-terms-of-use/Article-d37908dd1674c11006.htm?partner=NewsfooterLinks" target="_blank">מדיניות הפרטיות</a></li>
+					<li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/collab/N12_Contact.html"}><a href="https://www.mako.co.il/collab/N12_Contact.html?partner=NewsfooterLinks" target="_blank">צרו קשר</a></li>
+					<li data-domo-click={"content_type":"channel","clicked_item_id":"3d385dd2dd5d4110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":0,"clicked_channel_id":"3d385dd2dd5d4110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.ilmailto:mail@ch2news.co.il"}><a href="mailto:mail@ch2news.co.il?partner=NewsfooterLinks" target="_blank">המייל האדום</a></li>
+					<li data-domo-click={"content_type":"Article","clicked_item_id":"2cc76c5fee850710VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"04ee6a690395f610VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-israel/2020_q1/Article-2cc76c5fee85071026.htm"}><a href="/news-israel/2020_q1/Article-2cc76c5fee85071026.htm?partner=NewsfooterLinks" target="_blank">אודות</a></li>
+					<li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako-publishers.com/n12"}><a href="https://www.mako-publishers.com/n12?partner=NewsfooterLinks" target="_blank">פרסמו אצלנו</a></li>
+					<li data-domo-click={"content_type":"unknown","clicked_item_id":"unknown","click_type":"link","channel_depth":-1,"clicked_channel_id":"unknown","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://wa.me/972502010818"}><a href="https://wa.me/972502010818?partner=NewsfooterLinks" >לפנייה ב-WhatsApp</a></li>
+					<li data-domo-click={"content_type":"Article","clicked_item_id":"b7ff18a9de864710VgnVCM200000650a10acRCRD","click_type":"link","channel_depth":2,"clicked_channel_id":"5bb6bf4ccf39c110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/help-5bb6bf4ccf39c110/Article-b7ff18a9de86471026.htm"}><a href="https://www.mako.co.il/help-5bb6bf4ccf39c110/Article-b7ff18a9de86471026.htm?partner=NewsfooterLinks" >הסדרי נגישות</a></li>
+					<li data-domo-click={"content_type":"Article","clicked_item_id":"38d67bdbc0c56910VgnVCM100000700a10acRCRD","click_type":"link","channel_depth":3,"clicked_channel_id":"7892b3a2a4ac5910VgnVCM200000650a10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il/news-dailynews/2025_q2/Article-38d67bdbc0c5691027.htm"}><a href="https://www.mako.co.il/news-dailynews/2025_q2/Article-38d67bdbc0c5691027.htm?partner=NewsfooterLinks" >מפת האתר</a></li>
+					</ul>
+		</li>
+		<li class="last">
+		<div class="footer_logos">
+			<a class="acum_logo" href="https://acum.org.il/?partner=NewsFooterLinks" target="_blank"><img src="https://rcs.mako.co.il/images/news/acumlogo-svg-2x.png" alt="אקו&quot;ם"/></a>
+			<a data-domo-click={"content_type":"channel","clicked_item_id":"3d385dd2dd5d4110VgnVCM100000290c10acRCRD","click_type":"link","channel_depth":0,"clicked_channel_id":"3d385dd2dd5d4110VgnVCM100000290c10acRCRD","referring_component":"ddbff363b1e1f610VgnVCM100000700a10acRCRD","clicked_item_url":"https://www.mako.co.il"} class="mako_logo" href="https://www.mako.co.il/?partner=NewsFooterLinks"><img src="https://rcs.mako.co.il/images/news/mako-logo.png" alt="מאקו"/></a>
+		</div>
+	</li>
+	</ul>
+			
+	</div>							
+</footer>
+<script src="https://rcs.mako.co.il/js/polyfill.js"></script>
+    <script src="https://rcs.mako.co.il/js/news/configured-lobby/jsBundle.js"></script>
+    <script
+      type="text/javascript"
+      async="async"
+      src="//widgets.outbrain.com/outbrain.js"
+    ></script>
+  </body>
+</html>

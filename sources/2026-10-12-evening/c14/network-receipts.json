@@ -1,0 +1,744 @@
+[
+  {
+    "name": "n12-home",
+    "requestedUrl": "https://www.n12.co.il/",
+    "checkedAtUtc": "2026-10-12T19:25:39.306713+00:00",
+    "status": 200,
+    "finalUrl": "https://www.n12.co.il/",
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 666712,
+    "sha256": "1b7f77d33f63fc881d719ab58ec6be123690ecea7f0d220c418782473bff7fb1",
+    "extractSha256": "874033606e4878f7bfdc4ca38a119c5b5d7b553d8ba643eff969de2ca759cab0",
+    "visibleTextChars": 11079,
+    "images": 169,
+    "publicationEvidence": [],
+    "pollLinks": [
+      {
+        "href": "https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+        "text": "סקר חדשות 12 וינטר לא עובר את אחוז החסימה, הליכוד נחלשת נתניהו צונח בהתאמה לראשות הממשלה, 8% מהציבור עדיין מתלבט למי להצביע: זו תמונת המצב של הגושים דפנה ליאל, עופר חדד, עמית סגל | 21:00"
+      },
+      {
+        "href": "https://www.mako.co.il/news-shorts/2026-m10_w03/shorts-494cab3b05131a1026.htm",
+        "text": "21:22 סקר המדנטים: עופר וינטר לא עובר את אחוז החסימה, הליכוד נחלשת"
+      },
+      {
+        "href": "https://www.mako.co.il/news-israel-elections/2026/Article-06343a8a5f411a1026.htm",
+        "text": "בחירות 2026: התוצאה שלא רואים בסקרים דפנה ליאל"
+      }
+    ]
+  },
+  {
+    "name": "n12-politics",
+    "requestedUrl": "https://www.mako.co.il/news-politics",
+    "checkedAtUtc": "2026-10-12T19:25:39.306713+00:00",
+    "status": 200,
+    "finalUrl": "https://www.mako.co.il/news-politics",
+    "contentType": "text/html;charset=UTF-8",
+    "bytes": 111617,
+    "sha256": "3909f44cf8bff86eb4680de1e5919f4731742e789bed736558d6fc0e98cc7e30",
+    "extractSha256": "d13abcaf1bd7fbb9d335fb8fa5e39037e5685b8e0d0d6caf5dce72a5b12646f4",
+    "visibleTextChars": 2173,
+    "images": 21,
+    "publicationEvidence": [],
+    "pollLinks": [
+      {
+        "href": "/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+        "text": "סקר חדשות 12: וינטר נשאר רחוק מאחוז החסימה"
+      }
+    ]
+  },
+  {
+    "name": "n12-elections",
+    "requestedUrl": "https://www.mako.co.il/news-israel-elections/2026",
+    "checkedAtUtc": "2026-10-12T19:25:39.306713+00:00",
+    "status": 403,
+    "finalUrl": "https://www.mako.co.il/news-israel-elections/2026",
+    "contentType": "text/html",
+    "bytes": 224,
+    "sha256": "befa6aa7f8eef096e2b05bf4a13093a0ce65255fdfa41213c7d3bcb0061682d0",
+    "extractSha256": "9e1816e259353b0b75e7b95b3f2465e9df463b2d46d53b6499780e27ef5f6e0a",
+    "visibleTextChars": 206,
+    "images": 0,
+    "publicationEvidence": [],
+    "pollLinks": []
+  },
+  {
+    "name": "n12-article",
+    "requestedUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+    "checkedAtUtc": "2026-10-12T19:25:39.308723+00:00",
+    "status": 200,
+    "finalUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+    "contentType": "text/html;charset=utf-8",
+    "bytes": 163367,
+    "sha256": "768ad5f19fafc1a1e061d9a4bd1185bba330739d22eef443ebdf50b6b7ab1847",
+    "extractSha256": "4bb35eb647c9ffba5f54646d603f3a6eb21ebecdb7cb538dfec4db2b7c523648",
+    "visibleTextChars": 4302,
+    "images": 15,
+    "publicationEvidence": [
+      "\"datePublished\": \"2026-10-12T21:00:00+0300\"",
+      "\"datePublished\":\"2026-10-12T21:00:00+0300\""
+    ],
+    "pollLinks": [
+      {
+        "href": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+        "text": "סקר הקודם"
+      },
+      {
+        "href": "https://www.mako.co.il/Tagit/סקר+חדשות+12",
+        "text": "סקר חדשות 12"
+      },
+      {
+        "href": "https://www.mako.co.il/Tagit/סקר+מנדטים",
+        "text": "סקר מנדטים"
+      }
+    ],
+    "imageCandidates": [
+      {
+        "alt": "N12",
+        "title": "N12",
+        "src": "https://img.mako.co.il/2025/07/21/newLogo_N12.png",
+        "width": "87.2",
+        "height": "19.2"
+      },
+      {
+        "alt": "N12",
+        "title": "N12",
+        "src": "https://img.mako.co.il/2025/07/21/newLogo_N12.png",
+        "width": "87.2",
+        "height": "19.2"
+      },
+      {
+        "src": "https://img.mako.co.il/2024/06/20/socialButton-Mail-black.svg",
+        "alt": "מייל",
+        "title": "מייל",
+        "loading": "lazy",
+        "width": "24",
+        "height": "24"
+      },
+      {
+        "src": "https://img.mako.co.il/2024/06/20/socialButton-66Tiktok-white.svg",
+        "alt": "טיקטוק",
+        "title": "טיקטוק",
+        "loading": "lazy",
+        "width": "24",
+        "height": "24"
+      },
+      {
+        "src": "https://img.mako.co.il/2024/06/20/socialButton-8Insta-white.svg",
+        "alt": "אינסטגרם",
+        "title": "אינסטגרם",
+        "loading": "lazy",
+        "width": "24",
+        "height": "24"
+      },
+      {
+        "src": "https://img.mako.co.il/2024/06/20/socialButton-7facebook-white.svg",
+        "alt": "פייסבוק",
+        "title": "פייסבוק",
+        "loading": "lazy",
+        "width": "24",
+        "height": "24"
+      },
+      {
+        "src": "https://img.mako.co.il/2024/06/20/socialButton-1X-White.svg",
+        "alt": "X",
+        "title": "X",
+        "loading": "lazy",
+        "width": "24",
+        "height": "24"
+      },
+      {
+        "alt": "אשכולות",
+        "title": "אשכולות",
+        "src": "https://img.mako.co.il/2024/07/01/eshkolot_partners.png",
+        "loading": "lazy",
+        "width": "68",
+        "height": "23"
+      },
+      {
+        "src": "https://img.mako.co.il/2023/02/16/liel_daphna_column.png",
+        "class": "Avatar_avatar___pEOB Avatar_news__6_ivv",
+        "style": "--avatar-bg:#E0E0E0",
+        "width": "56",
+        "height": "56",
+        "alt": "דפנה ליאל",
+        "title": "דפנה ליאל",
+        "loading": "lazy"
+      },
+      {
+        "src": "https://img.mako.co.il/2022/07/25/OFER.png",
+        "class": "Avatar_avatar___pEOB Avatar_news__6_ivv",
+        "style": "--avatar-bg:#E0E0E0",
+        "width": "56",
+        "height": "56",
+        "alt": "עופר חדד",
+        "title": "עופר חדד",
+        "loading": "lazy"
+      },
+      {
+        "src": " https://img.mako.co.il/2026/10/11/D6VIN9ct88-file.png",
+        "alt": "",
+        "width": "100%"
+      },
+      {
+        "src": " https://img.mako.co.il/2026/10/11/q73jJTuA5q-file.png",
+        "alt": "",
+        "width": "100%"
+      },
+      {
+        "src": "https://img.mako.co.il/2026/06/03/bchirot.jpeg",
+        "alt": "בחירות 2026 - סקר הסקרים, סקר חדשות 12",
+        "width": "100%",
+        "height": "100%",
+        "caption": "false"
+      },
+      {
+        "alt": "N12",
+        "title": "N12",
+        "src": "https://img.mako.co.il/2025/08/10/n12logonewpost.png",
+        "width": "72.66666666666667",
+        "height": "16",
+        "loading": "lazy"
+      },
+      {
+        "src": "https://img.mako.co.il/2024/07/01/eshkolot_partners.png",
+        "alt": "אשכולות",
+        "title": "אשכולות",
+        "width": "68",
+        "height": "23",
+        "loading": "lazy"
+      }
+    ],
+    "inlineMedia": [
+      "https://img.mako.co.il/2021/03/21/Logo_News12_H_autoOrient_i.jpg",
+      "https://img.mako.co.il/2022/07/25/OFER.png",
+      "https://img.mako.co.il/2023/02/16/liel_daphna_column.png",
+      "https://img.mako.co.il/2024/07/01/eshkolot_partners.png",
+      "https://img.mako.co.il/2025/07/21/newLogo_N12.png",
+      "https://img.mako.co.il/2025/08/10/n12logonewpost.png",
+      "https://img.mako.co.il/2026/06/03/bchirot.jpeg",
+      "https://img.mako.co.il/2026/10/11/D6VIN9ct88-file.png",
+      "https://img.mako.co.il/2026/10/11/q73jJTuA5q-file.png",
+      "https://img.mako.co.il/2026/10/12/20seker_vtr2_n20261012_v1_0_I.jpg",
+      "https://img.mako.co.il/2026/10/12/n20-1210-Seker-ibud-2-1_re_autoOrient_w.jpg",
+      "https://rcs.mako.co.il/images/favicon/N12/android-icon-192x192.png",
+      "https://rcs.mako.co.il/images/favicon/N12/apple-touch-icon.png",
+      "https://rcs.mako.co.il/images/favicon/N12/favicon-16x16.png",
+      "https://rcs.mako.co.il/images/favicon/N12/favicon-32x32.png",
+      "https://rcs.mako.co.il/images/favicon/N12/favicon-96x96.png",
+      "https://rcs.mako.co.il/images/favicon/N12/favicon.png"
+    ]
+  },
+  {
+    "name": "c14-home",
+    "requestedUrl": "https://www.c14.co.il/",
+    "checkedAtUtc": "2026-10-12T19:25:39.308723+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 887943,
+    "sha256": "cb23d7d49832437e40179acd78fde7b1745631baf62f6714881eb29fd582809d",
+    "extractSha256": "9260b8bed7b481ebfb48133b0bac529019d9066bb2e015aac93b82ebbb01359e",
+    "visibleTextChars": 9364,
+    "images": 272,
+    "publicationEvidence": [],
+    "pollLinks": [
+      {
+        "href": "/article/1735305",
+        "text": "סקר חדשות 14 דרמה במפת הגושים: זו המפלגה שעוברת לראשונה את אחוז החסימה 32 תגובות 32 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735363",
+        "text": "דעה יממה אחרי האזהרה של נתניהו: המלכודת הפוליטית שמסתתרת בסקר נתניהו מכיר את הנדל וזליכה - ולא ממהר לסמוך עליהם לפני כשעה מתי טוכפלד"
+      },
+      {
+        "href": "/article/1735355",
+        "text": "בחירות 2026 נתון חריג בסקר חדשות 14: כמעט כל הנשאלים כבר החליטו החדשות לפני כשעה"
+      },
+      {
+        "href": "/article/1735353",
+        "text": "סקר חדשות 14 למרות ההתבטאות נגד נתניהו: האם וינטר יכול להיות שותף בימין? לפני כשעה"
+      },
+      {
+        "href": "/article/1735363",
+        "text": "יממה אחרי האזהרה של נתניהו: המלכודת הפוליטית שמסתתרת בסקר לפני כשעה"
+      },
+      {
+        "href": "/article/1735305",
+        "text": "סקר חדשות 14 דרמה במפת הגושים: זו המפלגה שעוברת לראשונה את אחוז החסימה לפני כשעה"
+      },
+      {
+        "href": "/article/1735355",
+        "text": "נתון חריג בסקר חדשות 14: כמעט כל הנשאלים כבר החליטו 3 תגובות 3 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735327",
+        "text": "סקר חדשות 14 בעקבות עדות מנדלבליט: האם הציבור תומך בביטול משפט נתניהו? 6 תגובות 6 לפני כשעה החדשות"
+      }
+    ]
+  },
+  {
+    "name": "c14-politics",
+    "requestedUrl": "https://www.c14.co.il/archive/65839",
+    "checkedAtUtc": "2026-10-12T19:25:39.308723+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/archive/65839",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 236856,
+    "sha256": "da7dff332a9a2e5496cf6b51476edeff980556e913084f09b672200a02474d9a",
+    "extractSha256": "55eb88777609119125e3664537315df9f5f5a5cb629e5e4c5589141abd8f1ca3",
+    "visibleTextChars": 3283,
+    "images": 36,
+    "publicationEvidence": [
+      "\"datePublished\":\"2026-10-12T21:39:54+03:00\"",
+      "\"datePublished\":\"2026-10-12T21:17:38+03:00\"",
+      "\"datePublished\":\"2026-10-12T21:10:25+03:00\"",
+      "\"datePublished\":\"2026-10-12T21:03:53+03:00\"",
+      "\"datePublished\":\"2026-10-12T20:46:45+03:00\""
+    ],
+    "pollLinks": [
+      {
+        "href": "/article/1735355",
+        "text": "נתון חריג בסקר חדשות 14: כמעט כל הנשאלים כבר החליטו לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735353",
+        "text": "סקר חדשות 14 למרות ההתבטאות נגד נתניהו: האם וינטר יכול להיות שותף בימין? 13 תגובות 13 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735363",
+        "text": "דעה יממה אחרי האזהרה של נתניהו: המלכודת הפוליטית שמסתתרת בסקר לפני כשעה מתי טוכפלד"
+      },
+      {
+        "href": "/article/1735305",
+        "text": "סקר חדשות 14 דרמה במפת הגושים: זו המפלגה שעוברת לראשונה את אחוז החסימה 31 תגובות 31 לפני כשעה החדשות"
+      }
+    ]
+  },
+  {
+    "name": "c14-elections",
+    "requestedUrl": "https://www.c14.co.il/elections26",
+    "checkedAtUtc": "2026-10-12T19:25:39.660836+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/elections26",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 224271,
+    "sha256": "f4e8f4a05a7d05c32552ccb26afd663c43291510e77fd0d419ec239ee8173e74",
+    "extractSha256": "489d7f5535edee90b35b7bd32e98a88ed2766ac5f4ab2f9e2611e3aad7efd081",
+    "visibleTextChars": 1086,
+    "images": 7,
+    "publicationEvidence": [],
+    "pollLinks": []
+  },
+  {
+    "name": "c14-mandates",
+    "requestedUrl": "https://www.c14.co.il/archive/53747",
+    "checkedAtUtc": "2026-10-12T19:25:39.702142+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/archive/53747",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 241429,
+    "sha256": "bbdeebc68003850154b9cdcba016634538d98457bda89f2b392aef19f371e1c7",
+    "extractSha256": "bea4864cfb87fc8bc2e73aff4e56e9f0bd3053c47611b590393c910638380b06",
+    "visibleTextChars": 3401,
+    "images": 47,
+    "publicationEvidence": [
+      "\"datePublished\":\"2026-10-12T20:32:51+03:00\"",
+      "\"datePublished\":\"2026-10-07T20:35:52+03:00\"",
+      "\"datePublished\":\"2026-10-07T20:34:55+03:00\"",
+      "\"datePublished\":\"2026-10-01T21:03:36+03:00\"",
+      "\"datePublished\":\"2026-09-28T20:28:22+03:00\""
+    ],
+    "pollLinks": [
+      {
+        "href": "/archive/53747",
+        "text": "סקר מנדטים"
+      },
+      {
+        "href": "/article/1735305",
+        "text": "סקר חדשות 14 דרמה במפת הגושים: זו המפלגה שעוברת לראשונה את אחוז החסימה 29 תגובות 29 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1728552",
+        "text": "סקר חדשות 14: איזנקוט מצמצם דרמטית את הפער מנתניהו 21 תגובות 21 07.10.26 החדשות"
+      },
+      {
+        "href": "/article/1728516",
+        "text": "ראיתם את זה בא? דרמטי: המפלגה שמתרסקת בסקרים ומתקרבת לאחוז החסימה 95 תגובות 95 07.10.26 החדשות"
+      },
+      {
+        "href": "/article/1720749",
+        "text": "סקר חדשות 14 מתקרבים לרגע האמת: כך נראית מפת המנדטים המעודכנת 68 תגובות 68 01.10.26 אפרת ברינר"
+      },
+      {
+        "href": "/article/1716250",
+        "text": "סקר חדשות 14: בנט מתחזק, איזנקוט נחלש - ומה עם וינטר? 57 תגובות 57 28.09.26 החדשות"
+      },
+      {
+        "href": "/article/1711606",
+        "text": "סקר חדשות 14 וינטר בקריסה - הפער בין נתניהו לאיזנקוט מצטמצם משמעותית גוש הימין שומר על רוב של 63 מנדטים 89 תגובות 89 23.09.26 אפרת ברינר"
+      },
+      {
+        "href": "/article/1703304",
+        "text": "סקר חדשות 14 הציבור בוחן חלופות? המפלגות הקטנות מתחילות להרים ראש 41 תגובות 41 15.09.26 החדשות"
+      },
+      {
+        "href": "/article/1693697",
+        "text": "סקר חדשות 14: כמה מניב איחוד הנדל-זליכה - והאם וינטר עובר? 68 תגובות 68 07.09.26 החדשות"
+      },
+      {
+        "href": "/article/1693649",
+        "text": "הערב ב-19:50 רגע לפני סגירת הרשימות לכנסת: סקר מנדטים מיוחד מי עובר את אחוז החסימה, ומה תמונת הגושים החדשה? 3 תגובות 3 07.09.26 החדשות"
+      },
+      {
+        "href": "/article/1692644",
+        "text": "דעה המספרים בסקרים מתהפכים - והשקר שניסו למכור לציבור נחשף 27 תגובות 27 07.09.26 יעקב ברדוגו"
+      },
+      {
+        "href": "/article/1690265",
+        "text": "סקר חדשות 14 תוצאות האיחוד: סמוטריץ' ופייגלין בפנים - וינטר בחוץ 31 תגובות 31 03.09.26 החדשות"
+      },
+      {
+        "href": "/article/1683992",
+        "text": "למרות קמפיין הגעוואלד זה מספר המנדטים שמקבל איתמר בן גביר בסקר חדשות 14 52 תגובות 52 30.08.26 אפרת ברינר"
+      },
+      {
+        "href": "/article/1681141",
+        "text": "סקר מנדטים דרמטי: טלטלה בגוש הימין לאחר הצטרפות וינטר וגם - ההתחזקות המשמעותית של הרשימה המשותפת 54 תגובות 54 27.08.26 החדשות"
+      },
+      {
+        "href": "/article/1674991",
+        "text": "סקר חדשות 14: לאחר ההכרזה - כמה מנדטים שווה עופר וינטר? 70 תגובות 70 24.08.26 החדשות"
+      },
+      {
+        "href": "/article/1666804",
+        "text": "סקר חדשות 14 53% מאמינים שרשימת הליכוד החדשה תחזק את הסיכויים בבחירות 18.08.26 דסק C14"
+      },
+      {
+        "href": "/article/1666708",
+        "text": "התרסקות מפוארת סקר חדשות 14: מפלגת ביחד של בנט ולפיד מתקרבת לאחוז החסימה 69 תגובות 69 18.08.26 החדשות"
+      },
+      {
+        "href": "/article/1661612",
+        "text": "הראשונים לזהות הסקרים של חדשות 14 מקדימים את הערוצים האחרים במגמתיות האם מדובר בשיטת דגימה מדויקת יותר או ב\"הנדסת תודעה\"? 39 תגובות 39 15.08.26 תמיר שנייד"
+      },
+      {
+        "href": "/article/1655982",
+        "text": "סקר חדשות 14: הליכוד מתחזקת - על חשבון המפלגות החרדיות 67 תגובות 67 10.08.26 החדשות"
+      },
+      {
+        "href": "/article/1646973",
+        "text": "סקר חדשות 14 הפער נמחק: סמוטריץ' ובן גביר משתווים במנדטים 52 תגובות 52 04.08.26 דסק C14"
+      },
+      {
+        "href": "/article/1639107",
+        "text": "סקר חדשות 14 איזנקוט והדמוקרטים נחלשים, גוש הימין נשאר יציב 47 תגובות 47 29.07.26 החדשות"
+      }
+    ]
+  },
+  {
+    "name": "c14-article",
+    "requestedUrl": "https://www.c14.co.il/article/1735305",
+    "checkedAtUtc": "2026-10-12T19:25:39.735693+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/article/1735305",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 211541,
+    "sha256": "c0e6c97ab86d25a5aa41d85836f7aff841cb29a9fbafb39c7a9c7456fbd251bc",
+    "extractSha256": "2d4e89387510db28e7470001664e9750ec6110f798314d1c6594a4b47de27090",
+    "visibleTextChars": 4274,
+    "images": 33,
+    "publicationEvidence": [
+      "\"datePublished\":\"2026-10-12T20:32:51+03:00\"",
+      "\"dateModified\":\"2026-10-12T20:35:38+03:00\""
+    ],
+    "pollLinks": [
+      {
+        "href": "https://www.c14.co.il/archive/53747",
+        "text": "לאחר הסקר הקודם"
+      },
+      {
+        "href": "/article/1728516",
+        "text": "דרמטי: המפלגה שמתרסקת בסקרים ומתקרבת לאחוז החסימה 07.10.26 | החדשות"
+      },
+      {
+        "href": "/archive/74648",
+        "text": "סקר חדשות 14"
+      },
+      {
+        "href": "/archive/53747",
+        "text": "סקר מנדטים"
+      },
+      {
+        "href": "/article/1735355",
+        "text": "נתון חריג בסקר חדשות 14: כמעט כל הנשאלים כבר החליטו לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735353",
+        "text": "סקר חדשות 14 למרות ההתבטאות נגד נתניהו: האם וינטר יכול להיות שותף בימין? 13 תגובות 13 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735327",
+        "text": "סקר חדשות 14 בעקבות עדות מנדלבליט: האם הציבור תומך בביטול משפט נתניהו? 6 תגובות 6 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735363",
+        "text": "דעה יממה אחרי האזהרה של נתניהו: המלכודת הפוליטית שמסתתרת בסקר לפני כשעה מתי טוכפלד"
+      }
+    ],
+    "imageCandidates": [
+      {
+        "alt": "",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "object-cover w-full h-full transition-transform duration-300 group-hover:scale-[1.03]",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "sizes": "(min-width: 768px) 178px, 128px",
+        "srcset": "https://www.c14.co.il/images/300/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 300w, https://www.c14.co.il/images/640/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 640w, https://www.c14.co.il/images/750/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 750w, https://www.c14.co.il/images/828/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 828w, https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 1080w, https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 1200w, https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 1920w, https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 2048w, https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png 3840w",
+        "src": "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png"
+      },
+      {
+        "loading": "lazy",
+        "decoding": "async",
+        "class": "aligncenter size-full wp-image-1735324",
+        "src": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2.jpeg",
+        "alt": "תמונת כתבה",
+        "width": "1600",
+        "height": "900",
+        "srcset": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2.jpeg 1600w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-300x169.jpeg 300w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-1024x576.jpeg 1024w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-768x432.jpeg 768w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-1536x864.jpeg 1536w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-400x225.jpeg 400w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-809x455.jpeg 809w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-240x135.jpeg 240w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-1200x675.jpeg 1200w",
+        "sizes": "auto, (max-width: 1600px) 100vw, 1600px",
+        "style": "border-radius:6px"
+      },
+      {
+        "loading": "lazy",
+        "decoding": "async",
+        "class": "aligncenter size-full wp-image-1735323",
+        "src": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1.jpeg",
+        "alt": "תמונת כתבה",
+        "width": "1600",
+        "height": "900",
+        "srcset": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1.jpeg 1600w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-300x169.jpeg 300w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-1024x576.jpeg 1024w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-768x432.jpeg 768w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-1536x864.jpeg 1536w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-400x225.jpeg 400w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-809x455.jpeg 809w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-240x135.jpeg 240w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-1200x675.jpeg 1200w",
+        "sizes": "auto, (max-width: 1600px) 100vw, 1600px",
+        "style": "border-radius:6px"
+      },
+      {
+        "loading": "lazy",
+        "decoding": "async",
+        "class": "aligncenter size-full wp-image-1735325",
+        "src": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28.jpeg",
+        "alt": "תמונת כתבה",
+        "width": "1600",
+        "height": "900",
+        "srcset": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28.jpeg 1600w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-300x169.jpeg 300w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1024x576.jpeg 1024w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-768x432.jpeg 768w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1536x864.jpeg 1536w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-400x225.jpeg 400w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-809x455.jpeg 809w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-240x135.jpeg 240w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1200x675.jpeg 1200w",
+        "sizes": "auto, (max-width: 1600px) 100vw, 1600px",
+        "style": "border-radius:6px"
+      },
+      {
+        "loading": "lazy",
+        "decoding": "async",
+        "class": "aligncenter size-full wp-image-1735321",
+        "src": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4.jpeg",
+        "alt": "תמונת כתבה",
+        "width": "1600",
+        "height": "900",
+        "srcset": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4.jpeg 1600w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-300x169.jpeg 300w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-1024x576.jpeg 1024w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-768x432.jpeg 768w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-1536x864.jpeg 1536w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-400x225.jpeg 400w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-809x455.jpeg 809w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-240x135.jpeg 240w, https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-1200x675.jpeg 1200w",
+        "sizes": "auto, (max-width: 1600px) 100vw, 1600px",
+        "style": "border-radius:6px"
+      },
+      {
+        "alt": "",
+        "loading": "lazy",
+        "decoding": "async",
+        "data-nimg": "fill",
+        "class": "w-full h-full object-cover object-center rounded-[5px] lg:rounded-[3px]",
+        "style": "position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent",
+        "sizes": "100vw",
+        "srcset": "https://www.c14.co.il/images/640/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 640w, https://www.c14.co.il/images/750/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 750w, https://www.c14.co.il/images/828/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 828w, https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 1080w, https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 1200w, https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 1920w, https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 2048w, https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg 3840w",
+        "src": "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg"
+      }
+    ],
+    "inlineMedia": [
+      "http://www.c14.co.il/wp-content/uploads/2024/07/Logo14.b9f09d86.png",
+      "https%3A%2F%2Fwww.c14.co.il%2Fwp-content%2Fuploads%2F2025%2F12%2F%D7%94%D7%95%D7%A8%D7%93%D7%94-5.jpg",
+      "https%3A%2F%2Fwww.c14.co.il%2Fwp-content%2Fuploads%2F2026%2F02%2F%D7%A2%D7%99%D7%A6%D7%95%D7%91-%D7%9E%D7%93%D7%95%D7%A8-%D7%93%D7%A2%D7%95%D7%AA-%D7%9C%D7%90-%D7%9C%D7%92%D7%A2%D7%AA-1-1-e1775748438950.png",
+      "https://channel14.vod.immergo.tv/channel14/transcoded/7451af52-99e5-4394-8977-d57b0e3e77c7/poster.jpg",
+      "https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/1080/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/1200/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/1920/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/2048/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/300/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/3840/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/640/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/640/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/640/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/640/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/640/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/640/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/750/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/750/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/750/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/750/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/750/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/750/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/images/828/90/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/images/828/90/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/images/828/90/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/images/828/90/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/images/828/90/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/images/828/90/wp-content/uploads/2026/10/videoframe_77177-150x150.png",
+      "https://www.c14.co.il/wp-content/uploads/2023/06/shutterstock_1528148102-scaled.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2024/02/צילום-מסך-2024-02-28-125013.png",
+      "https://www.c14.co.il/wp-content/uploads/2024/03/GJ8ot0KWQAAIyVR-scaled-e1767190313756-809x572.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2024/07/2024-07-11T230113Z_908778345_RC2AT8AP6VKN_RTRMADP_3_NATO-SUMMIT-scaled.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2025/03/logo.png",
+      "https://www.c14.co.il/wp-content/uploads/2025/11/עיצובים-שלומי-חי-4.png",
+      "https://www.c14.co.il/wp-content/uploads/2025/12/הורדה-5.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/02/עיצוב-מדור-דעות-לא-לגעת-1-1-e1775748438950.png",
+      "https://www.c14.co.il/wp-content/uploads/2026/05/עיצובים-שלומי-חי-2026-05-12T113929.158-809x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/07/F200813OF04-800x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/08/%D7%A2%D7%99%D7%A6%D7%95%D7%91%D7%99%D7%9D-%D7%A9%D7%9C%D7%95%D7%9E%D7%99-%D7%97%D7%99-2026-08-30T210132.816-1200x630.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/08/ASAF_0430_012b6c3257-809x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/08/עיצוב-מדור-דעות-לא-לגעת-7.png",
+      "https://www.c14.co.il/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-23T113617.735-809x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T144905.957-scaled-e1788213933161-809x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T210132.816-1200x630.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/08/עיצובים-שלומי-חי-2026-08-30T210132.816-809x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/09/עיצובים-שלומי-חי-2026-09-17T102227.443-809x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/09/צילום-מסך-2026-09-09-184340-e1788968807612.png",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/F260917FFF0020-809x455.jpg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-1024x576.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-1200x675.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-1536x864.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-240x135.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-300x169.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-400x225.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-768x432.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4-809x455.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-1024x576.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-1200x675.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-1536x864.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-240x135.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-300x169.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-400x225.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-768x432.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1-809x455.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1024x576.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1200x675.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1536x864.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-1024x576.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-1200x675.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-1536x864.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-240x135.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-300x169.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-400x225.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-768x432.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2-809x455.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-240x135.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-300x169.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-400x225.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-768x432.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-809x455.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28.jpeg",
+      "https://www.c14.co.il/wp-content/uploads/2026/10/videoframe_77177-150x150.png"
+    ]
+  },
+  {
+    "name": "c14-undecided",
+    "requestedUrl": "https://www.c14.co.il/article/1735355",
+    "checkedAtUtc": "2026-10-12T19:25:39.821844+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/article/1735355",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 200046,
+    "sha256": "5b13630385c78b2241262c60e5e2f03a3aee89b7f64a99b5baa3a90589d1eec0",
+    "extractSha256": "4604f09e0f45969caf15fded486a74b21863146807f550cc2709eff2c658f430",
+    "visibleTextChars": 3901,
+    "images": 31,
+    "publicationEvidence": [
+      "\"datePublished\":\"2026-10-12T21:17:38+03:00\"",
+      "\"dateModified\":\"2026-10-12T21:17:38+03:00\""
+    ],
+    "pollLinks": [
+      {
+        "href": "/archive/74648",
+        "text": "סקר חדשות 14"
+      },
+      {
+        "href": "/article/1735353",
+        "text": "סקר חדשות 14 למרות ההתבטאות נגד נתניהו: האם וינטר יכול להיות שותף בימין? 13 תגובות 13 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735327",
+        "text": "סקר חדשות 14 בעקבות עדות מנדלבליט: האם הציבור תומך בביטול משפט נתניהו? 6 תגובות 6 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735363",
+        "text": "דעה יממה אחרי האזהרה של נתניהו: המלכודת הפוליטית שמסתתרת בסקר לפני כשעה מתי טוכפלד"
+      }
+    ]
+  },
+  {
+    "name": "c14-winter",
+    "requestedUrl": "https://www.c14.co.il/article/1735353",
+    "checkedAtUtc": "2026-10-12T19:25:39.876053+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/article/1735353",
+    "contentType": "text/html; charset=utf-8",
+    "bytes": 192000,
+    "sha256": "93d9e236f928bef70ec709714544b99b549e0c67b6c8678da43c9c9905a3b1c3",
+    "extractSha256": "a6f5a4acef67fd5179f03b2571823268d30f623d685a946ea2a5d1a3fe507df2",
+    "visibleTextChars": 2775,
+    "images": 25,
+    "publicationEvidence": [
+      "\"datePublished\":\"2026-10-12T21:03:53+03:00\"",
+      "\"dateModified\":\"2026-10-12T21:03:53+03:00\""
+    ],
+    "pollLinks": [
+      {
+        "href": "/archive/74648",
+        "text": "סקר חדשות 14"
+      },
+      {
+        "href": "/article/1735355",
+        "text": "נתון חריג בסקר חדשות 14: כמעט כל הנשאלים כבר החליטו לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735327",
+        "text": "סקר חדשות 14 בעקבות עדות מנדלבליט: האם הציבור תומך בביטול משפט נתניהו? 6 תגובות 6 לפני כשעה החדשות"
+      },
+      {
+        "href": "/article/1735363",
+        "text": "דעה יממה אחרי האזהרה של נתניהו: המלכודת הפוליטית שמסתתרת בסקר לפני כשעה מתי טוכפלד"
+      }
+    ]
+  }
+]

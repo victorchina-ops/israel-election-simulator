@@ -1,0 +1,74 @@
+[
+  {
+    "file": "n12-inline-0.png",
+    "url": "https://img.mako.co.il/2026/10/11/D6VIN9ct88-file.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 67155,
+    "sha256": "b2a636b01deeaf32ed6dcf4f3eccdf18578ccef44cee4bf6d7ee2cae5acfe19d",
+    "checkedAtUtc": "2026-10-12T19:26:10.927152+00:00"
+  },
+  {
+    "file": "n12-inline-1.png",
+    "url": "https://img.mako.co.il/2026/10/11/q73jJTuA5q-file.png",
+    "status": 200,
+    "contentType": "image/png",
+    "bytes": 708725,
+    "sha256": "6ae31bb630d592ee14f9f11adf45025d13010d7832f96916ddfb698f7b1d9cde",
+    "checkedAtUtc": "2026-10-12T19:26:12.365904+00:00"
+  },
+  {
+    "file": "n12-primary-2.jpg",
+    "url": "https://img.mako.co.il/2026/10/12/20seker_vtr2_n20261012_v1_0_I.jpg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 32942,
+    "sha256": "d1b65caa2680993211b7fcfdb1997a92a6bbb9c5745f041108e8b016225e25ea",
+    "checkedAtUtc": "2026-10-12T19:26:12.618347+00:00"
+  },
+  {
+    "file": "n12-primary-3.jpg",
+    "url": "https://img.mako.co.il/2026/10/12/n20-1210-Seker-ibud-2-1_re_autoOrient_w.jpg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 133945,
+    "sha256": "451bb647fe66d171a390bc95ce21bddd7815a2db2bb50fe228ceaf51b15024e7",
+    "checkedAtUtc": "2026-10-12T19:26:12.927103+00:00"
+  },
+  {
+    "file": "c14-primary-4.jpeg",
+    "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2.jpeg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 197728,
+    "sha256": "0f140e55d4af0bab405b701530a105f4928bd90221fdbca5cee542d513636489",
+    "checkedAtUtc": "2026-10-12T19:26:13.268966+00:00"
+  },
+  {
+    "file": "c14-primary-5.jpeg",
+    "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-1.jpeg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 110142,
+    "sha256": "5124d7ef1bc9663fcb4f49d5785793e545a9de81d956b6e605f73336f14d574f",
+    "checkedAtUtc": "2026-10-12T19:26:13.592709+00:00"
+  },
+  {
+    "file": "c14-primary-6.jpeg",
+    "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28.jpeg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 140315,
+    "sha256": "1092f1e1c351ec7d5cfb4d71028f29300c101e0b327811f67c8d6911338f2e64",
+    "checkedAtUtc": "2026-10-12T19:26:13.912102+00:00"
+  },
+  {
+    "file": "c14-primary-7.jpeg",
+    "url": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.27-4.jpeg",
+    "status": 200,
+    "contentType": "image/jpeg",
+    "bytes": 136829,
+    "sha256": "0f054dfc9a163600cd2403535378e2f67af71969d14f41540a69bb7148201f97",
+    "checkedAtUtc": "2026-10-12T19:26:14.231019+00:00"
+  }
+]

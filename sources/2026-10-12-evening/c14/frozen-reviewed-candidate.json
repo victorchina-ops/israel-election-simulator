@@ -1,0 +1,166 @@
+{
+  "publicationTimeZone": "Asia/Jerusalem",
+  "date": "2026-10-12",
+  "checkedAt": "2026-10-12",
+  "reviewedAtUtc": "2026-10-12T19:31:11.726177+00:00",
+  "fieldworkStart": "2026-10-12",
+  "fieldworkEnd": "2026-10-12",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "reportedMarginOfErrorConfidencePct": null,
+  "percentageDenominator": null,
+  "panelProvider": null,
+  "publishedBounds": {},
+  "statusLabel": "סקר חדש — המנדטים ותאריך האיסוף אומתו במקור המקורי",
+  "id": "next_data_2026-10-12",
+  "pollsterId": "next_data",
+  "pollster": "NEXT DATA — שלמה פילבר",
+  "publisher": "חדשות 14",
+  "publicationTime": "20:32",
+  "publishedAt": "2026-10-12T20:32:51+03:00",
+  "updatedAt": "2026-10-12T20:35:38+03:00",
+  "dateKind": "פרסום12.10.2026; המקור הראשוני מציין במפורש שהסקר נערך היום12 באוקטובר2026",
+  "sampleSize": 538,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://www.c14.co.il/article/1735305",
+  "samplingMethod": null,
+  "population": "בוגרים מכלל האוכלוסייה",
+  "reportedMarginOfErrorPct": null,
+  "undecidedPct": 5.0,
+  "undecidedDenominatorVerified": false,
+  "seats": {
+    "likud": 29,
+    "yashar": 20,
+    "shas": 10,
+    "democrats": 10,
+    "utj": 8,
+    "joint": 8,
+    "rz_zehut": 7,
+    "otzma": 7,
+    "beyachad": 7,
+    "yisrael_beiteinu": 5,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "noam": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 2.9,
+    "noam": 0.9,
+    "gantz": 0.6,
+    "haredi_public": 0.6,
+    "other": 0.1
+  },
+  "reportedPercentages": {
+    "winter": 2.9,
+    "noam": 0.9,
+    "gantz": 0.6,
+    "haredi_public": 0.6
+  },
+  "knownPercentageSum": 5.1,
+  "originalCoveragePct": 5.1,
+  "unmodelledNamedParties": [
+    {
+      "name": "אח״י — חוזרים לשורשים",
+      "seats": 0,
+      "pct": 0.1,
+      "mappedTo": "other",
+      "sourceUrl": "https://www.c14.co.il/article/1735305"
+    }
+  ],
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "sourceUrl": "https://www.c14.co.il/article/1735305",
+  "secondarySourceUrls": [
+    "https://www.c14.co.il/article/1735355",
+    "https://www.c14.co.il/article/1735353",
+    "https://www.c14.co.il/",
+    "https://www.c14.co.il/archive/65839",
+    "https://www.c14.co.il/elections26",
+    "https://www.c14.co.il/archive/53747",
+    "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-12-at-19.32.28-2.jpeg"
+  ],
+  "replacesPollId": "next_data_2026-10-07",
+  "sourceBlocSeats": {
+    "coalition": 61,
+    "opposition": 46,
+    "arab_parties": 13
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "גוש ימין לפי ערוץ14",
+    "opposition": "גוש שמאל לפי ערוץ14; כולל4 המנדטים של המילואימניקים והכלכלית",
+    "arab_parties": "הרשימה המשותפת ורע״ם"
+  },
+  "sourceBlocReconciliation": {
+    "publishedLeftIncludesHendel": true,
+    "fixedNonArabOppositionExcludingHendel": 42,
+    "fixedUnassignedHendel": 4,
+    "same120PartyVector": true,
+    "sitePartyAssignmentsUnchanged": true
+  },
+  "notes": [
+    "סקר NEXT DATA חדש שנערך12.10;538 משיבים. מחליף בשקלול הפעיל את סקר7.10, שנשמר בהיסטוריה.",
+    "וקטור12 הרשימות העוברות והאחוזים מתחת לחסימה אומתו ויזואלית בגרפיקה המקורית בכתבת ערוץ14, וגם בטקסט.",
+    "מתחת לחסימה פורסמו עמך ישראל2.9%, נעם0.9%, כחול לבן0.6%, הציבור החרדי0.6%, אח״י–חוזרים לשורשים0.1%. אחוזי הרשימות העוברות לא פורסמו במקור שנבדק.",
+    "0.1% שפורסם לאח״י נשמר בשם המקור וממופה לאחרים במודל בלבד; אינו אחוז שפורסם לכל יתר הרשימות. אין לאפס ישראל תחילה או אחוזים חסרים.",
+    "הגרפיקה המקורית מציגה ימין61, שמאל46, ערביות13. הגדרת שמאל כוללת את4 מנדטי הנדל–זליכה: בהגדרה הקבועה הנפרדת הם42 אופוזיציה ו־4 לא משויכים. נשמרת הגדרת המקור ואין ספירה כפולה של הנדל.",
+    "הכתבות1735355 ו־1735353 הן כתבות המשך על אותה תצפית12.10, ולא סקרים נוספים.1735355 מאשרת95% החליטו ו־5% לא החליטו.",
+    "שיטת האיסוף והדגימה, מוזמנים, טעות דגימה ומכנה האחוזים אינם מפורטים במקורות הראשוניים שנבדקו ונשארים חסרים."
+  ],
+  "percentageSourceUrls": {
+    "winter": "https://www.c14.co.il/article/1735305",
+    "noam": "https://www.c14.co.il/article/1735305",
+    "gantz": "https://www.c14.co.il/article/1735305",
+    "haredi_public": "https://www.c14.co.il/article/1735305"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "hendel",
+    "israel_first"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "israel_first"
+  ],
+  "sourceDocument": {
+    "fileName": "c14-article.html",
+    "kind": "web-page",
+    "sha256": "c0e6c97ab86d25a5aa41d85836f7aff841cb29a9fbafb39c7a9c7456fbd251bc",
+    "extractFileName": "c14-article.txt",
+    "extractSha256": "e453be7ff3068e17d49faf5be53382306ea69d6a345254d5b49f0cbb9dd46aec",
+    "reviewedAt": "2026-10-12",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.c14.co.il/article/1735305",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "percentageDenominator",
+      "full-passing-party-percentages",
+      "fieldworkStartTime",
+      "fieldworkEndTime"
+    ],
+    "originalGraphicFileName": "c14-primary-4.jpeg",
+    "originalGraphicSha256": "0f140e55d4af0bab405b701530a105f4928bd90221fdbca5cee542d513636489",
+    "graphicProvidedBy": "original-publisher",
+    "originalGraphicVisuallyVerified": true
+  }
+}

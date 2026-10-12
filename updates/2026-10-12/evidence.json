@@ -1,0 +1,44 @@
+{
+  "asOf": "2026-10-12",
+  "arePublishedPollResults": true,
+  "areSimulatedProbabilities": false,
+  "areModelForecasts": false,
+  "comparison": "Two institutes, same publication/fieldworkdate; not a time trend or significance test.",
+  "sameCoalitionPartyDefinition": [
+    "likud",
+    "shas",
+    "utj",
+    "otzma",
+    "rz_zehut",
+    "winter",
+    "noam"
+  ],
+  "publishedSeats": [
+    {
+      "label": "חדשות 12",
+      "seats": 49,
+      "source": "https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+      "publisher": "חדשות 12"
+    },
+    {
+      "label": "חדשות 14",
+      "seats": 61,
+      "source": "https://www.c14.co.il/article/1735305",
+      "publisher": "חדשות 14"
+    }
+  ],
+  "plotDomainSeats": [
+    0,
+    120
+  ],
+  "majoritySeats": 61,
+  "differenceSeats": 12,
+  "sourceCandidateHashes": {
+    "reviewed-n12-poll.json": "38b7fb050b7e3188504a713b8e75d9a3f0051439dfbf1549940bfca9ccbfd725",
+    "reviewed-c14-poll.json": "8d300e33e25ca1a881d8d98e85fb07104cfd897fccfc970657f1b5f1770609ed"
+  },
+  "C14SourceLeftIncludesHendel": true,
+  "statisticalSignificanceClaim": null,
+  "tweetPublished": false,
+  "publicSimulatorUrl": "https://victorchina-ops.github.io/israel-election-simulator/"
+}
