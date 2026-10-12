@@ -1,0 +1,8 @@
+{
+  "asOf": "2026-10-12",
+  "runId": "readback-validator-r1",
+  "scope": "Post-publication verification only; all polls, model outputs, statistical analyses and published HTML unchanged.",
+  "originalReproducerPreserved": "reproduction/readback-poll-update-2026-10-12.py",
+  "revisedReproducer": "reproduction/readback-poll-update-2026-10-12-r1.py",
+  "reason": "The unchanged official runtime contains an inert JavaScript lookup for data-app-local-thread. Revision checks that the actual local-thread meta tag and identifier are absent, rather than rejecting the lookup string. The original byte-matching verification passed before this overly broad assertion failed. No successful receipt was written by the original attempt."
+}
