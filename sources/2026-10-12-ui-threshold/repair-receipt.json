@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "changedFile": "dashboard/src/content/dashboard/threshold-page.css",
+  "beforeSha256": "94b876c3f269fcedf4ef8be26eabdc21dd9108210bb738c7de06820041beea9d",
+  "afterSha256": "bea32b21dafa052462b982088fc7cf3932c1110f301d758b66d0434b3caa2575",
+  "repair": "Size containment stops the logo rail enlarging the parent chart; flex shrink retains native row centers and existing mobile basis. All native marks and chart APIs unchanged.",
+  "allPollDataAndSnapshotUnchanged": true,
+  "allOtherAuthorContentUnchanged": true,
+  "protectedRuntimeEdited": false
+}

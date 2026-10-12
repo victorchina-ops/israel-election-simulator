@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "presentationDate": "2026-10-12",
+  "changedFile": "dashboard/src/content/dashboard/threshold-page.css",
+  "beforeSha256": "bea32b21dafa052462b982088fc7cf3932c1110f301d758b66d0434b3caa2575",
+  "afterSha256": "315e690dfcf35fe8ccaee4859ae6e031433771c74a3b8b1cd3e8101eea1aa9db",
+  "scope": "Only the threshold chart copy grid-item minimumwidth is reset. The existing native label ellipsis remains; full party/value aria-label, marks, controls, text and data stay intact.",
+  "protectedRuntimeEdited": false
+}

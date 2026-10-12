@@ -1,0 +1,117 @@
+{
+  "asOf": "2026-10-12",
+  "checkedAtUtc": "2026-10-12T10:12:00Z",
+  "status": "no-new-distinct-verified-poll-in-observed-print-sources",
+  "newDistinctVerifiedPolls": [],
+  "newKanMetadataVerified": false,
+  "canonicalDataChanged": false,
+  "publicSiteChanged": false,
+  "israelPolls": {
+    "profileUrl": "https://x.com/IsraelPolls?s=20",
+    "httpStatus": 200,
+    "scope": "Latest five publicly rendered profile posts plus the latest Kan poll post and its historical-table reply. Full older/media navigation remains login-limited; do not claim the complete account archive was browsed.",
+    "latestVisiblePublication": "2026-10-11",
+    "pollPostUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+    "historicalTableUrl": "https://x.com/IsraelPolls/status/2109340303660552420",
+    "graphicsVisuallyChecked": true,
+    "graphicSha256": "916471fc0629dcce4f8b3d0c8e30f7459a9fdf58fc76a0b0785994824754e158",
+    "historyGraphicSha256": "06060ca1cb29b9d58c5648380241bac72842b4336a89bdbc6bb9677b3ad87c99",
+    "matchesFrozenOct11GraphicHashes": true,
+    "publicationDate": "2026-10-11",
+    "fieldworkStart": null,
+    "fieldworkEnd": null,
+    "sampleSize": 554,
+    "webToolLimitation": "Web open cache miss; direct HTTP succeeded, not wholly inaccessible."
+  },
+  "publishers": [
+    {
+      "publisher": "Maariv",
+      "home": "https://www.maariv.co.il/",
+      "politics": "https://www.maariv.co.il/news/politics",
+      "elections": "https://www.maariv.co.il/news/elections-2026",
+      "pollTag": "https://www.maariv.co.il/tags/%D7%A1%D7%A7%D7%A8-%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D",
+      "method": "Direct HTTP accessible with current 12 Oct clock; web tool inaccessible",
+      "latestDistinctOwnPollDate": "2026-10-09",
+      "latestOwnPollUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+      "newestPollStoryDate": "2026-10-11",
+      "newestPollStoryUrl": "https://www.maariv.co.il/news/elections-2026/article-1376070",
+      "newestPollStoryClassification": "Repeated Kan 11 Oct observation already stored"
+    },
+    {
+      "publisher": "Walla",
+      "home": "https://www.walla.co.il/news",
+      "politics": "https://www.walla.co.il/news/politics",
+      "elections": "https://elections.walla.co.il/",
+      "pollIndex": "https://elections.walla.co.il/polls",
+      "method": "Direct HTTP and web accessible",
+      "latestPollStoryDate": "2026-10-11",
+      "latestPollStoryUrl": "https://www.walla.co.il/news/politics/383957098",
+      "classification": "Repeated Kan 11 Oct already stored",
+      "aggregateUrl": "https://www.walla.co.il/news/politics/383957051",
+      "aggregateClassification": "Comparison ranges of Kan 4 Oct, N12 5 Oct and C13 7 Oct, not a new sample",
+      "indexLimitation": "Interactive poll selector is stale/incomplete and contains inconsistent labels; do not ingest from it alone"
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "home": "https://www.zman.co.il/",
+      "pollIndex": "https://www.zman.co.il/feed/33350/",
+      "latestObservedOwnPollDate": "2026-10-08",
+      "latestOwnPollUrl": "https://www.zman.co.il/731622/",
+      "method": "Web poll feed and article accessible; direct HTTP 403 and web homepage failed",
+      "scope": "Latest visible poll-feed card remains 8 Oct; blocked homepage does not establish absence elsewhere"
+    },
+    {
+      "publisher": "IsraelHayom",
+      "home": "https://www.israelhayom.co.il/",
+      "politics": "https://www.israelhayom.co.il/news/politics",
+      "latestObservedOwnPollDate": "2026-10-08",
+      "latestOwnPollUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "method": "Direct HTTP home/politics/article accessible; web article failed",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-08",
+      "sampleSize": 555,
+      "notKanOct11Sample": "Separate previously stored Kantar observation, not sample554 Kan update"
+    }
+  ],
+  "supplementary": {
+    "publisher": "To120",
+    "dataIndex": "https://twonetwenty.com/data",
+    "evidenceIndex": "https://twonetwenty.com/he/evidence",
+    "packageDate": "2026-10-11",
+    "cutoffIsraelTime": "2026-10-11T17:46:25+03:00",
+    "documentedPolls": 137,
+    "observationsUrl": "https://twonetwenty.com/data/k26/2026-10-11/reader/poll_observations.json",
+    "manifestUrl": "https://twonetwenty.com/data/k26/2026-10-11/reader/manifest.json",
+    "downloadedObservationHashMatchesPublishedManifest": true,
+    "latestISOOriginalPublication": "2026-10-09",
+    "kanOct11AbsentBecauseCutoffBeforeBroadcast": true,
+    "forecastsNotIngested": true,
+    "reuseTerms": "Commercial use requires explicit prior consent; package read only for source discovery.",
+    "officialReportCandidates": [
+      "CEC_4197_LAZAR_MAARIV",
+      "CEC_4199_DIRECT_POLLS_I24NEWS"
+    ]
+  },
+  "metadataDiscrepancies": [
+    {
+      "poll": "lazar_2026-10-09",
+      "originalArticleUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+      "originalArticleFieldwork": [
+        "2026-10-07",
+        "2026-10-08"
+      ],
+      "compiledTo120Fieldwork": [
+        "2026-10-08",
+        "2026-10-09"
+      ],
+      "canonicalMatchesOriginalArticle": true,
+      "sampleSize": 700,
+      "invited": 4667,
+      "maximumSamplingErrorPct": 3.7,
+      "compiledOfficialLabel": "CEC_4197_LAZAR_MAARIV",
+      "decision": "Do not alter canonical data from compiled metadata. Parent notified to locate the original CEC4197 PDF and resolve discrepancy independently.",
+      "webOfficialReportSearch": "No results for explicit 4197/4199 searches; absence in search is not proof original report does not exist."
+    }
+  ],
+  "evidenceDirectory": "C:/Users/User/.codex/visualizations/2026/09/12/01a0952c-a40b-7b01-b019-621f0cee2656/artifacts/poll-checks/2026-10-12/source-scan-print"
+}

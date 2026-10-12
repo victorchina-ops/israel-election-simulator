@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-12",
+  "checkedThroughUtc": "2026-10-12T10:15:51Z",
+  "baselineAsOf": "2026-10-11",
+  "baselineCurrentPollCount": 8,
+  "baselineHistoryPollCount": 115,
+  "newVerifiedMandatePolls": [],
+  "verifiedNewKan11OctFieldwork": null,
+  "noCandidateConclusionScope": "No new distinct verified mandate candidate found in the accessible original N12/C13/C14/i24 pages; Kan and Channel16 completeness remains limited.",
+  "checks": [
+    {
+      "publisher": "N12",
+      "url": "https://www.n12.co.il/",
+      "access": "web-reader-readable; directHTTP200"
+    },
+    {
+      "publisher": "N12",
+      "url": "https://www.mako.co.il/news-politics",
+      "access": "web-reader-readable; directHTTP403"
+    },
+    {
+      "publisher": "N12",
+      "url": "https://www.mako.co.il/news-israel-elections/2026",
+      "access": "web-reader-readable; directHTTP200",
+      "finding": "Current index latest mandate link is Article-d7459e0cc7c01a1026 dated2026-10-05; already canonical."
+    },
+    {
+      "publisher": "Channel13",
+      "url": "https://13tv.co.il/",
+      "access": "web-reader-readable; directHTTP403"
+    },
+    {
+      "publisher": "Channel13",
+      "url": "https://13tv.co.il/news/politics/politics/",
+      "access": "web-reader-readable; directHTTP403"
+    },
+    {
+      "publisher": "Channel13",
+      "url": "https://13tv.co.il/tags/survey/",
+      "access": "web-reader-readable; directHTTP403",
+      "finding": "Latest national mandate item datedOct7 20:35; Oct8 age/sector andOct9 expectations items are supplementary followups, no distinct national vector."
+    },
+    {
+      "publisher": "Channel14",
+      "url": "https://www.c14.co.il/",
+      "access": "web-reader-readable; directHTTP200"
+    },
+    {
+      "publisher": "Channel14",
+      "url": "https://www.c14.co.il/archive/65839",
+      "access": "web-reader-readable; directHTTP200"
+    },
+    {
+      "publisher": "Channel14",
+      "url": "https://www.c14.co.il/elections26",
+      "access": "web-reader-readable; directHTTP200"
+    },
+    {
+      "publisher": "Channel14",
+      "url": "https://www.c14.co.il/archive/53747",
+      "access": "web-reader-readable; directHTTP200",
+      "finding": "Oct7 articles1728552 and1728516 remain latest. Both concern the same NEXTDATA observation; no duplicate row."
+    },
+    {
+      "publisher": "Kan",
+      "url": "https://www.kan.org.il/",
+      "access": "web-reader-zero-lines; directHTTP403"
+    },
+    {
+      "publisher": "Kan",
+      "url": "https://www.kan.org.il/content/kan-news/politic/",
+      "access": "web-reader-zero-lines; directHTTP403"
+    },
+    {
+      "publisher": "Kan",
+      "url": "https://www.kan.org.il/lobby/news/",
+      "access": "web-reader-zero-lines; directHTTP403"
+    },
+    {
+      "publisher": "Kan",
+      "url": "https://skarim.kan.org.il/",
+      "access": "web-reader-zero-lines; directHTTP403",
+      "finding": "Cannot confirm an absence of later polls or Oct11 fieldwork. Already canonical Oct11 n554 remains a republished broadcast observation with unverified primary publication/fieldwork."
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he",
+      "access": "web-reader-readable; directHTTP200"
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/news/politics",
+      "access": "web-reader-readable; directHTTP200"
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026",
+      "access": "web-reader-JavaScript-shell; directHTTP200-empty-shell"
+    },
+    {
+      "publisher": "i24NEWS",
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+      "access": "web-reader-readable; directHTTP200",
+      "finding": "Latest displayed survey isOct8, originalarticleartc-fa0f56f4; fieldworkOct7,n518. Later index crawl/update dates are not new poll dates."
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/",
+      "access": "web-reader-zero-lines; directHTTP200-client-shell10-visible-chars-no-links"
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/news",
+      "access": "web-reader-inaccessible; directHTTP404",
+      "routeWasDiscoveryAttempt": true
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/vod",
+      "access": "web-reader-inaccessible; directHTTP404",
+      "routeWasDiscoveryAttempt": true
+    },
+    {
+      "publisher": "Channel16",
+      "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+      "access": "web-reader-inaccessible; directHTTP200-client-shell30-visible-chars-no-links",
+      "finding": "Existing Oct6 known poll VOD cannot be read to verify latest coverage; do not infer no new polls."
+    },
+    {
+      "publisher": "CEC",
+      "url": "https://www.gov.il/he/Departments/DynamicCollectors/knesset_election_polls_26",
+      "access": "web-reader-unpopulated-Angular-template-only; directHTTP403",
+      "finding": "No actual survey rows inspected. Exact collector URLs for4197/4199 cannot be established."
+    }
+  ],
+  "supplementaryOfficialDiscovery": {
+    "ids": [
+      "CEC_4197_LAZAR_MAARIV",
+      "CEC_4199_DIRECT_POLLS_I24NEWS"
+    ],
+    "source": "https://twonetwenty.com/data/k26/2026-10-11/reader/poll_observations.json",
+    "sourceSha256": "bec6cd9757fbeda246c69543a7547fe738ac0800767d8f51226b0c8b2430b6d0",
+    "category": "existing-observations-compiled-owner-supplied-official-provenance-not-original-PDF",
+    "originalPDFURLsAbsent": true,
+    "compiledMaarivInterval": [
+      "2026-10-08",
+      "2026-10-09"
+    ],
+    "originalMaarivInterval": [
+      "2026-10-07",
+      "2026-10-08"
+    ],
+    "originalMaarivUrl": "https://www.maariv.co.il/news/politics/article-1375198",
+    "originalMaarivHTTP200": true,
+    "originalI24Interval": [
+      "2026-10-07",
+      "2026-10-07"
+    ],
+    "originalI24SampleSize": 518,
+    "analogousPDFDiscoveryAttempts": [
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4197.pdf",
+      "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4199.pdf"
+    ],
+    "bothAttemptsHTTP404": true,
+    "actualPDFRead": false,
+    "canonicalCorrectionAuthorizedByEvidence": false,
+    "note": "Retain the observed discrepancy as unresolved discovery evidence; do not replace original dates, derive new p/q, ingest compiled forecasts, or claim reading the official PDFs."
+  },
+  "projectMutated": false,
+  "published": false,
+  "evidenceFiles": [
+    "network-receipts.json",
+    "official-discovery-attempt-receipts.json",
+    "to120-discovery-receipt.json",
+    "cec-index-receipt.json"
+  ]
+}

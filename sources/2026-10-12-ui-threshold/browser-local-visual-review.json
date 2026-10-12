@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "revision": "persistent-r1",
+  "reviewedAtUtc": "2026-10-12T10:24:31.540335+00:00",
+  "cssSha256": "315e690dfcf35fe8ccaee4859ae6e031433771c74a3b8b1cd3e8101eea1aa9db",
+  "frozenFilesVerified": 289,
+  "inspectedImages": [
+    {
+      "name": "1440-default-threshold-overview.png",
+      "sha256": "ed1f911a86b69c10f3bd0a747335eb65104b380bdc6eb3c7b33ef0109de08c83"
+    },
+    {
+      "name": "390-default-threshold-overview.png",
+      "sha256": "9fa0ff3f34d3f6c98bd1670d45fe5fb9fdc1d4315a6a72e1a7afe219c0d73067"
+    },
+    {
+      "name": "320-default-threshold-overview.png",
+      "sha256": "cc9e24f612ba92999037c5aada9135892cb98010290c3acc4588c7919c2b1c8e"
+    }
+  ],
+  "findings": [
+    "All16 party logos and means align with their correct native progress marks; zero pixel offset at1440/390/320 and both public party-sort alternatives.",
+    "Every native percentage stays within its plot bounds at all three widths;320px clipping is resolved with ordinary label ellipsis. Full party/probability labels remain accessible.",
+    "Large desktop76px-width and mobile50px-width logos remain readable.",
+    "Model values, p/q conclusions, raw-source missingness, theme/author/navigation,120seat partition and ALL-selected-fail joint probabilities remain unchanged."
+  ],
+  "savedCustomizationLimit": "Progress-chart editor does not expose thickness or native sort controls in this copied runtime; public party ordering is verified instead. No storage or protected runtime mutations performed.",
+  "subagentSourceEdits": []
+}
