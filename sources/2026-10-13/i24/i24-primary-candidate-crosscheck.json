@@ -1,0 +1,14 @@
+{
+  "asOf": "2026-10-13",
+  "status": "PASS",
+  "scope": "Independent visual crosscheck of TV original i24 candidate against frozen IsraelPolls graphic and historical table; no canonical mutations.",
+  "candidate": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-i24-poll.json",
+  "candidateSha256": "586f12ed853d04bb5b9f64020ebaef4edf9ad746b4d5b993a0d2e50ce6f7b0f0",
+  "sourceSummary": "israelpolls/source-summary-r1.json",
+  "sourceSummarySha256": "60ada6bf5c359333f25cb6418895158a2e4617ad7a73e8ac2c43b32592a8bab3",
+  "vectorsAndReportedExactSharesMatch": true,
+  "fieldworkAndSamplePrintedFooterMatch": true,
+  "boundsRetained": true,
+  "primaryUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632",
+  "publicationVsRepostSeparate": true
+}

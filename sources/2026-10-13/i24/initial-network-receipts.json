@@ -1,0 +1,110 @@
+[
+  {
+    "name": "i24-home",
+    "url": "https://www.i24news.tv/he",
+    "checkedAtUtc": "2026-10-13T19:33:06.838661+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he",
+    "bytes": 250699,
+    "sha256": "6caa11b14fa7fd288fb370e6b7602c906335e4261141a17cc10e7abd0d85017c",
+    "file": "i24-home.html",
+    "title": "i24NEWS - חדשות מתפרצות מהמזרח התיכון, ישראל ומסביב לעולם",
+    "textLength": 7964
+  },
+  {
+    "name": "i24-politics",
+    "url": "https://www.i24news.tv/he/news/politics",
+    "checkedAtUtc": "2026-10-13T19:33:06.839662+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/politics",
+    "bytes": 7310,
+    "sha256": "4c7d04d04e32905824e4e844c9d1c6234be6e8a0ac50f55b40578ff4e2e12cf9",
+    "file": "i24-politics.html",
+    "title": "i24NEWS",
+    "textLength": 7
+  },
+  {
+    "name": "i24-elections",
+    "url": "https://www.i24news.tv/he/news/israel-elections-2026",
+    "checkedAtUtc": "2026-10-13T19:33:06.839662+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/israel-elections-2026",
+    "bytes": 7310,
+    "sha256": "4c7d04d04e32905824e4e844c9d1c6234be6e8a0ac50f55b40578ff4e2e12cf9",
+    "file": "i24-elections.html",
+    "title": "i24NEWS",
+    "textLength": 7
+  },
+  {
+    "name": "i24-polls",
+    "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+    "checkedAtUtc": "2026-10-13T19:33:06.839662+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+    "bytes": 7310,
+    "sha256": "4c7d04d04e32905824e4e844c9d1c6234be6e8a0ac50f55b40578ff4e2e12cf9",
+    "file": "i24-polls.html",
+    "title": "i24NEWS",
+    "textLength": 7
+  },
+  {
+    "name": "i24-original",
+    "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632",
+    "checkedAtUtc": "2026-10-13T19:33:06.840661+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632",
+    "bytes": 194708,
+    "sha256": "93c5657e0ea2781cd9b3f0b92fe3ecf6714c057149d0569b32572b27602a8a72",
+    "file": "i24-original.html",
+    "title": "סקר מנדטים דרמטי של I24NEWS: שבועיים לבחירות – וינטר לא עובר את אחוז החסימה - i24NEWS",
+    "textLength": 3936
+  },
+  {
+    "name": "c16-home",
+    "url": "https://www.ch16.co.il",
+    "checkedAtUtc": "2026-10-13T19:33:06.840661+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il",
+    "bytes": 118493,
+    "sha256": "ed75d1f8211c853bae0f02e9ef8fc3a0e2227ab15c751cdd29398f3a9587402b",
+    "file": "c16-home.html",
+    "title": "ch16israel",
+    "textLength": 10
+  },
+  {
+    "name": "c16-news",
+    "url": "https://www.ch16.co.il/news",
+    "checkedAtUtc": "2026-10-13T19:33:07.280994+00:00",
+    "status": 404,
+    "finalUrl": "https://www.ch16.co.il/news",
+    "bytes": 119053,
+    "sha256": "a4f14a142f890aa4a82a4c997306401ad1a4d7cd9cc7b9e5470e39eb7b0d0e3a",
+    "file": "c16-news.html",
+    "title": "ch16israel",
+    "textLength": 10
+  },
+  {
+    "name": "c16-vod-index",
+    "url": "https://www.ch16.co.il/vod",
+    "checkedAtUtc": "2026-10-13T19:33:07.304258+00:00",
+    "status": 404,
+    "finalUrl": "https://www.ch16.co.il/vod",
+    "bytes": 119052,
+    "sha256": "3d5978be17aaaaacf70824cd801df84ab58cdb417ddd7e80ada1782c4005a3c4",
+    "file": "c16-vod-index.html",
+    "title": "ch16israel",
+    "textLength": 10
+  },
+  {
+    "name": "c16-previous-original",
+    "url": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "checkedAtUtc": "2026-10-13T19:33:07.320206+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il/vod/6ac52db1be11035fe627ec5a",
+    "bytes": 128278,
+    "sha256": "9b8953b5fd25cdc6c61af76d298f3a61a211bc67412885596692c08aa4bb331f",
+    "file": "c16-previous-original.html",
+    "title": " סקר בחירות 6ֿֿ.10 | ch16israel",
+    "textLength": 30
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "pollId": "lazar_2026-10-13",
+  "sourceUrl": "https://www.walla.co.il/news/politics/383957251",
+  "eligiblePopulation": "Respondents who chose a party projected above the electoral threshold",
+  "absolutelyCertainPct": 45,
+  "fairlyCertainPct": 49,
+  "notVeryCertainPct": 6,
+  "absolutelyCertainByBlocPct": {
+    "coalition": 54,
+    "opposition": 35
+  },
+  "absolutelyCertainByPartyPct": {
+    "joint": 81,
+    "likud": 68,
+    "rz_zehut": 62,
+    "shas": 56,
+    "beyachad": 23,
+    "hendel": 28
+  },
+  "mandateInput": false,
+  "undecidedSampleShare": false,
+  "turnoutForecast": false,
+  "limitation": "Conditional voting-certainty questions, not respondent migration counts, whole-sample undecided shares or expected turnout."
+}

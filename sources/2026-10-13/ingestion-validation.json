@@ -1,0 +1,99 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-13",
+  "phase": "ingestion-validated-before-numerical-rebuilding",
+  "checkpointManifestSha256": "7a3b65b77ad5ba8b210b112d1265cb87296cb2f15d6df6a03620c30b843b0ef5",
+  "sourcePlanSha256": "17b278698e7bbf7526226960ca9f9496f1963a99d65e07e772319dac74b1a907",
+  "ingestionReceiptSha256": "8424eef609588c1a902a96dbd2192673dc48450c06d52f86b5e67b4aeac804e1",
+  "activePollCount": 8,
+  "historyPollCount": 120,
+  "previousHistoryRowsPreserved": 117,
+  "otherActivePollsUnchanged": 5,
+  "sources": {
+    "direct_polls": {
+      "candidateSha256": "586f12ed853d04bb5b9f64020ebaef4edf9ad746b4d5b993a0d2e50ce6f7b0f0",
+      "sampleSize": 1210,
+      "sampleSizeLowerBoundExclusive": null,
+      "sourceBlocSeats": {
+        "coalition": 57,
+        "opposition": 50,
+        "arab_parties": 13
+      },
+      "strictEligible": true
+    },
+    "maagar_mochot": {
+      "candidateSha256": "94d1e131e1791698f3344a228876e329a4be10ce1c17d9d59dc01b87b1df823f",
+      "sampleSize": null,
+      "sampleSizeLowerBoundExclusive": 2000,
+      "sourceBlocSeats": {
+        "coalition": 52,
+        "opposition": 50,
+        "arab_parties": 13,
+        "hendel": 5
+      },
+      "strictEligible": false
+    },
+    "lazar": {
+      "candidateSha256": "6fb2d0c21a5f917fcf20a598e9c013bfb6752855c5551c925f71b0e425265092",
+      "sampleSize": 601,
+      "sampleSizeLowerBoundExclusive": null,
+      "sourceBlocSeats": {
+        "coalition": 49,
+        "opposition": 54,
+        "arab_parties": 13,
+        "hendel": 4
+      },
+      "strictEligible": true
+    }
+  },
+  "fullStrict": {
+    "candidates": 49,
+    "polls": 43,
+    "series": 8,
+    "deltas": 35,
+    "unknownFieldworkExcluded": 6,
+    "byInstitute": {
+      "direct_polls": 6,
+      "hamadad_consortium": 5,
+      "kantar": 5,
+      "lazar": 7,
+      "maagar_mochot": 2,
+      "midgam_geva": 5,
+      "next_data": 8,
+      "tatika": 5
+    }
+  },
+  "defaultWithoutChannel14": {
+    "polls": 35,
+    "series": 7,
+    "deltas": 28
+  },
+  "newPublicSourceURLs": {
+    "uniqueCount": 46,
+    "allExistLocally": true
+  },
+  "preserved": {
+    "authorFiles": 117,
+    "protectedRuntimeFiles": 234,
+    "publishedEvidenceFiles": 1528,
+    "conditionalAndArtisticFiles": 14,
+    "historicalWeightsAndPartyCatalogue": true,
+    "modelAndDashboardNotRebuilt": true
+  },
+  "inputHashes": {
+    "data/current-polls.json": "424872fda1f34b28a86afaba01f0e1639ddb8faab4bff78e4f0d2c1ebb290da0",
+    "data/poll-history.json": "d9b202094c6b615f9180691d05f03dfd7a8556d1615e5fc5d7466fc999870c0c",
+    "data/sources.json": "3aabd1d86cae2296674b4557c562119da232f61f68430913b7d081ea17e0a860",
+    "data/survey-documents-2026-09-14.json": "d393d4039c95b2a646cb0d746e0b8b3b91ba72c767970db76fc3defb0980d63f",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "3c64edbde8cce66574889e98e6bff629fbdfa294f201201482f3098d59c916bc",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "70c719142f5ed8bf4fe477c5d69fba5617d03e0e2255a04bd7e80a76b63bdee2",
+    "artifacts/strict-post-close/lazar-fieldwork.json": "76af9a3b20fbcc1ae4d04553059101aef823c1bd538e38fe174692854256c24d"
+  },
+  "fieldworkAuditHashes": {
+    "artifacts/strict-post-close/lazar-fieldwork.json": "76af9a3b20fbcc1ae4d04553059101aef823c1bd538e38fe174692854256c24d",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "b4606d87c005d5e7d17ba37f7bd09d1674ee12e3a384f0bf1dee9a3322695cb0",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "3c64edbde8cce66574889e98e6bff629fbdfa294f201201482f3098d59c916bc",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "70c719142f5ed8bf4fe477c5d69fba5617d03e0e2255a04bd7e80a76b63bdee2",
+    "artifacts/strict-post-close/new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  }
+}

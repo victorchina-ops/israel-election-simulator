@@ -1,0 +1,209 @@
+{
+  "overall": [
+    {
+      "partyId": "yashar",
+      "name": "ישר!",
+      "slopePerWeek": -0.47910117266723146,
+      "netDelta": -1.4280116704675123,
+      "p": 0.011026556069958848,
+      "q": 0.0624838177297668,
+      "signFlipP": 0.0625,
+      "signFlipQ": 0.53125,
+      "extremeCount": 118530432
+    },
+    {
+      "partyId": "likud",
+      "name": "הליכוד",
+      "slopePerWeek": -0.20021946142260655,
+      "netDelta": -0.5688345025104629,
+      "p": 0.1601020233196159,
+      "q": 0.6493055555555556,
+      "signFlipP": 0.21875,
+      "signFlipQ": 0.85,
+      "extremeCount": 1721023488
+    },
+    {
+      "partyId": "beyachad",
+      "name": "ביחד",
+      "slopePerWeek": -0.5044031872748115,
+      "netDelta": -1.2865932312984858,
+      "p": 0.005385159465020576,
+      "q": 0.04722222222222222,
+      "signFlipP": 0.0625,
+      "signFlipQ": 0.53125,
+      "extremeCount": 57888000
+    },
+    {
+      "partyId": "democrats",
+      "name": "הדמוקרטים",
+      "slopePerWeek": 0.0715306354495622,
+      "netDelta": 0.28790457399239155,
+      "p": 0.5090123456790123,
+      "q": 0.78665544332211,
+      "signFlipP": 0.6875,
+      "signFlipQ": 1.0,
+      "extremeCount": 5471649792
+    },
+    {
+      "partyId": "yisrael_beiteinu",
+      "name": "ישראל ביתנו",
+      "slopePerWeek": 0.09189774691625727,
+      "netDelta": 0.1542828066826054,
+      "p": 0.45243055555555556,
+      "q": 0.78665544332211,
+      "signFlipP": 0.6875,
+      "signFlipQ": 1.0,
+      "extremeCount": 4863421440
+    },
+    {
+      "partyId": "utj",
+      "name": "יהדות התורה",
+      "slopePerWeek": -0.0950432002876952,
+      "netDelta": -0.14820849070973077,
+      "p": 0.31333333333333335,
+      "q": 0.7287061149691358,
+      "signFlipP": 0.375,
+      "signFlipQ": 1.0,
+      "extremeCount": 3368189952
+    },
+    {
+      "partyId": "joint",
+      "name": "הרשימה המשותפת",
+      "slopePerWeek": 0.1042824299346545,
+      "netDelta": 0.4264025242105684,
+      "p": 0.1909722222222222,
+      "q": 0.6493055555555556,
+      "signFlipP": 0.25,
+      "signFlipQ": 0.85,
+      "extremeCount": 2052864000
+    },
+    {
+      "partyId": "shas",
+      "name": "ש״ס",
+      "slopePerWeek": -0.03801410163425791,
+      "netDelta": -0.14213417473685613,
+      "p": 0.4722222222222222,
+      "q": 0.78665544332211,
+      "signFlipP": 0.5,
+      "signFlipQ": 1.0,
+      "extremeCount": 5076172800
+    },
+    {
+      "partyId": "otzma",
+      "name": "עוצמה יהודית",
+      "slopePerWeek": -0.13555614704677243,
+      "netDelta": -0.1395114893490444,
+      "p": 0.34292052469135803,
+      "q": 0.7287061149691358,
+      "signFlipP": 0.53125,
+      "signFlipQ": 1.0,
+      "extremeCount": 3686238720
+    },
+    {
+      "partyId": "rz_zehut",
+      "name": "הציונות הדתית–זהות",
+      "slopePerWeek": 0.007287128868503058,
+      "netDelta": 0.006074315972874639,
+      "p": 0.965787037037037,
+      "q": 1.0,
+      "signFlipP": 0.90625,
+      "signFlipQ": 1.0,
+      "extremeCount": 10381768704
+    },
+    {
+      "partyId": "raam",
+      "name": "רע״ם",
+      "slopePerWeek": -0.013228486668088122,
+      "netDelta": -0.14445905656162955,
+      "p": 0.9004629629629629,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 9679564800
+    },
+    {
+      "partyId": "winter",
+      "name": "עמך ישראל",
+      "slopePerWeek": 0.20751674979638712,
+      "netDelta": 0.570861580772198,
+      "p": 0.28935185185185186,
+      "q": 0.7287061149691358,
+      "signFlipP": 0.75,
+      "signFlipQ": 1.0,
+      "extremeCount": 3110400000
+    },
+    {
+      "partyId": "hendel",
+      "name": "המילואימניקים והכלכלית",
+      "slopePerWeek": 0.983051066036103,
+      "netDelta": 2.412226814003084,
+      "p": 0.005555555555555556,
+      "q": 0.04722222222222222,
+      "signFlipP": 0.125,
+      "signFlipQ": 0.7083333333333334,
+      "extremeCount": 59719680
+    },
+    {
+      "partyId": "gantz",
+      "name": "כחול לבן",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 10749542400
+    },
+    {
+      "partyId": "noam",
+      "name": "נעם לישראל",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 10749542400
+    },
+    {
+      "partyId": "haredi_public",
+      "name": "הציבור החרדי",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 10749542400
+    },
+    {
+      "partyId": "israel_first",
+      "name": "ישראל תחילה",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 10749542400
+    }
+  ],
+  "individualRawSignificant": [
+    {
+      "pollsterId": "lazar",
+      "partyId": "yashar",
+      "slopePerWeek": -1.337331772966644,
+      "delta": -4,
+      "p": 0.016666666666666666,
+      "series": [
+        25,
+        25,
+        23,
+        22,
+        21
+      ],
+      "q": 1.0
+    }
+  ],
+  "individualBHSignificant": []
+}

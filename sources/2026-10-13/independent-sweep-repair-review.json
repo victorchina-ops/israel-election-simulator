@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-13",
+  "scope": "Same exact null/statistic/multiplicities/tolerance/weights; independent inclusive tail evaluation uses monotone pointer sweep instead of dense Cartesian masks.",
+  "helpers": [
+    {
+      "path": "artifacts/strict-post-close/compressed_searchsorted_exact.py",
+      "beforeSha256": "9598e42587587375cf5cfaacd5f1a2edbea23512c0148f167c64a4b248b99f1c",
+      "afterSha256": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+      "changes": [
+        "_cartesian_sums",
+        "compressed_searchsorted_tail"
+      ]
+    },
+    {
+      "path": "artifacts/strict-post-close/independent-compressed-counts.py",
+      "beforeSha256": "6c77359d39ad0131bbd7e780a57b6667b5b8f5cfc19803dc155ed34290118990",
+      "afterSha256": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+      "changes": [
+        "module documentation",
+        "sums_with_multiplicities",
+        "direct_tail_counts"
+      ]
+    },
+    {
+      "path": "artifacts/audit-strict-full-series-2026-09-28.py",
+      "beforeSha256": "f1d4e8dd56fef89e890d6ef6c957afe2f4a210a94450e888404e527c7bd3cd09",
+      "afterSha256": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+      "changes": [
+        "method description only"
+      ]
+    },
+    {
+      "path": "artifacts/strict-post-close/party-independent.py",
+      "beforeSha256": "7620fae14b10717d0443d3338235789c52cf02e6b77ddf6928bc49f2f6b4d800",
+      "afterSha256": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68",
+      "changes": [
+        "method description only",
+        "method description only"
+      ]
+    }
+  ],
+  "primaryAndIndependentAlgorithmsRemainSeparate": true,
+  "frozenOriginalsPreserved": true,
+  "nPermutationsExact": "60679016939520000000",
+  "stage1ReviewSha256": "f6d7f18dda36496b65c8cee5af09d8e42f42cf130addda0e4e5303c59f66412e",
+  "supersededIntermediateIndependentHelperSha256": "d18281ddab0f27e8343844200612bbb6ff5731a37f41fa326f24e328a5935fc9",
+  "regressionTests": 50,
+  "testReceiptSha256": "db8c9e0e95041a552ff13068eac6d5bf2de3b40ea80f5c54b6b3178ca8536dcd",
+  "testScriptSha256": "408787d9b197a3edc3ea91a3f17fdc32f83c95be9eaac49d16d3daa8f662e17f",
+  "registeredTolerance": 1e-12,
+  "tailInclusivity": "abs(permuted)>=abs(observed)-tolerance",
+  "independentReview": "Root and ingestion reviewer read pointer inequalities and mass accounting; source reviewer compared 50 cases to frozen dense/direct/analytic references."
+}

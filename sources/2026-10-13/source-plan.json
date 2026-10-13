@@ -1,0 +1,448 @@
+{
+  "schemaVersion": 1,
+  "status": "reviewed",
+  "asOf": "2026-10-13",
+  "baselineAsOf": "2026-10-12",
+  "checkpointManifestSha256": "7a3b65b77ad5ba8b210b112d1265cb87296cb2f15d6df6a03620c30b843b0ef5",
+  "polls": [
+    {
+      "pollsterId": "direct_polls",
+      "folder": "i24",
+      "candidatePath": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-i24-poll.json",
+      "candidateSha256": "586f12ed853d04bb5b9f64020ebaef4edf9ad746b4d5b993a0d2e50ce6f7b0f0",
+      "expectedSeats": {
+        "yashar": 21,
+        "likud": 27,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "utj": 8,
+        "joint": 7,
+        "shas": 7,
+        "otzma": 9,
+        "rz_zehut": 6,
+        "raam": 6,
+        "winter": 0,
+        "hendel": 0,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0,
+        "israel_first": 0
+      },
+      "expectedReportedPercentages": {
+        "winter": 3.1,
+        "hendel": 2.2
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 57,
+        "opposition": 50,
+        "arab_parties": 13
+      },
+      "strictEligible": true,
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-i24-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "586f12ed853d04bb5b9f64020ebaef4edf9ad746b4d5b993a0d2e50ce6f7b0f0"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/i24-original.html",
+          "publicName": "i24-original.html",
+          "sha256": "93c5657e0ea2781cd9b3f0b92fe3ecf6714c057149d0569b32572b27602a8a72"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/i24-original-extract.txt",
+          "publicName": "i24-original-extract.txt",
+          "sha256": "8b12a15e778ec543dad1b7d3f9ad9e1da2331f5f73623467ae76dc63fbdcfc3e"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/i24-original-structure.json",
+          "publicName": "i24-original-structure.json",
+          "sha256": "1e21cf624794886b313fc4bebbb32ca69df7d1ee850221e78e791e96c1d11431"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/i24-poll-video-poster.jpg",
+          "publicName": "i24-poll-video-poster.jpg",
+          "sha256": "ff00c7c6425895486e9d7471b812069f132f8f569638545692fe64f81b8923c3"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/i24-analysis-video-poster.jpg",
+          "publicName": "i24-analysis-video-poster.jpg",
+          "sha256": "4c41502e78b615b8c1dee2066449c61f5c72d0e3dac67b15ed888a527a3eaf9d"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/initial-network-receipts.json",
+          "publicName": "initial-network-receipts.json",
+          "sha256": "5e24ca7edeff85e5012a6dc5809399c6de97fc9074c38b52f17f2e7d02373ece"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/broadcast-network-receipts.json",
+          "publicName": "broadcast-network-receipts.json",
+          "sha256": "2842e93e477048c9de23222bad4a8d2e043ccb3fa303a51f987015864aad46c6"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/i24-verification-summary.json",
+          "publicName": "i24-verification-summary.json",
+          "sha256": "20531c4b9ba96141acc35590d41b87859fc0069d44df9e40a014f06c33354220"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/i24-graphic.jpg",
+          "publicName": "i24-graphic.jpg",
+          "sha256": "7b1766c0c27e4e2d9f263884a8edb9e6fc802de97a9fab3f43b51ea0ee2e419a"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/i24-history.png",
+          "publicName": "i24-history.png",
+          "sha256": "d6af1e2f2aac10af7cdeaa368b5d208f8978e14d9a82d1f6fc5786b02bc2475c"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/i24-post.txt",
+          "publicName": "i24-post.txt",
+          "sha256": "6aaff11b277eb7457eff1ed55ebd89abab6dd6858bf00038a88a004c5cef2461"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/i24-history-post.txt",
+          "publicName": "i24-history-post.txt",
+          "sha256": "b74af5b12cb8274d81650551fdb1327a0baf10c809bd9d08a9e733634e6f4fa1"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/i24-primary-candidate-crosscheck.json",
+          "publicName": "i24-primary-candidate-crosscheck.json",
+          "sha256": "315f73409af255d82a8434a7747792fe1e12b3b8f67b6347eb9d0439c7e2380d"
+        }
+      ],
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-13/tv-primary/i24-original-extract.txt",
+          "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632",
+          "kind": "original-publisher-methodology-extraction",
+          "quote": "המדגם נאסף ונערך על ידי דיירקט פולס בע\"מ בראשות צוריאל שרון עבור ערוץ i24NEWS, בתאריך ה-13 באוקטובר 2026, באמצעות מערכת דיגיטלית בשילוב פאנל, בקרב 1,210 נדגמים בוגרים (18+) המהווים מדגם מייצג של האוכלוסייה הכללית בישראל. טעות הדגימה הסטטיסטית 2.8% ± בהסתברות של 95%.",
+          "sha256": "8b12a15e778ec543dad1b7d3f9ad9e1da2331f5f73623467ae76dc63fbdcfc3e"
+        }
+      ]
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "folder": "c16",
+      "candidatePath": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-c16-poll-r1.json",
+      "candidateSha256": "94d1e131e1791698f3344a228876e329a4be10ce1c17d9d59dc01b87b1df823f",
+      "expectedSeats": {
+        "yashar": 21,
+        "likud": 18,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "otzma": 9,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 5,
+        "gantz": 0,
+        "haredi_public": 0
+      },
+      "expectedReportedPercentages": {
+        "gantz": 1.2,
+        "haredi_public": 1.1
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 52,
+        "opposition": 50,
+        "arab_parties": 13,
+        "hendel": 5
+      },
+      "strictEligible": false,
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-c16-poll-r1.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "94d1e131e1791698f3344a228876e329a4be10ce1c17d9d59dc01b87b1df823f"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-c16-poll.json",
+          "publicName": "reviewed-c16-poll.json",
+          "sha256": "6d7a934e08f960216aac6022318ddb8034631299bcf6b2efc2d0ce84b60ac702"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-source-proof.json",
+          "publicName": "c16-source-proof.json",
+          "sha256": "952a369c712621dad226f4856da69680d97a362595cd3ebd25e903c78e60a47c"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-source-proof.txt",
+          "publicName": "c16-source-proof.txt",
+          "sha256": "acbea1d351f69c80185357afb154fea0fdcbae78bd450c7410e8025176a58f5e"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-graphic.png",
+          "publicName": "c16-graphic.png",
+          "sha256": "7c88a9727b41bc903a13a060318a2583cf2d457ecf98bcaae0ffba7d9e366f92"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-history.png",
+          "publicName": "c16-history.png",
+          "sha256": "d5307f1204fd861931a16c239ba0efe70a7f86c53c25a48218a58d22ab3100d5"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-graphic-receipts.json",
+          "publicName": "c16-graphic-receipts.json",
+          "sha256": "14a6c542ccc5a8113df6187e663ac710190edc395e48fdc2aa12b2450afb6a79"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-verification-summary.json",
+          "publicName": "c16-verification-summary.json",
+          "sha256": "a9e3480d5e797ca8fa73a0747c387c6d5df2a66bb1193a724892586238d7f6cb"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-verification-summary-r1.json",
+          "publicName": "c16-verification-summary-r1.json",
+          "sha256": "98f72ae12521dd5e405465028594c06de022a58f0c6d814e1657c1ca18083fdf"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/tv-primary/c16-candidate-revision-r1-receipt.json",
+          "publicName": "c16-candidate-revision-r1-receipt.json",
+          "sha256": "74cfb77b56a1f34cd1f758ef6b7ce32f382acda481b8c2fcfec19d40698e57a1"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/c16-post.txt",
+          "publicName": "c16-post.txt",
+          "sha256": "c19af0648a15d349bd00297e6722edcc92e242276632cb0aefe848424b489721"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/c16-history-post.txt",
+          "publicName": "c16-history-post.txt",
+          "sha256": "67047f994c93eb42ae16752a90d55620e0781a7640ae6a7f33608244dbb565fb"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/c16-primary-candidate-crosscheck-r1.json",
+          "publicName": "c16-primary-candidate-crosscheck-r1.json",
+          "sha256": "83aeee96dcca1136ffd0fb297c97c7943a4a78b8d4acc4ad1bca517af2756b65"
+        }
+      ],
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-13/tv-primary/c16-source-proof.txt",
+          "url": "https://x.com/IsraelPolls/status/2110073270125113400",
+          "kind": "reviewed-secondary-evidence-explicit-fieldwork-limitation",
+          "quote": "More than2000 respondents; maximum statistical error2.1%; exact sample size and fieldwork not verified.",
+          "sha256": "acbea1d351f69c80185357afb154fea0fdcbae78bd450c7410e8025176a58f5e"
+        }
+      ]
+    },
+    {
+      "pollsterId": "lazar",
+      "folder": "walla",
+      "candidatePath": "artifacts/poll-checks/2026-10-13/israelpolls/reviewed-walla-poll.json",
+      "candidateSha256": "6fb2d0c21a5f917fcf20a598e9c013bfb6752855c5551c925f71b0e425265092",
+      "expectedSeats": {
+        "yashar": 22,
+        "likud": 20,
+        "beyachad": 13,
+        "democrats": 10,
+        "yisrael_beiteinu": 9,
+        "otzma": 8,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 5,
+        "hendel": 4,
+        "winter": 0,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "expectedReportedPercentages": {
+        "winter": 2.8,
+        "gantz": 1.1,
+        "haredi_public": 1.0,
+        "noam": 0.2
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 49,
+        "opposition": 54,
+        "arab_parties": 13,
+        "hendel": 4
+      },
+      "strictEligible": true,
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/reviewed-walla-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "6fb2d0c21a5f917fcf20a598e9c013bfb6752855c5551c925f71b0e425265092"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-original.html",
+          "publicName": "walla-original.html",
+          "sha256": "b8aba117e605091b91d4c06fc44cbd2bd7372a476afc25f356112275fc0b5b40"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-original.txt",
+          "publicName": "walla-original.txt",
+          "sha256": "31d5c92e7f6e665a085635b8104dd059ac8bcceb89cfafbc74782ba925ac2dc3"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-primary-0.webp",
+          "publicName": "walla-primary-0.webp",
+          "sha256": "cd785e2f3dc0a35d9df140b8a578cc74503616c1a4c9c81ffe9652afcc2f62e7"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-primary-1.webp",
+          "publicName": "walla-primary-1.webp",
+          "sha256": "be1f46e283311667f302ac1022e920c6313aecd05ef2ff372b37fc2fdeda951d"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-history.png",
+          "publicName": "walla-history.png",
+          "sha256": "bc27ad06486bab54cb3aa101ff7883cc15c03ea720eb291f0dec8f84ee7c26cd"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-post.txt",
+          "publicName": "walla-post.txt",
+          "sha256": "376410c068fcc565bd663b00056446e9fbcb7183300f9e08f21a90618cb60e77"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-history-post.txt",
+          "publicName": "walla-history-post.txt",
+          "sha256": "325d536d5f54de3c434ab98a0448c5194695a4e796a6294d3c0ae2ff9a2ab6e8"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/maariv-walla-repeat.html",
+          "publicName": "maariv-walla-repeat.html",
+          "sha256": "4793515303a848b2129d15e0e8b47d1bfa4aa2a22737933dca43e343fd395b85"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/maariv-walla-repeat.txt",
+          "publicName": "maariv-walla-repeat.txt",
+          "sha256": "acf68cd8108bebbe3bc30124d0a4af9a529bc5b8093829a0358607ea444c86ec"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-source-proof.json",
+          "publicName": "walla-source-proof.json",
+          "sha256": "654dc96d8a9bd9b07be676d6141078960076c39f4bd60737e915acfcd4bb5781"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-auxiliary-opinion-results.json",
+          "publicName": "walla-auxiliary-opinion-results.json",
+          "sha256": "cb6bedff7ce8e9a665d4315337f9b2447f22d3c22b40dd5c5bc68c44928aef9c"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-13/israelpolls/walla-freeze-receipt.json",
+          "publicName": "walla-freeze-receipt.json",
+          "sha256": "fc0b8e324c3bbb8c60d5084880c108b05f43b7f89a11d44bc96dd3cc226e35b2"
+        }
+      ],
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-13/israelpolls/walla-original.txt",
+          "url": "https://www.walla.co.il/news/politics/383957251",
+          "kind": "original-publisher-methodology-extraction",
+          "quote": "עורך הסקר: לזר מחקרים בראשון ד\"ר מנחם לזר\nמועד איסוף הנתונים: 12.10.2026\nאוכלוסיית המחקר: מדגם מייצג של כלל האוכלוסייה בישראל מגיל 18 ומעלה\nגודל המדגם ההתחלתי: 600\nמספר המשיבים בפועל: 601\nמספר המבקשים להשתתף: 4,089\nאחוז המענה: 15%\nטעות הדגימה המרבית: 4.0%+-\nשיטה סטטיסטית: הסקר בוצע בשיטות סטטיסטיות מקובלות\nשיטת הדגימה: דגימת שכבות ובתוך השכבות דגימה אקראית\nאופן ביצוע הסקר: באמצעות פאנל המשיבים האינטרנטי Panel4All",
+          "sha256": "31d5c92e7f6e665a085635b8104dd059ac8bcceb89cfafbc74782ba925ac2dc3"
+        }
+      ]
+    }
+  ],
+  "sourceReview": {
+    "IsraelPolls": {
+      "summaryFile": "artifacts/poll-checks/2026-10-13/israelpolls/source-summary-r1.json",
+      "summarySha256": "60ada6bf5c359333f25cb6418895158a2e4617ad7a73e8ac2c43b32592a8bab3",
+      "scope": "Latest five publicly rendered IsraelPolls profile posts, directly linked original/reposted graphics and historical replies; directly opened primary print home/politics/election indexes. This is not a complete older X media archive.",
+      "publisherChecks": [
+        {
+          "publisher": "IsraelPolls",
+          "urls": [
+            "https://x.com/IsraelPolls?s=20"
+          ],
+          "directHttpStatus": 200,
+          "webStatus": "cache-miss",
+          "limitation": "Public SSR latest five posts and linked replies accessible; older full media/reply navigation login-limited."
+        },
+        {
+          "publisher": "Maariv",
+          "urls": [
+            "https://www.maariv.co.il/",
+            "https://www.maariv.co.il/news/politics",
+            "https://www.maariv.co.il/news/elections-2026",
+            "https://www.maariv.co.il/tags/%D7%A1%D7%A7%D7%A8-%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D"
+          ],
+          "directHttpStatus": 200,
+          "finding": "New Walla republication, deduplicated. No other new distinct mandate poll identified in opened indexes."
+        },
+        {
+          "publisher": "Walla",
+          "urls": [
+            "https://www.walla.co.il/news",
+            "https://www.walla.co.il/news/politics",
+            "https://elections.walla.co.il/",
+            "https://www.walla.co.il/news/politics/383957251"
+          ],
+          "directHttpStatus": 200,
+          "webStatus": "original-open-failed",
+          "finding": "New original Lazar poll with explicit October12 fieldwork and October13 publication."
+        },
+        {
+          "publisher": "IsraelHayom",
+          "urls": [
+            "https://www.israelhayom.co.il/",
+            "https://www.israelhayom.co.il/news/politics"
+          ],
+          "directHttpStatus": 200,
+          "finding": "Fresh homepage Tuesday October13; no additional distinct current mandate poll found in opened indexes. Prior October8 observation remains known.",
+          "limitation": "Some web-rendered homepage cache showed October12; fresh archived HTTP HTML supplies current direct index evidence."
+        },
+        {
+          "publisher": "ZmanIsrael",
+          "urls": [
+            "https://www.zman.co.il/",
+            "https://www.zman.co.il/feed/33350/"
+          ],
+          "directHttpStatus": 403,
+          "webStatus": "accessible-home-and-poll-feed",
+          "finding": "Latest poll feed card October8; women representation commentary uses an existing poll, not a new sample.",
+          "limitation": "Direct HTTP is blocked; method-specific web access worked, so do not claim either successful direct fetch or wholesale inaccessible."
+        },
+        {
+          "publisher": "To120",
+          "urls": [
+            "https://twonetwenty.com/data",
+            "https://twonetwenty.com/he/evidence"
+          ],
+          "directHttpStatus": 200,
+          "finding": "Package/evidence still October11, 137 documented polls; hashes identical to previous October12 scan. No compiled forecasts/calibration/weights ingested.",
+          "limitation": "Supplemental discovery only; linked original publishers/CEC required for independent observation verification."
+        }
+      ],
+      "duplicatesExcluded": [
+        {
+          "url": "https://www.maariv.co.il/news/elections-2026/article-1376685",
+          "samePollId": "lazar_2026-10-13",
+          "reason": "Explicitly republishes Walla/Lazar results, not a fourth independent sample."
+        },
+        {
+          "url": "https://x.com/IsraelPolls/status/2110079371033604333",
+          "reason": "Weekly composite includes already known and new observations plus averages. No additional sample."
+        },
+        {
+          "url": "https://x.com/IsraelPolls/status/2109904906043961744",
+          "reason": "Commentary on already ingested Channel14 October12 poll, not a new October13 observation."
+        }
+      ]
+    },
+    "TVPrimary": {
+      "i24SourceOriginalVerified": true,
+      "i24SummarySha256": "20531c4b9ba96141acc35590d41b87859fc0069d44df9e40a014f06c33354220",
+      "C16RepublishedOriginalGraphicAndHistoryVerified": true,
+      "C16OriginalNumericFramesVerified": false,
+      "C16FieldworkVerified": false,
+      "C16ExactSampleSizeKnown": false,
+      "C16RevisionReceiptSha256": "74cfb77b56a1f34cd1f758ef6b7ce32f382acda481b8c2fcfec19d40698e57a1",
+      "accessLimitations": "Browser homepage linked the new Oct13 full central broadcast. Own search displayed standalone poll6Oct as latest visible result. Original full broadcast played and date13Oct was visible in its intro, but no numeric poll frames or exact sample/fieldwork wording were inspected before investigation was bounded. Generic news and VOD index aliases returned404; static home/specific page HTML are client shells."
+    },
+    "WallaOriginalVerified": true,
+    "compiledForecastsIngested": false,
+    "privateResearchIngested": false
+  }
+}

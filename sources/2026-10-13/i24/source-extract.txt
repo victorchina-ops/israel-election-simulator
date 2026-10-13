@@ -1,0 +1,18 @@
+Reviewed published observation direct_polls_2026-10-13; publication 2026-10-13.
+Source tier: original-publisher; original source: https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632.
+Published mandates: {"yashar": 21, "likud": 27, "beyachad": 13, "democrats": 9, "yisrael_beiteinu": 7, "utj": 8, "joint": 7, "shas": 7, "otzma": 9, "rz_zehut": 6, "raam": 6, "winter": 0, "hendel": 0, "gantz": 0, "haredi_public": 0, "noam": 0, "israel_first": 0}
+Exact published percentages: {"winter": 3.1, "hendel": 2.2}
+Published bounds, never treated as exact percentages: {"gantz": {"min": 0, "max": 1, "maxExclusive": true}, "haredi_public": {"min": 0, "max": 1, "maxExclusive": true}, "noam": {"min": 0, "max": 1, "maxExclusive": true}, "israel_first": {"min": 0, "max": 1, "maxExclusive": true}}
+Published source blocs: {"coalition": 57, "opposition": 50, "arab_parties": 13}
+Sample size exact/exclusive-lower-bound: 1210/None
+Verified strict fieldwork eligibility: True; dates 2026-10-13 to 2026-10-13
+Missing data are not zero and not inherited from an earlier survey.
+Model-only percentages: []
+Source review notes:
+Distinct new Direct Polls observation published13Oct; replaces8Oct only in current active series and retains the old row in history.
+All11 passing lists sum120. Original analysis-video poster was visually read and confirms all11 values plus explicit0 seats for Winter,Hendel and Gantz and published blocs57/50/13.
+Exact below-threshold shares are Winter3.1% and Hendel2.2%. Gantz,HarediPublic,Noam,IsraelFirst,BlackColor and AHI are each reported only as less than1%; zero seats do not mean zero support.
+Passing-party national percentages, undecided share and vote-share denominator were not provided in the inspected article/graphic. No fictional combined other percentage is created.
+The article methodology explicitly says collection13Oct2026, n1210, digital+panel, adults18+, representative general Israeli population, error2.8% at95%. Exact times, invited/initial sample and named panel supplier remain missing.
+Published and modified timestamps both17:48:07Z (=20:48:07 Israel) in original structured metadata. This is distinct from the separately stated fieldwork date.
+Original publisher comparison reports coalition60 on8Oct to57 today; its previous60 included Winter4. Any fixed-bloc comparison must identify its different definition.

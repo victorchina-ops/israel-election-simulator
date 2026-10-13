@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-13",
+  "scope": "Exact multiplicity storage and tail accumulation only; statistic, null, tolerance, weights and original sources unchanged.",
+  "reason": "The updated factorial permutation universe exceeds signed64; previous bounded array accumulation overflowed.",
+  "nPermutationsExact": "60679016939520000000",
+  "signed64Maximum": "9223372036854775807",
+  "helpers": [
+    {
+      "path": "artifacts/strict-post-close/compressed_searchsorted_exact.py",
+      "beforeSha256": "9598e42587587375cf5cfaacd5f1a2edbea23512c0148f167c64a4b248b99f1c",
+      "afterSha256": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+      "changedFunctions": [
+        "_cartesian_sums",
+        "compressed_searchsorted_tail"
+      ]
+    },
+    {
+      "path": "artifacts/strict-post-close/independent-compressed-counts.py",
+      "beforeSha256": "6c77359d39ad0131bbd7e780a57b6667b5b8f5cfc19803dc155ed34290118990",
+      "afterSha256": "d18281ddab0f27e8343844200612bbb6ff5731a37f41fa326f24e328a5935fc9",
+      "changedFunctions": [
+        "sums_with_multiplicities",
+        "direct_tail_counts"
+      ]
+    }
+  ],
+  "regressionTests": 5,
+  "testLogSha256": "f7dc1c65d9bf1c31f1cb9a0be1fc0c0840290cbe7f978a8864c6557dbd2fbb5e",
+  "testScriptSha256": "770301830010729c3d3bf74a22471628de16a055e3438f882195d483182dc2c7",
+  "testedCases": [
+    "ordinary counts",
+    "large counts below signed64",
+    "complete universe above signed64",
+    "one Cartesian half above signed64",
+    "zero observed whole-universe tail"
+  ],
+  "frozenOriginalsPreserved": true,
+  "primaryAndIndependentAlgorithmsRemainSeparate": true
+}

@@ -1,0 +1,272 @@
+[
+  {
+    "name": "remaining-n12-home",
+    "url": "https://www.n12.co.il/",
+    "checkedAtUtc": "2026-10-13T20:03:58.368888+00:00",
+    "status": 200,
+    "finalUrl": "https://www.n12.co.il/",
+    "bytes": 665153,
+    "sha256": "f5ff41e3346989b4fa6cb0a5627ee87b1994b175d183ba0fc70fed6667ebd006",
+    "file": "remaining-n12-home.html",
+    "pollLinks": [
+      {
+        "href": "https://www.mako.co.il/news-shorts/2026-m10_w03/shorts-8bcb38ec7a631a1027.htm",
+        "text": "לפני 30 דקות המסעדה החדשה והמסקרנת: ארמון אינדונזי בלב רחובות"
+      },
+      {
+        "href": "https://www.mako.co.il/news-israel-elections/2026/Article-06343a8a5f411a1026.htm",
+        "text": "בחירות 2026: התוצאה שלא רואים בסקרים דפנה ליאל"
+      },
+      {
+        "href": "https://www.mako.co.il/news-podcast_n12/one_a_day/Article-69cb14efdd4f0a1027.htm",
+        "text": "העולם הערבי סופר מנדטים 01.10.26 אלעד שמחיוף"
+      }
+    ]
+  },
+  {
+    "name": "remaining-n12-politics",
+    "url": "https://www.mako.co.il/news-politics",
+    "checkedAtUtc": "2026-10-13T20:03:58.368888+00:00",
+    "status": 403,
+    "finalUrl": "https://www.mako.co.il/news-politics",
+    "bytes": 225,
+    "sha256": "f958027770c96263f648532847192bfda06f091fd48dc85750739f5b93496470",
+    "file": "remaining-n12-politics.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-n12-elections",
+    "url": "https://www.mako.co.il/news-israel-elections/2026",
+    "checkedAtUtc": "2026-10-13T20:03:58.369888+00:00",
+    "status": 403,
+    "finalUrl": "https://www.mako.co.il/news-israel-elections/2026",
+    "bytes": 225,
+    "sha256": "7db0c67cabadd6bf141214875e89e7618ebbead73e4217f34f6a4f8f7b47053f",
+    "file": "remaining-n12-elections.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-c14-home",
+    "url": "https://www.c14.co.il/",
+    "checkedAtUtc": "2026-10-13T20:03:58.370884+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/",
+    "bytes": 881571,
+    "sha256": "619c145767b176c36fd6f8296f8e861fc27abf4ce527183809609204894bb89f",
+    "file": "remaining-c14-home.html",
+    "pollLinks": [
+      {
+        "href": "/article/1731301",
+        "text": "כך מזיזים מנדטים: מאחורי הקלעים של הקמפיינים הפוליטיים"
+      }
+    ]
+  },
+  {
+    "name": "remaining-c14-politics",
+    "url": "https://www.c14.co.il/archive/65839",
+    "checkedAtUtc": "2026-10-13T20:03:58.370884+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/archive/65839",
+    "bytes": 236526,
+    "sha256": "96c3530c2ac7edbcb76c9ae4fa3b7f38a0e733edd2ab06239a3f3f466e25fdf7",
+    "file": "remaining-c14-politics.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-c14-elections",
+    "url": "https://www.c14.co.il/elections26",
+    "checkedAtUtc": "2026-10-13T20:03:58.371885+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/elections26",
+    "bytes": 224685,
+    "sha256": "7c794e934efad83244e044834bdf3c46221d4223f0b399471b5f465e2abbd8b6",
+    "file": "remaining-c14-elections.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-c14-mandates",
+    "url": "https://www.c14.co.il/archive/53747",
+    "checkedAtUtc": "2026-10-13T20:03:58.372884+00:00",
+    "status": 200,
+    "finalUrl": "https://www.c14.co.il/archive/53747",
+    "bytes": 240908,
+    "sha256": "7b05f159a183c4ce31922f03e62030fa86595fcc97216f02e5ef5d9e791d8f91",
+    "file": "remaining-c14-mandates.html",
+    "pollLinks": [
+      {
+        "href": "/archive/53747",
+        "text": "סקר מנדטים"
+      },
+      {
+        "href": "/article/1735305",
+        "text": "סקר חדשות 14 דרמה במפת הגושים: זו המפלגה שעוברת לראשונה את אחוז החסימה 102 תגובות 102 אתמול 20:32 החדשות"
+      },
+      {
+        "href": "/article/1728552",
+        "text": "סקר חדשות 14: איזנקוט מצמצם דרמטית את הפער מנתניהו 21 תגובות 21 07.10.26 החדשות"
+      },
+      {
+        "href": "/article/1728516",
+        "text": "ראיתם את זה בא? דרמטי: המפלגה שמתרסקת בסקרים ומתקרבת לאחוז החסימה 95 תגובות 95 07.10.26 החדשות"
+      },
+      {
+        "href": "/article/1720749",
+        "text": "סקר חדשות 14 מתקרבים לרגע האמת: כך נראית מפת המנדטים המעודכנת 68 תגובות 68 01.10.26 אפרת ברינר"
+      },
+      {
+        "href": "/article/1716250",
+        "text": "סקר חדשות 14: בנט מתחזק, איזנקוט נחלש - ומה עם וינטר? 57 תגובות 57 28.09.26 החדשות"
+      },
+      {
+        "href": "/article/1711606",
+        "text": "סקר חדשות 14 וינטר בקריסה - הפער בין נתניהו לאיזנקוט מצטמצם משמעותית גוש הימין שומר על רוב של 63 מנדטים 89 תגובות 89 23.09.26 אפרת ברינר"
+      },
+      {
+        "href": "/article/1703304",
+        "text": "סקר חדשות 14 הציבור בוחן חלופות? המפלגות הקטנות מתחילות להרים ראש 41 תגובות 41 15.09.26 החדשות"
+      },
+      {
+        "href": "/article/1697000",
+        "text": "אפקט השריונים? השינוי במפת המנדטים אחרי המהלך של נתניהו 34 תגובות 34 09.09.26 החדשות"
+      },
+      {
+        "href": "/article/1693697",
+        "text": "סקר חדשות 14: כמה מניב איחוד הנדל-זליכה - והאם וינטר עובר? 68 תגובות 68 07.09.26 החדשות"
+      },
+      {
+        "href": "/article/1693649",
+        "text": "הערב ב-19:50 רגע לפני סגירת הרשימות לכנסת: סקר מנדטים מיוחד מי עובר את אחוז החסימה, ומה תמונת הגושים החדשה? 3 תגובות 3 07.09.26 החדשות"
+      },
+      {
+        "href": "/article/1692644",
+        "text": "דעה המספרים בסקרים מתהפכים - והשקר שניסו למכור לציבור נחשף 27 תגובות 27 07.09.26 יעקב ברדוגו"
+      },
+      {
+        "href": "/article/1690265",
+        "text": "סקר חדשות 14 תוצאות האיחוד: סמוטריץ' ופייגלין בפנים - וינטר בחוץ 31 תגובות 31 03.09.26 החדשות"
+      },
+      {
+        "href": "/article/1683992",
+        "text": "למרות קמפיין הגעוואלד זה מספר המנדטים שמקבל איתמר בן גביר בסקר חדשות 14 52 תגובות 52 30.08.26 אפרת ברינר"
+      },
+      {
+        "href": "/article/1681141",
+        "text": "סקר מנדטים דרמטי: טלטלה בגוש הימין לאחר הצטרפות וינטר וגם - ההתחזקות המשמעותית של הרשימה המשותפת 54 תגובות 54 27.08.26 החדשות"
+      },
+      {
+        "href": "/article/1674991",
+        "text": "סקר חדשות 14: לאחר ההכרזה - כמה מנדטים שווה עופר וינטר? 70 תגובות 70 24.08.26 החדשות"
+      },
+      {
+        "href": "/article/1666804",
+        "text": "סקר חדשות 14 53% מאמינים שרשימת הליכוד החדשה תחזק את הסיכויים בבחירות 18.08.26 דסק C14"
+      },
+      {
+        "href": "/article/1666708",
+        "text": "התרסקות מפוארת סקר חדשות 14: מפלגת ביחד של בנט ולפיד מתקרבת לאחוז החסימה 69 תגובות 69 18.08.26 החדשות"
+      },
+      {
+        "href": "/article/1661612",
+        "text": "הראשונים לזהות הסקרים של חדשות 14 מקדימים את הערוצים האחרים במגמתיות האם מדובר בשיטת דגימה מדויקת יותר או ב\"הנדסת תודעה\"? 39 תגובות 39 15.08.26 תמיר שנייד"
+      },
+      {
+        "href": "/article/1655982",
+        "text": "סקר חדשות 14: הליכוד מתחזקת - על חשבון המפלגות החרדיות 67 תגובות 67 10.08.26 החדשות"
+      },
+      {
+        "href": "/article/1646973",
+        "text": "סקר חדשות 14 הפער נמחק: סמוטריץ' ובן גביר משתווים במנדטים 52 תגובות 52 04.08.26 דסק C14"
+      },
+      {
+        "href": "/article/1639107",
+        "text": "סקר חדשות 14 איזנקוט והדמוקרטים נחלשים, גוש הימין נשאר יציב 47 תגובות 47 29.07.26 החדשות"
+      }
+    ]
+  },
+  {
+    "name": "remaining-c13-home",
+    "url": "https://13tv.co.il/",
+    "checkedAtUtc": "2026-10-13T20:03:58.777934+00:00",
+    "status": 403,
+    "finalUrl": "https://13tv.co.il/",
+    "bytes": 362,
+    "sha256": "ea9a4b6d36fa0358e9afe745cb72346e711d84cd8c79d0bab6aa37ce8257dd38",
+    "file": "remaining-c13-home.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-c13-politics",
+    "url": "https://13tv.co.il/news/politics/politics/",
+    "checkedAtUtc": "2026-10-13T20:03:58.783933+00:00",
+    "status": 403,
+    "finalUrl": "https://13tv.co.il/news/politics/politics/",
+    "bytes": 397,
+    "sha256": "40379188f8217cc231584613755154005c1cb035bd815eac9c325928984ab6b2",
+    "file": "remaining-c13-politics.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-c13-polls",
+    "url": "https://13tv.co.il/tags/survey/",
+    "checkedAtUtc": "2026-10-13T20:03:58.844562+00:00",
+    "status": 403,
+    "finalUrl": "https://13tv.co.il/tags/survey/",
+    "bytes": 384,
+    "sha256": "f6a029918d41fbcafc54d7acecfdad8ca611dfcec1fd346af79cb72cb88041e1",
+    "file": "remaining-c13-polls.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-kan-home",
+    "url": "https://www.kan.org.il/",
+    "checkedAtUtc": "2026-10-13T20:03:58.866905+00:00",
+    "status": 403,
+    "finalUrl": "https://www.kan.org.il/",
+    "bytes": 5394,
+    "sha256": "8ca4eebf3a80077b816bed9f488e323da0dbb5d8be37cbf2ac3c0d8ef000ff52",
+    "file": "remaining-kan-home.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-kan-politics",
+    "url": "https://www.kan.org.il/content/kan-news/politic/",
+    "checkedAtUtc": "2026-10-13T20:03:58.909092+00:00",
+    "status": 403,
+    "finalUrl": "https://www.kan.org.il/content/kan-news/politic/",
+    "bytes": 5511,
+    "sha256": "84a1843d67ba6b33e0805324c97f0d1281873d3f0e956313acd1a5a34f244f61",
+    "file": "remaining-kan-politics.html",
+    "pollLinks": []
+  },
+  {
+    "name": "remaining-kan-polls",
+    "url": "https://skarim.kan.org.il/",
+    "checkedAtUtc": "2026-10-13T20:03:58.939362+00:00",
+    "status": 403,
+    "finalUrl": "https://skarim.kan.org.il/",
+    "bytes": 5397,
+    "sha256": "ba72701d152471798e0ca7f6fcb88afc7cb39d308f90c5daeb540e86dbb723db",
+    "file": "remaining-kan-polls.html",
+    "pollLinks": []
+  },
+  {
+    "name": "i24-politics-correct-index",
+    "url": "https://www.i24news.tv/he/news/news/politics",
+    "checkedAtUtc": "2026-10-13T20:03:58.952364+00:00",
+    "status": 200,
+    "finalUrl": "https://www.i24news.tv/he/news/news/politics",
+    "bytes": 353577,
+    "sha256": "6f8eaae6af2f436d4b7067156e2bb2e6a8392d99e1e867005e503d4d51231e75",
+    "file": "i24-politics-correct-index.html",
+    "pollLinks": [
+      {
+        "href": "https://www.i24news.tv/he/news/news/politics/artc-50e7457c",
+        "text": "1 דקות פוליטי לקראת שבוע גורלי: ההכרעה שנתניהו יאלץ לקבל בנוגע לוינטר | פרסום ראשון בגוש הימין דנים בהסכם עודפים עם וינטר, אף שלפי הסקרים אינו עובר את אחוז החסימה • המהלך ינרמל את התמודדותו בסתירה ישירה לקמפיין הנוכחי, שבו נטען נגדו כי \"הוא מסכן את הגוש ושלא סומכים עליו\" נדב אלימלך זמן קריאה: 1 דקות."
+      },
+      {
+        "href": "https://www.i24news.tv/he/news/news/politics/artc-efd05311",
+        "text": "1 דקות פוליטי תיעוד בלעדי משיחות סגורות חושף את הלחץ ביהדות התורה: \"צריכים פה ניסים\" בעוד שכלפי חוץ משדרים ביהדות התורה ביטחון לקראת הבחירות, שיחה סגורה שהתקיימה בביתו של מנהיג דגל התורה, חושפת תמונת מצב מתוחה בהרבה • הרב הירש: \"זה באמת פיקוח נפש, זה שלדגל יש רק 7 מנדטים זה חילול השם\" ארי קלמן זמן קריאה: 1 דקות."
+      }
+    ]
+  }
+]

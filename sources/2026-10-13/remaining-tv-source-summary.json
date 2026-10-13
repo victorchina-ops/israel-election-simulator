@@ -1,0 +1,77 @@
+{
+  "asOf": "2026-10-13",
+  "reviewedAtUtc": "2026-10-13T20:05:05.356558+00:00",
+  "scope": "Read-only direct primary TV homepage and politics/election/poll index scan; original new i24/C16 numeric verification is in their separate reviewed candidates.",
+  "publisherChecks": [
+    {
+      "publisher": "N12",
+      "homeURL": "https://www.n12.co.il/",
+      "homeHTTP": 200,
+      "indexURLs": [
+        "https://www.mako.co.il/news-politics",
+        "https://www.mako.co.il/news-israel-elections/2026"
+      ],
+      "indexHTTP": 403,
+      "webReader": "Both indexes readable; latest distinct mandate card is12Oct already in model.13Oct09:09 article explicitly repeats auxiliary opinion questions from previous evening12Oct poll, not a new sample.",
+      "dedupURL": "https://www.mako.co.il/news-israel-elections/2026/Article-5408e765dd031a1026.htm"
+    },
+    {
+      "publisher": "Channel13",
+      "URLs": [
+        "https://13tv.co.il/",
+        "https://13tv.co.il/news/politics/politics/",
+        "https://13tv.co.il/tags/survey/"
+      ],
+      "directHTTP": 403,
+      "webReader": "All three readable; survey index latest full public C13 mandate observation7Oct.12Oct internal Filber/Likud presentation article claims bloc tie, lacks full party vector, n, collection date and original report; not enough for an independent ingestible poll.",
+      "incompleteInternalSurveyClaimURL": "https://13tv.co.il/item/news/politics/politics/xc9ye-905393081/?pid=98577"
+    },
+    {
+      "publisher": "Channel14",
+      "URLs": [
+        "https://www.c14.co.il/",
+        "https://www.c14.co.il/archive/65839",
+        "https://www.c14.co.il/elections26",
+        "https://www.c14.co.il/archive/53747"
+      ],
+      "directHTTP": 200,
+      "finding": "All four fetched and readable. Mandate index latest original1735305 is12Oct already in canonical input; no other distinct13Oct mandate observation identified in these opened indexes."
+    },
+    {
+      "publisher": "Kan",
+      "URLs": [
+        "https://www.kan.org.il/",
+        "https://www.kan.org.il/content/kan-news/politic/",
+        "https://skarim.kan.org.il/"
+      ],
+      "directHTTP": 403,
+      "webReader": "All three zero reader lines. Publication coverage and any new or corrected metadata cannot be established from these blocked pages."
+    },
+    {
+      "publisher": "i24",
+      "correctPoliticsURL": "https://www.i24news.tv/he/news/news/politics",
+      "correctPoliticsHTTP": 200,
+      "correctPoliticsReadable": true,
+      "originalNewCandidate": "reviewed-i24-poll.json",
+      "limitation": "Previously attempted shorter/news/politics alias and election/poll hubs returned JavaScript shell. Correct observed politics index and homepage readable; original new poll verified separately."
+    },
+    {
+      "publisher": "Channel16",
+      "liveHomeURL": "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+      "ownSearchURL": "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8",
+      "genericNewsVODAliasesHTTP": 404,
+      "browserHomeAndSearchReadable": true,
+      "reviewedNewCandidate": "reviewed-c16-poll-r1.json",
+      "limitation": "Own poll search latest standalone6Oct item; live home links13Oct full broadcast, which plays. Exactn/fieldwork and original numeric frames were not inspected; verified republished original graphic/history supply numbers with explicit metadata limits."
+    }
+  ],
+  "receiptFiles": {
+    "remaining-tv-network-receipts.json": "a5e4a8f83f4fd567c783a3ffe5c9d238aa58f05296f4260441c5a40cefaca8de",
+    "remaining-tv-web-reader-receipt.json": "ea6511c7a59386370df78b9004f2113602de730cc9f54f9921f09f3f24e5041a",
+    "remaining-tv-index-followup-web-receipt.json": "3ac12f37057d27eb85efe7f75c0eb8ccdea46b670b161995ca4e8cceb75fc90d",
+    "remaining-tv-opinion-dedup-web-receipt.json": "95ba387b98a23adfaacab6021e037ff129db1cf8d2ae2a5af7e8957ab5b9dc59"
+  },
+  "otherVerifiedDistinctCandidateCount": 0,
+  "completePublicationCoverageClaimed": false,
+  "canonicalMutationsPerformed": false
+}

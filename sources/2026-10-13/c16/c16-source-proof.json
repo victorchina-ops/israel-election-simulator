@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "reviewedAtUtc": "2026-10-13T19:56:51.644863+00:00",
+  "pollId": "maagar_mochot_2026-10-13",
+  "status": "verified-new-secondary-republished-original-graphic",
+  "sources": {
+    "graphicPost": "https://x.com/IsraelPolls/status/2110073270125113400",
+    "graphicURL": "https://pbs.twimg.com/media/HUh8cwRWwAA_4DY.png",
+    "historyPost": "https://x.com/IsraelPolls/status/2110076694497251453",
+    "historyURL": "https://pbs.twimg.com/media/HUh_kUjW0AAyGKm.png",
+    "originalBroadcastPage": "https://www.ch16.co.il/vod/6ace7ddac544041ace194b0b"
+  },
+  "visualVerification": {
+    "files": [
+      {
+        "file": "c16-graphic.png",
+        "sha256": "7c88a9727b41bc903a13a060318a2583cf2d457ecf98bcaae0ffba7d9e366f92"
+      },
+      {
+        "file": "c16-history.png",
+        "sha256": "d5307f1204fd861931a16c239ba0efe70a7f86c53c25a48218a58d22ab3100d5"
+      }
+    ],
+    "verifiedBy": "TV source agent independent visual inspection after IsraelPolls source agent inspection",
+    "seats": {
+      "yashar": 21,
+      "likud": 18,
+      "beyachad": 13,
+      "democrats": 9,
+      "yisrael_beiteinu": 7,
+      "utj": 8,
+      "joint": 8,
+      "shas": 7,
+      "otzma": 9,
+      "rz_zehut": 6,
+      "raam": 5,
+      "winter": 4,
+      "hendel": 5,
+      "gantz": 0,
+      "haredi_public": 0
+    },
+    "seatTotal": 120,
+    "reportedPercentages": {
+      "gantz": 1.2,
+      "haredi_public": 1.1
+    },
+    "rawSourceBlocSeats": {
+      "coalition": 52,
+      "opposition": 50,
+      "arab_parties": 13,
+      "hendel": 5
+    },
+    "rawSourceBlocDefinitions": {
+      "coalition": "Graphic explicitly includes Amcha Israel/Winter4",
+      "opposition": "Graphic50 excludes Hendel5 and Arab13",
+      "arab_parties": "Joint8 plus Raam5",
+      "hendel": "Hendel-Zelicha separate5"
+    },
+    "historyOtherBlocSeats": 55,
+    "historyOtherBlocDefinition": "Opposition50 plus Hendel5",
+    "publicationDateLabel": "Tuesday13.10.2026; date is publication label, not collection wording",
+    "sampleSize": null,
+    "sampleSizeQualifier": "למעלה מ־2,000 משיבים",
+    "sampleSizeLowerBoundExclusive": 2000,
+    "reportedMarginOfErrorPct": 2.1,
+    "reportedMarginOfErrorConfidencePct": null,
+    "fieldworkStart": null,
+    "fieldworkEnd": null
+  },
+  "primaryAccess": {
+    "homepage": "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+    "ownPollSearch": "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8",
+    "originalBroadcast": "https://www.ch16.co.il/vod/6ace7ddac544041ace194b0b",
+    "browserHomepageRendered": true,
+    "browserSearchRendered": true,
+    "browserPlayerAccessible": true,
+    "originalPollNumericFramesVisuallyVerified": false,
+    "description": "Browser homepage linked the new Oct13 full central broadcast. Own search displayed standalone poll6Oct as latest visible result. Original full broadcast played and date13Oct was visible in its intro, but no numeric poll frames or exact sample/fieldwork wording were inspected before investigation was bounded. Generic news and VOD index aliases returned404; static home/specific page HTML are client shells.",
+    "metadataAPIStatus": 500,
+    "subtitleTrackStatus": 200,
+    "subtitleTrackContent": "Empty WEBVTT,7bytes",
+    "assetExport": "Browser asset export stalled and was interrupted; no export artifact used as poll evidence."
+  },
+  "missingness": {
+    "sampleSize": "No exact count; >2000 is an exclusive lower bound. Never enter2000 or copy550.",
+    "fieldwork": "No collection interval verified; strict analysis must exclude this observation for unverified fieldwork.",
+    "percentages": "Only Gantz1.2 and HarediPublic1.1 exact values are in new historical column. Passing shares, Noam, IsraelFirst and other remain missing.",
+    "method": "Polling institute Maagar Mochot and error2.1 identified; confidence, mode, sampling procedure, denominator, undecided, invited and initial sample remain unknown."
+  },
+  "dedup": {
+    "replacesPollId": "maagar_mochot_2026-10-06",
+    "distinctFromOld": true,
+    "oldCurrentDate": "2026-10-06",
+    "oldSeatVectorDiffers": true,
+    "noExtraPollCountForGraphicHistoryOrBroadcast": true
+  }
+}

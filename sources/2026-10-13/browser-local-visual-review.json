@@ -1,0 +1,88 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "reviewedAtUtc": "2026-10-13T20:27:59.471810+00:00",
+  "browserReport": "report.json",
+  "browserReportSha256": "030a9c1b1573ec44346f46ea2c73eba691af15e18f70a0bf9a420e2d78ca59bc",
+  "qaScript": "qa-script-used.mjs",
+  "qaScriptSha256": "d102e2c893af2e34af08c0db09e9a209e5f465ab7ae294356c79a7c4ca28d2ba",
+  "reviewedScreenshots": {
+    "1440-about-light.png": "0b5ea257574c583bd9b06b845d9061da0d72b6b1e1fa4018d91e5d68d0fd168a",
+    "1440-about-dark.png": "b104b5bdf7668b283f1535e4d15f1f25573ae21d070f21e59852af5b192e8c76",
+    "1440-default-threshold-overview.png": "9f1abb768cb4a0d2512649ac798ea5171cc266fb5b6c189ac7e34a8510c5a8e1",
+    "320-default-threshold-overview.png": "ac2ac3b28d238e912f9dbc9aa296c16b6211e92cd95bbaef4c46ab33b41a785a",
+    "390-default-threshold-overview.png": "bf2d696327386e8bcc08fbd3ca32932ed0cb5a88cb75c3b7b60f69f51bb2d5a6",
+    "1440-trends.png": "f8858b970d51314bc3ede6e5b6e35eba55e73b1949b02344150d594c1f22e944",
+    "1440-poll-data.png": "2287316980fe2f6ce9d776cd00bab2e2d47c99112ac7ab4e3c7f5dbf697d3221",
+    "390-poll-data.png": "bab2c67d5949b40e9c6623ad862ca88bb7b9fc501179a5079232eeafda7c4646",
+    "390-trends.png": "abbd64c3a4f3638647894f58234da4bf8b14798fc61b6c47b6c65df8be10f004",
+    "390-triple-all-fail.png": "bd36b7c8752182dc1e3bda5147d06b5817b2380a5d310c84e9fdd2ae730c3f12"
+  },
+  "observations": [
+    "Fresh About shows original author photo, credit, contact and explanations; seven stable tabs and the immediate light/dark toggle are present. No Ask ChatGPT control. Dark appearance survives reload and light is restored.",
+    "Desktop,390px and320px probability plots retain all16 modeled party rows with aligned logos and means. Every percentage fits inside its plot. Long names at320px use intentional ellipses with full accessible labels; Israel First remains visibly without a separate estimate.",
+    "The actual default model displays Hendel43.02% and Winter42.73% threshold passage. These are simulated probabilities, distinct from published survey vote shares.",
+    "Desktop and mobile trends show13Oct analysis and the independently recomputed default withoutChannel14 coverage35polls/7series/28deltas. All49 audit rows are present; new i24/Walla eligible, C16 and Kan excluded for unknown fieldwork. Source exclusion and unverified fieldwork remain distinct.",
+    "Desktop poll register shows i24 published/collected13Oct,n1210; Walla published13Oct/collected12Oct,n601; C16 published13Oct with unverified fieldwork and unpublished exact n. Its separate more-than2000 qualifier is preserved in exported raw input and source notes; no fabricated exact count appears. N12/C14/C13/Kan metadata remain unchanged.",
+    "The mobile poll register keeps all8 source rows, with its wide table scrolling internally and no document overflow.",
+    "Mobile ALL-selected-fail triple requires all3 named parties to fail, displays0.63%=63/10000 and selects only the3failed row in the full histogram. Pair ALL fail31.45%=3145/10000; both events and Wilson intervals were independently aggregated from the same exported actual histogram.",
+    "Saved scenario JSON roundtrip preserves all settings and exact seeded party and joint results. Direct party selection to opposition,unassigned,and back keeps every ballot party in exactly one group and preserves120-seat accounting; restoring the assignment exactly restores seeded results.",
+    "Exact reported support,bounded less-than1 labels and missingness are independently checked against canonical source fields. Model-only other never appears as a published vote share."
+  ],
+  "checkGroups": 10,
+  "geometryCases": 23,
+  "thresholdRowChecks": 80,
+  "maxLogoRailOffsetPx": 0,
+  "pageErrors": [],
+  "canonicalAndSnapshotHashesUnchanged": true,
+  "authorContentFilesPreserved": 117,
+  "protectedRuntimeFilesPreserved": 234,
+  "oldPublicEvidenceFilesPreserved": 1528,
+  "conditionalAndArtisticFilesPreserved": 14,
+  "frozenBaselineFilesVerified": 289,
+  "pairAllFail": {
+    "ids": [
+      "winter",
+      "hendel"
+    ],
+    "count": 3145,
+    "total": 10000,
+    "probability": 0.3145,
+    "distribution": [
+      1720,
+      5135,
+      3145
+    ],
+    "ci": [
+      0.3054722654548656,
+      0.3236701979406553
+    ],
+    "atLeastTwoCount": 3145,
+    "independenceProduct": 0.32632446
+  },
+  "tripleAllFail": {
+    "ids": [
+      "winter",
+      "hendel",
+      "raam"
+    ],
+    "count": 63,
+    "total": 10000,
+    "probability": 0.0063,
+    "distribution": [
+      1673,
+      5058,
+      3206,
+      63
+    ],
+    "ci": [
+      0.004927565458326495,
+      0.008051594532879576
+    ],
+    "atLeastTwoCount": 3269,
+    "independenceProduct": 0.007635992363999999
+  },
+  "servedHTMLSha256": "4e63ca68b230527bab769c6a62e3238f8f41fd89c5242bc1fac8557aea1c6af5",
+  "officialSourceSnapshotSha256": "897d79dbeb188931bdbc25adce42c4244e80ea6f8dbd3a4a91c15d4a776540a2",
+  "rootSnapshotRemainsPriorDateDuringLocalQA": true
+}

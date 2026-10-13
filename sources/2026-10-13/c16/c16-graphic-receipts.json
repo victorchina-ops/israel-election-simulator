@@ -1,0 +1,62 @@
+[
+  {
+    "name": "c16-history-post",
+    "requestedUrl": "https://x.com/IsraelPolls/status/2110076694497251453",
+    "fetchedAtUtc": "2026-10-13T19:35:34.513054+00:00",
+    "status": 200,
+    "finalUrl": "https://x.com/IsraelPolls/status/2110076694497251453",
+    "contentType": "text/html; charset=UTF-8",
+    "bytes": 108452,
+    "sha256": "a3e9d0006d2addc411ed7787f05d8a12b0ad7bdf2285ec2984d28a77270b73d9",
+    "pollLinks": [
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls @ IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "סקרים פוליטיים - Israel Political Polls"
+      },
+      {
+        "href": "/IsraelPolls",
+        "text": "@IsraelPolls"
+      }
+    ]
+  },
+  {
+    "name": "c16-graphic.png",
+    "requestedUrl": "https://pbs.twimg.com/media/HUh8cwRWwAA_4DY.png",
+    "fetchedAtUtc": "2026-10-13T19:35:35.876601+00:00",
+    "status": 200,
+    "finalUrl": "https://pbs.twimg.com/media/HUh8cwRWwAA_4DY.png",
+    "contentType": "image/png",
+    "bytes": 630880,
+    "sha256": "7c88a9727b41bc903a13a060318a2583cf2d457ecf98bcaae0ffba7d9e366f92"
+  },
+  {
+    "name": "c16-history.png",
+    "requestedUrl": "https://pbs.twimg.com/media/HUh_kUjW0AAyGKm.png",
+    "fetchedAtUtc": "2026-10-13T19:35:35.876601+00:00",
+    "status": 200,
+    "finalUrl": "https://pbs.twimg.com/media/HUh_kUjW0AAyGKm.png",
+    "contentType": "image/png",
+    "bytes": 47654,
+    "sha256": "d5307f1204fd861931a16c239ba0efe70a7f86c53c25a48218a58d22ab3100d5"
+  }
+]

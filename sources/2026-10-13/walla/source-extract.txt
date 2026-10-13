@@ -1,0 +1,18 @@
+Reviewed published observation lazar_2026-10-13; publication 2026-10-13.
+Source tier: original-publisher; original source: https://www.walla.co.il/news/politics/383957251.
+Published mandates: {"yashar": 22, "likud": 20, "beyachad": 13, "democrats": 10, "yisrael_beiteinu": 9, "otzma": 8, "utj": 8, "joint": 8, "shas": 7, "rz_zehut": 6, "raam": 5, "hendel": 4, "winter": 0, "gantz": 0, "haredi_public": 0, "noam": 0}
+Exact published percentages: {"winter": 2.8, "gantz": 1.1, "haredi_public": 1.0, "noam": 0.2}
+Published bounds, never treated as exact percentages: {}
+Published source blocs: {"coalition": 49, "opposition": 54, "arab_parties": 13, "hendel": 4}
+Sample size exact/exclusive-lower-bound: 601/None
+Verified strict fieldwork eligibility: True; dates 2026-10-12 to 2026-10-12
+Missing data are not zero and not inherited from an earlier survey.
+Model-only percentages: []
+Source review notes:
+סקר חדש של לזר/וואלה שפורסם13.10 ואיסופו12.10; מחליף בשקלול הפעיל את סקר מעריב9.10 מאותו מכון, שנשמר בהיסטוריה.
+וקטור12 הרשימות העוברות, שסכומן120 מנדטים, אומת בטקסט ובשתי הגרפיקות המקוריות. ארבע הרשימות שמתחת לחסימה ואחוזיהן פורסמו במפורש.
+אחוזי הרשימות העוברות לא פורסמו במקור שנבדק; שחזורם למודל נפרד מנתוני המקור. ישראל תחילה ורשימות אחרות שלא הוזכרו נשארות חסרות ואינן מאופסות.
+4089 נשמר כנתון שכותרתו מספר המבקשים להשתתף; אין לשנות את הכותרת למספר המוזמנים. מספר המשיבים בפועל601 והמדגם ההתחלתי600 נשמרים בנפרד.
+טעות דגימה4.0% פורסמה; רמת הביטחון לא צוינה ונשארת חסרה. שעות האיסוף ומכנה אחוזי התמיכה לא פורסמו.
+הסקר כולל גם שאלות ביטחון בבחירה בקרב מי שבחרו רשימה עוברת; אלו אינן שיעור מתלבטים מכלל המדגם או תחזית אחוזי הצבעה ואינן משמשות כקלט מנדטים.
+כתבת מעריב1376685 מפרסמת את אותו סקר וואלה ואינה מדגם נוסף. טבלת ממוצעי השבוע אינה סקר נוסף.

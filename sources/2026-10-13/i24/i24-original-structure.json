@@ -1,0 +1,538 @@
+{
+  "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632",
+  "metadata": [
+    {
+      "charset": "utf-8"
+    },
+    {
+      "name": "viewport",
+      "content": "width=device-width,initial-scale=1,shrink-to-fit=no,maximum-scale=5"
+    },
+    {
+      "name": "theme-color",
+      "content": "#07244b"
+    },
+    {
+      "name": "msapplication-TileColor",
+      "content": "#07244b"
+    },
+    {
+      "name": "author",
+      "content": "i24NEWS"
+    },
+    {
+      "name": "facebook-domain-verification",
+      "content": "azwhvsbq775zwdtog6frmxz60h9b26"
+    },
+    {
+      "property": "robots",
+      "name": "robots",
+      "content": "index,follow,NOODP,noarchive,max-snippet:-1,max-image-preview:large,max-video-preview:-1"
+    },
+    {
+      "property": "title",
+      "name": "title",
+      "content": "סקר מנדטים דרמטי של I24NEWS: שבועיים לבחירות – וינטר לא עובר את אחוז החסימה - i24NEWS"
+    },
+    {
+      "property": "description",
+      "name": "description",
+      "content": "הקמפיינים נמצאים בישורת האחרונה, ומפלגת עמך לא מצליחה להשיג 3.25% הנדרשים באחוז החסימה • הליכוד ואיזנקוט מתחזקים במנדט אחד לכל מפלגה • בנט מתחזק בשני מנדטים • והשינוי במפת הגושים"
+    },
+    {
+      "property": "pubdate",
+      "name": "pubdate",
+      "content": "2026-10-13T17:48:07.000Z"
+    },
+    {
+      "property": "i24-status",
+      "name": "i24-status",
+      "content": "200"
+    },
+    {
+      "property": "og:site_name",
+      "name": "og:site_name",
+      "content": "i24NEWS"
+    },
+    {
+      "property": "og:type",
+      "name": "og:type",
+      "content": "article"
+    },
+    {
+      "property": "og:url",
+      "name": "og:url",
+      "content": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632"
+    },
+    {
+      "property": "og:title",
+      "name": "og:title",
+      "content": "סקר מנדטים דרמטי של i24NEWS: שבועיים לבחירות – וינטר לא עובר את אחוז החסימה - i24NEWS"
+    },
+    {
+      "property": "og:description",
+      "name": "og:description",
+      "content": "הקמפיינים נמצאים בישורת האחרונה, ומפלגת עמך לא מצליחה להשיג 3.25% הנדרשים באחוז החסימה • הליכוד ואיזנקוט מתחזקים במנדט אחד לכל מפלגה • בנט מתחזק בשני מנדטים • והשינוי במפת הגושים"
+    },
+    {
+      "property": "og:image",
+      "name": "og:image",
+      "content": "https://cdn.i24news.tv/uploads/f0/30/43/c0/50/0c/5f/5a/01/4e/ec/7e/e6/69/43/08/f03043c0500c5f5a014eec7ee6694308.jpg"
+    },
+    {
+      "property": "twitter:site",
+      "name": "twitter:site",
+      "content": "@i24news_HE"
+    },
+    {
+      "property": "twitter:creator",
+      "name": "twitter:creator",
+      "content": "@i24news_HE"
+    },
+    {
+      "property": "twitter:title",
+      "name": "twitter:title",
+      "content": "סקר מנדטים דרמטי של i24NEWS: שבועיים לבחירות – וינטר לא עובר את אחוז החסימה - i24NEWS"
+    },
+    {
+      "property": "twitter:url",
+      "name": "twitter:url",
+      "content": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632"
+    },
+    {
+      "property": "twitter:description",
+      "name": "twitter:description",
+      "content": "הקמפיינים נמצאים בישורת האחרונה, ומפלגת עמך לא מצליחה להשיג 3.25% הנדרשים באחוז החסימה • הליכוד ואיזנקוט מתחזקים במנדט אחד לכל מפלגה • בנט מתחזק בשני מנדטים • והשינוי במפת הגושים"
+    },
+    {
+      "property": "twitter:card",
+      "name": "twitter:card",
+      "content": "summary_large_image"
+    },
+    {
+      "property": "twitter:image",
+      "name": "twitter:image",
+      "content": "https://cdn.i24news.tv/uploads/f0/30/43/c0/50/0c/5f/5a/01/4e/ec/7e/e6/69/43/08/f03043c0500c5f5a014eec7ee6694308.jpg"
+    }
+  ],
+  "scripts": [
+    {
+      "src": "https://js.sentry-cdn.com/54d52e511412497ea16c10d1224e450d.min.js",
+      "crossorigin": "anonymous"
+    },
+    {
+      "defer": "defer",
+      "src": "/static/js/main.d32d6771.js"
+    },
+    {
+      "type": "module",
+      "src": "https://static.cloudflareinsights.com/beacon.min.js/v4bc70e2c01a94c73b74392e4234840661791215815920",
+      "integrity": "sha512-L0ha0OXavK/8okipN9F8BtP84dg9DUhPERbBXzwI6dgTA55d2+yweo3pn5CSFYs45/r8md2+xvUPtTdvTNRfjA==",
+      "data-cf-beacon": "{\"version\":\"2024.11.0\",\"token\":\"3673e638ce444552bdd8e82799328814\",\"spa\":2}",
+      "crossorigin": "anonymous"
+    }
+  ],
+  "jsonLd": [
+    "{\"@context\":\"https:\\u002F\\u002Fschema.org\",\"@type\":\"VideoObject\",\"name\":\"הקמפיין של נתניהו וההימור ללכת על הראש של וינטר מוריד אותו מתחת לאחוז החסימה - ולוקח מדנטים מגוש הימין\",\"description\":\"הקמפיין של נתניהו וההימור ללכת על הראש של וינטר מוריד אותו מתחת לאחוז החסימה - ולוקח מדנטים מגוש הימין\",\"thumbnailUrl\":\"https:\\u002F\\u002Fi24israel.vod.immergo.tv\\u002Fi24israel\\u002Fapi-uploaded\\u002FWILDMOKA_69869330115.jpg\",\"uploadDate\":\"2026-10-13\",\"duration\":\"PT3M23S\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"i24 NEWS\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\u002F\\u002Fyt3.ggpht.com\\u002Fytc\\u002FAAUvwnij-uZkbeQI1YKo37I042hL_RbXCg00R4sBVuO4Dw=s48-c-k-c0xffffffff-no-rj-mo\",\"width\":48,\"height\":48}},\"contentUrl\":\"https:\\u002F\\u002Fi24israel.vod.immergo.tv\\u002Fi24israel\\u002Ftranscoded\\u002F4eb5237f-07bf-4ef5-a4b3-ddef43dbbb3e\\u002Fhls\\u002Fmaster.m3u8\",\"embedUrl\":\"https:\\u002F\\u002Fsnippet.univtec.com\\u002Fplayer.html?data-insight=eyJndWlkIjoiNGViNTIzN2YtMDdiZi00ZWY1LWE0YjMtZGRlZjQzZGJiYjNlIiwidHlwZSI6InZvZHMiLCJhY2NvdW50SWQiOiI2ODc1NjU3Y2Q5YTcwNmU1MzEyNjgxYzEiLCJjbGllbnQiOiJpMjRpc3JhZWwiLCJhcGkiOiJodHRwczovL2luc2lnaHQtYXBpLXNoYXJlZC51bml2dGVjLmNvbS8ifQ==\"}",
+    "{\"@context\":\"https:\\u002F\\u002Fschema.org\",\"@type\":\"VideoObject\",\"name\":\"סקר מנדטים דרמטי של i24NEWS: שבועיים לבחירות - וינטר לא עובר את אחוז החסימה, ההתחזקות של בנט - והשינוי במפת הגושים | הנתונים המלאים\",\"description\":\"סקר מנדטים דרמטי של i24NEWS: שבועיים לבחירות - וינטר לא עובר את אחוז החסימה, ההתחזקות של בנט - והשינוי במפת הגושים | הנתונים המלאים\",\"thumbnailUrl\":\"https:\\u002F\\u002Fi24israel.vod.immergo.tv\\u002Fi24israel\\u002Fapi-uploaded\\u002FWILDMOKA_69869245957.jpg\",\"uploadDate\":\"2026-10-13\",\"duration\":\"PT1M36S\",\"publisher\":{\"@type\":\"Organization\",\"name\":\"i24 NEWS\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\u002F\\u002Fyt3.ggpht.com\\u002Fytc\\u002FAAUvwnij-uZkbeQI1YKo37I042hL_RbXCg00R4sBVuO4Dw=s48-c-k-c0xffffffff-no-rj-mo\",\"width\":48,\"height\":48}},\"contentUrl\":\"https:\\u002F\\u002Fi24israel.vod.immergo.tv\\u002Fi24israel\\u002Ftranscoded\\u002F3a1c78e0-4c73-4998-851a-92290d44c63a\\u002Fhls\\u002Fmaster.m3u8\",\"embedUrl\":\"https:\\u002F\\u002Fsnippet.univtec.com\\u002Fplayer.html?data-insight=eyJndWlkIjoiM2ExYzc4ZTAtNGM3My00OTk4LTg1MWEtOTIyOTBkNDRjNjNhIiwidHlwZSI6InZvZHMiLCJhY2NvdW50SWQiOiI2ODc1NjU3Y2Q5YTcwNmU1MzEyNjgxYzEiLCJjbGllbnQiOiJpMjRpc3JhZWwiLCJhcGkiOiJodHRwczovL2luc2lnaHQtYXBpLXNoYXJlZC51bml2dGVjLmNvbS8ifQ==\"}",
+    "{\"@context\":\"https:\\u002F\\u002Fschema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"i24NEWS\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"בחירות 2026\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"סקרי בחירות 2026\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\\u002Fpolls\"},{\"@type\":\"ListItem\",\"position\":4,\"name\":\"סקר מנדטים דרמטי של i24NEWS: שבועיים לבחירות - וינטר לא עובר את אחוז החסימה | הנתונים המלאים\",\"item\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\\u002Fpolls\\u002Fartc-b9e16632\"}]}",
+    "{\"@context\":\"https:\\u002F\\u002Fschema.org\",\"@type\":\"NewsArticle\",\"mainEntityOfPage\":{\"@type\":\"WebPage\",\"@id\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fnews\\u002Fisrael-elections-2026\\u002Fpolls\\u002Fartc-b9e16632\"},\"headline\":\"סקר מנדטים דרמטי של i24NEWS: שבועיים לבחירות - וינטר לא עובר את אחוז החסימה | הנתונים המלאים\",\"description\":\"הקמפיינים נמצאים בישורת האחרונה, ומפלגת עמך לא מצליחה להשיג 3.25% הנדרשים באחוז החסימה • הליכוד ואיזנקוט מתחזקים במנדט אחד לכל מפלגה • בנט מתחזק בשני מנדטים • והשינוי במפת הגושים\",\"image\":\"https:\\u002F\\u002Fcdn.i24news.tv\\u002Fuploads\\u002Ff0\\u002F30\\u002F43\\u002Fc0\\u002F50\\u002F0c\\u002F5f\\u002F5a\\u002F01\\u002F4e\\u002Fec\\u002F7e\\u002Fe6\\u002F69\\u002F43\\u002F08\\u002Ff03043c0500c5f5a014eec7ee6694308.jpg\",\"author\":{\"@type\":\"Person\",\"name\":\"נדב אלימלך \",\"url\":\"https:\\u002F\\u002Fwww.i24news.tv\\u002Fhe\\u002Fauthors\\u002Fnadav-elimelech\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"i24news\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\u002F\\u002Fyt3.ggpht.com\\u002Fytc\\u002FAAUvwnij-uZkbeQI1YKo37I042hL_RbXCg00R4sBVuO4Dw=s88-c-k-c0x00ffffff-no-rj\",\"width\":88,\"height\":88}},\"datePublished\":\"2026-10-13T17:48:07.000Z\",\"dateModified\":\"2026-10-13T17:48:07.000Z\"}"
+  ],
+  "images": [
+    {
+      "alt": "נדב אלימלך ",
+      "src": "https://cdn.i24news.tv/uploads/71/16/ee/c5/df/5f/57/7a/fd/4f/02/33/cf/00/8a/ba/7116eec5df5f577afd4f0233cf008aba.jpg?width=36&height=36",
+      "class": ""
+    },
+    {
+      "alt": "יו\"ר מפלגת \"עמך ישראל\" עופר וינטר",
+      "src": "https://cdn.i24news.tv/uploads/f0/30/43/c0/50/0c/5f/5a/01/4e/ec/7e/e6/69/43/08/f03043c0500c5f5a014eec7ee6694308.jpg?width=996",
+      "class": "",
+      "title": "יונתן זינדל/פלאש 90"
+    },
+    {
+      "alt": "סקר מנדטים דרמטי של i24NEWS: שבועיים לבחירות - וינטר לא עובר את אחוז החסימה, ההתחזקות של בנט - והשינוי במפת הגושים | הנתונים המלאים",
+      "class": "Lazy_poster__hZbms",
+      "data-is": "lazy-image",
+      "data-observed-item-id": "https://i24israel.vod.immergo.tv/i24israel/api-uploaded/WILDMOKA_69869245957.jpg"
+    },
+    {
+      "alt": "הקמפיין של נתניהו וההימור ללכת על הראש של וינטר מוריד אותו מתחת לאחוז החסימה - ולוקח מדנטים מגוש הימין",
+      "class": "Lazy_poster__hZbms",
+      "data-is": "lazy-image",
+      "data-observed-item-id": "https://i24israel.vod.immergo.tv/i24israel/api-uploaded/WILDMOKA_69869330115.jpg"
+    },
+    {
+      "alt": "הורדת את אפליקציית האנדרואיד",
+      "src": "/static/media/google-play-badge-en.3efe1d9e4d654f0c48bf.png",
+      "width": "120",
+      "height": "35",
+      "loading": "lazy"
+    },
+    {
+      "alt": "הורד את אפליקציית הIOS",
+      "src": "/static/media/apple-store-badge-en.58f3928dbf8556e6c5f2.png",
+      "width": "120",
+      "height": "40",
+      "loading": "lazy"
+    }
+  ],
+  "links": [
+    {
+      "href": "#navigation-content",
+      "text": "Content"
+    },
+    {
+      "href": "#navigation-menu",
+      "text": "Menu"
+    },
+    {
+      "href": "#navigation-footer",
+      "text": "Footer"
+    },
+    {
+      "href": "/he/sign-in",
+      "text": "התחבר"
+    },
+    {
+      "href": "/he",
+      "text": ""
+    },
+    {
+      "href": "/he",
+      "text": "ראשי"
+    },
+    {
+      "href": "/he/news/news",
+      "text": "חדשות"
+    },
+    {
+      "href": "/he/news/israel-elections-2026",
+      "text": "בחירות 2026"
+    },
+    {
+      "href": "/he/news/international",
+      "text": "העולם"
+    },
+    {
+      "href": "/he/news/opinion-and-analysis",
+      "text": "דעות ופרשנויות"
+    },
+    {
+      "href": "/he/news/food",
+      "text": "אוכל"
+    },
+    {
+      "href": "/he/news/weather",
+      "text": "תחזית מזג האוויר"
+    },
+    {
+      "href": "/he/news/weekend-magazine",
+      "text": "מיוחד לסופ\"ש"
+    },
+    {
+      "href": "https://video.i24news.tv/r/hebrew/page/6875657dd9a706e53126829d",
+      "text": "VOD"
+    },
+    {
+      "href": "/he/live-radio",
+      "text": "רדיו"
+    },
+    {
+      "href": "/he/shows",
+      "text": "תוכניות"
+    },
+    {
+      "href": "/he/schedules/tuesday",
+      "text": "לוח שידורים"
+    },
+    {
+      "href": "/he/channels",
+      "text": "ערוצים"
+    },
+    {
+      "href": "/he/profiles",
+      "text": "הטאלנטים של i24NEWS"
+    },
+    {
+      "href": "https://www.facebook.com/i24newsHE",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/i24news_HE",
+      "text": ""
+    },
+    {
+      "href": "https://instagram.com/i24news_HE",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/@i24NEWS_HE",
+      "text": ""
+    },
+    {
+      "href": "https://he.wikipedia.org/wiki/i24NEWS",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/i24news",
+      "text": ""
+    },
+    {
+      "href": "/he/newsletter",
+      "text": ""
+    },
+    {
+      "href": "/en",
+      "text": "English"
+    },
+    {
+      "href": "/fr",
+      "text": "Français"
+    },
+    {
+      "href": "/ar",
+      "text": "عربى"
+    },
+    {
+      "href": "/he",
+      "text": "עברית"
+    },
+    {
+      "href": "/he/live-radio",
+      "text": "רדיו"
+    },
+    {
+      "href": "https://video.i24news.tv/r/hebrew/page/6875657dd9a706e53126829d",
+      "text": "Live & VOD"
+    },
+    {
+      "href": "/he",
+      "text": "i24NEWS"
+    },
+    {
+      "href": "/he/news/israel-elections-2026",
+      "text": "בחירות 2026"
+    },
+    {
+      "href": "/he/news/israel-elections-2026/polls",
+      "text": "סקרי בחירות 2026"
+    },
+    {
+      "href": "https://www.i24news.tv/he/authors/nadav-elimelech",
+      "text": "נדב אלימלך"
+    },
+    {
+      "href": "https://twitter.com/NadavElimelech",
+      "text": ""
+    },
+    {
+      "href": "https://www.facebook.com/nadav.elimelech",
+      "text": ""
+    },
+    {
+      "href": "/he/tags/בנימין-נתניהו",
+      "text": "בנימין נתניהו"
+    },
+    {
+      "href": "/he/tags/נפתלי-בנט",
+      "text": "נפתלי בנט"
+    },
+    {
+      "href": "/he/tags/גדי-איזנקוט",
+      "text": "גדי איזנקוט"
+    },
+    {
+      "href": "/he/tags/סקר",
+      "text": "סקר"
+    },
+    {
+      "href": "/he/tags/סקר-מנדטים",
+      "text": "סקר מנדטים"
+    },
+    {
+      "href": "/he/tags/בחירות-2026",
+      "text": "בחירות 2026"
+    },
+    {
+      "href": "/he/tags/עופר-וינטר",
+      "text": "עופר וינטר"
+    },
+    {
+      "href": "https://www.google.com/preferences/source?q=i24news.tv",
+      "text": "Google News עקבו אחרינו עקבו"
+    },
+    {
+      "href": "#article-comments",
+      "text": ""
+    },
+    {
+      "href": "https://bit.ly/4kYRLlS",
+      "text": ">>> הצטרפו לערוץ הווטסאפ החדש של i24NEWS <<<"
+    },
+    {
+      "href": "https://www.i24news.tv/he/news/israel-elections-2026/artc-6f2847b3",
+      "text": "הבורסה בחנה 10 מערכות בחירות: מה קורה לשוק ביום שאחרי הקלפיות?"
+    },
+    {
+      "href": "https://www.i24news.tv/he/news/israel-elections-2026/election-magazine/artc-be084b99",
+      "text": "כמה אנשים עונים על סקרים? צוריאל שרון חושף סודות מאחורי הקלעים"
+    },
+    {
+      "href": "https://www.i24news.tv/he/news/israel-elections-2026/artc-bbc948a9",
+      "text": "סופית: המפלגות של בן גביר ועופר וינטר לא יחתמו על הסכם עודפים"
+    },
+    {
+      "href": "https://www.i24news.tv/he/news/israel-elections-2026/election-magazine/artc-17ab66c3",
+      "text": "אלירז שדה ושי ישראל במסע בחירות: מה הסיכוי לאחדות - ואיך ייראה היום שאחרי? | פרויקט מיוחד"
+    },
+    {
+      "href": "#article-comments",
+      "text": ""
+    },
+    {
+      "href": "#article-comments",
+      "text": ""
+    },
+    {
+      "href": "/he",
+      "text": "חדשות"
+    },
+    {
+      "href": "/he/news",
+      "text": "פיד חדשות"
+    },
+    {
+      "href": "https://video.i24news.tv/r/hebrew/page/6875657dd9a706e53126829d",
+      "text": "Live"
+    },
+    {
+      "href": "/he/live-radio",
+      "text": "רדיו"
+    },
+    {
+      "href": "/he/shows",
+      "text": "תוכניות"
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=tv.i24news.i24news",
+      "text": ""
+    },
+    {
+      "href": "https://itunes.apple.com/app/i24news/id671837118",
+      "text": ""
+    },
+    {
+      "href": "/he/executive-committee",
+      "text": "הוועד המנהל של i24NEWS"
+    },
+    {
+      "href": "/he/profiles",
+      "text": "הטאלנטים של i24NEWS"
+    },
+    {
+      "href": "/he/shows",
+      "text": "תוכניות הטלוויזיה של i24NEWS"
+    },
+    {
+      "href": "/he/live-radio",
+      "text": "רדיו בשידור חי"
+    },
+    {
+      "href": "/he/career",
+      "text": "דרושים"
+    },
+    {
+      "href": "/he/contact",
+      "text": "צור קשר"
+    },
+    {
+      "href": "/he/sitemap",
+      "text": "מפת אתר"
+    },
+    {
+      "href": "/he/news",
+      "text": "חדשות מתפרצות"
+    },
+    {
+      "href": "/he/news/news",
+      "text": "חדשות"
+    },
+    {
+      "href": "/he/news/israel-elections-2026",
+      "text": "בחירות 2026"
+    },
+    {
+      "href": "/he/news/international",
+      "text": "העולם"
+    },
+    {
+      "href": "/he/news/opinion-and-analysis",
+      "text": "דעות ופרשנויות"
+    },
+    {
+      "href": "/he/news/food",
+      "text": "אוכל"
+    },
+    {
+      "href": "/he/news/weather",
+      "text": "תחזית מזג האוויר"
+    },
+    {
+      "href": "/he/news/weekend-magazine",
+      "text": "מיוחד לסופ\"ש"
+    },
+    {
+      "href": "/he/terms-of-service",
+      "text": "תנאי שימוש"
+    },
+    {
+      "href": "/he/privacy-policy",
+      "text": "מדיניות פרטיות"
+    },
+    {
+      "href": "/he/advertising-terms-and-conditions",
+      "text": "תנאי פרסום ותנאי מכירות"
+    },
+    {
+      "href": "/he/accessibility-declaration",
+      "text": "הצהרת נגישות"
+    },
+    {
+      "href": "/he/cookie-list",
+      "text": "רשימת עוגיות"
+    },
+    {
+      "href": "/he/newsletter",
+      "text": "הירשם לניוזלטר"
+    },
+    {
+      "href": "https://www.facebook.com/i24newsHE",
+      "text": ""
+    },
+    {
+      "href": "https://x.com/i24news_HE",
+      "text": ""
+    },
+    {
+      "href": "https://instagram.com/i24news_HE",
+      "text": ""
+    },
+    {
+      "href": "https://www.youtube.com/@i24NEWS_HE",
+      "text": ""
+    },
+    {
+      "href": "https://he.wikipedia.org/wiki/i24NEWS",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/i24news",
+      "text": ""
+    },
+    {
+      "href": "/he/newsletter",
+      "text": ""
+    }
+  ]
+}

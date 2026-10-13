@@ -1,0 +1,23 @@
+{
+  "asOf": "2026-10-13",
+  "pollId": "lazar_2026-10-13",
+  "candidateFile": "reviewed-walla-poll.json",
+  "candidateSha256": "6fb2d0c21a5f917fcf20a598e9c013bfb6752855c5551c925f71b0e425265092",
+  "safePublicFiles": {
+    "walla-original.html": "b8aba117e605091b91d4c06fc44cbd2bd7372a476afc25f356112275fc0b5b40",
+    "walla-original.txt": "31d5c92e7f6e665a085635b8104dd059ac8bcceb89cfafbc74782ba925ac2dc3",
+    "walla-primary-0.webp": "cd785e2f3dc0a35d9df140b8a578cc74503616c1a4c9c81ffe9652afcc2f62e7",
+    "walla-primary-1.webp": "be1f46e283311667f302ac1022e920c6313aecd05ef2ff372b37fc2fdeda951d",
+    "walla-history.png": "bc27ad06486bab54cb3aa101ff7883cc15c03ea720eb291f0dec8f84ee7c26cd",
+    "walla-post.txt": "376410c068fcc565bd663b00056446e9fbcb7183300f9e08f21a90618cb60e77",
+    "walla-history-post.txt": "325d536d5f54de3c434ab98a0448c5194695a4e796a6294d3c0ae2ff9a2ab6e8",
+    "maariv-walla-repeat.html": "4793515303a848b2129d15e0e8b47d1bfa4aa2a22737933dca43e343fd395b85",
+    "maariv-walla-repeat.txt": "acf68cd8108bebbe3bc30124d0a4af9a529bc5b8093829a0358607ea444c86ec",
+    "reviewed-walla-poll.json": "6fb2d0c21a5f917fcf20a598e9c013bfb6752855c5551c925f71b0e425265092",
+    "walla-source-proof.json": "654dc96d8a9bd9b07be676d6141078960076c39f4bd60737e915acfcd4bb5781",
+    "walla-auxiliary-opinion-results.json": "cb6bedff7ce8e9a665d4315337f9b2447f22d3c22b40dd5c5bc68c44928aef9c"
+  },
+  "primaryOriginalGraphicReview": true,
+  "noCanonicalEdits": true,
+  "noForecastIngested": true
+}

@@ -1,0 +1,51 @@
+{
+  "status": "reviewed-distinct-candidate-with-explicit-primary-metadata-limits",
+  "pollId": "maagar_mochot_2026-10-13",
+  "candidatePath": "reviewed-c16-poll.json",
+  "candidateSha256": "6d7a934e08f960216aac6022318ddb8034631299bcf6b2efc2d0ce84b60ac702",
+  "sourceProofPath": "c16-source-proof.json",
+  "sourceProofSha256": "952a369c712621dad226f4856da69680d97a362595cd3ebd25e903c78e60a47c",
+  "sourceUrl": "https://x.com/IsraelPolls/status/2110073270125113400",
+  "originalBroadcastUrl": "https://www.ch16.co.il/vod/6ace7ddac544041ace194b0b",
+  "publicationSafeSourceFiles": [
+    "reviewed-c16-poll.json",
+    "c16-source-proof.json",
+    "c16-source-proof.txt",
+    "c16-graphic.png",
+    "c16-history.png",
+    "c16-graphic-receipts.json"
+  ],
+  "files": {
+    "reviewed-c16-poll.json": "6d7a934e08f960216aac6022318ddb8034631299bcf6b2efc2d0ce84b60ac702",
+    "c16-source-proof.json": "952a369c712621dad226f4856da69680d97a362595cd3ebd25e903c78e60a47c",
+    "c16-source-proof.txt": "acbea1d351f69c80185357afb154fea0fdcbae78bd450c7410e8025176a58f5e",
+    "c16-graphic.png": "7c88a9727b41bc903a13a060318a2583cf2d457ecf98bcaae0ffba7d9e366f92",
+    "c16-history.png": "d5307f1204fd861931a16c239ba0efe70a7f86c53c25a48218a58d22ab3100d5",
+    "c16-graphic-receipts.json": "14a6c542ccc5a8113df6187e663ac710190edc395e48fdc2aa12b2450afb6a79"
+  },
+  "strictEligible": false,
+  "strictExclusionReason": "unverified-fieldwork",
+  "sourceBlocSeats": {
+    "coalition": 52,
+    "opposition": 50,
+    "arab_parties": 13,
+    "hendel": 5
+  },
+  "sampleSize": null,
+  "sampleSizeQualifier": "למעלה מ־2,000 משיבים",
+  "sampleSizeLowerBoundExclusive": 2000,
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "canonicalMutationsPerformed": false,
+  "localOnlyDiscoveryEvidence": [
+    "initial-network-receipts.json",
+    "broadcast-network-receipts.json",
+    "c16-observed-broadcast-asset-receipts.json",
+    "c16-subtitle-receipt.json",
+    "c16-broadcast-subtitles.vtt",
+    "c16-current-home.html",
+    "c16-search-polls.html",
+    "c16-oct13-broadcast.html"
+  ],
+  "primaryAccessLimitation": "Browser homepage linked the new Oct13 full central broadcast. Own search displayed standalone poll6Oct as latest visible result. Original full broadcast played and date13Oct was visible in its intro, but no numeric poll frames or exact sample/fieldwork wording were inspected before investigation was bounded. Generic news and VOD index aliases returned404; static home/specific page HTML are client shells."
+}

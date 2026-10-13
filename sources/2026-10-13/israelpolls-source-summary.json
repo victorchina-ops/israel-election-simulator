@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-13",
+  "checkedAtUtc": "2026-10-13T19:32:27Z",
+  "status": "reviewed-source-discovery",
+  "scope": "Latest five publicly rendered IsraelPolls profile posts, directly linked original/reposted graphics and historical replies; directly opened primary print home/politics/election indexes. This is not a complete older X media archive.",
+  "observations": [
+    {
+      "pollId": "direct_polls_2026-10-13",
+      "publisher": "i24NEWS",
+      "institute": "Direct Polls",
+      "publicationDate": "2026-10-13",
+      "postUrl": "https://x.com/IsraelPolls/status/2110067104305004998",
+      "postTimeUtc": "2026-10-13T17:56:15Z",
+      "historyUrl": "https://x.com/IsraelPolls/status/2110070124107514245",
+      "sourceTier": "republished-original-broadcast-graphic-and-secondary-historical-table",
+      "primaryVerificationOwner": "scan_tv_primary_oct10",
+      "primaryCandidatePath": "../tv-primary/reviewed-i24-poll.json",
+      "graphic": "i24-graphic.jpg",
+      "historyGraphic": "i24-history.png",
+      "visuallyReviewed": true,
+      "seats": {
+        "likud": 27,
+        "yashar": 21,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "otzma": 9,
+        "utj": 8,
+        "joint": 7,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 6,
+        "winter": 0,
+        "hendel": 0
+      },
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "winter": 3.1,
+        "hendel": 2.2
+      },
+      "publishedUpperBoundsPct": {
+        "gantz": 1,
+        "haredi_public": 1,
+        "noam": 1,
+        "israel_first": 1
+      },
+      "additionalNamedUpperBoundsPct": [
+        {
+          "sourceLabel": "צבע שחור",
+          "upperExclusive": 1
+        },
+        {
+          "sourceLabel": "אח״י",
+          "upperExclusive": 1
+        }
+      ],
+      "boundsAreExactPercentages": false,
+      "sourceBlocSeats": {
+        "coalition": 57,
+        "opposition": 50,
+        "arab_parties": 13,
+        "hendel": 0
+      },
+      "graphicMethodology": {
+        "fieldworkStart": "2026-10-13",
+        "fieldworkEnd": "2026-10-13",
+        "sampleSize": 1210,
+        "reportedMarginOfErrorPct": 2.8,
+        "reportedMarginOfErrorConfidencePct": 95,
+        "collectionMode": "Digital system combined with panel",
+        "population": "Adults 18+; nationally representative claim"
+      },
+      "limitations": [
+        "Graphic footer explicitly labels collection date and n. Primary corroboration is owned by the TV source agent.",
+        "Historical table current column omits exact values for lists reported only as below 1% in the graphic. These are bounds, not zeros or exact percentages.",
+        "No passing-party percentages published in this graphic; do not treat reconstructed values as reported shares."
+      ]
+    },
+    {
+      "pollId": "maagar_mochot_2026-10-13",
+      "publisher": "Channel 16",
+      "institute": "Maagar Mochot",
+      "publicationDate": "2026-10-13",
+      "postUrl": "https://x.com/IsraelPolls/status/2110073270125113400",
+      "postTimeUtc": "2026-10-13T18:20:45Z",
+      "historyUrl": "https://x.com/IsraelPolls/status/2110076694497251453",
+      "sourceTier": "republished-original-broadcast-graphic-and-secondary-historical-table",
+      "primaryVerificationOwner": "scan_tv_primary_oct10",
+      "graphic": "c16-graphic.png",
+      "historyGraphic": "c16-history.png",
+      "visuallyReviewed": true,
+      "seats": {
+        "yashar": 21,
+        "likud": 18,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 7,
+        "otzma": 9,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 5
+      },
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "gantz": 1.2,
+        "haredi_public": 1.1
+      },
+      "sourceBlocSeats": {
+        "coalition": 52,
+        "opposition": 50,
+        "arab_parties": 13,
+        "hendel": 5
+      },
+      "sourceBlocDefinition": "Published graphic coalition explicitly includes Amcha Israel/Winter. Hendel–Zelicha is separate. Historical table others=55 combines opposition 50 and Hendel 5.",
+      "graphicMethodology": {
+        "publicationDateLabel": "13.10.2026",
+        "fieldworkStart": null,
+        "fieldworkEnd": null,
+        "sampleSize": null,
+        "sampleSizeQualifier": "למעלה מ־2,000 משיבים",
+        "sampleSizeLowerBoundExclusive": 2000,
+        "reportedMarginOfErrorPct": 2.1,
+        "reportedMarginOfErrorConfidencePct": null
+      },
+      "missingPercentagePartyIds": [
+        "noam",
+        "israel_first",
+        "other"
+      ],
+      "limitations": [
+        "The graphic date is publication, not an explicit collection interval. Leave fieldwork unknown unless the original broadcast independently states it.",
+        "More than 2000 respondents is an exclusive lower bound, not an exact sample size. Do not copy previous n=550 or enter exact n=2000.",
+        "C16 historical others=55 is not the fixed opposition count. Published/fixed opposition is 50 with Hendel 5 separate.",
+        "Primary broadcast investigation remains with TV source agent; this archive itself proves the republished graphic, not direct primary website access."
+      ]
+    },
+    {
+      "pollId": "lazar_2026-10-13",
+      "publisher": "Walla",
+      "institute": "Lazar Research",
+      "publicationDate": "2026-10-13",
+      "publishedAt": "2026-10-13T13:27:48+03:00",
+      "fieldworkStart": "2026-10-12",
+      "fieldworkEnd": "2026-10-12",
+      "primaryUrl": "https://www.walla.co.il/news/politics/383957251",
+      "postUrl": "https://x.com/IsraelPolls/status/2109982652468224009",
+      "postTimeUtc": "2026-10-13T12:20:40Z",
+      "historyUrl": "https://x.com/IsraelPolls/status/2109985341256110390",
+      "sourceTier": "original-publisher",
+      "candidatePath": "reviewed-walla-poll.json",
+      "candidateSha256": "6fb2d0c21a5f917fcf20a598e9c013bfb6752855c5551c925f71b0e425265092",
+      "sourceProofPath": "walla-source-proof.json",
+      "safePublicAllowlistPath": "walla-freeze-receipt.json",
+      "visuallyReviewed": true,
+      "seats": {
+        "yashar": 22,
+        "likud": 20,
+        "beyachad": 13,
+        "democrats": 10,
+        "yisrael_beiteinu": 9,
+        "otzma": 8,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 5,
+        "hendel": 4,
+        "winter": 0,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "winter": 2.8,
+        "gantz": 1.1,
+        "haredi_public": 1,
+        "noam": 0.2
+      },
+      "sourceBlocSeats": {
+        "coalition": 49,
+        "opposition": 54,
+        "arab_parties": 13,
+        "hendel": 4
+      },
+      "methodology": {
+        "sampleSize": 601,
+        "initialSampleSize": 600,
+        "requestedParticipationCount": 4089,
+        "requestedParticipationSourceLabel": "מספר המבקשים להשתתף",
+        "invitedSampleSize": null,
+        "reportedResponseRatePct": 15,
+        "collectionMode": "Internet Panel4All",
+        "samplingMethod": "Strata, random sampling within strata",
+        "population": "Nationally representative population 18+",
+        "reportedMarginOfErrorPct": 4,
+        "reportedMarginOfErrorConfidencePct": null,
+        "undecidedPct": null
+      },
+      "limitations": [
+        "4089 requests to participate is preserved under its original label and is not relabeled as invited respondents.",
+        "Passing-party shares, collection hours, confidence level, denominator and whole-sample undecided share remain missing.",
+        "Conditional certainty-in-choice responses are stored separately as auxiliary opinion evidence, not turnout or undecided model inputs."
+      ]
+    }
+  ],
+  "duplicatesExcluded": [
+    {
+      "url": "https://www.maariv.co.il/news/elections-2026/article-1376685",
+      "samePollId": "lazar_2026-10-13",
+      "reason": "Explicitly republishes Walla/Lazar results, not a fourth independent sample."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2110079371033604333",
+      "reason": "Weekly composite includes already known and new observations plus averages. No additional sample."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2109904906043961744",
+      "reason": "Commentary on already ingested Channel14 October12 poll, not a new October13 observation."
+    }
+  ],
+  "publisherChecks": [
+    {
+      "publisher": "IsraelPolls",
+      "urls": [
+        "https://x.com/IsraelPolls?s=20"
+      ],
+      "directHttpStatus": 200,
+      "webStatus": "cache-miss",
+      "limitation": "Public SSR latest five posts and linked replies accessible; older full media/reply navigation login-limited."
+    },
+    {
+      "publisher": "Maariv",
+      "urls": [
+        "https://www.maariv.co.il/",
+        "https://www.maariv.co.il/news/politics",
+        "https://www.maariv.co.il/news/elections-2026",
+        "https://www.maariv.co.il/tags/%D7%A1%D7%A7%D7%A8-%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D"
+      ],
+      "directHttpStatus": 200,
+      "finding": "New Walla republication, deduplicated. No other new distinct mandate poll identified in opened indexes."
+    },
+    {
+      "publisher": "Walla",
+      "urls": [
+        "https://www.walla.co.il/news",
+        "https://www.walla.co.il/news/politics",
+        "https://elections.walla.co.il/",
+        "https://www.walla.co.il/news/politics/383957251"
+      ],
+      "directHttpStatus": 200,
+      "webStatus": "original-open-failed",
+      "finding": "New original Lazar poll with explicit October12 fieldwork and October13 publication."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "urls": [
+        "https://www.israelhayom.co.il/",
+        "https://www.israelhayom.co.il/news/politics"
+      ],
+      "directHttpStatus": 200,
+      "finding": "Fresh homepage Tuesday October13; no additional distinct current mandate poll found in opened indexes. Prior October8 observation remains known.",
+      "limitation": "Some web-rendered homepage cache showed October12; fresh archived HTTP HTML supplies current direct index evidence."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "urls": [
+        "https://www.zman.co.il/",
+        "https://www.zman.co.il/feed/33350/"
+      ],
+      "directHttpStatus": 403,
+      "webStatus": "accessible-home-and-poll-feed",
+      "finding": "Latest poll feed card October8; women representation commentary uses an existing poll, not a new sample.",
+      "limitation": "Direct HTTP is blocked; method-specific web access worked, so do not claim either successful direct fetch or wholesale inaccessible."
+    },
+    {
+      "publisher": "To120",
+      "urls": [
+        "https://twonetwenty.com/data",
+        "https://twonetwenty.com/he/evidence"
+      ],
+      "directHttpStatus": 200,
+      "finding": "Package/evidence still October11, 137 documented polls; hashes identical to previous October12 scan. No compiled forecasts/calibration/weights ingested.",
+      "limitation": "Supplemental discovery only; linked original publishers/CEC required for independent observation verification."
+    }
+  ],
+  "receiptFiles": [
+    "initial-receipts.json",
+    "post-receipts.json",
+    "graphic-receipts.json",
+    "web-initial.json",
+    "web-final.json"
+  ],
+  "canonicalMutationsPerformed": false,
+  "revisionOf": "source-summary.json",
+  "revisionReason": "Use exact successfully requested Walla homepage/election and Zman poll-feed URLs from network receipts; initial summary described equivalent route names without verifying those aliases."
+}

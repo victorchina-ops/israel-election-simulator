@@ -1,0 +1,171 @@
+{
+  "publicationTimeZone": "Asia/Jerusalem",
+  "date": "2026-10-13",
+  "checkedAt": "2026-10-13",
+  "reviewedAtUtc": "2026-10-13T19:56:51.644863+00:00",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": false,
+  "voteShareType": "published-seats-and-secondary-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "secondary-aggregator",
+  "reportedMarginOfErrorConfidencePct": null,
+  "percentageDenominator": null,
+  "panelProvider": null,
+  "publishedBounds": {},
+  "statusLabel": "סקר חדש — גרפיקת המקור וטבלת ההיסטוריה נבדקו; גודל מדגם מדויק ומועד איסוף לא אומתו",
+  "id": "maagar_mochot_2026-10-13",
+  "pollsterId": "maagar_mochot",
+  "pollster": "מאגר מוחות — יצחק כ״ץ",
+  "publisher": "ערוץ 16",
+  "publicationTime": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "dateKind": "תאריך פרסום13.10.2026 מודפס בגרפיקה; אין בה הצהרה על מועד איסוף. פרסוםIsraelPolls בשעה21:20:45 הוא פרסום חוזר ולא זמן הפרסום המקורי",
+  "repostPublishedAt": "2026-10-13T21:20:45+03:00",
+  "sampleSize": null,
+  "sampleSizeQualifier": "למעלה מ־2,000 משיבים",
+  "sampleSizeLowerBoundExclusive": 2000,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://x.com/IsraelPolls/status/2110073270125113400",
+  "samplingMethod": null,
+  "population": null,
+  "reportedMarginOfErrorPct": 2.1,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "seats": {
+    "yashar": 21,
+    "likud": 18,
+    "beyachad": 13,
+    "democrats": 9,
+    "yisrael_beiteinu": 7,
+    "utj": 8,
+    "joint": 8,
+    "shas": 7,
+    "otzma": 9,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 5,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "gantz": 1.2,
+    "haredi_public": 1.1
+  },
+  "reportedPercentages": {
+    "gantz": 1.2,
+    "haredi_public": 1.1
+  },
+  "knownPercentageSum": 2.3,
+  "originalCoveragePct": 2.3,
+  "unmodelledNamedParties": [],
+  "modelOnlyPercentageIds": [],
+  "sourceUrl": "https://x.com/IsraelPolls/status/2110073270125113400",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2110076694497251453",
+    "https://www.ch16.co.il/vod/6ace7ddac544041ace194b0b",
+    "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+    "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8"
+  ],
+  "replacesPollId": "maagar_mochot_2026-10-06",
+  "sourceBlocSeats": {
+    "coalition": 52,
+    "opposition": 50,
+    "arab_parties": 13,
+    "hendel": 5
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "גוש הקואליציה52 כפי שפורסם; כולל עמך ישראל4 במפורש",
+    "opposition": "גוש האופוזיציה50 כפי שפורסם; ללא ערביות וללא הנדל–זליכה5",
+    "arab_parties": "הרשימה המשותפת8 ורע״ם5",
+    "hendel": "המילואימניקים והכלכלית5; בנפרד"
+  },
+  "sourceHistoryBlocSeats": {
+    "coalition": 52,
+    "others": 55,
+    "arab_parties": 13
+  },
+  "sourceHistoryBlocDefinitions": {
+    "coalition": "כולל עמך ישראל4",
+    "others": "אופוזיציה50 יחד עם הנדל–זליכה5",
+    "arab_parties": "הרשימה המשותפת ורע״ם"
+  },
+  "fixedBlocSeatsForAudit": {
+    "coalition": 52,
+    "opposition": 50,
+    "arab_parties": 13,
+    "unassigned": 5
+  },
+  "fixedBlocDefinitionForAudit": "Unchanged data/parties.json default assignments put Winter4 in coalition a and Hendel5 in other; fixed default partition is52/50/13/unassigned5. Published source definitions remain separately retained.",
+  "notes": [
+    "New distinct MaagarMochot observation published13Oct; former6Oct row remains in history and is superseded only in current weighting.",
+    "All13 passing lists total120; Gantz1.2% and HarediPublic1.1% are exact secondary historical-table shares, with0 seats. Other missing percentages and absent Noam/IsraelFirst seats are not filled as0.",
+    "Republished original graphic states more than2000 respondents and maximum error2.1%. Exactn remainsnull and >2000 retained as exclusive lower bound.",
+    "The graphic13Oct date is a publication label. No fieldwork interval or collection wording verified; strict post-closure trends must exclude this poll for unverified fieldwork.",
+    "Original homepage and poll-search UI rendered. Original full Oct13 central broadcast played and its intro date was inspected, but the numeric poll segment and precise methodology were not verified. The attempted original asset export stalled; no unverified exported asset is evidence.",
+    "Raw graphic source blocs52/50/13/H5 sum120 and coalition includesWinter4. Historical others55 includesHendel5. These meanings remain distinct from fixed party assignment.",
+    "No sampling mode, representative population statement, confidence level, panel supplier, denominator or undecided share was verified. Do not copy metadata from6Oct."
+  ],
+  "percentageSourceUrls": {
+    "gantz": "https://x.com/IsraelPolls/status/2110076694497251453",
+    "haredi_public": "https://x.com/IsraelPolls/status/2110076694497251453"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "noam",
+    "israel_first"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "noam",
+    "israel_first"
+  ],
+  "sourceDocument": {
+    "fileName": "c16-graphic.png",
+    "kind": "republished-broadcast-graphic",
+    "sha256": "7c88a9727b41bc903a13a060318a2583cf2d457ecf98bcaae0ffba7d9e366f92",
+    "extractFileName": "c16-source-proof.txt",
+    "extractSha256": "acbea1d351f69c80185357afb154fea0fdcbae78bd450c7410e8025176a58f5e",
+    "historyFileName": "c16-history.png",
+    "historySha256": "d5307f1204fd861931a16c239ba0efe70a7f86c53c25a48218a58d22ab3100d5",
+    "reviewedAt": "2026-10-13",
+    "providedBy": "IsraelPolls",
+    "primarySourceUrl": "https://www.ch16.co.il/vod/6ace7ddac544041ace194b0b",
+    "republishedOriginalGraphicSourceUrl": "https://x.com/IsraelPolls/status/2110073270125113400",
+    "primaryPublicationVerified": false,
+    "publicationCrossChecked": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "sampleSize",
+      "fieldworkStart",
+      "fieldworkEnd",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "samplingMethod",
+      "population",
+      "reportedMarginOfErrorConfidencePct",
+      "percentageDenominator",
+      "undecidedPct"
+    ],
+    "republishedOriginalGraphicVisuallyVerified": true,
+    "originalBroadcastPlayerAccessible": true,
+    "originalNumericFramesVisuallyVerified": false
+  }
+}

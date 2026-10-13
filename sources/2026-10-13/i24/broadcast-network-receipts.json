@@ -1,0 +1,62 @@
+[
+  {
+    "name": "c16-current-home",
+    "url": "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+    "checkedAtUtc": "2026-10-13T19:35:22.908619+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+    "bytes": 127511,
+    "sha256": "06183d5df1d84c2e0e8d86e54db5fd097e0e0385858734bbd1e0f3f11b1fe9c4",
+    "file": "c16-current-home.html"
+  },
+  {
+    "name": "c16-search-polls",
+    "url": "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8",
+    "checkedAtUtc": "2026-10-13T19:35:22.908619+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8",
+    "bytes": 124813,
+    "sha256": "0202b55cef64c519486bb28cb75f643f416289d3adafd63883a1eafb7d95dfff",
+    "file": "c16-search-polls.html"
+  },
+  {
+    "name": "c16-oct13-broadcast",
+    "url": "https://www.ch16.co.il/vod/6ace7ddac544041ace194b0b",
+    "checkedAtUtc": "2026-10-13T19:35:22.909618+00:00",
+    "status": 200,
+    "finalUrl": "https://www.ch16.co.il/vod/6ace7ddac544041ace194b0b",
+    "bytes": 128380,
+    "sha256": "6484091bf76a2e8c37c902f56102ca414c8cd6b27478b151e87340705bf61aa6",
+    "file": "c16-oct13-broadcast.html"
+  },
+  {
+    "name": "i24-poll-video-poster",
+    "url": "https://i24israel.vod.immergo.tv/i24israel/api-uploaded/WILDMOKA_69869245957.jpg",
+    "checkedAtUtc": "2026-10-13T19:35:22.909618+00:00",
+    "status": 200,
+    "finalUrl": "https://i24israel.vod.immergo.tv/i24israel/api-uploaded/WILDMOKA_69869245957.jpg",
+    "bytes": 347432,
+    "sha256": "ff00c7c6425895486e9d7471b812069f132f8f569638545692fe64f81b8923c3",
+    "file": "i24-poll-video-poster.jpg"
+  },
+  {
+    "name": "i24-analysis-video-poster",
+    "url": "https://i24israel.vod.immergo.tv/i24israel/api-uploaded/WILDMOKA_69869330115.jpg",
+    "checkedAtUtc": "2026-10-13T19:35:22.909618+00:00",
+    "status": 200,
+    "finalUrl": "https://i24israel.vod.immergo.tv/i24israel/api-uploaded/WILDMOKA_69869330115.jpg",
+    "bytes": 285184,
+    "sha256": "4c41502e78b615b8c1dee2066449c61f5c72d0e3dac67b15ed888a527a3eaf9d",
+    "file": "i24-analysis-video-poster.jpg"
+  },
+  {
+    "name": "i24-poll-video-master",
+    "url": "https://i24israel.vod.immergo.tv/i24israel/transcoded/3a1c78e0-4c73-4998-851a-92290d44c63a/hls/master.m3u8",
+    "checkedAtUtc": "2026-10-13T19:35:22.910618+00:00",
+    "status": 200,
+    "finalUrl": "https://i24israel.vod.immergo.tv/i24israel/transcoded/3a1c78e0-4c73-4998-851a-92290d44c63a/hls/master.m3u8",
+    "bytes": 944,
+    "sha256": "87eaa5f939c5d8df5afab30b610e3f5cf4f0da6f9eebe4fbba56db34383ce1fb",
+    "file": "i24-poll-video-master.m3u8"
+  }
+]

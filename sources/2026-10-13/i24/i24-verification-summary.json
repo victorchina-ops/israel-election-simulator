@@ -1,0 +1,46 @@
+{
+  "status": "reviewed-distinct-candidate",
+  "id": "direct_polls_2026-10-13",
+  "source": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-b9e16632",
+  "files": {
+    "reviewed-i24-poll.json": "586f12ed853d04bb5b9f64020ebaef4edf9ad746b4d5b993a0d2e50ce6f7b0f0",
+    "i24-original.html": "93c5657e0ea2781cd9b3f0b92fe3ecf6714c057149d0569b32572b27602a8a72",
+    "i24-original-extract.txt": "8b12a15e778ec543dad1b7d3f9ad9e1da2331f5f73623467ae76dc63fbdcfc3e",
+    "i24-original-structure.json": "1e21cf624794886b313fc4bebbb32ca69df7d1ee850221e78e791e96c1d11431",
+    "i24-poll-video-poster.jpg": "ff00c7c6425895486e9d7471b812069f132f8f569638545692fe64f81b8923c3",
+    "i24-analysis-video-poster.jpg": "4c41502e78b615b8c1dee2066449c61f5c72d0e3dac67b15ed888a527a3eaf9d",
+    "initial-network-receipts.json": "5e24ca7edeff85e5012a6dc5809399c6de97fc9074c38b52f17f2e7d02373ece",
+    "broadcast-network-receipts.json": "2842e93e477048c9de23222bad4a8d2e043ccb3fa303a51f987015864aad46c6"
+  },
+  "publicationSafeSourceFiles": [
+    "reviewed-i24-poll.json",
+    "i24-original.html",
+    "i24-original-extract.txt",
+    "i24-original-structure.json",
+    "i24-poll-video-poster.jpg",
+    "i24-analysis-video-poster.jpg",
+    "initial-network-receipts.json",
+    "broadcast-network-receipts.json"
+  ],
+  "localOnlyDiscoveryFiles": [
+    "i24-home.html",
+    "i24-politics.html",
+    "i24-elections.html",
+    "i24-polls.html",
+    "c16-home.html",
+    "c16-news.html",
+    "c16-vod-index.html",
+    "c16-previous-original.html",
+    "c16-current-home.html",
+    "c16-search-polls.html",
+    "c16-oct13-broadcast.html"
+  ],
+  "accessLimitations": [
+    "i24 original and homepage readableHTTP200. i24 politics/elections/polls indexes returned JS shell7 visiblecharacters and cannot be described as fully readable.",
+    "C16 browser homepage and own search rendered; separate Oct13 poll item not yet in search. New full broadcast found through live homepage, playback is accessible but methodology has not yet been inspected."
+  ],
+  "notes": [
+    "Exact source percentages and qualitative upper bounds remain distinct.",
+    "Candidate immutable after this review. Any added official metadata must use a separately named receipt/revision."
+  ]
+}

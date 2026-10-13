@@ -1,0 +1,24 @@
+Use case: style-transfer and compositing.
+Asset: original shareable Hebrew editorial illustration about the October13 Israeli poll update.
+Image1 is the EDIT TARGET: transform this earlier four-scenario poster into a new, much simpler two-party threshold-probability poster, preserving its beautiful painterly dusk Knesset backdrop, tactile cream paper, friendly animated ballot-paper characters, confident Hebrew typography and warm golden entry gate. Remove ALL old four-scenario panels, old percentages, mandate totals, bloc labels, arrows, checkmarks and crosses. No old numbers may remain.
+Images2 and3 are SUPPORTING INSERTS: the verified Winter/AmchaIsrael logo and verified Hendel–Zelicha party logo. Put the appropriate logo clearly on each animated ballot-paper character. Preserve the lettering and identity of these logos as accurately as possible.
+Composition: a spacious almost-square portrait poster, around1200x1350. One shared golden doorway labelled "אחוז החסימה 3.25%"; two equally prominent ballot characters waiting near it, neither shown crossing nor definitively failing. One clean cream headline, then two large readable probability cards integrated into the illustrated scene, not charts. The Winter card belongs unambiguously to the Winter logo character, the Hendel–Zelicha card to its logo character. The same rounded probability is intentional: both43%. No pie charts, scientific axes, crowded tables or extra statistics. Neutral, engaging editorial illustration without party endorsement.
+Render EXACT Hebrew text below, clean RTL with numbers correctly oriented:
+Main title: "על סף הכניסה לכנסת"
+Subtitle: "וינטר והנדל–זליכה: כ־43% לכל אחד"
+Small pill clearly above both cards: "סיכוי לעבור במודל — לא אחוז תמיכה בסקר"
+Winter card title: "וינטר · עמך ישראל"
+Winter giant number: "43%"
+Winter comparison below: "בעדכון הקודם: 53%"
+Hendel card title: "הנדל–זליכה"
+Hendel giant number: "43%"
+Hendel comparison below: "בעדכון הקודם: 28%"
+Door sign: "אחוז החסימה 3.25%"
+Footer1: "נתונים עד 13.10.2026 | השוואה למודל מ־12.10.2026"
+Footer2: "עדכון: i24, חדשות 16 ווואלה–לזר"
+Footer3: "שקלול לפי דיוק היסטורי · ללא ערוץ 14 · השתתפות בסיס 2022"
+Footer4: "ההסתברויות תלויות בהנחות המודל; כל מפלגה נבחנת בנפרד"
+Small credit: "ויקטור רינה בן דוד"
+Small brand: "סקרים ושקרים"
+Short readable site: "victorchina-ops.github.io/israel-election-simulator"
+Precise numerical evidence: actual model probabilities after update Winter42.73%, Hendel43.02%; before update Winter53.08%, Hendel28.39%; poster deliberately rounds to whole43%,43%,53%,28%. This is10,000 model trials with existing historical accuracy weights and unchanged assumptions. Do not call these vote shares, jointly occurring outcomes, statistically significant shifts or forecast certainty. Do not add any other numbers, facts, slogans or predicted mandate counts. All text must be readable at phone size with generous whitespace and exact dates. Opaque PNG.

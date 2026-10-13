@@ -1,0 +1,26 @@
+{
+  "asOf": "2026-10-13",
+  "status": "PASS",
+  "scope": "Independent graphic/history crosscheck plus exact allowed revision diff; original numeric broadcast segment still unverified.",
+  "candidate": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-c16-poll-r1.json",
+  "candidateSha256": "94d1e131e1791698f3344a228876e329a4be10ce1c17d9d59dc01b87b1df823f",
+  "preservedCandidate": "artifacts/poll-checks/2026-10-13/tv-primary/reviewed-c16-poll.json",
+  "preservedCandidateSha256": "6d7a934e08f960216aac6022318ddb8034631299bcf6b2efc2d0ce84b60ac702",
+  "changedKeys": [
+    "fixedBlocDefinitionForAudit",
+    "fixedBlocSeatsForAudit"
+  ],
+  "allRawAndSourceMetadataUnchanged": true,
+  "vectorsAndReportedExactSharesMatch": true,
+  "sourceBlocDefinitionsMatch": true,
+  "fieldworkUnknownPreserved": true,
+  "exactSampleUnknownBoundPreserved": true,
+  "sourceTierAndPrimaryLimitPreserved": true,
+  "defaultDerivedPartition": {
+    "coalition": 52,
+    "opposition": 50,
+    "arab_parties": 13,
+    "unassigned": 5
+  },
+  "canonicalMutationsPerformed": false
+}

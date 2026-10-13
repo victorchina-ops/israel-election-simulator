@@ -1,0 +1,18 @@
+Reviewed published observation maagar_mochot_2026-10-13; publication 2026-10-13.
+Source tier: secondary-aggregator; original source: https://x.com/IsraelPolls/status/2110073270125113400.
+Published mandates: {"yashar": 21, "likud": 18, "beyachad": 13, "democrats": 9, "yisrael_beiteinu": 7, "utj": 8, "joint": 8, "shas": 7, "otzma": 9, "rz_zehut": 6, "raam": 5, "winter": 4, "hendel": 5, "gantz": 0, "haredi_public": 0}
+Exact published percentages: {"gantz": 1.2, "haredi_public": 1.1}
+Published bounds, never treated as exact percentages: {}
+Published source blocs: {"coalition": 52, "opposition": 50, "arab_parties": 13, "hendel": 5}
+Sample size exact/exclusive-lower-bound: None/2000
+Verified strict fieldwork eligibility: False; dates None to None
+Missing data are not zero and not inherited from an earlier survey.
+Model-only percentages: []
+Source review notes:
+New distinct MaagarMochot observation published13Oct; former6Oct row remains in history and is superseded only in current weighting.
+All13 passing lists total120; Gantz1.2% and HarediPublic1.1% are exact secondary historical-table shares, with0 seats. Other missing percentages and absent Noam/IsraelFirst seats are not filled as0.
+Republished original graphic states more than2000 respondents and maximum error2.1%. Exactn remainsnull and >2000 retained as exclusive lower bound.
+The graphic13Oct date is a publication label. No fieldwork interval or collection wording verified; strict post-closure trends must exclude this poll for unverified fieldwork.
+Original homepage and poll-search UI rendered. Original full Oct13 central broadcast played and its intro date was inspected, but the numeric poll segment and precise methodology were not verified. The attempted original asset export stalled; no unverified exported asset is evidence.
+Raw graphic source blocs52/50/13/H5 sum120 and coalition includesWinter4. Historical others55 includesHendel5. These meanings remain distinct from fixed party assignment.
+No sampling mode, representative population statement, confidence level, panel supplier, denominator or undecided share was verified. Do not copy metadata from6Oct.

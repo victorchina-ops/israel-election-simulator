@@ -1,0 +1,38 @@
+{
+  "asOf": "2026-10-13",
+  "pollId": "lazar_2026-10-13",
+  "date": "2026-10-13",
+  "fieldworkStart": "2026-10-12",
+  "fieldworkEnd": "2026-10-12",
+  "sampleSize": 601,
+  "primarySourceUrl": "https://www.walla.co.il/news/politics/383957251",
+  "primaryPublicationVerified": true,
+  "fieldworkVerified": true,
+  "evidence": [
+    {
+      "file": "artifacts/poll-checks/2026-10-13/israelpolls/walla-original.html",
+      "sha256": "b8aba117e605091b91d4c06fc44cbd2bd7372a476afc25f356112275fc0b5b40",
+      "url": "https://www.walla.co.il/news/politics/383957251",
+      "kind": "original-publisher-article"
+    },
+    {
+      "file": "artifacts/poll-checks/2026-10-13/israelpolls/walla-original.txt",
+      "sha256": "31d5c92e7f6e665a085635b8104dd059ac8bcceb89cfafbc74782ba925ac2dc3",
+      "url": "https://www.walla.co.il/news/politics/383957251",
+      "kind": "original-publisher-text-extraction"
+    },
+    {
+      "file": "artifacts/poll-checks/2026-10-13/israelpolls/walla-primary-0.webp",
+      "sha256": "cd785e2f3dc0a35d9df140b8a578cc74503616c1a4c9c81ffe9652afcc2f62e7",
+      "url": "https://www.walla.co.il/news/politics/383957251",
+      "kind": "original-publisher-mandate-graphic"
+    },
+    {
+      "file": "artifacts/poll-checks/2026-10-13/israelpolls/walla-primary-1.webp",
+      "sha256": "be1f46e283311667f302ac1022e920c6313aecd05ef2ff372b37fc2fdeda951d",
+      "url": "https://www.walla.co.il/news/politics/383957251",
+      "kind": "original-publisher-bloc-graphic"
+    }
+  ],
+  "scope": "New distinct poll; confidence interval level and unmentioned shares remain missing. Maariv repeat not counted."
+}

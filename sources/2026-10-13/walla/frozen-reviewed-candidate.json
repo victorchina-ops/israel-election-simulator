@@ -1,0 +1,167 @@
+{
+  "id": "lazar_2026-10-13",
+  "date": "2026-10-13",
+  "checkedAt": "2026-10-13",
+  "reviewedAtUtc": "2026-10-13T19:39:27.120388+00:00",
+  "pollsterId": "lazar",
+  "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+  "publisher": "וואלה",
+  "sourceTier": "original-publisher",
+  "publicationTime": "13:27",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": "2026-10-13T13:27:48+03:00",
+  "updatedAt": "2026-10-13T13:27:48+03:00",
+  "dateKind": "פרסום13.10.2026; מועד איסוף12.10.2026 מצוין במפורש במקור המקורי",
+  "fieldworkStart": "2026-10-12",
+  "fieldworkEnd": "2026-10-12",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "sampleSize": 601,
+  "initialSampleSize": 600,
+  "requestedParticipationCount": 4089,
+  "invitedSampleSize": null,
+  "requestedParticipationSourceLabel": "מספר המבקשים להשתתף",
+  "reportedResponseRatePct": 15.0,
+  "sampleSizeSourceUrl": "https://www.walla.co.il/news/politics/383957251",
+  "samplingMethod": "דגימת שכבות ובתוך השכבות דגימה אקראית",
+  "collectionMode": "פאנל משיבים אינטרנטי",
+  "panelProvider": "Panel4All",
+  "population": "מדגם מייצג של כלל האוכלוסייה בישראל מגיל18 ומעלה",
+  "reportedMarginOfErrorPct": 4.0,
+  "reportedMarginOfErrorConfidencePct": null,
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "statusLabel": "סקר חדש — המנדטים ותאריך האיסוף אומתו במקור המקורי",
+  "seats": {
+    "yashar": 22,
+    "likud": 20,
+    "beyachad": 13,
+    "democrats": 10,
+    "yisrael_beiteinu": 9,
+    "otzma": 8,
+    "utj": 8,
+    "joint": 8,
+    "shas": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 2.8,
+    "gantz": 1.1,
+    "haredi_public": 1.0,
+    "noam": 0.2
+  },
+  "reportedPercentages": {
+    "winter": 2.8,
+    "gantz": 1.1,
+    "haredi_public": 1.0,
+    "noam": 0.2
+  },
+  "publishedBounds": {},
+  "knownPercentageSum": 5.1,
+  "originalCoveragePct": 5.1,
+  "unmodelledNamedParties": [],
+  "modelOnlyPercentageIds": [],
+  "sourceUrl": "https://www.walla.co.il/news/politics/383957251",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2109982652468224009",
+    "https://x.com/IsraelPolls/status/2109985341256110390",
+    "https://www.maariv.co.il/news/elections-2026/article-1376685"
+  ],
+  "replacesPollId": "lazar_2026-10-09",
+  "sourceBlocSeats": {
+    "coalition": 49,
+    "opposition": 54,
+    "arab_parties": 13,
+    "hendel": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "גוש הקואליציה לפי וואלה",
+    "opposition": "אופוזיציה לא ערבית; הנדל–זליכה נספרים בנפרד",
+    "arab_parties": "הרשימה המשותפת ורע״ם",
+    "hendel": "המילואימניקים והכלכלית; נפרד מהאופוזיציה"
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.walla.co.il/news/politics/383957251",
+    "gantz": "https://www.walla.co.il/news/politics/383957251",
+    "haredi_public": "https://www.walla.co.il/news/politics/383957251",
+    "noam": "https://www.walla.co.il/news/politics/383957251"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "hendel",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "israel_first",
+    "other"
+  ],
+  "notes": [
+    "סקר חדש של לזר/וואלה שפורסם13.10 ואיסופו12.10; מחליף בשקלול הפעיל את סקר מעריב9.10 מאותו מכון, שנשמר בהיסטוריה.",
+    "וקטור12 הרשימות העוברות, שסכומן120 מנדטים, אומת בטקסט ובשתי הגרפיקות המקוריות. ארבע הרשימות שמתחת לחסימה ואחוזיהן פורסמו במפורש.",
+    "אחוזי הרשימות העוברות לא פורסמו במקור שנבדק; שחזורם למודל נפרד מנתוני המקור. ישראל תחילה ורשימות אחרות שלא הוזכרו נשארות חסרות ואינן מאופסות.",
+    "4089 נשמר כנתון שכותרתו מספר המבקשים להשתתף; אין לשנות את הכותרת למספר המוזמנים. מספר המשיבים בפועל601 והמדגם ההתחלתי600 נשמרים בנפרד.",
+    "טעות דגימה4.0% פורסמה; רמת הביטחון לא צוינה ונשארת חסרה. שעות האיסוף ומכנה אחוזי התמיכה לא פורסמו.",
+    "הסקר כולל גם שאלות ביטחון בבחירה בקרב מי שבחרו רשימה עוברת; אלו אינן שיעור מתלבטים מכלל המדגם או תחזית אחוזי הצבעה ואינן משמשות כקלט מנדטים.",
+    "כתבת מעריב1376685 מפרסמת את אותו סקר וואלה ואינה מדגם נוסף. טבלת ממוצעי השבוע אינה סקר נוסף."
+  ],
+  "sourceDocument": {
+    "fileName": "walla-original.html",
+    "kind": "web-page",
+    "sha256": "b8aba117e605091b91d4c06fc44cbd2bd7372a476afc25f356112275fc0b5b40",
+    "extractFileName": "walla-original.txt",
+    "extractSha256": "31d5c92e7f6e665a085635b8104dd059ac8bcceb89cfafbc74782ba925ac2dc3",
+    "primarySourceUrl": "https://www.walla.co.il/news/politics/383957251",
+    "providedBy": "original-publisher",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "originalGraphicFileName": "walla-primary-0.webp",
+    "originalGraphicSha256": "cd785e2f3dc0a35d9df140b8a578cc74503616c1a4c9c81ffe9652afcc2f62e7",
+    "originalGraphicUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791881225971_walla-media-picture_942x1600.webp?crop_w=0.955767&crop_y=0&crop_x=0.023232&aspectRatio=9%3A16&width=1920&quality=75",
+    "reviewedGraphics": [
+      {
+        "fileName": "walla-primary-0.webp",
+        "sha256": "cd785e2f3dc0a35d9df140b8a578cc74503616c1a4c9c81ffe9652afcc2f62e7",
+        "url": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791881225971_walla-media-picture_942x1600.webp?crop_w=0.955767&crop_y=0&crop_x=0.023232&aspectRatio=9%3A16&width=1920&quality=75",
+        "providedBy": "original-publisher"
+      },
+      {
+        "fileName": "walla-primary-1.webp",
+        "sha256": "be1f46e283311667f302ac1022e920c6313aecd05ef2ff372b37fc2fdeda951d",
+        "url": "https://image-resizer-walla.walla.cloud/image/2026/10/2/images/1791881227175_walla-media-picture_1200x958.webp?crop_w=0.999524&crop_y=0.04167&crop_x=0&aspectRatio=4%3A3&width=1920&quality=75",
+        "providedBy": "original-publisher"
+      }
+    ],
+    "reviewedAt": "2026-10-13",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "full-passing-party-percentages",
+      "percentageDenominator",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "marginOfErrorConfidencePct"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-13",
+  "runId": "reviewed",
+  "includeChannel14": false,
+  "sourceHashes": {
+    "artifacts/strict-post-close/party-analysis.json": "375a5b6faee26aed07552f0cc022b75e594d8795aa53856d834e2d183d64015b",
+    "artifacts/strict-post-close/analysis.json": "65a197e29252a25ef62bbabd2ef5f33debc07bc6085c494557902e597373fb5d",
+    "data/strict-party-trends.json": "a04c644f6f96a7436f0a95bc2002320c8a0fa90fede95887e7add28f60c52cdb",
+    "data/poll-history.json": "d9b202094c6b615f9180691d05f03dfd7a8556d1615e5fc5d7466fc999870c0c",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "scripts/derive-strict-trends-without-channel14.py": "3767d61f3341a4ccbe41775ae2b76422c7b8911ce8ee239f7569f0b994a2a05d"
+  }
+}

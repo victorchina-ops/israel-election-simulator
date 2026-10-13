@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-13",
+  "tool": "built-in image_gen",
+  "operation": "edit-existing-illustrated-poster-with-verified-logo-inserts",
+  "prompt": "illustrated-prompt.txt",
+  "promptSha256": "8862bce2ed31d161fec26db0a4d91a25eac259a085837352d7478d9e51b8dcc7",
+  "output": "threshold-two-parties-illustrated.png",
+  "outputSha256": "57449d816a94b1a13e3aecae20dd71d2b0be989179960dc49f65eaa9dd109cb9",
+  "dimensions": [
+    1182,
+    1330
+  ],
+  "generationDefaultPath": "C:/Users/User/.codex/generated_images/01a0952c-a40b-7b01-b019-621f0cee2656/exec-5a9b2f65-6a39-4f20-b232-b417ca936954.png",
+  "cleanupPrompt": "illustrated-cleanup-prompt.txt",
+  "cleanupPromptSha256": "b09b90c99379fe8bbe25cd979451237c4857936924d302da0ac65beb09de4d9a",
+  "intermediateDraftSha256": "0058f108557d4bd5c4c5a9f12cbe3f31700e44ae5d738110d2c6ec1ebbacc5c4",
+  "inputImages": [
+    {
+      "path": "outputs/social/2026-10-13/winter-hendel-four-scenarios-illustrated.png",
+      "sha256": "001bffdb8158f747307d9695821689b8143c5ee576f3d8dd7cd232b7601620a9"
+    },
+    {
+      "path": "dashboard/src/content/assets/party-logos/winter.png",
+      "sha256": "489ccd6d63bd69de4900df53c3aa2a570fd981eb938d524f034b75f713f2e12a"
+    },
+    {
+      "path": "dashboard/src/content/assets/party-logos/hendel.png",
+      "sha256": "2081d494ef8cb86268b2e0a64afa89dbc0794f70febb8f1874fc96633b7c194c"
+    }
+  ],
+  "values": {
+    "before": {
+      "winter": 0.5308,
+      "hendel": 0.2839
+    },
+    "after": {
+      "winter": 0.4273,
+      "hendel": 0.4302
+    }
+  },
+  "displayedWholePercentages": {
+    "before": {
+      "winter": 53,
+      "hendel": 28
+    },
+    "after": {
+      "winter": 43,
+      "hendel": 43
+    }
+  },
+  "modelComparisonSha256": "a2cb11828a95704a5bb9cf693c86499409ece168fc121805b123e8525cb9672a",
+  "visualInspectionCompleted": true,
+  "visualChecks": [
+    "Exact43/43 current and53/28 earlier numbers",
+    "Dates13Oct2026/current and12Oct2026/earlier model separate",
+    "Published sources namedi24/Channel16/WallaLazar",
+    "Model probabilities explicitly distinguished from poll vote shares",
+    "Historical accuracy/noChannel14/turnout2022 labelled",
+    "Recognizable party-name logos associated with corresponding cards; tiny generated slogan removed",
+    "No old four-case percentages/mandates remain",
+    "No joint-event or significance claim",
+    "Credit and simulator link readable",
+    "Both characters outside entrance; no certainpass/fail implied"
+  ],
+  "socialDraftOnly": true,
+  "tweetsPublished": false
+}
