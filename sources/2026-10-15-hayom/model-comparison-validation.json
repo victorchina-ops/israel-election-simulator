@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "activeSelectedInstitutes": 7,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "changedPollsters": [
+    "kantar"
+  ],
+  "newObservationIds": [
+    "kantar_2026-10-15"
+  ],
+  "publicationDates": [
+    "2026-10-15"
+  ],
+  "activePolls": 8,
+  "historyPolls": 124,
+  "comparisonSha256": "43e2a6c6889eba9043210ca507f846d67a230da0b022289a4fc6c2c548a51bfd",
+  "snapshotSha256": "e9ee9ef548ac591a16a146e713e7851ebea8c2b0c010a214a85bb18127842f51",
+  "baselineSha256": "73a005044da14c6cb6dcc1db261697a19869e4b8372e230f17011781031ac675",
+  "sourcePlanSha256": "a34494cd2a3462c4cfcc949cf18f6b64c5f3f2482c06a5e87da2fd02a8252ea7",
+  "sourceTierNormalizationValidationSha256": "61c6f19c8f8ba66a459406567418c4687f8df1579f834fe7ca639dab62f7ffe1",
+  "validationScope": "Explicit flags and actual selected weights are bound to the website defaults; both snapshots replayed with the unchanged current model. This is not a significance test."
+}

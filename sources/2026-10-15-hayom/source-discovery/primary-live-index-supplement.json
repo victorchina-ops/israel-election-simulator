@@ -1,0 +1,41 @@
+{
+  "asOf": "2026-10-15",
+  "candidateUnchanged": true,
+  "candidateSha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+  "primaryStoryUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+  "checks": [
+    {
+      "url": "https://www.israelhayom.co.il/",
+      "channel": "live-browser-DOM",
+      "result": "readable-current-homepage-links-to-new-poll-article21636491"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics",
+      "channel": "live-browser-DOM",
+      "result": "readable-current-politics-index-links-to-new-poll-article21636491-and-displays19:10"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/election2026",
+      "channel": "live-browser-DOM",
+      "result": "readable-current-election-index-links-to-new-poll-article21636491"
+    }
+  ],
+  "articleMetadataObservedInVisibleMain": {
+    "date": "2026-10-15",
+    "publishedTime": "19:10",
+    "updatedTime": "19:31",
+    "timeZone": "Asia/Jerusalem",
+    "fieldworkStart": "2026-10-14",
+    "fieldworkEnd": "2026-10-15",
+    "sampleSize": 551,
+    "peopleAskedToAnswer": 2476,
+    "adultMinimumAge": 18,
+    "includesArabSector": true,
+    "collectionMode": "internet",
+    "reportedMaximumSamplingErrorPct": 4.2,
+    "reportedConfidenceLevelPct": null
+  },
+  "metadataExtractionScope": "Independently paraphrased numerical facts read in original live publisher page; no whole article HTML, reader export or copyrighted prose republished.",
+  "publicSafe": true,
+  "totalQuotedNonLyricalWords": 0
+}

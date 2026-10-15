@@ -1,0 +1,25 @@
+Use case: illustration-story
+Create a beautiful original Hebrew editorial election-data illustration, portrait PNG about1200x1500. Warm tactile gouache and layered paper collage, cream paper, deep navy, restrained warm gold and pale blue. One friendly, mature-looking anthropomorphic paper ballot character labeled only "עמך ישראל" standing beside a softly lit parliamentary doorway in a painted Knesset at dusk. Neutral, curious mood, no celebration or sadness. Highly polished magazine illustration, airy composition, NOT dry dashboard or complicated scientific chart. No real faces, invented logos, election slogans, banners, tiny filler lettering or unrequested text.
+
+Main focal point is a beautiful large cream medallion with an exact model probability, separate from a smaller raw-poll result. These are DIFFERENT statistics, NOT a comparison of vote shares. All Hebrew accurate RTL.
+
+Verbatim text:
+Top kicker: "עדכון סקרים | 15.10.2026"
+Large headline: "מה הסיכוי של וינטר להיכנס?"
+Very large focal number: "18.9%"
+Immediately next to that number, clearly readable: "סיכוי לעבור במודל המשוקלל"
+Smaller paper card: "בסקר ישראל היום: 3.0% תמיכה"
+On a small neat doorway plaque: "אחוז החסימה: 3.25%"
+
+Readable footer note:
+"18.9% הם סיכוי מעבר במודל — לא אחוז תמיכה"
+"דיוק היסטורי | 7 מכונים | ללא ערוץ 14"
+"השתתפות בסיס 2022; התוצאה תלויה בהנחות המודל"
+
+Small source lines:
+"נתוני המודל: 15.10.2026, כולל סקר ישראל היום החדש"
+"קנטאר: איסוף 14–15.10 | 551 משיבים"
+Small credit: "ויקטור רינה בן דוד"
+Neat small URL: "victorchina-ops.github.io/israel-election-simulator"
+
+Constraints:18.9% belongs ONLY to the weighted model's crossing probability;3.0% belongs ONLY to reported support in the new Kantar/IsraelHayom poll;3.25% is the threshold. Do not show18.9% as support or a frequency of polls. No claim of proven predictive calibration, certainty, statistical significance or voter transfers. No arrows suggesting3.0 becomes18.9. No extra handwritten slogans on steps, objects or any background surfaces. All background walls/stone/steps must remain blank. Generous margins, readable source details, beautiful painterly illustration focused on one party and one question.

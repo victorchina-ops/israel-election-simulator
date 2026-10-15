@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "priorVerificationFile": "kantar-verification-summary.json",
+  "priorVerificationSha256": "c6c383e267be70b7b74ec39574b9d0839674f261ebdc978038bcbf2f0d9bff89",
+  "reviewedVerificationFile": "kantar-verification-summary-r1.json",
+  "reviewedVerificationSha256": "ed9aa70ee1597578fa6d070006be9405374acf6d7ffa3bc102077eaf73695378",
+  "candidateUnchanged": true,
+  "candidateSha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+  "reason": "Remove unsupported September13 closure assertion; retain fieldwork dates14–15October and defer closure definition to canonical audited cohort rule. No numerical observation or candidate change.",
+  "publicAllowlist": [
+    "reviewed-kantar-poll.json",
+    "kantar-verification-summary-r1.json",
+    "kantar-user-provided-original-report.png",
+    "kantar-reviewed-facts.txt",
+    "kantar-verification-revision-r1.json"
+  ]
+}

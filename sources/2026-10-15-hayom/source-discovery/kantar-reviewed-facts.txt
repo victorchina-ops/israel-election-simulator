@@ -1,0 +1,12 @@
+Israel Hayom / Kantar observation published 2026-10-15; original report screenshot supplied by user and visually inspected.
+Primary article: https://www.israelhayom.co.il/news/politics/article/21636491
+Article found in fresh live politics index; visible first publication 19:10 and update 19:31, Asia/Jerusalem.
+Fieldwork 14-15 October 2026. Online sample of 551 adults aged18+ including the Arab sector; 2476 people asked to answer. Reported maximum sampling error4.2%; confidence level not stated. No response-rate estimator derived from the invitation figure.
+Seats: Likud21; Beyachad12; Yashar24; Democrats8; Hendel-Zelicha4; ReligiousZionism-Zehut6; Otzma9; YisraelBeiteinu8; Shas7; UTJ7; Joint9; Raam5; Winter0; Gantz0; HarediPublic0. Total120.
+Exact below-threshold shares in the supplied original report: Winter3.0%; Gantz0.8%; HarediPublic0.9%; Ahi0.7%; TzevaShahor0.6%. Unmodeled named Ahi and TzevaShahor sum to model-only other1.3%; the publisher did not report an aggregate other percentage. Noam and IsraelFirst remain missing.
+Consistent bloc partition: Coalition50 including Winter0; opposition52 excluding Hendel-Zelicha; Arab parties14; Hendel-Zelicha4 unassigned.
+Original report compares with the same publisher's8October poll: Coalition51; opposition51; Arab13; Hendel5. That published comparison is distinct from the active Kantar replacement of the11October Kan poll.
+Original report retrospective8October Gantz cell1.1 conflicts with the currently archived8October1.2 source; no earlier canonical value is overwritten in this update.
+The article prose about separate Hendel and Zelicha parties is inconsistent with its single combined list in the original numerical report. Use the combined4-seat report row.
+Original primary article accessible via live browser, not via web-reader; politics index web-reader appeared stale while live browser exposed the new article. IsraelPolls profile read in live browser, latest visible post was15October Tatika and no Hayom post among first5entries. No absence-of-poll inference from this limited profile window.
+Full article text and narrative are not republished; this factual extract contains no prose quotations.

@@ -1,0 +1,86 @@
+{
+  "asOf": "2026-10-15",
+  "status": "passed",
+  "candidateFile": "reviewed-kantar-poll.json",
+  "candidateSha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+  "sourceDocumentFile": "kantar-user-provided-original-report.png",
+  "sourceDocumentSha256": "569754c517b206fbb96d2460311e967bc47bb43d58029cc72fc36df12a81446e",
+  "extractFile": "kantar-reviewed-facts.txt",
+  "extractSha256": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e",
+  "seatsTotal": 120,
+  "reportedExactPercentageSum": 4.7,
+  "namedUnmodeledSum": 1.3,
+  "knownModelPercentageSum": 6.0,
+  "reportedOtherMissing": true,
+  "confidenceNotPublished": true,
+  "newObservation": true,
+  "activeReplacement": "kantar_2026-10-11",
+  "previousSamePublisherComparison": "kantar_2026-10-08",
+  "fieldworkEligibility": "fieldwork14–15October entirely after the audited list closure; canonical audited cohort rule determines inclusion",
+  "sourceConflictPreserved": {
+    "priorPollId": "kantar_2026-10-08",
+    "party": "gantz",
+    "archivedCanonicalPct": 1.2,
+    "retrospectiveNewReportPct": 1.1,
+    "action": "retain-earlier-canonical-observation-unmodified"
+  },
+  "accessChecks": [
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/article/21636491",
+      "channel": "live-browser-main-visible-text",
+      "result": "readable",
+      "publishedDate": "2026-10-15",
+      "publishedTime": "19:10",
+      "updatedTime": "19:31"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/article/21636491",
+      "channel": "web-reader",
+      "result": "internal-error"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics",
+      "channel": "live-browser-DOM",
+      "result": "readable-new-story-linked"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics",
+      "channel": "web-reader",
+      "result": "readable-but-lagging-new-story-not-exposed"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/",
+      "channel": "web-reader",
+      "result": "returned-content-appeared-advertorial-not-complete-current-home"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "channel": "web-reader",
+      "result": "internal-error"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "channel": "live-browser-profile",
+      "result": "readable-latest-first-five-posts-no-Hayom-among-visible-five",
+      "latestVisiblePostUrl": "https://x.com/IsraelPolls/status/2110757120996217237",
+      "latestVisiblePostSubject": "Tatika15October"
+    }
+  ],
+  "publicAllowlist": [
+    "reviewed-kantar-poll.json",
+    "kantar-verification-summary-r1.json",
+    "kantar-user-provided-original-report.png",
+    "kantar-reviewed-facts.txt"
+  ],
+  "fullArticleRepublished": false,
+  "articleProseQuotesWords": 0,
+  "supersedesVerificationFile": "kantar-verification-summary.json",
+  "supersedesVerificationSha256": "c6c383e267be70b7b74ec39574b9d0839674f261ebdc978038bcbf2f0d9bff89",
+  "revisionReason": "Remove unsupported September13 closure assertion; retain fieldwork dates14–15October and defer closure definition to canonical audited cohort rule. No numerical observation or candidate change.",
+  "safePublicFiles": [
+    "reviewed-kantar-poll.json",
+    "kantar-verification-summary-r1.json",
+    "kantar-user-provided-original-report.png",
+    "kantar-reviewed-facts.txt"
+  ]
+}

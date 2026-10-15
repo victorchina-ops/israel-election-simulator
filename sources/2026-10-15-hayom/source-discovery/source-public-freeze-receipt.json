@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "runId": "hayom",
+  "publicScope": "Full authored articles and raw reader exports are excluded. Only the explicit original numerical report image, independently paraphrased factual extract, reviewed candidate and corrected verification/provenance JSON below are approved for this release.",
+  "safePublicFiles": [
+    {
+      "fileName": "reviewed-kantar-poll.json",
+      "sha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+      "bytes": 7807
+    },
+    {
+      "fileName": "kantar-reviewed-facts.txt",
+      "sha256": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e",
+      "bytes": 2192
+    },
+    {
+      "fileName": "kantar-user-provided-original-report.png",
+      "sha256": "569754c517b206fbb96d2460311e967bc47bb43d58029cc72fc36df12a81446e",
+      "bytes": 584643
+    },
+    {
+      "fileName": "kantar-verification-summary-r1.json",
+      "sha256": "ed9aa70ee1597578fa6d070006be9405374acf6d7ffa3bc102077eaf73695378",
+      "bytes": 3463
+    },
+    {
+      "fileName": "kantar-verification-revision-r1.json",
+      "sha256": "12ebbd3dbb07f0556d46251c1f5fca395e375148c556f4ca32c6348e9888a17f",
+      "bytes": 929
+    },
+    {
+      "fileName": "primary-live-index-supplement.json",
+      "sha256": "ee4e0b857b4207611286d65b65015091d9926b844ae01d918b2896bf8a5731b4",
+      "bytes": 1552
+    }
+  ],
+  "localOnlyFiles": [
+    "kantar-verification-summary.json",
+    "freeze-source.py",
+    "revise-verification-r1.py",
+    "freeze-public-source.py"
+  ],
+  "originalVerificationCorrection": "Initial receipt asserted an unsupported closure date; corrected r1 removes that assertion. The candidate and all poll numerical facts are unchanged. Initial receipt remains local-only.",
+  "candidateUnchanged": true,
+  "sourcePlanUnchanged": true,
+  "quotedArticleProseWords": 0
+}

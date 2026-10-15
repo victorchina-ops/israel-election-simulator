@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "phase": "applied-awaiting-independent-review",
+  "asOf": "2026-10-15",
+  "baselineAsOf": "2026-10-15",
+  "checkpointManifestSha256": "aa998158addc8467cfdd6dee55bc4f09f840338c741a4098f2b8c4ed7940df9e",
+  "sourcePlanSha256": "a34494cd2a3462c4cfcc949cf18f6b64c5f3f2482c06a5e87da2fd02a8252ea7",
+  "candidateHashes": {
+    "kantar": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86"
+  },
+  "expectedActiveCount": 8,
+  "expectedHistoryCount": 124,
+  "expectedStrictCandidates": 53,
+  "expectedStrictEligible": 47,
+  "expectedStrictWithoutChannel14": 38,
+  "expectedUnverifiedFieldwork": 6,
+  "inputHashes": {
+    "data/current-polls.json": "ae9c7c18aafcc359a8a940f3156b894663a0c20c7ec53bd0e9e3240f38b24226",
+    "data/poll-history.json": "1410f9e20c7b7c020e4381acd8db2cd6709c9b7293e93be423babf4223044d99",
+    "data/sources.json": "67ffbc47bbd6a4368bad5c66ccc2bf622f74025ee9774ddef5be8cb4452d2e0f",
+    "data/survey-documents-2026-09-14.json": "6162aac2af58df555562c57030095777621b55fee1c27160703dc8a1d0d8da8b",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "8784466ea1755223d2be25d8852fe37fcafe299518992dfb092527fa22b3b917"
+  },
+  "activePollCount": 8,
+  "historyPollCount": 124,
+  "preflightSha256": "a9765147169df63ab612407dfc70da5fd0fbf399b307044b56b99140a4b59ac5",
+  "changedCanonicalFiles": {
+    "data/current-polls.json": "3c8b52dcd262773b8ce050d25617aedb9f6e3fd83a20dc4c9f449609691c88ed",
+    "data/poll-history.json": "34d705619f658db9cfece1b9b8a5e383af437442a32a81c8e6926f5e9c4ede89",
+    "data/sources.json": "96c3d020084545eced8ad533858c6b2f09757d1affdcf71bcde8550a922e836c",
+    "data/survey-documents-2026-09-14.json": "dd678963e6e694a359f6b1e23892cd9025f509feda6238b85bd4ee02dab8367f",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "961fc8fc1d0cb1359b153941dfe515650841eda95dee394014f846ddbe13a824"
+  },
+  "publicEvidenceFiles": {
+    "hayom/frozen-reviewed-candidate.json": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+    "hayom/ingested-poll.json": "1fd4ac83ee9d10d790baca7429b372f10ccb5e0cb81fdc498cc3f2bad7002c4d",
+    "hayom/kantar-reviewed-facts.txt": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e",
+    "hayom/kantar-user-provided-original-report.png": "569754c517b206fbb96d2460311e967bc47bb43d58029cc72fc36df12a81446e",
+    "hayom/kantar-verification-summary-r1.json": "ed9aa70ee1597578fa6d070006be9405374acf6d7ffa3bc102077eaf73695378",
+    "hayom/reviewed-kantar-poll.json": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+    "hayom/reviewed-poll.json": "1fd4ac83ee9d10d790baca7429b372f10ccb5e0cb81fdc498cc3f2bad7002c4d",
+    "hayom/source-extract.txt": "09fe99fa457b6174d7131abbefd1c7fc7bc07ac9cc6d294d33442f86aeaa8081"
+  },
+  "rawMissingnessAndCensoredBoundsRetained": true,
+  "historicalWeightsAndCatalogueUnchanged": true,
+  "conditionalAndArtisticOutputsUnchanged": true,
+  "noNumericalAnalysesOrDashboardBuilt": true
+}

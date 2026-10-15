@@ -1,0 +1,58 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "runId": "hayom",
+  "revision": "metadata-normalization-r1",
+  "observationId": "kantar_2026-10-15",
+  "fromSourceTier": "original-publisher-with-user-supplied-original-report",
+  "toSourceTier": "original-publisher",
+  "files": {
+    "data/current-polls.json": {
+      "beforeSha256": "3c8b52dcd262773b8ce050d25617aedb9f6e3fd83a20dc4c9f449609691c88ed",
+      "afterSha256": "ee15cbba9abed92f283f196988888798894d077552b4f93699b4f9ce36504cbc"
+    },
+    "data/poll-history.json": {
+      "beforeSha256": "34d705619f658db9cfece1b9b8a5e383af437442a32a81c8e6926f5e9c4ede89",
+      "afterSha256": "07f18205fc5433ed0e63175a099b5d40023f7077ea7b83a4c7e73d936abe7a1f"
+    },
+    "data/sources.json": {
+      "beforeSha256": "96c3d020084545eced8ad533858c6b2f09757d1affdcf71bcde8550a922e836c",
+      "afterSha256": "7bfc71af53339dc334e5ac2dab76581f7836ce69a7e971947a5a3ae23a4a5b22"
+    },
+    "data/survey-documents-2026-09-14.json": {
+      "beforeSha256": "dd678963e6e694a359f6b1e23892cd9025f509feda6238b85bd4ee02dab8367f",
+      "afterSha256": "f8e79b36fa6a7355bf25949e89625d4fe980926a912fb2adea14f94b61cf1a7d"
+    },
+    "github-pages/sources/2026-10-15-hayom/hayom/reviewed-poll.json": {
+      "beforeSha256": "1fd4ac83ee9d10d790baca7429b372f10ccb5e0cb81fdc498cc3f2bad7002c4d",
+      "afterSha256": "162e3a7f2cfe6edd353ec716e9e3c645e27d530f052fec1dbb9ec82ff04dd753"
+    },
+    "github-pages/sources/2026-10-15-hayom/hayom/ingested-poll.json": {
+      "beforeSha256": "1fd4ac83ee9d10d790baca7429b372f10ccb5e0cb81fdc498cc3f2bad7002c4d",
+      "afterSha256": "162e3a7f2cfe6edd353ec716e9e3c645e27d530f052fec1dbb9ec82ff04dd753"
+    }
+  },
+  "publicDerivativeChanges": {
+    "hayom/reviewed-poll.json": {
+      "beforeSha256": "1fd4ac83ee9d10d790baca7429b372f10ccb5e0cb81fdc498cc3f2bad7002c4d",
+      "afterSha256": "162e3a7f2cfe6edd353ec716e9e3c645e27d530f052fec1dbb9ec82ff04dd753"
+    },
+    "hayom/ingested-poll.json": {
+      "beforeSha256": "1fd4ac83ee9d10d790baca7429b372f10ccb5e0cb81fdc498cc3f2bad7002c4d",
+      "afterSha256": "162e3a7f2cfe6edd353ec716e9e3c645e27d530f052fec1dbb9ec82ff04dd753"
+    }
+  },
+  "receiptSha256": "dd3baf16de3a52f8cdb67281bcbb1b876742fa3a41394fd118b2d53de048fbcd",
+  "preflightSha256": "10a9f7afd9f9ab98f13083a3fcb1aea547e166fcd39a555efed7dcb437a1b84b",
+  "ingestionReceiptSha256": "f92b252fccfd50729b46ccb4a03179ce2bf9273432a49b911a21fa2e2f899548",
+  "ingestionValidationSha256": "4a0fb9973f4602522e8422a15512f0dabf2739b027141388fcc62ed6593cd707",
+  "sourcePlanSha256": "a34494cd2a3462c4cfcc949cf18f6b64c5f3f2482c06a5e87da2fd02a8252ea7",
+  "candidateSha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+  "candidateAndOriginalReceiptsUnchanged": true,
+  "onlyNewObservationTierFieldsChanged": true,
+  "detailedSourceDocumentProvenanceUnchanged": true,
+  "allPollValuesFieldworkWeightsAndPriorRowsUnchanged": true,
+  "activePolls": 8,
+  "historyPolls": 124,
+  "validatorSha256": "fcd7ababe63f29e7ad814b6dd3ef5e2d622f82c4b92fb992bc6ad1fb0f82521c"
+}

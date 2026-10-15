@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "runId": "hayom",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "publicScope": "Full authored articles are excluded; only original numerical report image, numerical facts, rewritten extracts and source metadata are published.",
+  "primaryPollUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+  "sourceDocumentOrigin": "Original Kantar numerical report screenshot supplied by the user; visually verified and crosschecked against the current publisher article in the live browser.",
+  "accessChecks": [
+    {
+      "url": "https://www.israelhayom.co.il/",
+      "result": "live browser homepage linked to21636491"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics",
+      "result": "live browser politics index linked to21636491 with19:10 publication time"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/election2026",
+      "result": "live browser elections index linked to21636491"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics/article/21636491",
+      "result": "live browser original article readable, metadata crosschecked; web-reader internal error"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "result": "live browser latest five entries read twice; latest Tatika15October, no Hayom entry in observed window; web-reader internal error"
+    }
+  ],
+  "accessLimitations": [
+    "The web-reader did not retrieve the new primary article; successful reading was through the live browser.",
+    "Cached publisher indexes and search results lagged the new article; the live home, politics and elections indexes exposed it.",
+    "IsraelPolls was checked in the live browser, but a Hayom post or updated Kantar history for15October was not found in the visible latest-five-post window. This limited check does not establish that no such post exists.",
+    "The full original article text and any raw reader exports are not part of the public release."
+  ],
+  "missingMetadata": [
+    "confidence level",
+    "panel provider",
+    "percentage denominator",
+    "full passing-party percentages",
+    "fieldwork exact times",
+    "undecided percentage"
+  ],
+  "sourceConflictPreserved": {
+    "party": "gantz",
+    "pollDate": "2026-10-08",
+    "existingArchivedPct": 1.2,
+    "retrospectiveNewReportPct": 1.1,
+    "action": "earlier canonical value retained pending independent verification"
+  },
+  "candidateFile": "source/reviewed-kantar-poll.json",
+  "candidateSha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+  "publicFreezeReceiptFile": "source/source-public-freeze-receipt.json",
+  "publicFreezeReceiptSha256": "ea901e4cf6c2a57abb19471f05cd519171cd4edc29ae3e969ca0468d7ad4ca9f",
+  "totalQuotedNonLyricalWords": 0
+}

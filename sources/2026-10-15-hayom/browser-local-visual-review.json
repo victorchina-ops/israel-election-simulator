@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "asOf": "2026-10-15",
+  "phase": "local",
+  "runId": "2026-10-15T17-03-50-255Z-41168",
+  "browserReportSha256": "3bacbaf2b9816450f189b36bef40b775044e811455489d5ec07548d7017dd5f4",
+  "reviewedScreenshots": {
+    "1440-about-dark.png": "81521de62aa991b21994a22adcde2324cec5540c24bdd48091c926221ed82d29",
+    "1440-about-light.png": "5760d57b6b092e4c4b25c782a3207940fee8d6ca81ccda806d0422a9a2d8db69",
+    "1440-default-threshold-overview.png": "7a6ba96092ee1c54bcb515ba115ca0cdf8dfc493cb83a0bf3d2e916ad24890d9",
+    "1440-poll-data.png": "461447b0026c3d2f632157405142a31da3ca5c772b937d6d182ce164fc7c1443",
+    "1440-trends.png": "1ecabbb74cc23a90cf036a9d3f2a5cf286bce9cd62b6a7e768071352f573bb59",
+    "320-default-threshold-overview.png": "2ac9d8b12489483031ea081334298533b32a09f4a08f3d7e7be489e7c203314d",
+    "390-default-threshold-overview.png": "29d9118497be78fd56e0cc120938633c979f6e8f96d4290f4048309931743042",
+    "390-poll-data.png": "12c7e6b0c6aec7cf1aa5bbcca9cf431d0b50488dcf11b1799ece740a8aadd43f",
+    "390-trends.png": "da612a2c0dad493457e93191037717c4a165615ffae0b00495064c6e11b080d4",
+    "390-triple-all-fail.png": "2fff81caa49270a84c0c6900195829e88791e9d002daaadf0720d79b41eb7558"
+  },
+  "visualInspectionCompleted": true,
+  "screenshotsReviewed": 10,
+  "reviewMethod": "Every screenshot was opened and inspected visually through view_image; structured browser assertions are separately recorded in report.json.",
+  "checks": [
+    "Both desktop About themes retain the author photograph, contact, introduction, seven tabs and visible theme toggle; text and buttons are legible.",
+    "Desktop strict trends show38polls/7institutes/31deltas,15Oct audit,9Sep–15Oct interval, and distinct main-BH/sensitivity verdicts; visible Joint/Winter/RZ rows match the table.",
+    "Desktop poll register shows IsraelHayom15Oct, fieldwork14–15Oct,n551 and original-primary-source link; other current publishers remain visible.",
+    "Threshold charts at1440/390/320 retain aligned logos, mean seats, labels and percentages, including Winter18.91% andHendel48.88%; narrow-label ellipses are intentional and accessible names are independently tested.",
+    "Mobile trends retain wrapped cohort and method explanations; mobile poll register remains inside its intended horizontally scrollable table region.",
+    "Mobile all-three-fail selection shows92/10000=0.92%, all three selected lists and a clear all-selected event definition; CSV and histogram arithmetic were independently checked by the browser script.",
+    "No new clipping, overlapping marks or document-level horizontal overflow was found in the inspected views; broader geometry and interaction coverage is in the browser report."
+  ],
+  "sourceTierNormalizationValidationSha256": "61c6f19c8f8ba66a459406567418c4687f8df1579f834fe7ca639dab62f7ffe1",
+  "checkedAt": "2026-10-15T17:05:43.076597+00:00",
+  "reviewRecorderSha256": "f1402f76194844aeb7ff835ac6e8cfdc02ad5c00c073ee67fbcfba0dbd3d715e"
+}

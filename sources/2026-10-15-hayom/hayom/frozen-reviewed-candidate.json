@@ -1,0 +1,177 @@
+{
+  "id": "kantar_2026-10-15",
+  "pollsterId": "kantar",
+  "pollster": "קנטאר — דודי חסיד",
+  "publisher": "ישראל היום",
+  "date": "2026-10-15",
+  "checkedAt": "2026-10-15",
+  "reviewedAtUtc": "2026-10-15T16:47:24.050761+00:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationTime": "19:10",
+  "publishedAt": "2026-10-15T19:10:00+03:00",
+  "updatedAt": "2026-10-15T19:31:00+03:00",
+  "dateKind": "תאריך הדוח15.10.2026; פרסום המקור15.10 בשעה19:10; עבודת שדה14–15.10 אומתה בדוח ובכתבה בנפרד.",
+  "fieldworkStart": "2026-10-14",
+  "fieldworkEnd": "2026-10-15",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "fieldworkSourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+  "sampleSize": 551,
+  "sampleSizeSourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+  "initialSampleSize": null,
+  "invitedSampleSize": 2476,
+  "invitedSampleSizeLabel": "מספר האנשים שהתבקשו לענות על הסקר; אין להסיק מכך לבדו שיעור מענה תקני",
+  "samplingMethod": "דגימה אינטרנטית",
+  "population": "גברים ונשים בגילאי18 ומעלה, כולל המגזר הערבי",
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "reportedMarginOfErrorPct": 4.2,
+  "reportedMarginOfErrorConfidencePct": null,
+  "reportedMarginOfErrorSourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher-with-user-supplied-original-report",
+  "statusLabel": "סקר חדש — הדוח המקורי שסופק הוצלב עם כתבת ישראל היום",
+  "seats": {
+    "likud": 21,
+    "beyachad": 12,
+    "yashar": 24,
+    "democrats": 8,
+    "hendel": 4,
+    "rz_zehut": 6,
+    "otzma": 9,
+    "yisrael_beiteinu": 8,
+    "shas": 7,
+    "utj": 7,
+    "joint": 9,
+    "raam": 5,
+    "winter": 0,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 3.0,
+    "gantz": 0.8,
+    "haredi_public": 0.9,
+    "other": 1.3
+  },
+  "reportedPercentages": {
+    "winter": 3.0,
+    "gantz": 0.8,
+    "haredi_public": 0.9
+  },
+  "knownPercentageSum": 6.0,
+  "originalCoveragePct": 6.0,
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "unmodelledNamedParties": [
+    {
+      "name": "אח״י",
+      "pct": 0.7,
+      "seats": 0,
+      "mappedTo": "other",
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491"
+    },
+    {
+      "name": "צבע שחור — מגן עולם התורה",
+      "pct": 0.6,
+      "seats": 0,
+      "mappedTo": "other",
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491"
+    }
+  ],
+  "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls?s=20",
+    "https://www.israelhayom.co.il/news/politics"
+  ],
+  "replacesPollId": "kantar_2026-10-11",
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "unassigned": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "גוש נתניהו כולל וינטר שאינו עובר",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו; ללא ערביות והנדל–זליכה",
+    "arab_parties": "המשותפת ורע״ם",
+    "unassigned": "המילואימניקים והכלכלית — הנדל–זליכה"
+  },
+  "publishedPreviousPollDate": "2026-10-08",
+  "publishedPreviousPublisher": "ישראל היום",
+  "publishedPreviousBlocSeats": {
+    "coalition": 51,
+    "opposition": 51,
+    "arab_parties": 13,
+    "unassigned": 5
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.israelhayom.co.il/news/politics/article/21636491",
+    "gantz": "https://www.israelhayom.co.il/news/politics/article/21636491",
+    "haredi_public": "https://www.israelhayom.co.il/news/politics/article/21636491",
+    "other": "https://www.israelhayom.co.il/news/politics/article/21636491"
+  },
+  "missingNationalPercentagePartyIds": [
+    "likud",
+    "beyachad",
+    "yashar",
+    "democrats",
+    "hendel",
+    "rz_zehut",
+    "otzma",
+    "yisrael_beiteinu",
+    "shas",
+    "utj",
+    "joint",
+    "raam",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "notes": [
+    "סקר ישראל היום/קנטאר מ־15.10.2026;551 משיבים, איסוף אינטרנטי14–15.10 בקרב בני18 ומעלה כולל המגזר הערבי.2476 התבקשו לענות; טעות דגימה מרבית4.2%; רמת הביטחון לא פורסמה.",
+    "מחליף בשקלול הפעיל את סקר קנטאר/כאן מ־11.10 בלבד; סקרי11.10 וישראל היום8.10 נשמרים בהיסטוריה. ההשוואה המפורסמת בדוח היא דווקא לסקר ישראל היום8.10.",
+    "המנדטים נבדקו בדוח המקורי שהמשתמש סיפק ומסתכמים120. חלוקת המקור50 קואליציה,52 אופוזיציה,14 ערביות ו4 הנדל–זליכה בנפרד.",
+    "וינטר3.0%, כחול לבן0.8%, הציבור החרדי0.9%, אח״י0.7%, צבע שחור0.6%. שתי האחרונות נשמרות בשמן;1.3% אחרים הוא חיבור לצורך המודל בלבד, לא אחוז מצרפי שפורסם. יתר האחוזים נשארים חסרים.",
+    "בתא ההיסטורי8.10 של הדוח החדש כחול לבן1.1%, לעומת1.2% במקור השמור במאגר. העדכון אינו מתקן בדיעבד את הרשומה הקודמת ללא אימות נוסף.",
+    "ניסוח הכתבה על מפלגות נפרדות של הנדל וזליכה אינו תואם את הדוח המספרי: מדובר ברשימה משותפת אחת עם4 מנדטים. לא נוספה תצפית נפרדת.",
+    "הכתבה המקורית נקראה בדפדפן ונמצאה ישירות במדור הפוליטיקה החי; קורא הרשת לא הצליח לקרוא אותה והאינדקס השמור לא הציג אותה. ב־IsraelPolls נבדקו הפרופיל והפרסומים האחרונים; סקר זה טרם זוהה שם בחלון שנקרא."
+  ],
+  "sourceDocument": {
+    "fileName": "kantar-user-provided-original-report.png",
+    "kind": "user-provided-original-pollster-numerical-report-image-crosschecked-with-live-original-publisher",
+    "sha256": "569754c517b206fbb96d2460311e967bc47bb43d58029cc72fc36df12a81446e",
+    "extractFileName": "kantar-reviewed-facts.txt",
+    "extractSha256": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e",
+    "reviewedAt": "2026-10-15",
+    "providedBy": "user-supplied-Kantar-report",
+    "primarySourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "reportedMarginOfErrorConfidencePct",
+      "panelProvider",
+      "percentageDenominator",
+      "full-passing-party-percentages",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "undecidedPct"
+    ],
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 0,
+    "fullArticlePublishedInNewRelease": false
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "status": "reviewed",
+  "asOf": "2026-10-15",
+  "baselineAsOf": "2026-10-15",
+  "baselineVersion": "2026-10-15.zman-v1",
+  "runId": "hayom",
+  "observationPublicationDates": [
+    "2026-10-15"
+  ],
+  "publicCopyrightScopeReviewed": true,
+  "publicEvidenceScope": "Original numerical report/chart supplied by the user, independently written factual extracts, explicit fieldwork-date paraphrase, factual metadata, hashes and original links. Full authored articles and web-reader/profile exports remain local; all earlier published releases remain immutable.",
+  "polls": [
+    {
+      "pollsterId": "kantar",
+      "folder": "hayom",
+      "candidatePath": "artifacts/poll-checks/2026-10-15-hayom/source/reviewed-kantar-poll.json",
+      "candidateSha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86",
+      "expectedSeats": {
+        "likud": 21,
+        "beyachad": 12,
+        "yashar": 24,
+        "democrats": 8,
+        "hendel": 4,
+        "rz_zehut": 6,
+        "otzma": 9,
+        "yisrael_beiteinu": 8,
+        "shas": 7,
+        "utj": 7,
+        "joint": 9,
+        "raam": 5,
+        "winter": 0,
+        "gantz": 0,
+        "haredi_public": 0
+      },
+      "expectedReportedPercentages": {
+        "winter": 3.0,
+        "gantz": 0.8,
+        "haredi_public": 0.9
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 52,
+        "arab_parties": 14,
+        "unassigned": 4
+      },
+      "strictEligible": true,
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-15-hayom/source/kantar-reviewed-facts.txt",
+          "sha256": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e",
+          "quote": "Fieldwork 14-15 October 2026.",
+          "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+          "evidenceScope": "Explicit fieldwork dates independently paraphrased from user-supplied original Kantar report and crosschecked against the visible primary article. The quote field is a factual extract locator, not a direct publisher prose quotation; full authored article stays local."
+        }
+      ],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-15-hayom/source/reviewed-kantar-poll.json",
+          "publicName": "reviewed-kantar-poll.json",
+          "sha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-15-hayom/source/kantar-verification-summary-r1.json",
+          "publicName": "kantar-verification-summary-r1.json",
+          "sha256": "ed9aa70ee1597578fa6d070006be9405374acf6d7ffa3bc102077eaf73695378"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-15-hayom/source/kantar-user-provided-original-report.png",
+          "publicName": "kantar-user-provided-original-report.png",
+          "sha256": "569754c517b206fbb96d2460311e967bc47bb43d58029cc72fc36df12a81446e"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-15-hayom/source/kantar-reviewed-facts.txt",
+          "publicName": "kantar-reviewed-facts.txt",
+          "sha256": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-15-hayom/source/reviewed-kantar-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "3f9a9f026c383e91fbf50a11e776a4a8c0bf2e787cf43b9f70a3bab2300a5f86"
+        }
+      ]
+    }
+  ],
+  "sourceReview": {
+    "requiredIsraelPollsUrl": "https://x.com/IsraelPolls?s=20",
+    "primarySourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+    "originalPublisherRead": true,
+    "userProvidedKantarReportVisuallyCrosschecked": true,
+    "sameObservationRepostsNotCounted": true,
+    "compiledForecastsNotIngested": true,
+    "publicationVersusFieldwork": "Published15Oct; explicit actual fieldwork14–15Oct; same-day audit15Oct; prior Kan11Oct unverified fieldwork remains historical and excluded from strict tests.",
+    "channel14DefaultExclusionPreserved": true,
+    "reviewedExactPythonIntegerHelpersPreserved": true
+  }
+}
