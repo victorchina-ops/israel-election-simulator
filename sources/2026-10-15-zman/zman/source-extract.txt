@@ -1,0 +1,15 @@
+Reviewed published observation tatika_2026-10-15; publication 2026-10-15; audit 2026-10-15.
+Original source: https://www.zman.co.il/733625/.
+Published mandates: {"yashar": 26, "likud": 20, "beyachad": 11, "yisrael_beiteinu": 9, "joint": 8, "shas": 8, "democrats": 8, "utj": 8, "otzma": 7, "rz_zehut": 6, "raam": 5, "hendel": 4, "winter": 0, "gantz": 0}
+Exact published percentages: {"winter": 2.8, "gantz": 1.2}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 49, "opposition": 54, "arab_parties": 13, "unassigned": 4}
+Sample size exact/exclusive lower bound: 500/None
+Verified fieldwork: True; 2026-10-14 to 2026-10-15
+Missing values are not zero and are never inherited.
+סקר זמן ישראל/טאטיקה שפורסם15.10 ונאסף14–15.10 בקרב500 משיבים יהודים וערבים. מחליף רק בשקלול הפעיל את8.10 שנשמר בהיסטוריה.
+נתוני המנדטים120 ואחוזי עמך ישראל2.8 וכחול לבן1.2 אומתו בטבלה המקורית ובגרפיקות שסופקו. שאר האחוזים חסרים, ואינם אפס.
+טעות הדגימה המרבית4.4%; רמת ביטחון, מכנה אחוזי התמיכה, שיעור מתלבטים ושיטת קשר מדויקת לא פורסמו במקור שנבדק.
+גוש נתניהו49; גוש השינוי54; ערביות13; הנדל–זליכה4 בנפרד.58 בטבלת ההשוואה כולל הנדל;67 במפת המקור כולל את הערביות. נשמרת הגדרה אחידה בניתוח.
+למפלגות עוברות אין אחוז תמיכה מדויק בפרסום: אחוזי המודל ישוחזרו מהמנדטים ואינם מדידות אחוזים. אין להעתיק את הנדל3.2 או וינטר3.6 מהסקר הקודם.
+טבלת ההיסטוריה וגרפיקת המקור מתארות אותה תצפית15.10 ואינן סקרים נוספים.

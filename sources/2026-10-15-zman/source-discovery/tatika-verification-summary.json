@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "candidateFileName": "reviewed-tatika-poll.json",
+  "candidateSha256": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb",
+  "primarySourceUrl": "https://www.zman.co.il/733625/",
+  "primaryOriginalRead": true,
+  "seatsVerified": true,
+  "seatTotal": 120,
+  "seats": {
+    "yashar": 26,
+    "likud": 20,
+    "beyachad": 11,
+    "yisrael_beiteinu": 9,
+    "joint": 8,
+    "shas": 8,
+    "democrats": 8,
+    "utj": 8,
+    "otzma": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "gantz": 0
+  },
+  "reportedPercentages": {
+    "winter": 2.8,
+    "gantz": 1.2
+  },
+  "fieldworkVerified": true,
+  "fieldworkStart": "2026-10-14",
+  "fieldworkEnd": "2026-10-15",
+  "sampleSize": 500,
+  "reportedMarginOfErrorPct": 4.4,
+  "fieldworkEvidence": {
+    "quote": "הסקר התקיים ב-14 וב-15 באוקטובר 2026",
+    "fileName": "tatika-reviewed-facts.txt",
+    "sha256": "b525f01a0499f0dd16c7452fafdf45e0dce36e3de32e54b0faf5fa482f8d0fda",
+    "sourceUrl": "https://www.zman.co.il/733625/",
+    "locator": "Original article methodology paragraph; web-reader line120"
+  },
+  "publicationDateVerified": true,
+  "publicationTimeVerified": false,
+  "sourceBlocSeats": {
+    "coalition": 49,
+    "opposition": 54,
+    "arab_parties": 13,
+    "unassigned": 4
+  },
+  "safePublicFiles": [
+    {
+      "fileName": "reviewed-tatika-poll.json",
+      "sha256": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb",
+      "bytes": 6830
+    },
+    {
+      "fileName": "tatika-reviewed-facts.txt",
+      "sha256": "b525f01a0499f0dd16c7452fafdf45e0dce36e3de32e54b0faf5fa482f8d0fda",
+      "bytes": 1858
+    },
+    {
+      "fileName": "user-provided-primary-chart.png",
+      "sha256": "87caeb4724a92241041e96be8633b01203120c1d1cba9e9309013206898fd1fc",
+      "bytes": 116042
+    },
+    {
+      "fileName": "user-provided-tatika-history.png",
+      "sha256": "d92b3f454b48f6a3028342de2aac049a7812e0c60bf2171cedb41147cd2eb9d7",
+      "bytes": 59728
+    }
+  ],
+  "publicCopyrightScopeReviewed": true,
+  "fullArticleLocalOnly": true,
+  "originalReaderReceiptLocalSha256": "3ee9554742ce7534444fb0a26e7dfa7a5349502b32cd1aba79cd86c0c1f9c775",
+  "sourceGraphicVisuallyReviewed": true,
+  "userHistoryTableVisuallyReviewed": true,
+  "sourceSpecificMissingCellsNotOverwritten": true,
+  "deduplication": "Original article, publisher poll index and user-provided chart/history all represent one observation; same institute latest8Oct remains historical."
+}

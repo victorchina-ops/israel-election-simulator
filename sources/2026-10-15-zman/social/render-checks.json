@@ -1,0 +1,55 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "runId": "zman",
+  "generator": "built-in image_gen",
+  "output": "party-up-bloc-down-illustrated.png",
+  "outputSha256": "9c0d6512742b417aadca33fdc47b1f9ca78b268fe78abf08251406e528eed5be",
+  "width": 1122,
+  "height": 1402,
+  "prompt": "prompt.txt",
+  "promptSha256": "9c5a8873de1cda4482de64dd6b7249d202c29917986e55faa43ea647c2c09285",
+  "cleanupPrompt": "cleanup-prompt.txt",
+  "cleanupPromptSha256": "c006796f9ae99aaa66dc7dbf9b93f48e21ea7e01e82e64a9f10a635d24896f99",
+  "tweet": "tweet.he.txt",
+  "tweetSha256": "f26f3a356ff7066335b45cac2a053c7d5842dd149927f3b0ca8823fb7be697a7",
+  "candidateSha256": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb",
+  "earlierPollId": "tatika_2026-10-08",
+  "laterPollId": "tatika_2026-10-15",
+  "earlierPollDate": "2026-10-08",
+  "laterPollDate": "2026-10-15",
+  "sourceUrls": [
+    "https://www.zman.co.il/731622/",
+    "https://www.zman.co.il/733625/"
+  ],
+  "rawPublishedSeatComparison": {
+    "yashar": [
+      24,
+      26
+    ],
+    "fixedOppositionExcludingHendelAndArabs": [
+      55,
+      54
+    ]
+  },
+  "groupMembership": [
+    "yashar",
+    "beyachad",
+    "yisrael_beiteinu",
+    "democrats"
+  ],
+  "significanceClaimMade": false,
+  "weightedModelResult": false,
+  "notMeasuredVoterTransfers": true,
+  "modelComparisonSha256": "3a01ac9ff57b153804ca403458bd2f6a5fe9d907c7db66460cd8ece2b605eee2",
+  "visualInspectionCompleted": true,
+  "visualReview": [
+    "All figures26/24/+2 and54/55/−1 and8Octvs15Oct dates visually verified.",
+    "Party shown as part of larger bloc; footer defines four-party grouping and separates Hendel and Arab lists.",
+    "Source,14–15Oct fieldwork,n500,credit and caution that two polls are not proof of trend are legible.",
+    "Cleanup removed all invented step slogans; stone surfaces now blank. Data labels unchanged.",
+    "Painterly civic artwork with clear Hebrew, generous margins and no clipping."
+  ],
+  "initialDraftLocalOnly": "artifacts/poll-checks/2026-10-15-zman/social/initial-draft-local-only.png",
+  "postedAutomatically": false
+}

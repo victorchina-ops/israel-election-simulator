@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "phase": "applied-awaiting-independent-review",
+  "asOf": "2026-10-15",
+  "baselineAsOf": "2026-10-15",
+  "checkpointManifestSha256": "2db27e2031484a8878f607aef2aec37c738eef62f5805e6e75a6fca0fcdce30e",
+  "sourcePlanSha256": "f1fee1626d4307f053254924527820be5589f86ed8ff820ba39581fa91375bce",
+  "candidateHashes": {
+    "tatika": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb"
+  },
+  "expectedActiveCount": 8,
+  "expectedHistoryCount": 123,
+  "expectedStrictCandidates": 52,
+  "expectedStrictEligible": 46,
+  "expectedStrictWithoutChannel14": 37,
+  "expectedUnverifiedFieldwork": 6,
+  "inputHashes": {
+    "data/current-polls.json": "6b289c346c6989bed5d65e6e6233acd8b1b0777991c2603c3a40dbb6b4f69a41",
+    "data/poll-history.json": "fdff28925c2826b9d346318f754142028db117bf1e9ac11d3fa711232a754567",
+    "data/sources.json": "d7f434cde2e33b7ac93ef8785506e5ca8576bb1a079e0e545a14d9e4e7459459",
+    "data/survey-documents-2026-09-14.json": "fe86af5d317db25a71d85d42eb1bb2133f98afb0bd3113aa76c28f594148ff9f",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "70c719142f5ed8bf4fe477c5d69fba5617d03e0e2255a04bd7e80a76b63bdee2"
+  },
+  "activePollCount": 8,
+  "historyPollCount": 123,
+  "preflightSha256": "5054146d9e4c00fcd292259338ae7ac281159160edcc6659b56b203cc2e5f988",
+  "changedCanonicalFiles": {
+    "data/current-polls.json": "ae9c7c18aafcc359a8a940f3156b894663a0c20c7ec53bd0e9e3240f38b24226",
+    "data/poll-history.json": "1410f9e20c7b7c020e4381acd8db2cd6709c9b7293e93be423babf4223044d99",
+    "data/sources.json": "67ffbc47bbd6a4368bad5c66ccc2bf622f74025ee9774ddef5be8cb4452d2e0f",
+    "data/survey-documents-2026-09-14.json": "6162aac2af58df555562c57030095777621b55fee1c27160703dc8a1d0d8da8b",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "85798ff9b5f1d75088a7f93e1e98b6aaae2f8ae95a7428d6953a95226e489872"
+  },
+  "publicEvidenceFiles": {
+    "zman/frozen-reviewed-candidate.json": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb",
+    "zman/ingested-poll.json": "45f0e508589c54ba8c5f86e783fc94337c7c274bba21336bf99687fafe986894",
+    "zman/reviewed-poll.json": "45f0e508589c54ba8c5f86e783fc94337c7c274bba21336bf99687fafe986894",
+    "zman/reviewed-tatika-poll.json": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb",
+    "zman/source-extract.txt": "8615cd15005117ff7e1c19b8e1457038cb5b368b9ce4b1e44a05e1c73637e370",
+    "zman/tatika-reviewed-facts.txt": "b525f01a0499f0dd16c7452fafdf45e0dce36e3de32e54b0faf5fa482f8d0fda",
+    "zman/tatika-verification-summary.json": "486f90794c6d3f9f728c91316fd813818719f9e5a0e92fced342f06d7dc8185f",
+    "zman/user-provided-primary-chart.png": "87caeb4724a92241041e96be8633b01203120c1d1cba9e9309013206898fd1fc",
+    "zman/user-provided-tatika-history.png": "d92b3f454b48f6a3028342de2aac049a7812e0c60bf2171cedb41147cd2eb9d7"
+  },
+  "rawMissingnessAndCensoredBoundsRetained": true,
+  "historicalWeightsAndCatalogueUnchanged": true,
+  "conditionalAndArtisticOutputsUnchanged": true,
+  "noNumericalAnalysesOrDashboardBuilt": true
+}

@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "baselineAsOf": "2026-10-15",
+  "activePollCount": 8,
+  "historyPollCount": 123,
+  "newPollCount": 1,
+  "sourceChecks": {
+    "tatika": {
+      "candidateSha256": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb",
+      "sampleSize": 500,
+      "sourceBlocSeats": {
+        "coalition": 49,
+        "opposition": 54,
+        "arab_parties": 13,
+        "unassigned": 4
+      },
+      "publicationDate": "2026-10-15",
+      "fieldworkStart": "2026-10-14",
+      "fieldworkEnd": "2026-10-15",
+      "strictEligible": true
+    }
+  },
+  "fullStrict": {
+    "candidates": 52,
+    "polls": 46,
+    "series": 8,
+    "deltas": 38,
+    "unknownFieldworkExcluded": 6
+  },
+  "defaultWithoutChannel14": {
+    "polls": 37,
+    "series": 7,
+    "deltas": 30
+  },
+  "checkpointManifestSha256": "2db27e2031484a8878f607aef2aec37c738eef62f5805e6e75a6fca0fcdce30e",
+  "sourcePlanSha256": "f1fee1626d4307f053254924527820be5589f86ed8ff820ba39581fa91375bce",
+  "ingestionReceiptSha256": "921f914d770d3b525a4bef46a13be374b415ca6c50253205efca9fabeccc2297",
+  "auditHashes": {
+    "artifacts/strict-post-close/lazar-fieldwork.json": "76af9a3b20fbcc1ae4d04553059101aef823c1bd538e38fe174692854256c24d",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "8784466ea1755223d2be25d8852fe37fcafe299518992dfb092527fa22b3b917",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "cce47050498cb0342d1043f21984a0d308f34df4585c50afc62c20b09c06ed1b",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "85798ff9b5f1d75088a7f93e1e98b6aaae2f8ae95a7428d6953a95226e489872",
+    "artifacts/strict-post-close/new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  },
+  "authorFilesVerified": 117,
+  "protectedRuntimeFilesVerified": 234,
+  "frozenEvidenceFilesPreserved": 1831,
+  "conditionalAndArtisticFilesPreserved": 14,
+  "reviewedPythonIntegerHelpersPreserved": {
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "artifacts/audit-strict-full-series-2026-09-28.py": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+    "artifacts/strict-post-close/party-independent.py": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68"
+  },
+  "historicalWeightsUnchanged": true,
+  "previousRawHistoryPreserved": true,
+  "publicationAndAuditDatesSeparated": true,
+  "noNumericalOrDashboardMutation": true,
+  "validatorSha256": "3d01a50ca42f750954352f672c677c04b5f1d27410012ab807f2605dfaae768e"
+}

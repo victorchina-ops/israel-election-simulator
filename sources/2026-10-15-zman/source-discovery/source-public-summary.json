@@ -1,0 +1,141 @@
+{
+  "status": "reviewed-source-discovery",
+  "asOf": "2026-10-15",
+  "runId": "zman-later-update",
+  "reviewedAtUtc": "2026-10-15T16:30:22.469962+00:00",
+  "newVerifiedPollIds": [
+    "tatika_2026-10-15"
+  ],
+  "israelPolls": {
+    "requiredUrl": "https://x.com/IsraelPolls?s=20",
+    "readerAccess": "403 through web-reader; public original profile successfully fetched directly withHTTP200",
+    "profileLocalSha256": "77e7b98ba5588a52153c83f8198c873a19468162983eb1eb087283541bd8f55a",
+    "postUrl": "https://x.com/IsraelPolls/status/2110757120996217237",
+    "historyPostUrl": "https://x.com/IsraelPolls/status/2110757957440852478",
+    "profileCoverage": "Latest five publicly rendered profile posts only, not full account history. Latest15OctTatika, next14OctC13 and13Oct comparisons/previous polls.",
+    "repostClockDisplayed": "3:38 PM Oct15; timezone not verified, never used as original poll publication time.",
+    "graphicsVisuallyReviewed": [
+      "israelpolls-tatika-chart.webp",
+      "israelpolls-tatika-blocs.webp",
+      "israelpolls-tatika-history.webp"
+    ],
+    "historyLatestColumnDate": "2026-10-15",
+    "historyMatchesOriginalPositiveSeatVector": true,
+    "historyBlocDefinition": "49coalition/58others including Hendel4/13Arabs; common model partition49/54/13/H4.",
+    "historyExactPctCells": {
+      "winter": 2.8,
+      "gantz": 1.2
+    },
+    "missingCellsKeptMissing": true
+  },
+  "directPrimaryChecks": [
+    {
+      "publisher": "Zman Israel",
+      "urls": [
+        "https://www.zman.co.il/",
+        "https://www.zman.co.il/feed/33350/",
+        "https://www.zman.co.il/733625/"
+      ],
+      "status": "Original homepage, poll index and latest article fully readable through web-reader after homepage click.",
+      "finding": "One new Tatika poll published15Oct; actual fieldwork14–15Oct,n500,maximum sampling error4.4. Direct article reader URL initially returned InternalError; original was successfully read by following its current original homepage link."
+    },
+    {
+      "publisher": "N12",
+      "urls": [
+        "https://www.n12.co.il/",
+        "https://www.mako.co.il/news-politics",
+        "https://www.mako.co.il/news-israel-elections/2026"
+      ],
+      "status": "Current original homepage/politics/elections read via web-reader.",
+      "finding": "Inspected current election index latest distinct national mandate poll remains12Oct already included. A15Oct story about an unidentified poll against Raam is an auxiliary-question lead, not an independently verified national party-seat survey; no additional observation ingested."
+    },
+    {
+      "publisher": "Channel13",
+      "urls": [
+        "https://13tv.co.il/",
+        "https://13tv.co.il/news/politics/",
+        "https://13tv.co.il/news/politics/politics/"
+      ],
+      "status": "Current original homepage and political indexes read via web-reader.",
+      "finding": "Latest distinct mandate report in inspected index is14Oct20:25, already included. Other auxiliary questions and references to the same poll are not duplicate observations."
+    },
+    {
+      "publisher": "Channel14",
+      "urls": [
+        "https://www.c14.co.il/",
+        "https://www.c14.co.il/archive/65839",
+        "https://www.c14.co.il/archive/112541",
+        "https://www.c14.co.il/article/1739046"
+      ],
+      "status": "Current original homepage/politics/elections and latest original mandate report read via web-reader.",
+      "finding": "Latest verified original is14Oct20:24, coalition62/opposition44/Arab14,n568,field14Oct. No newer distinct national mandate poll visible in inspected indexes. Known coalition61 report is12Oct and remains historical. Targeted15Oct61 search yielded no result, which alone is not proof of nonpublication."
+    },
+    {
+      "publisher": "Kan",
+      "urls": [
+        "https://www.kan.org.il/",
+        "https://www.kan.org.il/content/kan-news/politic/"
+      ],
+      "status": "Access limited: both original URLs return zero readable lines in web-reader.",
+      "finding": "Cannot claim complete current source inspection or absence of new polls."
+    },
+    {
+      "publisher": "i24NEWS",
+      "urls": [
+        "https://www.i24news.tv/he",
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls"
+      ],
+      "status": "Current original homepage and elections/polls index readable via web-reader.",
+      "finding": "Latest mandate tab13Oct already included; no later mandate tab in inspected index. Opinion-only poll stories not added as another mandate observation."
+    },
+    {
+      "publisher": "Channel16",
+      "urls": [
+        "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+        "https://www.ch16.co.il/search/סקר"
+      ],
+      "status": "Access limited: both original requested URLs returned InternalError through web-reader.",
+      "finding": "Cannot claim complete current source inspection or absence of new polls."
+    },
+    {
+      "publisher": "Walla",
+      "urls": [
+        "https://www.walla.co.il/",
+        "https://www.walla.co.il/news/politics",
+        "https://elections.walla.co.il/"
+      ],
+      "status": "Current original homepage/politics/elections index readable via web-reader.",
+      "finding": "Latest inspected mandate news repeats14OctChannel13 already included, not an independent Lazar poll. Compiled average widget not ingested."
+    },
+    {
+      "publisher": "Maariv",
+      "urls": [
+        "https://www.maariv.co.il/",
+        "https://www.maariv.co.il/news/politics",
+        "https://www.maariv.co.il/news/elections-2026"
+      ],
+      "status": "Access limited: direct requested original pages returned InternalError through web-reader in this later check.",
+      "finding": "Earlier15Oct morning access evidence remains preserved separately; this check cannot claim current complete inspection or absence of new polls."
+    },
+    {
+      "publisher": "Israel Hayom",
+      "urls": [
+        "https://www.israelhayom.co.il/",
+        "https://www.israelhayom.co.il/news/politics",
+        "https://www.israelhayom.co.il/news/politics/election2026"
+      ],
+      "status": "Current original homepage/politics/elections index readable via web-reader.",
+      "finding": "No new distinct mandate survey found in inspected current indexes; compiled poll-average widget is not an independent observation."
+    }
+  ],
+  "publicCopyrightScopeReviewed": true,
+  "fullArticleBodiesAndCompleteReaderReceiptsLocalOnly": true,
+  "compiledForecastsIngested": false,
+  "historicalTablesCountedAsIndependentPolls": false,
+  "c14Followup": {
+    "newestVerifiedId": "next_data_2026-10-14",
+    "newestVerifiedCoalition": 62,
+    "known61Id": "next_data_2026-10-12",
+    "no15Oct61OriginalVerified": true
+  }
+}

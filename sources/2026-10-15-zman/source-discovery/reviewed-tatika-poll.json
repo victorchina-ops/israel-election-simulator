@@ -1,0 +1,178 @@
+{
+  "id": "tatika_2026-10-15",
+  "pollsterId": "tatika",
+  "pollster": "יוסי טאטיקה",
+  "publisher": "זמן ישראל",
+  "date": "2026-10-15",
+  "publicationTime": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "checkedAt": "2026-10-15",
+  "dateKind": "תאריך הפרסום15.10.2026; עבודת השדה14–15.10 אומתה בנפרד במקור; שעת פרסום מדויקת לא אומתה.",
+  "fieldworkStart": "2026-10-14",
+  "fieldworkEnd": "2026-10-15",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "fieldworkSourceUrl": "https://www.zman.co.il/733625/",
+  "sampleSize": 500,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://www.zman.co.il/733625/",
+  "population": "משיבים יהודים וערבים בישראל; גילי הזכאות לא פורטו בפרסום שנבדק.",
+  "samplingMethod": "פאנל Adgenda; פילוח לפי גיל, דת, מגדר ואזור מגורים; אמצעי האיסוף לא פורט.",
+  "panelProvider": "Adgenda — רועי שינדלר",
+  "panelProviderSourceUrl": "https://www.zman.co.il/733625/",
+  "panelProviderEvidenceKind": "explicitly-named-in-primary-article",
+  "reportedMarginOfErrorPct": 4.4,
+  "reportedMarginOfErrorDescription": "טעות הדגימה המרבית",
+  "reportedMarginOfErrorConfidencePct": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "percentageDenominator": null,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "statusLabel": "סקר חדש — המנדטים ותאריכי האיסוף אומתו במקור המקורי",
+  "seats": {
+    "yashar": 26,
+    "likud": 20,
+    "beyachad": 11,
+    "yisrael_beiteinu": 9,
+    "joint": 8,
+    "shas": 8,
+    "democrats": 8,
+    "utj": 8,
+    "otzma": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "gantz": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 2.8,
+    "gantz": 1.2
+  },
+  "reportedPercentages": {
+    "winter": 2.8,
+    "gantz": 1.2
+  },
+  "knownPercentageSum": 4.0,
+  "originalCoveragePct": 4.0,
+  "percentageSourceUrls": {
+    "winter": "https://www.zman.co.il/733625/",
+    "gantz": "https://www.zman.co.il/733625/"
+  },
+  "publishedBounds": {},
+  "unmodelledNamedParties": [],
+  "modelOnlyPercentageIds": [],
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "hendel",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "sourceUrl": "https://www.zman.co.il/733625/",
+  "secondarySourceUrls": [
+    "https://www.zman.co.il/",
+    "https://www.zman.co.il/feed/33350/",
+    "https://x.com/IsraelPolls?s=20"
+  ],
+  "replacesPollId": "tatika_2026-10-08",
+  "sourceBlocSeats": {
+    "coalition": 49,
+    "opposition": 54,
+    "arab_parties": 13,
+    "unassigned": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "מפלגות גוש נתניהו כולל עמך ישראל0",
+    "opposition": "גוש השינוי ללא המפלגות הערביות וללא הנדל–זליכה",
+    "arab_parties": "הרשימה המשותפת8 ורע״ם5",
+    "unassigned": "המילואימניקים והכלכלית — הנדל–זליכה4"
+  },
+  "sourceBlocBreakdown": {
+    "coalitionCore": 49,
+    "winter": 0,
+    "change": 54,
+    "hendel": 4,
+    "raam": 5,
+    "joint": 8
+  },
+  "broadcastGraphicBlocSeats": {
+    "coalition": 49,
+    "opposition_and_arabs": 67,
+    "hendel": 4
+  },
+  "publishedPreviousBlocSeats": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab_parties": 14,
+    "unassigned": 0
+  },
+  "publishedPreviousPollDate": "2026-10-08",
+  "sourceDocument": {
+    "fileName": "user-provided-primary-chart.png",
+    "kind": "user-provided-original-publisher-numerical-chart-crosschecked-against-primary",
+    "sha256": "87caeb4724a92241041e96be8633b01203120c1d1cba9e9309013206898fd1fc",
+    "extractFileName": "tatika-reviewed-facts.txt",
+    "extractSha256": "b525f01a0499f0dd16c7452fafdf45e0dce36e3de32e54b0faf5fa482f8d0fda",
+    "reviewedAt": "2026-10-15",
+    "providedBy": "user",
+    "primarySourceUrl": "https://www.zman.co.il/733625/",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 7,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "publicationTime",
+      "samplingContactMode",
+      "initialSampleSize",
+      "invitedSampleSize",
+      "reportedMarginOfErrorConfidencePct",
+      "undecidedPct",
+      "percentageDenominator",
+      "full-passing-party-percentages",
+      "fieldworkStartTime",
+      "fieldworkEndTime"
+    ],
+    "localOriginalProvenance": {
+      "readerReceiptFileName": "original-web-reader-receipt-local-only.json",
+      "readerReceiptSha256": "3ee9554742ce7534444fb0a26e7dfa7a5349502b32cd1aba79cd86c0c1f9c775",
+      "localOnly": true,
+      "accessMethod": "Original article and poll index fully read through web-reader after direct original homepage click; direct URL reader initially inaccessible."
+    }
+  },
+  "notes": [
+    "סקר זמן ישראל/טאטיקה שפורסם15.10 ונאסף14–15.10 בקרב500 משיבים יהודים וערבים. מחליף רק בשקלול הפעיל את8.10 שנשמר בהיסטוריה.",
+    "נתוני המנדטים120 ואחוזי עמך ישראל2.8 וכחול לבן1.2 אומתו בטבלה המקורית ובגרפיקות שסופקו. שאר האחוזים חסרים, ואינם אפס.",
+    "טעות הדגימה המרבית4.4%; רמת ביטחון, מכנה אחוזי התמיכה, שיעור מתלבטים ושיטת קשר מדויקת לא פורסמו במקור שנבדק.",
+    "גוש נתניהו49; גוש השינוי54; ערביות13; הנדל–זליכה4 בנפרד.58 בטבלת ההשוואה כולל הנדל;67 במפת המקור כולל את הערביות. נשמרת הגדרה אחידה בניתוח.",
+    "למפלגות עוברות אין אחוז תמיכה מדויק בפרסום: אחוזי המודל ישוחזרו מהמנדטים ואינם מדידות אחוזים. אין להעתיק את הנדל3.2 או וינטר3.6 מהסקר הקודם.",
+    "טבלת ההיסטוריה וגרפיקת המקור מתארות אותה תצפית15.10 ואינן סקרים נוספים."
+  ]
+}

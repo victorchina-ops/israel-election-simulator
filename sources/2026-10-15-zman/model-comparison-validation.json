@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "activeSelectedInstitutes": 7,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "changedPollsters": [
+    "tatika"
+  ],
+  "newObservationIds": [
+    "tatika_2026-10-15"
+  ],
+  "publicationDates": [
+    "2026-10-15"
+  ],
+  "activePolls": 8,
+  "historyPolls": 123,
+  "comparisonSha256": "3a01ac9ff57b153804ca403458bd2f6a5fe9d907c7db66460cd8ece2b605eee2",
+  "snapshotSha256": "e799d2aeb628312863bd4d59318ef1c86fcccd0e4e4f1e374c3322315a8f6bc7",
+  "baselineSha256": "0a63dfabfe9309c4be7693632f0623f38bb1c69a15443152efb64baa2ffe1227",
+  "sourcePlanSha256": "f1fee1626d4307f053254924527820be5589f86ed8ff820ba39581fa91375bce",
+  "validationScope": "Explicit flags and actual selected weights are bound to the website defaults; both snapshots replayed with the unchanged current model. This is not a significance test."
+}

@@ -1,0 +1,55 @@
+{
+  "asOf": "2026-10-15",
+  "runId": "zman",
+  "status": "reviewed",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "primaryPoll": {
+    "url": "https://www.zman.co.il/733625/",
+    "publicationDate": "2026-10-15",
+    "fieldworkStart": "2026-10-14",
+    "fieldworkEnd": "2026-10-15",
+    "sampleSize": 500,
+    "marginOfErrorPct": 4.4,
+    "confidencePct": null,
+    "primaryOriginalReadable": true,
+    "method": "Named Adgenda panel; age/religion/gender/region stratification. Contact mode not specified.",
+    "earlierPollDate": "2026-10-08",
+    "fixedBlocSeats": {
+      "coalition": 49,
+      "opposition": 54,
+      "arab": 13,
+      "hendel": 4
+    },
+    "earlierFixedBlocSeats": {
+      "coalition": 51,
+      "opposition": 55,
+      "arab": 14,
+      "hendel": 0
+    },
+    "yasharComparison": [
+      24,
+      26
+    ]
+  },
+  "channel14Question": {
+    "existingPollWith61": {
+      "id": "next_data_2026-10-12",
+      "sourceUrl": "https://www.c14.co.il/article/1735305",
+      "coalition": 61
+    },
+    "latestVerified": {
+      "id": "next_data_2026-10-14",
+      "sourceUrl": "https://www.c14.co.il/article/1739046",
+      "coalition": 62
+    },
+    "newer61PollVerified": false,
+    "clarification": "Source12Oct opposition46 includes Hendel4; fixed opposition42/Hendel4. Both old observations retained; no duplicate added."
+  },
+  "mandatorySourceCheck": "See source-discovery/source-public-summary.json and source-discovery/source-public-freeze-receipt.json in the public release: IsraelPolls current post+graphics+history and primary home/index attempts recorded.",
+  "accessLimitations": [
+    "Direct Zman reader initially failed; original reached through primary homepage/search result and fully read.",
+    "Kan returned no usable reader text; Channel16 and Maariv reader errors; no claim of complete successful checks there."
+  ],
+  "deduplication": "New Tatika observation only; publisher table, user charts and IsraelPolls repost are the same poll.",
+  "missingness": "Only exact Winter2.8% and Gantz1.2% published; other exact party percentages missing. Hendel3.2% and Winter3.6% from8Oct not copied."
+}

@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "runId": "zman-later-update",
+  "publicScope": "Concise independently written factual source summaries, original numerical poll graphics, user-provided numerical history tables and evidence hashes only. Full authored articles, reader receipts and raw profile HTML excluded.",
+  "safePublicFiles": [
+    {
+      "fileName": "source-public-summary.json",
+      "sha256": "bd0639af252f36b1ad0151a913ec7c0a4f5d8e1f28a93fbbbbffc9695d7728ce",
+      "bytes": 6749
+    },
+    {
+      "fileName": "reviewed-tatika-poll.json",
+      "sha256": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb",
+      "bytes": 6830
+    },
+    {
+      "fileName": "tatika-verification-summary.json",
+      "sha256": "486f90794c6d3f9f728c91316fd813818719f9e5a0e92fced342f06d7dc8185f",
+      "bytes": 2531
+    },
+    {
+      "fileName": "tatika-reviewed-facts.txt",
+      "sha256": "b525f01a0499f0dd16c7452fafdf45e0dce36e3de32e54b0faf5fa482f8d0fda",
+      "bytes": 1858
+    },
+    {
+      "fileName": "user-provided-primary-chart.png",
+      "sha256": "87caeb4724a92241041e96be8633b01203120c1d1cba9e9309013206898fd1fc",
+      "bytes": 116042
+    },
+    {
+      "fileName": "user-provided-tatika-history.png",
+      "sha256": "d92b3f454b48f6a3028342de2aac049a7812e0c60bf2171cedb41147cd2eb9d7",
+      "bytes": 59728
+    },
+    {
+      "fileName": "israelpolls-tatika-chart.webp",
+      "sha256": "66ede8ccc24dbc27a1639ac14fc1e1790578a44778509329ff016aa20efd9325",
+      "bytes": 15642
+    },
+    {
+      "fileName": "israelpolls-tatika-blocs.webp",
+      "sha256": "2c1be4c79a4473c4d04019aae37ffe394e229a9f31a6decedf86f7c53016a4fb",
+      "bytes": 9788
+    },
+    {
+      "fileName": "israelpolls-tatika-history.webp",
+      "sha256": "58403b3fb404a317708340ceb5ff3ba17d6cf3c45c313ff1cf915a3c9646aaad",
+      "bytes": 82910
+    }
+  ],
+  "localProvenanceSha256": {
+    "original-web-reader-receipt-local-only.json": "3ee9554742ce7534444fb0a26e7dfa7a5349502b32cd1aba79cd86c0c1f9c775",
+    "current-primary-reader-receipts-local-only.json": "ab0b5076453f0fb1717073f2b609e93352f0b7644019234da66b612f0e995bdc",
+    "israelpolls-current-access-local-only.json": "34b2b3cb60a81269f0d03246b759ab809e25d894d0f29f2d9f3b482073bf807e",
+    "israelpolls-tatika-media-receipt-local-only.json": "7e34a50f48d92dc8feaba9d5240159546240d1c299e4794440f9b203b71aa3bc",
+    "israelpolls-history-media-receipt-local-only.json": "f771bfcf93b0765d904e370aa528c4bb7113bc147deeb456b24e4d6941c546e1"
+  }
+}

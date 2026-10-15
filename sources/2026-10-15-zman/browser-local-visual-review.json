@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "asOf": "2026-10-15",
+  "runId": "zman",
+  "browserReportSha256": "0605e71d399dca792710045338721412e4f88c23b878cb6126e42cf7819b7b8a",
+  "reviewedScreenshots": {
+    "1440-about-dark.png": "350f8ef2aa1f3bf8eaf4830dc460e85cb1edc321906dac0bffbf3c71b5f130e0",
+    "1440-about-light.png": "5760d57b6b092e4c4b25c782a3207940fee8d6ca81ccda806d0422a9a2d8db69",
+    "1440-default-threshold-overview.png": "7604c1c12db7e498d663c0839d1f7a43f41bca02d209bba7162585e6e7629edb",
+    "1440-poll-data.png": "b80b4094ef3143865a9c35eeaca55484c9c4e62f568d49142ce0c00aa088b534",
+    "1440-trends.png": "8152b2fd165c84b9f3855afdb83518e68d64ff1761a490593225071730af066e",
+    "320-default-threshold-overview.png": "cfcbabde033c95f201854afc063eb0c0176d878d9006c15a7bfd534c932cf1c9",
+    "390-default-threshold-overview.png": "00481791f00242c50d62d5b07aef92ba38fcf5dc3a3ef2de6cc99a0f7c354e45",
+    "390-poll-data.png": "5749d779f7e00cef864ef6106e202d1b00915acaaec370341b96ff10b8312ef5",
+    "390-trends.png": "34c5e3b19038cf3feef4c4e787043d14b0721ea2e1c184373c25813368b17941",
+    "390-triple-all-fail.png": "6b50bb92e36895f46da9aa8b8b931371af291b7d294a56eef92488c61a435208"
+  },
+  "visualInspectionCompleted": true,
+  "reviewedAt": "2026-10-15",
+  "reviewNotes": [
+    "Inspected all10 original screenshots directly: desktop About light/dark retains authorphoto/contact and seven tabs; no Ask ChatGPT.",
+    "Desktop poll register visibly shows new Zman15Oct publication,14–15Oct fieldwork,n500; all prior entries and unknown fieldwork labels retained.",
+    "Fresh default strict37poll/7series/30delta summary shows explicit primaryBH significance for Joint,Winter andRZ with separate sensitivity caveat.",
+    "Threshold charts at1440/390/320 show48.66% Hendel and24.02% Winter with logos andmeans aligned; percentages remain within plot and no document clipping.",
+    "Mobile poll register uses its existing inner horizontal scroller while document width remains390; no layout regression.",
+    "Triple selected-all-fail card explicitly states all3 parties: Raam,Winter,Hendel;0.72%=72of10000,matching audited histogram andCSV.",
+    "No clipping or collisions in inspected supported widths; retained artwork and all frozen files unchanged."
+  ],
+  "functionalChecks": 10,
+  "geometryChecks": 23,
+  "thresholdAlignmentChecks": 80
+}

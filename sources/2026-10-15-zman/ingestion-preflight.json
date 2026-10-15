@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "phase": "preflight",
+  "asOf": "2026-10-15",
+  "baselineAsOf": "2026-10-15",
+  "checkpointManifestSha256": "2db27e2031484a8878f607aef2aec37c738eef62f5805e6e75a6fca0fcdce30e",
+  "sourcePlanSha256": "f1fee1626d4307f053254924527820be5589f86ed8ff820ba39581fa91375bce",
+  "candidateHashes": {
+    "tatika": "349d53cdb503ae4f20541d0f1267ab2f5994c9f7cf77e78d7d4bed31b0f5a3cb"
+  },
+  "expectedActiveCount": 8,
+  "expectedHistoryCount": 123,
+  "expectedStrictCandidates": 52,
+  "expectedStrictEligible": 46,
+  "expectedStrictWithoutChannel14": 37,
+  "expectedUnverifiedFieldwork": 6,
+  "inputHashes": {
+    "data/current-polls.json": "6b289c346c6989bed5d65e6e6233acd8b1b0777991c2603c3a40dbb6b4f69a41",
+    "data/poll-history.json": "fdff28925c2826b9d346318f754142028db117bf1e9ac11d3fa711232a754567",
+    "data/sources.json": "d7f434cde2e33b7ac93ef8785506e5ca8576bb1a079e0e545a14d9e4e7459459",
+    "data/survey-documents-2026-09-14.json": "fe86af5d317db25a71d85d42eb1bb2133f98afb0bd3113aa76c28f594148ff9f",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "70c719142f5ed8bf4fe477c5d69fba5617d03e0e2255a04bd7e80a76b63bdee2"
+  }
+}

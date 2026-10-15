@@ -1,0 +1,23 @@
+Use case: illustration-story
+Create an original, beautiful Hebrew editorial election-data illustration, portrait PNG about1200x1500. Tactile gouache and paper collage, warm cream, midnight blue, restrained purple and gold, softly painted Knesset at dusk. Two friendly equally dignified anthropomorphic ballot-paper characters presenting large, beautifully legible paper placards: one represents the individual party Yashar and rises slightly on two paper steps; the other represents the combined four-party change bloc, on a broad calm platform one step lower. Neutral data journalism, charming but mature magazine cover, not a campaign ad. Spacious composition with a few visual objects, no dry dashboard, grid or complicated graph. No invented real-world logos, real faces or unverified flags.
+
+Accurate Hebrew, right-to-left, all numbers EXACT:
+Top kicker: "סקר זמן ישראל | טאטיקה"
+Large headline: "ישר עולה. הגוש דווקא יורד."
+Short comparison line: "8.10 מול 15.10.2026"
+Party placard, largest number "26", label "ישר!", clear small text "קודם: 24", badge "+2".
+Bloc placard, equally large number "54", label "גוש השינוי", clear small text "קודם: 55", badge "−1".
+The two large cards must not imply these are separate groups whose seats should be added; the smaller party is part of the combined bloc. A subtle nested-paper visual can reinforce party within bloc, but keep it simple.
+
+Readable cream explanatory note at bottom:
+"גוש השינוי: ישר, ביחד, ישראל ביתנו והדמוקרטים"
+"הנדל–זליכה והמפלגות הערביות נספרים בנפרד"
+"נתוני שני סקרים — לא הוכחה למגמה"
+
+Small source footer, still legible:
+"מקור: זמן ישראל | פרסום: 15.10.2026"
+"איסוף: 14–15.10 | 500 משיבים"
+Small credit: "ויקטור רינה בן דוד"
+Neat small URL: "victorchina-ops.github.io/israel-election-simulator"
+
+Constraints: numbers26/24/+2 and54/55/−1 must be correct and readable. This shows published seat projections in two polls, NOT weighted model results, measured voter movement, statistical significance or an election forecast. No additional data, unrequested slogans, party logos, invented tiny lettering or pseudo-scientific graphics. No implication of causal movement. Lots of air, generous margins, painterly expressive imagery and exceptionally readable Hebrew.
