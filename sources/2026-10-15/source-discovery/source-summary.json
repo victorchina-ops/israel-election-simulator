@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-15",
+  "checkedAtUtc": "2026-10-15T08:47:08.733361+00:00",
+  "status": "reviewed-source-discovery",
+  "scope": "Latest five publicly rendered IsraelPolls profile posts; new Channel13 original broadcast graphic plus same-account historical-table reply; direct primary print home/politics/election indexes; supplemental To120 source discovery only.",
+  "newObservations": [
+    {
+      "pollId": "hamadad_consortium_2026-10-14",
+      "publisher": "חדשות13",
+      "sourceTier": "republished-original-broadcast-graphic-and-secondary-historical-table",
+      "publicationDate": "2026-10-14",
+      "postUrl": "https://x.com/IsraelPolls/status/2110423694698766721",
+      "postTimeUtc": "2026-10-14T17:33:00Z",
+      "historyUrl": "https://x.com/IsraelPolls/status/2110428705864704439",
+      "graphic": "c13-graphic.webp",
+      "historyGraphic": "c13-history.webp",
+      "visuallyReviewed": true,
+      "seats": {
+        "yashar": 20,
+        "likud": 18,
+        "beyachad": 12,
+        "democrats": 9,
+        "yisrael_beiteinu": 9,
+        "joint": 9,
+        "otzma": 8,
+        "utj": 8,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 6,
+        "winter": 4,
+        "hendel": 4
+      },
+      "seatTotal": 120,
+      "historicalTableExactPublishedPercentages": {
+        "haredi_public": 1.1
+      },
+      "historicalTableMissingPercentages": [
+        "gantz",
+        "winter",
+        "hendel"
+      ],
+      "sourceGraphicBlocSeats": {
+        "coalition": 51,
+        "all_others": 69
+      },
+      "sourceHistoricalBlocSeats": {
+        "coalition": 51,
+        "others": 54,
+        "arab_parties": 15
+      },
+      "fixedBlocAudit": {
+        "coalitionIncludingWinter": 51,
+        "oppositionExcludingHendelAndArabs": 50,
+        "unassignedHendel": 4,
+        "arab_parties": 15
+      },
+      "limitations": [
+        "The primary broadcaster / institute is separately verified by TV source owner. Original primary Gantz1.2% may augment the missing table cell; the historical table itself does not report that cell.",
+        "Publication date is not inferred as fieldwork date.",
+        "Historical table is a comparison summary and is not another poll."
+      ]
+    },
+    {
+      "pollId": "next_data_2026-10-14",
+      "publisher": "חדשות14",
+      "sourceTier": "original-publisher",
+      "primaryCandidatePath": "../tv-primary/reviewed-c14-poll.json",
+      "primaryCandidateSha256": "dd403c254ef593c4dccec02abeac8505147a95f62d3f692cc16a7b871229a825",
+      "verificationSummaryPath": "../tv-primary/c14-verification-summary.json",
+      "primarySourceUrl": "https://www.c14.co.il/article/1739046",
+      "publicationDate": "2026-10-14",
+      "fieldworkDate": "2026-10-14",
+      "sampleSize": 568,
+      "seatTotal": 120,
+      "sourceBlocSeats": {
+        "coalition": 62,
+        "opposition": 44,
+        "arab_parties": 14
+      },
+      "israelPollsProfileCoverage": "No new14OctC14 post among the five publicly rendered profile posts. This poll was discovered directly in the original publisher politics index; no claim of complete X media coverage."
+    }
+  ],
+  "deduplication": [
+    {
+      "url": "https://www.walla.co.il/news/politics/383957465",
+      "reason": "14Oct article repeats the same Channel13 poll, not a new Lazar poll."
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2110079371033604333",
+      "reason": "13Oct weekly comparison of existing observations, not a new poll."
+    },
+    {
+      "url": "https://www.zman.co.il/live/732889/",
+      "reason": "13Oct livebrief explicitly repeats the existing Walla13Oct poll with identical mandate vector and Winter2.8%."
+    },
+    {
+      "url": "https://www.c14.co.il/article/1739089",
+      "reason": "Same568/14Oct poll, withdrawal opinion question; not another mandate observation."
+    }
+  ],
+  "directPrimaryChecks": [
+    {
+      "publisher": "Walla",
+      "urls": [
+        "https://www.walla.co.il/",
+        "https://www.walla.co.il/news/politics",
+        "https://elections.walla.co.il/"
+      ],
+      "status": "HTTP200 readable and frozen",
+      "finding": "Newest mandate item is14Oct Channel13 repeat; last distinct Walla/Lazar13Oct already included."
+    },
+    {
+      "publisher": "Maariv",
+      "urls": [
+        "https://www.maariv.co.il/",
+        "https://www.maariv.co.il/news/politics",
+        "https://www.maariv.co.il/news/elections-2026"
+      ],
+      "status": "HTTP200 readable and frozen; web-reader home failed but direct original HTTP succeeded",
+      "finding": "No new distinct mandate poll in the inspected current home/politics/election pages. Compiled television poll-average widget is not ingested."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "urls": [
+        "https://www.israelhayom.co.il/",
+        "https://www.israelhayom.co.il/news/politics",
+        "https://www.israelhayom.co.il/news/politics/election2026"
+      ],
+      "status": "HTTP200 readable and frozen; web reader also accessible",
+      "finding": "No newly published distinct mandate poll visible in inspected home/politics/election pages; compiled poll widget is not a new observation."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "urls": [
+        "https://www.zman.co.il/",
+        "https://www.zman.co.il/feed/609/",
+        "https://www.zman.co.il/feed/33350/",
+        "https://www.zman.co.il/731622/"
+      ],
+      "status": "DirectHTTP403; web-reader returned readable original pages (saved sourceWeb1/3/4)",
+      "finding": "Poll feed latest survey8Oct, existingtatika_2026-10-08. Original confirmsfield7–8Oct,n500,MOE4.4%, matching existing metadata. Politics feed web cache two days old; latest-home15Oct and poll-index/8Octoriginal reread."
+    }
+  ],
+  "supplementaryDiscovery": {
+    "urls": [
+      "https://twonetwenty.com/data",
+      "https://twonetwenty.com/he/evidence"
+    ],
+    "access": "DirectHTTP200 and frozen; web-reader evidence stale8Oct, so current direct page used for discovery",
+    "latestUpdateClaim": "14Oct; same Walla13Oct observation enriched by owner-suppliedCEC4207PDF",
+    "originalUrls": [
+      "https://www.walla.co.il/news/politics/383957251",
+      "https://www.zman.co.il/live/732889/"
+    ],
+    "officialPdfUrl": null,
+    "originalPdfIndependentlyRead": false,
+    "compiledForecastIngested": false,
+    "compiledPercentagesIngested": false,
+    "compiledRecordsPrivateEvidence": "private-discovery/to120-poll-observations.json",
+    "compiledRecordsSha256": "67f48205f316f5177053e4a8df4f63854d6e112d185a121d91df6998210b8015",
+    "finding": "Same13OctWalla/n601/field12Oct. Fuller percentages claimed in compiled records are not used because the original official PDF is not linked or independently verified. Original Walla and Zman repeat contain only already retained mandate vector and selected below-threshold shares.",
+    "termsObserved": "Commercial use of To120 inputs or outputs requires ArielDanieli explicit prior consent; no compiled dataset included in public allowlist."
+  },
+  "limitations": [
+    "Public profile rendered latest five posts; this is not a complete historical X archive. NewC13 graphic/history checked visually.",
+    "X web-reader returned403 while hidden browser and directHTTP worked.",
+    "Zman directHTTP403; original pages read through web-reader. Do not describe directHTTP as successful.",
+    "No new distinct poll in inspected print pages does not prove none can have been published elsewhere or later.",
+    "CurrentTo120 compiled metadata cannot substitute for independently verified official source PDFs."
+  ]
+}

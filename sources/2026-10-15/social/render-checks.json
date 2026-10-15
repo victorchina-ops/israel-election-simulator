@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "generator": "built-in image_gen",
+  "output": "turnout-intention-illustrated.png",
+  "outputSha256": "6dccf9df64b7f875228d68a789902cfeeec8d717f5233d7ce7aef4a501e731ec",
+  "width": 1122,
+  "height": 1402,
+  "prompt": "prompt.txt",
+  "promptSha256": "4b02ccf98c92845c7853c8816361390ee8d5e86f200a5168159802c90b96b481",
+  "cleanupPrompt": null,
+  "tweet": "tweet.he.txt",
+  "tweetSha256": "2891a60347c4c8051d1769df51c428fdf2a29269299111668a46eeba7c48e935",
+  "sourceAuxiliaryFactsPath": "artifacts/poll-checks/2026-10-15/tv-primary/c13-auxiliary-facts.json",
+  "sourceAuxiliaryFactsSha256": "aad368223799e61579c246031b7587c734535efda41648b043b5cc48fc93aa9b",
+  "candidateSha256": "964f111c35d0adc5144de890c499c4165d8c6a0e72c3cf20976e3f762fbf5330",
+  "sourceUrl": "https://themadad.com/סקר-המדד-14-באוקטובר-2026/",
+  "publicationDate": "2026-10-14",
+  "fieldworkDate": "2026-10-13",
+  "finding": {
+    "oppositionDefiniteVotePct": 84,
+    "coalitionDefiniteVotePct": 76,
+    "descriptiveGapPercentagePoints": 8
+  },
+  "sampleSizeWholeSurvey": 1018,
+  "subgroupSampleSizes": null,
+  "significanceTested": false,
+  "actualTurnoutForecast": false,
+  "weightedModelResult": false,
+  "modelTurnoutSettingsUnchanged": true,
+  "modelComparisonSha256": "77e750f90ad1d0a5904cb627cda899eb874d1698ca0e8763118868a145b4794b",
+  "visualInspectionCompleted": true,
+  "visualReview": [
+    "Hebrew headline, group labels and 84%/76% numbers read correctly.",
+    "Eight percentage points, publication/fieldwork dates, whole-sample 1,018 and author credit are legible.",
+    "Image explicitly says stated intent, not actual turnout; significance untested; subgroup sizes unpublished.",
+    "Original painted civic illustration; neutral equally dignified ballot characters; ample margins, no clipping."
+  ],
+  "postedAutomatically": false
+}

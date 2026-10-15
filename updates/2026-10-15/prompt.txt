@@ -1,0 +1,21 @@
+Use case: illustration-story
+Create a polished original Hebrew editorial illustration for a neutral election-data update, PNG portrait about 1200x1500. A warmly painted, slightly whimsical paper-and-gouache civic scene: two equally dignified little paper ballot characters beside a ballot box in front of a softly lit Knesset at dusk. Cream paper, midnight navy, soft warm gold, restrained blue and terracotta accents. Sophisticated magazine cover, tactile watercolor texture, friendly but not childish. The main message must be immediately readable as two large percentages 84% and 76%, same size, on two beautiful paper placards. No dry dashboard/grid/bar-chart aesthetic; no real faces, invented logos, or campaign advocacy.
+
+Accurate Hebrew typography, right to left. Verbatim text:
+Top kicker: "סקר 13 | פורסם 14.10.2026"
+Large headline: "מי אומר שיגיע לקלפי?"
+Smaller subtitle: "״אצביע בוודאות״"
+Right placard: "תומכי האופוזיציה" and very large "84%"
+Left placard: "תומכי הקואליציה" and very large "76%"
+Between or below them: "פער של 8 נקודות אחוז"
+Readable cream note at bottom, three short lines:
+"הצהרת כוונה בסקר — לא תחזית השתתפות בפועל"
+"פער תיאורי; מובהקותו לא נבדקה"
+"גודל תתי־המדגמים לא פורסם"
+Small but legible source footer:
+"מקור: חדשות 13 והמדד | איסוף: 13.10.2026"
+"1,018 משיבים בסקר כולו"
+Small credit at bottom: "ויקטור רינה בן דוד"
+Tiny neat site footer: "victorchina-ops.github.io/israel-election-simulator"
+
+All numbers and dates must be exact. The 1,018 is the whole sample only, not either subgroup. No significance claims, no model probability claims, no claim of actual turnout. No additional data, labels, pseudo-logos or extraneous text. Generous margins, beautiful highly readable Hebrew, airy composition, focus one finding.

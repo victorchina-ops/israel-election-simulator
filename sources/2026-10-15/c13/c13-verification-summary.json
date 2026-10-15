@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-15",
+  "candidateFile": "reviewed-c13-poll.json",
+  "candidateSha256": "964f111c35d0adc5144de890c499c4165d8c6a0e72c3cf20976e3f762fbf5330",
+  "primarySourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
+  "pollsterReportUrl": "https://themadad.com/סקר-המדד-14-באוקטובר-2026/",
+  "fieldworkEvidence": {
+    "date": "2026-10-13",
+    "sourceUrl": "https://themadad.com/סקר-המדד-14-באוקטובר-2026/",
+    "quote": "13 באוקטובר 2026",
+    "fileName": "c13-reviewed-facts.txt",
+    "sha256": "4f4bfd919804b51d89db2bb01d6ebadc7ad589497f905a51402ead57181e7435"
+  },
+  "publishedAt": "2026-10-14T20:25:14+03:00",
+  "updatedAt": "2026-10-15T08:40:05+03:00",
+  "publicationEvidence": "Browser-read original DOM meta publishDate and NewsArticle JSON-LD; original visiblebody says Wednesday and currentindex lists14Oct20:25.",
+  "seatsVerified": true,
+  "seatTotal": 120,
+  "publicCopyrightScopeReviewed": true,
+  "safePublicFiles": [
+    {
+      "fileName": "reviewed-c13-poll.json",
+      "sha256": "964f111c35d0adc5144de890c499c4165d8c6a0e72c3cf20976e3f762fbf5330"
+    },
+    {
+      "fileName": "c13-original-broadcast-graphic.webp",
+      "sha256": "1be27c9c1e4b88e065fd9c5c47d1874997187148e07a072ef0c07dee95bdc2da"
+    },
+    {
+      "fileName": "c13-reviewed-facts.txt",
+      "sha256": "4f4bfd919804b51d89db2bb01d6ebadc7ad589497f905a51402ead57181e7435"
+    },
+    {
+      "fileName": "c13-auxiliary-facts.json",
+      "sha256": "aad368223799e61579c246031b7587c734535efda41648b043b5cc48fc93aa9b"
+    }
+  ],
+  "privateSourceFiles": [
+    "original-web-reader-receipt.json",
+    "initial-source-receipt.json"
+  ],
+  "accessLimitations": [
+    "Direct shellHTTP13tv403; original pages fully readable web-reader/browser.",
+    "Direct shellHTTPthemadad redirect-loop; complete original report fully readable web-reader.",
+    "No PDF link exposed in current source pages; no guessed officialPDF downloaded."
+  ],
+  "fullArticlePublishedInNewRelease": false
+}

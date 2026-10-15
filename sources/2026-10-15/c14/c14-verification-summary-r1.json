@@ -1,0 +1,90 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "runId": "public-factual-extract-r1",
+  "candidateFileName": "reviewed-c14-poll-r1.json",
+  "candidateSha256": "7bbb1871b5a7e17d589ab2bfa71588c029d020a4c545f3e810d1d3242ea4ef3b",
+  "originalCandidateFileName": "reviewed-c14-poll.json",
+  "originalCandidateSha256": "dd403c254ef593c4dccec02abeac8505147a95f62d3f692cc16a7b871229a825",
+  "changesLimitedTo": [
+    "sourceDocument"
+  ],
+  "allNumericAndStatisticalInputsUnchanged": true,
+  "fullArticleLocalOnly": true,
+  "fullArticleLocalSha256": "f7db8f726c526ca70cbcccac542a406523dec1556730f8230d1a19b63dee9ebb",
+  "originalArticleUrl": "https://www.c14.co.il/article/1739046",
+  "sampleSize": 568,
+  "fieldworkStart": "2026-10-14",
+  "fieldworkEnd": "2026-10-14",
+  "sourcePublicationDate": "2026-10-14",
+  "seats": {
+    "likud": 29,
+    "yashar": 20,
+    "beyachad": 11,
+    "democrats": 8,
+    "yisrael_beiteinu": 5,
+    "otzma": 8,
+    "utj": 8,
+    "shas": 10,
+    "rz_zehut": 7,
+    "joint": 9,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "reportedPercentages": {
+    "hendel": 3.1,
+    "winter": 2.7,
+    "gantz": 1.2,
+    "noam": 0.8,
+    "haredi_public": 0.4
+  },
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "unmodelledNamedParties": [
+    {
+      "name": "אח״י — חוזרים לשורשים",
+      "seats": 0,
+      "pct": 0.2,
+      "mappedTo": "other",
+      "sourceUrl": "https://www.c14.co.il/article/1739046"
+    }
+  ],
+  "sourceBlocSeats": {
+    "coalition": 62,
+    "opposition": 44,
+    "arab_parties": 14
+  },
+  "visualReview": {
+    "graphicFileName": "c14-primary-0.jpeg",
+    "allMandatesPercentagesAndBlocsMatch": true,
+    "separatelyReviewedBlocGraphic": "c14-primary-1.jpeg"
+  },
+  "safePublicFiles": [
+    {
+      "fileName": "reviewed-c14-poll-r1.json",
+      "sha256": "7bbb1871b5a7e17d589ab2bfa71588c029d020a4c545f3e810d1d3242ea4ef3b",
+      "bytes": 7745
+    },
+    {
+      "fileName": "c14-reviewed-facts.txt",
+      "sha256": "1f73edc4fe746395a1b9580b4a23bce8d818012c3e1f2a26868e1072d7ff9a14",
+      "bytes": 1912
+    },
+    {
+      "fileName": "c14-primary-0.jpeg",
+      "sha256": "618d53152b3f4584d97b0443211abc977a603a662517d5f8364aacf5717ff98c",
+      "bytes": 193548
+    },
+    {
+      "fileName": "c14-primary-1.jpeg",
+      "sha256": "126df099258b2245d89b3880f2d9c1b4ef866e8f3a7633ecf4d9f89f59db5885",
+      "bytes": 109871
+    }
+  ],
+  "checkedAtUtc": "2026-10-15T08:50:40.162537+00:00"
+}

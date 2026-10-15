@@ -1,0 +1,15 @@
+Channel 13 / Hamadad consortium — reviewed numerical facts.
+Observation published 14 October 2026, 20:25:14 Asia/Jerusalem; original article updated 15 October 2026, 08:40:05. These are publication timestamps, not collection times.
+Fieldwork date: 13 October 2026, separately stated by the original pollster report. Exact start/end hours unavailable.
+Sample: 1,018 respondents. Reported nationwide margin ±3.1 percentage points at 95% confidence.
+Institute: Hamadad, Shmuel Rosner and Noach Slepkov, with Stat-Net/Yousef Maklada, Project HaMidgam/Ariel Ayalon, Askaria/Dudi Dror. Additional data: Hive; statistical consultant David Steinberg. These names do not establish collection mode or panel supplier.
+Mandates: Yashar20, Likud18, Beyachad12, Democrats9, YisraelBeiteinu9, Joint9, Otzma8, UTJ8, Shas7, ReligiousZionism-Zehut6, Raam6, Winter4, Hendel-Zelekha4. Total120.
+Exact published below-threshold support: Gantz1.2%; HarediPublic1.1%; both0 mandates. National percentages for all passing lists and other lists unavailable; missing does not mean zero.
+Original pollster blocs: Netanyahu51 (including Winter4), change/opposition50 (excluding Hendel and Arab lists), Arab15, between-blocs/Hendel4. The broadcast graphic instead combines all non-coalition lists as69; these are alternative labels for the same120-seat vector.
+Auxiliary responses, kept separate from mandate inputs: 4.3% had neither decided nor leaned to a list, including1.6% certain to vote. Definite-vote answers overall75%, coalition76%, opposition84%, other41%. These are stated intentions, not estimates of actual turnout. Subgroup sample sizes were not supplied.
+Previous poll date7 October: Netanyahu55, opposition50, Arab15, Hendel0. Observed changes: coalition−4, opposition0, Arab0, Hendel+4. No significance claim follows from these two observations.
+Sampling mode, named panel supplier, adult age cutoff, invitation/initial sample, precise vote-share denominator and collection hours were not verified and remain missing.
+Primary broadcaster: https://13tv.co.il/item/news/politics/politics/survey-905396904/
+Original pollster report: https://themadad.com/סקר-המדד-14-באוקטובר-2026/
+Graphic republished by: https://x.com/IsraelPolls/status/2110423694698766721
+Historical table: https://x.com/IsraelPolls/status/2110428705864704439

@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "runId": "public-factual-extract-r1",
+  "originalCandidateFileName": "reviewed-c14-poll.json",
+  "originalCandidateSha256": "dd403c254ef593c4dccec02abeac8505147a95f62d3f692cc16a7b871229a825",
+  "revisedCandidateFileName": "reviewed-c14-poll-r1.json",
+  "revisedCandidateSha256": "7bbb1871b5a7e17d589ab2bfa71588c029d020a4c545f3e810d1d3242ea4ef3b",
+  "originalCandidateStillUnchanged": true,
+  "differences": [
+    "sourceDocument only"
+  ],
+  "allNumericAndStatisticalInputsUnchanged": true,
+  "proofSha256": "44e5217897d4b1c5661d59f749239d5b9de8492c8165e9c51509792177c6e73f",
+  "safePublicFiles": [
+    "reviewed-c14-poll-r1.json",
+    "c14-reviewed-facts.txt",
+    "c14-primary-0.jpeg",
+    "c14-primary-1.jpeg",
+    "c14-verification-summary-r1.json",
+    "c14-candidate-revision-r1.json"
+  ],
+  "fullCopyrightedArticleBodiesExcluded": true
+}

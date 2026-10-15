@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "polls": 36,
+  "series": 7,
+  "deltas": 29,
+  "partyTests": 17,
+  "individualTests": 119,
+  "signPatterns": 128,
+  "exactPermutations": "9029615616000000",
+  "immutableSourceHashes": {
+    "data\\poll-history.json": "fdff28925c2826b9d346318f754142028db117bf1e9ac11d3fa711232a754567",
+    "data\\parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "artifacts\\strict-post-close\\party-analysis.json": "7073de1d904f3a1a128c19ca2670920afd2cb5926e85ef2537313cbb0a240a3d",
+    "artifacts\\strict-post-close\\analysis.json": "ed2537dae380e4f75529b7cbae0846fa04f57e302fa1978652ffde1b84a119eb",
+    "data\\strict-party-trends.json": "0e057d8afe6979f338f2850f1a77db06dca2dc45e46a90fee2c48bec2c804e74"
+  },
+  "primarySignificantAfterBH": [
+    "joint"
+  ],
+  "sensitivitySignificantAfterBH": [],
+  "snapshotSha256": "397efa5becfe55d0647ac80c0499588cb5a3a707309b93ea2df21a2b9d5c0c34",
+  "analysisSha256": "ed191aa5ce5865358596cf2a7086c80d3a1ad0355a359c4e9b3702c372485ab5",
+  "independentAuditSha256": "d1490b573ee6ea8adffd9254fc8e8c70032d7a1be867378ecb197ba54189d248",
+  "datedOutputHashes": {
+    "party-analysis.json": "ed191aa5ce5865358596cf2a7086c80d3a1ad0355a359c4e9b3702c372485ab5",
+    "independent-numeric-audit.json": "d1490b573ee6ea8adffd9254fc8e8c70032d7a1be867378ecb197ba54189d248",
+    "strict-party-trends-without-channel14.json": "397efa5becfe55d0647ac80c0499588cb5a3a707309b93ea2df21a2b9d5c0c34",
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  }
+}

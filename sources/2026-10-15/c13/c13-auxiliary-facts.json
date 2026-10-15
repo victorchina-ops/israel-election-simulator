@@ -1,0 +1,20 @@
+{
+  "sourceUrl": "https://themadad.com/סקר-המדד-14-באוקטובר-2026/",
+  "sampleSizeTotal": 1018,
+  "subgroupSampleSizes": null,
+  "voteIntentCertainty": {
+    "question": "Whether respondent will turn out on election day",
+    "answer": "definitely will vote",
+    "overallPct": 75,
+    "coalitionPct": 76,
+    "oppositionPct": 84,
+    "otherPct": 41,
+    "isActualTurnoutEstimate": false
+  },
+  "undecided": {
+    "noDecisionNoLeanPct": 4.3,
+    "certainToVoteSubsetAsPublishedPct": 1.6,
+    "denominatorVerified": false
+  },
+  "notMandateInput": true
+}

@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "browserReportSha256": "e9b214c6cc13a7aecbeb9bffcf8a675a95118139b9981dc7083698f4927d6511",
+  "reviewedScreenshots": {
+    "1440-about-dark.png": "ba331343d174ae1df32afc9952dd2598c9a2556bfe6829dc9f54d28f3178b17f",
+    "1440-about-light.png": "5760d57b6b092e4c4b25c782a3207940fee8d6ca81ccda806d0422a9a2d8db69",
+    "1440-default-threshold-overview.png": "7761c32709c16fa0175b1ed350c6edbccb7cc37712bd722838eafc88082c1f94",
+    "1440-poll-data.png": "682e59aa2ea0b1cb2ea4132cb58b6239b754a6adce6e3db2115551ca2b69b92c",
+    "1440-trends.png": "23682a1daced98569c395f87fb77738a59df3364e35f29e0e43bb4b1867759ae",
+    "320-default-threshold-overview.png": "2a53c5dd76f8c8f6e3db1843ae6cfcd75bb729802a6de93b9ba42cf624e4ab8a",
+    "390-default-threshold-overview.png": "c7541b9c42b98f95e28f9f5d17c915fb9541fd25a95967cec005938286da74e2",
+    "390-poll-data.png": "1b681fcfde647ef7c524d6aef7e39632b5a8b120b3042e51aa8ea8443a3a29c1",
+    "390-trends.png": "9cf696ee5b0eda5fca0785932888ebeb054376b98799c9bcf7fe471b7a6eaedb",
+    "390-triple-all-fail.png": "9116101d4d130500137ad2380eafff35f4f167599a8ba46fa0bd7ea7e2bcdb00"
+  },
+  "reviewedScreenshotCount": 10,
+  "observations": [
+    "Author portrait and contact retained; light/dark views readable; all seven tabs present; no Ask ChatGPT.",
+    "Trend view shows15Oct audit date,36eligible polls/7series/29deltas, source-fieldwork13Oct endpoint and explicit significant/not-significant table verdicts.",
+    "Poll register distinguishes14Octpublication from13OctC13fieldwork; n1018C13/n568C14 and unknownC16metadata displayed correctly.",
+    "Desktop and390/320px threshold rows align logos, average-seat values and exact probabilities; all80 automated alignment checks pass, no document overflow or clipped percent values.",
+    "Mobile joint panel explicitly computes ALLthree selected fail, showing65/10000=0.65%, with matching histogram and CSV; table scroll stays within its container."
+  ],
+  "numericSpotChecks": {
+    "winterPassProbability": 0.3472,
+    "hendelPassProbability": 0.479,
+    "pairAllFailProbability": 0.3422,
+    "tripleAllFailProbability": 0.0065,
+    "eachWorld120": true,
+    "partition120": true
+  },
+  "limitations": [
+    "Long party labels intentionally ellipsize at320px; full accessible labels and native percentages remain preserved.",
+    "Wide source tables scroll inside their own container on mobile."
+  ],
+  "checkedAtUtc": "2026-10-15T09:13:24.017180+00:00"
+}

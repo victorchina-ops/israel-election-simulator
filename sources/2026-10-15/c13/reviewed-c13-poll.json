@@ -1,0 +1,173 @@
+{
+  "publicationTimeZone": "Asia/Jerusalem",
+  "date": "2026-10-14",
+  "checkedAt": "2026-10-15",
+  "reviewedAtUtc": "2026-10-15T09:02:23.246004+00:00",
+  "fieldworkStart": "2026-10-13",
+  "fieldworkEnd": "2026-10-13",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "fieldworkSourceUrl": "https://themadad.com/סקר-המדד-14-באוקטובר-2026/",
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "reportedMarginOfErrorConfidencePct": 95,
+  "percentageDenominator": null,
+  "panelProvider": null,
+  "publishedBounds": {},
+  "statusLabel": "סקר חדש — המנדטים ומועד האיסוף אומתו במקורות המקוריים",
+  "id": "hamadad_consortium_2026-10-14",
+  "pollsterId": "hamadad_consortium",
+  "pollster": "המדד — שמואל רוזנר, נח סלפקוב והקונסורציום",
+  "publisher": "חדשות 13",
+  "publicationTime": "20:25:14",
+  "publishedAt": "2026-10-14T20:25:14+03:00",
+  "updatedAt": "2026-10-15T08:40:05+03:00",
+  "dateKind": "פרסום14.10.2026; מועד איסוף13.10.2026 אומת בנפרד בדוח המדד המקורי; עדכון הכתבה15.10 אינו סקר חדש",
+  "sampleSize": 1018,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "sampleSizeSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
+  "samplingMethod": null,
+  "population": null,
+  "reportedMarginOfErrorPct": 3.1,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "seats": {
+    "yashar": 20,
+    "likud": 18,
+    "beyachad": 12,
+    "democrats": 9,
+    "yisrael_beiteinu": 9,
+    "utj": 8,
+    "joint": 9,
+    "shas": 7,
+    "otzma": 8,
+    "rz_zehut": 6,
+    "raam": 6,
+    "winter": 4,
+    "hendel": 4,
+    "gantz": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "gantz": 1.2,
+    "haredi_public": 1.1
+  },
+  "reportedPercentages": {
+    "gantz": 1.2,
+    "haredi_public": 1.1
+  },
+  "knownPercentageSum": 2.3,
+  "originalCoveragePct": 2.3,
+  "unmodelledNamedParties": [],
+  "modelOnlyPercentageIds": [],
+  "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
+  "secondarySourceUrls": [
+    "https://themadad.com/סקר-המדד-14-באוקטובר-2026/",
+    "https://x.com/IsraelPolls/status/2110423694698766721",
+    "https://x.com/IsraelPolls/status/2110428705864704439",
+    "https://themadad.com/allpolls/",
+    "https://www.walla.co.il/news/politics/383957465"
+  ],
+  "replacesPollId": "hamadad_consortium_2026-10-07",
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 50,
+    "arab_parties": 15,
+    "unassigned": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "גוש נתניהו כולל עמך ישראל4",
+    "opposition": "גוש השינוי ללא ערביות וללא הנדל–זליכה",
+    "arab_parties": "הרשימה המשותפת ורע״ם",
+    "unassigned": "בין הגושים — המילואימניקים והכלכלית4"
+  },
+  "publishedPreviousBlocSeats": {
+    "coalition": 55,
+    "opposition": 50,
+    "arab_parties": 15,
+    "unassigned": 0
+  },
+  "publishedPreviousPollDate": "2026-10-07",
+  "broadcastGraphicBlocSeats": {
+    "coalition": 51,
+    "all_others": 69
+  },
+  "percentageSourceUrls": {
+    "gantz": "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
+    "haredi_public": "https://13tv.co.il/item/news/politics/politics/survey-905396904/"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "notes": [
+    "סקר המדד חדש שפורסם14.10 ונאסף13.10;1018 משיבים; טעות3.1% ברמת ביטחון95% לפי דוח הסוקר המקורי. מחליף רק בשקלול הפעיל את7.10, הנשמר בהיסטוריה.",
+    "מנדטי13 הרשימות העוברות מסתכמים120 ואומתו בכתבה המקורית, בדוח המדד ובגרפיקת השידור. וינטר והנדל מקבלים4 כל אחד; אחוזי התמיכה המדויקים שלהם לא פורסמו.",
+    "המקור המקורי מאמת כחול לבן1.2% והציבור החרדי1.1%; תא ריק בטבלת היסטוריה אינו גובר על1.2% שפורסמו ישירות. יתר אחוזי התמיכה לא הושלמו באפס.",
+    "חלוקת המדד51 קואליציה כולל וינטר,50 אופוזיציה,15 ערביות ו4 הנדל; חלוקת הגרפיקה51 תומכי קואליציה/69 מתנגדים היא איגוד אחר של אותו וקטור, לא69 לאופוזיציה הציונית.",
+    "לא הוכחה שיטת איסוף או מסגרת דגימה מהשמות של המכונים בלבד. אין להעתיק את1263 המשיבים או6–7.10 מהסקר הקודם.",
+    "אחוז המתלבטים4.3 ושאלת ודאות ההצבעה75% בכלל,76% קואליציה ו84% אופוזיציה נשמרים בנפרד. מכני שאלות וקבוצות קטנות אינם מזוהים; אין להחליף מהם הנחות השתתפות אוטומטית.",
+    "הכתבה עודכנה15.10 אך פורסמה14.10; מדובר בתצפית אחת. שידור רוזנר באתר המדד והעתקות בוואלה אינם סקרים נוספים."
+  ],
+  "sourceDocument": {
+    "fileName": "c13-original-broadcast-graphic.webp",
+    "kind": "original-broadcast-graphic-republished-with-reviewed-factual-extract",
+    "sha256": "1be27c9c1e4b88e065fd9c5c47d1874997187148e07a072ef0c07dee95bdc2da",
+    "extractFileName": "c13-reviewed-facts.txt",
+    "extractSha256": "4f4bfd919804b51d89db2bb01d6ebadc7ad589497f905a51402ead57181e7435",
+    "reviewedAt": "2026-10-15",
+    "providedBy": "original-broadcaster-via-IsraelPolls",
+    "primarySourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "samplingMethod",
+      "panelProvider",
+      "population",
+      "initialSampleSize",
+      "invitedSampleSize",
+      "percentageDenominator",
+      "full-passing-party-percentages",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "undecidedDenominator"
+    ],
+    "originalGraphicFileName": "c13-original-broadcast-graphic.webp",
+    "originalGraphicSha256": "1be27c9c1e4b88e065fd9c5c47d1874997187148e07a072ef0c07dee95bdc2da",
+    "graphicProvidedBy": "https://x.com/IsraelPolls/status/2110423694698766721",
+    "originalGraphicVisuallyVerified": true,
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 0,
+    "fullArticlePublishedInNewRelease": false,
+    "localOriginalProvenance": {
+      "readerReceiptFileName": "original-web-reader-receipt.json",
+      "readerReceiptSha256": "1a7311d1b6d48546059edb45a113b1bce8187f9663d9078a45cf1e29478518f6",
+      "localOnly": true,
+      "rawHttpLimitations": "Shell direct requests to13tv returned403 and themadad redirect-loop; original pages read successfully through web-reader and browser. No fabricated rawHTML archive."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+Reviewed published observation hamadad_consortium_2026-10-14; publication 2026-10-14; audit 2026-10-15.
+Original source: https://13tv.co.il/item/news/politics/politics/survey-905396904/.
+Published mandates: {"yashar": 20, "likud": 18, "beyachad": 12, "democrats": 9, "yisrael_beiteinu": 9, "utj": 8, "joint": 9, "shas": 7, "otzma": 8, "rz_zehut": 6, "raam": 6, "winter": 4, "hendel": 4, "gantz": 0, "haredi_public": 0}
+Exact published percentages: {"gantz": 1.2, "haredi_public": 1.1}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 51, "opposition": 50, "arab_parties": 15, "unassigned": 4}
+Sample size exact/exclusive lower bound: 1018/None
+Verified fieldwork: True; 2026-10-13 to 2026-10-13
+Missing values are not zero and are never inherited.
+סקר המדד חדש שפורסם14.10 ונאסף13.10;1018 משיבים; טעות3.1% ברמת ביטחון95% לפי דוח הסוקר המקורי. מחליף רק בשקלול הפעיל את7.10, הנשמר בהיסטוריה.
+מנדטי13 הרשימות העוברות מסתכמים120 ואומתו בכתבה המקורית, בדוח המדד ובגרפיקת השידור. וינטר והנדל מקבלים4 כל אחד; אחוזי התמיכה המדויקים שלהם לא פורסמו.
+המקור המקורי מאמת כחול לבן1.2% והציבור החרדי1.1%; תא ריק בטבלת היסטוריה אינו גובר על1.2% שפורסמו ישירות. יתר אחוזי התמיכה לא הושלמו באפס.
+חלוקת המדד51 קואליציה כולל וינטר,50 אופוזיציה,15 ערביות ו4 הנדל; חלוקת הגרפיקה51 תומכי קואליציה/69 מתנגדים היא איגוד אחר של אותו וקטור, לא69 לאופוזיציה הציונית.
+לא הוכחה שיטת איסוף או מסגרת דגימה מהשמות של המכונים בלבד. אין להעתיק את1263 המשיבים או6–7.10 מהסקר הקודם.
+אחוז המתלבטים4.3 ושאלת ודאות ההצבעה75% בכלל,76% קואליציה ו84% אופוזיציה נשמרים בנפרד. מכני שאלות וקבוצות קטנות אינם מזוהים; אין להחליף מהם הנחות השתתפות אוטומטית.
+הכתבה עודכנה15.10 אך פורסמה14.10; מדובר בתצפית אחת. שידור רוזנר באתר המדד והעתקות בוואלה אינם סקרים נוספים.

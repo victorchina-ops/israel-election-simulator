@@ -1,0 +1,83 @@
+{
+  "asOf": "2026-10-15",
+  "status": "reviewed",
+  "scope": "Factual source discovery/status summary only. Full reader bodies remain local.",
+  "sources": [
+    {
+      "publisher": "חדשות 13 / המדד",
+      "urls": [
+        "https://13tv.co.il/",
+        "https://13tv.co.il/news/",
+        "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
+        "https://themadad.com/סקר-המדד-14-באוקטובר-2026/"
+      ],
+      "status": "Original article and full institute report readable through web reader; direct network access restricted.",
+      "publicationDate": "2026-10-14",
+      "fieldworkDate": "2026-10-13",
+      "sampleSize": 1018
+    },
+    {
+      "publisher": "חדשות 14",
+      "urls": [
+        "https://www.c14.co.il/",
+        "https://www.c14.co.il/archive/65839",
+        "https://www.c14.co.il/archive/112541",
+        "https://www.c14.co.il/elections26",
+        "https://www.c14.co.il/article/1739046"
+      ],
+      "status": "Direct primary home/index/article checked. New poll verified. Homepage poll widget stale relative to article.",
+      "publicationDate": "2026-10-14",
+      "fieldworkDate": "2026-10-14",
+      "sampleSize": 568
+    },
+    {
+      "publisher": "חדשות 12",
+      "urls": [
+        "https://www.n12.co.il/",
+        "https://www.mako.co.il/news-politics",
+        "https://www.mako.co.il/news-israel-elections/2026"
+      ],
+      "status": "Primary home and indexes readable. No further distinct complete mandate poll verified beyond existing October12 record."
+    },
+    {
+      "publisher": "i24NEWS",
+      "urls": [
+        "https://www.i24news.tv/he",
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls"
+      ],
+      "status": "Primary home and poll index readable. Latest verified distinct poll remains existing October13 record."
+    },
+    {
+      "publisher": "כאן חדשות",
+      "urls": [
+        "https://www.kan.org.il/",
+        "https://www.kan.org.il/content/kan-news/politic/"
+      ],
+      "status": "Web reader returned no usable text. Access limited; no claim that no new poll exists."
+    },
+    {
+      "publisher": "חדשות 16",
+      "urls": [
+        "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+        "https://www.ch16.co.il/search/סקר"
+      ],
+      "status": "Primary current home/search attempt returned internal access errors. Access limited; no claim that no new poll exists."
+    },
+    {
+      "publisher": "IsraelPolls",
+      "urls": [
+        "https://x.com/IsraelPolls?s=20",
+        "https://x.com/IsraelPolls/status/2110423694698766721"
+      ],
+      "status": "New C13 graphic and historical table inspected and compared with original report. Repost date not used as fieldwork date."
+    },
+    {
+      "publisher": "Print publishers / To120",
+      "status": "See separately frozen factual IsraelPolls/source summary. Walla repeat of C13 and Zman repeat of existing Walla poll deduplicated. To120 compiled data not ingested; original linked reports checked when accessible."
+    }
+  ],
+  "limitations": [
+    "Missing source metadata retained as null, never copied from prior poll or interpreted as zero.",
+    "C14 current institute NEXT DATA; excluded by default through publisher selection, not historical accuracy override."
+  ]
+}

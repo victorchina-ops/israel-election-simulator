@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "activeSelectedInstitutes": 7,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "changedPollsters": [
+    "hamadad_consortium",
+    "next_data"
+  ],
+  "newObservationIds": [
+    "hamadad_consortium_2026-10-14",
+    "next_data_2026-10-14"
+  ],
+  "publicationDates": [
+    "2026-10-14"
+  ],
+  "activePolls": 8,
+  "historyPolls": 122,
+  "comparisonSha256": "77e750f90ad1d0a5904cb627cda899eb874d1698ca0e8763118868a145b4794b",
+  "snapshotSha256": "e274d093f7f66efe15d30ed5287a31c2b143a97083e75e53e34d77e500eaa5fb",
+  "baselineSha256": "5bca186da8e3c7068d375ac8ea9eaba08e573517b60cc0af21fc40ae83bd3b20",
+  "sourcePlanSha256": "90e828bb5d9305b36c38ae2cb27898dd03a59fbd83286650363119cd5e0c403e",
+  "validationScope": "Explicit flags and actual selected weights are bound to the website defaults; both snapshots replayed with the unchanged current model. This is not a significance test."
+}

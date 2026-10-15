@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-15",
+  "runId": "bounded-public-source-r1",
+  "supersedesPublicAllowlistOnly": "source-freeze-receipt.json",
+  "originalLocalReceiptSha256": "9d8774f9c939ec1e310f31d91845fdd843cfdf737fd0b4e537d1333162af2aa0",
+  "retainedLocally": [
+    "Full original HTML/text/reader bodies",
+    "Private supplementary compiled source-discovery records"
+  ],
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "compiledTo120DatasetExcluded": true,
+  "publicFilesContainOnly": [
+    "Factual numerical extraction and provenance URL/status/hash summaries",
+    "Original poll graphics and historical graphic"
+  ],
+  "safePublicFiles": [
+    {
+      "fileName": "source-summary.json",
+      "sha256": "a0ce91ac80f9fbc1631bb777dfbf8e3c93c08e345a20b6eb3d47d4dc860a9557",
+      "bytes": 7802
+    },
+    {
+      "fileName": "c13-graphic.webp",
+      "sha256": "1be27c9c1e4b88e065fd9c5c47d1874997187148e07a072ef0c07dee95bdc2da",
+      "bytes": 145570
+    },
+    {
+      "fileName": "c13-history.webp",
+      "sha256": "5f621b1438e8580bc9fed8b46a605e84edd48bdc0f17e71cb21df392e0a593e2",
+      "bytes": 75394
+    }
+  ],
+  "checkedAtUtc": "2026-10-15T08:51:27.656766+00:00"
+}
