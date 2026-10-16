@@ -1,0 +1,22 @@
+Use case: illustration-story.
+Asset type: an original polished Hebrew social-media editorial illustration, portrait approximately 4:5, easy to read on a phone.
+Primary request: visualize ONE verified finding from the new Maariv / Menachem Lazar poll: both political blocs now tie at51 seats, down from52 each, while the Arab parties rise from12 to14. Hendel–Zelekha remain4, separate. This is a raw poll comparison, not a model forecast and not a statistical trend verdict.
+Style: warm painterly editorial illustration, subtly playful, hand-painted paper texture, refined navy/cream with restrained red, blue, green and gold accents. Beautiful designed picture, not a dry scientific chart, not a screenshot. No real-person portraits, no invented party logos. Background is a tasteful recognizable abstract Knesset chamber; a few oversized illustrated parliamentary chairs create a metaphor of representation without pretending to depict120 chairs. The three clearly separated illustrated groups have equal visual importance. Plenty of negative space and large legible Hebrew.
+Composition: large headline at top, three main illustrated cards/areas across the middle with unmistakable data; small neutral fourth strip for Hendel. RTL correct. Current numbers51,51,14 are large, old52,52,12 smaller with clear labels, no confusing arrows. Use the exact Hebrew labels below. Do not add any invented data or wording.
+Text verbatim:
+Top small: "סקר מעריב · מנחם לזר"
+Main headline: "תיקו בגושים. עלייה למפלגות הערביות"
+Date subtitle: "נבדק ב־16.10.2026 · לעומת עמודת 8.10 בדוח"
+Red group: "גוש נתניהו" then "51" then "קודם: 52" then "ירידה של מנדט"
+Blue group: "האופוזיציה" then "51" then "קודם: 52" then "ירידה של מנדט"
+Green group: "המפלגות הערביות" then "14" then "קודם: 12" then "עלייה של 2 מנדטים"
+Small neutral strip: "הנדל–זליכה: 4 · ללא שינוי"
+Footnote: "גוש נתניהו כולל וינטר; הנדל–זליכה בנפרד"
+Footnote: "נתוני סקר, לא תחזית המודל ולא מבחן מגמה"
+Source small: "מקור: דוח מעריב שסופק וגרפיקת IsraelPolls"
+Credit small: "ויקטור רינה בן דוד"
+Bottom website small but readable: "victorchina-ops.github.io/israel-election-simulator"
+Constraints: accurate numbers and dates, distinguish new data reviewdate from the earlier report comparisondate, no invented fieldwork/sample sizes, no significance assertions, no polling probability, no charts with denseaxes or tables. Put the text on calm contrasting areas, no clipping or overlapping. Maintain Hebrew typography exactly and strong information hierarchy.
+
+FINAL TARGETED EDIT (built-in ImageGen; original retained unchanged):
+Edit this existing illustrated Maariv social graphic. Preserve EXACTLY the headline, top date/source, the entire three seat panels including51/51/14 and old52/52/12, Hendel4 strip, all footer assumptions/source/credit/URL, colors, Knesset background, dimensions and painterly style. Make ONE targeted correction only: remove all incidental writing on the decorative books, open book and book spines in the lowerforeground. Replace that writing with natural unlettered paper or textured navy book cloth. In particular remove the invented sentence on the open book and the invented book titles. These are unintended extra political words. Keep the books and atmosphere; do not replace any real data text. Absolutely no new words or symbols anywhere. All intentionally typeset poll data and explanatory text stays identical and readable.

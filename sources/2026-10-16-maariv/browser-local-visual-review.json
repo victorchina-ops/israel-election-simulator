@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "asOf": "2026-10-16",
+  "phase": "local",
+  "runId": "2026-10-16T04-02-13-015Z-39932",
+  "browserReportSha256": "5263919ae0b8adc5b810e57b937486f1acf825e5c3c5fcc0b7c900184e6e3d2d",
+  "reviewedScreenshots": {
+    "1440-about-dark.png": "fe0796be389bb74f9bf74f5877f6aaa193d1b8f890e1221f133f311fa9f5d754",
+    "1440-about-light.png": "ee2513e54aa5b8f4fc22b7e03042851fa971069337165fad8542ca1b023693d4",
+    "1440-default-threshold-overview.png": "e9a1359455552774ba1da7cc8647d1c7e001c6ffef9ce9ad26993e338dd9d9eb",
+    "1440-poll-data.png": "3e50df6d3af1e4126f238fc642642f69e440843b6f57b7fdb4e2c73afdf992c7",
+    "1440-trends.png": "e418265206282a55d4b0a49120d4a0f1e5e4f5ff9af9cee78632f49cf07c3e8e",
+    "320-default-threshold-overview.png": "6e8c2a1d192ae5c5961679f4b7615c25b0ad5a391c3e39e0acdbd5eda3d65d8c",
+    "390-default-threshold-overview.png": "dfbdbc187892a8575d4e86692a71449f65ed577357ed1547762d6d29e49e5122",
+    "390-poll-data.png": "e4d1ed362b6e6495a88f29543f75322c6f62d1ea04573dd182e2b16afccfa8de",
+    "390-trends.png": "94b4084f688552ca1235e052d72b36694cff321260803650e3e8ad62f406b76d",
+    "390-triple-all-fail.png": "5578cf29fcd66f7484fe493123dee28a81236932a393fab1ce5be263ac2964a4"
+  },
+  "visualInspectionCompleted": true,
+  "screenshotsReviewed": 10,
+  "reviewMethod": "Every screenshot was opened and inspected visually through view_image; structured browser assertions are separately recorded in report.json.",
+  "checks": [
+    "Both desktop About themes retain the author photograph, contact, introduction, seven tabs and visible theme toggle; text and buttons are legible.",
+    "Desktop strict trends show the fresh October16 cohort and separate main-BH/sensitivity verdicts; all visible values match the fresh structured browser assertions.",
+    "Desktop register shows the fresh Maariv observation with its actual retrieval-category link and all other current publishers; observation dates and unknown sample/fieldwork match the reviewed candidate.",
+    "Threshold charts at1440/390/320 retain aligned logos, mean seats, labels and fresh probabilities; narrow-label ellipses are intentional and accessible names are independently tested.",
+    "Mobile trends retain wrapped cohort and method explanations; mobile poll register remains inside its intended horizontally scrollable table region.",
+    "Mobile all-three-fail selection has the correct all-selected event definition and selected lists; fresh count, probability, CSV and histogram arithmetic are independently checked by the browser script.",
+    "No new clipping, overlapping marks or document-level horizontal overflow was found in the inspected views; broader geometry and interaction coverage is in the browser report."
+  ],
+  "sourcePlanSha256": "4f597371655651df5ae40687612b47b9312089571f06fbe3c03162212b44f9ed",
+  "checkedAt": "2026-10-16T04:03:42.163430+00:00",
+  "reviewRecorderSha256": "ba8a8c0a2e8db87fefa82a751afe556e72c4ee89563f253187f5febf06436b66"
+}

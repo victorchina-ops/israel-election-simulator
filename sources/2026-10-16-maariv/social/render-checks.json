@@ -1,0 +1,66 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-16",
+  "runId": "reviewed",
+  "generator": "built-in image_gen",
+  "output": "bloc-tie-arab-gain-illustrated.png",
+  "outputSha256": "9798c3c2c5f3185a5c1bf023b02b691c7fe0785a71cc82d11b97c9db800f6873",
+  "width": 1122,
+  "height": 1402,
+  "prompt": "prompt.txt",
+  "promptSha256": "7fc100d8cd6bd70adcbf4c541a8ecad433816bdfec124c3c9e0fb46ea7045849",
+  "cleanupPrompt": "prompt.txt",
+  "cleanupPromptSha256": "7fc100d8cd6bd70adcbf4c541a8ecad433816bdfec124c3c9e0fb46ea7045849",
+  "cleanupPromptSection": "FINAL TARGETED EDIT",
+  "tweet": "tweet.he.txt",
+  "tweetSha256": "acdd786c62e923303927f2f5759f6fbd44f812b67228fc260161939417104cf7",
+  "candidatePath": "artifacts/poll-checks/2026-10-16-maariv/source/reviewed-lazar-poll-r1.json",
+  "candidateSha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+  "sourceUrl": "https://x.com/IsraelPolls/status/2110940123793609186",
+  "sourceTier": "secondary-aggregator",
+  "checkedAndFirstObservedDate": "2026-10-16",
+  "firstPublisherPublicationDateVerified": false,
+  "sourceRepostPublishedAtUtc": "2026-10-16T03:45:19Z",
+  "fieldworkVerified": false,
+  "sampleSize": null,
+  "comparisonLabel": "8October column in the user-supplied numerical report",
+  "comparisonDate": "2026-10-08",
+  "comparisonUserReportOnly": true,
+  "rawReportedBlocComparison": {
+    "coalition": [
+      52,
+      51
+    ],
+    "opposition": [
+      52,
+      51
+    ],
+    "arab_parties": [
+      12,
+      14
+    ],
+    "hendel": [
+      4,
+      4
+    ]
+  },
+  "winterAssignedToCoalition": true,
+  "hendelSeparate": true,
+  "activeModelReplacementPollId": "lazar_2026-10-13",
+  "activeModelReplacementDate": "2026-10-13",
+  "notModelBeforeAfterComparison": true,
+  "notMeasuredVoterTransfers": true,
+  "weightedModelResultShown": false,
+  "statisticalSignificanceClaim": false,
+  "modelComparisonSha256": "b7a42160acce807d3ef2d26b8a5d6e412428a918b7597a1c4ca937a17289274d",
+  "visualInspectionCompleted": true,
+  "visualReview": [
+    "Each bloc has a clear current value and8October report-column comparison: coalition52→51, opposition52→51, Arab lists12→14, Hendel4→4.",
+    "Current51/51/14/4 and earlier52/52/12/4 both sum120; Winter is included with coalition and Hendel is separate.",
+    "16October is explicitly a checked/observed date, not a verified first-publisher date; comparison is identified as a report column.",
+    "Caption distinguishes raw poll data from model forecast and trend test; no significance or measured voter-transfer claim appears.",
+    "Source attribution, simulator link and small author credit are legible; painterly artwork has no data-label clipping or invented slogans.",
+    "Final targeted edit, recorded in the FINAL TARGETED EDIT section of prompt.txt, removed unintended book titles/slogan while retaining all main numbers."
+  ],
+  "postedAutomatically": false
+}

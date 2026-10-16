@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "phase": "applied-awaiting-independent-review",
+  "asOf": "2026-10-16",
+  "baselineAsOf": "2026-10-15",
+  "checkpointManifestSha256": "f68eaea68e92df535dd2210d2c860f6c8b8d6e728b731482126913d7cc137174",
+  "sourcePlanSha256": "4f597371655651df5ae40687612b47b9312089571f06fbe3c03162212b44f9ed",
+  "candidateHashes": {
+    "lazar": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855"
+  },
+  "expectedActiveCount": 8,
+  "expectedHistoryCount": 125,
+  "expectedStrictCandidates": 54,
+  "expectedStrictEligible": 47,
+  "expectedStrictWithoutChannel14": 38,
+  "expectedUnverifiedFieldwork": 7,
+  "inputHashes": {
+    "data/current-polls.json": "ee15cbba9abed92f283f196988888798894d077552b4f93699b4f9ce36504cbc",
+    "data/poll-history.json": "07f18205fc5433ed0e63175a099b5d40023f7077ea7b83a4c7e73d936abe7a1f",
+    "data/sources.json": "7bfc71af53339dc334e5ac2dab76581f7836ce69a7e971947a5a3ae23a4a5b22",
+    "data/survey-documents-2026-09-14.json": "f8e79b36fa6a7355bf25949e89625d4fe980926a912fb2adea14f94b61cf1a7d",
+    "artifacts/strict-post-close/lazar-fieldwork.json": "76af9a3b20fbcc1ae4d04553059101aef823c1bd538e38fe174692854256c24d"
+  },
+  "activePollCount": 8,
+  "historyPollCount": 125,
+  "preflightSha256": "e8ceb911dbbe7f14e121a0b3e7eb57255fa38efecf18727e897c65b3313fd605",
+  "changedCanonicalFiles": {
+    "data/current-polls.json": "c831760553bb12635177c6583ac73528b275039e16a9b74bc4aa02b59b912289",
+    "data/poll-history.json": "40b1fd332573adc1bd881dbb16ce3a4dff83a35044ca26a71ffd354b8dcca8f8",
+    "data/sources.json": "3bd73f14d24c2675b75e607d05ca47da3043260cd3da044962de323636449a10",
+    "data/survey-documents-2026-09-14.json": "bfc81408fee03e244f92586b182d44e2a3548f82cb0afbdaeadd8143175d2ad9",
+    "artifacts/strict-post-close/lazar-fieldwork.json": "bc8fc43d92697a052786b0a8768cecc2fc889beeb844e62338ea76dbe1b1a7cd"
+  },
+  "publicEvidenceFiles": {
+    "maariv/frozen-reviewed-candidate.json": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+    "maariv/ingested-poll.json": "9450ca6629558793dc03f2db29f05d7d3292ef627a1b56475fd263e885553eef",
+    "maariv/lazar-reviewed-facts-r1.txt": "5f0e4405b2974eccadf47d6a2594cc8867b9d1e8a4cda76010cc1c130ea7047f",
+    "maariv/lazar-user-provided-original-report.png": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f",
+    "maariv/lazar-verification-summary-r1.json": "3f8304d11544a6f05696d31508b212119852bfe2b39fae4eda6b4465f7b58d43",
+    "maariv/maariv-user-provided-publisher-graphic.png": "008dff46235f8393e00f48b9cfc0a675c88c189d41c23deec28f921fcfbfabbe",
+    "maariv/reviewed-lazar-poll-r1.json": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+    "maariv/reviewed-poll.json": "9450ca6629558793dc03f2db29f05d7d3292ef627a1b56475fd263e885553eef",
+    "maariv/source-extract.txt": "5d68c02b16fde39b4ed294bdf0ea06a1f6018b063773df7b81d8600d0841e6c8",
+    "maariv/source-revision-r1.json": "1d0114d44946065f142a01e1e454d45e31f812ae227506a27c5dbcd6f0083d08"
+  },
+  "rawMissingnessAndCensoredBoundsRetained": true,
+  "historicalWeightsAndCatalogueUnchanged": true,
+  "conditionalAndArtisticOutputsUnchanged": true,
+  "noNumericalAnalysesOrDashboardBuilt": true
+}

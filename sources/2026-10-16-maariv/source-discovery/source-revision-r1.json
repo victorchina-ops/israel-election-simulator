@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-16",
+  "candidateFile": "reviewed-lazar-poll-r1.json",
+  "candidateSha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+  "verificationFile": "lazar-verification-summary-r1.json",
+  "verificationSha256": "3f8304d11544a6f05696d31508b212119852bfe2b39fae4eda6b4465f7b58d43",
+  "priorCandidateFile": "reviewed-lazar-poll.json",
+  "priorCandidateSha256": "1c24c87368247241e2b3fe4fa1f1bbeadb079b41b85a9a20b460d43412852b81",
+  "priorVerificationFile": "lazar-verification-summary.json",
+  "priorVerificationSha256": "66b7f6a2f10b3503a44f03a8a05e6c693fd7845be7258d2346aabc54d7657042",
+  "changes": [
+    "Classify verified X retrieval location as secondary-aggregator, so the UI does not label X as the original publisher article.",
+    "Clarify original first-publication date remains unknown;16October is the observed X repost date.",
+    "Correct source-specific attribution: Xphoto1 is the party graphic and Xphoto2 the bloc donut; undecided5.2 and prior8October comparison are verified only in the user-supplied original report."
+  ],
+  "pollNumericalValuesUnchanged": true,
+  "fieldworkAndMethodologyRemainMissing": true,
+  "originalCandidateAndProofRetainedLocally": true,
+  "supersededEvidenceNotApprovedForPublicRelease": true,
+  "safePublicFiles": [
+    "reviewed-lazar-poll-r1.json",
+    "lazar-verification-summary-r1.json",
+    "lazar-reviewed-facts-r1.txt",
+    "maariv-user-provided-publisher-graphic.png",
+    "lazar-user-provided-original-report.png",
+    "source-revision-r1.json"
+  ]
+}

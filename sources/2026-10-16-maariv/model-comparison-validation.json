@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-16",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "activeSelectedInstitutes": 7,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "changedPollsters": [
+    "lazar"
+  ],
+  "newObservationIds": [
+    "lazar_2026-10-16"
+  ],
+  "publicationDates": [
+    "2026-10-16"
+  ],
+  "publicationDateScope": "First observed in the verified16Oct IsraelPolls repost; first publisher date/time and fieldwork remain unverified.",
+  "activePolls": 8,
+  "historyPolls": 125,
+  "unknownNewFieldworkExcluded": true,
+  "allPreviousHistoricalObservationsPreserved": true,
+  "supersededRecordLifecycleFieldsOnly": true,
+  "comparisonSha256": "b7a42160acce807d3ef2d26b8a5d6e412428a918b7597a1c4ca937a17289274d",
+  "snapshotSha256": "26ad69ce40a1c9d6b0fdec35179768bb431e2cf7bbf324ee88384c53615f3b1a",
+  "baselineSha256": "0125c77f0fb8210d4250d5ad852d64e920d1fd22582c9247edd22263487cec48",
+  "sourcePlanSha256": "4f597371655651df5ae40687612b47b9312089571f06fbe3c03162212b44f9ed",
+  "validationScope": "Both snapshots replayed with the same unchanged model and explicit historical-accuracy website defaults. Model differences are not a significance test."
+}

@@ -1,0 +1,259 @@
+{
+  "id": "lazar_2026-10-16",
+  "pollsterId": "lazar",
+  "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+  "publisher": "מעריב",
+  "date": "2026-10-16",
+  "checkedAt": "2026-10-16",
+  "reviewedAtUtc": "2026-10-16T03:53:17.718575+00:00",
+  "sourceTier": "secondary-aggregator",
+  "publicationTime": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publishedAt": null,
+  "updatedAt": null,
+  "dateKind": "תאריך16.10.2026 הוא מועד הפרסום החוזר שנצפה ב־IsraelPolls. תאריך ושעת הפרסום הראשון במעריב וכן מועדי האיסוף אינם מאומתים; אין להסיק אותם מחותמת הפרסום החוזר.",
+  "sourceRepostPublishedAtUtc": "2026-10-16T03:45:19Z",
+  "sourceRepostPublishedAtIsrael": "2026-10-16T06:45:19+03:00",
+  "firstPublisherArticleUrl": null,
+  "firstPublisherPublicationVerified": false,
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": false,
+  "fieldworkSourceUrl": null,
+  "sampleSize": null,
+  "sampleSizeSourceUrl": null,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "samplingMethod": null,
+  "collectionMode": null,
+  "panelProvider": null,
+  "population": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "percentageDenominator": null,
+  "undecidedPct": 5.2,
+  "undecidedDenominator": null,
+  "undecidedDenominatorVerified": false,
+  "undecidedSourceUrl": "https://x.com/IsraelPolls/status/2110940123793609186",
+  "undecidedSourceKind": "user-provided-original-report-image-only",
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "statusLabel": "סקר חדש — המנדטים אומתו בגרפיקת מעריב ובדוח; מועדי האיסוף והמדגם טרם אומתו",
+  "seats": {
+    "yashar": 21,
+    "likud": 18,
+    "beyachad": 13,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "otzma": 8,
+    "joint": 8,
+    "utj": 8,
+    "shas": 7,
+    "rz_zehut": 6,
+    "raam": 6,
+    "winter": 4,
+    "hendel": 4,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "gantz": 1.1,
+    "haredi_public": 0.5,
+    "noam": 0.5,
+    "other": 0.2
+  },
+  "reportedPercentages": {
+    "gantz": 1.1,
+    "haredi_public": 0.5,
+    "noam": 0.5
+  },
+  "knownPercentageSum": 2.3,
+  "originalCoveragePct": 2.3,
+  "publishedBounds": {},
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "unmodelledNamedParties": [
+    {
+      "name": "צומת–בית ישראל בראשות גדי יברקן",
+      "pct": 0.2,
+      "seats": 0,
+      "mappedTo": "other",
+      "sourceUrl": "https://x.com/IsraelPolls/status/2110940123793609186"
+    }
+  ],
+  "sourceUrl": "https://x.com/IsraelPolls/status/2110940123793609186",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls?s=20",
+    "https://x.com/IsraelPolls/status/2110940123793609186/photo/1",
+    "https://x.com/IsraelPolls/status/2110940123793609186/photo/2",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/reviewed-lazar-poll-r1.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/lazar-verification-summary-r1.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/lazar-reviewed-facts-r1.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/maariv-user-provided-publisher-graphic.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/lazar-user-provided-original-report.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/source-revision-r1.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/frozen-reviewed-candidate.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/source-extract.txt"
+  ],
+  "replacesPollId": "lazar_2026-10-13",
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 51,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "קואליציית נתניהו כולל עמך ישראל4",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו; ללא ערביות וללא הנדל–זליכה",
+    "arab_parties": "המשותפת ורע״ם",
+    "hendel": "המילואימניקים והכלכלית — הנדל–זליכה, בנפרד"
+  },
+  "publishedPreviousPollDate": "2026-10-08",
+  "publishedPreviousPollDateKind": "תאריך עמודת ההשוואה בדוח המקורי; אותה תצפית פורסמה בוואלה8.10 ובמעריב9.10",
+  "publishedPreviousCanonicalPollId": "lazar_2026-10-09",
+  "publishedPreviousBlocSeats": {
+    "coalition": 52,
+    "opposition": 52,
+    "arab_parties": 12,
+    "hendel": 4
+  },
+  "percentageSourceUrls": {
+    "gantz": "https://x.com/IsraelPolls/status/2110940123793609186",
+    "haredi_public": "https://x.com/IsraelPolls/status/2110940123793609186",
+    "noam": "https://x.com/IsraelPolls/status/2110940123793609186",
+    "other": "https://x.com/IsraelPolls/status/2110940123793609186"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "otzma",
+    "joint",
+    "utj",
+    "shas",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "israel_first",
+    "other"
+  ],
+  "notes": [
+    "סקר מעריב/לזר שנצפה ב־16.10 ב־IsraelPolls; גרפיקת המפלגות שסיפק המשתמש תואמת לגרפיקה שפורסמה שם, וגרפיקת הגושים הנפרדת מאמתת51 קואליציה כולל וינטר,51 אופוזיציה,14 ערביות ו־4 הנדל–זליכה. הדוח המפורט ועמודת8.10 סופקו בנפרד על ידי המשתמש.",
+    "מחליף בשקלול הפעיל את לזר/וואלה13.10 בלבד; כל התצפיות הקודמות נשמרות בהיסטוריה. ההשוואה בדוח לעמודת8.10 היא לתצפית שפורסמה בוואלה8.10 ובמעריב9.10, ולא לסקר הפעיל מ־13.10.",
+    "מתחת לחסימה: כחול לבן1.1%, הציבור החרדי0.5%, נעם לישראל0.5% וצומת–בית ישראל0.2%. צומת נשמרת בשמה וממופה ל־0.2% אחרים במודל בלבד; המפרסם לא דיווח אחוז מצרפי לאחרים.",
+    "וינטר והנדל–זליכה מקבלים4 מנדטים כל אחד; אחוזי התמיכה המדויקים שלהם לא מופיעים בראיות שנבדקו ונשארים חסרים. אין להעתיק את2.8% מסקר לזר הקודם.",
+    "5.2% מתלבטים מופיעים בדוח המקורי המצולם שסיפק המשתמש בלבד; לא בגרפיקות שנבדקו ב־IsraelPolls. מכנה השאלה לא אומת; נתון זה אינו תחזית השתתפות.",
+    "לא אומתו מדגם, תאריכי עבודת שדה, שיטה, מסגרת דגימה, אוכלוסייה וטעות דגימה. השדות נשארים חסרים ולא מועתקים מסקר קודם. הסקר לא ייכלל בניתוח המגמות המחמיר המבוסס על איסוף מאומת עד שיושלם המקור.",
+    "חותמת IsraelPolls16.10 בשעה06:45:19 היא זמן פרסום חוזר בלבד. תאריך, שעה וקישור לפרסום הראשון של מעריב טרם אומתו;16.10 משמש כתאריך התצפית במאגר ולא כהוכחה למועד הפרסום הראשון.",
+    "קורא הרשת לא הצליח לפתוח את מעריב; ניווט בדפדפן נחסם במדיניות בטיחות האתר ללא בקשת אישור. לא נעשה ניסיון לעקוף את החסימה. הפרופיל והפוסט החדש של IsraelPolls נקראו בהצלחה בדפדפן.",
+    "סיווג המקור המשני מציין שהקישור שנבדק מוביל ל־IsraelPolls ב־X. אין לתייג קישור זה כפרסום הראשון של מעריב; המספרים עצמם נלקחו מהחומר המספרי המקורי של מעריב שסופק ופורסם מחדש."
+  ],
+  "sourceDocument": {
+    "fileName": "lazar-user-provided-original-report.png",
+    "kind": "user-provided-original-Lazar-numerical-report-with-separate-Maariv-party-and-bloc-graphics-republished-by-IsraelPolls",
+    "sha256": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f",
+    "extractFileName": "lazar-reviewed-facts-r1.txt",
+    "extractSha256": "5f0e4405b2974eccadf47d6a2594cc8867b9d1e8a4cda76010cc1c130ea7047f",
+    "primarySourceUrl": "https://x.com/IsraelPolls/status/2110940123793609186",
+    "providedBy": "user-original-report-and-Maariv-graphic; IsraelPolls-separately-republished-party-and-bloc-graphics",
+    "primaryPublicationVerified": false,
+    "publicationCrossChecked": true,
+    "firstPublisherPublicationVerified": false,
+    "originalGraphicVisuallyVerified": true,
+    "reviewedAt": "2026-10-16",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "firstPublisherArticleUrl",
+      "firstPublisherPublicationTime",
+      "fieldworkStart",
+      "fieldworkEnd",
+      "sampleSize",
+      "samplingMethod",
+      "collectionMode",
+      "panelProvider",
+      "population",
+      "reportedMarginOfErrorPct",
+      "reportedMarginOfErrorConfidencePct",
+      "percentageDenominator",
+      "undecidedDenominator",
+      "full-passing-party-percentages"
+    ],
+    "reviewedGraphics": [
+      {
+        "fileName": "maariv-user-provided-publisher-graphic.png",
+        "sha256": "008dff46235f8393e00f48b9cfc0a675c88c189d41c23deec28f921fcfbfabbe",
+        "providedBy": "user",
+        "visuallyReviewed": true
+      },
+      {
+        "fileName": "lazar-user-provided-original-report.png",
+        "sha256": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f",
+        "providedBy": "user",
+        "visuallyReviewed": true
+      }
+    ],
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 0,
+    "fullArticlePublishedInNewRelease": false,
+    "publicationCrossCheckedScope": "X repost day and time only; original article publication date/time not verified",
+    "originalReportOnlineCrossCheckedFields": [
+      "party seats",
+      "below-threshold party shares",
+      "current bloc partition"
+    ],
+    "originalReportUserOnlyFields": [
+      "undecided5.2",
+      "previous comparison column8October"
+    ],
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/lazar-user-provided-original-report.png",
+    "extractArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/lazar-reviewed-facts-r1.txt"
+  },
+  "sourceTierExplanation": "Classification describes the verified retrieval location, IsraelPolls on X, not authorship of the underlying Maariv numerical material. The original publisher article remains inaccessible and unverified.",
+  "firstPublisherPublicationDate": null,
+  "undecidedPctProvenance": {
+    "sourceKind": "user-provided-original-report-image",
+    "fileName": "lazar-user-provided-original-report.png",
+    "sha256": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f",
+    "primaryOnlineVerified": false,
+    "verifiedInIsraelPollsImages": false,
+    "denominator": null,
+    "note": "5.2% is visible in the user-supplied comparison report. IsraelPolls attached party and bloc graphics, not that report; the attached graphics do not show the undecided value or8October comparison."
+  },
+  "publishedPreviousComparisonProvenance": {
+    "sourceKind": "user-provided-original-report-image-only",
+    "fileName": "lazar-user-provided-original-report.png",
+    "sha256": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f",
+    "verifiedInIsraelPollsImages": false
+  },
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-16-maariv/maariv/reviewed-poll.json",
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "israel_first",
+    "other"
+  ]
+}

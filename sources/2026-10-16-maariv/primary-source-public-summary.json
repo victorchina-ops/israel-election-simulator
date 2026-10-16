@@ -1,0 +1,84 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-16",
+  "runId": "maariv",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "publicScope": "Full authored articles are excluded; only original numerical graphics, rewritten factual extracts and verified source metadata are published.",
+  "verifiedRetrievalUrl": "https://x.com/IsraelPolls/status/2110940123793609186",
+  "sourceTier": "secondary-aggregator",
+  "sourceAuthorship": "Maariv / Menachem Lazar numerical publisher material, provided by user and separately republished as party and bloc graphics by IsraelPolls.",
+  "firstPublisherArticleUrl": null,
+  "firstPublisherPublicationDate": null,
+  "firstPublisherPublicationTime": null,
+  "observedRepostDate": "2026-10-16",
+  "sourceRepostPublishedAtUtc": "2026-10-16T03:45:19Z",
+  "sourceRepostPublishedAtIsrael": "2026-10-16T06:45:19+03:00",
+  "accessChecks": [
+    {
+      "url": "https://www.maariv.co.il/",
+      "result": "nonretryable-error"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics",
+      "result": "nonretryable-error"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "result": "403-forbidden"
+    },
+    {
+      "url": "https://twonetwenty.com/data",
+      "result": "internal-error"
+    },
+    {
+      "url": "https://twonetwenty.com/he/evidence",
+      "result": "readable-but-latest-Maariv-entry2October-no16October-source"
+    },
+    {
+      "url": "https://www.maariv.co.il/",
+      "result": "site-safety-policy-block-no-approval-prompt",
+      "noWorkaroundAttempted": true
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "result": "readable-new-Lazar-post16October"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2110940123793609186",
+      "result": "readable-two-numerical-images-and-exact-repost-datetime"
+    }
+  ],
+  "accessLimitations": [
+    "The Maariv homepage and politics index returned nonretryable errors in web-reader.",
+    "The live browser rejected the Maariv homepage under its site-safety policy without an approval prompt. No alternate browser, raw HTTP, alternate publisher path or proxy was used to bypass that block; publisher politics/election/article surfaces therefore remain unverified.",
+    "The original publisher article link, first-publication date/time, sample size, fieldwork dates, margin of error, confidence level and sampling details are unverified and remain missing. The new observation is excluded from strict fieldwork-confirmed trend analysis.",
+    "IsraelPolls was read successfully in the live browser. The party and bloc images were visually checked. The report value5.2%undecided and previous8October comparison are verified only in the original numerical report image supplied by the user.",
+    "To120 evidence index was readable but its available Maariv item was2October; data index failed. It supplied no verified original methodology for the new observation."
+  ],
+  "numericalChecks": {
+    "partySeatSum": 120,
+    "coalitionIncludesWinter": 51,
+    "oppositionExcludesHendel": 51,
+    "arabParties": 14,
+    "hendelSeparately": 4,
+    "undecidedPct": 5.2,
+    "undecidedDenominatorUnknown": true,
+    "modelOtherIsDerivedNamedTzometPct": 0.2,
+    "reportedAggregateOtherMissing": true
+  },
+  "comparisonDates": {
+    "activeReplacedObservation": "lazar_2026-10-13",
+    "userReportPreviousColumn": "2026-10-08",
+    "previousSamePublisherCanonicalObservation": "lazar_2026-10-09",
+    "sameObservationEarlierPublishedWalla": "2026-10-08",
+    "historicalDatesUnchanged": true
+  },
+  "missingDataNeverZero": true,
+  "candidateFile": "source/reviewed-lazar-poll-r1.json",
+  "candidateSha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+  "verificationFile": "source/lazar-verification-summary-r1.json",
+  "verificationSha256": "3f8304d11544a6f05696d31508b212119852bfe2b39fae4eda6b4465f7b58d43",
+  "publicFreezeReceiptFile": "source/source-public-freeze-receipt.json",
+  "publicFreezeReceiptSha256": "66c0dc80c1e1458b38d1cfa31957ee2bf0bdaeb099b4df2828443ee33684b0c3",
+  "articleProseQuotedWords": 0
+}

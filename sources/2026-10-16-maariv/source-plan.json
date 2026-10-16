@@ -1,0 +1,99 @@
+{
+  "status": "reviewed",
+  "asOf": "2026-10-16",
+  "baselineAsOf": "2026-10-15",
+  "baselineVersion": "2026-10-15.hayom-v1",
+  "runId": "reviewed",
+  "observationPublicationDates": [
+    "2026-10-16"
+  ],
+  "publicCopyrightScopeReviewed": true,
+  "publicEvidenceScope": "Original numerical report/chart supplied by the user and crosschecked with IsraelPolls repost, independently written factual extracts, factual metadata, hashes and source links. Full authored articles and web-reader/profile exports remain local; all earlier published releases remain immutable. Initial source-classification candidate and proof remain local; only corrected r1 source classification is public.",
+  "polls": [
+    {
+      "pollsterId": "lazar",
+      "folder": "maariv",
+      "candidatePath": "artifacts/poll-checks/2026-10-16-maariv/source/reviewed-lazar-poll-r1.json",
+      "candidateSha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+      "expectedSeats": {
+        "yashar": 21,
+        "likud": 18,
+        "beyachad": 13,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "otzma": 8,
+        "joint": 8,
+        "utj": 8,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 6,
+        "winter": 4,
+        "hendel": 4,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "expectedReportedPercentages": {
+        "gantz": 1.1,
+        "haredi_public": 0.5,
+        "noam": 0.5
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 51,
+        "opposition": 51,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "strictEligible": false,
+      "fieldworkEvidence": [],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-16-maariv/source/reviewed-lazar-poll-r1.json",
+          "publicName": "reviewed-lazar-poll-r1.json",
+          "sha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-16-maariv/source/lazar-verification-summary-r1.json",
+          "publicName": "lazar-verification-summary-r1.json",
+          "sha256": "3f8304d11544a6f05696d31508b212119852bfe2b39fae4eda6b4465f7b58d43"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-16-maariv/source/lazar-reviewed-facts-r1.txt",
+          "publicName": "lazar-reviewed-facts-r1.txt",
+          "sha256": "5f0e4405b2974eccadf47d6a2594cc8867b9d1e8a4cda76010cc1c130ea7047f"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-16-maariv/source/maariv-user-provided-publisher-graphic.png",
+          "publicName": "maariv-user-provided-publisher-graphic.png",
+          "sha256": "008dff46235f8393e00f48b9cfc0a675c88c189d41c23deec28f921fcfbfabbe"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-16-maariv/source/lazar-user-provided-original-report.png",
+          "publicName": "lazar-user-provided-original-report.png",
+          "sha256": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-16-maariv/source/source-revision-r1.json",
+          "publicName": "source-revision-r1.json",
+          "sha256": "1d0114d44946065f142a01e1e454d45e31f812ae227506a27c5dbcd6f0083d08"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-16-maariv/source/reviewed-lazar-poll-r1.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855"
+        }
+      ]
+    }
+  ],
+  "sourceReview": {
+    "requiredIsraelPollsUrl": "https://x.com/IsraelPolls?s=20",
+    "originalPublisherRead": false,
+    "verificationSourceUrl": "https://x.com/IsraelPolls/status/2110940123793609186",
+    "userProvidedOriginalReportAndPublisherGraphicVisuallyCrosschecked": true,
+    "sameObservationRepostsNotCounted": true,
+    "compiledForecastsNotIngested": true,
+    "publicationVersusFieldwork": "Observation identified in IsraelPolls repost16Oct03:45:19UTC; initial publisher publication time/link not independently verified. Entire fieldwork interval remains unknown; exclude new record from strict trends. Never replace unknown fieldwork with repost/publication date.",
+    "channel14DefaultExclusionPreserved": true,
+    "reviewedExactPythonIntegerHelpersPreserved": true
+  }
+}

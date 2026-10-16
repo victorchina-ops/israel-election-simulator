@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-16",
+  "runId": "maariv",
+  "publicScope": "Full authored articles and raw reader exports are excluded. Only the explicit original numerical report/graphic images, independently paraphrased factual extract, reviewed r1 candidate and corrected verification/provenance JSON below are approved for this release.",
+  "safePublicFiles": [
+    {
+      "fileName": "reviewed-lazar-poll-r1.json",
+      "sha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+      "bytes": 11135
+    },
+    {
+      "fileName": "lazar-reviewed-facts-r1.txt",
+      "sha256": "5f0e4405b2974eccadf47d6a2594cc8867b9d1e8a4cda76010cc1c130ea7047f",
+      "bytes": 3037
+    },
+    {
+      "fileName": "lazar-verification-summary-r1.json",
+      "sha256": "3f8304d11544a6f05696d31508b212119852bfe2b39fae4eda6b4465f7b58d43",
+      "bytes": 4391
+    },
+    {
+      "fileName": "source-revision-r1.json",
+      "sha256": "1d0114d44946065f142a01e1e454d45e31f812ae227506a27c5dbcd6f0083d08",
+      "bytes": 1591
+    },
+    {
+      "fileName": "maariv-user-provided-publisher-graphic.png",
+      "sha256": "008dff46235f8393e00f48b9cfc0a675c88c189d41c23deec28f921fcfbfabbe",
+      "bytes": 455730
+    },
+    {
+      "fileName": "lazar-user-provided-original-report.png",
+      "sha256": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f",
+      "bytes": 311959
+    }
+  ],
+  "localOnlyFiles": [
+    "reviewed-lazar-poll.json",
+    "lazar-verification-summary.json",
+    "lazar-reviewed-facts.txt",
+    "freeze-source.py",
+    "revise-source-r1.py",
+    "freeze-public-source.py"
+  ],
+  "sourcePlanUnchanged": true,
+  "candidateUnchangedAfterR1Review": true,
+  "supersededEvidenceNotApprovedForPublication": true,
+  "articleProseQuotedWords": 0
+}

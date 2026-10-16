@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "phase": "preflight",
+  "asOf": "2026-10-16",
+  "baselineAsOf": "2026-10-15",
+  "checkpointManifestSha256": "f68eaea68e92df535dd2210d2c860f6c8b8d6e728b731482126913d7cc137174",
+  "sourcePlanSha256": "4f597371655651df5ae40687612b47b9312089571f06fbe3c03162212b44f9ed",
+  "candidateHashes": {
+    "lazar": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855"
+  },
+  "expectedActiveCount": 8,
+  "expectedHistoryCount": 125,
+  "expectedStrictCandidates": 54,
+  "expectedStrictEligible": 47,
+  "expectedStrictWithoutChannel14": 38,
+  "expectedUnverifiedFieldwork": 7,
+  "inputHashes": {
+    "data/current-polls.json": "ee15cbba9abed92f283f196988888798894d077552b4f93699b4f9ce36504cbc",
+    "data/poll-history.json": "07f18205fc5433ed0e63175a099b5d40023f7077ea7b83a4c7e73d936abe7a1f",
+    "data/sources.json": "7bfc71af53339dc334e5ac2dab76581f7836ce69a7e971947a5a3ae23a4a5b22",
+    "data/survey-documents-2026-09-14.json": "f8e79b36fa6a7355bf25949e89625d4fe980926a912fb2adea14f94b61cf1a7d",
+    "artifacts/strict-post-close/lazar-fieldwork.json": "76af9a3b20fbcc1ae4d04553059101aef823c1bd538e38fe174692854256c24d"
+  }
+}

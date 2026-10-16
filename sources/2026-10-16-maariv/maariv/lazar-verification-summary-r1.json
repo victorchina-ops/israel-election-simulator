@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-16",
+  "candidateFile": "reviewed-lazar-poll-r1.json",
+  "candidateSha256": "eb167b5a71fc71a74a6b97eee2fdf5ce6116bdc5a29d919d63511c2177a2d855",
+  "sourceImageFiles": [
+    {
+      "fileName": "maariv-user-provided-publisher-graphic.png",
+      "sha256": "008dff46235f8393e00f48b9cfc0a675c88c189d41c23deec28f921fcfbfabbe",
+      "providedBy": "user",
+      "visuallyReviewed": true
+    },
+    {
+      "fileName": "lazar-user-provided-original-report.png",
+      "sha256": "06297c146ec2e183b25311e5d7697317085118dbd5e5448db67fc9cb41832d8f",
+      "providedBy": "user",
+      "visuallyReviewed": true
+    }
+  ],
+  "extractFile": "lazar-reviewed-facts-r1.txt",
+  "extractSha256": "5f0e4405b2974eccadf47d6a2594cc8867b9d1e8a4cda76010cc1c130ea7047f",
+  "seatTotal": 120,
+  "seatsTotal": 120,
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 51,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "reportedKnownPercentageSum": 2.1,
+  "knownModelPercentageSum": 2.3,
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "reportedOtherMissing": true,
+  "undecidedPct": 5.2,
+  "undecidedDenominatorVerified": false,
+  "fieldworkVerified": false,
+  "strictCohortEligibility": "excluded-pending-independent-fieldwork-verification",
+  "activeReplacementPollId": "lazar_2026-10-13",
+  "publishedComparisonCanonicalPollId": "lazar_2026-10-09",
+  "publishedComparisonReportDate": "2026-10-08",
+  "repostTimestampUtc": "2026-10-16T03:45:19Z",
+  "repostTimestampIsrael": "2026-10-16T06:45:19+03:00",
+  "firstPublisherTimeUnknown": true,
+  "firstPublisherArticleUrl": null,
+  "webReaderAccess": [
+    {
+      "url": "https://www.maariv.co.il/",
+      "result": "nonretryable-error"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics",
+      "result": "nonretryable-error"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "result": "403-forbidden"
+    },
+    {
+      "url": "https://twonetwenty.com/data",
+      "result": "internal-error"
+    },
+    {
+      "url": "https://twonetwenty.com/he/evidence",
+      "result": "readable-but-latest-Maariv-entry2October-no16October-source"
+    }
+  ],
+  "liveBrowserAccess": [
+    {
+      "url": "https://www.maariv.co.il/",
+      "result": "site-safety-policy-block-no-approval-prompt",
+      "noWorkaroundAttempted": true
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "result": "readable-new-Lazar-post16October"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2110940123793609186",
+      "result": "readable-two-numerical-images-and-exact-repost-datetime"
+    }
+  ],
+  "originalArticleBodiesPublished": false,
+  "publicAllowlist": [
+    "reviewed-lazar-poll-r1.json",
+    "lazar-verification-summary-r1.json",
+    "lazar-reviewed-facts-r1.txt",
+    "maariv-user-provided-publisher-graphic.png",
+    "lazar-user-provided-original-report.png",
+    "source-revision-r1.json"
+  ],
+  "totalQuotedNonLyricalWords": 0,
+  "firstPublisherPublicationDate": null,
+  "sourceTier": "secondary-aggregator",
+  "sourceTierExplanation": "Classification describes the verified retrieval location, IsraelPolls on X, not authorship of the underlying Maariv numerical material. The original publisher article remains inaccessible and unverified.",
+  "israelPollsGraphicsRoles": [
+    {
+      "photo": 1,
+      "url": "https://x.com/IsraelPolls/status/2110940123793609186/photo/1",
+      "observedImageUrl": "https://pbs.twimg.com/media/HUuQ2WXWYAAt0uW?format=jpg&name=large",
+      "role": "Maariv party seats and below-threshold shares; visually verified against supplied graphic"
+    },
+    {
+      "photo": 2,
+      "url": "https://x.com/IsraelPolls/status/2110940123793609186/photo/2",
+      "observedImageUrl": "https://pbs.twimg.com/media/HUuQ2r1XYAEDrPu?format=jpg&name=medium",
+      "role": "Maariv bloc donut51/51/14/4; visually verified; not the user-supplied comparison report"
+    }
+  ],
+  "userReportOnlyFields": [
+    "undecided5.2",
+    "previous comparison8October"
+  ],
+  "safePublicFiles": [
+    "reviewed-lazar-poll-r1.json",
+    "lazar-verification-summary-r1.json",
+    "lazar-reviewed-facts-r1.txt",
+    "maariv-user-provided-publisher-graphic.png",
+    "lazar-user-provided-original-report.png",
+    "source-revision-r1.json"
+  ]
+}
