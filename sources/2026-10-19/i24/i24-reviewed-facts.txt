@@ -1,0 +1,9 @@
+Verified numerical facts, paraphrased; original i24NEWS article artc-81805 read 19 October 2026.
+Publisher i24NEWS; institute Direct Polls / Tzuriel Sharon.
+Publication: the body explicitly describes Sunday evening broadcast, nine days before the 27 October election: 18 October 2026. Exact publication time is unknown. IsraelPolls repost was 19 October 00:03:45 Asia/Jerusalem and is a separate timestamp.
+Fieldwork: 18 October 2026, explicitly stated separately. Sample 525 adults18+, representative general Israeli population; digital system combined with panel; maximum error4.2 percentage points at95% confidence. Named panel provider, invited/initial sample and fieldwork times unknown.
+Seats: Likud25, Yashar21, Beyachad13, Otzma10, Democrats9, UTJ8, Joint8, Shas8, YisraelBeiteinu6, RZ-Zehut6, Raam6; total120. Winter and Hendel do not pass.
+Exact below-threshold percentages: Winter2.9%, Hendel2.4%. Gantz, HarediPublic, Noam, TzevaShahor and Ahi each less than1%; these are bounds, not exact0% or imputed0.5%. No combined Other percentage published. IsraelFirst is not listed in this new article; its seats and percentage are missing.
+Published bloc seats: coalition57, opposition49, Arab parties14.
+The poll archive chart remains on13October while its newest article link is artc-81805. Homepage also links the new article. The current DirectPolls13October observation is replaced only in the active register and remains in history.
+Source: https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805

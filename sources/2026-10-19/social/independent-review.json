@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-19",
+  "image": "threshold-probabilities.png",
+  "imageSha256": "c7167d5b34bd182222629f11e7e530c123ada83ab9dd608213d33a4b9b6061d1",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "visualInspectionCompleted": true,
+  "inspectionMethod": "Independent release reviewer opened this exact PNG with view_image and read its actual pixels before recording these observations. No image changes were made.",
+  "visualObservations": [
+    "Painted Knesset scene and two distinct envelopes support the simple two-party comparison; no crowding or cropped text.",
+    "Winter/AmkhaIsrael is red at right; Hendel-Zelekha/Miluimnikim-and-economic is purple at left. Names and values are correctly associated.",
+    "Large28.7% and47.6% are explicitly chances to pass;3.25% is separately labelled as the electoral threshold.",
+    "Mean seats1.2 and2.1 are separately labelled and the footnote explicitly includes zero-seat failure cases.",
+    "Model estimate is distinguished from a published poll and from certainty; no statistical significance claim is present.",
+    "Update19.10.2026 is separate from latest data18.10.2026; historical accuracy plus similar-poll discount, noChannel14, latest-per-institute and2022turnout assumptions are legible.",
+    "Seven selected publishers are correctly named; credit to ויקטור רינה בן דוד is visible."
+  ],
+  "values": {
+    "winter": {
+      "passPct": 28.720000000000002,
+      "unconditionalMeanSeats": 1.2062,
+      "displayed": {
+        "pass": "28.7%",
+        "mean": "1.2"
+      }
+    },
+    "hendel": {
+      "passPct": 47.61,
+      "unconditionalMeanSeats": 2.1021,
+      "displayed": {
+        "pass": "47.6%",
+        "mean": "2.1"
+      }
+    }
+  },
+  "tweetSha256": "b5ec351484716f65b4cf825899fdda192b64186fdfe596e34dc51d7bc945414d",
+  "renderReceiptSha256": "e98c98bb3268ddba87b62766333fc612a74f59eaaf191b085541a2e05c3a12b3",
+  "sourcePlanSha256": "0743fae63c950644e7aab20ad7add3f42e83f4410f26ba498316ee35c707976b",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "225279628ebf2755288f243eac4415feb29c0fe057f95ec0893862c4d2679a75",
+  "modelDataSha256": "b27e44074c7af49d6f9cb0a6ac8417efe67020d3d7eb23668c3fd2bfa17f7656",
+  "reviewScriptSha256": "5c586ad4b8d2f0302948bb9a9da84ec636b02de55e33c003a9a5f497908773f8",
+  "automaticTweetPosted": false,
+  "modelUiSourceChanged": false
+}

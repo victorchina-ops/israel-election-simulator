@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-19",
+  "output": "threshold-probabilities.png",
+  "outputSha256": "c7167d5b34bd182222629f11e7e530c123ada83ab9dd608213d33a4b9b6061d1",
+  "prompt": "image-prompt.txt",
+  "promptSha256": "b02a69ab403ef41c27cefb26fdd154a51cb083042ba4b15a791a3e2ccef1fc8c",
+  "cleanupPrompt": "cleanup-final-prompt.txt",
+  "cleanupPromptSha256": "8d66b41cc09a37330135cc7b68e2d9aa2c19ac82ed93cce266aafdb95661f430",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "225279628ebf2755288f243eac4415feb29c0fe057f95ec0893862c4d2679a75",
+  "defaultModelComparisonSha256": "8ad4ed0d8aa0399a94bfddecc3f1aa77611be0a4c28ba8c7269997d454ea1489",
+  "independentModelReviewSha256": "a1529af8fe2c02b516028998b7306170a13e1f7ca84b7bdb70ce11e6a33b8b34",
+  "sourcePlanSha256": "0743fae63c950644e7aab20ad7add3f42e83f4410f26ba498316ee35c707976b",
+  "browserLocalReportSha256": "6daa78778ef54311cb3addc4861ccccf96b76286ebecfa68b8345c7d412db5af",
+  "dimensions": {
+    "width": 1122,
+    "height": 1402
+  },
+  "visualInspectionCompleted": true,
+  "visualInspectionMethod": "Root inspected the generated image pixels. Main numbers, labels, probability/seat definitions, data/update dates, sources, assumptions and credit read correctly. Earlier malformed date drafts remain local only.",
+  "checks": {
+    "winterPass": "28.7%",
+    "hendelPass": "47.6%",
+    "winterUnconditionalMeanSeats": "1.2",
+    "hendelUnconditionalMeanSeats": "2.1",
+    "latestDataDate": "18.10.2026",
+    "updateDate": "19.10.2026",
+    "channel14Excluded": true,
+    "similarityExplicitlyOn": true,
+    "modelResultNotPublishedVoteShare": true,
+    "noSignificanceClaim": true,
+    "credit": "ויקטור רינה בן דוד"
+  },
+  "generator": "built-in image_gen",
+  "tweetWeightedLength": 247,
+  "automaticTweetPosted": false,
+  "draftsKeptOutsidePublishedSocialFolder": true
+}

@@ -1,0 +1,8 @@
+Edit only the small footer block at the bottom of the supplied image. Keep the entire illustration and all main text and numeric values unchanged: Winter28.7%, Hendel–Zelekha47.6%, mean seats1.2 and2.1, title, update19.10.2026 and threshold3.25%.
+The previous footer date range was hard to read. Replace the entire footer with the following FIVE short centered Hebrew lines, exactly, with generous line spacing. Make it tall enough to read; keep all other content intact.
+"דיוק היסטורי + צמצום משקל לסקרים דומים • ללא ערוץ 14"
+"הסקר האחרון מכל מכון • נתונים עד 18.10.2026"
+"הצבעה: בסיס 2022"
+"מקורות: 12, כאן 11, 13, מעריב, 16, זמן ישראל, i24"
+"ויקטור רינה בן דוד"
+There should be NO numeric date range12–18 anywhere; only the single clear latest-data date18.10.2026 in the footer. Preserve the portrait dimensions, opaque background, upper Knesset painting and the probability columns.

@@ -1,0 +1,14 @@
+Reviewed published observation next_data_2026-10-18; publication 2026-10-18; audit 2026-10-19.
+Original source: https://www.c14.co.il/article/1743088.
+Published mandates: {"likud": 29, "yashar": 22, "beyachad": 10, "democrats": 8, "yisrael_beiteinu": 6, "otzma": 7, "utj": 8, "shas": 10, "rz_zehut": 7, "joint": 7, "raam": 6, "winter": 0, "hendel": 0, "gantz": 0, "noam": 0, "haredi_public": 0}
+Exact published percentages: {"hendel": 2.4, "winter": 2.4, "gantz": 0.9, "noam": 0.8, "haredi_public": 0.5}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 61, "opposition": 46, "arab_parties": 13}
+Sample size exact/exclusive lower bound: 559/None
+Verified fieldwork: True; 2026-10-18 to 2026-10-18
+Missing values are not zero and are never inherited.
+סקר NEXT DATA מ־18.10,559 משיבים; מחליף את סקר14.10 הפעיל בלבד. ערוץ14 מוחרג מברירת המחדל ונשמר במאגר.
+כל המנדטים והאחוזים מתחת לחסימה אומתו בכתבה ובגרפיקה המקורית. הגרפיקה מציגה61 מול59 כולל ערביות; הכתבה מפרקת46 אופוזיציה ו13 ערביות.
+אח״י0.2% נשמרת בשמה וממופה לאחרים למודל בלבד. אין לייחס0.2% לכל יתר הרשימות או לאפס אחוזים חסרים.
+שיטת איסוף, מוזמנים, מתלבטים, טעות דגימה, רמת ביטחון, פאנל ומכנה אחוזים לא פורסמו במקורות שנבדקו ונשארים חסרים.
+שינויי המנדטים לעומת14.10: ישר+2, ביחד−1, עוצמה−1, ישראל ביתנו+1, משותפת−2, רע״ם+1. נתוני תצפיות בלבד; אין טענה למובהקות.

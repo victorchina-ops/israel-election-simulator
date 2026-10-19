@@ -1,0 +1,292 @@
+{
+  "status": "reviewed",
+  "asOf": "2026-10-19",
+  "baselineAsOf": "2026-10-16",
+  "baselineRelease": "2026-10-16-maariv",
+  "checkpointManifestSha256": "ee6288e8a0485fe49215685880f7d8ff8a79defd86a49769685b12eb274a052f",
+  "baselinePublishedHead": "d6435c05d84f1bee751e4b7c8603b92bef498d74",
+  "observationPublicationDates": [
+    "2026-10-18"
+  ],
+  "publicCopyrightScopeReviewed": true,
+  "publicEvidenceScope": "Original numerical graphics where archived, independently paraphrased numerical facts, concise verified date quotations, source URLs/statuses and hashes only. Full authored articles, complete reader bodies and compiled To120 data remain local.",
+  "polls": [
+    {
+      "pollsterId": "kantar",
+      "folder": "kan",
+      "candidatePath": "artifacts/poll-checks/2026-10-19/source-kan/reviewed-kantar-poll-r1.json",
+      "candidateSha256": "45bec509ec0ac14a89ae5f961f0d8ab66218867941c1b26b1c417650903c1641",
+      "expectedSeats": {
+        "yashar": 23,
+        "likud": 21,
+        "beyachad": 12,
+        "democrats": 9,
+        "yisrael_beiteinu": 8,
+        "joint": 8,
+        "otzma": 8,
+        "shas": 8,
+        "utj": 7,
+        "rz_zehut": 7,
+        "raam": 5,
+        "hendel": 4,
+        "winter": 0,
+        "gantz": 0,
+        "haredi_public": 0
+      },
+      "expectedReportedPercentages": {
+        "winter": 3.1
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 51,
+        "opposition": 52,
+        "arab_parties": 13,
+        "hendel": 4
+      },
+      "expectedSampleSize": 547,
+      "strictEligible": false,
+      "fieldworkEvidence": [],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-kan/reviewed-kantar-poll-r1.json",
+          "publicName": "reviewed-kantar-poll-r1.json",
+          "sha256": "45bec509ec0ac14a89ae5f961f0d8ab66218867941c1b26b1c417650903c1641"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-kan/kan-original-graphic.webp",
+          "publicName": "kan-original-graphic.webp",
+          "sha256": "36f3dacaf5248666e8def6364e095d8fdeb9a8c2f043fe21888953ff77d4e8e0"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-kan/kantar-reviewed-facts-r1.txt",
+          "publicName": "kantar-reviewed-facts-r1.txt",
+          "sha256": "cf7bd6288aa5d207eeaed1e5bcf0fcaf4c19a4accd412a3f23350b8dce35fa2d"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-kan/kantar-verification-summary-r1.json",
+          "publicName": "kantar-verification-summary-r1.json",
+          "sha256": "676684209fd1ad64be9aa15a5effda3df5f0fb020a3e850a14a79bc4b94bbd52"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-kan/source-revision-r1.json",
+          "publicName": "source-revision-r1.json",
+          "sha256": "66314b1b757a06353ee3d4ae890029435207c7008acc1fe317a2fd8e8523f5ab"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-israelpolls/kan-2026-10-18-reviewed-source-facts.json",
+          "publicName": "kan-2026-10-18-reviewed-source-facts.json",
+          "sha256": "2c2e174d3411674f41794b75bfad656c28dc94a35722dcca7a5b0f1afda823b8"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-israelpolls/kan-2026-10-18-reviewed-source-facts-r1.json",
+          "publicName": "kan-2026-10-18-reviewed-source-facts-r1.json",
+          "sha256": "ea53c864f0380b56322ad66f77c34a10725116569db381e26bd7c8aa0f291173"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-israelpolls/kan-sample-size-source-conflict-r1.json",
+          "publicName": "kan-sample-size-source-conflict-r1.json",
+          "sha256": "9e2dc847e1c5effc716da2bee90e4a3e7d457efcaa6b55e6f8ab496032fec5d2"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-kan/reviewed-kantar-poll-r1.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "45bec509ec0ac14a89ae5f961f0d8ab66218867941c1b26b1c417650903c1641"
+        }
+      ]
+    },
+    {
+      "pollsterId": "next_data",
+      "folder": "c14",
+      "candidatePath": "artifacts/poll-checks/2026-10-19/source-main-tv/reviewed-next-data-poll.json",
+      "candidateSha256": "0fdf320fe8fa0d93217f2dea9cc64029ba8597ee4d40bd9958b826374263c647",
+      "expectedSeats": {
+        "likud": 29,
+        "yashar": 22,
+        "beyachad": 10,
+        "democrats": 8,
+        "yisrael_beiteinu": 6,
+        "otzma": 7,
+        "utj": 8,
+        "shas": 10,
+        "rz_zehut": 7,
+        "joint": 7,
+        "raam": 6,
+        "winter": 0,
+        "hendel": 0,
+        "gantz": 0,
+        "noam": 0,
+        "haredi_public": 0
+      },
+      "expectedReportedPercentages": {
+        "hendel": 2.4,
+        "winter": 2.4,
+        "gantz": 0.9,
+        "noam": 0.8,
+        "haredi_public": 0.5
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 61,
+        "opposition": 46,
+        "arab_parties": 13
+      },
+      "expectedSampleSize": 559,
+      "strictEligible": true,
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-19/source-main-tv/c14-verification-summary.json",
+          "sha256": "f64aec674631eb87a171ef0a14ccb8b3c4a1d5ab77f418a065ec79e4c9403e33",
+          "quote": "ונערך היום, 18 באוקטובר 2026",
+          "sourceUrl": "https://www.c14.co.il/article/1743088",
+          "evidenceScope": "Concise exact date wording read in the original publisher. The public factual proof independently records the verified date; full original reader receipt remains local.",
+          "quoteVerifiedInLocalOriginalReceipt": {
+            "file": "artifacts/poll-checks/2026-10-19/source-main-tv/web-reader-LOCALONLY.json",
+            "sha256": "a8a974855f32b77e46d75bca45bf42d51857e6ed919e0e6656599a0aea2096a8"
+          }
+        }
+      ],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-main-tv/reviewed-next-data-poll.json",
+          "publicName": "reviewed-next-data-poll.json",
+          "sha256": "0fdf320fe8fa0d93217f2dea9cc64029ba8597ee4d40bd9958b826374263c647"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-main-tv/c14-reviewed-facts.txt",
+          "publicName": "c14-reviewed-facts.txt",
+          "sha256": "36ac9ae5220858b8219c9a1510e679628db0938ac638a4fcc8cba932f297b4c7"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-main-tv/c14-verification-summary.json",
+          "publicName": "c14-verification-summary.json",
+          "sha256": "f64aec674631eb87a171ef0a14ccb8b3c4a1d5ab77f418a065ec79e4c9403e33"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-main-tv/c14-original-seat-graphic.jpeg",
+          "publicName": "c14-original-seat-graphic.jpeg",
+          "sha256": "54af64739b27422809e2a1642e131c9b0f961d5eaa94771f5081fd974b845f67"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-main-tv/source-check.json",
+          "publicName": "source-check.json",
+          "sha256": "0df26ba3e583432bbeaf2ffa5adb3b637f429d418606c4a78d332afee165133b"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-main-tv/source-public-freeze-receipt.json",
+          "publicName": "source-public-freeze-receipt.json",
+          "sha256": "f96d6a3a47a8e95e2e17931923005425a6f3067592442e3708fa87f3d0ee3bba"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-main-tv/reviewed-next-data-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "0fdf320fe8fa0d93217f2dea9cc64029ba8597ee4d40bd9958b826374263c647"
+        }
+      ]
+    },
+    {
+      "pollsterId": "direct_polls",
+      "folder": "i24",
+      "candidatePath": "artifacts/poll-checks/2026-10-19/source-i24/reviewed-direct-poll.json",
+      "candidateSha256": "494399c8b3ca943ae20709441ba9abe93ac592b765316c3cb278d38c41d51706",
+      "expectedSeats": {
+        "likud": 25,
+        "yashar": 21,
+        "beyachad": 13,
+        "otzma": 10,
+        "democrats": 9,
+        "utj": 8,
+        "joint": 8,
+        "shas": 8,
+        "yisrael_beiteinu": 6,
+        "rz_zehut": 6,
+        "raam": 6,
+        "winter": 0,
+        "hendel": 0,
+        "gantz": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "expectedReportedPercentages": {
+        "winter": 2.9,
+        "hendel": 2.4
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 57,
+        "opposition": 49,
+        "arab_parties": 14
+      },
+      "expectedSampleSize": 525,
+      "strictEligible": true,
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-19/source-i24/fieldwork-proof.json",
+          "sha256": "d550124256d1dc36487fa4d4ed770497f2ac0a6ef676b54cc764e3cc5fcb6a7b",
+          "quote": "בתאריך ה-18 באוקטובר 2026",
+          "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+          "evidenceScope": "Concise exact date wording read in the original publisher. The public factual proof independently records the verified date; full original reader receipt remains local.",
+          "quoteVerifiedInLocalOriginalReceipt": {
+            "file": "artifacts/poll-checks/2026-10-19/source-i24/i24-reader-local-only.json",
+            "sha256": "2f9bb531007be2d8baa200abfdc2ba2993c465ec3d10dcc3879c35da78b8bf06"
+          }
+        }
+      ],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-i24/reviewed-direct-poll.json",
+          "publicName": "reviewed-direct-poll.json",
+          "sha256": "494399c8b3ca943ae20709441ba9abe93ac592b765316c3cb278d38c41d51706"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-i24/i24-reviewed-facts.txt",
+          "publicName": "i24-reviewed-facts.txt",
+          "sha256": "8804e20ba4730acbf2337a43fee4091311aede64ad8cca8ef1f840e7d504dc35"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-i24/i24-verification-summary.json",
+          "publicName": "i24-verification-summary.json",
+          "sha256": "4824de2a042f454ff45521183bcb2a9400e0e463d74ac57df20e52a9daf1cb2e"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-i24/fieldwork-proof.json",
+          "publicName": "fieldwork-proof.json",
+          "sha256": "d550124256d1dc36487fa4d4ed770497f2ac0a6ef676b54cc764e3cc5fcb6a7b"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-israelpolls/i24-2026-10-18-reviewed-source-facts.json",
+          "publicName": "i24-2026-10-18-reviewed-source-facts.json",
+          "sha256": "ddfff4e4464ec73ed2bbeea967b1319b433b449a41896316fd9b1289e2e4af5f"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-19/source-i24/reviewed-direct-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "494399c8b3ca943ae20709441ba9abe93ac592b765316c3cb278d38c41d51706"
+        }
+      ]
+    }
+  ],
+  "sourceReview": {
+    "requiredIsraelPollsUrl": "https://x.com/IsraelPolls?s=20",
+    "pollGraphicsAndHistoricalTablesChecked": true,
+    "sameObservationRepostsNotCounted": true,
+    "publicationVersusFieldwork": "All three observations published18October. Actual C14/i24 collection18October verified; Kancollectionunknown. Audit19October.",
+    "sourceDiscoveryLocalReceipt": "artifacts/poll-checks/2026-10-19/source-israelpolls/scan-receipt.json",
+    "sourceDiscoveryLocalSha256": "145026bec5fe2c4103a754edb39de6f306ed2eb47b1697ad38d83d69fc110012",
+    "sourceDiscoveryInitialKanSampleSupersededByPrimary": {
+      "acceptedSampleSize": 547,
+      "conflictingRepostSampleSize": 554,
+      "correctionPath": "artifacts/poll-checks/2026-10-19/source-israelpolls/kan-sample-size-source-conflict-r1.json",
+      "correctionSha256": "9e2dc847e1c5effc716da2bee90e4a3e7d457efcaa6b55e6f8ab496032fec5d2"
+    },
+    "otherPublisherCoverage": {
+      "file": "artifacts/poll-checks/2026-10-19/source-other-publishers/coverage.json",
+      "sha256": "f9022e61f73b307918d26b3ec89fd567dc6f309ead7616ef837786ca27ab10a4",
+      "publicName": "other-publishers-coverage.json"
+    },
+    "primarySourcePublicSummary": {
+      "file": "artifacts/poll-checks/2026-10-19/primary-source-public-summary.json",
+      "sha256": "dc1208fc734c3a6a424402e642530117e770a69daa30e84278559f161452daa6"
+    },
+    "channel14DefaultExclusionPreserved": true,
+    "historicalAccuracyWeightsUnchanged": true,
+    "reviewedExactPythonIntegerHelpersPreserved": true,
+    "compiledForecastsIngested": false
+  }
+}

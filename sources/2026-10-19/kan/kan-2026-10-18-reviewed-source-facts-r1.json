@@ -1,0 +1,87 @@
+{
+  "asOf": "2026-10-19",
+  "publisher": "Kan 11",
+  "pollster": "Kantar / Dudi Hasid",
+  "sourceTierForRetrievableLocation": "original-publisher",
+  "evidenceKind": "Original publisher numerical graphic shared by IsraelPolls, visually cross-checked with its historical table",
+  "graphicPollDate": "2026-10-18",
+  "primaryPublisherPublicationVerifiedByThisAgent": false,
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": 547,
+  "sampleSizeEvidence": "547 respondents read in the vertical label of the original Kan-hosted graphic; original-publisher graphic takes precedence over a conflicting repost graphic.",
+  "samplingMethod": null,
+  "marginOfErrorPct": null,
+  "confidencePct": null,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 12,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "joint": 8,
+    "otzma": 8,
+    "shas": 8,
+    "utj": 7,
+    "rz_zehut": 7,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "gantz": 0
+  },
+  "seatTotal": 120,
+  "publishedPercentagePoints": {
+    "winter": 3.1
+  },
+  "missingPercentagePartyIds": [
+    "gantz",
+    "haredi_public"
+  ],
+  "missingnessNote": "Gantz and Haredi Public 18 October cells are blank. Prior 15 October 0.8 and 0.9 must not be carried forward. Other absent percentages remain missing.",
+  "sourceGraphicBlocSeats": {
+    "netanyahu": 51,
+    "eisenkot": 52,
+    "arabParties": 13,
+    "hendelZelekha": 4
+  },
+  "historicalTableBlocSeats": {
+    "coalition": 51,
+    "othersIncludingHendel": 56,
+    "arabParties": 13
+  },
+  "blocReconciliation": "Table others 56 equals opposition 52 plus Hendel-Zelekha 4.",
+  "pollPostUrl": "https://x.com/IsraelPolls/status/2111888191405867224",
+  "pollPostAtUtc": "2026-10-18T18:32:36Z",
+  "pollPostAtIsrael": "2026-10-18T21:32:36+03:00",
+  "pollGraphicUrl": "https://pbs.twimg.com/media/HU7vHW1WgAAkdbC?format=jpg&name=large",
+  "pollGraphicNaturalPixels": [
+    1280,
+    720
+  ],
+  "historyPostUrl": "https://x.com/IsraelPolls/status/2111931238550524153",
+  "historyPostAtUtc": "2026-10-18T21:23:39Z",
+  "historyPostAtIsrael": "2026-10-19T00:23:39+03:00",
+  "historyGraphicUrl": "https://pbs.twimg.com/media/HU8WQ92WsAIvWrj?format=png&name=large",
+  "historyGraphicNaturalPixels": [
+    1243,
+    552
+  ],
+  "deduplication": "One new 18 October Kantar observation. Graphic and history are not two polls. Current Kantar row is Israel Hayom 15 October; same-publisher prior Kan is 11 October. Preserve both in history.",
+  "imageFileArchived": false,
+  "imageSha256": null,
+  "publicScope": "Concise factual extraction. Full authored articles and reader bodies are excluded.",
+  "primaryPublisherGraphicVerifiedByThisAgent": true,
+  "primaryGraphicUrl": "https://www.kan.org.il/media/w2slffow/whatsapp-image-2026-10-18-at-200814.jpeg?width=642&height=361&v=1dd5f3cab2b48c0",
+  "primaryGraphicLocalPath": "artifacts/poll-checks/2026-10-19/source-kan/kan-original-graphic.webp",
+  "primaryGraphicSha256": "36f3dacaf5248666e8def6364e095d8fdeb9a8c2f043fe21888953ff77d4e8e0",
+  "sourceConflict": {
+    "field": "sampleSize",
+    "originalKanGraphic": 547,
+    "israelPollsRepostGraphic": 554,
+    "accepted": 547,
+    "reason": "Source-version discrepancy; do not average values or infer from image alignment. Direct original publisher graphic takes precedence.",
+    "initialFactsFile": "kan-2026-10-18-reviewed-source-facts.json",
+    "initialFactsSha256": "2c2e174d3411674f41794b75bfad656c28dc94a35722dcca7a5b0f1afda823b8",
+    "originalFrozenEvidencePreserved": true
+  }
+}

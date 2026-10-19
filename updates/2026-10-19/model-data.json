@@ -1,0 +1,92 @@
+{
+  "asOf": "2026-10-19",
+  "latestPollPublicationDate": "2026-10-18",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "225279628ebf2755288f243eac4415feb29c0fe057f95ec0893862c4d2679a75",
+  "definition": "10,000 model simulations, historical accuracy plus current-forecast similarity, Channel14 excluded; Winter coalition, Hendel outside blocs, turnout2022. Probabilities are not poll vote percentages or calibrated election guarantees.",
+  "parties": {
+    "winter": {
+      "passPct": 28.720000000000002,
+      "meanSeats": 1.2062
+    },
+    "hendel": {
+      "passPct": 47.61,
+      "meanSeats": 2.1021
+    }
+  },
+  "meanSeatDefinition": "Unconditional, including zero seats when failing the threshold.",
+  "selectedPolls": [
+    {
+      "id": "midgam_geva_2026-10-12",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "date": "2026-10-12",
+      "fieldworkStart": "2026-10-12",
+      "fieldworkEnd": "2026-10-12",
+      "sampleSize": 509,
+      "checkedAt": "2026-10-12"
+    },
+    {
+      "id": "kantar_2026-10-18",
+      "pollsterId": "kantar",
+      "publisher": "כאן 11",
+      "date": "2026-10-18",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 547,
+      "checkedAt": "2026-10-19"
+    },
+    {
+      "id": "hamadad_consortium_2026-10-14",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "date": "2026-10-14",
+      "fieldworkStart": "2026-10-13",
+      "fieldworkEnd": "2026-10-13",
+      "sampleSize": 1018,
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "lazar_2026-10-16",
+      "pollsterId": "lazar",
+      "publisher": "מעריב",
+      "date": "2026-10-16",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": null,
+      "checkedAt": "2026-10-16"
+    },
+    {
+      "id": "maagar_mochot_2026-10-13",
+      "pollsterId": "maagar_mochot",
+      "publisher": "ערוץ 16",
+      "date": "2026-10-13",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": null,
+      "checkedAt": "2026-10-13"
+    },
+    {
+      "id": "tatika_2026-10-15",
+      "pollsterId": "tatika",
+      "publisher": "זמן ישראל",
+      "date": "2026-10-15",
+      "fieldworkStart": "2026-10-14",
+      "fieldworkEnd": "2026-10-15",
+      "sampleSize": 500,
+      "checkedAt": "2026-10-15"
+    },
+    {
+      "id": "direct_polls_2026-10-18",
+      "pollsterId": "direct_polls",
+      "publisher": "i24NEWS",
+      "date": "2026-10-18",
+      "fieldworkStart": "2026-10-18",
+      "fieldworkEnd": "2026-10-18",
+      "sampleSize": 525,
+      "checkedAt": "2026-10-19"
+    }
+  ],
+  "selectedInstitutes": 7,
+  "automaticTweetPosted": false
+}

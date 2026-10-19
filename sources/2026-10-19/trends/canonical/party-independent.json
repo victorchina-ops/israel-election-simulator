@@ -1,0 +1,2656 @@
+{
+  "cohortSha256": "e14ef7e182b84329c6d437539c83dbda3c1314457f6de025d91e10c9099cc355",
+  "historySha256": "e9466c4384df3ae2b478ae7b68bdad91fbbe0135cbeaf435b873a59e1e96ee31",
+  "nPolls": 49,
+  "nSeries": 8,
+  "nParties": 17,
+  "nIndividualTests": 136,
+  "independentCounting": "Independent lstsq slopes and monotone two-pointer scalar tails over sorted halves with exact integer-score multiplicities and Python-integer mass; direct inclusive sums without searchsorted or Cartesian tail masks; absolute tail tolerance 1e-12 matches the primary counter.",
+  "compressedHalfSizes": [
+    [
+      1540136,
+      2863500
+    ],
+    [
+      560560,
+      1396980
+    ],
+    [
+      206568,
+      311040
+    ],
+    [
+      45024,
+      33120
+    ],
+    [
+      12110,
+      12996
+    ],
+    [
+      1836,
+      2400
+    ],
+    [
+      24300,
+      63210
+    ],
+    [
+      595,
+      420
+    ],
+    [
+      398944,
+      1280772
+    ],
+    [
+      59850,
+      25480
+    ],
+    [
+      952,
+      3060
+    ],
+    [
+      13600,
+      19488
+    ],
+    [
+      2800,
+      1512
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "nPermutations": 8257200625129881600000000,
+  "nPermutationsExact": "8257200625129881600000000",
+  "nSignPatterns": 256,
+  "overall": [
+    {
+      "partyId": "yashar",
+      "name": "ישר!",
+      "slopePerWeek": 0.0661288490321793,
+      "netDelta": -0.402126398584856,
+      "p": 0.9780777876133586,
+      "q": 1.0,
+      "signFlipP": 0.90625,
+      "signFlipQ": 1.0,
+      "extremeCount": 8076184519306676356251648,
+      "extremeCountExact": "8076184519306676356251648"
+    },
+    {
+      "partyId": "likud",
+      "name": "הליכוד",
+      "slopePerWeek": 0.11497152313546234,
+      "netDelta": -1.0318068979336537,
+      "p": 0.9736459299898452,
+      "q": 1.0,
+      "signFlipP": 0.890625,
+      "signFlipQ": 1.0,
+      "extremeCount": 8039589781767315070648320,
+      "extremeCountExact": "8039589781767315070648320"
+    },
+    {
+      "partyId": "beyachad",
+      "name": "ביחד",
+      "slopePerWeek": -0.002183711620331097,
+      "netDelta": -0.0011623848890767174,
+      "p": 0.9804183229758691,
+      "q": 1.0,
+      "signFlipP": 0.9375,
+      "signFlipQ": 1.0,
+      "extremeCount": 8095510789365136313548800,
+      "extremeCountExact": "8095510789365136313548800"
+    },
+    {
+      "partyId": "democrats",
+      "name": "הדמוקרטים",
+      "slopePerWeek": -0.06928732852860071,
+      "netDelta": -0.25413893415073996,
+      "p": 0.11484702626156283,
+      "q": 0.48809986161164204,
+      "signFlipP": 0.21875,
+      "signFlipQ": 0.85,
+      "extremeCount": 948314937041284497408000,
+      "extremeCountExact": "948314937041284497408000"
+    },
+    {
+      "partyId": "yisrael_beiteinu",
+      "name": "ישראל ביתנו",
+      "slopePerWeek": -0.012950520337366538,
+      "netDelta": -0.12060457161362886,
+      "p": 0.7625877100865037,
+      "q": 1.0,
+      "signFlipP": 0.84375,
+      "signFlipQ": 1.0,
+      "extremeCount": 6296839716442643575603200,
+      "extremeCountExact": "6296839716442643575603200"
+    },
+    {
+      "partyId": "utj",
+      "name": "יהדות התורה",
+      "slopePerWeek": -0.010109318674382063,
+      "netDelta": -0.12815003917819037,
+      "p": 0.7767850088183421,
+      "q": 1.0,
+      "signFlipP": 0.8125,
+      "signFlipQ": 1.0,
+      "extremeCount": 6414069660406335406080000,
+      "extremeCountExact": "6414069660406335406080000"
+    },
+    {
+      "partyId": "joint",
+      "name": "הרשימה המשותפת",
+      "slopePerWeek": 0.19527224067640614,
+      "netDelta": 1.0177813971231122,
+      "p": 1.3992294448643655e-06,
+      "q": 2.3786900562694213e-05,
+      "signFlipP": 0.015625,
+      "signFlipQ": 0.265625,
+      "extremeCount": 11553718246834176000,
+      "extremeCountExact": "11553718246834176000"
+    },
+    {
+      "partyId": "shas",
+      "name": "ש״ס",
+      "slopePerWeek": -0.014137621812414493,
+      "netDelta": -0.0020607942642032195,
+      "p": 0.7091496598639456,
+      "q": 1.0,
+      "signFlipP": 0.9375,
+      "signFlipQ": 1.0,
+      "extremeCount": 5855591014739214336000000,
+      "extremeCountExact": "5855591014739214336000000"
+    },
+    {
+      "partyId": "otzma",
+      "name": "עוצמה יהודית",
+      "slopePerWeek": 0.027923476639797155,
+      "netDelta": 0.6501509917054515,
+      "p": 0.9514605669086545,
+      "q": 1.0,
+      "signFlipP": 0.921875,
+      "signFlipQ": 1.0,
+      "extremeCount": 7856400787864573527982080,
+      "extremeCountExact": "7856400787864573527982080"
+    },
+    {
+      "partyId": "rz_zehut",
+      "name": "הציונות הדתית–זהות",
+      "slopePerWeek": 0.2111486683383591,
+      "netDelta": 0.6220333150823512,
+      "p": 0.026898280606995884,
+      "q": 0.15242359010631001,
+      "signFlipP": 0.140625,
+      "signFlipQ": 0.796875,
+      "extremeCount": 222104499443005390848000,
+      "extremeCountExact": "222104499443005390848000"
+    },
+    {
+      "partyId": "raam",
+      "name": "רע״ם",
+      "slopePerWeek": 0.15421679805832025,
+      "netDelta": 0.3635088168892542,
+      "p": 0.16657467372134038,
+      "q": 0.5663538906525573,
+      "signFlipP": 0.25,
+      "signFlipQ": 0.85,
+      "extremeCount": 1375440499982657912832000,
+      "extremeCountExact": "1375440499982657912832000"
+    },
+    {
+      "partyId": "winter",
+      "name": "עמך ישראל",
+      "slopePerWeek": -0.5292108102269346,
+      "netDelta": -2.2712858974126764,
+      "p": 0.0012398913454270597,
+      "q": 0.010539076436130007,
+      "signFlipP": 0.046875,
+      "signFlipQ": 0.3984375,
+      "extremeCount": 10238031592553447424000,
+      "extremeCountExact": "10238031592553447424000"
+    },
+    {
+      "partyId": "hendel",
+      "name": "המילואימניקים והכלכלית",
+      "slopePerWeek": -0.13178224468049238,
+      "netDelta": 1.5578613972268562,
+      "p": 0.99864708994709,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 8246029375395248209920000,
+      "extremeCountExact": "8246029375395248209920000"
+    },
+    {
+      "partyId": "gantz",
+      "name": "כחול לבן",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 8257200625129881600000000,
+      "extremeCountExact": "8257200625129881600000000"
+    },
+    {
+      "partyId": "noam",
+      "name": "נעם לישראל",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 8257200625129881600000000,
+      "extremeCountExact": "8257200625129881600000000"
+    },
+    {
+      "partyId": "haredi_public",
+      "name": "הציבור החרדי",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 8257200625129881600000000,
+      "extremeCountExact": "8257200625129881600000000"
+    },
+    {
+      "partyId": "israel_first",
+      "name": "ישראל תחילה",
+      "slopePerWeek": 0.0,
+      "netDelta": 0.0,
+      "p": 1.0,
+      "q": 1.0,
+      "signFlipP": 1.0,
+      "signFlipQ": 1.0,
+      "extremeCount": 8257200625129881600000000,
+      "extremeCountExact": "8257200625129881600000000"
+    }
+  ],
+  "byPollster": [
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "yashar",
+      "slopePerWeek": -0.19262196587358604,
+      "delta": -1,
+      "p": 0.24285714285714285,
+      "series": [
+        22,
+        21,
+        22,
+        22,
+        20,
+        21,
+        21
+      ],
+      "q": 0.8257142857142856
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "likud",
+      "slopePerWeek": -0.24897861091083717,
+      "delta": -2,
+      "p": 0.23809523809523808,
+      "series": [
+        27,
+        27,
+        27,
+        28,
+        26,
+        27,
+        25
+      ],
+      "q": 0.8257142857142856
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "beyachad",
+      "slopePerWeek": 0.6981494832972851,
+      "delta": 3,
+      "p": 0.05238095238095238,
+      "series": [
+        10,
+        9,
+        9,
+        9,
+        11,
+        13,
+        13
+      ],
+      "q": 0.547985347985348
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "democrats",
+      "slopePerWeek": -0.03364575823119329,
+      "delta": 0,
+      "p": 0.7619047619047619,
+      "series": [
+        9,
+        10,
+        9,
+        9,
+        10,
+        9,
+        9
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": -0.18252823840422944,
+      "delta": -1,
+      "p": 0.14285714285714285,
+      "series": [
+        7,
+        8,
+        7,
+        7,
+        7,
+        7,
+        6
+      ],
+      "q": 0.6938775510204082
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "utj",
+      "slopePerWeek": 6.04328897953023e-16,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "joint",
+      "slopePerWeek": 0.11355443403028144,
+      "delta": 1,
+      "p": 0.3333333333333333,
+      "series": [
+        7,
+        7,
+        7,
+        8,
+        7,
+        7,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "shas",
+      "slopePerWeek": 0.10682528238404322,
+      "delta": 1,
+      "p": 0.2857142857142857,
+      "series": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        8
+      ],
+      "q": 0.9251700680272108
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "otzma",
+      "slopePerWeek": 0.4087959625090122,
+      "delta": 2,
+      "p": 0.01904761904761905,
+      "series": [
+        8,
+        7,
+        8,
+        8,
+        9,
+        9,
+        10
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "rz_zehut",
+      "slopePerWeek": -0.006729151646238517,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        6,
+        6,
+        6,
+        5,
+        6,
+        6,
+        6
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "raam",
+      "slopePerWeek": 0.1497236241288154,
+      "delta": 1,
+      "p": 0.22857142857142856,
+      "series": [
+        5,
+        5,
+        6,
+        5,
+        5,
+        6,
+        6
+      ],
+      "q": 0.8180451127819549
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "winter",
+      "slopePerWeek": -0.8125450612833446,
+      "delta": -4,
+      "p": 0.047619047619047616,
+      "series": [
+        4,
+        5,
+        4,
+        4,
+        4,
+        0,
+        0
+      ],
+      "q": 0.547985347985348
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "hendel",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "direct_polls",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "yashar",
+      "slopePerWeek": -0.4930764599638775,
+      "delta": -2,
+      "p": 0.03333333333333333,
+      "series": [
+        22,
+        22,
+        22,
+        21,
+        20,
+        20
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "likud",
+      "slopePerWeek": 0.06321493076459851,
+      "delta": -1,
+      "p": 0.7666666666666667,
+      "series": [
+        19,
+        18,
+        18,
+        19,
+        20,
+        18
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "beyachad",
+      "slopePerWeek": -0.14750150511739876,
+      "delta": -1,
+      "p": 0.5166666666666667,
+      "series": [
+        13,
+        12,
+        11,
+        11,
+        12,
+        12
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "democrats",
+      "slopePerWeek": -0.13907284768211978,
+      "delta": -1,
+      "p": 0.5666666666666667,
+      "series": [
+        10,
+        10,
+        11,
+        11,
+        10,
+        9
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": 0.1727874774232385,
+      "delta": 1,
+      "p": 0.2,
+      "series": [
+        8,
+        8,
+        8,
+        9,
+        8,
+        9
+      ],
+      "q": 0.7555555555555556
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "utj",
+      "slopePerWeek": 0.09271523178807957,
+      "delta": 0,
+      "p": 0.5,
+      "series": [
+        8,
+        7,
+        8,
+        8,
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "joint",
+      "slopePerWeek": 0.26128838049367803,
+      "delta": 1,
+      "p": 0.1,
+      "series": [
+        8,
+        8,
+        8,
+        9,
+        9,
+        9
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "shas",
+      "slopePerWeek": -4.671577103434163e-16,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "otzma",
+      "slopePerWeek": -0.1180012040939197,
+      "delta": -1,
+      "p": 0.5333333333333333,
+      "series": [
+        9,
+        8,
+        7,
+        8,
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "rz_zehut",
+      "slopePerWeek": -0.06742925948224007,
+      "delta": 0,
+      "p": 0.75,
+      "series": [
+        6,
+        8,
+        6,
+        7,
+        7,
+        6
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "raam",
+      "slopePerWeek": -0.004214328717640595,
+      "delta": 0,
+      "p": 0.9333333333333333,
+      "series": [
+        6,
+        6,
+        5,
+        5,
+        6,
+        6
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "winter",
+      "slopePerWeek": -0.09271523178808051,
+      "delta": 0,
+      "p": 0.6,
+      "series": [
+        4,
+        6,
+        5,
+        5,
+        5,
+        4
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "hendel",
+      "slopePerWeek": 0.4720048163756774,
+      "delta": 4,
+      "p": 0.4666666666666667,
+      "series": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        4
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "yashar",
+      "slopePerWeek": -0.003920653442244175,
+      "delta": 0,
+      "p": 0.9555555555555556,
+      "series": [
+        24,
+        22,
+        23,
+        23,
+        22,
+        24
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "likud",
+      "slopePerWeek": 0.09082847141190076,
+      "delta": 0,
+      "p": 0.5,
+      "series": [
+        21,
+        20,
+        21,
+        21,
+        21,
+        21
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "beyachad",
+      "slopePerWeek": -0.008494749124855195,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        12,
+        13,
+        11,
+        12,
+        13,
+        12
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "democrats",
+      "slopePerWeek": -0.2489614935822651,
+      "delta": -1,
+      "p": 0.1,
+      "series": [
+        9,
+        9,
+        9,
+        8,
+        8,
+        8
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": 0.18753792298716368,
+      "delta": 1,
+      "p": 0.36666666666666664,
+      "series": [
+        7,
+        8,
+        9,
+        9,
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "utj",
+      "slopePerWeek": -0.02940490081680378,
+      "delta": -1,
+      "p": 0.9,
+      "series": [
+        8,
+        7,
+        7,
+        8,
+        8,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "joint",
+      "slopePerWeek": 0.3776896149358215,
+      "delta": 2,
+      "p": 0.03333333333333333,
+      "series": [
+        7,
+        7,
+        7,
+        8,
+        8,
+        9
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "shas",
+      "slopePerWeek": 0.04639439906651012,
+      "delta": 0,
+      "p": 0.8333333333333334,
+      "series": [
+        7,
+        7,
+        7,
+        8,
+        7,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "otzma",
+      "slopePerWeek": 0.3607001166861136,
+      "delta": 2,
+      "p": 0.1111111111111111,
+      "series": [
+        7,
+        8,
+        7,
+        8,
+        9,
+        9
+      ],
+      "q": 0.6868686868686869
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "rz_zehut",
+      "slopePerWeek": 0.1496382730455067,
+      "delta": 1,
+      "p": 0.16666666666666666,
+      "series": [
+        5,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "q": 0.7555555555555554
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "raam",
+      "slopePerWeek": -1.0400272514608824e-15,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "winter",
+      "slopePerWeek": -0.995845974329055,
+      "delta": -4,
+      "p": 0.1,
+      "series": [
+        4,
+        4,
+        4,
+        0,
+        0,
+        0
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "hendel",
+      "slopePerWeek": 0.07383897316219326,
+      "delta": 0,
+      "p": 0.6666666666666666,
+      "series": [
+        4,
+        4,
+        4,
+        4,
+        5,
+        4
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "kantar",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "yashar",
+      "slopePerWeek": -0.7830117420861087,
+      "delta": -3,
+      "p": 0.012698412698412698,
+      "series": [
+        25,
+        25,
+        23,
+        22,
+        21,
+        21,
+        22
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "likud",
+      "slopePerWeek": 0.062967795097167,
+      "delta": -1,
+      "p": 0.8095238095238095,
+      "series": [
+        21,
+        19,
+        18,
+        18,
+        19,
+        20,
+        20
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "beyachad",
+      "slopePerWeek": -0.19947812950628188,
+      "delta": -1,
+      "p": 0.09523809523809523,
+      "series": [
+        14,
+        14,
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "democrats",
+      "slopePerWeek": 0.05816109318135135,
+      "delta": 1,
+      "p": 0.8,
+      "series": [
+        9,
+        10,
+        9,
+        11,
+        10,
+        9,
+        10
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": 7.989317746404829e-16,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "utj",
+      "slopePerWeek": 0.12449357961958459,
+      "delta": 1,
+      "p": 0.42857142857142855,
+      "series": [
+        7,
+        7,
+        7,
+        6,
+        7,
+        7,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "joint",
+      "slopePerWeek": 0.12064821808693353,
+      "delta": 1,
+      "p": 0.14285714285714285,
+      "series": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        8
+      ],
+      "q": 0.6938775510204082
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "shas",
+      "slopePerWeek": 0.003845361532651733,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        7,
+        7,
+        7,
+        6,
+        7,
+        7,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "otzma",
+      "slopePerWeek": 0.140836366133352,
+      "delta": 1,
+      "p": 0.4380952380952381,
+      "series": [
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "rz_zehut",
+      "slopePerWeek": 0.156217812263957,
+      "delta": 1,
+      "p": 0.22857142857142856,
+      "series": [
+        5,
+        5,
+        6,
+        6,
+        5,
+        6,
+        6
+      ],
+      "q": 0.8180451127819549
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "raam",
+      "slopePerWeek": 5.2304696260281e-16,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "winter",
+      "slopePerWeek": -0.4825928723477305,
+      "delta": -4,
+      "p": 0.14285714285714285,
+      "series": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        0
+      ],
+      "q": 0.6938775510204082
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "hendel",
+      "slopePerWeek": 0.7979125180251327,
+      "delta": 4,
+      "p": 0.09523809523809523,
+      "series": [
+        0,
+        0,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "lazar",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "yashar",
+      "slopePerWeek": 2.1538461538461586,
+      "delta": 2,
+      "p": 1.0,
+      "series": [
+        21,
+        23
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "likud",
+      "slopePerWeek": 2.1538461538461586,
+      "delta": 2,
+      "p": 1.0,
+      "series": [
+        19,
+        21
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "beyachad",
+      "slopePerWeek": 8.672701021542825e-18,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        14,
+        14
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "democrats",
+      "slopePerWeek": 8.272788852231224e-16,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        9,
+        9
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": 4.3363505107714124e-18,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        7,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "utj",
+      "slopePerWeek": 4.3363505107714124e-18,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        7,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "joint",
+      "slopePerWeek": 4.3363505107714124e-18,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        7,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "shas",
+      "slopePerWeek": -5.333615852506984e-16,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "otzma",
+      "slopePerWeek": -1.0769230769230766,
+      "delta": -1,
+      "p": 1.0,
+      "series": [
+        8,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "rz_zehut",
+      "slopePerWeek": 1.076923076923077,
+      "delta": 1,
+      "p": 1.0,
+      "series": [
+        6,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "raam",
+      "slopePerWeek": 1.0769230769230769,
+      "delta": 1,
+      "p": 1.0,
+      "series": [
+        5,
+        6
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "winter",
+      "slopePerWeek": -1.0769230769230762,
+      "delta": -1,
+      "p": 1.0,
+      "series": [
+        5,
+        4
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "hendel",
+      "slopePerWeek": -4.3076923076923075,
+      "delta": -4,
+      "p": 1.0,
+      "series": [
+        4,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "yashar",
+      "slopePerWeek": -0.2788411795137035,
+      "delta": -2,
+      "p": 0.4,
+      "series": [
+        25,
+        23,
+        23,
+        23,
+        23
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "likud",
+      "slopePerWeek": -0.043455768235899216,
+      "delta": -1,
+      "p": 0.8,
+      "series": [
+        21,
+        20,
+        20,
+        21,
+        20
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "beyachad",
+      "slopePerWeek": 2.4471647727008436e-15,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        13,
+        13,
+        13,
+        13,
+        13
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "democrats",
+      "slopePerWeek": -0.23357475426797547,
+      "delta": -1,
+      "p": 0.2,
+      "series": [
+        10,
+        10,
+        9,
+        9,
+        9
+      ],
+      "q": 0.7555555555555556
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": 0.0941541645111242,
+      "delta": 0,
+      "p": 0.8,
+      "series": [
+        9,
+        8,
+        9,
+        9,
+        9
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "utj",
+      "slopePerWeek": -0.1593378168649755,
+      "delta": -1,
+      "p": 0.2,
+      "series": [
+        8,
+        8,
+        8,
+        8,
+        7
+      ],
+      "q": 0.7555555555555556
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "joint",
+      "slopePerWeek": 0.16114847387480719,
+      "delta": 1,
+      "p": 0.3,
+      "series": [
+        7,
+        8,
+        7,
+        8,
+        8
+      ],
+      "q": 0.9488372093023255
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "shas",
+      "slopePerWeek": 0.15933781686497756,
+      "delta": 1,
+      "p": 0.2,
+      "series": [
+        7,
+        7,
+        7,
+        7,
+        8
+      ],
+      "q": 0.7555555555555556
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "otzma",
+      "slopePerWeek": 0.4146404552509058,
+      "delta": 2,
+      "p": 0.05,
+      "series": [
+        6,
+        6,
+        6,
+        7,
+        8
+      ],
+      "q": 0.547985347985348
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "rz_zehut",
+      "slopePerWeek": 0.25530263838592887,
+      "delta": 1,
+      "p": 0.1,
+      "series": [
+        5,
+        5,
+        5,
+        6,
+        6
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "raam",
+      "slopePerWeek": 0.23357475426797772,
+      "delta": 1,
+      "p": 0.2,
+      "series": [
+        4,
+        4,
+        5,
+        5,
+        5
+      ],
+      "q": 0.7555555555555556
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "winter",
+      "slopePerWeek": -1.160631143300568,
+      "delta": -5,
+      "p": 0.03333333333333333,
+      "series": [
+        5,
+        4,
+        4,
+        0,
+        0
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "hendel",
+      "slopePerWeek": 0.5576823590274189,
+      "delta": 4,
+      "p": 0.4,
+      "series": [
+        0,
+        4,
+        4,
+        4,
+        4
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "yashar",
+      "slopePerWeek": -0.03415915915915836,
+      "delta": 0,
+      "p": 0.8677976190476191,
+      "series": [
+        22,
+        21,
+        20,
+        22,
+        21,
+        21,
+        23,
+        20,
+        20,
+        22
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "likud",
+      "slopePerWeek": -0.35910910910910865,
+      "delta": -2,
+      "p": 0.0853968253968254,
+      "series": [
+        31,
+        30,
+        31,
+        32,
+        31,
+        32,
+        31,
+        29,
+        29,
+        29
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "beyachad",
+      "slopePerWeek": 0.3564814814814822,
+      "delta": 3,
+      "p": 0.1415873015873016,
+      "series": [
+        7,
+        8,
+        9,
+        7,
+        9,
+        8,
+        8,
+        7,
+        11,
+        10
+      ],
+      "q": 0.6938775510204082
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "democrats",
+      "slopePerWeek": 0.05342842842842865,
+      "delta": 0,
+      "p": 0.6849206349206349,
+      "series": [
+        8,
+        9,
+        8,
+        9,
+        9,
+        9,
+        9,
+        10,
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": -0.3240740740740735,
+      "delta": -1,
+      "p": 0.01619047619047619,
+      "series": [
+        7,
+        6,
+        7,
+        7,
+        6,
+        6,
+        5,
+        5,
+        5,
+        6
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "utj",
+      "slopePerWeek": 0.11736736736736775,
+      "delta": 1,
+      "p": 0.15555555555555556,
+      "series": [
+        7,
+        8,
+        8,
+        7,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "q": 0.7295019157088123
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "joint",
+      "slopePerWeek": 0.27239739739739716,
+      "delta": 1,
+      "p": 0.030555555555555555,
+      "series": [
+        6,
+        7,
+        7,
+        7,
+        7,
+        7,
+        7,
+        8,
+        9,
+        7
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "shas",
+      "slopePerWeek": -0.028028028028027,
+      "delta": 0,
+      "p": 0.8,
+      "series": [
+        10,
+        10,
+        10,
+        11,
+        10,
+        10,
+        10,
+        10,
+        10,
+        10
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "otzma",
+      "slopePerWeek": -0.08145645645645581,
+      "delta": -1,
+      "p": 0.5428571428571428,
+      "series": [
+        8,
+        8,
+        8,
+        6,
+        7,
+        7,
+        8,
+        7,
+        8,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "rz_zehut",
+      "slopePerWeek": -0.18568568568568503,
+      "delta": -1,
+      "p": 0.05,
+      "series": [
+        8,
+        8,
+        7,
+        7,
+        7,
+        7,
+        6,
+        7,
+        7,
+        7
+      ],
+      "q": 0.547985347985348
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "raam",
+      "slopePerWeek": -0.007882882882882723,
+      "delta": 0,
+      "p": 0.9111111111111111,
+      "series": [
+        6,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        6
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "winter",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "hendel",
+      "slopePerWeek": 0.22072072072072063,
+      "delta": 0,
+      "p": 0.5,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "next_data",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "yashar",
+      "slopePerWeek": 0.37142857142856833,
+      "delta": 3,
+      "p": 0.45555555555555555,
+      "series": [
+        23,
+        24,
+        23,
+        21,
+        24,
+        26
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "likud",
+      "slopePerWeek": -0.6000000000000013,
+      "delta": -3,
+      "p": 0.011111111111111112,
+      "series": [
+        23,
+        22,
+        21,
+        21,
+        20,
+        20
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "beyachad",
+      "slopePerWeek": -0.7142857142857152,
+      "delta": -4,
+      "p": 0.1361111111111111,
+      "series": [
+        15,
+        14,
+        12,
+        10,
+        13,
+        11
+      ],
+      "q": 0.6938775510204082
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "democrats",
+      "slopePerWeek": -1.735869289278165e-15,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "yisrael_beiteinu",
+      "slopePerWeek": -0.05714285714285917,
+      "delta": -1,
+      "p": 0.8,
+      "series": [
+        10,
+        9,
+        10,
+        10,
+        10,
+        9
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "utj",
+      "slopePerWeek": -0.2285714285714304,
+      "delta": -1,
+      "p": 0.13333333333333333,
+      "series": [
+        9,
+        9,
+        8,
+        8,
+        8,
+        8
+      ],
+      "q": 0.6938775510204082
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "joint",
+      "slopePerWeek": 0.22857142857142754,
+      "delta": 1,
+      "p": 0.2,
+      "series": [
+        7,
+        8,
+        8,
+        8,
+        9,
+        8
+      ],
+      "q": 0.7555555555555556
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "shas",
+      "slopePerWeek": -0.4000000000000021,
+      "delta": -2,
+      "p": 0.06666666666666667,
+      "series": [
+        10,
+        9,
+        10,
+        9,
+        8,
+        8
+      ],
+      "q": 0.6476190476190476
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "otzma",
+      "slopePerWeek": 0.05714285714285682,
+      "delta": 1,
+      "p": 0.8,
+      "series": [
+        6,
+        7,
+        6,
+        6,
+        6,
+        7
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "rz_zehut",
+      "slopePerWeek": 0.3999999999999994,
+      "delta": 2,
+      "p": 0.03333333333333333,
+      "series": [
+        4,
+        4,
+        4,
+        5,
+        5,
+        6
+      ],
+      "q": 0.5037037037037037
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "raam",
+      "slopePerWeek": -0.11428571428571466,
+      "delta": 0,
+      "p": 0.5333333333333333,
+      "series": [
+        5,
+        6,
+        6,
+        5,
+        5,
+        5
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "winter",
+      "slopePerWeek": 0.34285714285714275,
+      "delta": 0,
+      "p": 0.7,
+      "series": [
+        0,
+        0,
+        4,
+        4,
+        4,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "hendel",
+      "slopePerWeek": 0.7142857142857142,
+      "delta": 4,
+      "p": 0.26666666666666666,
+      "series": [
+        0,
+        0,
+        0,
+        5,
+        0,
+        4
+      ],
+      "q": 0.8845528455284553
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "gantz",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "noam",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "haredi_public",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    },
+    {
+      "pollsterId": "tatika",
+      "partyId": "israel_first",
+      "slopePerWeek": 0.0,
+      "delta": 0,
+      "p": 1.0,
+      "series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "q": 1.0
+    }
+  ],
+  "series": [
+    {
+      "pollsterId": "direct_polls",
+      "weight": 0.12598889497254964,
+      "pollIds": [
+        "history_direct_polls_2026-09-09_718",
+        "history_direct_polls_2026-09-17_current",
+        "history_direct_polls_2026-09-24_current",
+        "history_direct_polls_2026-10-01_current",
+        "history_direct_polls_2026-10-08_current",
+        "history_direct_polls_2026-10-13_current",
+        "history_direct_polls_2026-10-18_current"
+      ],
+      "days": [
+        0.0,
+        8.0,
+        15.0,
+        22.0,
+        28.0,
+        34.0,
+        39.0
+      ],
+      "n": 7
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "weight": 0.12598889497254964,
+      "pollIds": [
+        "history_hamadad_consortium_2026-09-09_715",
+        "history_hamadad_consortium_2026-09-16_current",
+        "history_hamadad_consortium_2026-09-23_current",
+        "history_hamadad_consortium_2026-09-30_current",
+        "history_hamadad_consortium_2026-10-07_current",
+        "history_hamadad_consortium_2026-10-14_current"
+      ],
+      "days": [
+        0.0,
+        6.0,
+        14.0,
+        20.5,
+        27.5,
+        34.0
+      ],
+      "n": 6
+    },
+    {
+      "pollsterId": "kantar",
+      "weight": 0.13137321833147042,
+      "pollIds": [
+        "history_kantar_2026-09-09_716",
+        "history_kantar_2026-09-17_current",
+        "history_kantar_2026-09-27_current",
+        "history_kantar_2026-10-04_current",
+        "history_kantar_2026-10-08_current",
+        "history_kantar_2026-10-15_current"
+      ],
+      "days": [
+        0.0,
+        7.5,
+        18.0,
+        25.0,
+        28.5,
+        35.5
+      ],
+      "n": 6
+    },
+    {
+      "pollsterId": "lazar",
+      "weight": 0.12715127986162647,
+      "pollIds": [
+        "history_lazar_2026-09-09_714",
+        "history_lazar_2026-09-11_722",
+        "history_lazar_2026-09-18_current",
+        "history_lazar_2026-09-25_current",
+        "history_lazar_2026-10-02_current",
+        "history_lazar_2026-10-09_current",
+        "history_lazar_2026-10-13_current"
+      ],
+      "days": [
+        0.0,
+        0.5,
+        7.5,
+        14.5,
+        21.5,
+        28.5,
+        33.0
+      ],
+      "n": 7
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "weight": 0.11359182120835815,
+      "pollIds": [
+        "history_maagar_mochot_2026-09-29_current",
+        "history_maagar_mochot_2026-10-06_current"
+      ],
+      "days": [
+        0.0,
+        6.5
+      ],
+      "n": 2
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "weight": 0.12392810070834642,
+      "pollIds": [
+        "history_midgam_geva_2026-09-09_717",
+        "history_midgam_geva_2026-09-14_current",
+        "history_midgam_geva_2026-09-22_current",
+        "history_midgam_geva_2026-10-05_current",
+        "history_midgam_geva_2026-10-12_current"
+      ],
+      "days": [
+        0.0,
+        5.0,
+        13.0,
+        26.0,
+        33.0
+      ],
+      "n": 5
+    },
+    {
+      "pollsterId": "next_data",
+      "weight": 0.12598889497254964,
+      "pollIds": [
+        "history_next_data_2026-09-09_719",
+        "history_next_data_2026-09-15_current",
+        "history_next_data_2026-09-17_current",
+        "history_next_data_2026-09-23_current",
+        "history_next_data_2026-09-28_current",
+        "history_next_data_2026-10-01_current",
+        "history_next_data_2026-10-07_current",
+        "history_next_data_2026-10-12_current",
+        "history_next_data_2026-10-14_current",
+        "history_next_data_2026-10-18_current"
+      ],
+      "days": [
+        0.0,
+        6.0,
+        8.0,
+        14.0,
+        19.0,
+        22.0,
+        28.0,
+        33.0,
+        35.0,
+        39.0
+      ],
+      "n": 10
+    },
+    {
+      "pollsterId": "tatika",
+      "weight": 0.12598889497254964,
+      "pollIds": [
+        "history_tatika_2026-09-10_721",
+        "history_tatika_2026-09-17_current",
+        "history_tatika_2026-09-24_current",
+        "history_tatika_2026-10-01_current",
+        "history_tatika_2026-10-08_current",
+        "history_tatika_2026-10-15_current"
+      ],
+      "days": [
+        0.0,
+        7.0,
+        14.0,
+        21.0,
+        28.0,
+        35.0
+      ],
+      "n": 6
+    }
+  ],
+  "interpretation": "These are published mandate trends; zero seats do not mean zero support. Four always-zero-seat parties are retained at p=1 in the testing family."
+}

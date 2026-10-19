@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "asOf": "2026-10-19",
+  "phase": "local",
+  "browserReportSha256": "6daa78778ef54311cb3addc4861ccccf96b76286ebecfa68b8345c7d412db5af",
+  "visualInspectionCompleted": true,
+  "reviewedScreenshots": {
+    "01-dashboard-default.jpg": "3c50c731faf0eca7d688c64e5a2bec3588c4001fa1a2aca126bfe1ff81b55e4f",
+    "02-threshold-default.jpg": "48d9788c97b13665fc03d234dffecec517c9e08f8e7dbc7807c7f39ed1cb510f",
+    "03-poll-metadata.jpg": "74959f81ae16df7420861eda4a7548a30ce3b0de4a20b3d28d89f5603ddd4c82",
+    "04-strict-trends.jpg": "adfd13cf42b069a53369c4a433026d4232541a1cd0daf305aab5f4ac220c8f66",
+    "05-about-light.jpg": "e975319f1838b38fa463e742a9f417b3399ccd1c3d49fdb5d1d57cbd265546c0",
+    "06-threshold-after-reload-default.jpg": "d379ee2c35c7a8b180daf4fb26c148860aaa4a62b208512c2ae0f10c9da2e7ca",
+    "07-similarity-on-controls.jpg": "52292627172a1a0fe51486ab3f172c285dd59dd69676ecf38ca4885b8745e50a",
+    "08-threshold-similarity-on.jpg": "37798a874429d42c4178a3f959da6f2a4d42cb21268848d25ffd8b920dca012d"
+  },
+  "reviewer": "Codex visual inspection of actual CUA screenshots in tool results",
+  "notes": [
+    "All8actualJPEGscreenshots inspected: dark defaults, default thresholds,Kan547 metadata,strict39/7/32,Aboutportrait in light,after-reload defaults,explicit similarityONcontrols,thresholdW28.72/H47.61.",
+    "Screenshot06is truthfully named after-reload-default, preserving the initially captured reset state; screenshot08is the final settled similarityON result.",
+    "No material overlap or unreadable content observed at2033desktop width; poll table intentionally scrolls within its own container."
+  ]
+}

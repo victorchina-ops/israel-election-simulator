@@ -1,0 +1,15 @@
+Reviewed published observation direct_polls_2026-10-18; publication 2026-10-18; audit 2026-10-19.
+Original source: https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805.
+Published mandates: {"likud": 25, "yashar": 21, "beyachad": 13, "otzma": 10, "democrats": 9, "utj": 8, "joint": 8, "shas": 8, "yisrael_beiteinu": 6, "rz_zehut": 6, "raam": 6, "winter": 0, "hendel": 0, "gantz": 0, "haredi_public": 0, "noam": 0}
+Exact published percentages: {"winter": 2.9, "hendel": 2.4}
+Published bounds, never exact percentages: {"gantz": {"min": 0, "max": 1, "maxExclusive": true}, "haredi_public": {"min": 0, "max": 1, "maxExclusive": true}, "noam": {"min": 0, "max": 1, "maxExclusive": true}}
+Published source blocs: {"coalition": 57, "opposition": 49, "arab_parties": 14}
+Sample size exact/exclusive lower bound: 525/None
+Verified fieldwork: True; 2026-10-18 to 2026-10-18
+Missing values are not zero and are never inherited.
+סקר i24NEWS/דיירקט פולס פורסם ביום ראשון18.10.2026; הגוף והאינדקס המקורי נקראו. פרסום חוזר ב־X אחרי חצות19.10 נשמר בנפרד.
+כל11 הרשימות העוברות אומתו בגוף המקור ומסתכמות120; חלוקת המקור57 קואליציה,49 אופוזיציה ו14 ערביות.
+וינטר2.9% והנדל–זליכה2.4% הם אחוזים שפורסמו. כחול לבן, הציבור החרדי, נעם, צבע שחור ואח״י מתחת1% בלבד; אין להחליף חסמים באחוזים מדויקים או באפס תמיכה.
+ישראל תחילה אינה מוזכרת ברשימת המקור החדשה; אין להעתיק אליה תוצאה מהסקר הקודם. יתר אחוזי המפלגות ומכנה האחוזים נשארים חסרים.
+האיסוף18.10 אומת בפסקת השיטה:525 בגירים, מערכת דיגיטלית עם פאנל, טעות4.2% ברמת95%. שעות איסוף, מזוהים ראשונים ושם ספק הפאנל לא פורסמו.
+התרשים בראש ארכיון הסקרים נשאר13.10, אך קישור הכתבה החדשה מופיע לפניו. לא נמחקים סקרים קודמים ולא נוצרת תצפית נוספת מהטבלה או מהפרסום החוזר.

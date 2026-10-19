@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-19",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "activeSelectedInstitutes": 7,
+  "changedPollsters": [
+    "direct_polls",
+    "kantar",
+    "next_data"
+  ],
+  "newObservationIds": [
+    "kantar_2026-10-18",
+    "next_data_2026-10-18",
+    "direct_polls_2026-10-18"
+  ],
+  "publicationDates": [
+    "2026-10-18",
+    "2026-10-18",
+    "2026-10-18"
+  ],
+  "activePolls": 8,
+  "historyPolls": 128,
+  "allPreviousHistoricalObservationsPreserved": true,
+  "comparisonSha256": "8ad4ed0d8aa0399a94bfddecc3f1aa77611be0a4c28ba8c7269997d454ea1489",
+  "snapshotSha256": "625119d06aaa47dc498f17b7e1be54a8ee5fb5e11ff75a7048a8813f908c2530",
+  "baselineSha256": "3fb6453c7bdb672e483b81ab1a7aca18ecb64ec98d822bb20fb6266cc35229fc",
+  "sourcePlanSha256": "0743fae63c950644e7aab20ad7add3f42e83f4410f26ba498316ee35c707976b",
+  "validationScope": "Both endpoints use the identical unchanged model and explicit historical-accuracy default settings; differences are not a significance test."
+}

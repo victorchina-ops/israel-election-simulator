@@ -1,0 +1,162 @@
+{
+  "status": "NEW_C14_POLL_VERIFIED",
+  "asOf": "2026-10-19",
+  "checkedAtUtc": "2026-10-19T05:45:20Z",
+  "sincePreviousCheckUtc": "2026-10-18T10:14Z",
+  "scope": "Source-only: direct C14,N12,Channel13 homepages and politics/elections/survey indexes, original C14 mandate article and numerical graphic. Parent owns Kan and IsraelPolls. No canonical/site/code/Git edits.",
+  "baseline": {
+    "currentPolls": 8,
+    "historyPolls": 125,
+    "snapshotSha256": "26ad69ce40a1c9d6b0fdec35179768bb431e2cf7bbf324ee88384c53615f3b1a",
+    "previousActiveC14": "next_data_2026-10-14",
+    "newC14NotPreviouslyStored": true,
+    "newSourceUrlNotInHistory": true
+  },
+  "sourceChecks": [
+    {
+      "publisher": "C14",
+      "surface": "home",
+      "url": "https://www.c14.co.il/",
+      "status": "readable-current19Oct",
+      "newArticle": "https://www.c14.co.il/article/1743088",
+      "publicationLabel": "previous-day20:39",
+      "staleBlocWidgetExcluded": true
+    },
+    {
+      "publisher": "C14",
+      "surface": "politics",
+      "url": "https://www.c14.co.il/archive/65839",
+      "status": "readable-reader-cache18Oct",
+      "limitation": "Specific index lagged live homepage; not a complete current19Oct negative."
+    },
+    {
+      "publisher": "C14",
+      "surface": "elections",
+      "url": "https://www.c14.co.il/archive/112541",
+      "status": "readable-visible-index",
+      "newC14ArticleLinked": true
+    },
+    {
+      "publisher": "C14",
+      "surface": "survey-tag",
+      "url": "https://www.c14.co.il/archive/74648",
+      "status": "readable-current",
+      "latestNewMandateDate": "2026-10-18"
+    },
+    {
+      "publisher": "C14",
+      "surface": "mandate-tag",
+      "url": "https://www.c14.co.il/archive/53747",
+      "status": "readable-visible-index"
+    },
+    {
+      "publisher": "C14",
+      "surface": "original-article",
+      "url": "https://www.c14.co.il/article/1743088",
+      "status": "readable-web-reader-and-normal-Chrome",
+      "fieldworkExplicit": "2026-10-18",
+      "sampleSize": 559,
+      "numericalGraphicRead": true,
+      "videoNotPlayed": true,
+      "videoPlayerReportedUnableToPlayMedia": true
+    },
+    {
+      "publisher": "N12",
+      "surface": "home",
+      "url": "https://www.n12.co.il/",
+      "status": "readable-current-visible",
+      "newPartyMandateVectorIdentified": false
+    },
+    {
+      "publisher": "N12",
+      "surface": "politics",
+      "url": "https://www.mako.co.il/news-politics",
+      "status": "readable-current-visible",
+      "newPartyMandateVectorIdentified": false
+    },
+    {
+      "publisher": "N12",
+      "surface": "elections",
+      "url": "https://www.mako.co.il/news-israel-elections/2026",
+      "status": "readable-current19Oct-visible",
+      "newPartyMandateVectorIdentified": false,
+      "latestVisibleSupplement": "https://www.mako.co.il/news-israel-elections/2026/Article-27654c3e60541a1026.htm",
+      "dedup": "Supplement16Oct published/17Oct updated, field15Oct,n503 already verified18Oct without full party vector; not new mandate observation.",
+      "priorSupplementReceipt": "artifacts/poll-checks/2026-10-18-heartbeat/source-main-tv/freeze-receipt.json"
+    },
+    {
+      "publisher": "Channel13",
+      "surface": "home",
+      "url": "https://13tv.co.il/",
+      "status": "readable-current19Oct",
+      "newPartyMandateVectorIdentified": false
+    },
+    {
+      "publisher": "Channel13",
+      "surface": "politics",
+      "url": "https://13tv.co.il/news/politics/",
+      "status": "readable-current-visible",
+      "newPartyMandateVectorIdentified": false
+    },
+    {
+      "publisher": "Channel13",
+      "surface": "survey-index",
+      "url": "https://13tv.co.il/tags/survey/",
+      "status": "readable-current-visible",
+      "latestExplicitMandateDate": "2026-10-14",
+      "latestSupplementDate": "2026-10-16",
+      "dedup": "Known undecided-voter attitude-video lead; no fresh party vector identified."
+    }
+  ],
+  "numericalComparison": {
+    "currentC14Date": "2026-10-18",
+    "previousC14Date": "2026-10-14",
+    "blocs": {
+      "coalition": {
+        "before": 62,
+        "after": 61
+      },
+      "nonArabOpposition": {
+        "before": 44,
+        "after": 46
+      },
+      "arabParties": {
+        "before": 14,
+        "after": 13
+      }
+    },
+    "seatDeltas": {
+      "yashar": 2,
+      "beyachad": -1,
+      "otzma": -1,
+      "yisrael_beiteinu": 1,
+      "joint": -2,
+      "raam": 1
+    },
+    "belowThresholdPct": {
+      "winter": {
+        "before": 2.7,
+        "after": 2.4
+      },
+      "hendel": {
+        "before": 3.1,
+        "after": 2.4
+      }
+    },
+    "significanceTestPerformed": false
+  },
+  "safePublicationAllowlist": [
+    "reviewed-next-data-poll.json",
+    "c14-verification-summary.json",
+    "c14-reviewed-facts.txt",
+    "c14-original-seat-graphic.jpeg",
+    "source-check.json"
+  ],
+  "localOnlyExcluded": [
+    "web-reader-LOCALONLY.json"
+  ],
+  "canonicalDataOrSiteMutated": false,
+  "missingMetadataPreservedAsNull": true,
+  "fullAuthoredArticleRedistributed": false,
+  "noNewOtherPublisherClaimBeyondReadScope": true
+}

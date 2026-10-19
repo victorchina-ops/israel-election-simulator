@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-19",
+  "checkedAtUtc": "2026-10-19T05:34:17.3877503Z",
+  "status": "verified-new-numerical-observations-primary-web-verification-delegated",
+  "sourceUrl": "https://x.com/IsraelPolls?s=20",
+  "access": "Fresh own Chrome tab; profile, original numerical graphics and historical tables visually read",
+  "scanAfterUtc": "2026-10-18T10:14:00Z",
+  "newIndependentNumericalObservations": 2,
+  "publications": [
+    "Kan 11 / Kantar, graphic date 18 October",
+    "i24NEWS / Direct Polls, graphic and fieldwork date 18 October"
+  ],
+  "noNewChannel14PostObserved": true,
+  "noNewChannel14ClaimScope": "Profile inspected through 16 October entries. This is not proof of publisher absence; independent original-publisher check is delegated.",
+  "boundaryPosts": [
+    "https://x.com/IsraelPolls/status/2111180414576472513",
+    "https://x.com/IsraelPolls/status/2111177888691073429",
+    "https://x.com/IsraelPolls/status/2111177390353170617",
+    "https://x.com/IsraelPolls/status/2110940123793609186",
+    "https://x.com/IsraelPolls/status/2111009904550961371"
+  ],
+  "existingLazar": "16 October already canonical; corrected weekly table and average posts are not new polls",
+  "safePublicFiles": [
+    {
+      "fileName": "kan-2026-10-18-reviewed-source-facts.json",
+      "sha256": "2c2e174d3411674f41794b75bfad656c28dc94a35722dcca7a5b0f1afda823b8",
+      "bytes": 2363
+    },
+    {
+      "fileName": "i24-2026-10-18-reviewed-source-facts.json",
+      "sha256": "ddfff4e4464ec73ed2bbeea967b1319b433b449a41896316fd9b1289e2e4af5f",
+      "bytes": 2768
+    }
+  ],
+  "rawArticleBodiesSaved": false,
+  "imageArchival": "Rendered images visually reviewed; URLs and natural dimensions preserved. No image files or hashes are claimed. Browser asset inventory returned no matching image assets; no fallback download attempted.",
+  "primaryPublisherCoverage": "Kan and Channel 14 direct checks delegated. i24 lead sent to root for independent publisher verification.",
+  "maariv": "Known site-safety block respected without retries or workarounds.",
+  "canonicalMutations": 0,
+  "publicScope": "Concise independently paraphrased factual extraction and access limitations. Full authored articles and reader bodies are excluded."
+}

@@ -1,0 +1,38 @@
+{
+  "asOf": "2026-10-19",
+  "checkedAtUtc": "2026-10-19T05:50:40Z",
+  "scope": "Supplementary bounded primary publisher check after Kan and i24 source verification. Does not assert nationwide absence.",
+  "newVerifiedPolls": [],
+  "coverage": [
+    {
+      "publisher": "Israel Hayom",
+      "directHome": "https://www.israelhayom.co.il/",
+      "directPolitics": "https://www.israelhayom.co.il/news/politics",
+      "directElectionIndex": "https://www.israelhayom.co.il/news/politics/election2026",
+      "readMethod": "Reader returned a stale homepage; fresh normal Chrome live homepage and politics index were read independently.",
+      "liveVisibleDate": "19 October 2026",
+      "latestKnownMandatePollUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+      "latestKnownMandatePollDate": "2026-10-15",
+      "result": "No additional new national mandate poll verified among inspected visible links."
+    },
+    {
+      "publisher": "Zman Israel",
+      "directHome": "https://www.zman.co.il/",
+      "directPolitics": "https://www.zman.co.il/feed/609/",
+      "directPollIndex": "https://www.zman.co.il/feed/33350/",
+      "directElectionIndex": "https://www.zman.co.il/feed/238/",
+      "readMethod": "Direct reader homepage, poll and election feeds plus observed politics-tag navigation.",
+      "homeVisibleDate": "19 October 2026",
+      "latestKnownMandatePollUrl": "https://www.zman.co.il/733625/",
+      "latestKnownMandatePollDate": "2026-10-15",
+      "result": "Homepage and poll archive still link the already-ingested15OctoberTatika poll; no additional new national mandate poll verified.",
+      "limitations": [
+        "Politics feed reader copy was crawled2days earlier; its relative dates are not evidence of current19October content. The current homepage and dedicated poll archive were independently readable."
+      ]
+    }
+  ],
+  "canonicalEditedByThisAgent": false,
+  "websiteEditedByThisAgent": false,
+  "sourcePercentagesOrMetadataCopiedFromPreviousPoll": false,
+  "localOnlyReaderFile": "reader-local-only.json"
+}

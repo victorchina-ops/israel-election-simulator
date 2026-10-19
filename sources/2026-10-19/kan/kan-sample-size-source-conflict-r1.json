@@ -1,0 +1,30 @@
+{
+  "status": "RESOLVED-PRIMARY-PREFERRED",
+  "asOf": "2026-10-19",
+  "checkedAtUtc": "2026-10-19T05:47:05.4758170Z",
+  "field": "sampleSize",
+  "acceptedSampleSize": 547,
+  "originalPublisherSampleSize": 547,
+  "repostSampleSize": 554,
+  "visualVerification": "Read the Kan-hosted primary image directly and its locally archived original-sized WebP. Separately opened the existing IsraelPolls repost image at natural 1280x720 size and read its 554 label. This is recorded as a graphic-version conflict; no alignment-based inference.",
+  "primaryGraphicUrl": "https://www.kan.org.il/media/w2slffow/whatsapp-image-2026-10-18-at-200814.jpeg?width=642&height=361&v=1dd5f3cab2b48c0",
+  "primaryGraphicLocalPath": "artifacts/poll-checks/2026-10-19/source-kan/kan-original-graphic.webp",
+  "primaryGraphicSha256": "36f3dacaf5248666e8def6364e095d8fdeb9a8c2f043fe21888953ff77d4e8e0",
+  "repostGraphicUrl": "https://pbs.twimg.com/media/HU7vHW1WgAAkdbC?format=jpg&name=large",
+  "repostGraphicNaturalPixels": [
+    1280,
+    720
+  ],
+  "repostGraphicArchived": false,
+  "repostGraphicSha256": null,
+  "correctedFactsFile": "kan-2026-10-18-reviewed-source-facts-r1.json",
+  "correctedFactsSha256": "ea53c864f0380b56322ad66f77c34a10725116569db381e26bd7c8aa0f291173",
+  "supersededSampleSizeOnly": "Initial facts and scan receipt are preserved unchanged. Use revision r1 for sample size; the seat vector, below-threshold percentage and unknown fieldwork are unchanged.",
+  "validatorEdits": [
+    "scripts/validate-ingestion-2026-10-19.py",
+    "scripts/validate-poll-update-2026-10-19.py"
+  ],
+  "validatorMainExecuted": false,
+  "canonicalMutations": 0,
+  "publicScope": "Concise facts and provenance only. Full authored articles and reader bodies are excluded."
+}

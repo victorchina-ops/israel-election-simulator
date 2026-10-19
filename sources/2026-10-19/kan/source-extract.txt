@@ -1,0 +1,16 @@
+Reviewed published observation kantar_2026-10-18; publication 2026-10-18; audit 2026-10-19.
+Original source: https://www.kan.org.il/content/kan-news/politic/1110393/.
+Published mandates: {"yashar": 23, "likud": 21, "beyachad": 12, "democrats": 9, "yisrael_beiteinu": 8, "joint": 8, "otzma": 8, "shas": 8, "utj": 7, "rz_zehut": 7, "raam": 5, "hendel": 4, "winter": 0, "gantz": 0, "haredi_public": 0}
+Exact published percentages: {"winter": 3.1}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 51, "opposition": 52, "arab_parties": 13, "hendel": 4}
+Sample size exact/exclusive lower bound: 547/None
+Verified fieldwork: False; None to None
+Missing values are not zero and are never inherited.
+סקר כאן/קנטאר ששודר18.10.2026. המקור הראשוני והגרפיקה המקורית נקראו; עדכון הדף19.10 והפרסום החוזר אינם סקר נוסף.
+כל12 הרשימות העוברות אומתו בטקסט ובגרפיקה ומסתכמות120; חלוקת המקור51 קואליציה,52 אופוזיציה,13 ערביות ו4 הנדל–זליכה בנפרד.
+וינטר3.1%; אין אחוז חדש מפורש לכחול לבן, לציבור החרדי וליתר הרשימות שמתחת לחסימה. אפס מנדטים אינו אפס תמיכה. אין להעתיק0.8%/0.9% מהסקר הקודם.
+מועד האיסוף ושיטת האיסוף אינם מפורשים במקורות שנבדקו. תאריך18.10 בגרפיקה אינו הוכחת עבודת שדה, ולכן הסקר אינו זכאי למבחני המגמות המחמירים בשלב זה.
+גודל המדגם547 אומת בשורת המקור בגרפיקת כאן המקורית. גרסת הפרסום החוזר ב־IsraelPolls מציגה554; הסתירה נשמרת ומקבלים את המקור הראשוני, בלי למצע ובלי להעתיק551 מסקר קודם.
+30% התלבטות הם ממצא נפרד בגוף המקור בקרב הנשאלים; אין להשתמש בו כמכנה חסר של אחוזי המפלגות.
+הסקר מחליף בפעיל את קנטאר/ישראל היום15.10; ההשוואה שפורסמה בכאן היא לכאן11.10. שתי התצפיות הקודמות נשמרות בהיסטוריה.

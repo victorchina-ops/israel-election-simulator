@@ -1,0 +1,28 @@
+{
+  "asOf": "2026-10-19",
+  "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+  "evidenceKind": "Fresh original publisher body, final methodology paragraph; facts paraphrased without quotation.",
+  "fieldworkStart": "2026-10-18",
+  "fieldworkEnd": "2026-10-18",
+  "fieldworkVerified": true,
+  "publicationDate": "2026-10-18",
+  "publicationEvidence": "Body says Sunday evening broadcast, nine days before27October; not inferred solely from fieldwork.",
+  "sampleSize": 525,
+  "population": "Representative general Israeli adult population aged18+",
+  "samplingMethod": "Digital system combined with panel",
+  "marginOfErrorPct": 4.2,
+  "confidencePct": 95,
+  "unknownFields": [
+    "fieldworkStartTime",
+    "fieldworkEndTime",
+    "publicationTime",
+    "panelProvider",
+    "invitedSampleSize",
+    "initialSampleSize"
+  ],
+  "factualExtract": "i24-reviewed-facts.txt",
+  "factualExtractSha256": "8804e20ba4730acbf2337a43fee4091311aede64ad8cca8ef1f840e7d504dc35",
+  "candidateSha256": "494399c8b3ca943ae20709441ba9abe93ac592b765316c3cb278d38c41d51706",
+  "repostAtIsrael": "2026-10-19T00:03:45+03:00",
+  "repostDoesNotRedatePoll": true
+}

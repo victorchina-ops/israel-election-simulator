@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-19",
+  "scope": "Explicit factual summaries, reviewed numerical candidate and original numerical graphic only",
+  "fullAuthoredArticlesExcluded": true,
+  "files": [
+    {
+      "fileName": "reviewed-next-data-poll.json",
+      "sha256": "0fdf320fe8fa0d93217f2dea9cc64029ba8597ee4d40bd9958b826374263c647",
+      "bytes": 7284
+    },
+    {
+      "fileName": "c14-verification-summary.json",
+      "sha256": "f64aec674631eb87a171ef0a14ccb8b3c4a1d5ab77f418a065ec79e4c9403e33",
+      "bytes": 2493
+    },
+    {
+      "fileName": "c14-reviewed-facts.txt",
+      "sha256": "36ac9ae5220858b8219c9a1510e679628db0938ac638a4fcc8cba932f297b4c7",
+      "bytes": 981
+    },
+    {
+      "fileName": "c14-original-seat-graphic.jpeg",
+      "sha256": "54af64739b27422809e2a1642e131c9b0f961d5eaa94771f5081fd974b845f67",
+      "bytes": 192707
+    },
+    {
+      "fileName": "source-check.json",
+      "sha256": "0df26ba3e583432bbeaf2ffa5adb3b637f429d418606c4a78d332afee165133b",
+      "bytes": 5112
+    }
+  ],
+  "excludedLocalOnly": [
+    "web-reader-LOCALONLY.json"
+  ]
+}

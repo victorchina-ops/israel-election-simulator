@@ -1,0 +1,17 @@
+{
+  "status": "RESOLVED-PRIMARY-PREFERRED",
+  "changedField": "sampleSize",
+  "before": null,
+  "after": 547,
+  "originalGraphic": 547,
+  "conflictingRepostGraphic": 554,
+  "reason": "Original Kan-hosted footer independently read by root and source peer. Fieldwork remains unknown; no source-date inference.",
+  "beforeCandidateSha256": "9ea2179239e012000e77a79c53b519d0fc1f5375468f7782d949a647ff7d8453",
+  "afterCandidateSha256": "45bec509ec0ac14a89ae5f961f0d8ab66218867941c1b26b1c417650903c1641",
+  "beforeFactsSha256": "13e1afcff2cdc156b7cf7854dd06be84bb9ca56fd21489c33216b84b8812df21",
+  "afterFactsSha256": "cf7bd6288aa5d207eeaed1e5bcf0fcaf4c19a4accd412a3f23350b8dce35fa2d",
+  "afterProofSha256": "676684209fd1ad64be9aa15a5effda3df5f0fb020a3e850a14a79bc4b94bbd52",
+  "originalFrozenEvidencePreserved": true,
+  "seatVectorAndThresholdPercentagesUnchanged": true,
+  "canonicalMutation": false
+}

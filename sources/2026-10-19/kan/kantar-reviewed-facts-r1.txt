@@ -1,0 +1,11 @@
+Verified numerical facts, paraphrased; primary Kan article1110393 and original numerical graphic read19October2026.
+InstituteKantar/DudiHasid; publisherKan11. The graphic is labeled18October2026, and the article body describes Sunday publication. Its politics index displays19October and the page says updated05:57, not a new19October observation. Exact original publication time remains unknown.
+Seats: Yashar23,Likud21,Beyachad12,Democrats9,YisraelBeiteinu8,Joint8,Otzma8,Shas8,UTJ7,RZ-Zehut7,Raam5,Hendel-Zelekha4; total120. Winter does not pass and receives3.1%.
+Published blocs: Netanyahu51,Eisenkot52,Arabparties13,Hendel-Zelekha4 separately.
+Gantz,HarediPublic,Ahi,TzevaShahor are named belowthreshold without exact percentages. Noam and IsraelFirst are not named in this article; their separate seats/shares are missing. No invented combinedOther percentage.
+Fieldwork dates, times, method, error/confidence and panel provider are not provided in the inspected article or readable graphic. Date18October labels publication/broadcast and must not be copied into fieldwork.
+Sample size547 is verified in the original Kan-hosted graphic vertical footer by independent root and peer review. A conflicting IsraelPolls graphic version says554. The original publisher graphic takes precedence; the conflict is preserved, not averaged. No551 inheritance fromHayom15October.
+The article reports30% ofrespondents undecided. This is a separate question/statistic, not a denominator for the published partyshares.
+The previous samepublisher poll isKan11October; the currentlyactiveKantarpoll isHayom15October. Retainbothhistoricalrecords; replaceonlytheactive15OctoberKantarrow.
+Primary source: https://www.kan.org.il/content/kan-news/politic/1110393/
+Original graphic: https://www.kan.org.il/media/w2slffow/whatsapp-image-2026-10-18-at-200814.jpeg?width=642&height=361&v=1dd5f3cab2b48c0

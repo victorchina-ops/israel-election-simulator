@@ -1,0 +1,4 @@
+Edit only the footer date-range sentence of the supplied image. Preserve the complete illustration, palette, layout, all names, main percentages28.7% and47.6%, mean seats1.2 and2.1, title,19.10.2026 update date,3.25% threshold, other assumptions, sources and author credit exactly as they are.
+Replace the footer line that currently has the malformed numeric date range12.18.10.2026 with this clear Hebrew sentence, verbatim:
+"הסקר האחרון מכל מכון, מ־12 עד 18 באוקטובר 2026 • הצבעה: בסיס 2022"
+Use the same readable navy footer type. This one line may wrap into two short centered lines if necessary. Do not change anything else. Keep the original portrait image dimensions and opaque background.

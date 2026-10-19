@@ -1,0 +1,38 @@
+{
+  "status": "VERIFIED_NEW_OBSERVATION",
+  "candidateFile": "reviewed-direct-poll.json",
+  "candidateSha256": "494399c8b3ca943ae20709441ba9abe93ac592b765316c3cb278d38c41d51706",
+  "primarySourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+  "originalPublisherBodyRead": true,
+  "sourceTier": "original-publisher",
+  "seatSum": 120,
+  "exactPercentages": {
+    "winter": 2.9,
+    "hendel": 2.4
+  },
+  "censoredBoundPartyIds": [
+    "gantz",
+    "haredi_public",
+    "noam"
+  ],
+  "fieldworkVerified": true,
+  "publicationDateVerified": "2026-10-18",
+  "repostDateNotPollDate": true,
+  "missingValuesCopiedFromPreviousPoll": false,
+  "missingValuesReplacedByZero": false,
+  "primaryReadMethod": "Fresh web reader direct original article, homepage and dedicated poll index; root independent original body review agrees.",
+  "safePublicFiles": [
+    "i24-reviewed-facts.txt",
+    "reviewed-direct-poll.json",
+    "i24-verification-summary.json"
+  ],
+  "localOnlyFiles": [
+    "i24-reader-local-only.json"
+  ],
+  "canonicalMutation": false,
+  "websiteMutation": false,
+  "limitations": [
+    "Full authored article body is retained only in local reader receipt, never in safe public extraction.",
+    "Original i24 graphic was peer-read on IsraelPolls; this agent independently verified every seat, exact threshold percentage and methodology in the primary article body."
+  ]
+}

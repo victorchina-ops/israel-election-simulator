@@ -1,0 +1,56 @@
+{
+  "status": "VERIFIED_NEW_OBSERVATION_WITH_UNKNOWN_FIELDWORK",
+  "candidateFile": "reviewed-kantar-poll-r1.json",
+  "candidateSha256": "45bec509ec0ac14a89ae5f961f0d8ab66218867941c1b26b1c417650903c1641",
+  "primarySourceUrl": "https://www.kan.org.il/content/kan-news/politic/1110393/",
+  "originalPublisherBodyRead": true,
+  "sourceTier": "original-publisher",
+  "seatSum": 120,
+  "exactPercentages": {
+    "winter": 3.1
+  },
+  "fieldworkVerified": false,
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": 547,
+  "sampleSizeAccepted": true,
+  "sampleSizeSourceUrl": "https://www.kan.org.il/media/w2slffow/whatsapp-image-2026-10-18-at-200814.jpeg?width=642&height=361&v=1dd5f3cab2b48c0",
+  "sourceConflict": {
+    "field": "sampleSize",
+    "originalKanGraphic": 547,
+    "israelPollsRepostGraphic": 554,
+    "accepted": 547,
+    "reason": "Source-version discrepancy; do not average values or infer from image alignment. Direct original publisher graphic takes precedence.",
+    "initialFactsFile": "kan-2026-10-18-reviewed-source-facts.json",
+    "initialFactsSha256": "2c2e174d3411674f41794b75bfad656c28dc94a35722dcca7a5b0f1afda823b8",
+    "originalFrozenEvidencePreserved": true
+  },
+  "peerCorrectionFactsPath": "artifacts/poll-checks/2026-10-19/source-israelpolls/kan-2026-10-18-reviewed-source-facts-r1.json",
+  "peerCorrectionFactsSha256": "ea53c864f0380b56322ad66f77c34a10725116569db381e26bd7c8aa0f291173",
+  "graphicDate": "2026-10-18",
+  "politicsIndexDisplayedDate": "2026-10-19",
+  "pageUpdatedTimeDisplayed": "05:57",
+  "publicationDateDistinguishedFromFieldwork": true,
+  "originalGraphicFile": "kan-original-graphic.webp",
+  "originalGraphicSha256": "36f3dacaf5248666e8def6364e095d8fdeb9a8c2f043fe21888953ff77d4e8e0",
+  "safePublicFiles": [
+    "kan-original-graphic.webp",
+    "kantar-reviewed-facts-r1.txt",
+    "reviewed-kantar-poll-r1.json",
+    "kantar-verification-summary-r1.json",
+    "source-revision-r1.json"
+  ],
+  "localOnlyFiles": [
+    "kan-reader-local-only.json",
+    "reviewed-kantar-poll.json",
+    "kantar-verification-summary.json",
+    "kantar-reviewed-facts.txt"
+  ],
+  "canonicalMutation": false,
+  "websiteMutation": false,
+  "limitations": [
+    "Primary web reader returned zero lines; permitted live Chrome rendered and exposed the complete article body, politics index and dedicated poll archive.",
+    "Fieldwork, sampling method, population, error and confidence were not provided in the inspected article or graphic.",
+    "Original sample547 conflicts with secondary graphic554. Primary preferred; discrepancy retained explicitly."
+  ]
+}

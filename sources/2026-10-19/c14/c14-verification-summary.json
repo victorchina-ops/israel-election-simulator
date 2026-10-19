@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "reviewedAt": "2026-10-19",
+  "pollId": "next_data_2026-10-18",
+  "sourceUrl": "https://www.c14.co.il/article/1743088",
+  "sourceTier": "original-publisher",
+  "primaryOriginalReadableInWebReader": true,
+  "primaryOriginalReadableInNormalBrowser": true,
+  "publicationDate": "2026-10-18",
+  "publicationTime": "20:39",
+  "publicationTimePrecision": "minute",
+  "publicationVerification": "19Oct current homepage and live article display previous-day20:39; article explicitly identifies18Oct fieldwork.",
+  "fieldworkStart": "2026-10-18",
+  "fieldworkEnd": "2026-10-18",
+  "fieldworkVerified": true,
+  "fieldworkEvidence": "The original article explicitly states survey conducted18October2026; same-daySunday language agrees.",
+  "sampleSize": 559,
+  "strictEligible": true,
+  "closureWindowVerified": "18Oct is after the configured9Sep strict post-closure start.",
+  "numericalGraphic": {
+    "fileName": "c14-original-seat-graphic.jpeg",
+    "sha256": "54af64739b27422809e2a1642e131c9b0f961d5eaa94771f5081fd974b845f67",
+    "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-18-at-19.33.48.jpeg",
+    "visuallyVerified": true,
+    "originalBytesExist": true,
+    "width": 1600,
+    "height": 900,
+    "seatsMatchArticle": true,
+    "belowThresholdPercentagesMatchArticle": true,
+    "graphicBlocs": {
+      "coalition": 61,
+      "oppositionIncludingArabParties": 59
+    },
+    "articleBlocs": {
+      "coalition": 61,
+      "opposition": 46,
+      "arab_parties": 13
+    }
+  },
+  "factualExtract": {
+    "fileName": "c14-reviewed-facts.txt",
+    "sha256": "36ac9ae5220858b8219c9a1510e679628db0938ac638a4fcc8cba932f297b4c7"
+  },
+  "missingMetadata": [
+    "samplingMethod",
+    "panelProvider",
+    "invitedSampleSize",
+    "initialSampleSize",
+    "undecidedPct",
+    "reportedMarginOfErrorPct",
+    "reportedMarginOfErrorConfidencePct",
+    "percentageDenominator",
+    "full-passing-party-percentages",
+    "fieldworkStartTime",
+    "fieldworkEndTime"
+  ],
+  "fullArticleLocalOnly": true,
+  "noFullArticleRedistribution": true,
+  "quotedWords": 0,
+  "notes": [
+    "All passing-party seats sum120; all parties are assigned once.",
+    "Source article has an awkward self-correction in the sentence on Joint; the final7 agrees with original numerical graphic.",
+    "Source homepage63/45/12 widget is stale and excluded as evidence for this poll.",
+    "No significance inferred from observed changes."
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "id": "direct_polls_2026-10-18",
+  "pollsterId": "direct_polls",
+  "pollster": "דיירקט פולס — צוריאל שרון",
+  "publisher": "i24NEWS",
+  "date": "2026-10-18",
+  "checkedAt": "2026-10-19",
+  "reviewedAtUtc": "2026-10-19T05:46:15.172694+00:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationTime": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "dateKind": "שידור ביום ראשון בערב, תשעה ימים לפני הבחירות, מאומת בגוף המקור:18.10.2026. מועד האיסוף18.10 מצוין בנפרד; פרסום חוזר ב־X ב־19.10 בשעה00:03 אינו סקר חדש.",
+  "fieldworkStart": "2026-10-18",
+  "fieldworkEnd": "2026-10-18",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "fieldworkSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+  "sampleSize": 525,
+  "sampleSizeSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "samplingMethod": "מערכת דיגיטלית בשילוב פאנל",
+  "population": "מדגם מייצג של האוכלוסייה הכללית בישראל, בוגרים מגיל18 ומעלה",
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "reportedMarginOfErrorPct": 4.2,
+  "reportedMarginOfErrorConfidencePct": 95,
+  "reportedMarginOfErrorSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages-with-censored-bounds",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "statusLabel": "סקר חדש — המנדטים, האחוזים ומועד האיסוף אומתו במקור המקורי",
+  "seats": {
+    "likud": 25,
+    "yashar": 21,
+    "beyachad": 13,
+    "otzma": 10,
+    "democrats": 9,
+    "utj": 8,
+    "joint": 8,
+    "shas": 8,
+    "yisrael_beiteinu": 6,
+    "rz_zehut": 6,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 2.9,
+    "hendel": 2.4
+  },
+  "reportedPercentages": {
+    "winter": 2.9,
+    "hendel": 2.4
+  },
+  "knownPercentageSum": 5.3,
+  "originalCoveragePct": 5.3,
+  "modelOnlyPercentageIds": [],
+  "publishedBounds": {
+    "gantz": {
+      "min": 0,
+      "max": 1,
+      "maxExclusive": true
+    },
+    "haredi_public": {
+      "min": 0,
+      "max": 1,
+      "maxExclusive": true
+    },
+    "noam": {
+      "min": 0,
+      "max": 1,
+      "maxExclusive": true
+    }
+  },
+  "unmodelledNamedParties": [
+    {
+      "name": "צבע שחור",
+      "seats": 0,
+      "pct": null,
+      "pctUpperBound": 1,
+      "maxExclusive": true,
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805"
+    },
+    {
+      "name": "אח״י",
+      "seats": 0,
+      "pct": null,
+      "pctUpperBound": 1,
+      "maxExclusive": true,
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805"
+    }
+  ],
+  "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+  "secondarySourceUrls": [
+    "https://x.com/IsraelPolls/status/2111926229574017367",
+    "https://x.com/IsraelPolls/status/2111926477130531151",
+    "https://www.i24news.tv/he",
+    "https://www.i24news.tv/he/news/israel-elections-2026/polls"
+  ],
+  "replacesPollId": "direct_polls_2026-10-13",
+  "sourceBlocSeats": {
+    "coalition": 57,
+    "opposition": 49,
+    "arab_parties": 14
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "גוש נתניהו; וינטר אינו עובר בסקר זה",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו; הנדל אינו עובר בסקר זה",
+    "arab_parties": "הרשימה המשותפת ורע״ם"
+  },
+  "publishedPreviousPollDate": "2026-10-13",
+  "publishedPreviousBlocSeats": {
+    "coalition": 57,
+    "opposition": 50,
+    "arab_parties": 13
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+    "hendel": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805"
+  },
+  "boundSourceUrls": {
+    "gantz": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+    "haredi_public": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+    "noam": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "haredi_public",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "israel_first",
+    "other"
+  ],
+  "notes": [
+    "סקר i24NEWS/דיירקט פולס פורסם ביום ראשון18.10.2026; הגוף והאינדקס המקורי נקראו. פרסום חוזר ב־X אחרי חצות19.10 נשמר בנפרד.",
+    "כל11 הרשימות העוברות אומתו בגוף המקור ומסתכמות120; חלוקת המקור57 קואליציה,49 אופוזיציה ו14 ערביות.",
+    "וינטר2.9% והנדל–זליכה2.4% הם אחוזים שפורסמו. כחול לבן, הציבור החרדי, נעם, צבע שחור ואח״י מתחת1% בלבד; אין להחליף חסמים באחוזים מדויקים או באפס תמיכה.",
+    "ישראל תחילה אינה מוזכרת ברשימת המקור החדשה; אין להעתיק אליה תוצאה מהסקר הקודם. יתר אחוזי המפלגות ומכנה האחוזים נשארים חסרים.",
+    "האיסוף18.10 אומת בפסקת השיטה:525 בגירים, מערכת דיגיטלית עם פאנל, טעות4.2% ברמת95%. שעות איסוף, מזוהים ראשונים ושם ספק הפאנל לא פורסמו.",
+    "התרשים בראש ארכיון הסקרים נשאר13.10, אך קישור הכתבה החדשה מופיע לפניו. לא נמחקים סקרים קודמים ולא נוצרת תצפית נוספת מהטבלה או מהפרסום החוזר."
+  ],
+  "sourceDocument": {
+    "fileName": "i24-reviewed-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "8804e20ba4730acbf2337a43fee4091311aede64ad8cca8ef1f840e7d504dc35",
+    "extractFileName": "i24-reviewed-facts.txt",
+    "extractSha256": "8804e20ba4730acbf2337a43fee4091311aede64ad8cca8ef1f840e7d504dc35",
+    "reviewedAt": "2026-10-19",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": false,
+    "secondaryGraphicPeerReviewed": true,
+    "peerGraphicFactsPath": "artifacts/poll-checks/2026-10-19/source-israelpolls/i24-2026-10-18-reviewed-source-facts.json",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "publicationTime",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "panelProvider",
+      "initialSampleSize",
+      "invitedSampleSize",
+      "undecidedPct",
+      "percentageDenominator",
+      "full-passing-party-percentages"
+    ],
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 0,
+    "fullArticlePublishedInNewRelease": false
+  }
+}

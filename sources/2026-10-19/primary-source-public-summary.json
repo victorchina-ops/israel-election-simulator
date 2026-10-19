@@ -1,0 +1,151 @@
+{
+  "asOf": "2026-10-19",
+  "status": "reviewed",
+  "scope": "Factual bounded source verification summary; source publication18October is separate from19October audit. No exhaustive nationwide absence claim.",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "compiledTo120DatasetExcluded": true,
+  "newObservationIds": [
+    "kantar_2026-10-18",
+    "next_data_2026-10-18",
+    "direct_polls_2026-10-18"
+  ],
+  "publicationDate": "2026-10-18",
+  "sources": [
+    {
+      "publisher": "Kan11 / Kantar",
+      "urls": [
+        "https://www.kan.org.il/",
+        "https://www.kan.org.il/content/kan-news/politic/",
+        "https://www.kan.org.il/lobby/skarim/",
+        "https://www.kan.org.il/content/kan-news/politic/1110393/"
+      ],
+      "status": "Original publisher body, politics index, poll archive and original numerical graphic read through permitted live Chrome; web reader returned no usable text.",
+      "publicationDate": "2026-10-18",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 547,
+      "sampleSizeConflict": {
+        "primary547Preferred": true,
+        "secondaryRepost": 554,
+        "resolution": "Use original publisher graphic; retain both source versions without averaging."
+      },
+      "dateLimitation": "Index19October and page-update05:57 are not another poll or evidence of collection date. Fieldwork remains unknown; excluded from strict trend cohort.",
+      "proof": {
+        "path": "kan/kantar-verification-summary-r1.json",
+        "sha256": "676684209fd1ad64be9aa15a5effda3df5f0fb020a3e850a14a79bc4b94bbd52"
+      }
+    },
+    {
+      "publisher": "Channel14 / NEXT DATA",
+      "urls": [
+        "https://www.c14.co.il/",
+        "https://www.c14.co.il/archive/65839",
+        "https://www.c14.co.il/archive/112541",
+        "https://www.c14.co.il/archive/74648",
+        "https://www.c14.co.il/archive/53747",
+        "https://www.c14.co.il/article/1743088"
+      ],
+      "status": "Original home/index/article and numerical graphic independently read; politics reader copy lagged live homepage. Video player did not play; no full-video review claimed.",
+      "publicationDate": "2026-10-18",
+      "publicationTime": "20:39",
+      "fieldworkDate": "2026-10-18",
+      "sampleSize": 559,
+      "defaultIncluded": false,
+      "limitations": [
+        "Homepage bloc widget is stale and was excluded. Method, sampling error/confidence, panel, undecided and share denominator remain missing."
+      ]
+    },
+    {
+      "publisher": "i24NEWS / Direct Polls",
+      "urls": [
+        "https://www.i24news.tv/he",
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805"
+      ],
+      "status": "Fresh original body, homepage and dedicated poll index read; all party seats, threshold shares and methodology verified. Original graphic was not independently archived; secondary graphic facts separately peer-reviewed.",
+      "publicationDate": "2026-10-18",
+      "fieldworkDate": "2026-10-18",
+      "sampleSize": 525,
+      "repostAtIsrael": "2026-10-19T00:03:45+03:00",
+      "repostDoesNotRedatePoll": true,
+      "limitations": [
+        "Exact publication time, collection times, panel provider and percentage denominator remain missing. Less-than1% values remain censored bounds, never exact percentages."
+      ]
+    },
+    {
+      "publisher": "IsraelPolls",
+      "urls": [
+        "https://x.com/IsraelPolls?s=20",
+        "https://x.com/IsraelPolls/status/2111888191405867224",
+        "https://x.com/IsraelPolls/status/2111931238550524153",
+        "https://x.com/IsraelPolls/status/2111926229574017367",
+        "https://x.com/IsraelPolls/status/2111926477130531151"
+      ],
+      "status": "Fresh normal Chrome profile, original numerical graphics and historical tables visually reviewed. Kan source-version sample conflict was explicitly corrected to primary547.",
+      "limitations": [
+        "Visible profile coverage is bounded, not a complete historical archive. No18OctoberC14post observed in inspected profile; C14 observation was independently found at its publisher.",
+        "Image URLs/dimensions are recorded for reposts, but no local image bytes or hashes are claimed where not archived."
+      ]
+    },
+    {
+      "publisher": "N12 and Channel13",
+      "coverageFile": "c14/source-check.json",
+      "coverageSha256": "0df26ba3e583432bbeaf2ffa5adb3b637f429d418606c4a78d332afee165133b",
+      "status": "Current original homes, politics/election or survey indexes read. No additional complete party mandate vector verified in inspected links. Known16October supplementary attitude items were not counted as independent mandate polls."
+    },
+    {
+      "publisher": "Channel16",
+      "urls": [
+        "https://www.ch16.co.il/"
+      ],
+      "status": "Root reports fresh in-app-browser homepage and current news archive review, including18October main-broadcast listing.",
+      "limitations": [
+        "Player could not play media; full video coverage and absence of unpublished numerical frames are not established. Archive-specific URL was not included in this source receipt."
+      ]
+    },
+    {
+      "publisher": "Walla",
+      "urls": [
+        "https://www.walla.co.il/",
+        "https://www.walla.co.il/news/politics",
+        "https://elections.walla.co.il/",
+        "https://www.walla.co.il/news/politics/383957955"
+      ],
+      "status": "Root reports fresh direct home/politics/elections/article review.18October21:00 article republishes Kan51/52/13 plusHendel4 andWinter3.1%; same observation, not another Lazar sample."
+    },
+    {
+      "publisher": "Maariv",
+      "urls": [
+        "https://www.maariv.co.il/"
+      ],
+      "status": "Known browser site-safety block respected. No retry or workaround, and no successful current original-source check claimed."
+    },
+    {
+      "publisher": "Israel Hayom and ZmanIsrael",
+      "coverageFile": "source-discovery/other-publishers-coverage.json",
+      "coverageSha256": "f9022e61f73b307918d26b3ec89fd567dc6f309ead7616ef837786ca27ab10a4",
+      "status": "Bounded original index checks recorded separately. Live19OctoberHayomhome/politics and currentZmanhome/poll archive point to known15October observations.",
+      "limitations": [
+        "Some reader copies were stale, includingZmanpolitics. Current-home and dedicated-poll-index scope is distinguished from cached politics feed. No additional new national poll verified in inspected links."
+      ]
+    }
+  ],
+  "deduplication": [
+    "Kan19Octoberindex/update is the18Octoberbroadcast observation.",
+    "i24after-midnightXrepost is the18Octoberobservation.",
+    "Walla383957955republishesKan, not a newLazarsample.",
+    "Historical-table replies, weekly averages and supplementary attitude questions are not separate samples."
+  ],
+  "accessLimitations": [
+    "Kanwebreaderunreadable; liveChromeprimarywasused.",
+    "Channel16video playback unavailable; no full broadcast coverage claim.",
+    "Maarivsite-safetyblockrespected; originalcurrentlynotverified.",
+    "Somepublisherreaderindexeslagcurrenthomes.",
+    "Imagebytes/hashesarenotclaimedforunarchivedsecondarygraphics."
+  ],
+  "missingValuesAreNotZero": true,
+  "compiledForecastsIngested": false,
+  "supplementarySourceDiscovery": {
+    "To120": "Not used as an independent poll or percentage source in this update."
+  }
+}

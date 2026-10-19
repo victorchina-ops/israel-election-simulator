@@ -1,0 +1,234 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "asOf": "2026-10-19",
+  "checkedAtUtc": "2026-10-19T06:11:22Z",
+  "url": "http://127.0.0.1:8792/?view=1&tab=dashboard",
+  "browserAutomation": "cua",
+  "browser": "Chrome",
+  "tabId": "1913180122",
+  "sourcePlanSha256": "0743fae63c950644e7aab20ad7add3f42e83f4410f26ba498316ee35c707976b",
+  "officialSourceSnapshotSha256": "625119d06aaa47dc498f17b7e1be54a8ee5fb5e11ff75a7048a8813f908c2530",
+  "servedHTMLSha256": "9f6e42c8a4e790c6bc6ae3f209c20ced8ae50d0cbd4d2b6eda250d9fbe63d451",
+  "servedHTMLExactByteMatch": true,
+  "checks": [
+    {
+      "id": "fresh-isolated-render",
+      "status": "passed",
+      "observed": "Fresh CUA Chrome tab1913180122 on8792; initial deep link dashboard honored;19.10.2026 rendered and snapshot meta matches approved build."
+    },
+    {
+      "id": "default-controls",
+      "status": "passed",
+      "observed": "Historical accuracy selected; Channel14 OFF; forecast similarity OFF; turnout2022 and motivations100%; initial default DOM saved."
+    },
+    {
+      "id": "new-polls-and-sample-metadata",
+      "status": "passed",
+      "observed": "Current table includes Kan/i24/C14 each18.10.2026,8sources total; Kan547/fieldwork unverified; i24 525/field18Oct; C14 559/field18Oct; source links visible."
+    },
+    {
+      "id": "strict-default-cohort",
+      "status": "passed",
+      "observed": "Without14:39 verified polls/7series/32deltas,9Sep–18Oct; audit19Oct; similarity explicitly does not adjust confirmed p/q."
+    },
+    {
+      "id": "channel14-independent-toggle",
+      "status": "passed",
+      "observed": "Checked14 ON in isolated test:49polls/8series/41deltas; switchedOFF and restored39/7/32."
+    },
+    {
+      "id": "similarity-independent-toggle",
+      "status": "passed",
+      "observed": "Checked similarityON while14OFF and quality weighting preserved; result updated and remained active across tab navigation."
+    },
+    {
+      "id": "default-replay-agreement",
+      "status": "passed",
+      "observed": "W25.35%,H50.33%; dashboard mean50.9coalition/53.2opposition matches independent default replay at displayed rounding."
+    },
+    {
+      "id": "similarity-replay-agreement",
+      "status": "passed",
+      "observed": "SimilarityON,no14:W28.72%,H47.61%; displayed means W1.2,H2.1 and coalition51.2/opposition53.0 agree with separate10000run/seed20260912 replay."
+    },
+    {
+      "id": "party-partition",
+      "status": "passed",
+      "observed": "17 distinct assignment selects;7coalition/4opposition/6unassigned; Winter=a and Hendel=other; UI explains each simulation partitions120 and rounded means need not individually sum exactly120."
+    },
+    {
+      "id": "threshold-first-and-joint-event",
+      "status": "passed",
+      "observed": "Threshold tab begins with party probability chart before settings; missing IsraelFirst estimate shown missing; joint event explicitly all selected fail together, using shared simulations."
+    },
+    {
+      "id": "no-ask-chatgpt",
+      "status": "passed",
+      "observed": "No AskChatGPT control in observed DOM or button labels; feature false in approved snapshot."
+    },
+    {
+      "id": "appearance-persists",
+      "status": "passed",
+      "observed": "Light/dark toggle immediately available. Switched dark→light and reloaded: visible Light state and button to switch dark preserved; scenario itself resets to defaults, then similarity was explicitly re-enabled for finalONcapture."
+    },
+    {
+      "id": "author-about-preserved",
+      "status": "passed",
+      "observed": "About retains author name,contact,explanations,credits and loaded original portrait; screenshot05visually inspected."
+    },
+    {
+      "id": "layout-and-controls",
+      "status": "passed",
+      "observed": "Desktop pageWidth=viewportWidth=2033, no page-level horizontal overflow; readable controls/tables in light and dark; quick turnout/motivation reset visible."
+    },
+    {
+      "id": "test-scenario-restored",
+      "status": "passed",
+      "observed": "Final test scenario restored quality/no14/similarityOFF. Theme light remains solely on isolated8792 origin; no8790/user/public scenario modified."
+    }
+  ],
+  "initialAccessLimitations": [
+    {
+      "attempt": 1,
+      "result": "CUA ERR_CONNECTION_TIMED_OUT; server was inside restricted socket environment; not counted as UI success."
+    },
+    {
+      "attempt": 2,
+      "result": "Root restarted server with approved socket access; same CUA tab reload succeeded. HTTP200 exact approved dist bytes independently checked."
+    }
+  ],
+  "defaultObserved": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": false,
+    "winterPassPct": 25.35,
+    "hendelPassPct": 50.33,
+    "coalitionMeanDisplayed": 50.9,
+    "oppositionMeanDisplayed": 53.2
+  },
+  "similarityObserved": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": true,
+    "winterPassPct": 28.72,
+    "hendelPassPct": 47.61,
+    "winterMeanDisplayed": 1.2,
+    "hendelMeanDisplayed": 2.1,
+    "coalitionMeanDisplayed": 51.2,
+    "oppositionMeanDisplayed": 53.0
+  },
+  "independentReplayExpected": {
+    "coalition": 51.2376,
+    "opposition": 53.0425,
+    "arab": 13.6178,
+    "other": 2.1021,
+    "winterMean": 1.2062,
+    "winterPassPct": 28.72,
+    "hendelPassPct": 47.61
+  },
+  "observedAssignments": [
+    {
+      "label": "שיוך הליכוד לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך יהדות התורה לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך ש״ס לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך עוצמה יהודית לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך הציונות הדתית–זהות לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך עמך ישראל לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך נעם לישראל לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך הרשימה המשותפת לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך רע״ם לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך המילואימניקים והכלכלית לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך כחול לבן לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך הציבור החרדי לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך ישראל תחילה לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך ישר! לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    },
+    {
+      "label": "שיוך ביחד לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    },
+    {
+      "label": "שיוך הדמוקרטים לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    },
+    {
+      "label": "שיוך ישראל ביתנו לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    }
+  ],
+  "evidenceTextFiles": {
+    "default-dashboard-dom.txt": "0406d9f4b18aed1ff564ece99e72da8c67d127ae97d598ade0a9b63fa184bf75",
+    "final-default-dom.txt": "a29957bf5eab61c0231a33b5884c13eae7430505c6ae643f3b90c81d814656c7",
+    "polls-text.txt": "7e99a1828cce6919ab3ddf4ef42c45d20b91345806a36603aaeb186159f9a55d",
+    "threshold-similarity-on-text.txt": "aa4983fdee21d3662c3ff3eadbb123cef3445e5cd0e8fdf0c885792e0e97259a",
+    "trends-with14-text.txt": "f438288cfef76583f4e9549d50a66556f1f8d9df95c9618b0b6e273823e8dc60",
+    "trends-without14-text.txt": "cd46f5d81f9dbea639eb7f1ec9266c96b990bd95d7bc6ab0ddeae40e71f5f004"
+  },
+  "screenshotsCaptureFormat": "JPEG (documented CUA browser format)",
+  "userScenarioTouched": false,
+  "productionScenarioTouched": false,
+  "finalIsolatedScenario": {
+    "includeChannel14": false,
+    "pollCorrelationEnabled": false,
+    "weightMode": "quality",
+    "appearance": "light"
+  }
+}
