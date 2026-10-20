@@ -1,0 +1,119 @@
+--- before/tests/strict-party-publication.test.mjs
++++ after/tests/strict-party-publication.test.mjs
+@@ -111,6 +111,98 @@
+   assert.ok(extreme >= 0n && extreme <= histogram.total);
+   return exactProbability(extreme, histogram.total);
+ }
++const fileSha256 = file => crypto.createHash('sha256').update(fs.readFileSync(file)).digest('hex');
++function pythonHexFloat(value) {
++  const parts = /^(-?)0x([0-9a-f]+)\.([0-9a-f]+)p([+-]?\d+)$/i.exec(value);
++  assert.ok(parts, `invalid reviewed float encoding: ${value}`);
++  const significand = BigInt('0x' + parts[2] + parts[3]);
++  assert.ok(significand <= BigInt(Number.MAX_SAFE_INTEGER));
++  return (parts[1] ? -1 : 1) * Number(significand) * 2 ** (Number(parts[4]) - 4 * parts[3].length);
++}
++let verifiedBlocBoundary;
++function reviewedBlocBoundary(checked) {
++  if (verifiedBlocBoundary) return verifiedBlocBoundary;
++  const path = 'artifacts/poll-checks/2026-10-20-evening/numeric-compatibility/float-boundary/focused-common-threshold-review.json';
++  assert.equal(fileSha256(path), 'a0ece1bb9589de317a739a043fe649dcfe13b65b2c7e6dfc94c4742027d9b6ba');
++  const proof = read(path);
++  assert.equal(proof.status, 'PASS');
++  assert.equal(proof.outcome, 'opposition_raam');
++  for (const [file, hash] of Object.entries(proof.inputSha256)) assert.equal(fileSha256(file), hash, file);
++  assert.equal(fileSha256('artifacts/strict-post-close/compressed_searchsorted_exact.py'),
++    '22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1');
++  assert.equal(fileSha256('artifacts/strict-post-close/independent-compressed-counts.py'),
++    '8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d');
++  assert.equal(fileSha256('scripts/exact_scalar_marginals_2026_10_20.py'),
++    'ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035');
++  const index = checked.groups.indexOf(proof.outcome);
++  assert.ok(index >= 0);
++  assert.equal(blocAudit.primary.overall[index].group, proof.outcome);
++  assert.equal(blocAudit.primary.overall[index].slopePerWeek, pythonHexFloat(proof.primaryObservedHex));
++  assert.equal(checked.slopes[index], pythonHexFloat(proof.independentObservedHex));
++  assert.equal(proof.primaryObserved, pythonHexFloat(proof.primaryObservedHex));
++  assert.equal(proof.independentObserved, pythonHexFloat(proof.independentObservedHex));
++  assert.equal(proof.toleranceUnchanged, 1e-12);
++  assert.equal(Math.abs(proof.primaryObserved) - 1e-12, pythonHexFloat(proof.primaryCutoffHex));
++  assert.equal(Math.abs(proof.independentObserved) - 1e-12, pythonHexFloat(proof.independentCutoffHex));
++  assert.equal(proof.observedDifference, proof.primaryObserved - proof.independentObserved);
++  assert.equal(proof.observedDifferenceInUlps, 16);
++  assert.equal(proof.commonThresholdExactIntegerMatch, true);
++  assert.equal(proof.independentOwnThresholdIntegerMatch, true);
++  assert.equal(proof.allPrimaryUniqueAndIndependentDpScalarBlocksByteIdentical, true);
++  assert.equal(proof.nullMassRestoredByExactLabeledMultiplicities, true);
++  assert.equal(proof.numericalOutputsOrFrozenHelpersModified, false);
++  assert.equal(BigInt(proof.totalPermutationsExact), BigInt(checked.totalExact));
++  assert.equal(BigInt(proof.archivedPrimaryExtremeCountExact),
++    BigInt(blocAudit.primary.exactCounting.extremeCountsExact[index]));
++  assert.equal(BigInt(proof.archivedIndependentExtremeCountExact), BigInt(checked.countsExact[index]));
++  assert.equal(BigInt(proof.independentCounterAtPrimaryObservedCountExact), BigInt(proof.archivedPrimaryExtremeCountExact));
++  assert.equal(BigInt(proof.independentCounterAtOwnObservedCountExact), BigInt(proof.archivedIndependentExtremeCountExact));
++  assert.equal(BigInt(proof.boundaryMultiplicityDifferenceExact),
++    BigInt(proof.archivedIndependentExtremeCountExact) - BigInt(proof.archivedPrimaryExtremeCountExact));
++  assert.equal(proof.boundaryProbabilityMass,
++    exactProbability(proof.boundaryMultiplicityDifferenceExact, proof.totalPermutationsExact));
++  assert.equal(proof.primaryP, exactProbability(proof.archivedPrimaryExtremeCountExact, proof.totalPermutationsExact));
++  assert.equal(proof.independentP, exactProbability(proof.archivedIndependentExtremeCountExact, proof.totalPermutationsExact));
++  assert.equal(proof.commonThresholdP, proof.primaryP);
++  assert.equal(proof.seriesBlocks.length, blocAudit.primary.byPollster.length);
++  for (const [position, support] of proof.seriesBlocks.entries()) {
++    const series = blocAudit.primary.byPollster[position];
++    assert.equal(support.pollsterId, series.pollsterId);
++    assert.deepEqual(support.timeDays, series.timeDaysFromFirst);
++    assert.deepEqual(support.seats, series.groups.find(row => row.group === proof.outcome).seats);
++    assert.equal(support.weight, series.weight);
++    assert.equal(support.n, series.pollIds.length);
++    const histogram = scalarPermutationHistogram(support.timeDays, support.seats);
++    const ordered = [...histogram.scores].sort(([a], [b]) => a - b);
++    assert.equal(ordered.length, support.uniqueScores);
++    assert.equal(BigInt(support.rawPermutationMass), histogram.total);
++    assert.deepEqual(ordered.map(([, mass]) => mass), support.exactMultiplicities.map(BigInt));
++    const values = Buffer.alloc(8 * ordered.length);
++    const scale = 14 * support.weight / histogram.denominator;
++    ordered.forEach(([score], i) => {
++      const value = score * scale;
++      assert.equal(value, pythonHexFloat(support.valuesHex[i]));
++      values.writeDoubleLE(value, i * 8);
++    });
++    assert.equal(crypto.createHash('sha256').update(values).digest('hex'), support.floatValuesSha256);
++  }
++  verifiedBlocBoundary = proof;
++  return proof;
++}
++function assertBlocIntegerTailAgreement(checked, index) {
++  const primary = BigInt(blocAudit.primary.exactCounting.extremeCountsExact[index]);
++  const own = BigInt(checked.countsExact[index]);
++  if (primary === own) {
++    assert.equal(primary, own);
++    assert.equal(blocAudit.primary.exactCounting.extremeCounts[index], checked.counts[index]);
++    return;
++  }
++  assert.equal(blocAudit.primary.overall[index].group, 'opposition_raam');
++  const proof = reviewedBlocBoundary(checked);
++  assert.equal(checked.groups[index], proof.outcome);
++  assert.equal(primary, BigInt(proof.independentCounterAtPrimaryObservedCountExact));
++  assert.equal(own, BigInt(proof.independentCounterAtOwnObservedCountExact));
++}
+ const eligibleCurrentCohort = audit.cohort.filter(row => row.eligibleStrict);
+ const currentSeriesSizes = new Map();
+ for (const row of eligibleCurrentCohort) currentSeriesSizes.set(row.pollsterId,
+@@ -190,7 +282,7 @@
+   assert.equal(BigInt(checkedBlocs.totalExact), BigInt(blocAudit.primary.exactCounting.nPermutationsExact));
+   assert.equal(checkedBlocs.countsExact.length, 3);
+   for (const [index, decimal] of checkedBlocs.countsExact.entries()) {
+-    assert.equal(BigInt(decimal), BigInt(blocAudit.primary.exactCounting.extremeCountsExact[index]));
++    assertBlocIntegerTailAgreement(checkedBlocs, index);
+     close(checkedBlocs.p[index], exactProbability(decimal, checkedBlocs.totalExact), blocAudit.primary.overall[index].group);
+   }
+   assert.equal(BigInt(independent.nPermutationsExact), BigInt(audit.primary.exactCounting.nPermutationsExact));
+@@ -213,7 +305,7 @@
+   assert.equal(primary.nPollsters, currentSeriesSizes.size);
+   assert.equal(primary.nDeltas, expectedCurrentDeltas);
+   assert.equal(primary.wholeInstituteSignPatterns, expectedCurrentSignPatterns);
+-  assert.deepEqual(primary.exactCounting.extremeCounts, checked.counts);
++  primary.exactCounting.extremeCountsExact.forEach((_, index) => assertBlocIntegerTailAgreement(checked, index));
+   for (const [index, row] of primary.overall.entries()) {
+     close(row.slopePerWeek, checked.slopes[index]);
+     close(row.pValue, checked.p[index]);

@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "status": "READY-FOR-ROOT-FULL-TEST-RERUN",
+  "asOf": "2026-10-20",
+  "runId": "evening",
+  "recordedAtUtc": "2026-10-20T20:00:05.534249+00:00",
+  "scope": "Two test files only; three stale assertions repaired following explicit root authorization. No production source, poll data, numeric output, frozen counter, registered tolerance or statistical method changed.",
+  "files": [
+    {
+      "path": "tests/strict-party-publication.test.mjs",
+      "beforeFile": "artifacts/poll-checks/2026-10-20-evening/test-boundary-compatibility/before/strict-party-publication.test.mjs",
+      "beforeSha256": "0c4a2ce7b7ca151042bc183e0a12a0bd782ca58e4c7654392d3999bde8e613e5",
+      "afterSha256": "81d2cab5a0126cf91a10ecc507251871e20260098abad86f14ecf51dd96b30c4",
+      "diffFile": "artifacts/poll-checks/2026-10-20-evening/test-boundary-compatibility/strict-party-publication.test.mjs.diff",
+      "diffSha256": "a29c346c2504817c27954936bb85008978128b450331dc3520b0dfbd85197985"
+    },
+    {
+      "path": "tests/channel14-strict-trends.test.mjs",
+      "beforeFile": "artifacts/poll-checks/2026-10-20-evening/test-boundary-compatibility/before/channel14-strict-trends.test.mjs",
+      "beforeSha256": "40d7b13e00e100c04dbd24e445f8a6b335852bdbb01fe8e48f4b3e000eb7c2ab",
+      "afterSha256": "018c4780959ea9d619c7f9ba5e5aea11468ba77a1698cf89010673ccd4425979",
+      "diffFile": "artifacts/poll-checks/2026-10-20-evening/test-boundary-compatibility/channel14-strict-trends.test.mjs.diff",
+      "diffSha256": "13283882f5273ad5513de1316afb252f0191c325bde5ca6c41b2287dd8ac4206"
+    }
+  ],
+  "preservedInitialFailedLog": {
+    "file": "artifacts/poll-checks/2026-10-20-evening/test-results-before-boundary-compatibility.txt",
+    "sha256": "0bd9a9b826b7dbd9c27fe7dfe03703887505adebbb484802ffedeb2d71f9818d",
+    "bytes": 42650
+  },
+  "strictValidationSha256": "1b27af423821bf0b76f76cbd5dfa7a5a7f9c04bfd2e39bfb51d18c74f4a2fbb5",
+  "strictNumericInputHashesUnchanged": {
+    "data/current-polls.json": "f7e28f481c6e70c49cf5fc861fbd0a72f09aaef84b4e08c92fd3a3d8ee7d368d",
+    "data/poll-history.json": "750dfb6d66211c7668a7754298a7704e05e70d743ba54c057e9d6049bd616999",
+    "data/strict-party-trends.json": "21254df12c71ed38e60a80e127c04c8f0fbcc795cbb7c2dcbda760e42d39fe92",
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "artifacts/strict-post-close/analysis.json": "467372a26032c783d5083d1a254c5c3db27c2f55809231436b12e0b548bee55e",
+    "artifacts/strict-post-close/party-analysis.json": "9382a0eabae1295b8c4d5269efa88ff23dd17f8cfd05ba55104e8e591a8b1d81",
+    "artifacts/strict-post-close/independent-strict-numeric-audit.json": "dc5e6b75b746e3b6a41232bd794c94518311780e2911d3b8bf7c6892b7fecca2",
+    "artifacts/strict-post-close/party-independent.json": "b8b1117acb0e8c647749ef43101dfd8dc1ce99675b58b23a1404ffd000996b27"
+  },
+  "focusedCommonThresholdReview": {
+    "file": "artifacts/poll-checks/2026-10-20-evening/numeric-compatibility/float-boundary/focused-common-threshold-review.json",
+    "sha256": "a0ece1bb9589de317a739a043fe649dcfe13b65b2c7e6dfc94c4742027d9b6ba",
+    "knownOutcomeOnly": "opposition_raam",
+    "observedDifferenceUlps": 16,
+    "observedDifference": -4.440892098500626e-16,
+    "boundaryProbabilityMass": 2.1793194370760206e-15,
+    "exactBigIntOwnAndCommonCountsRequired": true,
+    "sourceAndCounterHashesRequired": true,
+    "allEightSupportsReconstructed": true
+  },
+  "currentDefaultVerdictRepair": {
+    "reason": "New verified 20 October polls changed the cohort and corrected significance. The earlier unconditional all-nonsignificant assumption does not apply to future observations.",
+    "validationFile": "artifacts/strict-post-close/without-channel14/2026-10-20/evening/validation.json",
+    "validationSha256": "f5f42e9c2afb95dc6ef89648b5a0cf64e53dbca0445178f4de19f65b795e0a66",
+    "mainBlocs": [
+      "coalition"
+    ],
+    "sensitivityBlocs": [
+      "coalition"
+    ],
+    "mainParties": [
+      "joint",
+      "otzma",
+      "winter"
+    ],
+    "sensitivityParties": [],
+    "independentChecks": "Exact-count primary probabilities; exhaustive seven-institute sign flips; separate three-bloc BH correction; existing seventeen-party family and frozen 9 October checks retained."
+  },
+  "syntaxChecks": [
+    {
+      "command": "node --check tests/strict-party-publication.test.mjs",
+      "exitCode": 0
+    },
+    {
+      "command": "node --check tests/channel14-strict-trends.test.mjs",
+      "exitCode": 0
+    }
+  ],
+  "fullOrFocusedTestsRunByThisAgent": false,
+  "fullTestRerunOwner": "/root",
+  "independentReview": {
+    "file": "artifacts/poll-checks/2026-10-20-evening/test-boundary-compatibility/independent-review.json",
+    "sha256": "954e9e01c9c3cef4adf3d238c0dc81a4c595c41a72b6cc9d9e6179134ea933bd",
+    "status": "PASS-STATIC-REVIEW"
+  },
+  "receiptCreationNote": "An initial receipt-generation attempt failed on an absent preservedCodeHashes test-file key; no test or numerical computation ran and no numerical files were changed."
+}

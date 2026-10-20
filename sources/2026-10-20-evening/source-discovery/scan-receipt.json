@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "checkedAtUtc": "2026-10-20T18:54:12.986020+00:00",
+  "profileUrl": "https://x.com/IsraelPolls?s=20",
+  "profileReadable": true,
+  "profilePostCount": 2799,
+  "requestedTarget": "Channel16 / Maagar new poll allegedly20Oct",
+  "targetFinding": "No new Channel16/Maagar post visible among current profile entries inspected through the known N12 19Oct boundary. This is bounded source coverage, not proof no C16 poll was published elsewhere.",
+  "newOtherPollLead": {
+    "file": "israelpolls-i24-lead-185412Z.json",
+    "sha256": "e8ad133fc9da8683d351e10169af09e4f38473c854f0e21bc9b6fc127c47760e",
+    "publisher": "i24NEWS",
+    "note": "Channel15 logo, Direct Polls; distinct from Channel16/Maagar and from active i24 18Oct."
+  },
+  "knownReposts": [
+    {
+      "url": "https://x.com/IsraelPolls/status/2112511765468864825",
+      "kind": "already ingested Walla20Oct delayed repost; prior dedup remains valid"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2112513503290417607",
+      "postUtc": "2026-10-20T11:57:22Z",
+      "kind": "Walla historical table; not counted as independent poll"
+    }
+  ],
+  "temporaryOwnTabClosed": true,
+  "canonicalMutated": false,
+  "publicMutated": false,
+  "accessLimitations": [
+    "Only current profile and directly linked new i24 graphics/history were examined; no exhaustive account search.",
+    "Primary C16 publisher is being checked independently by root team."
+  ]
+}

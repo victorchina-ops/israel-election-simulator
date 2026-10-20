@@ -1,0 +1,14 @@
+Reviewed published observation next_data_2026-10-20; publication 2026-10-20; audit 2026-10-20.
+Original source: https://www.c14.co.il/article/1746819.
+Published mandates: {"likud": 30, "yashar": 20, "beyachad": 9, "democrats": 9, "shas": 9, "utj": 8, "rz_zehut": 7, "otzma": 8, "yisrael_beiteinu": 6, "joint": 8, "raam": 6, "winter": 0, "hendel": 0, "noam": 0, "haredi_public": 0}
+Exact published percentages: {"hendel": 2.5, "winter": 1.9, "noam": 0.9, "haredi_public": 0.9}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 62, "opposition": 44, "arab_parties": 14}
+Sample size exact/exclusive lower bound: 2116/None
+Verified fieldwork: True; 2026-10-20 to 2026-10-20
+Missing values are not zero and are never inherited.
+סקר חדש פורסם ונאסף20.10.2026,2116 בוגרים מכלל האוכלוסייה. מחליף רק את התצפית הפעילה19.10; כל ההיסטוריה נשמרת.
+כל120 המנדטים והאחוזים המדויקים אומתו בגוף המקור. חלוקת הגושים62 קואליציה,44 אופוזיציה ו14 ערביות.
+אח״י0.4% נשמרת כרשימה נקובה נפרדת; אחוז אחר כולל לא פורסם ואינו מוחלף בסכום משוער. גנץ נעדר מהפרסום החדש ומנדטיו ואחוזו נשארים חסרים.
+הכתבה מתארת עליית הרשימה המשותפת מ7 ל8, אף שבסקר19.10 הרשום8; נשמרים שני וקטורי המקור המלאים וההשוואה המילולית אינה משנה את הסקר הקודם.
+שיטת האיסוף, טעות הדגימה, רמת הביטחון ושיעור המתלבטים נשארים חסרים. ערוץ14 מוחרג כברירת מחדל, אך ניתן להפעילו במתג.

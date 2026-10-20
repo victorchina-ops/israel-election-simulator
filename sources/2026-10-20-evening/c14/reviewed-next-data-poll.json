@@ -1,0 +1,159 @@
+{
+  "id": "next_data_2026-10-20",
+  "pollsterId": "next_data",
+  "pollster": "NEXT DATA — שלמה פילבר",
+  "publisher": "חדשות 14",
+  "date": "2026-10-20",
+  "checkedAt": "2026-10-20",
+  "reviewedAtUtc": "2026-10-20T19:09:39.168018+00:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationTime": "20:32:27",
+  "publishedAt": "2026-10-20T20:32:27+03:00",
+  "updatedAt": "2026-10-20T20:47:33+03:00",
+  "dateKind": "פרסום מקורי20.10.2026; עבודת שדה20.10 מצוינת במפורש בנפרד.",
+  "fieldworkStart": "2026-10-20",
+  "fieldworkEnd": "2026-10-20",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "fieldworkSourceUrl": "https://www.c14.co.il/article/1746819",
+  "sampleSize": 2116,
+  "sampleSizeSourceUrl": "https://www.c14.co.il/article/1746819",
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "samplingMethod": null,
+  "population": "בוגרים מכלל האוכלוסייה",
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "statusLabel": "סקר חדש — אומת במקור; ערוץ 14 מוחרג כברירת מחדל",
+  "seats": {
+    "likud": 30,
+    "yashar": 20,
+    "beyachad": 9,
+    "democrats": 9,
+    "shas": 9,
+    "utj": 8,
+    "rz_zehut": 7,
+    "otzma": 8,
+    "yisrael_beiteinu": 6,
+    "joint": 8,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "hendel": 2.5,
+    "winter": 1.9,
+    "noam": 0.9,
+    "haredi_public": 0.9,
+    "other": 0.4
+  },
+  "reportedPercentages": {
+    "hendel": 2.5,
+    "winter": 1.9,
+    "noam": 0.9,
+    "haredi_public": 0.9
+  },
+  "knownPercentageSum": 6.6,
+  "originalCoveragePct": 6.6,
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "publishedBounds": {},
+  "unmodelledNamedParties": [
+    {
+      "name": "אח״י — חוזרים לשורשים",
+      "seats": 0,
+      "pct": 0.4,
+      "sourceUrl": "https://www.c14.co.il/article/1746819",
+      "modelOtherMapping": "Named published0.4% may contribute to model other only; raw other remains missing.",
+      "mappedTo": "other"
+    }
+  ],
+  "sourceUrl": "https://www.c14.co.il/article/1746819",
+  "secondarySourceUrls": [
+    "https://www.c14.co.il/",
+    "https://www.c14.co.il/archive/65839"
+  ],
+  "replacesPollId": "next_data_2026-10-19",
+  "sourceBlocSeats": {
+    "coalition": 62,
+    "opposition": 44,
+    "arab_parties": 14
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "הליכוד, ש״ס, יהדות התורה, עוצמה יהודית והציונות הדתית–זהות; וינטר אינו עובר",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו; ללא ערביות והנדל",
+    "arab_parties": "הרשימה המשותפת ורע״ם"
+  },
+  "percentageSourceUrls": {
+    "hendel": "https://www.c14.co.il/article/1746819",
+    "winter": "https://www.c14.co.il/article/1746819",
+    "noam": "https://www.c14.co.il/article/1746819",
+    "haredi_public": "https://www.c14.co.il/article/1746819"
+  },
+  "notes": [
+    "סקר חדש פורסם ונאסף20.10.2026,2116 בוגרים מכלל האוכלוסייה. מחליף רק את התצפית הפעילה19.10; כל ההיסטוריה נשמרת.",
+    "כל120 המנדטים והאחוזים המדויקים אומתו בגוף המקור. חלוקת הגושים62 קואליציה,44 אופוזיציה ו14 ערביות.",
+    "אח״י0.4% נשמרת כרשימה נקובה נפרדת; אחוז אחר כולל לא פורסם ואינו מוחלף בסכום משוער. גנץ נעדר מהפרסום החדש ומנדטיו ואחוזו נשארים חסרים.",
+    "הכתבה מתארת עליית הרשימה המשותפת מ7 ל8, אף שבסקר19.10 הרשום8; נשמרים שני וקטורי המקור המלאים וההשוואה המילולית אינה משנה את הסקר הקודם.",
+    "שיטת האיסוף, טעות הדגימה, רמת הביטחון ושיעור המתלבטים נשארים חסרים. ערוץ14 מוחרג כברירת מחדל, אך ניתן להפעילו במתג."
+  ],
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "sourceDocument": {
+    "fileName": "c14-reviewed-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "d0cc03fd42b879ad916fa1889642771200cc6c430da446e3d8422632a3789928",
+    "extractFileName": "c14-reviewed-facts.txt",
+    "extractSha256": "d0cc03fd42b879ad916fa1889642771200cc6c430da446e3d8422632a3789928",
+    "reviewedAt": "2026-10-20",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.c14.co.il/article/1746819",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": false,
+    "factualExtractRewritten": true,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "samplingMethod",
+      "reportedMarginOfErrorPct",
+      "reportedMarginOfErrorConfidencePct",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "percentageDenominator",
+      "undecidedPct"
+    ]
+  },
+  "publicationTimePrecision": "second"
+}

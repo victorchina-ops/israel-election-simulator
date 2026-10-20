@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "reviewedAtUtc": "2026-10-20T19:34:27.090639+00:00",
+  "reviewerTask": "/root/c13_source_oct15",
+  "independentPartyAdapterSha256": "d9d5328f57a6dc3f62090ba02868e2a2a9940ad2c4a431c3551b65c0e38ae9c1",
+  "primaryPartyAdapterPreservedSha256": "d8e7164f20176ee864de8b9702cd6ac0b130fcca854032261a329805a98d0b74",
+  "originalWrapperPreservedSha256": "eaa11ad77097b51c40a21ca23a7427a2bffa8a502798a37c12053d05c654fea7",
+  "agentProofSha256": "e32425b8402295fb241b12ee630345aa5b64f1e4d72de8b64321237fb92a36a5",
+  "onlyPerRowSubsetGuardAndIndependentStageCliRestrictionChanged": true,
+  "allNumericalTransformBytesIdenticalOutsideGuard": true,
+  "otherThreeStageTransformsUnchanged": true,
+  "actual55x17ArraysEqualWithAndWithoutZeroAggregate": true,
+  "noAdditionalTestFamilyOrMethodChange": true,
+  "semanticAndAdversarialCases": {
+    "actual55PollCohort": "accepted",
+    "noAggregateOldCompatible": "accepted",
+    "other_positive": "rejected",
+    "other_negative": "rejected",
+    "other_floatZero": "rejected",
+    "other_fraction": "rejected",
+    "other_boolFalse": "rejected",
+    "other_boolTrue": "rejected",
+    "other_stringZero": "rejected",
+    "other_null": "rejected",
+    "other_list": "rejected",
+    "other_mapping": "rejected",
+    "unknownZero": "rejected",
+    "catalog_missingOther": "rejected",
+    "catalog_duplicateOther": "rejected",
+    "catalog_otherBallotTrue": "rejected",
+    "missingPositiveBallotRaw120": "rejected"
+  },
+  "caseCount": 17,
+  "threePassedLineageHashesPreserved": {
+    "bloc": "6c0c2f3261e80e2de31dc259de222775db8c3bae060c16eadfffcce3827aca1e",
+    "independent-bloc": "e33bfbca01efe3f53327e2e7bcb77c0f4b9c3e7bd248f8182af7c0efaad33d6c",
+    "party": "faf55e2a07daf0f868b9a777296991aeddc9226bb43bad86bbf0222bc9e00b06"
+  },
+  "failed04LogSha256Preserved": "76349d719b19da06356dd03c16f97f43f9509216329b660045abf3db8b3c4116",
+  "frozenFourAnalyzerHashesUnchanged": true,
+  "heavyAnalysesExecuted": false,
+  "conclusion": "Accepts only catalogued nonballot other at Python integer0. Unknown/nonzero/noninteger extras fail; original raw120-seat assertion remains. Independent least-squares, exact DP, tail tolerance, BH and sign flips unchanged."
+}

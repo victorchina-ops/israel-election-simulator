@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "output": "threshold-probabilities.png",
+  "outputSha256": "fbbf460b86379be466be6280f59e634c3b67538ebd62a36f8b4aa864c20e477a",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "prompt": "image-prompt.txt",
+  "promptSha256": "19b2f9ec312621f1ce580d93f3b2e988c15442cd2c0f15e6a2fe607c8e12e56e",
+  "originalGenerationPrompt": "image-prompt-original.txt",
+  "originalGenerationPromptSha256": "0c3ebca7ce8104bbba959682b2c5ecbed7b6d1450be4c1529f45853834f5638a",
+  "generator": "built-in image_gen",
+  "generationMode": "generate",
+  "generationCalls": 1,
+  "imageEditingPerformed": false,
+  "visualInspectionCompleted": true,
+  "inspectionMethod": "Root opened this exact original generated PNG using view_image and read all values, labels and source/assumption/credit footer. Numbers were checked against the independently reviewed official preferred replay. Independent actual pixel review is retained separately. No automated OCR or image editing substituted for actual visual inspection.",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "a9afaf65acfd17361fda3a71d7b26fb1e9e493db498109b7e0cd9bbc55456fdb",
+  "sourcePlanSha256": "8fb54e738d746ec222b41ddcba6fa8b1f8d6a044c123ab2d94c57c36b7763f10",
+  "independentModelReviewSha256": "abcda5ca32f6e4bb5681ba78b19de7d5328827c54c2a1f7fe4e76a193c93a95d",
+  "browserLocalReportSha256": "951ace2ac69c3570d8a1d5e148815b260046713cf5ac2ff06e60411a18ca541d",
+  "modelDataSha256": "0ffd4a4bfa622dda91e5b2cc5c0d59bd603453b50bd749c556c9a97392b10719",
+  "tweetSha256": "b1d46477e2ab63b91714722f11b180a7d06cb64feaaf6bf4a55a716489589def",
+  "officialReplayMatchSha256": "f3d114b08ff5c1c6069b73009195baa73414ddaef66b54c695470b3c849e7823",
+  "promptUnicodeTextIdenticalAfterNewlineNormalization": true,
+  "promptRawBytesIdentical": false,
+  "promptLineEndingNote": "Original generation prompt uses CRLF; final producer prompt uses LF. Both files are preserved, separately hashed, and their Unicode content matches after universal-newline normalization. No image regeneration or cleanup occurred.",
+  "automaticTweetPosted": false,
+  "visualObservations": [
+    "Watercolor Knesset doorway, coral and purple ballot envelopes, readable Hebrew heading and cards; no clipped labels or overlaps.",
+    "Winter32.2% probability and1.3meanmandates; Hendel-Zelekha34.9% probability and1.5meanmandates correctly displayed.",
+    "The mean explicitly includes simulation runs in which the party does not cross; threshold3.25% readable.",
+    "Historical accuracy plus forecast-similarity discount, noChannel14, latest-per-institute,2022turnout baseline and20Oct evening date visible.",
+    "Sources12,13,Kan11,i24,16,ZmanIsrael,Walla; Winter withNetanyahu, Hendel-Zelekha outsideblocs; probabilities are model outputs, not published vote shares.",
+    "Small credit ויקטור רינה בן דוד visible. No significance or guaranteed-election-result claim."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "image": "threshold-probabilities.png",
+  "imageSha256": "fbbf460b86379be466be6280f59e634c3b67538ebd62a36f8b4aa864c20e477a",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "visualInspectionCompleted": true,
+  "visualPixelReceiptSha256": "acff5a75343a5017a13c31591f56268b6903428e17fd55eae2766eecdbae4048",
+  "officialReplayMatchSha256": "f3d114b08ff5c1c6069b73009195baa73414ddaef66b54c695470b3c849e7823",
+  "officialReplaySha256": "59364ed4df71e38c7c54920ef102bd6e019baf2fa8e0ef08eecd7761f808876b",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "a9afaf65acfd17361fda3a71d7b26fb1e9e493db498109b7e0cd9bbc55456fdb",
+  "sourcePlanSha256": "8fb54e738d746ec222b41ddcba6fa8b1f8d6a044c123ab2d94c57c36b7763f10",
+  "independentModelReviewSha256": "abcda5ca32f6e4bb5681ba78b19de7d5328827c54c2a1f7fe4e76a193c93a95d",
+  "meanSeats": {
+    "a": 51.2112,
+    "b": 53.4749,
+    "arab": 13.8197,
+    "other": 1.4942
+  },
+  "values": {
+    "winter": {
+      "passPct": 32.18,
+      "meanSeats": 1.338,
+      "displayed": {
+        "passPct": "32.2%",
+        "meanSeats": "1.3"
+      }
+    },
+    "hendel": {
+      "passPct": 34.94,
+      "meanSeats": 1.4942,
+      "displayed": {
+        "passPct": "34.9%",
+        "meanSeats": "1.5"
+      }
+    }
+  },
+  "modelDataSha256": "0ffd4a4bfa622dda91e5b2cc5c0d59bd603453b50bd749c556c9a97392b10719",
+  "tweetSha256": "b1d46477e2ab63b91714722f11b180a7d06cb64feaaf6bf4a55a716489589def",
+  "tweetTwitterWeightedCharacters": 252,
+  "promptSha256": "19b2f9ec312621f1ce580d93f3b2e988c15442cd2c0f15e6a2fe607c8e12e56e",
+  "originalGenerationPromptSha256": "0c3ebca7ce8104bbba959682b2c5ecbed7b6d1450be4c1529f45853834f5638a",
+  "promptUnicodeTextIdenticalAfterNewlineNormalization": true,
+  "promptRawBytesIdentical": false,
+  "reviewScriptSha256": "0bee08cdc6d2543363a2edd9754b8fd726d70f743260cd651b94dbb68f7d9e13",
+  "inspectionMethod": "Independent view_image inspection of this exact PNG recorded before official replay equality was established; no automated pixel-reading claim.",
+  "singleImageGenerationNoCleanup": true,
+  "automaticTweetPosted": false,
+  "modelUiSourceChanged": false,
+  "renderReceiptSha256": "1a9241b65b1e3cf7df13d29e9334667db20556042924c6dc92e235e02d8c2634",
+  "officialSourcePixelReviewSha256": "d30a7c546ef684c7ecbc445b3ff9ba4b372f80111d4dff8953604ebd3a89f3b0"
+}

@@ -1,0 +1,38 @@
+{
+  "status": "REVIEWED-SCOPED-UPGRADE",
+  "asOf": "2026-10-20",
+  "path": "scripts/derive-strict-trends-without-channel14.py",
+  "beforeSha256": "3767d61f3341a4ccbe41775ae2b76422c7b8911ce8ee239f7569f0b994a2a05d",
+  "afterSha256": "552278e86c4c0070383cce0091b1bc75e73a75dc42f37e7c00348989d4e46847",
+  "beforePath": "artifacts/poll-checks/2026-10-20/before/scripts/derive-strict-trends-without-channel14.py",
+  "proposalSha256": "1184b8655927e2127e9a70433da2ca26cea8364441cfad291a5a49b8f15e3f2e",
+  "diffPath": "artifacts/poll-checks/2026-10-20/scalar-review/derive-without14-proposed.diff",
+  "scope": [
+    "Only per-scalar permutation enumeration and individual exact tails replaced",
+    "Primary unique assignments with exact repeated-label factors",
+    "Independent labeled-choice DP",
+    "Signed64 refusal replaced by hash-bound exhaustive and larger-than-signed64 counter capability proof",
+    "Runtime exact block-mass/product/tail/Python-integer assertions",
+    "Source-manifest and validation provenance include backend/proof hashes"
+  ],
+  "proofHashes": {
+    "artifacts/poll-checks/2026-10-20/scalar-review/toy-equivalence.json": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/archive19-equivalence.json": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/independent-backend-review.json": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7"
+  },
+  "preservedFrozenFiles": {
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "artifacts/audit-strict-full-series-2026-09-28.py": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+    "artifacts/strict-post-close/party-independent.py": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68",
+    "scripts/derive-strict-trends-without-channel14-2026-10-09.py": "1781794ed4a9d01444d75740a7222e73ecb80db2c0ca2590984f11ea2613bf8a"
+  },
+  "nullStatisticToleranceWeightsCohortBHAndSignFlipsUnchanged": true,
+  "canonicalAnalysisNotYetRun": true,
+  "independentReviewPendingBeforeDefaultDerivationRun": false,
+  "independentReviewStatus": "PASS",
+  "independentReviewSha256": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7",
+  "supersedesChangeReviewSha256": "b36c354f100efee1a86f5caabb69cf0d86e3be3dff74cf3195086c22415f8f51",
+  "finalCapabilityGuard": "Binds exact toy/archive/independent proof hashes and current backend SHA; validates >int64 combined products and >int64 single-block object masses plus exact block/product/tail checks at runtime.",
+  "finalReproductionPackaging": "Before validation is frozen, copy backend, wrapper, validation/review code and three proof receipts into the dated directory; hash all dependencies in input/output manifests. No files added after run freeze."
+}

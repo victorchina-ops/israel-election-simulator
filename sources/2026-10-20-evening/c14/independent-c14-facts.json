@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "release": "2026-10-20-evening",
+  "checkedAtUtc": "2026-10-20T19:09:47.545186+00:00",
+  "url": "https://www.c14.co.il/article/1746819",
+  "access": {
+    "webReader": "inaccessible",
+    "normalChrome": "original body fully readable",
+    "browserAutomation": "cua",
+    "tabId": "1913180737"
+  },
+  "publicationDate": "2026-10-20",
+  "publishedAt": "2026-10-20T20:32:27+03:00",
+  "modifiedAt": "2026-10-20T20:47:33+03:00",
+  "publicationEvidence": "Original DOM time datetime and article:published_time metadata; modification metadata separate from comment times.",
+  "fieldworkStart": "2026-10-20",
+  "fieldworkEnd": "2026-10-20",
+  "sampleSize": 2116,
+  "population": "Adults in the full population",
+  "institute": "NEXT DATA",
+  "analyst": "Shlomo Filber",
+  "collectionMethod": null,
+  "marginOfError": null,
+  "confidenceLevel": null,
+  "seats": {
+    "likud": 30,
+    "yashar": 20,
+    "beyachad": 9,
+    "democrats": 9,
+    "otzma": 8,
+    "utj": 8,
+    "shas": 9,
+    "rz_zehut": 7,
+    "yisrael_beiteinu": 6,
+    "joint": 8,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "seatSum": 120,
+  "publishedBelowThresholdPct": {
+    "hendel": 2.5,
+    "winter": 1.9,
+    "noam": 0.9,
+    "haredi_public": 0.9,
+    "ahi": 0.4
+  },
+  "gantzMentionedAsMeasuredParty": false,
+  "gantzVotePct": null,
+  "rawOtherPct": null,
+  "blocs": {
+    "coalition": 62,
+    "fixedOpposition": 44,
+    "arab": 14
+  },
+  "comparisonCaution": "Article prose says Joint7to8, but independently verified previous19Oct poll has8. Current8 is verified and totals120; do not use the contradictory prose previous value.",
+  "verificationScope": "Independent numerical and methodology reading of original body. No candidate or canonical mutation; root prepares candidate.",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "publicScope": "Concise numerical facts and provenance only; complete article body stays in local-only text evidence.",
+  "localEvidence": {
+    "fileName": "c14-body-local-only.txt",
+    "sha256": "8390842b86be356336c765b90fe79558a5969d0782977522c87e73b9fea4bbd0"
+  }
+}

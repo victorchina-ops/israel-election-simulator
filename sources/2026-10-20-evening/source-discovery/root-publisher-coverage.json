@@ -1,0 +1,90 @@
+{
+  "asOf": "2026-10-20",
+  "checkedAtUtc": "2026-10-20T19:10:57.882341+00:00",
+  "scope": "Fresh bounded original homepage/index review during evening targeted C16 update; no nationwide absence claim. Web reader cache can lag live pages.",
+  "readMethod": "Direct web reader open then observed index link clicks and poll-title searches; C16 and i24 live UI independently owned by source agents.",
+  "sources": [
+    {
+      "publisher": "N12",
+      "urls": [
+        "https://www.mako.co.il/news",
+        "https://www.mako.co.il/news-israel-elections/2026"
+      ],
+      "status": "Readable current home/electionindex; observed latest mandate link resolves known19OctoberArticle-a6eb664b9d451a1026, already retained. Poll-of-polls summary is not independent observation."
+    },
+    {
+      "publisher": "Channel13",
+      "urls": [
+        "https://13tv.co.il/news/",
+        "https://13tv.co.il/news/politics/"
+      ],
+      "status": "Readable home/politics index; no additional complete mandatevector verified in these bounded current links."
+    },
+    {
+      "publisher": "Channel14",
+      "urls": [
+        "https://www.now14.co.il/",
+        "https://www.c14.co.il/archive/65839",
+        "https://www.c14.co.il/article/1746819"
+      ],
+      "status": "Redirected currenthome toC14 and clicked observed politicalindex; NEW20October mandate article independently read, field20October/n2116. LegacycategoryURL failed, correct observedindex succeeded."
+    },
+    {
+      "publisher": "Kan11",
+      "urls": [
+        "https://www.kan.org.il/lobby/news/",
+        "https://www.kan.org.il/content/kan-news/politic/"
+      ],
+      "status": "Direct reader returned empty pages; not a successful current content check or absence claim. Existing18October record retained."
+    },
+    {
+      "publisher": "Walla",
+      "urls": [
+        "https://www.walla.co.il/",
+        "https://www.walla.co.il/news/politics",
+        "https://www.walla.co.il/news/politics/383958175"
+      ],
+      "status": "Readable currenthome/politics; observed20October12:20Lazar mandate article is identical alreadyincluded daytimeobservation, not countedagain."
+    },
+    {
+      "publisher": "Maariv",
+      "urls": [
+        "https://www.maariv.co.il/",
+        "https://www.maariv.co.il/news/politics"
+      ],
+      "status": "Non-retryable reader errors; existing safety restriction respected, no successful current check or absence claim."
+    },
+    {
+      "publisher": "IsraelHayom",
+      "urls": [
+        "https://www.israelhayom.co.il/",
+        "https://www.israelhayom.co.il/news/politics"
+      ],
+      "status": "Readable current home/politicalindex; no additional complete mandate vector verified in bounded links."
+    },
+    {
+      "publisher": "ZmanIsrael",
+      "urls": [
+        "https://www.zman.co.il/",
+        "https://www.zman.co.il/feed/33350/"
+      ],
+      "status": "Readable home and observed pollfeed; latest15OctoberTatica26/20/11vector alreadyretained. GuessedtopicURL failed; actualobservedfeed succeeded."
+    },
+    {
+      "publisher": "To120 supplementary",
+      "urls": [
+        "https://twonetwenty.com/data",
+        "https://twonetwenty.com/he/evidence"
+      ],
+      "status": "Opened discoveryindexes only; no compiled forecast, dataset, calibration or weight ingested."
+    }
+  ],
+  "newPrimarySources": [
+    "Channel16",
+    "i24NEWS",
+    "Channel14"
+  ],
+  "missingValuesNotZero": true,
+  "repostsAndWeeklySummariesDeduplicated": true,
+  "fullCopyrightedBodiesPublic": false
+}

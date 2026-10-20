@@ -1,0 +1,15 @@
+Reviewed numerical facts from a new original Channel16 / Maagar Mochot poll; this is not a full article or transcript.
+Audit:20October2026. Original primary clip titles:20.10 and20-10-26. These are two presentation clips of the same poll, not independent samples.
+Primary clip:https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342
+Second primary presentation:https://www.ch16.co.il/vod/6ad7a6d142b177b761261205
+Discovery:current primary home, programs/news archive and the site poll-search route https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8. The dedicated poll search exposed the two new clips; general home/news lists did not expose a new numerical poll.
+Publication day20October2026 verified from the original dated titles. Exact original publication time is not published in the inspected scope.
+The large broadcast footer explicitly says collection yesterday and today and an exact sample2026. Relative collection wording is anchored to the dated20October original publication:fieldwork19–20October2026. Exact field times, method, population statement, panel, response invitation count, confidence and undecided share remain unknown.
+One short original date/sample quotation only: נערך אתמול והיום וכלל 2,026 משיבים
+Source margin-of-error conflict:large broadcast footer2.1%; repeated small numerical-card fineprint4.2%. Canonical margin of error remains null; both source values retained with locations. No confidence level inferred.
+Settled published seat vector:{"yashar": 21, "likud": 18, "beyachad": 15, "democrats": 9, "otzma": 9, "joint": 9, "utj": 7, "yisrael_beiteinu": 7, "shas": 6, "rz_zehut": 6, "raam": 5, "winter": 4, "hendel": 4, "haredi_public": 0, "other": 0}. Total120. Absent Gantz/Noam/IsraelFirst seat values stay missing; no old percentage or zero inherited.
+Settled exact published percentages:HarediPublic0.6%; aggregate other parties0.2%. Aggregate other is explicitly reported, not a sum reconstructed from named parties. No exact Winter or Hendel vote share was published in the inspected primary numerical frames.
+Settled source blocs:coalition50,opposition52,Arab parties14,Hendel4. Winter4 is consistent with inclusion in coalition50; Hendel4 remains separate.
+Animated frame counts must settle before extraction. Intermediate Winter3/Hendel3/Raam4 and bloc total115 were transient counts and were rejected; later frames show4/4/5 and120 in total. These are not conflicting final poll results.
+The earlier13October Maagar observation remains a separate historical record. This new20October observation would replace only that institute's active row after a separate approved ingestion.
+All screenshot references are primary numerical source evidence. Full45-minute bulletins and any full article/transcript are not published by this extract.

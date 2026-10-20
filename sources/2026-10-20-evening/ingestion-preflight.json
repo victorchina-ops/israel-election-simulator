@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "phase": "preflight",
+  "asOf": "2026-10-20",
+  "baselineAsOf": "2026-10-20",
+  "checkpointManifestSha256": "e33c92802d6f8af5497c11279dc9ebcf84de2aea9d75dc92cc8ad9ccddfb6363",
+  "sourcePlanSha256": "8fb54e738d746ec222b41ddcba6fa8b1f8d6a044c123ab2d94c57c36b7763f10",
+  "candidateHashes": {
+    "maagar_mochot": "630e30f4f6bab9674ff2e7dba7cf35cdca35c9a71132be7bd18c70695b860dab",
+    "direct_polls": "a16b811bcc97c12477bb0a46f97c01539d0dd9ee07445aa5b2d4ce9284fbda76",
+    "next_data": "8d186333ff10e9ba4ab2f7af0091a2f461f64a4f55fa2b699987039bcd8c14d2"
+  },
+  "expectedActiveCount": 8,
+  "expectedHistoryCount": 135,
+  "expectedStrictCandidates": 64,
+  "expectedStrictEligible": 55,
+  "expectedStrictWithoutChannel14": 43,
+  "expectedUnverifiedFieldwork": 9,
+  "inputHashes": {
+    "data/current-polls.json": "204fb48fe6abcc466936020576540e698ea485b1eaba059171d108f4ee72782a",
+    "data/poll-history.json": "c805a1e0c684113f291211bdf6f32d47667e111f37182c050ad499bc2fda668c",
+    "data/sources.json": "4dd24e5dbab9fa01e05f2f6d9910ad470a1a71f05844ce5eb87a25c953ca47c9",
+    "data/survey-documents-2026-09-14.json": "3409c40d91420834cc23efaf4babdfe26d6af3224afd630a0322d828dc24a0ec",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "d11ab0d31fe0ec05ab35c72817e3c261679a33c6376bdfb9d284e299de5865a2",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "85798ff9b5f1d75088a7f93e1e98b6aaae2f8ae95a7428d6953a95226e489872"
+  }
+}

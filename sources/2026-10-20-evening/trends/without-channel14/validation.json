@@ -1,0 +1,57 @@
+{
+  "exactEnumerationReview": {
+    "backend": "scripts/exact_scalar_marginals_2026_10_20.py",
+    "backendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+    "proofHashes": {
+      "artifacts/poll-checks/2026-10-20/scalar-review/toy-equivalence.json": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+      "artifacts/poll-checks/2026-10-20/scalar-review/archive19-equivalence.json": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+      "artifacts/poll-checks/2026-10-20/scalar-review/independent-backend-review.json": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7"
+    },
+    "primary": "Unique scalar value assignments multiplied by exact repeated-label multiplicity",
+    "independent": "Labeled-choice count/score dynamic programming",
+    "frozenCombinedTailCountersUnchanged": true,
+    "pythonIntegerMassCapabilityVerified": true,
+    "nullStatisticToleranceAndCohortUnchanged": true,
+    "monteCarlo": false
+  },
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "polls": 43,
+  "series": 7,
+  "deltas": 36,
+  "partyTests": 17,
+  "individualTests": 119,
+  "signPatterns": 128,
+  "exactPermutations": "2621333531787264000000",
+  "immutableSourceHashes": {
+    "data\\poll-history.json": "750dfb6d66211c7668a7754298a7704e05e70d743ba54c057e9d6049bd616999",
+    "data\\parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "artifacts\\strict-post-close\\party-analysis.json": "9382a0eabae1295b8c4d5269efa88ff23dd17f8cfd05ba55104e8e591a8b1d81",
+    "artifacts\\strict-post-close\\analysis.json": "467372a26032c783d5083d1a254c5c3db27c2f55809231436b12e0b548bee55e",
+    "data\\strict-party-trends.json": "21254df12c71ed38e60a80e127c04c8f0fbcc795cbb7c2dcbda760e42d39fe92"
+  },
+  "primarySignificantAfterBH": [
+    "joint",
+    "otzma",
+    "winter"
+  ],
+  "sensitivitySignificantAfterBH": [],
+  "snapshotSha256": "b07c2f892ffbae8dcf35b40a756c9a1635be35f6feb07433d53b2c7710fa19c9",
+  "analysisSha256": "02ecc34a3d1ef4b8264a0597ed9969f32a737f39e34385a5df8fe7592b52c5f2",
+  "independentAuditSha256": "ebdf046c4367d95ce17bd2524df2b79fd08589ca35a49963f526da84aeb1cd34",
+  "datedOutputHashes": {
+    "party-analysis.json": "02ecc34a3d1ef4b8264a0597ed9969f32a737f39e34385a5df8fe7592b52c5f2",
+    "independent-numeric-audit.json": "ebdf046c4367d95ce17bd2524df2b79fd08589ca35a49963f526da84aeb1cd34",
+    "strict-party-trends-without-channel14.json": "b07c2f892ffbae8dcf35b40a756c9a1635be35f6feb07433d53b2c7710fa19c9",
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "exact-enumeration-dependencies.json": "91b3a45a678f45ea0639356e3c8b2179653c95042cdfed844d1c29db68ed5e30",
+    "exact_scalar_marginals_2026_10_20.py": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+    "run-exact-trends-2026-10-20.py": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+    "validate-exact-scalar-backend-2026-10-20.py": "9a4ab89bec68abbcf05666f37a3ce40534f0d018efaa0f528220e48276f9d9d8",
+    "independent-review-backend.py": "cdf84542d27c87c91a1137a34cfeae10ad046d4b8d2b855638ea8b132000a2af",
+    "toy-equivalence.json": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+    "archive19-equivalence.json": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+    "independent-backend-review.json": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7"
+  }
+}

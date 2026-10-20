@@ -1,0 +1,154 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "cases": [
+    {
+      "times": [
+        0,
+        1,
+        3
+      ],
+      "outcomes": [
+        -1,
+        0,
+        1
+      ],
+      "labeledMass": 6,
+      "uniqueScores": 6
+    },
+    {
+      "times": [
+        0,
+        0.5,
+        2,
+        6
+      ],
+      "outcomes": [
+        -2,
+        -2,
+        0,
+        3
+      ],
+      "labeledMass": 24,
+      "uniqueScores": 12
+    },
+    {
+      "times": [
+        0,
+        2,
+        4,
+        9,
+        10
+      ],
+      "outcomes": [
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "labeledMass": 120,
+      "uniqueScores": 10
+    },
+    {
+      "times": [
+        0,
+        1,
+        4,
+        7,
+        9,
+        11
+      ],
+      "outcomes": [
+        -3,
+        -3,
+        -1,
+        0,
+        0,
+        5
+      ],
+      "labeledMass": 720,
+      "uniqueScores": 98
+    },
+    {
+      "times": [
+        0,
+        0.5,
+        1,
+        2,
+        3,
+        5,
+        8
+      ],
+      "outcomes": [
+        0,
+        0,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "labeledMass": 5040,
+      "uniqueScores": 54
+    },
+    {
+      "times": [
+        0,
+        2,
+        7
+      ],
+      "outcomes": [
+        0,
+        0,
+        0
+      ],
+      "labeledMass": 6,
+      "uniqueScores": 1
+    },
+    {
+      "times": [
+        0,
+        1,
+        9
+      ],
+      "outcomes": [
+        -4,
+        -4,
+        -4
+      ],
+      "labeledMass": 6,
+      "uniqueScores": 1
+    }
+  ],
+  "largeMass": {
+    "rawBlockMass": "6227020800",
+    "total": "38775788043632640000",
+    "extremeCountsExact": [
+      "38775788043632640000",
+      "24234867527270400000",
+      "4846973505454080000",
+      "24234867527270400000",
+      "0"
+    ],
+    "thresholds": [
+      0.0,
+      1.0,
+      2.0,
+      1.000000000001,
+      2.000000000002
+    ],
+    "primaryAndIndependentAndManualAgree": true,
+    "pythonIntegerProductsAndTails": true
+  },
+  "meanExactlyZero": true,
+  "allMassesEqualFactorial": true,
+  "noMonteCarlo": true,
+  "elapsedSeconds": 0.008143400074914098,
+  "backendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "validatorSha256": "9a4ab89bec68abbcf05666f37a3ce40534f0d018efaa0f528220e48276f9d9d8",
+  "frozenCounterHashes": {
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  }
+}

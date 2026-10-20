@@ -1,0 +1,17 @@
+Reviewed published observation maagar_mochot_2026-10-20; publication 2026-10-20; audit 2026-10-20.
+Original source: https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342.
+Published mandates: {"yashar": 21, "likud": 18, "beyachad": 15, "democrats": 9, "otzma": 9, "joint": 9, "utj": 7, "yisrael_beiteinu": 7, "shas": 6, "rz_zehut": 6, "raam": 5, "winter": 4, "hendel": 4, "haredi_public": 0, "other": 0}
+Exact published percentages: {"haredi_public": 0.6, "other": 0.2}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 50, "opposition": 52, "arab_parties": 14, "hendel": 4}
+Sample size exact/exclusive lower bound: 2026/None
+Verified fieldwork: True; 2026-10-19 to 2026-10-20
+Missing values are not zero and are never inherited.
+סקר חדש ונפרד של20.10.2026; שני קטעי המקור הם הצגות של אותה תצפית, ולא שני מדגמים.
+כל13 הרשימות העוברות מסתכמות ב120; וינטר4, הנדל–זליכה4, רע״ם5.
+מועד האיסוף19–20.10 אומת מניסוח מפורש אתמול והיום המעוגן בכותרת המקור; מדגם2026 משיבים.
+סתירה מקורית בטעות הדגימה:2.1% ברצועת המידע הגדולה מול4.2% באותיות הקטנות. הערך הראשי נשאר חסר ושתי הגרסאות נשמרות; לא הונחה רמת ביטחון.
+הציבור החרדי0.6% ומפלגות אחרות0.2% פורסמו במפורש. שאר האחוזים חסרים, ואין להעתיק את נתוני13.10.
+מספרים בתחילת הנפשת הגרפים אינם תוצאות סופיות. נקראו מסגרות לאחר התייצבות, לרבות וינטר4 והנדל4 וגושים50/52/14/4.
+גנץ אינו מופיע בנפרד במקורות שנבדקו; היעדר נתון אינו אפס תמיכה.
+מחליף בפעיל את מאגר מוחות13.10 בלבד לאחר קליטה נפרדת; כל הרשומות והאסמכתאות הקודמות נשמרות.

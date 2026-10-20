@@ -1,0 +1,14 @@
+Reviewed published observation direct_polls_2026-10-20; publication 2026-10-20; audit 2026-10-20.
+Original source: https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024.
+Published mandates: {"likud": 26, "yashar": 20, "beyachad": 12, "otzma": 9, "democrats": 9, "shas": 8, "utj": 8, "joint": 8, "yisrael_beiteinu": 7, "rz_zehut": 7, "raam": 6, "winter": 0, "hendel": 0, "haredi_public": 0, "noam": 0, "israel_first": 0}
+Exact published percentages: {"winter": 3.1, "hendel": 2.6}
+Published bounds, never exact percentages: {"haredi_public": {"min": 0, "max": 1, "maxExclusive": true}, "noam": {"min": 0, "max": 1, "maxExclusive": true}, "israel_first": {"min": 0, "max": 1, "maxExclusive": true}}
+Published source blocs: {"coalition": 58, "opposition": 48, "arab_parties": 14}
+Sample size exact/exclusive lower bound: 521/None
+Verified fieldwork: True; 2026-10-20 to 2026-10-20
+Missing values are not zero and are never inherited.
+סקר חדש ונפרד מ־18.10; פורסם20.10.2026 בשעה20:35 בישראל ונאסף באותו יום. כל הסקרים הקודמים נשמרים.
+המנדטים והאחוזים המדויקים אומתו בגוף המקור ובשתי גרפיקות המקור ובטבלת ההיסטוריה ב־IsraelPolls. חלוקת הגושים58/48/14; בגוף הכתבה נכתב47 לאופוזיציה, בניגוד לגרפיקה ולסכום הרשימות120. הסתירה נשמרת במפורש.
+וינטר3.1% והנדל–זליכה2.6% מדויקים. חמש רשימות נוספות מתחת1% כל אחת הן חסמים ולא אחוזים מדויקים או אפס תמיכה. ישראל תחילה–עלה ירוק משויכת לישראל תחילה; צבע שחור ואח״י נשמרות בנפרד.
+גנץ אינו מוזכר בפרסום החדש; אחוזו ומנדטיו נשארים חסרים. לא מעתיקים נתונים מהסקר הקודם. אין אחוז אחר כולל שפורסם.
+521 בוגרים, מערכת דיגיטלית עם פאנל, טעות4.3% ברמת95%. ספק הפאנל, שעות האיסוף, שיעור מתלבטים ומכנה האחוזים נשארים חסרים.

@@ -1,0 +1,51 @@
+--- before/tests/channel14-strict-trends.test.mjs
++++ after/tests/channel14-strict-trends.test.mjs
+@@ -112,7 +112,47 @@
+   for(const [p,q] of [['pValue','qValue'],['wholeInstituteSignFlipP','wholeInstituteSignFlipQ']]){
+     const expected=bh(rows.map(row=>row[p]));rows.forEach((row,index)=>close(row[q],expected[index]));
+   }
+-  assert.ok(rows.every(row=>row.qValue>=.05&&row.wholeInstituteSignFlipQ>=.05));
++  // Verdicts belong to the freshly validated cohort, not to an earlier all-null release.
++  assert.equal(receipt.status,'PASS');
++  assert.equal(receipt.analysisSha256,sha(evidence+'party-analysis.json'));
++  assert.equal(receipt.snapshotSha256,sha('../data/strict-party-trends-without-channel14.json'));
++  const total=BigInt(analysis.primary.exactCounting.nPermutationsExact);
++  const groupIds=Object.keys(analysis.groups);
++  const exactP=rows.map(row=>{
++    const outcome=analysis.testedPartyIds.length+groupIds.indexOf(row.group);
++    assert.ok(outcome>=analysis.testedPartyIds.length);
++    const count=BigInt(analysis.primary.exactCounting.extremeCountsExact[outcome]);
++    assert.ok(count>=0n&&count<=total);
++    return Number(count)/Number(total);
++  });
++  const signs=2**snapshot.coverage.seriesCount;
++  const sensitivityP=rows.map(row=>{
++    const contributions=analysis.primary.byPollster.map(series=>series.weight*series.parties
++      .filter(party=>analysis.groups[row.group].includes(party.partyId))
++      .reduce((sum,party)=>sum+party.slopePerWeek,0));
++    let extreme=0;
++    for(let mask=0;mask<signs;mask++){
++      const candidate=contributions.reduce((sum,value,index)=>sum+value*((mask>>index)&1?1:-1),0);
++      if(Math.abs(candidate)>=Math.abs(row.slopePerWeek)-1e-12)extreme++;
++    }
++    return extreme/signs;
++  });
++  const mainQ=bh(exactP),sensitivityQ=bh(sensitivityP);
++  rows.forEach((row,index)=>{
++    close(row.pValue,exactP[index]);close(row.qValue,mainQ[index]);
++    close(row.wholeInstituteSignFlipP,sensitivityP[index]);close(row.wholeInstituteSignFlipQ,sensitivityQ[index]);
++  });
++  assert.deepEqual(rows.filter(row=>row.qValue<.05).map(row=>row.group),
++    rows.filter((_,index)=>mainQ[index]<.05).map(row=>row.group));
++  assert.deepEqual(rows.filter(row=>row.wholeInstituteSignFlipQ<.05).map(row=>row.group),
++    rows.filter((_,index)=>sensitivityQ[index]<.05).map(row=>row.group));
++  if(snapshot.asOf==='2026-10-20'&&run==='evening'){
++    assert.equal(sha(evidence+'validation.json'),'f5f42e9c2afb95dc6ef89648b5a0cf64e53dbca0445178f4de19f65b795e0a66');
++    assert.deepEqual(rows.filter(row=>row.qValue<.05).map(row=>row.group),['coalition']);
++    assert.deepEqual(rows.filter(row=>row.wholeInstituteSignFlipQ<.05).map(row=>row.group),['coalition']);
++    assert.deepEqual(receipt.primarySignificantAfterBH,['joint','otzma','winter']);
++    assert.deepEqual(receipt.sensitivitySignificantAfterBH,[]);
++  }
+ });
+ 
+ test('independent audit records its actual sampled tail scope and binds every immutable source hash',()=>{

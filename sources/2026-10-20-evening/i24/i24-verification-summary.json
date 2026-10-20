@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "originalSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024",
+  "primaryOnlyReceiptSha256": "9252941093b9cd136ef4943f42a7e97381981fa4798f8e37eddcfc8b8e8074b9",
+  "secondaryFactsSha256": "e8ad133fc9da8683d351e10169af09e4f38473c854f0e21bc9b6fc127c47760e",
+  "primaryAndSecondaryFullVectorAgree": true,
+  "sourceBlocConflictResolvedByFullVectorAndPublishedGraphic": {
+    "proseOpposition": 47,
+    "verifiedGraphicOpposition": 48,
+    "partyVectorOpposition": 48
+  },
+  "fieldworkStart": "2026-10-20",
+  "fieldworkEnd": "2026-10-20",
+  "sampleSize": 521,
+  "fieldworkEvidence": "Original methodological paragraph explicitly dates collection20October2026.",
+  "localOnlyOriginal": {
+    "file": "artifacts/poll-checks/2026-10-20/c16-followup/i24-lead/original-article-local-only.html",
+    "sha256": "3fb8b0c0bf228d57d0e7d224f04ff1a651a9d6896d35ddbaadcc2cce12572122"
+  },
+  "exactPercentages": {
+    "winter": 3.1,
+    "hendel": 2.6
+  },
+  "missingValuesNotZero": true,
+  "fiveSeparateBelowOneBoundsNotAggregated": true,
+  "candidateSha256": "a16b811bcc97c12477bb0a46f97c01539d0dd9ee07445aa5b2d4ce9284fbda76"
+}

@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "sourceUrl": "https://www.c14.co.il/article/1746819",
+  "seats": {
+    "likud": 30,
+    "yashar": 20,
+    "beyachad": 9,
+    "democrats": 9,
+    "shas": 9,
+    "utj": 8,
+    "rz_zehut": 7,
+    "otzma": 8,
+    "yisrael_beiteinu": 6,
+    "joint": 8,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "hendel": 2.5,
+    "winter": 1.9,
+    "noam": 0.9,
+    "haredi_public": 0.9
+  },
+  "sourceBlocSeats": {
+    "coalition": 62,
+    "opposition": 44,
+    "arab_parties": 14
+  },
+  "fieldworkStart": "2026-10-20",
+  "fieldworkEnd": "2026-10-20",
+  "sampleSize": 2116,
+  "fieldworkQuote": "נערך היום 20 באוקטובר 2026",
+  "localOnlyOriginal": {
+    "file": "artifacts/poll-checks/2026-10-20-evening/source-c14/original-article-local-only.html",
+    "sha256": "51feef105765ae4aca67f91dd2fde1fd816bba143bb8e8baac5e5b58ee563c8f"
+  },
+  "factualExtractSha256": "d0cc03fd42b879ad916fa1889642771200cc6c430da446e3d8422632a3789928",
+  "candidateSha256": "8d186333ff10e9ba4ab2f7af0091a2f461f64a4f55fa2b699987039bcd8c14d2",
+  "graphicVisualVerificationClaimed": false,
+  "missingValuesNotZero": true,
+  "priorJointComparisonDiscrepancyRetained": true,
+  "publicationDOMIndependentlyVerified": {
+    "publishedAt": "2026-10-20T20:32:27+03:00",
+    "updatedAt": "2026-10-20T20:47:33+03:00"
+  }
+}

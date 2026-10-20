@@ -1,0 +1,187 @@
+{
+  "asOf": "2026-10-20",
+  "runId": "evening",
+  "status": "reviewed",
+  "scope": "Three new original20October observations added after the completed daytime20October release. Bounded scan; no nationwide absence claim.",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "compiledTo120DatasetExcluded": true,
+  "newObservationIds": [
+    "maagar_mochot_2026-10-20",
+    "direct_polls_2026-10-20",
+    "next_data_2026-10-20"
+  ],
+  "observationPublicationDates": [
+    "2026-10-20"
+  ],
+  "sources": [
+    {
+      "publisher": "ערוץ 16 / מאגר מוחות — יצחק כ״ץ",
+      "urls": [
+        "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342"
+      ],
+      "status": "Original publisher independently verified; complete observation and missingness reviewed.",
+      "publicationDate": "2026-10-20",
+      "publicationTime": null,
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-20",
+      "sampleSize": 2026,
+      "strictEligible": true,
+      "limitations": [
+        "Final settled frames in two original clips agree. Intermediate animation counts rejected. Relative collection wording anchored to20Oct clip titles verifies19–20Oct. Conflicting published MOE2.1/4.2 retained; canonical MOE and confidence missing."
+      ],
+      "proof": {
+        "path": "c16/maagar-verification-summary.json",
+        "sha256": "2b78c50c2ffc24e9cd612394749f4173972739dada757d9759db3293e6222eb4"
+      }
+    },
+    {
+      "publisher": "i24NEWS / דיירקט פולס — צוריאל שרון",
+      "urls": [
+        "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024"
+      ],
+      "status": "Original publisher independently verified; complete observation and missingness reviewed.",
+      "publicationDate": "2026-10-20",
+      "publicationTime": "20:35:25",
+      "fieldworkStart": "2026-10-20",
+      "fieldworkEnd": "2026-10-20",
+      "sampleSize": 521,
+      "strictEligible": true,
+      "limitations": [
+        "Primary prose opposition47 conflicts with full120-seat vector and visually reviewed source graphic48; accepted48 independently. Five <1% named bounds are not exact shares; Gantz absent remains missing. No exact aggregate other is imputed."
+      ],
+      "proof": {
+        "path": "i24/i24-verification-summary.json",
+        "sha256": "9d92d80a918d2427bde08201567a90db646f1b3f45bd93cc008fbcb9bcd3dc48"
+      }
+    },
+    {
+      "publisher": "חדשות 14 / NEXT DATA — שלמה פילבר",
+      "urls": [
+        "https://www.c14.co.il/article/1746819"
+      ],
+      "status": "Original publisher independently verified; complete observation and missingness reviewed.",
+      "publicationDate": "2026-10-20",
+      "publicationTime": "20:32:27",
+      "fieldworkStart": "2026-10-20",
+      "fieldworkEnd": "2026-10-20",
+      "sampleSize": 2116,
+      "strictEligible": true,
+      "limitations": [
+        "Original prior-Joint comparison7 conflicts with retained19Oct8; current20Oct8 and full120 vector verified. Named Ahi.4% maps only to model other; raw other remains missing. Collection method/MOE/confidence missing. Channel14 default exclusion preserved."
+      ],
+      "proof": {
+        "path": "c14/c14-verification-summary.json",
+        "sha256": "d1a1448b153453f8edbfe9d222da1cfb166768495c2b0ed79ca5b0713d88575f"
+      }
+    }
+  ],
+  "requiredIsraelPolls": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "receiptSha256": "ca28238085c135cfa6599f1bc35b2232e61bb2da05e2ef65c4ff22b51830691c",
+    "status": "Profile, i24 original graphics and history table visually read; no C16 post seen in bounded profile. C16 verified directly from primary search and two clips.",
+    "repostTimesNotPollDates": true
+  },
+  "otherPublishers": {
+    "asOf": "2026-10-20",
+    "checkedAtUtc": "2026-10-20T19:10:57.882341+00:00",
+    "scope": "Fresh bounded original homepage/index review during evening targeted C16 update; no nationwide absence claim. Web reader cache can lag live pages.",
+    "readMethod": "Direct web reader open then observed index link clicks and poll-title searches; C16 and i24 live UI independently owned by source agents.",
+    "sources": [
+      {
+        "publisher": "N12",
+        "urls": [
+          "https://www.mako.co.il/news",
+          "https://www.mako.co.il/news-israel-elections/2026"
+        ],
+        "status": "Readable current home/electionindex; observed latest mandate link resolves known19OctoberArticle-a6eb664b9d451a1026, already retained. Poll-of-polls summary is not independent observation."
+      },
+      {
+        "publisher": "Channel13",
+        "urls": [
+          "https://13tv.co.il/news/",
+          "https://13tv.co.il/news/politics/"
+        ],
+        "status": "Readable home/politics index; no additional complete mandatevector verified in these bounded current links."
+      },
+      {
+        "publisher": "Channel14",
+        "urls": [
+          "https://www.now14.co.il/",
+          "https://www.c14.co.il/archive/65839",
+          "https://www.c14.co.il/article/1746819"
+        ],
+        "status": "Redirected currenthome toC14 and clicked observed politicalindex; NEW20October mandate article independently read, field20October/n2116. LegacycategoryURL failed, correct observedindex succeeded."
+      },
+      {
+        "publisher": "Kan11",
+        "urls": [
+          "https://www.kan.org.il/lobby/news/",
+          "https://www.kan.org.il/content/kan-news/politic/"
+        ],
+        "status": "Direct reader returned empty pages; not a successful current content check or absence claim. Existing18October record retained."
+      },
+      {
+        "publisher": "Walla",
+        "urls": [
+          "https://www.walla.co.il/",
+          "https://www.walla.co.il/news/politics",
+          "https://www.walla.co.il/news/politics/383958175"
+        ],
+        "status": "Readable currenthome/politics; observed20October12:20Lazar mandate article is identical alreadyincluded daytimeobservation, not countedagain."
+      },
+      {
+        "publisher": "Maariv",
+        "urls": [
+          "https://www.maariv.co.il/",
+          "https://www.maariv.co.il/news/politics"
+        ],
+        "status": "Non-retryable reader errors; existing safety restriction respected, no successful current check or absence claim."
+      },
+      {
+        "publisher": "IsraelHayom",
+        "urls": [
+          "https://www.israelhayom.co.il/",
+          "https://www.israelhayom.co.il/news/politics"
+        ],
+        "status": "Readable current home/politicalindex; no additional complete mandate vector verified in bounded links."
+      },
+      {
+        "publisher": "ZmanIsrael",
+        "urls": [
+          "https://www.zman.co.il/",
+          "https://www.zman.co.il/feed/33350/"
+        ],
+        "status": "Readable home and observed pollfeed; latest15OctoberTatica26/20/11vector alreadyretained. GuessedtopicURL failed; actualobservedfeed succeeded."
+      },
+      {
+        "publisher": "To120 supplementary",
+        "urls": [
+          "https://twonetwenty.com/data",
+          "https://twonetwenty.com/he/evidence"
+        ],
+        "status": "Opened discoveryindexes only; no compiled forecast, dataset, calibration or weight ingested."
+      }
+    ],
+    "newPrimarySources": [
+      "Channel16",
+      "i24NEWS",
+      "Channel14"
+    ],
+    "missingValuesNotZero": true,
+    "repostsAndWeeklySummariesDeduplicated": true,
+    "fullCopyrightedBodiesPublic": false
+  },
+  "deduplication": [
+    "Two C16 original video edits are one observation.",
+    "i24 X graphics/table are one20October observation.",
+    "Walla20October alreadyincluded; N1219October midnightupdate is not anotherpoll.",
+    "Channel14 post-withdrawal20October complete vector is genuinely new; not a redistribution scenario."
+  ],
+  "accessLimitations": [
+    "Kan11 reader empty; no successful current content/absence claim.",
+    "Maariv original inaccessible; restriction respected.",
+    "Some primary reader indexes lag current pages."
+  ],
+  "missingValuesAreNotZero": true,
+  "compiledForecastsIngested": false
+}

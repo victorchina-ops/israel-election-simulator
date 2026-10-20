@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-20T18:54:12.985022+00:00",
+  "status": "SECONDARY-NUMERICAL-LEAD",
+  "publisher": "i24NEWS",
+  "pollsterId": "direct_polls",
+  "sourceTier": "secondary-aggregator",
+  "sourceUrl": "https://x.com/IsraelPolls/status/2112605486721728535",
+  "xPostUtc": "2026-10-20T18:02:53Z",
+  "pollGraphicUrlsObserved": [
+    "https://pbs.twimg.com/media/HVF7cfxWEAA-S-T?format=png&name=900x900",
+    "https://pbs.twimg.com/media/HVF7fTsWQAET7Z_?format=png&name=900x900"
+  ],
+  "historyTableUrl": "https://x.com/IsraelPolls/status/2112606700641345904",
+  "historyTablePostUtc": "2026-10-20T18:07:42Z",
+  "historyTableImageUrlObserved": "https://pbs.twimg.com/media/HVF8mFwXkAAQ_OR?format=png&name=small",
+  "latestTableObservationDate": "2026-10-20",
+  "previousTableObservationDate": "2026-10-18",
+  "seats": {
+    "likud": 26,
+    "yashar": 20,
+    "beyachad": 12,
+    "democrats": 9,
+    "otzma": 9,
+    "joint": 8,
+    "utj": 8,
+    "shas": 8,
+    "raam": 6,
+    "yisrael_beiteinu": 7,
+    "rz_zehut": 7,
+    "winter": 0,
+    "hendel": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "winter": 3.1,
+    "hendel": 2.6
+  },
+  "reportedNamedPercentageBounds": [
+    {
+      "name": "צבע שחור",
+      "lowerInclusive": 0,
+      "upperExclusive": 1
+    },
+    {
+      "name": "הציבור החרדי",
+      "lowerInclusive": 0,
+      "upperExclusive": 1
+    },
+    {
+      "name": "אחי",
+      "lowerInclusive": 0,
+      "upperExclusive": 1
+    },
+    {
+      "name": "נעם לישראל",
+      "lowerInclusive": 0,
+      "upperExclusive": 1
+    },
+    {
+      "name": "ישראל תחילה - עלה ירוק",
+      "lowerInclusive": 0,
+      "upperExclusive": 1
+    }
+  ],
+  "sourceBlocSeats": {
+    "coalition": 58,
+    "opposition": 48,
+    "arab_parties": 14
+  },
+  "dateEvidence": "Latest historical-table column explicitly headed 20.10.26; footer visually appears to date fieldwork 20 October, pending original-source verification before canonical use.",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "fieldworkVerified": false,
+  "sampleSize": null,
+  "samplingMethod": null,
+  "marginOfErrorPct": null,
+  "readMethod": "Full image viewer visually read both official graphics reposted on IsraelPolls and the numerical history table; all party seats and two exact below-threshold shares agree.",
+  "limits": [
+    "Original i24 article and its method are root/other-agent scope, not verified by this source-only lead.",
+    "Small graphic footer was not fully legible for sample size/method, so these remain missing.",
+    "Named below-1% entries are bounds, not exact zeros or exact aggregate other.",
+    "X post/table upload times are distinct from original publication and fieldwork."
+  ],
+  "canonicalMutation": false
+}

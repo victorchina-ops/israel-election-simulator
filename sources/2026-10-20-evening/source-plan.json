@@ -1,0 +1,292 @@
+{
+  "status": "reviewed",
+  "asOf": "2026-10-20",
+  "runId": "evening",
+  "baselineAsOf": "2026-10-20",
+  "baselineRelease": "2026-10-20",
+  "checkpointManifestSha256": "e33c92802d6f8af5497c11279dc9ebcf84de2aea9d75dc92cc8ad9ccddfb6363",
+  "baselinePublishedHead": "c5008c2874363e8fad1698c80b75107013d2c338",
+  "observationPublicationDates": [
+    "2026-10-20"
+  ],
+  "publicCopyrightScopeReviewed": true,
+  "publicEvidenceScope": "Concise factual extracts, reviewed numerical source frames, URLs, source-status and hashes only. Full articles, full reader exports and compiled To120 data remain local.",
+  "polls": [
+    {
+      "pollsterId": "maagar_mochot",
+      "folder": "c16",
+      "candidatePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/reviewed-maagar-poll.json",
+      "candidateSha256": "630e30f4f6bab9674ff2e7dba7cf35cdca35c9a71132be7bd18c70695b860dab",
+      "expectedSeats": {
+        "yashar": 21,
+        "likud": 18,
+        "beyachad": 15,
+        "democrats": 9,
+        "otzma": 9,
+        "joint": 9,
+        "utj": 7,
+        "yisrael_beiteinu": 7,
+        "shas": 6,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 4,
+        "haredi_public": 0,
+        "other": 0
+      },
+      "expectedReportedPercentages": {
+        "haredi_public": 0.6,
+        "other": 0.2
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 52,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "expectedSampleSize": 2026,
+      "strictEligible": true,
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-fieldwork-proof.json",
+          "sha256": "ef6c95afda68e838ffd6128876b4f9c58e77c3d10f660cb1f94ff7ba22c42f56",
+          "quote": "נערך אתמול והיום וכלל 2,026 משיבים",
+          "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+          "evidenceScope": "Final settled frames in two original clips agree. Intermediate animation counts rejected. Relative collection wording anchored to20Oct clip titles verifies19–20Oct. Conflicting published MOE2.1/4.2 retained; canonical MOE and confidence missing."
+        }
+      ],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/reviewed-maagar-poll.json",
+          "publicName": "reviewed-maagar-poll.json",
+          "sha256": "630e30f4f6bab9674ff2e7dba7cf35cdca35c9a71132be7bd18c70695b860dab"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/maagar-verification-summary.json",
+          "publicName": "maagar-verification-summary.json",
+          "sha256": "2b78c50c2ffc24e9cd612394749f4173972739dada757d9759db3293e6222eb4"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-reviewed-facts.txt",
+          "publicName": "c16-reviewed-facts.txt",
+          "sha256": "9bfd7e14dba9281dfcf8e5da4136346f9298e1c998c6a3a566ba8f9c9191a38c"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-fieldwork-proof.json",
+          "publicName": "c16-fieldwork-proof.json",
+          "sha256": "ef6c95afda68e838ffd6128876b4f9c58e77c3d10f660cb1f94ff7ba22c42f56"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-first-clip-leading-parties.png",
+          "publicName": "c16-first-clip-leading-parties.png",
+          "sha256": "e681f9513006f3d13dcb7de053eec0f39d3d04e97ea50dd5f99dfeafb5a0be2d"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-first-clip-middle-four.png",
+          "publicName": "c16-first-clip-middle-four.png",
+          "sha256": "64aa40cff73cf6c7b94fb47d668ffb959b59ddbc3400a1eafb00344e84029a60"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-first-clip-middle-three.png",
+          "publicName": "c16-first-clip-middle-three.png",
+          "sha256": "7b972d490a2fcc257232e31f2bf9f53be229368dbf49968c4564dc43eaabf68f"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-first-clip-small-parties-settled.png",
+          "publicName": "c16-first-clip-small-parties-settled.png",
+          "sha256": "97eb19c1514b9037efbece6ddfe153a17749d470dffd4e79df88ac8348da3410"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-first-clip-threshold-final-r2.png",
+          "publicName": "c16-first-clip-threshold-final-r2.png",
+          "sha256": "3c2fad833e9c0014746c64e8d48b6b40ba7b8520aa1a2c647d0eb048c0dc4789"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-first-clip-settled-blocs.png",
+          "publicName": "c16-first-clip-settled-blocs.png",
+          "sha256": "f57d7d106eadb8798c9775c8e8e8ec2a3623bd4b2c582c6e7afa1c18a9749cf6"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/c16-second-clip-independent-review.json",
+          "publicName": "c16-second-clip-independent-review.json",
+          "sha256": "c304cdecc08b644a9241d7375b506bbfe4535a5a0cbe181a89da82f5d801111f"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c16/reviewed-maagar-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "630e30f4f6bab9674ff2e7dba7cf35cdca35c9a71132be7bd18c70695b860dab"
+        }
+      ]
+    },
+    {
+      "pollsterId": "direct_polls",
+      "folder": "i24",
+      "candidatePath": "artifacts/poll-checks/2026-10-20-evening/source-i24/reviewed-direct-poll.json",
+      "candidateSha256": "a16b811bcc97c12477bb0a46f97c01539d0dd9ee07445aa5b2d4ce9284fbda76",
+      "expectedSeats": {
+        "likud": 26,
+        "yashar": 20,
+        "beyachad": 12,
+        "otzma": 9,
+        "democrats": 9,
+        "shas": 8,
+        "utj": 8,
+        "joint": 8,
+        "yisrael_beiteinu": 7,
+        "rz_zehut": 7,
+        "raam": 6,
+        "winter": 0,
+        "hendel": 0,
+        "haredi_public": 0,
+        "noam": 0,
+        "israel_first": 0
+      },
+      "expectedReportedPercentages": {
+        "winter": 3.1,
+        "hendel": 2.6
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 58,
+        "opposition": 48,
+        "arab_parties": 14
+      },
+      "expectedSampleSize": 521,
+      "strictEligible": true,
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-20-evening/source-i24/i24-verification-summary.json",
+          "sha256": "9d92d80a918d2427bde08201567a90db646f1b3f45bd93cc008fbcb9bcd3dc48",
+          "quote": "בתאריך ה-20 באוקטובר 2026",
+          "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024",
+          "evidenceScope": "Primary prose opposition47 conflicts with full120-seat vector and visually reviewed source graphic48; accepted48 independently. Five <1% named bounds are not exact shares; Gantz absent remains missing. No exact aggregate other is imputed."
+        }
+      ],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-i24/reviewed-direct-poll.json",
+          "publicName": "reviewed-direct-poll.json",
+          "sha256": "a16b811bcc97c12477bb0a46f97c01539d0dd9ee07445aa5b2d4ce9284fbda76"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-i24/i24-verification-summary.json",
+          "publicName": "i24-verification-summary.json",
+          "sha256": "9d92d80a918d2427bde08201567a90db646f1b3f45bd93cc008fbcb9bcd3dc48"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-i24/reviewed-primary-facts.txt",
+          "publicName": "reviewed-primary-facts.txt",
+          "sha256": "9fc6def4870eae61bb16b11a1dc2b9895a56282433aa6a1d3f7d3c38e12b7154"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-i24/reviewed-primary-candidate.json",
+          "publicName": "reviewed-primary-candidate.json",
+          "sha256": "9252941093b9cd136ef4943f42a7e97381981fa4798f8e37eddcfc8b8e8074b9"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-i24/israelpolls-i24-facts.json",
+          "publicName": "israelpolls-i24-facts.json",
+          "sha256": "e8ad133fc9da8683d351e10169af09e4f38473c854f0e21bc9b6fc127c47760e"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-i24/reviewed-direct-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "a16b811bcc97c12477bb0a46f97c01539d0dd9ee07445aa5b2d4ce9284fbda76"
+        }
+      ]
+    },
+    {
+      "pollsterId": "next_data",
+      "folder": "c14",
+      "candidatePath": "artifacts/poll-checks/2026-10-20-evening/source-c14/reviewed-next-data-poll.json",
+      "candidateSha256": "8d186333ff10e9ba4ab2f7af0091a2f461f64a4f55fa2b699987039bcd8c14d2",
+      "expectedSeats": {
+        "likud": 30,
+        "yashar": 20,
+        "beyachad": 9,
+        "democrats": 9,
+        "shas": 9,
+        "utj": 8,
+        "rz_zehut": 7,
+        "otzma": 8,
+        "yisrael_beiteinu": 6,
+        "joint": 8,
+        "raam": 6,
+        "winter": 0,
+        "hendel": 0,
+        "noam": 0,
+        "haredi_public": 0
+      },
+      "expectedReportedPercentages": {
+        "hendel": 2.5,
+        "winter": 1.9,
+        "noam": 0.9,
+        "haredi_public": 0.9
+      },
+      "expectedSourceBlocSeats": {
+        "coalition": 62,
+        "opposition": 44,
+        "arab_parties": 14
+      },
+      "expectedSampleSize": 2116,
+      "strictEligible": true,
+      "fieldworkEvidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-20-evening/source-c14/c14-verification-summary.json",
+          "sha256": "d1a1448b153453f8edbfe9d222da1cfb166768495c2b0ed79ca5b0713d88575f",
+          "quote": "נערך היום 20 באוקטובר 2026",
+          "sourceUrl": "https://www.c14.co.il/article/1746819",
+          "evidenceScope": "Original prior-Joint comparison7 conflicts with retained19Oct8; current20Oct8 and full120 vector verified. Named Ahi.4% maps only to model other; raw other remains missing. Collection method/MOE/confidence missing. Channel14 default exclusion preserved."
+        }
+      ],
+      "publicFiles": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c14/reviewed-next-data-poll.json",
+          "publicName": "reviewed-next-data-poll.json",
+          "sha256": "8d186333ff10e9ba4ab2f7af0091a2f461f64a4f55fa2b699987039bcd8c14d2"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c14/c14-verification-summary.json",
+          "publicName": "c14-verification-summary.json",
+          "sha256": "d1a1448b153453f8edbfe9d222da1cfb166768495c2b0ed79ca5b0713d88575f"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c14/c14-reviewed-facts.txt",
+          "publicName": "c14-reviewed-facts.txt",
+          "sha256": "d0cc03fd42b879ad916fa1889642771200cc6c430da446e3d8422632a3789928"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c14-independent/independent-c14-facts.json",
+          "publicName": "independent-c14-facts.json",
+          "sha256": "50935b0e07741aa418841e96a8df795a981489a056440b8242d6833d2eeecf2d"
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-20-evening/source-c14/reviewed-next-data-poll.json",
+          "publicName": "frozen-reviewed-candidate.json",
+          "sha256": "8d186333ff10e9ba4ab2f7af0091a2f461f64a4f55fa2b699987039bcd8c14d2"
+        }
+      ]
+    }
+  ],
+  "sourceReview": {
+    "requiredIsraelPollsUrl": "https://x.com/IsraelPolls?s=20",
+    "pollGraphicsAndHistoricalTablesChecked": true,
+    "sameObservationRepostsNotCounted": true,
+    "publicationVersusFieldwork": "All published20Oct; C16 collected19–20Oct, i24 andC14 collected20Oct. Same-day evening release distinguished from daytime release.",
+    "sourceDiscoveryLocalReceipt": "artifacts/poll-checks/2026-10-20-evening/source-israelpolls/scan-receipt.json",
+    "sourceDiscoveryLocalSha256": "ca28238085c135cfa6599f1bc35b2232e61bb2da05e2ef65c4ff22b51830691c",
+    "otherPublisherCoverage": {
+      "file": "artifacts/poll-checks/2026-10-20-evening/source-root-coverage.json",
+      "sha256": "f2b9d73cc02243ed89595506aead903049d39d3ab4c37bb44f665b7e7514346e",
+      "publicName": "root-publisher-coverage.json"
+    },
+    "primarySourcePublicSummary": {
+      "file": "artifacts/poll-checks/2026-10-20-evening/primary-source-public-summary.json",
+      "sha256": "b7454d0fb15f8eecdb3ba5238442b00e792d690f20d353b67d5923fb3a74d980"
+    },
+    "sourceClassification": "All three primary observations verified; C16 independently read in two edits, i24 original graphics/table cross-checked, C14 original body independently read.",
+    "channel14DefaultExclusionPreserved": true,
+    "historicalAccuracyWeightsUnchanged": true,
+    "reviewedExactPythonIntegerHelpersPreserved": true,
+    "compiledForecastsIngested": false
+  }
+}

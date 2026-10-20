@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "runId": "evening",
+  "checkpointManifestSha256": "e33c92802d6f8af5497c11279dc9ebcf84de2aea9d75dc92cc8ad9ccddfb6363",
+  "baselineWrapper": "scripts/run-exact-trends-2026-10-20.py",
+  "baselineWrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "eveningWrapper": "scripts/run-exact-trends-2026-10-20-evening.py",
+  "eveningWrapperSha256": "eaa11ad77097b51c40a21ca23a7427a2bffa8a502798a37c12053d05c654fea7",
+  "onlyChange": {
+    "old": "ART = ROOT / \"artifacts/poll-checks/2026-10-20\"",
+    "new": "ART = ROOT / \"artifacts/poll-checks/2026-10-20-evening\""
+  },
+  "byteExactExceptOneArtPathReplacement": true,
+  "normalizedAstIdentical": true,
+  "transformAndInferenceUnchanged": true,
+  "backendPath": "scripts/exact_scalar_marginals_2026_10_20.py",
+  "backendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "existingProofHashes": {
+    "artifacts/poll-checks/2026-10-20/scalar-review/toy-equivalence.json": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/archive19-equivalence.json": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/independent-backend-review.json": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7",
+    "artifacts/poll-checks/2026-10-20/scalar-review/derive-change-review-r2.json": "5634a1f19b3762c2f2826a4090a48415a6671076ff72e85c10a43f9e046a9161",
+    "artifacts/poll-checks/2026-10-20/scalar-review/independent-derive-r2-review.json": "d3532317b4d9e6b01603ada6ea90df5557dae0b3cf71aff3247da976b26aa101"
+  },
+  "additionalNumericalBenchmarkRequired": false,
+  "reason": "The clone changes only the dated artifact/lineage output directory. Actual evening inputs will be recomputed by both original primary and independent analyzers using the same reviewed exact backend, then strict numerical validation. Prior numerical proofs are preserved without rewriting."
+}

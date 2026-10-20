@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "reviewedAtUtc": "2026-10-20T19:07:17.416942+00:00",
+  "reviewerTask": "/root/c13_source_oct15",
+  "originalCompatibilityReceiptSha256": "9796fbaf4bbd72224c512e3dc93e76a1194c2ba4ad313d8dc72c9afeed41b9f3",
+  "baselineWrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "frozenCheckpointWrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "eveningWrapperSha256": "eaa11ad77097b51c40a21ca23a7427a2bffa8a502798a37c12053d05c654fea7",
+  "byteExactExceptOneArtifactDirectoryLiteral": true,
+  "normalizedAstIdentical": true,
+  "allFourPinnedHelpersUnchanged": {
+    "bloc": {
+      "path": "artifacts/analyze-strict-post-close-2026-09-28.py",
+      "sha256": "fc5a4ce6c242192f71380c9ddfe96f3b7889308ded25a41abb1f43a61c5b25f2"
+    },
+    "party": {
+      "path": "artifacts/analyze-party-trends-strict-2026-09-28.py",
+      "sha256": "4aff7e6b7310e25a5e7845ecc6b084a58d819cae98fac9e14d32c640faafb34c"
+    },
+    "independent-bloc": {
+      "path": "artifacts/audit-strict-full-series-2026-09-28.py",
+      "sha256": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26"
+    },
+    "independent-party": {
+      "path": "artifacts/strict-post-close/party-independent.py",
+      "sha256": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68"
+    }
+  },
+  "backendUnchangedSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "allExistingNumericalProofHashesRechecked": {
+    "artifacts/poll-checks/2026-10-20/scalar-review/toy-equivalence.json": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/archive19-equivalence.json": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/independent-backend-review.json": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7",
+    "artifacts/poll-checks/2026-10-20/scalar-review/derive-change-review-r2.json": "5634a1f19b3762c2f2826a4090a48415a6671076ff72e85c10a43f9e046a9161",
+    "artifacts/poll-checks/2026-10-20/scalar-review/independent-derive-r2-review.json": "d3532317b4d9e6b01603ada6ea90df5557dae0b3cf71aff3247da976b26aa101"
+  },
+  "newNumericalTestOrInferenceChange": false,
+  "numericalExecutionPerformedByReviewer": false,
+  "conclusion": "Evening wrapper changes only artifact output/lineage directory. Primary/independent transforms, cohort, weights, OLS/GLS, exact marginals, tail tolerances, BH and sign-flip procedures are byte-identical. Previous backend equivalence proofs remain applicable; fresh evening numerical inputs still require their ordinary four recomputations and validation."
+}

@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "checkedAtUtc": "2026-10-20T18:54:33Z",
+  "pollIdProposed": "direct_polls_2026-10-20",
+  "publisher": "i24NEWS",
+  "pollster": "Direct Polls — Tzuriel Sharon",
+  "pollsterId": "direct_polls",
+  "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024",
+  "publicationDate": "2026-10-20",
+  "publishedAt": "2026-10-20T17:35:25Z",
+  "publishedAtLocal": "2026-10-20T20:35:25+03:00",
+  "updatedAt": "2026-10-20T17:42:10Z",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationDateEvidence": [
+    "HTML meta pubdate",
+    "time datetime itemprop=datePublished",
+    "JSON-LD datePublished"
+  ],
+  "updatedAtEvidence": [
+    "Nuxt article updatedAt",
+    "JSON-LD dateModified"
+  ],
+  "articleCreatedAtNotPublication": "2026-10-20T16:02:34Z",
+  "fieldworkStart": "2026-10-20",
+  "fieldworkEnd": "2026-10-20",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "fieldworkEvidence": "Original article methodology explicitly identifies collection on20October2026.",
+  "sampleSize": 521,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "population": "General population in Israel, adults18+",
+  "samplingMethod": "Digital system combined with a panel",
+  "panelProvider": null,
+  "reportedMarginOfErrorPct": 4.3,
+  "reportedMarginOfErrorConfidencePct": 95,
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "seats": {
+    "likud": 26,
+    "yashar": 20,
+    "beyachad": 12,
+    "otzma": 9,
+    "democrats": 9,
+    "shas": 8,
+    "utj": 8,
+    "joint": 8,
+    "yisrael_beiteinu": 7,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0
+  },
+  "seatTotal": 120,
+  "exactPublishedBelowThresholdPct": {
+    "winter": 3.1,
+    "hendel": 2.6
+  },
+  "censoredPublishedBelowThreshold": [
+    {
+      "sourcePartyLabel": "צבע שחור",
+      "canonicalPartyId": null,
+      "lowerBoundPct": 0,
+      "lowerInclusive": true,
+      "upperBoundPct": 1,
+      "upperInclusive": false,
+      "exactPct": null
+    },
+    {
+      "sourcePartyLabel": "הציבור החרדי",
+      "canonicalPartyId": "haredi_public",
+      "lowerBoundPct": 0,
+      "lowerInclusive": true,
+      "upperBoundPct": 1,
+      "upperInclusive": false,
+      "exactPct": null
+    },
+    {
+      "sourcePartyLabel": "אח\"י",
+      "canonicalPartyId": null,
+      "lowerBoundPct": 0,
+      "lowerInclusive": true,
+      "upperBoundPct": 1,
+      "upperInclusive": false,
+      "exactPct": null
+    },
+    {
+      "sourcePartyLabel": "נעם לישראל",
+      "canonicalPartyId": "noam",
+      "lowerBoundPct": 0,
+      "lowerInclusive": true,
+      "upperBoundPct": 1,
+      "upperInclusive": false,
+      "exactPct": null
+    },
+    {
+      "sourcePartyLabel": "ישראל תחילה - עלה ירוק",
+      "canonicalPartyId": null,
+      "lowerBoundPct": 0,
+      "lowerInclusive": true,
+      "upperBoundPct": 1,
+      "upperInclusive": false,
+      "exactPct": null
+    }
+  ],
+  "passingPartyPercentagesPublished": false,
+  "unmentionedGantzPercentage": null,
+  "sourceBlocSeatsAsProsePrinted": {
+    "coalition": 58,
+    "opposition": 47,
+    "arab_parties": 14
+  },
+  "sourceBlocProseTotal": 119,
+  "arithmeticBlocSeatsFromFullPartyVector": {
+    "coalition": 58,
+    "opposition": 48,
+    "arab_parties": 14
+  },
+  "discrepancy": {
+    "field": "sourceBlocSeats.opposition",
+    "prose": 47,
+    "derivedFromFullSeats": 48,
+    "status": "Needs independently read original graphic/table cross-check before ingestion; primary full vector sums120."
+  },
+  "baselineObservation": {
+    "pollId": "direct_polls_2026-10-18",
+    "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-81805",
+    "date": "2026-10-18",
+    "alreadyIngested": true
+  },
+  "duplicateOfBaseline": false,
+  "inspectedDirectUrls": [
+    "https://www.i24news.tv/he",
+    "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+    "https://www.i24news.tv/he/news/israel-elections-2026"
+  ],
+  "sourceReadLimitations": [
+    "Broad election overview returned JavaScript shell; primary homepage, dedicated poll index and original article readable.",
+    "Guessed legacy tags/surveys and tags/politics paths failed; correct observed poll-index path successfully opened.",
+    "Default shell network DNS failed; approved read-only original-page download succeeded; a stdout encoding error after saving was recovered by reading saved bytes."
+  ],
+  "rawSourceLocalOnly": {
+    "fileName": "original-article-local-only.html",
+    "sha256": "3fb8b0c0bf228d57d0e7d224f04ff1a651a9d6896d35ddbaadcc2cce12572122",
+    "bytes": 188917
+  },
+  "reviewedFactualExtract": "reviewed-primary-facts.txt",
+  "originalGraphicInspectedThisTask": false,
+  "secondaryIsraelPollsCheck": "Parent parallel X agent owns posts2112605486721728535 and2112606700641345904; not yet incorporated into this primary-only receipt.",
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false
+}

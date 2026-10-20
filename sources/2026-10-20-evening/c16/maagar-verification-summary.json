@@ -1,0 +1,161 @@
+{
+  "status": "PASS-REVIEWED-PRIMARY-NUMERICAL-OBSERVATION",
+  "asOf": "2026-10-20",
+  "candidateFile": "reviewed-maagar-poll.json",
+  "candidateSha256": "630e30f4f6bab9674ff2e7dba7cf35cdca35c9a71132be7bd18c70695b860dab",
+  "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+  "secondOriginalClipUrl": "https://www.ch16.co.il/vod/6ad7a6d142b177b761261205",
+  "discoveredFromPrimarySiteSearch": "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8",
+  "primaryPublisherRead": true,
+  "publicationDate": "2026-10-20",
+  "fieldworkStart": "2026-10-19",
+  "fieldworkEnd": "2026-10-20",
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "sampleSize": 2026,
+  "seatTotal": 120,
+  "seats": {
+    "yashar": 21,
+    "likud": 18,
+    "beyachad": 15,
+    "democrats": 9,
+    "otzma": 9,
+    "joint": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "shas": 6,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4,
+    "haredi_public": 0,
+    "other": 0
+  },
+  "publishedPercentages": {
+    "haredi_public": 0.6,
+    "other": 0.2
+  },
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConflict": {
+    "status": "unresolved-primary-graphic-discrepancy",
+    "values": [
+      {
+        "pct": 2.1,
+        "location": "large-broadcast-footer",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342"
+      },
+      {
+        "pct": 4.2,
+        "location": "small-repeated-numerical-card-fineprint",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342"
+      }
+    ],
+    "canonicalValue": null,
+    "reason": "Both are legible primary-source statements; neither is silently selected or substituted."
+  },
+  "reportedMarginOfErrorConfidencePct": null,
+  "fieldworkEvidence": {
+    "fileName": "c16-fieldwork-proof.json",
+    "sha256": "ef6c95afda68e838ffd6128876b4f9c58e77c3d10f660cb1f94ff7ba22c42f56",
+    "quote": "נערך אתמול והיום וכלל 2,026 משיבים",
+    "anchorTitles": [
+      "סקר בחירות20.10",
+      "סקר בחירות20-10-26"
+    ]
+  },
+  "factualExtract": {
+    "fileName": "c16-reviewed-facts.txt",
+    "sha256": "9bfd7e14dba9281dfcf8e5da4136346f9298e1c998c6a3a566ba8f9c9191a38c"
+  },
+  "settledSourceFrameScreenshots": [
+    {
+      "file": "c16-first-clip-leading-parties.png",
+      "sha256": "e681f9513006f3d13dcb7de053eec0f39d3d04e97ea50dd5f99dfeafb5a0be2d",
+      "sourceVideoSeconds": 40.125226,
+      "reviewedContent": "settled Yashar21 Likud18 Beyachad15",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+      "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+    },
+    {
+      "file": "c16-first-clip-middle-four.png",
+      "sha256": "64aa40cff73cf6c7b94fb47d668ffb959b59ddbc3400a1eafb00344e84029a60",
+      "sourceVideoSeconds": 55.066133,
+      "reviewedContent": "settled Democrats9 Otzma9 Joint9 UTJ7",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+      "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+    },
+    {
+      "file": "c16-first-clip-middle-three.png",
+      "sha256": "7b972d490a2fcc257232e31f2bf9f53be229368dbf49968c4564dc43eaabf68f",
+      "sourceVideoSeconds": 61.064471,
+      "reviewedContent": "settled YisraelBeiteinu7 Shas6 RZ6",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+      "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+    },
+    {
+      "file": "c16-first-clip-small-parties-settled.png",
+      "sha256": "97eb19c1514b9037efbece6ddfe153a17749d470dffd4e79df88ac8348da3410",
+      "sourceVideoSeconds": 73.167356,
+      "reviewedContent": "settled Winter4 Hendel4 Raam5",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+      "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+    },
+    {
+      "file": "c16-first-clip-threshold-final-r2.png",
+      "sha256": "3c2fad833e9c0014746c64e8d48b6b40ba7b8520aa1a2c647d0eb048c0dc4789",
+      "sourceVideoSeconds": 80.446497,
+      "reviewedContent": "settled HarediPublic0 seats0.6pct and published aggregateOther0 seats0.2pct",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+      "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+    },
+    {
+      "file": "c16-first-clip-settled-blocs.png",
+      "sha256": "f57d7d106eadb8798c9775c8e8e8ec2a3623bd4b2c582c6e7afa1c18a9749cf6",
+      "sourceVideoSeconds": 96,
+      "reviewedContent": "settled published blocs50/52/14/H4; approximate first capture time",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+      "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+    }
+  ],
+  "animationResolved": {
+    "intermediateCountsAreNotNewObservations": true,
+    "winter3Hendel3Raam4Rejected": true,
+    "settledWinter4Hendel4Raam5": true,
+    "transientBlocSum115Rejected": true,
+    "settledBlocSum120": true
+  },
+  "deduplication": "Two original presentation clips of one20OctoberMaagar observation. Current13October row is a separate prior observation.",
+  "newPollIncludedInCurrentModelYet": false,
+  "canonicalMutation": false,
+  "fullAuthoredArticleBodiesExcluded": true,
+  "safePublicFiles": [
+    "c16-reviewed-facts.txt",
+    "c16-fieldwork-proof.json",
+    "reviewed-maagar-poll.json",
+    "maagar-verification-summary.json",
+    "c16-first-clip-leading-parties.png",
+    "c16-first-clip-middle-four.png",
+    "c16-first-clip-middle-three.png",
+    "c16-first-clip-small-parties-settled.png",
+    "c16-first-clip-threshold-final-r2.png",
+    "c16-first-clip-settled-blocs.png"
+  ],
+  "localOnlyFiles": [
+    "first-clip-frame-manifest.json",
+    "c16-first-clip-methodology.png",
+    "c16-first-clip-threshold-final-r1.png",
+    "c16-first-clip-threshold-settled.png"
+  ],
+  "limitations": [
+    "Exact publication time, collection times, sampling mode/population/panel and confidence remain missing.",
+    "The2.1/4.2primary margin-of-error conflict remains unresolved.",
+    "Screenshots include the source video region and limited player overlay; filenames do not replace visual content review.",
+    "No old exact percentages or missing-party zero values were inherited."
+  ]
+}

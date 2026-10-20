@@ -1,0 +1,260 @@
+{
+  "id": "maagar_mochot_2026-10-20",
+  "pollsterId": "maagar_mochot",
+  "pollster": "מאגר מוחות — יצחק כ״ץ",
+  "publisher": "ערוץ 16",
+  "date": "2026-10-20",
+  "checkedAt": "2026-10-20",
+  "reviewedAtUtc": "2026-10-20T19:10:34.051181+00:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationTime": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "dateKind": "תאריך20.10.2026 מאומת בכותרות שני קטעי הסקר המקוריים; שעה מדויקת לא פורסמה. שני הקטעים מציגים את אותו הסקר.",
+  "fieldworkStart": "2026-10-19",
+  "fieldworkEnd": "2026-10-20",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+  "fieldworkVerificationFileName": "c16-fieldwork-proof.json",
+  "fieldworkVerificationSha256": "ef6c95afda68e838ffd6128876b4f9c58e77c3d10f660cb1f94ff7ba22c42f56",
+  "sampleSize": 2026,
+  "sampleSizeSourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+  "sampleSizeLowerBoundExclusive": null,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "samplingMethod": null,
+  "population": null,
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "reportedMarginOfErrorConflict": {
+    "status": "unresolved-primary-graphic-discrepancy",
+    "values": [
+      {
+        "pct": 2.1,
+        "location": "large-broadcast-footer",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342"
+      },
+      {
+        "pct": 4.2,
+        "location": "small-repeated-numerical-card-fineprint",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342"
+      }
+    ],
+    "canonicalValue": null,
+    "reason": "Both are legible primary-source statements; neither is silently selected or substituted."
+  },
+  "reportedSampleSizeStatements": {
+    "exactBroadcastFooter": 2026,
+    "introExclusiveLowerBound": 2000
+  },
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "statusLabel": "סקר חדש — מנדטים ומועד איסוף אומתו בקטעי המקור; סתירת טעות הדגימה נשמרת",
+  "seats": {
+    "yashar": 21,
+    "likud": 18,
+    "beyachad": 15,
+    "democrats": 9,
+    "otzma": 9,
+    "joint": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "shas": 6,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4,
+    "haredi_public": 0,
+    "other": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "haredi_public": 0.6,
+    "other": 0.2
+  },
+  "reportedPercentages": {
+    "haredi_public": 0.6,
+    "other": 0.2
+  },
+  "knownPercentageSum": 0.8,
+  "originalCoveragePct": 0.8,
+  "publishedBounds": {},
+  "modelOnlyPercentageIds": [],
+  "unmodelledNamedParties": [],
+  "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+  "secondarySourceUrls": [
+    "https://www.ch16.co.il/vod/6ad7a6d142b177b761261205",
+    "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8",
+    "https://www.ch16.co.il/",
+    "https://www.ch16.co.il/page/6a74e49e6e5de181504dc279",
+    "https://www.ch16.co.il/serie/6a71856d4a2ff1d9cb40cf61"
+  ],
+  "replacesPollId": "maagar_mochot_2026-10-13",
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "50; שיוך וינטר4 לקואליציה תואם את סכום המפלגות במקור",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו; ללא ערביות והנדל–זליכה",
+    "arab_parties": "המשותפת9 ורע״ם5",
+    "hendel": "המילואימניקים והכלכלית4; בנפרד"
+  },
+  "fixedBlocSeatsForAudit": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "unassigned": 4
+  },
+  "percentageSourceUrls": {
+    "haredi_public": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+    "other": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "notes": [
+    "סקר חדש ונפרד של20.10.2026; שני קטעי המקור הם הצגות של אותה תצפית, ולא שני מדגמים.",
+    "כל13 הרשימות העוברות מסתכמות ב120; וינטר4, הנדל–זליכה4, רע״ם5.",
+    "מועד האיסוף19–20.10 אומת מניסוח מפורש אתמול והיום המעוגן בכותרת המקור; מדגם2026 משיבים.",
+    "סתירה מקורית בטעות הדגימה:2.1% ברצועת המידע הגדולה מול4.2% באותיות הקטנות. הערך הראשי נשאר חסר ושתי הגרסאות נשמרות; לא הונחה רמת ביטחון.",
+    "הציבור החרדי0.6% ומפלגות אחרות0.2% פורסמו במפורש. שאר האחוזים חסרים, ואין להעתיק את נתוני13.10.",
+    "מספרים בתחילת הנפשת הגרפים אינם תוצאות סופיות. נקראו מסגרות לאחר התייצבות, לרבות וינטר4 והנדל4 וגושים50/52/14/4.",
+    "גנץ אינו מופיע בנפרד במקורות שנבדקו; היעדר נתון אינו אפס תמיכה.",
+    "מחליף בפעיל את מאגר מוחות13.10 בלבד לאחר קליטה נפרדת; כל הרשומות והאסמכתאות הקודמות נשמרות."
+  ],
+  "sourceDocument": {
+    "fileName": "c16-reviewed-facts.txt",
+    "extractFileName": "c16-reviewed-facts.txt",
+    "sha256": "9bfd7e14dba9281dfcf8e5da4136346f9298e1c998c6a3a566ba8f9c9191a38c",
+    "extractSha256": "9bfd7e14dba9281dfcf8e5da4136346f9298e1c998c6a3a566ba8f9c9191a38c",
+    "kind": "original-publisher-reviewed-numerical-video-frames-with-factual-extract",
+    "reviewedAt": "2026-10-20",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalBroadcastPlayerAccessible": true,
+    "originalNumericFramesVisuallyVerified": true,
+    "originalGraphicVisuallyVerified": true,
+    "originalGraphicFiles": [
+      {
+        "file": "c16-first-clip-leading-parties.png",
+        "sha256": "e681f9513006f3d13dcb7de053eec0f39d3d04e97ea50dd5f99dfeafb5a0be2d",
+        "sourceVideoSeconds": 40.125226,
+        "reviewedContent": "settled Yashar21 Likud18 Beyachad15",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+        "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+      },
+      {
+        "file": "c16-first-clip-middle-four.png",
+        "sha256": "64aa40cff73cf6c7b94fb47d668ffb959b59ddbc3400a1eafb00344e84029a60",
+        "sourceVideoSeconds": 55.066133,
+        "reviewedContent": "settled Democrats9 Otzma9 Joint9 UTJ7",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+        "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+      },
+      {
+        "file": "c16-first-clip-middle-three.png",
+        "sha256": "7b972d490a2fcc257232e31f2bf9f53be229368dbf49968c4564dc43eaabf68f",
+        "sourceVideoSeconds": 61.064471,
+        "reviewedContent": "settled YisraelBeiteinu7 Shas6 RZ6",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+        "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+      },
+      {
+        "file": "c16-first-clip-small-parties-settled.png",
+        "sha256": "97eb19c1514b9037efbece6ddfe153a17749d470dffd4e79df88ac8348da3410",
+        "sourceVideoSeconds": 73.167356,
+        "reviewedContent": "settled Winter4 Hendel4 Raam5",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+        "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+      },
+      {
+        "file": "c16-first-clip-threshold-final-r2.png",
+        "sha256": "3c2fad833e9c0014746c64e8d48b6b40ba7b8520aa1a2c647d0eb048c0dc4789",
+        "sourceVideoSeconds": 80.446497,
+        "reviewedContent": "settled HarediPublic0 seats0.6pct and published aggregateOther0 seats0.2pct",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+        "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+      },
+      {
+        "file": "c16-first-clip-settled-blocs.png",
+        "sha256": "f57d7d106eadb8798c9775c8e8e8ec2a3623bd4b2c582c6e7afa1c18a9749cf6",
+        "sourceVideoSeconds": 96,
+        "reviewedContent": "settled published blocs50/52/14/H4; approximate first capture time",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342",
+        "captureKind": "permitted-live-browser-screenshot-cropped-to-source-video-region"
+      }
+    ],
+    "fieldworkProofFileName": "c16-fieldwork-proof.json",
+    "fieldworkProofSha256": "ef6c95afda68e838ffd6128876b4f9c58e77c3d10f660cb1f94ff7ba22c42f56",
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 8,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "publicationTime",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "samplingMethod",
+      "population",
+      "panelProvider",
+      "initialSampleSize",
+      "invitedSampleSize",
+      "reportedMarginOfErrorPct-conflicting-statements",
+      "reportedMarginOfErrorConfidencePct",
+      "percentageDenominator",
+      "undecidedPct",
+      "full-passing-party-percentages"
+    ]
+  }
+}

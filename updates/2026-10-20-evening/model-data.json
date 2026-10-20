@@ -1,0 +1,209 @@
+{
+  "asOf": "2026-10-20",
+  "release": "evening",
+  "latestPollPublicationDate": "2026-10-20",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "a9afaf65acfd17361fda3a71d7b26fb1e9e493db498109b7e0cd9bbc55456fdb",
+  "sourcePlanSha256": "8fb54e738d746ec222b41ddcba6fa8b1f8d6a044c123ab2d94c57c36b7763f10",
+  "independentModelReviewSha256": "abcda5ca32f6e4bb5681ba78b19de7d5328827c54c2a1f7fe4e76a193c93a95d",
+  "configuration": {
+    "asOf": "2026-10-20",
+    "iterations": 10000,
+    "seed": 20260912,
+    "registered": 7336553,
+    "samplingMode": "poll",
+    "weightMode": "quality",
+    "pollCorrelationEnabled": true,
+    "pollWeights": {},
+    "excludedPolls": [],
+    "halfLifeDays": 14,
+    "designEffect": 1.5,
+    "scatterStrength": 0.65,
+    "commonBlocSD": 1,
+    "uncertaintyScale": 1,
+    "forecastDays": 0,
+    "dailyDrift": 0.06,
+    "unreportedSmallPct": 0.5,
+    "rounding": true,
+    "partyBlocs": {
+      "yashar": "b",
+      "likud": "a",
+      "beyachad": "b",
+      "democrats": "b",
+      "yisrael_beiteinu": "b",
+      "utj": "a",
+      "joint": "other",
+      "shas": "a",
+      "otzma": "a",
+      "rz_zehut": "a",
+      "raam": "other",
+      "winter": "a",
+      "hendel": "other",
+      "gantz": "other",
+      "noam": "a",
+      "haredi_public": "other",
+      "israel_first": "other",
+      "other": "other"
+    },
+    "partyMultipliers": {},
+    "turnout": {
+      "arab_localities": 53.164265596477414,
+      "haredi_three_cities": 82.43233776241739,
+      "remaining_localities": 65.2636702639851
+    },
+    "turnoutMappings": {},
+    "externalMultiplier": 1,
+    "blocMultipliers": {
+      "a": 1,
+      "b": 1,
+      "arab": 1,
+      "other": 1
+    },
+    "agreements": [
+      "yashar_democrats",
+      "beyachad_yisrael_beiteinu",
+      "joint_raam"
+    ],
+    "customAgreements": [],
+    "coalitionA": {
+      "extraSupport": [],
+      "abstain": [],
+      "minority": false
+    },
+    "coalitionB": {
+      "extraSupport": [],
+      "abstain": [],
+      "minority": false
+    },
+    "applyRecency": false,
+    "includeChannel14": false,
+    "signalNoiseEnabled": false,
+    "robustShrinkage": 0.25,
+    "methodWeights": {
+      "equal": 1,
+      "reference": 1,
+      "littlepolls": 1,
+      "gilead": 1,
+      "rosner": 0
+    },
+    "oppositionMode": "none"
+  },
+  "selectedInstitutes": 7,
+  "selectedPolls": [
+    {
+      "id": "midgam_geva_2026-10-19",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "date": "2026-10-19",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "sampleSize": 507,
+      "checkedAt": "2026-10-20",
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm"
+    },
+    {
+      "id": "kantar_2026-10-18",
+      "pollsterId": "kantar",
+      "publisher": "כאן 11",
+      "date": "2026-10-18",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 547,
+      "checkedAt": "2026-10-19",
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1110393/"
+    },
+    {
+      "id": "hamadad_consortium_2026-10-19",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "date": "2026-10-19",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 1016,
+      "checkedAt": "2026-10-20",
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/"
+    },
+    {
+      "id": "lazar_2026-10-20",
+      "pollsterId": "lazar",
+      "publisher": "וואלה",
+      "date": "2026-10-20",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "sampleSize": 601,
+      "checkedAt": "2026-10-20",
+      "sourceUrl": "https://www.walla.co.il/news/politics/383958175"
+    },
+    {
+      "id": "maagar_mochot_2026-10-20",
+      "pollsterId": "maagar_mochot",
+      "publisher": "ערוץ 16",
+      "date": "2026-10-20",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-20",
+      "sampleSize": 2026,
+      "checkedAt": "2026-10-20",
+      "sourceUrl": "https://www.ch16.co.il/vod/6ad7a92eb3ec76081d8e8342"
+    },
+    {
+      "id": "tatika_2026-10-15",
+      "pollsterId": "tatika",
+      "publisher": "זמן ישראל",
+      "date": "2026-10-15",
+      "fieldworkStart": "2026-10-14",
+      "fieldworkEnd": "2026-10-15",
+      "sampleSize": 500,
+      "checkedAt": "2026-10-15",
+      "sourceUrl": "https://www.zman.co.il/733625/"
+    },
+    {
+      "id": "direct_polls_2026-10-20",
+      "pollsterId": "direct_polls",
+      "publisher": "i24NEWS",
+      "date": "2026-10-20",
+      "fieldworkStart": "2026-10-20",
+      "fieldworkEnd": "2026-10-20",
+      "sampleSize": 521,
+      "checkedAt": "2026-10-20",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024"
+    }
+  ],
+  "meanSeats": {
+    "a": 51.2112,
+    "b": 53.4749,
+    "arab": 13.8197,
+    "other": 1.4942
+  },
+  "parties": {
+    "winter": {
+      "passPct": 32.18,
+      "meanSeats": 1.338
+    },
+    "hendel": {
+      "passPct": 34.94,
+      "meanSeats": 1.4942
+    }
+  },
+  "thresholdPct": 3.25,
+  "displayed": {
+    "winter": {
+      "passPct": "32.2%",
+      "meanSeats": "1.3"
+    },
+    "hendel": {
+      "passPct": "34.9%",
+      "meanSeats": "1.5"
+    }
+  },
+  "newlyAddedPublishers": [
+    "ערוץ 16",
+    "i24NEWS",
+    "חדשות 14"
+  ],
+  "channel14AddedToDatabaseButExcludedFromThisReplay": true,
+  "graphicScope": "Two weighted model threshold marginals only. A published seat count in a single poll is not a modeled pass probability.",
+  "meanMandatesIncludeZeroSeatFailures": true,
+  "simulationProbabilityIsNotCoalitionFormationProbability": true,
+  "automaticTweetPosted": false,
+  "tweetTwitterWeightedCharacters": 252
+}

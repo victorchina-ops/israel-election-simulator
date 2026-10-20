@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "profileSha256": "61807cef6dbcbff2c4b2d2235d866c09f582e29dae59f4de0ff1c01268e12c99",
+  "independentImplementation": "Python stdlib loops and Jacobi eigenvalue solver; builder/numpy not imported.",
+  "inputHashesUnchanged": true,
+  "actualPublishedVectorsReconstructed": true,
+  "weeklyAggregationAgrees": true,
+  "gaussianKernelAgrees": true,
+  "matchedCountsAgree": true,
+  "modeledMatrixAgrees": true,
+  "densityReferencesAgree": true,
+  "minimumModeledEigenvalue": 0.7640988000953566,
+  "no2022OrElectionResultsUsed": true,
+  "noForecastErrorsUsed": true,
+  "noMissingPartyImputation": true,
+  "syntheticPollsAdded": false,
+  "statisticalErrorCorrelationClaim": false,
+  "probabilityCalibrationClaim": false
+}

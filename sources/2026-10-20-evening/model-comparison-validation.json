@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "activeSelectedInstitutes": 7,
+  "changedPollsters": [
+    "direct_polls",
+    "maagar_mochot",
+    "next_data"
+  ],
+  "newObservationIds": [
+    "maagar_mochot_2026-10-20",
+    "direct_polls_2026-10-20",
+    "next_data_2026-10-20"
+  ],
+  "publicationDates": [
+    "2026-10-20",
+    "2026-10-20",
+    "2026-10-20"
+  ],
+  "activePolls": 8,
+  "historyPolls": 135,
+  "allPreviousHistoricalObservationsPreserved": true,
+  "comparisonSha256": "fc340fa22f3441d59acb1c73d0298f5838f7295a6af6e9c55ee73aa7fb47ab41",
+  "snapshotSha256": "2ee0e28daae866e4a50ee3596ac190a9cf0fb30afeab2c7466eeabe955fd9a56",
+  "baselineSha256": "5c4458c6d5564641e20a6ba8eb89629c0e0fcb5dfd70ee8a30b6320477d17db4",
+  "sourcePlanSha256": "8fb54e738d746ec222b41ddcba6fa8b1f8d6a044c123ab2d94c57c36b7763f10",
+  "validationScope": "Both endpoints use the identical unchanged model and explicit historical-accuracy default settings; differences are not a significance test."
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS-STATIC-REVIEW",
+  "reviewedAtUtc": "2026-10-20T19:57:19.576011+00:00",
+  "reviewerTask": "/root/hayom_ingest_oct15",
+  "scope": "Independent read-only review of two saved-before/current test diffs affecting three stale assertions. No test, model, numerical counter or source mutation executed by this reviewer. Full-suite result remains root responsibility.",
+  "files": [
+    {
+      "path": "tests/strict-party-publication.test.mjs",
+      "beforeSha256": "0c4a2ce7b7ca151042bc183e0a12a0bd782ca58e4c7654392d3999bde8e613e5",
+      "afterSha256": "81d2cab5a0126cf91a10ecc507251871e20260098abad86f14ecf51dd96b30c4"
+    },
+    {
+      "path": "tests/channel14-strict-trends.test.mjs",
+      "beforeSha256": "40d7b13e00e100c04dbd24e445f8a6b335852bdbb01fe8e48f4b3e000eb7c2ab",
+      "afterSha256": "018c4780959ea9d619c7f9ba5e5aea11468ba77a1698cf89010673ccd4425979"
+    }
+  ],
+  "exactCounterDiagnosticProofSha256": "a0ece1bb9589de317a739a043fe649dcfe13b65b2c7e6dfc94c4742027d9b6ba",
+  "priorIndependentDiagnosticReviewSha256": "9bc99a71356923ffee892f753c5ee1baf23705c0bbc03deaa92316b6d17ab8de",
+  "findings": [],
+  "reviewedRepairs": [
+    {
+      "file": "strict-party-publication.test.mjs",
+      "twoOldAssertions": "Unconditional exact primary and independent counts/rounded-count arrays at separately computed observed thresholds",
+      "replacement": "Exact equality remains mandatory for every matching outcome. Only the known opposition_raam mismatch requires the immutable hash-pinned common-threshold proof, actual source/backend/helper hashes, observed hex floats and unchanged1e-12, both exact own/common counts and probability fractions. All eight score support arrays, multiplicities, weights, times and float byte hashes are independently reconstructed in the test.",
+      "assessment": "Appropriate boundary diagnosis, not general tolerance relaxation or hidden numeric-output edit."
+    },
+    {
+      "file": "channel14-strict-trends.test.mjs",
+      "oldAssertion": "All bloc main and sensitivity q-values must remain nonsignificant in every future cohort",
+      "replacement": "Derive current3-bloc exact p values and BH family from the validated analysis, independently enumerate current whole-institute sign patterns, compare every published p/q and verdict; additionally bind this exact evening snapshot/validation and require coalition significant in both, while the17-party primary/sensitivity families retain their distinct expected verdicts.",
+      "assessment": "Removes a stale all-null outcome assumption while strengthening calculation and snapshot binding."
+    }
+  ],
+  "preservedChecks": [
+    "All other strict source/cohort/exact integer/helper/registered-tolerance assertions remain",
+    "No broader absolute/relative tolerance change",
+    "No new statistical method or test family",
+    "No membership/count weakening",
+    "The known float exception fails closed for changed proof/source hashes"
+  ],
+  "heavyOrTargetTestsExecuted": false,
+  "mutation": "This immutable independent-review.json receipt only"
+}

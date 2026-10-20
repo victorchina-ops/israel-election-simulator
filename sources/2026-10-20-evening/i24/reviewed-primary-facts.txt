@@ -1,0 +1,17 @@
+i24NEWS / Direct Polls — reviewed factual source extract
+Original URL: https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024
+Publication metadata: 2026-10-20T17:35:25Z (20:35:25 Asia/Jerusalem).
+Updated metadata: 2026-10-20T17:42:10Z (20:42:10 Asia/Jerusalem).
+Fieldwork date explicitly reported: 20 October 2026.
+Institute: Direct Polls, Tzuriel Sharon; publisher i24NEWS.
+Sample: 521 adults aged18+; general Israeli population. Digital system combined with panel.
+Reported maximum sampling error: ±4.3 percentage points at95% confidence.
+Initial target, invitation count, panel vendor, percentage denominator and undecided percentage not published in inspected source; remain missing.
+Full published mandate vector: Likud26; Yashar20; Beyachad12; Otzma9; Democrats9; Shas8; UTJ8; Joint8; Yisrael Beiteinu7; Religious Zionism/Zehut7; Raam6. Total120.
+Exact below-threshold published percentages: Winter3.1%; Hendel/Zelicha2.6%.
+Five further named lists described only as below1% each: Black, Haredi Public, Ahi, Noam LeIsrael, Israel First/Ale Yarok. These are upper bounds, not exact zero or another imputed percentage.
+The bloc prose prints coalition58/opposition47/Arab14, which totals119; the full party vector gives58/48/14. Preserve the discrepancy and seek graphic cross-check before any ingestion.
+Prior independent i24 poll is18October, source artc-81805. Current primary article explicitly compares with18October and is a new20October observation, not a repost.
+Full authored HTML and raw web-reader receipts retained locally only. This extract consists of factual fields/paraphrase and contains no verbatim source quotations.
+READ-ONLY LEAD: no canonical ingestion, model, build or public-site change authorized/performed.
+

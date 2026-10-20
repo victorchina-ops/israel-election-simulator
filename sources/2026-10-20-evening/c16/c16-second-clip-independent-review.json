@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_FINAL_MANDATES_INDEPENDENTLY_VERIFIED_WITH_METADATA_LIMITATIONS",
+  "reviewedAtUtc": "2026-10-20T19:06:14Z",
+  "reviewerTask": "/root/c13_source_oct15",
+  "sourceUrl": "https://www.ch16.co.il/vod/6ad7a6d142b177b761261205",
+  "sourcePageTitle": "סקר בחירות 20-10-26",
+  "clipDurationSeconds": 303.8,
+  "method": "Independent fresh Chrome tab; read page title and player DOM; original video played and sought with its visible keyboard timeline controls. Numerical slides were read visually after animations settled. Browser screenshots emitted in CUA tool results.",
+  "wholeClipReviewedContinuously": false,
+  "inspectedTimelineObservations": [
+    {
+      "approxCurrentTimeSeconds": 36,
+      "kind": "final-top-party-slide",
+      "values": {
+        "yashar": 21,
+        "likud": 18,
+        "beyachad": 15
+      }
+    },
+    {
+      "approxCurrentTimeSeconds": 46.32,
+      "kind": "final-middle-party-slide",
+      "values": {
+        "democrats": 9,
+        "otzma": 9,
+        "joint": 9,
+        "utj": 7
+      }
+    },
+    {
+      "approxCurrentTimeSeconds": 61.77,
+      "kind": "final-party-slide",
+      "values": {
+        "yisrael_beiteinu": 7,
+        "shas": 6,
+        "rz_zehut": 6
+      }
+    },
+    {
+      "approxCurrentTimeSeconds": 74.23,
+      "kind": "final-small-party-slide",
+      "values": {
+        "winter": 4,
+        "hendel": 4,
+        "raam": 5
+      }
+    },
+    {
+      "approxCurrentTimeSeconds": 79.3,
+      "kind": "transitional-animation-not-final",
+      "values": {
+        "haredi_public": 0.5,
+        "other_parties_aggregate": 0.2
+      },
+      "retainedForAuditOnly": true,
+      "exactFinalValueClaimRetracted": true
+    },
+    {
+      "approxCurrentTimeSeconds": 82.9,
+      "kind": "settled-below-threshold-slide",
+      "exactFinalPercentages": {
+        "haredi_public": 0.6,
+        "other_parties_aggregate": 0.2
+      }
+    },
+    {
+      "approxCurrentTimeSeconds": 88.79,
+      "kind": "settled-bloc-slide",
+      "values": {
+        "coalition": 50,
+        "opposition": 52,
+        "arab_parties": 14,
+        "hendel": 4
+      }
+    },
+    {
+      "approxCurrentTimeSeconds": 106.35,
+      "kind": "settled-bloc-slide-recheck",
+      "values": {
+        "coalition": 50,
+        "opposition": 52,
+        "arab_parties": 14,
+        "hendel": 4
+      }
+    }
+  ],
+  "seats": {
+    "yashar": 21,
+    "likud": 18,
+    "beyachad": 15,
+    "democrats": 9,
+    "otzma": 9,
+    "joint": 9,
+    "utj": 7,
+    "yisrael_beiteinu": 7,
+    "shas": 6,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4
+  },
+  "seatTotal": 120,
+  "blocSeatsAsPublished": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "blocTotal": 120,
+  "blocAssignmentForArithmetic": {
+    "winter": "coalition",
+    "hendel": "separate",
+    "joint": "arab_parties",
+    "raam": "arab_parties"
+  },
+  "exactPublishedPercentages": {
+    "haredi_public": 0.6
+  },
+  "aggregatePublishedPercentages": {
+    "other_parties": 0.2
+  },
+  "aggregateNotAssignedToAnyNamedList": true,
+  "passingPartyPercentagesPublishedInInspectedSlides": false,
+  "metadata": {
+    "institute": "Maagar Mochot — Itzhak Katz",
+    "sampleSize": 2026,
+    "collectionRelativeWording": "yesterday and today",
+    "sourceDateAnchorFromPageTitle": "2026-10-20",
+    "interpretedFieldworkStart": "2026-10-19",
+    "interpretedFieldworkEnd": "2026-10-20",
+    "datesExplicitCalendarInInspectedVideo": false,
+    "publicationDateAnchor": "2026-10-20",
+    "publicationExactTime": null,
+    "samplingMethod": null,
+    "population": null,
+    "reportedConfidencePct": null
+  },
+  "marginOfErrorDiscrepancy": {
+    "largeCrawlPct": 2.1,
+    "tinyStaticSlideFooterPct": 4.2,
+    "bothDirectlyObserved": true,
+    "canonicalRecommendedReportedMarginOfErrorPct": null,
+    "doNotChooseByArithmeticOrSampleSize": true
+  },
+  "animationHandling": "Intermediate counts/percentages appear during entry animations. Only settled final values retained; HP0.5 at~79s corrected to final0.6 at~82.9s. The two clips therefore need not be treated as inconsistent on that field.",
+  "canonicalDataChanged": false,
+  "publicFilesChanged": false,
+  "numericalRecalculationPerformed": false,
+  "limitation": "Screenshots were inspected/emitted through browser tool but not exported as local PNG/JPEG files in this independent task. This receipt records manual numerical reading; raw clip/source graphics remain publisher evidence.",
+  "sourceQuotesWordCount": 0
+}

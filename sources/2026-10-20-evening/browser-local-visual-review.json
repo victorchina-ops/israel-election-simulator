@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "asOf": "2026-10-20",
+  "runId": "evening",
+  "browserReportSha256": "951ace2ac69c3570d8a1d5e148815b260046713cf5ac2ff06e60411a18ca541d",
+  "visualInspectionCompleted": true,
+  "reviewedScreenshots": {
+    "01-dashboard-default.jpg": "53d65e59a5e2f715fe37c441bdb2978fd57001454eeeb2a6ac8e52319f536421",
+    "02-threshold-similarity-on.jpg": "aad5dd2314c805bd1767e81dc166a180ed628d574c96f8203b7d086312578eb6",
+    "03-evening-source-metadata.jpg": "c2c46a850f06c3cf0f555601bd1ff7b65ec1e89534a55940d500349883714d96",
+    "04-strict-trends-without14.jpg": "e49a69f6bdacdf1942ee0ccd25def4fa322172e31499e8712148bb0feba24d7b",
+    "05-about-light-persisted.jpg": "4f123e4da9614ad5bda05003bf19c018a6fb7b4efe2a4518c850962072f0e1e0"
+  },
+  "observations": [
+    "Dark evening dashboard clearly shows available controls,20Oct data and defaultsOFF.",
+    "Preferred threshold bars visibly showH34.94% andW32.18%, with model/threshold distinction.",
+    "Metadata screenshot shows C16 sample2026/field19–20, i24521/field20 and C142116/field20, plus primary-source links.",
+    "Strict summary visibly shows43/7/36 and significant Joint/Winter/Otzma, with separate similarity and sensitivity explanations.",
+    "Fresh About Light screenshot shows original author portrait/contact and introduction, appearance persists afterreload."
+  ]
+}

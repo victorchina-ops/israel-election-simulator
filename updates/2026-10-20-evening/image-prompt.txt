@@ -1,0 +1,21 @@
+Use case: infographic-diagram with editorial illustration.
+Create a fresh beautiful portrait4:5 social illustration in Hebrew, not a dry scientific dashboard. Warm cream paper, hand-painted gouache texture, a tasteful drawing of the Knesset in the distance, two large ballot envelopes at a simple doorway as the focal visual metaphor. One muted coral envelope labelled וינטר, one muted purple envelope labelled הנדל–זליכה. Clear spacious editorial typography, excellent Hebrew RTL. Nonpartisan factual reporting. No invented logos, no realistic faces or extra people, no confetti, no prediction of victory. Numerical accuracy has priority over decoration. No complicated graph, dial or waffle. All text must be crisp, nothing clipped.
+Top title EXACT: "מי עובר את אחוז החסימה?"
+Small date EXACT: "נתוני 20.10.2026 | עדכון ערב"
+Subtitle EXACT: "סיכוי המעבר לפי המודל המשוקלל"
+Two very large clean numerical callouts, each unmistakably paired with its envelope:
+וינטר — 32.2%
+הנדל–זליכה — 34.9%
+Under each, smaller but clearly legible:
+וינטר: "1.3 מנדטים בממוצע"
+הנדל–זליכה: "1.5 מנדטים בממוצע"
+One shared explanation: "הממוצע כולל גם הדמיות שבהן המפלגה לא עוברת"
+A small threshold note: "אחוז החסימה: 3.25%"
+Bottom factual assumptions in a calm, well-spaced footnote area, exact Hebrew:
+"דיוק היסטורי + צמצום משקל סקרים דומים | ללא ערוץ 14"
+"הסקר האחרון מכל מכון; בסיס השתתפות 2022"
+"מקורות: 12, 13, כאן 11, i24, 16, זמן ישראל, וואלה"
+"וינטר עם נתניהו; הנדל–זליכה מחוץ לגושים"
+"הסתברות לפי הנחות המודל, לא אחוז תמיכה בסקר"
+Small credit EXACT: "ויקטור רינה בן דוד"
+Do not add any other numbers or political interpretations. These are unconditional model crossing probabilities, NOT published vote percentages and NOT guaranteed election outcomes. Do not show statistic significance stars. Keep the poster pleasantly illustrated and effortless to understand on a phone.
