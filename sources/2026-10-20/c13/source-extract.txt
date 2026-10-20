@@ -1,0 +1,16 @@
+Reviewed published observation hamadad_consortium_2026-10-19; publication 2026-10-19; audit 2026-10-20.
+Original source: https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/.
+Published mandates: {"yashar": 20, "likud": 18, "beyachad": 14, "democrats": 9, "yisrael_beiteinu": 8, "utj": 7, "joint": 9, "shas": 7, "otzma": 7, "rz_zehut": 7, "raam": 6, "winter": 4, "hendel": 4, "gantz": 0, "haredi_public": 0}
+Exact published percentages: {"haredi_public": 1.0}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 50, "opposition": 51, "arab_parties": 15, "hendel": 4}
+Sample size exact/exclusive lower bound: 1016/None
+Verified fieldwork: False; None to None
+Missing values are not zero and are never inherited.
+גרפיקת המקור19.10 מציגה הליכוד18 ויהדות התורה7; סה״כ120 ומפת הגושים50/51/15/4.
+במלל הכתבה הופיע17 לליכוד, בסתירה לגרפיקת המקור ולסכום המנדטים; הסתירה מתועדת, נבחר18 שנקרא בגרפיקה.
+מועד איסוף מדויק לא פורסם במקורות שנבדקו; תאריך הגרפיקה הוא תאריך הסקר/הפרסום ולא הוכחת איסוף.
+האחוזים המדויקים של גנץ והציבור החרדי לא פורסמו; נשארים חסרים.
+הסקר נערך לפני פרישת גנץ; אין לאפס בדיעבד נתוני תמיכה.
+עדכון r1: בטבלה ההיסטורית של IsraelPolls מ־20.10 מופיע הציבור החרדי 1.0% בעמודת סקר 19.10. זהו אחוז ממקור משני; המנדטים נשארים מאומתים בגרפיקת המפרסם הראשוני.
+אחוז גנץ בעמודה זו חסר. הפרסום מחדש ב־20.10 אינו סקר חדש ואינו מאמת את מועד האיסוף.

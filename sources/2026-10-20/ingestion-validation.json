@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "baselineAsOf": "2026-10-19",
+  "activePollCount": 8,
+  "historyPollCount": 132,
+  "newPollCount": 4,
+  "sourceChecks": {
+    "midgam_geva": {
+      "candidateSha256": "82f8c61eda20fa28da3e5e47965289fe2a41f691c4a302e2bfc3afdfd8443424",
+      "sampleSize": 507,
+      "sourceBlocSeats": {
+        "coalition": 51,
+        "opposition": 55,
+        "arab_parties": 14,
+        "hendel": 0
+      },
+      "publicationDate": "2026-10-19",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "strictEligible": true
+    },
+    "hamadad_consortium": {
+      "candidateSha256": "43321eb4375131091c84e83fcc46ca7ac906a7de2e3316caf47ec68c6b04ae01",
+      "sampleSize": 1016,
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 51,
+        "arab_parties": 15,
+        "hendel": 4
+      },
+      "publicationDate": "2026-10-19",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "strictEligible": false
+    },
+    "next_data": {
+      "candidateSha256": "95347e71159dbcdc26675fd7fac9065682dbc0fc10da46fec880715a26391bf7",
+      "sampleSize": 454,
+      "sourceBlocSeats": {
+        "coalition": 62,
+        "opposition": 45,
+        "arab_parties": 13
+      },
+      "publicationDate": "2026-10-19",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "strictEligible": true
+    },
+    "lazar": {
+      "candidateSha256": "f5203cbf7443eebbfa42526fb43ec75cfe8ff69ddb31f6624444ee864b6c6bfc",
+      "sampleSize": 601,
+      "sourceBlocSeats": {
+        "coalition": 48,
+        "opposition": 54,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "publicationDate": "2026-10-20",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "strictEligible": true
+    }
+  },
+  "fullStrict": {
+    "candidates": 61,
+    "polls": 52,
+    "series": 8,
+    "deltas": 44,
+    "unknownFieldworkExcluded": 9
+  },
+  "defaultWithoutChannel14": {
+    "polls": 41,
+    "series": 7,
+    "deltas": 34
+  },
+  "checkpointManifestSha256": "1b508593083afa9ca1b0e35dc8d45c6cd54aad8d3a511619228a2179af57c937",
+  "sourcePlanSha256": "00b71fb8d69999dbc75921a9d3ed1b6baa4f1c048d8e18316a3b902a7afc1912",
+  "ingestionReceiptSha256": "99e2bd2dceef937ef5bae4e27db7a8ca0804504e8b01a985d58417ff78698c13",
+  "auditHashes": {
+    "artifacts/strict-post-close/lazar-fieldwork.json": "36eae105a683f46d3ea5c9c4cabfe82fb196544c642f66cd503cdc0468781d7b",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "f6cf44b6237c6c63e9e9996e3ecba4c0ff58d2d336c040f56d39985745b57b30",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "d11ab0d31fe0ec05ab35c72817e3c261679a33c6376bdfb9d284e299de5865a2",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "85798ff9b5f1d75088a7f93e1e98b6aaae2f8ae95a7428d6953a95226e489872",
+    "artifacts/strict-post-close/new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  },
+  "authorFilesVerified": 117,
+  "protectedRuntimeFilesVerified": 234,
+  "frozenEvidenceFilesPreserved": 2222,
+  "conditionalAndArtisticFilesPreserved": 14,
+  "reviewedPythonIntegerHelpersPreserved": {
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "artifacts/audit-strict-full-series-2026-09-28.py": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+    "artifacts/strict-post-close/party-independent.py": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68"
+  },
+  "historicalWeightsUnchanged": true,
+  "previousRawHistoryPreserved": true,
+  "publicationAndAuditDatesSeparated": true,
+  "noNumericalOrDashboardMutation": true,
+  "validatorSha256": "52d26f1a3ef9f9efe3dcffb073957781444884b2571879cc287862cb8c83b80d"
+}

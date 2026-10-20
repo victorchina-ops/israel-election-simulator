@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "checkedAtUtc": "2026-10-20T09:44:22.620990+00:00",
+  "purpose": "Direct primary publisher verification; original numerical polls only.",
+  "newPollIds": [
+    "midgam_geva_2026-10-19",
+    "hamadad_consortium_2026-10-19",
+    "next_data_2026-10-19"
+  ],
+  "duplicateIdsExcluded": [
+    "kantar_2026-10-18",
+    "direct_polls_2026-10-18",
+    "next_data_2026-10-18"
+  ],
+  "coverage": [
+    {
+      "publisher": "N12",
+      "home": "https://www.mako.co.il/news",
+      "homeFinal": "https://www.n12.co.il/",
+      "politics": "https://www.mako.co.il/news-politics",
+      "elections": "https://www.mako.co.il/news-israel-elections/2026",
+      "pollIndex": "https://www.mako.co.il/Tagit/%D7%A1%D7%A7%D7%A8%2B%D7%9E%D7%A0%D7%93%D7%98%D7%99%D7%9D",
+      "access": "All directly opened/read via webreader; original articleHTTP200.",
+      "finding": "New original19Oct vector, fieldwork19Oct;20Oct00:23 update is not separate poll. Tagindex lags; electionindex found fresh article."
+    },
+    {
+      "publisher": "Channel13",
+      "home": "https://13tv.co.il/news/",
+      "politics": "https://13tv.co.il/news/politics/politics/",
+      "elections": "https://13tv.co.il/tags/2026-elections/",
+      "pollIndex": "https://13tv.co.il/tags/survey/",
+      "access": "All directly opened/read via webreader. Article normalChrome readable; rawHTTP403 explicitly recorded. OriginalgraphicHTTP200/CUAvisual.",
+      "finding": "New original19Oct vector; graph overrides conflicting Likud17prose with directly read18; fieldwork remains unverified.16Oct attitudes not separate mandate poll."
+    },
+    {
+      "publisher": "Channel14",
+      "home": "https://www.c14.co.il/",
+      "politics": "https://www.c14.co.il/archive/65839",
+      "elections": "https://www.c14.co.il/elections26",
+      "pollIndex": "https://www.c14.co.il/archive/53747",
+      "access": "All directly opened/read. Electioninteractiveindex exposes shell, not full data; politics/pollindex lead to original19Oct articleHTTP200. Graphic loadednormallyinChrome; rawimageHTTP403.",
+      "finding": "New19Oct vector, field19Oct. Homepage63/45/12widget stale and not treated as additional observation. Opinion,Polymarketandattitudepolls not ingested."
+    }
+  ],
+  "IsraelPollsCheckDelegatedToRoot": true,
+  "canonicalDataMutated": false,
+  "publicArtifactsSafeNumericalOnly": true,
+  "copyrightFullArticlesLocalOnly": true
+}

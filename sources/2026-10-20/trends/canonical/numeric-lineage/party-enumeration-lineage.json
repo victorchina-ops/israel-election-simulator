@@ -1,0 +1,22 @@
+{
+  "asOf": "2026-10-20",
+  "stage": "party",
+  "status": "PASS",
+  "frozenAnalyzer": "artifacts/analyze-party-trends-strict-2026-09-28.py",
+  "frozenAnalyzerSha256": "4aff7e6b7310e25a5e7845ecc6b084a58d819cae98fac9e14d32c640faafb34c",
+  "transformedSourceSha256": "31ec0a2242ebd1b7eceada656df9aa8aedc1b9e84f97f50657157e6711338de1",
+  "wrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "scalarBackendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "frozenCounterHashes": {
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "enumeration": "unique scalar assignments with exact repeated-label multiplicity",
+  "nullUnchanged": true,
+  "outcomeMarginalExactness": true,
+  "monteCarlo": false,
+  "cohortAndWeightsUnchanged": true,
+  "inputHistorySha256": "c805a1e0c684113f291211bdf6f32d47667e111f37182c050ad499bc2fda668c",
+  "outputFile": "party-analysis.json",
+  "outputSha256": "430761491150b683276f20bfc22042580b2cb8e76a63a9e8036f49eec1888cde"
+}

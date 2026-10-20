@@ -1,0 +1,62 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "image": "current-model-snapshot.png",
+  "imageSha256": "60948556b970ea208ad5d288fd5eeb5299608180790999eb6c6eacd97654373d",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "visualInspectionCompleted": true,
+  "inspectionMethod": "Independent reviewer opened this exact PNG with view_image and read its actual pixels before recording these observations. No image or tweet changes were made.",
+  "visualObservations": [
+    "Painted Knesset scene with two ballot envelopes and simple red/blue comparison is legible without crowded charts.",
+    "Opposition53.4 at left and coalition51.3 at right are explicitly model mean mandates. Arab13.7 and Hendel-Zelekha1.7 are separately shown outside the two blocs.",
+    "Winter is red at right:29.9% chance to pass and1.2 mean mandates. Hendel-Zelekha is purple at left:39.0% chance and1.7 mean mandates.",
+    "Probabilities are explicitly model probabilities, not published vote shares. Mean mandates include failure outcomes; rounded means are labelled.",
+    "Winter is assigned to Netanyahu; Arab lists and Hendel-Zelekha remain outside both blocs. No confidence or significance claim is shown.",
+    "Historical accuracy plus similar-poll discount is ON, Channel14 excluded, latest observation per institute,2022 turnout baseline, update20.10.2026 and model-conditional interpretation are visible.",
+    "All seven selected publishers are correctly named:12,13,Kan11,i24,16,ZmanIsrael,Walla. Small credit to ויקטור רינה בן דוד is legible."
+  ],
+  "meanSeats": {
+    "a": 51.251,
+    "b": 53.3845,
+    "arab": 13.6514,
+    "other": 1.7131
+  },
+  "displayedMeanSeats": {
+    "a": "51.3",
+    "b": "53.4",
+    "arab": "13.7",
+    "other": "1.7"
+  },
+  "values": {
+    "winter": {
+      "passPct": 29.87,
+      "unconditionalMeanSeats": 1.2472,
+      "displayed": {
+        "pass": "29.9%",
+        "mean": "1.2"
+      }
+    },
+    "hendel": {
+      "passPct": 39.03,
+      "unconditionalMeanSeats": 1.7131,
+      "displayed": {
+        "pass": "39.0%",
+        "mean": "1.7"
+      }
+    }
+  },
+  "tweetSha256": "33b60f6cc2df6d2e36196754c3618c7a06a86cd169b4aff30926583d09dbad3e",
+  "tweetTwitterWeightedCharacters": 274,
+  "renderReceiptSha256": "4a253afc941ba4d6856fa4af099a82ac95e478d2588798e5b0cba3239a0f54bd",
+  "sourcePlanSha256": "00b71fb8d69999dbc75921a9d3ed1b6baa4f1c048d8e18316a3b902a7afc1912",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "0d996ee2a1507dc66e17e4792c7cdf184d8c1b8d35b75961e906637d1335eacc",
+  "modelDataSha256": "70bf6a3377b5d9a545cec3ea483fa0cb9e6518c2d1e4afb137cd23d243ac13b2",
+  "reviewScriptSha256": "102e312143d06c5c9e76cc97f85b00c5c3f1f51d119f59677af6fc74b515dd82",
+  "singleImageGenerationNoCleanup": true,
+  "automaticTweetPosted": false,
+  "modelUiSourceChanged": false
+}

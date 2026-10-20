@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "output": "current-model-snapshot.png",
+  "outputSha256": "60948556b970ea208ad5d288fd5eeb5299608180790999eb6c6eacd97654373d",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "prompt": "image-prompt.txt",
+  "promptSha256": "98659df0f9af604f593e4c0ea7c27d37c0e787dad1722814dec08a235ec4ed54",
+  "generator": "built-in image_gen",
+  "generationMode": "generate",
+  "generationCalls": 1,
+  "imageEditingPerformed": false,
+  "visualInspectionCompleted": true,
+  "inspectionMethod": "Root opened this exact original generated PNG using view_image, read all numbers, labels and footer, and verified them against the reviewed preferred replay. No automated OCR or pixel editing substituted for visual inspection.",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "0d996ee2a1507dc66e17e4792c7cdf184d8c1b8d35b75961e906637d1335eacc",
+  "sourcePlanSha256": "00b71fb8d69999dbc75921a9d3ed1b6baa4f1c048d8e18316a3b902a7afc1912",
+  "independentModelReviewSha256": "3fcfa9884eb9418bc8a6e8ef956300d763e32cad4ff732b19f7e2da6f460444e",
+  "browserLocalReportSha256": "261c614e361f57998713f8d79987337e1550271fcb877792008e9afc8d2a21a8",
+  "modelDataSha256": "70bf6a3377b5d9a545cec3ea483fa0cb9e6518c2d1e4afb137cd23d243ac13b2",
+  "tweetSha256": "33b60f6cc2df6d2e36196754c3618c7a06a86cd169b4aff30926583d09dbad3e",
+  "automaticTweetPosted": false,
+  "visualObservations": [
+    "Painted Knesset scene, ballot envelopes and spacious balanced headline cards are legible; no overlaps or clipped text.",
+    "Coral coalition51.3 and blue opposition53.4 correctly paired; neutral Arab13.7 and Hendel1.7 displayed separately.",
+    "Winter29.9% with mean1.2; Hendel-Zelekha39.0% with mean1.7; probabilities explicitly distinguished from published vote shares and averages include zero-seat failures.",
+    "Winter included with Netanyahu and Arab lists/Hendel-Zelekha outside both blocs explicitly stated.",
+    "Historical accuracy plus similarity discount, noChannel14,2022turnout baseline, latest-per-institute source list and20Oct data/update date all readable.",
+    "Credit ויקטור רינה בן דוד correctly visible; rounded means indicated; no significance or election certainty claim."
+  ]
+}

@@ -1,0 +1,16 @@
+Reviewed published observation lazar_2026-10-20; publication 2026-10-20; audit 2026-10-20.
+Original source: https://www.walla.co.il/news/politics/383958175.
+Published mandates: {"yashar": 23, "likud": 19, "beyachad": 14, "democrats": 9, "yisrael_beiteinu": 8, "shas": 8, "utj": 7, "otzma": 8, "rz_zehut": 6, "joint": 8, "raam": 6, "hendel": 4, "winter": 0}
+Exact published percentages: {"winter": 2.9}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 48, "opposition": 54, "arab_parties": 14, "hendel": 4}
+Sample size exact/exclusive lower bound: 601/None
+Verified fieldwork: True; 2026-10-19 to 2026-10-19
+Missing values are not zero and are never inherited.
+סקר וואלה/לזר פורסם20.10.2026 בשעה12:20 ונאסף19.10, לאחר פרישת גנץ לפי גוף המקור. אין לייחס לו בטעות תאריך פרסום19.10.
+כל12 הרשימות העוברות ו120 המנדטים אומתו בגוף המקור הראשוני; גושים48 קואליציה,54 אופוזיציה,14 ערביות ו4 הנדל–זליכה בנפרד.
+וינטר2.9% פורסם במפורש. אחוזי שאר הרשימות ומכנה האחוזים נשארים חסרים; היעדר נתון למפלגה אינו אפס תמיכה.
+בכתבה מפורשים שדה19.10,601 משיבים, פאנל אינטרנטי Panel4All ומדגם מייצג של האוכלוסייה הבוגרת בישראל. טעות דגימה מרבית4%; רמת הביטחון ושעות האיסוף אינן מפורסמות.
+מחליף בפעיל את לזר/מעריב16.10 בלבד; כל סקרי לזר/וואלה/מעריב הקודמים נשמרים. ההשוואה בכתבה החדשה היא לסקר וואלה שקדם לו ושמתואר כנערך12.10; אין לשנות רשומה ישנה על סמך ניסוח ההשוואה.
+שאלת מידת הביטחון בהצבעה אינה שיעור מתלבטים, ואין להמיר את תשובותיה לundecidedPct.
+קישורי שתי הגרפיקות נשמרו אך הורדתן לא הצליחה; נתוני הסקר כאן נסמכים על הטקסט המקורי שנקרא, ולא נטען שהגרפיקות אומתו חזותית.

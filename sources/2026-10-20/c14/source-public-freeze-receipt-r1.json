@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "checkedAtUtc": "2026-10-20T09:44:22.620990+00:00",
+  "literalFullAuthoredArticles": "excluded",
+  "fullArticleBodiesExcluded": true,
+  "scope": "Explicit allowlist of rewritten numerical facts, numerical graphics, reviewed candidates and proofs only. Browser screenshots and raw article bodies/HTML stay local.",
+  "files": [
+    {
+      "fileName": "n12-reviewed-facts.txt",
+      "sha256": "9c751d34681befea06529741f4c6d5d4d2df9f0aede1c0f5924bbe447770b241",
+      "bytes": 1205
+    },
+    {
+      "fileName": "n12-verification-summary.json",
+      "sha256": "55a2f0d7d64118dfe548bcd54fb6bdd8309b25735e00e20d4099588e7be93b17",
+      "bytes": 1685
+    },
+    {
+      "fileName": "reviewed-midgam-geva-poll.json",
+      "sha256": "82f8c61eda20fa28da3e5e47965289fe2a41f691c4a302e2bfc3afdfd8443424",
+      "bytes": 6455
+    },
+    {
+      "fileName": "c13-original-seat-graphic.webp",
+      "sha256": "ef9b577719f8852da394f345de34e1375d4bfa6d6e32db9455769558569c90cd",
+      "bytes": 200800
+    },
+    {
+      "fileName": "c14-reviewed-facts.txt",
+      "sha256": "1f1c7215899a97f13672bd0643112119a21dabf28c392ae5383d200f99bfcff4",
+      "bytes": 1338
+    },
+    {
+      "fileName": "c14-verification-summary.json",
+      "sha256": "a3c8f3c0f1a22427a06ce2ab45c8efae85ee691c422b1efab78e0fb070f78cea",
+      "bytes": 1878
+    },
+    {
+      "fileName": "reviewed-next-data-poll.json",
+      "sha256": "95347e71159dbcdc26675fd7fac9065682dbc0fc10da46fec880715a26391bf7",
+      "bytes": 6193
+    },
+    {
+      "fileName": "source-coverage-summary.json",
+      "sha256": "4dc4fe451b9ec9eff8827b309f491081681af3151f3e0d9558007735b6cf0583",
+      "bytes": 2438
+    },
+    {
+      "fileName": "reviewed-hamadad-consortium-poll-r1.json",
+      "sha256": "43321eb4375131091c84e83fcc46ca7ac906a7de2e3316caf47ec68c6b04ae01",
+      "bytes": 7338
+    },
+    {
+      "fileName": "c13-reviewed-facts-r1.txt",
+      "sha256": "12f669f6619cfd48e0f0454dcca4549caaf6e99a58c82f7fa3e546b96d4106b2",
+      "bytes": 2087
+    },
+    {
+      "fileName": "c13-verification-summary-r1.json",
+      "sha256": "cd4057ddb744890ea37917b34323ce6588e823e0dbc8d26149ec85b0f37eb86f",
+      "bytes": 3037
+    },
+    {
+      "fileName": "c13-secondary-percentage-facts.json",
+      "sha256": "2d03e24d26899fcfa87b96f2a532290f6197112580ee8df091ad780fb671165c",
+      "bytes": 3577
+    },
+    {
+      "fileName": "c13-secondary-percentage-revision-r1.json",
+      "sha256": "8dc1ce42e1c66339052f596540628d8aa704bdf009f82b8449c6306377d26d20",
+      "bytes": 944
+    }
+  ],
+  "revision": "r1",
+  "supersedesPublicSelectionOnly": {
+    "fileName": "source-public-freeze-receipt.json",
+    "sha256": "0f631b04511ebac64be495806691ad4a7813c86783f6c35e355a7b8af31b4244"
+  },
+  "originalUnrevisedC13FilesLocalOnly": [
+    "c13-reviewed-facts.txt",
+    "c13-verification-summary.json",
+    "reviewed-hamadad-consortium-poll.json"
+  ]
+}

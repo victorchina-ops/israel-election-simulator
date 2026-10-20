@@ -1,0 +1,72 @@
+{
+  "asOf": "2026-10-20",
+  "pollPublicationDateFromGraphicOrHistory": "2026-10-19",
+  "sourceTierForThisRetrieval": "secondary-aggregator",
+  "primaryPublisherVerification": "Delegated to root/other source agents; this extraction verifies IsraelPolls original numerical graphics and historical tables only.",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": null,
+  "samplingMethod": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "unknownMetadataNote": "Missing in the numerical graphic/table inspected here. Do not infer fieldwork or sample from publication/repost date or previous polls. Original-source metadata from a separate verified receipt can supplement this extraction.",
+  "publishedBounds": {},
+  "imageFilesArchivedByThisAgent": false,
+  "imageSha256": null,
+  "publicScope": "Concise facts, numerical extraction, URLs and access limitations. Full authored articles and reader bodies are excluded.",
+  "publisher": "N12 / Channel 12",
+  "pollsterId": "midgam_geva",
+  "pollster": "Midgam / Mano Geva",
+  "seats": {
+    "yashar": 24,
+    "likud": 21,
+    "beyachad": 14,
+    "joint": 9,
+    "democrats": 9,
+    "shas": 8,
+    "yisrael_beiteinu": 8,
+    "otzma": 8,
+    "rz_zehut": 7,
+    "utj": 7,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "winter": 2.8,
+    "hendel": 2.1
+  },
+  "missingExactPercentages": [
+    "gantz",
+    "haredi_public",
+    "noam",
+    "israel_first"
+  ],
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab_parties": 14
+  },
+  "pollPostUrl": "https://x.com/IsraelPolls/status/2112249221290307956",
+  "pollPostAtUtc": "2026-10-19T18:27:12Z",
+  "pollPostAtIsrael": "2026-10-19T21:27:12+03:00",
+  "graphicUrl": "https://pbs.twimg.com/media/HVA3eJRWIAAM1OW?format=jpg&name=large",
+  "graphicNaturalPixels": [
+    748,
+    1280
+  ],
+  "historyPostUrl": "https://x.com/IsraelPolls/status/2112444519215997151",
+  "historyPostAtUtc": "2026-10-20T07:23:15Z",
+  "historyPostAtIsrael": "2026-10-20T10:23:15+03:00",
+  "historyUrl": "https://pbs.twimg.com/media/HVDpF8bXYAAo3K4?format=png&name=medium",
+  "historyNaturalPixels": [
+    1015,
+    613
+  ],
+  "historyLatestColumn": "2026-10-19",
+  "historyValuesMatchGraphic": true,
+  "missingnessNote": "New 19 October cells for Haredi Public, Noam and Israel First are blank. Previous-column 0.6/0.2/0.0 are not the new poll. Gantz has no exact published percentage.",
+  "deduplication": "One new 19 October observation replaces Midgam 12 October current; the 20 October historical-table repost is the same observation, not another poll."
+}

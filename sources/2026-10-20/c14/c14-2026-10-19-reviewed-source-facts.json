@@ -1,0 +1,80 @@
+{
+  "asOf": "2026-10-20",
+  "pollPublicationDateFromGraphicOrHistory": "2026-10-19",
+  "sourceTierForThisRetrieval": "secondary-aggregator",
+  "primaryPublisherVerification": "Delegated to root/other source agents; this extraction verifies IsraelPolls original numerical graphics and historical tables only.",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": null,
+  "samplingMethod": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "unknownMetadataNote": "Missing in the numerical graphic/table inspected here. Do not infer fieldwork or sample from publication/repost date or previous polls. Original-source metadata from a separate verified receipt can supplement this extraction.",
+  "publishedBounds": {},
+  "imageFilesArchivedByThisAgent": false,
+  "imageSha256": null,
+  "publicScope": "Concise facts, numerical extraction, URLs and access limitations. Full authored articles and reader bodies are excluded.",
+  "publisher": "Channel 14",
+  "pollsterId": "next_data",
+  "pollster": "NEXT DATA / Shlomo Filber",
+  "seats": {
+    "likud": 30,
+    "yashar": 19,
+    "beyachad": 10,
+    "democrats": 10,
+    "shas": 10,
+    "utj": 8,
+    "joint": 8,
+    "rz_zehut": 7,
+    "otzma": 7,
+    "yisrael_beiteinu": 6,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "hendel": 2.6,
+    "winter": 2.2,
+    "noam": 1.5,
+    "haredi_public": 0.3
+  },
+  "unmodelledNamedParties": [
+    {
+      "sourceName": "אח״י — חוזרים לשורשים",
+      "reportedPct": 0.5
+    }
+  ],
+  "missingExactPercentages": [
+    "gantz"
+  ],
+  "sourceBlocSeats": {
+    "coalition": 62,
+    "opposition": 45,
+    "arab_parties": 13
+  },
+  "pollPostUrl": "https://x.com/IsraelPolls/status/2112248700227694711",
+  "pollPostAtUtc": "2026-10-19T18:25:08Z",
+  "pollPostAtIsrael": "2026-10-19T21:25:08+03:00",
+  "graphicUrl": "https://pbs.twimg.com/media/HVA2_pzWcAAY_gP?format=jpg&name=large",
+  "graphicNaturalPixels": [
+    1280,
+    720
+  ],
+  "historyPostUrl": "https://x.com/IsraelPolls/status/2112453826104213880",
+  "historyPostAtUtc": "2026-10-20T08:00:14Z",
+  "historyPostAtIsrael": "2026-10-20T11:00:14+03:00",
+  "historyUrl": "https://pbs.twimg.com/media/HVDxjn3XAAA1YbI?format=png&name=medium",
+  "historyNaturalPixels": [
+    1198,
+    578
+  ],
+  "historyLatestColumn": "2026-10-19",
+  "historyValuesMatchGraphic": true,
+  "historyCoverageGap": "The latest historical table jumps from 14 October to 19 October and omits the already-ingested original 18 October poll. Preserve that original canonical observation; do not use the table to delete it or relabel the comparison baseline.",
+  "missingnessNote": "Ahi 0.5 is a named source party, not a published aggregate Other vote share. Gantz exact percentage is absent, not zero.",
+  "deduplication": "One new 19 October observation replaces NEXT DATA 18 October current; the 20 October historical table is not another poll."
+}

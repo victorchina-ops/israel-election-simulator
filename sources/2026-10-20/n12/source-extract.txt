@@ -1,0 +1,14 @@
+Reviewed published observation midgam_geva_2026-10-19; publication 2026-10-19; audit 2026-10-20.
+Original source: https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm.
+Published mandates: {"yashar": 24, "likud": 21, "beyachad": 14, "democrats": 9, "yisrael_beiteinu": 8, "utj": 7, "joint": 9, "shas": 8, "otzma": 8, "rz_zehut": 7, "raam": 5, "winter": 0, "hendel": 0, "gantz": 0, "haredi_public": 0}
+Exact published percentages: {"winter": 2.8, "hendel": 2.1, "gantz": 1.4, "haredi_public": 0.2}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 51, "opposition": 55, "arab_parties": 14, "hendel": 0}
+Sample size exact/exclusive lower bound: 507/None
+Verified fieldwork: True; 2026-10-19 to 2026-10-19
+Missing values are not zero and are never inherited.
+סקר19.10,507 משיבים בפועל; יעד התחלתי500 ומוזמנים2502 הם שדות נפרדים.
+הפרסום19.10עודכן20.10; אין לספור את העדכון כסקר נוסף.
+האיסוף19.10 אומת במקור; אינטרנטי וטלפוני, דגימת שכבות ובתוכן אקראית.
+הסקר נאסף לפני פרישת גנץ;1.4% שלו נשמר כנתון היסטורי, לא מאופס בדיעבד.
+אחוזי כוונת הצבעה משלימים אינם שיעורי הצבעה בפועל ואינם משנים אוטומטית את תרחיש ההשתתפות.

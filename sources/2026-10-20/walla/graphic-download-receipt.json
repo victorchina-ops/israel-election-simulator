@@ -1,0 +1,18 @@
+{
+  "sourceArticle": "https://www.walla.co.il/news/politics/383958175",
+  "method": "Read-only download of the two public graphic URLs explicitly linked by the original article; web reader cache misses preserved separately. No auth or security bypass.",
+  "files": [
+    {
+      "file": "walla-original-seats.webp",
+      "sourceUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/3/images/1792483501729_walla-media-picture_1360x2308.webp?aspectRatio=9%3A16&crop_w=0.955733&crop_x=0.021963&crop_y=0&quality=75&width=1920",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "saved": false
+    },
+    {
+      "file": "walla-original-blocs.webp",
+      "sourceUrl": "https://image-resizer-walla.walla.cloud/image/2026/10/3/images/1792483503015_walla-media-picture_1200x958.webp?aspectRatio=4%3A3&quality=75&width=1920",
+      "error": "<urlopen error [Errno 11001] getaddrinfo failed>",
+      "saved": false
+    }
+  ]
+}

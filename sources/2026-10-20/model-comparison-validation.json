@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "activeSelectedInstitutes": 7,
+  "changedPollsters": [
+    "hamadad_consortium",
+    "lazar",
+    "midgam_geva",
+    "next_data"
+  ],
+  "newObservationIds": [
+    "midgam_geva_2026-10-19",
+    "hamadad_consortium_2026-10-19",
+    "next_data_2026-10-19",
+    "lazar_2026-10-20"
+  ],
+  "publicationDates": [
+    "2026-10-19",
+    "2026-10-19",
+    "2026-10-19",
+    "2026-10-20"
+  ],
+  "activePolls": 8,
+  "historyPolls": 132,
+  "allPreviousHistoricalObservationsPreserved": true,
+  "comparisonSha256": "07fddc4c13a5b2131d94faedd3e85b7c93417e363244bbbc6e4af6cb20b4ce62",
+  "snapshotSha256": "f7472c9ae3a18c57c82389befadea8903fb6a2a1acdc44431cc7ead949b96ff2",
+  "baselineSha256": "fb968a41ffaed730de8c3e6fb86f12e48c3502b6382faa5a025435b3ae145090",
+  "sourcePlanSha256": "00b71fb8d69999dbc75921a9d3ed1b6baa4f1c048d8e18316a3b902a7afc1912",
+  "validationScope": "Both endpoints use the identical unchanged model and explicit historical-accuracy default settings; differences are not a significance test."
+}

@@ -1,0 +1,22 @@
+{
+  "asOf": "2026-10-20",
+  "stage": "bloc",
+  "status": "PASS",
+  "frozenAnalyzer": "artifacts/analyze-strict-post-close-2026-09-28.py",
+  "frozenAnalyzerSha256": "fc5a4ce6c242192f71380c9ddfe96f3b7889308ded25a41abb1f43a61c5b25f2",
+  "transformedSourceSha256": "825012cd683808fae28ae1816a10dfe199fe0de864e46cb7567a227e1a5e957d",
+  "wrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "scalarBackendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "frozenCounterHashes": {
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "enumeration": "unique scalar assignments with exact repeated-label multiplicity",
+  "nullUnchanged": true,
+  "outcomeMarginalExactness": true,
+  "monteCarlo": false,
+  "cohortAndWeightsUnchanged": true,
+  "inputHistorySha256": "c805a1e0c684113f291211bdf6f32d47667e111f37182c050ad499bc2fda668c",
+  "outputFile": "analysis.json",
+  "outputSha256": "5c3c8ce3fd83f727269ceef7e028131749f66e891ca44070327905b1bf7d2831"
+}

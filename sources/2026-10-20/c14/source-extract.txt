@@ -1,0 +1,14 @@
+Reviewed published observation next_data_2026-10-19; publication 2026-10-19; audit 2026-10-20.
+Original source: https://www.c14.co.il/article/1745051.
+Published mandates: {"likud": 30, "yashar": 19, "beyachad": 10, "democrats": 10, "shas": 10, "utj": 8, "rz_zehut": 7, "otzma": 7, "yisrael_beiteinu": 6, "joint": 8, "raam": 5, "winter": 0, "hendel": 0, "noam": 0, "haredi_public": 0}
+Exact published percentages: {"hendel": 2.6, "winter": 2.2, "noam": 1.5, "haredi_public": 0.3}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 62, "opposition": 45, "arab_parties": 13}
+Sample size exact/exclusive lower bound: 454/None
+Verified fieldwork: True; 2026-10-19 to 2026-10-19
+Missing values are not zero and are never inherited.
+סקרNEXTDATA19.10,454בוגרים; איסוף19.10 אומת במפורש בדיסקליימר המקורי.
+כל המנדטים והאחוזים מתחת לחסימה אומתו במלל ובגרפיקת המקור; סה״כ120.
+גנץ אינו מופיע ברשימת המקור העדכנית.0.9%מסקר18.10 אינו משויך לסקר החדש; נתון חסר אינו אפס מדוד.
+אח״י0.5% נשמרת בשמה וממופה לאחרים למודל בלבד.
+שיטת האיסוף, מוזמנים, מתלבטים, טעות דגימה ורמת ביטחון נשארים חסרים. ערוץ14 מוחרג מברירת המחדל.

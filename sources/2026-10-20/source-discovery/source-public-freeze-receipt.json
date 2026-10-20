@@ -1,0 +1,64 @@
+{
+  "asOf": "2026-10-20",
+  "checkedAtUtc": "2026-10-20T09:43:31.077783+00:00",
+  "status": "PASS-SECONDARY-NUMERICAL-CROSSCHECK",
+  "profileUrl": "https://x.com/IsraelPolls?s=20",
+  "access": "Fresh own Chrome tab, readable profile and six rendered poll graphics/historical tables",
+  "newIndependentObservationsVerifiedHere": 3,
+  "newPublishers": [
+    "N12",
+    "Channel13",
+    "Channel14"
+  ],
+  "historyPostDatesAreNotPollPublicationDates": true,
+  "existingObservationBoundary": [
+    {
+      "url": "https://x.com/IsraelPolls/status/2111926229574017367",
+      "date": "2026-10-18",
+      "publisher": "i24NEWS",
+      "alreadyIngested": true,
+      "repostLocalDate": "2026-10-19"
+    },
+    {
+      "url": "https://x.com/IsraelPolls/status/2111888191405867224",
+      "date": "2026-10-18",
+      "publisher": "Kan11",
+      "alreadyIngested": true
+    }
+  ],
+  "additionalRootLead": {
+    "publisher": "Walla / Lazar",
+    "publicationDate": "2026-10-20",
+    "publicationTimeLocal": "12:20",
+    "fieldworkDateAsReportedByRoot": "2026-10-19",
+    "sampleSizeAsReportedByRoot": 601,
+    "independentlyVerifiedByThisAgent": false,
+    "verificationOwner": "root and other source agent",
+    "note": "Separate original publisher lead reported by root during this scan; not counted among the three X-verified candidates and not silently omitted from the overall update."
+  },
+  "safePublicFiles": [
+    {
+      "fileName": "n12-2026-10-19-reviewed-source-facts.json",
+      "sha256": "46b3a5a5fb49bb700491d28535143a57e8599760011369e58a73a727371da19f",
+      "bytes": 2749
+    },
+    {
+      "fileName": "c14-2026-10-19-reviewed-source-facts.json",
+      "sha256": "320f90512a48ccfff9938438fe67d43a255c73e299c90dbd97a764d147514e86",
+      "bytes": 3118
+    },
+    {
+      "fileName": "c13-2026-10-19-reviewed-source-facts.json",
+      "sha256": "2d03e24d26899fcfa87b96f2a532290f6197112580ee8df091ad780fb671165c",
+      "bytes": 3577
+    }
+  ],
+  "limitations": [
+    "This extraction is secondary retrieval of original numerical graphics and historical tables; primary publisher metadata is verified separately by root/source agents.",
+    "No new sample size or fieldwork interval is inferred from the graphics/table dates.",
+    "No original image file was downloaded in this scope; URLs and observed natural dimensions are preserved without claimed image hashes.",
+    "Maariv known site-safety restriction was respected; no bypass attempted."
+  ],
+  "canonicalMutation": false,
+  "publicScope": "Concise facts and provenance only. Full authored articles and reader bodies are excluded."
+}

@@ -1,0 +1,18 @@
+Use case: infographic-diagram, editorial illustrated social graphic. Generate one original, elegant Hebrew shareable poster, portrait 4:5, high resolution 1536x1920 or equivalent. Make it feel like a beautiful contemporary newspaper cover illustration rather than a dry scientific infographic: richly painted paper texture, warm ivory, a subtle painted Knesset facade at the lower edge, two recognizable ballot envelopes as artistic objects. No politician faces or invented logos. Navy ink and restrained coral-red and blue. Clear spacious hierarchy, generous margins, precise natural Hebrew RTL typesetting, big easy-to-read numbers. Data is the subject; illustration never obscures labels. No decorative chart axes, no gauge bars implying a poll vote percentage. No commentary, prediction slogan or claim of statistical significance.
+
+Top headline verbatim: "תמונת מצב | 20.10.2026"
+Subheading: "ממוצע מנדטים במודל"
+Two large balanced headline cards: coral red "קואליציה" with "51.3"; blue "אופוזיציה" with "53.4".
+Directly under them, two smaller neutral lines: "מפלגות ערביות: 13.7" and "הנדל–זליכה: 1.7 | מחוץ לגושים".
+Then a clear section heading: "סיכוי לעבור את אחוז החסימה"
+Two beautiful painted ballot envelopes, labels very legible: red accent "וינטר" with large "29.9%" and smaller "1.2 מנדטים בממוצע"; violet accent "הנדל–זליכה" with large "39.0%" and smaller "1.7 מנדטים בממוצע".
+Small explanatory line under these: "הסתברויות מודל, לא אחוזי תמיכה בסקר. הממוצעים כוללים גם אי־מעבר."
+
+A clean compact footer in readable Hebrew, not microscopic text, with these exact lines:
+"וינטר עם נתניהו; הערביות והנדל–זליכה מחוץ לשני הגושים."
+"דיוק היסטורי + צמצום משקל לסקרים דומים | ללא ערוץ 14"
+"הסקר האחרון מכל מכון: 12, 13, כאן 11, i24, 16, זמן ישראל, וואלה"
+"השתתפות בסיס 2022 | נתונים ועדכון: 20.10.2026 | ממוצעים מעוגלים"
+"תוצאות לפי הנחות המודל, לא ודאות לגבי הבחירות."
+Small author credit: "ויקטור רינה בן דוד"
+Keep all text exact and fully inside the poster. Associate every number with the correct label. Factual, calm, nonpartisan presentation; illustration is editorial atmosphere only. No extra prose, watermarks or unrequested claims.

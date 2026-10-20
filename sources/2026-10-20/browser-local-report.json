@@ -1,0 +1,233 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "asOf": "2026-10-20",
+  "checkedAtUtc": "2026-10-20T10:16:31.013909+00:00",
+  "url": "http://127.0.0.1:8793/?view=1&tab=dashboard",
+  "browserAutomation": "cua",
+  "browser": "Chrome",
+  "tabId": "1913180539",
+  "sourcePlanSha256": "00b71fb8d69999dbc75921a9d3ed1b6baa4f1c048d8e18316a3b902a7afc1912",
+  "officialSourceSnapshotSha256": "f7472c9ae3a18c57c82389befadea8903fb6a2a1acdc44431cc7ead949b96ff2",
+  "servedHTMLSha256": "1a508a952c50b9981418213c545a7298ae628c143a77b0aee3eeeff20e3c454a",
+  "servedHTMLExactByteMatch": true,
+  "checks": [
+    {
+      "id": "fresh-isolated-render",
+      "status": "passed",
+      "observed": "Fresh CUA Chrome tab 1913180539 on isolated port8793 honors dashboard deep link; audit20Oct and snapshot meta f7472c9a match approved official build. Exact servedHTML HTTP200/8145357bytes verified separately."
+    },
+    {
+      "id": "default-controls",
+      "status": "passed",
+      "observed": "Historical accuracy selected; Channel14 OFF; similarity OFF; turnout2022 and motivations100%; 7of8 sources selected; quick participation reset visible."
+    },
+    {
+      "id": "new-poll-metadata",
+      "status": "passed",
+      "observed": "Current source table shows N12 19Oct/n507/field19; C13 19Oct/n1016/fieldunverified; Walla20Oct/n601/field19; C14 19Oct/n454/field19. Kan18Oct/n547/fieldunverified retained;8sources."
+    },
+    {
+      "id": "raw-missingness-and-conflict",
+      "status": "passed",
+      "observed": "C13 Likud18 in raw table matches reviewed graphic; HarediPublic1.00% displayed. C14 Gantz missing emdash rather than stale percentage; i24 named below1% shown as bound. Walla missing Gantz stays missing."
+    },
+    {
+      "id": "strict-default-cohort",
+      "status": "passed",
+      "observed": "Without14 independently computed strict cohort41polls/7series/34deltas,9Sep–19Oct,audit20. Main BH JointList/Winter/RZ–Zehut; whole-series sensitivity none. Similarity caveat says it does not correct confirmed p/q."
+    },
+    {
+      "id": "channel14-toggle",
+      "status": "passed",
+      "observed": "ON switch selects separately computed52polls/8series/44deltas and all8sources; OFF restored41/7/34, selected7of8. Raw C14 stays visible regardless."
+    },
+    {
+      "id": "similarity-toggle-replay",
+      "status": "passed",
+      "observed": "Enabled similarity in isolated tab while14OFF and historical accuracy retained. Threshold W29.87%,H39.03%; displayed bloc means51.25/53.38/13.65/1.71 exactly agree with replay rounding; persists during tab navigation."
+    },
+    {
+      "id": "default-replay",
+      "status": "passed",
+      "observed": "After reload default switchesOFF: W25.60%,H40.11%; default bloc means50.90/53.62/13.76/1.72 agree with current independent replay at displayed precision."
+    },
+    {
+      "id": "exclusive-party-partition",
+      "status": "passed",
+      "observed": "17 distinct assignment selects observed;7coalition/4opposition/6unassigned. Winter=a,Hendel=other. UI explains120-seat partition per simulation and rounded means."
+    },
+    {
+      "id": "threshold-first-and-joint",
+      "status": "passed",
+      "observed": "Party probability chart leads threshold tab. Joint event says every selected party fails in same simulation, without independence assumption; unsupported lists remain unestimated."
+    },
+    {
+      "id": "appearance-persists",
+      "status": "passed",
+      "observed": "Visible immediate dark/light button. Changed dark tolight; reloaded and verified button now offersdark; original portrait renders in persisted light theme. Change limited to isolated8793 origin."
+    },
+    {
+      "id": "about-author",
+      "status": "passed",
+      "observed": "About retains loaded320px original portrait, author/contact, original simulation explanation and credits. Fresh screenshot06 visually confirms actual About content."
+    },
+    {
+      "id": "no-ask-and-layout",
+      "status": "passed",
+      "observed": "Observed buttonlabels contain no AskChatGPT control. Desktop2033px viewport equals page width, no page-level overflow. Clear source/threshold/trend controls and labels visually inspected."
+    },
+    {
+      "id": "scenario-restored",
+      "status": "passed",
+      "observed": "Reload restored historicalaccuracy/no14/similarityOFF; final default controls verified. No user8790 or public scenario touched; light theme remains on isolatedtest origin only."
+    }
+  ],
+  "defaultObserved": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": false,
+    "winterPassPct": 25.6,
+    "hendelPassPct": 40.11,
+    "blocMeanDisplayed": [
+      50.9,
+      53.62,
+      13.76,
+      1.72
+    ]
+  },
+  "similarityObserved": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": true,
+    "winterPassPct": 29.87,
+    "hendelPassPct": 39.03,
+    "winterMeanDisplayed": 1.2,
+    "hendelMeanDisplayed": 1.7,
+    "blocMeanDisplayed": [
+      51.25,
+      53.38,
+      13.65,
+      1.71
+    ]
+  },
+  "independentReplayExpected": {
+    "coalition": 51.251,
+    "opposition": 53.3845,
+    "arab": 13.6514,
+    "other": 1.7131,
+    "winterMean": 1.2472,
+    "winterPassPct": 29.87,
+    "hendelPassPct": 39.03
+  },
+  "observedAssignments": [
+    {
+      "label": "שיוך הליכוד לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך יהדות התורה לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך ש״ס לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך עוצמה יהודית לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך הציונות הדתית–זהות לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך עמך ישראל לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך נעם לישראל לגוש",
+      "selected": "קואליציה",
+      "value": "a"
+    },
+    {
+      "label": "שיוך הרשימה המשותפת לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך רע״ם לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך המילואימניקים והכלכלית לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך כחול לבן לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך הציבור החרדי לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך ישראל תחילה לגוש",
+      "selected": "ללא שיוך",
+      "value": "other"
+    },
+    {
+      "label": "שיוך ישר! לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    },
+    {
+      "label": "שיוך ביחד לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    },
+    {
+      "label": "שיוך הדמוקרטים לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    },
+    {
+      "label": "שיוך ישראל ביתנו לגוש",
+      "selected": "אופוזיציה",
+      "value": "b"
+    }
+  ],
+  "evidenceTextFiles": {
+    "dashboard-default.txt": "08987b237049f9b43a633eb3b5cc7dfaafc691bc84ad2a563b411a1ddc9664ed",
+    "dashboard-similarity-on.txt": "e770508c82fa4166ccc2b34fce25467ba307de6d91b6d98060321908c32fb313",
+    "final-default-dashboard.txt": "08987b237049f9b43a633eb3b5cc7dfaafc691bc84ad2a563b411a1ddc9664ed",
+    "poll-data.txt": "776afc24fa290ab4b28408381bf0e0fc931cde61f393d1cdc64e7adc9ccb61e5",
+    "threshold-default.txt": "b090c86acbc9dd6667967b64ecf12e7ed752e5eaa1f80e4e07eefc87572bfd19",
+    "threshold-similarity-on.txt": "3633975334413f82c27db29dcd647e40e10d29b27b67b400dfd62fa821200a60",
+    "trends-with14.txt": "bbe3b91432d4af80cb34934db43ac0607c8fa9078f4665446319ef87201fea31",
+    "trends-without14.txt": "aa4d12359a1981125b97fb22a5e402823a801d8b2b5a69e26c0f7f98b6bf7358"
+  },
+  "screenshotsCaptureFormat": "JPEG (documented actual CUA getScreenshot format)",
+  "userScenarioTouched": false,
+  "productionScenarioTouched": false,
+  "finalIsolatedScenario": {
+    "includeChannel14": false,
+    "pollCorrelationEnabled": false,
+    "weightMode": "quality",
+    "appearance": "light"
+  },
+  "limitations": [
+    "Initial restricted HTTP socket attempt WinError10013; approved readonly retry succeeded. CUA rendered successfully.",
+    "Screenshot05 is retained as an intermediate earlier trend render despite its filename; excluded from visual acceptance evidence."
+  ]
+}

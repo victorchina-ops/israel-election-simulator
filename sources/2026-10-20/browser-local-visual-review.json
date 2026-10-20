@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "asOf": "2026-10-20",
+  "browserReportSha256": "261c614e361f57998713f8d79987337e1550271fcb877792008e9afc8d2a21a8",
+  "visualInspectionCompleted": true,
+  "reviewedScreenshots": {
+    "01-dashboard-default.jpg": "bc0aafb0f2e5f2bd69b4b14a9a82a2b2faffa307a012bca1105be0bedc163ecf",
+    "02-threshold-similarity-on.jpg": "8b3cf3a94f528f92548850808fccadd9b6ca72c8e51ce13b28f77915412c7de6",
+    "03-source-metadata.jpg": "40f884302852aa905989247d3d5f4391cb551f8a5b18caf7412ca6bf4458a36c",
+    "04-strict-trends-without14.jpg": "f4ab0ce19add293f816f562478f531723dc39e5396dfe45720e174c90781d4e2",
+    "06-about-light-persisted.jpg": "c7070f12e18727d725fb29a021f10aaeb5d23b4457a5c1ac1d3430fa8556f05d",
+    "07-dashboard-light-default-restored.jpg": "036dec6a14a1153c140b58c1bff5578a9ad7b2c3308d920450e6e1f693d35e33"
+  },
+  "observations": [
+    "Dark dashboard displays quick independent switches and currentdate20Oct.",
+    "Threshold party bars show39.03%Hendel/29.87%Winter with model/threshold distinction.",
+    "Source metadata screenshot shows latest entries, samples and unverifiedfieldwork labels.",
+    "Strict summary screenshot shows41/7/34,window9Sep–19Oct and similarity significance caveat.",
+    "About light screenshot shows author portrait/contact and explanation; theme is clearly light afterreload.",
+    "Final light dashboard shows default bloc means and majority probabilities; all labels readable."
+  ]
+}

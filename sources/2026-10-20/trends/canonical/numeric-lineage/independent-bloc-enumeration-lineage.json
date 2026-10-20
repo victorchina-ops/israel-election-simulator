@@ -1,0 +1,22 @@
+{
+  "asOf": "2026-10-20",
+  "stage": "independent-bloc",
+  "status": "PASS",
+  "frozenAnalyzer": "artifacts/audit-strict-full-series-2026-09-28.py",
+  "frozenAnalyzerSha256": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+  "transformedSourceSha256": "2e7aeae824b1fd37731c9e63a66084b2f7727fc96fd02fbd61f285d13f0b70eb",
+  "wrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "scalarBackendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "frozenCounterHashes": {
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "enumeration": "independent labeled-choice count/score DP",
+  "nullUnchanged": true,
+  "outcomeMarginalExactness": true,
+  "monteCarlo": false,
+  "cohortAndWeightsUnchanged": true,
+  "inputHistorySha256": "c805a1e0c684113f291211bdf6f32d47667e111f37182c050ad499bc2fda668c",
+  "outputFile": "independent-strict-numeric-audit.json",
+  "outputSha256": "dcd48c0d740a837ca55c96785042b58116beb728199db82eb67027953ccad399"
+}

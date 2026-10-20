@@ -1,0 +1,9 @@
+Verified primary-source numerical facts, paraphrased; Walla originalarticle383958175 read20October2026.
+InstituteLazarResearch/DrMenachemLazar; publisherWalla. Published20October2026 at12:20 (Israel local page time, minute precision); fieldwork19October2026 explicitly reported separately, not copied from publication.
+Sample601 adults representing the adult population inIsrael; onlinePanel4All panel; maximum sampling error4%. Confidencelevel, invited/initialsample, fieldworktimes and full national voteshare percentages are not reported.
+Seats: Yashar23,Likud19,Beyachad14,Democrats9,YisraelBeiteinu8,Shas8,UTJ7,Otzma8,RZ-Zehut6,Joint8,Raam6,Hendel-Zelekha4; total120. Winter does not pass, with2.9%. Other belowthreshold percentages are missing; Gantz is discussed as having withdrawn, not reported as a new measured0% result.
+Published blocs: Netanyahu48,opposition54,Arabparties14,Hendel-Zelekha4 separately.
+The article compares with its previous poll described as conducted12October: coalition49,opposition54,Arabparties13,Hendel4. This comparison is distinct from the currentlyactiveLazarpoll publishedbyMaariv16October; do not retroactively modify the old poll's recorded date or fieldwork.
+The separate question about certainty ofvote is not an undecidedshare and is not imported as such.
+All seat values, exactWinterpercentage and collection metadata were verified in the original article body. Two numerical imageURLs were found in the original article but archival attempts failed(webreader cachemiss; normal downloader DNSfailure). No claim that their rendered numerical contents were independently read.
+Primary source: https://www.walla.co.il/news/politics/383958175

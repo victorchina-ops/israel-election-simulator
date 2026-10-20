@@ -1,0 +1,163 @@
+{
+  "id": "lazar_2026-10-20",
+  "pollsterId": "lazar",
+  "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+  "publisher": "וואלה",
+  "date": "2026-10-20",
+  "checkedAt": "2026-10-20",
+  "reviewedAtUtc": "2026-10-20T09:41:33.846019+00:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationTime": "12:20",
+  "publicationTimePrecision": "minute",
+  "publishedAt": "2026-10-20T12:20:00+03:00",
+  "updatedAt": null,
+  "dateKind": "הפרסום המקורי20.10.2026 בשעה12:20; עבודת השדה19.10 מפורשת בנפרד בגוף המקור.",
+  "fieldworkStart": "2026-10-19",
+  "fieldworkEnd": "2026-10-19",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "fieldworkSourceUrl": "https://www.walla.co.il/news/politics/383958175",
+  "sampleSize": 601,
+  "sampleSizeSourceUrl": "https://www.walla.co.il/news/politics/383958175",
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "samplingMethod": "פאנל משיבים אינטרנטי Panel4All",
+  "population": "מדגם המייצג את האוכלוסייה הבוגרת בישראל",
+  "panelProvider": "Panel4All",
+  "percentageDenominator": null,
+  "reportedMarginOfErrorPct": 4.0,
+  "reportedMarginOfErrorConfidencePct": null,
+  "reportedMarginOfErrorSourceUrl": "https://www.walla.co.il/news/politics/383958175",
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "statusLabel": "סקר חדש — המנדטים, אחוז וינטר ומועד האיסוף אומתו בגוף המקור",
+  "seats": {
+    "yashar": 23,
+    "likud": 19,
+    "beyachad": 14,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "shas": 8,
+    "utj": 7,
+    "otzma": 8,
+    "rz_zehut": 6,
+    "joint": 8,
+    "raam": 6,
+    "hendel": 4,
+    "winter": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 2.9
+  },
+  "reportedPercentages": {
+    "winter": 2.9
+  },
+  "knownPercentageSum": 2.9,
+  "originalCoveragePct": 2.9,
+  "modelOnlyPercentageIds": [],
+  "unmodelledNamedParties": [],
+  "sourceUrl": "https://www.walla.co.il/news/politics/383958175",
+  "secondarySourceUrls": [
+    "https://www.walla.co.il/",
+    "https://www.walla.co.il/news/politics",
+    "https://elections.walla.co.il/"
+  ],
+  "replacesPollId": "lazar_2026-10-16",
+  "sourceBlocSeats": {
+    "coalition": 48,
+    "opposition": 54,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "הליכוד, ש״ס, יהדות התורה, עוצמה יהודית והציונות הדתית–זהות; וינטר אינו עובר בסקר זה",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו, ללא ערביות והנדל–זליכה",
+    "arab_parties": "הרשימה המשותפת ורע״ם",
+    "hendel": "המילואימניקים והכלכלית — הנדל–זליכה, בנפרד"
+  },
+  "publishedPreviousPublisher": "וואלה",
+  "publishedComparisonReferenceDate": "2026-10-12",
+  "publishedComparisonReferenceDateKind": "מועד עריכת הסקר הקודם כפי שמתואר בכתבה החדשה; אינו מועד הפרסום של הרשומה הפעילה המוחלפת",
+  "publishedPreviousBlocSeats": {
+    "coalition": 49,
+    "opposition": 54,
+    "arab_parties": 13,
+    "hendel": 4
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.walla.co.il/news/politics/383958175"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "hendel",
+    "gantz",
+    "haredi_public",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "haredi_public",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "notes": [
+    "סקר וואלה/לזר פורסם20.10.2026 בשעה12:20 ונאסף19.10, לאחר פרישת גנץ לפי גוף המקור. אין לייחס לו בטעות תאריך פרסום19.10.",
+    "כל12 הרשימות העוברות ו120 המנדטים אומתו בגוף המקור הראשוני; גושים48 קואליציה,54 אופוזיציה,14 ערביות ו4 הנדל–זליכה בנפרד.",
+    "וינטר2.9% פורסם במפורש. אחוזי שאר הרשימות ומכנה האחוזים נשארים חסרים; היעדר נתון למפלגה אינו אפס תמיכה.",
+    "בכתבה מפורשים שדה19.10,601 משיבים, פאנל אינטרנטי Panel4All ומדגם מייצג של האוכלוסייה הבוגרת בישראל. טעות דגימה מרבית4%; רמת הביטחון ושעות האיסוף אינן מפורסמות.",
+    "מחליף בפעיל את לזר/מעריב16.10 בלבד; כל סקרי לזר/וואלה/מעריב הקודמים נשמרים. ההשוואה בכתבה החדשה היא לסקר וואלה שקדם לו ושמתואר כנערך12.10; אין לשנות רשומה ישנה על סמך ניסוח ההשוואה.",
+    "שאלת מידת הביטחון בהצבעה אינה שיעור מתלבטים, ואין להמיר את תשובותיה לundecidedPct.",
+    "קישורי שתי הגרפיקות נשמרו אך הורדתן לא הצליחה; נתוני הסקר כאן נסמכים על הטקסט המקורי שנקרא, ולא נטען שהגרפיקות אומתו חזותית."
+  ],
+  "sourceDocument": {
+    "fileName": "walla-reviewed-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "48ba0c3cfa5ac0a485a7c44955f723b123d8438cf358817fd5e1a152a412f527",
+    "extractFileName": "walla-reviewed-facts.txt",
+    "extractSha256": "48ba0c3cfa5ac0a485a7c44955f723b123d8438cf358817fd5e1a152a412f527",
+    "reviewedAt": "2026-10-20",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.walla.co.il/news/politics/383958175",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": false,
+    "originalGraphicUrls": [
+      "https://image-resizer-walla.walla.cloud/image/2026/10/3/images/1792483501729_walla-media-picture_1360x2308.webp?aspectRatio=9%3A16&crop_w=0.955733&crop_x=0.021963&crop_y=0&quality=75&width=1920",
+      "https://image-resizer-walla.walla.cloud/image/2026/10/3/images/1792483503015_walla-media-picture_1200x958.webp?aspectRatio=4%3A3&quality=75&width=1920"
+    ],
+    "originalGraphicArchiveStatus": "not-archived-cache-miss-and-dns-failure",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "reportedMarginOfErrorConfidencePct",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "initialSampleSize",
+      "invitedSampleSize",
+      "undecidedPct",
+      "percentageDenominator",
+      "full-passing-party-percentages",
+      "originalGraphicArchive"
+    ],
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 0,
+    "fullArticlePublishedInNewRelease": false
+  }
+}

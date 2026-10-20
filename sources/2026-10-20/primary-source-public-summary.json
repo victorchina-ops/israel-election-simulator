@@ -1,0 +1,149 @@
+{
+  "asOf": "2026-10-20",
+  "status": "reviewed",
+  "scope": "Bounded factual source verification for three19October observations and one20October observation; audit date is not publication date. No exhaustive nationwide absence claim.",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "compiledTo120DatasetExcluded": true,
+  "newObservationIds": [
+    "midgam_geva_2026-10-19",
+    "hamadad_consortium_2026-10-19",
+    "next_data_2026-10-19",
+    "lazar_2026-10-20"
+  ],
+  "observationPublicationDates": [
+    "2026-10-19",
+    "2026-10-20"
+  ],
+  "sources": [
+    {
+      "publisher": "חדשות 12 / מדגם — מנו גבע",
+      "urls": [
+        "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm"
+      ],
+      "status": "Original publisher numerical body read; bounded source review and independent numerical cross-check retained.",
+      "publicationDate": "2026-10-19",
+      "publicationTime": "21:00",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "sampleSize": 507,
+      "strictEligible": true,
+      "limitations": [
+        "Data collected before the Gantz withdrawal announcement; original Gantz1.4% retained without redistribution. Supplementary intention-to-vote answers do not automatically change model turnout defaults. Original numerical graphic not separately archived or visually verified."
+      ],
+      "proof": {
+        "path": "n12/n12-verification-summary.json",
+        "sha256": "55a2f0d7d64118dfe548bcd54fb6bdd8309b25735e00e20d4099588e7be93b17"
+      }
+    },
+    {
+      "publisher": "חדשות 13 / המדד — שמואל רוזנר, נח סלפקוב והקונסורציום",
+      "urls": [
+        "https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/"
+      ],
+      "status": "Original publisher numerical body read; bounded source review and independent numerical cross-check retained.",
+      "publicationDate": "2026-10-19",
+      "publicationTime": "20:25",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 1016,
+      "strictEligible": false,
+      "limitations": [
+        "Original graphic Likud18 accepted; article prose17 conflicts. Graphic total120 and coalition50 agree. Exact Haredi Public1.0% is separately attributed to the reviewed IsraelPolls historical table; all other exact shares remain missing. Fieldwork remains unknown; no date imputation and no strict trend inclusion."
+      ],
+      "proof": {
+        "path": "c13/c13-verification-summary-r1.json",
+        "sha256": "cd4057ddb744890ea37917b34323ce6588e823e0dbc8d26149ec85b0f37eb86f"
+      }
+    },
+    {
+      "publisher": "חדשות 14 / NEXT DATA — שלמה פילבר",
+      "urls": [
+        "https://www.c14.co.il/article/1745051"
+      ],
+      "status": "Original publisher numerical body read; bounded source review and independent numerical cross-check retained.",
+      "publicationDate": "2026-10-19",
+      "publicationTime": "20:28:21",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "sampleSize": 454,
+      "strictEligible": true,
+      "limitations": [
+        "Gantz absent from the original report; no old percentage inherited or measured zero invented. Named Ahi0.5% retained and mapped to model other only; raw other remains missing. Collection method and sampling error/confidence remain missing. Original graphic read live but raw download403; no archived image bytes claimed. Channel14 remains excluded by default."
+      ],
+      "proof": {
+        "path": "c14/c14-verification-summary.json",
+        "sha256": "a3c8f3c0f1a22427a06ce2ab45c8efae85ee691c422b1efab78e0fb070f78cea"
+      }
+    },
+    {
+      "publisher": "וואלה / לזר מחקרים — ד״ר מנחם לזר",
+      "urls": [
+        "https://www.walla.co.il/news/politics/383958175"
+      ],
+      "status": "Original publisher numerical body read; bounded source review and independent numerical cross-check retained.",
+      "publicationDate": "2026-10-20",
+      "publicationTime": "12:20",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "sampleSize": 601,
+      "strictEligible": true,
+      "limitations": [
+        "Two original graphic links retained but download/cache failures prevent an image archive or visual-verification claim; full vector verified in original article text. Prior Walla comparison is a poll described as fielded12October, not the active Maariv16October record being replaced. Confidence level and other exact percentages remain missing."
+      ],
+      "proof": {
+        "path": "walla/lazar-verification-summary.json",
+        "sha256": "e1e84b33d2f2f86664bc51e2d8bd223d4736fd9904af9d4aba7ca9e991e5d73c"
+      }
+    },
+    {
+      "publisher": "IsraelPolls",
+      "urls": [
+        "https://x.com/IsraelPolls?s=20"
+      ],
+      "status": "Fresh profile, three numerical graphics and historical tables read; primary publication metadata independently reviewed. C13 HarediPublic1.0% comes from the dated historical table, explicitly secondary.",
+      "receipt": {
+        "file": "artifacts/poll-checks/2026-10-20/source-israelpolls/scan-receipt.json",
+        "sha256": "324acaa4ae06f56a31b1c3d7c52220d7d7851754d061e659e46c5b620d03f756"
+      }
+    },
+    {
+      "publisher": "Kan11 and i24NEWS",
+      "status": "Fresh original home and politics/poll indexes read. Latest inspected entries remain Kan1110393 and i2481805, both18October observations already retained; no additional complete vector verified in this bounded scope.",
+      "coverageReceipt": {
+        "file": "artifacts/poll-checks/2026-10-20/source-kan-i24-print/scan-receipt.json",
+        "sha256": "b2b8ffd6727b275f06d8a1325dc5eaa411d50dc2cb21fa6d72ce6744bc90a9c6"
+      }
+    },
+    {
+      "publisher": "Channel16, IsraelHayom, ZmanIsrael",
+      "status": "Fresh direct primary home and politics/election/poll-index checks recorded in root coverage. No additional complete vector verified in inspected links. Channel16 player unavailable and archive/home date conflict retained; reader copies sometimes lag live pages.",
+      "coverageReceipt": {
+        "file": "artifacts/poll-checks/2026-10-20/source-root-coverage.json",
+        "sha256": "0730d864f9a110ecbbf0d002ec68642719a7cdad81c9058a193790e8ba00c21c"
+      }
+    },
+    {
+      "publisher": "Maariv",
+      "status": "Existing browser safety restriction respected; reader errors retained. No successful current original check or absence claim, and no bypass. New Walla/Lazar observation is a distinct accessible original publication."
+    }
+  ],
+  "deduplication": [
+    "Kan18October publication with19October page update remains one observation.",
+    "i24late X repost remains18October publication, not a new19October sample.",
+    "Walla383957955 republishes Kan18October; Walla383958175 is a separately fielded Lazar poll published20October.",
+    "Historical table replies, weekly summaries, Gantz-withdrawal scenario calculations and attitude questions are not independent new poll observations."
+  ],
+  "accessLimitations": [
+    "Maariv original source safety restriction and reader errors respected.",
+    "Channel16 player unavailable; neither full broadcast review nor nationwide absence established.",
+    "Walla original graphic download/cache failures retained; article-text verification is separate.",
+    "C14 graphic read live but not locally archived; no image hash claimed.",
+    "Some reader index copies lag live primary homepages."
+  ],
+  "gantzWithdrawalHandling": "Retain measured pre-withdrawal N12/C13 source data and all missing values; do not redistribute support without a published observation or explicit scenario.",
+  "missingValuesAreNotZero": true,
+  "compiledForecastsIngested": false,
+  "supplementarySourceDiscovery": {
+    "To120": "Not used as an independent poll or percentage source in this update."
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "status": "VERIFIED_NEW_PRIMARY_PUBLISHER_OBSERVATION",
+  "candidateFile": "reviewed-lazar-poll.json",
+  "candidateSha256": "f5203cbf7443eebbfa42526fb43ec75cfe8ff69ddb31f6624444ee864b6c6bfc",
+  "primarySourceUrl": "https://www.walla.co.il/news/politics/383958175",
+  "sourceTier": "original-publisher",
+  "primaryPublisherBodyRead": true,
+  "discoveredDirectlyFromCurrentPoliticsIndex": true,
+  "publicationDate": "2026-10-20",
+  "publicationTime": "12:20",
+  "fieldworkStart": "2026-10-19",
+  "fieldworkEnd": "2026-10-19",
+  "fieldworkVerified": true,
+  "sampleSize": 601,
+  "samplingMethod": "Online Panel4All panel",
+  "marginOfErrorPct": 4,
+  "confidencePct": null,
+  "seatSum": 120,
+  "publishedBlocSeatSum": 120,
+  "exactPercentages": {
+    "winter": 2.9
+  },
+  "sampleMetadataCopiedFromOldPoll": false,
+  "missingValuesFilledWithZero": false,
+  "safePublicFiles": [
+    "walla-reviewed-facts.txt",
+    "reviewed-lazar-poll.json",
+    "lazar-verification-summary.json",
+    "graphic-download-receipt.json"
+  ],
+  "localOnlyFiles": [
+    "reader-receipts-local-only.json"
+  ],
+  "canonicalMutation": false,
+  "websiteMutation": false,
+  "limitations": [
+    "The original numerical article body was readable; linked numerical graphics could not be archived and are not claimed visually verified.",
+    "Prior browser safety block for Maariv was not bypassed; this is a distinct accessible original Walla publication, not a method of opening the blocked Maariv material."
+  ]
+}

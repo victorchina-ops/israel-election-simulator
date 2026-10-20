@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "scope": "Independent review of final r2 generic derivation against its actual frozen pre20 source, not the earlier proposal diff.",
+  "beforeSha256": "3767d61f3341a4ccbe41775ae2b76422c7b8911ce8ee239f7569f0b994a2a05d",
+  "afterSha256": "552278e86c4c0070383cce0091b1bc75e73a75dc42f37e7c00348989d4e46847",
+  "changeReviewR2Sha256": "5634a1f19b3762c2f2826a4090a48415a6671076ff72e85c10a43f9e046a9161",
+  "finalDiffSha256": "7f4f08ab88bfac22e2b9ebe650c47455c974d9f91df4a721639234423fcc2d9c",
+  "unchangedAstFunctions": [
+    "read",
+    "sha",
+    "write",
+    "fail",
+    "is_channel14",
+    "publish",
+    "bh",
+    "timing"
+  ],
+  "sourceCohortAndPublisherSelectionAndHistoricalWeightsExactlyUnchanged": true,
+  "olsGlsAndIndependentLstsqLinesUnchanged": true,
+  "bhAndWholeInstituteSignFlipsUnchanged": true,
+  "permutationNullAndInclusiveTailToleranceUnchanged": true,
+  "signed64RefusalReplacedWithHashBoundVerifiedCapabilityAndRuntimeIntegerMassChecks": true,
+  "independentRemainingChoiceDpRetainedForValidation": true,
+  "frozenOriginalAnalyzersCountersAndOct9DerivationPreserved": true,
+  "newDependenciesCopiedAndHashedBeforeDatedValidationFreeze": true,
+  "canonicalDataNotModifiedByReviewer": true,
+  "dependsOnIndependentBackendReviewSha256": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7",
+  "reviewScriptSha256": "05e692212b8777d3f51b62c536a62de1c437dafef5f015c595baabacb806dd81"
+}

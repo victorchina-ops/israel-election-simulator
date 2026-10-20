@@ -1,0 +1,21 @@
+{
+  "asOf": "2026-10-20",
+  "status": "reviewed-bounded-source-coverage",
+  "reviewer": "root",
+  "newVerifiedPublisherObservations": [
+    {"publisher":"N12","url":"https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm","primaryReaderRead":true,"publicationDate":"2026-10-19","fieldworkDate":"2026-10-19","sampleSize":507,"seatsTotal":120,"publishedBlocs":{"coalition":51,"opposition":55,"arab":14,"hendel":0}},
+    {"publisher":"C13","url":"https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/","primaryReaderRead":true,"publicationDate":"2026-10-19","sampleSize":1016,"fieldworkDate":null,"proseLikud":17,"acceptedGraphicLikud":18,"graphicAndHistoricalTableIndependentlyPeerVerified":true,"fieldworkNotInferredFromPublication":true},
+    {"publisher":"C14","url":"https://www.c14.co.il/article/1745051","primaryReaderRead":true,"publicationDate":"2026-10-19","fieldworkDate":"2026-10-19","sampleSize":454,"seatsTotal":120,"publishedBlocs":{"coalition":62,"opposition":45,"arab":13}},
+    {"publisher":"Walla / Lazar","url":"https://www.walla.co.il/news/politics/383958175","primaryReaderResult":"internal-error","primaryLiveBrowserRead":true,"publicationDate":"2026-10-20","publicationTime":"12:20","fieldworkDate":"2026-10-19","sampleSize":601,"samplingMethod":"Internet Panel4All","reportedMarginOfErrorPct":4,"confidencePct":null,"winterExactPct":2.9,"seatsTotal":120,"publishedBlocs":{"coalition":48,"opposition":54,"arab":14,"hendel":4},"previousComparisonDateInArticle":"2026-10-12","previousCurrentLazarPreservedDate":"2026-10-16","notDuplicateOfKanRepost":true}
+  ],
+  "otherPrimaryCoverage": [
+    {"publisher":"Channel16","homeUrl":"https://www.ch16.co.il/","resolvedHomeUrl":"https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc","liveHomeRead":true,"homeIncludes20OctMorningAnd19OctMainBulletin":true,"vodUrl":"https://www.ch16.co.il/vod/6ad664b7729d7cfad7f6f2dd","vodRead":true,"vodDateDiscrepancy":"Homepage initially labels19Oct but loaded metadata labels18Oct; neither creates a new survey observation.","limitation":"Player displays Unable to play media; no full-broadcast review or nationwide absence claim. No complete new mandate vector verified in this inspected scope."},
+    {"publisher":"Israel Hayom","homeUrl":"https://www.israelhayom.co.il/","politicsUrl":"https://www.israelhayom.co.il/news/politics","electionIndexUrl":"https://www.israelhayom.co.il/news/politics/election2026","readerHomeAndElectionCopyDate":"2026-10-19","freshLiveHomeAndPoliticsBrowserDate":"2026-10-20","freshHomeAndPoliticsRead":true,"limitation":"Reader index copy lagged the live pages. No new complete national mandate vector verified among the inspected live links; does not establish no poll anywhere on the publisher."},
+    {"publisher":"Zman Israel","homeUrl":"https://www.zman.co.il/","pollIndexUrl":"https://www.zman.co.il/feed/33350/","electionIndexUrl":"https://www.zman.co.il/feed/238/","homeAndBothIndexesDirectlyRead":true,"homeVisibleDate":"2026-10-20","latestDedicatedPollPublicationDate":"2026-10-15","latestDedicatedPollUrl":"https://www.zman.co.il/733625/","notNew":"The latest poll index vector26/20/11 etc is already retained as15OctTatika, not a20Oct observation."}
+  ],
+  "gantzWithdrawalHandling": "New N12 andC13 source reports say collection preceded the withdrawal announcement. Preserve measured raw data and do not automatically redistribute Gantz support without a published observation or explicit scenario.",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "canonicalDataMutatedByThisReceipt": false,
+  "overallSearchScopeComplete": false,
+  "requiredIsraelPollsAndOtherPublisherChecksAreRecordedSeparately": true
+}

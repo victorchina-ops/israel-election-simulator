@@ -1,0 +1,88 @@
+{
+  "asOf": "2026-10-20",
+  "pollPublicationDateFromGraphicOrHistory": "2026-10-19",
+  "sourceTierForThisRetrieval": "secondary-aggregator",
+  "primaryPublisherVerification": "Delegated to root/other source agents; this extraction verifies IsraelPolls original numerical graphics and historical tables only.",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "sampleSize": null,
+  "samplingMethod": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "unknownMetadataNote": "Missing in the numerical graphic/table inspected here. Do not infer fieldwork or sample from publication/repost date or previous polls. Original-source metadata from a separate verified receipt can supplement this extraction.",
+  "publishedBounds": {},
+  "imageFilesArchivedByThisAgent": false,
+  "imageSha256": null,
+  "publicScope": "Concise facts, numerical extraction, URLs and access limitations. Full authored articles and reader bodies are excluded.",
+  "publisher": "Channel 13",
+  "pollsterId": "hamadad_consortium",
+  "pollster": "Hamadad / Shmuel Rosner",
+  "seats": {
+    "yashar": 20,
+    "likud": 18,
+    "beyachad": 14,
+    "joint": 9,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "rz_zehut": 7,
+    "otzma": 7,
+    "utj": 7,
+    "shas": 7,
+    "raam": 6,
+    "winter": 4,
+    "hendel": 4,
+    "gantz": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "haredi_public": 1.0
+  },
+  "missingExactPercentages": [
+    "winter",
+    "hendel",
+    "gantz",
+    "noam"
+  ],
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 51,
+    "arab_parties": 15,
+    "hendel": 4
+  },
+  "historyBlocSeats": {
+    "coalition": 50,
+    "othersIncludingHendel": 55,
+    "arab_parties": 15
+  },
+  "pollPostUrl": "https://x.com/IsraelPolls/status/2112248157858136208",
+  "pollPostAtUtc": "2026-10-19T18:22:59Z",
+  "pollPostAtIsrael": "2026-10-19T21:22:59+03:00",
+  "graphicDate": "2026-10-19",
+  "graphicUrl": "https://pbs.twimg.com/media/HVA2f5zWMAAtswl?format=jpg&name=4096x4096",
+  "graphicNaturalPixels": [
+    2160,
+    2700
+  ],
+  "historyPostUrl": "https://x.com/IsraelPolls/status/2112446791488602350",
+  "historyPostAtUtc": "2026-10-20T07:32:17Z",
+  "historyPostAtIsrael": "2026-10-20T10:32:17+03:00",
+  "historyUrl": "https://pbs.twimg.com/media/HVDrKL0WQAAHc90?format=png&name=medium",
+  "historyNaturalPixels": [
+    950,
+    558
+  ],
+  "historyLatestColumn": "2026-10-19",
+  "historyValuesMatchGraphic": true,
+  "sourceTextConflict": {
+    "field": "likudSeats",
+    "accepted": 18,
+    "israelPollsOriginalPublisherGraphic": 18,
+    "israelPollsHistoricalTable": 18,
+    "originalArticleProseAsReportedByRoot": 17,
+    "originalPublisherGraphicAsVerifiedByRoot": 18,
+    "originalPublisherGraphicUrl": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1792429526/uploads/2026/905407620.webp",
+    "decision": "Use concordant numerical graphics and historical table: Likud18, full vector120 and coalition50. Record prose17 as a conflict; do not invent another party seat or average the values. Original-publisher article/graphic verification is delegated to root."
+  },
+  "missingnessNote": "Winter and Hendel each pass with4 seats, but their exact vote shares remain unpublished in the latest table. Haredi Public1.0 is the only exact below-threshold percentage in that column.",
+  "deduplication": "One new 19 October observation replaces Hamadad14 October current; the 20 October table is not another poll."
+}
