@@ -1,0 +1,110 @@
+{
+  "asOf": "2026-10-21",
+  "status": "PASS-SOURCE-BOUND-MODEL-DATA",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "46018df7e5138918f262421c6feb14cc73ca40c6ca3db04f252cfa2f408202fe",
+  "independentModelReviewSha256": "f686c636b0ce63db32444eadb46af30d81bd57fa08e94e059eabadd0155fcab7",
+  "sourcePlanSha256": "75fb61e91ff2b61e6d1d4319201afad55fe3c8fde62cdf88ad77c2933a9cae9c",
+  "scenario": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": true,
+    "signalNoiseEnabled": false,
+    "winterBloc": "coalition",
+    "hendelBloc": "unassigned",
+    "arabParties": "separate",
+    "turnout": "2022 baseline",
+    "iterations": 10000,
+    "seed": 20260912
+  },
+  "beforeDataDate": "2026-10-20",
+  "dataDate": "2026-10-21",
+  "before": {
+    "groupMeans": {
+      "a": 51.2112,
+      "b": 53.4749,
+      "arab": 13.8197,
+      "other": 1.4942
+    },
+    "thresholdParties": {
+      "winter": {
+        "passProbability": 0.3218,
+        "meanMandatesIncludingFailureRuns": 1.338
+      },
+      "hendel": {
+        "passProbability": 0.3494,
+        "meanMandatesIncludingFailureRuns": 1.4942
+      }
+    },
+    "probability61": {
+      "a": 0.0053,
+      "b": 0.0069,
+      "neither": 0.9878,
+      "coalitionA": 0.0053,
+      "coalitionB": 0.0069,
+      "coalitionNeither": 0.9878,
+      "coalitionBoth": 0
+    }
+  },
+  "after": {
+    "groupMeans": {
+      "a": 51.0212,
+      "b": 53.4133,
+      "arab": 13.7544,
+      "other": 1.8111
+    },
+    "thresholdParties": {
+      "winter": {
+        "passProbability": 0.359,
+        "meanMandatesIncludingFailureRuns": 1.4919
+      },
+      "hendel": {
+        "passProbability": 0.4211,
+        "meanMandatesIncludingFailureRuns": 1.8111
+      }
+    },
+    "probability61": {
+      "a": 0.005,
+      "b": 0.0072,
+      "neither": 0.9878,
+      "coalitionA": 0.005,
+      "coalitionB": 0.0072,
+      "coalitionNeither": 0.9878,
+      "coalitionBoth": 0
+    }
+  },
+  "tweetSha256": "0a04b14a2385e83d164450b9875849f1bb6c15c705344dee7f7e783e9581b1f1",
+  "tweetWeightedCharactersAssuming23PerURL": 232,
+  "image": {
+    "file": "winter-four-bloc-unchanged.png",
+    "sha256": "21b0adc3add7351f77629e1c418a8d2c70402203325d2a9fc224c34036d6db3e",
+    "kind": "published_poll_comparison",
+    "publisher": "N12 / Midgam Mano Geva",
+    "earlierPollDate": "2026-10-19",
+    "laterPollDate": "2026-10-21",
+    "coalitionIncludingWinter": [
+      51,
+      51
+    ],
+    "winter": [
+      0,
+      4
+    ],
+    "likud": [
+      21,
+      19
+    ],
+    "otzma": [
+      8,
+      7
+    ],
+    "religiousZionismZehut": [
+      7,
+      6
+    ],
+    "modelMeansOrProbabilitiesShown": false,
+    "significanceClaimMade": false,
+    "identifiedVoterTransfersClaimed": false
+  },
+  "automaticTweetPosted": false
+}

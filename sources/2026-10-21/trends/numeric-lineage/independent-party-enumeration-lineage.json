@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-21",
+  "stage": "independent-party",
+  "frozenAnalyzer": "artifacts/strict-post-close/party-independent.py",
+  "frozenAnalyzerSha256": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68",
+  "reviewedAdapter": "scripts/run-exact-trends-2026-10-20-evening-independent-party-schema-r1.py",
+  "reviewedAdapterSha256": "d9d5328f57a6dc3f62090ba02868e2a2a9940ad2c4a431c3551b65c0e38ae9c1",
+  "wrapperSha256": "c569e710b25a6d4e8ee74276953197cc3992e22119aa32cf58789c1ab634fa92",
+  "scalarBackendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "transformedSourceSha256": "1617682da63e9a255d523d09b43850eff8ba43cf5e1cc9355f9078dce507053e",
+  "frozenCounterHashes": {
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "inputHistorySha256": "24901247422867a70d4418bb1d8c5004eda9f7d4e368a6923f862d95740faa45",
+  "inputAuditHashes": {
+    "lazar-fieldwork.json": "36eae105a683f46d3ea5c9c4cabfe82fb196544c642f66cd503cdc0468781d7b",
+    "n12-kan-c13-fieldwork.json": "b459f3aafe3addef5668518374e6d6c9b220eb542e7433cf15e7b55f9ebd0378",
+    "c14-i24-fieldwork.json": "60e00dfe356e3422cd887402f2ebbb971ba4d8e23b2bea53a1690325449a3374",
+    "c16-tatika-fieldwork.json": "a80ae8d51c1b0393b7460a0a948d0e9a1ef293346622c2ce3bb0f4183c6a803f",
+    "new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  },
+  "outputFile": "party-independent.json",
+  "outputSha256": "7a871c56d86f7d0bf729af0ae3c048a059f72569afa1232ba198f08840cef817",
+  "enumeration": "independent labeled-choice count/score DP",
+  "nullUnchanged": true,
+  "outcomeMarginalExactness": true,
+  "monteCarlo": false,
+  "cohortAndWeightsUnchanged": true
+}

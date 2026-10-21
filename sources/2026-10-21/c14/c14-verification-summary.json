@@ -1,0 +1,123 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-21",
+  "checkedAtUtc": "2026-10-21T18:33:16.408677+00:00",
+  "pollId": "next_data_2026-10-21",
+  "sourceUrl": "https://www.c14.co.il/article/1748686",
+  "primaryPublisherRead": true,
+  "directPrimaryHomepageAndPoliticsIndexChecked": true,
+  "publicationDate": "2026-10-21",
+  "publicationTime": "20:45:28",
+  "publishedAt": "2026-10-21T20:45:28+03:00",
+  "updatedAt": "2026-10-21T20:45:28+03:00",
+  "publicationEvidencePointers": [
+    "meta[property=article:published_time]",
+    "JSON-LD NewsArticle.datePublished",
+    "time[dateTime]"
+  ],
+  "fieldworkStart": "2026-10-21",
+  "fieldworkEnd": "2026-10-21",
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkProofQuote": "הסקר נערך היום, 21 באוקטובר 2026",
+  "fieldworkProofPointer": "Original article final body paragraph, div.ArticleContent_articleContent__AdZEJ",
+  "fieldworkProofQuotedWords": 7,
+  "sampleSize": 1954,
+  "seats": {
+    "likud": 30,
+    "yashar": 20,
+    "beyachad": 10,
+    "democrats": 9,
+    "shas": 10,
+    "utj": 7,
+    "rz_zehut": 7,
+    "otzma": 8,
+    "yisrael_beiteinu": 5,
+    "joint": 8,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "publishedPercentages": {
+    "hendel": 2.2,
+    "winter": 1.7,
+    "noam": 0.6,
+    "haredi_public": 0.3
+  },
+  "namedUnmodelledPartyPercentages": [
+    {
+      "name": "אח״י — חוזרים לשורשים",
+      "pct": 0.2,
+      "canonicalPartyId": null
+    }
+  ],
+  "sourceBlocSeats": {
+    "coalition": 62,
+    "opposition": 44,
+    "arab_parties": 14
+  },
+  "originalGraphicsVisuallyReviewed": [
+    {
+      "file": "original-graphic-1.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-20.34.44.jpeg",
+      "sha256": "5dde63ae97b9ec761b842b46778e26a7b1575930130aeb1b05fc920e8b398a8a",
+      "visuallyVerified": true,
+      "facts": "full mandates, below-threshold percentages and blocs"
+    },
+    {
+      "file": "original-graphic-2.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-20.34.43.jpeg",
+      "sha256": "d342a23597a24f0d85ea4950deae08bdd2db169fdec3586789bc4ba5348ef1a4",
+      "visuallyVerified": true,
+      "facts": "bloc totals"
+    },
+    {
+      "file": "original-graphic-3.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-20.34.44-2.jpeg",
+      "sha256": "ea187d63a3feb2714f44e2fb8fdcbe747c3d12b2f8f2b5712987fab4667e8422",
+      "visuallyVerified": true,
+      "facts": "head-to-head preferred prime minister"
+    },
+    {
+      "file": "original-graphic-4.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-21-at-20.34.44-1.jpeg",
+      "sha256": "fb59b690e36976cececf5029d4965c155da042a6561bc9eb38cd5b9fb07e5224",
+      "visuallyVerified": true,
+      "facts": "four-way preferred prime minister"
+    }
+  ],
+  "localRawFileName": "original-article-local-only.html",
+  "localRawSha256": "8c6e29c34afdd8e537b44d5e1a1ae09b262bf62eef339212135147ec0114047f",
+  "factualExtractFileName": "c14-reviewed-facts.txt",
+  "factualExtractSha256": "8c6b200e314faa37a8c4619338ab92d253fe10adda425fe24c5089c24aaa7862",
+  "sourceFileReceipts": [
+    {
+      "fileName": "original-article-local-only.html",
+      "sha256": "8c6e29c34afdd8e537b44d5e1a1ae09b262bf62eef339212135147ec0114047f",
+      "bytes": 207194,
+      "publicRelease": false
+    },
+    {
+      "fileName": "c14-home-local-only.html",
+      "sha256": "1e64dfbed3c41111611df12a91fc2b3542eb57af0861381d85a11cd4fe1b23bf",
+      "bytes": 895574,
+      "publicRelease": false
+    },
+    {
+      "fileName": "c14-politics-local-only.html",
+      "sha256": "e708a8544844e85033805c1e9c7c5a43750112accaea77dda607aee37097828d",
+      "bytes": 234198,
+      "publicRelease": false
+    }
+  ],
+  "copyrightFullBodyExcludedFromPublicRelease": true,
+  "sourceDiscrepancies": [],
+  "sourceReadLimitations": [
+    "Original article and guessed /category/politics/ URL inaccessible in web reader. Correct observed politics index /archive/65839 opened successfully. Approved read-only publisher HTML fetch and original image inspection succeeded."
+  ],
+  "exactPercentageMissingNotZero": true,
+  "canonicalDataChanged": false
+}

@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-21",
+  "checkedAtUtc": "2026-10-21T18:53:06.020363+00:00",
+  "profilePostsObserved": 2807,
+  "sourceUrl": "https://x.com/IsraelPolls/status/2112976476945440971/photo/1",
+  "postTime": "2026-10-21T21:37:00+03:00",
+  "pollPublicationDateFromOriginal": "2026-10-21",
+  "actualCuaGraphicVisuallyInspected": true,
+  "imageFile": "c13-published-graphic.png",
+  "imageSha256": "c59e5e8c284bd6528c40a42149c1c53e52b75dc88dcbd55dcf0d672fc45eccaa",
+  "imageSourceUrl": "https://pbs.twimg.com/media/HVLM53ZWAAEypH2?format=png&name=900x900",
+  "all120SeatsMatchPrimaryCandidate": true,
+  "primaryCandidateSha256": "a01978ceb92982d2b873b2656e7a9fda9496a353440ba3fd62855b1558d44882",
+  "blocks": {
+    "coalition": 49,
+    "opposition": 52,
+    "arab": 15,
+    "hendel": 4
+  },
+  "percentageEvidenceNotInThisGraphic": "OriginalarticleJSON-LDgovernsW3.2/H3.6/HP1.2; notinferredfrommandates",
+  "noAdditionalPollCountedFromRepost": true,
+  "earlierN12GraphicAndHistoricalTableReceiptSha256": "5cb51b196aa9f49501d295f5396ed30d4bf1950e4ab6b510b26880b6524566dd",
+  "c13PublicationAbsenceClaimInEarlierBoundedCheckRemainsFalse": true,
+  "sourceDatelineAnomalyReceipt": "source-c13/independent-candidate-review.json",
+  "sourceDatelineAnomalyReceiptSha256": "84a55f995a587c0e0bfd11ae965a92255966a4d18e3256d8b5df970f3d462f70",
+  "fieldworkDatesRemainUnverified": true,
+  "fullProfileAndUserInfoNotPublished": true
+}

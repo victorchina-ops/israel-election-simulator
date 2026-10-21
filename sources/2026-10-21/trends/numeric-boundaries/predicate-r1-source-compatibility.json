@@ -1,0 +1,20 @@
+{
+  "status": "PASS-SOURCE-COMPATIBILITY",
+  "asOf": "2026-10-21",
+  "baseValidatorSha256": "26508c81b8c6f664105edb69d0a1a7b757b21904081e7fdd3bde1230f8e90a7a",
+  "adapterSha256": "0c6f703980a9dc968852e9f8792ea974a76bf3da8b12abd30adf8bb796b08a86",
+  "baseMainAstSha256": "5f514a6ccd6b78a04c99a173a9959108a31f51dec824259b59483e5702db8617",
+  "baseFileBytesEqualPreservedFailureSource": true,
+  "allOriginalNonBoundaryFunctionObjectsRetained": true,
+  "onlyValidatorGlobalReplacements": [
+    "boundary_check",
+    "__file__"
+  ],
+  "numericScope": [
+    "bloc",
+    "opposition"
+  ],
+  "diagnosisSha256": "c414a4dc5e979f8da467296c038035d7dffb937961fee26945cfb665d78ff74a",
+  "independentReviewSha256": "2fef6af558447f563218c62d2423ecb1cd1244e9e5adf38fabd7c27726a04cce",
+  "numericalVerdict": false
+}

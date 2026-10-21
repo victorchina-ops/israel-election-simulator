@@ -1,0 +1,170 @@
+{
+  "sourceUrl": "https://e.infogram.com/ad822f3f-67da-45ef-bf80-ee3322930d41?src=embed",
+  "articleEmbedContentIndex": 1,
+  "id": 503152176,
+  "chartRows": [
+    {
+      "entityId": "508e2ec8-427c-4045-ba4b-63b691fc11322f8107e6-de2d-4cd4-ad2f-b9766a0acf3e",
+      "data": [
+        [
+          [
+            null,
+            {
+              "value": "חדשות 12"
+            }
+          ],
+          [
+            null,
+            {
+              "ct": {},
+              "value": "2.8%"
+            }
+          ]
+        ]
+      ]
+    },
+    {
+      "entityId": "95e69a71-a12a-4a74-b325-fc8c0312aacb904317d3-0a9e-45c2-87af-1b077650747a",
+      "data": [
+        [
+          [
+            null,
+            {
+              "value": "חדשות 12"
+            }
+          ],
+          [
+            {
+              "value": "ישר! עם איזנקוט בראשות גדי איזנקוט"
+            },
+            {
+              "value": "23"
+            }
+          ],
+          [
+            {
+              "ct": {
+                "fa": "General",
+                "t": "g"
+              },
+              "value": "הליכוד בראשות בנימין נתניהו"
+            },
+            {
+              "value": "19"
+            }
+          ],
+          [
+            {
+              "ct": {
+                "fa": "General",
+                "t": "g"
+              },
+              "value": "ביחד בראשות נפתלי בנט"
+            },
+            {
+              "value": "15"
+            }
+          ],
+          [
+            {
+              "value": "הרשימה המשותפת בראשות יוסף ג'בארין"
+            },
+            {
+              "value": "9"
+            }
+          ],
+          [
+            {
+              "value": "הדמוקרטים בראשות יאיר גולן"
+            },
+            {
+              "value": "9"
+            }
+          ],
+          [
+            {
+              "ct": {
+                "fa": "General",
+                "t": "g"
+              },
+              "value": "ש\"ס בראשות אריה דרעי"
+            },
+            {
+              "value": "8"
+            }
+          ],
+          [
+            {
+              "value": "ישראל ביתנו בראשות אביגדור ליברמן"
+            },
+            {
+              "value": "8"
+            }
+          ],
+          [
+            {
+              "value": "יהדות התורה בראשות יעקב אשר"
+            },
+            {
+              "value": "7"
+            }
+          ],
+          [
+            {
+              "ct": {
+                "fa": "General",
+                "t": "g"
+              },
+              "value": "עוצמה יהודית בראשות איתמר בן גביר"
+            },
+            {
+              "value": "7"
+            }
+          ],
+          [
+            {
+              "ct": {
+                "fa": "General",
+                "t": "g"
+              },
+              "value": "הציונות הדתית בראשות בצלאל סמוטריץ` ומשה פייגלין"
+            },
+            {
+              "value": "6"
+            }
+          ],
+          [
+            {
+              "ct": {
+                "fa": "General",
+                "t": "g"
+              },
+              "value": "רע\"ם בראשות מנסור עבאס ויואב סגלוביץ"
+            },
+            {
+              "value": "5"
+            }
+          ],
+          [
+            {
+              "value": "עמך ישראל בראשות עופר וינטר"
+            },
+            {
+              "value": "4"
+            }
+          ]
+        ]
+      ]
+    }
+  ],
+  "textDateLabels": [
+    {
+      "entityId": "27fb87c1-0b5c-4d70-baee-0fd44807869cc4f2bf28-fe2c-43e2-873a-775996c38152",
+      "text": "מעודכן ל-19.10.2026"
+    }
+  ],
+  "imageUrl": "https://infogram.io/p/05585369913232e9ba80282123680b53.png",
+  "originalGraphicVisuallyReviewed": true,
+  "imageFileName": "original-embedded-poll.png",
+  "imageSha256": "3932b147328eb396023bf3f39c1173901258e2622b31e3fd43abe8816a7a9ad1"
+}

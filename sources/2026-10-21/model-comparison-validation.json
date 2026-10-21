@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-21",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "activeSelectedInstitutes": 7,
+  "changedPollsters": [
+    "hamadad_consortium",
+    "midgam_geva",
+    "next_data"
+  ],
+  "newObservationIds": [
+    "midgam_geva_2026-10-21",
+    "hamadad_consortium_2026-10-21",
+    "next_data_2026-10-21"
+  ],
+  "publicationDates": [
+    "2026-10-21",
+    "2026-10-21",
+    "2026-10-21"
+  ],
+  "activePolls": 8,
+  "historyPolls": 138,
+  "allPreviousHistoricalObservationsPreserved": true,
+  "comparisonSha256": "373cc69af7832bbfcddac94db82b088b58599d5808d56080c49ac5e5f004b8b2",
+  "snapshotSha256": "cfdb16a0ec7f1d3cb6265caf52f01f32641abb27010ee8114c8d5976548de3b1",
+  "baselineSha256": "8692045d1a9f8118453359a94ebc4660d0097e4c2a31acd3729c5c9f48526b27",
+  "sourcePlanSha256": "75fb61e91ff2b61e6d1d4319201afad55fe3c8fde62cdf88ad77c2933a9cae9c",
+  "validationScope": "Both endpoints replay the unchanged model; conditional differences are not a significance test."
+}

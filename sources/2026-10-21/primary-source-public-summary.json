@@ -1,0 +1,220 @@
+{
+  "asOf": "2026-10-21",
+  "status": "reviewed",
+  "scope": "Three independently verified21October original observations. Bounded primary-index and IsraelPolls review; no nationwide absence claim.",
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "compiledTo120DatasetExcluded": true,
+  "newObservationIds": [
+    "midgam_geva_2026-10-21",
+    "hamadad_consortium_2026-10-21",
+    "next_data_2026-10-21"
+  ],
+  "observationPublicationDates": [
+    "2026-10-21"
+  ],
+  "sources": [
+    {
+      "id": "midgam_geva_2026-10-21",
+      "publisher": "חדשות 12",
+      "pollster": "מדגם — מנו גבע",
+      "urls": [
+        "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm"
+      ],
+      "publicationDate": "2026-10-21",
+      "publicationTimeJerusalem": "21:07",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-21",
+      "sampleSize": 505,
+      "strictEligible": true,
+      "status": "Original publisher numbers and source graphics independently reviewed; complete120mandates and missingness validated.",
+      "limitations": [
+        "הפרסום והאיסוף21.10.2026; תאריך21:07 מאומת ב-HTML המקורי.",
+        "כיתוב19.10.2026 נשאר באינפוגרם המקורי אף שהמספרים תואמים את הסקר החדש; נשמר כחריגת מקור ואינו מועד האיסוף.",
+        "גנץ, נעם וישראל תחילה לא מוצגים בפרסום ונשארים חסרים; אין להעביר אחוזים מהסקר הקודם.",
+        "צבע שחור0.3% הוא נתון לרשימה בשם מפורש, לא אחוז מצרפי שפורסם לכל האחרים."
+      ],
+      "candidateSha256": "566dcde1d07f153d8906d92f221ceb5fb84e64c54585e0f841f36904372455b1",
+      "proof": {
+        "path": "n12/n12-verification-summary.json",
+        "sha256": "c4354b6f00b56874dcd31c8844017a8041124fdaeaab0592bb062c665b8269ec"
+      }
+    },
+    {
+      "id": "hamadad_consortium_2026-10-21",
+      "publisher": "חדשות 13",
+      "pollster": "המדד — שמואל רוזנר ונח סלפקוב, עם סטט-נט, פרויקט המדגם ואסקריא",
+      "urls": [
+        "https://13tv.co.il/item/news/politics/politics/ksgoq-905411865/"
+      ],
+      "publicationDate": "2026-10-21",
+      "publicationTimeJerusalem": "20:54:56",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "sampleSize": 1084,
+      "strictEligible": false,
+      "status": "Original publisher numbers and source graphics independently reviewed; complete120mandates and missingness validated.",
+      "limitations": [
+        "פרסום21.10.2026;1084משיבים וטעות דגימה3% במקור; תאריכי האיסוף לא פורסמו.",
+        "וינטר3.2% מתחת לחסימה; הנדל–זליכה3.6% וארבעה מנדטים; הציבור החרדי1.2%.",
+        "הסקר נכלל במודל העדכני; מוחרג מניתוח המגמות המחמיר כל עוד מועדי האיסוף לא אומתו.",
+        "נתונים חסרים אינם אפס. הגרפיקה היא צילום דפדפן של הגרפיקה המקורית.",
+        "JSON-LDdateline says22October, but datePublished, metaPublishDate and original poll graphic establish21October. Modified time21:14:33 is not a second observation."
+      ],
+      "candidateSha256": "a01978ceb92982d2b873b2656e7a9fda9496a353440ba3fd62855b1558d44882",
+      "proof": {
+        "path": "c13/c13-verification-summary.json",
+        "sha256": "13aa79a709aa84ba097f8fd19e79eb756445951a64c10566a6d5cf9bb80d3208"
+      }
+    },
+    {
+      "id": "next_data_2026-10-21",
+      "publisher": "חדשות 14",
+      "pollster": "NEXT DATA — שלמה פילבר",
+      "urls": [
+        "https://www.c14.co.il/article/1748686"
+      ],
+      "publicationDate": "2026-10-21",
+      "publicationTimeJerusalem": "20:45:28",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-21",
+      "sampleSize": 1954,
+      "strictEligible": true,
+      "status": "Original publisher numbers and source graphics independently reviewed; complete120mandates and missingness validated.",
+      "limitations": [
+        "סקר חדש פורסם ונאסף21.10.2026,1954 בוגרים מכלל האוכלוסייה; מחליף רק את התצפית הפעילה20.10 וכל ההיסטוריה נשמרת.",
+        "כל120 המנדטים והאחוזים המדויקים אומתו בגוף המקור ובגרפיקה המקורית; חלוקת הגושים62/44/14.",
+        "אח״י0.2% נשמרת כרשימה נקובה; אחוז אחרים כולל לא פורסם. רכיב others במודל בלבד הוא תרומת הרשימה הנקובה ואינו נתון גולמי מצרפי.",
+        "גנץ וישראל תחילה נעדרים מהפרסום החדש ומנדטיהם ואחוזיהם נשארים חסרים.",
+        "שיטת האיסוף, טעות הדגימה, רמת הביטחון ושיעור המתלבטים נשארים חסרים; ערוץ14 מוחרג כברירת מחדל וניתן להפעילו במתג."
+      ],
+      "candidateSha256": "012831db202c20161f728ccafb55cadf6e23950d0d2c87deac5a4e891822ef95",
+      "proof": {
+        "path": "c14/c14-verification-summary.json",
+        "sha256": "21d9fb9f6f6ff22d31e7aeb0db0accc43a399a3041b7b4a29ded376c920f59ba"
+      }
+    }
+  ],
+  "requiredIsraelPolls": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "status": "Actual Chrome CUA profile, published N12graphic/history and later C13graphic read successfully. Web reader403 recorded separately.",
+    "receiptSha256": "5cb51b196aa9f49501d295f5396ed30d4bf1950e4ab6b510b26880b6524566dd",
+    "c13SupplementSha256": "b3d950fc722f46c9046662652353b415a1e6baeaff038390c03b7063bf1b24c3",
+    "repostTimesNotPollDates": true
+  },
+  "otherPublisherCoverage": {
+    "status": "reviewed",
+    "asOf": "2026-10-21",
+    "checkedAtUtc": "2026-10-21T18:45:20.923565+00:00",
+    "primaryPollsVerified": [
+      "midgam_geva_2026-10-21",
+      "hamadad_consortium_2026-10-21",
+      "next_data_2026-10-21"
+    ],
+    "IsraelPolls": {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "webReader": "403",
+      "actualChromeCuaProfileAndN12GraphicHistory": "success",
+      "receipt": "source-israelpolls/scan-receipt.json",
+      "receiptSha256": "5cb51b196aa9f49501d295f5396ed30d4bf1950e4ab6b510b26880b6524566dd"
+    },
+    "primaryIndexChecks": [
+      {
+        "url": "https://www.n12.co.il/",
+        "result": "read"
+      },
+      {
+        "url": "https://www.mako.co.il/news-israel-elections",
+        "result": "read; new21Oct primaryarticle verified by source agent and rootXcrosscheck"
+      },
+      {
+        "url": "https://13tv.co.il/news/",
+        "result": "read; new21Oct headline and primaryarticle verified via actualChromeDOM/graphic plus rootJSON-LD"
+      },
+      {
+        "url": "https://13tv.co.il/news/politics/",
+        "result": "read"
+      },
+      {
+        "url": "https://www.c14.co.il/",
+        "result": "read; new21Oct poll discovered and originalHTML/graphics verified"
+      },
+      {
+        "url": "https://www.c14.co.il/archive/65839",
+        "result": "read"
+      },
+      {
+        "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+        "result": "read; latest displayed20Oct observation already in database"
+      },
+      {
+        "url": "https://www.walla.co.il/news/politics",
+        "result": "read;20Octpoll link already in database; no additional complete poll verified"
+      },
+      {
+        "url": "https://www.zman.co.il/",
+        "result": "read"
+      },
+      {
+        "url": "https://www.zman.co.il/feed/33350/",
+        "result": "read; no additional complete new poll verified in this bounded check"
+      },
+      {
+        "url": "https://www.israelhayom.co.il/news/politics",
+        "result": "read; no complete additional new poll verified"
+      }
+    ],
+    "accessLimitations": [
+      {
+        "url": "https://www.kan.org.il/",
+        "reason": "Reader returned zero lines; current content not successfully verified"
+      },
+      {
+        "url": "https://www.ch16.co.il/",
+        "reason": "Reader returned zero lines; current content not successfully verified"
+      },
+      {
+        "url": "https://www.maariv.co.il/news/politics",
+        "reason": "Non-retryable reader error; no publication absence claim"
+      },
+      {
+        "url": "https://x.com/IsraelPolls?s=20",
+        "reason": "Web reader403; actualChromeCUA succeeded independently"
+      }
+    ],
+    "rootSourceChecks": {
+      "n12": "Originalcandidate matches actuallyreadIsraelPollsgraphicand21Octhistory; fieldquote independentlymatches hashedraworiginal; chart19Octfooter anomalyretained.",
+      "c13": "RootindependentlyparsedoriginalJSON-LD datePublished/sample1084/MOE3/W3.2/H3.6/HP1.2 andactuallyviewedoriginalgraphic; fielddatesleftmissing.",
+      "c14": "Rootactuallyviewedoriginalnumericgraphicandindependentlymatchedhashedrawexplicitfieldquote; all120seatsandbelowthresholdvaluesagree."
+    },
+    "secondaryWeeklySummariesNotCountedAsPolls": true,
+    "fullAuthoredArticleBodiesStayLocal": true,
+    "missingValuesNotZero": true
+  },
+  "accessLimitations": [
+    {
+      "url": "https://www.kan.org.il/",
+      "reason": "Reader returned zero lines; current content not successfully verified"
+    },
+    {
+      "url": "https://www.ch16.co.il/",
+      "reason": "Reader returned zero lines; current content not successfully verified"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics",
+      "reason": "Non-retryable reader error; no publication absence claim"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "reason": "Web reader403; actualChromeCUA succeeded independently"
+    }
+  ],
+  "deduplication": [
+    "Each publisher graphic/article/history table refers to one observation.",
+    "The new current poll replaces its own institute previous active observation; all previous observations remain in history.",
+    "Weekly comparisons and reposts are not additional polls."
+  ],
+  "missingValuesNotZero": true,
+  "historicalAccuracyWeightsUnchanged": true,
+  "channel14ExcludedByDefault": true,
+  "forecastSimilarityIsOptionalHeuristic": true
+}

@@ -1,0 +1,15 @@
+Channel14/NEXT DATA factual extract, independently rewritten2026-10-21.
+Original source: https://www.c14.co.il/article/1748686
+Published21October2026 at20:45:28 Asia/Jerusalem; modification metadata gives the same timestamp.
+Fieldwork explicitly21October2026;1954 adult respondents from the general population; data analysis attributed to Shlomo Filber/NEXT DATA.
+Mandates: Likud30; Yashar20; Beyachad10; Shas10; Democrats9; Otzma8; Joint8; UTJ7; ReligiousZionism-Zehut7; Raam6; YisraelBeiteinu5. Total120.
+Exact below-threshold percentages: Hendel-Zelekha2.2%; Winter1.7%; Noam0.6%; HarediPublic0.3%; named unmodelled Ahi/Returning to Roots0.2%.
+Blocs: coalition62, opposition44, Arab parties14. Original mandate graphic and separate bloc graphic independently agree with the complete prose vector.
+Relative to the20October observation: Beyachad9to10; Shas9to10; UTJ8to7; YisraelBeiteinu6to5; coalition total unchanged62.
+Gantz and IsraelFirst are unreported, not source-observed zero percentages or published seat entries. Passing-party percentages are absent. No overall other-party percentage is published. Named Ahi0.2% is not an observed aggregate other percentage.
+The optional model input other0.2% is explicitly only the known named Ahi contribution, with modelOnlyPercentageIds including other; reportedPercentages excludes other.
+Sampling mode, panel provider, initial and invited sample sizes, sampling error, confidence level, percentage denominator, undecided share and collection clock times are not stated in the inspected article and remain missing.
+Preferred-prime-minister results are distinct from election vote shares: Netanyahu55versusEisenkot45 in a pairwise question; four-way Netanyahu53,Eisenkot33,Bennett9,Liberman5. These do not enter party vote shares.
+Direct publisher homepage and observed politics index were opened; the original article was inaccessible through the web reader but the approved read-only direct publisher fetch succeeded. Four original article graphics were downloaded as source evidence and visually inspected.
+Channel14 remains excluded by default; this new raw observation replaces only its active20October measurement while all prior observations are preserved.
+Full authored article and index HTML remain local-only; this rewritten extract contains no copied article prose.

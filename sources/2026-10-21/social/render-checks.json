@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-21",
+  "output": "winter-four-bloc-unchanged.png",
+  "outputSha256": "21b0adc3add7351f77629e1c418a8d2c70402203325d2a9fc224c34036d6db3e",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "prompt": "generation-prompt.txt",
+  "promptSha256": "6d9b21c3b0c020928da3f1d1c12449979e1cade0ef360ec191b793b58d57efee",
+  "authoredPrompt": "image-prompt.txt",
+  "authoredPromptSha256": "32a5dd7619d54ba894578096196330d938aa11223c126476d337e6fde5b1bd21",
+  "generator": "built-in image_gen",
+  "generationMode": "generate",
+  "generationCalls": 1,
+  "imageEditingPerformed": false,
+  "visualInspectionCompleted": true,
+  "inspectionMethod": "Root reopened and read the exact generated PNG via view_image. Independent actual image review retained; no OCR or regenerated image substituted. Source-only numeric artwork and current-model tweet are separately bound.",
+  "imageEvidenceKind": "published_poll_comparison",
+  "sourcePixelReviewSha256": "36e9f274af64374c6cfbc2395848ee88efbaad6f384cd6d2be815cbfb413bd2f",
+  "independentSourceImageReviewSha256": "a6d88c4201b99a8a92148d194d32b12193263552ddf417164e1fbd5bbeeaa74d",
+  "generationReceiptSha256": "75258339e60cc0f1645ce8c388019a96d56e01b1463c26765736b6ec9b0affff",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "46018df7e5138918f262421c6feb14cc73ca40c6ca3db04f252cfa2f408202fe",
+  "independentModelReviewSha256": "f686c636b0ce63db32444eadb46af30d81bd57fa08e94e059eabadd0155fcab7",
+  "sourcePlanSha256": "75fb61e91ff2b61e6d1d4319201afad55fe3c8fde62cdf88ad77c2933a9cae9c",
+  "browserLocalReportSha256": "61a21ca2900e875b68d91e16c80277df607931b8d274a171ffc7564e837dbe6d",
+  "modelDataSha256": "fd37a4fb614f99b141ebbd52265a3dceb01c8ae7041d1b0926ca0574b40ac2cf",
+  "tweetSha256": "0a04b14a2385e83d164450b9875849f1bb6c15c705344dee7f7e783e9581b1f1",
+  "promptUnicodeTextIdenticalAfterNewlineNormalization": true,
+  "promptRawBytesIdentical": false,
+  "promptLineEndingNote": "Authored WindowsCRLF and exactsent normalizedLF preserved and separatelyhashed. Same Unicode text after universal-newline normalization.",
+  "automaticTweetPosted": false,
+  "visualObservations": [
+    "Readable watercolor Knesset/Jerusalem scene, no clipping or overlapping numeric labels.",
+    "N12published19Oct versus21Oct, coalitionincludingWinter51to51, Winter0to4, Likud21to19, Otzma8to7, religiousZionismZehut7to6.",
+    "Artwork explicitly labels publishedpollmandates, not model forecast; does not infer identified voter transfers or significant trend.",
+    "SourceN12/MidgamManoGeva and dates readable; small creditויקטור רינה בן דוד visible.",
+    "Companiontweet uses official21Oct preferredquality+similarity/no14 model, separately; not quantities shown in the source-only artwork."
+  ]
+}

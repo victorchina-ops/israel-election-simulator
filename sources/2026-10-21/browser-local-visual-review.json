@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "asOf": "2026-10-21",
+  "runId": "reviewed",
+  "browserReportSha256": "61a21ca2900e875b68d91e16c80277df607931b8d274a171ffc7564e837dbe6d",
+  "visualInspectionCompleted": true,
+  "reviewedScreenshots": {
+    "01-about-light-persisted.jpg": "b9cdfcdfb425481c81213b16b7fdecdd3bff9ef85b37b6caa0a5300e769df207",
+    "02-threshold-similarity-on.jpg": "ce06c978c267f3008b882f31d533aa481cbd550f3557fb93611a3bb323b84409",
+    "03-poll-metadata.jpg": "073f8ad35844671f63a393bec08243da3621c46326d4b72ada13cb74a0fd0e19",
+    "04-strict-trends-without14.jpg": "f7593627f2e9d56c44fa6424714116835e724861dc6298b151874eb39110c499"
+  },
+  "observations": [
+    "About light screenshot clearly shows21.10.2026, original author portrait,name,contact and visible immediate appearance button.",
+    "Threshold SIMON screenshot clearly shows Hendel42.11% and Winter35.90%; text distinguishes model probability from3.25% vote threshold.",
+    "Source metadata screenshot clearly shows N12 publication/fieldwork21October,n505 and C13 publication21October,n1084 with unverified fieldwork. Other source rows were read in actual DOM evidence.",
+    "Strict screenshot clearly shows saved21October cohort44/7/37, selected Channel14 exclusion and separate similarity limitation; body continues into explicit significant-party summary."
+  ],
+  "findings": []
+}

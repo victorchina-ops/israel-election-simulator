@@ -1,0 +1,31 @@
+{
+  "status": "PASS-SOURCE-GATE",
+  "asOf": "2026-10-21",
+  "reviewedAtUtc": "2026-10-21T19:05:58.806728+00:00",
+  "scope": "Read-only independent review of the new narrow validator adapter before execution; no validator or heavy counter run by reviewer.",
+  "adapterPath": "scripts/validate-strict-trends-2026-10-21-predicate-r1.py",
+  "adapterSha256": "0c6f703980a9dc968852e9f8792ea974a76bf3da8b12abd30adf8bb796b08a86",
+  "baseValidatorSha256": "26508c81b8c6f664105edb69d0a1a7b757b21904081e7fdd3bde1230f8e90a7a",
+  "diagnosisSha256": "c414a4dc5e979f8da467296c038035d7dffb937961fee26945cfb665d78ff74a",
+  "numericIndependentReviewSha256": "2fef6af558447f563218c62d2423ecb1cd1244e9e5adf38fabd7c27726a04cce",
+  "checks": {
+    "distinct_r1_preserves_original_failed_validator_bytes": true,
+    "only_bloc_opposition_boundary_uses_new_proof": true,
+    "all_other_boundary_cases_fall_back_to_original": true,
+    "original_main_and_non_boundary_function_objects_preserved": true,
+    "actual_adapter_file_hash_recorded_honestly": true,
+    "diagnosis_reproducer_and_independent_judgment_hashes_pinned": true,
+    "all_current_proof_input_hashes_checked": true,
+    "exact_observed_hex_counts_and_universe_match_current_validator_arguments": true,
+    "all_four_operational_counts_and_signed_decompositions_checked": true,
+    "DP_support_values_multiplicities_weights_and_original_series_rechecked": true,
+    "registered_tolerance_1e12_unchanged": true,
+    "no_false_common_direct_threshold_match": true,
+    "no_pq_model_or_source_output_edits": true,
+    "new_dated_receipts_preserve_prior_evidence": true,
+    "no_generic_approximate_integer_gate": true
+  },
+  "findings": [],
+  "runtimePassClaimed": false,
+  "gateJudgment": "The bounded r1 adapter can run. It preserves the original generic validator and requires exact same-predicate counting proof only for the specific hashed21October opposition case, while retaining the original independent direct-addition count and all source/OLS/BH/DP/cohort checks."
+}

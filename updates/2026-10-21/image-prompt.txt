@@ -1,0 +1,19 @@
+Use case: infographic-diagram
+Asset type: original illustrated Hebrew social news PNG, portrait4:5, high readability on mobile.
+Primary request: A beautiful editorial watercolor/gouache picture, warm Jerusalem stone and a painted miniature Knesset in the background, four coral ballot cards carrying a clear WINTER Hebrew label entering a coalition group, while a large continuous counter stays51. Visually show that an internal allocation changed but the bloc total stayed the same. Avoid a dry spreadsheet/academic dashboard. No photographic faces or invented party logos. Use spacious paper cards, confident Hebrew typography and one clear story. Opposite ends depict two dated snapshots, with clear arrow from19October to21October. Do not draw51individual seats or a complex chart.
+Exact visible Hebrew text, typeset cleanly right-to-left and preserve each number:
+Title: "4 לוינטר. 51 לגוש נתניהו."
+Subtitle: "סקר חדשות 12 | 21.10.2026"
+Main scene left past card: "19.10" then "51" then "גוש נתניהו, כולל וינטר"
+Main scene right current card: "21.10" then "51" then "גוש נתניהו, כולל וינטר"
+A small conspicuous Winter card with "וינטר" and "0 → 4".
+Below the painted main scene place three smaller elegant paper labels, each with one clear name and numeric before-to-after sequence:
+"הליכוד" / "21 → 19"
+"עוצמה יהודית" / "8 → 7"
+"הציונות הדתית–זהות" / "7 → 6"
+One short plain explanatory line: "החלוקה בתוך הגוש השתנתה; הסך נשאר 51"
+Footer: "מנדטים שפורסמו בסקר — לא תחזית המודל"
+Footer: "השוואת 19–21.10.2026 | מקור: חדשות 12 / מדגם, מנו גבע"
+Footer: "אין להסיק מכך לבדו מעבר מצביעים או מגמה מובהקת"
+Small discreet credit: "ויקטור רינה בן דוד"
+Constraints: All exact visible figures are source-backed and must remain unchanged. Make all text fully readable, ample margins, no clutter, no extra statistics, no probability claims, no significance stars, no arrows implying identified voter transfer. Numeric arrows indicate only before-to-after seat allocation, not physical migration. The continuous51counter is the central visual story. Coral accents for coalition consistent with the site, parchment cream and blue Jerusalem sky. Opaque background. Draw a polished shareable editorial illustration rather than generic rectangles.

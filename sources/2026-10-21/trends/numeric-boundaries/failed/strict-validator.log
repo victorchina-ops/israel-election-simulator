@@ -1,0 +1,17 @@
+Command: python -X utf8 scripts/validate-strict-trends-2026-10-21.py --resolve-boundaries
+Execution session: 84687
+Exit code: 1
+Validator source SHA-256: 26508c81b8c6f664105edb69d0a1a7b757b21904081e7fdd3bde1230f8e90a7a
+Captured tool output below; line endings normalized to LF for this transcript.
+
+{"status": "BOUNDARY_START", "kind": "bloc", "identity": "opposition"}
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21.py", line 309, in <module>
+    main()
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21.py", line 241, in main
+    boundary_paths.append(boundary_check('bloc',row['group'],bloc['primary']['byPollster'],'groups','group',
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21.py", line 70, in boundary_check
+    assert int(common[0]) == primary_count, ('Common-threshold integer discrepancy requires investigation',kind,identity)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('Common-threshold integer discrepancy requires investigation', 'bloc', 'opposition')

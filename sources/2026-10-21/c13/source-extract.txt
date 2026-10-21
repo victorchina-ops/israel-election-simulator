@@ -1,0 +1,13 @@
+Reviewed published observation hamadad_consortium_2026-10-21; publication 2026-10-21; audit 2026-10-21.
+Original source: https://13tv.co.il/item/news/politics/politics/ksgoq-905411865/.
+Published mandates: {"yashar": 20, "likud": 19, "beyachad": 14, "democrats": 10, "joint": 9, "rz_zehut": 8, "utj": 8, "yisrael_beiteinu": 8, "otzma": 7, "shas": 7, "raam": 6, "hendel": 4, "winter": 0, "haredi_public": 0}
+Exact published percentages: {"winter": 3.2, "hendel": 3.6, "haredi_public": 1.2}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 49, "opposition": 52, "arab_parties": 15, "hendel": 4}
+Sample size exact/exclusive lower bound: 1084/None
+Verified fieldwork: False; None to None
+Missing values are not zero and are never inherited.
+פרסום21.10.2026;1084משיבים וטעות דגימה3% במקור; תאריכי האיסוף לא פורסמו.
+וינטר3.2% מתחת לחסימה; הנדל–זליכה3.6% וארבעה מנדטים; הציבור החרדי1.2%.
+הסקר נכלל במודל העדכני; מוחרג מניתוח המגמות המחמיר כל עוד מועדי האיסוף לא אומתו.
+נתונים חסרים אינם אפס. הגרפיקה היא צילום דפדפן של הגרפיקה המקורית.

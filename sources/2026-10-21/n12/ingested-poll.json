@@ -1,0 +1,338 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "checkedAtUtc": "2026-10-21T18:25:57.812814+00:00",
+  "pollIdProposed": "midgam_geva_2026-10-21",
+  "id": "midgam_geva_2026-10-21",
+  "date": "2026-10-21",
+  "checkedAt": "2026-10-21",
+  "publisher": "חדשות 12",
+  "pollster": "מדגם — מנו גבע",
+  "pollsterId": "midgam_geva",
+  "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+  "sourceTier": "original-publisher",
+  "publicationDate": "2026-10-21",
+  "publicationTime": "21:07",
+  "publicationTimePrecision": "minute",
+  "publishedAt": "2026-10-21T21:07:00+03:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "updatedAt": null,
+  "pageSystemLastUpdateNotEditorialTimestamp": "Wed, 21 Oct 2026 21:18:37 +0300",
+  "publicationDateEvidence": [
+    "meta[property=article:published_time]",
+    "JSON-LD datePublished",
+    "__NEXT_DATA__.props.pageProps.pageData.header.publishDate.datetime",
+    "__NEXT_DATA__.props.pageProps.pageData.seo.publishedTime",
+    "visible time[dateTime]"
+  ],
+  "fieldworkStart": "2026-10-21",
+  "fieldworkEnd": "2026-10-21",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+  "fieldworkEvidence": "מועד איסוף הנתונים: 21.10.2026",
+  "fieldworkProofPointer": "__NEXT_DATA__.props.pageProps.pageData.content[35].html; original article methodology; web reader lines160",
+  "sampleSize": 505,
+  "initialSampleSize": 500,
+  "invitedSampleSize": 2523,
+  "population": "כלל האוכלוסייה בישראל מגיל 18 ומעלה",
+  "samplingMethod": "דגימת שכבות ובתוך השכבות דגימה אקראית; אינטרנטי וטלפוני",
+  "panelProvider": null,
+  "reportedMarginOfErrorPct": 4.4,
+  "reportedMarginOfErrorConfidencePct": null,
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 23,
+    "likud": 19,
+    "beyachad": 15,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "utj": 7,
+    "joint": 9,
+    "shas": 8,
+    "otzma": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "cataloguePartySeatVector": {
+    "yashar": 23,
+    "likud": 19,
+    "beyachad": 15,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "utj": 7,
+    "joint": 9,
+    "shas": 8,
+    "otzma": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "catalogueSeatVectorSize": 17,
+  "zeroSeatsImpliedByPublishedBelowThresholdPartyIds": [
+    "hendel",
+    "haredi_public"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "percentages": {
+    "hendel": 2.8,
+    "haredi_public": 0.3
+  },
+  "reportedPercentages": {
+    "hendel": 2.8,
+    "haredi_public": 0.3
+  },
+  "exactPublishedBelowThresholdPct": {
+    "hendel": 2.8,
+    "haredi_public": 0.3
+  },
+  "publishedBounds": {},
+  "cataloguePartyPublishedPercentageVector": {
+    "yashar": null,
+    "likud": null,
+    "beyachad": null,
+    "democrats": null,
+    "yisrael_beiteinu": null,
+    "utj": null,
+    "joint": null,
+    "shas": null,
+    "otzma": null,
+    "rz_zehut": null,
+    "raam": null,
+    "winter": null,
+    "hendel": 2.8,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": 0.3,
+    "israel_first": null
+  },
+  "knownCataloguePercentageSum": 3.1,
+  "namedUnmodelledPartyPercentages": [
+    {
+      "sourcePartyLabel": "צבע שחור - מגן עולם התורה",
+      "canonicalPartyId": null,
+      "pct": 0.3,
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm"
+    }
+  ],
+  "unmodelledNamedParties": [
+    {
+      "name": "צבע שחור - מגן עולם התורה",
+      "pct": 0.3,
+      "mappedTo": "other"
+    }
+  ],
+  "otherAggregatePublished": false,
+  "namedBlackPercentageIsNotAggregateOther": true,
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "gantz",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "passingPartyPercentagesPublished": false,
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab_parties": 14,
+    "hendel": 0
+  },
+  "baselineObservation": {
+    "pollId": "midgam_geva_2026-10-19",
+    "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm",
+    "date": "2026-10-19",
+    "fieldworkStart": "2026-10-19",
+    "sampleSize": 507,
+    "alreadyIngested": true,
+    "knownPercentages": {
+      "winter": 2.8,
+      "hendel": 2.1,
+      "gantz": 1.4,
+      "haredi_public": 0.2
+    }
+  },
+  "replacesPollId": "midgam_geva_2026-10-19",
+  "duplicateOfBaseline": false,
+  "changedSeatsSinceBaseline": {
+    "yashar": {
+      "before": 24,
+      "after": 23
+    },
+    "likud": {
+      "before": 21,
+      "after": 19
+    },
+    "beyachad": {
+      "before": 14,
+      "after": 15
+    },
+    "otzma": {
+      "before": 8,
+      "after": 7
+    },
+    "rz_zehut": {
+      "before": 7,
+      "after": 6
+    },
+    "winter": {
+      "before": 0,
+      "after": 4
+    }
+  },
+  "publishedPreviousPollDate": "2026-10-19",
+  "publishedPreviousBlocSeats": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab_parties": 14,
+    "hendel": 0
+  },
+  "supplementaryVotingIntentions": {
+    "overallPct": 75,
+    "coalitionVotersPct": 76,
+    "oppositionVotersPct": 82,
+    "arabRespondentsPct": null,
+    "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+    "isForecastTurnout": false,
+    "exactGroupDefinitionsPublished": false,
+    "changesSimulationDefaults": false
+  },
+  "alternativeWithdrawalScenariosAreNotIndependentPolls": true,
+  "sourceDocument": {
+    "fileName": "n12-reviewed-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "67981747e478aef829389aee4101aacefea620f0e8283ce40211a5887502d0cc",
+    "extractFileName": "n12-reviewed-facts.txt",
+    "extractSha256": "67981747e478aef829389aee4101aacefea620f0e8283ce40211a5887502d0cc",
+    "reviewedAt": "2026-10-21",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "originalGraphicSourceUrl": "https://infogram.io/p/05585369913232e9ba80282123680b53.png",
+    "originalGraphicFileName": "original-embedded-poll.png",
+    "originalGraphicSha256": "3932b147328eb396023bf3f39c1173901258e2622b31e3fd43abe8816a7a9ad1",
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 0,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "panelProvider",
+      "reportedMarginOfErrorConfidencePct",
+      "percentageDenominator",
+      "undecidedPct",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "full-passing-party-percentages"
+    ],
+    "verificationFileName": "n12-verification-summary.json",
+    "verificationSha256": "c4354b6f00b56874dcd31c8844017a8041124fdaeaab0592bb062c665b8269ec",
+    "fieldworkProofFileName": "n12-verification-summary.json",
+    "fieldworkProofSha256": "c4354b6f00b56874dcd31c8844017a8041124fdaeaab0592bb062c665b8269ec",
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/n12-reviewed-facts.txt",
+    "extractArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/n12-reviewed-facts.txt",
+    "originalGraphicArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/original-embedded-poll.png"
+  },
+  "rawSourceLocalOnly": {
+    "fileName": "original-article-local-only.html",
+    "sha256": "c727efe821deafe9130ff2e060ffa2ec4a7b18170b1a8e30c6a52ca2901fc421",
+    "bytes": 187021
+  },
+  "inspectedDirectUrls": [
+    "https://www.n12.co.il/",
+    "https://www.mako.co.il/news-politics",
+    "https://www.mako.co.il/news-israel-elections",
+    "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+    "https://e.infogram.com/ad822f3f-67da-45ef-bf80-ee3322930d41?src=embed"
+  ],
+  "sourceReadLimitations": [
+    "Default shell DNS resolution failed; read-only approved publisher fetch succeeded.",
+    "Web reader could not open embedded Infogram URLs; approved public read-only fetch and PNG visual inspection succeeded.",
+    "Raw N12 election index fetch returned a15678-byte rendered shell; directly opened web-reader election index successfully supplied the new top article."
+  ],
+  "sourceDiscrepancies": [
+    {
+      "field": "articlePublicationTime",
+      "externalWebReader": "18:29",
+      "directOriginalHtml": "21:07",
+      "resolution": "Use21:07 from direct raw visible time and independent metadata; web reader cache stale/inconsistent."
+    },
+    {
+      "field": "embeddedChartFooterDate",
+      "labelDate": "2026-10-19",
+      "articlePublicationAndExplicitCollectionDate": "2026-10-21",
+      "resolution": "Retain label as source anomaly. Embedded numeric values and original PNG match21October article; explicit methodology governs collection date."
+    }
+  ],
+  "originalGraphicInspectedThisTask": true,
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "secondaryIsraelPollsCheck": "Parent owns mandatory parallel IsraelPolls profile, graphic and historical-table check; not represented as checked in this N12-only receipt.",
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false,
+  "notes": [
+    "הפרסום והאיסוף21.10.2026; תאריך21:07 מאומת ב-HTML המקורי.",
+    "כיתוב19.10.2026 נשאר באינפוגרם המקורי אף שהמספרים תואמים את הסקר החדש; נשמר כחריגת מקור ואינו מועד האיסוף.",
+    "גנץ, נעם וישראל תחילה לא מוצגים בפרסום ונשארים חסרים; אין להעביר אחוזים מהסקר הקודם.",
+    "צבע שחור0.3% הוא נתון לרשימה בשם מפורש, לא אחוז מצרפי שפורסם לכל האחרים."
+  ],
+  "secondarySourceUrls": [
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/frozen-reviewed-candidate.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/n12-reviewed-facts.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/n12-verification-summary.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/original-embedded-poll.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/embedded-chart-reviewed-facts.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/source-extract.txt"
+  ],
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-21/n12/reviewed-poll.json"
+}

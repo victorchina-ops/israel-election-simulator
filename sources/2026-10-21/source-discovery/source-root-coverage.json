@@ -1,0 +1,89 @@
+{
+  "status": "reviewed",
+  "asOf": "2026-10-21",
+  "checkedAtUtc": "2026-10-21T18:45:20.923565+00:00",
+  "primaryPollsVerified": [
+    "midgam_geva_2026-10-21",
+    "hamadad_consortium_2026-10-21",
+    "next_data_2026-10-21"
+  ],
+  "IsraelPolls": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "webReader": "403",
+    "actualChromeCuaProfileAndN12GraphicHistory": "success",
+    "receipt": "source-israelpolls/scan-receipt.json",
+    "receiptSha256": "5cb51b196aa9f49501d295f5396ed30d4bf1950e4ab6b510b26880b6524566dd"
+  },
+  "primaryIndexChecks": [
+    {
+      "url": "https://www.n12.co.il/",
+      "result": "read"
+    },
+    {
+      "url": "https://www.mako.co.il/news-israel-elections",
+      "result": "read; new21Oct primaryarticle verified by source agent and rootXcrosscheck"
+    },
+    {
+      "url": "https://13tv.co.il/news/",
+      "result": "read; new21Oct headline and primaryarticle verified via actualChromeDOM/graphic plus rootJSON-LD"
+    },
+    {
+      "url": "https://13tv.co.il/news/politics/",
+      "result": "read"
+    },
+    {
+      "url": "https://www.c14.co.il/",
+      "result": "read; new21Oct poll discovered and originalHTML/graphics verified"
+    },
+    {
+      "url": "https://www.c14.co.il/archive/65839",
+      "result": "read"
+    },
+    {
+      "url": "https://www.i24news.tv/he/news/israel-elections-2026/polls",
+      "result": "read; latest displayed20Oct observation already in database"
+    },
+    {
+      "url": "https://www.walla.co.il/news/politics",
+      "result": "read;20Octpoll link already in database; no additional complete poll verified"
+    },
+    {
+      "url": "https://www.zman.co.il/",
+      "result": "read"
+    },
+    {
+      "url": "https://www.zman.co.il/feed/33350/",
+      "result": "read; no additional complete new poll verified in this bounded check"
+    },
+    {
+      "url": "https://www.israelhayom.co.il/news/politics",
+      "result": "read; no complete additional new poll verified"
+    }
+  ],
+  "accessLimitations": [
+    {
+      "url": "https://www.kan.org.il/",
+      "reason": "Reader returned zero lines; current content not successfully verified"
+    },
+    {
+      "url": "https://www.ch16.co.il/",
+      "reason": "Reader returned zero lines; current content not successfully verified"
+    },
+    {
+      "url": "https://www.maariv.co.il/news/politics",
+      "reason": "Non-retryable reader error; no publication absence claim"
+    },
+    {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "reason": "Web reader403; actualChromeCUA succeeded independently"
+    }
+  ],
+  "rootSourceChecks": {
+    "n12": "Originalcandidate matches actuallyreadIsraelPollsgraphicand21Octhistory; fieldquote independentlymatches hashedraworiginal; chart19Octfooter anomalyretained.",
+    "c13": "RootindependentlyparsedoriginalJSON-LD datePublished/sample1084/MOE3/W3.2/H3.6/HP1.2 andactuallyviewedoriginalgraphic; fielddatesleftmissing.",
+    "c14": "Rootactuallyviewedoriginalnumericgraphicandindependentlymatchedhashedrawexplicitfieldquote; all120seatsandbelowthresholdvaluesagree."
+  },
+  "secondaryWeeklySummariesNotCountedAsPolls": true,
+  "fullAuthoredArticleBodiesStayLocal": true,
+  "missingValuesNotZero": true
+}

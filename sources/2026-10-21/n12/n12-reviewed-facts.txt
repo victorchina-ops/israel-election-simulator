@@ -1,0 +1,16 @@
+N12/Midgam factual extract, rewritten for audit; checked 2026-10-21.
+Original URL: https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm
+Publication: 21 October 2026, 21:07, Asia/Jerusalem. This is a new survey replacing the 19 October observation.
+Collection: 21 October 2026. Fieldwork clock times are not given.
+Method: representative Israeli adult sample, age18+, strata and random selection within strata; internet plus telephone.
+Actual respondents505; initial target500; invited2523. Reported maximum sampling error4.4 percentage points; confidence level not stated.
+Seats: Yashar23; Likud19; Beyachad15; Democrats9; Joint9; Shas8; YisraelBeiteinu8; UTJ7; Otzma7; ReligiousZionism-Zehut6; Raam5; Winter4. Total120.
+Below threshold: Hendel-Zelekha2.8%; HarediPublic0.3%; named unmodelled Black/Defender of Torah World0.3%.
+No passing-party vote percentages are reported. Gantz, Noam and IsraelFirst percentages and published seat entries are unreported, not observed zeros. No overall other-party percentage is reported; Black0.3% is a named party only.
+Blocs: Netanyahu51; Zionist opposition55; Arab parties14. These match the party vector. No change from the publisher's19October bloc totals.
+Reported intentions to vote: overall75%; Netanyahu-bloc respondents76%; change-bloc respondents82%. These are survey responses, not realized turnout or turnout forecasts. Arab-group intention is not stated in the inspected article.
+Primary article publication metadata and visible raw timestamp agree at21:07. The external web reader displayed18:29; retain this cache discrepancy without adopting that time.
+The article's embedded Infogram chart and exported original PNG independently match the new seats and Hendel2.8%, but retain an outdated footer label19.10.2026. The explicit article methodology gives21October collection; the footer is not used to date the observation.
+Alternative withdrawal scenarios in the same article are variants of this survey and are not separate polls.
+Percentage denominator, undecided share, panel provider, confidence level and collection clock times are not supplied in the inspected methodology.
+The full authored article and primary indexes remain local-only. This factual extract contains no copied article prose.

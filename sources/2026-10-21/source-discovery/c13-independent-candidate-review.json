@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "reviewedAtUtc": "2026-10-21T18:49:33.935723+00:00",
+  "scope": "Independent read-only candidate QA against saved original HTML/JSON-LD and visually inspected browser capture; no network research and no candidate/source mutation.",
+  "candidateSha256": "a01978ceb92982d2b873b2656e7a9fda9496a353440ba3fd62855b1558d44882",
+  "verificationSha256": "13aa79a709aa84ba097f8fd19e79eb756445951a64c10566a6d5cf9bb80d3208",
+  "checks": {
+    "all_seats_match_original_article_and_visually_reviewed_graphic": true,
+    "seat_sum_120": true,
+    "blocs_match_49_52_15_4": true,
+    "percentages_match_original_article": true,
+    "sample_n_1084_and_moe_3": true,
+    "published_timestamp_matches_original_metadata": true,
+    "updated_timestamp_matches_original_jsonld": true,
+    "replaces_only_19_oct_poll": true,
+    "fieldwork_missing_and_strict_false": true,
+    "unreported_parties_not_zeroed": true,
+    "missing_metadata_remains_null": true,
+    "graphic_explicitly_browser_capture": true,
+    "raw_hash_matches": true,
+    "graphic_hash_matches": true,
+    "extract_hash_matches": true,
+    "verification_hash_matches": true,
+    "verification_matches_candidate_numbers": true
+  },
+  "blockingFindings": [],
+  "sourceMetadataObservation": {
+    "field": "NewsArticle.dateline",
+    "value": "דיווח מישראל, 22 אוקטובר 2026",
+    "resolution": "Dateline says22October, whereas explicit original publishDate/datePublished and dated graphic agree21October. Accepted21October publication is supported; no fieldwork inferred. This is a source metadata inconsistency, not a numeric/candidate failure."
+  },
+  "originalGraphicImageUrlObservedDuringSourceReview": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1792597503/uploads/2026/905411907.webp",
+  "zeroSeatsJustification": {
+    "winter": "Explicitly below threshold at3.2%; zero seats follows the published finding.",
+    "haredi_public": "Explicitly below threshold at1.2%; zero seats follows the published finding."
+  },
+  "canonicalDataChanged": false,
+  "sourceFilesChanged": false
+}

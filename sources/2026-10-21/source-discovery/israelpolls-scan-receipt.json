@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-21",
+  "checkedAtUtc": "2026-10-21T18:33:04.881059+00:00",
+  "profileUrl": "https://x.com/IsraelPolls?s=20",
+  "profilePostsObserved": 2805,
+  "accessMethod": "Actual Chrome CUA profile, N12 graphic carousel and historical table visually inspected; web reader403 separately recorded",
+  "webReaderAccessible": false,
+  "browserAccessible": true,
+  "newPollGraphicUrl": "https://x.com/IsraelPolls/status/2112971144915525791/photo/1",
+  "graphicPostTime": "2026-10-21T21:15:00+03:00",
+  "historyTablePostUrl": "https://x.com/IsraelPolls/status/2112973130109239654/photo/1",
+  "tablePostTime": "2026-10-21T21:23:00+03:00",
+  "tableImageUrl": "https://pbs.twimg.com/media/HVLJ3EqW4AAxfz7?format=png&name=medium",
+  "tableImageFile": "n12-history-table.png",
+  "tableImageSha256": "455183961bd265f3df9f38584f7ccbb65537e03179c0ac7d9f3c6495dd8fc03d",
+  "tableImageVisuallyInspected": true,
+  "tableLastPollDate": "2026-10-21",
+  "candidateSha256": "566dcde1d07f153d8906d92f221ceb5fb84e64c54585e0f841f36904372455b1",
+  "latestSeatsExactlyMatchPrimary": true,
+  "latestSeatTotal": 120,
+  "latestBelowThresholdPctMatched": {
+    "hendel": 2.8,
+    "haredi_public": 0.3
+  },
+  "latestBlocsMatched": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab": 14
+  },
+  "priorPollDate": "2026-10-19",
+  "priorBlocsMatched": {
+    "coalition": 51,
+    "opposition": 55,
+    "arab": 14
+  },
+  "winterPreviousSeats": 0,
+  "winterCurrentSeats": 4,
+  "tableZeroesForUnreportedPartiesNotIngestedAsPrimaryZeroes": true,
+  "weeklyComparisonSummariesNotIngestedAsPolls": true,
+  "c13CurrentProfilePostNotYetObservedAtThisBoundedCheck": true,
+  "c13NoPublicationAbsenceClaim": true,
+  "primarySourceControlsPublicationAndFieldworkDates": true,
+  "fullProfileTextPublished": false
+}

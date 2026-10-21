@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "baselineAsOf": "2026-10-19",
+  "asOf": "2026-10-20",
+  "comparisonTolerance": 1e-12,
+  "allPrimaryAndPublicationAxisResultsAgree": true,
+  "exactCombinedTailIntegersAgree": true,
+  "independentDPTailsAgreeWithFrozenReference": true,
+  "allIndividualPAndBHAndSignFlipResultsAgree": true,
+  "cohortAndWeightsAndEffectsUnchanged": true,
+  "frozenOutputs": [
+    {
+      "file": "analysis.json",
+      "frozenSha256": "e14ef7e182b84329c6d437539c83dbda3c1314457f6de025d91e10c9099cc355",
+      "newSha256": "7ed6adf467fa0f6016393e74f0ba2cf29bc14751c6e288f15fde87826e00d445"
+    },
+    {
+      "file": "party-analysis.json",
+      "frozenSha256": "8c1c708b70ffc3e8448b873eab45b13759fcbc0df8effed24a775a83b1601363",
+      "newSha256": "a9c221c7481ffcae1f6298a6253d4caf3ea846f12e94ec11d1cc2ad7f175bd5e"
+    }
+  ],
+  "backendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "wrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "validatorSha256": "9a4ab89bec68abbcf05666f37a3ce40534f0d018efaa0f528220e48276f9d9d8",
+  "checkpointManifestSha256": "1b508593083afa9ca1b0e35dc8d45c6cd54aad8d3a511619228a2179af57c937",
+  "frozenCounterHashes": {
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "benchmarkLineageHashes": {
+    "bloc-enumeration-lineage.json": "eebe1fd20445bed0059e27a717b099178be83994440194471e16a13580e956eb",
+    "independent-bloc-enumeration-lineage.json": "f09dc5d122afaac8c67798d8394a11ae16d5ce86761c3cc10c5338543f77cccd",
+    "independent-party-enumeration-lineage.json": "6e2b19401b30231f2d0ed726b1810ce852ee881fd38826ce99fd636dadbed3cf",
+    "party-enumeration-lineage.json": "900d4464cc5668170efdcfb816a41037c10fb2b3b31601ec9ab6036880ec6847"
+  }
+}

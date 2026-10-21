@@ -1,0 +1,24 @@
+{
+  "status": "PASS-SOURCE-BOUND-IMAGE",
+  "asOf": "2026-10-21",
+  "image": "winter-four-bloc-unchanged.png",
+  "imageSha256": "21b0adc3add7351f77629e1c418a8d2c70402203325d2a9fc224c34036d6db3e",
+  "dimensions": [
+    1122,
+    1402
+  ],
+  "prompt": "image-prompt.txt",
+  "promptSha256": "32a5dd7619d54ba894578096196330d938aa11223c126476d337e6fde5b1bd21",
+  "generator": "built-in image_gen",
+  "generationCalls": 1,
+  "imageEditingPerformed": false,
+  "visualInspectionCompleted": true,
+  "rootVisualInspection": "Actual generated pixels read; title, both51totals,19/21Oct dates, Winter0to4, Likud21to19, Otzma8to7,RZ7to6 and fullsource/model distinction/credit legible.",
+  "sourceScope": "Published N12 seat estimates19Oct versus21Oct. Not simulated probabilities or aggregate model.",
+  "currentPrimaryCandidateSha256": "566dcde1d07f153d8906d92f221ceb5fb84e64c54585e0f841f36904372455b1",
+  "secondaryHistoryReceiptSha256": "5cb51b196aa9f49501d295f5396ed30d4bf1950e4ab6b510b26880b6524566dd",
+  "meansOrProbabilitiesShown": false,
+  "significanceClaimed": false,
+  "voterTransfersClaimed": false,
+  "automaticTweetPosted": false
+}

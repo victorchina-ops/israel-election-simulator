@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-21",
+  "outcome": "opposition",
+  "reviewedAtUtc": "2026-10-21T19:04:32.646971+00:00",
+  "scope": "Independent code/provenance and exact integer arithmetic review of the executed bounded diagnostic. No heavy tail counter or simulation rerun by reviewer.",
+  "diagnosisSha256": "c414a4dc5e979f8da467296c038035d7dffb937961fee26945cfb665d78ff74a",
+  "reproducerSha256": "eba421c317aa995007faa76f48bbffdf87cd2607f11a5b35e589a0eb2ee76492",
+  "diagnosticSourceSha256": "4d279ec0c1cc29d7bbc4d3a2d938846af89dd9d0d52f06d9f7166642b405624b",
+  "inputHashes": {
+    "artifacts/strict-post-close/analysis.json": "f27c34d9e2c62a2cea61a6678ae759f72006280e64aee7e333261531643240eb",
+    "artifacts/strict-post-close/independent-strict-numeric-audit.json": "8401fe9624698b93afc8521932e9485f65340e1166b74f42491dbcd9c9f75c92",
+    "data/poll-history.json": "24901247422867a70d4418bb1d8c5004eda9f7d4e368a6923f862d95740faa45",
+    "data/current-polls.json": "ab99d88c44fb75c40dffbf72b6edf2662cdf69cfef443e5d05d0b8e5c18a751b",
+    "scripts/exact_scalar_marginals_2026_10_20.py": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "artifacts/strict-post-close/party-analysis.json": "72b4e40c4cfea84d9e4b44d37801cd7976101c67495ae448ac6bb7b9236d3179",
+    "artifacts/strict-post-close/party-independent.json": "7a871c56d86f7d0bf729af0ae3c048a059f72569afa1232ba198f08840cef817",
+    "data/strict-party-trends.json": "e5fa33ba10dcbb593a9eac85747bda3715642cf41d68bc49c95d0aa449351160"
+  },
+  "primaryObservedHex": "-0x1.78ff70b3ec070p-3",
+  "independentObservedHex": "-0x1.78ff70b3ec06cp-3",
+  "observedULPDistance": 4,
+  "primaryExtremeCountExact": "13023182859768479435851196006400",
+  "independentExtremeCountExact": "13023182859768735597618580684800",
+  "totalExact": "114261688983237278721638400000000",
+  "checks": {
+    "all_current_inputs_match_diagnosis_hashes": true,
+    "registered_frozen_counters_unchanged": true,
+    "diagnostic_changes_only_two_float_predicates": true,
+    "source_asserts_full_primary_unique_and_independent_DP_scalar_arrays_and_multiplicities_equal": true,
+    "source_asserts_all_eight_factorial_masses_and_total_exact": true,
+    "actual_57_poll_support_metadata_rebuilt_from_history": true,
+    "halves_same_stable_partition_order_and_state_sizes": true,
+    "raw_half_masses_and_total_independently_recomputed": true,
+    "both_operational_predicates_counted_at_both_observed_statistics": true,
+    "primary_count_exactly_reproduced_by_independent_DP_two_pointer_subtraction": true,
+    "frozen_independent_count_exactly_reproduced_by_original_addition_at_own_statistic": true,
+    "four_counts_within_same_exact_universe": true,
+    "both_signed_net_decompositions_exact": true,
+    "exact_probability_fraction_recomputed": true,
+    "p_and_q_unchanged_and_match_canonical_outputs": true,
+    "no_tolerance_widening": true
+  },
+  "countMatrix": {
+    "primaryObserved": {
+      "subtraction": "13023182859768479435851196006400",
+      "addition": "13023182859768493690604381798400"
+    },
+    "independentObserved": {
+      "subtraction": "13023182859768735597618580684800",
+      "addition": "13023182859768735597618580684800"
+    }
+  },
+  "signedCountDecomposition": {
+    "predicateAtPrimary": "14254753185792000",
+    "directObservedShift": "241907014198886400",
+    "subtractionObservedShift": "256161767384678400",
+    "predicateAtIndependent": "0",
+    "totalDifference": "256161767384678400"
+  },
+  "probabilityDifferenceExactFraction": "6649/2965805466624000000",
+  "probabilityDifference": 2.241886757181215e-15,
+  "toleranceUnchanged": 1e-12,
+  "operationalPredicatesDistinct": true,
+  "decompositionIsSignedNetCountDifferenceNotPairEnumeration": true,
+  "pOrQChanged": false,
+  "frozenMethodsChanged": false,
+  "heavyCounterRunByReviewer": false,
+  "findings": [],
+  "judgment": "The difference is explained jointly by binary sum-versus-subtraction predicates at a fixed cutoff and separately computed observed thresholds. It is not explained by observed-statistic rounding alone. Primary searchsorted and independent DP two-pointer agree exactly under the same primary subtraction predicate. The frozen direct-addition result remains separately valid and retained.",
+  "gateScope": "This proof supports only a separately reviewed21October bloc/opposition compatibility adapter bound to these hashes, exact statistics, integer counts and registered tolerance; it does not support a generic approximate-integer bypass."
+}

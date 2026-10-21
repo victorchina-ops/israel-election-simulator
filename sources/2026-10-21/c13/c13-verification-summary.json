@@ -1,0 +1,62 @@
+{
+  "status": "PASS-WITH-UNVERIFIED-FIELDWORK",
+  "asOf": "2026-10-21",
+  "pollId": "hamadad_consortium_2026-10-21",
+  "sourceUrl": "https://13tv.co.il/item/news/politics/politics/ksgoq-905411865/",
+  "primaryPublisherRead": true,
+  "directPrimaryHomepageAndPoliticsIndexChecked": true,
+  "publishedAt": "2026-10-21T20:54:56+03:00",
+  "updatedAt": "2026-10-21T21:14:33+03:00",
+  "publicationEvidence": [
+    "Primary original DOM meta[name=publishDate]",
+    "Primary JSON-LD NewsArticle.datePublished",
+    "Original numeric graphic21.10.26"
+  ],
+  "sampleSize": 1084,
+  "reportedMarginOfErrorPct": 3,
+  "sampleAndMarginEvidencePointer": "JSON-LD NewsArticle.articleBody final methodology sentence",
+  "fieldworkVerified": false,
+  "strictEligible": false,
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "fieldworkDatesNotImputed": true,
+  "originalGraphicVisuallyInspectedBySourceAgentAndRoot": true,
+  "graphicFile": "original-graphic-browser.png",
+  "graphicSha256": "81f411b2ecb18e7a1820bb5f81ebce6292809b68024e550403eb6b4266b03700",
+  "seats": {
+    "yashar": 20,
+    "likud": 19,
+    "beyachad": 14,
+    "democrats": 10,
+    "joint": 9,
+    "rz_zehut": 8,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "otzma": 7,
+    "shas": 7,
+    "raam": 6,
+    "hendel": 4,
+    "winter": 0,
+    "haredi_public": 0
+  },
+  "reportedPercentages": {
+    "winter": 3.2,
+    "hendel": 3.6,
+    "haredi_public": 1.2
+  },
+  "blocs": {
+    "coalition": 49,
+    "opposition": 52,
+    "arab_parties": 15,
+    "hendel": 4
+  },
+  "factualExtractFile": "c13-reviewed-facts.txt",
+  "factualExtractSha256": "56aa8bc236eab03b9a925775fb9b757f296cd4f3eeabcf00b92b5470f3504f75",
+  "localOnlyOriginal": {
+    "file": "artifacts/poll-checks/2026-10-21/source-c13/original-article-local-only.html",
+    "sha256": "11e660e8bf82a427f344d87107b0a29b7e0c96939b3ce0850242e58565d063f4"
+  },
+  "fullArticlePublished": false,
+  "rootIndependentRawJsonLdRead": true,
+  "localGraphicIsBrowserCaptureOfPrimaryGraphic": true
+}

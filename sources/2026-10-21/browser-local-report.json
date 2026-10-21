@@ -1,0 +1,216 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "asOf": "2026-10-21",
+  "runId": "reviewed",
+  "checkedAtUtc": "2026-10-21T19:16:28.182610+00:00",
+  "url": "http://127.0.0.1:8795/?view=1&tab=dashboard",
+  "browserAutomation": "cua",
+  "browser": "Chrome",
+  "tabId": "1913181326",
+  "freshAboutTabId": "1913181326",
+  "sourcePlanSha256": "75fb61e91ff2b61e6d1d4319201afad55fe3c8fde62cdf88ad77c2933a9cae9c",
+  "officialSourceSnapshotSha256": "cfdb16a0ec7f1d3cb6265caf52f01f32641abb27010ee8114c8d5976548de3b1",
+  "servedHTMLSha256": "5a6192293ee67166277834efa1a9a400ee37c94f0156604f380ac8bf8038de61",
+  "distHTMLSha256": "5a6192293ee67166277834efa1a9a400ee37c94f0156604f380ac8bf8038de61",
+  "servedHTMLExactByteMatch": true,
+  "checks": [
+    {
+      "id": "fresh-approved-build",
+      "status": "passed",
+      "observed": "Fresh isolated CUA Chrome tab1913181326 loaded8795. Browser snapshot meta matches approved21October source snapshot; read-only HTTP200 returned8532827bytes exactly matching approved dist HTML."
+    },
+    {
+      "id": "actual-site-defaults",
+      "status": "passed",
+      "observed": "Historical accuracy quality selected; Channel14OFF; similarityOFF; turnout2022 and motivation100. Seven of eight active sources selected."
+    },
+    {
+      "id": "default-replay",
+      "status": "passed",
+      "observed": "Displayed means50.69/53.63/13.88/1.80 and threshold probabilities Winter33.22%,Hendel42.89% match the official new default replay at display precision."
+    },
+    {
+      "id": "preferred-similarity-replay",
+      "status": "passed",
+      "observed": "Enabled current-poll similarity while retaining quality/no14. Displayed means51.02/53.41/13.75/1.81 and Winter35.90%,Hendel42.11% match official SIMON replay; selection persists between tabs."
+    },
+    {
+      "id": "new-source-metadata-and-history",
+      "status": "passed",
+      "observed": "N12/C13/C14 publication dates21October and samples505/1084/1954 shown. N12/C14 fieldwork21October; C13 explicitly not verified. Expanded source archive visibly states138 historical polls and preserved prior observations."
+    },
+    {
+      "id": "strict-cohort-selection",
+      "status": "passed",
+      "observed": "Without14 strict cohort44polls/7series/37deltas; enabling14 shows separately recomputed57/8/49. Both cover verified collection9September–21October. Similarity warning keeps canonical significance separate. Channel14 restoredOFF."
+    },
+    {
+      "id": "exclusive-party-assignment",
+      "status": "passed",
+      "observed": "Seventeen distinct visible assignment selects; seven coalition,four opposition,six unassigned. Winter=a; Hendel=other; Arab parties outside both blocs and reported separately. UI explains exclusive120-seat partition."
+    },
+    {
+      "id": "threshold-model-and-joint-definition",
+      "status": "passed",
+      "observed": "Threshold page distinguishes3.25% published vote threshold from modeled crossing probability, and explains that selected parties fail in the same simulation. Unsupported lists remain unestimated."
+    },
+    {
+      "id": "fresh-about-appearance-no-ask",
+      "status": "passed",
+      "observed": "Fresh root visit opened About automatically with original loaded320px portrait, contact, explanations and source credits. Toggled isolated appearance dark→light, reloaded and confirmed light persists. AskChatGPT button count0."
+    },
+    {
+      "id": "layout-and-restoration",
+      "status": "passed",
+      "observed": "Actual four fresh JPEGs visually inspected. Page width2033 is within2048viewport; no horizontal page overflow. Final isolated scenario restoredquality/no14/similarityOFF. User8790/8765 and public preferences untouched."
+    }
+  ],
+  "defaultObserved": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": false,
+    "winterPassPct": 33.22,
+    "hendelPassPct": 42.89,
+    "blocMeansDisplayed": [
+      50.69,
+      53.63,
+      13.88,
+      1.8
+    ]
+  },
+  "similarityObserved": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": true,
+    "winterPassPct": 35.9,
+    "hendelPassPct": 42.11,
+    "blocMeansDisplayed": [
+      51.02,
+      53.41,
+      13.75,
+      1.81
+    ]
+  },
+  "preferredReplayExpected": {
+    "coalition": 51.0212,
+    "opposition": 53.4133,
+    "arab": 13.7544,
+    "other": 1.8111,
+    "winterPassPct": 35.9,
+    "hendelPassPct": 42.11
+  },
+  "officialComparisonHashes": {
+    "model-comparison": "373cc69af7832bbfcddac94db82b088b58599d5808d56080c49ac5e5f004b8b2",
+    "model-comparison-similarity": "46018df7e5138918f262421c6feb14cc73ca40c6ca3db04f252cfa2f408202fe"
+  },
+  "observedAssignments": [
+    {
+      "label": "שיוך הליכוד לגוש",
+      "value": "a"
+    },
+    {
+      "label": "שיוך יהדות התורה לגוש",
+      "value": "a"
+    },
+    {
+      "label": "שיוך ש״ס לגוש",
+      "value": "a"
+    },
+    {
+      "label": "שיוך עוצמה יהודית לגוש",
+      "value": "a"
+    },
+    {
+      "label": "שיוך הציונות הדתית–זהות לגוש",
+      "value": "a"
+    },
+    {
+      "label": "שיוך עמך ישראל לגוש",
+      "value": "a"
+    },
+    {
+      "label": "שיוך נעם לישראל לגוש",
+      "value": "a"
+    },
+    {
+      "label": "שיוך הרשימה המשותפת לגוש",
+      "value": "other"
+    },
+    {
+      "label": "שיוך רע״ם לגוש",
+      "value": "other"
+    },
+    {
+      "label": "שיוך המילואימניקים והכלכלית לגוש",
+      "value": "other"
+    },
+    {
+      "label": "שיוך כחול לבן לגוש",
+      "value": "other"
+    },
+    {
+      "label": "שיוך הציבור החרדי לגוש",
+      "value": "other"
+    },
+    {
+      "label": "שיוך ישראל תחילה לגוש",
+      "value": "other"
+    },
+    {
+      "label": "שיוך ישר! לגוש",
+      "value": "b"
+    },
+    {
+      "label": "שיוך ביחד לגוש",
+      "value": "b"
+    },
+    {
+      "label": "שיוך הדמוקרטים לגוש",
+      "value": "b"
+    },
+    {
+      "label": "שיוך ישראל ביתנו לגוש",
+      "value": "b"
+    }
+  ],
+  "strictObserved": {
+    "without14": {
+      "polls": 44,
+      "series": 7,
+      "deltas": 37
+    },
+    "with14": {
+      "polls": 57,
+      "series": 8,
+      "deltas": 49
+    },
+    "historyPolls": 138
+  },
+  "evidenceTextFiles": {
+    "dashboard-default.txt": "e9e6db7a546a3b3a8273e50d5c7c47a290185b0028034700c5396bdf778642cc",
+    "dashboard-similarity-on.txt": "90480206e6cb6505a32e41c89fddcef1cccbd5f5349c8b4cea89096fcfbabcd9",
+    "final-default-dashboard.txt": "e67f9a58081b7f202120ece713695abd65ec6c0f9c450ff1bbf2bef9c28d8b25",
+    "fresh-about-dark.txt": "4fe84fa89fd8eb667cf4df79067645c6925b87cc601c702c9a06a103cc17b2d3",
+    "fresh-about-light-persisted.txt": "e5398772558e382823db6c803898de0d9a7198adf0b0c6e19ca4e0222756ca5b",
+    "poll-data-expanded-archive.txt": "fc05d8ee9f977e0be59830a4fe35c6f92515f0babdb5f833ab1ab262ea1f9f82",
+    "poll-data.txt": "a1c4a41276854380bc13da8e0c11746321a36e23bed2dda0d667ff61c60de9a1",
+    "threshold-default.txt": "47d330279528727e9bdd9984903a15a120a271382e24ecbaa576fda4c2b9c1fc",
+    "threshold-similarity-on.txt": "74adb60e3c0be89169ae8375c4a20c59ebc2eee227bcec91fd13b1ab078df548",
+    "trends-with14.txt": "6c3f63160635c4b84adb9b14112fe5dcaa40b83d5058cb08216ee0671ef7ac30",
+    "trends-without14.txt": "76ac4a8e2d65caa76fa2c50e8949af222f5c901f4b213fcd320c30904126c6b4"
+  },
+  "actualDOMObservationSha256": "e539e3d7cde6af05f0e0d45e2d798072d1a57df2a0429900c0acc5c768bfe11d",
+  "httpReadbackSha256": "a15fdf7b905e943cce5a5d46c4032241c6aaa786348868a385433fa90699aa03",
+  "screenshotsCaptureFormat": "JPEG from documented actual CUA getScreenshot",
+  "userScenarioTouched": false,
+  "productionScenarioTouched": false,
+  "finalIsolatedScenario": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": false,
+    "appearance": "light persisted after isolated8795reload"
+  },
+  "initialConnectionIssueResolved": "First sandbox server was unreachable; root restarted an approved server, after which actual Chrome UI and exact HTTP byte readback passed. No successful check claimed before it loaded.",
+  "scope": "Focused functional and visual QA of actual approved21October build; publication is a separate gate."
+}

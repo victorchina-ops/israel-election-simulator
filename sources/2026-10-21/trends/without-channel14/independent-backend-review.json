@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-20",
+  "reviewer": "independent-c13-source-agent",
+  "backendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "wrapperSha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+  "toyProofSha256": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+  "archive19ProofSha256": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+  "independentExhaustiveChecks": [
+    {
+      "n": 2,
+      "exactMass": "2",
+      "uniqueScores": 2,
+      "labeledBruteForceMatchesBothBuilders": true
+    },
+    {
+      "n": 3,
+      "exactMass": "6",
+      "uniqueScores": 6,
+      "labeledBruteForceMatchesBothBuilders": true
+    },
+    {
+      "n": 4,
+      "exactMass": "24",
+      "uniqueScores": 20,
+      "labeledBruteForceMatchesBothBuilders": true
+    },
+    {
+      "n": 5,
+      "exactMass": "120",
+      "uniqueScores": 44,
+      "labeledBruteForceMatchesBothBuilders": true
+    },
+    {
+      "n": 6,
+      "exactMass": "720",
+      "uniqueScores": 90,
+      "labeledBruteForceMatchesBothBuilders": true
+    },
+    {
+      "n": 7,
+      "exactMass": "5040",
+      "uniqueScores": 159,
+      "labeledBruteForceMatchesBothBuilders": true
+    }
+  ],
+  "singleBlockBeyondInt64": {
+    "n": 21,
+    "massExact": "51090942171709440000",
+    "uniqueAssignments": 21,
+    "objectMassArrayVerified": true,
+    "bothBuildersAgreeWithAnalyticHistogram": true
+  },
+  "mathematicalReview": {
+    "null": "Marginal distribution for each tested outcome equals projecting the same complete-vector within-institute time-permutation null. No cross-outcome maximum or joint-tail statistic is substituted.",
+    "multiplicity": "Each distinct scalar assignment represents product(frequency!) labeled permutations; primary streams assignments and restores this constant factor. Independent DP instead multiplies each branch by remaining labeled choices, with factorial suffix for a sole remaining outcome.",
+    "statistic": "With u=2t, c_i=n*u_i-sum(u), weekly OLS slope is14*sum(c_i*y_i)/(n*sum(u_i^2)-sum(u_i)^2). Independent pairwise-square denominator equals the same quantity.",
+    "independence": "Primary unique-assignment recursion and independent remaining-count/score DP use separate count recurrences; frozen combined tails still use searchsorted versus direct monotone-sweep algorithms. Common input validation and class carrier do not generate either recurrence.",
+    "tolerance": "Frozen combined tails retain1e-12 inclusive cutoff. Primary individual1e-12 and legacy independent-party1e-10 are preserved by exact textual substitutions.",
+    "weightsCohortBhSignFlips": "Frozen analyzers pinned by SHA; wrapper substitutions replace distribution construction and output/input destinations only, preserving statistic, fieldwork cohort, weights, BH families and sign flips.",
+    "mass": "Python integer histogram counts and totals; object multiplicity arrays whenever rawmass exceeds signed64; frozen combined counters promote products and tail accumulation beyond signed64."
+  },
+  "archive19AllIndividualAndOverallPqBothAxesAgree": true,
+  "archive19ExactTailIntegerStringsAgree": true,
+  "archive19CohortWeightsEffectsAgree": true,
+  "frozenCodeNotModified": true,
+  "canonicalDataNotModifiedByReviewer": true,
+  "reviewScriptSha256": "cdf84542d27c87c91a1137a34cfeae10ad046d4b8d2b855638ea8b132000a2af"
+}

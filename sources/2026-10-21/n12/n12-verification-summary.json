@@ -1,0 +1,160 @@
+{
+  "status": "PASS_WITH_SOURCE_CAPTION_AND_READER_CACHE_ANOMALIES",
+  "checkedAtUtc": "2026-10-21T18:25:57.812814+00:00",
+  "asOf": "2026-10-21",
+  "pollId": "midgam_geva_2026-10-21",
+  "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+  "primaryPublisherRead": true,
+  "directPrimaryHomepageAndIndexesChecked": true,
+  "publicationDate": "2026-10-21",
+  "publicationTime": "21:07",
+  "publishedAt": "2026-10-21T21:07:00+03:00",
+  "publicationEvidencePointers": [
+    "meta[property=article:published_time]",
+    "JSON-LD datePublished",
+    "__NEXT_DATA__.props.pageProps.pageData.header.publishDate.datetime",
+    "__NEXT_DATA__.props.pageProps.pageData.seo.publishedTime",
+    "visible time[dateTime]"
+  ],
+  "fieldworkStart": "2026-10-21",
+  "fieldworkEnd": "2026-10-21",
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkProofQuote": "מועד איסוף הנתונים: 21.10.2026",
+  "fieldworkProofPointer": "__NEXT_DATA__.props.pageProps.pageData.content[35].html; original article methodology; web reader lines160",
+  "fieldworkProofQuotedWords": 4,
+  "seats": {
+    "yashar": 23,
+    "likud": 19,
+    "beyachad": 15,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "utj": 7,
+    "joint": 9,
+    "shas": 8,
+    "otzma": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "cataloguePartySeatVector": {
+    "yashar": 23,
+    "likud": 19,
+    "beyachad": 15,
+    "democrats": 9,
+    "yisrael_beiteinu": 8,
+    "utj": 7,
+    "joint": 9,
+    "shas": 8,
+    "otzma": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "publishedPercentages": {
+    "hendel": 2.8,
+    "haredi_public": 0.3
+  },
+  "namedUnmodelledPartyPercentages": [
+    {
+      "name": "צבע שחור - מגן עולם התורה",
+      "pct": 0.3,
+      "canonicalPartyId": null
+    }
+  ],
+  "sampleSize": 505,
+  "initialSampleSize": 500,
+  "invitedSampleSize": 2523,
+  "factualExtractFileName": "n12-reviewed-facts.txt",
+  "factualExtractSha256": "67981747e478aef829389aee4101aacefea620f0e8283ce40211a5887502d0cc",
+  "localRawFileName": "original-article-local-only.html",
+  "localRawSha256": "c727efe821deafe9130ff2e060ffa2ec4a7b18170b1a8e30c6a52ca2901fc421",
+  "sourceFileReceipts": [
+    {
+      "url": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+      "fileName": "original-article-local-only.html",
+      "sha256": "c727efe821deafe9130ff2e060ffa2ec4a7b18170b1a8e30c6a52ca2901fc421",
+      "bytes": 187021,
+      "publicRelease": false
+    },
+    {
+      "url": "https://www.n12.co.il/",
+      "fileName": "n12-home-local-only.html",
+      "sha256": "4ac69c9b54394e22ec141cb23fd7cb834254fdb82c8593d78bca6c4795b9db5e",
+      "bytes": 674524,
+      "publicRelease": false
+    },
+    {
+      "url": "https://www.mako.co.il/news-politics",
+      "fileName": "n12-politics-local-only.html",
+      "sha256": "32303e62fea96693ad43bba6a987ada3a43bfbbc42ba69bfef2523ce2ab389db",
+      "bytes": 111743,
+      "publicRelease": false
+    },
+    {
+      "url": "https://www.mako.co.il/news-israel-elections",
+      "fileName": "n12-elections-local-only.html",
+      "sha256": "f5bf66081adce059aa1cc7b8084eb051598460b9450ae6df0543d67eda50cc62",
+      "bytes": 15678,
+      "publicRelease": false
+    },
+    {
+      "url": "https://e.infogram.com/ad822f3f-67da-45ef-bf80-ee3322930d41?src=embed",
+      "fileName": "embedded-poll-infogram-local-only.html",
+      "sha256": "3c12270950f2e08a3d3c8fc970d7f188851cee3a6c3e9abebe9fdc24ec02a697",
+      "bytes": 68260,
+      "publicRelease": false
+    },
+    {
+      "url": "https://e.infogram.com/f32694d9-5654-4564-bd93-2fee00410ace?src=embed",
+      "fileName": "embedded-social-infogram-local-only.html",
+      "sha256": "bee6dca161bd433ed4e8f2eb7623585327aa30e8673fc131a3725a7175218da2",
+      "bytes": 54670,
+      "publicRelease": false
+    },
+    {
+      "url": "https://infogram.io/p/05585369913232e9ba80282123680b53.png",
+      "fileName": "original-embedded-poll.png",
+      "sha256": "3932b147328eb396023bf3f39c1173901258e2622b31e3fd43abe8816a7a9ad1",
+      "bytes": 205466,
+      "publicRelease": false
+    }
+  ],
+  "originalGraphicVisuallyReviewed": true,
+  "originalGraphicSourceUrl": "https://infogram.io/p/05585369913232e9ba80282123680b53.png",
+  "originalGraphicFileName": "original-embedded-poll.png",
+  "originalGraphicSha256": "3932b147328eb396023bf3f39c1173901258e2622b31e3fd43abe8816a7a9ad1",
+  "originalGraphicNumericsAgree": true,
+  "sourceDiscrepancies": [
+    {
+      "field": "articlePublicationTime",
+      "externalWebReader": "18:29",
+      "directOriginalHtml": "21:07",
+      "resolution": "Use21:07 from direct raw visible time and independent metadata; web reader cache stale/inconsistent."
+    },
+    {
+      "field": "embeddedChartFooterDate",
+      "labelDate": "2026-10-19",
+      "articlePublicationAndExplicitCollectionDate": "2026-10-21",
+      "resolution": "Retain label as source anomaly. Embedded numeric values and original PNG match21October article; explicit methodology governs collection date."
+    }
+  ],
+  "copyrightFullBodyExcludedFromPublicRelease": true,
+  "fullAuthoredArticleLocalOnly": true,
+  "exactPercentageMissingNotZero": true,
+  "sourceReadLimitations": [
+    "Default shell DNS resolution failed; read-only approved publisher fetch succeeded.",
+    "Web reader could not open embedded Infogram URLs; approved public read-only fetch and PNG visual inspection succeeded.",
+    "Raw N12 election index fetch returned a15678-byte rendered shell; directly opened web-reader election index successfully supplied the new top article."
+  ],
+  "canonicalDataChanged": false,
+  "publicFilesChanged": false
+}

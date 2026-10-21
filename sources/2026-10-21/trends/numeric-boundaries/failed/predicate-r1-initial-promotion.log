@@ -1,0 +1,23 @@
+Command: python -X utf8 scripts/validate-strict-trends-2026-10-21-predicate-r1.py --resolve-boundaries
+Exit code: 1
+Adapter source SHA-256: 0c6f703980a9dc968852e9f8792ea974a76bf3da8b12abd30adf8bb796b08a86
+Captured tool output below; line endings normalized to LF for this transcript.
+All numeric checks had completed and the dated PASS receipt was written. The
+canonical operational party-validation pointer still held its preserved20Oct
+receipt; the original new21 validator's immutable-write call refused promotion.
+The separate promotion helper later copied the exact verified dated receipt,
+after checking the old pointer against the immutable before-checkpoint hash.
+The unchanged predicate-r1 validator then completed successfully on rerun.
+
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21-predicate-r1.py", line 119, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21-predicate-r1.py", line 116, in main
+    base.main()
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21.py", line 304, in main
+    helper.immutable_write(STRICT / 'party-validation.json',result)
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-poll-update-2026-10-20-evening.py", line 133, in immutable_write
+    assert path.read_bytes() == body, f"Dated receipt differs; preserve it and use a distinct reviewed run: {path}"
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Dated receipt differs; preserve it and use a distinct reviewed run: C:\Users\User\Documents\ChatGPT\סקרים ושקרים\artifacts\strict-post-close\party-validation.json

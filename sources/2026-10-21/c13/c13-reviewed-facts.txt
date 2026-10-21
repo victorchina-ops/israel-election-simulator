@@ -1,0 +1,10 @@
+C13 / Hamadad consortium, reviewed publication21October2026.
+Original publisher: https://13tv.co.il/item/news/politics/politics/ksgoq-905411865/
+Published21October20:54:56Asia/Jerusalem; updated 2026-10-21T21:14:33+03:00.
+Published mandate vector: {"yashar": 20, "likud": 19, "beyachad": 14, "democrats": 10, "joint": 9, "rz_zehut": 8, "utj": 8, "yisrael_beiteinu": 8, "otzma": 7, "shas": 7, "raam": 6, "hendel": 4, "winter": 0, "haredi_public": 0}
+Published percentages: {"winter": 3.2, "hendel": 3.6, "haredi_public": 1.2}
+Published blocs: coalition49, opposition52, Arab lists15, Hendel-Zelekha4.
+Actualsample1084; reported maximumsamplingerror3%; confidencelevelnotreported.
+Fieldworkdatesnotpublishedinverifiedarticle/graphic and not inferredfrompublication.
+Method/panel/population/denominator/undecidedmissing. Unmentioned Gantz/Noam/IsraelFirst remain missing.
+Original article body and metadata retained locally; original numeric graphic visually read independently by source agent androot. Full article not republished.
