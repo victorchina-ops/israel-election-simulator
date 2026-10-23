@@ -1,0 +1,13 @@
+Reviewed published observation kantar_2026-10-22; publication 2026-10-22; audit 2026-10-23.
+Original source: https://www.israelhayom.co.il/news/politics/article/21687549.
+Published mandates: {"yashar": 23, "likud": 21, "beyachad": 14, "joint": 9, "otzma": 8, "democrats": 8, "shas": 8, "yisrael_beiteinu": 7, "utj": 7, "rz_zehut": 6, "raam": 5, "hendel": 4, "winter": 0, "haredi_public": 0}
+Exact published percentages: {"winter": 2.7, "haredi_public": 0.7}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 50, "opposition": 52, "arab_parties": 14, "hendel": 4}
+Sample size exact/exclusive lower bound: 1110/None
+Verified fieldwork: True; 2026-10-21 to 2026-10-22
+Missing values are not zero and are never inherited.
+פרסום22.10 ואיסוף21–22.10; הבדיקה23.10 אינה תאריך הפרסום.
+אחוז וינטר2.7 מאומת בפרוזה; הציבור החרדי0.7 מאומת בטקסט התרשים הראשוני הפעיל ובAX, ולא בPNG.
+הנדל4 מנדטים; אחוזו המדויק חסר. גנץ, נעם וישראל תחילה חסרים; אין לאפסם או להעתיק נתון קודם.
+גושים50/52/14 והנדל4 בנפרד;56 בפרוזה כולל את הנדל.

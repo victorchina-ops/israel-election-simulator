@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-23",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "activeSelectedInstitutes": 7,
+  "changedPollsters": [
+    "kantar",
+    "lazar",
+    "maagar_mochot",
+    "next_data",
+    "tatika"
+  ],
+  "newObservationIds": [
+    "tatika_2026-10-22",
+    "lazar_2026-10-23",
+    "kantar_2026-10-22",
+    "next_data_2026-10-22",
+    "maagar_mochot_2026-10-22"
+  ],
+  "publicationDates": [
+    "2026-10-22",
+    "2026-10-23",
+    "2026-10-22",
+    "2026-10-22",
+    "2026-10-22"
+  ],
+  "activePolls": 8,
+  "historyPolls": 143,
+  "allPreviousHistoricalObservationsPreserved": true,
+  "comparisonSha256": "c0d7ca1b40882eebead405091ba612f9b9ce0877c9ce94b3b5843772ee40abcd",
+  "snapshotSha256": "6e634237df78369ae8426587a14fa40549c8bf925ccdad82dae8e7851952347f",
+  "baselineSha256": "896fcedf8026315d33bb7e78e045b5ddeeafbb8ddae3be469b655c5ab83bf4a0",
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "validationScope": "Both endpoints replay the unchanged model; conditional differences are not a significance test."
+}

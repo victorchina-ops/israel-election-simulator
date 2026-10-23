@@ -1,0 +1,127 @@
+{
+  "status": "PASS_PRIMARY_CHART_FACTUAL_EXTRACTION",
+  "asOf": "2026-10-23",
+  "publicationDate": "2026-10-22",
+  "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21687549",
+  "chartUrl": "https://e.infogram.com/85ab0736-3bae-4af4-bdbe-9b183c713f3d?src=embed",
+  "chartPathId": "85ab0736-3bae-4af4-bdbe-9b183c713f3d",
+  "rawChartSha256": "84dce9c2d4ead2ade4b806323e35b79da73ad847809a20e79f934d281a310cb3",
+  "chartUpdatedAtUtc": "2026-10-22T15:33:06.000Z",
+  "chartUpdatedTimestampIsNotNewObservation": true,
+  "activeBlockId": "4fa8747c-7915-463d-8edf-9fa067849015",
+  "barChartEntity": "7b72ab37-bf78-4787-9b2d-b4ffab6da69569fc3b73-ba1e-4a85-913f-76cca8f7335d",
+  "donutChartEntity": "310cf55f-6b7b-4609-9714-2da225da66f9b73f4d87-dced-4ccf-9f0d-d1a789024073",
+  "allSelectedChartEntitiesActiveAndUnhidden": true,
+  "passingPartyRows": [
+    {
+      "sourceLabel": "!ישר",
+      "partyId": "yashar",
+      "seats": 23,
+      "previousChartSeats": 24
+    },
+    {
+      "sourceLabel": "הליכוד",
+      "partyId": "likud",
+      "seats": 21,
+      "previousChartSeats": 21
+    },
+    {
+      "sourceLabel": "ביחד",
+      "partyId": "beyachad",
+      "seats": 14,
+      "previousChartSeats": 12
+    },
+    {
+      "sourceLabel": "הרשימה המשותפת",
+      "partyId": "joint",
+      "seats": 9,
+      "previousChartSeats": 9
+    },
+    {
+      "sourceLabel": "עוצמה יהודית",
+      "partyId": "otzma",
+      "seats": 8,
+      "previousChartSeats": 9
+    },
+    {
+      "sourceLabel": "הדמוקרטים",
+      "partyId": "democrats",
+      "seats": 8,
+      "previousChartSeats": 8
+    },
+    {
+      "sourceLabel": "ש\"ס",
+      "partyId": "shas",
+      "seats": 8,
+      "previousChartSeats": 7
+    },
+    {
+      "sourceLabel": "ישראל ביתנו",
+      "partyId": "yisrael_beiteinu",
+      "seats": 7,
+      "previousChartSeats": 8
+    },
+    {
+      "sourceLabel": "יהדות התורה",
+      "partyId": "utj",
+      "seats": 7,
+      "previousChartSeats": 7
+    },
+    {
+      "sourceLabel": "הציונות הדתית וזהות",
+      "partyId": "rz_zehut",
+      "seats": 6,
+      "previousChartSeats": 6
+    },
+    {
+      "sourceLabel": "רע\"מ",
+      "partyId": "raam",
+      "seats": 5,
+      "previousChartSeats": 5
+    },
+    {
+      "sourceLabel": "המילואימניקים והכלכלית",
+      "partyId": "hendel",
+      "seats": 4,
+      "previousChartSeats": 4
+    }
+  ],
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "belowThreshold": {
+    "winter": {
+      "pct": 2.7,
+      "evidenceKind": [
+        "original-article-prose",
+        "active-primary-chart-text",
+        "saved-browser-accessibility-text"
+      ]
+    },
+    "haredi_public": {
+      "pct": 0.7,
+      "evidenceKind": [
+        "active-primary-chart-text",
+        "saved-browser-accessibility-text"
+      ]
+    }
+  },
+  "belowThresholdTextEntity": "77177c8f-3cbc-46d9-8ed3-37f6053458e2a29b05d7-c294-496b-afb6-7a97ebc0780c",
+  "belowThresholdGroupEntity": "3ac4a9ae-acac-4831-a0b9-94f662f2d53ecadf614b-b2be-4e92-ba82-97ef467baaba",
+  "belowThresholdTextReferencedInActiveBlock": true,
+  "belowThresholdTextAndGroupHidden": false,
+  "originalGraphicFileName": "original-mandate-chart.png",
+  "originalGraphicSha256": "d46a1506db76c0a1a2737c41f797d289745290d85230b7da9071682b68f3ba6c",
+  "pixelVerifiedScope": [
+    "all12passingPartySeats",
+    "blocChart50_52_14_H4"
+  ],
+  "pixelVerifiedPercentagePartyIds": [],
+  "staticPngOmitsBelowThresholdLine": true,
+  "rootSavedAccessibilityFile": "interactive-chart-dom.txt",
+  "rootSavedAccessibilitySha256": "3cff17ff44c782741cce7de7b252e5236c1ee52ce69d80fc9a6523763af22fc9",
+  "fullChartHtmlPublished": false
+}

@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-23",
+  "socialEvidenceKind": "published-poll-counts",
+  "imageEvidenceKind": "published_poll_comparison",
+  "output": "two-threshold-parties.png",
+  "outputSha256": "e22d14dfeeb848c1b89f94c30942d1ecdb250cbec31e42b6ce0a9f92aa86971f",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "image-prompt.txt",
+  "promptSha256": "3f205a0a8b6983f444f1467769ffc242722130427c78a9518fce9bf246f52fd4",
+  "generator": "built-in image_gen",
+  "generationMode": "generate",
+  "generationCalls": 1,
+  "imageEditingPerformed": false,
+  "visualInspectionCompleted": true,
+  "inspectionMethod": "Root directly inspected the generated exact PNG; independent actual pixel review retained.",
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "sourcePixelReviewSha256": "27eaf39ea767259282ee1b5f1cd144a3acd4f4496e2a11aa63fa7c72ede03842",
+  "independentSourceImageReviewSha256": "d8ef6e7315d2c7e76626b31e019d55265de2ab26e6b143f6985c3f3c45f615f5",
+  "sourcePollIds": [
+    "tatika_2026-10-22",
+    "lazar_2026-10-23",
+    "kantar_2026-10-22",
+    "maagar_mochot_2026-10-22"
+  ],
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "0bcdefdbc919273146a5f68b336c286635f75a3bd98517cf69b97130746de02e",
+  "modelDataSha256": "6b98ed98c4eb666b196754106fb962281e930e3c2703a5d62f1dc50c3ed0ce17",
+  "tweetSha256": "d8f53cd33b9c7bd5bffd845729e7a8630052c7810ab24a3fdc8223985f97bbd4",
+  "automaticTweetPosted": false
+}

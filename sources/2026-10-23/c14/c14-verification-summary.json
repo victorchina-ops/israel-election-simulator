@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-23",
+  "pollPublicationDate": "2026-10-22",
+  "sourceUrl": "https://www.c14.co.il/article/1750553",
+  "publishedAt": "2026-10-22T20:26:17+03:00",
+  "updatedAt": "2026-10-22T20:26:17+03:00",
+  "publicationMetadataPointer": "Original application/ld+json @graph NewsArticle datePublished/dateModified",
+  "fieldworkQuote": "נערך היום, 22 באוקטובר 2026",
+  "fieldworkProofPointer": "Original final methodology paragraph; web reader line86",
+  "fieldworkStart": "2026-10-22",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "sampleSize": 7937,
+  "population": "בוגרים מכלל האוכלוסייה",
+  "seats": {
+    "likud": 30,
+    "yashar": 20,
+    "beyachad": 11,
+    "democrats": 8,
+    "shas": 9,
+    "utj": 8,
+    "rz_zehut": 7,
+    "otzma": 8,
+    "yisrael_beiteinu": 5,
+    "joint": 8,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "reportedPercentages": {
+    "hendel": 1.9,
+    "winter": 1.5,
+    "noam": 0.6,
+    "haredi_public": 0.3
+  },
+  "namedAhiPct": 0.2,
+  "sourceBlocSeats": {
+    "coalition": 62,
+    "opposition": 44,
+    "arab_parties": 14
+  },
+  "originalGraphicVisuallyVerified": true,
+  "originalGraphics": [
+    {
+      "file": "original-graphic-1.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.28.jpeg",
+      "sha256": "3f214e940dbb77f6f2a5c7e1b5208db9910511f984bcbfc07d222f06b5cd4226",
+      "visuallyVerified": true
+    },
+    {
+      "file": "original-graphic-2.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.27-2.jpeg",
+      "sha256": "1d48715ef1007dad75e246da1ef9f1a5a668d4e8ee922be6263ee8582870515c",
+      "visuallyVerified": true
+    },
+    {
+      "file": "original-graphic-3.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.27-1.jpeg",
+      "sha256": "8c3cf1417b696ed3cf8747cb89e2129ba8957c911533fac8e5a557d5a553c7ed",
+      "visuallyVerified": true
+    },
+    {
+      "file": "original-graphic-4.jpeg",
+      "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.27.jpeg",
+      "sha256": "b8531bd3764b491d88ee6faa5fe6b4afd812f17387a8f9b3c39b24ee39bd5611",
+      "visuallyVerified": true
+    }
+  ],
+  "originalGraphic1Facts": "All mandates, exact below-threshold percentages and62/44/14blocs",
+  "factualExtractFile": "c14-reviewed-facts.txt",
+  "factualExtractSha256": "0ed155f8366af5b88653f9cd79fdc51f4c7ccc8b0aa283506d6e25920064802a",
+  "localOnlyOriginal": {
+    "file": "original-article-local-only.html",
+    "sha256": "d4fdc4f29eb737e26d33d5bf2c96eb068588d0a8899fdf28a6b093eebfe56ac4"
+  },
+  "missingValuesNotZero": true,
+  "aggregateOtherNotInvented": true,
+  "samplingMethod": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "undecidedPct": null,
+  "canonicalMutation": false,
+  "publicArticleBodiesExcluded": true
+}

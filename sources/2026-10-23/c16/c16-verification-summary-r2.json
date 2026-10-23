@@ -1,0 +1,265 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-23T10:30:36.822206+00:00",
+  "status": "NEW_PRIMARY_NUMERICAL_POLL_VERIFIED_SECONDARY_PUBLICATION_DATE",
+  "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+  "candidateDate": "2026-10-22",
+  "candidateDateSource": {
+    "date": "2026-10-22",
+    "verificationKind": "secondary dated publication corroboration, not primary fieldwork anchor",
+    "urls": [
+      "https://x.com/IsraelPolls/status/2113323533229072815",
+      "https://x.com/IsraelPolls/status/2113329069039260094/photo/1"
+    ],
+    "reportedPostTime": "22 October20:58",
+    "rootActuallyViewedAndSaved": true,
+    "artifacts": [
+      {
+        "file": "source-israelpolls/c16-history-22oct.jpg",
+        "sha256": "1a9b77da0ea14c007cc3b28582071eb3319a1196c1f8a677d70007b9c42b48ea"
+      },
+      {
+        "file": "source-israelpolls/c16-history-22oct-local-only.txt",
+        "sha256": "c08d3e1937734646536768d4ce7c0d2a67a8d996cd97d3601fc01045045d6e42"
+      }
+    ],
+    "originalStandaloneCalendarDateMissing": true
+  },
+  "seatVector": {
+    "yashar": 20,
+    "likud": 17,
+    "beyachad": 14,
+    "democrats": 9,
+    "otzma": 9,
+    "joint": 9,
+    "utj": 8,
+    "yisrael_beiteinu": 7,
+    "shas": 7,
+    "rz_zehut": 7,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4,
+    "haredi_public": 0,
+    "other": 0
+  },
+  "seatTotal": 120,
+  "passingPartyCount": 13,
+  "sourceBlocs": {
+    "coalition": 52,
+    "opposition": 50,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "reportedBelowThresholdPercentages": {
+    "haredi_public": 0.7,
+    "other": 0.6
+  },
+  "sampleSize": 5000,
+  "marginOfErrorConflict": {
+    "largeFooterPct": 1.5,
+    "smallFineprintPct": 1.4,
+    "canonical": null
+  },
+  "fieldwork": {
+    "schemaVersion": 1,
+    "checkedAtUtc": "2026-10-23T10:30:36.822206+00:00",
+    "status": "RELATIVE_FIELDWORK_VERIFIED_ABSOLUTE_DATE_ANCHOR_MISSING",
+    "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+    "exactFieldworkQuote": "אתמול והיום",
+    "pointer": "Large white broadcast footer, c16-first-three.png; collection described as yesterday and today, sample5000",
+    "relativeFieldworkVerified": true,
+    "absoluteFieldworkStart": null,
+    "absoluteFieldworkEnd": null,
+    "fieldworkVerified": false,
+    "strictEligible": false,
+    "publicationDateCandidate": "2026-10-22",
+    "publicationDatePrimaryVerified": false,
+    "dateEvidence": {
+      "secondaryPublishedPollDate": {
+        "date": "2026-10-22",
+        "verificationKind": "secondary dated publication corroboration, not primary fieldwork anchor",
+        "urls": [
+          "https://x.com/IsraelPolls/status/2113323533229072815",
+          "https://x.com/IsraelPolls/status/2113329069039260094/photo/1"
+        ],
+        "reportedPostTime": "22 October20:58",
+        "rootActuallyViewedAndSaved": true,
+        "artifacts": [
+          {
+            "file": "source-israelpolls/c16-history-22oct.jpg",
+            "sha256": "1a9b77da0ea14c007cc3b28582071eb3319a1196c1f8a677d70007b9c42b48ea"
+          },
+          {
+            "file": "source-israelpolls/c16-history-22oct-local-only.txt",
+            "sha256": "c08d3e1937734646536768d4ce7c0d2a67a8d996cd97d3601fc01045045d6e42"
+          }
+        ],
+        "originalStandaloneCalendarDateMissing": true
+      },
+      "primaryHomeDatedFullEdition": {
+        "url": "https://www.ch16.co.il/vod/6ad8fd55b3ec76081d8f0746",
+        "visibleHomeCardDate": "22/10/2026",
+        "file": "home-live-dom.txt",
+        "sha256": "8eab5a833851fdd7a35b65cb9a48f5939c26ed4bc2fe2506da3b7c9666a39383"
+      },
+      "limitation": "Standalone poll clip title and primary metadata have no calendar date. Bounded sampling of dated full edition did not establish a content match. Relative fieldwork is not converted to absolute dates from secondary dating alone."
+    },
+    "frames": [
+      {
+        "file": "c16-first-three.png",
+        "sha256": "7119d6cc3a176a7533d963713faa4794cc6c62027648053f9e31ebdff4846d4b",
+        "sourceVideoSecondsApprox": 20.459291,
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+        "captureKind": "actual-live-Chrome-browser-screenshot",
+        "reviewedContent": "Settled Yashar20 Likud17 Beyachad14; large footer n5000 and MOE1.5%; loading icon does not obscure numerals",
+        "visuallyReviewed": true
+      }
+    ],
+    "missingNotZero": true,
+    "supersedes": "c16-fieldwork-proof.json",
+    "thresholdCorrectionDoesNotAffectRelativeFieldQuote": true
+  },
+  "visualEvidence": [
+    {
+      "file": "c16-first-three.png",
+      "sha256": "7119d6cc3a176a7533d963713faa4794cc6c62027648053f9e31ebdff4846d4b",
+      "sourceVideoSecondsApprox": 20.459291,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Settled Yashar20 Likud17 Beyachad14; large footer n5000 and MOE1.5%; loading icon does not obscure numerals",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "c16-middle-four.png",
+      "sha256": "5263f74d544681659eefe97ab5ff48fae7919b3c6e27423ae7daa4852ef8331c",
+      "sourceVideoSecondsApprox": 34.476394,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Settled Democrats9 Otzma9 Joint9 UTJ8",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "c16-leading-parties.png",
+      "sha256": "c6a37fd4adc0d0098e3830b7232372ab000b899f551e185e92b6e966be1074e3",
+      "sourceVideoSecondsApprox": 47.126033,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Settled Shas7 YisraelBeiteinu7 RZ-Zehut7; legacy capture filename retained",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "c16-small-parties-settled.png",
+      "sha256": "d0516397a9288e45d46d1d79fb52c62bbb530b989c181d81b0a3cc274de500f5",
+      "sourceVideoSecondsApprox": 62.09758,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Settled Raam5 Winter4 Hendel4; fineprint n5000 and MOE1.4%",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "c16-threshold-final-70-r2.png",
+      "sha256": "e8eb69b52dc12e6da2e83c8c4aba00f34314d41cd426e3b6e9cbf798abe1cd7b",
+      "sourceVideoSecondsApprox": 69.0189,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Final settled HarediPublic0 seats0.7%; aggregateOther0 seats0.6%. Earlier67.2s screenshot was an intermediate animation frame.",
+      "visuallyReviewed": true
+    },
+    {
+      "file": "c16-threshold.png",
+      "sha256": "e4628c04a534b6fb1efebf60bcaa5e613d03de4c82aef1d0cc19fd6aee41d82c",
+      "sourceVideoSecondsApprox": 72.858519,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Settled coalition52 opposition50 Arabs14 Hendel4; legacy capture filename retained",
+      "visuallyReviewed": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "original-poll-local-only.html",
+      "sha256": "e554021430b6851fdac8bcf04ee94c8438b176f4e4cd4d88c395729cdd68a733"
+    },
+    {
+      "file": "original-dated-edition-local-only.html",
+      "sha256": "f0a6c832afe359db4925ce2a625aeb4c95300d819dc214637ca6297dcb28316c"
+    },
+    {
+      "file": "home-live-dom.txt",
+      "sha256": "8eab5a833851fdd7a35b65cb9a48f5939c26ed4bc2fe2506da3b7c9666a39383"
+    },
+    {
+      "file": "poll-search-live-dom.txt",
+      "sha256": "370589fce7d4d3c8b2baa780f133e637d25c7f2bc3c3b1057549d7bc6916cd0d"
+    },
+    {
+      "file": "poll-clip-live-dom.txt",
+      "sha256": "606b334b697d846318682ae494129b04d57182b9db60980527344bef9b76eb7c"
+    },
+    {
+      "file": "original-pages-fetch.json",
+      "sha256": "274b114bd65e9b1759ed45ae37e1328f388a28307dfa693694e7b7f65c0263d4"
+    },
+    {
+      "file": "c16-fieldwork-proof-r2.json",
+      "sha256": "d21ceb15777db4026a6c14625992c0d8f59665b63bdeec865611513b14924ade"
+    },
+    {
+      "file": "c16-reviewed-facts-r2.txt",
+      "sha256": "ad2cae551fd6b4b920a9fc42a8f90fbe46088fe0d4627ae4ffb49458a7154c9b"
+    }
+  ],
+  "priorPollId": "maagar_mochot_2026-10-20",
+  "changesFromPriorSeats": {
+    "yashar": [
+      21,
+      20
+    ],
+    "likud": [
+      18,
+      17
+    ],
+    "beyachad": [
+      15,
+      14
+    ],
+    "utj": [
+      7,
+      8
+    ],
+    "shas": [
+      6,
+      7
+    ],
+    "rz_zehut": [
+      6,
+      7
+    ]
+  },
+  "missingValuesKeptMissing": true,
+  "canonicalMutation": false,
+  "supersedes": "c16-verification-summary.json",
+  "correction": {
+    "oldFrameFile": "c16-threshold-final.png",
+    "oldFrameTimeApprox": 67.201438,
+    "oldIntermediateValues": {
+      "haredi_public": 0.6,
+      "other": 0.5
+    },
+    "finalFrame": {
+      "file": "c16-threshold-final-70-r2.png",
+      "sha256": "e8eb69b52dc12e6da2e83c8c4aba00f34314d41cd426e3b6e9cbf798abe1cd7b",
+      "sourceVideoSecondsApprox": 69.0189,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Final settled HarediPublic0 seats0.7%; aggregateOther0 seats0.6%. Earlier67.2s screenshot was an intermediate animation frame.",
+      "visuallyReviewed": true
+    },
+    "cause": "Source animation not yet settled at earlier capture; no persistent source discrepancy"
+  },
+  "reportedSampleSizeStatements": {
+    "exactBroadcastFooter": 5000,
+    "exactCardFineprint": 5000,
+    "introExclusiveLowerBound": 5000
+  }
+}

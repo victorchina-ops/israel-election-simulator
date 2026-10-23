@@ -1,0 +1,10 @@
+Reviewed published observation tatika_2026-10-22; publication 2026-10-22; audit 2026-10-23.
+Original source: https://www.zman.co.il/735649/.
+Published mandates: {"yashar": 23, "likud": 21, "beyachad": 11, "yisrael_beiteinu": 9, "joint": 9, "shas": 8, "democrats": 8, "utj": 8, "otzma": 8, "rz_zehut": 6, "raam": 5, "hendel": 4, "winter": 0}
+Exact published percentages: {"winter": 3.0, "hendel": 3.6}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 51, "opposition": 51, "arab_parties": 14, "hendel": 4}
+Sample size exact/exclusive lower bound: 500/None
+Verified fieldwork: True; 2026-10-21 to 2026-10-22
+Missing values are not zero and are never inherited.
+

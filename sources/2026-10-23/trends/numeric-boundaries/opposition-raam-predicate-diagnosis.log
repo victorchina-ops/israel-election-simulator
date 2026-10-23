@@ -1,0 +1,4 @@
+{"phase": "direct_at_primary", "countExact": "171243180208955073760716120706252800", "matchesPrimary": true, "seconds": 111.14100000006147}
+{"phase": "direct_at_own", "countExact": "171243180208960128362432280762777600", "matchesIndependent": true, "seconds": 219.90700000000652}
+{"phase": "two_pointer_subtraction_at_primary", "countExact": "171243180208955073760716120706252800", "matchesPrimary": true, "seconds": 331.98499999998603}
+{"phase": "two_pointer_subtraction_at_own", "countExact": "171243180208960128362432280762777600", "seconds": 441.079000000027}

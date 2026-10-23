@@ -1,0 +1,16 @@
+Reviewed published observation maagar_mochot_2026-10-22; publication 2026-10-22; audit 2026-10-23.
+Original source: https://www.ch16.co.il/vod/6ada477342b177b7612729ac.
+Published mandates: {"yashar": 20, "likud": 17, "beyachad": 14, "democrats": 9, "otzma": 9, "joint": 9, "utj": 8, "yisrael_beiteinu": 7, "shas": 7, "rz_zehut": 7, "raam": 5, "winter": 4, "hendel": 4, "haredi_public": 0, "other": 0}
+Exact published percentages: {"haredi_public": 0.7, "other": 0.6}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 52, "opposition": 50, "arab_parties": 14, "hendel": 4}
+Sample size exact/exclusive lower bound: 5000/None
+Verified fieldwork: False; None to None
+Missing values are not zero and are never inherited.
+סקר חדש מבחינה מספרית לעומת20.10; תאריך הפרסום22.10 אומת בטבלת IsraelPolls מתוארכת ובפוסט מאותו יום. בקטע המקורי אין תאריך קלנדרי גלוי.
+כל13 הרשימות העוברות מסתכמות ב120; וינטר4 לקואליציה, הנדל4 בנפרד, ערביות14.
+המקור מציין5000 משיבים ואיסוף אתמול והיום. בלי עיגון ליום קלנדרי, תאריכי האיסוף חסרים והסקר לא זכאי למחזור הסטטיסטי הקשיח.
+סתירה מקורית בטעות הדגימה:1.5% ברצועה הגדולה ו1.4% באותיות הקטנות; הערך הראשי נשאר חסר.
+הציבור החרדי0.7% ואחרות0.6% פורסמו במסגרת הסופית; המסגרת הקודמת0.6/0.5 הייתה שלב ביניים בהנפשה ואינה נתון סופי. יתר האחוזים חסרים.
+מסגרות אנימציה מוקדמות נשמרו בנפרד ואינן בסיס לחילוץ; המספרים נקראו לאחר התייצבות.
+מחליף רק את מאגר מוחות20.10; מועד האיסוף הקלנדרי לא הוסק מתאריך הפרסום המשני. לא נכתב דבר לנתונים הקנוניים.

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-23",
+  "source": "artifacts/poll-checks/2026-10-23/strict-validation.json",
+  "canonical": "artifacts/strict-post-close/party-validation.json",
+  "sourceAndCanonicalSha256": "f9f0d192424ce941ad74584ea0c751bd351b1aa7d7c0469f206b0a0af794e46c",
+  "previousCanonicalSha256": "c3f45e821a78faa8973950ae1470755ea08cecfc3c251a053c968e0fac02ea14",
+  "previousCanonicalPreservedInCheckpoint": true,
+  "sourceBytesCopiedExactly": true,
+  "probabilitiesOrNumericalOutputsEdited": false,
+  "promoterSha256": "27c01ed38eba4a2026ddb67360da14c3ddf48b21cd0237ce0ce756ecbc6743ac"
+}

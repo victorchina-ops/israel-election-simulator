@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "asOf": "2026-10-23",
+  "reviewedAtUtc": "2026-10-23T11:17:18.088756+00:00",
+  "socialEvidenceKind": "published-poll-counts",
+  "imageSha256": "e22d14dfeeb848c1b89f94c30942d1ecdb250cbec31e42b6ce0a9f92aa86971f",
+  "renderReceiptSha256": "5f4f9861beec6b87aded8cb8f0491b82c62b198b3436401b7ceb73b9803cb7b5",
+  "sourcePixelReviewSha256": "27eaf39ea767259282ee1b5f1cd144a3acd4f4496e2a11aa63fa7c72ede03842",
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "visualInspectionCompleted": true,
+  "imageSourceCountsAndPreferredModelTweetIndependentlyVerified": true,
+  "independentActualSourceImageReviewSha256": "d8ef6e7315d2c7e76626b31e019d55265de2ab26e6b143f6985c3f3c45f615f5",
+  "modelComparisonSha256": "0bcdefdbc919273146a5f68b336c286635f75a3bd98517cf69b97130746de02e",
+  "independentModelReviewSha256": "2080d413e09b9ffb27a99eb6b0f94dc79a18252bd160a607636535372d51d8c5",
+  "modelDataSha256": "6b98ed98c4eb666b196754106fb962281e930e3c2703a5d62f1dc50c3ed0ce17",
+  "tweetSha256": "d8f53cd33b9c7bd5bffd845729e7a8630052c7810ab24a3fdc8223985f97bbd4",
+  "promptSha256": "3f205a0a8b6983f444f1467769ffc242722130427c78a9518fce9bf246f52fd4",
+  "checks": {
+    "sameExactImageAlreadyActuallyPixelReviewed": true,
+    "imageSourcePollIdsAndRaw4H1WCountsMatchCurrentCandidates": true,
+    "imageDatesSourcesAuthorCreditAndNo14Visible": true,
+    "imageSaysCountsNotModelProbability": true,
+    "officialPreferredMeansAndThresholdsMatchModelDataBeforeAndAfter": true,
+    "allReportReviewSourceTweetRenderHashesMatchActualFiles": true,
+    "tweetExplicitlyLabelsModelMeansAndPassProbabilities": true,
+    "tweetRoundsMeans513526AndProbabilities339472Correctly": true,
+    "tweetHistoricalQualitySimilarityOnNo14WinterCoalitionHendelArabSeparate": true,
+    "siteDefaultSimilarityOffRemainsDistinctFromPreferredTweetScenario": true,
+    "actualSeed20260912Iterations10000": true,
+    "earlierModelDataDate21OctDistinctFromCurrent23Oct": true,
+    "publicSimulatorLinkPresent": true,
+    "tweetWithin280WeightedCharacters": true,
+    "noStatisticalSignificanceCalibrationSuperiorityOrRawShareClaim": true,
+    "noAutomaticTweetPosting": true
+  },
+  "preferredAfterMeans": {
+    "a": 51.3035,
+    "b": 52.6122,
+    "arab": 14.0548,
+    "other": 2.0295
+  },
+  "preferredThresholdPassPct": {
+    "winter": 33.94,
+    "hendel": 47.160000000000004
+  },
+  "sourcePollIds": [
+    "kantar_2026-10-22",
+    "lazar_2026-10-23",
+    "maagar_mochot_2026-10-22",
+    "tatika_2026-10-22"
+  ],
+  "sourcePollCount": 4,
+  "partyPassCounts": {
+    "hendel": 4,
+    "winter": 1
+  },
+  "tweetWeightedCharactersAssuming23PerURL": 254,
+  "reviewScope": "Combined source-image, official preferred-model data, final tweet and render evidence; independent of unfinished site browserQA.",
+  "findings": [],
+  "draftOnly": true,
+  "automaticTweetPosted": false,
+  "socialOrCanonicalMutationByReviewer": false
+}

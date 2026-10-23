@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-23T10:30:36.822206+00:00",
+  "status": "RELATIVE_FIELDWORK_VERIFIED_ABSOLUTE_DATE_ANCHOR_MISSING",
+  "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+  "exactFieldworkQuote": "אתמול והיום",
+  "pointer": "Large white broadcast footer, c16-first-three.png; collection described as yesterday and today, sample5000",
+  "relativeFieldworkVerified": true,
+  "absoluteFieldworkStart": null,
+  "absoluteFieldworkEnd": null,
+  "fieldworkVerified": false,
+  "strictEligible": false,
+  "publicationDateCandidate": "2026-10-22",
+  "publicationDatePrimaryVerified": false,
+  "dateEvidence": {
+    "secondaryPublishedPollDate": {
+      "date": "2026-10-22",
+      "verificationKind": "secondary dated publication corroboration, not primary fieldwork anchor",
+      "urls": [
+        "https://x.com/IsraelPolls/status/2113323533229072815",
+        "https://x.com/IsraelPolls/status/2113329069039260094/photo/1"
+      ],
+      "reportedPostTime": "22 October20:58",
+      "rootActuallyViewedAndSaved": true,
+      "artifacts": [
+        {
+          "file": "source-israelpolls/c16-history-22oct.jpg",
+          "sha256": "1a9b77da0ea14c007cc3b28582071eb3319a1196c1f8a677d70007b9c42b48ea"
+        },
+        {
+          "file": "source-israelpolls/c16-history-22oct-local-only.txt",
+          "sha256": "c08d3e1937734646536768d4ce7c0d2a67a8d996cd97d3601fc01045045d6e42"
+        }
+      ],
+      "originalStandaloneCalendarDateMissing": true
+    },
+    "primaryHomeDatedFullEdition": {
+      "url": "https://www.ch16.co.il/vod/6ad8fd55b3ec76081d8f0746",
+      "visibleHomeCardDate": "22/10/2026",
+      "file": "home-live-dom.txt",
+      "sha256": "8eab5a833851fdd7a35b65cb9a48f5939c26ed4bc2fe2506da3b7c9666a39383"
+    },
+    "limitation": "Standalone poll clip title and primary metadata have no calendar date. Bounded sampling of dated full edition did not establish a content match. Relative fieldwork is not converted to absolute dates from secondary dating alone."
+  },
+  "frames": [
+    {
+      "file": "c16-first-three.png",
+      "sha256": "7119d6cc3a176a7533d963713faa4794cc6c62027648053f9e31ebdff4846d4b",
+      "sourceVideoSecondsApprox": 20.459291,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "captureKind": "actual-live-Chrome-browser-screenshot",
+      "reviewedContent": "Settled Yashar20 Likud17 Beyachad14; large footer n5000 and MOE1.5%; loading icon does not obscure numerals",
+      "visuallyReviewed": true
+    }
+  ],
+  "missingNotZero": true,
+  "supersedes": "c16-fieldwork-proof.json",
+  "thresholdCorrectionDoesNotAffectRelativeFieldQuote": true
+}

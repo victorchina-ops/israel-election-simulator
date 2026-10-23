@@ -1,0 +1,198 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-23",
+  "newObservationIds": [
+    "tatika_2026-10-22",
+    "lazar_2026-10-23",
+    "kantar_2026-10-22",
+    "next_data_2026-10-22",
+    "maagar_mochot_2026-10-22"
+  ],
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "privateBrowserDomExcluded": true,
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "coverage": {
+    "asOf": "2026-10-23",
+    "status": "reviewed",
+    "newIndependentObservations": 5,
+    "israelPolls": {
+      "url": "https://x.com/IsraelPolls?s=20",
+      "access": "Web reader403; actual Chrome profile, graphics and historical tables successfully inspected.",
+      "historyViewed": "https://x.com/IsraelPolls/status/2113329069039260094/photo/1",
+      "weeklyViewed": "https://x.com/IsraelPolls/status/2113525383442424067/photo/1",
+      "weeklyIsObservation": false,
+      "c16PublicationDate": "2026-10-22",
+      "c16AbsoluteFieldworkVerified": false,
+      "scope": "Latest profile posts through23Oct morning; source original numerical vectors independently verified."
+    },
+    "n12": {
+      "primaryUrls": [
+        "https://www.n12.co.il/",
+        "https://www.mako.co.il/news-israel-elections/2026",
+        "https://www.mako.co.il/news-politics"
+      ],
+      "access": "All three current primary pages read directly in actual Chrome.",
+      "result": "Latest mandate poll visible in elections index remains21Oct, already in baseline; no new full poll verified."
+    },
+    "hayom": {
+      "primaryUrls": [
+        "https://www.israelhayom.co.il/",
+        "https://www.israelhayom.co.il/news/politics",
+        "https://www.israelhayom.co.il/news/politics/article/21687549"
+      ],
+      "result": "New22Oct original article and embedded primary chart verified; n1110, field21–22Oct."
+    },
+    "otherPrimaryCoverageReceipt": {
+      "file": "artifacts/poll-checks/2026-10-23/source-primary-c13-i24-kan.json",
+      "sha256": "53fb8c47fabd1e21245f949dc8cab2076d44cdbec31abb2bd8b2f9de3e093d7b"
+    },
+    "zmanMaarivCoverageReceipt": {
+      "file": "artifacts/poll-checks/2026-10-23/source-zman-maariv-reviewed-summary-r1.json",
+      "sha256": "e4f64c785c3e408b17e10bbc50e593e1af0b0e64f213929e86136222bd135179"
+    },
+    "limitations": [
+      "C16 original clip has no calendar dateline. Publication22Oct corroborated by dated IsraelPolls graphic with matching full vector; absolute fieldwork remains null.",
+      "C16 final threshold values read only after animation settled: HP0.7%, aggregate other0.6%. Earlier captured animation frames excluded.",
+      "C16 conflicting original maximum sampling-error statements1.5% and1.4% retained; canonical value null.",
+      "Maariv primary browser/reader blocked; original article recovered through approved direct HTTP. Actual sample1048 retained despite inconsistent source recruitment funnel.",
+      "Kan reader/HTTP blocked but current home/politics recovered in Chrome; C13 original HTTP blocked but reader indexes accessible.",
+      "Bounded current primary scans are not proof that every possible publication was absent. Sources checked during23Oct afternoon Israel time; later evening polls may follow."
+    ],
+    "rawPrivateBrowserDomPublic": false,
+    "fullAuthoredArticleBodiesPublic": false,
+    "missingValuesNotZero": true,
+    "noDuplicateWeeklyPolls": true
+  },
+  "observations": [
+    {
+      "id": "tatika_2026-10-22",
+      "publisher": "זמן ישראל",
+      "pollster": "יוסי טאטיקה",
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "fieldworkVerified": true,
+      "sampleSize": 500,
+      "sourceUrl": "https://www.zman.co.il/735649/",
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "winter": 3.0,
+        "hendel": 3.6
+      },
+      "missingPublishedSeatPartyIds": [
+        "gantz",
+        "noam",
+        "haredi_public",
+        "israel_first",
+        "other"
+      ],
+      "strictEligible": true,
+      "canonicalReportedMarginOfErrorPct": 4.4
+    },
+    {
+      "id": "lazar_2026-10-23",
+      "publisher": "מעריב",
+      "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-22",
+      "fieldworkVerified": true,
+      "sampleSize": 1048,
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "winter": 3.0,
+        "haredi_public": 0.9,
+        "noam": 0.5,
+        "hendel": 3.5
+      },
+      "missingPublishedSeatPartyIds": [
+        "gantz",
+        "israel_first",
+        "other"
+      ],
+      "strictEligible": true,
+      "canonicalReportedMarginOfErrorPct": 3.0
+    },
+    {
+      "id": "kantar_2026-10-22",
+      "publisher": "ישראל היום",
+      "pollster": "קנטאר",
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "fieldworkVerified": true,
+      "sampleSize": 1110,
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21687549",
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "winter": 2.7,
+        "haredi_public": 0.7
+      },
+      "missingPublishedSeatPartyIds": [
+        "gantz",
+        "noam",
+        "israel_first"
+      ],
+      "strictEligible": true,
+      "canonicalReportedMarginOfErrorPct": 3.0
+    },
+    {
+      "id": "next_data_2026-10-22",
+      "publisher": "חדשות 14",
+      "pollster": "NEXT DATA — שלמה פילבר",
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-22",
+      "fieldworkVerified": true,
+      "sampleSize": 7937,
+      "sourceUrl": "https://www.c14.co.il/article/1750553",
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "hendel": 1.9,
+        "winter": 1.5,
+        "noam": 0.6,
+        "haredi_public": 0.3
+      },
+      "missingPublishedSeatPartyIds": [
+        "gantz",
+        "israel_first",
+        "other"
+      ],
+      "strictEligible": true,
+      "canonicalReportedMarginOfErrorPct": null
+    },
+    {
+      "id": "maagar_mochot_2026-10-22",
+      "publisher": "ערוץ 16",
+      "pollster": "מאגר מוחות — יצחק כ״ץ",
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "fieldworkVerified": false,
+      "sampleSize": 5000,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "haredi_public": 0.7,
+        "other": 0.6
+      },
+      "missingPublishedSeatPartyIds": [
+        "gantz",
+        "noam",
+        "israel_first"
+      ],
+      "strictEligible": false,
+      "canonicalReportedMarginOfErrorPct": null
+    }
+  ],
+  "rules": [
+    "Each new observation replaces only the same institute latest active poll; all old observations retained.",
+    "Publication, fieldwork, repost and review dates remain distinct. Missing values remain missing.",
+    "Channel14 retained in full database and excluded by site default.",
+    "C16 verified original numbers and secondary publication dating accepted for forecast, absolute fieldwork unknown and excluded from strict trends.",
+    "Lazar Hendel3.5% explicitly attributed to Walla secondary numerical article; other facts independently verified in original Maariv.",
+    "C16 published aggregate other0.6% is separate from C14 named AHI0.2% model-only mapping and Lazar named Tzomet0.5%.",
+    "Original source graphics and concise factual extractions only; no new full article bodies or private account UI published."
+  ]
+}

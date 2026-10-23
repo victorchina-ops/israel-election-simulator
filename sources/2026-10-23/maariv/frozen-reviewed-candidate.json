@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "checkedAtUtc": "2026-10-23T10:22:12.733907+00:00",
+  "pollIdProposed": "lazar_2026-10-23",
+  "id": "lazar_2026-10-23",
+  "date": "2026-10-23",
+  "checkedAt": "2026-10-23",
+  "publisher": "מעריב",
+  "pollster": "לזר מחקרים — ד״ר מנחם לזר",
+  "pollsterId": "lazar",
+  "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+  "sourceTier": "original-publisher",
+  "publicationDate": "2026-10-23",
+  "publicationTime": "06:00:52",
+  "publicationTimePrecision": "second",
+  "publishedAt": "2026-10-23T06:00:52+03:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "updatedAt": "2026-10-22T22:18:50+03:00",
+  "dateKind": "מועד הפרסום המקורי והאיסוף אומתו בנפרד; פרסום מחדש אינו סקר נוסף.",
+  "fieldworkStart": "2026-10-19",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+  "fieldworkEvidence": "התקיים ב-22-19 באוקטובר",
+  "fieldworkProofPointer": "Original rendered methodology paragraphs3–5, JSON-LD articleBody and content section33; visible time.article-date.",
+  "sampleSize": 1048,
+  "initialSampleSize": 1000,
+  "invitedSampleSize": null,
+  "population": "מדגם מייצג של האוכלוסייה בישראל מגיל18 ומעלה, יהודים וערבים.",
+  "samplingMethod": "דגימת שכבות ובתוך השכבות דגימה אקראית; פאנל אינטרנטי Panel4all ועיבוי טלפוני בציבור הערבי.",
+  "panelProvider": "Panel4All",
+  "reportedMarginOfErrorPct": 3.0,
+  "reportedMarginOfErrorConfidencePct": null,
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 21,
+    "likud": 19,
+    "beyachad": 15,
+    "democrats": 10,
+    "joint": 9,
+    "yisrael_beiteinu": 8,
+    "shas": 8,
+    "utj": 7,
+    "otzma": 7,
+    "rz_zehut": 7,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "seatTotal": 120,
+  "cataloguePartySeatVector": {
+    "yashar": 21,
+    "likud": 19,
+    "beyachad": 15,
+    "democrats": 10,
+    "yisrael_beiteinu": 8,
+    "utj": 7,
+    "joint": 9,
+    "shas": 8,
+    "otzma": 7,
+    "rz_zehut": 7,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 4,
+    "gantz": null,
+    "noam": 0,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "catalogueSeatVectorSize": 17,
+  "zeroSeatsImpliedByPublishedBelowThresholdPartyIds": [
+    "winter",
+    "haredi_public",
+    "noam"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "percentages": {
+    "winter": 3.0,
+    "haredi_public": 0.9,
+    "noam": 0.5,
+    "hendel": 3.5
+  },
+  "reportedPercentages": {
+    "winter": 3.0,
+    "haredi_public": 0.9,
+    "noam": 0.5,
+    "hendel": 3.5
+  },
+  "exactPublishedBelowThresholdPct": {
+    "winter": 3.0,
+    "haredi_public": 0.9,
+    "noam": 0.5
+  },
+  "publishedBounds": {},
+  "cataloguePartyPublishedPercentageVector": {
+    "yashar": null,
+    "likud": null,
+    "beyachad": null,
+    "democrats": null,
+    "yisrael_beiteinu": null,
+    "utj": null,
+    "joint": null,
+    "shas": null,
+    "otzma": null,
+    "rz_zehut": null,
+    "raam": null,
+    "winter": 3.0,
+    "hendel": 3.5,
+    "gantz": null,
+    "noam": 0.5,
+    "haredi_public": 0.9,
+    "israel_first": null
+  },
+  "knownCataloguePercentageSum": 7.9,
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "passingPartyPercentagesPublished": true,
+  "allPassingPartyPercentagesPublished": false,
+  "sourceBlocSeats": {
+    "coalition": 48,
+    "opposition": 54,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+    "haredi_public": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+    "noam": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+    "hendel": "https://www.walla.co.il/news/israel/383958572"
+  },
+  "namedUnmodelledPartyPercentages": [
+    {
+      "sourcePartyLabel": "צומת בית ישראל",
+      "canonicalPartyId": null,
+      "pct": 0.5,
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1380289"
+    }
+  ],
+  "unmodelledNamedParties": [
+    {
+      "name": "צומת–בית ישראל",
+      "pct": 0.5,
+      "mappedTo": "other"
+    }
+  ],
+  "otherAggregatePublished": false,
+  "modelOnlyPercentageIds": [],
+  "baselineObservation": {
+    "pollId": "lazar_2026-10-20",
+    "date": "2026-10-20",
+    "sourceUrl": "https://www.walla.co.il/news/politics/383958175",
+    "sampleSize": 601,
+    "alreadyIngested": true
+  },
+  "replacesPollId": "lazar_2026-10-20",
+  "duplicateOfBaseline": false,
+  "changedSeatsSinceBaseline": {
+    "yashar": {
+      "before": 23,
+      "after": 21
+    },
+    "beyachad": {
+      "before": 14,
+      "after": 15
+    },
+    "democrats": {
+      "before": 9,
+      "after": 10
+    },
+    "joint": {
+      "before": 8,
+      "after": 9
+    },
+    "otzma": {
+      "before": 8,
+      "after": 7
+    },
+    "rz_zehut": {
+      "before": 6,
+      "after": 7
+    },
+    "raam": {
+      "before": 6,
+      "after": 5
+    },
+    "haredi_public": {
+      "before": null,
+      "after": 0
+    },
+    "noam": {
+      "before": null,
+      "after": 0
+    }
+  },
+  "baselineInputHashes": {
+    "data/current-polls.json": "ab99d88c44fb75c40dffbf72b6edf2662cdf69cfef443e5d05d0b8e5c18a751b",
+    "data/poll-history.json": "24901247422867a70d4418bb1d8c5004eda9f7d4e368a6923f862d95740faa45"
+  },
+  "sourceDiscrepancies": [
+    {
+      "field": "updatedAt",
+      "publishedAt": "2026-10-23T06:00:52+03:00",
+      "reportedModifiedAt": "2026-10-22T22:18:50+03:00",
+      "resolution": "Retain earlier reported modified timestamp as source anomaly; it does not change publication or fieldwork dates."
+    },
+    {
+      "field": "collectionFunnel",
+      "finalSampleSize": 1048,
+      "reportedOnlineCompleted": 78,
+      "reportedArabPhoneCompleted": 100,
+      "resolution": "Literal rendered paragraph says78 (41%) and100 (32%); these do not reconcile to1048. Preserve all reported values without correcting or inventing denominators."
+    }
+  ],
+  "sourceReadLimitations": [
+    "Web reader blocked original Maariv pages; approved read-only public HTTP fetch succeeded for original, home, politics and election indexes. No browser/security barrier bypass.",
+    "Hendel3.5% is reported by Walla, not found in the original Maariv mandate chart; it is attributed to Walla separately."
+  ],
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "secondaryIsraelPollsCheck": "Parent owns required parallel IsraelPolls profile, graphics and historical tables.",
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false,
+  "sourceDocument": {
+    "fileName": "lazar-reviewed-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "8178a7fe4330cfd4067cf8df14edd10181060e908256bf8827bf4e1625395ce6",
+    "extractFileName": "lazar-reviewed-facts.txt",
+    "extractSha256": "8178a7fe4330cfd4067cf8df14edd10181060e908256bf8827bf4e1625395ce6",
+    "reviewedAt": "2026-10-23",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "originalAccessibleTableVerified": true,
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 3,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "percentageDenominator",
+      "undecidedPct",
+      "reportedMarginOfErrorConfidencePct",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "full-passing-party-percentages"
+    ],
+    "verificationFileName": "lazar-verification-summary.json",
+    "verificationSha256": "ba88e769179308980be54c0f7d060215a28d4d3c9173787b60a11fe794a6f313",
+    "fieldworkProofFileName": "lazar-verification-summary.json",
+    "fieldworkProofSha256": "ba88e769179308980be54c0f7d060215a28d4d3c9173787b60a11fe794a6f313",
+    "originalGraphicSourceUrl": "https://infogram.io/p/a1a87bf68165f610ed40a241abfe603d.png",
+    "originalGraphicFileName": "original-embedded-poll.png",
+    "originalGraphicSha256": "16d7e819cc8a0c5f94fef4999065d2e2f50b88fb6e828e8ad2fb0d80b9960a47"
+  },
+  "namedTzometPercentageIsNotAggregateOther": true,
+  "rawSourceLocalOnly": {
+    "fileName": "maariv-original-local-only.html",
+    "sha256": "7cfed653111c250900e5423b7394a8bbeca620539cd33f2258b0d74062b41fa4",
+    "bytes": 259466,
+    "localOnly": true
+  },
+  "reportedCollectionFunnel": {
+    "online": {
+      "invited": 580,
+      "answered": 188,
+      "answeredPct": 30,
+      "completed": 78,
+      "completedPct": 41
+    },
+    "arabPhone": {
+      "invited": 687,
+      "answered": 308,
+      "answeredPct": 45,
+      "completed": 100,
+      "completedPct": 32
+    },
+    "reportedFinalN": 1048,
+    "denominatorsReconciled": false
+  },
+  "secondarySourceUrls": [
+    "https://www.walla.co.il/news/israel/383958572"
+  ],
+  "publishedPreviousPollDate": "2026-10-16",
+  "publishedPreviousPublisher": "מעריב",
+  "publishedPreviousBlocSeats": {
+    "coalition": 51,
+    "opposition": 51,
+    "arab_parties": 14,
+    "hendel": 4
+  }
+}

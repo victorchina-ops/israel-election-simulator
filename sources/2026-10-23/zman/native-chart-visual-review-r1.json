@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "observedAtUtc": "2026-10-23T10:24:50.216254+00:00",
+  "sourceUrl": "https://www.zman.co.il/735649/",
+  "browser": "Chrome CUA",
+  "sourceInspection": "Actual native chart pixels inspected in two overlapping viewport ranges and original accessible table checked. All13 displayed rows, date22/10/2026, W0(3.00%), H4 and adjacent bodyH3.6 verified. Separate native bloc chart shows51/51/4/5/9.",
+  "sourceDataUnchanged": true,
+  "sourceMandates": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 11,
+    "yisrael_beiteinu": 9,
+    "joint": 9,
+    "shas": 8,
+    "democrats": 8,
+    "utj": 8,
+    "otzma": 8,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0
+  },
+  "reportedShares": {
+    "winter": 3.0,
+    "hendel": 3.6
+  },
+  "pixelScreenshotFile": null,
+  "screenshotLimitation": "Screenshots were displayed and visually inspected through CUA; no local screenshot file was returned or fabricated.",
+  "originalCandidateSha256": "137654d33d3a874b639a4a27b3fcf71aee48fae79bdc398edf051df94319b31a",
+  "candidatePreserved": true
+}

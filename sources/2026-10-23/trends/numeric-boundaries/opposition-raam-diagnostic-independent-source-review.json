@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-23",
+  "reviewedAtUtc": "2026-10-23T10:57:57.194612+00:00",
+  "scope": "Fresh23Oct opposition_raam diagnostic source only; actual four-count receipt still required",
+  "reproducerPath": "scripts/diagnose-opposition-raam-boundary-2026-10-23.py",
+  "reproducerSha256": "a5da460bc358280c53647f58a9be7f953a25951b9ae915fe38066e10769e7341",
+  "preparationReceiptSha256": "043a9227ff7a166c4f479d86669306928cc99059f11950b5bb3c6aa56927d830",
+  "sourceDiffSha256": "aa6eacd6f8f914bca393ca9afced326c32980917e7b985f9ac0a1ad6fb049437",
+  "reviewedMethodSourceSha256": "eba421c317aa995007faa76f48bbffdf87cd2607f11a5b35e589a0eb2ee76492",
+  "currentOutcome": {
+    "group": "opposition_raam",
+    "members": [
+      "yashar",
+      "beyachad",
+      "democrats",
+      "yisrael_beiteinu",
+      "raam"
+    ],
+    "primaryObservedHex": "-0x1.2d1cebb61ab9cp-3",
+    "independentObservedHex": "-0x1.2d1cebb61ab8ap-3",
+    "primaryCountExact": "171243180208955073760716120706252800",
+    "independentCountExact": "171243180208960128362432280762777600",
+    "totalExact": "705451667782506958827395481600000000"
+  },
+  "checks": {
+    "fresh23SourcePlanIngestionAndCompletedRunHashesBound": true,
+    "no21CountsOrDiagnosisReceiptAccepted": true,
+    "fourActualOperationalCountCallsTwoPredicatesAtBothObservedStatistics": true,
+    "primaryUniqueAndIndependentDpScalarSupportsAndMultiplicitiesCompared": true,
+    "perInstituteFactorialAndFullUniverseMassChecked": true,
+    "stableHalfPartitionSizesAndMassProductsChecked": true,
+    "onlyTwoInMemoryPredicateSubstitutions": true,
+    "highPredicateMatchesPrimarySearchsortedLeftInclusive": true,
+    "lowPredicateMatchesPrimarySearchsortedRightInclusive": true,
+    "independentOriginalDirectAdditionCounterRetained": true,
+    "toleranceUnchanged1eMinus12": true,
+    "sourceAndAllOriginalNumericalFilesHashPreserved": true,
+    "exactSignedNetMassDecompositionExplicitNotPairEnumeration": true,
+    "noReportedPOrQModification": true
+  },
+  "findings": [],
+  "codeGateAdvice": "Single bounded diagnostic may run after official four stages finish and failed ordinary23 validator is preserved. A numerical PASS and narrow adapter must receive separate independent review.",
+  "counterExecutionByReviewer": false,
+  "numericOutcomeVerified": false,
+  "canonicalOrSourceMutationByReviewer": false
+}

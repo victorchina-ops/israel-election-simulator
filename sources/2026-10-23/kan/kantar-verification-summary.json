@@ -1,0 +1,105 @@
+{
+  "status": "PASS_PRIMARY_CANDIDATE_WITH_EXPLICIT_DISPLAY_SCOPE",
+  "checkedAtUtc": "2026-10-23T10:26:50.150588+00:00",
+  "asOf": "2026-10-23",
+  "pollId": "kantar_2026-10-22",
+  "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21687549",
+  "primaryPublisherRead": true,
+  "publicationDate": "2026-10-22",
+  "publicationTime": "16:27:13",
+  "publicationTimePrecision": "second",
+  "publishedAt": "2026-10-22T16:27:13+03:00",
+  "updatedAt": "2026-10-22T17:40:55+03:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "sourceIsoDatePublished": "2026-10-22T13:27:13+00:00",
+  "sourceIsoDateModified": "2026-10-22T14:40:55+00:00",
+  "publicationEvidencePointers": [
+    "NewsArticle JSON-LD datePublished/dateModified",
+    "meta[property=article:published_time]",
+    "meta[property=article:modified_time]",
+    "original primary chart footer22.10.2026"
+  ],
+  "fieldworkStart": "2026-10-21",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkProofQuote": "ב־21 וב־22 באוקטובר 2026",
+  "fieldworkProofPointer": "NewsArticle JSON-LD articleBody final methodology paragraph, independently matching original rendered article HTML",
+  "fieldworkProofQuotedWords": 4,
+  "sampleSize": 1110,
+  "invitedSampleSize": 4675,
+  "reportedMarginOfErrorPct": 3.0,
+  "reportedMarginOfErrorConfidencePct": null,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 14,
+    "joint": 9,
+    "otzma": 8,
+    "democrats": 8,
+    "shas": 8,
+    "yisrael_beiteinu": 7,
+    "utj": 7,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "publishedPercentages": {
+    "winter": 2.7,
+    "haredi_public": 0.7
+  },
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "sourceProseOppositionIncludingHendel": 56,
+  "proseAndChartBlocDefinitionsReconciled": true,
+  "factualExtractFileName": "kantar-reviewed-facts.txt",
+  "factualExtractSha256": "026a8cdaf65af000f91a27e4b89a9e3f7ad024d960b8d59761d9d730a4ead975",
+  "embeddedChartFactsFileName": "embedded-chart-reviewed-facts.json",
+  "embeddedChartFactsSha256": "49ae3afd1f39ea1b0bf61d19d213fee4b1dbb041ceffc251747d2f11bfeb3064",
+  "localRawFileName": "original-article-local-only.html",
+  "localRawSha256": "a7196e7d2e2715b7a8efe3e21b621762b1928c8f8452e528924c318a214f11ac",
+  "localRawChartSha256": "84dce9c2d4ead2ade4b806323e35b79da73ad847809a20e79f934d281a310cb3",
+  "originalGraphicVisuallyReviewedByAssembler": true,
+  "originalGraphicSha256": "d46a1506db76c0a1a2737c41f797d289745290d85230b7da9071682b68f3ba6c",
+  "originalGraphicFileName": "original-mandate-chart.png",
+  "originalGraphicSourceUrl": "https://infogram.io/p/ad60da7fe8fecf2d213d021290073cab.png",
+  "originalGraphicNumericsAgreeScope": [
+    "all12passingPartySeats",
+    "blocChart"
+  ],
+  "publishedPercentageEvidenceKinds": {
+    "winter": [
+      "primary-prose",
+      "primary-active-chart-text",
+      "saved-AX"
+    ],
+    "haredi_public": [
+      "primary-active-chart-text",
+      "saved-AX"
+    ]
+  },
+  "harediPublic07PixelVerified": false,
+  "staticPngOmitsBelowThresholdLine": true,
+  "activePrimaryTextEntity": "77177c8f-3cbc-46d9-8ed3-37f6053458e2a29b05d7-c294-496b-afb6-7a97ebc0780c",
+  "activePrimaryTextEntityReferencedAndUnhidden": true,
+  "savedRootAXBelowThresholdTextRead": true,
+  "savedRootAXSha256": "3cff17ff44c782741cce7de7b252e5236c1ee52ce69d80fc9a6523763af22fc9",
+  "baselineCurrentId": "kantar_2026-10-18",
+  "noDuplicateIn138RowHistory": true,
+  "baselineInputHashes": {
+    "data/current-polls.json": "ab99d88c44fb75c40dffbf72b6edf2662cdf69cfef443e5d05d0b8e5c18a751b",
+    "data/poll-history.json": "24901247422867a70d4418bb1d8c5004eda9f7d4e368a6923f862d95740faa45"
+  },
+  "fullArticleAndChartHtmlStayLocalOnly": true,
+  "primaryFieldworkAndGraphicCheckIndependentOfParentXCrosscheck": true,
+  "secondaryIsraelPollsCheck": "Parent owns current IsraelPolls check; not claimed in this candidate-only receipt.",
+  "missingValuesNotZero": true,
+  "canonicalDataChanged": false
+}

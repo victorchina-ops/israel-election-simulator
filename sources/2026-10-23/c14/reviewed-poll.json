@@ -1,0 +1,327 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "id": "next_data_2026-10-22",
+  "pollIdProposed": "next_data_2026-10-22",
+  "pollsterId": "next_data",
+  "pollster": "NEXT DATA — שלמה פילבר",
+  "publisher": "חדשות 14",
+  "date": "2026-10-22",
+  "checkedAt": "2026-10-23",
+  "reviewedAtUtc": "2026-10-23T10:17:31.488621+00:00",
+  "publicationDate": "2026-10-22",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationTime": "20:26:17",
+  "publicationTimePrecision": "second",
+  "publishedAt": "2026-10-22T20:26:17+03:00",
+  "updatedAt": "2026-10-22T20:26:17+03:00",
+  "dateKind": "Original publication22October2026; collection22October separately explicit; checked23October is not a new poll.",
+  "fieldworkStart": "2026-10-22",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://www.c14.co.il/article/1750553",
+  "fieldworkEvidence": "נערך היום, 22 באוקטובר 2026",
+  "fieldworkProofPointer": "Original final methodology paragraph; web reader line86",
+  "sampleSize": 7937,
+  "sampleSizeSourceUrl": "https://www.c14.co.il/article/1750553",
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "samplingMethod": null,
+  "population": "בוגרים מכלל האוכלוסייה",
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "statusLabel": "סקר חדש — אומת במקור; ערוץ 14 מוחרג כברירת מחדל",
+  "seats": {
+    "likud": 30,
+    "yashar": 20,
+    "beyachad": 11,
+    "democrats": 8,
+    "shas": 9,
+    "utj": 8,
+    "rz_zehut": 7,
+    "otzma": 8,
+    "yisrael_beiteinu": 5,
+    "joint": 8,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "noam": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "cataloguePartySeatVector": {
+    "yashar": 20,
+    "likud": 30,
+    "beyachad": 11,
+    "democrats": 8,
+    "yisrael_beiteinu": 5,
+    "utj": 8,
+    "joint": 8,
+    "shas": 9,
+    "otzma": 8,
+    "rz_zehut": 7,
+    "raam": 6,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": null,
+    "noam": 0,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "catalogueSeatVectorSize": 17,
+  "percentages": {
+    "hendel": 1.9,
+    "winter": 1.5,
+    "noam": 0.6,
+    "haredi_public": 0.3,
+    "other": 0.2
+  },
+  "reportedPercentages": {
+    "hendel": 1.9,
+    "winter": 1.5,
+    "noam": 0.6,
+    "haredi_public": 0.3
+  },
+  "exactPublishedBelowThresholdPct": {
+    "hendel": 1.9,
+    "winter": 1.5,
+    "noam": 0.6,
+    "haredi_public": 0.3
+  },
+  "knownPercentageSum": 4.5,
+  "originalCoveragePct": 4.5,
+  "modelOnlyPercentageIds": [
+    "other"
+  ],
+  "publishedBounds": {},
+  "unmodelledNamedParties": [
+    {
+      "name": "אח״י — חוזרים לשורשים",
+      "seats": 0,
+      "pct": 0.2,
+      "sourceUrl": "https://www.c14.co.il/article/1750553",
+      "modelOtherMapping": "Named published0.2% may contribute to model other only; raw other remains missing.",
+      "mappedTo": "other"
+    }
+  ],
+  "sourceUrl": "https://www.c14.co.il/article/1750553",
+  "secondarySourceUrls": [
+    "https://www.c14.co.il/",
+    "https://www.c14.co.il/archive/65839",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/frozen-reviewed-candidate.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/c14-reviewed-facts.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/c14-verification-summary.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-1.jpeg",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-2.jpeg",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-3.jpeg",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-4.jpeg",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/source-extract.txt"
+  ],
+  "replacesPollId": "next_data_2026-10-21",
+  "sourceBlocSeats": {
+    "coalition": 62,
+    "opposition": 44,
+    "arab_parties": 14
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "הליכוד, ש״ס, יהדות התורה, עוצמה יהודית והציונות הדתית–זהות; וינטר אינו עובר",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו; ללא ערביות והנדל",
+    "arab_parties": "הרשימה המשותפת ורע״ם"
+  },
+  "percentageSourceUrls": {
+    "hendel": "https://www.c14.co.il/article/1750553",
+    "winter": "https://www.c14.co.il/article/1750553",
+    "noam": "https://www.c14.co.il/article/1750553",
+    "haredi_public": "https://www.c14.co.il/article/1750553"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "israel_first",
+    "other"
+  ],
+  "cataloguePartyPublishedPercentageVector": {
+    "yashar": null,
+    "likud": null,
+    "beyachad": null,
+    "democrats": null,
+    "yisrael_beiteinu": null,
+    "utj": null,
+    "joint": null,
+    "shas": null,
+    "otzma": null,
+    "rz_zehut": null,
+    "raam": null,
+    "winter": 1.5,
+    "hendel": 1.9,
+    "gantz": null,
+    "noam": 0.6,
+    "haredi_public": 0.3,
+    "israel_first": null
+  },
+  "baselineObservation": {
+    "pollId": "next_data_2026-10-21",
+    "date": "2026-10-21",
+    "sourceUrl": "https://www.c14.co.il/article/1748686",
+    "sampleSize": 1954,
+    "alreadyIngested": true
+  },
+  "duplicateOfBaseline": false,
+  "changedSeatsSinceBaseline": {
+    "beyachad": {
+      "before": 10,
+      "after": 11
+    },
+    "democrats": {
+      "before": 9,
+      "after": 8
+    },
+    "shas": {
+      "before": 10,
+      "after": 9
+    },
+    "utj": {
+      "before": 7,
+      "after": 8
+    }
+  },
+  "notes": [
+    "Published and explicitly collected22October2026;7937 adult respondents. Check23October is separate.",
+    "All120 published mandates, percentages and62/44/14blocs verified in original prose and original numerical graphics.",
+    "NamedAHI0.2% may contribute only to modelOther; raw aggregateOther remains missing.",
+    "Gantz andIsraelFirst are absent from the new report; their seats and percentages remain missing.",
+    "Method,MOE,confidence,undecided share and percentage denominator remain missing. Channel14 remains excluded by default."
+  ],
+  "sourceDocument": {
+    "fileName": "c14-reviewed-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "0ed155f8366af5b88653f9cd79fdc51f4c7ccc8b0aa283506d6e25920064802a",
+    "extractFileName": "c14-reviewed-facts.txt",
+    "extractSha256": "0ed155f8366af5b88653f9cd79fdc51f4c7ccc8b0aa283506d6e25920064802a",
+    "reviewedAt": "2026-10-23",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.c14.co.il/article/1750553",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "originalGraphicSourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.28.jpeg",
+    "originalGraphicFileName": "original-graphic-1.jpeg",
+    "originalGraphicSha256": "3f214e940dbb77f6f2a5c7e1b5208db9910511f984bcbfc07d222f06b5cd4226",
+    "originalGraphicFiles": [
+      {
+        "file": "original-graphic-1.jpeg",
+        "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.28.jpeg",
+        "sha256": "3f214e940dbb77f6f2a5c7e1b5208db9910511f984bcbfc07d222f06b5cd4226",
+        "visuallyVerified": true,
+        "facts": "mandates,thresholdpercentages,blocs"
+      },
+      {
+        "file": "original-graphic-2.jpeg",
+        "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.27-2.jpeg",
+        "sha256": "1d48715ef1007dad75e246da1ef9f1a5a668d4e8ee922be6263ee8582870515c",
+        "visuallyVerified": true,
+        "facts": "bloc totals"
+      },
+      {
+        "file": "original-graphic-3.jpeg",
+        "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.27-1.jpeg",
+        "sha256": "8c3cf1417b696ed3cf8747cb89e2129ba8957c911533fac8e5a557d5a553c7ed",
+        "visuallyVerified": true,
+        "facts": "fourwaypreferredPM"
+      },
+      {
+        "file": "original-graphic-4.jpeg",
+        "sourceUrl": "https://www.c14.co.il/wp-content/uploads/2026/10/WhatsApp-Image-2026-10-22-at-20.12.27.jpeg",
+        "sha256": "b8531bd3764b491d88ee6faa5fe6b4afd812f17387a8f9b3c39b24ee39bd5611",
+        "visuallyVerified": true,
+        "facts": "headtoheadpreferredPM"
+      }
+    ],
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 6,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "samplingMethod",
+      "reportedMarginOfErrorPct",
+      "reportedMarginOfErrorConfidencePct",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "percentageDenominator",
+      "undecidedPct"
+    ],
+    "verificationFileName": "c14-verification-summary.json",
+    "verificationSha256": "e443ccf78498ef6266fc4c92c80c5e7717b6b079b981a57857211ea35f67c2e2",
+    "fieldworkProofFileName": "c14-verification-summary.json",
+    "fieldworkProofSha256": "e443ccf78498ef6266fc4c92c80c5e7717b6b079b981a57857211ea35f67c2e2",
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/c14-reviewed-facts.txt",
+    "extractArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/c14-reviewed-facts.txt",
+    "originalGraphicArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-1.jpeg",
+    "originalGraphicArchiveUrls": [
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-1.jpeg",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-2.jpeg",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-3.jpeg",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/original-graphic-4.jpeg"
+    ]
+  },
+  "rawSourceLocalOnly": {
+    "fileName": "original-article-local-only.html",
+    "sha256": "d4fdc4f29eb737e26d33d5bf2c96eb068588d0a8899fdf28a6b093eebfe56ac4",
+    "bytes": 219552
+  },
+  "sourceReadLimitations": [
+    "Fresh23October primary homepage exposes22October article; politics index reader remained stale. The dated original article and original graphics verified successfully."
+  ],
+  "sourceDiscrepancies": [],
+  "originalGraphicInspectedThisTask": true,
+  "missingValuesNotZero": true,
+  "rawAggregateOtherMissing": true,
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false,
+  "secondaryIsraelPollsCheck": "Parent owns mandatory profile/graphic/history check; not claimed checked by this source-only receipt.",
+  "knownCataloguePercentageSum": 4.3,
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c14/reviewed-poll.json"
+}

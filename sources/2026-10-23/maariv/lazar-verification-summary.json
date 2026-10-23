@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_SOURCE_FACTS_ONLY",
+  "checkedAtUtc": "2026-10-23T10:22:12.733907+00:00",
+  "asOf": "2026-10-23",
+  "pollId": "lazar_2026-10-23",
+  "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+  "originalPublisherVerified": true,
+  "publicationDate": "2026-10-23",
+  "publishedAt": "2026-10-23T06:00:52+03:00",
+  "publicationEvidence": "Original JSON-LD datePublished and visible time.article-date23/10/2026 06:00; Walla report dated23/10/2026 10:27:26+03:00.",
+  "fieldworkStart": "2026-10-19",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkEvidence": "התקיים ב-22-19 באוקטובר",
+  "methodologyLocator": "Original rendered methodology paragraphs3–5, JSON-LD articleBody and content section33; visible time.article-date.",
+  "sampleSize": 1048,
+  "reportedMarginOfErrorPct": 3.0,
+  "seatTotal": 120,
+  "catalogueSeatVectorSize": 17,
+  "seats": {
+    "yashar": 21,
+    "likud": 19,
+    "beyachad": 15,
+    "democrats": 10,
+    "joint": 9,
+    "yisrael_beiteinu": 8,
+    "shas": 8,
+    "utj": 7,
+    "otzma": 7,
+    "rz_zehut": 7,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "reportedPercentages": {
+    "winter": 3.0,
+    "haredi_public": 0.9,
+    "noam": 0.5,
+    "hendel": 3.5
+  },
+  "sourceBlocSeats": {
+    "coalition": 48,
+    "opposition": 54,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "originalGraphicVisuallyVerified": true,
+  "originalAccessibleTableVerified": true,
+  "rawLocalEvidence": {
+    "embedded-poll-infogram-local-only.html": {
+      "sha256": "b94665ccb7c8d08cadba84b3f2f7f292c7457cbe5a547ca263224083d76972d4",
+      "bytes": 51938,
+      "localOnly": true
+    },
+    "maariv-elections-local-only.html": {
+      "sha256": "8dd4f583550e6565d930e0cb42f46691af1fbc84a38e54d1737439ad35f621ba",
+      "bytes": 151333,
+      "localOnly": true
+    },
+    "maariv-home-local-only.html": {
+      "sha256": "3897a16ab333a7010fe489699a0058f859eead768bb9c85286cf8c11beb5616f",
+      "bytes": 492957,
+      "localOnly": true
+    },
+    "maariv-original-local-only.html": {
+      "sha256": "7cfed653111c250900e5423b7394a8bbeca620539cd33f2258b0d74062b41fa4",
+      "bytes": 259466,
+      "localOnly": true
+    },
+    "maariv-politics-local-only.html": {
+      "sha256": "1e895aae2089ad246b8719af72bd5673865f3315e1598aca59835f3a0452e504",
+      "bytes": 186741,
+      "localOnly": true
+    },
+    "original-embedded-poll.png": {
+      "sha256": "16d7e819cc8a0c5f94fef4999065d2e2f50b88fb6e828e8ad2fb0d80b9960a47",
+      "bytes": 57260,
+      "localOnly": true
+    },
+    "walla-secondary-article-local-only.html": {
+      "sha256": "99c78e5a2facfc9069ac682ab537bef5314e7d0d00a35dcf723397a412315461",
+      "bytes": 244968,
+      "localOnly": true
+    }
+  },
+  "sourceDiscrepancies": [
+    {
+      "field": "updatedAt",
+      "publishedAt": "2026-10-23T06:00:52+03:00",
+      "reportedModifiedAt": "2026-10-22T22:18:50+03:00",
+      "resolution": "Retain earlier reported modified timestamp as source anomaly; it does not change publication or fieldwork dates."
+    },
+    {
+      "field": "collectionFunnel",
+      "finalSampleSize": 1048,
+      "reportedOnlineCompleted": 78,
+      "reportedArabPhoneCompleted": 100,
+      "resolution": "Literal rendered paragraph says78 (41%) and100 (32%); these do not reconcile to1048. Preserve all reported values without correcting or inventing denominators."
+    }
+  ],
+  "sourceReadLimitations": [
+    "Web reader blocked original Maariv pages; approved read-only public HTTP fetch succeeded for original, home, politics and election indexes. No browser/security barrier bypass.",
+    "Hendel3.5% is reported by Walla, not found in the original Maariv mandate chart; it is attributed to Walla separately."
+  ],
+  "baselineInputHashes": {
+    "data/current-polls.json": "ab99d88c44fb75c40dffbf72b6edf2662cdf69cfef443e5d05d0b8e5c18a751b",
+    "data/poll-history.json": "24901247422867a70d4418bb1d8c5004eda9f7d4e368a6923f862d95740faa45"
+  },
+  "currentPollReplacedProposed": "lazar_2026-10-20",
+  "historyDuplicateFound": false,
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "canonicalChanged": false,
+  "embeddedChart": {
+    "sourceUrl": "https://e.infogram.com/_/UmmKiUhybyrnJT6Wfwwe",
+    "sourceTitle": "סקר מנדטים 22.10.26",
+    "sourceDataRows": [
+      [
+        "ישר!",
+        "21"
+      ],
+      [
+        "הליכוד",
+        "19"
+      ],
+      [
+        "ביחד",
+        "15"
+      ],
+      [
+        "הדמוקרטים",
+        "10"
+      ],
+      [
+        "הרשימה המשותפת",
+        "9"
+      ],
+      [
+        "ישראל ביתנו",
+        "8"
+      ],
+      [
+        "שס",
+        "8"
+      ],
+      [
+        "יהדות התורה",
+        "7"
+      ],
+      [
+        "עוצמה יהודית",
+        "7"
+      ],
+      [
+        "הציונות הדתית וזהות",
+        "7"
+      ],
+      [
+        "רעמ",
+        "5"
+      ],
+      [
+        "המילואימניקים והכלכלית",
+        "4"
+      ],
+      [
+        "עמך ישראל",
+        "0(3.0%)"
+      ],
+      [
+        "הציבור החרדי",
+        "0(0.9%)"
+      ],
+      [
+        "נעם לישראל",
+        "0(0.5%)"
+      ],
+      [
+        "צומת בית ישראל",
+        "0(0.5%)"
+      ]
+    ],
+    "graphicSourceUrl": "https://infogram.io/p/a1a87bf68165f610ed40a241abfe603d.png",
+    "graphicSha256": "16d7e819cc8a0c5f94fef4999065d2e2f50b88fb6e828e8ad2fb0d80b9960a47",
+    "visuallyInspected": true
+  },
+  "reportedCollectionFunnel": {
+    "online": {
+      "invited": 580,
+      "answered": 188,
+      "answeredPct": 30,
+      "completed": 78,
+      "completedPct": 41
+    },
+    "arabPhone": {
+      "invited": 687,
+      "answered": 308,
+      "answeredPct": 45,
+      "completed": 100,
+      "completedPct": 32
+    },
+    "reportedFinalN": 1048,
+    "denominatorsReconciled": false
+  }
+}

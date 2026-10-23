@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-23",
+  "baselineAsOf": "2026-10-21",
+  "activePollCount": 8,
+  "historyPollCount": 143,
+  "newPollCount": 5,
+  "sourceChecks": {
+    "tatika": {
+      "candidateSha256": "004f1f387810a8361654a96391b28eb1976a12cd6ee84253c1450a0f8869b326",
+      "sampleSize": 500,
+      "sourceBlocSeats": {
+        "coalition": 51,
+        "opposition": 51,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "strictEligible": true
+    },
+    "lazar": {
+      "candidateSha256": "56cab380d3a827e34cbeff34886fcaf0b962396953b1cd37b6c86481c83393c9",
+      "sampleSize": 1048,
+      "sourceBlocSeats": {
+        "coalition": 48,
+        "opposition": 54,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-22",
+      "strictEligible": true
+    },
+    "kantar": {
+      "candidateSha256": "9d5374c383f4a6ffa2f3257bd1b30e5bbd24775f7db1f1844aa6b9a8e2fa3d9e",
+      "sampleSize": 1110,
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 52,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "strictEligible": true
+    },
+    "next_data": {
+      "candidateSha256": "29ecf0ab486e05841d99159496c99c6a686756cd07d3ff84dedb141bf0456251",
+      "sampleSize": 7937,
+      "sourceBlocSeats": {
+        "coalition": 62,
+        "opposition": 44,
+        "arab_parties": 14
+      },
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-22",
+      "strictEligible": true
+    },
+    "maagar_mochot": {
+      "candidateSha256": "432a7330e59f15d8daddadf2b97f57659776c930be3148bdbed20b8385cf7392",
+      "sampleSize": 5000,
+      "sourceBlocSeats": {
+        "coalition": 52,
+        "opposition": 50,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "strictEligible": false
+    }
+  },
+  "fullStrict": {
+    "candidates": 72,
+    "polls": 61,
+    "series": 8,
+    "deltas": 53,
+    "unknownFieldworkExcluded": 11
+  },
+  "defaultWithoutChannel14": {
+    "polls": 47,
+    "series": 7,
+    "deltas": 40
+  },
+  "checkpointManifestSha256": "7dfb3db46832166e237ad4f051dc1c3d4d4852bdfff52fbc844bf9006f90c0ee",
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "ingestionReceiptSha256": "6f643ee079041a6c1deec4cd01a511baac7d8b833713f414f20adcf93b2cf2f0",
+  "auditHashes": {
+    "artifacts/strict-post-close/lazar-fieldwork.json": "99d8fef243c04cd729917db4a4d7bc1806583f8ed4167ed7363f59ad8ca45a64",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "76efa62683bfb6455b8507f94913048f7e662a391e6707d9c0df62e624aecfd9",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "c4f29311b0d5361fb259787a160f94bc67ef016340a4e0b194afee54cae483d1",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "7540c4947506a6a75ccae88e9f8b2098fbfee13f39a0a35860880dd9f1cee336",
+    "artifacts/strict-post-close/new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  },
+  "authorFilesVerified": 117,
+  "protectedRuntimeFilesVerified": 234,
+  "frozenEvidenceFilesPreserved": 2661,
+  "conditionalAndArtisticFilesPreserved": 28,
+  "reviewedPythonIntegerHelpersPreserved": {
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "artifacts/audit-strict-full-series-2026-09-28.py": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+    "artifacts/strict-post-close/party-independent.py": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68"
+  },
+  "historicalWeightsUnchanged": true,
+  "previousRawHistoryPreserved": true,
+  "publicationAndAuditDatesSeparated": true,
+  "noNumericalOrDashboardMutation": true,
+  "validatorSha256": "6fe195aad19a5934a379d5ccafa0bdba0a1f2cc68c0d2829814d331db1a8fee9"
+}

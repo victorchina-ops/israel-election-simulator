@@ -1,0 +1,87 @@
+{
+  "status": "PASS-SOURCE-BOUND-IMAGE",
+  "asOf": "2026-10-23",
+  "imageSha256": "e22d14dfeeb848c1b89f94c30942d1ecdb250cbec31e42b6ce0a9f92aa86971f",
+  "imageEvidenceKind": "published_poll_comparison",
+  "socialEvidenceKind": "published-poll-counts",
+  "visualInspectionCompleted": true,
+  "meansOrProbabilitiesShown": false,
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "includedObservationIds": [
+    "tatika_2026-10-22",
+    "lazar_2026-10-23",
+    "kantar_2026-10-22",
+    "maagar_mochot_2026-10-22"
+  ],
+  "sourcePollIds": [
+    "tatika_2026-10-22",
+    "lazar_2026-10-23",
+    "kantar_2026-10-22",
+    "maagar_mochot_2026-10-22"
+  ],
+  "sourceCandidateHashes": {
+    "artifacts/poll-checks/2026-10-23/source-zman/reviewed-primary-candidate-r1.json": "004f1f387810a8361654a96391b28eb1976a12cd6ee84253c1450a0f8869b326",
+    "artifacts/poll-checks/2026-10-23/source-maariv/reviewed-primary-candidate.json": "56cab380d3a827e34cbeff34886fcaf0b962396953b1cd37b6c86481c83393c9",
+    "artifacts/poll-checks/2026-10-23/source-hayom/reviewed-primary-candidate.json": "9d5374c383f4a6ffa2f3257bd1b30e5bbd24775f7db1f1844aa6b9a8e2fa3d9e",
+    "artifacts/poll-checks/2026-10-23/source-c16/reviewed-maagar-poll-r2.json": "432a7330e59f15d8daddadf2b97f57659776c930be3148bdbed20b8385cf7392"
+  },
+  "sourcePollCount": 4,
+  "partyPassCounts": {
+    "hendel": 4,
+    "winter": 1
+  },
+  "statisticalSignificanceClaimed": false,
+  "imageActualSourceCountsAndDatesVerified": true,
+  "countsOfPublishedPollsAboveThreshold": {
+    "hendel": 4,
+    "winter": 1
+  },
+  "denominator": 4,
+  "datesShown": "22–23.10.2026",
+  "caption": "ספירת סקרים — לא הסתברות מעבר",
+  "channel14Excluded": true,
+  "rawSourceRows": [
+    {
+      "id": "tatika_2026-10-22",
+      "publisher": "זמן ישראל",
+      "date": "2026-10-22",
+      "winterSeats": 0,
+      "hendelSeats": 4,
+      "sourceUrl": "https://www.zman.co.il/735649/"
+    },
+    {
+      "id": "lazar_2026-10-23",
+      "publisher": "מעריב",
+      "date": "2026-10-23",
+      "winterSeats": 0,
+      "hendelSeats": 4,
+      "sourceUrl": "https://www.maariv.co.il/news/elections-2026/article-1380289"
+    },
+    {
+      "id": "kantar_2026-10-22",
+      "publisher": "ישראל היום",
+      "date": "2026-10-22",
+      "winterSeats": 0,
+      "hendelSeats": 4,
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21687549"
+    },
+    {
+      "id": "maagar_mochot_2026-10-22",
+      "publisher": "ערוץ 16",
+      "date": "2026-10-22",
+      "winterSeats": 4,
+      "hendelSeats": 4,
+      "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac"
+    }
+  ],
+  "visualReview": [
+    "Actual generated image inspected: right Hendel-Zelekha4of4, left Winter1of4; four cards each with matching highlights.",
+    "Dates, all four publisher names, exclusion of14 and small author credit correctly visible.",
+    "No model probability, support-share estimate or significance claim appears in the graphic.",
+    "Square illustration, clear RTL Hebrew, readable type; no invented party logos or photorealistic portraits."
+  ],
+  "generationMethod": "built-in image_gen",
+  "promptFile": "image-prompt.txt",
+  "promptSha256": "3f205a0a8b6983f444f1467769ffc242722130427c78a9518fce9bf246f52fd4",
+  "draftOnly": true
+}

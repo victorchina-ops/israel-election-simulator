@@ -1,0 +1,324 @@
+{
+  "id": "maagar_mochot_2026-10-22",
+  "pollsterId": "maagar_mochot",
+  "pollster": "מאגר מוחות — יצחק כ״ץ",
+  "publisher": "ערוץ 16",
+  "date": "2026-10-22",
+  "checkedAt": "2026-10-23",
+  "reviewedAtUtc": "2026-10-23T10:30:36.822206+00:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationTime": null,
+  "publishedAt": null,
+  "updatedAt": null,
+  "dateKind": "22Oct publication verified by secondary IsraelPolls dated history/post; the original standalone numerical clip has no visible calendar dateline. Relative fieldwork is preserved without inferring absolute dates.",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": false,
+  "strictEligible": false,
+  "fieldworkSourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+  "fieldworkVerificationFileName": "c16-fieldwork-proof-r2.json",
+  "fieldworkVerificationSha256": "d21ceb15777db4026a6c14625992c0d8f59665b63bdeec865611513b14924ade",
+  "sampleSize": 5000,
+  "sampleSizeSourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+  "sampleSizeLowerBoundExclusive": null,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "samplingMethod": null,
+  "population": null,
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "reportedMarginOfErrorPct": null,
+  "reportedMarginOfErrorConfidencePct": null,
+  "reportedMarginOfErrorConflict": {
+    "status": "unresolved-primary-graphic-discrepancy",
+    "values": [
+      {
+        "pct": 1.5,
+        "location": "large-broadcast-footer",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac"
+      },
+      {
+        "pct": 1.4,
+        "location": "small-repeated-numerical-card-fineprint",
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac"
+      }
+    ],
+    "canonicalValue": null,
+    "reason": "Both source values are legible; neither is silently selected."
+  },
+  "reportedSampleSizeStatements": {
+    "exactBroadcastFooter": 5000,
+    "exactCardFineprint": 5000,
+    "introExclusiveLowerBound": 5000
+  },
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "sourceTier": "original-publisher",
+  "statusLabel": "מנדטי המקור אומתו; תאריך הפרסום22.10 אומת במקור משני; מועד איסוף קלנדרי חסר",
+  "seats": {
+    "yashar": 20,
+    "likud": 17,
+    "beyachad": 14,
+    "democrats": 9,
+    "otzma": 9,
+    "joint": 9,
+    "utj": 8,
+    "yisrael_beiteinu": 7,
+    "shas": 7,
+    "rz_zehut": 7,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 4,
+    "haredi_public": 0,
+    "other": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "haredi_public": 0.7,
+    "other": 0.6
+  },
+  "reportedPercentages": {
+    "haredi_public": 0.7,
+    "other": 0.6
+  },
+  "knownPercentageSum": 1.3,
+  "originalCoveragePct": 1.3,
+  "publishedBounds": {},
+  "modelOnlyPercentageIds": [],
+  "unmodelledNamedParties": [],
+  "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+  "secondarySourceUrls": [
+    "https://www.ch16.co.il/search/%D7%A1%D7%A7%D7%A8",
+    "https://www.ch16.co.il/",
+    "https://www.ch16.co.il/vod/6ad8fd55b3ec76081d8f0746",
+    "https://www.skarim.org/polls/channel-16-2026-10-22",
+    "https://x.com/IsraelPolls/status/2113323533229072815",
+    "https://x.com/IsraelPolls/status/2113329069039260094/photo/1",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/frozen-reviewed-candidate.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-reviewed-facts-r2.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-fieldwork-proof-r2.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-verification-summary-r2.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-first-three.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-middle-four.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-leading-parties.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-small-parties-settled.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-threshold-final-70-r2.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-threshold.png",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/source-extract.txt"
+  ],
+  "replacesPollId": "maagar_mochot_2026-10-20",
+  "sourceBlocSeats": {
+    "coalition": 52,
+    "opposition": 50,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "52; original graphic explicitly includes Amcha Israel/Winter4",
+    "opposition": "50: Yashar, Beyachad, Democrats, YisraelBeiteinu",
+    "arab_parties": "14: Joint9 and Raam5",
+    "hendel": "Hendel-Zelekha4 separately"
+  },
+  "fixedBlocSeatsForAudit": {
+    "coalition": 52,
+    "opposition": 50,
+    "arab_parties": 14,
+    "unassigned": 4
+  },
+  "percentageSourceUrls": {
+    "haredi_public": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+    "other": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac"
+  },
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "hendel",
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "notes": [
+    "סקר חדש מבחינה מספרית לעומת20.10; תאריך הפרסום22.10 אומת בטבלת IsraelPolls מתוארכת ובפוסט מאותו יום. בקטע המקורי אין תאריך קלנדרי גלוי.",
+    "כל13 הרשימות העוברות מסתכמות ב120; וינטר4 לקואליציה, הנדל4 בנפרד, ערביות14.",
+    "המקור מציין5000 משיבים ואיסוף אתמול והיום. בלי עיגון ליום קלנדרי, תאריכי האיסוף חסרים והסקר לא זכאי למחזור הסטטיסטי הקשיח.",
+    "סתירה מקורית בטעות הדגימה:1.5% ברצועה הגדולה ו1.4% באותיות הקטנות; הערך הראשי נשאר חסר.",
+    "הציבור החרדי0.7% ואחרות0.6% פורסמו במסגרת הסופית; המסגרת הקודמת0.6/0.5 הייתה שלב ביניים בהנפשה ואינה נתון סופי. יתר האחוזים חסרים.",
+    "מסגרות אנימציה מוקדמות נשמרו בנפרד ואינן בסיס לחילוץ; המספרים נקראו לאחר התייצבות.",
+    "מחליף רק את מאגר מוחות20.10; מועד האיסוף הקלנדרי לא הוסק מתאריך הפרסום המשני. לא נכתב דבר לנתונים הקנוניים."
+  ],
+  "sourceDocument": {
+    "fileName": "c16-reviewed-facts-r2.txt",
+    "extractFileName": "c16-reviewed-facts-r2.txt",
+    "sha256": "ad2cae551fd6b4b920a9fc42a8f90fbe46088fe0d4627ae4ffb49458a7154c9b",
+    "extractSha256": "ad2cae551fd6b4b920a9fc42a8f90fbe46088fe0d4627ae4ffb49458a7154c9b",
+    "kind": "original-publisher-reviewed-numerical-video-frames-with-factual-extract",
+    "reviewedAt": "2026-10-23",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+    "primaryPublicationVerified": false,
+    "publicationCrossChecked": true,
+    "publicationDatePending": false,
+    "originalBroadcastPlayerAccessible": true,
+    "originalNumericFramesVisuallyVerified": true,
+    "originalGraphicVisuallyVerified": true,
+    "originalGraphicFiles": [
+      {
+        "file": "c16-first-three.png",
+        "sha256": "7119d6cc3a176a7533d963713faa4794cc6c62027648053f9e31ebdff4846d4b",
+        "sourceVideoSecondsApprox": 20.459291,
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+        "captureKind": "actual-live-Chrome-browser-screenshot",
+        "reviewedContent": "Settled Yashar20 Likud17 Beyachad14; large footer n5000 and MOE1.5%; loading icon does not obscure numerals",
+        "visuallyReviewed": true
+      },
+      {
+        "file": "c16-middle-four.png",
+        "sha256": "5263f74d544681659eefe97ab5ff48fae7919b3c6e27423ae7daa4852ef8331c",
+        "sourceVideoSecondsApprox": 34.476394,
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+        "captureKind": "actual-live-Chrome-browser-screenshot",
+        "reviewedContent": "Settled Democrats9 Otzma9 Joint9 UTJ8",
+        "visuallyReviewed": true
+      },
+      {
+        "file": "c16-leading-parties.png",
+        "sha256": "c6a37fd4adc0d0098e3830b7232372ab000b899f551e185e92b6e966be1074e3",
+        "sourceVideoSecondsApprox": 47.126033,
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+        "captureKind": "actual-live-Chrome-browser-screenshot",
+        "reviewedContent": "Settled Shas7 YisraelBeiteinu7 RZ-Zehut7; legacy capture filename retained",
+        "visuallyReviewed": true
+      },
+      {
+        "file": "c16-small-parties-settled.png",
+        "sha256": "d0516397a9288e45d46d1d79fb52c62bbb530b989c181d81b0a3cc274de500f5",
+        "sourceVideoSecondsApprox": 62.09758,
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+        "captureKind": "actual-live-Chrome-browser-screenshot",
+        "reviewedContent": "Settled Raam5 Winter4 Hendel4; fineprint n5000 and MOE1.4%",
+        "visuallyReviewed": true
+      },
+      {
+        "file": "c16-threshold-final-70-r2.png",
+        "sha256": "e8eb69b52dc12e6da2e83c8c4aba00f34314d41cd426e3b6e9cbf798abe1cd7b",
+        "sourceVideoSecondsApprox": 69.0189,
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+        "captureKind": "actual-live-Chrome-browser-screenshot",
+        "reviewedContent": "Final settled HarediPublic0 seats0.7%; aggregateOther0 seats0.6%. Earlier67.2s screenshot was an intermediate animation frame.",
+        "visuallyReviewed": true
+      },
+      {
+        "file": "c16-threshold.png",
+        "sha256": "e4628c04a534b6fb1efebf60bcaa5e613d03de4c82aef1d0cc19fd6aee41d82c",
+        "sourceVideoSecondsApprox": 72.858519,
+        "sourceUrl": "https://www.ch16.co.il/vod/6ada477342b177b7612729ac",
+        "captureKind": "actual-live-Chrome-browser-screenshot",
+        "reviewedContent": "Settled coalition52 opposition50 Arabs14 Hendel4; legacy capture filename retained",
+        "visuallyReviewed": true
+      }
+    ],
+    "fieldworkProofFileName": "c16-fieldwork-proof-r2.json",
+    "fieldworkProofSha256": "d21ceb15777db4026a6c14625992c0d8f59665b63bdeec865611513b14924ade",
+    "verificationFileName": "c16-verification-summary-r2.json",
+    "verificationSha256": "d088ab5e56e4cef314ee4180de1ec0a4db28a88aaec4bba993b90396a08372ac",
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 2,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "primary-publication-calendar-date",
+      "publicationTime",
+      "fieldworkStart",
+      "fieldworkEnd",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "samplingMethod",
+      "population",
+      "panelProvider",
+      "initialSampleSize",
+      "invitedSampleSize",
+      "reportedMarginOfErrorPct-conflicting-statements",
+      "reportedMarginOfErrorConfidencePct",
+      "percentageDenominator",
+      "undecidedPct",
+      "full-passing-party-percentages"
+    ],
+    "primaryCalendarPublicationDateVerified": false,
+    "secondaryCalendarPublicationDateVerified": true,
+    "originalAnimationCorrectionExplicit": true,
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-reviewed-facts-r2.txt",
+    "extractArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-reviewed-facts-r2.txt",
+    "originalGraphicArchiveUrls": [
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-first-three.png",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-middle-four.png",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-leading-parties.png",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-small-parties-settled.png",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-threshold-final-70-r2.png",
+      "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/c16-threshold.png"
+    ]
+  },
+  "publicationDatePrimaryVerified": false,
+  "fieldworkRelativeQuote": "אתמול והיום",
+  "publicationDateSecondaryVerified": true,
+  "publicationDateEvidence": {
+    "date": "2026-10-22",
+    "verificationKind": "secondary dated publication corroboration, not primary fieldwork anchor",
+    "urls": [
+      "https://x.com/IsraelPolls/status/2113323533229072815",
+      "https://x.com/IsraelPolls/status/2113329069039260094/photo/1"
+    ],
+    "reportedPostTime": "22 October20:58",
+    "rootActuallyViewedAndSaved": true,
+    "artifacts": [
+      {
+        "file": "source-israelpolls/c16-history-22oct.jpg",
+        "sha256": "1a9b77da0ea14c007cc3b28582071eb3319a1196c1f8a677d70007b9c42b48ea"
+      },
+      {
+        "file": "source-israelpolls/c16-history-22oct-local-only.txt",
+        "sha256": "c08d3e1937734646536768d4ce7c0d2a67a8d996cd97d3601fc01045045d6e42"
+      }
+    ],
+    "originalStandaloneCalendarDateMissing": true
+  },
+  "supersedesCandidate": "reviewed-maagar-poll.json",
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/c16/reviewed-poll.json"
+}

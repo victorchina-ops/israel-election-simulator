@@ -1,0 +1,16 @@
+Channel16 / Maagar Mochot (Prof Yitzhak Katz), fresh original poll clip discovered23Oct2026 on primary poll search above both20Oct clips.
+Publication day22Oct2026 is corroborated by secondary IsraelPolls dated historical table and post20:58, independently reviewed by root. Original standalone clip has a generic title and no visible or HTML publication date. The primary homepage dates the full central edition22Oct2026; a bounded spot check did not establish a matching poll sequence inside that full edition. Date anchoring remains explicitly unresolved.
+Original source: https://www.ch16.co.il/vod/6ada477342b177b7612729ac
+All settled source numerical frames were actually viewed in Chrome and saved.
+Seats: Yashar20; Likud17; Beyachad14; Democrats9; Otzma9; Joint9; UTJ8; YisraelBeiteinu7; Shas7; RZ-Zehut7; Raam5; Winter4; Hendel4 =120.
+Published blocs: coalition52 (explicitly including Winter), opposition50, Arab parties14, Hendel4 separately.
+Below threshold: HarediPublic0 seats0.7%; aggregate other parties0 seats0.6%. Other named parties are absent, not zero. No complete national percentage vector was published in the inspected frames.
+Sample5000 explicitly appears both in the large broadcast footer and repeated numerical-card fineprint.
+Exact short fieldwork extract: אתמול והיום. Absolute dates are not inferred without a verified calendar anchor; fieldworkStart/end null, fieldworkVerified=false, strictEligible=false.
+MOE contradiction retained: large broadcast footer1.5%; repeated card fineprint1.4%. Canonical MOE remains null; confidence is not supplied.
+Method, population, panel, undecided, denominator, invited/initial sample, collection times and exact publication time remain missing/null.
+Dedup: candidate replaces only maagar_mochot_2026-10-20; all earlier observations retained. Numeric differences from20Oct prove this is not a replay of that poll.
+No canonical data, model, strict statistics, build, or social artifact was changed.
+
+Correction r2: the67.2-second threshold capture showed an intermediate animation0.6/0.5. The final69.0189-second original frame shows0.7/0.6. Earlier files remain preserved and must not be ingested.
+Intro describes more than5000 participants; exact5000 is repeated in source footer and fineprint. Both statements are retained; no inferred rounded sample replaces the exact reported5000.

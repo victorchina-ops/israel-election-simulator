@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-23",
+  "runId": "reviewed",
+  "includeChannel14": false,
+  "sourceHashes": {
+    "artifacts/strict-post-close/party-analysis.json": "be8d47b2fd53e464629715797b811d5e2e1b25b18a8c101dcf7cab7ec83b65a7",
+    "artifacts/strict-post-close/analysis.json": "2037d0f675f58821c3d2ea5cefd8756bc50b47a2b9baef1b11690468ff4a17db",
+    "data/strict-party-trends.json": "1aca4b969d668312d0711168e4a034cefa73f24994e31ea959155bd4e5f3c52a",
+    "data/poll-history.json": "373f685ffff64001140a713b50bca8e271b39fa24d1a459d725096a7c2ab97cb",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "scripts/derive-strict-trends-without-channel14.py": "552278e86c4c0070383cce0091b1bc75e73a75dc42f37e7c00348989d4e46847",
+    "scripts/exact_scalar_marginals_2026_10_20.py": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+    "scripts/run-exact-trends-2026-10-20.py": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+    "scripts/validate-exact-scalar-backend-2026-10-20.py": "9a4ab89bec68abbcf05666f37a3ce40534f0d018efaa0f528220e48276f9d9d8",
+    "artifacts/poll-checks/2026-10-20/scalar-review/independent-review-backend.py": "cdf84542d27c87c91a1137a34cfeae10ad046d4b8d2b855638ea8b132000a2af",
+    "artifacts/poll-checks/2026-10-20/scalar-review/toy-equivalence.json": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/archive19-equivalence.json": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+    "artifacts/poll-checks/2026-10-20/scalar-review/independent-backend-review.json": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7"
+  }
+}

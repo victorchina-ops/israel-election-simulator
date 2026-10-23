@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_SOURCE_FACTS_ONLY",
+  "checkedAtUtc": "2026-10-23T10:22:12.733907+00:00",
+  "asOf": "2026-10-23",
+  "pollId": "tatika_2026-10-22",
+  "sourceUrl": "https://www.zman.co.il/735649/",
+  "originalPublisherVerified": true,
+  "publicationDate": "2026-10-22",
+  "publishedAt": "2026-10-22T17:30:03+03:00",
+  "publicationEvidence": "Chrome DOM meta[property=article:published_time]; chart caption22/10/2026; primary article says yesterday on23Oct.",
+  "fieldworkStart": "2026-10-21",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkEvidence": "הסקר התקיים ב-21 וב-22 באוקטובר 2026",
+  "methodologyLocator": "Original methodology final paragraph; web reader line145; Chrome AX text237/572.",
+  "sampleSize": 500,
+  "reportedMarginOfErrorPct": 4.4,
+  "seatTotal": 120,
+  "catalogueSeatVectorSize": 17,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 11,
+    "yisrael_beiteinu": 9,
+    "joint": 9,
+    "shas": 8,
+    "democrats": 8,
+    "utj": 8,
+    "otzma": 8,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0
+  },
+  "reportedPercentages": {
+    "winter": 3.0,
+    "hendel": 3.6
+  },
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 51,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "originalGraphicVisuallyVerified": true,
+  "originalAccessibleTableVerified": true,
+  "rawLocalEvidence": {
+    "direct-home-and-poll-feed-reader-local-only.txt": {
+      "sha256": "4ac32d7c2bb862a3def1ceb5ff601c1c0664ed4e3a7983f6b77d389f79cae256",
+      "bytes": 27726,
+      "localOnly": true
+    },
+    "original-browser-observed-facts.json": {
+      "sha256": "cb606f9fe15a88140cf591ff3182dca5000644a7dd234b8ceb77fa2bc281daef",
+      "bytes": 1612,
+      "localOnly": true
+    },
+    "original-web-reader-receipt-local-only.txt": {
+      "sha256": "29a8c4e4cd027e614b863a1127497d34df438fee083b0e453afb9288798549ec",
+      "bytes": 13148,
+      "localOnly": true
+    }
+  },
+  "sourceDiscrepancies": [],
+  "sourceReadLimitations": [
+    "Direct original/feed HTTP downloads returned403. Primary web reader and Chrome succeeded.",
+    "Exact collection contact mode and eligible ages were not published in the reviewed original."
+  ],
+  "baselineInputHashes": {
+    "data/current-polls.json": "ab99d88c44fb75c40dffbf72b6edf2662cdf69cfef443e5d05d0b8e5c18a751b",
+    "data/poll-history.json": "24901247422867a70d4418bb1d8c5004eda9f7d4e368a6923f862d95740faa45"
+  },
+  "currentPollReplacedProposed": "tatika_2026-10-15",
+  "historyDuplicateFound": false,
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "canonicalChanged": false,
+  "nativeGraphicReview": {
+    "fileName": "native-chart-visual-review-r1.json",
+    "sha256": "f32f22b7fed2879f1b6cc7935dee978b1bfee0d7286bef667b6579c0564530ca"
+  },
+  "supersedesSourceReviewSha256": "fd0e76652adba2c8371ee42c35eefe1bb6f36d0ddd2ee03c10b53085c3350032"
+}

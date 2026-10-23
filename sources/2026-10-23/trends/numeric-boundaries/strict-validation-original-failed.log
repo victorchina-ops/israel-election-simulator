@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-23.py", line 50, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-23.py", line 48, in main
+    namespace['main']()
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21.py", line 241, in main
+    boundary_paths.append(boundary_check('bloc',row['group'],bloc['primary']['byPollster'],'groups','group',
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-strict-trends-2026-10-21.py", line 50, in boundary_check
+    assert allow_compute, ('Exact counts disagree; run --resolve-boundaries for only this outcome', kind, identity)
+           ^^^^^^^^^^^^^
+AssertionError: ('Exact counts disagree; run --resolve-boundaries for only this outcome', 'bloc', 'opposition_raam')

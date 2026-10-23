@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-23",
+  "reviewedAtUtc": "2026-10-23T11:10:04.264707+00:00",
+  "scope": "Final pinned standard boundary-receipt materializer source only",
+  "materializerPath": "scripts/materialize-opposition-raam-common-boundary-2026-10-23.py",
+  "materializerSha256": "27a796ec5824756b1c093b7cf28ab66a3d7fcc8e3bd328ff09d30d687ff8a780",
+  "archivedSourceSha256": "27a796ec5824756b1c093b7cf28ab66a3d7fcc8e3bd328ff09d30d687ff8a780",
+  "diagnosisSha256": "fb25115e8f18e4ec795418ae4f81b3de0b63328f1ea9646e21387b4bb4ce2f8a",
+  "numericIndependentReviewSha256": "4b6384443d522039eb39a92e0af9bb560a9b2c10e48da5a00462c1ea70edf3d8",
+  "baseValidatorSha256": "0ff3a67e0ac83b8750f67e9d736a650e9a874d7e8fb5fc2ce81256683bce5410",
+  "reproducerSha256": "a5da460bc358280c53647f58a9be7f953a25951b9ae915fe38066e10769e7341",
+  "checks": {
+    "allFinalPinsMatchActualFreshFiles": true,
+    "materializerArchiveBytesMatchExecutedScriptPath": true,
+    "actualFailedOrdinary23ValidatorPreservedAndUnchanged": true,
+    "all16InputPathExpressionsAstEqualOrdinary23Validator": true,
+    "exactActualObservedHexCountsUniverseAndFreshInputHashesRequired": true,
+    "originalIndependentAdditionCommonEqualsPrimaryAndOwnEqualsIndependentRequired": true,
+    "reviewRequiresAllPositiveChecksAndNoPqFrozenOrHeavyCounterMutation": true,
+    "supportCohortFactorialHalfMetadataBoundToReviewedFreshProof": true,
+    "onlyStandardBlocOppositionRaamReceiptCanBeWritten": true,
+    "idempotenceOnlyForExactExistingReceiptBytes": true,
+    "noCounterImportsOrExecution": true,
+    "noPredicateAdapterOrCountToleranceIntroduced": true
+  },
+  "findings": [],
+  "executionAdvice": "GO for this materializer, followed by unchanged ordinary23 validator and original separate promoter. Their actual PASS remains required for build/publication.",
+  "materializerExecutedByReviewer": false,
+  "codeOrCanonicalMutationByReviewer": false
+}

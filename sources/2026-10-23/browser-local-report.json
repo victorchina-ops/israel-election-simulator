@@ -1,0 +1,81 @@
+{
+  "asOf": "2026-10-23",
+  "phase": "local",
+  "browserAutomation": "cua",
+  "browser": "Chrome",
+  "tabId": "1913181662",
+  "url": "http://127.0.0.1:8796/?view=1&tab=dashboard",
+  "observedSnapshotSha256": "6e634237df78369ae8426587a14fa40549c8bf925ccdad82dae8e7851952347f",
+  "checks": [
+    {
+      "id": "fresh-source-about",
+      "status": "passed",
+      "observed": "Fresh root openedAbout; actualmeta matches6e634237...; date23October. Original portrait loaded320px, contact and credits visible."
+    },
+    {
+      "id": "appearance-no-ask",
+      "status": "passed",
+      "observed": "AskChatGPTbuttoncount0; toggledisolated8796darktolight,reloadedandlightpersisted."
+    },
+    {
+      "id": "defaults-and-partition",
+      "status": "passed",
+      "observed": "Quality selected,14OFF,similarityOFF,2022turnout and100motivation.17exclusivepartyselects;Wintercoalition,Hendel/Arabsunassigned. Means50.89/52.87/14.17/2.07 matchdefaultreplay."
+    },
+    {
+      "id": "preferred-replay",
+      "status": "passed",
+      "observed": "Quality/no14 withsimilarityON: actualdashboardmeans51.30/52.61/14.05/2.03 andthresholdH47.16%,W33.94% matchofficialpreferredreplay."
+    },
+    {
+      "id": "threshold-and-joint-semantics",
+      "status": "passed",
+      "observed": "Partiesfirst;3.25% vote threshold separatedfrommodelprobability. Jointselectionrequiresallselectedpartiesfailinthesameworld;W+Hbothfail3376/10000."
+    },
+    {
+      "id": "new-source-metadata-history",
+      "status": "passed",
+      "observed": "Allfivenewsource rows verifiedactualDOM withsamples1110/1048/5000/500/7937; C16fieldunverified. Expanded143-observationarchive."
+    },
+    {
+      "id": "strict-cohorts-significance",
+      "status": "passed",
+      "observed": "Actualsavedtrends23Oct show47polls/7series/40deltaswithout14;ONswitchshows61/8/53,restoredOFF.PrimaryJoint/Winter/OtzmasignificantafterBH;whole-seriessensitivitynoindividualparty;similarityp/qseparationexplicit."
+    },
+    {
+      "id": "restore-layout",
+      "status": "passed",
+      "observed": "ActualUI restored14OFF/similarityOFF withdefaultmeans50.89/52.87/14.17/2.07; document1521px fits1536pxviewport."
+    }
+  ],
+  "screenshotReviews": {
+    "01-about-light.jpg": "Actually inspected:23October date, original author portrait/name/contact, visible theme toggle and clear About opening.",
+    "03-source-metadata.jpg": "Actually inspected: metadata tableheading,21OctN12/13 and22OctHayom1110; all remainingnewsource rows and C16unknown fieldwork read in actualDOM trace.",
+    "02c-threshold-values.jpg": "Actually inspected: Hendel47.16% andWinter33.94% labelled chart rows visible; Winter tooltip shows passage33.94% andfailure66.06%, with average mandate1.4.",
+    "04b-strict-trends.jpg": "Actually inspected: main test methods, accumulateddelta andweeklyrate columns distinct, p/qBH andexplicit significantverdicts forJoint+1.71,Winter-2.03,Otzma+0.71."
+  },
+  "status": "passed",
+  "checkedAtUtc": "2026-10-23T11:25:38.978255+00:00",
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "officialSourceSnapshotSha256": "6e634237df78369ae8426587a14fa40549c8bf925ccdad82dae8e7851952347f",
+  "servedHTMLSha256": "b803d9dbf23536b6cbe5b566705eda1107d36d14460e1eb7e142823e2b21f728",
+  "servedHTMLExactByteMatch": true,
+  "evidenceTextFiles": {
+    "01-about-dark.txt": "2ca6efcf48b66fa31f443b8ed58ddc35e03c4e6eed19a324f1476557ab9dc19e",
+    "02-about-light.txt": "6975b8c7778bcf8a76482af67b2791d506442c6f09b2cbe858c7086aadc8c994",
+    "03-dashboard-default.txt": "211de0dc0d4b0c6d66369ad9be156bc613952f3e5f21df76b350c5cc1fc5b214",
+    "04-dashboard-preferred.txt": "e1a2a56e77ba2d5de88201ed16d580f941a2a1e396e7a4f262e0f45648cc44da",
+    "05-threshold-preferred.txt": "9183e4089932e96ead2357a75a4f7f7c4b2fad373cb2538915ad42d54f882656",
+    "06-sources.txt": "2e114efaa0b3e3aceeb94e03e6c9041e99d9a045f186e711c010deb5ff15f438",
+    "07-archive.txt": "8bc0a453f4e3677fae5be9409ec940d397833077ad4b5ac0524b9da67bb695b8",
+    "08-trends-without14.txt": "86106998351d657e738ddda5a53586a415cb582e8a2ef2feb34e585ab11d3ede",
+    "09-trends-with14.txt": "1571f82738a0a41475b5ed1042e2cd052c8ddf845effbcdf586663bdfd74fb9a",
+    "10-restored-defaults.txt": "8df8a5e15b5ae7e975001cf8b1570998b6e2beec86c50730ad52e07cdd25a2ec"
+  },
+  "httpReadback": {
+    "url": "http://127.0.0.1:8796/",
+    "status": 200,
+    "bytes": 8713190,
+    "sha256": "b803d9dbf23536b6cbe5b566705eda1107d36d14460e1eb7e142823e2b21f728"
+  }
+}

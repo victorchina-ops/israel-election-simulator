@@ -1,0 +1,52 @@
+{
+  "asOf": "2026-10-23",
+  "status": "reviewed",
+  "newIndependentObservations": 5,
+  "israelPolls": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "access": "Web reader403; actual Chrome profile, graphics and historical tables successfully inspected.",
+    "historyViewed": "https://x.com/IsraelPolls/status/2113329069039260094/photo/1",
+    "weeklyViewed": "https://x.com/IsraelPolls/status/2113525383442424067/photo/1",
+    "weeklyIsObservation": false,
+    "c16PublicationDate": "2026-10-22",
+    "c16AbsoluteFieldworkVerified": false,
+    "scope": "Latest profile posts through23Oct morning; source original numerical vectors independently verified."
+  },
+  "n12": {
+    "primaryUrls": [
+      "https://www.n12.co.il/",
+      "https://www.mako.co.il/news-israel-elections/2026",
+      "https://www.mako.co.il/news-politics"
+    ],
+    "access": "All three current primary pages read directly in actual Chrome.",
+    "result": "Latest mandate poll visible in elections index remains21Oct, already in baseline; no new full poll verified."
+  },
+  "hayom": {
+    "primaryUrls": [
+      "https://www.israelhayom.co.il/",
+      "https://www.israelhayom.co.il/news/politics",
+      "https://www.israelhayom.co.il/news/politics/article/21687549"
+    ],
+    "result": "New22Oct original article and embedded primary chart verified; n1110, field21–22Oct."
+  },
+  "otherPrimaryCoverageReceipt": {
+    "file": "artifacts/poll-checks/2026-10-23/source-primary-c13-i24-kan.json",
+    "sha256": "53fb8c47fabd1e21245f949dc8cab2076d44cdbec31abb2bd8b2f9de3e093d7b"
+  },
+  "zmanMaarivCoverageReceipt": {
+    "file": "artifacts/poll-checks/2026-10-23/source-zman-maariv-reviewed-summary-r1.json",
+    "sha256": "e4f64c785c3e408b17e10bbc50e593e1af0b0e64f213929e86136222bd135179"
+  },
+  "limitations": [
+    "C16 original clip has no calendar dateline. Publication22Oct corroborated by dated IsraelPolls graphic with matching full vector; absolute fieldwork remains null.",
+    "C16 final threshold values read only after animation settled: HP0.7%, aggregate other0.6%. Earlier captured animation frames excluded.",
+    "C16 conflicting original maximum sampling-error statements1.5% and1.4% retained; canonical value null.",
+    "Maariv primary browser/reader blocked; original article recovered through approved direct HTTP. Actual sample1048 retained despite inconsistent source recruitment funnel.",
+    "Kan reader/HTTP blocked but current home/politics recovered in Chrome; C13 original HTTP blocked but reader indexes accessible.",
+    "Bounded current primary scans are not proof that every possible publication was absent. Sources checked during23Oct afternoon Israel time; later evening polls may follow."
+  ],
+  "rawPrivateBrowserDomPublic": false,
+  "fullAuthoredArticleBodiesPublic": false,
+  "missingValuesNotZero": true,
+  "noDuplicateWeeklyPolls": true
+}

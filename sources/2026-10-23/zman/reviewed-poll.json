@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "checkedAtUtc": "2026-10-23T10:22:12.733907+00:00",
+  "pollIdProposed": "tatika_2026-10-22",
+  "id": "tatika_2026-10-22",
+  "date": "2026-10-22",
+  "checkedAt": "2026-10-23",
+  "publisher": "זמן ישראל",
+  "pollster": "יוסי טאטיקה",
+  "pollsterId": "tatika",
+  "sourceUrl": "https://www.zman.co.il/735649/",
+  "sourceTier": "original-publisher",
+  "publicationDate": "2026-10-22",
+  "publicationTime": "17:30:03",
+  "publicationTimePrecision": "second",
+  "publishedAt": "2026-10-22T17:30:03+03:00",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "updatedAt": "2026-10-22T17:41:15+03:00",
+  "dateKind": "מועד הפרסום המקורי והאיסוף אומתו בנפרד; פרסום מחדש אינו סקר נוסף.",
+  "fieldworkStart": "2026-10-21",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://www.zman.co.il/735649/",
+  "fieldworkEvidence": "הסקר התקיים ב-21 וב-22 באוקטובר 2026",
+  "fieldworkProofPointer": "Original methodology final paragraph; web reader line145; Chrome AX text237/572.",
+  "sampleSize": 500,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "population": "משיבים יהודים וערבים בישראל; גילי הזכאות לא פורטו בפרסום שנבדק.",
+  "samplingMethod": "פאנל Adgenda; פילוח לפי גיל, דת, מגדר ואזור מגורים; אמצעי האיסוף לא פורט.",
+  "panelProvider": "Adgenda — רועי שינדלר",
+  "reportedMarginOfErrorPct": 4.4,
+  "reportedMarginOfErrorConfidencePct": null,
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 11,
+    "yisrael_beiteinu": 9,
+    "joint": 9,
+    "shas": 8,
+    "democrats": 8,
+    "utj": 8,
+    "otzma": 8,
+    "rz_zehut": 6,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0
+  },
+  "seatTotal": 120,
+  "cataloguePartySeatVector": {
+    "yashar": 23,
+    "likud": 21,
+    "beyachad": 11,
+    "democrats": 8,
+    "yisrael_beiteinu": 9,
+    "utj": 8,
+    "joint": 9,
+    "shas": 8,
+    "otzma": 8,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 4,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": null,
+    "israel_first": null
+  },
+  "catalogueSeatVectorSize": 17,
+  "zeroSeatsImpliedByPublishedBelowThresholdPartyIds": [
+    "winter"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "percentages": {
+    "winter": 3.0,
+    "hendel": 3.6
+  },
+  "reportedPercentages": {
+    "winter": 3.0,
+    "hendel": 3.6
+  },
+  "exactPublishedBelowThresholdPct": {
+    "winter": 3.0
+  },
+  "publishedBounds": {},
+  "cataloguePartyPublishedPercentageVector": {
+    "yashar": null,
+    "likud": null,
+    "beyachad": null,
+    "democrats": null,
+    "yisrael_beiteinu": null,
+    "utj": null,
+    "joint": null,
+    "shas": null,
+    "otzma": null,
+    "rz_zehut": null,
+    "raam": null,
+    "winter": 3.0,
+    "hendel": 3.6,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": null,
+    "israel_first": null
+  },
+  "knownCataloguePercentageSum": 6.6,
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "passingPartyPercentagesPublished": true,
+  "allPassingPartyPercentagesPublished": false,
+  "sourceBlocSeats": {
+    "coalition": 51,
+    "opposition": 51,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "percentageSourceUrls": {
+    "winter": "https://www.zman.co.il/735649/",
+    "hendel": "https://www.zman.co.il/735649/"
+  },
+  "namedUnmodelledPartyPercentages": [],
+  "unmodelledNamedParties": [],
+  "otherAggregatePublished": false,
+  "modelOnlyPercentageIds": [],
+  "baselineObservation": {
+    "pollId": "tatika_2026-10-15",
+    "date": "2026-10-15",
+    "sourceUrl": "https://www.zman.co.il/733625/",
+    "sampleSize": 500,
+    "alreadyIngested": true
+  },
+  "replacesPollId": "tatika_2026-10-15",
+  "duplicateOfBaseline": false,
+  "changedSeatsSinceBaseline": {
+    "yashar": {
+      "before": 26,
+      "after": 23
+    },
+    "likud": {
+      "before": 20,
+      "after": 21
+    },
+    "joint": {
+      "before": 8,
+      "after": 9
+    },
+    "otzma": {
+      "before": 7,
+      "after": 8
+    }
+  },
+  "baselineInputHashes": {
+    "data/current-polls.json": "ab99d88c44fb75c40dffbf72b6edf2662cdf69cfef443e5d05d0b8e5c18a751b",
+    "data/poll-history.json": "24901247422867a70d4418bb1d8c5004eda9f7d4e368a6923f862d95740faa45"
+  },
+  "sourceDiscrepancies": [],
+  "sourceReadLimitations": [
+    "Direct original/feed HTTP downloads returned403. Primary web reader and Chrome succeeded.",
+    "Exact collection contact mode and eligible ages were not published in the reviewed original."
+  ],
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "secondaryIsraelPollsCheck": "Parent owns required parallel IsraelPolls profile, graphics and historical tables.",
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false,
+  "sourceDocument": {
+    "fileName": "tatika-reviewed-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "9539ac7ea13a01b69589db8eb6d11cc30d7113e645cb651637e37137904f5d7a",
+    "extractFileName": "tatika-reviewed-facts.txt",
+    "extractSha256": "9539ac7ea13a01b69589db8eb6d11cc30d7113e645cb651637e37137904f5d7a",
+    "reviewedAt": "2026-10-23",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://www.zman.co.il/735649/",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "originalAccessibleTableVerified": true,
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 6,
+    "fullArticlePublishedInNewRelease": false,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "percentageDenominator",
+      "undecidedPct",
+      "reportedMarginOfErrorConfidencePct",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "full-passing-party-percentages"
+    ],
+    "verificationFileName": "tatika-verification-summary-r1.json",
+    "verificationSha256": "68e30a55151598c2b80541a5780e02b510f8a64307ad5e8d236d0a519c91531e",
+    "fieldworkProofFileName": "tatika-verification-summary-r1.json",
+    "fieldworkProofSha256": "68e30a55151598c2b80541a5780e02b510f8a64307ad5e8d236d0a519c91531e",
+    "originalGraphicReviewFileName": "native-chart-visual-review-r1.json",
+    "originalGraphicReviewSha256": "f32f22b7fed2879f1b6cc7935dee978b1bfee0d7286bef667b6579c0564530ca",
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/tatika-reviewed-facts.txt",
+    "extractArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/tatika-reviewed-facts.txt"
+  },
+  "rawSourceLocalOnly": {
+    "fileName": "original-web-reader-receipt-local-only.txt",
+    "sha256": "29a8c4e4cd027e614b863a1127497d34df438fee083b0e453afb9288798549ec",
+    "bytes": 13148,
+    "localOnly": true
+  },
+  "publicationMetadataEvidence": {
+    "fileName": "original-browser-observed-facts.json",
+    "sha256": "cb606f9fe15a88140cf591ff3182dca5000644a7dd234b8ceb77fa2bc281daef"
+  },
+  "broadcastGraphicBlocSeats": {
+    "coalition": 51,
+    "opposition_and_arabs": 65,
+    "hendel": 4
+  },
+  "publishedPreviousPollDate": "2026-10-15",
+  "supplementaryDecisionQuestion": {
+    "decidedPct": 87,
+    "withinBlocUndecidedPct": 8.4,
+    "betweenBlocUndecidedPct": 2.4,
+    "dontKnowPct": 2.2,
+    "notMappedToUndecidedPct": true
+  },
+  "sourceReviewRevision": {
+    "previousCandidateSha256": "137654d33d3a874b639a4a27b3fcf71aee48fae79bdc398edf051df94319b31a",
+    "reason": "New primary native chart pixels became available; no numerical fact changed."
+  },
+  "secondarySourceUrls": [
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/frozen-reviewed-candidate.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/tatika-reviewed-facts.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/tatika-verification-summary-r1.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/native-chart-visual-review-r1.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/source-extract.txt"
+  ],
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-23/zman/reviewed-poll.json"
+}

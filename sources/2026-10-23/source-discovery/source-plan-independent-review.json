@@ -1,0 +1,119 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "scope": "Independent read-only source-review-input and source-plan gate before canonical apply",
+  "reviewedAtUtc": "2026-10-23T10:34:51.856321+00:00",
+  "asOf": "2026-10-23",
+  "sourceReviewInputSha256": "19f1a67912cf5029bb09cecadc7744635d06ad41adddc66ba47f76137f749f6b",
+  "sourcePlanSha256": "2f27edd1842f4c063f2e78608a82a2528e5df368a7e564d9e2d96218e576725f",
+  "sourcePlanPreflightSha256": "9f7ef3330d67fb92e3ea30d2e94b7703a44e2ac9cd7dc018d9d9ec4bdbd660cb",
+  "candidates": [
+    {
+      "pollId": "tatika_2026-10-22",
+      "candidateSha256": "004f1f387810a8361654a96391b28eb1976a12cd6ee84253c1450a0f8869b326",
+      "replacesPollId": "tatika_2026-10-15",
+      "publicationDate": "2026-10-22",
+      "sampleSize": 500,
+      "seatTotal": 120,
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "publicFilesCount": 4
+    },
+    {
+      "pollId": "lazar_2026-10-23",
+      "candidateSha256": "56cab380d3a827e34cbeff34886fcaf0b962396953b1cd37b6c86481c83393c9",
+      "replacesPollId": "lazar_2026-10-20",
+      "publicationDate": "2026-10-23",
+      "sampleSize": 1048,
+      "seatTotal": 120,
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "publicFilesCount": 3
+    },
+    {
+      "pollId": "kantar_2026-10-22",
+      "candidateSha256": "9d5374c383f4a6ffa2f3257bd1b30e5bbd24775f7db1f1844aa6b9a8e2fa3d9e",
+      "replacesPollId": "kantar_2026-10-18",
+      "publicationDate": "2026-10-22",
+      "sampleSize": 1110,
+      "seatTotal": 120,
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "publicFilesCount": 5
+    },
+    {
+      "pollId": "next_data_2026-10-22",
+      "candidateSha256": "29ecf0ab486e05841d99159496c99c6a686756cd07d3ff84dedb141bf0456251",
+      "replacesPollId": "next_data_2026-10-21",
+      "publicationDate": "2026-10-22",
+      "sampleSize": 7937,
+      "seatTotal": 120,
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "publicFilesCount": 7
+    },
+    {
+      "pollId": "maagar_mochot_2026-10-22",
+      "candidateSha256": "432a7330e59f15d8daddadf2b97f57659776c930be3148bdbed20b8385cf7392",
+      "replacesPollId": "maagar_mochot_2026-10-20",
+      "publicationDate": "2026-10-22",
+      "sampleSize": 5000,
+      "seatTotal": 120,
+      "fieldworkVerified": false,
+      "strictEligible": false,
+      "publicFilesCount": 10
+    }
+  ],
+  "expectedCountsIndependentlyRecomputed": {
+    "active": 8,
+    "history": 143,
+    "strictCandidates": 72,
+    "strictEligible": 61,
+    "strictWithoutChannel14": 47,
+    "fieldworkExcluded": 11
+  },
+  "checks": {
+    "allFiveCandidateHashesMatch": true,
+    "allFiveOriginalSeatVectorsSum120": true,
+    "allFivePublishedBlocPartitionsSum120": true,
+    "fiveDistinctInstitutesNoHistoryDuplicates": true,
+    "oneSameInstituteReplacementEach": true,
+    "fourExplicitPrimaryFieldworkQuotesFoundInSavedOriginalEvidence": true,
+    "fieldworkStrictlyAfter8SeptemberOnlyWhenVerified": true,
+    "c16AbsoluteFieldworkMissingAndStrictExcluded": true,
+    "c16Publication22OctSecondaryDatedTableAndMatchedPrimaryVector": true,
+    "c16FinalThresholdHP07Other06FromActual69SecondOriginalFrame": true,
+    "c16EarlierAnimationValuesExcluded": true,
+    "c14NamedAhi02ModelOnlyNotPublishedAggregateOther": true,
+    "lazarNamedTzometNotMappedToIsraelFirstOrAggregateOther": true,
+    "missingSharesDenominatorsConfidenceNotInvented": true,
+    "hayomHendelSeparateChart52VersusProse56Explained": true,
+    "c16AndMaarivSourceAnomaliesRetained": true,
+    "requiredIsraelPollsAndCurrentPrimaryCoverageRecordedWithLimitations": true,
+    "all29PublicArtifactHashesMatch": true,
+    "rawHtmlAndPrivateBrowserDomExcludedFromPublicAllowlist": true,
+    "publicJsonPayloadsContainNoArticleBodiesOrPrivateState": true,
+    "baselineCurrentAndHistoryHashesUnchangedBeforeGate": true
+  },
+  "actualVisualReviewScope": [
+    "All C14 original graphics and C16 source numerical frames inspected during source work",
+    "Hayom static original PNG independently viewed now:12 passing-party seats and50/52/14/H4; below-threshold evidence correctly attributed to active original chart text, not staticPNG",
+    "Maariv original PNG independently viewed now:all12 passing-party seats,Winter3.0,HP0.9,Noam0.5,namedTzomet0.5",
+    "Tatika native-chart source review receipt and saved original reader factual evidence reviewed; no claim of new independent pixel capture here"
+  ],
+  "sourceCoverageScope": [
+    "C14 current primary homepage and politics directly opened during source collection; current homepage exposed1750553 while politics index lagged. Original22Oct publication independently verified.",
+    "C13 current home/politics/survey index reader checked;22Oct issue follow-up has no new full mandate vector. Direct rawHTTP403 recorded.",
+    "i24 current actual live index remains20Oct; Kan home/politics actually recovered after reader/HTTP failures.",
+    "N12,Hayom,Lazar,Tatika,IsraelPolls coverage reviewed from root/sibling receipts; bounded absence claims retained."
+  ],
+  "limitations": [
+    "C16 original standalone clip has no calendar dateline:publication22Oct is corroborated in dated secondary table; relative collection wording does not establish absolute fieldwork dates.",
+    "C16 large-footerMOE1.5 versus fineprint1.4 remains unresolved and canonicalMOE null. Intro says above5000 while footer/fineprint repeat exact5000; both claims retained.",
+    "Maariv funnel and modified-before-published timestamp anomalies retained; Hayom below-threshold percentages have primary text/AX evidence rather than staticPNG pixels."
+  ],
+  "findings": [],
+  "canonicalMutation": false,
+  "networkResearchPerformedForThisGate": false,
+  "numericCountersOrBuildsRun": false
+}

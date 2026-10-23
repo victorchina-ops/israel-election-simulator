@@ -1,0 +1,64 @@
+--- scripts/diagnose-opposition-boundary-2026-10-21.py
++++ scripts/diagnose-opposition-raam-boundary-2026-10-23.py
+@@ -1,4 +1,4 @@
+-"""Diagnose only the actual21Oct opposition floating-tail boundary.
++"""Diagnose only the actual23Oct opposition_raam floating-tail boundary.
+ 
+ Keep all original numeric outputs, frozen algorithms and1e-12 tolerance intact.
+ Reproduce direct sums at both observed values, then independently count the
+@@ -16,7 +16,7 @@
+ 
+ sys.dont_write_bytecode=True
+ ROOT=Path(__file__).resolve().parents[1]
+-ART=ROOT/'artifacts/poll-checks/2026-10-21/numeric-boundaries'
++ART=ROOT/'artifacts/poll-checks/2026-10-23/numeric-boundaries'
+ read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+ sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+ import exact_scalar_marginals_2026_10_20 as backend
+@@ -28,11 +28,14 @@
+         'data/poll-history.json','data/current-polls.json','scripts/exact_scalar_marginals_2026_10_20.py',
+         'artifacts/strict-post-close/compressed_searchsorted_exact.py','artifacts/strict-post-close/independent-compressed-counts.py']
+     inputs+=['artifacts/strict-post-close/party-analysis.json','artifacts/strict-post-close/party-independent.json','data/strict-party-trends.json']
++    inputs+=['artifacts/poll-checks/2026-10-23/source-plan.json',
++        'artifacts/poll-checks/2026-10-23/ingestion-validation.json',
++        'artifacts/poll-checks/2026-10-23/canonical-numeric-runlogs/run-receipt.json']
+     hashes={p:sha(ROOT/p) for p in inputs}
+     primary,independent,history=[read(ROOT/p) for p in inputs[:3]]
+-    assert primary['asOf']=='2026-10-21' and primary['historySha256']==hashes['data/poll-history.json']
+-    j=independent['groups'].index('opposition');row=primary['primary']['overall'][j]
+-    assert row['group']=='opposition'
++    assert primary['asOf']=='2026-10-23' and primary['historySha256']==hashes['data/poll-history.json']
++    j=independent['groups'].index('opposition_raam');row=primary['primary']['overall'][j]
++    assert row['group']=='opposition_raam'
+     pobs,iobs=row['slopePerWeek'],independent['slopes'][j]
+     pc,ic=int(primary['primary']['exactCounting']['extremeCountsExact'][j]),int(independent['countsExact'][j])
+     total=int(independent['totalExact'])
+@@ -42,8 +45,8 @@
+     blocks=[];support=[]
+     for series in primary['primary']['byPollster']:
+         times,weight=series['timeDaysFromFirst'],series['weight']
+-        seats=next(v['seats'] for v in series['groups'] if v['group']=='opposition')
+-        assert seats==[sum(archive[k]['seats'].get(p,0) for p in primary['groups']['opposition']) for k in series['pollIds']]
++        seats=next(v['seats'] for v in series['groups'] if v['group']=='opposition_raam')
++        assert seats==[sum(archive[k]['seats'].get(p,0) for p in primary['groups']['opposition_raam']) for k in series['pollIds']]
+         pb=backend.score_blocks(times,np.asarray(seats)[:,None],weight,method='unique')[0]
+         ib=backend.independent_blocks(times,np.asarray(seats)[:,None],weight)[0]
+         assert np.array_equal(pb.values,ib[0]) and np.array_equal(pb.multiplicities,ib[1])
+@@ -86,7 +89,7 @@
+     assert sizes==own_sizes==sub_sizes==sub_own_sizes==[[nl,nr]]
+     assert (dc-sub)+(own-dc)==(sub_own-sub)+(own-sub_own)==ic-pc
+     print(json.dumps({'phase':'two_pointer_subtraction_at_own','countExact':str(sub_own),'seconds':time.monotonic()-started}),flush=True)
+-    result={'status':'PASS' if sub==pc and own==ic else 'INVESTIGATE','asOf':'2026-10-21','outcome':'opposition',
++    result={'status':'PASS' if sub==pc and own==ic else 'INVESTIGATE','asOf':'2026-10-23','outcome':'opposition_raam',
+         'scope':'Focused diagnosis only; all original numeric results and counters preserved',
+         'inputHashes':hashes,'primaryObservedHex':pobs.hex(),'independentObservedHex':iobs.hex(),
+         'toleranceUnchanged':1e-12,'primaryCutoffHex':(abs(pobs)-1e-12).hex(),'independentCutoffHex':(abs(iobs)-1e-12).hex(),
+@@ -108,7 +111,7 @@
+         'outputsOrFrozenHelpersModified':False,
+         'explanation':'Counts are reproduced independently under each original binary floating comparison. The difference decomposes into cutoff changes from separately computed observed slopes plus sum-versus-subtraction rounding at the discrete boundary. No reported probability, tolerance, source data or primary/independent algorithm is changed.'}
+     assert all(sha(ROOT/p)==h for p,h in hashes.items())
+-    ART.mkdir(parents=True,exist_ok=True);out=ART/'opposition-predicate-diagnosis.json';assert not out.exists()
++    ART.mkdir(parents=True,exist_ok=True);out=ART/'opposition-raam-predicate-diagnosis.json';assert not out.exists()
+     out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+     assert result['status']=='PASS','Focused predicate diagnosis did not establish equivalence'
+ 

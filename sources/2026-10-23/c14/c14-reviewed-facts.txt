@@ -1,0 +1,8 @@
+Original primary source: https://www.c14.co.il/article/1750553
+Published:22October2026 20:26:17 Asia/Jerusalem; same original modified timestamp. Checked23October.
+Collection explicitly22October2026;7937 adult respondents from the general population. NEXT DATA, analysisShlomoFilber.
+Mandates:Likud30,Yashar20,Beyachad11,Democrats8,Shas9,UTJ8,RZ-Zehut7,Otzma8,YisraelBeiteinu5,Joint8,Raam6;total120.
+Explicit below-threshold lists:Hendel1.9%,Winter1.5%,Noam0.6%,HarediPublic0.3%,namedAHI0.2%;zero seats.
+Source blocs62coalition/44opposition/14Arab. Original four numerical graphics were visually inspected; first confirms all mandates and percentages.
+AHI is a named list; aggregateOther remains unpublished. Gantz/IsraelFirst are absent,not zero. Passing-party percentages,collection times,method,panel,MOE,confidence,denominator and undecided share remain missing.
+This replaces only active21October observation; all previous history remains. Channel14 remains excluded by default.
