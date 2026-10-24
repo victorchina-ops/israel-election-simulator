@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-ingestion-2026-10-24.py", line 300, in <module>
+    main()
+  File "C:\Users\User\Documents\ChatGPT\סקרים ושקרים\scripts\validate-ingestion-2026-10-24.py", line 219, in main
+    assert [row for row in report["tables"][0]["rows"] if row["partyId"] is None] == [
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Named small-party facts must remain visible and separate

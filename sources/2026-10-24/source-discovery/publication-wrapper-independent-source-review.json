@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:18:35.076157+00:00",
+  "status": "PASS_SOURCE_GATE",
+  "reviewer": "independent /root/oct24_other_sources_scan",
+  "scope": "Static independent review of package24 source and exact diff; not approval that not-yet-generated runtime QA receipts passed. No package/check/ingestion/build/publish executed.",
+  "proposalPath": "artifacts\\poll-checks\\2026-10-24\\publication-wrapper-source-compatibility\\proposal.json",
+  "proposalSha256": "d8d02f922b8b77e95299d8068f505ce4e83cfade8d05c6d4ca4d50ff210c8845",
+  "originalPath": "scripts\\package-poll-update-2026-10-23.py",
+  "originalSha256": "08fb1b771e2eb0e607ae6b2f2d37b74bb8c001118b9fdce8ed799eb67b7753f3",
+  "candidatePath": "scripts\\package-poll-update-2026-10-24.py",
+  "candidateSha256": "805e13274977be787facb03f0c4e79d95ce78343fab9d063d2e525b170efafb6",
+  "sourceDiffPath": "artifacts\\poll-checks\\2026-10-24\\publication-wrapper-source-compatibility\\package.diff",
+  "sourceDiffSha256": "c67a64367b6a556c9c25169b3ca3c2c3aae17f8a0e19421449dd77e003860fb7",
+  "exactDiffIndependentlyReconstructed": true,
+  "preservedGates": {
+    "sourcePlanAndIngestionDateAndHashBinding": true,
+    "freshStrictValidationActualInputsCandidatesSourceNumericLineageBoundaryHashes": true,
+    "actualDatedValidatorSha": true,
+    "ordinaryPromotionEqualsCanonicalValidation": true,
+    "fullAndWithout14DynamicCohortCounts": true,
+    "freshNo14DerivedAnalysisAndPassedValidation": true,
+    "datedCorrelationExactOperationalProfileAndIndependentAudit": true,
+    "authorRuntimeFrozenEvidenceExactHelpersAndAllNonMutableWeightsPreserved": true,
+    "officialCompleteSnapshotNoAskDefaultsQualityNo14SimilarityOffSignalNoiseOff": true,
+    "winterCoalitionHendelUnassigned": true,
+    "bothBeforeAfterModelReplaysAndIndependentSnapshotPlanHashes": true,
+    "freshCUA6Checks3ActualScreenshotHashes": true,
+    "testsFailZeroPassAtLeastBaseline": true,
+    "freshModelDataTweetImageSourceAndSocialIndependentHashChecks": true,
+    "fullArticleAndUnallowlistedPublicSourceChecks": true,
+    "existingDatedPublicFilesCannotBeOverwrittenWithChangedBytes": true
+  },
+  "newSourceAppendixRestrictions": {
+    "freshDayAsOfAndReviewedCopyrightRequired": true,
+    "sourcePathsResolveWithinTodaysArtifacts": true,
+    "beforeSnapshotSourcesForbidden": true,
+    "htmlAndHtmForbidden": true,
+    "publicNamesBasenameOnlyAndUnique": true,
+    "eachActualSourceShaRequired": true,
+    "numericReproducerNamesUnderScriptsAndDated24OctPlusExactSha": true,
+    "note": "Actual appendix did not exist at review time; runtime gate and root reviewed explicit appendix allowlist must supply only approved factual review records. This receipt reviews wrapper constraints, not unseen appendix contents."
+  },
+  "boundaryLineage": {
+    "no23OctoberDiagnosticPathConstant": true,
+    "noInherited23OctoberBoundaryCountOrException": true,
+    "freshBoundaryProofAsOf24Tolerance1e12AndNoPredicateExceptionRequired": true,
+    "reviewedReproducerMaterializerAndDiagnosisHashesRequired": true,
+    "noBoundaryFixtureExecuted": true
+  },
+  "newSocialEvidenceReview": {
+    "socialEvidenceKind": "published-poll-comparison",
+    "metric": "sourceBlocSeats.coalition",
+    "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+    "coalitionSeatsByPollId": {
+      "midgam_geva_2026-10-23": 50,
+      "hamadad_consortium_2026-10-23": 50,
+      "kantar_2026-10-23": 50,
+      "direct_polls_2026-10-23": 59
+    },
+    "sourceCandidateHashes": {
+      "artifacts/poll-checks/2026-10-24/source-n12/reviewed-primary-candidate-r2.json": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+      "artifacts/poll-checks/2026-10-24/source-c13/reviewed-primary-candidate-r2.json": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+      "artifacts/poll-checks/2026-10-24/source-kan/reviewed-primary-candidate.json": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+      "artifacts/poll-checks/2026-10-24/source-i24/reviewed-primary-candidate.json": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+    },
+    "all4CandidatesActuallyReadAndHashVerified": true,
+    "mustMatchFreshPixelReviewPlanHashImageHashIdsCandidateHashesAndMetric": true,
+    "meansOrProbabilitiesShownMustBeFalse": true,
+    "statisticalSignificanceClaimedMustBeFalse": true,
+    "oldPublishedPollCountsKindRemoved": true,
+    "graphicNotYetReviewedByThisCodeReview": true
+  },
+  "formatReview": {
+    "allCopiesAndAlreadyIngestedPublicEvidenceIncluded": true,
+    "ingestionGeneratedExtractsPinnedToReceiptExactSourceHashes": true,
+    "gitNoIndexCheckUsesPerInvocationCrAtEolAndAutocrlfFalse": true,
+    "noGlobalWhitespaceIgnore": true,
+    "onlyKnownDiagnosticSyntaxAccepted": true,
+    "diagnosticsAcceptedOnlyForExactApprovedImmutableSourceHash": true,
+    "unknownSourceHashRejectedByIsolatedRegression": true,
+    "generatedHTMLReadmeAttributesActualPublicDeltaCheckedWithoutExemptions": true,
+    "initialWrongFixtureFailurePreserved": true,
+    "isolatedRegressionReceipt": "artifacts\\poll-checks\\2026-10-24\\publication-wrapper-source-compatibility\\isolated-format-regression.json",
+    "isolatedRegressionSha256": "054663a89ed2f1a7e84149f41fd9262c125d775bfbd3dd343ddec1ac83ff97c0",
+    "fixtureSourceHashAndDoubleTerminalNewlineIndependentlyVerified": true,
+    "isolatedRegressionNotRerunByThisReviewer": true
+  },
+  "noPackageExecuted": true,
+  "noCanonicalDataOrPublicFilesChanged": true
+}

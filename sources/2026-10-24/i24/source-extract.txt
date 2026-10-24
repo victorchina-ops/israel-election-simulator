@@ -1,0 +1,13 @@
+Reviewed published observation direct_polls_2026-10-23; publication 2026-10-23; audit 2026-10-24.
+Original source: https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea.
+Published mandates: {"likud": 26, "yashar": 21, "beyachad": 12, "joint": 9, "democrats": 8, "shas": 8, "otzma": 8, "utj": 7, "yisrael_beiteinu": 6, "rz_zehut": 6, "raam": 5, "winter": 4, "hendel": 0, "haredi_public": 0, "noam": 0}
+Exact published percentages: {"hendel": 2.2}
+Published bounds, never exact percentages: {"haredi_public": {"min": 0, "max": 1, "maxExclusive": true}, "noam": {"min": 0, "max": 1, "maxExclusive": true}}
+Published source blocs: {"coalition": 59, "opposition": 47, "arab_parties": 14, "hendel": 0}
+Sample size exact/exclusive lower bound: 5124/None
+Verified fieldwork: True; 2026-10-22 to 2026-10-22
+Missing values are not zero and are never inherited.
+A new23Oct publication from fieldwork22Oct; distinct from20Oct i24 observation.
+All120seats, Hendel2.2%, the four less-than1% labels, sample5124 and MOE1.4%at95% match original article and both original graphics.
+IsraelFirst is absent from this publication; do not copy its previous less-than1% bound.
+Both original graphics were inspected in pixels this task.

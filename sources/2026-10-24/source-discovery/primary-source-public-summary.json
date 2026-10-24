@@ -1,0 +1,504 @@
+{
+  "schemaVersion": 1,
+  "status": "REVIEWED_SOURCE_FACTS",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:22:34.347171+00:00",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "newObservationIds": [
+    "midgam_geva_2026-10-23",
+    "hamadad_consortium_2026-10-23",
+    "kantar_2026-10-23",
+    "direct_polls_2026-10-23"
+  ],
+  "newIndependentObservationCount": 4,
+  "observationPublicationDates": [
+    "2026-10-23"
+  ],
+  "summaryKind": "Rewritten numerical factual source summary; no article reproduction or model forecast.",
+  "polls": [
+    {
+      "id": "midgam_geva_2026-10-23",
+      "publisher": "חדשות 12",
+      "pollster": "מדגם — מנו גבע",
+      "pollsterId": "midgam_geva",
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "publicationDate": "2026-10-23",
+      "publicationTime": "21:18",
+      "publicationTimePrecision": "minute",
+      "publishedAt": "2026-10-23T21:18:00+03:00",
+      "updatedAt": "2026-10-24T00:24:00+03:00",
+      "publicationTimeZone": "Asia/Jerusalem",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-23",
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "fieldworkSourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "sampleSize": 1018,
+      "initialSampleSize": 1000,
+      "invitedSampleSize": 5012,
+      "population": "כלל האוכלוסייה בישראל מגיל18 ומעלה",
+      "samplingMethod": "אינטרנט וטלפון; דגימת שכבות ובתוך השכבות דגימה אקראית",
+      "panelProvider": "iPanel (קרדיט שיתוף פעולה בגרפיקה המקורית)",
+      "reportedMarginOfErrorPct": 4.4,
+      "reportedMarginOfErrorConfidencePct": null,
+      "seats": {
+        "yashar": 23,
+        "likud": 21,
+        "beyachad": 15,
+        "democrats": 10,
+        "yisrael_beiteinu": 8,
+        "utj": 7,
+        "joint": 9,
+        "shas": 8,
+        "otzma": 8,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 0,
+        "hendel": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "cataloguePartySeatVector": {
+        "yashar": 23,
+        "likud": 21,
+        "beyachad": 15,
+        "democrats": 10,
+        "yisrael_beiteinu": 8,
+        "utj": 7,
+        "joint": 9,
+        "shas": 8,
+        "otzma": 8,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 0,
+        "hendel": 0,
+        "gantz": null,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": null
+      },
+      "reportedPercentages": {
+        "winter": 2.5,
+        "hendel": 2.4,
+        "haredi_public": 0.5,
+        "noam": 0.5
+      },
+      "publishedBounds": {},
+      "unmodelledNamedParties": [],
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 56,
+        "arab_parties": 14,
+        "hendel": 0
+      },
+      "replacesPollId": "midgam_geva_2026-10-21",
+      "candidatePath": "artifacts/poll-checks/2026-10-24/source-n12/reviewed-primary-candidate-r2.json",
+      "candidateSha256": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+      "sourceReadLimitations": [
+        "Primary original HTML, original web reader and Infogram embedded HTML succeeded.",
+        "Initial static PNG request without User-Agent returned403; standard Mozilla/5.0 request succeeded200, and both saved graphics were actually visually inspected.",
+        "HarediPublic0.5 and Noam0.5 verified in original article prose, not visible in the saved numerical PNG."
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "publishedMarginOfError",
+          "reportedPct": 4.4,
+          "actualSampleSize": 1018,
+          "resolution": "Keep the original published4.4% value. Do not substitute an inferred margin based on sample size."
+        },
+        {
+          "field": "winterPreviousStatusProse",
+          "sourceProseImpliesRemainsBelowThreshold": true,
+          "archived21OctoberSeats": 4,
+          "resolution": "Use explicit current2.5%/zero seats and separately preserved21October observation. Do not modify historical inputs from a narrative comparison."
+        },
+        {
+          "field": "sourceBlocDefinitions",
+          "publishedChartOppositionIncludingArabParties": 70,
+          "publishedProseZionistOpposition": 56,
+          "publishedProseArabParties": 14,
+          "resolution": "Retain exclusive50/56/14 partition; the source chart70 includes Arab parties and is not the site opposition-only bloc."
+        }
+      ],
+      "seatTotal": 120,
+      "publishedDataNotModelOutput": true
+    },
+    {
+      "id": "hamadad_consortium_2026-10-23",
+      "publisher": "חדשות 13",
+      "pollster": "המדד — שמואל רוזנר ונח סלפקוב, עם סטט-נט, פרויקט המדגם ואסקריא",
+      "pollsterId": "hamadad_consortium",
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+      "publicationDate": "2026-10-23",
+      "publicationTime": "21:10",
+      "publicationTimePrecision": "minute",
+      "publishedAt": "2026-10-23T21:10:00+03:00",
+      "updatedAt": null,
+      "publicationTimeZone": "Asia/Jerusalem",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-23",
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "fieldworkSourceUrl": "https://themadad.com/english/madad-poll-october-23-2026/",
+      "sampleSize": 1875,
+      "initialSampleSize": null,
+      "invitedSampleSize": null,
+      "population": null,
+      "samplingMethod": null,
+      "panelProvider": null,
+      "reportedMarginOfErrorPct": 2.3,
+      "reportedMarginOfErrorConfidencePct": 95,
+      "seats": {
+        "yashar": 22,
+        "likud": 19,
+        "beyachad": 14,
+        "democrats": 10,
+        "joint": 9,
+        "rz_zehut": 8,
+        "utj": 8,
+        "yisrael_beiteinu": 8,
+        "otzma": 8,
+        "shas": 7,
+        "raam": 7,
+        "winter": 0,
+        "hendel": 0,
+        "haredi_public": 0
+      },
+      "cataloguePartySeatVector": {
+        "yashar": 22,
+        "likud": 19,
+        "beyachad": 14,
+        "democrats": 10,
+        "yisrael_beiteinu": 8,
+        "utj": 8,
+        "joint": 9,
+        "shas": 7,
+        "otzma": 8,
+        "rz_zehut": 8,
+        "raam": 7,
+        "winter": 0,
+        "hendel": 0,
+        "gantz": null,
+        "noam": null,
+        "haredi_public": 0,
+        "israel_first": null
+      },
+      "reportedPercentages": {
+        "winter": 3.1,
+        "hendel": 3.0,
+        "haredi_public": 1.3
+      },
+      "publishedBounds": {},
+      "unmodelledNamedParties": [],
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 54,
+        "arab_parties": 16,
+        "hendel": 0
+      },
+      "replacesPollId": "hamadad_consortium_2026-10-21",
+      "candidatePath": "artifacts/poll-checks/2026-10-24/source-c13/reviewed-primary-candidate-r2.json",
+      "candidateSha256": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+      "sourceReadLimitations": [
+        "Direct article HTTP returned403; original publisher web reader succeeded.",
+        "Direct HaMadad HTTP redirects to abuse.spd.co.il; the archived English original web reader succeeded. The Hebrew URL attempt in that archived reader receipt failed and is not treated as a successful archived read.",
+        "Current numeric graphic visually inspected; below-threshold percentages verified in original publisher prose, not shown in that graphic."
+      ],
+      "sourceDiscrepancies": [
+        {
+          "field": "historicalComparisonDate",
+          "pollsterHebrewCaption": "Wednesday22.10",
+          "actualWednesdayDate": "2026-10-21",
+          "previousIndexPublicationDate": "2026-10-21",
+          "resolution": "Treat23October current observation only; comparison caption is not a new22October poll."
+        },
+        {
+          "field": "publishedPreviousWednesdayComparison",
+          "pollsterNewHistoricalHendelSeats": 0,
+          "pollsterNewHistoricalHendelPct": 3.0,
+          "canonicalArchived21OctoberHendelSeats": 4,
+          "canonicalArchived21OctoberHendelPct": 3.6,
+          "pollsterNewHistoricalOtzmaSeats": 8,
+          "canonicalArchived21OctoberOtzmaSeats": 7,
+          "resolution": "Do not retroactively replace separately archived21October source values; current23October values agree between publisher and pollster."
+        },
+        {
+          "field": "primeMinisterPreferenceNetanyahu",
+          "publisherPct": 27,
+          "pollsterPct": 37,
+          "resolution": "Non-mandate conflict retained; not used for survey vote shares, seats or model inputs."
+        }
+      ],
+      "seatTotal": 120,
+      "publishedDataNotModelOutput": true
+    },
+    {
+      "id": "kantar_2026-10-23",
+      "publisher": "כאן 11",
+      "pollster": "קנטאר — דודו חסיד",
+      "pollsterId": "kantar",
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+      "publicationDate": "2026-10-23",
+      "publicationTime": "19:21:20",
+      "publicationTimePrecision": "second",
+      "publishedAt": "2026-10-23T19:21:20+03:00",
+      "updatedAt": "2026-10-23T22:42:00+03:00",
+      "publicationTimeZone": "Asia/Jerusalem",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "fieldworkVerified": false,
+      "strictEligible": false,
+      "fieldworkSourceUrl": null,
+      "sampleSize": 1106,
+      "initialSampleSize": null,
+      "invitedSampleSize": null,
+      "population": null,
+      "samplingMethod": null,
+      "panelProvider": null,
+      "reportedMarginOfErrorPct": 3.0,
+      "reportedMarginOfErrorConfidencePct": null,
+      "seats": {
+        "yashar": 22,
+        "likud": 20,
+        "beyachad": 14,
+        "joint": 9,
+        "democrats": 8,
+        "otzma": 8,
+        "yisrael_beiteinu": 8,
+        "utj": 8,
+        "shas": 7,
+        "rz_zehut": 7,
+        "raam": 5,
+        "hendel": 4,
+        "winter": 0,
+        "haredi_public": 0
+      },
+      "cataloguePartySeatVector": {
+        "yashar": 22,
+        "likud": 20,
+        "beyachad": 14,
+        "democrats": 8,
+        "yisrael_beiteinu": 8,
+        "utj": 8,
+        "joint": 9,
+        "shas": 7,
+        "otzma": 8,
+        "rz_zehut": 7,
+        "raam": 5,
+        "winter": 0,
+        "hendel": 4,
+        "gantz": null,
+        "noam": null,
+        "haredi_public": 0,
+        "israel_first": null
+      },
+      "reportedPercentages": {
+        "winter": 2.9
+      },
+      "publishedBounds": {},
+      "unmodelledNamedParties": [
+        {
+          "name": "צבע שחור מגן עולם התורה",
+          "seats": 0,
+          "pct": null,
+          "pctUpperBound": 3.25,
+          "maxExclusive": true
+        }
+      ],
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 52,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "replacesPollId": "kantar_2026-10-22",
+      "candidatePath": "artifacts/poll-checks/2026-10-24/source-kan/reviewed-primary-candidate.json",
+      "candidateSha256": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+      "sourceReadLimitations": [
+        "HTTP original article/home requests returned403 and web reader returned no content. The actual Chrome homepage, politics index, original article and its native linked Infogram were successfully read.",
+        "The primary native Infogram reports1106respondents. A discovery-only aggregator had1006; it is not authoritative and is not used.",
+        "Calendar fieldwork dates, sampling method, population details and confidence level are not provided in the article or the native chart; retain null and exclude this observation from strict fieldwork trend tests.",
+        "Native Infogram thumbnail is cropped; all12passing seats and1106/MOE3.0footer were separately inspected on actual live native chart pixels and accessibility text.",
+        "The primary article compares to18Oct Kan; the operational current institute observation being replaced is22Oct Hayom, which is separately preserved."
+      ],
+      "sourceDiscrepancies": [],
+      "seatTotal": 120,
+      "publishedDataNotModelOutput": true
+    },
+    {
+      "id": "direct_polls_2026-10-23",
+      "publisher": "i24NEWS",
+      "pollster": "דיירקט פולס — צוריאל שרון",
+      "pollsterId": "direct_polls",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "publicationDate": "2026-10-23",
+      "publicationTime": "20:48:32",
+      "publicationTimePrecision": "second",
+      "publishedAt": "2026-10-23T20:48:32+03:00",
+      "updatedAt": "2026-10-23T23:34:40+03:00",
+      "publicationTimeZone": "Asia/Jerusalem",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-22",
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "fieldworkSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "sampleSize": 5124,
+      "initialSampleSize": null,
+      "invitedSampleSize": null,
+      "population": "General population in Israel, adults18+",
+      "samplingMethod": "Digital system combined with a panel",
+      "panelProvider": null,
+      "reportedMarginOfErrorPct": 1.4,
+      "reportedMarginOfErrorConfidencePct": 95,
+      "seats": {
+        "likud": 26,
+        "yashar": 21,
+        "beyachad": 12,
+        "joint": 9,
+        "democrats": 8,
+        "shas": 8,
+        "otzma": 8,
+        "utj": 7,
+        "yisrael_beiteinu": 6,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 0,
+        "haredi_public": 0,
+        "noam": 0
+      },
+      "cataloguePartySeatVector": {
+        "yashar": 21,
+        "likud": 26,
+        "beyachad": 12,
+        "democrats": 8,
+        "yisrael_beiteinu": 6,
+        "utj": 7,
+        "joint": 9,
+        "shas": 8,
+        "otzma": 8,
+        "rz_zehut": 6,
+        "raam": 5,
+        "winter": 4,
+        "hendel": 0,
+        "gantz": null,
+        "noam": 0,
+        "haredi_public": 0,
+        "israel_first": null
+      },
+      "reportedPercentages": {
+        "hendel": 2.2
+      },
+      "publishedBounds": {
+        "haredi_public": {
+          "min": 0,
+          "max": 1,
+          "maxExclusive": true
+        },
+        "noam": {
+          "min": 0,
+          "max": 1,
+          "maxExclusive": true
+        }
+      },
+      "unmodelledNamedParties": [
+        {
+          "name": "צבע שחור",
+          "seats": 0,
+          "pct": null,
+          "pctUpperBound": 1,
+          "maxExclusive": true
+        },
+        {
+          "name": "אח״י",
+          "seats": 0,
+          "pct": null,
+          "pctUpperBound": 1,
+          "maxExclusive": true
+        }
+      ],
+      "sourceBlocSeats": {
+        "coalition": 59,
+        "opposition": 47,
+        "arab_parties": 14,
+        "hendel": 0
+      },
+      "replacesPollId": "direct_polls_2026-10-20",
+      "candidatePath": "artifacts/poll-checks/2026-10-24/source-i24/reviewed-primary-candidate.json",
+      "candidateSha256": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517",
+      "sourceReadLimitations": [
+        "The reader omits article timestamps; original HTML JSON-LD and time datetime establish23Oct20:48:32Israel, independently corroborated by current primary poll index.",
+        "The four named small-list shares are only less than1% bounds; israel_first and gantz are not reported and remain missing.",
+        "Passing-party exact vote percentages, panel provider and undecided details were not published."
+      ],
+      "sourceDiscrepancies": [],
+      "seatTotal": 120,
+      "publishedDataNotModelOutput": true
+    }
+  ],
+  "comparison": {
+    "metric": "sourceBlocSeats.coalition",
+    "coalitionSeatsByPollId": {
+      "midgam_geva_2026-10-23": 50,
+      "hamadad_consortium_2026-10-23": 50,
+      "kantar_2026-10-23": 50,
+      "direct_polls_2026-10-23": 59
+    },
+    "meaning": "Published mandate allocations in four separate polls, not model means, crossing probabilities, a confidence interval or a significance test.",
+    "blocAssignmentForThisComparison": "Winter belongs to Netanyahu bloc; Hendel is separate; JointList and Raam are Arab parties kept separate.",
+    "comparisonPublicationDate": "2026-10-23",
+    "checkDateIsNotAnotherPoll": true
+  },
+  "sourceIntegrity": {
+    "everyPartyVectorSums120": true,
+    "originalPublicationAndFieldworkDatesSeparate": true,
+    "exactPercentagesCensoredBoundsAndMissingDistinct": true,
+    "zeroMandatesBelowThresholdNotZeroSupport": true,
+    "passingPartyVoteSharesNotInvented": true,
+    "unreportedAggregateOtherNotInvented": true,
+    "compiledForecastsNotPolls": true,
+    "newPollsNotWeeklySummaryReposts": true,
+    "existingHistoricalRowsNotSilentlyRewrittenFromComparisonProse": true
+  },
+  "strictFieldworkCohort": {
+    "policy": "Only observations whose entire explicitly verified fieldwork interval is on or after9September2026. Publisher selection is a separate choice.",
+    "newObservationsWithExplicitCalendarFieldwork": [
+      "midgam_geva_2026-10-23",
+      "hamadad_consortium_2026-10-23",
+      "direct_polls_2026-10-23"
+    ],
+    "newObservationsWithUnknownCalendarFieldwork": [
+      "kantar_2026-10-23"
+    ],
+    "unknownFieldworkNotImputedFromPublicationDate": true,
+    "kanLatestOperationalPollRetainedInModelButExcludedFromStrictFieldworkTests": true,
+    "previousKantarHayom22OctoberObservationPreservedInHistory": true
+  },
+  "materialSourceCaveats": [
+    "All four new polls were published23October;24October is the verification date.",
+    "Kan native primary chart reports1106respondents and3.0%margin, overriding discovery-only1006. Its absolute fieldwork dates, method, population details and confidence level remain missing.",
+    "i24 has explicit22Octoberfieldwork and5124respondents. Hendel2.2%is exact; each of four other named small lists is only below1%, never an exact0 or1. Gantz andIsraelFirst are unreported.",
+    "N12 reports actual1018respondents, initial1000, invited5012 and maximum samplingerror4.4%. The original4.4%value is preserved rather than recalculated. iPanel appears as a collaboration credit.",
+    "C13 has1875respondents, explicit22–23Octoberfieldwork, maximumerror2.3%at95%from its original English pollster report. Failed archived Hebrew access is not described as successful.",
+    "C13 previous-Wednesdaycomparison captions and historical party differences are documented and do not replace independently archived21Octoberobservations.",
+    "Kan ordinary HTTP and reader access were blocked or empty; actual primary Chrome article and nativechart were successfully inspected. C13 originalpublisher and Englishpollster readers succeeded despite directHTTPblocks.",
+    "C14latest verified22October andTatica/Zman22October are already in baseline; Hayom/Walla/Maariv23October roundups of other publishers are not additional independent polls.",
+    "C16primary homepage/program/newsseries indexes were read in actualChrome after empty reader responses; no newer full poll verified. Not all video frames were examined."
+  ],
+  "sourceCoverageSha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3",
+  "independentReviewHashes": {
+    "independent-n12-c13-source-review.json": "20f5c8663a4c9e09d3b05770988836ab97c2053f01af51a955d154fbf4621e3b",
+    "source-i24-kan-independent-review.json": "45b15fe907a284e362bfc2ca729c65d8fca11d9e4977315b4f25c8108368e466",
+    "source-plan-independent-review.json": "afe35029a901872c9bc2d90710778da0de4b062a784e5d52c2b3bbf1b06eafa1"
+  },
+  "fullCopyrightedArticleBodiesExcluded": true,
+  "rawPrivateBrowserDOMExcluded": true,
+  "privateXScreenshotsAndRawTablePixelsExcluded": true,
+  "partialKanThumbnailExcluded": true,
+  "onlyApprovedNumericalGraphicsMayBePublished": true,
+  "rawHTTPAndReaderProofFilesLocalOnly": true,
+  "fullArticleQuotesPublished": false,
+  "modelProbabilitiesInThisSummary": false,
+  "statisticalSignificanceClaimed": false,
+  "canonicalDataChangedByThisSummary": false
+}

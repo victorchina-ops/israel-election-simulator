@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "scope": "Independent small adversarial and Cartesian fixtures only; no actual poll supports or tail counters executed",
+  "scriptSha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+  "actualExecution": {
+    "toolChunkId": "6f7ddc",
+    "exitCode": 0,
+    "elapsedSeconds": 0.884,
+    "fixtureCount": 38,
+    "cartesianPairsChecked": 45918,
+    "outsideBandPairsIndependentlyProvedIdentical": 40197,
+    "deterministicRandomSeed": 244610
+  },
+  "expectedCountsMethod": "Separate frozen-primary-style inclusive np.searchsorted upper plus lower sums with Python integer prefix masses, and separate Cartesian rounded addition comparison sums. Neither expected-count implementation calls diagnostic predicates(). All four complete expected counts minus direct-addition-own anchor equal returned signed differences.",
+  "cases": [
+    "Both signs, inclusive exact ties and immediate neighbors",
+    "Primary and independent cutoffs separated by 1 and 7-38 ULP in both directions",
+    "Cancellation a approximately cutoff, b approximately zero including b=-2**-54 at a=cutoff=1",
+    "Positive cutoffs from minimum subnormal through minimum normal and log-scaled tiny normal values to ordinary positive values",
+    "Signed zero and subnormal scores",
+    "Merged overlapping positive/negative windows with no duplicate pair counting",
+    "Exact masses (2**85+i+1)*(2**75+3*j+1) above signed64, including signed mass differences",
+    "Nonpositive or nonfinite cutoff inputs rejected"
+  ],
+  "criticalObservedPredicates": [
+    {
+      "a": 100000,
+      "b": -100000,
+      "primaryCutoff": "minimum positive binary64 subnormal",
+      "independentCutoff": "twice minimum positive binary64 subnormal",
+      "actual": [
+        2,
+        0,
+        2,
+        0
+      ],
+      "reason": "Operational original subtraction tails may overlap; integer SUM must retain both contributions"
+    },
+    {
+      "a": 1,
+      "b": "-2**-54",
+      "primaryCutoff": 1,
+      "independentCutoff": 1,
+      "actual": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "reason": "Addition rounding under cancellation requires cutoff-neighbor widening before subtraction"
+    }
+  ],
+  "canonicalMutation": false,
+  "actualHeavyCounterExecuted": false
+}

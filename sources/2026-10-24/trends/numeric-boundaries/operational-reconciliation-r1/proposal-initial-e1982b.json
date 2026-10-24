@@ -1,0 +1,42 @@
+{
+  "status": "PROPOSED_SOURCE_REVIEW_ONLY",
+  "asOf": "2026-10-24",
+  "validationKind": "exact-operational-predicate-reconciliation",
+  "adaptedFiles": {
+    "scripts/verify-operational-tail-reconciliation-2026-10-24-r1.py": "e1982b1261935eef73e3c08e7c92b454a5fa5455b5bd9248e33de5fdbab760ae",
+    "scripts/materialize-tail-boundary-bands-2026-10-24-r1.py": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a",
+    "scripts/validate-strict-trends-2026-10-24-r1.py": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31",
+    "scripts/promote-strict-validation-2026-10-24-r1.py": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de"
+  },
+  "baseFiles": {
+    "scripts/materialize-tail-boundary-bands-2026-10-24.py": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822",
+    "scripts/validate-strict-trends-2026-10-24.py": "e7197d8a17f8dfc01e8d1c00d72fecd2c081836e66a98796fbd0102b68669eeb",
+    "scripts/promote-strict-validation-2026-10-24.py": "0c11272df590a96ab1d325d15083a9794af2ad3c3cb2075f5728ccbff6c96935"
+  },
+  "diffs": [
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "sha256": "3df0f9280a9d8b1c0f57c463decf00b1875753ae4cb75714f01ce8f5b7023fc3"
+    },
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff"
+    },
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c"
+    },
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915"
+    }
+  ],
+  "originalCommonAdditionAssumptionPreservedAsFailedHistory": true,
+  "newReceiptSuffix": "-operational-r1.json",
+  "diagnosticStatusesRemainOriginal": true,
+  "canonicalOrProtectedEdits": false,
+  "pOrQChanged": false,
+  "statisticalToleranceWidened": false,
+  "ordinaryValidatorMainBodyPreservedExceptSourceGateAndResultMetadata": true,
+  "reviewRequiredBeforeExecution": true
+}

@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:16:22.230844+00:00",
+  "independentReviewer": "/root/oct24_n12_c13_scan",
+  "canonicalDataChanged": false,
+  "publicFilesChanged": false,
+  "reviewedSourceCandidates": [
+    {
+      "pollId": "direct_polls_2026-10-23",
+      "candidatePath": "artifacts/poll-checks/2026-10-24/source-i24/reviewed-primary-candidate.json",
+      "candidateSha256": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "verificationSha256": "2110ca868bca8b22235789b0ec6262496cbf17154c3136ac18e353d45a8f0a74",
+      "sampleSize": 5124,
+      "fieldworkVerified": true,
+      "strictEligible": true,
+      "publicAllowlistPath": "artifacts/poll-checks/2026-10-24/source-i24/source-delivery-manifest.json",
+      "publicAllowlistSha256": "3b2bc17388159a31468aefe6ff74c797436d34f8a297ec66614265600a6b691c",
+      "nativeAssetReceiptSha256": "71774313cba44d208451468238da5dec36c7c7e3714d732a4c6c1e899312a524",
+      "evidenceHashes": {
+        "original-article.local-only.html": "d0536978a1589b8696f4f8f0cd9d3b112f994229c6a23a326f115dea5e821e19",
+        "original-polls-index.local-only.html": "0f2d610d785c296c56b32bcd23057e6a3a11a9e24a8903bfb5003b56f7131446",
+        "native-chart-1.jpeg": "3252d405e5432022f67629f2175f1e11b5ebdbd8b9ebbfe2c8d4e53d11df8ede",
+        "native-chart-3.jpeg": "a9799667d55f764ef8e480ea07b80f8fce2a7f580d88fe7247f9d6cb892595a9"
+      },
+      "independentlyObserved": [
+        "Original current publisher independently read with web reader: all120 mandates, H2.2, four named less-than1 bounds and methodology match.",
+        "Both actual original JPEG pixels independently inspected: published120 seats, H2.2, named bounds, footer5124/22Oct/±1.4/95% and59/47/14blocs.",
+        "Original rawHTML publication17:48:32UTC and modification20:34:40UTC convert to20:48:32 and23:34:40 Jerusalem on23October."
+      ],
+      "limitations": [
+        "The reader omits article timestamps; original HTML JSON-LD and time datetime establish23Oct20:48:32Israel, independently corroborated by current primary poll index.",
+        "The four named small-list shares are only less than1% bounds; israel_first and gantz are not reported and remain missing.",
+        "Passing-party exact vote percentages, panel provider and undecided details were not published."
+      ]
+    },
+    {
+      "pollId": "kantar_2026-10-23",
+      "candidatePath": "artifacts/poll-checks/2026-10-24/source-kan/reviewed-primary-candidate.json",
+      "candidateSha256": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+      "verificationSha256": "97b9f4001b200055af792c00ab61d0af17729c1a116adeaf999791d574d4c832",
+      "sampleSize": 1106,
+      "fieldworkVerified": false,
+      "strictEligible": false,
+      "publicAllowlistPath": "artifacts/poll-checks/2026-10-24/source-kan/source-delivery-manifest.json",
+      "publicAllowlistSha256": "58f59e37b8a0d653014603fc2d4a02cf99c822af2c9600f60dde806b89c1c890",
+      "nativeAssetReceiptSha256": "827a629067e4ad3c042a4996dc7b64026a74819376457da14a74d18d392651bb",
+      "evidenceHashes": {
+        "native-infogram.local-only.html": "33922ba999544172aba12e40af03667e667d2aeeb20285e2569fca7ab3e27430",
+        "native-chart-thumbnail.jpeg": "fe6ad885521078210c866b9dba8595c634ffec1f4773b634b05e36099a535ea4"
+      },
+      "independentlyObserved": [
+        "Fresh independent Chrome original article tab1913182080 successfully read: all12 passing party values, Winter2.9 and named HP/ColorBlack failures.",
+        "Original article DOM meta[property=datePublished] independently observed2026-10-23T19:21:20+03:00; visible update yesterday22:42.",
+        "Fresh independent original native chart tab1913182083 actual viewport shows all12 passing bars plus footer1106/3.0%; AX independently says1,106. Published native chartData independently parsed and matches120-seat vector.",
+        "Article and chart do not state calendar fieldwork; strict exclusion retained. Current institute replacement22OctHayom differs from article comparison18OctKan, without rewriting history.",
+        "Static native thumbnail is partial and appropriately excluded from existing public allowlist."
+      ],
+      "limitations": [
+        "HTTP original article/home requests returned403 and web reader returned no content. The actual Chrome homepage, politics index, original article and its native linked Infogram were successfully read.",
+        "The primary native Infogram reports1106respondents. A discovery-only aggregator had1006; it is not authoritative and is not used.",
+        "Calendar fieldwork dates, sampling method, population details and confidence level are not provided in the article or the native chart; retain null and exclude this observation from strict fieldwork trend tests.",
+        "Native Infogram thumbnail is cropped; all12passing seats and1106/MOE3.0footer were separately inspected on actual live native chart pixels and accessibility text.",
+        "The primary article compares to18Oct Kan; the operational current institute observation being replaced is22Oct Hayom, which is separately preserved."
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "id": "source-hashes",
+      "status": "PASS",
+      "observed": "Every candidate, proof, factual extract, original artifact, asset receipt and public allowlist hash matches."
+    },
+    {
+      "id": "120-seat-partitions",
+      "status": "PASS",
+      "observed": "Current vectors, exclusive blocs and independently read primary numerical sources agree; every partition sums120."
+    },
+    {
+      "id": "missing-vs-bounds",
+      "status": "PASS",
+      "observed": "Exact percentages, censored less-than1 bounds and missing values remain distinct; no implicit zero vote share."
+    },
+    {
+      "id": "fieldwork-cohort",
+      "status": "PASS",
+      "observed": "i24 explicit22October eligible; Kan missing calendar fieldwork remains excluded."
+    },
+    {
+      "id": "kan-sample",
+      "status": "PASS",
+      "observed": "Primary1106 verified in actual native pixels, AX and published source data; discovery1006 rejected."
+    },
+    {
+      "id": "publication-replacement",
+      "status": "PASS",
+      "observed": "23October publication dates and20Octoberi24/22OctoberKantar operational replacement identities retained."
+    },
+    {
+      "id": "privacy",
+      "status": "PASS",
+      "observed": "Existing scoped public allowlists exclude full raw HTML, raw browser state and partial Kan thumbnail."
+    }
+  ],
+  "publicCopyrightScopeReviewed": true,
+  "rawHTMLAndPrivateBrowserStateRemainLocalOnly": true,
+  "sourceAccessLimitations": [
+    "Kan ordinary HTTP/reader remains blocked or empty; actual independent Chrome primary article and native chart succeeded.",
+    "Full-page native screenshot attempt timed out; normal viewport screenshot succeeded and showed all12 bars and footer. No full-page capture is claimed.",
+    "No original Kan fieldwork dates or confidence level inferred."
+  ]
+}

@@ -1,0 +1,96 @@
+--- scripts/validate-strict-trends-2026-10-24.py
++++ scripts/validate-strict-trends-2026-10-24-r1.py
+@@ -2,8 +2,8 @@
+ 
+ Counts, new-observation dates and eligibility come from the reviewed source plan
+ and immutable baseline. Existing OLS/BH/sign-flip checks are reused unchanged.
+-Only an actual exact-integer disagreement invokes a compact common-threshold
+-diagnosis with the unchanged independent counter; no tolerance is widened.
++Only an actual exact-integer disagreement invokes the reviewed four-predicate
++operational reconciliation; no p/q, statistic or fixed1e-12 tolerance is changed.
+ """
+ from pathlib import Path
+ from datetime import date
+@@ -37,49 +37,18 @@
+ def boundary_check(kind, identity, series, values_key, id_key, primary_observed,
+                    own_observed, primary_count, own_count, total, hashes, scalar,
+                    counter, allow_compute):
+-    target = ART / 'numeric-boundaries' / (kind + '-' + identity + '.json')
+-    identity_record = {'kind':kind,'identity':identity,'primaryObservedHex':float(primary_observed).hex(),
++    # Only the diagnosed current four-outcome operational reconciliation is allowed.
++    # No direct full-tail fallback and no generic floating epsilon exception.
++    target=ART/'numeric-boundaries'/(kind+'-'+identity+'-operational-r1.json')
++    gate_path=ART/'numeric-boundaries/operational-reconciliation-r1/independent-source-review.json'
++    gate=read(gate_path)
++    assert gate['status']=='PASS_SOURCE_GATE' and gate['asOf']==DAY
++    relative='scripts/verify-operational-tail-reconciliation-2026-10-24-r1.py'
++    verifier=imported('_operational_reconciliation24',relative,gate['adaptedFiles'][relative])
++    expected={'kind':kind,'identity':identity,'primaryObservedHex':float(primary_observed).hex(),
+         'independentObservedHex':float(own_observed).hex(),'primaryExtremeCountExact':str(primary_count),
+         'independentExtremeCountExact':str(own_count),'totalExact':str(total),'inputHashes':hashes}
+-    if target.exists():
+-        receipt = read(target)
+-        assert all(receipt[k] == v for k,v in identity_record.items())
+-        assert receipt['status'] == 'PASS' and receipt['toleranceUnchanged'] == 1e-12
+-        assert receipt['commonThresholdExactIntegerMatch'] and receipt['ownThresholdExactIntegerMatch']
+-        return target
+-    assert allow_compute, ('Exact counts disagree; run --resolve-boundaries for only this outcome', kind, identity)
+-    blocks, support = [], []
+-    for item in series:
+-        values = next(row['seats'] for row in item[values_key] if row[id_key] == identity)
+-        times, weight = item['timeDaysFromFirst'], item['weight']
+-        primary = scalar.score_blocks(times, np.asarray(values)[:,None], weight, method='unique')[0]
+-        independent = scalar.independent_blocks(times, np.asarray(values)[:,None], weight)[0]
+-        assert np.array_equal(primary.values, independent[0])
+-        assert np.array_equal(primary.multiplicities, independent[1])
+-        assert sum(int(v) for v in independent[1]) == math.factorial(len(times))
+-        blocks.append([independent])
+-        support.append({'pollsterId':item['pollsterId'],'pollIds':item['pollIds'],
+-            'timeDays':times,'seats':values,'weight':weight,
+-            'valuesSha256':hashlib.sha256(primary.values.tobytes()).hexdigest(),
+-            'multiplicitiesSha256':hashlib.sha256(json.dumps([str(int(v)) for v in independent[1]],separators=(',',':')).encode()).hexdigest(),
+-            'uniqueScores':len(primary.values),'rawMass':str(primary.raw_permutations)})
+-    print(json.dumps({'status':'BOUNDARY_START','kind':kind,'identity':identity}), flush=True)
+-    common, common_total, common_sizes = counter.direct_tail_counts(blocks, [primary_observed], tolerance=1e-12)
+-    own, own_total, own_sizes = counter.direct_tail_counts(blocks, [own_observed], tolerance=1e-12)
+-    assert common_total == own_total == total
+-    assert int(common[0]) == primary_count, ('Common-threshold integer discrepancy requires investigation',kind,identity)
+-    assert int(own[0]) == own_count, ('Own-threshold integer reproduction failed',kind,identity)
+-    receipt = {**identity_record,'status':'PASS','asOf':DAY,'toleranceUnchanged':1e-12,
+-        'commonThresholdExactIntegerMatch':True,'ownThresholdExactIntegerMatch':True,
+-        'allScalarSupportsAndLabeledMassesEqual':True,'commonThresholdCountExact':str(int(common[0])),
+-        'ownThresholdCountExact':str(int(own[0])),'support':support,
+-        'commonHalfSizes':common_sizes,'ownHalfSizes':own_sizes,
+-        'probabilityDifference':(own_count-primary_count)/total,
+-        'outputsOrFrozenHelpersModified':False,
+-        'explanation':'Separately computed observed slopes select different fixed1e-12 cutoffs in a discrete null; both exact integer results are retained, and the independent counter matches the primary at the common primary statistic.'}
+-    target.parent.mkdir(parents=True,exist_ok=True)
+-    with target.open('x',encoding='utf-8') as stream:
+-        stream.write(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
++    verifier.validate_receipt(target,expected)
+     return target
+ 
+ 
+@@ -87,6 +56,11 @@
+     parser = argparse.ArgumentParser(description=__doc__)
+     parser.add_argument('--resolve-boundaries', action='store_true')
+     args = parser.parse_args()
++    assert not args.resolve_boundaries, 'Use only fresh reviewed four-predicate receipts; no new counters'
++    gate_path=ART/'numeric-boundaries/operational-reconciliation-r1/independent-source-review.json'
++    gate=read(gate_path)
++    assert gate['status']=='PASS_SOURCE_GATE' and gate['asOf']==DAY
++    assert gate['adaptedFiles'][Path(__file__).resolve().relative_to(ROOT).as_posix()]==sha(Path(__file__))
+     manifest = read(BEFORE / 'manifest.json')
+     helper_rel = 'scripts/validate-poll-update-2026-10-20-evening.py'
+     helper = imported('_reviewed_numeric_checks_20', helper_rel, manifest['files'][helper_rel])
+@@ -299,7 +273,9 @@
+         'preservedCodeHashes':preserved,'numericLineageHashes':lineage_hashes,
+         'boundaryReviewHashes':{p.relative_to(ROOT).as_posix():sha(p) for p in boundary_paths},
+         'exactArithmeticRepairInputHashes':{backend_rel:sha(ROOT / backend_rel),helper_rel:sha(ROOT / helper_rel),counter_rel:sha(ROOT / counter_rel)},
+-        'checkpointManifestSha256':sha(BEFORE / 'manifest.json'),'validatorSha256':sha(Path(__file__))}
++        'checkpointManifestSha256':sha(BEFORE / 'manifest.json'),'validatorSha256':sha(Path(__file__)),
++        'validationKind':'exact-operational-predicate-reconciliation','operationalPredicateSourceGateSha256':sha(gate_path),
++        'pOrQChanged':False,'statisticalToleranceWidened':False,'ordinaryChecksPreserved':True}
+     helper.immutable_write(ART / 'strict-validation.json',result)
+     print(json.dumps({k:v for k,v in result.items() if not k.endswith('Hashes')},ensure_ascii=False,indent=2))
+ 

@@ -1,0 +1,1024 @@
+{
+  "auditedAt": "2026-10-24",
+  "scope": "N12/Midgam, Kantar/Kan/IsraelHayom and Channel13 publications since September9; source decisions supplemented only by verified originals.",
+  "closureDate": "2026-09-08",
+  "closureDateSource": "https://www.gov.il/en/pages/time--table-26",
+  "closureVerifiedByParent": true,
+  "criterion": "Verified entire fieldwork start>=2026-09-09. Unknown start is excluded, not replaced by publication date.",
+  "rows": [
+    {
+      "pollId": "history_hamadad_consortium_2026-09-09_715",
+      "sourcePollId": "themadad-715",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "data/raw/surveys-2026-09-14/agent-a/reviewed-surveys.json",
+          "url": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey4140.pdf",
+          "kind": "original-pollster-report-user-supplied",
+          "quote": "fieldworkStart=2026-09-09T08:00; fieldworkEnd=2026-09-09T15:30; validRespondents=1119",
+          "locator": "documents[documentId=Survey4140], original PDF page1",
+          "sha256": "364658f02a98180dec3d48a085e0807f6a66c81a7ddb6daca1a88995931a80d2"
+        },
+        {
+          "file": "artifacts/strict-post-close/themadad-c13-2026-09-09-primary.html",
+          "url": "https://themadad.com/סקר-המדד-ספטמבר-9-2026/",
+          "kind": "pollster-primary-web",
+          "quote": "מועד הסקר: 9 בספטמבר 2026",
+          "locator": "survey methodology",
+          "sha256": "df59e94f31dccbcf1e2abda2cd57da02bee4cd42f72eddb155571aac98832963"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-09_716",
+      "sourcePollId": "themadad-716",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-09-primary.html",
+          "url": "https://www.kan.org.il/content/kan-news/politic/1098105/",
+          "kind": "primary-publisher-html",
+          "quote": "הסקר נערך ב-9.9.2026 על ידי מכון קנטאר",
+          "locator": "methodology; also states collected today after lists closed yesterday",
+          "sha256": "0196c6a8912caa8efb0f0c865ff85ff2844ecc0be6db61e569c75838544ec833"
+        }
+      ]
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-09_717",
+      "sourcePollId": "themadad-717",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-09-09",
+      "fieldworkStart": "2026-09-09",
+      "fieldworkEnd": "2026-09-09",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "data/raw/surveys-2026-09-14/agent-b/reviewed-surveys.json",
+          "url": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-09-14/Survey_4145.pdf",
+          "kind": "original-pollster-report-user-supplied",
+          "quote": "fieldworkStart=2026-09-09; fieldworkEnd=2026-09-09; actualRespondents=504",
+          "locator": "records[surveyNumber=4145].dates, original PDF page1",
+          "sha256": "ca4d1238e4d22cb1ec95a37050155c18424f5e74ee31182be16a5e0ff80c8b27"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-14_723",
+      "sourcePollId": "themadad-723",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-14-primary.html",
+          "url": "https://www.kan.org.il/content/kan-news/politic/1099439/",
+          "kind": "primary-publisher-html",
+          "quote": null,
+          "locator": null,
+          "sha256": "953c6bb8d9cd101c7c1f70b87db83cdc7aee28d58b6f75667ff85c4a615d5fca"
+        },
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-14-graphic.jpeg",
+          "url": "https://www.kan.org.il/media/oqkl1dgw/whatsapp-image-2026-09-14-at-191436.jpeg",
+          "kind": "primary-publisher-graphic",
+          "quote": null,
+          "locator": null,
+          "sha256": "04a500ac4fc5cddc9463b416658abd4076d4bac58cdd05c9289838436381f11a"
+        },
+        {
+          "file": "artifacts/strict-post-close/kan-2026-09-14-infogram.html",
+          "url": "https://infogram.com/1p0jwwvknyx5q2cemgy9d23e6jin1kg75lx",
+          "kind": "publisher-embedded-infogram",
+          "quote": "הסקר בוצע ע\" מכון קנטאר בראשות דודו חסיד וכלל 551 משיבים. טעות הדגימה - 4.2%",
+          "locator": null,
+          "sha256": "841c161ce88e5b5ae356920cbd2d19c889b17e40478913f6eb4012ecede944e6"
+        }
+      ],
+      "reason": "Original Kan article, full-resolution original graphic and embedded Infogram all checked. They disclose publication/date label14.09, sample count and pollster but no explicit fieldwork start/end. Publication date is not used as proof of collection date."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-14_current",
+      "sourcePollId": "midgam_geva_2026-09-14",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-09-14",
+      "fieldworkStart": "2026-09-14",
+      "fieldworkEnd": "2026-09-14",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/n12-2026-09-14-web-reader-evidence.txt",
+          "url": "https://www.mako.co.il/news-israel-elections/2026/Article-f91e6c26f80a0a1027.htm",
+          "kind": "primary-publisher-web-reader",
+          "quote": "מועד איסוף הנתונים: 14.9.2026",
+          "locator": "methodology section; reader lines136–144",
+          "sha256": "d436c43a7938045957fba8b7718a8aa46bdebda29bad983a1e524f663e5f3612"
+        }
+      ]
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-16_current",
+      "sourcePollId": "hamadad_consortium_2026-09-16",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-16",
+      "fieldworkStart": "2026-09-15",
+      "fieldworkEnd": "2026-09-15",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/strict-post-close/themadad-c13-2026-09-16-primary.html",
+          "url": "https://themadad.com/סקר-המדד-ספטמבר-16-2026/",
+          "kind": "pollster-primary-web",
+          "quote": "מועד האיסוף: 15 בספטמבר 2026",
+          "locator": "survey methodology",
+          "sha256": "adf2a1ab04a57850774bd1dc5ae15300f4af5c91eb38f91bc7f8fbcb64b37412"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-17_current",
+      "sourcePollId": "kantar_2026-09-17",
+      "pollsterId": "kantar",
+      "publisher": "היום",
+      "publicationDate": "2026-09-17",
+      "fieldworkStart": "2026-09-16",
+      "fieldworkEnd": "2026-09-17",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/israelhayom-21444759.html",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21444759",
+          "kind": "primary-publisher-html",
+          "quote": "מועד איסוף הנתונים: 16-17 בספטמבר 2026",
+          "locator": "methodology section",
+          "sha256": "cd851f635f87e1fb3e35b7cddacde9e5cbdbe51ad19e2563fdeb14454dff057d"
+        }
+      ]
+    },
+    {
+      "pollId": "history_midgam_geva_2026-09-22_current",
+      "sourcePollId": "midgam_geva_2026-09-22",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-09-22",
+      "fieldworkStart": "2026-09-22",
+      "fieldworkEnd": "2026-09-22",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-09-22/n12-midgam-article-fad59e819c9c0a1027.html",
+          "url": "https://www.mako.co.il/news-israel-elections/2026/Article-fad59e819c9c0a1027.htm",
+          "kind": "primary-publisher-html",
+          "quote": "מועד איסוף הנתונים: 22.9.2026",
+          "locator": "methodology section",
+          "sha256": "da3ea437f22f068a5f293f1533adf04b713f161af5ea506507499f08ca187712"
+        }
+      ]
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-09-23_current",
+      "sourcePollId": "hamadad_consortium_2026-09-23",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-09-23",
+      "fieldworkStart": "2026-09-23",
+      "fieldworkEnd": "2026-09-23",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-09-25-check/themadad-channel13-2026-09-23.html",
+          "url": "https://themadad.com/סקר-המדד-ספטמבר-22-2026/",
+          "kind": "pollster-primary-web",
+          "quote": "מועד האיסוף: 23 בספטמבר 2026",
+          "locator": "survey methodology; URL slug22 is not fieldwork date",
+          "sha256": "28ae9ed296cfc562e5e14f341438c52cecd2b9bf77ed6e6dedca8c1c5332891c"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-09-27_current",
+      "sourcePollId": "kantar_2026-09-27",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-09-27",
+      "fieldworkStart": "2026-09-27",
+      "fieldworkEnd": "2026-09-27",
+      "eligibleStrict": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-09-28-check/kan-sept27-1103667-primary.html",
+          "url": "https://www.kan.org.il/content/kan-news/politic/1103667/",
+          "kind": "primary-publisher-html",
+          "quote": "הסקר נערך ב-27.9.2026 על ידי מכון קנטאר",
+          "locator": "methodology section",
+          "sha256": "4ee5338280ed232b00854d523f4a13cbb4711d3c84990ccb7ec70e0c16326c36"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-10-04_current",
+      "sourcePollId": "kantar_2026-10-04",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-10-04",
+      "fieldworkStart": "2026-10-04",
+      "fieldworkEnd": "2026-10-04",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure-original-filing",
+      "sampleSize": 553,
+      "collectionMode": "אינטרנטי, פאנל משיבים; שיטת הדגימה המדווחת: אקראית הסתברותית",
+      "marginOfErrorPct": 4.2,
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+      "evidencePath": "artifacts/sources/2026-10-04-kan-original-review/Survey_4188.pdf",
+      "evidenceSha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-10-04-kan-original-review/Survey_4188.pdf",
+          "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+          "kind": "original-pollster-election-committee-submission",
+          "quote": "Original fieldwork 2026-10-04 11:30–2026-10-04 16:15; actual respondents553.",
+          "locator": "Original report methodology page1, independently visually inspected.",
+          "sha256": "7bd00e62453efffb0cbad12574803077992af8f6d5f9300785cc0d46c22974bc"
+        },
+        {
+          "file": "artifacts/sources/2026-10-04-kan-original-review/reviewed-original.json",
+          "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election97/he/Survey_4188.pdf",
+          "kind": "review-of-primary-official-submission",
+          "quote": null,
+          "locator": "fieldworkVerified and discrepancyResolution",
+          "sha256": "c6b7ac5f75d8f022f72e727b3d45761e13b68e6c88a77cadc64695de8aee1258"
+        }
+      ],
+      "reason": "Official original filing newly verifies the entire fieldwork interval after list closure. This supplements the existing poll, not a second survey; previous exclusion and conflicting metadata are retained in previousDecision.",
+      "accessNote": "Official Kan X post and original broadcast verified. Kan webpages HTTP403. IsraelPolls readable profile exposed posts through October3 and September27 Kantar graphics/table; October4 table not verified.",
+      "previousDecision": {
+        "pollId": "history_kantar_2026-10-04_current",
+        "sourcePollId": "kantar_2026-10-04",
+        "pollsterId": "kantar",
+        "publisher": "כאן חדשות",
+        "publicationDate": "2026-10-04",
+        "fieldworkStart": null,
+        "fieldworkEnd": null,
+        "eligibleStrict": false,
+        "includeInStrictPostClose": false,
+        "crossesClosureDate": null,
+        "status": "unknown-fieldwork",
+        "sampleSize": 554,
+        "collectionMode": null,
+        "marginOfErrorPct": null,
+        "sourceUrl": "https://x.com/kann_news/status/2106805478231552461",
+        "evidencePath": "artifacts/sources/2026-10-04-kan-update/2106805478231552461.html",
+        "evidenceSha256": "87e5cda344ed4c7bb9d191d9026139ce3695e034ff8e19d9fffecb95ce9c7c17",
+        "evidence": [
+          {
+            "file": "artifacts/sources/2026-10-04-kan-update/2106805478231552461.html",
+            "url": "https://x.com/kann_news/status/2106805478231552461",
+            "kind": "original-publisher-social-post-and-broadcast",
+            "quote": "Original Kan broadcast names Kantar / Dudi Hasid and sample554; fieldwork dates not disclosed in inspected segment.",
+            "locator": "Kan original broadcast26s,42s,58s,74s; inspected94-second video.",
+            "sha256": "87e5cda344ed4c7bb9d191d9026139ce3695e034ff8e19d9fffecb95ce9c7c17"
+          },
+          {
+            "file": "artifacts/sources/2026-10-04-kan-update/kan-original-broadcast.mp4",
+            "url": "https://x.com/kann_news/status/2106805478231552461",
+            "kind": "original-publisher-broadcast",
+            "quote": null,
+            "locator": "Original Kan broadcast retained and visually inspected; no verified fieldwork interval.",
+            "sha256": "43d6a58bdea36482f6fba82eb7b69b19a65341a635b7db1073c054a27f2450d0"
+          },
+          {
+            "file": "artifacts/sources/2026-10-04-kan-update/verified-kan-2026-10-04.json",
+            "url": "https://x.com/kann_news/status/2106805478231552461",
+            "kind": "primary-broadcast-review-with-access-limitations",
+            "quote": null,
+            "locator": "missingMetadataNote and sourceChecks",
+            "sha256": "9d279f974b4e33bf5dd17732d5fedf30ecea33852de94186459a0d987462f1b0"
+          }
+        ],
+        "reason": "The original Kan broadcast verifies seats, below-threshold percentages and sample554 but does not disclose fieldwork dates in the inspected segment. Kan home, politics, news and poll center returned HTTP403. Publication October4 is not used as evidence of collection date; both dates stay null and the poll is excluded strictly.",
+        "accessNote": "Official Kan X post and original broadcast verified. Kan webpages HTTP403. IsraelPolls readable profile exposed posts through October3 and September27 Kantar graphics/table; October4 table not verified."
+      },
+      "revisionReviewedAt": "2026-10-07",
+      "fieldworkStartTime": "11:30",
+      "fieldworkEndTime": "16:15",
+      "fieldworkTimeZone": "Asia/Jerusalem"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-05_current",
+      "sourcePollId": "midgam_geva_2026-10-05",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-10-05",
+      "fieldworkStart": "2026-10-05",
+      "fieldworkEnd": "2026-10-05",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 501,
+      "collectionMode": "אינטרנט וטלפון; דגימת שכבות ובתוכן דגימה אקראית",
+      "marginOfErrorPct": 4.4,
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+      "evidencePath": "artifacts/sources/2026-10-05-n12-update/n12-2026-10-05-original.html",
+      "evidenceSha256": "4a73f0d5794a7358f50a14ad65510b2ebaa78d8a2fd1ba19f8720d6e0e6a09d9",
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-10-05-n12-update/n12-2026-10-05-original.html",
+          "url": "https://www.mako.co.il/news-israel-elections/2026/Article-d7459e0cc7c01a1026.htm",
+          "kind": "primary-publisher-html",
+          "quote": "מועד איסוף הנתונים: 5.10.2026",
+          "locator": "methodology section; actual respondents501; maximum sampling error4.4%",
+          "sha256": "4a73f0d5794a7358f50a14ad65510b2ebaa78d8a2fd1ba19f8720d6e0e6a09d9"
+        }
+      ],
+      "reason": "Original publisher explicitly states fieldwork5October2026, after September8 list closure. Actual respondents501; internet and telephone stratified random sampling. No publication-date substitution is used.",
+      "accessNote": "Original N12 article, home, politics and elections index accessible; IsraelPolls original branded broadcast graphic verified. No new October5 historical table exposed at initial check."
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-10-07_current",
+      "sourcePollId": "hamadad_consortium_2026-10-07",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-10-07",
+      "fieldworkStart": "2026-10-06",
+      "fieldworkEnd": "2026-10-07",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure-original-pollster-publication",
+      "sampleSize": 1263,
+      "collectionMode": "תשאול משולב:1,163 מהאוכלוסייה היהודית באינטרנט ו־100 מהאוכלוסייה הלא יהודית בטלפון",
+      "marginOfErrorPct": 2.8,
+      "sourceUrl": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+      "evidencePath": "artifacts/poll-checks/2026-10-10/c13-official-discovery/Survey_4193.pdf",
+      "evidenceSha256": "9efadc7b68b43f2628378c7ad6f896f238f08ce542cc6d77061cbbd446318af2",
+      "evidence": [
+        {
+          "url": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+          "file": "artifacts\\poll-checks\\2026-10-08\\c13-metadata\\madad-c13-oct7-original.html",
+          "kind": "original-pollster-publication",
+          "quote": "מועד האיסוף: 6 באוקטובר 2026.",
+          "sha256": "05885a3bfb969c0769f87147ac6f1588850f9342fea95db6db62f963e26f9436"
+        },
+        {
+          "file": "artifacts/poll-checks/2026-10-10/c13-official-discovery/Survey_4193.pdf",
+          "url": "https://www.gov.il/BlobFolder/dynamiccollectorresultitem/knesset_election101/he/Survey_4193.pdf",
+          "kind": "official-election-committee-pdf",
+          "quote": "מועד איסוף נתונים6.10.2026 בשעה9:00 עד7.10.2026 בשעה9:00",
+          "locator": "Page1 methodology table",
+          "sha256": "9efadc7b68b43f2628378c7ad6f896f238f08ce542cc6d77061cbbd446318af2"
+        }
+      ],
+      "reason": "Official filing4193 confirms entire6Oct09:00–7Oct09:00 interval after closure; midpoint corrected. Same existing observation and unchanged seatvector.",
+      "revisionReviewedAt": "2026-10-08",
+      "previousDecision": {
+        "pollId": "history_hamadad_consortium_2026-10-07_current",
+        "sourcePollId": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "publisher": "חדשות 13",
+        "publicationDate": "2026-10-07",
+        "fieldworkStart": null,
+        "fieldworkEnd": null,
+        "eligibleStrict": false,
+        "includeInStrictPostClose": false,
+        "crossesClosureDate": null,
+        "status": "unknown-fieldwork-original-publication-reviewed",
+        "sampleSize": 1013,
+        "collectionMode": null,
+        "marginOfErrorPct": 2.5,
+        "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+        "evidencePath": "artifacts/sources/2026-10-07-hamadad-update/c13-2026-10-07-original.html",
+        "evidenceSha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013",
+        "evidence": [
+          {
+            "file": "artifacts/sources/2026-10-07-hamadad-update/c13-2026-10-07-original.html",
+            "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+            "kind": "original-publisher-html",
+            "quote": "1,013 משיבים בסך הכול, טעות הדגימה 2.5%; NewsArticle.datePublished=2026-10-07T20:35:10+03:00",
+            "locator": "Original methodology supplies respondents and reported error, without fieldwork start/end. Article timestamp establishes publication only.",
+            "sha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013"
+          },
+          {
+            "file": "artifacts/sources/2026-10-07-hamadad-update/reviewed-poll.json",
+            "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+            "kind": "review-of-original-publication-and-full-report-search",
+            "quote": null,
+            "locator": "Fieldwork remains null; primary pollster indexes, API and registry checked without a new full report.",
+            "sha256": "9df33b4514ae0ef21af7df36ca82f9fbe4fb8d49bde24de5b77483233f4ef4bb"
+          }
+        ],
+        "reason": "Original October7 broadcaster article verifies the publication and numbers but not collection dates. This poll is included in the current simulation and descriptive historical archive; excluded from strict post-closure trend testing until the entire fieldwork interval is verified. Dates from the September30 official report are never carried forward."
+      },
+      "marginConfidencePct": 95,
+      "marginOfErrorDescription": "טעות דגימה ממוצעת ברמה הארצית",
+      "sourceConflicts": [
+        {
+          "field": "sampleSize",
+          "broadcastValue": 1013,
+          "originalPollsterValue": 1263,
+          "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+          "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+        },
+        {
+          "field": "reportedMarginOfErrorPct",
+          "broadcastValue": 2.5,
+          "originalPollsterValue": 2.8,
+          "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+          "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+        }
+      ],
+      "previousFieldworkEvidence": {
+        "pollId": "history_hamadad_consortium_2026-10-07_current",
+        "sourcePollId": "hamadad_consortium_2026-10-07",
+        "pollsterId": "hamadad_consortium",
+        "publisher": "חדשות 13",
+        "publicationDate": "2026-10-07",
+        "fieldworkStart": "2026-10-06",
+        "fieldworkEnd": "2026-10-06",
+        "eligibleStrict": true,
+        "includeInStrictPostClose": true,
+        "crossesClosureDate": false,
+        "status": "verified-after-closure-original-pollster-publication",
+        "sampleSize": 1263,
+        "collectionMode": null,
+        "marginOfErrorPct": 2.8,
+        "sourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+        "evidencePath": "artifacts/sources/2026-10-07-hamadad-update/c13-2026-10-07-original.html",
+        "evidenceSha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013",
+        "evidence": [
+          {
+            "url": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/",
+            "file": "artifacts\\poll-checks\\2026-10-08\\c13-metadata\\madad-c13-oct7-original.html",
+            "kind": "original-pollster-publication",
+            "quote": "מועד האיסוף: 6 באוקטובר 2026.",
+            "sha256": "05885a3bfb969c0769f87147ac6f1588850f9342fea95db6db62f963e26f9436"
+          }
+        ],
+        "reason": "Original pollster explicitly states6October fieldwork; same existing observation, not a new poll.",
+        "revisionReviewedAt": "2026-10-08",
+        "previousDecision": {
+          "pollId": "history_hamadad_consortium_2026-10-07_current",
+          "sourcePollId": "hamadad_consortium_2026-10-07",
+          "pollsterId": "hamadad_consortium",
+          "publisher": "חדשות 13",
+          "publicationDate": "2026-10-07",
+          "fieldworkStart": null,
+          "fieldworkEnd": null,
+          "eligibleStrict": false,
+          "includeInStrictPostClose": false,
+          "crossesClosureDate": null,
+          "status": "unknown-fieldwork-original-publication-reviewed",
+          "sampleSize": 1013,
+          "collectionMode": null,
+          "marginOfErrorPct": 2.5,
+          "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+          "evidencePath": "artifacts/sources/2026-10-07-hamadad-update/c13-2026-10-07-original.html",
+          "evidenceSha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013",
+          "evidence": [
+            {
+              "file": "artifacts/sources/2026-10-07-hamadad-update/c13-2026-10-07-original.html",
+              "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+              "kind": "original-publisher-html",
+              "quote": "1,013 משיבים בסך הכול, טעות הדגימה 2.5%; NewsArticle.datePublished=2026-10-07T20:35:10+03:00",
+              "locator": "Original methodology supplies respondents and reported error, without fieldwork start/end. Article timestamp establishes publication only.",
+              "sha256": "78106cb4b397d4836ea4804ca3698dcd8442312e741cb8778cee2d917b79f013"
+            },
+            {
+              "file": "artifacts/sources/2026-10-07-hamadad-update/reviewed-poll.json",
+              "url": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+              "kind": "review-of-original-publication-and-full-report-search",
+              "quote": null,
+              "locator": "Fieldwork remains null; primary pollster indexes, API and registry checked without a new full report.",
+              "sha256": "9df33b4514ae0ef21af7df36ca82f9fbe4fb8d49bde24de5b77483233f4ef4bb"
+            }
+          ],
+          "reason": "Original October7 broadcaster article verifies the publication and numbers but not collection dates. This poll is included in the current simulation and descriptive historical archive; excluded from strict post-closure trend testing until the entire fieldwork interval is verified. Dates from the September30 official report are never carried forward."
+        },
+        "marginConfidencePct": 95,
+        "marginOfErrorDescription": "טעות דגימה ממוצעת ברמה הארצית",
+        "sourceConflicts": [
+          {
+            "field": "sampleSize",
+            "broadcastValue": 1013,
+            "originalPollsterValue": 1263,
+            "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+            "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+          },
+          {
+            "field": "reportedMarginOfErrorPct",
+            "broadcastValue": 2.5,
+            "originalPollsterValue": 2.8,
+            "broadcastSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905386103/",
+            "pollsterSourceUrl": "https://themadad.com/%d7%a1%d7%a7%d7%a8-%d7%94%d7%9e%d7%93%d7%93-7-%d7%91%d7%90%d7%95%d7%a7%d7%98%d7%95%d7%91%d7%a8-2026/"
+          }
+        ]
+      },
+      "fieldworkStartedAt": "2026-10-06T09:00:00+03:00",
+      "fieldworkEndedAt": "2026-10-07T09:00:00+03:00",
+      "samplingMethod": "דגימת שכבות עם דגימה אקראית בתוך השכבות",
+      "population": "אוכלוסיית המדינה בגילאי18 ומעלה",
+      "initialSampleSize": 9694,
+      "invitedSampleSize": 9694,
+      "certainty": "verified-original-official-report",
+      "sourceParagraph": "מועד איסוף נתונים6.10.2026 בשעה9:00 עד7.10.2026 בשעה9:00"
+    },
+    {
+      "pollId": "history_kantar_2026-10-08_current",
+      "sourcePollId": "kantar_2026-10-08",
+      "pollsterId": "kantar",
+      "publisher": "ישראל היום",
+      "publicationDate": "2026-10-08",
+      "fieldworkStart": "2026-10-07",
+      "fieldworkEnd": "2026-10-08",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 555,
+      "marginOfErrorPct": 4.2,
+      "collectionMode": null,
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21582636",
+      "evidencePath": "artifacts/sources/2026-10-08-new-polls/israel-hayom/israelhayom-2026-10-08-original.html",
+      "evidenceSha256": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3",
+      "sourceParagraph": "מועד איסוף הנתונים: 7-8 באוקטובר 2026; מספר המשיבים בפועל: 555; מספר המתבקשים להשתתף: 2,359; טעות הדגימה המרבית: 4.2%+",
+      "evidenceParagraph": "מועד איסוף הנתונים: 7-8 באוקטובר 2026; מספר המשיבים בפועל: 555; מספר המתבקשים להשתתף: 2,359; טעות הדגימה המרבית: 4.2%+",
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "reason": "Explicit original fieldwork interval wholly after September8 list closure; publication does not substitute for fieldwork.",
+      "seats": {
+        "yashar": 22,
+        "likud": 21,
+        "beyachad": 13,
+        "otzma": 9,
+        "democrats": 8,
+        "yisrael_beiteinu": 8,
+        "utj": 8,
+        "joint": 8,
+        "shas": 7,
+        "rz_zehut": 6,
+        "raam": 5,
+        "hendel": 5,
+        "winter": 0,
+        "gantz": 0
+      },
+      "seatTotal": 120,
+      "reportedPercentages": {
+        "winter": 2.9,
+        "gantz": 1.2
+      },
+      "publishedBounds": {},
+      "unmodelledNamedParties": [],
+      "evidence": [
+        {
+          "file": "artifacts/sources/2026-10-08-new-polls/israel-hayom/israelhayom-2026-10-08-original.html",
+          "url": "https://www.israelhayom.co.il/news/politics/article/21582636",
+          "kind": "web-page",
+          "quote": "מועד איסוף הנתונים: 7-8 באוקטובר 2026; מספר המשיבים בפועל: 555; מספר המתבקשים להשתתף: 2,359; טעות הדגימה המרבית: 4.2%+",
+          "sha256": "f467be430cde436a05225ad3e5470d95c1c4d1389a3fa962653a41602b586fc3"
+        }
+      ]
+    },
+    {
+      "pollId": "history_kantar_2026-10-11_current",
+      "sourcePollId": "kantar_2026-10-11",
+      "pollsterId": "kantar",
+      "publisher": "כאן חדשות",
+      "publicationDate": "2026-10-11",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "includeInStrictPostClose": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "sampleSize": 554,
+      "collectionMode": null,
+      "marginOfErrorPct": null,
+      "sourceUrl": "https://x.com/IsraelPolls/status/2109338230902693893",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-11/kan-source/israelpolls-graphic.jpg",
+          "url": "https://x.com/IsraelPolls/status/2109338230902693893",
+          "kind": "republished-broadcast-graphic",
+          "quote": "Printed publication date11.10 and n554; no verified fieldwork interval.",
+          "locator": "Graphic headline and left methodology footer",
+          "sha256": "916471fc0629dcce4f8b3d0c8e30f7459a9fdf58fc76a0b0785994824754e158"
+        },
+        {
+          "file": "artifacts/poll-checks/2026-10-11/kan-source/israelpolls-history-graphic.png",
+          "url": "https://x.com/IsraelPolls/status/2109340303660552420",
+          "kind": "republished-poll-history-table",
+          "quote": "Latest11.10column gives seats and below-threshold percentages; no collection dates.",
+          "locator": "latest11.10column",
+          "sha256": "06060ca1cb29b9d58c5648380241bac72842b4336a89bdbc6bb9677b3ad87c99"
+        }
+      ],
+      "reason": "Kan original webpages returned HTTP403. The republished broadcast graphic and history table establish the published observation, not collection dates. Both fieldwork dates remain null; no publication/repost-date imputation.",
+      "accessNote": "IsraelPolls profile/posts and graphics read; original Kan home/news/politics/polls indexes blocked."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-12_current",
+      "sourcePollId": "midgam_geva_2026-10-12",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-10-12",
+      "fieldworkStart": "2026-10-12",
+      "fieldworkEnd": "2026-10-12",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 509,
+      "collectionMode": "אינטרנט וטלפון; דגימת שכבות ובתוך השכבות דגימה אקראית",
+      "marginOfErrorPct": 4.4,
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+      "evidencePath": "artifacts/poll-checks/2026-10-12-evening/tv-primary/n12-article.html",
+      "evidenceSha256": "768ad5f19fafc1a1e061d9a4bd1185bba330739d22eef443ebdf50b6b7ab1847",
+      "evidenceParagraph": "מועד איסוף הנתונים:12.10.2026; גודל המדגם ההתחלתי:500; גודל המדגם בפועל:509; מספר האנשים שהתבקשו לענות:2,521; אינטרנט וטלפון; דגימת שכבות ובתוך השכבות דגימה אקראית.",
+      "methodologyLocator": "n12-article.txt lines108–123, original article methodology",
+      "certainty": "verified-explicit-original-publisher-fieldwork-dates",
+      "reason": "Original publisher explicitly documents collection on October12, wholly after September8 closure; no publication/repost-date substitution.",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-12-evening/tv-primary/n12-article.html",
+          "url": "https://www.mako.co.il/news-israel-elections/2026/Article-cc91389788031a1026.htm",
+          "kind": "original-publisher-web-article",
+          "quote": "מועד איסוף הנתונים:12.10.2026; גודל המדגם ההתחלתי:500; גודל המדגם בפועל:509; מספר האנשים שהתבקשו לענות:2,521; אינטרנט וטלפון; דגימת שכבות ובתוך השכבות דגימה אקראית.",
+          "locator": "n12-article.txt lines108–123, original article methodology",
+          "sha256": "768ad5f19fafc1a1e061d9a4bd1185bba330739d22eef443ebdf50b6b7ab1847",
+          "quoteKind": "label-preserving-methodology-paraphrase"
+        }
+      ]
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-10-14_current",
+      "sourcePollId": "hamadad_consortium_2026-10-14",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-10-14",
+      "fieldworkStart": "2026-10-13",
+      "fieldworkEnd": "2026-10-13",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 1018,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": null,
+      "marginOfErrorPct": 3.1,
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905396904/",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-15/tv-primary/c13-verification-summary.json",
+          "sha256": "0f03eac881fb67fb7d6f83553bb5968522aa2fe8c2ff9802c7379c351b628edd",
+          "quote": "13 באוקטובר 2026",
+          "sourceUrl": "https://themadad.com/סקר-המדד-14-באוקטובר-2026/",
+          "evidenceScope": "Concise verified metadata/date evidence; original article retained locally, never redistributed in this update."
+        }
+      ],
+      "certainty": "verified-explicit-fieldwork-dates",
+      "reason": "Actual collection interval explicitly verified wholly after September8 closure.",
+      "evidencePath": "artifacts/poll-checks/2026-10-15/tv-primary/c13-verification-summary.json",
+      "evidenceSha256": "0f03eac881fb67fb7d6f83553bb5968522aa2fe8c2ff9802c7379c351b628edd",
+      "evidenceParagraph": "13 באוקטובר 2026"
+    },
+    {
+      "pollId": "history_kantar_2026-10-15_current",
+      "sourcePollId": "kantar_2026-10-15",
+      "pollsterId": "kantar",
+      "publisher": "ישראל היום",
+      "publicationDate": "2026-10-15",
+      "fieldworkStart": "2026-10-14",
+      "fieldworkEnd": "2026-10-15",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 551,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": "דגימה אינטרנטית",
+      "marginOfErrorPct": 4.2,
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-15-hayom/source/kantar-reviewed-facts.txt",
+          "sha256": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e",
+          "quote": "Fieldwork 14-15 October 2026.",
+          "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21636491",
+          "evidenceScope": "Explicit fieldwork dates independently paraphrased from user-supplied original Kantar report and crosschecked against the visible primary article. The quote field is a factual extract locator, not a direct publisher prose quotation; full authored article stays local."
+        }
+      ],
+      "certainty": "verified-explicit-fieldwork-dates",
+      "reason": "Actual collection interval explicitly verified wholly after September8 closure.",
+      "evidencePath": "artifacts/poll-checks/2026-10-15-hayom/source/kantar-reviewed-facts.txt",
+      "evidenceSha256": "6dcc7affecf71f2032289cf2078053c128bc801abff1eb692385946598a3d21e",
+      "evidenceParagraph": "Fieldwork 14-15 October 2026."
+    },
+    {
+      "pollId": "history_kantar_2026-10-18_current",
+      "sourcePollId": "kantar_2026-10-18",
+      "pollsterId": "kantar",
+      "publisher": "כאן 11",
+      "publicationDate": "2026-10-18",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "includeInStrictPostClose": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "sampleSize": 547,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": null,
+      "marginOfErrorPct": null,
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1110393/",
+      "evidence": [],
+      "certainty": "unverified-no-date-imputation",
+      "reason": "Publication date never substitutes for unknown fieldwork."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-19_current",
+      "sourcePollId": "midgam_geva_2026-10-19",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-10-19",
+      "fieldworkStart": "2026-10-19",
+      "fieldworkEnd": "2026-10-19",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 507,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": "דגימת שכבות ובתוך השכבות דגימה אקראית; אינטרנטי וטלפוני",
+      "marginOfErrorPct": 4.4,
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-20/source-main-tv/n12-verification-summary.json",
+          "sha256": "55a2f0d7d64118dfe548bcd54fb6bdd8309b25735e00e20d4099588e7be93b17",
+          "quote": "מועד איסוף הנתונים: 19.10.2026",
+          "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-a6eb664b9d451a1026.htm",
+          "evidenceScope": "Concise exact date wording read in the original publisher. Public factual proof independently records the verified date; full original reader receipt remains local.",
+          "quoteVerifiedInLocalOriginalReceipt": {
+            "file": "artifacts/poll-checks/2026-10-20/source-main-tv/n12-article-local-only.html",
+            "sha256": "94c20c29f6351807be6cb7ba427a103eea53a5476f47c18e54ba2f1f17762daf"
+          }
+        }
+      ],
+      "certainty": "verified-explicit-fieldwork-dates",
+      "reason": "Actual collection interval explicitly verified wholly after September8 closure.",
+      "evidencePath": "artifacts/poll-checks/2026-10-20/source-main-tv/n12-verification-summary.json",
+      "evidenceSha256": "55a2f0d7d64118dfe548bcd54fb6bdd8309b25735e00e20d4099588e7be93b17",
+      "evidenceParagraph": "מועד איסוף הנתונים: 19.10.2026"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-10-19_current",
+      "sourcePollId": "hamadad_consortium_2026-10-19",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-10-19",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "includeInStrictPostClose": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "sampleSize": 1016,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": null,
+      "marginOfErrorPct": 3.1,
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/jw3wm-905406894/",
+      "evidence": [],
+      "certainty": "unverified-no-date-imputation",
+      "reason": "Publication date never substitutes for unknown fieldwork."
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-21_current",
+      "sourcePollId": "midgam_geva_2026-10-21",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-10-21",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-21",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 505,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": "דגימת שכבות ובתוך השכבות דגימה אקראית; אינטרנטי וטלפוני",
+      "marginOfErrorPct": 4.4,
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-21/source-n12/n12-verification-summary.json",
+          "sha256": "c4354b6f00b56874dcd31c8844017a8041124fdaeaab0592bb062c665b8269ec",
+          "quote": "מועד איסוף הנתונים: 21.10.2026",
+          "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-bf175ad340f51a1027.htm",
+          "originalFile": "artifacts/poll-checks/2026-10-21/source-n12/original-article-local-only.html",
+          "originalSha256": "c727efe821deafe9130ff2e060ffa2ec4a7b18170b1a8e30c6a52ca2901fc421"
+        }
+      ],
+      "certainty": "verified-explicit-fieldwork-dates",
+      "reason": "Actual collection interval explicitly verified wholly after September8 closure.",
+      "evidencePath": "artifacts/poll-checks/2026-10-21/source-n12/n12-verification-summary.json",
+      "evidenceSha256": "c4354b6f00b56874dcd31c8844017a8041124fdaeaab0592bb062c665b8269ec",
+      "evidenceParagraph": "מועד איסוף הנתונים: 21.10.2026"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-10-21_current",
+      "sourcePollId": "hamadad_consortium_2026-10-21",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-10-21",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "includeInStrictPostClose": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "sampleSize": 1084,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": null,
+      "marginOfErrorPct": 3,
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/ksgoq-905411865/",
+      "evidence": [],
+      "certainty": "unverified-no-date-imputation",
+      "reason": "Publication date never substitutes for unknown fieldwork."
+    },
+    {
+      "pollId": "history_kantar_2026-10-22_current",
+      "sourcePollId": "kantar_2026-10-22",
+      "pollsterId": "kantar",
+      "publisher": "ישראל היום",
+      "publicationDate": "2026-10-22",
+      "fieldworkStart": "2026-10-21",
+      "fieldworkEnd": "2026-10-22",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 1110,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": "דגימה אינטרנטית",
+      "marginOfErrorPct": 3.0,
+      "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21687549",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-23/source-hayom/kantar-verification-summary.json",
+          "sha256": "d1b5f2fb5e5ec6fc7757c4d673c03ac223d7e719ac9390f84f775717aa6c5607",
+          "quote": "ב־21 וב־22 באוקטובר 2026",
+          "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21687549",
+          "originalFile": "artifacts/poll-checks/2026-10-23/source-hayom/original-article-local-only.html",
+          "originalSha256": "a7196e7d2e2715b7a8efe3e21b621762b1928c8f8452e528924c318a214f11ac",
+          "evidenceScope": "Explicit primary fieldwork dates, separate from publication and review dates."
+        }
+      ],
+      "certainty": "verified-explicit-fieldwork-dates",
+      "reason": "Actual collection interval explicitly verified wholly after September8 closure.",
+      "evidencePath": "artifacts/poll-checks/2026-10-23/source-hayom/kantar-verification-summary.json",
+      "evidenceSha256": "d1b5f2fb5e5ec6fc7757c4d673c03ac223d7e719ac9390f84f775717aa6c5607",
+      "evidenceParagraph": "ב־21 וב־22 באוקטובר 2026"
+    },
+    {
+      "pollId": "history_midgam_geva_2026-10-23_current",
+      "sourcePollId": "midgam_geva_2026-10-23",
+      "pollsterId": "midgam_geva",
+      "publisher": "חדשות 12",
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-23",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 1018,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": "אינטרנט וטלפון; דגימת שכבות ובתוך השכבות דגימה אקראית",
+      "marginOfErrorPct": 4.4,
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-24/source-n12/original-article-local-only.html",
+          "sha256": "c8c8536f6e5834d7f36ddd96055cf16fca4fe45cc6c1e4e367f21f847630e2ac",
+          "quote": "מועד איסוף הנתונים: 22-23.10.2026",
+          "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+          "rawFileLocalOnly": true
+        }
+      ],
+      "certainty": "verified-explicit-fieldwork-dates",
+      "reason": "Actual collection interval explicitly verified wholly after September8 closure.",
+      "evidencePath": "artifacts/poll-checks/2026-10-24/source-n12/original-article-local-only.html",
+      "evidenceSha256": "c8c8536f6e5834d7f36ddd96055cf16fca4fe45cc6c1e4e367f21f847630e2ac",
+      "evidenceParagraph": "מועד איסוף הנתונים: 22-23.10.2026"
+    },
+    {
+      "pollId": "history_hamadad_consortium_2026-10-23_current",
+      "sourcePollId": "hamadad_consortium_2026-10-23",
+      "pollsterId": "hamadad_consortium",
+      "publisher": "חדשות 13",
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-23",
+      "eligibleStrict": true,
+      "includeInStrictPostClose": true,
+      "crossesClosureDate": false,
+      "status": "verified-after-closure",
+      "sampleSize": 1875,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": null,
+      "marginOfErrorPct": 2.3,
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+      "evidence": [
+        {
+          "file": "artifacts/poll-checks/2026-10-24/source-c13/primary-web-reader-local-only.txt",
+          "sha256": "91ccba8c8983bf9e72a1cc255784d2309fe2cd43be39cb4d58e3d7a7d1bc3681",
+          "quote": "Field dates: October 22–23, 2026.",
+          "sourceUrl": "https://themadad.com/english/madad-poll-october-23-2026/",
+          "rawFileLocalOnly": true
+        }
+      ],
+      "certainty": "verified-explicit-fieldwork-dates",
+      "reason": "Actual collection interval explicitly verified wholly after September8 closure.",
+      "evidencePath": "artifacts/poll-checks/2026-10-24/source-c13/primary-web-reader-local-only.txt",
+      "evidenceSha256": "91ccba8c8983bf9e72a1cc255784d2309fe2cd43be39cb4d58e3d7a7d1bc3681",
+      "evidenceParagraph": "Field dates: October 22–23, 2026."
+    },
+    {
+      "pollId": "history_kantar_2026-10-23_current",
+      "sourcePollId": "kantar_2026-10-23",
+      "pollsterId": "kantar",
+      "publisher": "כאן 11",
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "eligibleStrict": false,
+      "includeInStrictPostClose": false,
+      "crossesClosureDate": null,
+      "status": "unknown-fieldwork",
+      "sampleSize": 1106,
+      "sampleSizeLowerBoundExclusive": null,
+      "collectionMode": null,
+      "marginOfErrorPct": 3.0,
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+      "evidence": [],
+      "certainty": "unverified-no-date-imputation",
+      "reason": "Publication date never substitutes for unknown fieldwork."
+    }
+  ],
+  "counts": {
+    "records": 27,
+    "verifiedEligible": 21,
+    "unknown": 6
+  },
+  "limitations": [
+    "No canonical poll/model/website data changed in this audit.",
+    "History archive-derived fieldworkEnd is not accepted as fieldwork evidence.",
+    "Original user-supplied reports are accepted as primary evidence with retained source hashes; not claimed independently downloaded from the election authority.",
+    "N12 September14 primary web reader succeeded; direct HTTP returned CAPTCHA, which is separately recorded.",
+    "Kan September14 remains excluded strictly for unknown fieldwork, even though its publication was after closure.",
+    "Kan October4 stays excluded: the original broadcast was verified but fieldwork dates were not disclosed; no publication-date imputation.",
+    "N12 October5 fieldwork is explicitly verified in the original publisher methodology and extends the strict cohort. Kan October4 remains excluded because its fieldwork dates remain unknown.",
+    "On October7 the official filed KanOctober4 report was obtained. It explicitly verifies October4 fieldwork11:30–16:15 and n553; this supersedes the earlier unknown-fieldwork exclusion and broadcast n554. The earlier exclusion remains archived; no duplicate poll is created.",
+    "C13October7 original publication has no verified fieldwork interval and remains excluded; the separate September30 official filing verifies only that older observation. No collection date is inferred or copied between polls.",
+    "On10Oct officialC13filing4193 supersedes singleOct6fieldworkdate with full6–7Oct interval; percentages remain subgroup-only, not national.",
+    "Kan11Oct published seats and n554 are verified from the republished graphic; full original methodology is blocked. Fieldwork is unknown, so this new observation remains excluded; no existing verified record is removed."
+  ],
+  "auditDate": "2026-10-24"
+}

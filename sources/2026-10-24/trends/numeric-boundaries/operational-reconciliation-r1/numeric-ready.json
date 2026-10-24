@@ -1,0 +1,77 @@
+{
+  "status": "NUMERIC_READY_PASS",
+  "asOf": "2026-10-24",
+  "currentPolls": 8,
+  "historyPolls": 147,
+  "newPolls": 4,
+  "fullStrict": {
+    "polls": 64,
+    "series": 8,
+    "deltas": 56
+  },
+  "withoutChannel14": {
+    "polls": 50,
+    "series": 7,
+    "deltas": 43
+  },
+  "unknownFieldworkExcluded": 12,
+  "sourceAndStatisticalDecisionToleranceUnchanged": true,
+  "originalPrimaryAndIndependentPandQUnchanged": true,
+  "freshOperationalPredicatesReconciled": true,
+  "defaultPartyPrimaryBHSignificant": [
+    "joint",
+    "otzma",
+    "rz_zehut",
+    "winter"
+  ],
+  "defaultPartySensitivityBHSignificant": [],
+  "defaultBlocResults": [
+    {
+      "group": "coalition",
+      "weightedNetDelta": -2.131296050401821,
+      "slopePerWeek": -0.4344246093389907,
+      "pValue": 0.0002133991946738179,
+      "wholeInstituteSignFlipP": 0.015625,
+      "qValue": 0.0006401975840214537,
+      "wholeInstituteSignFlipQ": 0.046875
+    },
+    {
+      "group": "opposition",
+      "weightedNetDelta": -1.1690178626683763,
+      "slopePerWeek": -0.1368606935795828,
+      "pValue": 0.23753487370257223,
+      "wholeInstituteSignFlipP": 0.34375,
+      "qValue": 0.35630231055385836,
+      "wholeInstituteSignFlipQ": 0.5
+    },
+    {
+      "group": "opposition_raam",
+      "weightedNetDelta": -0.8830752765349349,
+      "slopePerWeek": -0.09621702188831899,
+      "pValue": 0.5149353234369003,
+      "wholeInstituteSignFlipP": 0.5,
+      "qValue": 0.5149353234369003,
+      "wholeInstituteSignFlipQ": 0.5
+    }
+  ],
+  "currentHashes": {
+    "data/current-polls.json": "1aedb4cafec7d7811c16dc999897b81a0bd9cc65a800fb58536c872f54060fcd",
+    "data/poll-history.json": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+    "data/strict-party-trends.json": "eeed43f85ab170db02980588e5d6d3c8912befdafa1d8adb305b36fe77fbc7fe",
+    "data/strict-party-trends-without-channel14.json": "2544b238eff6f2b15c087064b48b33848dcd96dbe68286263207fa69f8881291",
+    "data/poll-correlation.json": "08500045938d37cfcb4d7fadae5181348b9f40499386bdddc130aa1c78a9ca68",
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "artifacts/strict-post-close/analysis.json": "dede6d83c2a6ba02595608bc16a50043dc023628e975e7b973acf26df32fac12",
+    "artifacts/strict-post-close/party-analysis.json": "1baa9dd6ee2684c58e6e9eb4bd049f53aa5cd3d085a0e9b1aa9c5d41dd525c8d",
+    "artifacts/strict-post-close/party-validation.json": "49573115e2791be86747b9bb8ba5c4cb7777d766ff9b3a1cccf23724db05c4ea",
+    "artifacts/strict-post-close/summary-he.md": "aa5d619a2ba36495eeb39e6222b54e60e36abae0579a4991dbbe61d0a6991b0b",
+    "artifacts/strict-post-close/party-summary-he.md": "46f0e6cac5e0112fd9fc6999e9b54e6ec96597bd45571041dcbf6b55732fbc3f",
+    "artifacts/poll-checks/2026-10-24/strict-validation.json": "49573115e2791be86747b9bb8ba5c4cb7777d766ff9b3a1cccf23724db05c4ea",
+    "artifacts/poll-checks/2026-10-24/strict-validation-promotion.json": "c16dc1a4c494c408fcd4f5cf37b2e618b9e8112e030641bd8a123734590962b7",
+    "artifacts/strict-post-close/without-channel14/2026-10-24/reviewed/validation.json": "44954db9b568021b687fda9328859c659021beec194e853ed4c4ab845b7b28e3",
+    "artifacts/poll-correlation/2026-10-24/reviewed/validation.json": "1704def5a055e29b7e7de0110904662bd869729caffa4e8b0b6763dd8988cc9b",
+    "artifacts/poll-correlation/2026-10-24/reviewed/independent-audit.json": "b17737388eb605cb8f7427181319489e217f42b69898f54b10555eca271097f7"
+  },
+  "officialBuildAndModelReplayNotYetExecuted": true
+}

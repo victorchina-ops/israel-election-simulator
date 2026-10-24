@@ -1,0 +1,232 @@
+--- publication-source-appendix-r1.json
++++ publication-source-appendix-r2.json
+@@ -2,7 +2,7 @@
+   "schemaVersion": 1,
+   "status": "reviewed",
+   "asOf": "2026-10-24",
+-  "checkedAtUtc": "2026-10-24T10:28:59.593395+00:00",
++  "checkedAtUtc": "2026-10-24T12:03:10.012958+00:00",
+   "publicCopyrightScopeReviewed": true,
+   "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+   "sourceCoverageSha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3",
+@@ -111,19 +111,102 @@
+       "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stdout.txt",
+       "publicName": "ingestion-validator-original-failure.stdout.txt",
+       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix.json",
++      "publicName": "r1-publication-source-appendix.json",
++      "sha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix-independent-review.json",
++      "publicName": "r1-publication-source-appendix-independent-review.json",
++      "sha256": "07add7d6f1876d4e13bbb208e64c0e51c621e5c8130904197b0fe777eb75c97d"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/proposal.json",
++      "publicName": "numeric-band-r1-proposal.json",
++      "sha256": "0d73238d2c4d7d6f9f640fe1737d357ccbb51a2d1afed82d792ff8d4eca8c5a4"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
++      "publicName": "numeric-band-r1-predicate-sums.diff",
++      "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/fixtures.json",
++      "publicName": "numeric-band-r1-fixtures.json",
++      "sha256": "e24863e1644b9534804d3b09c857d165d2ea8b32b5c59d500bd1c02072e1385c"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-small-fixtures.json",
++      "publicName": "numeric-band-r1-independent-small-fixtures.json",
++      "sha256": "45cb5e3f2ecbb83e1ec8ea82c6ff308b908546319bf330f136eadb797e1f7ece"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-source-review.json",
++      "publicName": "numeric-band-r1-independent-source-review.json",
++      "sha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/resource-plan.json",
++      "publicName": "numeric-band-r1-resource-plan.json",
++      "sha256": "16a42c5ef44a96d376717befb9ee077198cefb82349025ca2325652d16d422e3"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-proposal.json",
++      "publicName": "numeric-band-materializer-proposal.json",
++      "sha256": "858e025e60a4258f75ac1d23be2406636b1505abb9175317b17d84b5924f39a2"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
++      "publicName": "numeric-band-materializer.diff",
++      "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-independent-source-review.json",
++      "publicName": "numeric-band-materializer-independent-source-review.json",
++      "sha256": "3026b48d87bec9c19e92fdad1bf67cb44425c384ae3746a6d3d355f95e29eea9"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/proposal.json",
++      "publicName": "numeric-band-unapproved-draft-proposal.json",
++      "sha256": "40b0f4484c5b807f44f054a61ba13b4071e152be83d7082d9995c0b275ef3805"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
++      "publicName": "numeric-band-unapproved-draft.diff",
++      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fixtures.json",
++      "publicName": "numeric-band-unapproved-shared-predicate-fixtures.json",
++      "sha256": "101c4ff8ca0d314af9b9bf4cbf2b805ab460fc995a9c426ebab4bf3f7b55fb07"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/diagnose-tail-boundary-bands-2026-10-24.py",
++      "publicName": "numeric-band-unapproved-initial-field-names.py",
++      "sha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033"
++    },
++    {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/fixtures.json",
++      "publicName": "numeric-band-unapproved-initial-field-names-fixtures.json",
++      "sha256": "a9bc37e64d069c863e72085dceab409a25d3981c628a3e198ac652adf4270c27"
+     }
+   ],
+-  "numericReproducers": {},
+-  "scope": "Explicit factual review records and rewritten source summary plus bounded ingestion-validator compatibility code, exact diff, peer/regression/execution and original failure receipts. No rawarticleHTML,readertranscripts,privateDOM,Xpixels,partialthumbnail or prior-dayboundarydiagnostic.",
+-  "numericReproducerPolicy": "Still empty: ingestion validator compatibility is not a statistical boundary reproducer; any fresh24Octoberboundary requires a separate exact review.",
++  "numericReproducers": {
++    "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
++    "scripts/materialize-tail-boundary-bands-2026-10-24.py": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822"
++  },
++  "scope": "Explicit factual source reviews and rewritten summary; bounded ingestion-validator compatibility lineage; preserved r1 appendix and review; fresh numeric diagnostic/materializer source gates, exact diffs, independent small fixtures and resource estimate; clearly marked unapproved numeric drafts retained as audit lineage. No full publisher article bodies, reader transcripts, private browser DOM, X pixels or partial source thumbnail.",
++  "numericReproducerPolicy": "Exactly two fresh 24 October source-approved numeric scripts are eligible as reproducers. Their SOURCE gates approve code semantics only. Actual fresh four-outcome execution review, unchanged ordinary numerical validation and publication gates remain mandatory. Unapproved initial drafts and shared-predicate fixture PASS labels are audit lineage, never approval of an actual counter.",
+   "rootIndependentReviewRequiredBeforePackaging": true,
+-  "revision": "ingestion-validator-lineage-r1",
++  "revision": "numeric-boundary-source-lineage-r2",
+   "supersedesAppendix": {
+     "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix.json",
+-    "sha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856",
+-    "preservedCopy": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix.json",
+-    "originalIndependentReviewSha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4",
+-    "preservedIndependentReview": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix-independent-review.json"
++    "sha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78",
++    "preservedCopy": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix.json",
++    "originalIndependentReviewSha256": "07add7d6f1876d4e13bbb208e64c0e51c621e5c8130904197b0fe777eb75c97d",
++    "preservedIndependentReview": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix-independent-review.json"
+   },
+   "newIngestionValidatorLineage": {
+     "originalValidatorPath": "scripts/validate-ingestion-2026-10-24.py",
+@@ -145,5 +228,108 @@
+     "noCanonicalDataChangedByRepair": true
+   },
+   "workingAppendixNotPromoted": true,
+-  "packageWrapperUnchangedSha256": "805e13274977be787facb03f0c4e79d95ce78343fab9d063d2e525b170efafb6"
++  "packageWrapperUnchangedSha256": "805e13274977be787facb03f0c4e79d95ce78343fab9d063d2e525b170efafb6",
++  "priorInitialAppendixLineage": {
++    "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix.json",
++    "sha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856",
++    "preservedCopy": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix.json",
++    "originalIndependentReviewSha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4",
++    "preservedIndependentReview": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix-independent-review.json"
++  },
++  "numericEvidenceScope": {
++    "publicationDecision": "Root explicitly approved retention of initial failed/unapproved numeric drafts already within the recursively copied numeric-boundaries audit folder. No package exclusion, relocation or alteration of hash-bound evidence.",
++    "approvedActualReproducers": [
++      {
++        "sourcePath": "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py",
++        "sha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
++        "status": "PASS_SOURCE_GATE_ONLY"
++      },
++      {
++        "sourcePath": "scripts/materialize-tail-boundary-bands-2026-10-24.py",
++        "sha256": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822",
++        "status": "PASS_SOURCE_GATE_ONLY"
++      }
++    ],
++    "sourceGates": [
++      {
++        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-source-review.json",
++        "sha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0",
++        "status": "PASS_SOURCE_GATE_ONLY",
++        "scope": "Approves diagnostic r1 source semantics and independent small fixtures; not actual poll counter outputs."
++      },
++      {
++        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-independent-source-review.json",
++        "sha256": "3026b48d87bec9c19e92fdad1bf67cb44425c384ae3746a6d3d355f95e29eea9",
++        "status": "PASS_SOURCE_GATE_ONLY",
++        "scope": "Approves materializer source contract; actual independently reviewed four outcomes are required before materialization."
++      }
++    ],
++    "independentFixtureEvidence": {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-small-fixtures.json",
++      "sha256": "45cb5e3f2ecbb83e1ec8ea82c6ff308b908546319bf330f136eadb797e1f7ece",
++      "status": "PASS_SMALL_FIXTURES_ONLY",
++      "scope": "Independent primary-style inclusive search sums and separate Cartesian rounded addition; neither expected-count implementation invokes diagnostic predicates(). No actual poll supports or heavy counters executed.",
++      "fixtureCount": 38,
++      "cartesianPairsChecked": 45918,
++      "outsideBandPairsIndependentlyProvedIdentical": 40197
++    },
++    "unapprovedDrafts": [
++      {
++        "sourcePath": "scripts/diagnose-tail-boundary-bands-2026-10-24.py",
++        "sha256": "60ba7000d98c2c3838d379c6960be496ae59b3430bc728e187db1f1aeead4d5d",
++        "status": "UNAPPROVED_NOT_HEAVY_EXECUTED",
++        "scope": "Original 60ba source is identified by hash and initial diff, not listed as an approved reproducer. Its Boolean OR predicate merged tails that the frozen primary counts as an upper-plus-lower integer SUM; replaced by r1 SUM semantics."
++      },
++      {
++        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/diagnose-tail-boundary-bands-2026-10-24.py",
++        "sha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033",
++        "status": "UNAPPROVED_NOT_HEAVY_EXECUTED",
++        "scope": "Earlier field-name draft retained by recursive audit copy; not an approved reproducer and not actual result evidence."
++      }
++    ],
++    "sharedPredicateFixtureLimitation": {
++      "reason": "Initial fixture expectations reused the same Boolean OR predicate as the draft. Their PASS labels could not independently detect overlapping rounded subtraction tails whose primary integer SUM can equal two. They establish neither correct frozen-primary semantics nor approval of an actual counter.",
++      "replacedBy": "Source-approved r1 with primary upper-plus-lower sums plus the independently implemented 38-fixture gate.",
++      "records": [
++        {
++          "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fixtures.json",
++          "sha256": "101c4ff8ca0d314af9b9bf4cbf2b805ab460fc995a9c426ebab4bf3f7b55fb07",
++          "status": "HISTORICAL_PASS_WITH_SHARED_PREDICATE_LIMITATION",
++          "scope": "16 small fixtures only, actualCounterExecuted false; not source approval."
++        },
++        {
++          "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/fixtures.json",
++          "sha256": "a9bc37e64d069c863e72085dceab409a25d3981c628a3e198ac652adf4270c27",
++          "status": "HISTORICAL_PASS_WITH_SHARED_PREDICATE_LIMITATION",
++          "scope": "16 early small fixtures only, actualCounterExecuted false; not source approval."
++        }
++      ]
++    },
++    "initialDiff": {
++      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
++      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4",
++      "status": "UNAPPROVED_AUDIT_DIFF_ONLY",
++      "scope": "Original proposal lineage; exact bytes explicitly accepted for immutable unified-diff context whitespace only, not counter approval."
++    },
++    "freshDiffs": [
++      {
++        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
++        "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d",
++        "status": "SOURCE_REVIEWED_EXACT_DIFF",
++        "scope": "Exact immutable source diff; whitespace allowance is bound to this hash."
++      },
++      {
++        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
++        "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
++        "status": "SOURCE_REVIEWED_EXACT_DIFF",
++        "scope": "Exact immutable source diff; whitespace allowance is bound to this hash."
++      }
++    ],
++    "actualExecutionApprovalProvidedByThisAppendix": false,
++    "requiredFutureExecutionReview": "Fresh independent review must bind all four actual discrepancy outcomes, current input hashes and integer identities before materialization; ordinary strict validation, promotion and remaining current checks must pass.",
++    "tolerance": 1e-12,
++    "reportedPandQChanged": false,
++    "canonicalDataChangedByThisAppendix": false,
++    "privacyReview": "Numeric code, diffs, numeric fixture/source-gate records and hashes only. No original publisher article text, browser state, private X DOM, credentials or source thumbnails. Historical failed numeric drafts remain clearly identified rather than silently removed."
++  }
+ }

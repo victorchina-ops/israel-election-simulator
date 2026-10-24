@@ -1,0 +1,75 @@
+{
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-24",
+  "validationKind": "exact-operational-predicate-reconciliation",
+  "scope": "Reviewed fresh exact operational tail reconciliation. Replaces the false common-addition-equals-primary assumption only for actual current hash-bound integer discrepancies; changes no statistical output or decision tolerance.",
+  "proposalSha256": "a73fcc3fab54940e00e8085ec7a45eb2e5c28a38338040bde2d7fcc60138fa42",
+  "adaptedFiles": {
+    "scripts/verify-operational-tail-reconciliation-2026-10-24-r1.py": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+    "scripts/materialize-tail-boundary-bands-2026-10-24-r1.py": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a",
+    "scripts/validate-strict-trends-2026-10-24-r1.py": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31",
+    "scripts/promote-strict-validation-2026-10-24-r1.py": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de"
+  },
+  "baseFiles": {
+    "scripts/materialize-tail-boundary-bands-2026-10-24.py": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822",
+    "scripts/validate-strict-trends-2026-10-24.py": "e7197d8a17f8dfc01e8d1c00d72fecd2c081836e66a98796fbd0102b68669eeb",
+    "scripts/promote-strict-validation-2026-10-24.py": "0c11272df590a96ab1d325d15083a9794af2ad3c3cb2075f5728ccbff6c96935"
+  },
+  "regressionFixturesSha256": "6969e49fe9374100e381debfce3a8457ea5dc2e73b6d50df4164a903fec62696",
+  "independentIsolatedRegressionReviewSha256": "b4bbb83e17083ecfeec273cb10e1da8734f75c6e9e7b5335fcd63ddd4443fed9",
+  "diffsIndependentlyReproduced": [
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934"
+    },
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff"
+    },
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c"
+    },
+    {
+      "path": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915"
+    }
+  ],
+  "checks": {
+    "allAdaptedAndBaseSourceHashesVerified": true,
+    "allFourExactDiffsIndependentlyReproduced": true,
+    "archiveCopiesEqualWorkingSources": true,
+    "allSourcesSyntaxParsedWithoutPipelineExecution": true,
+    "isolated108RegressionFixturesIndependentlyRerun": true,
+    "fixedToleranceAndOriginalPandQUnchanged": true,
+    "noGenericApproximateCountException": true,
+    "allFourOriginalOperationalPredicateCountsRequired": true,
+    "exactSignedMassReconstructionFromOwnAnchorRequired": true,
+    "primarySubtractionAndOwnAdditionAnchorIntegerEqualitiesRequired": true,
+    "genuineCommonAdditionMismatchExplicitlyFalse": true,
+    "originalInvestigationStatusPreserved": true,
+    "oldFailuresAndOriginalSourcesPreserved": true,
+    "allFourCurrentDiagnosesAndIndependentExecutionReviewRequired": true,
+    "currentInputsSourceGateAndCompletedFourStageLineagesRechecked": true,
+    "supportSeatsTimesWeightsStatesMassesAndHalvesRechecked": true,
+    "originalOLS_BH_SignFlip_CohortAndLineageChecksPreserved": true,
+    "boundaryFallbackDisabledAndOnlyReviewedReceiptsAccepted": true,
+    "validatorAndPromoterReverifyCompleteReceipt": true,
+    "newDistinctDatedReceiptDoesNotImpersonateOldOrdinaryContract": true,
+    "noModelOrCanonicalDataOrFrozenCounterChanges": true
+  },
+  "mathematicalReview": [
+    "The original counters evaluate different binary64 operations: compare b with rounded c-a, or compare rounded a+b with c. Their equality at one common c is not universally true. The fresh outward-bound diagnostic directly evaluates both operations at both original observed cutoffs and records their exact signed multiplicity masses.",
+    "The same actual independent own-addition count anchors all four full-tail reconstructions. Primary subtraction at its original observed statistic must exactly equal the existing primary integer; own addition must exactly equal the existing independent integer. Each intervening predicate/observed-statistic contribution must sum exactly to the full integer difference.",
+    "No numerical tolerance is introduced for these integer comparisons. A genuine common-addition inequality remains false in the new receipt, and original INVESTIGATE proof status remains unchanged. The different operator semantics are explicit rather than falsely certified identical.",
+    "The adapted validator retains all original main-body checks for data/source/cohort/weights, raw weighted OLS, BH families, whole-series sign flips, individual exact checks and fresh lineage checks. Only the old common-addition boundary assumption is replaced by mandatory complete four-count proof verification. The promoter replays that verification before copying the exact validated pointer."
+  ],
+  "findings": [],
+  "executionLimitations": [
+    "Actual aggregate four-outcome independent execution review is still required; source approval alone cannot authorize materialization.",
+    "The previous common-addition ordinary validator and its failed execution remain historical evidence. New adapter identities must stay explicit in packaging and publication provenance."
+  ],
+  "actualPipelineExecutedByReviewer": false,
+  "heavyCountersExecutedByReviewer": false,
+  "canonicalMutation": false
+}

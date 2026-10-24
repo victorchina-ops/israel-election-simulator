@@ -1,0 +1,13 @@
+--- scripts/complete-poll-update-2026-10-24.py
++++ scripts/complete-poll-update-2026-10-24-r1.py
+@@ -54,7 +54,9 @@
+         'defaultScenario':default,'preferredSimilarityScenario':preferred,'defaultStrictCoverage':strict['coverage'],
+         'defaultSignificantPartyTrends':[{'partyId':r['partyId'],'netChange':r['weightedNetDelta'],'p':r['pValue'],'q':r['qValue'],'sensitivityP':r['wholeSeriesSignFlipP'],'sensitivityQ':r['wholeSeriesSignFlipQ']} for r in strict['rows'] if r['qValue']<.05],
+         'sourceAccessLimitations':list(dict.fromkeys([*read(ART/'primary-source-public-summary.json').get('accessLimitations',[]),
+-            *read(ART/'primary-source-public-summary.json').get('coverage',{}).get('limitations',[])])),
++            *read(ART/'primary-source-public-summary.json').get('coverage',{}).get('limitations',[]),
++            *read(ART/'primary-source-public-summary.json').get('materialSourceCaveats',[]),
++            *read(ART/'source-coverage-reviewed.json').get('limitations',[])])),
+         'repostsDeduplicated':True,'missingValuesNotZero':True,'originalDataAndHistoricalWeightsPreserved':True,
+         'social':{'tweet':'outputs/social/'+DAY+'/tweet.he.txt','png':'outputs/social/'+DAY+'/'+render['output'],
+             'prompt':'outputs/social/'+DAY+'/'+render['prompt'],'automaticTweetPosted':False,

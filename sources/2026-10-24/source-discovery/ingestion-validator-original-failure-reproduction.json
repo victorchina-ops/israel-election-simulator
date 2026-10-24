@@ -1,0 +1,8 @@
+{
+  "status": "ORIGINAL_FAILURE_REPRODUCED_BEFORE_FIX",
+  "originalValidatorSha256": "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588",
+  "exitCode": 1,
+  "scope": "Exact native stderr from a second read-only run of unchanged original validator after first tool-call failure. No claim this is first invocation bytes.",
+  "stderrSha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97",
+  "stdoutSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

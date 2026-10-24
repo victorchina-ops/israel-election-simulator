@@ -1,0 +1,9 @@
+Create a polished, original square Hebrew editorial illustration for sharing on X, 1400x1400 or similar. Warm watercolor and dimensional cut-paper textures, elegant cream paper, ink-blue and restrained ochre, friendly artistic character. A distant Knesset building and four charming vintage television sets form one clear scene; three equally sized sets grouped together display the large number 50, labelled חדשות 12, חדשות 13, כאן 11. A fourth equally dignified television displays 59, labelled i24. Use legible, accurate Hebrew right-to-left lettering with generous whitespace. The message is differences between published polls, not which side to support. No people, no caricatures, no campaign imagery, no pie charts, no technical scientific infographic, no invented logos, no arrows implying statistical significance. Make all four TV figures and their source labels immediately readable on a phone.
+Exact headline: אותו ערב, תחזיות שונות
+Exact subtitle: גוש נתניהו בסקרי 23.10.2026
+Three TV screen numbers: 50, 50, 50; fourth i24 screen: 59.
+Below the scene, one short clear line: נתוני סקרים שפורסמו — לא הסתברויות המודל
+Small assumptions line: וינטר עם נתניהו; הנדל והמפלגות הערביות בנפרד
+Small source/date line: מקורות: חדשות 12, חדשות 13, כאן 11, i24 | פורסם 23.10, נבדק 24.10.2026
+Small tasteful credit: ויקטור רינה בן דוד
+Do not add any other numbers or claims. The groups are a factual comparison: N12 coalition50, C13 coalition50, Kan11 coalition50, i24 coalition59 including Winter4. Do not display the supplemental Winter4 as an extra number; it is context for correctness only. A readable editorial illustration, not a dense dashboard.

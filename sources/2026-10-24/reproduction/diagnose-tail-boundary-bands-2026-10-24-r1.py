@@ -1,0 +1,224 @@
+"""Fresh24Oct exact boundary diagnosis by exhaustive narrow-band screening.
+
+No original counter, statistic, 1e-12 tolerance or reported p/q value is changed.
+The completed unchanged independent audit anchors the own-addition tail. Only
+pairs where its predicate can differ from another original predicate are visited.
+"""
+from pathlib import Path
+from collections import Counter
+import argparse
+import hashlib
+import importlib.util
+import json
+import math
+import sys
+import time
+import numpy as np
+
+sys.dont_write_bytecode=True
+ROOT=Path(__file__).resolve().parents[1]
+DAY='2026-10-24'
+ART=ROOT/'artifacts/poll-checks'/DAY
+TOLERANCE=1e-12
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+encoded=lambda v:(json.dumps(v,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
+
+
+def write_once(path,value):
+    body=encoded(value)
+    assert not path.exists(),('Preserve actual dated evidence',str(path))
+    path.parent.mkdir(parents=True,exist_ok=True)
+    path.write_bytes(body)
+
+
+def predicates(a,b,cp,ci):
+    # Exactly the original subtraction and direct-addition comparisons.
+    # Original counters SUM the upper/lower masses. Under extreme cancellation
+    # subtraction may contribute2; retain that exact operational behavior.
+    # Ordering: subtraction-primary, addition-primary, subtraction-own, addition-own.
+    s=float(a)+float(b)
+    sub=lambda c:int(float(b)>=c-float(a))+int(float(b)<=-c-float(a))
+    add=lambda c:int(s>=c)+int(s<=-c)
+    return (sub(cp),add(cp),sub(ci),add(ci))
+
+
+def windows(a,cp,ci):
+    # Round the CUTOFF outward first, then round subtraction outward. Merely
+    # widening (cutoff-a) would miss addition rounding when a~cutoff and b~0.
+    low,high=min(cp,ci),max(cp,ci)
+    def outward(zlo,zhi):
+        lo=np.nextafter(np.subtract(np.nextafter(zlo,-np.inf),a),-np.inf)
+        hi=np.nextafter(np.subtract(np.nextafter(zhi,np.inf),a),np.inf)
+        assert np.all(np.isfinite(lo)) and np.all(np.isfinite(hi))
+        return lo,hi
+    return outward(-high,-low),outward(low,high)
+
+
+def candidate_intervals(ln,hn,lp,hp):
+    intervals=[]
+    if ln<hn:intervals.append((int(ln),int(hn)))
+    if lp<hp:
+        if intervals and lp<=intervals[-1][1]:
+            intervals[-1]=(intervals[-1][0],max(intervals[-1][1],int(hp)))
+        else:intervals.append((int(lp),int(hp)))
+    return intervals
+
+
+def screen_differences(a,ac,b,bc,cp,ci,chunk_size=500000,progress=False):
+    a=np.asarray(a,dtype=float);b=np.asarray(b,dtype=float)
+    assert a.ndim==b.ndim==1 and len(a)==len(ac) and len(b)==len(bc)
+    assert cp>0 and ci>0 and math.isfinite(cp) and math.isfinite(ci)
+    assert np.all(np.isfinite(a)) and np.all(np.isfinite(b))
+    # Actual slope halves are small; exclude overflow from the stated proof domain.
+    assert max(float(np.max(np.abs(a))),float(np.max(np.abs(b))),cp,ci)<1e6
+    assert np.all(b[:-1]<=b[1:]) and 1<=chunk_size<=1000000
+    differences=[0,0,0,0];candidate_pairs=changed_pairs=0;witnesses=[]
+    for start in range(0,len(a),chunk_size):
+        stop=min(start+chunk_size,len(a));aa=a[start:stop]
+        negative,positive=windows(aa,cp,ci)
+        ln=np.searchsorted(b,negative[0],side='left');hn=np.searchsorted(b,negative[1],side='right')
+        lp=np.searchsorted(b,positive[0],side='left');hp=np.searchsorted(b,positive[1],side='right')
+        selected=np.flatnonzero((hn>ln)|(hp>lp))
+        for offset in selected:
+            k=start+int(offset);av=float(a[k]);am=int(ac[k])
+            assert am>0
+            for lo,hi in candidate_intervals(ln[offset],hn[offset],lp[offset],hp[offset]):
+                candidate_pairs+=hi-lo
+                for j in range(lo,hi):
+                    bm=int(bc[j]);assert bm>0
+                    bits=predicates(av,float(b[j]),cp,ci);base=int(bits[3]);mass=am*bm
+                    for q in range(3):differences[q]+=(int(bits[q])-base)*mass
+                    if len(set(bits))>1:
+                        changed_pairs+=1
+                        if len(witnesses)<24:witnesses.append({'aHex':av.hex(),'bHex':float(b[j]).hex(),'aMass':str(am),'bMass':str(bm),'predicates':list(bits)})
+        if progress and (stop==len(a) or stop%(chunk_size*100)==0):
+            print(json.dumps({'phase':'boundary_screen','aProcessed':stop,'aTotal':len(a),'candidatePairs':str(candidate_pairs),'changedPairs':str(changed_pairs)}),flush=True)
+    return {'signedDifferencesFromAdditionOwn':[str(v) for v in differences],
+        'aRowsExhaustivelyScreened':len(a),'candidatePairsDirectlyEvaluated':str(candidate_pairs),
+        'changedPairs':str(changed_pairs),'witnesses':witnesses,'chunkSize':chunk_size}
+
+
+def self_test():
+    fixtures=[]
+    small=float(np.nextafter(0.,1.));normal=float(np.finfo(float).tiny)
+    for number,(cp,ci) in enumerate([(.4-1e-12,float(np.nextafter(.4,-np.inf))-1e-12),
+            (.1-1e-12,float.fromhex('0x1.99999999999d6p-4')-1e-12),
+            (small,small*2),(normal,normal+small)],1):
+        aa=np.asarray([0.,-0.,cp,-cp,ci,-ci,np.nextafter(cp,np.inf),np.nextafter(-cp,-np.inf),1.,-1.,1e5,-1e5,small,-small])
+        vals=[0.,-0.,small,-small,normal,-normal,1.,-1.,1e5,-1e5]
+        for av in aa:
+            for c in (cp,ci,-cp,-ci):
+                v=float(c-float(av));vals.extend([v,float(np.nextafter(v,-np.inf)),float(np.nextafter(v,np.inf))])
+        bb=np.asarray(sorted(set(vals)),dtype=float)
+        ac=[(1<<80)+k+1 for k in range(len(aa))];bc=[(1<<70)+3*k+1 for k in range(len(bb))]
+        result=screen_differences(aa,ac,bb,bc,cp,ci,chunk_size=3)
+        brute=[0,0,0,0];outside=0
+        for k,av in enumerate(aa):
+            neg,pos=windows(np.asarray([av]),cp,ci)
+            for j,bv in enumerate(bb):
+                bits=predicates(av,bv,cp,ci);mass=ac[k]*bc[j]
+                for q in range(4):brute[q]+=int(bits[q])*mass
+                inside=(neg[0][0]<=bv<=neg[1][0]) or (pos[0][0]<=bv<=pos[1][0])
+                if not inside:assert len(set(bits))==1;outside+=1
+        assert [brute[q]-brute[3] for q in range(4)]==[int(x) for x in result['signedDifferencesFromAdditionOwn']]
+        fixtures.append({'id':number,'aRows':len(aa),'bRows':len(bb),'cpHex':cp.hex(),'ciHex':ci.hex(),'bruteCounts':[str(x) for x in brute],'outsideBandPairsProvedIdentical':outside,'bandResult':result})
+    rng=np.random.default_rng(20261024)
+    for number in range(12):
+        cp=float(rng.uniform(.01,1.));ci=cp
+        for _ in range(number+1):ci=float(np.nextafter(ci,-np.inf))
+        aa=np.asarray(rng.normal(size=13));bb=np.sort(np.asarray([*rng.normal(size=17),*[float(cp-av) for av in aa],*[float(-ci-av) for av in aa]]))
+        ac=[(1<<75)+int(v) for v in rng.integers(1,100,size=len(aa))];bc=[(1<<72)+int(v) for v in rng.integers(1,100,size=len(bb))]
+        result=screen_differences(aa,ac,bb,bc,cp,ci,chunk_size=4);brute=[0,0,0,0]
+        for k,av in enumerate(aa):
+            for j,bv in enumerate(bb):
+                bits=predicates(av,bv,cp,ci)
+                for q in range(4):brute[q]+=int(bits[q])*ac[k]*bc[j]
+        assert [brute[q]-brute[3] for q in range(4)]==[int(x) for x in result['signedDifferencesFromAdditionOwn']]
+        fixtures.append({'randomFixture':number,'aRows':len(aa),'bRows':len(bb),'exactIntegerDifferencesMatch':True})
+    result={'status':'PASS','asOf':DAY,'scope':'Small brute-force/adversarial fixtures only, no actual score/tail counters','scriptSha256':sha(Path(__file__)),'fixtureCount':len(fixtures),'fixtures':fixtures,'covers':['Both tails and exact inclusive ties','Observed cutoff ULP shifts','a approximately cutoff with b approximately zero','Zero, negative zero and subnormal values','Overlapping positive/negative screening intervals merged','Exact Python integer masses above signed64','Random independent small Cartesian brute-force comparisons'],'canonicalMutation':False,'actualCounterExecuted':False}
+    write_once(ART/'numeric-boundaries/band-source-review-r1/fixtures.json',result)
+    print(json.dumps({'status':'PASS','fixtureCount':len(fixtures),'scriptSha256':result['scriptSha256']}))
+
+
+def main():
+    parser=argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--self-test',action='store_true');parser.add_argument('--kind',choices=['bloc','party']);parser.add_argument('--identity')
+    args=parser.parse_args()
+    if args.self_test:
+        assert args.kind is None and args.identity is None;self_test();return
+    assert args.kind is not None and args.identity
+    gate=read(ART/'numeric-boundaries/band-source-review-r1/independent-source-review.json')
+    assert gate['status']=='PASS_SOURCE_GATE' and gate['asOf']==DAY and gate['scriptSha256']==sha(Path(__file__))
+    fixture=ART/'numeric-boundaries/band-source-review-r1/fixtures.json'
+    assert gate['fixturesSha256']==sha(fixture) and read(fixture)['status']=='PASS'
+    rels=['data/current-polls.json','data/poll-history.json','data/strict-party-trends.json','data/calibration.json','data/parties.json',
+        'artifacts/strict-post-close/analysis.json','artifacts/strict-post-close/party-analysis.json',
+        'artifacts/strict-post-close/independent-strict-numeric-audit.json','artifacts/strict-post-close/party-independent.json',
+        'artifacts/poll-checks/'+DAY+'/source-plan.json','artifacts/poll-checks/'+DAY+'/ingestion-validation.json',
+        'artifacts/poll-checks/'+DAY+'/canonical-numeric-runlogs/run-receipt.json',
+        'scripts/exact_scalar_marginals_2026_10_20.py','artifacts/strict-post-close/compressed_searchsorted_exact.py',
+        'artifacts/strict-post-close/independent-compressed-counts.py']
+    hashes={r:sha(ROOT/r) for r in rels};run=read(ROOT/rels[11]);assert run['status']=='PASS' and run['allFourCanonicalStagesPassed']
+    for row in run['stages']:
+        assert row['status']=='PASS' and sha(ROOT/row['lineage'])==row['lineageSha256']
+        lineage=read(ROOT/row['lineage']);assert lineage['asOf']==DAY and sha(ROOT/'artifacts/strict-post-close'/lineage['outputFile'])==lineage['outputSha256']
+    primary=read(ROOT/rels[5 if args.kind=='bloc' else 6]);audit=read(ROOT/rels[7 if args.kind=='bloc' else 8]);history=read(ROOT/rels[1])
+    assert primary['asOf']==history['asOf']==DAY and primary['historySha256']==hashes[rels[1]]
+    idkey,valueskey=('group','groups') if args.kind=='bloc' else ('partyId','parties')
+    j=next(i for i,v in enumerate(primary['primary']['overall']) if v[idkey]==args.identity);row=primary['primary']['overall'][j]
+    if args.kind=='bloc':iobs=float(audit['slopes'][j]);ic=int(audit['countsExact'][j]);total=int(audit['totalExact'])
+    else:
+        independent=next(v for v in audit['overall'] if v['partyId']==args.identity);iobs=float(independent['slopePerWeek']);ic=int(independent['extremeCountExact']);total=int(audit['nPermutationsExact'])
+    pobs=float(row['slopePerWeek']);pc=int(primary['primary']['exactCounting']['extremeCountsExact'][j]);assert pc!=ic
+    assert int(primary['primary']['exactCounting']['nPermutationsExact'])==total
+    cp,ci=abs(pobs)-TOLERANCE,abs(iobs)-TOLERANCE;assert cp>0 and ci>0
+    import exact_scalar_marginals_2026_10_20 as backend
+    backend.verify_frozen_counters()
+    manifest=read(ART/'before/manifest.json')
+    assert sha(ROOT/rels[12])==manifest['files'][rels[12]]
+    assert sha(ROOT/rels[14])==manifest['reviewedExactHelpers'][rels[14]]
+    spec=importlib.util.spec_from_file_location('_frozen_boundary_halves24',ROOT/rels[14]);counter=importlib.util.module_from_spec(spec);spec.loader.exec_module(counter)
+    archive={p['id']:p for p in history['polls']};blocks=[];support=[];started=time.monotonic()
+    for series in primary['primary']['byPollster']:
+        times,weight=series['timeDaysFromFirst'],series['weight'];seats=next(v['seats'] for v in series[valueskey] if v[idkey]==args.identity)
+        actual=[sum(archive[k]['seats'].get(p,0) for p in primary['groups'][args.identity]) if args.kind=='bloc' else archive[k]['seats'].get(args.identity,0) for k in series['pollIds']]
+        assert seats==actual
+        pb=backend.score_blocks(times,np.asarray(seats)[:,None],weight,method='unique')[0];ib=backend.independent_blocks(times,np.asarray(seats)[:,None],weight)[0]
+        assert np.array_equal(pb.values,ib[0]) and np.array_equal(pb.multiplicities,ib[1])
+        assert sum(int(v) for v in ib[1])==math.factorial(len(times));blocks.append(ib)
+        support.append({'pollsterId':series['pollsterId'],'pollIds':series['pollIds'],'timeDays':times,'seats':seats,'weight':weight,'uniqueScores':len(ib[0]),'rawMass':str(pb.raw_permutations),'valuesSha256':hashlib.sha256(pb.values.tobytes()).hexdigest(),'multiplicitiesSha256':hashlib.sha256(json.dumps([str(int(v)) for v in ib[1]],separators=(',',':')).encode()).hexdigest()})
+    assert math.prod(int(v['rawMass']) for v in support)==total
+    left,right,nl,nr=[],[],1,1
+    for k in sorted(range(len(blocks)),key=lambda k:len(blocks[k][0]),reverse=True):
+        if nl<=nr:left.append(k);nl*=len(blocks[k][0])
+        else:right.append(k);nr*=len(blocks[k][0])
+    a,ac=counter.sums_with_multiplicities([blocks[k] for k in left]);b,bc=counter.sums_with_multiplicities([blocks[k] for k in right])
+    assert len(a)==nl and len(b)==nr and sum(int(v) for v in ac)*sum(int(v) for v in bc)==total
+    order=np.argsort(b,kind='stable');b,bc=b[order],bc[order];del order
+    screen=screen_differences(a,ac,b,bc,cp,ci,progress=True)
+    reconstructed=[ic+int(v) for v in screen['signedDifferencesFromAdditionOwn']]
+    assert all(0<=v<=total for v in reconstructed) and reconstructed[3]==ic
+    sp,dp,si,own=reconstructed
+    result={'status':'PASS' if sp==pc and dp==pc and own==ic else 'INVESTIGATE','asOf':DAY,'kind':args.kind,'outcome':args.identity,
+        'scope':'Exhaustive outward-rounded boundary-band diagnosis; original whole-tail counters and outputs unchanged',
+        'inputHashes':hashes,'primaryObservedHex':pobs.hex(),'independentObservedHex':iobs.hex(),'primaryCutoffHex':cp.hex(),'independentCutoffHex':ci.hex(),
+        'toleranceUnchanged':TOLERANCE,'primaryExtremeCountExact':str(pc),'independentExtremeCountExact':str(ic),'totalExact':str(total),
+        'directAtPrimaryObservedCountExact':str(dp),'directAtOwnObservedCountExact':str(own),'subtractionAtPrimaryObservedCountExact':str(sp),'subtractionAtOwnObservedCountExact':str(si),
+        'commonSubtractionPredicateIntegerMatch':sp==pc,'originalDirectCommonThresholdIntegerMatch':dp==pc,'originalDirectOwnThresholdIntegerMatch':own==ic,
+        'independentOwnAnchor':'Current unchanged completed independent audit and all-four-stage lineage; no whole own-tail recount',
+        'allFourOriginalPredicatesPreserved':True,'allPairsOutsideOutwardBandsProvablyAgree':True,'allScalarSupportsAndLabeledMassesEqual':True,
+        'support':support,'halfSizes':[[nl,nr]],'halfSeries':[[support[k]['pollsterId'] for k in side] for side in [left,right]],
+        'rawHalfMasses':[str(math.prod(int(support[k]['rawMass']) for k in side)) for side in [left,right]],'screening':screen,
+        'signedCountDecomposition':{'predicateAtPrimary':str(dp-sp),'directObservedShift':str(own-dp),'subtractionObservedShift':str(si-sp),'predicateAtIndependent':str(own-si),'totalDifference':str(ic-pc)},
+        'unchangedReportedValues':{'primaryP':row['pValue'],'primaryQ':row['qValue']},'probabilityDifference':(ic-pc)/total,
+        'screeningUsesOutwardCutoffNeighborsBeforeOutwardSubtraction':True,'screeningPaddingChangesNoDecisionThreshold':True,
+        'sourceReviewSha256':sha(ART/'numeric-boundaries/band-source-review-r1/independent-source-review.json'),'fixturesSha256':sha(fixture),
+        'reproducerPath':Path(__file__).resolve().relative_to(ROOT).as_posix(),'reproducerSha256':sha(Path(__file__)),'elapsedSeconds':round(time.monotonic()-started,3),'outputsOrFrozenHelpersModified':False}
+    assert all(sha(ROOT/r)==h for r,h in hashes.items())
+    write_once(ART/'numeric-boundaries'/(args.kind+'-'+args.identity+'-band-diagnosis.json'),result)
+    print(json.dumps({'status':result['status'],'kind':args.kind,'identity':args.identity,'seconds':result['elapsedSeconds'],'reconstructedCounts':[str(v) for v in reconstructed],'commonMatchesPrimary':dp==pc}),flush=True)
+    assert result['status']=='PASS','Fresh boundary diagnosis requires investigation; no canonical materialization allowed'
+
+
+if __name__=='__main__':main()

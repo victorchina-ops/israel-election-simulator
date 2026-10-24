@@ -1,0 +1,82 @@
+{
+  "asOf": "2026-10-24",
+  "phase": "local",
+  "browserAutomation": "cua",
+  "browser": "Chrome",
+  "tabId": "1913182107",
+  "url": "http://127.0.0.1:8797/?qa=20261024&view=1&tab=about",
+  "checks": [
+    {
+      "id": "fresh-about-and-author",
+      "status": "passed",
+      "observed": "Fresh origin opens About, date24.10.2026, original author photo loaded320px, contact and explanations visible; source snapshot a4f2e9c9."
+    },
+    {
+      "id": "default-settings",
+      "status": "passed",
+      "observed": "Fresh quality weighting, Channel14OFF, similarityOFF, Arab turnout53.2%, both motivations100%; dashboard default50.9/53.3 matches reviewed replay rounding."
+    },
+    {
+      "id": "preferred-model-and-partition",
+      "status": "passed",
+      "observed": "SimilarityON/no14 quality shows51.3coalition/53.0opposition; P61 .31%/.19%/99.50%; all17parties assigned once7coalition/4opposition/6unassigned,Wintercoalition,Hendel/Arabunassigned, matching reviewed model."
+    },
+    {
+      "id": "threshold-probabilities",
+      "status": "passed",
+      "observed": "Winter27.36%,Hendel34.61%,means1.1/1.5; separate model-probability labels, parties first and shared settings visible."
+    },
+    {
+      "id": "strict-trends-and-exclusions",
+      "status": "passed",
+      "observed": "50polls/7series/43deltas;12unknownfieldwork+14publisher exclusions distinct; Kan23 excludedstrict; primary4partyBHsignals and noneinstitute-sensitivityBH clearly distinguished; strictusesquality withoutsimilarity."
+    },
+    {
+      "id": "channel14-switch",
+      "status": "passed",
+      "observed": "Global14ON selects separately recomputed64/8/56cohort; OFFrestores50/7/43. Originalsurveys retained."
+    },
+    {
+      "id": "four-source-metadata",
+      "status": "passed",
+      "observed": "Current8source columnsretainall; N12/C13/Kan/i24dated23Oct; sample1018/1875/1106/5124andoriginal links; Kanfieldworkvisiblyunknown, notzero."
+    },
+    {
+      "id": "appearance-persistence-no-ask",
+      "status": "passed",
+      "observed": "Lightchoice survivedreload; restoredSystemthroughAppearance. MoremenucontainsCopylink/Switchthemeonly, noAskChatGPT; actualsnapshotfeaturefalse independentlyvalidated."
+    },
+    {
+      "id": "deep-links-and-restore",
+      "status": "passed",
+      "observed": "About/dashboard/thresholds/trends/sources tab navigation preservedview1/tab URLs; finalquality,no14,similarityOFF,Systemrestored."
+    }
+  ],
+  "screenshotReviews": {
+    "about.jpg": "Full viewport inspected: original author portrait/contact, About active, date24.10.2026 and navigation readable, no overlap.",
+    "dashboard.jpg": "Preferred dashboard inspected: redcoalition51.3,blueopposition53,neither99.5%,readable and date24header; no layout overlap.",
+    "thresholds.jpg": "Threshold page visually inspected: parties chart first, probabilities27.36/34.61 readable and controls positioned below navigation.",
+    "trends.jpg": "Strict trend table and methodology visually inspected: totaldelta/rate/p/q/verdict columns legible; significant and notsignificant labels shown.",
+    "sources.jpg": "Source table inspected: dates, fieldwork, original report links and sample counts clear; Kanunknown fieldwork visible."
+  },
+  "observedSnapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "status": "passed",
+  "checkedAtUtc": "2026-10-24T12:37:16.278723+00:00",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "officialSourceSnapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "servedHTMLSha256": "3410540bf4f99ba6528e523494d2b2eba32328463e81c97c77ccd7b7317bb7e8",
+  "servedHTMLExactByteMatch": true,
+  "evidenceTextFiles": {
+    "about-dom.txt": "a405e4d71363ee6cce52849bd51ef33a23f8af7765aff7846c5bc2c293c143af",
+    "dashboard-dom.txt": "6d7c2355eec1ee6370325384e3d67a7ca21334086e51d64042d94623b43cc6f0",
+    "sources-dom.txt": "4f71472745e84ed34465b9868572908329ee04723012d26ec57437088b4e2849",
+    "thresholds-dom.txt": "b8dada68bd9a5d3479d0eecd0680ee6b22e37e04ca31356dbaaa8033a3537116",
+    "trends-dom.txt": "a14e0b823375b8375371c54ab3875f05dc2c7804b2563b824cd7c7e5024c66f3"
+  },
+  "httpReadback": {
+    "url": "http://127.0.0.1:8797/",
+    "status": 200,
+    "bytes": 8903827,
+    "sha256": "3410540bf4f99ba6528e523494d2b2eba32328463e81c97c77ccd7b7317bb7e8"
+  }
+}

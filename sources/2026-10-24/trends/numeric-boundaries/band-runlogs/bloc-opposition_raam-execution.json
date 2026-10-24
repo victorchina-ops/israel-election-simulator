@@ -1,0 +1,13 @@
+{
+  "identity": "opposition_raam",
+  "script": "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py",
+  "sessionId": 34190,
+  "execution": {
+    "chunk_id": "a7691e",
+    "wall_time_seconds": 7.6e-06,
+    "exit_code": 1,
+    "original_token_count": 0,
+    "output": ""
+  },
+  "stdoutAndStderr": "{\"phase\": \"boundary_screen\", \"aProcessed\": 50000000, \"aTotal\": 127152480, \"candidatePairs\": \"62\", \"changedPairs\": \"58\"}\r\n{\"phase\": \"boundary_screen\", \"aProcessed\": 100000000, \"aTotal\": 127152480, \"candidatePairs\": \"136\", \"changedPairs\": \"124\"}\r\n{\"phase\": \"boundary_screen\", \"aProcessed\": 127152480, \"aTotal\": 127152480, \"candidatePairs\": \"168\", \"changedPairs\": \"154\"}\r\n{\"status\": \"INVESTIGATE\", \"kind\": \"bloc\", \"identity\": \"opposition_raam\", \"seconds\": 747.922, \"reconstructedCounts\": [\"207162469373294677918457249093438668800\", \"207162469373294683719972279726951628800\", \"207162469373296131242046424479065702400\", \"207162469373296134342263227010777088000\"], \"commonMatchesPrimary\": false}\r\nTraceback (most recent call last):\r\n  File \"C:\\Users\\User\\Documents\\ChatGPT\\\u05e1\u05e7\u05e8\u05d9\u05dd \u05d5\u05e9\u05e7\u05e8\u05d9\u05dd\\scripts\\diagnose-tail-boundary-bands-2026-10-24-r1.py\", line 224, in <module>\r\n    if __name__=='__main__':main()\r\n                            ^^^^^^\r\n  File \"C:\\Users\\User\\Documents\\ChatGPT\\\u05e1\u05e7\u05e8\u05d9\u05dd \u05d5\u05e9\u05e7\u05e8\u05d9\u05dd\\scripts\\diagnose-tail-boundary-bands-2026-10-24-r1.py\", line 221, in main\r\n    assert result['status']=='PASS','Fresh boundary diagnosis requires investigation; no canonical materialization allowed'\r\n           ^^^^^^^^^^^^^^^^^^^^^^^^\r\nAssertionError: Fresh boundary diagnosis requires investigation; no canonical materialization allowed\r\n"
+}

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:14:43.835855+00:00",
+  "reviewer": "independent /root/oct24_other_sources_scan",
+  "status": "PASS_WITH_RECORDED_SOURCE_LIMITATIONS",
+  "reviews": [
+    {
+      "pollId": "midgam_geva_2026-10-23",
+      "candidatePath": "artifacts\\poll-checks\\2026-10-24\\source-n12\\reviewed-primary-candidate-r2.json",
+      "candidateSha256": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+      "sourceDeliveryManifestSha256": "fc6b732335ac4c996b1a64f0209f684c4b627fba982af4fffc092a02dfb318fa",
+      "publicFileHashChecks": [
+        {
+          "fileName": "n12-reviewed-facts-r2.txt",
+          "sha256": "e5d5a477672188cfc12593a24c1652fa0a8cf4723f2f5b8315ff312ec1098aff",
+          "bytes": 1692
+        },
+        {
+          "fileName": "n12-verification-summary-r2.json",
+          "sha256": "c896034858328f485081cee713df953f3a063ff1f190a68b982092546ad6ac94",
+          "bytes": 6805
+        },
+        {
+          "fileName": "reviewed-primary-candidate-r2.json",
+          "sha256": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+          "bytes": 11600
+        },
+        {
+          "fileName": "original-embedded-poll.png",
+          "sha256": "eeca7e8aed3d10b46019fe7316856ceae743775c4b215a597b7de0134e87a488",
+          "bytes": 819892
+        },
+        {
+          "fileName": "original-bloc-chart.png",
+          "sha256": "c8c6343b2741a3e5af8c7a1d897ff076f7cfa3e70eb6af4b311c638544f9269e",
+          "bytes": 215034
+        }
+      ],
+      "exactSeatVectorAndPercentageReview": "PASS",
+      "fullFieldworkIntervalReview": "PASS",
+      "missingAndZeroSemantics": "PASS",
+      "publicationDateAndSourcePollNotRepost": "PASS",
+      "checksAgainst": [
+        "OriginalN12HTMLheaderandcontent0/5/6/9/10/44–52, independently read originalwebarticle, both originalnumericalgraphics actually pixelinspected."
+      ],
+      "scopeLimitations": [
+        "Primary original HTML, original web reader and Infogram embedded HTML succeeded.",
+        "Initial static PNG request without User-Agent returned403; standard Mozilla/5.0 request succeeded200, and both saved graphics were actually visually inspected.",
+        "HarediPublic0.5 and Noam0.5 verified in original article prose, not visible in the saved numerical PNG."
+      ]
+    },
+    {
+      "pollId": "hamadad_consortium_2026-10-23",
+      "candidatePath": "artifacts\\poll-checks\\2026-10-24\\source-c13\\reviewed-primary-candidate-r2.json",
+      "candidateSha256": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+      "sourceDeliveryManifestSha256": "66f34f3906e42d54245bbd6548d96bbe6053a037d2b500cbe90335edb95abecb",
+      "publicFileHashChecks": [
+        {
+          "fileName": "c13-reviewed-facts-r2.txt",
+          "sha256": "8dd41e0d24f6c2047fcf2ba727e078748d36f15d245a68d9dd9ee64b04911013",
+          "bytes": 1677
+        },
+        {
+          "fileName": "c13-verification-summary-r2.json",
+          "sha256": "ed687852f609b371c342d7037145d92c974583b042777748eab4463a1b229c78",
+          "bytes": 7518
+        },
+        {
+          "fileName": "reviewed-primary-candidate-r2.json",
+          "sha256": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+          "bytes": 10925
+        },
+        {
+          "fileName": "original-publisher-mandates.webp",
+          "sha256": "19043b7fd61f4cf2d2cb73f9b29d8d03a0165b020d138a12f62eae81921d3cb7",
+          "bytes": 184430
+        }
+      ],
+      "exactSeatVectorAndPercentageReview": "PASS",
+      "fullFieldworkIntervalReview": "PASS",
+      "missingAndZeroSemantics": "PASS",
+      "publicationDateAndSourcePollNotRepost": "PASS",
+      "checksAgainst": [
+        "ArchivedoriginalC13readerlines88–103 plus independentoriginalwebarticle; actualoriginalmandategraphicpixels; archivedandindependentlyopenedEnglishMadadreportline14 for22–23fieldwork/1875/MOE2.3/95."
+      ],
+      "scopeLimitations": [
+        "Direct article HTTP returned403; original publisher web reader succeeded.",
+        "Direct HaMadad HTTP redirects to abuse.spd.co.il; the archived English original web reader succeeded. The Hebrew URL attempt in that archived reader receipt failed and is not treated as a successful archived read.",
+        "Current numeric graphic visually inspected; below-threshold percentages verified in original publisher prose, not shown in that graphic."
+      ]
+    }
+  ],
+  "resolvedReviewIssue": {
+    "issue": "C13r1 overstated successful archived Hebrew reader proof.",
+    "resolution": "Finalr2 explicitly records failed Hebrew request and binds full fieldwork interval and confidence to successful original English line14; numeric values unchanged.",
+    "candidateR1Sha256": "98f6d9d920f308a5cf6f7a760b258833042dfd2d9cbcce074e0bdbdb4902dd60",
+    "candidateR2Sha256": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60"
+  },
+  "sourceDiscrepanciesReviewed": [
+    "N12publishedMOE4.4 retained despite1018n; no inference replaces original value.",
+    "N12iPanel is graphical collaborationcredit only, not proof of recruitment or independence.",
+    "N12blocchart70includesArab; exclusive model partition50/56/14correct.",
+    "C13dated23Oct current data agree publisher/graphic/pollster; historicalWednesdaycaption and oldHendel/Otzma differences are disclosed and must not alter existing21Octhistory.",
+    "C13PM-preference27vs37 is non-mandate conflict and not used in model."
+  ],
+  "publicSourceWhitelistPrivacyCopyright": "PASS: numerical rewritten facts and originalnumericalgraphics only; fullarticleHTML/readers/blockedresponses remain local.",
+  "noCanonicalDataEdits": true,
+  "noBuildOrPublish": true
+}

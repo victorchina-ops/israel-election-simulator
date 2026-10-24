@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "checkedAtUtc": "2026-10-24T10:07:21.295650+00:00",
+  "date": "2026-10-23",
+  "publicationDate": "2026-10-23",
+  "checkedAt": "2026-10-24",
+  "sourceTier": "original-publisher",
+  "publicationTimePrecision": "second",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "requiresReconstruction": true,
+  "passingPartyPercentagesPublished": false,
+  "otherAggregatePublished": false,
+  "modelOnlyPercentageIds": [],
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false,
+  "pollIdProposed": "kantar_2026-10-23",
+  "id": "kantar_2026-10-23",
+  "publisher": "כאן 11",
+  "pollster": "קנטאר — דודו חסיד",
+  "pollsterId": "kantar",
+  "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+  "publishedAt": "2026-10-23T19:21:20+03:00",
+  "updatedAt": "2026-10-23T22:42:00+03:00",
+  "publicationTime": "19:21:20",
+  "updatedAtPrecision": "minute",
+  "fieldworkStart": null,
+  "fieldworkEnd": null,
+  "fieldworkVerified": false,
+  "strictEligible": false,
+  "fieldworkSourceUrl": null,
+  "fieldworkEvidence": null,
+  "sampleSize": 1106,
+  "sampleSizeSourceUrl": "https://infogram.com/1pmjrx6jq6v5w3h3w2gj1nepj2hzen636pe",
+  "population": null,
+  "samplingMethod": null,
+  "reportedMarginOfErrorPct": 3.0,
+  "reportedMarginOfErrorConfidencePct": null,
+  "seats": {
+    "yashar": 22,
+    "likud": 20,
+    "beyachad": 14,
+    "joint": 9,
+    "democrats": 8,
+    "otzma": 8,
+    "yisrael_beiteinu": 8,
+    "utj": 8,
+    "shas": 7,
+    "rz_zehut": 7,
+    "raam": 5,
+    "hendel": 4,
+    "winter": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "winter": 2.9
+  },
+  "reportedPercentages": {
+    "winter": 2.9
+  },
+  "exactPublishedBelowThresholdPct": {
+    "winter": 2.9
+  },
+  "publishedBounds": {},
+  "unmodelledNamedParties": [
+    {
+      "name": "צבע שחור מגן עולם התורה",
+      "seats": 0,
+      "pct": null,
+      "pctUpperBound": 3.25,
+      "maxExclusive": true
+    }
+  ],
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 52,
+    "arab_parties": 14,
+    "hendel": 4
+  },
+  "sourceReadLimitations": [
+    "HTTP original article/home requests returned403 and web reader returned no content. The actual Chrome homepage, politics index, original article and its native linked Infogram were successfully read.",
+    "The primary native Infogram reports1106respondents. A discovery-only aggregator had1006; it is not authoritative and is not used.",
+    "Calendar fieldwork dates, sampling method, population details and confidence level are not provided in the article or the native chart; retain null and exclude this observation from strict fieldwork trend tests.",
+    "Native Infogram thumbnail is cropped; all12passing seats and1106/MOE3.0footer were separately inspected on actual live native chart pixels and accessibility text.",
+    "The primary article compares to18Oct Kan; the operational current institute observation being replaced is22Oct Hayom, which is separately preserved."
+  ],
+  "notes": [
+    "The final Kan publication is23Oct; original DOM meta datePublished19:21:20+03:00, visible updated23Oct22:42. Updated timestamp precision is minute only.",
+    "The full120-seat vector agrees between primary article and its linked live native chart.",
+    "Winter2.9% is an exact published vote share, not model crossing probability. HP and colorblack fail but exact percentages are absent. Noam/gantz/israel_first are not reported.",
+    "Native chart footer says1106respondents and maximum sampling error3.0%; fieldwork and method remain unknown."
+  ],
+  "replacesPollId": "kantar_2026-10-22",
+  "baselineObservation": {
+    "id": "kantar_2026-10-22",
+    "date": "2026-10-22",
+    "publisher": "ישראל היום",
+    "sourceUrl": "https://www.israelhayom.co.il/news/politics/article/21687549",
+    "sampleSize": 1110
+  },
+  "changedSeatsSinceBaseline": {
+    "yashar": {
+      "before": 23,
+      "after": 22
+    },
+    "likud": {
+      "before": 21,
+      "after": 20
+    },
+    "yisrael_beiteinu": {
+      "before": 7,
+      "after": 8
+    },
+    "utj": {
+      "before": 7,
+      "after": 8
+    },
+    "shas": {
+      "before": 8,
+      "after": 7
+    },
+    "rz_zehut": {
+      "before": 6,
+      "after": 7
+    }
+  },
+  "cataloguePartySeatVector": {
+    "yashar": 22,
+    "likud": 20,
+    "beyachad": 14,
+    "democrats": 8,
+    "yisrael_beiteinu": 8,
+    "utj": 8,
+    "joint": 9,
+    "shas": 7,
+    "otzma": 8,
+    "rz_zehut": 7,
+    "raam": 5,
+    "winter": 0,
+    "hendel": 4,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "cataloguePartyPublishedPercentageVector": {
+    "yashar": null,
+    "likud": null,
+    "beyachad": null,
+    "democrats": null,
+    "yisrael_beiteinu": null,
+    "utj": null,
+    "joint": null,
+    "shas": null,
+    "otzma": null,
+    "rz_zehut": null,
+    "raam": null,
+    "winter": 2.9,
+    "hendel": null,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": null,
+    "israel_first": null
+  },
+  "catalogueSeatVectorSize": 17,
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "hendel",
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "hendel",
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "knownPercentageSum": 2.9,
+  "originalCoveragePct": 2.9,
+  "voteShareType": "published-seats-and-below-threshold-percentages-with-censored-bounds",
+  "zeroSeatsImpliedByPublishedBelowThresholdPartyIds": [
+    "winter",
+    "haredi_public"
+  ],
+  "nativeChartSourceUrl": "https://infogram.com/1pmjrx6jq6v5w3h3w2gj1nepj2hzen636pe",
+  "sampleSizeEvidence": "Native chart live visible footer, actual accessibility and native Infogram HTML all state1,106.",
+  "sampleSizeConflictWithDiscoveryAggregator": {
+    "aggregator": 1006,
+    "primary": 1106,
+    "resolution": "use primary1106"
+  },
+  "publicationDateEvidence": [
+    "original article DOM meta[property=datePublished]",
+    "current original politics index23Oct",
+    "native chart title23.10"
+  ],
+  "publishedComparisonReferenceDate": "2026-10-18",
+  "comparisonDateNotAssumedToBeReplacedObservation": true,
+  "reportedMarginOfErrorSourceUrl": "https://infogram.com/1pmjrx6jq6v5w3h3w2gj1nepj2hzen636pe",
+  "turnoutIntentionPublished": {
+    "all_sure_to_vote_pct": 71,
+    "opposition_sure_to_vote_pct": 80,
+    "coalition_sure_to_vote_pct": 75,
+    "interpretation": "self-reported certainty, not actual turnout rate"
+  },
+  "undecidedVoteChoicePublished": {
+    "all_pct": 36,
+    "opposition_pct": 33,
+    "coalition_pct": 25,
+    "populationDenominatorVerified": false
+  },
+  "sourceDocument": {
+    "fileName": "reviewed-primary-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "a28feff69c73290f584559f4cc41df696557e5ec1bd7428a28cf6859e103e50f",
+    "extractFileName": "reviewed-primary-facts.txt",
+    "extractSha256": "a28feff69c73290f584559f4cc41df696557e5ec1bd7428a28cf6859e103e50f",
+    "reviewedAt": "2026-10-24",
+    "primarySourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "factualExtractRewritten": true,
+    "fullArticlePublishedInNewRelease": false,
+    "verificationFileName": "verification-summary.json",
+    "verificationSha256": "97b9f4001b200055af792c00ab61d0af17729c1a116adeaf999791d574d4c832",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "passing-party-percentages",
+      "panelProvider",
+      "percentageDenominator",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "fieldworkStart",
+      "fieldworkEnd",
+      "samplingMethod",
+      "population",
+      "reportedMarginOfErrorConfidencePct"
+    ],
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/reviewed-primary-facts.txt",
+    "extractArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/reviewed-primary-facts.txt"
+  },
+  "evidenceFiles": [
+    {
+      "fileName": "native-infogram.local-only.html",
+      "sha256": "33922ba999544172aba12e40af03667e667d2aeeb20285e2569fca7ab3e27430",
+      "bytes": 359586,
+      "localOnly": true
+    },
+    {
+      "fileName": "native-chart-thumbnail.jpeg",
+      "sha256": "fe6ad885521078210c866b9dba8595c634ffec1f4773b634b05e36099a535ea4",
+      "bytes": 125791,
+      "localOnly": false
+    }
+  ],
+  "secondarySourceUrls": [
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/frozen-reviewed-candidate.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/reviewed-primary-facts.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/verification-summary.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/native-graphic-source-receipts.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/source-extract.txt"
+  ],
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/kan/reviewed-poll.json"
+}

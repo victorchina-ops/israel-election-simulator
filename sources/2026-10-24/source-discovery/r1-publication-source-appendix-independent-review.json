@@ -1,0 +1,120 @@
+{
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-24",
+  "reviewer": "root independent of appendix author",
+  "appendixRevisionSha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78",
+  "previousAppendixSha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856",
+  "preservedPreviousReviewSha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4",
+  "reviewedFiles": [
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-coverage-reviewed.json",
+      "publicName": "source-coverage-reviewed.json",
+      "sha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-israelpolls/reviewed-facts.json",
+      "publicName": "israelpolls-reviewed-facts.json",
+      "sha256": "c4f297f60c5269f2ff0026918191e40c59169ec745ed5b42530692e6cea617fe"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/other-primary-scan/reviewed-scan-summary.json",
+      "publicName": "other-primary-reviewed-scan.json",
+      "sha256": "187276bf7be6a43301758d23a61dacfc47d740f0c503c635f1cd0392272fd3a6"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/independent-n12-c13-source-review.json",
+      "publicName": "independent-n12-c13-source-review.json",
+      "sha256": "20f5c8663a4c9e09d3b05770988836ab97c2053f01af51a955d154fbf4621e3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24-kan-independent-review.json",
+      "publicName": "source-i24-kan-independent-review.json",
+      "sha256": "45b15fe907a284e362bfc2ca729c65d8fca11d9e4977315b4f25c8108368e466"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-plan-independent-review.json",
+      "publicName": "source-plan-independent-review.json",
+      "sha256": "afe35029a901872c9bc2d90710778da0de4b062a784e5d52c2b3bbf1b06eafa1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/primary-source-public-summary.json",
+      "publicName": "primary-source-public-summary.json",
+      "sha256": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-independent-source-review.json",
+      "publicName": "publication-wrapper-independent-source-review.json",
+      "sha256": "3c146bca27a5cd7b107015c75e567aa5bfb4fe5adafc6a5424d594e8f3b14fbb"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix.json",
+      "publicName": "initial-publication-source-appendix.json",
+      "sha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix-independent-review.json",
+      "publicName": "initial-publication-source-appendix-independent-review.json",
+      "sha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-source-compatibility/code/validate-ingestion-2026-10-24-r1.py",
+      "publicName": "validate-ingestion-2026-10-24-r1.py",
+      "sha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/proposed-validator-r1.json",
+      "publicName": "ingestion-validator-r1-proposal.json",
+      "sha256": "eee06950dc4d9bbcbdd57d1aab9d5bd07fc18ffee1fc77d89c40b3c092e5ed4e"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/validator-r1.diff",
+      "publicName": "ingestion-validator-r1.diff",
+      "sha256": "3ccdeb8273c6952f8b7465f40b7c53ef715b25797c2a44290493ada991f5b824"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/peer-source-review.json",
+      "publicName": "ingestion-validator-r1-peer-source-review.json",
+      "sha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/named-bound-regressions.json",
+      "publicName": "ingestion-validator-r1-regressions.json",
+      "sha256": "0707d7135a98a5d1184ff468e7881528e1f22c4071317141c79a0e4a83608573"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator-execution.json",
+      "publicName": "ingestion-validator-r1-execution.json",
+      "sha256": "ff63f976f8663477941e73ff5e4f30854b0212bfeffa22137bb1bd10031f4dc8"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator.stdout.txt",
+      "publicName": "ingestion-validator-r1.stdout.txt",
+      "sha256": "e365865b979aecd49cf63bea425628f208b39d727450f3dd33c708889bf1345c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator.stderr.txt",
+      "publicName": "ingestion-validator-r1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-failure-reproduction.json",
+      "publicName": "ingestion-validator-original-failure-reproduction.json",
+      "sha256": "d889dd0babb51d942896c62688f469bd03aef613363870dbdcc99b0ac4ebb14d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stderr.txt",
+      "publicName": "ingestion-validator-original-failure.stderr.txt",
+      "sha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stdout.txt",
+      "publicName": "ingestion-validator-original-failure.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "effectiveValidatorCodeExact": true,
+  "ingestionValidationSha256": "63809cda67738a2b40bcfad6705e5ce750fc52d4ff34256489746b218db20c41",
+  "rawArticleBodiesAndPrivateBrowserDataExcluded": true,
+  "numericReproducersReviewed": {},
+  "findings": []
+}

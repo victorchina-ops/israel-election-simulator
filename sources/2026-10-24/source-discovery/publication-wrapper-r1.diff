@@ -1,0 +1,128 @@
+--- scripts/package-poll-update-2026-10-24.py
++++ scripts/package-poll-update-2026-10-24-r1.py
+@@ -6,11 +6,14 @@
+ from pathlib import Path
+ import argparse
+ import hashlib
++import importlib.util
+ import json
+ import re
+ import shutil
+ import subprocess
+ import tempfile
++import sys
++sys.dont_write_bytecode=True
+ 
+ ROOT=Path(__file__).resolve().parents[1]
+ DAY='2026-10-24'
+@@ -22,6 +25,10 @@
+ sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+ encoded=lambda x:(json.dumps(x,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
+ SOURCE_APPENDIX_PATH=ART/'publication-source-appendix.json'
++
++OPERATIONAL_KIND='exact-operational-predicate-reconciliation'
++OPERATIONAL_SOURCE_GATE_SHA256='74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f'
++OPERATIONAL_ADAPTERS={'scripts/verify-operational-tail-reconciliation-2026-10-24-r1.py': '6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585', 'scripts/materialize-tail-boundary-bands-2026-10-24-r1.py': '7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a', 'scripts/validate-strict-trends-2026-10-24-r1.py': 'a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31', 'scripts/promote-strict-validation-2026-10-24-r1.py': '59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de'}
+ 
+ 
+ def browser_receipts(phase,html_sha,snapshot_sha,plan_sha):
+@@ -63,6 +70,13 @@
+ 
+ def main():
+     parser=argparse.ArgumentParser(description=__doc__);parser.add_argument('--check',action='store_true');args=parser.parse_args()
++    # This new wrapper is independently reviewed before even its no-write preflight.
++    package_source_gate_path=ART/'publication-wrapper-source-compatibility-r1/independent-root-review.json'
++    package_source_gate=read(package_source_gate_path)
++    assert package_source_gate['status']=='PASS_SOURCE_GATE' and package_source_gate['asOf']==DAY
++    assert package_source_gate['candidatePath']==Path(__file__).resolve().relative_to(ROOT).as_posix()
++    assert package_source_gate['candidateSha256']==sha(Path(__file__))
++    assert package_source_gate['originalSha256']==sha(ROOT/'scripts/package-poll-update-2026-10-24.py')=='805e13274977be787facb03f0c4e79d95ce78343fab9d063d2e525b170efafb6'
+     assert not (ART/'publication-receipt.json').exists() and not (REPO/'updates'/DAY).exists()
+     manifest=read(ART/'before/manifest.json');plan=read(ART/'source-plan.json');ingestion=read(ART/'ingestion-validation.json')
+     appendix=read(SOURCE_APPENDIX_PATH)
+@@ -96,10 +110,55 @@
+     for rel,digest in numeric_reproducer_allowlist.items():
+         assert rel.startswith('scripts/') and DAY in Path(rel).name and sha(ROOT/rel)==digest
+     numeric_reproducers={}
++    operational=strict_validation.get('validationKind')==OPERATIONAL_KIND
++    operational_verifier=None
++    if operational:
++        assert strict_validation['pOrQChanged'] is False
++        assert strict_validation['statisticalToleranceWidened'] is False and strict_validation['ordinaryChecksPreserved'] is True
++        operational_gate_path=ART/'numeric-boundaries/operational-reconciliation-r1/independent-source-review.json'
++        operational_gate=read(operational_gate_path)
++        assert sha(operational_gate_path)==OPERATIONAL_SOURCE_GATE_SHA256==strict_validation['operationalPredicateSourceGateSha256']
++        assert operational_gate['status']=='PASS_SOURCE_GATE' and operational_gate['asOf']==DAY
++        assert operational_gate['adaptedFiles']==OPERATIONAL_ADAPTERS
++        assert set(strict_validation['boundaryReviewHashes'])=={
++            (ART/'numeric-boundaries'/(name+'-operational-r1.json')).relative_to(ROOT).as_posix()
++            for name in ['bloc-coalition','bloc-opposition','bloc-opposition_raam','party-yashar']}
++        for source_path,digest in OPERATIONAL_ADAPTERS.items():
++            assert numeric_reproducer_allowlist.get(source_path)==digest and sha(ROOT/source_path)==digest
++            archived=ART/'numeric-boundaries/operational-reconciliation-r1'/Path(source_path).name
++            assert sha(archived)==digest
++            numeric_reproducers[source_path]=digest
++        verifier_path='scripts/verify-operational-tail-reconciliation-2026-10-24-r1.py'
++        spec=importlib.util.spec_from_file_location('_package24_operational_verifier',ROOT/verifier_path)
++        operational_verifier=importlib.util.module_from_spec(spec);spec.loader.exec_module(operational_verifier)
+     for rel in strict_validation['boundaryReviewHashes']:
+         proof=read(ROOT/rel)
+         assert proof['status']=='PASS' and proof['asOf']==DAY and proof['toleranceUnchanged']==1e-12
+-        if proof.get('materializerPath'):
++        if operational:
++            assert proof['validationKind']==OPERATIONAL_KIND
++            assert proof['primaryOperationalPredicateExactIntegerMatch'] is proof['ownThresholdExactIntegerMatch'] is True
++            assert proof['ordinaryValidatorAndPromoterUnchanged'] is False
++            assert proof['pOrQChanged'] is proof['statisticalToleranceWidened'] is proof['outputsOrFrozenHelpersModified'] is False
++            expected={'kind':proof['kind'],'identity':proof['identity'],'inputHashes':strict_validation['inputHashes']}
++            assert operational_verifier.validate_receipt(ROOT/rel,expected)==proof
++            # This records actual common-addition disagreement, never relabels it true.
++            common_matches=int(proof['commonThresholdCountExact'])==int(proof['primaryExtremeCountExact'])
++            assert proof['commonThresholdExactIntegerMatch'] is proof['commonAdditionThresholdMatchesPrimary'] is common_matches
++            assert proof['diagnosisStatusPreserved']==('PASS' if common_matches else 'INVESTIGATE')
++            assert proof['adapterSha256']==strict_validation['validatorSha256']==OPERATIONAL_ADAPTERS[proof['adapterPath']]
++            for path_key,hash_key in [('reproducerPath','reproducerSha256'),('verifierPath','verifierSha256'),
++                                      ('materializerPath','materializerSha256'),('adapterPath','adapterSha256'),('promoterPath','promoterSha256')]:
++                source_path=proof[path_key]
++                assert numeric_reproducer_allowlist.get(source_path)==proof[hash_key]
++                assert sha(ROOT/source_path)==proof[hash_key]
++                numeric_reproducers[source_path]=proof[hash_key]
++            for path_key,hash_key in [('diagnosisPath','diagnosisSha256'),('independentReviewPath','independentReviewSha256'),
++                                      ('sourceGatePath','sourceGateSha256'),('verifierArchivedPath','verifierSha256'),
++                                      ('materializerArchivedPath','materializerSha256')]:
++                proof_path=(ROOT/proof[path_key]).resolve()
++                assert proof_path.is_relative_to((ART/'numeric-boundaries').resolve())
++                assert sha(proof_path)==proof[hash_key]
++        elif proof.get('materializerPath'):
+             assert proof['ordinaryValidatorAndPromoterUnchanged'] and proof['noPredicateExceptionUsed']
+             for path_key,hash_key in [('reproducerPath','reproducerSha256'),('materializerPath','materializerSha256')]:
+                 source_path=proof[path_key]
+@@ -114,6 +173,10 @@
+     promotion=read(ART/'strict-validation-promotion.json')
+     assert promotion['status']=='PASS' and promotion['asOf']==DAY
+     assert promotion['sourceAndCanonicalSha256']==sha(ART/'strict-validation.json')==sha(ROOT/'artifacts/strict-post-close/party-validation.json')
++    if operational:
++        assert promotion['validationKind']==OPERATIONAL_KIND and promotion['statisticalToleranceWidened'] is False
++        assert promotion['sourceGateSha256']==OPERATIONAL_SOURCE_GATE_SHA256
++        assert promotion['promoterSha256']==OPERATIONAL_ADAPTERS['scripts/promote-strict-validation-2026-10-24-r1.py']
+     full=read(ROOT/'data/strict-party-trends.json');default=read(ROOT/'data/strict-party-trends-without-channel14.json')
+     current=read(ROOT/'data/current-polls.json');history=read(ROOT/'data/poll-history.json')
+     assert full['asOf']==default['asOf']==current['asOf']==history['asOf']==DAY
+@@ -247,7 +310,7 @@
+     for label,folder in [('without-channel14',selected_dir[0]),('poll-correlation',corr_dirs[0]),('numeric-lineage',ART/'numeric-lineage'),('numeric-boundaries',ART/'numeric-boundaries')]:
+         for p in sorted(folder.rglob('*')):
+             if p.is_file():assert p.suffix.lower() not in {'.html','.htm'};source(p,'trends/'+label+'/'+p.relative_to(folder).as_posix())
+-    reproducers=['ingest-polls-2026-10-24.py','validate-ingestion-2026-10-24.py','run-exact-trends-2026-10-24.py','recompute-strict-trends-2026-10-24.py','validate-strict-trends-2026-10-24.py','build-trend-summaries-2026-10-24.py','build-strict-party-trends.py','derive-strict-trends-without-channel14.py','build-poll-correlation.py','audit-poll-correlation.py','compare-poll-update-2026-10-24.mjs','compare-poll-update.mjs','compare-poll-update-similarity-2026-10-20-evening.mjs','validate-model-comparison-2026-10-24.mjs','review-model-comparisons-2026-10-24.py','review-model-comparisons-2026-10-20-evening.py','build-trend-summaries-2026-10-20-evening.py','exact_scalar_marginals_2026_10_20.py','run-exact-trends-2026-10-20-evening.py','run-exact-trends-2026-10-20-evening-party-schema-r1.py','run-exact-trends-2026-10-20-evening-independent-party-schema-r1.py','validate-poll-update-2026-10-20-evening.py','package-poll-update-2026-10-24.py','review-staged-poll-update-2026-10-24.py','readback-poll-update-2026-10-24.py','complete-poll-update-2026-10-24.py']
++    reproducers=['ingest-polls-2026-10-24.py','validate-ingestion-2026-10-24.py','run-exact-trends-2026-10-24.py','recompute-strict-trends-2026-10-24.py','validate-strict-trends-2026-10-24.py','build-trend-summaries-2026-10-24.py','build-strict-party-trends.py','derive-strict-trends-without-channel14.py','build-poll-correlation.py','audit-poll-correlation.py','compare-poll-update-2026-10-24.mjs','compare-poll-update.mjs','compare-poll-update-similarity-2026-10-20-evening.mjs','validate-model-comparison-2026-10-24.mjs','review-model-comparisons-2026-10-24.py','review-model-comparisons-2026-10-20-evening.py','build-trend-summaries-2026-10-20-evening.py','exact_scalar_marginals_2026_10_20.py','run-exact-trends-2026-10-20-evening.py','run-exact-trends-2026-10-20-evening-party-schema-r1.py','run-exact-trends-2026-10-20-evening-independent-party-schema-r1.py','validate-poll-update-2026-10-20-evening.py','package-poll-update-2026-10-24.py','package-poll-update-2026-10-24-r1.py','review-staged-poll-update-2026-10-24.py','readback-poll-update-2026-10-24.py','complete-poll-update-2026-10-24.py']
+     for name in reproducers:source(ROOT/'scripts'/name,'reproduction/'+name)
+     # Current wrappers delegate to these unchanged21Oct programs; retain their lineage.
+     for name in ['run-exact-trends-2026-10-21.py','recompute-strict-trends-2026-10-21.py',
+@@ -328,6 +391,8 @@
+         'sourcePlanSha256':sha(ART/'source-plan.json'),'comparisonHashes':{s:sha(ART/(s+'.json')) for s in ['model-comparison','model-comparison-similarity']},
+         'additionalSourceEvidence':additional_source,
+         'sourceAppendixSha256':sha(SOURCE_APPENDIX_PATH),'allNewPublicSourcesFormattingChecked':len(format_sources),
++        'publicationWrapperPath':Path(__file__).resolve().relative_to(ROOT).as_posix(),'publicationWrapperSha256':sha(Path(__file__)),
++        'publicationWrapperSourceGateSha256':sha(package_source_gate_path),'strictValidationKind':strict_validation.get('validationKind'),
+         'generatedPublicFormattingChecks':generated_format_checks,
+         'whitespaceEvidence':whitespace,'files':[files[k] for k in sorted(files)]}
+     if args.check:

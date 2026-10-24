@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "phase": "preflight",
+  "asOf": "2026-10-24",
+  "baselineAsOf": "2026-10-23",
+  "checkpointManifestSha256": "3574c9a511b2137b96ea9c2e7a01a5642ed35df5597f2866ddff5bd402272dbe",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "candidateHashes": {
+    "midgam_geva": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+    "hamadad_consortium": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+    "kantar": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+    "direct_polls": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+  },
+  "expectedActiveCount": 8,
+  "expectedHistoryCount": 147,
+  "expectedStrictCandidates": 76,
+  "expectedStrictEligible": 64,
+  "expectedStrictWithoutChannel14": 50,
+  "expectedUnverifiedFieldwork": 12,
+  "inputHashes": {
+    "data/current-polls.json": "49794998d5bfd88e13a5a5d3343cf96f9d9a36dcc68bff6dafd28e3a959bb917",
+    "data/poll-history.json": "373f685ffff64001140a713b50bca8e271b39fa24d1a459d725096a7c2ab97cb",
+    "data/sources.json": "a1f7063c6d61033150766f12a8307b264fa6a73d117e3635269ee781bf011f3e",
+    "data/survey-documents-2026-09-14.json": "c05f28addaad8ab70610b30de8d23b188827e2f5a5ada3b7702cab6be490c2b4",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "76efa62683bfb6455b8507f94913048f7e662a391e6707d9c0df62e624aecfd9",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "c4f29311b0d5361fb259787a160f94bc67ef016340a4e0b194afee54cae483d1"
+  },
+  "implementationSha256": "0c50f1e67dfe5c3ada151c0cb36441d67c85b5812553fefdc18f502e2813e8ed",
+  "independentValidatorSha256": "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588"
+}

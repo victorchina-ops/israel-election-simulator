@@ -1,0 +1,10 @@
+{
+  "execution": {
+    "chunk_id": "5080e6",
+    "wall_time_seconds": 1.19e-05,
+    "exit_code": 0,
+    "original_token_count": 139,
+    "output": "{\r\n  \"status\": \"PASS\",\r\n  \"publishedSnapshot\": true,\r\n  \"asOf\": \"2026-10-24\",\r\n  \"output\": \"artifacts/strict-post-close/without-channel14/2026-10-24/reviewed\",\r\n  \"polls\": 50,\r\n  \"series\": 7,\r\n  \"deltas\": 43,\r\n  \"partyTests\": 17,\r\n  \"individualTests\": 119,\r\n  \"signPatterns\": 128,\r\n  \"exactPermutations\": \"4078396532764151119872000000\",\r\n  \"channel14ExcludedPollCount\": 14,\r\n  \"unverifiedExcludedPollCount\": 12,\r\n  \"primarySignificantAfterBH\": [\r\n    \"joint\",\r\n    \"otzma\",\r\n    \"rz_zehut\",\r\n    \"winter\"\r\n  ],\r\n  \"sensitivitySignificantAfterBH\": []\r\n}\r\n"
+  },
+  "stdoutAndStderr": "{\r\n  \"status\": \"PASS\",\r\n  \"publishedSnapshot\": true,\r\n  \"asOf\": \"2026-10-24\",\r\n  \"output\": \"artifacts/strict-post-close/without-channel14/2026-10-24/reviewed\",\r\n  \"polls\": 50,\r\n  \"series\": 7,\r\n  \"deltas\": 43,\r\n  \"partyTests\": 17,\r\n  \"individualTests\": 119,\r\n  \"signPatterns\": 128,\r\n  \"exactPermutations\": \"4078396532764151119872000000\",\r\n  \"channel14ExcludedPollCount\": 14,\r\n  \"unverifiedExcludedPollCount\": 12,\r\n  \"primarySignificantAfterBH\": [\r\n    \"joint\",\r\n    \"otzma\",\r\n    \"rz_zehut\",\r\n    \"winter\"\r\n  ],\r\n  \"sensitivitySignificantAfterBH\": []\r\n}\r\n"
+}

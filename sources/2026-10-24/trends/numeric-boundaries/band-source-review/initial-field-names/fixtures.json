@@ -1,0 +1,1356 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "scope": "Small brute-force/adversarial fixtures only, no actual score/tail counters",
+  "scriptSha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033",
+  "fixtureCount": 16,
+  "fixtures": [
+    {
+      "id": 1,
+      "aRows": 14,
+      "bRows": 61,
+      "cpHex": "0x1.999999999533cp-2",
+      "ciHex": "0x1.999999999533bp-2",
+      "bruteCounts": [
+        "924856504873462002997063181948977268694127670190",
+        "927711000258873922759399753594622086411052313454",
+        "970528431040052719194448946909303608088445007607",
+        "976237421810876558719122137424258072218746435023"
+      ],
+      "outsideBandPairsProvedIdentical": 700,
+      "bandResult": {
+        "signedDifferencesFromAdditionOwn": [
+          "-51380916937414555722058955475280803524618764833",
+          "-48526421552002635959722383829635985807694121569",
+          "-5708990770823839524673190514954464130301427416",
+          "0"
+        ],
+        "aRowsExhaustivelyScreened": 14,
+        "candidatePairsDirectlyEvaluated": "154",
+        "changedPairs": "46",
+        "witnesses": [
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "-0x1.999999999533bp-2",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303485",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "0x1.999999999533bp-2",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303545",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "-0x1.999999999533bp-2",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303485",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "0x1.999999999533bp-2",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303545",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533cp-2",
+            "bHex": "-0x1.0000000000001p-54",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303500",
+            "predicates": [
+              false,
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533cp-2",
+            "bHex": "-0x1.0000000000000p-54",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303503",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533cp-2",
+            "bHex": "-0x1.fffffffffffffp-55",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303506",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533cp-2",
+            "bHex": "-0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303509",
+            "predicates": [
+              false,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533cp-2",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303512",
+            "predicates": [
+              false,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533cp-2",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303518",
+            "predicates": [
+              false,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533cp-2",
+            "bHex": "0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303521",
+            "predicates": [
+              false,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533cp-2",
+            "bHex": "0x1.fffffffffffffp-55",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303524",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533cp-2",
+            "bHex": "0x1.0000000000000p-54",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303527",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533cp-2",
+            "bHex": "0x1.0000000000001p-54",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303530",
+            "predicates": [
+              false,
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533bp-2",
+            "bHex": "-0x1.999999999533bp-1",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303464",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533bp-2",
+            "bHex": "-0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303509",
+            "predicates": [
+              false,
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533bp-2",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303512",
+            "predicates": [
+              false,
+              false,
+              false,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533bp-2",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303515",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533bp-2",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303518",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533bp-2",
+            "bHex": "0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303521",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "0x1.999999999533bp-2",
+            "bHex": "0x1.fffffffffffffp-55",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303524",
+            "predicates": [
+              false,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533bp-2",
+            "bHex": "-0x1.fffffffffffffp-55",
+            "aMass": "1208925819614629174706182",
+            "bMass": "1180591620717411303506",
+            "predicates": [
+              false,
+              true,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533bp-2",
+            "bHex": "-0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706182",
+            "bMass": "1180591620717411303509",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          },
+          {
+            "aHex": "-0x1.999999999533bp-2",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706182",
+            "bMass": "1180591620717411303512",
+            "predicates": [
+              false,
+              false,
+              true,
+              true
+            ]
+          }
+        ],
+        "chunkSize": 3
+      }
+    },
+    {
+      "id": 2,
+      "aRows": 14,
+      "bRows": 93,
+      "cpHex": "0x1.9999999988020p-4",
+      "ciHex": "0x1.999999998805cp-4",
+      "bruteCounts": [
+        "1575681452747379708873874585595571054412374858160",
+        "1584244938903615468161232575060617143897658877763",
+        "1410120720393488362651619821947347248329471837300",
+        "1418684206549724121938977816134759820684401071053"
+      ],
+      "outsideBandPairsProvedIdentical": 1080,
+      "bandResult": {
+        "signedDifferencesFromAdditionOwn": [
+          "156997246197655586934896769460811233727973787107",
+          "165560732353891346222254758925857323213257806710",
+          "-8563486156235759287357994187412572354929233753",
+          "0"
+        ],
+        "aRowsExhaustivelyScreened": 14,
+        "candidatePairsDirectlyEvaluated": "222",
+        "changedPairs": "126",
+        "witnesses": [
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "-0x1.999999998805bp-4",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303518",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "-0x1.9999999988021p-4",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303521",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "-0x1.9999999988020p-4",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303524",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "0x1.9999999988020p-4",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303602",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "0x1.9999999988021p-4",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303605",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "0x1.999999998805bp-4",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303608",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "-0x1.999999998805bp-4",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303518",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "-0x1.9999999988021p-4",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303521",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "-0x1.9999999988020p-4",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303524",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "0x1.9999999988020p-4",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303602",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "0x1.9999999988021p-4",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303605",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "0x1.999999998805bp-4",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303608",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "-0x1.999999998803dp-3",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303500",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "-0x1.9999999988021p-3",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303503",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "-0x1.9999999988020p-3",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303506",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "-0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303557",
+            "predicates": [
+              false,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303560",
+            "predicates": [
+              false,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303563",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303566",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303569",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "0x1.fffffffffffffp-57",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303572",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "0x1.0000000000000p-56",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303575",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "0x1.0000000000001p-56",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303578",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.9999999988020p-4",
+            "bHex": "0x1.d7fffffffffffp-51",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303581",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          }
+        ],
+        "chunkSize": 3
+      }
+    },
+    {
+      "id": 3,
+      "aRows": 14,
+      "bRows": 25,
+      "cpHex": "0x0.0000000000001p-1022",
+      "ciHex": "0x0.0000000000002p-1022",
+      "bruteCounts": [
+        "485264215520026359575028541099312659395697013304",
+        "479555224749202520050616426615363643601034767341",
+        "456719261665907161952968067849263720684935274462",
+        "451010270895083322428555953365314704890273028499"
+      ],
+      "outsideBandPairsProvedIdentical": 252,
+      "bandResult": {
+        "signedDifferencesFromAdditionOwn": [
+          "34253944624943037146472587733997954505423984805",
+          "28544953854119197622060473250048938710761738842",
+          "5708990770823839524412114483949015794662245963",
+          "0"
+        ],
+        "aRowsExhaustivelyScreened": 14,
+        "candidatePairsDirectlyEvaluated": "98",
+        "changedPairs": "24",
+        "witnesses": [
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303458",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303464",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303458",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303464",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000001p-1022",
+            "bHex": "-0x0.0000000000002p-1022",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303455",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000001p-1022",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303461",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000001p-1022",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303461",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000001p-1022",
+            "bHex": "0x0.0000000000002p-1022",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303467",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000002p-1022",
+            "bHex": "-0x0.0000000000003p-1022",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303452",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000002p-1022",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303458",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000002p-1022",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706182",
+            "bMass": "1180591620717411303464",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000002p-1022",
+            "bHex": "0x0.0000000000003p-1022",
+            "aMass": "1208925819614629174706182",
+            "bMass": "1180591620717411303470",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000002p-1022",
+            "bHex": "-0x0.0000000000003p-1022",
+            "aMass": "1208925819614629174706183",
+            "bMass": "1180591620717411303452",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000002p-1022",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706183",
+            "bMass": "1180591620717411303458",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000002p-1022",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706184",
+            "bMass": "1180591620717411303464",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000002p-1022",
+            "bHex": "0x0.0000000000003p-1022",
+            "aMass": "1208925819614629174706184",
+            "bMass": "1180591620717411303470",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000000p+0",
+            "bHex": "-0x1.0000000000000p+0",
+            "aMass": "1208925819614629174706185",
+            "bMass": "1180591620717411303437",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000000p+0",
+            "bHex": "0x1.0000000000000p+0",
+            "aMass": "1208925819614629174706186",
+            "bMass": "1180591620717411303485",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.86a0000000000p+16",
+            "bHex": "-0x1.86a0000000000p+16",
+            "aMass": "1208925819614629174706187",
+            "bMass": "1180591620717411303428",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.86a0000000000p+16",
+            "bHex": "0x1.86a0000000000p+16",
+            "aMass": "1208925819614629174706188",
+            "bMass": "1180591620717411303494",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000001p-1022",
+            "bHex": "-0x0.0000000000002p-1022",
+            "aMass": "1208925819614629174706189",
+            "bMass": "1180591620717411303455",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000001p-1022",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706189",
+            "bMass": "1180591620717411303461",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000001p-1022",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706190",
+            "bMass": "1180591620717411303461",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000001p-1022",
+            "bHex": "0x0.0000000000002p-1022",
+            "aMass": "1208925819614629174706190",
+            "bMass": "1180591620717411303467",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          }
+        ],
+        "chunkSize": 3
+      }
+    },
+    {
+      "id": 4,
+      "aRows": 14,
+      "bRows": 37,
+      "cpHex": "0x1.0000000000000p-1022",
+      "ciHex": "0x1.0000000000001p-1022",
+      "bruteCounts": [
+        "616571003248974668645907564174605167131764116678",
+        "605153021707326989596909268778148560419862789521",
+        "590880544780267390785661439672692906421970449133",
+        "582317058624031631498912720486533692822867060715"
+      ],
+      "outsideBandPairsProvedIdentical": 408,
+      "bandResult": {
+        "signedDifferencesFromAdditionOwn": [
+          "34253944624943037146994843688071474308897055963",
+          "22835963083295358097996548291614867596995728806",
+          "8563486156235759286748719186159213599103388418",
+          "0"
+        ],
+        "aRowsExhaustivelyScreened": 14,
+        "candidatePairsDirectlyEvaluated": "110",
+        "changedPairs": "24",
+        "witnesses": [
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "-0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303464",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0p+0",
+            "bHex": "0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706177",
+            "bMass": "1180591620717411303494",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "-0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303464",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0p+0",
+            "bHex": "0x1.0000000000000p-1022",
+            "aMass": "1208925819614629174706178",
+            "bMass": "1180591620717411303494",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000000p-1022",
+            "bHex": "-0x1.0000000000000p-1021",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303449",
+            "predicates": [
+              true,
+              true,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000000p-1022",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706179",
+            "bMass": "1180591620717411303479",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000000p-1022",
+            "bHex": "0x0.0p+0",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303479",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000000p-1022",
+            "bHex": "0x1.0000000000000p-1021",
+            "aMass": "1208925819614629174706180",
+            "bMass": "1180591620717411303509",
+            "predicates": [
+              true,
+              true,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000001p-1022",
+            "bHex": "-0x1.0000000000000p-1021",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303449",
+            "predicates": [
+              true,
+              false,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000001p-1022",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706181",
+            "bMass": "1180591620717411303476",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000001p-1022",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706182",
+            "bMass": "1180591620717411303482",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000001p-1022",
+            "bHex": "0x1.0000000000000p-1021",
+            "aMass": "1208925819614629174706182",
+            "bMass": "1180591620717411303509",
+            "predicates": [
+              true,
+              false,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000001p-1022",
+            "bHex": "-0x1.0000000000000p-1021",
+            "aMass": "1208925819614629174706183",
+            "bMass": "1180591620717411303449",
+            "predicates": [
+              true,
+              false,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000001p-1022",
+            "bHex": "-0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706183",
+            "bMass": "1180591620717411303476",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000001p-1022",
+            "bHex": "0x0.0000000000001p-1022",
+            "aMass": "1208925819614629174706184",
+            "bMass": "1180591620717411303482",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000001p-1022",
+            "bHex": "0x1.0000000000000p-1021",
+            "aMass": "1208925819614629174706184",
+            "bMass": "1180591620717411303509",
+            "predicates": [
+              true,
+              false,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.0000000000000p+0",
+            "bHex": "-0x1.0000000000000p+0",
+            "aMass": "1208925819614629174706185",
+            "bMass": "1180591620717411303437",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.0000000000000p+0",
+            "bHex": "0x1.0000000000000p+0",
+            "aMass": "1208925819614629174706186",
+            "bMass": "1180591620717411303521",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "0x1.86a0000000000p+16",
+            "bHex": "-0x1.86a0000000000p+16",
+            "aMass": "1208925819614629174706187",
+            "bMass": "1180591620717411303428",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x1.86a0000000000p+16",
+            "bHex": "0x1.86a0000000000p+16",
+            "aMass": "1208925819614629174706188",
+            "bMass": "1180591620717411303530",
+            "predicates": [
+              true,
+              false,
+              true,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000001p-1022",
+            "bHex": "-0x1.0000000000001p-1022",
+            "aMass": "1208925819614629174706189",
+            "bMass": "1180591620717411303461",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "0x0.0000000000001p-1022",
+            "bHex": "0x0.fffffffffffffp-1022",
+            "aMass": "1208925819614629174706189",
+            "bMass": "1180591620717411303491",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000001p-1022",
+            "bHex": "-0x0.fffffffffffffp-1022",
+            "aMass": "1208925819614629174706190",
+            "bMass": "1180591620717411303467",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          },
+          {
+            "aHex": "-0x0.0000000000001p-1022",
+            "bHex": "0x1.0000000000001p-1022",
+            "aMass": "1208925819614629174706190",
+            "bMass": "1180591620717411303497",
+            "predicates": [
+              true,
+              true,
+              false,
+              false
+            ]
+          }
+        ],
+        "chunkSize": 3
+      }
+    },
+    {
+      "randomFixture": 0,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 1,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 2,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 3,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 4,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 5,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 6,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 7,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 8,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 9,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 10,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    },
+    {
+      "randomFixture": 11,
+      "aRows": 13,
+      "bRows": 43,
+      "exactIntegerDifferencesMatch": true
+    }
+  ],
+  "covers": [
+    "Both tails and exact inclusive ties",
+    "Observed cutoff ULP shifts",
+    "a approximately cutoff with b approximately zero",
+    "Zero, negative zero and subnormal values",
+    "Overlapping positive/negative screening intervals merged",
+    "Exact Python integer masses above signed64",
+    "Random independent small Cartesian brute-force comparisons"
+  ],
+  "canonicalMutation": false,
+  "actualCounterExecuted": false
+}

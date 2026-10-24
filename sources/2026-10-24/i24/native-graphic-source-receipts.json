@@ -1,0 +1,20 @@
+{
+  "status": "ORIGINAL_ASSET_URLS_RETAINED",
+  "asOf": "2026-10-24",
+  "graphics": [
+    {
+      "fileName": "native-chart-1.jpeg",
+      "sourceUrl": "https://cdn.i24news.tv/uploads/3c/e6/be/14/f3/1b/58/f4/8d/d2/28/79/59/d2/89/6a/3ce6be14f31b58f48dd2287959d2896a.jpeg",
+      "scope": "Full published mandates, below-threshold labels and methodology footer; actually pixel reviewed.",
+      "sha256": "3252d405e5432022f67629f2175f1e11b5ebdbd8b9ebbfe2c8d4e53d11df8ede",
+      "bytes": 122910
+    },
+    {
+      "fileName": "native-chart-3.jpeg",
+      "sourceUrl": "https://cdn.i24news.tv/uploads/20/44/4b/2c/d6/bd/7e/39/f1/fd/d7/83/ed/58/66/31/20444b2cd6bd7e39f1fdd783ed586631.jpeg",
+      "scope": "Full published bloc partition59/47/14; actually pixel reviewed.",
+      "sha256": "a9799667d55f764ef8e480ea07b80f8fce2a7f580d88fe7247f9d6cb892595a9",
+      "bytes": 73314
+    }
+  ]
+}

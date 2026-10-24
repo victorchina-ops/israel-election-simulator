@@ -1,0 +1,32 @@
+{
+  "status": "PENDING_INDEPENDENT_SOURCE_REVIEW",
+  "asOf": "2026-10-24",
+  "script": "scripts/diagnose-tail-boundary-bands-2026-10-24.py",
+  "scriptSha256": "60ba7000d98c2c3838d379c6960be496ae59b3430bc728e187db1f1aeead4d5d",
+  "comparisonOriginal": "scripts/diagnose-opposition-raam-boundary-2026-10-23.py",
+  "comparisonOriginalSha256": "a5da460bc358280c53647f58a9be7f953a25951b9ae915fe38066e10769e7341",
+  "diff": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+  "diffSha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4",
+  "scope": "Fresh exact signed boundary-mass diagnosis only; no full tail recount, no reported p/q or original algorithm edit",
+  "ordinaryToleranceUnchanged": 1e-12,
+  "heavyExecutionPerformed": false,
+  "proof": [
+    "For each signed cutoff z, all original transitions lie between prevfloat(z) and nextfloat(z) in exact real sum space.",
+    "Outward-round cutoff neighbors FIRST, subtract each a, then round subtraction outward. This also covers cancellation a~cutoff,b~0.",
+    "Evaluate both tails, both observed cutoffs and both original addition/subtraction predicates only in the union of those inclusive windows. Merge overlaps before visiting pairs.",
+    "Outside both windows all four predicates agree pointwise; their exact integer mass differences are zero.",
+    "Anchor the own-addition count to the current completed unchanged independent audit, bound to all four current stage lineages/output hashes.",
+    "Add signed exact integer differences to reconstruct the other three counts; require common direct addition AND primary subtraction counts to equal the official primary integer before PASS."
+  ],
+  "freshCurrentHashBindingRequired": true,
+  "smallFixtureKinds": [
+    "inclusive ties in both tails",
+    "observed ULP cutoff shifts",
+    "catastrophic cancellation",
+    "zero and negative zero",
+    "subnormal values/overlapping windows",
+    "arbitrary-size Python integer masses",
+    "deterministic random small brute-force Cartesian comparisons"
+  ],
+  "knownRemainingGate": "Small fixture receipt must bind this final script; independent source review before any actual support construction or screening."
+}

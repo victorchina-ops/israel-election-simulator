@@ -1,0 +1,13 @@
+Reviewed published observation kantar_2026-10-23; publication 2026-10-23; audit 2026-10-24.
+Original source: https://www.kan.org.il/content/kan-news/politic/1112122/.
+Published mandates: {"yashar": 22, "likud": 20, "beyachad": 14, "joint": 9, "democrats": 8, "otzma": 8, "yisrael_beiteinu": 8, "utj": 8, "shas": 7, "rz_zehut": 7, "raam": 5, "hendel": 4, "winter": 0, "haredi_public": 0}
+Exact published percentages: {"winter": 2.9}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 50, "opposition": 52, "arab_parties": 14, "hendel": 4}
+Sample size exact/exclusive lower bound: 1106/None
+Verified fieldwork: False; None to None
+Missing values are not zero and are never inherited.
+The final Kan publication is23Oct; original DOM meta datePublished19:21:20+03:00, visible updated23Oct22:42. Updated timestamp precision is minute only.
+The full120-seat vector agrees between primary article and its linked live native chart.
+Winter2.9% is an exact published vote share, not model crossing probability. HP and colorblack fail but exact percentages are absent. Noam/gantz/israel_first are not reported.
+Native chart footer says1106respondents and maximum sampling error3.0%; fieldwork and method remain unknown.

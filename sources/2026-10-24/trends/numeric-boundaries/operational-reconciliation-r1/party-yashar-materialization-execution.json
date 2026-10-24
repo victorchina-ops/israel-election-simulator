@@ -1,0 +1,20 @@
+{
+  "asOf": "2026-10-24",
+  "kind": "party",
+  "identity": "yashar",
+  "command": [
+    "-B",
+    "-X",
+    "utf8",
+    "scripts/materialize-tail-boundary-bands-2026-10-24-r1.py",
+    "--kind",
+    "party",
+    "--identity",
+    "yashar"
+  ],
+  "exitCode": 0,
+  "seconds": 0.156,
+  "stdout": "{\"status\": \"PASS\", \"validationKind\": \"exact-operational-predicate-reconciliation\", \"path\": \"artifacts/poll-checks/2026-10-24/numeric-boundaries/party-yashar-operational-r1.json\", \"sha256\": \"2dcc334b7d780822dabe83fa9b853ea05a5e4c84a1788eec238a137d14457b2a\", \"commonAdditionThresholdMatchesPrimary\": true, \"numericalCountersExecuted\": false}\n",
+  "stderr": "",
+  "numericalCountersExecuted": false
+}

@@ -1,0 +1,455 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "kind": "party",
+  "outcome": "yashar",
+  "scope": "Exhaustive outward-rounded boundary-band diagnosis; original whole-tail counters and outputs unchanged",
+  "inputHashes": {
+    "data/current-polls.json": "1aedb4cafec7d7811c16dc999897b81a0bd9cc65a800fb58536c872f54060fcd",
+    "data/poll-history.json": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+    "data/strict-party-trends.json": "eeed43f85ab170db02980588e5d6d3c8912befdafa1d8adb305b36fe77fbc7fe",
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "artifacts/strict-post-close/analysis.json": "dede6d83c2a6ba02595608bc16a50043dc023628e975e7b973acf26df32fac12",
+    "artifacts/strict-post-close/party-analysis.json": "1baa9dd6ee2684c58e6e9eb4bd049f53aa5cd3d085a0e9b1aa9c5d41dd525c8d",
+    "artifacts/strict-post-close/independent-strict-numeric-audit.json": "11fae30074264ab54e83d57b24fda07031529fe3043f5299d2f6012cbeb36964",
+    "artifacts/strict-post-close/party-independent.json": "2f66e84e017fd6da2ac8b939ce8baf051e4319f0964a4e5cab14d8b7566092ff",
+    "artifacts/poll-checks/2026-10-24/source-plan.json": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+    "artifacts/poll-checks/2026-10-24/ingestion-validation.json": "63809cda67738a2b40bcfad6705e5ce750fc52d4ff34256489746b218db20c41",
+    "artifacts/poll-checks/2026-10-24/canonical-numeric-runlogs/run-receipt.json": "1b2df54329ae08cf6cd5c463676e8e2f43b0dc61ed74f9123a60e95eccef47ef",
+    "scripts/exact_scalar_marginals_2026_10_20.py": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "primaryObservedHex": "-0x1.3b3c4b232dc3ep-3",
+  "independentObservedHex": "-0x1.3b3c4b232dc2bp-3",
+  "primaryCutoffHex": "0x1.3b3c4b2324f81p-3",
+  "independentCutoffHex": "0x1.3b3c4b2324f6ep-3",
+  "toleranceUnchanged": 1e-12,
+  "primaryExtremeCountExact": "27443146818052328927592452301678182400",
+  "independentExtremeCountExact": "27443146818053785695891344292682137600",
+  "totalExact": "355547640562383507249007322726400000000",
+  "directAtPrimaryObservedCountExact": "27443146818052328927592452301678182400",
+  "directAtOwnObservedCountExact": "27443146818053785695891344292682137600",
+  "subtractionAtPrimaryObservedCountExact": "27443146818052328927592452301678182400",
+  "subtractionAtOwnObservedCountExact": "27443146818053785695891344292682137600",
+  "commonSubtractionPredicateIntegerMatch": true,
+  "originalDirectCommonThresholdIntegerMatch": true,
+  "originalDirectOwnThresholdIntegerMatch": true,
+  "independentOwnAnchor": "Current unchanged completed independent audit and all-four-stage lineage; no whole own-tail recount",
+  "allFourOriginalPredicatesPreserved": true,
+  "allPairsOutsideOutwardBandsProvablyAgree": true,
+  "allScalarSupportsAndLabeledMassesEqual": true,
+  "support": [
+    {
+      "pollsterId": "direct_polls",
+      "pollIds": [
+        "history_direct_polls_2026-09-09_718",
+        "history_direct_polls_2026-09-17_current",
+        "history_direct_polls_2026-09-24_current",
+        "history_direct_polls_2026-10-01_current",
+        "history_direct_polls_2026-10-08_current",
+        "history_direct_polls_2026-10-13_current",
+        "history_direct_polls_2026-10-18_current",
+        "history_direct_polls_2026-10-20_current",
+        "history_direct_polls_2026-10-23_current"
+      ],
+      "timeDays": [
+        0.0,
+        8.0,
+        15.0,
+        22.0,
+        28.0,
+        34.0,
+        39.0,
+        41.0,
+        43.0
+      ],
+      "seats": [
+        22,
+        21,
+        22,
+        22,
+        20,
+        21,
+        21,
+        20,
+        21
+      ],
+      "weight": 0.12598889497254964,
+      "uniqueScores": 163,
+      "rawMass": "362880",
+      "valuesSha256": "7093bc155aa1c8d81b8c29c0ac7776c7782a037c73a55c02b46b62889d224bbf",
+      "multiplicitiesSha256": "ea562e31fc285585ddf191a40820565f43906c85a7319861b5f38a6085a5ac00"
+    },
+    {
+      "pollsterId": "hamadad_consortium",
+      "pollIds": [
+        "history_hamadad_consortium_2026-09-09_715",
+        "history_hamadad_consortium_2026-09-16_current",
+        "history_hamadad_consortium_2026-09-23_current",
+        "history_hamadad_consortium_2026-09-30_current",
+        "history_hamadad_consortium_2026-10-07_current",
+        "history_hamadad_consortium_2026-10-14_current",
+        "history_hamadad_consortium_2026-10-23_current"
+      ],
+      "timeDays": [
+        0.0,
+        6.0,
+        14.0,
+        20.5,
+        27.5,
+        34.0,
+        43.5
+      ],
+      "seats": [
+        22,
+        22,
+        22,
+        21,
+        20,
+        20,
+        22
+      ],
+      "weight": 0.12598889497254964,
+      "uniqueScores": 87,
+      "rawMass": "5040",
+      "valuesSha256": "61b4de277b93b251365f2f12fa73e45b3f8fe0baa97eca11997aa670d679b938",
+      "multiplicitiesSha256": "b5e60d62d5fc3d807d20e4f06f0f3f658661c1fff812dc68731837af60e25008"
+    },
+    {
+      "pollsterId": "kantar",
+      "pollIds": [
+        "history_kantar_2026-09-09_716",
+        "history_kantar_2026-09-17_current",
+        "history_kantar_2026-09-27_current",
+        "history_kantar_2026-10-04_current",
+        "history_kantar_2026-10-08_current",
+        "history_kantar_2026-10-15_current",
+        "history_kantar_2026-10-22_current"
+      ],
+      "timeDays": [
+        0.0,
+        7.5,
+        18.0,
+        25.0,
+        28.5,
+        35.5,
+        42.5
+      ],
+      "seats": [
+        24,
+        22,
+        23,
+        23,
+        22,
+        24,
+        23
+      ],
+      "weight": 0.13137321833147042,
+      "uniqueScores": 77,
+      "rawMass": "5040",
+      "valuesSha256": "5b7df5d23621088e0421b5ef1a1ef8089647d4f00e1a21cc48886ce57823e978",
+      "multiplicitiesSha256": "7570894cd0a123ca5b99754d4805866f57181a92a9e328d7fba49c17027e5e1b"
+    },
+    {
+      "pollsterId": "lazar",
+      "pollIds": [
+        "history_lazar_2026-09-09_714",
+        "history_lazar_2026-09-11_722",
+        "history_lazar_2026-09-18_current",
+        "history_lazar_2026-09-25_current",
+        "history_lazar_2026-10-02_current",
+        "history_lazar_2026-10-09_current",
+        "history_lazar_2026-10-13_current",
+        "history_lazar_2026-10-20_current",
+        "history_lazar_2026-10-23_current"
+      ],
+      "timeDays": [
+        0.0,
+        0.5,
+        7.5,
+        14.5,
+        21.5,
+        28.5,
+        33.0,
+        40.0,
+        41.5
+      ],
+      "seats": [
+        25,
+        25,
+        23,
+        22,
+        21,
+        21,
+        22,
+        23,
+        21
+      ],
+      "weight": 0.12715127986162647,
+      "uniqueScores": 661,
+      "rawMass": "362880",
+      "valuesSha256": "7ff714bbe62c968b4a2c98e4de3a90d583f194863958cfacec4936d6d7fb8064",
+      "multiplicitiesSha256": "7e3839cc261d4cf398dd388be4574532a3c5ece3b24d3c1640b50aba6084c49b"
+    },
+    {
+      "pollsterId": "maagar_mochot",
+      "pollIds": [
+        "history_maagar_mochot_2026-09-29_current",
+        "history_maagar_mochot_2026-10-06_current",
+        "history_maagar_mochot_2026-10-20_current"
+      ],
+      "timeDays": [
+        0.0,
+        6.5,
+        20.5
+      ],
+      "seats": [
+        21,
+        23,
+        21
+      ],
+      "weight": 0.11359182120835815,
+      "uniqueScores": 3,
+      "rawMass": "6",
+      "valuesSha256": "8476f1a24d31a325133c4de7b3306a9bd414b3bc5adab0530f2ef9e18b0dff59",
+      "multiplicitiesSha256": "d732535e4a46d895a95dd08f6b8a1a09d416659dfdcc4b70d37def8fdb613d72"
+    },
+    {
+      "pollsterId": "midgam_geva",
+      "pollIds": [
+        "history_midgam_geva_2026-09-09_717",
+        "history_midgam_geva_2026-09-14_current",
+        "history_midgam_geva_2026-09-22_current",
+        "history_midgam_geva_2026-10-05_current",
+        "history_midgam_geva_2026-10-12_current",
+        "history_midgam_geva_2026-10-19_current",
+        "history_midgam_geva_2026-10-21_current",
+        "history_midgam_geva_2026-10-23_current"
+      ],
+      "timeDays": [
+        0.0,
+        5.0,
+        13.0,
+        26.0,
+        33.0,
+        40.0,
+        42.0,
+        43.5
+      ],
+      "seats": [
+        25,
+        23,
+        23,
+        23,
+        23,
+        24,
+        23,
+        23
+      ],
+      "weight": 0.12392810070834642,
+      "uniqueScores": 47,
+      "rawMass": "40320",
+      "valuesSha256": "eb3fd45d51c2d3dba5fbc339bbac142d510d70957cb4f440ef4cb6f44a42b582",
+      "multiplicitiesSha256": "531248a7b51866e3fdcf7e0494e9d3f0909dac5df860efa6156ae8935de8f810"
+    },
+    {
+      "pollsterId": "next_data",
+      "pollIds": [
+        "history_next_data_2026-09-09_719",
+        "history_next_data_2026-09-15_current",
+        "history_next_data_2026-09-17_current",
+        "history_next_data_2026-09-23_current",
+        "history_next_data_2026-09-28_current",
+        "history_next_data_2026-10-01_current",
+        "history_next_data_2026-10-07_current",
+        "history_next_data_2026-10-12_current",
+        "history_next_data_2026-10-14_current",
+        "history_next_data_2026-10-18_current",
+        "history_next_data_2026-10-19_current",
+        "history_next_data_2026-10-20_current",
+        "history_next_data_2026-10-21_current",
+        "history_next_data_2026-10-22_current"
+      ],
+      "timeDays": [
+        0.0,
+        6.0,
+        8.0,
+        14.0,
+        19.0,
+        22.0,
+        28.0,
+        33.0,
+        35.0,
+        39.0,
+        40.0,
+        41.0,
+        42.0,
+        43.0
+      ],
+      "seats": [
+        22,
+        21,
+        20,
+        22,
+        21,
+        21,
+        23,
+        20,
+        20,
+        22,
+        19,
+        20,
+        20,
+        20
+      ],
+      "weight": 0.12598889497254964,
+      "uniqueScores": 400,
+      "rawMass": "87178291200",
+      "valuesSha256": "ab5c1a2af34d78ee3bea0c4db7d1c46f602345ced310d3175b94ff0aa58b982d",
+      "multiplicitiesSha256": "bd430c65e4b1e6d0fc2aca10d0669635932448327c3359e293a4ea930d28351c"
+    },
+    {
+      "pollsterId": "tatika",
+      "pollIds": [
+        "history_tatika_2026-09-10_721",
+        "history_tatika_2026-09-17_current",
+        "history_tatika_2026-09-24_current",
+        "history_tatika_2026-10-01_current",
+        "history_tatika_2026-10-08_current",
+        "history_tatika_2026-10-15_current",
+        "history_tatika_2026-10-22_current"
+      ],
+      "timeDays": [
+        0.0,
+        7.0,
+        14.0,
+        21.0,
+        28.0,
+        35.0,
+        42.0
+      ],
+      "seats": [
+        23,
+        24,
+        23,
+        21,
+        24,
+        26,
+        23
+      ],
+      "weight": 0.12598889497254964,
+      "uniqueScores": 37,
+      "rawMass": "5040",
+      "valuesSha256": "d25c551727d7c69b02fc2a4a3ecb11be8a07ce409bda2be8b6e9346d0955618d",
+      "multiplicitiesSha256": "4fd6a8a9fc8eeda9647980541adccac3d7b4fb3d0d45e8495aa3e17e67e95931"
+    }
+  ],
+  "halfSizes": [
+    [
+      13284117,
+      113382800
+    ]
+  ],
+  "halfSeries": [
+    [
+      "lazar",
+      "hamadad_consortium",
+      "kantar",
+      "maagar_mochot"
+    ],
+    [
+      "next_data",
+      "direct_polls",
+      "midgam_geva",
+      "tatika"
+    ]
+  ],
+  "rawHalfMasses": [
+    "55306395648000",
+    "6428689420031675596800000"
+  ],
+  "screening": {
+    "signedDifferencesFromAdditionOwn": [
+      "-1456768298891991003955200",
+      "-1456768298891991003955200",
+      "0",
+      "0"
+    ],
+    "aRowsExhaustivelyScreened": 13284117,
+    "candidatePairsDirectlyEvaluated": "4",
+    "changedPairs": "4",
+    "witnesses": [
+      {
+        "aHex": "-0x1.baee8c755ab9ep-4",
+        "bHex": "-0x1.771413a1de6c1p-5",
+        "aMass": "2985984",
+        "bMass": "43342154956800",
+        "predicates": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "aHex": "-0x1.78618a572fd27p-3",
+        "bHex": "0x1.e929f9a056d34p-6",
+        "aMass": "442368",
+        "bMass": "163284796588032000",
+        "predicates": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "aHex": "0x1.82876b3a04b3cp-4",
+        "bHex": "0x1.e7e256188a777p-5",
+        "aMass": "7299072",
+        "bMass": "52714250993664000",
+        "predicates": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      {
+        "aHex": "0x1.8c1e02493dae1p-4",
+        "bHex": "0x1.d4b527fa18812p-5",
+        "aMass": "3096576",
+        "bMass": "322821657722880000",
+        "predicates": [
+          0,
+          0,
+          1,
+          1
+        ]
+      }
+    ],
+    "chunkSize": 500000
+  },
+  "signedCountDecomposition": {
+    "predicateAtPrimary": "0",
+    "directObservedShift": "1456768298891991003955200",
+    "subtractionObservedShift": "1456768298891991003955200",
+    "predicateAtIndependent": "0",
+    "totalDifference": "1456768298891991003955200"
+  },
+  "unchangedReportedValues": {
+    "primaryP": 0.0771855686474095,
+    "primaryQ": 0.1457949630006624
+  },
+  "probabilityDifference": 4.097252049226832e-15,
+  "screeningUsesOutwardCutoffNeighborsBeforeOutwardSubtraction": true,
+  "screeningPaddingChangesNoDecisionThreshold": true,
+  "sourceReviewSha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0",
+  "fixturesSha256": "e24863e1644b9534804d3b09c857d165d2ea8b32b5c59d500bd1c02072e1385c",
+  "reproducerPath": "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py",
+  "reproducerSha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+  "elapsedSeconds": 90.422,
+  "outputsOrFrozenHelpersModified": false
+}

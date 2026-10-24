@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "socialEvidenceKind": "published-poll-comparison",
+  "imageEvidenceKind": "published_poll_comparison",
+  "output": "pollster-disagreement.png",
+  "outputSha256": "2597314ce92ff38a50fdffc2a7ccea50f1d826cf9d5e39e9a0146540736fe61b",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "prompt": "image-prompt.txt",
+  "promptSha256": "8618a414499be2f12cddbeb6e9359678dc3ef7e7c0505cdb266fb0b3c08823a9",
+  "generator": "built-in image_gen",
+  "generationMode": "generate",
+  "generationCalls": 1,
+  "imageEditingPerformed": false,
+  "visualInspectionCompleted": true,
+  "inspectionMethod": "Root directly inspected the generated exact PNG; independent actual pixel review retained.",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "sourcePixelReviewSha256": "98bd1f1378bd7f9ba7b2e3992b4b2e3f389c32c9726a8217f1e695c7f9da84a0",
+  "independentSourceImageReviewSha256": "2167565d41d501f02bd74cd0af1e478b6ca412b3a05291aba1387857ec98c253",
+  "sourcePollIds": [
+    "midgam_geva_2026-10-23",
+    "hamadad_consortium_2026-10-23",
+    "kantar_2026-10-23",
+    "direct_polls_2026-10-23"
+  ],
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97",
+  "modelDataSha256": "2fad259a468cbe49223dbc7abb7157296181eb79cc3af2c0c8f873f442c6345a",
+  "tweetSha256": "617253b19f67135ed352361006178359b66364aafc5674574b7758b813942ca2",
+  "automaticTweetPosted": false
+}

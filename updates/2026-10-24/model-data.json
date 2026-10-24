@@ -1,0 +1,100 @@
+{
+  "status": "PASS-SOURCE-BOUND-MODEL-DATA",
+  "asOf": "2026-10-24",
+  "modelComparisonFile": "model-comparison-similarity.json",
+  "modelComparisonSha256": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97",
+  "independentModelReviewSha256": "6827906d4c8393e74f36a9be728e78398d315438d7d54b11ad3af9385577c53a",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "scenario": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": true,
+    "signalNoiseEnabled": false,
+    "winterBloc": "coalition",
+    "hendelBloc": "unassigned",
+    "arabParties": "separate",
+    "turnout": "2022 baseline",
+    "iterations": 10000,
+    "seed": 20260912
+  },
+  "beforeDataDate": "2026-10-23",
+  "dataDate": "2026-10-24",
+  "before": {
+    "groupMeans": {
+      "a": 51.3035,
+      "b": 52.6122,
+      "arab": 14.0548,
+      "other": 2.0295
+    },
+    "thresholdParties": {
+      "winter": {
+        "passProbability": 0.3394,
+        "meanMandatesIncludingFailureRuns": 1.3959
+      },
+      "hendel": {
+        "passProbability": 0.4716,
+        "meanMandatesIncludingFailureRuns": 2.0295
+      }
+    },
+    "probability61": {
+      "a": 0.0045,
+      "b": 0.0034,
+      "neither": 0.9921,
+      "coalitionA": 0.0045,
+      "coalitionB": 0.0034,
+      "coalitionNeither": 0.9921,
+      "coalitionBoth": 0
+    }
+  },
+  "after": {
+    "groupMeans": {
+      "a": 51.2949,
+      "b": 52.986,
+      "arab": 14.2654,
+      "other": 1.4537
+    },
+    "thresholdParties": {
+      "winter": {
+        "passProbability": 0.2736,
+        "meanMandatesIncludingFailureRuns": 1.111
+      },
+      "hendel": {
+        "passProbability": 0.3461,
+        "meanMandatesIncludingFailureRuns": 1.4537
+      }
+    },
+    "probability61": {
+      "a": 0.0031,
+      "b": 0.0019,
+      "neither": 0.995,
+      "coalitionA": 0.0031,
+      "coalitionB": 0.0019,
+      "coalitionNeither": 0.995,
+      "coalitionBoth": 0
+    }
+  },
+  "tweetSha256": "617253b19f67135ed352361006178359b66364aafc5674574b7758b813942ca2",
+  "tweetWeightedCharactersAssuming23PerURL": 248,
+  "image": {
+    "file": "pollster-disagreement.png",
+    "sha256": "2597314ce92ff38a50fdffc2a7ccea50f1d826cf9d5e39e9a0146540736fe61b",
+    "socialEvidenceKind": "published-poll-comparison",
+    "sourcePollIds": [
+      "midgam_geva_2026-10-23",
+      "hamadad_consortium_2026-10-23",
+      "kantar_2026-10-23",
+      "direct_polls_2026-10-23"
+    ],
+    "sourcePollCount": 4,
+    "comparisonMetric": "sourceBlocSeats.coalition",
+    "coalitionSeatsByPollId": {
+      "midgam_geva_2026-10-23": 50,
+      "hamadad_consortium_2026-10-23": 50,
+      "kantar_2026-10-23": 50,
+      "direct_polls_2026-10-23": 59
+    },
+    "modelProbabilitiesShown": false,
+    "statisticalSignificanceClaimed": false
+  },
+  "automaticTweetPosted": false
+}

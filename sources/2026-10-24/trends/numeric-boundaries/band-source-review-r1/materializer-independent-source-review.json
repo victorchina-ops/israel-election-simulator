@@ -1,0 +1,40 @@
+{
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-24",
+  "scope": "Static source/diff and ordinary-validator contract review only. No materialization or numerical counters executed. Actual four-outcome independent execution review remains mandatory.",
+  "materializerSha256": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822",
+  "validatorSha256": "e7197d8a17f8dfc01e8d1c00d72fecd2c081836e66a98796fbd0102b68669eeb",
+  "promoterSha256": "0c11272df590a96ab1d325d15083a9794af2ad3c3cb2075f5728ccbff6c96935",
+  "proposalSha256": "858e025e60a4258f75ac1d23be2406636b1505abb9175317b17d84b5924f39a2",
+  "diffSha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
+  "exactDiffIndependentlyReproduced": true,
+  "syntaxParsedWithoutExecution": true,
+  "sourceDiagnosticSha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+  "checks": {
+    "requiresFreshSourceGatesAndUnchangedPipelineProposal": true,
+    "requiresActualIndependentExecutionReviewBeforeReceipt": true,
+    "requiresCurrentDiagnosisAndExactInputHashes": true,
+    "requiresFourOriginalPredicatesAndFreshObservedCutoffHex": true,
+    "reconstructsFourCountsFromOwnAnchorAndSignedIntegerMasses": true,
+    "commonSubtractionAndDirectAdditionBothMustEqualPrimaryInteger": true,
+    "ownDirectAdditionMustEqualIndependentInteger": true,
+    "validatesScalarSeriesSeatsWeightsTimesRawFactorialMassAndHalfSizes": true,
+    "toleranceRemains1eMinus12": true,
+    "primaryPandQRemainUnchanged": true,
+    "ordinaryValidatorInputHashAndIdentityContractPreserved": true,
+    "ordinaryValidatorAndPromoterUnchanged": true,
+    "codeDoesNotInvokeNumericalCounterOrAnalyzer": true,
+    "writesOnlyDistinctNewDatedBoundaryReceipt": true,
+    "requiresExactArchivedMaterializerCopy": true,
+    "noOld23ProofOrCountsReused": true
+  },
+  "findings": [],
+  "executionRestrictions": [
+    "Root must approve actual independently reviewed fresh diagnoses before materialization.",
+    "The aggregate independent review must cover the exact four current discrepancy outcomes and all shared current input hashes, not only source approval.",
+    "Ordinary strict validation, promotion and remaining current publication checks must still execute and pass."
+  ],
+  "materializationExecutedByReviewer": false,
+  "heavyCountersExecutedByReviewer": false,
+  "canonicalMutation": false
+}

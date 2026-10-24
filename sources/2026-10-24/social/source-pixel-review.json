@@ -1,0 +1,52 @@
+{
+  "status": "PASS-SOURCE-BOUND-IMAGE",
+  "asOf": "2026-10-24",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "socialEvidenceKind": "published-poll-comparison",
+  "comparisonMetric": "sourceBlocSeats.coalition",
+  "coalitionSeatsByPollId": {
+    "midgam_geva_2026-10-23": 50,
+    "hamadad_consortium_2026-10-23": 50,
+    "kantar_2026-10-23": 50,
+    "direct_polls_2026-10-23": 59
+  },
+  "sourceCandidateHashes": {
+    "artifacts/poll-checks/2026-10-24/source-n12/reviewed-primary-candidate-r2.json": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+    "artifacts/poll-checks/2026-10-24/source-c13/reviewed-primary-candidate-r2.json": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+    "artifacts/poll-checks/2026-10-24/source-kan/reviewed-primary-candidate.json": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+    "artifacts/poll-checks/2026-10-24/source-i24/reviewed-primary-candidate.json": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+  },
+  "modelProbabilitiesShown": false,
+  "statisticalSignificanceClaimed": false,
+  "promptSha256": "8618a414499be2f12cddbeb6e9359678dc3ef7e7c0505cdb266fb0b3c08823a9",
+  "sourcePollIds": [
+    "midgam_geva_2026-10-23",
+    "hamadad_consortium_2026-10-23",
+    "kantar_2026-10-23",
+    "direct_polls_2026-10-23"
+  ],
+  "imagePublishedComparisonVerified": true,
+  "meansOrProbabilitiesShown": false,
+  "imageSha256": "2597314ce92ff38a50fdffc2a7ccea50f1d826cf9d5e39e9a0146540736fe61b",
+  "originalImagePath": "C:\\Users\\User\\.codex\\generated_images\\01a0952c-a40b-7b01-b019-621f0cee2656\\exec-e5c4185a-9cb9-4ad1-996b-563df7c03acc.png",
+  "output": "pollster-disagreement.png",
+  "actuallyPixelInspectedBy": "root",
+  "visualObservations": [
+    "Four readableTVscreens: N1250,C1350,Kan1150,i2459",
+    "Subtitleexplicitlypublished23Octoberpolls, sourceandcheckeddate24Octoberseparate",
+    "AssumptionsWinterwithNetanyahu,HendelandArabpartiesseparate",
+    "Publishedpollresultsnotmodelprobabilitiesexplicit",
+    "SmallcreditVictorRinaBenDavidpresent"
+  ],
+  "findings": [],
+  "visualInspectionCompleted": true,
+  "sourcePollCount": 4,
+  "sourceCandidateHashesByPollId": {
+    "midgam_geva_2026-10-23": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+    "hamadad_consortium_2026-10-23": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+    "kantar_2026-10-23": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+    "direct_polls_2026-10-23": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+  },
+  "supersedesSchemaReceiptSha256": "293f1c4c341d07a13c819761fc7c98c201a8e8dbfab788ba44a128b5d86fdddb",
+  "schemaOnlyAlignment": true
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS_POST_BUILD_MODEL_TEST_PRESERVATION",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T12:45:49.362447+00:00",
+  "numericReadySha256": "b9901094428da7b6830db95891d8b3a7eec3d028da61ec6e3f69901354a153f9",
+  "allNumericReadyInputsUnchanged": true,
+  "preservedGroupsVerified": {
+    "authorContentHashes": 117,
+    "protectedRuntimeHashes": 234,
+    "frozenEvidenceHashes": 2821,
+    "frozenConditionalAndArtisticHashes": 32,
+    "reviewedExactHelpers": 4
+  },
+  "snapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "compiledHtmlSha256": "3410540bf4f99ba6528e523494d2b2eba32328463e81c97c77ccd7b7317bb7e8",
+  "activePeerReviewedTestSha256": "d200ac01b293ae4812a5d6cff3300002b9ab866693b57d38c38a82ea6016528b",
+  "testsPassed": 404,
+  "testsFailed": 0,
+  "finalTestResultsSha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+  "testOutputPromotionSha256": "29cc33c3eb558307d4dcdec5fb1e1abb87b6d75b1e62f228774ef837a2635367",
+  "modelComparisonHashes": {
+    "model-comparison.json": "7884149eeda251ddb03e2ff789658ebe339fce0c945d647b75bb152953eaad37",
+    "model-comparison-similarity.json": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97",
+    "model-comparison-validation.json": "4cbfe7219b5403b8f527d2c5fc33374d786f585e4e74aeb0e547c591549878e4",
+    "model-comparisons-independent-review.json": "6827906d4c8393e74f36a9be728e78398d315438d7d54b11ad3af9385577c53a"
+  },
+  "defaultAndPreferredModelReviewsPassed": true,
+  "authorRuntimeFrozenEvidenceWeightsAndExactHelpersUnchanged": true,
+  "noPackageOrStageOrPublicationExecutedByThisTask": true
+}

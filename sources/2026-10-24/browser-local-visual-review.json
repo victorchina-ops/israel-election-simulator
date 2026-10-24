@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "phase": "local",
+  "asOf": "2026-10-24",
+  "browserReportSha256": "cf9afbd2e2edbae7f4aafac4e1233f958cd32c15f376f1a9a508d1cb60901507",
+  "visualInspectionCompleted": true,
+  "reviewedScreenshots": {
+    "about.jpg": "c5221c2cfacfbb15a3180f931f4ba013765d1f5c58c3d38a96f87c9ba901cbb9",
+    "dashboard.jpg": "0d28e5549509fd05512d5f9671bc620b5eada160f516aace24b735f02ae6ab38",
+    "thresholds.jpg": "4685a29b5751d35206fe31fc2b518d7e4e50d701496639c4d1d7aec5b6ed82af",
+    "trends.jpg": "ad7f7b44be8c7532539f7396864635c58fa6593e5905160f0c222aaeeeedbfb2",
+    "sources.jpg": "db36e1a8c5be59245f84034b05cbec0659e1d068f88c837e4e856865b79978ff"
+  },
+  "observations": [
+    "Full viewport inspected: original author portrait/contact, About active, date24.10.2026 and navigation readable, no overlap.",
+    "Preferred dashboard inspected: redcoalition51.3,blueopposition53,neither99.5%,readable and date24header; no layout overlap.",
+    "Threshold page visually inspected: parties chart first, probabilities27.36/34.61 readable and controls positioned below navigation.",
+    "Strict trend table and methodology visually inspected: totaldelta/rate/p/q/verdict columns legible; significant and notsignificant labels shown.",
+    "Source table inspected: dates, fieldwork, original report links and sample counts clear; Kanunknown fieldwork visible."
+  ],
+  "findings": []
+}

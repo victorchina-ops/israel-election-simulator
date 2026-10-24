@@ -1,0 +1,11 @@
+{
+  "status": "PASS_APPLIED_EXACT_PEER_REVIEWED_CANDIDATE",
+  "asOf": "2026-10-24",
+  "appliedAtUtc": "2026-10-24T12:35:56.709638+00:00",
+  "activeTestPath": "tests/strict-party-publication.test.mjs",
+  "originalSha256": "673ab9ce00e35886ab6183db8434957367505f97b505d5db7381a8bc5f599979",
+  "candidateSha256": "b1996764bd6fdead6c072300ed82489905a7d7ed1702418c1473f09d6a98c168",
+  "peerSourceGateSha256": "bb104757ed99e33c18bd9c34bc503dafb6f48352f0ac170a6a38119fb5eba862",
+  "firstFullFailureSha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe",
+  "canonicalRuntimeModelOrStatisticalOutputsChanged": false
+}

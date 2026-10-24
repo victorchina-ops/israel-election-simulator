@@ -1,0 +1,196 @@
+{
+  "status": "PASS",
+  "validationKind": "exact-operational-predicate-reconciliation",
+  "asOf": "2026-10-24",
+  "scope": "Independent read-only review of all four actual fresh executions. Original INVESTIGATE/PASS diagnoses and genuinely false common-addition equality flags are retained; no integer count is approximated or replaced.",
+  "diagnosisHashes": {
+    "bloc-coalition-band-diagnosis.json": "4d249507814ddc50f4c8be36b0565c1f4a7978699e0b974e20f8efb04de80ed9",
+    "bloc-opposition-band-diagnosis.json": "2bef775d1e7072cfa919912b7001e21f55052fc76a1f7ecb10e455a8d6a10b07",
+    "bloc-opposition_raam-band-diagnosis.json": "05d927809a3748a49c931c823182b2d4026f808ad31090d158cbf991cc8300e3",
+    "party-yashar-band-diagnosis.json": "5b8d34447feb51c5c557ff39b31149c10cc268906579793344e6fa6fdd8b64f1"
+  },
+  "reproducerSha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+  "inputHashes": {
+    "data/current-polls.json": "1aedb4cafec7d7811c16dc999897b81a0bd9cc65a800fb58536c872f54060fcd",
+    "data/poll-history.json": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+    "data/strict-party-trends.json": "eeed43f85ab170db02980588e5d6d3c8912befdafa1d8adb305b36fe77fbc7fe",
+    "data/calibration.json": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+    "data/parties.json": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+    "artifacts/strict-post-close/analysis.json": "dede6d83c2a6ba02595608bc16a50043dc023628e975e7b973acf26df32fac12",
+    "artifacts/strict-post-close/party-analysis.json": "1baa9dd6ee2684c58e6e9eb4bd049f53aa5cd3d085a0e9b1aa9c5d41dd525c8d",
+    "artifacts/strict-post-close/independent-strict-numeric-audit.json": "11fae30074264ab54e83d57b24fda07031529fe3043f5299d2f6012cbeb36964",
+    "artifacts/strict-post-close/party-independent.json": "2f66e84e017fd6da2ac8b939ce8baf051e4319f0964a4e5cab14d8b7566092ff",
+    "artifacts/poll-checks/2026-10-24/source-plan.json": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+    "artifacts/poll-checks/2026-10-24/ingestion-validation.json": "63809cda67738a2b40bcfad6705e5ce750fc52d4ff34256489746b218db20c41",
+    "artifacts/poll-checks/2026-10-24/canonical-numeric-runlogs/run-receipt.json": "1b2df54329ae08cf6cd5c463676e8e2f43b0dc61ed74f9123a60e95eccef47ef",
+    "scripts/exact_scalar_marginals_2026_10_20.py": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "sourceGateSha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+  "operationalCounts": {
+    "bloc-coalition-band-diagnosis.json": {
+      "subtractionAtPrimaryObservedCountExact": "3931858734682897386545793623654400",
+      "directAtPrimaryObservedCountExact": "3931858734682890326579323129036800",
+      "subtractionAtOwnObservedCountExact": "3931858734683021503903618301952000",
+      "directAtOwnObservedCountExact": "3931858734683021503903618301952000"
+    },
+    "bloc-opposition-band-diagnosis.json": {
+      "subtractionAtPrimaryObservedCountExact": "89528546653066107772224094836935884800",
+      "directAtPrimaryObservedCountExact": "89528546653066112519683806634967040000",
+      "subtractionAtOwnObservedCountExact": "89528546653067508376516283810709504000",
+      "directAtOwnObservedCountExact": "89528546653067598550389777292591104000"
+    },
+    "bloc-opposition_raam-band-diagnosis.json": {
+      "subtractionAtPrimaryObservedCountExact": "207162469373294677918457249093438668800",
+      "directAtPrimaryObservedCountExact": "207162469373294683719972279726951628800",
+      "subtractionAtOwnObservedCountExact": "207162469373296131242046424479065702400",
+      "directAtOwnObservedCountExact": "207162469373296134342263227010777088000"
+    },
+    "party-yashar-band-diagnosis.json": {
+      "subtractionAtPrimaryObservedCountExact": "27443146818052328927592452301678182400",
+      "directAtPrimaryObservedCountExact": "27443146818052328927592452301678182400",
+      "subtractionAtOwnObservedCountExact": "27443146818053785695891344292682137600",
+      "directAtOwnObservedCountExact": "27443146818053785695891344292682137600"
+    }
+  },
+  "signedCountDecompositions": {
+    "bloc-coalition-band-diagnosis.json": {
+      "predicateAtPrimary": "-7059966470494617600",
+      "directObservedShift": "131177324295172915200",
+      "subtractionObservedShift": "124117357824678297600",
+      "predicateAtIndependent": "0",
+      "totalDifference": "124117357824678297600"
+    },
+    "bloc-opposition-band-diagnosis.json": {
+      "predicateAtPrimary": "4747459711798031155200",
+      "directObservedShift": "1486030705970657624064000",
+      "subtractionObservedShift": "1400604292188973773619200",
+      "predicateAtIndependent": "90173873493481881600000",
+      "totalDifference": "1490778165682455655219200"
+    },
+    "bloc-opposition_raam-band-diagnosis.json": {
+      "predicateAtPrimary": "5801515030633512960000",
+      "directObservedShift": "1450622290947283825459200",
+      "subtractionObservedShift": "1453323589175385627033600",
+      "predicateAtIndependent": "3100216802531711385600",
+      "totalDifference": "1456423805977917338419200"
+    },
+    "party-yashar-band-diagnosis.json": {
+      "predicateAtPrimary": "0",
+      "directObservedShift": "1456768298891991003955200",
+      "subtractionObservedShift": "1456768298891991003955200",
+      "predicateAtIndependent": "0",
+      "totalDifference": "1456768298891991003955200"
+    }
+  },
+  "commonAdditionMatchesPrimary": {
+    "bloc-coalition-band-diagnosis.json": false,
+    "bloc-opposition-band-diagnosis.json": false,
+    "bloc-opposition_raam-band-diagnosis.json": false,
+    "party-yashar-band-diagnosis.json": true
+  },
+  "originalDiagnosisStatuses": {
+    "bloc-coalition-band-diagnosis.json": "INVESTIGATE",
+    "bloc-opposition-band-diagnosis.json": "INVESTIGATE",
+    "bloc-opposition_raam-band-diagnosis.json": "INVESTIGATE",
+    "party-yashar-band-diagnosis.json": "PASS"
+  },
+  "actualExecutionLogHashes": {
+    "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.json": "ab497c699f7c028cb3a0a050ce01662241828a73c3017efefa51c8917967ce84",
+    "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-opposition-execution.json": "326e4a86d06a0a9a4fe8a8b008069e428835cb026d850a205b3ca8ce1378f37a",
+    "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-opposition_raam-execution.json": "b1b5cf4157fd15e2a8f93ccdfd1610364de5fd5d4f51aebb3d15c2f0fd89df73",
+    "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/party-yashar-execution.json": "6be3e4cabdb77dd47c1f037a2498812141a8ee5730054d5b3bdb5435930f22c8"
+  },
+  "allFourStageRunReceiptSha256": "1b2df54329ae08cf6cd5c463676e8e2f43b0dc61ed74f9123a60e95eccef47ef",
+  "allFourLineageHashes": {
+    "artifacts/poll-checks/2026-10-24/numeric-lineage/bloc-enumeration-lineage.json": "a49bdebfeb875edb8759899bc6c91202849ffc2cd216e44d29adbd29cd22f053",
+    "artifacts/poll-checks/2026-10-24/numeric-lineage/party-enumeration-lineage.json": "72920200f5dee5372a34021c4a832866aff6885ae9e782e31041d87c6c8a5bbe",
+    "artifacts/poll-checks/2026-10-24/numeric-lineage/independent-bloc-enumeration-lineage.json": "99ca22c2b09702b618d3c0b0459052f29db3597964fd06589c63066d04fa2b78",
+    "artifacts/poll-checks/2026-10-24/numeric-lineage/independent-party-enumeration-lineage.json": "7f57aa77edf280fbee144274ea7fea3573513857254cdb04d1813dac08c80ec0"
+  },
+  "details": {
+    "bloc-coalition-band-diagnosis.json": {
+      "primaryObservedHex": "-0x1.bc59a7f093203p-2",
+      "independentObservedHex": "-0x1.bc59a7f0931fbp-2",
+      "originalDiagnosticStatus": "INVESTIGATE",
+      "primarySubtractionCountExact": "3931858734682897386545793623654400",
+      "independentOwnAdditionCountExact": "3931858734683021503903618301952000",
+      "allARowsScreened": 778624770,
+      "candidatePairs": "8",
+      "changedPairs": "7",
+      "retainedWitnessesIndependentlyReplayed": 7,
+      "totalProbabilityDifference": 3.4908783989778993e-19,
+      "commonPredicateProbabilityDifference": -1.98565977243657e-20,
+      "observedStatisticProbabilityDifference": 3.6894443762215566e-19
+    },
+    "bloc-opposition-band-diagnosis.json": {
+      "primaryObservedHex": "-0x1.e0cd2b9c536b0p-4",
+      "independentObservedHex": "-0x1.e0cd2b9c53674p-4",
+      "originalDiagnosticStatus": "INVESTIGATE",
+      "primarySubtractionCountExact": "89528546653066107772224094836935884800",
+      "independentOwnAdditionCountExact": "89528546653067598550389777292591104000",
+      "allARowsScreened": 100535211,
+      "candidatePairs": "44",
+      "changedPairs": "41",
+      "retainedWitnessesIndependentlyReplayed": 24,
+      "totalProbabilityDifference": 4.192906928940476e-15,
+      "commonPredicateProbabilityDifference": 1.3352527678959674e-17,
+      "observedStatisticProbabilityDifference": 4.179554401261516e-15
+    },
+    "bloc-opposition_raam-band-diagnosis.json": {
+      "primaryObservedHex": "-0x1.260571c4e2cacp-4",
+      "independentObservedHex": "-0x1.260571c4e2c70p-4",
+      "originalDiagnosticStatus": "INVESTIGATE",
+      "primarySubtractionCountExact": "207162469373294677918457249093438668800",
+      "independentOwnAdditionCountExact": "207162469373296134342263227010777088000",
+      "allARowsScreened": 127152480,
+      "candidatePairs": "168",
+      "changedPairs": "154",
+      "retainedWitnessesIndependentlyReplayed": 24,
+      "totalProbabilityDifference": 4.096283141337221e-15,
+      "commonPredicateProbabilityDifference": 1.631712425782669e-17,
+      "observedStatisticProbabilityDifference": 4.079966017079394e-15
+    },
+    "party-yashar-band-diagnosis.json": {
+      "primaryObservedHex": "-0x1.3b3c4b232dc3ep-3",
+      "independentObservedHex": "-0x1.3b3c4b232dc2bp-3",
+      "originalDiagnosticStatus": "PASS",
+      "primarySubtractionCountExact": "27443146818052328927592452301678182400",
+      "independentOwnAdditionCountExact": "27443146818053785695891344292682137600",
+      "allARowsScreened": 13284117,
+      "candidatePairs": "4",
+      "changedPairs": "4",
+      "retainedWitnessesIndependentlyReplayed": 4,
+      "totalProbabilityDifference": 4.097252049226832e-15,
+      "commonPredicateProbabilityDifference": 0.0,
+      "observedStatisticProbabilityDifference": 4.097252049226832e-15
+    }
+  },
+  "checks": {
+    "exactSetEqualsAllCurrentPrimaryIndependentDisagreements": true,
+    "allFourFreshActualExecutionsCompleted": true,
+    "currentInputsAndSourceHashesUnchanged": true,
+    "completedFourStageRunAndEveryLineageAndAuditInputHashVerified": true,
+    "frozenHelpersUnchangedFromBaseline": true,
+    "bothOriginalObservedHexAndFixedCutoffsVerified": true,
+    "allFourExactCountsReconstructedFromCurrentOwnAnchor": true,
+    "primarySubtractionExactlyEqualsOriginalPrimaryInteger": true,
+    "ownAdditionExactlyEqualsOriginalIndependentInteger": true,
+    "commonAdditionEqualityFlagsRecordedHonestly": true,
+    "originalDiagnosticStatusesAndFailureExitCodesPreserved": true,
+    "allScalarSupportSeatsTimesWeightsStatesFactorialMassAndHalfSplitsMatch": true,
+    "actualArchiveSeatsMatchEverySeriesInput": true,
+    "allRetainedWitnessPredicatesReplayedIndependently": true,
+    "bothExactSignedDecompositionPathsSumToOriginalIntegerDifference": true,
+    "fullARowScreenAndFinalCandidateCountersMatchExecutionLogs": true,
+    "primaryPMatchesOriginalExactCountRatio": true,
+    "primaryPandQUnchanged": true,
+    "noToleranceWidenedOrApproximateIntegerAcceptance": true,
+    "noOldDayProofReused": true
+  },
+  "pOrQChanged": false,
+  "outputsOrFrozenHelpersModified": false,
+  "heavyCountersExecutedByReviewer": false,
+  "ordinaryAdapterValidationAndPromotionStillRequired": true
+}

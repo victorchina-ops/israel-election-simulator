@@ -1,0 +1,16 @@
+Original publisher numerical factual extract; rewritten, not an article reproduction.
+Publication date:2026-10-23. Checked:2026-10-24.
+Source:https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea
+Pollster:דיירקט פולס — צוריאל שרון
+Seats:{"likud": 26, "yashar": 21, "beyachad": 12, "joint": 9, "democrats": 8, "shas": 8, "otzma": 8, "utj": 7, "yisrael_beiteinu": 6, "rz_zehut": 6, "raam": 5, "winter": 4, "hendel": 0, "haredi_public": 0, "noam": 0}
+Exact published below-threshold percentages:{"hendel": 2.2}
+Published censored bounds:{"haredi_public": {"min": 0, "max": 1, "maxExclusive": true}, "noam": {"min": 0, "max": 1, "maxExclusive": true}}
+Blocs:{"coalition": 59, "opposition": 47, "arab_parties": 14, "hendel": 0}
+Sample:5124; fieldwork:2026-10-22 to 2026-10-22; method:Digital system combined with a panel; MOE:1.4%; confidence:95.
+A new23Oct publication from fieldwork22Oct; distinct from20Oct i24 observation.
+All120seats, Hendel2.2%, the four less-than1% labels, sample5124 and MOE1.4%at95% match original article and both original graphics.
+IsraelFirst is absent from this publication; do not copy its previous less-than1% bound.
+Both original graphics were inspected in pixels this task.
+The reader omits article timestamps; original HTML JSON-LD and time datetime establish23Oct20:48:32Israel, independently corroborated by current primary poll index.
+The four named small-list shares are only less than1% bounds; israel_first and gantz are not reported and remain missing.
+Passing-party exact vote percentages, panel provider and undecided details were not published.

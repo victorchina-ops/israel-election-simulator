@@ -1,0 +1,27 @@
+{
+  "status": "PENDING_INDEPENDENT_SOURCE_REVIEW",
+  "asOf": "2026-10-24",
+  "materializer": "scripts/materialize-tail-boundary-bands-2026-10-24.py",
+  "materializerSha256": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822",
+  "diff": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
+  "diffSha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
+  "ordinaryValidator": "scripts/validate-strict-trends-2026-10-24.py",
+  "validatorSha256": "e7197d8a17f8dfc01e8d1c00d72fecd2c081836e66a98796fbd0102b68669eeb",
+  "executionReviewContract": {
+    "path": "numeric-boundaries/band-independent-execution-review.json",
+    "status": "PASS",
+    "required": [
+      "asOf",
+      "diagnosisHashes keyed by diagnosis basename",
+      "reproducerSha256",
+      "inputHashes identical to current proofs",
+      "checks all true",
+      "pOrQChanged false",
+      "outputsOrFrozenHelpersModified false",
+      "heavyCountersExecutedByReviewer false"
+    ]
+  },
+  "scope": "Only after actual fresh diagnoses and independent execution review PASS; no counter or validator relaxation",
+  "requiresBothCommonAndOwnExactIntegerEqualities": true,
+  "materializationExecuted": false
+}

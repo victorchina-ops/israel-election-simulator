@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "verifierSha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+  "regressionFixturesSha256": "6969e49fe9374100e381debfce3a8457ea5dc2e73b6d50df4164a903fec62696",
+  "regressionScriptSha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c",
+  "actualReadOnlyExecutionToolChunk": "ccf849",
+  "fixtureCount": 108,
+  "positiveFixtures": 4,
+  "negativeFixtures": 104,
+  "independentlyRerun": true,
+  "payloadExactlyEqualsPreservedReceipt": true,
+  "preservationMethod": "The isolated Python review process intercepted only the final fixture-output existence assertion and write to capture JSON in memory; every validation and mutation assertion executed unchanged. Captured payload exactly equals original frozen fixture receipt. No file was overwritten.",
+  "additionalCheck": "Pure four-count verifier called for current coalition/opposition/yashar proofs with expected anchors and input hashes independently obtained from current authoritative primary and independent output files. All accepted; false common-addition flags for coalition/opposition and true for Yashar preserved.",
+  "actualAdapterPipelineExecuted": false,
+  "actualHeavyCountersExecuted": false,
+  "canonicalMutation": false
+}

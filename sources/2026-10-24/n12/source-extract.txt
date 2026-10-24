@@ -1,0 +1,12 @@
+Reviewed published observation midgam_geva_2026-10-23; publication 2026-10-23; audit 2026-10-24.
+Original source: https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm.
+Published mandates: {"yashar": 23, "likud": 21, "beyachad": 15, "democrats": 10, "yisrael_beiteinu": 8, "utj": 7, "joint": 9, "shas": 8, "otzma": 8, "rz_zehut": 6, "raam": 5, "winter": 0, "hendel": 0, "haredi_public": 0, "noam": 0}
+Exact published percentages: {"winter": 2.5, "hendel": 2.4, "haredi_public": 0.5, "noam": 0.5}
+Published bounds, never exact percentages: {}
+Published source blocs: {"coalition": 50, "opposition": 56, "arab_parties": 14, "hendel": 0}
+Sample size exact/exclusive lower bound: 1018/None
+Verified fieldwork: True; 2026-10-22 to 2026-10-23
+Missing values are not zero and are never inherited.
+פרסום23.10 ואיסוף22–23.10; בדיקת24.10 אינה סקר נוסף.
+מתחת לחסימה: אפס מנדטים עם אחוזי המקור; נתונים שלא פורסמו נשארים חסרים.
+הערות השוואה היסטוריות סותרות נשמרות ללא שינוי שקט של הרשומות הישנות.

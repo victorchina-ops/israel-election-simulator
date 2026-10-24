@@ -1,0 +1,118 @@
+{
+  "status": "SOURCE_DERIVED_MEMORY_ESTIMATE",
+  "asOf": "2026-10-24",
+  "scope": "Allocation bounds from actual support cardinalities; no score/tail counter executed",
+  "estimates": [
+    {
+      "kind": "bloc",
+      "identity": "coalition",
+      "halfSizes": [
+        778624770,
+        344557248
+      ],
+      "halfRawMasses": [
+        "803586177503959449600000",
+        "442451165184000"
+      ],
+      "leftSeries": [
+        "lazar",
+        "next_data",
+        "kantar",
+        "tatika"
+      ],
+      "rightSeries": [
+        "hamadad_consortium",
+        "midgam_geva",
+        "direct_polls",
+        "maagar_mochot"
+      ],
+      "finalArraysPayloadUpperGB": 42.84214601665735,
+      "constructionAndSortPeakUpperGB": 53.23575220257044,
+      "assumptions": "Per-entry Python int size bounded by raw half mass; includes retained old/cast/new counts during construction, stable-B-sort pointer/scratch copies and128MiB chunk allowance. A is not sorted by newdiagnostic."
+    },
+    {
+      "kind": "bloc",
+      "identity": "opposition",
+      "halfSizes": [
+        100535211,
+        124645248
+      ],
+      "halfRawMasses": [
+        "46457372344320000",
+        "7653201690513899520000"
+      ],
+      "leftSeries": [
+        "lazar",
+        "hamadad_consortium",
+        "tatika",
+        "kantar"
+      ],
+      "rightSeries": [
+        "midgam_geva",
+        "next_data",
+        "direct_polls",
+        "maagar_mochot"
+      ],
+      "finalArraysPayloadUpperGB": 7.534507915377617,
+      "constructionAndSortPeakUpperGB": 11.374225780367851,
+      "assumptions": "Per-entry Python int size bounded by raw half mass; includes retained old/cast/new counts during construction, stable-B-sort pointer/scratch copies and128MiB chunk allowance. A is not sorted by newdiagnostic."
+    },
+    {
+      "kind": "bloc",
+      "identity": "opposition_raam",
+      "halfSizes": [
+        127152480,
+        341663616
+      ],
+      "halfRawMasses": [
+        "803586177503959449600000",
+        "442451165184000"
+      ],
+      "leftSeries": [
+        "lazar",
+        "next_data",
+        "tatika",
+        "kantar"
+      ],
+      "rightSeries": [
+        "hamadad_consortium",
+        "midgam_geva",
+        "direct_polls",
+        "maagar_mochot"
+      ],
+      "finalArraysPayloadUpperGB": 11.24902331829071,
+      "constructionAndSortPeakUpperGB": 21.556392550468445,
+      "assumptions": "Per-entry Python int size bounded by raw half mass; includes retained old/cast/new counts during construction, stable-B-sort pointer/scratch copies and128MiB chunk allowance. A is not sorted by newdiagnostic."
+    },
+    {
+      "kind": "party",
+      "identity": "yashar",
+      "halfSizes": [
+        13284117,
+        113382800
+      ],
+      "halfRawMasses": [
+        "55306395648000",
+        "6428689420031675596800000"
+      ],
+      "leftSeries": [
+        "lazar",
+        "hamadad_consortium",
+        "kantar",
+        "maagar_mochot"
+      ],
+      "rightSeries": [
+        "next_data",
+        "direct_polls",
+        "midgam_geva",
+        "tatika"
+      ],
+      "finalArraysPayloadUpperGB": 5.68893875181675,
+      "constructionAndSortPeakUpperGB": 9.19300951063633,
+      "assumptions": "Per-entry Python int size bounded by raw half mass; includes retained old/cast/new counts during construction, stable-B-sort pointer/scratch copies and128MiB chunk allowance. A is not sorted by newdiagnostic."
+    }
+  ],
+  "twoLargestDistinctPeaksGB": 74.79214475303888,
+  "diagnosticScriptSha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+  "additionalOSAndOtherApplicationHeadroomRequired": true
+}

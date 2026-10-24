@@ -1,0 +1,82 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "effectiveValidatorSha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16",
+  "peerSourceReviewSha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2",
+  "cases": [
+    {
+      "case": "missing remains missing",
+      "status": "PASS",
+      "expected": null
+    },
+    {
+      "case": "exact baseline share has no invented bound",
+      "status": "PASS",
+      "expected": null
+    },
+    {
+      "case": "published i24 less-than1",
+      "status": "PASS",
+      "expected": "פחות מ־1%"
+    },
+    {
+      "case": "published Kan below threshold",
+      "status": "PASS",
+      "expected": "פחות מ־3.25%"
+    },
+    {
+      "case": "reject exact share plus censoring",
+      "status": "PASS",
+      "rejected": true
+    },
+    {
+      "case": "reject inclusive upper bound",
+      "status": "PASS",
+      "rejected": true
+    },
+    {
+      "case": "reject boolean as percentage",
+      "status": "PASS",
+      "rejected": true
+    },
+    {
+      "case": "reject negative upper bound",
+      "status": "PASS",
+      "rejected": true
+    },
+    {
+      "case": "reject percentage above100",
+      "status": "PASS",
+      "rejected": true
+    },
+    {
+      "case": "reject unsupported positive lower bound",
+      "status": "PASS",
+      "rejected": true
+    }
+  ],
+  "actualNamedSourceRows": [
+    {
+      "pollsterId": "kantar",
+      "party": "צבע שחור מגן עולם התורה",
+      "rawPct": null,
+      "seats": 0,
+      "bound": "פחות מ־3.25%"
+    },
+    {
+      "pollsterId": "direct_polls",
+      "party": "צבע שחור",
+      "rawPct": null,
+      "seats": 0,
+      "bound": "פחות מ־1%"
+    },
+    {
+      "pollsterId": "direct_polls",
+      "party": "אח״י",
+      "rawPct": null,
+      "seats": 0,
+      "bound": "פחות מ־1%"
+    }
+  ],
+  "canonicalDataChanged": false
+}

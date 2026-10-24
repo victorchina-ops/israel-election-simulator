@@ -1,0 +1,42 @@
+{
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-24",
+  "proposalSha256": "d184aa0658423619741cc3bc28c8f476242305952ed7c19eb2513a6562a4a285",
+  "originalPath": "tests/strict-party-publication.test.mjs",
+  "originalSha256": "673ab9ce00e35886ab6183db8434957367505f97b505d5db7381a8bc5f599979",
+  "preservedOriginalPath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/original/strict-party-publication.test.mjs",
+  "candidatePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/candidate/strict-party-publication.test.mjs",
+  "candidateSha256": "b1996764bd6fdead6c072300ed82489905a7d7ed1702418c1473f09d6a98c168",
+  "sourceDiffPath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/strict-party-publication-r1.diff",
+  "sourceDiffSha256": "d1e10ef9308b8330a910c09abf435b58c31245140ebe6cfded14217653faed84",
+  "actualFirstFullTestRunSha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe",
+  "operationalSourceGateSha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+  "actualExecutionReviewSha256": "f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226",
+  "checks": {
+    "allOriginalCandidateDiffAndFailureHashesVerified": true,
+    "exactUnifiedDiffIndependentlyReproduced": true,
+    "inverseBoundedTransformRestoresEntireOriginalSource": true,
+    "allLegacyBranchesAndIndependentSupportHistogramLoopPreserved": true,
+    "testDeclarationsAndExistingBHSignFlipAndToleranceChecksUnchanged": true,
+    "originalCRLFBytesConventionPreserved": true,
+    "candidateJavaScriptSyntaxParsedWithoutExecutingTests": true,
+    "newBranchRestrictedTo24OctAndExactValidationKind": true,
+    "actualSourceAndExecutionGateHashesPinned": true,
+    "allFourCurrentProofAndRunLineageHashesRequired": true,
+    "fourCountsAndSignedDecompositionIndependentlyCheckedWithBigInt": true,
+    "primarySubtractionAndOwnAdditionAnchorsRemainExact": true,
+    "falseCommonAdditionFlagAndOriginalInvestigationStatusesRetained": true,
+    "witnessPredicatesReevaluatedIndependentlyInJavaScript": true,
+    "partySupportWeightsAndExactMassChecksRetained": true,
+    "onlyKan23AddedToExclusionsAndActualUnknownFieldworkConfirmed": true,
+    "noCanonicalModelRuntimeOrStatisticalOutputEdits": true
+  },
+  "evidenceToolChunks": [
+    "207b2d",
+    "b180c5"
+  ],
+  "currentTestNotEdited": true,
+  "candidateTestsExecutedByReviewer": false,
+  "heavyCountersExecutedByReviewer": false,
+  "scope": "Source compatibility repair only. No generic waiver of counts or tolerance; complete original source is recovered by reversing only the new operational branch/path selectors and single independently audited Kan23 unknown-date fixture."
+}

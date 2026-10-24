@@ -1,0 +1,553 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "actualCountersExecuted": false,
+  "scope": "Pure arithmetic and isolated source-gate mutations only; no actual source gate or canonical writes",
+  "testScriptSha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c",
+  "verifierSha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+  "testCount": 108,
+  "positiveTests": 4,
+  "rejectionTests": 104,
+  "results": [
+    {
+      "id": "bloc-coalition-actual-four-counts",
+      "expected": "ACCEPT",
+      "actual": "ACCEPT"
+    },
+    {
+      "id": "bloc-coalition-subtractionAtPrimaryObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-directAtPrimaryObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-subtractionAtOwnObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-directAtOwnObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-signed-delta-0",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-signed-delta-1",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-signed-delta-2",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-signed-delta-3",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-decomposition-predicateAtPrimary",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-decomposition-directObservedShift",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-decomposition-subtractionObservedShift",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-decomposition-predicateAtIndependent",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-decomposition-totalDifference",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-anchor-primaryExtremeCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-anchor-independentExtremeCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-anchor-totalExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-old-date",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-stale-input",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-false-common-equality",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-false-operational-anchor",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-false-own-anchor",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-false-status",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-tolerance",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-primary-cutoff",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-independent-cutoff",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-partial-screen",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-half-mass",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-p-effect-float",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-frozen-output-mutated",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-support-identity-unproved",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-screening-proof-missing",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-coalition-witness-predicate",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-actual-four-counts",
+      "expected": "ACCEPT",
+      "actual": "ACCEPT"
+    },
+    {
+      "id": "bloc-opposition-subtractionAtPrimaryObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-directAtPrimaryObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-subtractionAtOwnObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-directAtOwnObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-signed-delta-0",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-signed-delta-1",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-signed-delta-2",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-signed-delta-3",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-decomposition-predicateAtPrimary",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-decomposition-directObservedShift",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-decomposition-subtractionObservedShift",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-decomposition-predicateAtIndependent",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-decomposition-totalDifference",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-anchor-primaryExtremeCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-anchor-independentExtremeCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-anchor-totalExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-old-date",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-stale-input",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-false-common-equality",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-false-operational-anchor",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-false-own-anchor",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-false-status",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-tolerance",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-primary-cutoff",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-independent-cutoff",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-partial-screen",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-half-mass",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-p-effect-float",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-frozen-output-mutated",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-support-identity-unproved",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-screening-proof-missing",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "bloc-opposition-witness-predicate",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-actual-four-counts",
+      "expected": "ACCEPT",
+      "actual": "ACCEPT"
+    },
+    {
+      "id": "party-yashar-subtractionAtPrimaryObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-directAtPrimaryObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-subtractionAtOwnObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-directAtOwnObservedCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-signed-delta-0",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-signed-delta-1",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-signed-delta-2",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-signed-delta-3",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-decomposition-predicateAtPrimary",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-decomposition-directObservedShift",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-decomposition-subtractionObservedShift",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-decomposition-predicateAtIndependent",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-decomposition-totalDifference",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-anchor-primaryExtremeCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-anchor-independentExtremeCountExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-anchor-totalExact",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-old-date",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-stale-input",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-false-common-equality",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-false-operational-anchor",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-false-own-anchor",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-false-status",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-tolerance",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-primary-cutoff",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-independent-cutoff",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-partial-screen",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-half-mass",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-p-effect-float",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-frozen-output-mutated",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-support-identity-unproved",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-screening-proof-missing",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "party-yashar-witness-predicate",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "hash-bound-source-gate-positive",
+      "expected": "ACCEPT",
+      "actual": "ACCEPT"
+    },
+    {
+      "id": "gate-old-date",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "gate-false-status",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "gate-stale-adapter",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "gate-stale-original-validator",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "gate-empty-checks",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "gate-failed-check",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "gate-stale-fixture-hash",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    },
+    {
+      "id": "gate-failed-fixtures",
+      "expected": "REJECT",
+      "actual": "REJECT"
+    }
+  ]
+}

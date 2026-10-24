@@ -1,0 +1,186 @@
+--- materialize-opposition-raam-common-boundary-2026-10-23.py
++++ materialize-tail-boundary-bands-2026-10-24.py
+@@ -1,97 +1,121 @@
+-"""Materialize the original common-threshold receipt from the reviewed23Oct proof.
++"""Materialize ordinary24Oct boundary receipts from independently reviewed proof.
+ 
+-No numerical counters execute here. Both original addition-predicate counts
+-must exactly match the official integers; ordinary23 validation stays unchanged.
++No numerical counter executes. Each current own-addition anchor and the exact
++signed boundary-band differences must establish both ordinary integer equalities.
+ """
+ from pathlib import Path
++import argparse
+ import hashlib
+ import json
++import math
++import re
+ 
+ ROOT=Path(__file__).resolve().parents[1]
+-DAY='2026-10-23'
++DAY='2026-10-24'
+ ART=ROOT/'artifacts/poll-checks'/DAY
+-BASE=ROOT/'scripts/validate-strict-trends-2026-10-23.py'
+-BASE_SHA='0ff3a67e0ac83b8750f67e9d736a650e9a874d7e8fb5fc2ce81256683bce5410'
+-DIAGNOSIS=ART/'numeric-boundaries/opposition-raam-predicate-diagnosis.json'
+-DIAGNOSIS_SHA='fb25115e8f18e4ec795418ae4f81b3de0b63328f1ea9646e21387b4bb4ce2f8a'
+-REVIEW=ART/'numeric-boundaries/opposition-raam-predicate-independent-review.json'
+-REVIEW_SHA='4b6384443d522039eb39a92e0af9bb560a9b2c10e48da5a00462c1ea70edf3d8'
+-REPRODUCER=ROOT/'scripts/diagnose-opposition-raam-boundary-2026-10-23.py'
+-REPRODUCER_SHA='a5da460bc358280c53647f58a9be7f953a25951b9ae915fe38066e10769e7341'
++BOUND=ART/'numeric-boundaries'
+ read=lambda p:json.loads(p.read_text(encoding='utf-8-sig'))
+ sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+ 
+ 
+ def main():
+-    assert sha(BASE)==BASE_SHA==sha(ART/'numeric-boundaries/failed'/BASE.name)
+-    assert sha(DIAGNOSIS)==DIAGNOSIS_SHA and sha(REVIEW)==REVIEW_SHA
+-    assert sha(REPRODUCER)==REPRODUCER_SHA
+-    proof,review=read(DIAGNOSIS),read(REVIEW)
++    parser=argparse.ArgumentParser(description=__doc__)
++    parser.add_argument('--kind',choices=['bloc','party'],required=True)
++    parser.add_argument('--identity',required=True)
++    args=parser.parse_args();assert re.fullmatch('[a-z_]+',args.identity)
++    self_path=Path(__file__).resolve();source_gate=read(BOUND/'band-source-review-r1/materializer-independent-source-review.json')
++    assert source_gate['status']=='PASS_SOURCE_GATE' and source_gate['asOf']==DAY
++    assert source_gate['materializerSha256']==sha(self_path)
++    pipeline=read(ART/'pipeline-source-compatibility/independent-root-review.json')
++    assert pipeline['status']=='PASS_SOURCE_GATE' and pipeline['asOf']==DAY
++    assert pipeline['proposalSha256']==sha(ART/'pipeline-source-compatibility/proposal.json')
++    reviewed={r['candidate']:r['candidateSha256'] for r in pipeline['reviewedFiles']}
++    validator='scripts/validate-strict-trends-2026-10-24.py';promoter='scripts/promote-strict-validation-2026-10-24.py'
++    assert sha(ROOT/validator)==reviewed[validator]==source_gate['validatorSha256']
++    assert sha(ROOT/promoter)==reviewed[promoter]
++    path=BOUND/(args.kind+'-'+args.identity+'-band-diagnosis.json');proof=read(path)
++    review_path=BOUND/'band-independent-execution-review.json';review=read(review_path)
+     assert proof['status']==review['status']=='PASS' and proof['asOf']==review['asOf']==DAY
+-    assert proof['outcome']==review['outcome']=='opposition_raam'
+-    assert review['diagnosisSha256']==DIAGNOSIS_SHA and review['reproducerSha256']==REPRODUCER_SHA
++    assert proof['kind']==args.kind and proof['outcome']==args.identity
++    assert review['diagnosisHashes'][path.name]==sha(path)
++    assert review['reproducerSha256']==proof['reproducerSha256']
+     assert review['inputHashes']==proof['inputHashes']
+     assert review['checks'] and all(v is True for v in review['checks'].values())
+-    assert not review['pOrQChanged'] and not review['outputsOrFrozenHelpersModified']
++    assert review['pOrQChanged'] is False and review['outputsOrFrozenHelpersModified'] is False
+     assert review['heavyCountersExecutedByReviewer'] is False
+-    assert proof['toleranceUnchanged']==review['toleranceUnchanged']==1e-12
+-    assert not proof['outputsOrFrozenHelpersModified'] and proof['allScalarSupportsAndLabeledMassesEqual']
++    reproducer=ROOT/proof['reproducerPath'];assert sha(reproducer)==proof['reproducerSha256']
++    gate_path=BOUND/'band-source-review-r1/independent-source-review.json';gate=read(gate_path)
++    assert gate['status']=='PASS_SOURCE_GATE' and gate['asOf']==DAY
++    assert gate['scriptSha256']==proof['reproducerSha256']==review['reproducerSha256']
++    assert sha(gate_path)==proof['sourceReviewSha256'] and gate['fixturesSha256']==proof['fixturesSha256']
++    assert proof['toleranceUnchanged']==1e-12 and proof['outputsOrFrozenHelpersModified'] is False
++    for flag in ['allFourOriginalPredicatesPreserved','allPairsOutsideOutwardBandsProvablyAgree',
++            'allScalarSupportsAndLabeledMassesEqual','screeningUsesOutwardCutoffNeighborsBeforeOutwardSubtraction',
++            'screeningPaddingChangesNoDecisionThreshold']:
++        assert proof[flag] is True
+     for rel,digest in proof['inputHashes'].items():assert sha(ROOT/rel)==digest
+     paths=['data/current-polls.json','data/poll-history.json','data/strict-party-trends.json',
+         'data/calibration.json','data/parties.json','artifacts/strict-post-close/analysis.json',
+         'artifacts/strict-post-close/party-analysis.json','artifacts/strict-post-close/independent-strict-numeric-audit.json',
+-        'artifacts/strict-post-close/party-independent.json','artifacts/poll-checks/2026-10-23/source-plan.json',
+-        'artifacts/poll-checks/2026-10-23/ingestion-validation.json',
+-        *['artifacts/strict-post-close/'+name for name in ['lazar-fieldwork.json','n12-kan-c13-fieldwork.json',
++        'artifacts/strict-post-close/party-independent.json','artifacts/poll-checks/'+DAY+'/source-plan.json',
++        'artifacts/poll-checks/'+DAY+'/ingestion-validation.json',
++        *['artifacts/strict-post-close/'+n for n in ['lazar-fieldwork.json','n12-kan-c13-fieldwork.json',
+         'c14-i24-fieldwork.json','c16-tatika-fieldwork.json','new-unverified-fieldwork-2026-09-30.json']]]
+-    hashes={rel:sha(ROOT/rel) for rel in paths}
++    hashes={r:sha(ROOT/r) for r in paths}
+     for rel,digest in hashes.items():
+         if rel in proof['inputHashes']:assert proof['inputHashes'][rel]==digest
+-    primary,independent=read(ROOT/paths[5]),read(ROOT/paths[7])
+-    assert primary['asOf']==DAY
+-    j=independent['groups'].index('opposition_raam');row=primary['primary']['overall'][j]
+-    assert row['group']=='opposition_raam'
+-    pc=int(primary['primary']['exactCounting']['extremeCountsExact'][j]);ic=int(independent['countsExact'][j])
+-    total=int(independent['totalExact'])
+-    assert int(primary['primary']['exactCounting']['nPermutationsExact'])==total
+-    expected={'primaryObservedHex':float(row['slopePerWeek']).hex(),
+-        'independentObservedHex':float(independent['slopes'][j]).hex(),
++    p=read(ROOT/paths[5 if args.kind=='bloc' else 6]);audit=read(ROOT/paths[7 if args.kind=='bloc' else 8])
++    assert p['asOf']==DAY
++    key,values=('group','groups') if args.kind=='bloc' else ('partyId','parties')
++    j=next(i for i,r in enumerate(p['primary']['overall']) if r[key]==args.identity);row=p['primary']['overall'][j]
++    if args.kind=='bloc':ownobs=float(audit['slopes'][j]);ic=int(audit['countsExact'][j]);total=int(audit['totalExact'])
++    else:
++        other=next(r for r in audit['overall'] if r['partyId']==args.identity)
++        ownobs=float(other['slopePerWeek']);ic=int(other['extremeCountExact']);total=int(audit['nPermutationsExact'])
++    pc=int(p['primary']['exactCounting']['extremeCountsExact'][j]);assert pc!=ic
++    assert int(p['primary']['exactCounting']['nPermutationsExact'])==total
++    expected={'primaryObservedHex':float(row['slopePerWeek']).hex(),'independentObservedHex':ownobs.hex(),
+         'primaryExtremeCountExact':str(pc),'independentExtremeCountExact':str(ic),'totalExact':str(total)}
+-    assert all(proof[k]==review[k]==v for k,v in expected.items())
+-    common=int(proof['directAtPrimaryObservedCountExact']);own=int(proof['directAtOwnObservedCountExact'])
+-    assert common==pc and own==ic, 'Original common/own addition conditions must hold exactly'
+-    assert proof['halfSizes']==proof['subtractionHalfSizes']
+-    import math
++    assert all(proof[k]==v for k,v in expected.items())
++    assert proof['primaryCutoffHex']==(abs(float(row['slopePerWeek']))-1e-12).hex()
++    assert proof['independentCutoffHex']==(abs(ownobs)-1e-12).hex()
++    delta=[int(v) for v in proof['screening']['signedDifferencesFromAdditionOwn']]
++    assert len(delta)==4 and delta[3]==0
++    reconstructed=[ic+v for v in delta]
++    actual=[int(proof[k]) for k in ['subtractionAtPrimaryObservedCountExact','directAtPrimaryObservedCountExact',
++        'subtractionAtOwnObservedCountExact','directAtOwnObservedCountExact']]
++    assert reconstructed==actual and reconstructed[0]==reconstructed[1]==pc and reconstructed[3]==ic
++    assert all(0<=v<=total for v in actual)
++    assert proof['commonSubtractionPredicateIntegerMatch'] and proof['originalDirectCommonThresholdIntegerMatch']
++    assert proof['originalDirectOwnThresholdIntegerMatch']
++    assert proof['unchangedReportedValues']=={'primaryP':row['pValue'],'primaryQ':row['qValue']}
+     assert math.prod(int(v) for v in proof['rawHalfMasses'])==total
+-    series=primary['primary']['byPollster'];assert len(proof['support'])==len(series)
+-    for support,item in zip(proof['support'],series):
+-        seats=next(v['seats'] for v in item['groups'] if v['group']=='opposition_raam')
++    assert proof['halfSizes']==[p['primary']['exactCounting']['halfSizes'][j]]
++    series=p['primary']['byPollster'];assert len(series)==len(proof['support'])
++    for i,(support,item) in enumerate(zip(proof['support'],series)):
++        seats=next(v['seats'] for v in item[values] if v[key]==args.identity)
+         assert support['pollsterId']==item['pollsterId'] and support['pollIds']==item['pollIds']
+         assert support['timeDays']==item['timeDaysFromFirst'] and support['weight']==item['weight'] and support['seats']==seats
++        assert support['uniqueScores']==p['primary']['exactCounting']['uniqueStatesBySeries'][j][i]
+         assert int(support['rawMass'])==math.factorial(len(seats))
+-    archived=ART/'numeric-boundaries'/Path(__file__).name
+-    assert sha(archived)==sha(Path(__file__))
+-    result={'kind':'bloc','identity':'opposition_raam',**expected,'inputHashes':hashes,
+-        'status':'PASS','asOf':DAY,'toleranceUnchanged':1e-12,
+-        'commonThresholdExactIntegerMatch':True,'ownThresholdExactIntegerMatch':True,
+-        'allScalarSupportsAndLabeledMassesEqual':True,'commonThresholdCountExact':str(common),
+-        'ownThresholdCountExact':str(own),'support':proof['support'],
++    archived=BOUND/self_path.name;assert sha(archived)==sha(self_path)
++    result={'kind':args.kind,'identity':args.identity,**expected,'inputHashes':hashes,'status':'PASS','asOf':DAY,
++        'toleranceUnchanged':1e-12,'commonThresholdExactIntegerMatch':True,'ownThresholdExactIntegerMatch':True,
++        'allScalarSupportsAndLabeledMassesEqual':True,'commonThresholdCountExact':str(reconstructed[1]),
++        'ownThresholdCountExact':str(reconstructed[3]),'support':proof['support'],
+         'commonHalfSizes':proof['halfSizes'],'ownHalfSizes':proof['halfSizes'],
+         'probabilityDifference':(ic-pc)/total,'outputsOrFrozenHelpersModified':False,
+-        'diagnosisPath':DIAGNOSIS.relative_to(ROOT).as_posix(),'diagnosisSha256':DIAGNOSIS_SHA,
+-        'independentReviewPath':REVIEW.relative_to(ROOT).as_posix(),'independentReviewSha256':REVIEW_SHA,
+-        'reproducerPath':REPRODUCER.relative_to(ROOT).as_posix(),'reproducerSha256':REPRODUCER_SHA,
+-        'materializerPath':Path(__file__).resolve().relative_to(ROOT).as_posix(),
+-        'materializerArchivedPath':archived.relative_to(ROOT).as_posix(),
+-        'materializerSha256':sha(Path(__file__)),'baseValidatorSha256':BASE_SHA,
++        'diagnosisPath':path.relative_to(ROOT).as_posix(),'diagnosisSha256':sha(path),
++        'independentReviewPath':review_path.relative_to(ROOT).as_posix(),'independentReviewSha256':sha(review_path),
++        'reproducerPath':proof['reproducerPath'],'reproducerSha256':proof['reproducerSha256'],
++        'materializerPath':self_path.relative_to(ROOT).as_posix(),'materializerArchivedPath':archived.relative_to(ROOT).as_posix(),
++        'materializerSha256':sha(self_path),'baseValidatorSha256':reviewed[validator],
+         'ordinaryValidatorAndPromoterUnchanged':True,'noPredicateExceptionUsed':True,
+-        'explanation':'The unchanged independent addition counter reproduces the primary exact count at the common primary statistic and the independent exact count at its own statistic. The independently reviewed four-count proof also isolates operational predicate and observed-statistic effects. Both original integers and p/q values remain unchanged.'}
+-    target=ART/'numeric-boundaries/bloc-opposition_raam.json'
+-    body=(json.dumps(result,ensure_ascii=False,indent=2)+'\n').encode('utf-8')
+-    if target.exists():assert target.read_bytes()==body
+-    else:target.write_bytes(body)
+-    print(json.dumps({'status':'PASS','path':target.relative_to(ROOT).as_posix(),'sha256':sha(target),
+-        'originalCommonThresholdExactMatch':True,'originalOwnThresholdExactMatch':True,'countersExecuted':False}))
++        'diagnosisMethod':'Exact anchored signed boundary-band differences, not a full whole-tail recount',
++        'explanation':'Current independently certified own-addition count plus exhaustive exact signed boundary mass proves the original common/own integer equalities. All original source inputs, counter code, tolerance and p/q values remain unchanged.'}
++    out=BOUND/(args.kind+'-'+args.identity+'.json');assert not out.exists()
++    out.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
++    print(json.dumps({'status':'PASS','kind':args.kind,'identity':args.identity,'sha256':sha(out),'numericalCountersExecuted':False}))
+ 
+ 
+ if __name__=='__main__':main()

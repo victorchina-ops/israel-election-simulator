@@ -1,0 +1,20 @@
+{
+  "status": "CANDIDATE_AWAITING_ROOT_REVIEW",
+  "asOf": "2026-10-24",
+  "candidate": "artifacts/poll-checks/2026-10-24/publication-source-appendix-r2.json",
+  "candidateSha256": "fb62db375d3201ebe6d555c280cbef325f5fb3e295c2484e67219ee1cdbd2023",
+  "diff": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r2/publication-source-appendix-r2.diff",
+  "diffSha256": "61cacf8adcf134edc7d52f513dc48e314ca81b08b8e9fd1e734277dbccd06bc5",
+  "activeAppendixUnchangedSha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78",
+  "preservedR1ReviewSha256": "07add7d6f1876d4e13bbb208e64c0e51c621e5c8130904197b0fe777eb75c97d",
+  "preservedExistingFileCount": 21,
+  "totalExplicitFileCount": 37,
+  "approvedNumericReproducers": {
+    "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+    "scripts/materialize-tail-boundary-bands-2026-10-24.py": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822"
+  },
+  "actualCounterOrMaterializerExecuted": false,
+  "activeAppendixPromoted": false,
+  "packageOrModelOrBuildExecuted": false,
+  "privacyScope": "Bounded numeric source and audit lineage; full publisher bodies/private DOM/source images absent."
+}

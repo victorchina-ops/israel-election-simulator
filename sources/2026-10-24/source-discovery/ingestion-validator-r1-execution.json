@@ -1,0 +1,28 @@
+{
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:26:03.117086+00:00",
+  "exitCode": 0,
+  "originalValidatorContractSha256": "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588",
+  "effectiveValidatorSha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16",
+  "peerSourceReviewSha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2",
+  "regressionReceiptSha256": "0707d7135a98a5d1184ff468e7881528e1f22c4071317141c79a0e4a83608573",
+  "stdoutSha256": "e365865b979aecd49cf63bea425628f208b39d727450f3dd33c708889bf1345c",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "canonicalHashesBefore": {
+    "data/current-polls.json": "1aedb4cafec7d7811c16dc999897b81a0bd9cc65a800fb58536c872f54060fcd",
+    "data/poll-history.json": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+    "data/sources.json": "0899d8c2f3a8d13e671923a7546029a893e9da3938e16db8d832a7e7f2fceb52",
+    "data/survey-documents-2026-09-14.json": "4dea4ee24eb61388faab04545cfa332696c5b646b577a9d849f8624ea845d607",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "90cc8f150d61fb01bfbdde9052fb2172007e0969583650e72d1c9599841db923",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "3b613fe7a3882d39ba0a0c526916ec1d37ba51ff9c0ea2073a2fdaa2b054a802"
+  },
+  "canonicalHashesAfter": {
+    "data/current-polls.json": "1aedb4cafec7d7811c16dc999897b81a0bd9cc65a800fb58536c872f54060fcd",
+    "data/poll-history.json": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+    "data/sources.json": "0899d8c2f3a8d13e671923a7546029a893e9da3938e16db8d832a7e7f2fceb52",
+    "data/survey-documents-2026-09-14.json": "4dea4ee24eb61388faab04545cfa332696c5b646b577a9d849f8624ea845d607",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "90cc8f150d61fb01bfbdde9052fb2172007e0969583650e72d1c9599841db923",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "3b613fe7a3882d39ba0a0c526916ec1d37ba51ff9c0ea2073a2fdaa2b054a802"
+  },
+  "canonicalUnchanged": true
+}

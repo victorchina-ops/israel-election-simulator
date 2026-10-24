@@ -1,0 +1,20 @@
+{
+  "status": "PENDING_INDEPENDENT_SOURCE_REVIEW",
+  "asOf": "2026-10-24",
+  "script": "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py",
+  "scriptSha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+  "original": "scripts/diagnose-tail-boundary-bands-2026-10-24.py",
+  "originalSha256": "60ba7000d98c2c3838d379c6960be496ae59b3430bc728e187db1f1aeead4d5d",
+  "diff": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+  "diffSha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d",
+  "scope": "Only exact original upper/lower predicate SUM semantics plus isolatedr1 review routing; original diagnostic and fixtures retained",
+  "changes": [
+    "Subtraction returns integer0/1/2 by summing both tail comparisons exactly like frozenprimary",
+    "Addition similarly sums both original comparisons; positive cutoffs make them disjoint",
+    "No source/counter/statistic/tolerance/actual-data changes",
+    "Small fixtures now compare actual original tail sums even when rounded subtraction boundaries overlap"
+  ],
+  "screeningProofUnchanged": true,
+  "actualHeavyExecutionPerformed": false,
+  "ordinaryToleranceUnchanged": 1e-12
+}

@@ -1,0 +1,320 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "checkedAtUtc": "2026-10-24T10:07:21.295650+00:00",
+  "date": "2026-10-23",
+  "publicationDate": "2026-10-23",
+  "checkedAt": "2026-10-24",
+  "sourceTier": "original-publisher",
+  "publicationTimePrecision": "second",
+  "publicationTimeZone": "Asia/Jerusalem",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "panelProvider": null,
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "requiresReconstruction": true,
+  "passingPartyPercentagesPublished": false,
+  "otherAggregatePublished": false,
+  "modelOnlyPercentageIds": [],
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false,
+  "pollIdProposed": "direct_polls_2026-10-23",
+  "id": "direct_polls_2026-10-23",
+  "publisher": "i24NEWS",
+  "pollster": "דיירקט פולס — צוריאל שרון",
+  "pollsterId": "direct_polls",
+  "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+  "publishedAt": "2026-10-23T20:48:32+03:00",
+  "updatedAt": "2026-10-23T23:34:40+03:00",
+  "publicationTime": "20:48:32",
+  "updatedAtPrecision": "second",
+  "fieldworkStart": "2026-10-22",
+  "fieldworkEnd": "2026-10-22",
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+  "fieldworkEvidence": "Original final methodology paragraph explicitly22Oct2026",
+  "sampleSize": 5124,
+  "sampleSizeSourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+  "population": "General population in Israel, adults18+",
+  "samplingMethod": "Digital system combined with a panel",
+  "reportedMarginOfErrorPct": 1.4,
+  "reportedMarginOfErrorConfidencePct": 95,
+  "seats": {
+    "likud": 26,
+    "yashar": 21,
+    "beyachad": 12,
+    "joint": 9,
+    "democrats": 8,
+    "shas": 8,
+    "otzma": 8,
+    "utj": 7,
+    "yisrael_beiteinu": 6,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 0,
+    "haredi_public": 0,
+    "noam": 0
+  },
+  "seatTotal": 120,
+  "percentages": {
+    "hendel": 2.2
+  },
+  "reportedPercentages": {
+    "hendel": 2.2
+  },
+  "exactPublishedBelowThresholdPct": {
+    "hendel": 2.2
+  },
+  "publishedBounds": {
+    "haredi_public": {
+      "min": 0,
+      "max": 1,
+      "maxExclusive": true
+    },
+    "noam": {
+      "min": 0,
+      "max": 1,
+      "maxExclusive": true
+    }
+  },
+  "unmodelledNamedParties": [
+    {
+      "name": "צבע שחור",
+      "seats": 0,
+      "pct": null,
+      "pctUpperBound": 1,
+      "maxExclusive": true
+    },
+    {
+      "name": "אח״י",
+      "seats": 0,
+      "pct": null,
+      "pctUpperBound": 1,
+      "maxExclusive": true
+    }
+  ],
+  "sourceBlocSeats": {
+    "coalition": 59,
+    "opposition": 47,
+    "arab_parties": 14,
+    "hendel": 0
+  },
+  "sourceReadLimitations": [
+    "The reader omits article timestamps; original HTML JSON-LD and time datetime establish23Oct20:48:32Israel, independently corroborated by current primary poll index.",
+    "The four named small-list shares are only less than1% bounds; israel_first and gantz are not reported and remain missing.",
+    "Passing-party exact vote percentages, panel provider and undecided details were not published."
+  ],
+  "notes": [
+    "A new23Oct publication from fieldwork22Oct; distinct from20Oct i24 observation.",
+    "All120seats, Hendel2.2%, the four less-than1% labels, sample5124 and MOE1.4%at95% match original article and both original graphics.",
+    "IsraelFirst is absent from this publication; do not copy its previous less-than1% bound.",
+    "Both original graphics were inspected in pixels this task."
+  ],
+  "replacesPollId": "direct_polls_2026-10-20",
+  "baselineObservation": {
+    "id": "direct_polls_2026-10-20",
+    "date": "2026-10-20",
+    "publisher": "i24NEWS",
+    "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-91da6024",
+    "sampleSize": 521
+  },
+  "changedSeatsSinceBaseline": {
+    "yashar": {
+      "before": 20,
+      "after": 21
+    },
+    "joint": {
+      "before": 8,
+      "after": 9
+    },
+    "democrats": {
+      "before": 9,
+      "after": 8
+    },
+    "otzma": {
+      "before": 9,
+      "after": 8
+    },
+    "utj": {
+      "before": 8,
+      "after": 7
+    },
+    "yisrael_beiteinu": {
+      "before": 7,
+      "after": 6
+    },
+    "rz_zehut": {
+      "before": 7,
+      "after": 6
+    },
+    "raam": {
+      "before": 6,
+      "after": 5
+    },
+    "winter": {
+      "before": 0,
+      "after": 4
+    }
+  },
+  "cataloguePartySeatVector": {
+    "yashar": 21,
+    "likud": 26,
+    "beyachad": 12,
+    "democrats": 8,
+    "yisrael_beiteinu": 6,
+    "utj": 7,
+    "joint": 9,
+    "shas": 8,
+    "otzma": 8,
+    "rz_zehut": 6,
+    "raam": 5,
+    "winter": 4,
+    "hendel": 0,
+    "gantz": null,
+    "noam": 0,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "cataloguePartyPublishedPercentageVector": {
+    "yashar": null,
+    "likud": null,
+    "beyachad": null,
+    "democrats": null,
+    "yisrael_beiteinu": null,
+    "utj": null,
+    "joint": null,
+    "shas": null,
+    "otzma": null,
+    "rz_zehut": null,
+    "raam": null,
+    "winter": null,
+    "hendel": 2.2,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": null,
+    "israel_first": null
+  },
+  "catalogueSeatVectorSize": 17,
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "israel_first"
+  ],
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "winter",
+    "gantz",
+    "noam",
+    "haredi_public",
+    "israel_first",
+    "other"
+  ],
+  "knownPercentageSum": 2.2,
+  "originalCoveragePct": 2.2,
+  "voteShareType": "published-seats-and-below-threshold-percentages-with-censored-bounds",
+  "zeroSeatsImpliedByPublishedBelowThresholdPartyIds": [
+    "hendel",
+    "haredi_public",
+    "noam"
+  ],
+  "sourceDocument": {
+    "fileName": "reviewed-primary-facts.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "62a627c2d433604435305252144547411b3014f689db30b59aee51175e02a578",
+    "extractFileName": "reviewed-primary-facts.txt",
+    "extractSha256": "62a627c2d433604435305252144547411b3014f689db30b59aee51175e02a578",
+    "reviewedAt": "2026-10-24",
+    "primarySourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "originalGraphicVisuallyVerified": true,
+    "factualExtractRewritten": true,
+    "fullArticlePublishedInNewRelease": false,
+    "verificationFileName": "verification-summary.json",
+    "verificationSha256": "2110ca868bca8b22235789b0ec6262496cbf17154c3136ac18e353d45a8f0a74",
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "passing-party-percentages",
+      "panelProvider",
+      "percentageDenominator",
+      "fieldworkStartTime",
+      "fieldworkEndTime"
+    ],
+    "archiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/reviewed-primary-facts.txt",
+    "extractArchiveUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/reviewed-primary-facts.txt"
+  },
+  "evidenceFiles": [
+    {
+      "fileName": "original-article.local-only.html",
+      "sha256": "d0536978a1589b8696f4f8f0cd9d3b112f994229c6a23a326f115dea5e821e19",
+      "bytes": 187009,
+      "localOnly": true
+    },
+    {
+      "fileName": "original-polls-index.local-only.html",
+      "sha256": "0f2d610d785c296c56b32bcd23057e6a3a11a9e24a8903bfb5003b56f7131446",
+      "bytes": 417848,
+      "localOnly": true
+    },
+    {
+      "fileName": "native-chart-1.jpeg",
+      "sha256": "3252d405e5432022f67629f2175f1e11b5ebdbd8b9ebbfe2c8d4e53d11df8ede",
+      "bytes": 122910,
+      "localOnly": false
+    },
+    {
+      "fileName": "native-chart-3.jpeg",
+      "sha256": "a9799667d55f764ef8e480ea07b80f8fce2a7f580d88fe7247f9d6cb892595a9",
+      "bytes": 73314,
+      "localOnly": false
+    }
+  ],
+  "secondarySourceUrls": [
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/frozen-reviewed-candidate.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/reviewed-primary-facts.txt",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/verification-summary.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/native-graphic-source-receipts.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/native-chart-1.jpeg",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/native-chart-3.jpeg",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/reviewed-poll.json",
+    "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/source-extract.txt"
+  ],
+  "validationSourceUrl": "https://victorchina-ops.github.io/israel-election-simulator/sources/2026-10-24/i24/reviewed-poll.json"
+}

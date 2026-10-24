@@ -1,0 +1,853 @@
+{
+  "schemaVersion": 1,
+  "status": "reviewed",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T12:45:49.396981+00:00",
+  "publicCopyrightScopeReviewed": true,
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "sourceCoverageSha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3",
+  "files": [
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-coverage-reviewed.json",
+      "publicName": "source-coverage-reviewed.json",
+      "sha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-israelpolls/reviewed-facts.json",
+      "publicName": "israelpolls-reviewed-facts.json",
+      "sha256": "c4f297f60c5269f2ff0026918191e40c59169ec745ed5b42530692e6cea617fe"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/other-primary-scan/reviewed-scan-summary.json",
+      "publicName": "other-primary-reviewed-scan.json",
+      "sha256": "187276bf7be6a43301758d23a61dacfc47d740f0c503c635f1cd0392272fd3a6"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/independent-n12-c13-source-review.json",
+      "publicName": "independent-n12-c13-source-review.json",
+      "sha256": "20f5c8663a4c9e09d3b05770988836ab97c2053f01af51a955d154fbf4621e3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24-kan-independent-review.json",
+      "publicName": "source-i24-kan-independent-review.json",
+      "sha256": "45b15fe907a284e362bfc2ca729c65d8fca11d9e4977315b4f25c8108368e466"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-plan-independent-review.json",
+      "publicName": "source-plan-independent-review.json",
+      "sha256": "afe35029a901872c9bc2d90710778da0de4b062a784e5d52c2b3bbf1b06eafa1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/primary-source-public-summary.json",
+      "publicName": "primary-source-public-summary.json",
+      "sha256": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-independent-source-review.json",
+      "publicName": "publication-wrapper-independent-source-review.json",
+      "sha256": "3c146bca27a5cd7b107015c75e567aa5bfb4fe5adafc6a5424d594e8f3b14fbb"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix.json",
+      "publicName": "initial-publication-source-appendix.json",
+      "sha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix-independent-review.json",
+      "publicName": "initial-publication-source-appendix-independent-review.json",
+      "sha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-source-compatibility/code/validate-ingestion-2026-10-24-r1.py",
+      "publicName": "validate-ingestion-2026-10-24-r1.py",
+      "sha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/proposed-validator-r1.json",
+      "publicName": "ingestion-validator-r1-proposal.json",
+      "sha256": "eee06950dc4d9bbcbdd57d1aab9d5bd07fc18ffee1fc77d89c40b3c092e5ed4e"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/validator-r1.diff",
+      "publicName": "ingestion-validator-r1.diff",
+      "sha256": "3ccdeb8273c6952f8b7465f40b7c53ef715b25797c2a44290493ada991f5b824"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/peer-source-review.json",
+      "publicName": "ingestion-validator-r1-peer-source-review.json",
+      "sha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/named-bound-regressions.json",
+      "publicName": "ingestion-validator-r1-regressions.json",
+      "sha256": "0707d7135a98a5d1184ff468e7881528e1f22c4071317141c79a0e4a83608573"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator-execution.json",
+      "publicName": "ingestion-validator-r1-execution.json",
+      "sha256": "ff63f976f8663477941e73ff5e4f30854b0212bfeffa22137bb1bd10031f4dc8"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator.stdout.txt",
+      "publicName": "ingestion-validator-r1.stdout.txt",
+      "sha256": "e365865b979aecd49cf63bea425628f208b39d727450f3dd33c708889bf1345c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator.stderr.txt",
+      "publicName": "ingestion-validator-r1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-failure-reproduction.json",
+      "publicName": "ingestion-validator-original-failure-reproduction.json",
+      "sha256": "d889dd0babb51d942896c62688f469bd03aef613363870dbdcc99b0ac4ebb14d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stderr.txt",
+      "publicName": "ingestion-validator-original-failure.stderr.txt",
+      "sha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stdout.txt",
+      "publicName": "ingestion-validator-original-failure.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix.json",
+      "publicName": "r1-publication-source-appendix.json",
+      "sha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix-independent-review.json",
+      "publicName": "r1-publication-source-appendix-independent-review.json",
+      "sha256": "07add7d6f1876d4e13bbb208e64c0e51c621e5c8130904197b0fe777eb75c97d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/proposal.json",
+      "publicName": "numeric-band-r1-proposal.json",
+      "sha256": "0d73238d2c4d7d6f9f640fe1737d357ccbb51a2d1afed82d792ff8d4eca8c5a4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+      "publicName": "numeric-band-r1-predicate-sums.diff",
+      "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/fixtures.json",
+      "publicName": "numeric-band-r1-fixtures.json",
+      "sha256": "e24863e1644b9534804d3b09c857d165d2ea8b32b5c59d500bd1c02072e1385c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-small-fixtures.json",
+      "publicName": "numeric-band-r1-independent-small-fixtures.json",
+      "sha256": "45cb5e3f2ecbb83e1ec8ea82c6ff308b908546319bf330f136eadb797e1f7ece"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-source-review.json",
+      "publicName": "numeric-band-r1-independent-source-review.json",
+      "sha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/resource-plan.json",
+      "publicName": "numeric-band-r1-resource-plan.json",
+      "sha256": "16a42c5ef44a96d376717befb9ee077198cefb82349025ca2325652d16d422e3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-proposal.json",
+      "publicName": "numeric-band-materializer-proposal.json",
+      "sha256": "858e025e60a4258f75ac1d23be2406636b1505abb9175317b17d84b5924f39a2"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
+      "publicName": "numeric-band-materializer.diff",
+      "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-independent-source-review.json",
+      "publicName": "numeric-band-materializer-independent-source-review.json",
+      "sha256": "3026b48d87bec9c19e92fdad1bf67cb44425c384ae3746a6d3d355f95e29eea9"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/proposal.json",
+      "publicName": "numeric-band-unapproved-draft-proposal.json",
+      "sha256": "40b0f4484c5b807f44f054a61ba13b4071e152be83d7082d9995c0b275ef3805"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+      "publicName": "numeric-band-unapproved-draft.diff",
+      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fixtures.json",
+      "publicName": "numeric-band-unapproved-shared-predicate-fixtures.json",
+      "sha256": "101c4ff8ca0d314af9b9bf4cbf2b805ab460fc995a9c426ebab4bf3f7b55fb07"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/diagnose-tail-boundary-bands-2026-10-24.py",
+      "publicName": "numeric-band-unapproved-initial-field-names.py",
+      "sha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/fixtures.json",
+      "publicName": "numeric-band-unapproved-initial-field-names-fixtures.json",
+      "sha256": "a9bc37e64d069c863e72085dceab409a25d3981c628a3e198ac652adf4270c27"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-r2.json",
+      "publicName": "unpromoted-r2-publication-source-appendix.json",
+      "sha256": "fb62db375d3201ebe6d555c280cbef325f5fb3e295c2484e67219ee1cdbd2023"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r2/publication-source-appendix-r2.diff",
+      "publicName": "unpromoted-r2-publication-source-appendix.diff",
+      "sha256": "61cacf8adcf134edc7d52f513dc48e314ca81b08b8e9fd1e734277dbccd06bc5"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r2/proposal.json",
+      "publicName": "unpromoted-r2-publication-source-appendix-proposal.json",
+      "sha256": "c35fcd8c9604d9f7d7e9a8777110a29311e60c341c51ac210fec61b15005a1c1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/proposal.json",
+      "publicName": "publication-wrapper-r1-proposal.json",
+      "sha256": "cd9043cdf94ce1480399c824e522c1abf6cc10b3da0f3e85dca8276e5870149c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/package-r1.diff",
+      "publicName": "publication-wrapper-r1.diff",
+      "sha256": "45a37c61c15e3673f06586036dffdfe0662c5aa2bb3da512804401261265a409"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/independent-root-review.json",
+      "publicName": "publication-wrapper-r1-independent-root-review.json",
+      "sha256": "26c553df20ca84cfdf580b0e0f0cb58355c9801c6aa322dedf403b023d9eb799"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/code/package-poll-update-2026-10-24-r1.py",
+      "publicName": "publication-wrapper-r1-reviewed-code.py",
+      "sha256": "51564c50a8e93fe9f5f6bc75601b55a7a69965f684a28c655facee2e507ed029"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/proposal.json",
+      "publicName": "operational-reconciliation-r1-proposal.json",
+      "sha256": "a73fcc3fab54940e00e8085ec7a45eb2e5c28a38338040bde2d7fcc60138fa42"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-source-review.json",
+      "publicName": "operational-reconciliation-r1-independent-source-review.json",
+      "sha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.py",
+      "publicName": "operational-reconciliation-r1-regression-fixtures.py",
+      "sha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.json",
+      "publicName": "operational-reconciliation-r1-regression-fixtures.json",
+      "sha256": "6969e49fe9374100e381debfce3a8457ea5dc2e73b6d50df4164a903fec62696"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-isolated-regression-review.json",
+      "publicName": "operational-reconciliation-r1-independent-regression-review.json",
+      "sha256": "b4bbb83e17083ecfeec273cb10e1da8734f75c6e9e7b5335fcd63ddd4443fed9"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.py",
+      "publicName": "operational-reconciliation-r1-verifier.py",
+      "sha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "publicName": "operational-reconciliation-r1-verifier.diff",
+      "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.py",
+      "publicName": "operational-reconciliation-r1-materializer.py",
+      "sha256": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "publicName": "operational-reconciliation-r1-materializer.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.py",
+      "publicName": "operational-reconciliation-r1-validator.py",
+      "sha256": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "publicName": "operational-reconciliation-r1-validator.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.py",
+      "publicName": "operational-reconciliation-r1-promoter.py",
+      "sha256": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "publicName": "operational-reconciliation-r1-promoter.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/pre-review-verifier-e1982b.py",
+      "publicName": "operational-reconciliation-unapproved-pre-review-verifier.py",
+      "sha256": "e1982b1261935eef73e3c08e7c92b454a5fa5455b5bd9248e33de5fdbab760ae"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/proposal-initial-e1982b.json",
+      "publicName": "operational-reconciliation-unapproved-initial-proposal.json",
+      "sha256": "8f2d0e572d5dd4a9becc3693bafab6bef5b7b1889c85b5ad911b290d95d9e579"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py",
+      "publicName": "operational-reconciliation-failed-initial-fixture-path.py",
+      "sha256": "d3d0e8f2fe3eee69b149dc2b4b180bd9ceb3685178481c7abc576004e6f2b006"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.failed-empty-encoding.json",
+      "publicName": "numeric-coalition-failed-empty-serialization.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.json",
+      "publicName": "numeric-coalition-actual-complete-execution-log.json",
+      "sha256": "ab497c699f7c028cb3a0a050ce01662241828a73c3017efefa51c8917967ce84"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-execution-review.json",
+      "publicName": "operational-reconciliation-r1-independent-execution-review.json",
+      "sha256": "f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/publication-source-appendix.json",
+      "publicName": "r3-reviewed-publication-source-appendix.json",
+      "sha256": "9d3e9d83719ab1559409813b8f5c53ea660db531f1f565d5f6118ea3acadaecb"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/independent-root-review.json",
+      "publicName": "r3-publication-source-appendix-root-review.json",
+      "sha256": "575affc818c5e9566e595d412a5846cc25e86463c6907ff8cb4525ef281763ec"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/promotion.json",
+      "publicName": "r3-publication-source-appendix-promotion.json",
+      "sha256": "caf0caf4b5df960d5a1bb6d6c7f246628c01e4f459e4f68850d470c56b52cb7a"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/original/strict-party-publication.test.mjs",
+      "publicName": "strict-party-publication-original.test.mjs",
+      "sha256": "673ab9ce00e35886ab6183db8434957367505f97b505d5db7381a8bc5f599979"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/candidate/strict-party-publication.test.mjs",
+      "publicName": "strict-party-publication-reviewed-r1.test.mjs",
+      "sha256": "b1996764bd6fdead6c072300ed82489905a7d7ed1702418c1473f09d6a98c168"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/strict-party-publication-r1.diff",
+      "publicName": "strict-party-publication-r1.diff",
+      "sha256": "d1e10ef9308b8330a910c09abf435b58c31245140ebe6cfded14217653faed84"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/proposal.json",
+      "publicName": "strict-party-publication-r1-proposal.json",
+      "sha256": "d184aa0658423619741cc3bc28c8f476242305952ed7c19eb2513a6562a4a285"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/independent-source-review.json",
+      "publicName": "strict-party-publication-r1-independent-source-review.json",
+      "sha256": "bb104757ed99e33c18bd9c34bc503dafb6f48352f0ac170a6a38119fb5eba862"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/application.json",
+      "publicName": "strict-party-publication-r1-application.json",
+      "sha256": "034068dcb21af81e07f8ebc361a73e72713c8c4aea750289820b8ad9b36cec30"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/candidate/strict-party-publication.test.mjs",
+      "publicName": "strict-party-publication-unapproved-r2-draft.test.mjs",
+      "sha256": "fec8c0511c557cbcde3558fa3b9d6dff177b9a7248a32bdf73c80611e4a8e6d3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/proposal.json",
+      "publicName": "strict-party-publication-unapproved-r2-proposal.json",
+      "sha256": "8a3500256127f0f1690e0c028de8863f288834be4a977e885d79fb17f7e8f9b4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/strict-party-publication-r2.diff",
+      "publicName": "strict-party-publication-unapproved-r2.diff",
+      "sha256": "1f28b535915e337c601b6e35785ba2324b2d282c948f807cec564db805d61108"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/initial-independent-source-findings.json",
+      "publicName": "strict-party-publication-r2-initial-findings.json",
+      "sha256": "30957406e8243d588f51d9163f7f311770cca511424ea2a168eb66c3b36c8bea"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/candidate-r1/strict-party-publication.test.mjs",
+      "publicName": "strict-party-publication-reviewed-r2-r1.test.mjs",
+      "sha256": "d200ac01b293ae4812a5d6cff3300002b9ab866693b57d38c38a82ea6016528b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/proposal-r1.json",
+      "publicName": "strict-party-publication-r2-r1-proposal.json",
+      "sha256": "1e3658e42e494941bb23c74971218b4782e5580a9fa24c8fae16f48bc585d122"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/strict-party-publication-r2-r1.diff",
+      "publicName": "strict-party-publication-r2-r1.diff",
+      "sha256": "042f47a4b6fdc88dacda9772fb3046ebbd21fedadfaf58073b8dbaa825fa20e1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/independent-source-review-r1.json",
+      "publicName": "strict-party-publication-r2-r1-independent-source-review.json",
+      "sha256": "844b6a66eb8d5c645e915588d496fad74d70c0355dba1ab408212b0d851f832d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/application-r1.json",
+      "publicName": "strict-party-publication-r2-r1-application.json",
+      "sha256": "065be7e325d49a1bc53f36e83af4789c60558e9a84ccab61c813c4ee106cd4ee"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-initial.txt",
+      "publicName": "full-tests-initial-401-of-404.stdout.txt",
+      "sha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/build-replay-test-runlogs/06-full-tests-initial.json",
+      "publicName": "full-tests-initial-execution.json",
+      "sha256": "2326e22cf95d324b1d1257852ed03cfeafdd94619d79ff0e71266adc04a77185"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-final-r1-failed.txt",
+      "publicName": "full-tests-reviewed-r1-403-of-404.stdout.txt",
+      "sha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-final-r1-failed-execution.json",
+      "publicName": "full-tests-reviewed-r1-failed-execution.json",
+      "sha256": "12ae387573eb6f78abfcd4aaa7159f43c398c97963d09b82cc2a0c002bf148a5"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-reviewed-r2.txt",
+      "publicName": "full-tests-reviewed-r2-r1-404-of-404.stdout.txt",
+      "sha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/build-replay-test-runlogs/08-full-tests-reviewed-r2-r1.json",
+      "publicName": "full-tests-reviewed-r2-r1-execution.json",
+      "sha256": "91347e486b398ce2e35dd7e1995a06de618a3c0303e7c10f4e91484950e15874"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-final-promotion-r2.json",
+      "publicName": "full-tests-final-promotion-r2.json",
+      "sha256": "29cc33c3eb558307d4dcdec5fb1e1abb87b6d75b1e62f228774ef837a2635367"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/complete-poll-update-2026-10-24.py",
+      "publicName": "complete-poll-update-2026-10-24-original.py",
+      "sha256": "30f66c843558912cbe5e3411e5f9ff39859ff1e03973365860c238717b85305e"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/complete-poll-update-2026-10-24-r1.py",
+      "publicName": "complete-poll-update-2026-10-24-r1.py",
+      "sha256": "ef8bd0bd33f6428d89227a779981fbe68a25cd7f07cf6e1f0ce9bd7e9817ba37"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/proposal.json",
+      "publicName": "completion-r1-proposal.json",
+      "sha256": "05bb849ae154f7ce3b39a77a33410f65eaaeb1819b2d514f181efc40ad68491c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/completion-source-limitations.diff",
+      "publicName": "completion-r1-source-limitations.diff",
+      "sha256": "195b7beca30eb3eb3248ee930c47ad64290165837b3ca6b491734d5a57208450"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/independent-root-source-review.json",
+      "publicName": "completion-r1-independent-root-source-review.json",
+      "sha256": "3957baeddf0027f46a908cbfbde68231be4cb6746ee45a1792f79ae25f547141"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/build-replay-test-runlogs/post-build-test-preservation.json",
+      "publicName": "post-build-model-test-preservation.json",
+      "sha256": "2b5d7cd59844ce5cdc16f305cfd6e2a9f1897513b0210399a5febbfba1c54180"
+    }
+  ],
+  "numericReproducers": {
+    "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+    "scripts/verify-operational-tail-reconciliation-2026-10-24-r1.py": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+    "scripts/materialize-tail-boundary-bands-2026-10-24-r1.py": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a",
+    "scripts/validate-strict-trends-2026-10-24-r1.py": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31",
+    "scripts/promote-strict-validation-2026-10-24-r1.py": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de"
+  },
+  "scope": "All prior source/ingestion records and initial numeric audit lineage, plus distinct source-reviewed operational reconciliation code/diffs/proposal and independent 108-fixture review, new reviewed package source/diff/proposal/root gate, and explicit failed draft/serialization labels. No publisher article bodies, reader transcripts, private browser/X DOM or source thumbnails. Includes the independent actual four-outcome numeric execution review separately from source approval; original false common-addition flags and INVESTIGATE diagnoses are preserved. Adds bounded complete test source/peer/failure/actual rerun/promotion lineage and source-reviewed completion limitation extraction, with current post-build/model/test preservation. Full test logs contain only test/assertion/project-path evidence; publisher bodies and private browser state remain excluded.",
+  "numericReproducerPolicy": "Exactly five current source-approved identities: actual fresh r1 diagnostic and the shared operational verifier, materializer, strict validator and promoter adapters. Current hash-bound all-four-outcome execution review and complete exact signed integer reconciliation remain mandatory before materialization/release. The previous ordinary materializer75bb remains preserved source-reviewed audit history, not a current operational reproducer. A SOURCE gate alone is not approval of actual numerical results. The independent actual four-outcome review f04e2e is now included; later strict adapter/promotion and publication gates remain unapproved by this appendix.",
+  "rootIndependentReviewRequiredBeforePackaging": true,
+  "revision": "test-repair-and-completion-source-lineage-r4",
+  "supersedesAppendix": {
+    "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix.json",
+    "sha256": "9d3e9d83719ab1559409813b8f5c53ea660db531f1f565d5f6118ea3acadaecb",
+    "preservedCopy": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/publication-source-appendix.json",
+    "originalIndependentReviewSha256": "575affc818c5e9566e595d412a5846cc25e86463c6907ff8cb4525ef281763ec",
+    "preservedIndependentReview": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/independent-root-review.json",
+    "preservedPromotionSha256": "caf0caf4b5df960d5a1bb6d6c7f246628c01e4f459e4f68850d470c56b52cb7a"
+  },
+  "newIngestionValidatorLineage": {
+    "originalValidatorPath": "scripts/validate-ingestion-2026-10-24.py",
+    "originalValidatorSha256": "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588",
+    "originalValidatorPublishedByExistingPackageWrapper": true,
+    "effectiveValidatorPath": "scripts/validate-ingestion-2026-10-24-r1.py",
+    "archivedEffectiveValidatorPath": "artifacts/poll-checks/2026-10-24/ingestion-source-compatibility/code/validate-ingestion-2026-10-24-r1.py",
+    "effectiveValidatorSha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16",
+    "peerSourceReviewSha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2",
+    "proposalSha256": "eee06950dc4d9bbcbdd57d1aab9d5bd07fc18ffee1fc77d89c40b3c092e5ed4e",
+    "diffSha256": "3ccdeb8273c6952f8b7465f40b7c53ef715b25797c2a44290493ada991f5b824",
+    "regressionSha256": "0707d7135a98a5d1184ff468e7881528e1f22c4071317141c79a0e4a83608573",
+    "executionSha256": "ff63f976f8663477941e73ff5e4f30854b0212bfeffa22137bb1bd10031f4dc8",
+    "originalFailureStderrSha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97",
+    "rawStderrReview": "Only native Python traceback and source assertion; both File references are the explicitly authorized project validator path. No private browser state, full article, credentials or personal data.",
+    "stdoutReview": "Only numerical ingestion validation report; original source article content and private DOM absent.",
+    "originalFailureIsExplicitlySecondInvocation": true,
+    "validatorRepairOnlyNamedCensoredBounds": true,
+    "noCanonicalDataChangedByRepair": true
+  },
+  "workingAppendixNotPromoted": true,
+  "packageWrapperUnchangedSha256": "805e13274977be787facb03f0c4e79d95ce78343fab9d063d2e525b170efafb6",
+  "priorInitialAppendixLineage": {
+    "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix.json",
+    "sha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856",
+    "preservedCopy": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix.json",
+    "originalIndependentReviewSha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4",
+    "preservedIndependentReview": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix-independent-review.json"
+  },
+  "numericEvidenceScope": {
+    "publicationDecision": "Root explicitly approved retention of initial failed/unapproved numeric drafts already within the recursively copied numeric-boundaries audit folder. No package exclusion, relocation or alteration of hash-bound evidence.",
+    "approvedActualReproducers": [
+      {
+        "sourcePath": "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py",
+        "sha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+        "status": "PASS_SOURCE_GATE_ONLY"
+      },
+      {
+        "sourcePath": "scripts/verify-operational-tail-reconciliation-2026-10-24-r1.py",
+        "sha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+        "status": "PASS_SOURCE_GATE_ONLY"
+      },
+      {
+        "sourcePath": "scripts/materialize-tail-boundary-bands-2026-10-24-r1.py",
+        "sha256": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a",
+        "status": "PASS_SOURCE_GATE_ONLY"
+      },
+      {
+        "sourcePath": "scripts/validate-strict-trends-2026-10-24-r1.py",
+        "sha256": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31",
+        "status": "PASS_SOURCE_GATE_ONLY"
+      },
+      {
+        "sourcePath": "scripts/promote-strict-validation-2026-10-24-r1.py",
+        "sha256": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de",
+        "status": "PASS_SOURCE_GATE_ONLY"
+      }
+    ],
+    "sourceGates": [
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-source-review.json",
+        "sha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0",
+        "status": "PASS_SOURCE_GATE_ONLY",
+        "scope": "Approves diagnostic r1 source semantics and independent small fixtures; not actual poll counter outputs."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-independent-source-review.json",
+        "sha256": "3026b48d87bec9c19e92fdad1bf67cb44425c384ae3746a6d3d355f95e29eea9",
+        "status": "PASS_SOURCE_GATE_ONLY",
+        "scope": "Approves materializer source contract; actual independently reviewed four outcomes are required before materialization."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-source-review.json",
+        "sha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+        "status": "PASS_SOURCE_GATE_ONLY",
+        "scope": "Approves the distinct exact operational reconciliation verifier/materializer/validator/promoter and independent 108 isolated fixtures. Actual fresh four-outcome execution review remains required."
+      }
+    ],
+    "independentFixtureEvidence": {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-small-fixtures.json",
+      "sha256": "45cb5e3f2ecbb83e1ec8ea82c6ff308b908546319bf330f136eadb797e1f7ece",
+      "status": "PASS_SMALL_FIXTURES_ONLY",
+      "scope": "Independent primary-style inclusive search sums and separate Cartesian rounded addition; neither expected-count implementation invokes diagnostic predicates(). No actual poll supports or heavy counters executed.",
+      "fixtureCount": 38,
+      "cartesianPairsChecked": 45918,
+      "outsideBandPairsIndependentlyProvedIdentical": 40197
+    },
+    "unapprovedDrafts": [
+      {
+        "sourcePath": "scripts/diagnose-tail-boundary-bands-2026-10-24.py",
+        "sha256": "60ba7000d98c2c3838d379c6960be496ae59b3430bc728e187db1f1aeead4d5d",
+        "status": "UNAPPROVED_NOT_HEAVY_EXECUTED",
+        "scope": "Original 60ba source is identified by hash and initial diff, not listed as an approved reproducer. Its Boolean OR predicate merged tails that the frozen primary counts as an upper-plus-lower integer SUM; replaced by r1 SUM semantics."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/diagnose-tail-boundary-bands-2026-10-24.py",
+        "sha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033",
+        "status": "UNAPPROVED_NOT_HEAVY_EXECUTED",
+        "scope": "Earlier field-name draft retained by recursive audit copy; not an approved reproducer and not actual result evidence."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/pre-review-verifier-e1982b.py",
+        "sha256": "e1982b1261935eef73e3c08e7c92b454a5fa5455b5bd9248e33de5fdbab760ae",
+        "status": "UNAPPROVED_NOT_PIPELINE_EXECUTED",
+        "scope": "Pre-review draft assumed every ordinary validator input hash appeared directly in diagnostic inputHashes. Refined6d6f checks directly shared hashes plus current original run-receipt fieldwork/source inputs and all four stage lineage/output hashes. No actual adapter execution of this draft."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/proposal-initial-e1982b.json",
+        "sha256": "8f2d0e572d5dd4a9becc3693bafab6bef5b7b1889c85b5ad911b290d95d9e579",
+        "status": "SUPERSEDED_PRE_REVIEW_PROPOSAL",
+        "scope": "Identifies the unapproved e1982b draft; superseded by reviewed proposal a73fcc3f and SOURCE gate74962. Not an execution receipt."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py",
+        "sha256": "d3d0e8f2fe3eee69b149dc2b4b180bd9ceb3685178481c7abc576004e6f2b006",
+        "status": "FAILED_FIXTURE_PATH_BEFORE_IMPORT_OR_TESTS",
+        "scope": "Initial parents[4] resolved to project/artifacts rather than project root, failing before verifier import or fixture execution. Corrected parents[5] fixture later passed 108 isolated checks. No pipeline/counter execution."
+      }
+    ],
+    "sharedPredicateFixtureLimitation": {
+      "reason": "Initial fixture expectations reused the same Boolean OR predicate as the draft. Their PASS labels could not independently detect overlapping rounded subtraction tails whose primary integer SUM can equal two. They establish neither correct frozen-primary semantics nor approval of an actual counter.",
+      "replacedBy": "Source-approved r1 with primary upper-plus-lower sums plus the independently implemented 38-fixture gate.",
+      "records": [
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fixtures.json",
+          "sha256": "101c4ff8ca0d314af9b9bf4cbf2b805ab460fc995a9c426ebab4bf3f7b55fb07",
+          "status": "HISTORICAL_PASS_WITH_SHARED_PREDICATE_LIMITATION",
+          "scope": "16 small fixtures only, actualCounterExecuted false; not source approval."
+        },
+        {
+          "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/fixtures.json",
+          "sha256": "a9bc37e64d069c863e72085dceab409a25d3981c628a3e198ac652adf4270c27",
+          "status": "HISTORICAL_PASS_WITH_SHARED_PREDICATE_LIMITATION",
+          "scope": "16 early small fixtures only, actualCounterExecuted false; not source approval."
+        }
+      ]
+    },
+    "initialDiff": {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4",
+      "status": "UNAPPROVED_AUDIT_DIFF_ONLY",
+      "scope": "Original proposal lineage; exact bytes explicitly accepted for immutable unified-diff context whitespace only, not counter approval."
+    },
+    "freshDiffs": [
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+        "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d",
+        "status": "SOURCE_REVIEWED_EXACT_DIFF",
+        "scope": "Exact immutable source diff; whitespace allowance is bound to this hash."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
+        "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
+        "status": "SOURCE_REVIEWED_EXACT_DIFF",
+        "scope": "Exact immutable source diff; whitespace allowance is bound to this hash."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+        "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934",
+        "status": "SOURCE_REVIEWED_EXACT_DIFF",
+        "scope": "Exact immutable operational source diff; per-file whitespace acceptance is bound only to this hash."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+        "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff",
+        "status": "SOURCE_REVIEWED_EXACT_DIFF",
+        "scope": "Exact immutable operational source diff; per-file whitespace acceptance is bound only to this hash."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+        "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c",
+        "status": "SOURCE_REVIEWED_EXACT_DIFF",
+        "scope": "Exact immutable operational source diff; per-file whitespace acceptance is bound only to this hash."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+        "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915",
+        "status": "SOURCE_REVIEWED_EXACT_DIFF",
+        "scope": "Exact immutable operational source diff; per-file whitespace acceptance is bound only to this hash."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/package-r1.diff",
+        "sha256": "45a37c61c15e3673f06586036dffdfe0662c5aa2bb3da512804401261265a409",
+        "status": "ROOT_SOURCE_REVIEWED_EXACT_DIFF",
+        "scope": "Narrow reviewed package branch; exact immutable unified-diff whitespace allowance only. Not permission to run package without all runtime gates."
+      }
+    ],
+    "actualExecutionApprovalProvidedByThisAppendix": false,
+    "requiredFutureExecutionReview": "The included independent actual all-four-outcome review f04e2e must remain hash-bound and is reverified by the approved shared verifier. Reviewed r1 strict adapter validation and promotion, remaining model/tests/CUA/social/privacy checks and package checks still must execute and pass.",
+    "tolerance": 1e-12,
+    "reportedPandQChanged": false,
+    "canonicalDataChangedByThisAppendix": false,
+    "privacyReview": "Numeric code, diffs, numeric fixture/source-gate records and hashes only. No original publisher article text, browser state, private X DOM, credentials or source thumbnails. Historical failed numeric drafts remain clearly identified rather than silently removed.",
+    "operationalContract": {
+      "validationKind": "exact-operational-predicate-reconciliation",
+      "sourceGateSha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+      "requiredPrimaryOperationalPredicateExactIntegerMatch": true,
+      "requiredOwnThresholdExactIntegerMatch": true,
+      "commonThresholdExactIntegerMatch": "Actual Boolean retained, including false; never implied true by reconciliation status.",
+      "originalDiagnosisStatusPreserved": true,
+      "fourCountsAndAllSignedIntegerContributionsRequired": true,
+      "originalFixedTolerance": 1e-12,
+      "pOrQChanged": false,
+      "currentInputAndOriginalFourStageAnchorHashesRequired": true,
+      "fullPublicReproducerCount": 5,
+      "oldCommonAdditionMaterializerSupersededReason": "Rounded subtraction comparisons and rounded direct-addition comparisons are distinct operational binary64 predicates. Actual common-threshold equality was false in fresh diagnostics. New receipts require exact primary subtraction and own-addition anchors plus all intervening signed masses, and retain those false equality flags."
+    },
+    "independentOperationalFixtureEvidence": [
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.json",
+        "sha256": "6969e49fe9374100e381debfce3a8457ea5dc2e73b6d50df4164a903fec62696",
+        "status": "PASS_ISOLATED_108_FIXTURES_ONLY",
+        "scope": "Source/contract regression fixtures; no actual poll tail counters."
+      },
+      {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-isolated-regression-review.json",
+        "sha256": "b4bbb83e17083ecfeec273cb10e1da8734f75c6e9e7b5335fcd63ddd4443fed9",
+        "status": "PASS_INDEPENDENT_ISOLATED_REVIEW_ONLY",
+        "scope": "Independent reviewer reran the 108 isolated fixtures, not the actual poll counters."
+      }
+    ],
+    "failedSerializationEvidence": {
+      "failedArtifact": {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.failed-empty-encoding.json",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "status": "EMPTY_FAILED_LOG_SERIALIZATION_ONLY",
+        "scope": "Zero-byte artifact from Unicode serialization failure caused by an unpaired surrogate in shell encoding. It is neither a valid JSON machine input nor PASS evidence."
+      },
+      "failedBytes": 0,
+      "completeLog": {
+        "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.json",
+        "sha256": "ab497c699f7c028cb3a0a050ce01662241828a73c3017efefa51c8917967ce84",
+        "status": "ACTUAL_COMPLETE_EXECUTION_LOG_NOT_PEER_APPROVAL",
+        "scope": "Subsequent complete actual run log saved with ASCII-safe serialization; distinct from the empty failed write. Numerical approval still requires the independent aggregate execution review."
+      }
+    },
+    "actualIndependentExecutionReview": {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-execution-review.json",
+      "sha256": "f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226",
+      "status": "PASS_INDEPENDENT_ACTUAL_FOUR_OUTCOME_REVIEW",
+      "reviewerReexecutedHeavyCounters": false,
+      "reviewedActualDiagnosisHashes": {
+        "bloc-coalition-band-diagnosis.json": "4d249507814ddc50f4c8be36b0565c1f4a7978699e0b974e20f8efb04de80ed9",
+        "bloc-opposition-band-diagnosis.json": "2bef775d1e7072cfa919912b7001e21f55052fc76a1f7ecb10e455a8d6a10b07",
+        "bloc-opposition_raam-band-diagnosis.json": "05d927809a3748a49c931c823182b2d4026f808ad31090d158cbf991cc8300e3",
+        "party-yashar-band-diagnosis.json": "5b8d34447feb51c5c557ff39b31149c10cc268906579793344e6fa6fdd8b64f1"
+      },
+      "actualOriginalCommonAdditionMatchesPrimary": {
+        "bloc-coalition-band-diagnosis.json": false,
+        "bloc-opposition-band-diagnosis.json": false,
+        "bloc-opposition_raam-band-diagnosis.json": false,
+        "party-yashar-band-diagnosis.json": true
+      },
+      "actualOriginalDiagnosisStatuses": {
+        "bloc-coalition-band-diagnosis.json": "INVESTIGATE",
+        "bloc-opposition-band-diagnosis.json": "INVESTIGATE",
+        "bloc-opposition_raam-band-diagnosis.json": "INVESTIGATE",
+        "party-yashar-band-diagnosis.json": "PASS"
+      },
+      "reviewedFreshExecutionLogHashes": {
+        "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.json": "ab497c699f7c028cb3a0a050ce01662241828a73c3017efefa51c8917967ce84",
+        "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-opposition-execution.json": "326e4a86d06a0a9a4fe8a8b008069e428835cb026d850a205b3ca8ce1378f37a",
+        "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-opposition_raam-execution.json": "b1b5cf4157fd15e2a8f93ccdfd1610364de5fd5d4f51aebb3d15c2f0fd89df73",
+        "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/party-yashar-execution.json": "6be3e4cabdb77dd47c1f037a2498812141a8ee5730054d5b3bdb5435930f22c8"
+      },
+      "noPOrQOrFrozenHelpersChanged": true,
+      "scope": "Independent peer review of all four actual diagnostic executions and original current exact anchors. This does not attest that later strict adapter validation/promotion, model replays, tests, CUA/social/package publication checks have executed or passed."
+    },
+    "actualExecutionReviewIncluded": true
+  },
+  "priorUnpromotedCandidate": {
+    "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-r2.json",
+    "sha256": "fb62db375d3201ebe6d555c280cbef325f5fb3e295c2484e67219ee1cdbd2023",
+    "status": "HELD_NOT_PROMOTED",
+    "reason": "Current exact diagnostics disproved the old common-addition-equals-primary assumption; r3 adds the reviewed distinct operational reconciliation contract without changing statistical outputs."
+  },
+  "effectivePackageWrapper": {
+    "sourcePath": "scripts/package-poll-update-2026-10-24-r1.py",
+    "sha256": "51564c50a8e93fe9f5f6bc75601b55a7a69965f684a28c655facee2e507ed029",
+    "sourceGatePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/independent-root-review.json",
+    "sourceGateSha256": "26c553df20ca84cfdf580b0e0f0cb58355c9801c6aa322dedf403b023d9eb799",
+    "sourceDiffSha256": "45a37c61c15e3673f06586036dffdfe0662c5aa2bb3da512804401261265a409",
+    "original805ePreserved": true,
+    "sourceApprovalOnlyNotPackageExecution": true
+  },
+  "previousUnpromotedSourceOnlyCandidate": {
+    "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-r3.json",
+    "sha256": "425eb326ba0ddab4a01d324377a7f83915fb4b9a930ae96aaedc48d68c88252f",
+    "status": "PRESERVED_NOT_PROMOTED",
+    "reason": "Actual independent all-four-outcome execution review arrived after the source-only candidate was frozen."
+  },
+  "testRepairLineage": {
+    "originalActiveTestSha256": "673ab9ce00e35886ab6183db8434957367505f97b505d5db7381a8bc5f599979",
+    "reviewedR1Sha256": "b1996764bd6fdead6c072300ed82489905a7d7ed1702418c1473f09d6a98c168",
+    "reviewedR1PeerGateSha256": "bb104757ed99e33c18bd9c34bc503dafb6f48352f0ac170a6a38119fb5eba862",
+    "unapprovedR2DraftSha256": "fec8c0511c557cbcde3558fa3b9d6dff177b9a7248a32bdf73c80611e4a8e6d3",
+    "unapprovedR2FindingSha256": "30957406e8243d588f51d9163f7f311770cca511424ea2a168eb66c3b36c8bea",
+    "unapprovedR2Status": "Shared helper free validatorPath found by peer before application/execution; draft preserved, never applied or tested.",
+    "approvedFinalTestSha256": "d200ac01b293ae4812a5d6cff3300002b9ab866693b57d38c38a82ea6016528b",
+    "approvedFinalPeerGateSha256": "844b6a66eb8d5c645e915588d496fad74d70c0355dba1ab408212b0d851f832d",
+    "scope": "Explicit current24Oct four operational discrepancy receipts; independently checked BigInt counts, signed masses, current source/input/run anchors and scalar supports. Preserve ordinary exact equality for all equal counts, all legacy branches/BH/sign-flip/tolerances. Add only independently audited Kan23 unknown fieldwork ID. No app/runtime/model/statistical output changes.",
+    "actualRuns": [
+      {
+        "stage": "original",
+        "passed": 401,
+        "failed": 3,
+        "stdoutSha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe",
+        "executionSha256": "2326e22cf95d324b1d1257852ed03cfeafdd94619d79ff0e71266adc04a77185"
+      },
+      {
+        "stage": "reviewed-r1",
+        "passed": 403,
+        "failed": 1,
+        "stdoutSha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a",
+        "executionSha256": "12ae387573eb6f78abfcd4aaa7159f43c398c97963d09b82cc2a0c002bf148a5",
+        "failure": "Yashar fourth operational discrepancy became reachable after bloc compatibility passed."
+      },
+      {
+        "stage": "reviewed-r2-r1",
+        "passed": 404,
+        "failed": 0,
+        "stdoutSha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+        "executionSha256": "91347e486b398ce2e35dd7e1995a06de618a3c0303e7c10f4e91484950e15874"
+      }
+    ],
+    "canonicalFinalTestResultsSha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+    "canonicalPromotionSha256": "29cc33c3eb558307d4dcdec5fb1e1abb87b6d75b1e62f228774ef837a2635367",
+    "failedNominalFinalBytesAndOriginalReceiptPreserved": true,
+    "oldReceiptPathIsHistoricalAndNotRelabeled": true,
+    "testDeclarationsAndToleranceUnchanged": true,
+    "rawTestLogPrivacyScope": "Only test results/assertions and authorized project validator/file paths. No credentials, private browser state, raw publisher article text or personal correspondence."
+  },
+  "completionSourceLineage": {
+    "originalPath": "scripts/complete-poll-update-2026-10-24.py",
+    "originalSha256": "30f66c843558912cbe5e3411e5f9ff39859ff1e03973365860c238717b85305e",
+    "effectivePath": "scripts/complete-poll-update-2026-10-24-r1.py",
+    "effectiveSha256": "ef8bd0bd33f6428d89227a779981fbe68a25cd7f07cf6e1f0ce9bd7e9817ba37",
+    "sourceGateSha256": "3957baeddf0027f46a908cbfbde68231be4cb6746ee45a1792f79ae25f547141",
+    "proposalSha256": "05bb849ae154f7ce3b39a77a33410f65eaaeb1819b2d514f181efc40ad68491c",
+    "diffSha256": "195b7beca30eb3eb3248ee930c47ad64290165837b3ca6b491734d5a57208450",
+    "scope": "Only append existing reviewed primary-summary materialSourceCaveats and source-coverage limitations to sourceAccessLimitations, preserving legacy lists and exact-string deduplication. All17 actual entries are nonempty strings. All other completion gates unchanged.",
+    "completionNotExecutedByThisTask": true
+  },
+  "buildModelAndTestEvidence": {
+    "postPreservationSha256": "2b5d7cd59844ce5cdc16f305cfd6e2a9f1897513b0210399a5febbfba1c54180",
+    "officialSourceBuildPassed": true,
+    "snapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+    "compiledHtmlSha256": "3410540bf4f99ba6528e523494d2b2eba32328463e81c97c77ccd7b7317bb7e8",
+    "actualModelsAndIndependentReviewPassed": true,
+    "all404TestsPassed": true,
+    "testFailureLineagePreserved": true,
+    "authorRuntimeFrozenWeightsExactHelpersPreserved": true,
+    "packageStagePushAndCompletionNotAttested": true
+  }
+}

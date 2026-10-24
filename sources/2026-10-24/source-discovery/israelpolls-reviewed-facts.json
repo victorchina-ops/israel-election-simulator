@@ -1,0 +1,55 @@
+{
+  "status": "ACTUAL_BROWSER_REVIEW",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:10:41.044924+00:00",
+  "profile": "https://x.com/IsraelPolls?s=20",
+  "profileOpenedDirectly": true,
+  "graphicsAndHistoricalTablesActuallyViewed": true,
+  "evidence": [
+    {
+      "file": "artifacts/poll-checks/2026-10-24/source-israelpolls/latest-polls-table.local-only.png",
+      "sourceUrl": "https://x.com/IsraelPolls/status/2113873570996642001/photo/1",
+      "assetUrl": "https://pbs.twimg.com/media/HVX8yVJWMAA0gp_?format=png&name=900x900",
+      "sha256": "3f31829699027dc4d91adeb00fb0c3cd9bb145118214ab659fab294992ce3d53",
+      "bytes": 292491,
+      "actuallyPixelInspected": true,
+      "localOnly": true
+    },
+    {
+      "file": "artifacts/poll-checks/2026-10-24/source-israelpolls/direct-polls-history.local-only.png",
+      "sourceUrl": "https://x.com/IsraelPolls/status/2113735378805149903/photo/1",
+      "assetUrl": "https://pbs.twimg.com/media/HVV_H1MWkAAky7q?format=png&name=medium",
+      "sha256": "a5977d0da5fdc809eb96cb99273d8488205abd73b8acb7a88ad702cc544110eb",
+      "bytes": 45244,
+      "actuallyPixelInspected": true,
+      "localOnly": true
+    }
+  ],
+  "summaryPostDate": "2026-10-24",
+  "summaryIsNewPoll": false,
+  "newObservationPublicationDates": [
+    "2026-10-23"
+  ],
+  "confirmedNewSources": [
+    "N12/Midgam",
+    "Channel13/HaMadad",
+    "Kan11/Kantar",
+    "i24/DirectPolls"
+  ],
+  "stillCurrentPriorSources": {
+    "Lazar/Maariv": "2026-10-23",
+    "Tatica/Zman": "2026-10-22",
+    "Maagar/Channel16": "2026-10-22",
+    "NEXTDATA/Channel14": "2026-10-22"
+  },
+  "summaryVectorsMatchPrimaryCandidates": true,
+  "observedCoalitionSeats": {
+    "N12": 50,
+    "Channel13": 50,
+    "Kan11": 50,
+    "i24": 59
+  },
+  "historicalTableLatestObservation": "i24/DirectPolls23Oct2026",
+  "rawPrivateBrowserDOMPublished": false,
+  "repostsAndSummariesDeduplicated": true
+}

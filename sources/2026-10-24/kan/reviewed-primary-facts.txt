@@ -1,0 +1,18 @@
+Original publisher numerical factual extract; rewritten, not an article reproduction.
+Publication date:2026-10-23. Checked:2026-10-24.
+Source:https://www.kan.org.il/content/kan-news/politic/1112122/
+Pollster:קנטאר — דודו חסיד
+Seats:{"yashar": 22, "likud": 20, "beyachad": 14, "joint": 9, "democrats": 8, "otzma": 8, "yisrael_beiteinu": 8, "utj": 8, "shas": 7, "rz_zehut": 7, "raam": 5, "hendel": 4, "winter": 0, "haredi_public": 0}
+Exact published below-threshold percentages:{"winter": 2.9}
+Published censored bounds:{}
+Blocs:{"coalition": 50, "opposition": 52, "arab_parties": 14, "hendel": 4}
+Sample:1106; fieldwork:None to None; method:None; MOE:3.0%; confidence:None.
+The final Kan publication is23Oct; original DOM meta datePublished19:21:20+03:00, visible updated23Oct22:42. Updated timestamp precision is minute only.
+The full120-seat vector agrees between primary article and its linked live native chart.
+Winter2.9% is an exact published vote share, not model crossing probability. HP and colorblack fail but exact percentages are absent. Noam/gantz/israel_first are not reported.
+Native chart footer says1106respondents and maximum sampling error3.0%; fieldwork and method remain unknown.
+HTTP original article/home requests returned403 and web reader returned no content. The actual Chrome homepage, politics index, original article and its native linked Infogram were successfully read.
+The primary native Infogram reports1106respondents. A discovery-only aggregator had1006; it is not authoritative and is not used.
+Calendar fieldwork dates, sampling method, population details and confidence level are not provided in the article or the native chart; retain null and exclude this observation from strict fieldwork trend tests.
+Native Infogram thumbnail is cropped; all12passing seats and1106/MOE3.0footer were separately inspected on actual live native chart pixels and accessibility text.
+The primary article compares to18Oct Kan; the operational current institute observation being replaced is22Oct Hayom, which is separately preserved.

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-24T10:07:21.295650+00:00",
+  "status": "PASS_PRIMARY_NUMERICAL_SOURCE_REVIEW",
+  "pollId": "direct_polls_2026-10-23",
+  "seatTotal": 120,
+  "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+  "factsSha256": "62a627c2d433604435305252144547411b3014f689db30b59aee51175e02a578",
+  "originalGraphicsPixelInspected": true,
+  "graphicScope": "both full i24 original graphics",
+  "evidenceFiles": [
+    {
+      "fileName": "original-article.local-only.html",
+      "sha256": "d0536978a1589b8696f4f8f0cd9d3b112f994229c6a23a326f115dea5e821e19",
+      "bytes": 187009,
+      "localOnly": true
+    },
+    {
+      "fileName": "original-polls-index.local-only.html",
+      "sha256": "0f2d610d785c296c56b32bcd23057e6a3a11a9e24a8903bfb5003b56f7131446",
+      "bytes": 417848,
+      "localOnly": true
+    },
+    {
+      "fileName": "native-chart-1.jpeg",
+      "sha256": "3252d405e5432022f67629f2175f1e11b5ebdbd8b9ebbfe2c8d4e53d11df8ede",
+      "bytes": 122910,
+      "localOnly": false
+    },
+    {
+      "fileName": "native-chart-3.jpeg",
+      "sha256": "a9799667d55f764ef8e480ea07b80f8fce2a7f580d88fe7247f9d6cb892595a9",
+      "bytes": 73314,
+      "localOnly": false
+    }
+  ],
+  "limitations": [
+    "The reader omits article timestamps; original HTML JSON-LD and time datetime establish23Oct20:48:32Israel, independently corroborated by current primary poll index.",
+    "The four named small-list shares are only less than1% bounds; israel_first and gantz are not reported and remain missing.",
+    "Passing-party exact vote percentages, panel provider and undecided details were not published."
+  ],
+  "exactMissingValuesNotImputed": true,
+  "canonicalDataChanged": false
+}

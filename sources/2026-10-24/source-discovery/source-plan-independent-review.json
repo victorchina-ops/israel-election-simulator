@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:19:16.146937+00:00",
+  "reviewer": "/root/oct24_n12_c13_scan",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "reviewInputSha256": "78d770cf329b37a4c3c474882ce1892afd244bdff9164095b1c10b425454dd0b",
+  "checkpointManifestSha256": "3574c9a511b2137b96ea9c2e7a01a5642ed35df5597f2866ddff5bd402272dbe",
+  "candidateHashes": {
+    "midgam_geva": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+    "hamadad_consortium": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+    "kantar": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+    "direct_polls": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+  },
+  "expectedCountsIndependentlyDerived": {
+    "active": 8,
+    "history": 147,
+    "strictCandidates": 76,
+    "strictEligible": 64,
+    "strictWithoutChannel14": 50,
+    "fieldworkExcluded": 12
+  },
+  "baselineHistoricalRowsPreserved": 143,
+  "frozenFileHashesChecked": 4128,
+  "publicSourceFileCount": 19,
+  "publicFactualAppendixCount": 4,
+  "publicFiles": [
+    {
+      "folder": "n12",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-n12/n12-reviewed-facts-r2.txt",
+      "publicName": "n12-reviewed-facts-r2.txt",
+      "sha256": "e5d5a477672188cfc12593a24c1652fa0a8cf4723f2f5b8315ff312ec1098aff"
+    },
+    {
+      "folder": "n12",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-n12/n12-verification-summary-r2.json",
+      "publicName": "n12-verification-summary-r2.json",
+      "sha256": "c896034858328f485081cee713df953f3a063ff1f190a68b982092546ad6ac94"
+    },
+    {
+      "folder": "n12",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-n12/reviewed-primary-candidate-r2.json",
+      "publicName": "frozen-reviewed-candidate.json",
+      "sha256": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba"
+    },
+    {
+      "folder": "n12",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-n12/original-embedded-poll.png",
+      "publicName": "original-embedded-poll.png",
+      "sha256": "eeca7e8aed3d10b46019fe7316856ceae743775c4b215a597b7de0134e87a488"
+    },
+    {
+      "folder": "n12",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-n12/original-bloc-chart.png",
+      "publicName": "original-bloc-chart.png",
+      "sha256": "c8c6343b2741a3e5af8c7a1d897ff076f7cfa3e70eb6af4b311c638544f9269e"
+    },
+    {
+      "folder": "c13",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-c13/c13-reviewed-facts-r2.txt",
+      "publicName": "c13-reviewed-facts-r2.txt",
+      "sha256": "8dd41e0d24f6c2047fcf2ba727e078748d36f15d245a68d9dd9ee64b04911013"
+    },
+    {
+      "folder": "c13",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-c13/c13-verification-summary-r2.json",
+      "publicName": "c13-verification-summary-r2.json",
+      "sha256": "ed687852f609b371c342d7037145d92c974583b042777748eab4463a1b229c78"
+    },
+    {
+      "folder": "c13",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-c13/reviewed-primary-candidate-r2.json",
+      "publicName": "frozen-reviewed-candidate.json",
+      "sha256": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60"
+    },
+    {
+      "folder": "c13",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-c13/original-publisher-mandates.webp",
+      "publicName": "original-publisher-mandates.webp",
+      "sha256": "19043b7fd61f4cf2d2cb73f9b29d8d03a0165b020d138a12f62eae81921d3cb7"
+    },
+    {
+      "folder": "kan",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-kan/reviewed-primary-candidate.json",
+      "publicName": "frozen-reviewed-candidate.json",
+      "sha256": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03"
+    },
+    {
+      "folder": "kan",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-kan/reviewed-primary-facts.txt",
+      "publicName": "reviewed-primary-facts.txt",
+      "sha256": "a28feff69c73290f584559f4cc41df696557e5ec1bd7428a28cf6859e103e50f"
+    },
+    {
+      "folder": "kan",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-kan/verification-summary.json",
+      "publicName": "verification-summary.json",
+      "sha256": "97b9f4001b200055af792c00ab61d0af17729c1a116adeaf999791d574d4c832"
+    },
+    {
+      "folder": "kan",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-kan/native-graphic-source-receipts.json",
+      "publicName": "native-graphic-source-receipts.json",
+      "sha256": "827a629067e4ad3c042a4996dc7b64026a74819376457da14a74d18d392651bb"
+    },
+    {
+      "folder": "i24",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24/reviewed-primary-candidate.json",
+      "publicName": "frozen-reviewed-candidate.json",
+      "sha256": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+    },
+    {
+      "folder": "i24",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24/reviewed-primary-facts.txt",
+      "publicName": "reviewed-primary-facts.txt",
+      "sha256": "62a627c2d433604435305252144547411b3014f689db30b59aee51175e02a578"
+    },
+    {
+      "folder": "i24",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24/verification-summary.json",
+      "publicName": "verification-summary.json",
+      "sha256": "2110ca868bca8b22235789b0ec6262496cbf17154c3136ac18e353d45a8f0a74"
+    },
+    {
+      "folder": "i24",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24/native-graphic-source-receipts.json",
+      "publicName": "native-graphic-source-receipts.json",
+      "sha256": "71774313cba44d208451468238da5dec36c7c7e3714d732a4c6c1e899312a524"
+    },
+    {
+      "folder": "i24",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24/native-chart-1.jpeg",
+      "publicName": "native-chart-1.jpeg",
+      "sha256": "3252d405e5432022f67629f2175f1e11b5ebdbd8b9ebbfe2c8d4e53d11df8ede"
+    },
+    {
+      "folder": "i24",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24/native-chart-3.jpeg",
+      "publicName": "native-chart-3.jpeg",
+      "sha256": "a9799667d55f764ef8e480ea07b80f8fce2a7f580d88fe7247f9d6cb892595a9"
+    },
+    {
+      "folder": null,
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-coverage-reviewed.json",
+      "publicName": "source-coverage-reviewed.json",
+      "sha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3"
+    },
+    {
+      "folder": null,
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-israelpolls/reviewed-facts.json",
+      "publicName": "israelpolls-reviewed-facts.json",
+      "sha256": "c4f297f60c5269f2ff0026918191e40c59169ec745ed5b42530692e6cea617fe"
+    },
+    {
+      "folder": null,
+      "sourcePath": "artifacts/poll-checks/2026-10-24/other-primary-scan/reviewed-scan-summary.json",
+      "publicName": "other-primary-reviewed-scan.json",
+      "sha256": "187276bf7be6a43301758d23a61dacfc47d740f0c503c635f1cd0392272fd3a6"
+    },
+    {
+      "folder": null,
+      "sourcePath": "artifacts/poll-checks/2026-10-24/independent-n12-c13-source-review.json",
+      "publicName": "independent-n12-c13-source-review.json",
+      "sha256": "20f5c8663a4c9e09d3b05770988836ab97c2053f01af51a955d154fbf4621e3b"
+    }
+  ],
+  "fieldworkProofs": [
+    {
+      "pollId": "midgam_geva_2026-10-23",
+      "file": "artifacts/poll-checks/2026-10-24/source-n12/original-article-local-only.html",
+      "sha256": "c8c8536f6e5834d7f36ddd96055cf16fca4fe45cc6c1e4e367f21f847630e2ac",
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "quoteWordCount": 4
+    },
+    {
+      "pollId": "hamadad_consortium_2026-10-23",
+      "file": "artifacts/poll-checks/2026-10-24/source-c13/primary-web-reader-local-only.txt",
+      "sha256": "91ccba8c8983bf9e72a1cc255784d2309fe2cd43be39cb4d58e3d7a7d1bc3681",
+      "sourceUrl": "https://themadad.com/english/madad-poll-october-23-2026/",
+      "quoteWordCount": 5
+    },
+    {
+      "pollId": "direct_polls_2026-10-23",
+      "file": "artifacts/poll-checks/2026-10-24/source-i24/original-article.local-only.html",
+      "sha256": "d0536978a1589b8696f4f8f0cd9d3b112f994229c6a23a326f115dea5e821e19",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "quoteWordCount": 4
+    }
+  ],
+  "rawProofFilesRemainLocalOnly": true,
+  "sourceLimitationsPreserved": [
+    "Kan original HTTP403 and empty reader recovered in actualChrome; original article/nativeInfogram read. Absolute fieldwork,method,population details,confidence unknown; exclude only fromstrict fieldwork trend tests.",
+    "Kan nativechart n1106 overrides unauthoritative aggregator1006; savedpartialthumbnail stayslocal, full live chart actually inspected.",
+    "C13 directHTTP403 and pollsterHTTP302 retained asblocked; originalpublisher and primaryEnglishpollster reader succeeded. ArchivedHebrewpollster reader failed and isnot described assuccessful.",
+    "C13 current23Octvalues agree; conflicting historicalcomparison captions/tables do not silentlyreplace separately archived21Octdata.",
+    "N12 original publishedMOE4.4% retained withactualn1018; no inferredreplacement. Chartopposition70 includes14Arabseats; exclusive siteopposition56.",
+    "i24 four namedsmall lists onlyless-than1%bounds; unreportedGantz/IsraelFirst staymissing; bounds are not exact0 or1.",
+    "C16 current primaryhome/program/news indexes recovered inChrome; latest mainnews22Oct. Not every video frame reviewed; no newfull poll verified.",
+    "Summary/repostdates24Oct are not newobservations; all4new polls published23Oct."
+  ],
+  "canonicalDataChanged": false,
+  "publicFilesChanged": false,
+  "checks": [
+    {
+      "id": "exact-plan-input-hashes",
+      "status": "PASS"
+    },
+    {
+      "id": "frozen-baseline-and-all-files",
+      "status": "PASS"
+    },
+    {
+      "id": "four-reviewed-source-candidates",
+      "status": "PASS"
+    },
+    {
+      "id": "dates-not-reposts",
+      "status": "PASS"
+    },
+    {
+      "id": "unique-observations-and-replacements",
+      "status": "PASS"
+    },
+    {
+      "id": "fieldwork-raw-proof-hashes",
+      "status": "PASS"
+    },
+    {
+      "id": "derived-dynamic-cohort-counts",
+      "status": "PASS"
+    },
+    {
+      "id": "missing-vs-zero-vs-bounds",
+      "status": "PASS"
+    },
+    {
+      "id": "19-source-plus4-factual-whitelist",
+      "status": "PASS"
+    },
+    {
+      "id": "no-private-browser-or-full-articles",
+      "status": "PASS"
+    },
+    {
+      "id": "mandatory-israelpolls-and-primary-index-coverage",
+      "status": "PASS"
+    }
+  ]
+}

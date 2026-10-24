@@ -1,0 +1,10 @@
+{
+  "status": "PROMOTED_REVIEWED_APPENDIX",
+  "asOf": "2026-10-24",
+  "promotedAtUtc": "2026-10-24T12:27:42.596640+00:00",
+  "activeAppendixSha256": "9d3e9d83719ab1559409813b8f5c53ea660db531f1f565d5f6118ea3acadaecb",
+  "reviewSha256": "575affc818c5e9566e595d412a5846cc25e86463c6907ff8cb4525ef281763ec",
+  "previousPreservedSha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78",
+  "candidateCreationMetadataRetainedUnchanged": true,
+  "packageOrOtherRuntimeGatesNotAttested": true
+}

@@ -1,0 +1,84 @@
+--- validate-ingestion-2026-10-24.py
++++ validate-ingestion-2026-10-24-r1.py
+@@ -115,7 +115,54 @@
+     FILES = ['data/current-polls.json','data/poll-history.json','data/sources.json',
+              'data/survey-documents-2026-09-14.json'] + list(dict.fromkeys(s['audit'] for s in EXPECTED.values()))
+ 
++ORIGINAL_VALIDATOR = ROOT / "scripts/validate-ingestion-2026-10-24.py"
++ORIGINAL_VALIDATOR_SHA256 = "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588"
++COMPATIBILITY_DIR = ART / "ingestion-compatibility-r1"
++ORIGINAL_FAILURE_STDERR_SHA256 = "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97"
++
++
++def expected_named_bound(source):
++    # Preserve source-published censoring without converting it to an exact share.
++    bound = source.get("publishedBounds")
++    if bound is None and source.get("pctUpperBound") is not None:
++        bound = {"max": source["pctUpperBound"], "maxExclusive": source.get("maxExclusive", False)}
++    if bound is None:
++        return None
++    assert source.get("pct") is None, "A named censored share must not become an exact percentage"
++    assert isinstance(bound, dict) and bound.get("maxExclusive") is True
++    upper = bound.get("max")
++    assert isinstance(upper, (int, float)) and not isinstance(upper, bool) and 0 < upper <= 100
++    assert bound.get("min", 0) == 0, "Unsupported named lower-bound semantics require a separate review"
++    return "פחות מ־" + str(upper) + "%"
++
++
++def compatibility_gate():
++    assert sha(ORIGINAL_VALIDATOR) == ORIGINAL_VALIDATOR_SHA256, "Original validator must remain unchanged"
++    failed = COMPATIBILITY_DIR / "original-validator-reproduced-failure.stderr.txt"
++    assert sha(failed) == ORIGINAL_FAILURE_STDERR_SHA256
++    reproduction = read(COMPATIBILITY_DIR / "original-validator-failure-reproduction.json")
++    assert reproduction["status"] == "ORIGINAL_FAILURE_REPRODUCED_BEFORE_FIX" and reproduction["exitCode"] == 1
++    assert reproduction["originalValidatorSha256"] == ORIGINAL_VALIDATOR_SHA256
++    assert reproduction["stderrSha256"] == ORIGINAL_FAILURE_STDERR_SHA256
++    peer_path = COMPATIBILITY_DIR / "peer-source-review.json"
++    peer = read(peer_path)
++    assert peer["status"] == "PASS"
++    assert peer["originalValidatorSha256"] == ORIGINAL_VALIDATOR_SHA256
++    assert peer["effectiveValidatorSha256"] == sha(Path(__file__))
++    assert peer["sourcePlanSha256"] == sha(ART / "source-plan.json")
++    assert peer["originalFailureStderrSha256"] == ORIGINAL_FAILURE_STDERR_SHA256
++    return {"originalValidatorContractSha256": ORIGINAL_VALIDATOR_SHA256,
++            "effectiveValidatorPath": "scripts/validate-ingestion-2026-10-24-r1.py",
++            "effectiveValidatorSha256": sha(Path(__file__)),
++            "peerSourceReviewPath": peer_path.relative_to(ROOT).as_posix(),
++            "peerSourceReviewSha256": sha(peer_path),
++            "originalFailureStderrPath": failed.relative_to(ROOT).as_posix(),
++            "originalFailureStderrSha256": ORIGINAL_FAILURE_STDERR_SHA256,
++            "scope": "Named exact percentages and source-published exclusive upper bounds remain separate; no source, canonical, model or statistical changes."}
++
++
+ def main():
++    compatibility = compatibility_gate()
+     configure_expected()
+     manifest = read(BEFORE / "manifest.json")
+     plan = read(ART / "source-plan.json")
+@@ -142,7 +189,7 @@
+     assert receipt["preflightSha256"] == sha(ART / "ingestion-preflight.json")
+     preflight = read(ART / "ingestion-preflight.json")
+     assert receipt["implementationSha256"] == preflight["implementationSha256"] == sha(ROOT / "scripts/ingest-polls-2026-10-24.py")
+-    assert receipt["independentValidatorSha256"] == preflight["independentValidatorSha256"] == sha(Path(__file__))
++    assert receipt["independentValidatorSha256"] == preflight["independentValidatorSha256"] == ORIGINAL_VALIDATOR_SHA256
+     assert set(receipt["changedCanonicalFiles"]) == set(FILES)
+     for relative,digest in receipt["changedCanonicalFiles"].items():
+         assert sha(ROOT / relative) == digest
+@@ -217,7 +264,7 @@
+                 assert row["rawPct"] == poll["reportedPercentages"].get(row["partyId"])
+                 assert row["seats"] == poll["seats"].get(row["partyId"])
+         assert [row for row in report["tables"][0]["rows"] if row["partyId"] is None] == [
+-            {"party": p["name"], "partyId": None, "seats": p.get("seats"), "rawPct": p.get("pct"), "publishedBounds": None}
++            {"party": p["name"], "partyId": None, "seats": p.get("seats"), "rawPct": p.get("pct"), "publishedBounds": expected_named_bound(p)}
+             for p in poll.get("unmodelledNamedParties", [])], "Named small-party facts must remain visible and separate"
+         assert "other" not in poll["percentages"] or "other" in poll["reportedPercentages"] or "other" in poll.get("modelOnlyPercentageIds", []), "Other requires published proof or explicit model-only named-list mapping"
+         for party in read(ROOT / "data/parties.json"):
+@@ -291,7 +338,7 @@
+         "frozenEvidenceFilesPreserved":len(manifest["frozenEvidenceHashes"]),"conditionalAndArtisticFilesPreserved":len(manifest["frozenConditionalAndArtisticHashes"]),
+         "reviewedPythonIntegerHelpersPreserved":manifest["reviewedExactHelpers"],"historicalWeightsUnchanged":True,
+         "previousRawHistoryPreserved":True,"publicationAndAuditDatesSeparated":True,"noNumericalOrDashboardMutation":True,
+-        "validatorSha256":sha(Path(__file__))}
++        "validatorSha256":sha(Path(__file__)), "validatorCompatibilityAudit":compatibility}
+     immutable_write(ART / "ingestion-validation.json",receipt_out)
+     print(json.dumps(receipt_out,ensure_ascii=False,indent=2))
+ 

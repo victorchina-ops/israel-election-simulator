@@ -1,0 +1,187 @@
+{
+  "status": "PASS_WITH_RECORDED_SOURCE_LIMITATIONS",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T10:06:50.886570+00:00",
+  "pollId": "hamadad_consortium_2026-10-23",
+  "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+  "primaryPublisherRead": true,
+  "primaryReadChannel": "original-publisher-web-reader",
+  "primaryPollsterRead": true,
+  "primaryPollsterUrls": [
+    "https://themadad.com/english/madad-poll-october-23-2026/"
+  ],
+  "directPrimaryHomepageAndIndexesChecked": true,
+  "primaryIndexesChecked": [
+    "https://13tv.co.il/",
+    "https://13tv.co.il/news/",
+    "https://13tv.co.il/news/politics/",
+    "https://13tv.co.il/news/politics/politics/",
+    "https://themadad.com/category/%D7%A1%D7%A7%D7%A8-%D7%94%D7%9E%D7%93%D7%93/"
+  ],
+  "publicationDate": "2026-10-23",
+  "publicationTime": "21:10",
+  "publicationEvidencePointers": [
+    "C13 primary politics index relative yesterday21:10 during24October check",
+    "Original numerical graphic explicitly23.10.26",
+    "HaMadad pollster report and category date23October"
+  ],
+  "fieldworkStart": "2026-10-22",
+  "fieldworkEnd": "2026-10-23",
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://themadad.com/english/madad-poll-october-23-2026/",
+  "fieldworkProofPointer": "Archived original HaMadad English reader report line14: field dates October22–23,2026,1875respondents,±2.3points,95%confidence.",
+  "fieldworkProofQuote": null,
+  "fieldworkProofQuotedWords": 0,
+  "seats": {
+    "yashar": 22,
+    "likud": 19,
+    "beyachad": 14,
+    "democrats": 10,
+    "joint": 9,
+    "rz_zehut": 8,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "otzma": 8,
+    "shas": 7,
+    "raam": 7,
+    "winter": 0,
+    "hendel": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "cataloguePartySeatVector": {
+    "yashar": 22,
+    "likud": 19,
+    "beyachad": 14,
+    "democrats": 10,
+    "yisrael_beiteinu": 8,
+    "utj": 8,
+    "joint": 9,
+    "shas": 7,
+    "otzma": 8,
+    "rz_zehut": 8,
+    "raam": 7,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "reportedPercentages": {
+    "winter": 3.1,
+    "hendel": 3.0,
+    "haredi_public": 1.3
+  },
+  "reportedBelowThresholdPercentages": {
+    "winter": 3.1,
+    "hendel": 3.0,
+    "haredi_public": 1.3
+  },
+  "sampleSize": 1875,
+  "reportedMarginOfErrorPct": 2.3,
+  "reportedMarginOfErrorConfidencePct": 95,
+  "factualExtractFileName": "c13-reviewed-facts-r2.txt",
+  "factualExtractSha256": "8dd41e0d24f6c2047fcf2ba727e078748d36f15d245a68d9dd9ee64b04911013",
+  "sourceFileReceipts": [
+    {
+      "file": "original-article-http403-local-only.html",
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+      "status": 403,
+      "sha256": "ba620d6fb60ba76646785056141e632369de55255991e4d3cdbe39b97246c65c",
+      "bytes": 433,
+      "contentType": "text/html",
+      "location": null,
+      "checkedAtUtc": "2026-10-24T10:03:36.818546+00:00",
+      "rawSourceLocalOnly": true,
+      "publicRelease": false
+    },
+    {
+      "file": "pollster-he-http302-local-only.html",
+      "sourceUrl": "https://themadad.com/%D7%A1%D7%A7%D7%A8-%D7%94%D7%9E%D7%93%D7%93-%D7%A1%D7%A7%D7%A8-%D7%90%D7%97%D7%A8%D7%95%D7%9F-23-%D7%91%D7%90%D7%95%D7%A7%D7%98%D7%95%D7%91%D7%A8-2026/",
+      "status": 302,
+      "sha256": "3c7ab1477ca0988a60298c84f526d20b3272ac725cc74c51634aa9e1b68de3b7",
+      "bytes": 241,
+      "contentType": "text/html; charset=iso-8859-1",
+      "location": "//abuse.spd.co.il",
+      "checkedAtUtc": "2026-10-24T10:03:37.207598+00:00",
+      "rawSourceLocalOnly": true,
+      "publicRelease": false
+    },
+    {
+      "file": "pollster-en-http302-local-only.html",
+      "sourceUrl": "https://themadad.com/english/madad-poll-october-23-2026/",
+      "status": 302,
+      "sha256": "3c7ab1477ca0988a60298c84f526d20b3272ac725cc74c51634aa9e1b68de3b7",
+      "bytes": 241,
+      "contentType": "text/html; charset=iso-8859-1",
+      "location": "//abuse.spd.co.il",
+      "checkedAtUtc": "2026-10-24T10:03:37.505550+00:00",
+      "rawSourceLocalOnly": true,
+      "publicRelease": false
+    },
+    {
+      "file": "original-publisher-mandates.webp",
+      "sourceUrl": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1792771876/uploads/2026/905415960.webp",
+      "status": 200,
+      "sha256": "19043b7fd61f4cf2d2cb73f9b29d8d03a0165b020d138a12f62eae81921d3cb7",
+      "bytes": 184430,
+      "contentType": "image/webp",
+      "location": null,
+      "checkedAtUtc": "2026-10-24T10:03:37.575072+00:00",
+      "rawSourceLocalOnly": false,
+      "publicRelease": true
+    }
+  ],
+  "localPrimaryReaderReceipt": {
+    "fileName": "primary-web-reader-local-only.txt",
+    "sha256": "91ccba8c8983bf9e72a1cc255784d2309fe2cd43be39cb4d58e3d7a7d1bc3681",
+    "publicRelease": false
+  },
+  "originalGraphicVisuallyReviewed": true,
+  "sourceDiscrepancies": [
+    {
+      "field": "historicalComparisonDate",
+      "pollsterHebrewCaption": "Wednesday22.10",
+      "actualWednesdayDate": "2026-10-21",
+      "previousIndexPublicationDate": "2026-10-21",
+      "resolution": "Treat23October current observation only; comparison caption is not a new22October poll."
+    },
+    {
+      "field": "publishedPreviousWednesdayComparison",
+      "pollsterNewHistoricalHendelSeats": 0,
+      "pollsterNewHistoricalHendelPct": 3.0,
+      "canonicalArchived21OctoberHendelSeats": 4,
+      "canonicalArchived21OctoberHendelPct": 3.6,
+      "pollsterNewHistoricalOtzmaSeats": 8,
+      "canonicalArchived21OctoberOtzmaSeats": 7,
+      "resolution": "Do not retroactively replace separately archived21October source values; current23October values agree between publisher and pollster."
+    },
+    {
+      "field": "primeMinisterPreferenceNetanyahu",
+      "publisherPct": 27,
+      "pollsterPct": 37,
+      "resolution": "Non-mandate conflict retained; not used for survey vote shares, seats or model inputs."
+    }
+  ],
+  "canonicalDataChanged": false,
+  "fullArticlePublished": false,
+  "sourceReadLimitations": [
+    "Direct article HTTP returned403; original publisher web reader succeeded.",
+    "Direct HaMadad HTTP redirects to abuse.spd.co.il; the archived English original web reader succeeded. The Hebrew URL attempt in that archived reader receipt failed and is not treated as a successful archived read.",
+    "Current numeric graphic visually inspected; below-threshold percentages verified in original publisher prose, not shown in that graphic."
+  ],
+  "originalGraphicFileName": "original-publisher-mandates.webp",
+  "originalGraphicSha256": "19043b7fd61f4cf2d2cb73f9b29d8d03a0165b020d138a12f62eae81921d3cb7",
+  "originalGraphicSourceUrl": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1792771876/uploads/2026/905415960.webp",
+  "originalGraphicVerificationScope": [
+    "all11passingPartySeats",
+    "publicationDate23Oct2026",
+    "bloc50_54_16"
+  ],
+  "pixelVerifiedPercentagePartyIds": [],
+  "hebrewReaderArchivedSuccess": false,
+  "englishReaderArchivedSuccess": true,
+  "archivedReaderProvenanceCorrection": "The retained reader bundle includes a failed Hebrew request and a successful English original report. Fieldwork and confidence are established by English only."
+}

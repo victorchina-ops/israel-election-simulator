@@ -1,0 +1,369 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "snapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "unchangedCalibrationSha256": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+  "reviewScriptSha256": "e7673e39ba8e9d81675af6cd332ae76bb30e8681fc1835ae9d7a3d505a911cac",
+  "siteDefaultSimilarityEnabled": false,
+  "preferredReportingSimilarityEnabled": true,
+  "allReviewedSourceCandidatesBound": true,
+  "actualActiveInstitutes": 7,
+  "channel14ExcludedBeforeMatrixSelection": true,
+  "historicalQualityBaseUnchangedAcrossAllFourReplays": true,
+  "oneActiveSubmatrixDiscountIndependentlyRecomputed": true,
+  "covarianceInformationCorrectionIndependentlyRecomputed": true,
+  "winterBloc": "coalition",
+  "hendelBloc": "unassigned",
+  "worldInvariantScope": "The unchanged reviewed trial loop accumulates its invariant over all10000 trials; this independent review checks all retained6 illustrative worlds per replay plus all marginal histogram/joint counts and aggregate120 accounting. Full10000 vectors are not stored or claimed independently inspected.",
+  "resultChecks": [
+    {
+      "report": "model-comparison",
+      "phase": "before",
+      "retainedWorldsIndependentlyChecked": 6,
+      "iterationsFlagged120": 10000,
+      "allHistogramAndJointMasses": 10000
+    },
+    {
+      "report": "model-comparison",
+      "phase": "after",
+      "retainedWorldsIndependentlyChecked": 6,
+      "iterationsFlagged120": 10000,
+      "allHistogramAndJointMasses": 10000
+    },
+    {
+      "report": "model-comparison-similarity",
+      "phase": "before",
+      "retainedWorldsIndependentlyChecked": 6,
+      "iterationsFlagged120": 10000,
+      "allHistogramAndJointMasses": 10000
+    },
+    {
+      "report": "model-comparison-similarity",
+      "phase": "after",
+      "retainedWorldsIndependentlyChecked": 6,
+      "iterationsFlagged120": 10000,
+      "allHistogramAndJointMasses": 10000
+    }
+  ],
+  "reports": {
+    "model-comparison": {
+      "sha256": "7884149eeda251ddb03e2ff789658ebe339fce0c945d647b75bb152953eaad37",
+      "phases": {
+        "before": {
+          "replaySha256": "65dbeff1dceb1eb1fb121fd8799a8581e93ee1c7b892eae288dc9aa2ae3d856f",
+          "profileSha256": "7990013c093c539176e747fcd471a26403a3ef0249bc818c10804bfbe74afdc2",
+          "profileAsOf": "2026-10-23",
+          "baseQualityWeights": {
+            "midgam_geva": 0.14179236395909886,
+            "kantar": 0.1503106969417103,
+            "hamadad_consortium": 0.14415022217434256,
+            "lazar": 0.14548016510343192,
+            "maagar_mochot": 0.12996610747273118,
+            "tatika": 0.14415022217434256,
+            "direct_polls": 0.14415022217434256
+          },
+          "finalWeights": {
+            "midgam_geva": 0.14179236395909886,
+            "kantar": 0.1503106969417103,
+            "hamadad_consortium": 0.14415022217434256,
+            "lazar": 0.14548016510343192,
+            "maagar_mochot": 0.12996610747273118,
+            "tatika": 0.14415022217434256,
+            "direct_polls": 0.14415022217434256
+          },
+          "activeSubmatrixDensity": {},
+          "informationInflationFactor": 1.0,
+          "meanSeats": {
+            "a": 50.8901,
+            "b": 52.8698,
+            "arab": 14.1652,
+            "other": 2.0749
+          },
+          "thresholdPassPct": {
+            "winter": 29.94,
+            "hendel": 49.04
+          },
+          "probabilities": {
+            "a": 0.0018,
+            "b": 0.0016,
+            "neither": 0.9966,
+            "coalitionA": 0.0018,
+            "coalitionB": 0.0016,
+            "coalitionNeither": 0.9966,
+            "coalitionBoth": 0
+          },
+          "nEffective": 3616.2932156623915
+        },
+        "after": {
+          "replaySha256": "45a7e6acb4c8e67f6483adfb85b3512404fbf4733c5015a72d82e9d26799aa86",
+          "profileSha256": "08500045938d37cfcb4d7fadae5181348b9f40499386bdddc130aa1c78a9ca68",
+          "profileAsOf": "2026-10-24",
+          "baseQualityWeights": {
+            "midgam_geva": 0.14179236395909886,
+            "kantar": 0.1503106969417103,
+            "hamadad_consortium": 0.14415022217434256,
+            "lazar": 0.14548016510343192,
+            "maagar_mochot": 0.12996610747273118,
+            "tatika": 0.14415022217434256,
+            "direct_polls": 0.14415022217434256
+          },
+          "finalWeights": {
+            "midgam_geva": 0.14179236395909886,
+            "kantar": 0.1503106969417103,
+            "hamadad_consortium": 0.14415022217434256,
+            "lazar": 0.14548016510343192,
+            "maagar_mochot": 0.12996610747273118,
+            "tatika": 0.14415022217434256,
+            "direct_polls": 0.14415022217434256
+          },
+          "activeSubmatrixDensity": {},
+          "informationInflationFactor": 1.0,
+          "meanSeats": {
+            "a": 50.9185,
+            "b": 53.2529,
+            "arab": 14.349,
+            "other": 1.4796
+          },
+          "thresholdPassPct": {
+            "winter": 21.84,
+            "hendel": 35.67
+          },
+          "probabilities": {
+            "a": 0.0004,
+            "b": 0.0009,
+            "neither": 0.9987,
+            "coalitionA": 0.0004,
+            "coalitionB": 0.0009,
+            "coalitionNeither": 0.9987,
+            "coalitionBoth": 0
+          },
+          "nEffective": 5534.936905121986
+        }
+      }
+    },
+    "model-comparison-similarity": {
+      "sha256": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97",
+      "phases": {
+        "before": {
+          "replaySha256": "cbf1d1fd2a77b89486d57d1f53462abc35cb7cdce5576d89591bd0cfddb4c1c6",
+          "profileSha256": "7990013c093c539176e747fcd471a26403a3ef0249bc818c10804bfbe74afdc2",
+          "profileAsOf": "2026-10-23",
+          "baseQualityWeights": {
+            "midgam_geva": 0.14179236395909886,
+            "kantar": 0.1503106969417103,
+            "hamadad_consortium": 0.14415022217434256,
+            "lazar": 0.14548016510343192,
+            "maagar_mochot": 0.12996610747273118,
+            "tatika": 0.14415022217434256,
+            "direct_polls": 0.14415022217434256
+          },
+          "finalWeights": {
+            "midgam_geva": 0.13094941566487678,
+            "kantar": 0.13917549729749115,
+            "hamadad_consortium": 0.14162464142334139,
+            "lazar": 0.13809846352870614,
+            "maagar_mochot": 0.12891568573166987,
+            "tatika": 0.1464800241334845,
+            "direct_polls": 0.1747562722204301
+          },
+          "activeSubmatrixDensity": {
+            "midgam_geva": 2.1874435706790614,
+            "kantar": 2.1817987407988917,
+            "hamadad_consortium": 2.0561939305482526,
+            "lazar": 2.1281513879377516,
+            "maagar_mochot": 2.036629025268743,
+            "tatika": 1.9880371390803093,
+            "direct_polls": 1.6663649573815018
+          },
+          "informationInflationFactor": 1.8470096772566125,
+          "meanSeats": {
+            "a": 51.3035,
+            "b": 52.6122,
+            "arab": 14.0548,
+            "other": 2.0295
+          },
+          "thresholdPassPct": {
+            "winter": 33.94,
+            "hendel": 47.160000000000004
+          },
+          "probabilities": {
+            "a": 0.0045,
+            "b": 0.0034,
+            "neither": 0.9921,
+            "coalitionA": 0.0045,
+            "coalitionB": 0.0034,
+            "coalitionNeither": 0.9921,
+            "coalitionBoth": 0
+          },
+          "nEffective": 1870.5491201810153
+        },
+        "after": {
+          "replaySha256": "b197cfc246ef5e13b4a5d1d8dff61e6c0863478c17d19f9cc88f1170ef68ad88",
+          "profileSha256": "08500045938d37cfcb4d7fadae5181348b9f40499386bdddc130aa1c78a9ca68",
+          "profileAsOf": "2026-10-24",
+          "baseQualityWeights": {
+            "midgam_geva": 0.14179236395909886,
+            "kantar": 0.1503106969417103,
+            "hamadad_consortium": 0.14415022217434256,
+            "lazar": 0.14548016510343192,
+            "maagar_mochot": 0.12996610747273118,
+            "tatika": 0.14415022217434256,
+            "direct_polls": 0.14415022217434256
+          },
+          "finalWeights": {
+            "midgam_geva": 0.13116085749853307,
+            "kantar": 0.13953394381728831,
+            "hamadad_consortium": 0.14143422696924401,
+            "lazar": 0.13844351721222015,
+            "maagar_mochot": 0.1295144304824151,
+            "tatika": 0.14622891954089545,
+            "direct_polls": 0.17368410447940388
+          },
+          "activeSubmatrixDensity": {
+            "midgam_geva": 2.194060369276723,
+            "kantar": 2.1863012155901402,
+            "hamadad_consortium": 2.0685249906972296,
+            "lazar": 2.1327067241818773,
+            "maagar_mochot": 2.036629025268743,
+            "tatika": 2.0007002304630026,
+            "direct_polls": 1.6844387337732352
+          },
+          "informationInflationFactor": 1.9330328188552386,
+          "meanSeats": {
+            "a": 51.2949,
+            "b": 52.986,
+            "arab": 14.2654,
+            "other": 1.4537
+          },
+          "thresholdPassPct": {
+            "winter": 27.36,
+            "hendel": 34.61
+          },
+          "probabilities": {
+            "a": 0.0031,
+            "b": 0.0019,
+            "neither": 0.995,
+            "coalitionA": 0.0031,
+            "coalitionB": 0.0019,
+            "coalitionNeither": 0.995,
+            "coalitionBoth": 0
+          },
+          "nEffective": 2986.814652738483
+        }
+      }
+    }
+  },
+  "preferredSimilarityScenario": {
+    "sha256": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97",
+    "phases": {
+      "before": {
+        "replaySha256": "cbf1d1fd2a77b89486d57d1f53462abc35cb7cdce5576d89591bd0cfddb4c1c6",
+        "profileSha256": "7990013c093c539176e747fcd471a26403a3ef0249bc818c10804bfbe74afdc2",
+        "profileAsOf": "2026-10-23",
+        "baseQualityWeights": {
+          "midgam_geva": 0.14179236395909886,
+          "kantar": 0.1503106969417103,
+          "hamadad_consortium": 0.14415022217434256,
+          "lazar": 0.14548016510343192,
+          "maagar_mochot": 0.12996610747273118,
+          "tatika": 0.14415022217434256,
+          "direct_polls": 0.14415022217434256
+        },
+        "finalWeights": {
+          "midgam_geva": 0.13094941566487678,
+          "kantar": 0.13917549729749115,
+          "hamadad_consortium": 0.14162464142334139,
+          "lazar": 0.13809846352870614,
+          "maagar_mochot": 0.12891568573166987,
+          "tatika": 0.1464800241334845,
+          "direct_polls": 0.1747562722204301
+        },
+        "activeSubmatrixDensity": {
+          "midgam_geva": 2.1874435706790614,
+          "kantar": 2.1817987407988917,
+          "hamadad_consortium": 2.0561939305482526,
+          "lazar": 2.1281513879377516,
+          "maagar_mochot": 2.036629025268743,
+          "tatika": 1.9880371390803093,
+          "direct_polls": 1.6663649573815018
+        },
+        "informationInflationFactor": 1.8470096772566125,
+        "meanSeats": {
+          "a": 51.3035,
+          "b": 52.6122,
+          "arab": 14.0548,
+          "other": 2.0295
+        },
+        "thresholdPassPct": {
+          "winter": 33.94,
+          "hendel": 47.160000000000004
+        },
+        "probabilities": {
+          "a": 0.0045,
+          "b": 0.0034,
+          "neither": 0.9921,
+          "coalitionA": 0.0045,
+          "coalitionB": 0.0034,
+          "coalitionNeither": 0.9921,
+          "coalitionBoth": 0
+        },
+        "nEffective": 1870.5491201810153
+      },
+      "after": {
+        "replaySha256": "b197cfc246ef5e13b4a5d1d8dff61e6c0863478c17d19f9cc88f1170ef68ad88",
+        "profileSha256": "08500045938d37cfcb4d7fadae5181348b9f40499386bdddc130aa1c78a9ca68",
+        "profileAsOf": "2026-10-24",
+        "baseQualityWeights": {
+          "midgam_geva": 0.14179236395909886,
+          "kantar": 0.1503106969417103,
+          "hamadad_consortium": 0.14415022217434256,
+          "lazar": 0.14548016510343192,
+          "maagar_mochot": 0.12996610747273118,
+          "tatika": 0.14415022217434256,
+          "direct_polls": 0.14415022217434256
+        },
+        "finalWeights": {
+          "midgam_geva": 0.13116085749853307,
+          "kantar": 0.13953394381728831,
+          "hamadad_consortium": 0.14143422696924401,
+          "lazar": 0.13844351721222015,
+          "maagar_mochot": 0.1295144304824151,
+          "tatika": 0.14622891954089545,
+          "direct_polls": 0.17368410447940388
+        },
+        "activeSubmatrixDensity": {
+          "midgam_geva": 2.194060369276723,
+          "kantar": 2.1863012155901402,
+          "hamadad_consortium": 2.0685249906972296,
+          "lazar": 2.1327067241818773,
+          "maagar_mochot": 2.036629025268743,
+          "tatika": 2.0007002304630026,
+          "direct_polls": 1.6844387337732352
+        },
+        "informationInflationFactor": 1.9330328188552386,
+        "meanSeats": {
+          "a": 51.2949,
+          "b": 52.986,
+          "arab": 14.2654,
+          "other": 1.4537
+        },
+        "thresholdPassPct": {
+          "winter": 27.36,
+          "hendel": 34.61
+        },
+        "probabilities": {
+          "a": 0.0031,
+          "b": 0.0019,
+          "neither": 0.995,
+          "coalitionA": 0.0031,
+          "coalitionB": 0.0019,
+          "coalitionNeither": 0.995,
+          "coalitionBoth": 0
+        },
+        "nEffective": 2986.814652738483
+      }
+    }
+  },
+  "interpretation": "All comparisons are conditional model point estimates. No new significance test or proven calibration superiority is asserted."
+}

@@ -1,0 +1,55 @@
+{
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-24",
+  "reviewer": "root independent of appendix author",
+  "appendixSha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856",
+  "summarySha256": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "publicFilesReviewed": [
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-coverage-reviewed.json",
+      "publicName": "source-coverage-reviewed.json",
+      "sha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-israelpolls/reviewed-facts.json",
+      "publicName": "israelpolls-reviewed-facts.json",
+      "sha256": "c4f297f60c5269f2ff0026918191e40c59169ec745ed5b42530692e6cea617fe"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/other-primary-scan/reviewed-scan-summary.json",
+      "publicName": "other-primary-reviewed-scan.json",
+      "sha256": "187276bf7be6a43301758d23a61dacfc47d740f0c503c635f1cd0392272fd3a6"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/independent-n12-c13-source-review.json",
+      "publicName": "independent-n12-c13-source-review.json",
+      "sha256": "20f5c8663a4c9e09d3b05770988836ab97c2053f01af51a955d154fbf4621e3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24-kan-independent-review.json",
+      "publicName": "source-i24-kan-independent-review.json",
+      "sha256": "45b15fe907a284e362bfc2ca729c65d8fca11d9e4977315b4f25c8108368e466"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-plan-independent-review.json",
+      "publicName": "source-plan-independent-review.json",
+      "sha256": "afe35029a901872c9bc2d90710778da0de4b062a784e5d52c2b3bbf1b06eafa1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/primary-source-public-summary.json",
+      "publicName": "primary-source-public-summary.json",
+      "sha256": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-independent-source-review.json",
+      "publicName": "publication-wrapper-independent-source-review.json",
+      "sha256": "3c146bca27a5cd7b107015c75e567aa5bfb4fe5adafc6a5424d594e8f3b14fbb"
+    }
+  ],
+  "actual4CandidateNumericAndMetadataSubsetsMatch": true,
+  "rawArticleBodiesAndPrivateBrowserDataExcluded": true,
+  "noModelOutputOrSignificanceClaims": true,
+  "numericReproducersReviewed": {},
+  "findings": []
+}

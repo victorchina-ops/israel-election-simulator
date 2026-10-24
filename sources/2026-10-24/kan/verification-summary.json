@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUtc": "2026-10-24T10:07:21.295650+00:00",
+  "status": "PASS_PRIMARY_NUMERICAL_SOURCE_REVIEW",
+  "pollId": "kantar_2026-10-23",
+  "seatTotal": 120,
+  "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+  "factsSha256": "a28feff69c73290f584559f4cc41df696557e5ec1bd7428a28cf6859e103e50f",
+  "originalGraphicsPixelInspected": true,
+  "graphicScope": "live native chart full vector and footer; saved thumbnail is partial",
+  "evidenceFiles": [
+    {
+      "fileName": "native-infogram.local-only.html",
+      "sha256": "33922ba999544172aba12e40af03667e667d2aeeb20285e2569fca7ab3e27430",
+      "bytes": 359586,
+      "localOnly": true
+    },
+    {
+      "fileName": "native-chart-thumbnail.jpeg",
+      "sha256": "fe6ad885521078210c866b9dba8595c634ffec1f4773b634b05e36099a535ea4",
+      "bytes": 125791,
+      "localOnly": false
+    }
+  ],
+  "limitations": [
+    "HTTP original article/home requests returned403 and web reader returned no content. The actual Chrome homepage, politics index, original article and its native linked Infogram were successfully read.",
+    "The primary native Infogram reports1106respondents. A discovery-only aggregator had1006; it is not authoritative and is not used.",
+    "Calendar fieldwork dates, sampling method, population details and confidence level are not provided in the article or the native chart; retain null and exclude this observation from strict fieldwork trend tests.",
+    "Native Infogram thumbnail is cropped; all12passing seats and1106/MOE3.0footer were separately inspected on actual live native chart pixels and accessibility text.",
+    "The primary article compares to18Oct Kan; the operational current institute observation being replaced is22Oct Hayom, which is separately preserved."
+  ],
+  "exactMissingValuesNotImputed": true,
+  "canonicalDataChanged": false
+}

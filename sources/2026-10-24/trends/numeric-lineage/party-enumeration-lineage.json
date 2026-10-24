@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "stage": "party",
+  "frozenAnalyzer": "artifacts/analyze-party-trends-strict-2026-09-28.py",
+  "frozenAnalyzerSha256": "4aff7e6b7310e25a5e7845ecc6b084a58d819cae98fac9e14d32c640faafb34c",
+  "reviewedAdapter": "scripts/run-exact-trends-2026-10-20-evening-party-schema-r1.py",
+  "reviewedAdapterSha256": "d8e7164f20176ee864de8b9702cd6ac0b130fcca854032261a329805a98d0b74",
+  "wrapperSha256": "523d56f808f4278dd337fc29cc4ebf9daf10e2890464a1e38d5e35f3ea763d49",
+  "scalarBackendSha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+  "transformedSourceSha256": "04bed5c43a1babbbb00b21f5235d8642331c2f0a4576e67daff37026122240ed",
+  "frozenCounterHashes": {
+    "compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d"
+  },
+  "inputHistorySha256": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+  "inputAuditHashes": {
+    "lazar-fieldwork.json": "99d8fef243c04cd729917db4a4d7bc1806583f8ed4167ed7363f59ad8ca45a64",
+    "n12-kan-c13-fieldwork.json": "90cc8f150d61fb01bfbdde9052fb2172007e0969583650e72d1c9599841db923",
+    "c14-i24-fieldwork.json": "3b613fe7a3882d39ba0a0c526916ec1d37ba51ff9c0ea2073a2fdaa2b054a802",
+    "c16-tatika-fieldwork.json": "7540c4947506a6a75ccae88e9f8b2098fbfee13f39a0a35860880dd9f1cee336",
+    "new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  },
+  "outputFile": "party-analysis.json",
+  "outputSha256": "1baa9dd6ee2684c58e6e9eb4bd049f53aa5cd3d085a0e9b1aa9c5d41dd525c8d",
+  "enumeration": "unique scalar assignments with exact repeated-label multiplicity",
+  "nullUnchanged": true,
+  "outcomeMarginalExactness": true,
+  "monteCarlo": false,
+  "cohortAndWeightsUnchanged": true
+}

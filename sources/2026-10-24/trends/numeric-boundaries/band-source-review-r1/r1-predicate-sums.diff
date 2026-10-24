@@ -1,0 +1,47 @@
+--- diagnose-tail-boundary-bands-2026-10-24.py
++++ diagnose-tail-boundary-bands-2026-10-24-r1.py
+@@ -34,10 +34,12 @@
+ 
+ def predicates(a,b,cp,ci):
+     # Exactly the original subtraction and direct-addition comparisons.
++    # Original counters SUM the upper/lower masses. Under extreme cancellation
++    # subtraction may contribute2; retain that exact operational behavior.
+     # Ordering: subtraction-primary, addition-primary, subtraction-own, addition-own.
+     s=float(a)+float(b)
+-    sub=lambda c:float(b)>=c-float(a) or float(b)<=-c-float(a)
+-    add=lambda c:s>=c or s<=-c
++    sub=lambda c:int(float(b)>=c-float(a))+int(float(b)<=-c-float(a))
++    add=lambda c:int(s>=c)+int(s<=-c)
+     return (sub(cp),add(cp),sub(ci),add(ci))
+ 
+ 
+@@ -135,7 +137,7 @@
+         assert [brute[q]-brute[3] for q in range(4)]==[int(x) for x in result['signedDifferencesFromAdditionOwn']]
+         fixtures.append({'randomFixture':number,'aRows':len(aa),'bRows':len(bb),'exactIntegerDifferencesMatch':True})
+     result={'status':'PASS','asOf':DAY,'scope':'Small brute-force/adversarial fixtures only, no actual score/tail counters','scriptSha256':sha(Path(__file__)),'fixtureCount':len(fixtures),'fixtures':fixtures,'covers':['Both tails and exact inclusive ties','Observed cutoff ULP shifts','a approximately cutoff with b approximately zero','Zero, negative zero and subnormal values','Overlapping positive/negative screening intervals merged','Exact Python integer masses above signed64','Random independent small Cartesian brute-force comparisons'],'canonicalMutation':False,'actualCounterExecuted':False}
+-    write_once(ART/'numeric-boundaries/band-source-review/fixtures.json',result)
++    write_once(ART/'numeric-boundaries/band-source-review-r1/fixtures.json',result)
+     print(json.dumps({'status':'PASS','fixtureCount':len(fixtures),'scriptSha256':result['scriptSha256']}))
+ 
+ 
+@@ -146,9 +148,9 @@
+     if args.self_test:
+         assert args.kind is None and args.identity is None;self_test();return
+     assert args.kind is not None and args.identity
+-    gate=read(ART/'numeric-boundaries/band-source-review/independent-source-review.json')
++    gate=read(ART/'numeric-boundaries/band-source-review-r1/independent-source-review.json')
+     assert gate['status']=='PASS_SOURCE_GATE' and gate['asOf']==DAY and gate['scriptSha256']==sha(Path(__file__))
+-    fixture=ART/'numeric-boundaries/band-source-review/fixtures.json'
++    fixture=ART/'numeric-boundaries/band-source-review-r1/fixtures.json'
+     assert gate['fixturesSha256']==sha(fixture) and read(fixture)['status']=='PASS'
+     rels=['data/current-polls.json','data/poll-history.json','data/strict-party-trends.json','data/calibration.json','data/parties.json',
+         'artifacts/strict-post-close/analysis.json','artifacts/strict-post-close/party-analysis.json',
+@@ -211,7 +213,7 @@
+         'signedCountDecomposition':{'predicateAtPrimary':str(dp-sp),'directObservedShift':str(own-dp),'subtractionObservedShift':str(si-sp),'predicateAtIndependent':str(own-si),'totalDifference':str(ic-pc)},
+         'unchangedReportedValues':{'primaryP':row['pValue'],'primaryQ':row['qValue']},'probabilityDifference':(ic-pc)/total,
+         'screeningUsesOutwardCutoffNeighborsBeforeOutwardSubtraction':True,'screeningPaddingChangesNoDecisionThreshold':True,
+-        'sourceReviewSha256':sha(ART/'numeric-boundaries/band-source-review/independent-source-review.json'),'fixturesSha256':sha(fixture),
++        'sourceReviewSha256':sha(ART/'numeric-boundaries/band-source-review-r1/independent-source-review.json'),'fixturesSha256':sha(fixture),
+         'reproducerPath':Path(__file__).resolve().relative_to(ROOT).as_posix(),'reproducerSha256':sha(Path(__file__)),'elapsedSeconds':round(time.monotonic()-started,3),'outputsOrFrozenHelpersModified':False}
+     assert all(sha(ROOT/r)==h for r,h in hashes.items())
+     write_once(ART/'numeric-boundaries'/(args.kind+'-'+args.identity+'-band-diagnosis.json'),result)

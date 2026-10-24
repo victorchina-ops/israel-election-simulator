@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "currentReplayExactlyMatchesWebsiteBaseline": true,
+  "bothReplaysExcludeChannel14": true,
+  "sameControlsExceptAsOf": true,
+  "allSimulatedWorldsHave120Seats": true,
+  "activeSelectedInstitutes": 7,
+  "changedPollsters": [
+    "direct_polls",
+    "hamadad_consortium",
+    "kantar",
+    "midgam_geva"
+  ],
+  "newObservationIds": [
+    "midgam_geva_2026-10-23",
+    "hamadad_consortium_2026-10-23",
+    "kantar_2026-10-23",
+    "direct_polls_2026-10-23"
+  ],
+  "publicationDates": [
+    "2026-10-23",
+    "2026-10-23",
+    "2026-10-23",
+    "2026-10-23"
+  ],
+  "activePolls": 8,
+  "historyPolls": 147,
+  "allPreviousHistoricalObservationsPreserved": true,
+  "comparisonSha256": "7884149eeda251ddb03e2ff789658ebe339fce0c945d647b75bb152953eaad37",
+  "snapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "baselineSha256": "2886a560c53ea498a9f9b20d7dc83e8cb4244a38d1a367e1ff6dffeacd83be2d",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "validationScope": "Both endpoints replay the unchanged model; conditional differences are not a significance test."
+}

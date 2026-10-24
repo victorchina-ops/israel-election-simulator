@@ -1,0 +1,14 @@
+{
+  "status": "ORIGINAL_ASSET_URLS_RETAINED",
+  "asOf": "2026-10-24",
+  "graphics": [
+    {
+      "fileName": "native-chart-thumbnail.jpeg",
+      "sourceUrl": "https://infogram-thumbs-1024.s3-eu-west-1.amazonaws.com/f16a98a3-2b3d-4e77-88b7-4b70432e0f4d.jpg?1792836212671",
+      "scope": "Native cached thumbnail is cropped; retain as partial evidence, not proof of allvector or footer. Actual full native chart independently viewed in Chrome at original Infogram URL.",
+      "nativeFullChartSourceUrl": "https://infogram.com/1pmjrx6jq6v5w3h3w2gj1nepj2hzen636pe",
+      "sha256": "fe6ad885521078210c866b9dba8595c634ffec1f4773b634b05e36099a535ea4",
+      "bytes": 125791
+    }
+  ]
+}

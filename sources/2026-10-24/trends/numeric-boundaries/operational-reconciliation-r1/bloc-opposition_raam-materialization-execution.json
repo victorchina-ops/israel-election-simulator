@@ -1,0 +1,20 @@
+{
+  "asOf": "2026-10-24",
+  "kind": "bloc",
+  "identity": "opposition_raam",
+  "command": [
+    "-B",
+    "-X",
+    "utf8",
+    "scripts/materialize-tail-boundary-bands-2026-10-24-r1.py",
+    "--kind",
+    "bloc",
+    "--identity",
+    "opposition_raam"
+  ],
+  "exitCode": 0,
+  "seconds": 0.141,
+  "stdout": "{\"status\": \"PASS\", \"validationKind\": \"exact-operational-predicate-reconciliation\", \"path\": \"artifacts/poll-checks/2026-10-24/numeric-boundaries/bloc-opposition_raam-operational-r1.json\", \"sha256\": \"5f8ade9f1f72cd5ceddc1fe0a50d67bd5107e56c1518f452853c2596176dddfc\", \"commonAdditionThresholdMatchesPrimary\": false, \"numericalCountersExecuted\": false}\n",
+  "stderr": "",
+  "numericalCountersExecuted": false
+}

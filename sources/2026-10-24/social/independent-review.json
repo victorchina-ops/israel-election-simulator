@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "reviewer": "/root/oct24_other_sources_scan",
+  "visualInspectionCompleted": true,
+  "visualInspectionMethod": "Actual unchanged local PNG viewed directly after final model/social generation. All four screens, date/source/footer, bloc assumptions and requested credit read from pixels.",
+  "renderReceiptSha256": "3d79334e62ae643597bbb636edb8c8401c534a8b2e4b8eea392cbadbe047a12a",
+  "imageSha256": "2597314ce92ff38a50fdffc2a7ccea50f1d826cf9d5e39e9a0146540736fe61b",
+  "socialEvidenceKind": "published-poll-comparison",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "sourcePixelReviewSha256": "98bd1f1378bd7f9ba7b2e3992b4b2e3f389c32c9726a8217f1e695c7f9da84a0",
+  "modelComparisonSha256": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97",
+  "independentModelReviewSha256": "6827906d4c8393e74f36a9be728e78398d315438d7d54b11ad3af9385577c53a",
+  "actualSnapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "modelDataSha256": "2fad259a468cbe49223dbc7abb7157296181eb79cc3af2c0c8f873f442c6345a",
+  "tweetSha256": "617253b19f67135ed352361006178359b66364aafc5674574b7758b813942ca2",
+  "promptSha256": "8618a414499be2f12cddbeb6e9359678dc3ef7e7c0505cdb266fb0b3c08823a9",
+  "replayHashes": {
+    "before": "cbf1d1fd2a77b89486d57d1f53462abc35cb7cdce5576d89591bd0cfddb4c1c6",
+    "after": "b197cfc246ef5e13b4a5d1d8dff61e6c0863478c17d19f9cc88f1170ef68ad88"
+  },
+  "sourceCandidateHashes": {
+    "artifacts/poll-checks/2026-10-24/source-n12/reviewed-primary-candidate-r2.json": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+    "artifacts/poll-checks/2026-10-24/source-c13/reviewed-primary-candidate-r2.json": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+    "artifacts/poll-checks/2026-10-24/source-kan/reviewed-primary-candidate.json": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+    "artifacts/poll-checks/2026-10-24/source-i24/reviewed-primary-candidate.json": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+  },
+  "coalitionSeatsByPublishedPollId": {
+    "midgam_geva_2026-10-23": 50,
+    "hamadad_consortium_2026-10-23": 50,
+    "kantar_2026-10-23": 50,
+    "direct_polls_2026-10-23": 59
+  },
+  "beforeModelData": {
+    "groupMeans": {
+      "a": 51.3035,
+      "b": 52.6122,
+      "arab": 14.0548,
+      "other": 2.0295
+    },
+    "thresholdParties": {
+      "winter": {
+        "passProbability": 0.3394,
+        "meanMandatesIncludingFailureRuns": 1.3959
+      },
+      "hendel": {
+        "passProbability": 0.4716,
+        "meanMandatesIncludingFailureRuns": 2.0295
+      }
+    },
+    "probability61": {
+      "a": 0.0045,
+      "b": 0.0034,
+      "neither": 0.9921,
+      "coalitionA": 0.0045,
+      "coalitionB": 0.0034,
+      "coalitionNeither": 0.9921,
+      "coalitionBoth": 0
+    }
+  },
+  "afterModelData": {
+    "groupMeans": {
+      "a": 51.2949,
+      "b": 52.986,
+      "arab": 14.2654,
+      "other": 1.4537
+    },
+    "thresholdParties": {
+      "winter": {
+        "passProbability": 0.2736,
+        "meanMandatesIncludingFailureRuns": 1.111
+      },
+      "hendel": {
+        "passProbability": 0.3461,
+        "meanMandatesIncludingFailureRuns": 1.4537
+      }
+    },
+    "probability61": {
+      "a": 0.0031,
+      "b": 0.0019,
+      "neither": 0.995,
+      "coalitionA": 0.0031,
+      "coalitionB": 0.0019,
+      "coalitionNeither": 0.995,
+      "coalitionBoth": 0
+    }
+  },
+  "scenario": {
+    "weightMode": "quality",
+    "includeChannel14": false,
+    "pollCorrelationEnabled": true,
+    "signalNoiseEnabled": false,
+    "winterBloc": "coalition",
+    "hendelBloc": "unassigned",
+    "arabParties": "separate",
+    "turnout": "2022 baseline",
+    "iterations": 10000,
+    "seed": 20260912
+  },
+  "tweetWeightedCharactersAssuming23PerURL": 248,
+  "tweetActualNewlines": 2,
+  "tweetLiteralBackslashN": 0,
+  "generatorSourceSha256": "818ad5baac9c32d1b3f697a896ea1348fad36008ab27e1676f2ec7fe7aac65f2",
+  "generatorExecutionSha256": "8f700741cd821488378a8d5a0a2bb4fb467351e054ec567b91d0767cc46b43a3",
+  "preservedFirstPrintEncodingFailureSha256": "134929a33cc8dcd9d6e0c045464663adfadecac5c222fa0ce06f6f796daa1b5a",
+  "sourceImageUsesPublishedPollResultsOnly": true,
+  "imageModelProbabilitiesShown": false,
+  "statisticalSignificanceClaimed": false,
+  "checks": {
+    "actualValuesMatchBothAuthoritativePreferredReplayPhases": true,
+    "histogramMeansAndThresholdMarginalsIndependentlyRecomputed": true,
+    "inputSnapshotsAndStableInputHashesVerifiedReadOnly": true,
+    "currentRawPollsHistoryAndCorrelationEqualReplayInputs": true,
+    "historicalQualitySimilarityOnNo14AndRetiredOffVerified": true,
+    "winterWithCoalitionHendelUnassignedArabPartiesSeparate": true,
+    "turnoutEqualsRecorded2022BaselineAndNeutralMotivation": true,
+    "allFourPublishedComparisonValuesAndSourceHashesVerified": true,
+    "sourceImageAndModelTweetExplicitlyDistinguished": true,
+    "oneDecimalTweetRoundingAndLinkAndLengthVerified": true,
+    "actualNewlinesAndJSONParsingVerified": true,
+    "allSocialArtifactsAndRenderHashesMatch": true,
+    "successfulUtf8GeneratorLogAndEmptyStderrVerified": true,
+    "firstEncodingFailurePreservedAndBeforeRetryHashesIdentical": true,
+    "noAutomaticPostingOrRegeneration": true
+  },
+  "histogramReview": {
+    "before": {
+      "iterations": 10000,
+      "groupAndPartyHistMassVerified": true,
+      "groupMeansAndThresholdMarginalsRecomputed": true,
+      "sevenActiveInstitutesNoChannel14": true
+    },
+    "after": {
+      "iterations": 10000,
+      "groupAndPartyHistMassVerified": true,
+      "groupMeansAndThresholdMarginalsRecomputed": true,
+      "sevenActiveInstitutesNoChannel14": true
+    }
+  },
+  "visualObservations": [
+    "Four clearly readable source-only TV screens: חדשות12 50, חדשות13 50, כאן11 50, i24 59.",
+    "Title and subtitle state published23October2026 Netanyahu-bloc poll comparison;24October check date shown separately.",
+    "Winter with Netanyahu; Hendel and Arab parties separate. Published poll results explicitly distinguished from model probabilities.",
+    "Small requested credit ויקטור רינה בן דוד visible; Hebrew text readable without clipping."
+  ],
+  "findings": [],
+  "limitations": "Model percentages are conditional estimates, and similarity is a heuristic; no new significance or proven calibration claim is made. Histograms and retained summary evidence were checked; a new simulation was not executed by this reviewer.",
+  "automaticTweetPosted": false,
+  "canonicalOrSocialValuesChangedByReviewer": false
+}

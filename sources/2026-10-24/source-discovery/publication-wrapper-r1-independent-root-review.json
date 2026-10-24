@@ -1,0 +1,32 @@
+{
+  "status": "PASS_SOURCE_GATE",
+  "asOf": "2026-10-24",
+  "checkedAtUtc": "2026-10-24T12:18:09.801721+00:00",
+  "reviewer": "root-independent-source-review",
+  "candidatePath": "scripts/package-poll-update-2026-10-24-r1.py",
+  "candidateSha256": "51564c50a8e93fe9f5f6bc75601b55a7a69965f684a28c655facee2e507ed029",
+  "originalSha256": "805e13274977be787facb03f0c4e79d95ce78343fab9d063d2e525b170efafb6",
+  "proposalSha256": "cd9043cdf94ce1480399c824e522c1abf6cc10b3da0f3e85dca8276e5870149c",
+  "sourceDiffSha256": "45a37c61c15e3673f06586036dffdfe0662c5aa2bb3da512804401261265a409",
+  "operationalSourceGateSha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+  "checks": {
+    "actualCandidateAndFullDiffIndependentlyRead": true,
+    "exactDiffReproduced": true,
+    "original805eAndReviewPreserved": true,
+    "currentFourOutcomeProtocolAndSourceGatePinned": true,
+    "fullSharedReceiptVerifierCalled": true,
+    "signedIntegerDecompositionAndCurrentOwnPrimaryAnchorsRequired": true,
+    "falseCommonAdditionFlagAndInvestigateStatusPreservedHonestly": true,
+    "allCurrentNumericalInputsAndLineageBound": true,
+    "noStatisticalToleranceOrPValuesChanged": true,
+    "ordinaryLegacyBoundaryBranchPreserved": true,
+    "allOriginal404TestModelCUASourcePrivacyAndPreservationGatesRetained": true,
+    "allActualAdaptersAndBothPackagingSourcesPublished": true,
+    "exactPerFileWhitespaceGateRetained": true,
+    "noWrapperOrCounterExecutionByReviewer": true
+  },
+  "numericalCountersExecuted": false,
+  "packageExecuted": false,
+  "runtimeApprovalScope": "Static source gate only; actual four-outcome execution review, numeric/model/tests/CUA/social/privacy/preservation gates remain required",
+  "findings": []
+}

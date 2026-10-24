@@ -1,0 +1,7 @@
+{
+  "chunk_id": "015624",
+  "wall_time_seconds": 0.6709003,
+  "exit_code": 1,
+  "original_token_count": 232,
+  "output": "Traceback (most recent call last):\r\n  File \"C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\scripts\\validate-strict-trends-2026-10-24.py\", line 308, in <module>\r\n    main()\r\n  File \"C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\scripts\\validate-strict-trends-2026-10-24.py\", line 241, in main\r\n    boundary_paths.append(boundary_check('bloc',row['group'],bloc['primary']['byPollster'],'groups','group',\r\n                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\r\n  File \"C:\\Users\\User\\Documents\\ChatGPT\\סקרים ושקרים\\scripts\\validate-strict-trends-2026-10-24.py\", line 50, in boundary_check\r\n    assert allow_compute, ('Exact counts disagree; run --resolve-boundaries for only this outcome', kind, identity)\r\n           ^^^^^^^^^^^^^\r\nAssertionError: ('Exact counts disagree; run --resolve-boundaries for only this outcome', 'bloc', 'coalition')\r\n"
+}

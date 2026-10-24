@@ -1,0 +1,31 @@
+{
+  "status": "PENDING_INDEPENDENT_ROOT_SOURCE_REVIEW",
+  "asOf": "2026-10-24",
+  "scope": "Only populate completion sourceAccessLimitations from actual reviewed materialSourceCaveats and separate reviewed source-coverage limitations, retaining existing entries and first-occurrence deduplication.",
+  "original": "scripts/complete-poll-update-2026-10-24.py",
+  "originalSha256": "30f66c843558912cbe5e3411e5f9ff39859ff1e03973365860c238717b85305e",
+  "candidate": "scripts/complete-poll-update-2026-10-24-r1.py",
+  "candidateSha256": "ef8bd0bd33f6428d89227a779981fbe68a25cd7f07cf6e1f0ce9bd7e9817ba37",
+  "archivedOriginal": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/complete-poll-update-2026-10-24.py",
+  "archivedCandidate": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/complete-poll-update-2026-10-24-r1.py",
+  "diff": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/completion-source-limitations.diff",
+  "diffSha256": "195b7beca30eb3eb3248ee930c47ad64290165837b3ca6b491734d5a57208450",
+  "sourceInputs": {
+    "artifacts/poll-checks/2026-10-24/primary-source-public-summary.json": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b",
+    "artifacts/poll-checks/2026-10-24/source-coverage-reviewed.json": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3"
+  },
+  "extractionPreview": {
+    "existingEntryCount": 0,
+    "materialSourceCaveatsCount": 9,
+    "reviewedCoverageLimitationsCount": 8,
+    "firstOccurrenceDeduplicatedCount": 17,
+    "allActualEntriesAreStrings": true,
+    "previousExtractionWasEmpty": true
+  },
+  "onlyTwoAdditionalListSpreads": true,
+  "allExistingReleaseReadbackBrowserVisualDefaultModelPreservationGatesUnchanged": true,
+  "originalSourceUnmodified": true,
+  "mainOrCompletionExecuted": false,
+  "canonicalOrSocialOrPublicFilesModified": false,
+  "rootReviewRequiredBeforeUse": true
+}

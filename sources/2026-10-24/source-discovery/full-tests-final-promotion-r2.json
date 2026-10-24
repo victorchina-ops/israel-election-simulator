@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "source": "artifacts/poll-checks/2026-10-24/test-results-reviewed-r2.txt",
+  "sourceSha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+  "canonical": "artifacts/poll-checks/2026-10-24/test-results-final.txt",
+  "canonicalSha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+  "previousCanonicalSha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a",
+  "previousCanonicalPreservedPath": "artifacts/poll-checks/2026-10-24/test-results-final-r1-failed.txt",
+  "previousCanonicalPreservedSha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a",
+  "originalR1ExecutionReceiptPreservedPath": "artifacts/poll-checks/2026-10-24/test-results-final-r1-failed-execution.json",
+  "originalR1ExecutionReceiptSha256": "12ae387573eb6f78abfcd4aaa7159f43c398c97963d09b82cc2a0c002bf148a5",
+  "actualR2ExecutionReceiptSha256": "91347e486b398ce2e35dd7e1995a06de618a3c0303e7c10f4e91484950e15874",
+  "activeReviewedTestSha256": "d200ac01b293ae4812a5d6cff3300002b9ab866693b57d38c38a82ea6016528b",
+  "bytesCopiedExactly": true,
+  "originalFailureNotDiscardedOrRelabeled": true,
+  "originalR1ReceiptRetainsHistoricalCanonicalPathAtItsExecution": true,
+  "testsPassed": 404,
+  "testsFailed": 0
+}

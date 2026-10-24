@@ -1,0 +1,172 @@
+{
+  "asOf": "2026-10-24",
+  "status": "reviewed",
+  "newIndependentObservations": 4,
+  "israelPolls": {
+    "url": "https://x.com/IsraelPolls?s=20",
+    "access": "ActualChrome profile, latest full summary and i24 historical table successfully inspected.",
+    "factualEvidenceFile": "artifacts/poll-checks/2026-10-24/source-israelpolls/reviewed-facts.json",
+    "factualEvidenceSha256": "c4f297f60c5269f2ff0026918191e40c59169ec745ed5b42530692e6cea617fe",
+    "summaryIsNewPoll": false
+  },
+  "primaryCandidates": [
+    {
+      "pollId": "midgam_geva_2026-10-23",
+      "publisher": "חדשות 12",
+      "sourceUrl": "https://www.mako.co.il/news-israel-elections/2026/Article-8ea5e45ec2961a1027.htm",
+      "publicationDate": "2026-10-23",
+      "fieldworkVerified": true
+    },
+    {
+      "pollId": "hamadad_consortium_2026-10-23",
+      "publisher": "חדשות 13",
+      "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+      "publicationDate": "2026-10-23",
+      "fieldworkVerified": true
+    },
+    {
+      "pollId": "kantar_2026-10-23",
+      "publisher": "כאן 11",
+      "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+      "publicationDate": "2026-10-23",
+      "fieldworkVerified": false
+    },
+    {
+      "pollId": "direct_polls_2026-10-23",
+      "publisher": "i24NEWS",
+      "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+      "publicationDate": "2026-10-23",
+      "fieldworkVerified": true
+    }
+  ],
+  "primaryIndexChecks": {
+    "schemaVersion": 1,
+    "checkedAtUtc": "2026-10-24T10:09:18.903897+00:00",
+    "scope": "Current original publisher homes and politics/election/program indexes; no canonical writes by this source agent.",
+    "verifiedNewPolls": [
+      {
+        "publisher": "i24NEWS",
+        "date": "2026-10-23",
+        "sourceUrl": "https://www.i24news.tv/he/news/israel-elections-2026/polls/artc-07d162ea",
+        "candidate": "../source-i24/reviewed-primary-candidate.json",
+        "candidateSha256": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517"
+      },
+      {
+        "publisher": "כאן11",
+        "date": "2026-10-23",
+        "sourceUrl": "https://www.kan.org.il/content/kan-news/politic/1112122/",
+        "candidate": "../source-kan/reviewed-primary-candidate.json",
+        "candidateSha256": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03"
+      }
+    ],
+    "unchangedOrNotIndependent": [
+      {
+        "publisher": "Channel14/NEXTDATA",
+        "checked": [
+          "https://www.c14.co.il/",
+          "https://www.c14.co.il/archive/65839",
+          "https://www.c14.co.il/archive/112541"
+        ],
+        "result": "Current home and political/election indexes directly opened successfully by reader and HTTP. Latest full poll still22Oct1750553, already in baseline. Home decorative widget63/45/12 is stale and is not a new poll.",
+        "latestFullVerifiedSource": "https://www.c14.co.il/article/1750553"
+      },
+      {
+        "publisher": "Tatica/Zman",
+        "checked": [
+          "https://www.zman.co.il/",
+          "https://www.zman.co.il/feed/33350/"
+        ],
+        "result": "Current reader home and poll feed succeeded; newest full poll22Oct is already in baseline, no newer independent full poll verified.",
+        "latestFullVerifiedSource": "https://www.zman.co.il/735649/",
+        "limitation": "Direct HTTP403; reader succeeded and displayed24Oct calendar and22Oct poll."
+      },
+      {
+        "publisher": "IsraelHayom",
+        "checked": [
+          "https://www.israelhayom.co.il/",
+          "https://www.israelhayom.co.il/news/politics"
+        ],
+        "result": "Current primary politics index24Oct succeeded. Its23Oct21:56 article21694000 is a secondary roundup ofN12,C13,Kan,i24 plus own22Oct poll, not a new Kantar/Hayom observation.",
+        "latestFullVerifiedSource": "https://www.israelhayom.co.il/news/politics/article/21687549",
+        "notNewSource": "https://www.israelhayom.co.il/news/politics/article/21694000",
+        "discrepancy": "The roundup has numeric typos in C13Otzma and KanBeyachad prose; primary full vectors independently govern."
+      },
+      {
+        "publisher": "Maariv/Lazar",
+        "checked": [
+          "https://www.maariv.co.il/",
+          "https://www.maariv.co.il/news/politics",
+          "https://www.maariv.co.il/news/elections-2026"
+        ],
+        "result": "Reader inaccessible but direct original HTTP200 for all3. Current home/politics indexes show23Oct eveningN12,C13,Kan summaries, not a new independent Lazar observation. Baseline23Octmorning1380289 retained.",
+        "latestFullVerifiedSource": "https://www.maariv.co.il/news/elections-2026/article-1380289",
+        "secondarySummarySources": [
+          "https://www.maariv.co.il/news/politics/article-1380559",
+          "https://www.maariv.co.il/news/politics/article-1380555",
+          "https://www.maariv.co.il/news/politics/article-1380543"
+        ]
+      },
+      {
+        "publisher": "Walla",
+        "checked": [
+          "https://www.walla.co.il/",
+          "https://www.walla.co.il/news/politics",
+          "https://elections.walla.co.il/"
+        ],
+        "result": "Current homes and indexes directly read successfully.23Oct22:03full-poll roundup383958643 summarizesN12,C13,Kan and is not another independent Lazar poll. No newer standalone Lazar measurement verified.",
+        "notNewSource": "https://www.walla.co.il/news/politics/383958643"
+      },
+      {
+        "publisher": "Channel16/Maagar",
+        "checked": [
+          "https://www.ch16.co.il/",
+          "https://www.ch16.co.il/page/6a298cfe01d5503c9cd39dbc",
+          "https://www.ch16.co.il/page/6a74e49e6e5de181504dc279",
+          "https://www.ch16.co.il/serie/6a71856d4a2ff1d9cb40cf61"
+        ],
+        "result": "Web reader returnedemptySPA. Actual Chrome homepage/programs/news-series archive successfully read. Homepage newestprogram23Octmorning, latest mainnewsedition22Oct6ad8fd55b3ec76081d8f0746; series says102programs and latest sameedition. No newer full poll verified beyond baseline22Oct.",
+        "latestMainEdition": "https://www.ch16.co.il/vod/6ad8fd55b3ec76081d8f0746",
+        "limitation": "Program indexes do not enumerate every poll frame; no claim allvideos reviewed."
+      }
+    ],
+    "httpReceiptsFile": "http-source-receipts.json",
+    "httpReceiptsSha256": "da189251cc475d9d2a12f17ea8328bf98fb0b3765730e8fbc8f74295813eb37e",
+    "otherSourcesOwnedByParentOrPeer": [
+      "IsraelPolls current originalgraphics andtables",
+      "N12 originalcurrenthome/elections",
+      "C13 originalcurrenthome/politics"
+    ],
+    "rawArticleFilesLocalOnly": true,
+    "noCompiledForecastIngested": true,
+    "canonicalDataChanged": false,
+    "publicFilesChanged": false
+  },
+  "n12AndC13Indexes": {
+    "n12": [
+      "https://www.n12.co.il/",
+      "https://www.mako.co.il/news-israel-elections/2026",
+      "https://www.mako.co.il/news-politics"
+    ],
+    "c13": [
+      "https://13tv.co.il/",
+      "https://13tv.co.il/news/politics/",
+      "https://13tv.co.il/news/politics/politics/"
+    ],
+    "success": "Current home and primary politics/elections indexes read directly through primary reader and/or actualbrowser as documented in each source verification."
+  },
+  "limitations": [
+    "Kan original HTTP403 and empty reader recovered in actualChrome; original article/nativeInfogram read. Absolute fieldwork,method,population details,confidence unknown; exclude only fromstrict fieldwork trend tests.",
+    "Kan nativechart n1106 overrides unauthoritative aggregator1006; savedpartialthumbnail stayslocal, full live chart actually inspected.",
+    "C13 directHTTP403 and pollsterHTTP302 retained asblocked; originalpublisher and primaryEnglishpollster reader succeeded. ArchivedHebrewpollster reader failed and isnot described assuccessful.",
+    "C13 current23Octvalues agree; conflicting historicalcomparison captions/tables do not silentlyreplace separately archived21Octdata.",
+    "N12 original publishedMOE4.4% retained withactualn1018; no inferredreplacement. Chartopposition70 includes14Arabseats; exclusive siteopposition56.",
+    "i24 four namedsmall lists onlyless-than1%bounds; unreportedGantz/IsraelFirst staymissing; bounds are not exact0 or1.",
+    "C16 current primaryhome/program/news indexes recovered inChrome; latest mainnews22Oct. Not every video frame reviewed; no newfull poll verified.",
+    "Summary/repostdates24Oct are not newobservations; all4new polls published23Oct."
+  ],
+  "rawPrivateBrowserDOMPublished": false,
+  "fullArticleBodiesPublished": false,
+  "compiledForecastsIngested": false,
+  "missingValuesNotZero": true,
+  "noDuplicateWeeklyPolls": true
+}

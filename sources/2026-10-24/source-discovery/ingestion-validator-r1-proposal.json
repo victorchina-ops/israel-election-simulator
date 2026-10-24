@@ -1,0 +1,25 @@
+{
+  "status": "PROPOSED_AWAITING_PEER_REVIEW",
+  "asOf": "2026-10-24",
+  "originalValidatorSha256": "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588",
+  "effectiveValidatorPath": "scripts/validate-ingestion-2026-10-24-r1.py",
+  "effectiveValidatorSha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "originalFailureStderrSha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97",
+  "diffSha256": "3ccdeb8273c6952f8b7465f40b7c53ef715b25797c2a44290493ada991f5b824",
+  "canonicalHashesBeforeReview": {
+    "data/current-polls.json": "1aedb4cafec7d7811c16dc999897b81a0bd9cc65a800fb58536c872f54060fcd",
+    "data/poll-history.json": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+    "data/sources.json": "0899d8c2f3a8d13e671923a7546029a893e9da3938e16db8d832a7e7f2fceb52",
+    "data/survey-documents-2026-09-14.json": "4dea4ee24eb61388faab04545cfa332696c5b646b577a9d849f8624ea845d607",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "90cc8f150d61fb01bfbdde9052fb2172007e0969583650e72d1c9599841db923",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "3b613fe7a3882d39ba0a0c526916ec1d37ba51ff9c0ea2073a2fdaa2b054a802"
+  },
+  "explanation": "Original named-party report check assumed all exact percentages and hardcoded an absent bound. Actual new i24 ColorBlack/AHI and Kan ColorBlack have source-published exclusive upper bounds and rawPctnull. The revision checks the exact rendered bound against source facts, preserves the original contract hash chain, requires independent peer approval, and records both original/effective validator identities.",
+  "preflightAndIngestionReceiptsUnchanged": {
+    "preflightSha256": "79efa7986136c3b9d82cd2d05859d4dfe827393389f5830b5465781ad2acd3d3",
+    "ingestionReceiptSha256": "12253468099b8fb9dd98a9c21aa71d829a65f4c9f3e2aa2f7cd2a068023e7457"
+  },
+  "newValidatorExecuted": false,
+  "noCanonicalMutation": true
+}

@@ -1,0 +1,13 @@
+{
+  "identity": "yashar",
+  "script": "scripts/diagnose-tail-boundary-bands-2026-10-24-r1.py",
+  "sessionId": 61307,
+  "execution": {
+    "chunk_id": "409248",
+    "wall_time_seconds": 7.3e-06,
+    "exit_code": 0,
+    "original_token_count": 105,
+    "output": "{\"phase\": \"boundary_screen\", \"aProcessed\": 13284117, \"aTotal\": 13284117, \"candidatePairs\": \"4\", \"changedPairs\": \"4\"}\r\n{\"status\": \"PASS\", \"kind\": \"party\", \"identity\": \"yashar\", \"seconds\": 90.422, \"reconstructedCounts\": [\"27443146818052328927592452301678182400\", \"27443146818052328927592452301678182400\", \"27443146818053785695891344292682137600\", \"27443146818053785695891344292682137600\"], \"commonMatchesPrimary\": true}\r\n"
+  },
+  "stdoutAndStderr": "{\"phase\": \"boundary_screen\", \"aProcessed\": 13284117, \"aTotal\": 13284117, \"candidatePairs\": \"4\", \"changedPairs\": \"4\"}\r\n{\"status\": \"PASS\", \"kind\": \"party\", \"identity\": \"yashar\", \"seconds\": 90.422, \"reconstructedCounts\": [\"27443146818052328927592452301678182400\", \"27443146818052328927592452301678182400\", \"27443146818053785695891344292682137600\", \"27443146818053785695891344292682137600\"], \"commonMatchesPrimary\": true}\r\n"
+}

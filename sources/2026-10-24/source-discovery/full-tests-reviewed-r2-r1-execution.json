@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "command": [
+    "C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\bin\\node.exe",
+    "--test",
+    "tests/*.test.mjs"
+  ],
+  "startedAtUtc": "2026-10-24T12:43:14.663332+00:00",
+  "finishedAtUtc": "2026-10-24T12:43:20.853010+00:00",
+  "elapsedSeconds": 6.188000000001921,
+  "exitCode": 0,
+  "testsPassed": 404,
+  "testsFailed": 0,
+  "stdoutPath": "artifacts/poll-checks/2026-10-24/test-results-reviewed-r2.txt",
+  "stdoutSha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+  "stderrPath": "artifacts/poll-checks/2026-10-24/build-replay-test-runlogs/08-full-tests-reviewed-r2-r1.stderr.txt",
+  "stderrSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "activeTestSha256": "d200ac01b293ae4812a5d6cff3300002b9ab866693b57d38c38a82ea6016528b",
+  "peerSourceGateSha256": "844b6a66eb8d5c645e915588d496fad74d70c0355dba1ab408212b0d851f832d",
+  "applicationReceiptSha256": "065be7e325d49a1bc53f36e83af4789c60558e9a84ccab61c813c4ee106cd4ee",
+  "snapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "htmlSha256": "3410540bf4f99ba6528e523494d2b2eba32328463e81c97c77ccd7b7317bb7e8",
+  "firstFullRunPreservedSha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe",
+  "failedR1NominalFinalPreservedSha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a"
+}

@@ -1,0 +1,17 @@
+{
+  "status": "CHANGES_REQUIRED_BEFORE_SOURCE_APPROVAL",
+  "asOf": "2026-10-24",
+  "proposalSha256": "8a3500256127f0f1690e0c028de8863f288834be4a977e885d79fb17f7e8f9b4",
+  "candidateSha256": "fec8c0511c557cbcde3558fa3b9d6dff177b9a7248a32bdf73c80611e4a8e6d3",
+  "diffSha256": "1f28b535915e337c601b6e35785ba2324b2d282c948f807cec564db805d61108",
+  "finding": {
+    "function": "assertFreshOperationalBoundary",
+    "identifier": "validatorPath",
+    "reason": "Extraction moved the former bloc-local operational block to a top-level helper. validatorPath remains referenced in the helper but is neither a parameter nor a local/global binding. It was scoped only within reviewedCurrentBlocBoundary. Both new calls would throw ReferenceError before finishing their gate checks.",
+    "boundedRepair": "Pass validatorPath explicitly or derive the exact pinned current24 validator path locally in the helper. Preserve the initial candidate/proposal/diff and active R1 source."
+  },
+  "candidateExecuted": false,
+  "sourceGateGranted": false,
+  "activeTestChanged": false,
+  "canonicalModelOrNumericalChanges": false
+}

@@ -1,0 +1,375 @@
+--- tests/strict-party-publication.test.mjs
++++ reviewed-r2-candidate/strict-party-publication.test.mjs
+@@ -220,6 +220,141 @@
+   verifiedBlocBoundary = proof;
+   return proof;
+ }
++function assertFreshOperationalBoundary({folder, validation, proof, analysis, analysisKind, identity, primary, own, total, index}) {
++  // Fresh24Oct four-count proof: retain false common-addition equality honestly.
++  const kind = 'exact-operational-predicate-reconciliation';
++  const sourceGatePath = folder + 'numeric-boundaries/operational-reconciliation-r1/independent-source-review.json';
++  const reviewPath = folder + 'numeric-boundaries/operational-reconciliation-r1/independent-execution-review.json';
++  const diagnosisName = `${analysisKind}-${identity}-band-diagnosis.json`;
++  const diagnosisPath = folder + 'numeric-boundaries/' + diagnosisName;
++  assert.equal(fileSha256(sourceGatePath), '74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f');
++  assert.equal(fileSha256(reviewPath), 'f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226');
++  const sourceGate = read(sourceGatePath), review = read(reviewPath), diagnosis = read(diagnosisPath);
++  assert.equal(sourceGate.status, 'PASS_SOURCE_GATE');
++  assert.equal(review.status, 'PASS');
++  assert.equal(sourceGate.asOf, current.asOf);
++  assert.equal(review.asOf, current.asOf);
++  assert.equal(sourceGate.validationKind, kind);
++  assert.equal(review.validationKind, kind);
++  assert.equal(proof.validationKind, kind);
++  assert.equal(validation.operationalPredicateSourceGateSha256, fileSha256(sourceGatePath));
++  assert.equal(review.sourceGateSha256, fileSha256(sourceGatePath));
++  assert.equal(sourceGate.proposalSha256, fileSha256(folder + 'numeric-boundaries/operational-reconciliation-r1/proposal.json'));
++  assert.equal(sourceGate.regressionFixturesSha256,
++    fileSha256(folder + 'numeric-boundaries/operational-reconciliation-r1/regression-fixtures.json'));
++  for (const gate of [sourceGate, review]) {
++    assert.ok(Object.keys(gate.checks).length > 0 && Object.values(gate.checks).every(value => value === true));
++  }
++  for (const [file, hash] of Object.entries({...sourceGate.adaptedFiles, ...sourceGate.baseFiles})) {
++    assert.equal(fileSha256(file), hash, file);
++  }
++  assert.equal(sourceGate.adaptedFiles[validatorPath], validation.validatorSha256);
++  assert.equal(proof.adapterPath, validatorPath);
++  assert.equal(proof.adapterSha256, validation.validatorSha256);
++  for (const [pathKey, hashKey] of [['verifierPath', 'verifierSha256'], ['materializerPath', 'materializerSha256'],
++    ['adapterPath', 'adapterSha256'], ['promoterPath', 'promoterSha256']]) {
++    assert.equal(sourceGate.adaptedFiles[proof[pathKey]], proof[hashKey]);
++    assert.equal(fileSha256(proof[pathKey]), proof[hashKey]);
++  }
++  for (const key of ['pOrQChanged', 'statisticalToleranceWidened']) {
++    assert.equal(validation[key], false);
++    assert.equal(proof[key], false);
++  }
++  assert.equal(validation.ordinaryChecksPreserved, true);
++  assert.equal(proof.ordinaryValidatorAndPromoterUnchanged, false);
++  assert.equal(proof.primaryOperationalPredicateExactIntegerMatch, true);
++  assert.equal(proof.ownThresholdExactIntegerMatch, true);
++  assert.equal(proof.allScalarSupportsAndLabeledMassesEqual, true);
++  assert.equal(proof.outputsOrFrozenHelpersModified, false);
++  assert.equal(review.pOrQChanged, false);
++  assert.equal(review.outputsOrFrozenHelpersModified, false);
++  assert.equal(review.heavyCountersExecutedByReviewer, false);
++  const names = ['bloc-coalition', 'bloc-opposition', 'bloc-opposition_raam', 'party-yashar'];
++  assert.deepEqual(Object.keys(validation.boundaryReviewHashes).sort(),
++    names.map(name => folder + `numeric-boundaries/${name}-operational-r1.json`).sort());
++  assert.deepEqual(Object.keys(review.diagnosisHashes).sort(), names.map(name => name + '-band-diagnosis.json').sort());
++  for (const [name, hash] of Object.entries(review.diagnosisHashes)) {
++    assert.equal(fileSha256(folder + 'numeric-boundaries/' + name), hash, name);
++  }
++  for (const [file, hash] of Object.entries({...review.inputHashes, ...review.actualExecutionLogHashes,
++    ...review.allFourLineageHashes})) assert.equal(fileSha256(file), hash, file);
++  const runPath = folder + 'canonical-numeric-runlogs/run-receipt.json', run = read(runPath);
++  assert.equal(fileSha256(runPath), review.allFourStageRunReceiptSha256);
++  assert.equal(run.status, 'PASS');
++  assert.equal(run.asOf, current.asOf);
++  assert.equal(run.allFourCanonicalStagesPassed, true);
++  for (const [file, hash] of Object.entries(run.inputHashes)) assert.equal(fileSha256(file), hash, file);
++  assert.equal(run.stages.length, 4);
++  for (const stage of run.stages) {
++    assert.equal(stage.status, 'PASS');
++    assert.equal(stage.asOf, current.asOf);
++    assert.equal(fileSha256(stage.lineage), stage.lineageSha256);
++    const lineage = read(stage.lineage);
++    assert.equal(fileSha256('artifacts/strict-post-close/' + lineage.outputFile), lineage.outputSha256);
++  }
++  assert.equal(proof.diagnosisPath, diagnosisPath);
++  assert.equal(proof.independentReviewPath, reviewPath);
++  assert.equal(proof.sourceGatePath, sourceGatePath);
++  assert.equal(proof.sourceGateSha256, fileSha256(sourceGatePath));
++  assert.equal(proof.diagnosisSha256, fileSha256(diagnosisPath));
++  assert.equal(proof.independentReviewSha256, fileSha256(reviewPath));
++  assert.equal(review.diagnosisHashes[diagnosisName], proof.diagnosisSha256);
++  assert.equal(proof.reproducerSha256, review.reproducerSha256);
++  assert.equal(fileSha256(proof.reproducerPath), proof.reproducerSha256);
++  assert.deepEqual(diagnosis.inputHashes, review.inputHashes);
++  assert.equal(diagnosis.kind, analysisKind);
++  assert.equal(diagnosis.outcome, identity);
++  for (const key of ['primaryObservedHex', 'independentObservedHex', 'primaryExtremeCountExact',
++    'independentExtremeCountExact', 'totalExact']) assert.equal(proof[key], diagnosis[key], key);
++  assert.equal(Math.abs(pythonHexFloat(proof.primaryObservedHex)) - 1e-12, pythonHexFloat(diagnosis.primaryCutoffHex));
++  assert.equal(Math.abs(pythonHexFloat(proof.independentObservedHex)) - 1e-12, pythonHexFloat(diagnosis.independentCutoffHex));
++  assert.equal(diagnosis.toleranceUnchanged, 1e-12);
++  const keys = ['subtractionAtPrimaryObservedCountExact', 'directAtPrimaryObservedCountExact',
++    'subtractionAtOwnObservedCountExact', 'directAtOwnObservedCountExact'];
++  const counts = Object.fromEntries(keys.map(key => [key, diagnosis[key]]));
++  assert.deepEqual(proof.operationalCounts, counts);
++  assert.deepEqual(review.operationalCounts[diagnosisName], counts);
++  const [sp, dp, si, ia] = keys.map(key => BigInt(counts[key]));
++  assert.ok([sp, dp, si, ia].every(value => value >= 0n && value <= total));
++  assert.equal(sp, primary);
++  assert.equal(ia, own);
++  assert.equal(BigInt(proof.primaryOperationalCountExact), sp);
++  assert.equal(BigInt(proof.commonThresholdCountExact), dp);
++  assert.equal(BigInt(proof.ownThresholdCountExact), ia);
++  const commonMatches = dp === primary;
++  assert.equal(proof.commonThresholdExactIntegerMatch, commonMatches);
++  assert.equal(proof.commonAdditionThresholdMatchesPrimary, commonMatches);
++  assert.equal(review.commonAdditionMatchesPrimary[diagnosisName], commonMatches);
++  assert.equal(diagnosis.originalDirectCommonThresholdIntegerMatch, commonMatches);
++  assert.equal(diagnosis.status, commonMatches ? 'PASS' : 'INVESTIGATE');
++  assert.equal(proof.diagnosisStatusPreserved, diagnosis.status);
++  assert.equal(review.originalDiagnosisStatuses[diagnosisName], diagnosis.status);
++  const deltas = [sp - ia, dp - ia, si - ia, 0n].map(String);
++  assert.deepEqual(proof.signedDifferencesFromAdditionOwn, deltas);
++  assert.deepEqual(diagnosis.screening.signedDifferencesFromAdditionOwn, deltas);
++  const decomposition = {predicateAtPrimary: String(dp - sp), directObservedShift: String(ia - dp),
++    subtractionObservedShift: String(si - sp), predicateAtIndependent: String(ia - si), totalDifference: String(own - primary)};
++  assert.deepEqual(proof.signedCountDecomposition, decomposition);
++  assert.deepEqual(diagnosis.signedCountDecomposition, decomposition);
++  assert.deepEqual(review.signedCountDecompositions[diagnosisName], decomposition);
++  assert.equal((dp - sp) + (ia - dp), own - primary);
++  assert.equal((si - sp) + (ia - si), own - primary);
++  assertNearestFloatFromExactRatio(proof.probabilityDifference, own - primary, total);
++  assert.equal(diagnosis.unchangedReportedValues.primaryP, analysis.primary.overall[index].pValue);
++  assert.equal(diagnosis.unchangedReportedValues.primaryQ, analysis.primary.overall[index].qValue);
++  assert.deepEqual(proof.support, diagnosis.support);
++  assert.deepEqual(proof.commonHalfSizes, diagnosis.halfSizes);
++  assert.deepEqual(proof.ownHalfSizes, diagnosis.halfSizes);
++  assert.equal(diagnosis.rawHalfMasses.reduce((product, value) => product * BigInt(value), 1n), total);
++  for (const witness of diagnosis.screening.witnesses) {
++    const a = pythonHexFloat(witness.aHex), b = pythonHexFloat(witness.bHex);
++    const cp = pythonHexFloat(diagnosis.primaryCutoffHex), ci = pythonHexFloat(diagnosis.independentCutoffHex);
++    const sub = cutoff => Number(b >= cutoff - a) + Number(b <= -cutoff - a);
++    const add = cutoff => Number(a + b >= cutoff) + Number(a + b <= -cutoff);
++    assert.deepEqual(witness.predicates, [sub(cp), add(cp), sub(ci), add(ci)]);
++    assert.ok(BigInt(witness.aMass) > 0n && BigInt(witness.bMass) > 0n);
++  }
++}
+ const verifiedCurrentBlocBoundaries = new Map();
+ function reviewedCurrentBlocBoundary(checked, index) {
+   const identity = blocAudit.primary.overall[index].group;
+@@ -290,139 +425,8 @@
+   assert.equal(primary, BigInt(proof.primaryExtremeCountExact));
+   assert.equal(own, BigInt(proof.independentExtremeCountExact));
+   if (operationalDiagnosis) {
+-    // Fresh24Oct four-count proof: retain false common-addition equality honestly.
+-    const kind = 'exact-operational-predicate-reconciliation';
+-    const sourceGatePath = folder + 'numeric-boundaries/operational-reconciliation-r1/independent-source-review.json';
+-    const reviewPath = folder + 'numeric-boundaries/operational-reconciliation-r1/independent-execution-review.json';
+-    const diagnosisName = `bloc-${identity}-band-diagnosis.json`;
+-    const diagnosisPath = folder + 'numeric-boundaries/' + diagnosisName;
+-    assert.equal(fileSha256(sourceGatePath), '74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f');
+-    assert.equal(fileSha256(reviewPath), 'f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226');
+-    const sourceGate = read(sourceGatePath), review = read(reviewPath), diagnosis = read(diagnosisPath);
+-    assert.equal(sourceGate.status, 'PASS_SOURCE_GATE');
+-    assert.equal(review.status, 'PASS');
+-    assert.equal(sourceGate.asOf, current.asOf);
+-    assert.equal(review.asOf, current.asOf);
+-    assert.equal(sourceGate.validationKind, kind);
+-    assert.equal(review.validationKind, kind);
+-    assert.equal(proof.validationKind, kind);
+-    assert.equal(validation.operationalPredicateSourceGateSha256, fileSha256(sourceGatePath));
+-    assert.equal(review.sourceGateSha256, fileSha256(sourceGatePath));
+-    assert.equal(sourceGate.proposalSha256, fileSha256(folder + 'numeric-boundaries/operational-reconciliation-r1/proposal.json'));
+-    assert.equal(sourceGate.regressionFixturesSha256,
+-      fileSha256(folder + 'numeric-boundaries/operational-reconciliation-r1/regression-fixtures.json'));
+-    for (const gate of [sourceGate, review]) {
+-      assert.ok(Object.keys(gate.checks).length > 0 && Object.values(gate.checks).every(value => value === true));
+-    }
+-    for (const [file, hash] of Object.entries({...sourceGate.adaptedFiles, ...sourceGate.baseFiles})) {
+-      assert.equal(fileSha256(file), hash, file);
+-    }
+-    assert.equal(sourceGate.adaptedFiles[validatorPath], validation.validatorSha256);
+-    assert.equal(proof.adapterPath, validatorPath);
+-    assert.equal(proof.adapterSha256, validation.validatorSha256);
+-    for (const [pathKey, hashKey] of [['verifierPath', 'verifierSha256'], ['materializerPath', 'materializerSha256'],
+-      ['adapterPath', 'adapterSha256'], ['promoterPath', 'promoterSha256']]) {
+-      assert.equal(sourceGate.adaptedFiles[proof[pathKey]], proof[hashKey]);
+-      assert.equal(fileSha256(proof[pathKey]), proof[hashKey]);
+-    }
+-    for (const key of ['pOrQChanged', 'statisticalToleranceWidened']) {
+-      assert.equal(validation[key], false);
+-      assert.equal(proof[key], false);
+-    }
+-    assert.equal(validation.ordinaryChecksPreserved, true);
+-    assert.equal(proof.ordinaryValidatorAndPromoterUnchanged, false);
+-    assert.equal(proof.primaryOperationalPredicateExactIntegerMatch, true);
+-    assert.equal(proof.ownThresholdExactIntegerMatch, true);
+-    assert.equal(proof.allScalarSupportsAndLabeledMassesEqual, true);
+-    assert.equal(proof.outputsOrFrozenHelpersModified, false);
+-    assert.equal(review.pOrQChanged, false);
+-    assert.equal(review.outputsOrFrozenHelpersModified, false);
+-    assert.equal(review.heavyCountersExecutedByReviewer, false);
+-    const names = ['bloc-coalition', 'bloc-opposition', 'bloc-opposition_raam', 'party-yashar'];
+-    assert.deepEqual(Object.keys(validation.boundaryReviewHashes).sort(),
+-      names.map(name => folder + `numeric-boundaries/${name}-operational-r1.json`).sort());
+-    assert.deepEqual(Object.keys(review.diagnosisHashes).sort(), names.map(name => name + '-band-diagnosis.json').sort());
+-    for (const [name, hash] of Object.entries(review.diagnosisHashes)) {
+-      assert.equal(fileSha256(folder + 'numeric-boundaries/' + name), hash, name);
+-    }
+-    for (const [file, hash] of Object.entries({...review.inputHashes, ...review.actualExecutionLogHashes,
+-      ...review.allFourLineageHashes})) assert.equal(fileSha256(file), hash, file);
+-    const runPath = folder + 'canonical-numeric-runlogs/run-receipt.json', run = read(runPath);
+-    assert.equal(fileSha256(runPath), review.allFourStageRunReceiptSha256);
+-    assert.equal(run.status, 'PASS');
+-    assert.equal(run.asOf, current.asOf);
+-    assert.equal(run.allFourCanonicalStagesPassed, true);
+-    for (const [file, hash] of Object.entries(run.inputHashes)) assert.equal(fileSha256(file), hash, file);
+-    assert.equal(run.stages.length, 4);
+-    for (const stage of run.stages) {
+-      assert.equal(stage.status, 'PASS');
+-      assert.equal(stage.asOf, current.asOf);
+-      assert.equal(fileSha256(stage.lineage), stage.lineageSha256);
+-      const lineage = read(stage.lineage);
+-      assert.equal(fileSha256('artifacts/strict-post-close/' + lineage.outputFile), lineage.outputSha256);
+-    }
+-    assert.equal(proof.diagnosisPath, diagnosisPath);
+-    assert.equal(proof.independentReviewPath, reviewPath);
+-    assert.equal(proof.sourceGatePath, sourceGatePath);
+-    assert.equal(proof.sourceGateSha256, fileSha256(sourceGatePath));
+-    assert.equal(proof.diagnosisSha256, fileSha256(diagnosisPath));
+-    assert.equal(proof.independentReviewSha256, fileSha256(reviewPath));
+-    assert.equal(review.diagnosisHashes[diagnosisName], proof.diagnosisSha256);
+-    assert.equal(proof.reproducerSha256, review.reproducerSha256);
+-    assert.equal(fileSha256(proof.reproducerPath), proof.reproducerSha256);
+-    assert.deepEqual(diagnosis.inputHashes, review.inputHashes);
+-    assert.equal(diagnosis.kind, 'bloc');
+-    assert.equal(diagnosis.outcome, identity);
+-    for (const key of ['primaryObservedHex', 'independentObservedHex', 'primaryExtremeCountExact',
+-      'independentExtremeCountExact', 'totalExact']) assert.equal(proof[key], diagnosis[key], key);
+-    assert.equal(Math.abs(pythonHexFloat(proof.primaryObservedHex)) - 1e-12, pythonHexFloat(diagnosis.primaryCutoffHex));
+-    assert.equal(Math.abs(pythonHexFloat(proof.independentObservedHex)) - 1e-12, pythonHexFloat(diagnosis.independentCutoffHex));
+-    assert.equal(diagnosis.toleranceUnchanged, 1e-12);
+-    const keys = ['subtractionAtPrimaryObservedCountExact', 'directAtPrimaryObservedCountExact',
+-      'subtractionAtOwnObservedCountExact', 'directAtOwnObservedCountExact'];
+-    const counts = Object.fromEntries(keys.map(key => [key, diagnosis[key]]));
+-    assert.deepEqual(proof.operationalCounts, counts);
+-    assert.deepEqual(review.operationalCounts[diagnosisName], counts);
+-    const [sp, dp, si, ia] = keys.map(key => BigInt(counts[key]));
+-    assert.ok([sp, dp, si, ia].every(value => value >= 0n && value <= total));
+-    assert.equal(sp, primary);
+-    assert.equal(ia, own);
+-    assert.equal(BigInt(proof.primaryOperationalCountExact), sp);
+-    assert.equal(BigInt(proof.commonThresholdCountExact), dp);
+-    assert.equal(BigInt(proof.ownThresholdCountExact), ia);
+-    const commonMatches = dp === primary;
+-    assert.equal(proof.commonThresholdExactIntegerMatch, commonMatches);
+-    assert.equal(proof.commonAdditionThresholdMatchesPrimary, commonMatches);
+-    assert.equal(review.commonAdditionMatchesPrimary[diagnosisName], commonMatches);
+-    assert.equal(diagnosis.originalDirectCommonThresholdIntegerMatch, commonMatches);
+-    assert.equal(diagnosis.status, commonMatches ? 'PASS' : 'INVESTIGATE');
+-    assert.equal(proof.diagnosisStatusPreserved, diagnosis.status);
+-    assert.equal(review.originalDiagnosisStatuses[diagnosisName], diagnosis.status);
+-    const deltas = [sp - ia, dp - ia, si - ia, 0n].map(String);
+-    assert.deepEqual(proof.signedDifferencesFromAdditionOwn, deltas);
+-    assert.deepEqual(diagnosis.screening.signedDifferencesFromAdditionOwn, deltas);
+-    const decomposition = {predicateAtPrimary: String(dp - sp), directObservedShift: String(ia - dp),
+-      subtractionObservedShift: String(si - sp), predicateAtIndependent: String(ia - si), totalDifference: String(own - primary)};
+-    assert.deepEqual(proof.signedCountDecomposition, decomposition);
+-    assert.deepEqual(diagnosis.signedCountDecomposition, decomposition);
+-    assert.deepEqual(review.signedCountDecompositions[diagnosisName], decomposition);
+-    assert.equal((dp - sp) + (ia - dp), own - primary);
+-    assert.equal((si - sp) + (ia - si), own - primary);
+-    assertNearestFloatFromExactRatio(proof.probabilityDifference, own - primary, total);
+-    assert.equal(diagnosis.unchangedReportedValues.primaryP, blocAudit.primary.overall[index].pValue);
+-    assert.equal(diagnosis.unchangedReportedValues.primaryQ, blocAudit.primary.overall[index].qValue);
+-    assert.deepEqual(proof.support, diagnosis.support);
+-    assert.deepEqual(proof.commonHalfSizes, diagnosis.halfSizes);
+-    assert.deepEqual(proof.ownHalfSizes, diagnosis.halfSizes);
+-    assert.equal(diagnosis.rawHalfMasses.reduce((product, value) => product * BigInt(value), 1n), total);
+-    for (const witness of diagnosis.screening.witnesses) {
+-      const a = pythonHexFloat(witness.aHex), b = pythonHexFloat(witness.bHex);
+-      const cp = pythonHexFloat(diagnosis.primaryCutoffHex), ci = pythonHexFloat(diagnosis.independentCutoffHex);
+-      const sub = cutoff => Number(b >= cutoff - a) + Number(b <= -cutoff - a);
+-      const add = cutoff => Number(a + b >= cutoff) + Number(a + b <= -cutoff);
+-      assert.deepEqual(witness.predicates, [sub(cp), add(cp), sub(ci), add(ci)]);
+-      assert.ok(BigInt(witness.aMass) > 0n && BigInt(witness.bMass) > 0n);
+-    }
++    assertFreshOperationalBoundary({folder, validation, proof, analysis: blocAudit, analysisKind: 'bloc',
++      identity, primary, own, total, index});
+   } else if (predicateDiagnosis) {
+     const diagnosisPath = folder + 'numeric-boundaries/opposition-predicate-diagnosis.json';
+     const reviewPath = folder + 'numeric-boundaries/opposition-predicate-independent-review.json';
+@@ -539,6 +543,79 @@
+   verifiedCurrentBlocBoundaries.set(identity, proof);
+   return proof;
+ }
++function assertPartyIntegerTailAgreement(row, index) {
++  const primary = BigInt(audit.primary.exactCounting.extremeCountsExact[index]);
++  const own = BigInt(row.extremeCountExact);
++  if (primary === own) {
++    assert.equal(own, primary);
++    return;
++  }
++  // Only the fourth already reviewed fresh24Oct operational discrepancy is allowed.
++  assert.equal(current.asOf, '2026-10-24');
++  assert.equal(audit.asOf, current.asOf);
++  assert.equal(history.asOf, current.asOf);
++  assert.equal(row.partyId, 'yashar');
++  const identity = row.partyId, folder = `artifacts/poll-checks/${current.asOf}/`;
++  const validation = read(folder + 'strict-validation.json');
++  assert.equal(validation.status, 'PASS');
++  assert.equal(validation.passed, true);
++  assert.equal(validation.asOf, current.asOf);
++  assert.equal(validation.validationKind, 'exact-operational-predicate-reconciliation');
++  assert.equal(fileSha256('scripts/validate-strict-trends-2026-10-24-r1.py'), validation.validatorSha256);
++  const manifest = read(folder + 'before/manifest.json');
++  assert.equal(fileSha256(folder + 'before/manifest.json'), validation.checkpointManifestSha256);
++  const path = folder + `numeric-boundaries/party-${identity}-operational-r1.json`, proof = read(path);
++  assert.equal(fileSha256(path), validation.boundaryReviewHashes[path]);
++  assert.equal(proof.status, 'PASS');
++  assert.equal(proof.asOf, current.asOf);
++  assert.equal(proof.kind, 'party');
++  assert.equal(proof.identity, identity);
++  assert.deepEqual(proof.inputHashes, validation.inputHashes);
++  for (const [file, hash] of Object.entries(proof.inputHashes)) assert.equal(fileSha256(file), hash, file);
++  for (const family of ['candidateHashes', 'sourceEvidenceHashes', 'numericLineageHashes']) {
++    assert.ok(Object.keys(validation[family]).length > 0, family);
++    for (const [file, hash] of Object.entries(validation[family])) assert.equal(fileSha256(file), hash, file);
++  }
++  for (const [file, hash] of Object.entries(validation.exactArithmeticRepairInputHashes)) {
++    assert.equal(fileSha256(file), hash, file);
++    assert.equal(manifest.files[file], hash, file);
++  }
++  assert.equal(audit.primary.overall[index].partyId, identity);
++  assert.equal(audit.primary.overall[index].slopePerWeek, pythonHexFloat(proof.primaryObservedHex));
++  assert.equal(row.slopePerWeek, pythonHexFloat(proof.independentObservedHex));
++  assert.equal(proof.toleranceUnchanged, 1e-12);
++  const total = audit.primary.byPollster.reduce((product, series) => product * factorial(series.pollIds.length), 1n);
++  assert.equal(total, expectedCurrentPermutationTotal);
++  assert.equal(total, BigInt(proof.totalExact));
++  assert.equal(total, BigInt(independent.nPermutationsExact));
++  assert.equal(total, BigInt(validation.exactPermutations));
++  assert.equal(primary, BigInt(proof.primaryExtremeCountExact));
++  assert.equal(own, BigInt(proof.independentExtremeCountExact));
++  assertFreshOperationalBoundary({folder, validation, proof, analysis: audit, analysisKind: 'party',
++    identity, primary, own, total, index});
++  assert.equal(proof.support.length, audit.primary.byPollster.length);
++  let reconstructedTotal = 1n;
++  for (const [position, support] of proof.support.entries()) {
++    const series = audit.primary.byPollster[position];
++    assert.equal(support.pollsterId, series.pollsterId);
++    assert.deepEqual(support.pollIds, series.pollIds);
++    assert.deepEqual(support.timeDays, series.timeDaysFromFirst);
++    assert.deepEqual(support.seats, series.parties.find(value => value.partyId === identity).seats);
++    assert.equal(support.weight, series.weight);
++    const histogram = scalarPermutationHistogram(support.timeDays, support.seats);
++    assert.equal(histogram.total, factorial(series.pollIds.length));
++    assert.equal(histogram.total, BigInt(support.rawMass));
++    reconstructedTotal *= histogram.total;
++    const ordered = [...histogram.scores].sort(([a], [b]) => a - b);
++    assert.equal(ordered.length, support.uniqueScores);
++    const values = Buffer.alloc(8 * ordered.length), scale = 14 * support.weight / histogram.denominator;
++    ordered.forEach(([score], i) => values.writeDoubleLE(score * scale, i * 8));
++    assert.equal(crypto.createHash('sha256').update(values).digest('hex'), support.valuesSha256);
++    assert.equal(crypto.createHash('sha256').update(JSON.stringify(ordered.map(([, mass]) => mass.toString()))).digest('hex'),
++      support.multiplicitiesSha256);
++  }
++  assert.equal(reconstructedTotal, total);
++}
+ function assertBlocIntegerTailAgreement(checked, index) {
+   const primary = BigInt(blocAudit.primary.exactCounting.extremeCountsExact[index]);
+   const own = BigInt(checked.countsExact[index]);
+@@ -645,7 +722,7 @@
+   assert.equal(independent.overall.length, 17);
+   assert.deepEqual(independent.overall.map(row => row.partyId), audit.primary.overall.map(row => row.partyId));
+   for (const [index, row] of independent.overall.entries()) {
+-    assert.equal(BigInt(row.extremeCountExact), BigInt(audit.primary.exactCounting.extremeCountsExact[index]));
++    assertPartyIntegerTailAgreement(row, index);
+     close(row.p, exactProbability(row.extremeCountExact, independent.nPermutationsExact), row.partyId);
+   }
+ });

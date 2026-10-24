@@ -1,0 +1,2293 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "runId": "reviewed",
+  "newPollCount": 4,
+  "observationDateKinds": {
+    "midgam_geva_2026-10-23": null,
+    "hamadad_consortium_2026-10-23": null,
+    "kantar_2026-10-23": null,
+    "direct_polls_2026-10-23": null
+  },
+  "observationPublicationDates": [
+    "2026-10-23"
+  ],
+  "activePolls": 8,
+  "historyPolls": 147,
+  "eligibleFull": 64,
+  "eligibleWithout14": 50,
+  "unknownFieldworkExcluded": 12,
+  "testsPassed": 404,
+  "snapshotSha256": "a4f2e9c9ff9255c0957207f34627eaddf54c077679642fa4f9efab94ee3be26b",
+  "publishedHtmlSha256": "796f261364c0f87686931fc87a9002560ba3116a38fd5ff6ea03e49b3014d4fc",
+  "featuresChatGPT": false,
+  "defaultWeightMode": "quality",
+  "includeChannel14": false,
+  "signalNoiseEnabled": false,
+  "pollCorrelationEnabled": false,
+  "winterDefaultBloc": "coalition",
+  "hendelDefaultBloc": "unassigned",
+  "preferredReportingSimilarityEnabled": true,
+  "reviewedExactHelpersUnchanged": {
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "artifacts/audit-strict-full-series-2026-09-28.py": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+    "artifacts/strict-post-close/party-independent.py": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68"
+  },
+  "socialDraftOnly": true,
+  "socialEvidenceKind": "published-poll-comparison",
+  "socialImageSourcePollIds": [
+    "direct_polls_2026-10-23",
+    "hamadad_consortium_2026-10-23",
+    "kantar_2026-10-23",
+    "midgam_geva_2026-10-23"
+  ],
+  "fullArticleBodiesExcludedFromNewRelease": true,
+  "compiledTo120DatasetExcludedFromNewRelease": true,
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "comparisonHashes": {
+    "model-comparison": "7884149eeda251ddb03e2ff789658ebe339fce0c945d647b75bb152953eaad37",
+    "model-comparison-similarity": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97"
+  },
+  "additionalSourceEvidence": [
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/c13/ingested-poll.json",
+      "publicPath": "sources/2026-10-24/c13/ingested-poll.json",
+      "sha256": "18dd0a372fac011cc60abca9356621420631cda72fd7e85571a767247b56e1f4"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/c13/reviewed-poll.json",
+      "publicPath": "sources/2026-10-24/c13/reviewed-poll.json",
+      "sha256": "18dd0a372fac011cc60abca9356621420631cda72fd7e85571a767247b56e1f4"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/c13/source-extract.txt",
+      "publicPath": "sources/2026-10-24/c13/source-extract.txt",
+      "sha256": "dfad4ce87d2b5d7e28018c9c4933e5025fc3d7051b99e81d3f03363481ccf5f2"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/i24/ingested-poll.json",
+      "publicPath": "sources/2026-10-24/i24/ingested-poll.json",
+      "sha256": "3f92e3bd64ccd40e725a9c00d06abc912539af0b2e542ac22c2018a2efe74634"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/i24/reviewed-poll.json",
+      "publicPath": "sources/2026-10-24/i24/reviewed-poll.json",
+      "sha256": "3f92e3bd64ccd40e725a9c00d06abc912539af0b2e542ac22c2018a2efe74634"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/i24/source-extract.txt",
+      "publicPath": "sources/2026-10-24/i24/source-extract.txt",
+      "sha256": "4a4b794424fde540032e330c233f816e72a6c9d356205e7de19bf287aea364eb"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/kan/ingested-poll.json",
+      "publicPath": "sources/2026-10-24/kan/ingested-poll.json",
+      "sha256": "3af2b320b9613cd9c5ead83b831f34907c5c8b8d8a6075b62d17fceeb8f1ad3a"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/kan/reviewed-poll.json",
+      "publicPath": "sources/2026-10-24/kan/reviewed-poll.json",
+      "sha256": "3af2b320b9613cd9c5ead83b831f34907c5c8b8d8a6075b62d17fceeb8f1ad3a"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/kan/source-extract.txt",
+      "publicPath": "sources/2026-10-24/kan/source-extract.txt",
+      "sha256": "ccccb13db1007cbece1343d2560d6b9a67c2f70d29cc9e0441c7ecd0f58e3f10"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/n12/ingested-poll.json",
+      "publicPath": "sources/2026-10-24/n12/ingested-poll.json",
+      "sha256": "69620b078dc2f45e9299adffe4f55542f3c48f951d4827dbb2db937269c822e9"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/n12/reviewed-poll.json",
+      "publicPath": "sources/2026-10-24/n12/reviewed-poll.json",
+      "sha256": "69620b078dc2f45e9299adffe4f55542f3c48f951d4827dbb2db937269c822e9"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/n12/source-extract.txt",
+      "publicPath": "sources/2026-10-24/n12/source-extract.txt",
+      "sha256": "1e80e8d715605386ea088fb524bfe1fdc2ba811ccc0094fe71420dd386b62f76"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/source-plan.json",
+      "publicPath": "sources/2026-10-24/source-plan.json",
+      "sha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6"
+    },
+    {
+      "sourcePath": "github-pages/sources/2026-10-24/ingestion-receipt.json",
+      "publicPath": "sources/2026-10-24/ingestion-receipt.json",
+      "sha256": "12253468099b8fb9dd98a9c21aa71d829a65f4c9f3e2aa2f7cd2a068023e7457"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-coverage-reviewed.json",
+      "publicPath": "sources/2026-10-24/source-discovery/source-coverage-reviewed.json",
+      "sha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-israelpolls/reviewed-facts.json",
+      "publicPath": "sources/2026-10-24/source-discovery/israelpolls-reviewed-facts.json",
+      "sha256": "c4f297f60c5269f2ff0026918191e40c59169ec745ed5b42530692e6cea617fe"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/other-primary-scan/reviewed-scan-summary.json",
+      "publicPath": "sources/2026-10-24/source-discovery/other-primary-reviewed-scan.json",
+      "sha256": "187276bf7be6a43301758d23a61dacfc47d740f0c503c635f1cd0392272fd3a6"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/independent-n12-c13-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/independent-n12-c13-source-review.json",
+      "sha256": "20f5c8663a4c9e09d3b05770988836ab97c2053f01af51a955d154fbf4621e3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-i24-kan-independent-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/source-i24-kan-independent-review.json",
+      "sha256": "45b15fe907a284e362bfc2ca729c65d8fca11d9e4977315b4f25c8108368e466"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/source-plan-independent-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/source-plan-independent-review.json",
+      "sha256": "afe35029a901872c9bc2d90710778da0de4b062a784e5d52c2b3bbf1b06eafa1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/primary-source-public-summary.json",
+      "publicPath": "sources/2026-10-24/source-discovery/primary-source-public-summary.json",
+      "sha256": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-independent-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/publication-wrapper-independent-source-review.json",
+      "sha256": "3c146bca27a5cd7b107015c75e567aa5bfb4fe5adafc6a5424d594e8f3b14fbb"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix.json",
+      "publicPath": "sources/2026-10-24/source-discovery/initial-publication-source-appendix.json",
+      "sha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/initial/publication-source-appendix-independent-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/initial-publication-source-appendix-independent-review.json",
+      "sha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-source-compatibility/code/validate-ingestion-2026-10-24-r1.py",
+      "publicPath": "sources/2026-10-24/source-discovery/validate-ingestion-2026-10-24-r1.py",
+      "sha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/proposed-validator-r1.json",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-r1-proposal.json",
+      "sha256": "eee06950dc4d9bbcbdd57d1aab9d5bd07fc18ffee1fc77d89c40b3c092e5ed4e"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/validator-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-r1.diff",
+      "sha256": "3ccdeb8273c6952f8b7465f40b7c53ef715b25797c2a44290493ada991f5b824"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/peer-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-r1-peer-source-review.json",
+      "sha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/named-bound-regressions.json",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-r1-regressions.json",
+      "sha256": "0707d7135a98a5d1184ff468e7881528e1f22c4071317141c79a0e4a83608573"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator-execution.json",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-r1-execution.json",
+      "sha256": "ff63f976f8663477941e73ff5e4f30854b0212bfeffa22137bb1bd10031f4dc8"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator.stdout.txt",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-r1.stdout.txt",
+      "sha256": "e365865b979aecd49cf63bea425628f208b39d727450f3dd33c708889bf1345c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/effective-validator.stderr.txt",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-r1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-failure-reproduction.json",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-original-failure-reproduction.json",
+      "sha256": "d889dd0babb51d942896c62688f469bd03aef613363870dbdcc99b0ac4ebb14d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stderr.txt",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-original-failure.stderr.txt",
+      "sha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stdout.txt",
+      "publicPath": "sources/2026-10-24/source-discovery/ingestion-validator-original-failure.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix.json",
+      "publicPath": "sources/2026-10-24/source-discovery/r1-publication-source-appendix.json",
+      "sha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r1/publication-source-appendix-independent-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/r1-publication-source-appendix-independent-review.json",
+      "sha256": "07add7d6f1876d4e13bbb208e64c0e51c621e5c8130904197b0fe777eb75c97d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-r1-proposal.json",
+      "sha256": "0d73238d2c4d7d6f9f640fe1737d357ccbb51a2d1afed82d792ff8d4eca8c5a4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff",
+      "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/fixtures.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-r1-fixtures.json",
+      "sha256": "e24863e1644b9534804d3b09c857d165d2ea8b32b5c59d500bd1c02072e1385c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-small-fixtures.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-r1-independent-small-fixtures.json",
+      "sha256": "45cb5e3f2ecbb83e1ec8ea82c6ff308b908546319bf330f136eadb797e1f7ece"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/independent-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-r1-independent-source-review.json",
+      "sha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/resource-plan.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-r1-resource-plan.json",
+      "sha256": "16a42c5ef44a96d376717befb9ee077198cefb82349025ca2325652d16d422e3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-materializer-proposal.json",
+      "sha256": "858e025e60a4258f75ac1d23be2406636b1505abb9175317b17d84b5924f39a2"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-materializer.diff",
+      "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer-independent-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-materializer-independent-source-review.json",
+      "sha256": "3026b48d87bec9c19e92fdad1bf67cb44425c384ae3746a6d3d355f95e29eea9"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft-proposal.json",
+      "sha256": "40b0f4484c5b807f44f054a61ba13b4071e152be83d7082d9995c0b275ef3805"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff",
+      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fixtures.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-unapproved-shared-predicate-fixtures.json",
+      "sha256": "101c4ff8ca0d314af9b9bf4cbf2b805ab460fc995a9c426ebab4bf3f7b55fb07"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/diagnose-tail-boundary-bands-2026-10-24.py",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-unapproved-initial-field-names.py",
+      "sha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/initial-field-names/fixtures.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-band-unapproved-initial-field-names-fixtures.json",
+      "sha256": "a9bc37e64d069c863e72085dceab409a25d3981c628a3e198ac652adf4270c27"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-r2.json",
+      "publicPath": "sources/2026-10-24/source-discovery/unpromoted-r2-publication-source-appendix.json",
+      "sha256": "fb62db375d3201ebe6d555c280cbef325f5fb3e295c2484e67219ee1cdbd2023"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r2/publication-source-appendix-r2.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/unpromoted-r2-publication-source-appendix.diff",
+      "sha256": "61cacf8adcf134edc7d52f513dc48e314ca81b08b8e9fd1e734277dbccd06bc5"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r2/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/unpromoted-r2-publication-source-appendix-proposal.json",
+      "sha256": "c35fcd8c9604d9f7d7e9a8777110a29311e60c341c51ac210fec61b15005a1c1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/publication-wrapper-r1-proposal.json",
+      "sha256": "cd9043cdf94ce1480399c824e522c1abf6cc10b3da0f3e85dca8276e5870149c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/package-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/publication-wrapper-r1.diff",
+      "sha256": "45a37c61c15e3673f06586036dffdfe0662c5aa2bb3da512804401261265a409"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/independent-root-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/publication-wrapper-r1-independent-root-review.json",
+      "sha256": "26c553df20ca84cfdf580b0e0f0cb58355c9801c6aa322dedf403b023d9eb799"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/code/package-poll-update-2026-10-24-r1.py",
+      "publicPath": "sources/2026-10-24/source-discovery/publication-wrapper-r1-reviewed-code.py",
+      "sha256": "51564c50a8e93fe9f5f6bc75601b55a7a69965f684a28c655facee2e507ed029"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-proposal.json",
+      "sha256": "a73fcc3fab54940e00e8085ec7a45eb2e5c28a38338040bde2d7fcc60138fa42"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-independent-source-review.json",
+      "sha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.py",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-regression-fixtures.py",
+      "sha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.json",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-regression-fixtures.json",
+      "sha256": "6969e49fe9374100e381debfce3a8457ea5dc2e73b6d50df4164a903fec62696"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-isolated-regression-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-independent-regression-review.json",
+      "sha256": "b4bbb83e17083ecfeec273cb10e1da8734f75c6e9e7b5335fcd63ddd4443fed9"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.py",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-verifier.py",
+      "sha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-verifier.diff",
+      "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.py",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.py",
+      "sha256": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.py",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.py",
+      "sha256": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.py",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-promoter.py",
+      "sha256": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-promoter.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/pre-review-verifier-e1982b.py",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-unapproved-pre-review-verifier.py",
+      "sha256": "e1982b1261935eef73e3c08e7c92b454a5fa5455b5bd9248e33de5fdbab760ae"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/proposal-initial-e1982b.json",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-unapproved-initial-proposal.json",
+      "sha256": "8f2d0e572d5dd4a9becc3693bafab6bef5b7b1889c85b5ad911b290d95d9e579"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-failed-initial-fixture-path.py",
+      "sha256": "d3d0e8f2fe3eee69b149dc2b4b180bd9ceb3685178481c7abc576004e6f2b006"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.failed-empty-encoding.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-coalition-failed-empty-serialization.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-runlogs/bloc-coalition-execution.json",
+      "publicPath": "sources/2026-10-24/source-discovery/numeric-coalition-actual-complete-execution-log.json",
+      "sha256": "ab497c699f7c028cb3a0a050ce01662241828a73c3017efefa51c8917967ce84"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/independent-execution-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-independent-execution-review.json",
+      "sha256": "f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/publication-source-appendix.json",
+      "publicPath": "sources/2026-10-24/source-discovery/r3-reviewed-publication-source-appendix.json",
+      "sha256": "9d3e9d83719ab1559409813b8f5c53ea660db531f1f565d5f6118ea3acadaecb"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/independent-root-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/r3-publication-source-appendix-root-review.json",
+      "sha256": "575affc818c5e9566e595d412a5846cc25e86463c6907ff8cb4525ef281763ec"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-source-appendix-revisions/r3-execution-r1/promoted/promotion.json",
+      "publicPath": "sources/2026-10-24/source-discovery/r3-publication-source-appendix-promotion.json",
+      "sha256": "caf0caf4b5df960d5a1bb6d6c7f246628c01e4f459e4f68850d470c56b52cb7a"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/original/strict-party-publication.test.mjs",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-original.test.mjs",
+      "sha256": "673ab9ce00e35886ab6183db8434957367505f97b505d5db7381a8bc5f599979"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/candidate/strict-party-publication.test.mjs",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-reviewed-r1.test.mjs",
+      "sha256": "b1996764bd6fdead6c072300ed82489905a7d7ed1702418c1473f09d6a98c168"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/strict-party-publication-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r1.diff",
+      "sha256": "d1e10ef9308b8330a910c09abf435b58c31245140ebe6cfded14217653faed84"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r1-proposal.json",
+      "sha256": "d184aa0658423619741cc3bc28c8f476242305952ed7c19eb2513a6562a4a285"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/independent-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r1-independent-source-review.json",
+      "sha256": "bb104757ed99e33c18bd9c34bc503dafb6f48352f0ac170a6a38119fb5eba862"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/application.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r1-application.json",
+      "sha256": "034068dcb21af81e07f8ebc361a73e72713c8c4aea750289820b8ad9b36cec30"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/candidate/strict-party-publication.test.mjs",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-unapproved-r2-draft.test.mjs",
+      "sha256": "fec8c0511c557cbcde3558fa3b9d6dff177b9a7248a32bdf73c80611e4a8e6d3"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-unapproved-r2-proposal.json",
+      "sha256": "8a3500256127f0f1690e0c028de8863f288834be4a977e885d79fb17f7e8f9b4"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/strict-party-publication-r2.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-unapproved-r2.diff",
+      "sha256": "1f28b535915e337c601b6e35785ba2324b2d282c948f807cec564db805d61108"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/initial-independent-source-findings.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r2-initial-findings.json",
+      "sha256": "30957406e8243d588f51d9163f7f311770cca511424ea2a168eb66c3b36c8bea"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/candidate-r1/strict-party-publication.test.mjs",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-reviewed-r2-r1.test.mjs",
+      "sha256": "d200ac01b293ae4812a5d6cff3300002b9ab866693b57d38c38a82ea6016528b"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/proposal-r1.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1-proposal.json",
+      "sha256": "1e3658e42e494941bb23c74971218b4782e5580a9fa24c8fae16f48bc585d122"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/strict-party-publication-r2-r1.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1.diff",
+      "sha256": "042f47a4b6fdc88dacda9772fb3046ebbd21fedadfaf58073b8dbaa825fa20e1"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/independent-source-review-r1.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1-independent-source-review.json",
+      "sha256": "844b6a66eb8d5c645e915588d496fad74d70c0355dba1ab408212b0d851f832d"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r2/application-r1.json",
+      "publicPath": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1-application.json",
+      "sha256": "065be7e325d49a1bc53f36e83af4789c60558e9a84ccab61c813c4ee106cd4ee"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-initial.txt",
+      "publicPath": "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt",
+      "sha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/build-replay-test-runlogs/06-full-tests-initial.json",
+      "publicPath": "sources/2026-10-24/source-discovery/full-tests-initial-execution.json",
+      "sha256": "2326e22cf95d324b1d1257852ed03cfeafdd94619d79ff0e71266adc04a77185"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-final-r1-failed.txt",
+      "publicPath": "sources/2026-10-24/source-discovery/full-tests-reviewed-r1-403-of-404.stdout.txt",
+      "sha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-final-r1-failed-execution.json",
+      "publicPath": "sources/2026-10-24/source-discovery/full-tests-reviewed-r1-failed-execution.json",
+      "sha256": "12ae387573eb6f78abfcd4aaa7159f43c398c97963d09b82cc2a0c002bf148a5"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-reviewed-r2.txt",
+      "publicPath": "sources/2026-10-24/source-discovery/full-tests-reviewed-r2-r1-404-of-404.stdout.txt",
+      "sha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/build-replay-test-runlogs/08-full-tests-reviewed-r2-r1.json",
+      "publicPath": "sources/2026-10-24/source-discovery/full-tests-reviewed-r2-r1-execution.json",
+      "sha256": "91347e486b398ce2e35dd7e1995a06de618a3c0303e7c10f4e91484950e15874"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-final-promotion-r2.json",
+      "publicPath": "sources/2026-10-24/source-discovery/full-tests-final-promotion-r2.json",
+      "sha256": "29cc33c3eb558307d4dcdec5fb1e1abb87b6d75b1e62f228774ef837a2635367"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/complete-poll-update-2026-10-24.py",
+      "publicPath": "sources/2026-10-24/source-discovery/complete-poll-update-2026-10-24-original.py",
+      "sha256": "30f66c843558912cbe5e3411e5f9ff39859ff1e03973365860c238717b85305e"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/complete-poll-update-2026-10-24-r1.py",
+      "publicPath": "sources/2026-10-24/source-discovery/complete-poll-update-2026-10-24-r1.py",
+      "sha256": "ef8bd0bd33f6428d89227a779981fbe68a25cd7f07cf6e1f0ce9bd7e9817ba37"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/proposal.json",
+      "publicPath": "sources/2026-10-24/source-discovery/completion-r1-proposal.json",
+      "sha256": "05bb849ae154f7ce3b39a77a33410f65eaaeb1819b2d514f181efc40ad68491c"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/completion-source-limitations.diff",
+      "publicPath": "sources/2026-10-24/source-discovery/completion-r1-source-limitations.diff",
+      "sha256": "195b7beca30eb3eb3248ee930c47ad64290165837b3ca6b491734d5a57208450"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/completion-source-compatibility-r1/independent-root-source-review.json",
+      "publicPath": "sources/2026-10-24/source-discovery/completion-r1-independent-root-source-review.json",
+      "sha256": "3957baeddf0027f46a908cbfbde68231be4cb6746ee45a1792f79ae25f547141"
+    },
+    {
+      "sourcePath": "artifacts/poll-checks/2026-10-24/build-replay-test-runlogs/post-build-test-preservation.json",
+      "publicPath": "sources/2026-10-24/source-discovery/post-build-model-test-preservation.json",
+      "sha256": "2b5d7cd59844ce5cdc16f305cfd6e2a9f1897513b0210399a5febbfba1c54180"
+    }
+  ],
+  "sourceAppendixSha256": "0b68611d03391edb752356228cf82e70915c1ee10c3a206a20201483d06ee3d7",
+  "allNewPublicSourcesFormattingChecked": 285,
+  "publicationWrapperPath": "scripts/package-poll-update-2026-10-24-r1.py",
+  "publicationWrapperSha256": "51564c50a8e93fe9f5f6bc75601b55a7a69965f684a28c655facee2e507ed029",
+  "publicationWrapperSourceGateSha256": "26c553df20ca84cfdf580b0e0f0cb58355c9801c6aa322dedf403b023d9eb799",
+  "strictValidationKind": "exact-operational-predicate-reconciliation",
+  "generatedPublicFormattingChecks": [
+    {
+      "path": "README.md",
+      "sha256": "fe0a6fa8a80ba409f3450dd7860ef9c1b7ce8baa310642ed15ef7764b4771d67",
+      "actualDeltaChecked": true
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "f4ed3eab1086b655f1f263dc55daff9e280db2ceab7bb0d4a9afb5fa64c86aa4",
+      "actualDeltaChecked": true
+    },
+    {
+      "path": "index.html",
+      "sha256": "796f261364c0f87686931fc87a9002560ba3116a38fd5ff6ea03e49b3014d4fc",
+      "actualDeltaChecked": true
+    }
+  ],
+  "whitespaceEvidence": [
+    {
+      "path": "sources/2026-10-24/reproduction/compare-poll-update-similarity-2026-10-20-evening.mjs",
+      "sourcePath": "scripts/compare-poll-update-similarity-2026-10-20-evening.mjs",
+      "sha256": "90e1b74ab15cfcfa82d10f158dc17a64ef1501954251acbf0dc8f8fd7e0205e9",
+      "diagnostics": [
+        "sources/2026-10-24/reproduction/compare-poll-update-similarity-2026-10-20-evening.mjs:50: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/compare-poll-update.mjs",
+      "sourcePath": "scripts/compare-poll-update.mjs",
+      "sha256": "550a534fa168952fc4ec93569b60a094e822c6ebee183ba7e110a3691587f20e",
+      "diagnostics": [
+        "sources/2026-10-24/reproduction/compare-poll-update.mjs:50: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-initial.txt",
+      "sha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt:420: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt:423: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt:445: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt:448: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt:471: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt:484: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-reviewed-r1-403-of-404.stdout.txt",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/test-results-final-r1-failed.txt",
+      "sha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/full-tests-reviewed-r1-403-of-404.stdout.txt:420: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/full-tests-reviewed-r1-403-of-404.stdout.txt:424: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/validator-r1.diff",
+      "sha256": "3ccdeb8273c6952f8b7465f40b7c53ef715b25797c2a44290493ada991f5b824",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/ingestion-validator-r1.diff:6: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/ingestion-validator-r1.diff:84: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/ingestion-validator-r1.diff:84: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-materializer.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
+      "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/numeric-band-materializer.diff:6: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-materializer.diff:18: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-materializer.diff:34: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-materializer.diff:35: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-materializer.diff:184: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-materializer.diff:185: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+      "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff:4: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff:16: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff:17: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff:25: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff:26: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff:23: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff:150: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff:151: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff:316: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff:317: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-failed-initial-fixture-path.py",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py",
+      "sha256": "d3d0e8f2fe3eee69b149dc2b4b180bd9ceb3685178481c7abc576004e6f2b006",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/operational-reconciliation-failed-initial-fixture-path.py:97: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.diff:27: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.diff:28: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.diff:144: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.diff:145: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-promoter.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-promoter.diff:5: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-promoter.diff:18: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-regression-fixtures.py",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.py",
+      "sha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-regression-fixtures.py:97: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff:4: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff:72: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff:73: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff:96: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff:96: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-verifier.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-verifier.diff:17: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/operational-reconciliation-r1-verifier.diff:18: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/publication-wrapper-r1.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/publication-wrapper-source-compatibility-r1/package-r1.diff",
+      "sha256": "45a37c61c15e3673f06586036dffdfe0662c5aa2bb3da512804401261265a409",
+      "diagnostics": [
+        "sources/2026-10-24/source-discovery/publication-wrapper-r1.diff:15: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/publication-wrapper-r1.diff:26: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/publication-wrapper-r1.diff:27: trailing whitespace.",
+        "sources/2026-10-24/source-discovery/publication-wrapper-r1.diff:30: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/materializer.diff",
+      "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff:6: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff:18: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff:34: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff:35: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff:184: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff:185: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+      "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff:4: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff:16: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff:17: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff:25: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff:26: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff:23: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff:150: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff:151: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff:316: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff:317: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff:27: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff:28: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff:144: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff:145: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff:5: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff:18: trailing whitespace."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py",
+      "sha256": "d3d0e8f2fe3eee69b149dc2b4b180bd9ceb3685178481c7abc576004e6f2b006",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py:97: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.py",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.py",
+      "sha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.py:97: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff:4: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff:72: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff:73: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff:96: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff:96: new blank line at EOF."
+      ]
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "sourcePath": "artifacts/poll-checks/2026-10-24/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934",
+      "diagnostics": [
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff:17: trailing whitespace.",
+        "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff:18: trailing whitespace."
+      ]
+    }
+  ],
+  "files": [
+    {
+      "path": "sources/2026-10-24/browser-local-report.json",
+      "sha256": "cf9afbd2e2edbae7f4aafac4e1233f958cd32c15f376f1a9a508d1cb60901507",
+      "bytes": 4488
+    },
+    {
+      "path": "sources/2026-10-24/browser-local-visual-review.json",
+      "sha256": "4635342c506e9a22b128b5b3408ce335135f1c1f16a395344c9fffc1fbfebe78",
+      "bytes": 1411
+    },
+    {
+      "path": "sources/2026-10-24/c13/c13-reviewed-facts-r2.txt",
+      "sha256": "8dd41e0d24f6c2047fcf2ba727e078748d36f15d245a68d9dd9ee64b04911013",
+      "bytes": 1677
+    },
+    {
+      "path": "sources/2026-10-24/c13/c13-verification-summary-r2.json",
+      "sha256": "ed687852f609b371c342d7037145d92c974583b042777748eab4463a1b229c78",
+      "bytes": 7518
+    },
+    {
+      "path": "sources/2026-10-24/c13/frozen-reviewed-candidate.json",
+      "sha256": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+      "bytes": 10925
+    },
+    {
+      "path": "sources/2026-10-24/c13/ingested-poll.json",
+      "sha256": "18dd0a372fac011cc60abca9356621420631cda72fd7e85571a767247b56e1f4",
+      "bytes": 11869
+    },
+    {
+      "path": "sources/2026-10-24/c13/original-publisher-mandates.webp",
+      "sha256": "19043b7fd61f4cf2d2cb73f9b29d8d03a0165b020d138a12f62eae81921d3cb7",
+      "bytes": 184430
+    },
+    {
+      "path": "sources/2026-10-24/c13/reviewed-poll.json",
+      "sha256": "18dd0a372fac011cc60abca9356621420631cda72fd7e85571a767247b56e1f4",
+      "bytes": 11869
+    },
+    {
+      "path": "sources/2026-10-24/c13/source-extract.txt",
+      "sha256": "dfad4ce87d2b5d7e28018c9c4933e5025fc3d7051b99e81d3f03363481ccf5f2",
+      "bytes": 1123
+    },
+    {
+      "path": "sources/2026-10-24/calibration.json",
+      "sha256": "0435ce6f8df1121e71de1c254c5761559db6940e8407ba614f20391d6a250ebb",
+      "bytes": 29969
+    },
+    {
+      "path": "sources/2026-10-24/current-polls.json",
+      "sha256": "1aedb4cafec7d7811c16dc999897b81a0bd9cc65a800fb58536c872f54060fcd",
+      "bytes": 760600
+    },
+    {
+      "path": "sources/2026-10-24/i24/frozen-reviewed-candidate.json",
+      "sha256": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517",
+      "bytes": 8314
+    },
+    {
+      "path": "sources/2026-10-24/i24/ingested-poll.json",
+      "sha256": "3f92e3bd64ccd40e725a9c00d06abc912539af0b2e542ac22c2018a2efe74634",
+      "bytes": 9662
+    },
+    {
+      "path": "sources/2026-10-24/i24/native-chart-1.jpeg",
+      "sha256": "3252d405e5432022f67629f2175f1e11b5ebdbd8b9ebbfe2c8d4e53d11df8ede",
+      "bytes": 122910
+    },
+    {
+      "path": "sources/2026-10-24/i24/native-chart-3.jpeg",
+      "sha256": "a9799667d55f764ef8e480ea07b80f8fce2a7f580d88fe7247f9d6cb892595a9",
+      "bytes": 73314
+    },
+    {
+      "path": "sources/2026-10-24/i24/native-graphic-source-receipts.json",
+      "sha256": "71774313cba44d208451468238da5dec36c7c7e3714d732a4c6c1e899312a524",
+      "bytes": 905
+    },
+    {
+      "path": "sources/2026-10-24/i24/reviewed-poll.json",
+      "sha256": "3f92e3bd64ccd40e725a9c00d06abc912539af0b2e542ac22c2018a2efe74634",
+      "bytes": 9662
+    },
+    {
+      "path": "sources/2026-10-24/i24/reviewed-primary-facts.txt",
+      "sha256": "62a627c2d433604435305252144547411b3014f689db30b59aee51175e02a578",
+      "bytes": 1626
+    },
+    {
+      "path": "sources/2026-10-24/i24/source-extract.txt",
+      "sha256": "4a4b794424fde540032e330c233f816e72a6c9d356205e7de19bf287aea364eb",
+      "bytes": 1231
+    },
+    {
+      "path": "sources/2026-10-24/i24/verification-summary.json",
+      "sha256": "2110ca868bca8b22235789b0ec6262496cbf17154c3136ac18e353d45a8f0a74",
+      "bytes": 1756
+    },
+    {
+      "path": "sources/2026-10-24/ingestion-preflight.json",
+      "sha256": "79efa7986136c3b9d82cd2d05859d4dfe827393389f5830b5465781ad2acd3d3",
+      "bytes": 1747
+    },
+    {
+      "path": "sources/2026-10-24/ingestion-receipt.json",
+      "sha256": "12253468099b8fb9dd98a9c21aa71d829a65f4c9f3e2aa2f7cd2a068023e7457",
+      "bytes": 6055
+    },
+    {
+      "path": "sources/2026-10-24/ingestion-validation.json",
+      "sha256": "63809cda67738a2b40bcfad6705e5ce750fc52d4ff34256489746b218db20c41",
+      "bytes": 4953
+    },
+    {
+      "path": "sources/2026-10-24/kan/frozen-reviewed-candidate.json",
+      "sha256": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+      "bytes": 9056
+    },
+    {
+      "path": "sources/2026-10-24/kan/ingested-poll.json",
+      "sha256": "3af2b320b9613cd9c5ead83b831f34907c5c8b8d8a6075b62d17fceeb8f1ad3a",
+      "bytes": 10184
+    },
+    {
+      "path": "sources/2026-10-24/kan/native-graphic-source-receipts.json",
+      "sha256": "827a629067e4ad3c042a4996dc7b64026a74819376457da14a74d18d392651bb",
+      "bytes": 698
+    },
+    {
+      "path": "sources/2026-10-24/kan/reviewed-poll.json",
+      "sha256": "3af2b320b9613cd9c5ead83b831f34907c5c8b8d8a6075b62d17fceeb8f1ad3a",
+      "bytes": 10184
+    },
+    {
+      "path": "sources/2026-10-24/kan/reviewed-primary-facts.txt",
+      "sha256": "a28feff69c73290f584559f4cc41df696557e5ec1bd7428a28cf6859e103e50f",
+      "bytes": 2069
+    },
+    {
+      "path": "sources/2026-10-24/kan/source-extract.txt",
+      "sha256": "ccccb13db1007cbece1343d2560d6b9a67c2f70d29cc9e0441c7ecd0f58e3f10",
+      "bytes": 1242
+    },
+    {
+      "path": "sources/2026-10-24/kan/verification-summary.json",
+      "sha256": "97b9f4001b200055af792c00ab61d0af17729c1a116adeaf999791d574d4c832",
+      "bytes": 1877
+    },
+    {
+      "path": "sources/2026-10-24/model-comparison-similarity.json",
+      "sha256": "f7f2438b0450141841e38c6a8b462f5b178dbe478848e9cc999fee8b7c83df97",
+      "bytes": 1446062
+    },
+    {
+      "path": "sources/2026-10-24/model-comparison-validation.json",
+      "sha256": "4cbfe7219b5403b8f527d2c5fc33374d786f585e4e74aeb0e547c591549878e4",
+      "bytes": 1181
+    },
+    {
+      "path": "sources/2026-10-24/model-comparison.json",
+      "sha256": "7884149eeda251ddb03e2ff789658ebe339fce0c945d647b75bb152953eaad37",
+      "bytes": 1445913
+    },
+    {
+      "path": "sources/2026-10-24/model-comparisons-independent-review.json",
+      "sha256": "6827906d4c8393e74f36a9be728e78398d315438d7d54b11ad3af9385577c53a",
+      "bytes": 13691
+    },
+    {
+      "path": "sources/2026-10-24/n12/frozen-reviewed-candidate.json",
+      "sha256": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+      "bytes": 11600
+    },
+    {
+      "path": "sources/2026-10-24/n12/ingested-poll.json",
+      "sha256": "69620b078dc2f45e9299adffe4f55542f3c48f951d4827dbb2db937269c822e9",
+      "bytes": 12901
+    },
+    {
+      "path": "sources/2026-10-24/n12/n12-reviewed-facts-r2.txt",
+      "sha256": "e5d5a477672188cfc12593a24c1652fa0a8cf4723f2f5b8315ff312ec1098aff",
+      "bytes": 1692
+    },
+    {
+      "path": "sources/2026-10-24/n12/n12-verification-summary-r2.json",
+      "sha256": "c896034858328f485081cee713df953f3a063ff1f190a68b982092546ad6ac94",
+      "bytes": 6805
+    },
+    {
+      "path": "sources/2026-10-24/n12/original-bloc-chart.png",
+      "sha256": "c8c6343b2741a3e5af8c7a1d897ff076f7cfa3e70eb6af4b311c638544f9269e",
+      "bytes": 215034
+    },
+    {
+      "path": "sources/2026-10-24/n12/original-embedded-poll.png",
+      "sha256": "eeca7e8aed3d10b46019fe7316856ceae743775c4b215a597b7de0134e87a488",
+      "bytes": 819892
+    },
+    {
+      "path": "sources/2026-10-24/n12/reviewed-poll.json",
+      "sha256": "69620b078dc2f45e9299adffe4f55542f3c48f951d4827dbb2db937269c822e9",
+      "bytes": 12901
+    },
+    {
+      "path": "sources/2026-10-24/n12/source-extract.txt",
+      "sha256": "1e80e8d715605386ea088fb524bfe1fdc2ba811ccc0094fe71420dd386b62f76",
+      "bytes": 1156
+    },
+    {
+      "path": "sources/2026-10-24/parties.json",
+      "sha256": "89eb0eb6afdc8734c6fc1b442540a565d9221312ef51d7fd6be896e714268e4e",
+      "bytes": 3261
+    },
+    {
+      "path": "sources/2026-10-24/poll-correlation.json",
+      "sha256": "08500045938d37cfcb4d7fadae5181348b9f40499386bdddc130aa1c78a9ca68",
+      "bytes": 160071
+    },
+    {
+      "path": "sources/2026-10-24/poll-history.json",
+      "sha256": "b3852079b5b0afc6469ec04940f52e1bfe9c7ef90cba9221c09c64a2b925f6e7",
+      "bytes": 818142
+    },
+    {
+      "path": "sources/2026-10-24/primary-source-public-summary.json",
+      "sha256": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b",
+      "bytes": 20708
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/audit-poll-correlation.py",
+      "sha256": "3c4423e7bfc75e6d80f5f1f6c4eb194f5f995fedf4eec89b313949ae78d00fc8",
+      "bytes": 8893
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/build-poll-correlation.py",
+      "sha256": "abef20712252b03bebb4cfb84544b9a87b678d24bb838739b319bcc79b916a0f",
+      "bytes": 19859
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/build-strict-party-trends.py",
+      "sha256": "1cce135e69a75eeffc50b9e2ab874244a6175da592c89ab7d9a87169cfd95d71",
+      "bytes": 6249
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/build-trend-summaries-2026-10-20-evening.py",
+      "sha256": "f2b878d7a47b030f4c61caa974a9696bf4d19d29f38dfb1e4d5ccb8806e87400",
+      "bytes": 19689
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/build-trend-summaries-2026-10-21.py",
+      "sha256": "bfd59c436c4ca976e1c2330e716b90787cea1365b7d18b376e99d3b8cbe1c1a5",
+      "bytes": 3139
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/build-trend-summaries-2026-10-24.py",
+      "sha256": "88d9e22d94f0aa38dee089bd516a1b2c0db1bb54019636a971dd4e714b1fa350",
+      "bytes": 3139
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/compare-poll-update-2026-10-24.mjs",
+      "sha256": "435eddcc432215f02bb870594cbd695c31f6950c575f02e5923a86c49be8ef72",
+      "bytes": 1611
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/compare-poll-update-similarity-2026-10-20-evening.mjs",
+      "sha256": "90e1b74ab15cfcfa82d10f158dc17a64ef1501954251acbf0dc8f8fd7e0205e9",
+      "bytes": 10502
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/compare-poll-update.mjs",
+      "sha256": "550a534fa168952fc4ec93569b60a094e822c6ebee183ba7e110a3691587f20e",
+      "bytes": 10292
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/complete-poll-update-2026-10-24.py",
+      "sha256": "30f66c843558912cbe5e3411e5f9ff39859ff1e03973365860c238717b85305e",
+      "bytes": 6300
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/derive-strict-trends-without-channel14.py",
+      "sha256": "552278e86c4c0070383cce0091b1bc75e73a75dc42f37e7c00348989d4e46847",
+      "bytes": 31047
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/diagnose-tail-boundary-bands-2026-10-24-r1.py",
+      "sha256": "a91f2749c9c47d9ea9fcb17c9f20574bb096e28ef2a258e5b2bbe551489d22b5",
+      "bytes": 16363
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/exact_scalar_marginals_2026_10_20.py",
+      "sha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+      "bytes": 6653
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/ingest-polls-2026-10-24.py",
+      "sha256": "0c50f1e67dfe5c3ada151c0cb36441d67c85b5812553fefdc18f502e2813e8ed",
+      "bytes": 27728
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/materialize-tail-boundary-bands-2026-10-24-r1.py",
+      "sha256": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a",
+      "bytes": 1973
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/package-poll-update-2026-10-24-r1.py",
+      "sha256": "51564c50a8e93fe9f5f6bc75601b55a7a69965f684a28c655facee2e507ed029",
+      "bytes": 35743
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/package-poll-update-2026-10-24.py",
+      "sha256": "805e13274977be787facb03f0c4e79d95ce78343fab9d063d2e525b170efafb6",
+      "bytes": 29723
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/promote-strict-validation-2026-10-24-r1.py",
+      "sha256": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de",
+      "bytes": 3693
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/promote-strict-validation-2026-10-24.py",
+      "sha256": "0c11272df590a96ab1d325d15083a9794af2ad3c3cb2075f5728ccbff6c96935",
+      "bytes": 2736
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/readback-poll-update-2026-10-24.py",
+      "sha256": "ef6b338db98849dd3d32ad621f20653ffa46fec21c34882b87f6413fecbb70ed",
+      "bytes": 3846
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/recompute-strict-trends-2026-10-21.py",
+      "sha256": "a38c42f2c3205a7040c90fe0d491a7aaf9fe347531bda0c85e5f9c723168762a",
+      "bytes": 6243
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/recompute-strict-trends-2026-10-24.py",
+      "sha256": "d51c19553dd9c2135db97f318d380070922a3a9cee79df82d3c6e0ad75b511a2",
+      "bytes": 6243
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/review-model-comparisons-2026-10-20-evening.py",
+      "sha256": "bd93f1dba6c37b986b4e2b8ebb44e0a4c57bdb88530dbd055e9494e433b12982",
+      "bytes": 14023
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/review-model-comparisons-2026-10-24.py",
+      "sha256": "e7673e39ba8e9d81675af6cd332ae76bb30e8681fc1835ae9d7a3d505a911cac",
+      "bytes": 2769
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/review-staged-poll-update-2026-10-24.py",
+      "sha256": "c11ff4b7f7ce303733cb23566b213b7387592ddd4d1f33516a570d01df9404bc",
+      "bytes": 4058
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/run-exact-trends-2026-10-20-evening-independent-party-schema-r1.py",
+      "sha256": "d9d5328f57a6dc3f62090ba02868e2a2a9940ad2c4a431c3551b65c0e38ae9c1",
+      "bytes": 9279
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/run-exact-trends-2026-10-20-evening-party-schema-r1.py",
+      "sha256": "d8e7164f20176ee864de8b9702cd6ac0b130fcca854032261a329805a98d0b74",
+      "bytes": 9478
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/run-exact-trends-2026-10-20-evening.py",
+      "sha256": "eaa11ad77097b51c40a21ca23a7427a2bffa8a502798a37c12053d05c654fea7",
+      "bytes": 8541
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/run-exact-trends-2026-10-21.py",
+      "sha256": "c569e710b25a6d4e8ee74276953197cc3992e22119aa32cf58789c1ab634fa92",
+      "bytes": 7311
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/run-exact-trends-2026-10-24.py",
+      "sha256": "523d56f808f4278dd337fc29cc4ebf9daf10e2890464a1e38d5e35f3ea763d49",
+      "bytes": 7311
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/validate-ingestion-2026-10-24.py",
+      "sha256": "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588",
+      "bytes": 20200
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/validate-model-comparison-2026-10-24.mjs",
+      "sha256": "0b3741b8ab7b7be76f6c078f16c8265537443c32b6cd9494032b5618a3dbecff",
+      "bytes": 5332
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/validate-poll-update-2026-10-20-evening.py",
+      "sha256": "134f63991c3fd4c63c5cbd327ae5a728c238add378fb2067bcd70f4c962965a6",
+      "bytes": 60426
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/validate-strict-cohort-2026-10-24.py",
+      "sha256": "72c966f62042eccf4f2a19f0c6e4c04314a9c4eb0406db2fc832ba39763b3d2d",
+      "bytes": 5690
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/validate-strict-trends-2026-10-21.py",
+      "sha256": "26508c81b8c6f664105edb69d0a1a7b757b21904081e7fdd3bde1230f8e90a7a",
+      "bytes": 22652
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/validate-strict-trends-2026-10-24-r1.py",
+      "sha256": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31",
+      "bytes": 20999
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/validate-strict-trends-2026-10-24.py",
+      "sha256": "e7197d8a17f8dfc01e8d1c00d72fecd2c081836e66a98796fbd0102b68669eeb",
+      "bytes": 22591
+    },
+    {
+      "path": "sources/2026-10-24/reproduction/verify-operational-tail-reconciliation-2026-10-24-r1.py",
+      "sha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+      "bytes": 15314
+    },
+    {
+      "path": "sources/2026-10-24/social/independent-review.json",
+      "sha256": "4d8d89b2eb82cc294b000145112c7ee4babf061802ee2342ecc836a2eb840aee",
+      "bytes": 6663
+    },
+    {
+      "path": "sources/2026-10-24/social/render-checks.json",
+      "sha256": "3d79334e62ae643597bbb636edb8c8401c534a8b2e4b8eea392cbadbe047a12a",
+      "bytes": 1525
+    },
+    {
+      "path": "sources/2026-10-24/social/source-pixel-review.json",
+      "sha256": "98bd1f1378bd7f9ba7b2e3992b4b2e3f389c32c9726a8217f1e695c7f9da84a0",
+      "bytes": 2832
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/complete-poll-update-2026-10-24-original.py",
+      "sha256": "30f66c843558912cbe5e3411e5f9ff39859ff1e03973365860c238717b85305e",
+      "bytes": 6300
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/complete-poll-update-2026-10-24-r1.py",
+      "sha256": "ef8bd0bd33f6428d89227a779981fbe68a25cd7f07cf6e1f0ce9bd7e9817ba37",
+      "bytes": 6471
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/completion-r1-independent-root-source-review.json",
+      "sha256": "3957baeddf0027f46a908cbfbde68231be4cb6746ee45a1792f79ae25f547141",
+      "bytes": 922
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/completion-r1-proposal.json",
+      "sha256": "05bb849ae154f7ce3b39a77a33410f65eaaeb1819b2d514f181efc40ad68491c",
+      "bytes": 1921
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/completion-r1-source-limitations.diff",
+      "sha256": "195b7beca30eb3eb3248ee930c47ad64290165837b3ca6b491734d5a57208450",
+      "bytes": 1335
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-final-promotion-r2.json",
+      "sha256": "29cc33c3eb558307d4dcdec5fb1e1abb87b6d75b1e62f228774ef837a2635367",
+      "bytes": 1329
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-initial-401-of-404.stdout.txt",
+      "sha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe",
+      "bytes": 44645
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-initial-execution.json",
+      "sha256": "2326e22cf95d324b1d1257852ed03cfeafdd94619d79ff0e71266adc04a77185",
+      "bytes": 960
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-reviewed-r1-403-of-404.stdout.txt",
+      "sha256": "0eb650dea1e852a8147b1ef7fa68b265be01e29b62be565c0a8ad6c3e577135a",
+      "bytes": 39855
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-reviewed-r1-failed-execution.json",
+      "sha256": "12ae387573eb6f78abfcd4aaa7159f43c398c97963d09b82cc2a0c002bf148a5",
+      "bytes": 1365
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-reviewed-r2-r1-404-of-404.stdout.txt",
+      "sha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+      "bytes": 38652
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/full-tests-reviewed-r2-r1-execution.json",
+      "sha256": "91347e486b398ce2e35dd7e1995a06de618a3c0303e7c10f4e91484950e15874",
+      "bytes": 1477
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/independent-n12-c13-source-review.json",
+      "sha256": "20f5c8663a4c9e09d3b05770988836ab97c2053f01af51a955d154fbf4621e3b",
+      "bytes": 5852
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-original-failure-reproduction.json",
+      "sha256": "d889dd0babb51d942896c62688f469bd03aef613363870dbdcc99b0ac4ebb14d",
+      "bytes": 517
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-original-failure.stderr.txt",
+      "sha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97",
+      "bytes": 554
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-original-failure.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1-execution.json",
+      "sha256": "ff63f976f8663477941e73ff5e4f30854b0212bfeffa22137bb1bd10031f4dc8",
+      "bytes": 2107
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1-peer-source-review.json",
+      "sha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2",
+      "bytes": 4286
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1-proposal.json",
+      "sha256": "eee06950dc4d9bbcbdd57d1aab9d5bd07fc18ffee1fc77d89c40b3c092e5ed4e",
+      "bytes": 2073
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1-regressions.json",
+      "sha256": "0707d7135a98a5d1184ff468e7881528e1f22c4071317141c79a0e4a83608573",
+      "bytes": 1999
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1.diff",
+      "sha256": "3ccdeb8273c6952f8b7465f40b7c53ef715b25797c2a44290493ada991f5b824",
+      "bytes": 5814
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/ingestion-validator-r1.stdout.txt",
+      "sha256": "e365865b979aecd49cf63bea425628f208b39d727450f3dd33c708889bf1345c",
+      "bytes": 5066
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/initial-publication-source-appendix-independent-review.json",
+      "sha256": "74e3280e9be43de7578573b160c8c2c745e30ca7c7661111f35da9c4b19492d4",
+      "bytes": 2687
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/initial-publication-source-appendix.json",
+      "sha256": "5732a927a706cc0ab8043b5bc83dfe97f26fdb4edd27ffc0a26b4fed1949d856",
+      "bytes": 2898
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/israelpolls-reviewed-facts.json",
+      "sha256": "c4f297f60c5269f2ff0026918191e40c59169ec745ed5b42530692e6cea617fe",
+      "bytes": 1963
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-materializer-independent-source-review.json",
+      "sha256": "3026b48d87bec9c19e92fdad1bf67cb44425c384ae3746a6d3d355f95e29eea9",
+      "bytes": 2379
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-materializer-proposal.json",
+      "sha256": "858e025e60a4258f75ac1d23be2406636b1505abb9175317b17d84b5924f39a2",
+      "bytes": 1276
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-materializer.diff",
+      "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
+      "bytes": 14230
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-r1-fixtures.json",
+      "sha256": "e24863e1644b9534804d3b09c857d165d2ea8b32b5c59d500bd1c02072e1385c",
+      "bytes": 36443
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-r1-independent-small-fixtures.json",
+      "sha256": "45cb5e3f2ecbb83e1ec8ea82c6ff308b908546319bf330f136eadb797e1f7ece",
+      "bytes": 2320
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-r1-independent-source-review.json",
+      "sha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0",
+      "bytes": 4178
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-r1-predicate-sums.diff",
+      "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d",
+      "bytes": 3967
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-r1-proposal.json",
+      "sha256": "0d73238d2c4d7d6f9f640fe1737d357ccbb51a2d1afed82d792ff8d4eca8c5a4",
+      "bytes": 1248
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-r1-resource-plan.json",
+      "sha256": "16a42c5ef44a96d376717befb9ee077198cefb82349025ca2325652d16d422e3",
+      "bytes": 3763
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft-proposal.json",
+      "sha256": "40b0f4484c5b807f44f054a61ba13b4071e152be83d7082d9995c0b275ef3805",
+      "bytes": 2276
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-unapproved-draft.diff",
+      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4",
+      "bytes": 24950
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-unapproved-initial-field-names-fixtures.json",
+      "sha256": "a9bc37e64d069c863e72085dceab409a25d3981c628a3e198ac652adf4270c27",
+      "bytes": 37787
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-unapproved-initial-field-names.py",
+      "sha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033",
+      "bytes": 16188
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-band-unapproved-shared-predicate-fixtures.json",
+      "sha256": "101c4ff8ca0d314af9b9bf4cbf2b805ab460fc995a9c426ebab4bf3f7b55fb07",
+      "bytes": 37787
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-coalition-actual-complete-execution-log.json",
+      "sha256": "ab497c699f7c028cb3a0a050ce01662241828a73c3017efefa51c8917967ce84",
+      "bytes": 5424
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/numeric-coalition-failed-empty-serialization.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-failed-initial-fixture-path.py",
+      "sha256": "d3d0e8f2fe3eee69b149dc2b4b180bd9ceb3685178481c7abc576004e6f2b006",
+      "bytes": 6697
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-independent-execution-review.json",
+      "sha256": "f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226",
+      "bytes": 11983
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-independent-regression-review.json",
+      "sha256": "b4bbb83e17083ecfeec273cb10e1da8734f75c6e9e7b5335fcd63ddd4443fed9",
+      "bytes": 1281
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-independent-source-review.json",
+      "sha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+      "bytes": 5857
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff",
+      "bytes": 10935
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-materializer.py",
+      "sha256": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a",
+      "bytes": 1973
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-promoter.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915",
+      "bytes": 3676
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-promoter.py",
+      "sha256": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de",
+      "bytes": 3693
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-proposal.json",
+      "sha256": "a73fcc3fab54940e00e8085ec7a45eb2e5c28a38338040bde2d7fcc60138fa42",
+      "bytes": 2488
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-regression-fixtures.json",
+      "sha256": "6969e49fe9374100e381debfce3a8457ea5dc2e73b6d50df4164a903fec62696",
+      "bytes": 13650
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-regression-fixtures.py",
+      "sha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c",
+      "bytes": 6697
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c",
+      "bytes": 7056
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-validator.py",
+      "sha256": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31",
+      "bytes": 20999
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-verifier.diff",
+      "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934",
+      "bytes": 18028
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-r1-verifier.py",
+      "sha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+      "bytes": 15314
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-unapproved-initial-proposal.json",
+      "sha256": "8f2d0e572d5dd4a9becc3693bafab6bef5b7b1889c85b5ad911b290d95d9e579",
+      "bytes": 2488
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/operational-reconciliation-unapproved-pre-review-verifier.py",
+      "sha256": "e1982b1261935eef73e3c08e7c92b454a5fa5455b5bd9248e33de5fdbab760ae",
+      "bytes": 14538
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/other-primary-reviewed-scan.json",
+      "sha256": "187276bf7be6a43301758d23a61dacfc47d740f0c503c635f1cd0392272fd3a6",
+      "bytes": 5204
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/post-build-model-test-preservation.json",
+      "sha256": "2b5d7cd59844ce5cdc16f305cfd6e2a9f1897513b0210399a5febbfba1c54180",
+      "bytes": 1643
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/primary-source-public-summary.json",
+      "sha256": "a66409c7a8c43a1eb95b9fca9000881580341d983a31a79d0ff9efcec004ee3b",
+      "bytes": 20708
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/publication-source-appendix.json",
+      "sha256": "0b68611d03391edb752356228cf82e70915c1ee10c3a206a20201483d06ee3d7",
+      "bytes": 55559
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/publication-wrapper-independent-source-review.json",
+      "sha256": "3c146bca27a5cd7b107015c75e567aa5bfb4fe5adafc6a5424d594e8f3b14fbb",
+      "bytes": 5659
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/publication-wrapper-r1-independent-root-review.json",
+      "sha256": "26c553df20ca84cfdf580b0e0f0cb58355c9801c6aa322dedf403b023d9eb799",
+      "bytes": 1771
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/publication-wrapper-r1-proposal.json",
+      "sha256": "cd9043cdf94ce1480399c824e522c1abf6cc10b3da0f3e85dca8276e5870149c",
+      "bytes": 3131
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/publication-wrapper-r1-reviewed-code.py",
+      "sha256": "51564c50a8e93fe9f5f6bc75601b55a7a69965f684a28c655facee2e507ed029",
+      "bytes": 35743
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/publication-wrapper-r1.diff",
+      "sha256": "45a37c61c15e3673f06586036dffdfe0662c5aa2bb3da512804401261265a409",
+      "bytes": 11767
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/r1-publication-source-appendix-independent-review.json",
+      "sha256": "07add7d6f1876d4e13bbb208e64c0e51c621e5c8130904197b0fe777eb75c97d",
+      "bytes": 6489
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/r1-publication-source-appendix.json",
+      "sha256": "9bbf0de7424b703523013a564c82a9eeff40aa0b35c72de593c04be14e67ce78",
+      "bytes": 9228
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/r3-publication-source-appendix-promotion.json",
+      "sha256": "caf0caf4b5df960d5a1bb6d6c7f246628c01e4f459e4f68850d470c56b52cb7a",
+      "bytes": 514
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/r3-publication-source-appendix-root-review.json",
+      "sha256": "575affc818c5e9566e595d412a5846cc25e86463c6907ff8cb4525ef281763ec",
+      "bytes": 20316
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/r3-reviewed-publication-source-appendix.json",
+      "sha256": "9d3e9d83719ab1559409813b8f5c53ea660db531f1f565d5f6118ea3acadaecb",
+      "bytes": 42150
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/source-coverage-reviewed.json",
+      "sha256": "5c460b9118332ed620d1819596755e18bd801608118bc04d6d2ce60bf69bbac3",
+      "bytes": 8780
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/source-i24-kan-independent-review.json",
+      "sha256": "45b15fe907a284e362bfc2ca729c65d8fca11d9e4977315b4f25c8108368e466",
+      "bytes": 7336
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/source-plan-independent-review.json",
+      "sha256": "afe35029a901872c9bc2d90710778da0de4b062a784e5d52c2b3bbf1b06eafa1",
+      "bytes": 10955
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-original.test.mjs",
+      "sha256": "673ab9ce00e35886ab6183db8434957367505f97b505d5db7381a8bc5f599979",
+      "bytes": 72315
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r1-application.json",
+      "sha256": "034068dcb21af81e07f8ebc361a73e72713c8c4aea750289820b8ad9b36cec30",
+      "bytes": 641
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r1-independent-source-review.json",
+      "sha256": "bb104757ed99e33c18bd9c34bc503dafb6f48352f0ac170a6a38119fb5eba862",
+      "bytes": 2750
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r1-proposal.json",
+      "sha256": "d184aa0658423619741cc3bc28c8f476242305952ed7c19eb2513a6562a4a285",
+      "bytes": 2310
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r1.diff",
+      "sha256": "d1e10ef9308b8330a910c09abf435b58c31245140ebe6cfded14217653faed84",
+      "bytes": 12481
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r2-initial-findings.json",
+      "sha256": "30957406e8243d588f51d9163f7f311770cca511424ea2a168eb66c3b36c8bea",
+      "bytes": 1127
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1-application.json",
+      "sha256": "065be7e325d49a1bc53f36e83af4789c60558e9a84ccab61c813c4ee106cd4ee",
+      "bytes": 658
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1-independent-source-review.json",
+      "sha256": "844b6a66eb8d5c645e915588d496fad74d70c0355dba1ab408212b0d851f832d",
+      "bytes": 3133
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1-proposal.json",
+      "sha256": "1e3658e42e494941bb23c74971218b4782e5580a9fa24c8fae16f48bc585d122",
+      "bytes": 2957
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-r2-r1.diff",
+      "sha256": "042f47a4b6fdc88dacda9772fb3046ebbd21fedadfaf58073b8dbaa825fa20e1",
+      "bytes": 25632
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-reviewed-r1.test.mjs",
+      "sha256": "b1996764bd6fdead6c072300ed82489905a7d7ed1702418c1473f09d6a98c168",
+      "bytes": 82232
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-reviewed-r2-r1.test.mjs",
+      "sha256": "d200ac01b293ae4812a5d6cff3300002b9ab866693b57d38c38a82ea6016528b",
+      "bytes": 86815
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-unapproved-r2-draft.test.mjs",
+      "sha256": "fec8c0511c557cbcde3558fa3b9d6dff177b9a7248a32bdf73c80611e4a8e6d3",
+      "bytes": 86739
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-unapproved-r2-proposal.json",
+      "sha256": "8a3500256127f0f1690e0c028de8863f288834be4a977e885d79fb17f7e8f9b4",
+      "bytes": 2202
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/strict-party-publication-unapproved-r2.diff",
+      "sha256": "1f28b535915e337c601b6e35785ba2324b2d282c948f807cec564db805d61108",
+      "bytes": 25552
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/unpromoted-r2-publication-source-appendix-proposal.json",
+      "sha256": "c35fcd8c9604d9f7d7e9a8777110a29311e60c341c51ac210fec61b15005a1c1",
+      "bytes": 1264
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/unpromoted-r2-publication-source-appendix.diff",
+      "sha256": "61cacf8adcf134edc7d52f513dc48e314ca81b08b8e9fd1e734277dbccd06bc5",
+      "bytes": 16049
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/unpromoted-r2-publication-source-appendix.json",
+      "sha256": "fb62db375d3201ebe6d555c280cbef325f5fb3e295c2484e67219ee1cdbd2023",
+      "bytes": 21384
+    },
+    {
+      "path": "sources/2026-10-24/source-discovery/validate-ingestion-2026-10-24-r1.py",
+      "sha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16",
+      "bytes": 23511
+    },
+    {
+      "path": "sources/2026-10-24/source-plan.json",
+      "sha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+      "bytes": 21928
+    },
+    {
+      "path": "sources/2026-10-24/sources.json",
+      "sha256": "0899d8c2f3a8d13e671923a7546029a893e9da3938e16db8d832a7e7f2fceb52",
+      "bytes": 229002
+    },
+    {
+      "path": "sources/2026-10-24/strict-party-trends-without-channel14.json",
+      "sha256": "2544b238eff6f2b15c087064b48b33848dcd96dbe68286263207fa69f8881291",
+      "bytes": 265039
+    },
+    {
+      "path": "sources/2026-10-24/strict-party-trends.json",
+      "sha256": "eeed43f85ab170db02980588e5d6d3c8912befdafa1d8adb305b36fe77fbc7fe",
+      "bytes": 303113
+    },
+    {
+      "path": "sources/2026-10-24/strict-validation-promotion.json",
+      "sha256": "c16dc1a4c494c408fcd4f5cf37b2e618b9e8112e030641bd8a123734590962b7",
+      "bytes": 801
+    },
+    {
+      "path": "sources/2026-10-24/strict-validation.json",
+      "sha256": "49573115e2791be86747b9bb8ba5c4cb7777d766ff9b3a1cccf23724db05c4ea",
+      "bytes": 60717
+    },
+    {
+      "path": "sources/2026-10-24/survey-documents-2026-09-14.json",
+      "sha256": "4dea4ee24eb61388faab04545cfa332696c5b646b577a9d849f8624ea845d607",
+      "bytes": 613796
+    },
+    {
+      "path": "sources/2026-10-24/test-results-final.txt",
+      "sha256": "cd1014e630802064bc36afefb68635032de82ea5000f26f9e308a3ca99bf7967",
+      "bytes": 38652
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/analysis.json",
+      "sha256": "dede6d83c2a6ba02595608bc16a50043dc023628e975e7b973acf26df32fac12",
+      "bytes": 242859
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/by-pollster.csv",
+      "sha256": "44cc6a65131feafdaa3a3e85389e92537dbac69e98f1c8f90b9672a9b191c857",
+      "bytes": 7435
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/c14-i24-fieldwork.json",
+      "sha256": "3b613fe7a3882d39ba0a0c526916ec1d37ba51ff9c0ea2073a2fdaa2b054a802",
+      "bytes": 39518
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/c16-tatika-fieldwork.json",
+      "sha256": "7540c4947506a6a75ccae88e9f8b2098fbfee13f39a0a35860880dd9f1cee336",
+      "bytes": 19875
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/independent-strict-numeric-audit.json",
+      "sha256": "11fae30074264ab54e83d57b24fda07031529fe3043f5299d2f6012cbeb36964",
+      "bytes": 3460
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/lazar-fieldwork.json",
+      "sha256": "99d8fef243c04cd729917db4a4d7bc1806583f8ed4167ed7363f59ad8ca45a64",
+      "bytes": 20289
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/n12-kan-c13-fieldwork.json",
+      "sha256": "90cc8f150d61fb01bfbdde9052fb2172007e0969583650e72d1c9599841db923",
+      "bytes": 53954
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/new-unverified-fieldwork-2026-09-30.json",
+      "sha256": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db",
+      "bytes": 8337
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/party-analysis.json",
+      "sha256": "1baa9dd6ee2684c58e6e9eb4bd049f53aa5cd3d085a0e9b1aa9c5d41dd525c8d",
+      "bytes": 494493
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/party-by-pollster.csv",
+      "sha256": "fa9f5f18edd6eb7b2d9a6ebb24f44aeed487b5f2f2964e7749cbc4c50a2d4dd8",
+      "bytes": 26584
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/party-independent.json",
+      "sha256": "2f66e84e017fd6da2ac8b939ce8baf051e4319f0964a4e5cab14d8b7566092ff",
+      "bytes": 56889
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/party-overall.csv",
+      "sha256": "b508d27eb4351258f723051e780c9454a0a440b992de48ee7880c43882a9b491",
+      "bytes": 2810
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/party-summary-he.md",
+      "sha256": "46f0e6cac5e0112fd9fc6999e9b54e6ec96597bd45571041dcbf6b55732fbc3f",
+      "bytes": 14380
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/party-validation.json",
+      "sha256": "49573115e2791be86747b9bb8ba5c4cb7777d766ff9b3a1cccf23724db05c4ea",
+      "bytes": 60717
+    },
+    {
+      "path": "sources/2026-10-24/trends/canonical/summary-he.md",
+      "sha256": "aa5d619a2ba36495eeb39e6222b54e60e36abae0579a4991dbbe61d0a6991b0b",
+      "bytes": 10981
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-runlogs/bloc-coalition-execution.failed-empty-encoding.json",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-runlogs/bloc-coalition-execution.json",
+      "sha256": "ab497c699f7c028cb3a0a050ce01662241828a73c3017efefa51c8917967ce84",
+      "bytes": 5424
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-runlogs/bloc-opposition-execution.json",
+      "sha256": "326e4a86d06a0a9a4fe8a8b008069e428835cb026d850a205b3ca8ce1378f37a",
+      "bytes": 3073
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-runlogs/bloc-opposition_raam-execution.json",
+      "sha256": "b1b5cf4157fd15e2a8f93ccdfd1610364de5fd5d4f51aebb3d15c2f0fd89df73",
+      "bytes": 1865
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-runlogs/party-yashar-execution.json",
+      "sha256": "6be3e4cabdb77dd47c1f037a2498812141a8ee5730054d5b3bdb5435930f22c8",
+      "bytes": 1238
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/fixtures.json",
+      "sha256": "e24863e1644b9534804d3b09c857d165d2ea8b32b5c59d500bd1c02072e1385c",
+      "bytes": 36443
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/independent-small-fixtures.json",
+      "sha256": "45cb5e3f2ecbb83e1ec8ea82c6ff308b908546319bf330f136eadb797e1f7ece",
+      "bytes": 2320
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/independent-source-review.json",
+      "sha256": "fdaa3e791a97d34d74ced20b5b0b130568c140a5f57982e99bf7a30ab4cf71f0",
+      "bytes": 4178
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer-independent-source-review.json",
+      "sha256": "3026b48d87bec9c19e92fdad1bf67cb44425c384ae3746a6d3d355f95e29eea9",
+      "bytes": 2379
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer-proposal.json",
+      "sha256": "858e025e60a4258f75ac1d23be2406636b1505abb9175317b17d84b5924f39a2",
+      "bytes": 1276
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/materializer.diff",
+      "sha256": "71195d508a20d07e6d61b3e110017a400623a10ddbe36f1dd82917be340bcbd7",
+      "bytes": 14230
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/proposal.json",
+      "sha256": "0d73238d2c4d7d6f9f640fe1737d357ccbb51a2d1afed82d792ff8d4eca8c5a4",
+      "bytes": 1248
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/r1-predicate-sums.diff",
+      "sha256": "5294ee2f5fb53f0cde268a29361aef6d4e8dabbaa2d724df67be8f2ccbb8ae3d",
+      "bytes": 3967
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review-r1/resource-plan.json",
+      "sha256": "16a42c5ef44a96d376717befb9ee077198cefb82349025ca2325652d16d422e3",
+      "bytes": 3763
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fixtures.json",
+      "sha256": "101c4ff8ca0d314af9b9bf4cbf2b805ab460fc995a9c426ebab4bf3f7b55fb07",
+      "bytes": 37787
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review/fresh-band-diagnostic.diff",
+      "sha256": "878a532c2d53164946aca8b89e91519402c60f06d949dfefa7d80f5076ebfec4",
+      "bytes": 24950
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review/initial-field-names/diagnose-tail-boundary-bands-2026-10-24.py",
+      "sha256": "0ca4cd3d9bf7f339dfee25f1b6c2957e99eb802f2072b557d837a5992ddc1033",
+      "bytes": 16188
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review/initial-field-names/fixtures.json",
+      "sha256": "a9bc37e64d069c863e72085dceab409a25d3981c628a3e198ac652adf4270c27",
+      "bytes": 37787
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/band-source-review/proposal.json",
+      "sha256": "40b0f4484c5b807f44f054a61ba13b4071e152be83d7082d9995c0b275ef3805",
+      "bytes": 2276
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/bloc-coalition-band-diagnosis.json",
+      "sha256": "4d249507814ddc50f4c8be36b0565c1f4a7978699e0b974e20f8efb04de80ed9",
+      "bytes": 14557
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/bloc-coalition-operational-r1.json",
+      "sha256": "c2070bb72457c8be4bebfa97cb9280380b9567421137f31107ae5729b8a8d149",
+      "bytes": 14866
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/bloc-opposition-band-diagnosis.json",
+      "sha256": "2bef775d1e7072cfa919912b7001e21f55052fc76a1f7ecb10e455a8d6a10b07",
+      "bytes": 18867
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/bloc-opposition-operational-r1.json",
+      "sha256": "a9ff795f033b0ce06c7ba56e2decb15967083b99c6fb67aa9b55be5d59af9b58",
+      "bytes": 14969
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/bloc-opposition_raam-band-diagnosis.json",
+      "sha256": "05d927809a3748a49c931c823182b2d4026f808ad31090d158cbf991cc8300e3",
+      "bytes": 18846
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/bloc-opposition_raam-operational-r1.json",
+      "sha256": "5f8ade9f1f72cd5ceddc1fe0a50d67bd5107e56c1518f452853c2596176dddfc",
+      "bytes": 14986
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/failed/ordinary-validation-initial-execution.json",
+      "sha256": "ea3e3249de84a71c007297f25bb3e20eb5474980b4e029ec12758e708b5a0f8d",
+      "bytes": 1106
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/failed/validate-strict-trends-2026-10-24.py",
+      "sha256": "e7197d8a17f8dfc01e8d1c00d72fecd2c081836e66a98796fbd0102b68669eeb",
+      "bytes": 22591
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/materialize-tail-boundary-bands-2026-10-24.py",
+      "sha256": "75bbcc25f2388b38483a99d837b498a2b4c044f474c2a910338adf45949d6822",
+      "bytes": 9011
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/bloc-coalition-materialization-execution.json",
+      "sha256": "673f6124826e2fa29d1efe5d3b026572f72b80073781645580254c516a56a4fb",
+      "bytes": 739
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/bloc-opposition-materialization-execution.json",
+      "sha256": "45974ac02857b541a81446e5a4989fa516b973075e0bd351ec3a19be34eb5b33",
+      "bytes": 742
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/bloc-opposition_raam-materialization-execution.json",
+      "sha256": "f85cc6693599882504118a8a0388113f2ab4c1c195d39ea298599594b57903d7",
+      "bytes": 757
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/independent-execution-review.json",
+      "sha256": "f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226",
+      "bytes": 11983
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/independent-isolated-regression-review.json",
+      "sha256": "b4bbb83e17083ecfeec273cb10e1da8734f75c6e9e7b5335fcd63ddd4443fed9",
+      "bytes": 1281
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/independent-source-review.json",
+      "sha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+      "bytes": 5857
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.diff",
+      "sha256": "b951239cbb1ab8a9cfdb0740511a59584a4d2028220ac03fe9221d9c5782ccff",
+      "bytes": 10935
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/materialize-tail-boundary-bands-2026-10-24-r1.py",
+      "sha256": "7a30d39d6f7110f7ecec2b019a1a3cb4a95172d6067856d7b0690e8c107b6d2a",
+      "bytes": 1973
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/no14-derivation-execution.json",
+      "sha256": "fbe9a63676969c72dd09a7b27e7924844471d2800b8746001d36c2804980e0cf",
+      "bytes": 1479
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/numeric-ready.json",
+      "sha256": "b9901094428da7b6830db95891d8b3a7eec3d028da61ec6e3f69901354a153f9",
+      "bytes": 3699
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/party-yashar-materialization-execution.json",
+      "sha256": "c7806abc07eae94eddb0c0dfec6dc807c37a712edae636c360fba8c99efada6c",
+      "bytes": 732
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/pre-review-verifier-e1982b.py",
+      "sha256": "e1982b1261935eef73e3c08e7c92b454a5fa5455b5bd9248e33de5fdbab760ae",
+      "bytes": 14538
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.diff",
+      "sha256": "f484a7ad8881d49329f2eb8865c12f32a7b951fda1f08d498218a01d5c638915",
+      "bytes": 3676
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/promote-strict-validation-2026-10-24-r1.py",
+      "sha256": "59897ecfd44fe96c4e4960d370e937062d275b8125210e94425d5a63b91e47de",
+      "bytes": 3693
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/proposal-initial-e1982b.json",
+      "sha256": "8f2d0e572d5dd4a9becc3693bafab6bef5b7b1889c85b5ad911b290d95d9e579",
+      "bytes": 2488
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/proposal.json",
+      "sha256": "a73fcc3fab54940e00e8085ec7a45eb2e5c28a38338040bde2d7fcc60138fa42",
+      "bytes": 2488
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/regression-fixtures-initial-root-path.py",
+      "sha256": "d3d0e8f2fe3eee69b149dc2b4b180bd9ceb3685178481c7abc576004e6f2b006",
+      "bytes": 6697
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.json",
+      "sha256": "6969e49fe9374100e381debfce3a8457ea5dc2e73b6d50df4164a903fec62696",
+      "bytes": 13650
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/regression-fixtures.py",
+      "sha256": "61fd539c7913c8e2997fee3d057a496a572fa33c4345ee7724b9151c69c0893c",
+      "bytes": 6697
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/strict-validator-execution.json",
+      "sha256": "6dfcd1118fc9cff855b2300caf7419fb4afac0dd0e7f0c03ee9430f4a01b64eb",
+      "bytes": 3413
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.diff",
+      "sha256": "fddb5187935641bdbce9204ce0e22a5d408ad92f595bbeb42305146627f7384c",
+      "bytes": 7056
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/validate-strict-trends-2026-10-24-r1.py",
+      "sha256": "a6edf0cc64f68776938cb62b3c5482cb2dc752c2e84b7ca2bebf0544f688ae31",
+      "bytes": 20999
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.diff",
+      "sha256": "959ee1e4049376f1de2f96290fab7524f405a7026fea66ed740bade8f5ebe934",
+      "bytes": 18028
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/operational-reconciliation-r1/verify-operational-tail-reconciliation-2026-10-24-r1.py",
+      "sha256": "6d6f1fe9df3335aca1e49b453a802b4e6e5721d2982f004a119817fbfc0d6585",
+      "bytes": 15314
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/party-yashar-band-diagnosis.json",
+      "sha256": "5b8d34447feb51c5c557ff39b31149c10cc268906579793344e6fa6fdd8b64f1",
+      "bytes": 13835
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-boundaries/party-yashar-operational-r1.json",
+      "sha256": "2dcc334b7d780822dabe83fa9b853ea05a5e4c84a1788eec238a137d14457b2a",
+      "bytes": 14886
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-lineage/bloc-enumeration-lineage.json",
+      "sha256": "a49bdebfeb875edb8759899bc6c91202849ffc2cd216e44d29adbd29cd22f053",
+      "bytes": 1881
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-lineage/independent-bloc-enumeration-lineage.json",
+      "sha256": "99ca22c2b09702b618d3c0b0459052f29db3597964fd06589c63066d04fa2b78",
+      "bytes": 1893
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-lineage/independent-party-enumeration-lineage.json",
+      "sha256": "7f57aa77edf280fbee144274ea7fea3573513857254cdb04d1813dac08c80ec0",
+      "bytes": 1907
+    },
+    {
+      "path": "sources/2026-10-24/trends/numeric-lineage/party-enumeration-lineage.json",
+      "sha256": "72920200f5dee5372a34021c4a832866aff6885ae9e782e31041d87c6c8a5bbe",
+      "bytes": 1906
+    },
+    {
+      "path": "sources/2026-10-24/trends/poll-correlation/independent-audit.json",
+      "sha256": "b17737388eb605cb8f7427181319489e217f42b69898f54b10555eca271097f7",
+      "bytes": 757
+    },
+    {
+      "path": "sources/2026-10-24/trends/poll-correlation/profile.json",
+      "sha256": "08500045938d37cfcb4d7fadae5181348b9f40499386bdddc130aa1c78a9ca68",
+      "bytes": 160071
+    },
+    {
+      "path": "sources/2026-10-24/trends/poll-correlation/validation.json",
+      "sha256": "1704def5a055e29b7e7de0110904662bd869729caffa4e8b0b6763dd8988cc9b",
+      "bytes": 2019
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/archive19-equivalence.json",
+      "sha256": "0964a717fb92c33366a39d1e0f3107cd6cbf173ea4f62420bc3aa53d059b624a",
+      "bytes": 1956
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/compressed_searchsorted_exact.py",
+      "sha256": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+      "bytes": 6932
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/exact-enumeration-dependencies.json",
+      "sha256": "91b3a45a678f45ea0639356e3c8b2179653c95042cdfed844d1c29db68ed5e30",
+      "bytes": 1473
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/exact_scalar_marginals_2026_10_20.py",
+      "sha256": "ac501943965cfeaba1105f1e2f06a792e4a4183c87210757b4cd531ee75cc035",
+      "bytes": 6653
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/independent-backend-review.json",
+      "sha256": "63991734402d20a1c19fada4389432b2bb64ef98bca4dac01853fc301a3a4cf7",
+      "bytes": 3418
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/independent-compressed-counts.py",
+      "sha256": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+      "bytes": 4299
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/independent-numeric-audit.json",
+      "sha256": "cca871e87436af0d609dc0519b41cb47f93bac267a1b2fe28a52dff056d2c00d",
+      "bytes": 1517
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/independent-review-backend.py",
+      "sha256": "cdf84542d27c87c91a1137a34cfeae10ad046d4b8d2b855638ea8b132000a2af",
+      "bytes": 7882
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/inputs-manifest.json",
+      "sha256": "0cc75785c449f1c0766227b00411231ce3caa27e52a9ddbd1d43fc46a87f39cd",
+      "bytes": 2138
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/party-analysis.json",
+      "sha256": "e833eea7d390a349c2d9d16a5a6bb09997e3d667d5da58814b2e24d599d25d5d",
+      "bytes": 447534
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/run-exact-trends-2026-10-20.py",
+      "sha256": "05c5f67926a5b5bb936e24266d0d9eb5d92753cc9f98f046a68ad6c4e7d9f85a",
+      "bytes": 8533
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/strict-party-trends-without-channel14.json",
+      "sha256": "2544b238eff6f2b15c087064b48b33848dcd96dbe68286263207fa69f8881291",
+      "bytes": 265039
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/toy-equivalence.json",
+      "sha256": "13ac3bbdaa181f81bb9c0470524401eb10095616bbe618a9e312cd7bb055e13a",
+      "bytes": 2727
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/validate-exact-scalar-backend-2026-10-20.py",
+      "sha256": "9a4ab89bec68abbcf05666f37a3ce40534f0d018efaa0f528220e48276f9d9d8",
+      "bytes": 7382
+    },
+    {
+      "path": "sources/2026-10-24/trends/without-channel14/validation.json",
+      "sha256": "44954db9b568021b687fda9328859c659021beec194e853ed4c4ab845b7b28e3",
+      "bytes": 3686
+    },
+    {
+      "path": "updates/2026-10-24/image-prompt.txt",
+      "sha256": "8618a414499be2f12cddbeb6e9359678dc3ef7e7c0505cdb266fb0b3c08823a9",
+      "bytes": 1823
+    },
+    {
+      "path": "updates/2026-10-24/model-data.json",
+      "sha256": "2fad259a468cbe49223dbc7abb7157296181eb79cc3af2c0c8f873f442c6345a",
+      "bytes": 2860
+    },
+    {
+      "path": "updates/2026-10-24/pollster-disagreement.png",
+      "sha256": "2597314ce92ff38a50fdffc2a7ccea50f1d826cf9d5e39e9a0146540736fe61b",
+      "bytes": 2739757
+    },
+    {
+      "path": "updates/2026-10-24/tweet.he.txt",
+      "sha256": "617253b19f67135ed352361006178359b66364aafc5674574b7758b813942ca2",
+      "bytes": 437
+    }
+  ]
+}

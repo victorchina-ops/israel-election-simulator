@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "status": "NEW_PRIMARY_POLL_VERIFIED_READ_ONLY_CANDIDATE",
+  "checkedAtUtc": "2026-10-24T10:06:50.886570+00:00",
+  "id": "hamadad_consortium_2026-10-23",
+  "pollIdProposed": "hamadad_consortium_2026-10-23",
+  "date": "2026-10-23",
+  "publicationDate": "2026-10-23",
+  "checkedAt": "2026-10-24",
+  "publisher": "חדשות 13",
+  "pollster": "המדד — שמואל רוזנר ונח סלפקוב, עם סטט-נט, פרויקט המדגם ואסקריא",
+  "pollsterId": "hamadad_consortium",
+  "sourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+  "sourceTier": "original-publisher",
+  "publicationTime": "21:10",
+  "publicationTimePrecision": "minute",
+  "publishedAt": "2026-10-23T21:10:00+03:00",
+  "updatedAt": null,
+  "publicationTimeZone": "Asia/Jerusalem",
+  "publicationDateEvidence": [
+    "C13 primary politics index relative yesterday21:10 during24October check",
+    "Original numerical graphic explicitly23.10.26",
+    "HaMadad pollster report and category date23October"
+  ],
+  "fieldworkStart": "2026-10-22",
+  "fieldworkEnd": "2026-10-23",
+  "fieldworkStartTime": null,
+  "fieldworkEndTime": null,
+  "fieldworkVerified": true,
+  "strictEligible": true,
+  "fieldworkSourceUrl": "https://themadad.com/english/madad-poll-october-23-2026/",
+  "fieldworkEvidence": "Explicit22–23October2026 collection in original HaMadad English report, archived reader line14.",
+  "fieldworkProofPointer": "Archived original HaMadad English reader report line14: field dates October22–23,2026,1875respondents,±2.3points,95%confidence.",
+  "sampleSize": 1875,
+  "sampleSizeSourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+  "initialSampleSize": null,
+  "invitedSampleSize": null,
+  "population": null,
+  "samplingMethod": null,
+  "panelProvider": null,
+  "reportedMarginOfErrorPct": 2.3,
+  "reportedMarginOfErrorConfidencePct": 95,
+  "reportedMarginOfErrorSourceUrl": "https://themadad.com/english/madad-poll-october-23-2026/",
+  "percentageDenominator": null,
+  "undecidedPct": null,
+  "undecidedDenominatorVerified": false,
+  "voteShareType": "published-seats-and-below-threshold-percentages",
+  "requiresReconstruction": true,
+  "seats": {
+    "yashar": 22,
+    "likud": 19,
+    "beyachad": 14,
+    "democrats": 10,
+    "joint": 9,
+    "rz_zehut": 8,
+    "utj": 8,
+    "yisrael_beiteinu": 8,
+    "otzma": 8,
+    "shas": 7,
+    "raam": 7,
+    "winter": 0,
+    "hendel": 0,
+    "haredi_public": 0
+  },
+  "seatTotal": 120,
+  "cataloguePartySeatVector": {
+    "yashar": 22,
+    "likud": 19,
+    "beyachad": 14,
+    "democrats": 10,
+    "yisrael_beiteinu": 8,
+    "utj": 8,
+    "joint": 9,
+    "shas": 7,
+    "otzma": 8,
+    "rz_zehut": 8,
+    "raam": 7,
+    "winter": 0,
+    "hendel": 0,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": 0,
+    "israel_first": null
+  },
+  "catalogueSeatVectorSize": 17,
+  "zeroSeatsImpliedByPublishedBelowThresholdPartyIds": [
+    "winter",
+    "hendel",
+    "haredi_public"
+  ],
+  "missingPublishedSeatPartyIds": [
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "percentages": {
+    "winter": 3.1,
+    "hendel": 3.0,
+    "haredi_public": 1.3
+  },
+  "reportedPercentages": {
+    "winter": 3.1,
+    "hendel": 3.0,
+    "haredi_public": 1.3
+  },
+  "exactPublishedBelowThresholdPct": {
+    "winter": 3.1,
+    "hendel": 3.0,
+    "haredi_public": 1.3
+  },
+  "publishedBounds": {},
+  "cataloguePartyPublishedPercentageVector": {
+    "yashar": null,
+    "likud": null,
+    "beyachad": null,
+    "democrats": null,
+    "yisrael_beiteinu": null,
+    "utj": null,
+    "joint": null,
+    "shas": null,
+    "otzma": null,
+    "rz_zehut": null,
+    "raam": null,
+    "winter": 3.1,
+    "hendel": 3.0,
+    "gantz": null,
+    "noam": null,
+    "haredi_public": 1.3,
+    "israel_first": null
+  },
+  "knownCataloguePercentageSum": 7.4,
+  "knownPercentageSum": 7.4,
+  "originalCoveragePct": 7.4,
+  "modelOnlyPercentageIds": [],
+  "unmodelledNamedParties": [],
+  "otherAggregatePublished": false,
+  "rawAggregateOtherMissing": true,
+  "missingNationalPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "noam",
+    "israel_first"
+  ],
+  "unpublishedPercentagePartyIds": [
+    "yashar",
+    "likud",
+    "beyachad",
+    "democrats",
+    "yisrael_beiteinu",
+    "utj",
+    "joint",
+    "shas",
+    "otzma",
+    "rz_zehut",
+    "raam",
+    "gantz",
+    "noam",
+    "israel_first",
+    "other"
+  ],
+  "passingPartyPercentagesPublished": false,
+  "sourceBlocSeats": {
+    "coalition": 50,
+    "opposition": 54,
+    "arab_parties": 16,
+    "hendel": 0
+  },
+  "sourceBlocDefinitions": {
+    "coalition": "הליכוד, ש״ס, יהדות התורה, עוצמה יהודית והציונות הדתית וזהות; וינטר אינו עובר",
+    "opposition": "ישר, ביחד, הדמוקרטים וישראל ביתנו; המפלגות הערביות והנדל בנפרד",
+    "arab_parties": "הרשימה המשותפת ורע״ם",
+    "hendel": "המילואימניקים והכלכלית מחוץ לגושים; אפס מנדטים בסקר הנוכחי"
+  },
+  "baselineObservation": {
+    "id": "hamadad_consortium_2026-10-21",
+    "date": "2026-10-21",
+    "publisher": "חדשות 13",
+    "sourceUrl": "https://13tv.co.il/item/news/politics/politics/ksgoq-905411865/",
+    "sampleSize": 1084
+  },
+  "replacesPollId": "hamadad_consortium_2026-10-21",
+  "duplicateOfBaseline": false,
+  "changedSeatsSinceBaseline": {
+    "yashar": {
+      "before": 20,
+      "after": 22
+    },
+    "otzma": {
+      "before": 7,
+      "after": 8
+    },
+    "raam": {
+      "before": 6,
+      "after": 7
+    },
+    "hendel": {
+      "before": 4,
+      "after": 0
+    }
+  },
+  "sourceDocument": {
+    "fileName": "c13-reviewed-facts-r2.txt",
+    "kind": "original-publisher-reviewed-numerical-factual-extract",
+    "sha256": "8dd41e0d24f6c2047fcf2ba727e078748d36f15d245a68d9dd9ee64b04911013",
+    "extractFileName": "c13-reviewed-facts-r2.txt",
+    "extractSha256": "8dd41e0d24f6c2047fcf2ba727e078748d36f15d245a68d9dd9ee64b04911013",
+    "reviewedAt": "2026-10-24",
+    "providedBy": "original-publisher",
+    "primarySourceUrl": "https://13tv.co.il/item/news/politics/politics/survey-905415900/",
+    "primaryPublicationVerified": true,
+    "publicationCrossChecked": true,
+    "factualExtractRewritten": true,
+    "totalQuotedNonLyricalWords": 0,
+    "fullArticlePublishedInNewRelease": false,
+    "verificationFileName": "c13-verification-summary-r2.json",
+    "verificationSha256": "ed687852f609b371c342d7037145d92c974583b042777748eab4463a1b229c78",
+    "fieldworkProofFileName": "c13-verification-summary-r2.json",
+    "fieldworkProofSha256": "ed687852f609b371c342d7037145d92c974583b042777748eab4463a1b229c78",
+    "originalGraphicVisuallyVerified": true,
+    "metadataPending": true,
+    "metadataPendingFields": [
+      "panelProvider",
+      "percentageDenominator",
+      "undecidedPct",
+      "fieldworkStartTime",
+      "fieldworkEndTime",
+      "full-passing-party-percentages",
+      "samplingMethod",
+      "population"
+    ],
+    "originalGraphicSourceUrl": "https://media3.reshet.tv/image/upload/t_image_article_800/t_image_article_800/v1792771876/uploads/2026/905415960.webp",
+    "originalGraphicFileName": "original-publisher-mandates.webp",
+    "originalGraphicSha256": "19043b7fd61f4cf2d2cb73f9b29d8d03a0165b020d138a12f62eae81921d3cb7",
+    "originalGraphicVerificationScope": [
+      "all11passingPartySeats",
+      "publicationDate23Oct2026",
+      "bloc50_54_16"
+    ],
+    "pixelVerifiedPercentagePartyIds": []
+  },
+  "rawSourceLocalOnly": {
+    "fileName": "primary-web-reader-local-only.txt",
+    "kind": "actual-primary-web-reader-receipt-not-raw-HTML",
+    "sha256": "91ccba8c8983bf9e72a1cc255784d2309fe2cd43be39cb4d58e3d7a7d1bc3681",
+    "bytes": 15677
+  },
+  "sourceReadLimitations": [
+    "Direct article HTTP returned403; original publisher web reader succeeded.",
+    "Direct HaMadad HTTP redirects to abuse.spd.co.il; the archived English original web reader succeeded. The Hebrew URL attempt in that archived reader receipt failed and is not treated as a successful archived read.",
+    "Current numeric graphic visually inspected; below-threshold percentages verified in original publisher prose, not shown in that graphic."
+  ],
+  "sourceDiscrepancies": [
+    {
+      "field": "historicalComparisonDate",
+      "pollsterHebrewCaption": "Wednesday22.10",
+      "actualWednesdayDate": "2026-10-21",
+      "previousIndexPublicationDate": "2026-10-21",
+      "resolution": "Treat23October current observation only; comparison caption is not a new22October poll."
+    },
+    {
+      "field": "publishedPreviousWednesdayComparison",
+      "pollsterNewHistoricalHendelSeats": 0,
+      "pollsterNewHistoricalHendelPct": 3.0,
+      "canonicalArchived21OctoberHendelSeats": 4,
+      "canonicalArchived21OctoberHendelPct": 3.6,
+      "pollsterNewHistoricalOtzmaSeats": 8,
+      "canonicalArchived21OctoberOtzmaSeats": 7,
+      "resolution": "Do not retroactively replace separately archived21October source values; current23October values agree between publisher and pollster."
+    },
+    {
+      "field": "primeMinisterPreferenceNetanyahu",
+      "publisherPct": 27,
+      "pollsterPct": 37,
+      "resolution": "Non-mandate conflict retained; not used for survey vote shares, seats or model inputs."
+    }
+  ],
+  "originalGraphicInspectedThisTask": true,
+  "missingValuesNotZero": true,
+  "noExactPercentagesImputed": true,
+  "secondaryIsraelPollsCheck": "Root owns actual IsraelPolls profile,graphics and history verification; not claimed by this source-only candidate.",
+  "canonicalDataChanged": false,
+  "buildRun": false,
+  "publicFilesChanged": false,
+  "notes": [
+    "פרסום23.10 ואיסוף22–23.10; בדיקת24.10 אינה סקר נוסף.",
+    "מתחת לחסימה: אפס מנדטים עם אחוזי המקור; נתונים שלא פורסמו נשארים חסרים.",
+    "הערות השוואה היסטוריות סותרות נשמרות ללא שינוי שקט של הרשומות הישנות."
+  ],
+  "secondarySourceUrls": [
+    "https://themadad.com/%D7%A1%D7%A7%D7%A8-%D7%94%D7%9E%D7%93%D7%93-%D7%A1%D7%A7%D7%A8-%D7%90%D7%97%D7%A8%D7%95%D7%9F-23-%D7%91%D7%90%D7%95%D7%A7%D7%98%D7%95%D7%91%D7%A8-2026/",
+    "https://themadad.com/english/madad-poll-october-23-2026/"
+  ],
+  "archivedFieldworkProofLanguage": "English",
+  "hebrewReaderArchivedSuccess": false,
+  "englishReaderArchivedSuccess": true
+}

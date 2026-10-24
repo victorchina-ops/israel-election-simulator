@@ -1,0 +1,31 @@
+{
+  "status": "CANDIDATE_AWAITING_INDEPENDENT_PEER_SOURCE_REVIEW",
+  "asOf": "2026-10-24",
+  "originalPath": "tests/strict-party-publication.test.mjs",
+  "originalSha256": "673ab9ce00e35886ab6183db8434957367505f97b505d5db7381a8bc5f599979",
+  "preservedOriginalPath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/original/strict-party-publication.test.mjs",
+  "candidatePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/candidate/strict-party-publication.test.mjs",
+  "candidateSha256": "b1996764bd6fdead6c072300ed82489905a7d7ed1702418c1473f09d6a98c168",
+  "sourceDiffPath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/strict-party-publication-r1.diff",
+  "sourceDiffSha256": "d1e10ef9308b8330a910c09abf435b58c31245140ebe6cfded14217653faed84",
+  "actualFirstFullTestRunPath": "artifacts/poll-checks/2026-10-24/test-results-initial.txt",
+  "actualFirstFullTestRunSha256": "2166db1a55888ef70ea93b91a8e9aa62afb173875018f4ba308b20a5423339fe",
+  "actualFirstFullTestCount": 404,
+  "actualFirstPassed": 401,
+  "actualFirstFailed": 3,
+  "scope": "Only explicit24Oct current operational reconciliation receipt recognition with independent BigInt count/decomposition/source/current-input/witness checks; preserve all legacy branches, support histograms, weights, BH/sign flips and tolerances. Add only the new independently audited unknown-fieldwork Kan23 ID to the existing exclusion fixture.",
+  "operationalSourceGateSha256": "74962bfb9f117e80305b6266a3547333dfb09bf2d7eee7ad2c083c810688539f",
+  "actualExecutionReviewSha256": "f04e2e73baebdeb33d7ec0c7ef347d9b4be466610ddb85f01a9eeef3a2e3d226",
+  "originalOneLineToleranceUnchanged": true,
+  "existingTestDeclarationsRetained": true,
+  "originalCRLFConventionPreserved": true,
+  "initialPreparationFailure": {
+    "toolChunkId": "b808c6",
+    "exitCode": 1,
+    "reason": "Literal LF-only match rejected unmodified CRLF source before candidate creation; corrected normalization restores all original CRLF endings. No current test/runtime/model/canonical edit occurred."
+  },
+  "currentTestNotEdited": true,
+  "runtimeOrModelOrCanonicalEdits": false,
+  "candidateTestsNotExecuted": true,
+  "requiredPeerGatePath": "artifacts/poll-checks/2026-10-24/test-source-compatibility-r1/independent-source-review.json"
+}

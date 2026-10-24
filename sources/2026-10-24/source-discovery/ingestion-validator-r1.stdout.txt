@@ -1,0 +1,113 @@
+{
+  "status": "PASS",
+  "asOf": "2026-10-24",
+  "baselineAsOf": "2026-10-23",
+  "activePollCount": 8,
+  "historyPollCount": 147,
+  "newPollCount": 4,
+  "sourceChecks": {
+    "midgam_geva": {
+      "candidateSha256": "b078d04b6f331947e8e2327be87ab52863ca335a310e1da76e79a9653ad420ba",
+      "sampleSize": 1018,
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 56,
+        "arab_parties": 14,
+        "hendel": 0
+      },
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-23",
+      "strictEligible": true
+    },
+    "hamadad_consortium": {
+      "candidateSha256": "c1f27038cb86993e9f5df8a9ebdb24468a6e166cb092ac36aea6f681a43f9a60",
+      "sampleSize": 1875,
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 54,
+        "arab_parties": 16,
+        "hendel": 0
+      },
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-23",
+      "strictEligible": true
+    },
+    "kantar": {
+      "candidateSha256": "9780acd26591da3c6380f3f05c2a6bd3bf9bd6133c828b159acd8a08e93a9a03",
+      "sampleSize": 1106,
+      "sourceBlocSeats": {
+        "coalition": 50,
+        "opposition": 52,
+        "arab_parties": 14,
+        "hendel": 4
+      },
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": null,
+      "fieldworkEnd": null,
+      "strictEligible": false
+    },
+    "direct_polls": {
+      "candidateSha256": "30fa3ed9fbf904375df85cf1691a4f892816db6f8aad9504ee2c75e82d035517",
+      "sampleSize": 5124,
+      "sourceBlocSeats": {
+        "coalition": 59,
+        "opposition": 47,
+        "arab_parties": 14,
+        "hendel": 0
+      },
+      "publicationDate": "2026-10-23",
+      "fieldworkStart": "2026-10-22",
+      "fieldworkEnd": "2026-10-22",
+      "strictEligible": true
+    }
+  },
+  "fullStrict": {
+    "candidates": 76,
+    "polls": 64,
+    "series": 8,
+    "deltas": 56,
+    "unknownFieldworkExcluded": 12
+  },
+  "defaultWithoutChannel14": {
+    "polls": 50,
+    "series": 7,
+    "deltas": 43
+  },
+  "checkpointManifestSha256": "3574c9a511b2137b96ea9c2e7a01a5642ed35df5597f2866ddff5bd402272dbe",
+  "sourcePlanSha256": "0a517b191e40f62979ed5e24f092a10d03ca09ef12de5cd5f7b0ec3fd821c5e6",
+  "ingestionReceiptSha256": "12253468099b8fb9dd98a9c21aa71d829a65f4c9f3e2aa2f7cd2a068023e7457",
+  "auditHashes": {
+    "artifacts/strict-post-close/lazar-fieldwork.json": "99d8fef243c04cd729917db4a4d7bc1806583f8ed4167ed7363f59ad8ca45a64",
+    "artifacts/strict-post-close/n12-kan-c13-fieldwork.json": "90cc8f150d61fb01bfbdde9052fb2172007e0969583650e72d1c9599841db923",
+    "artifacts/strict-post-close/c14-i24-fieldwork.json": "3b613fe7a3882d39ba0a0c526916ec1d37ba51ff9c0ea2073a2fdaa2b054a802",
+    "artifacts/strict-post-close/c16-tatika-fieldwork.json": "7540c4947506a6a75ccae88e9f8b2098fbfee13f39a0a35860880dd9f1cee336",
+    "artifacts/strict-post-close/new-unverified-fieldwork-2026-09-30.json": "caf72674b62c3d280c45e33c0973bd4cd904c0823c19fbf8505b8c832c9ca0db"
+  },
+  "authorFilesVerified": 117,
+  "protectedRuntimeFilesVerified": 234,
+  "frozenEvidenceFilesPreserved": 2821,
+  "conditionalAndArtisticFilesPreserved": 32,
+  "reviewedPythonIntegerHelpersPreserved": {
+    "artifacts/strict-post-close/compressed_searchsorted_exact.py": "22918f50bec91553d715600f1949f45a8140779eaf81b956fdcf623f98b6c1a1",
+    "artifacts/strict-post-close/independent-compressed-counts.py": "8a725d5bfca3a0f40a8f6e72f038e76877ec88e0d444b8fbf07686da3f1b924d",
+    "artifacts/audit-strict-full-series-2026-09-28.py": "2a811072ea413e9b21db57c764fa6613ef4f1390aec939c5337c2bcbb228fe26",
+    "artifacts/strict-post-close/party-independent.py": "9e37df10e256b6af6b0a6eaf3961ac20c6caf72495fe1063e1e7d26aa13bdf68"
+  },
+  "historicalWeightsUnchanged": true,
+  "previousRawHistoryPreserved": true,
+  "publicationAndAuditDatesSeparated": true,
+  "noNumericalOrDashboardMutation": true,
+  "validatorSha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16",
+  "validatorCompatibilityAudit": {
+    "originalValidatorContractSha256": "4798cea41ca8726c211bf6c5766bc6e165f8375632e87f8571515eeea5580588",
+    "effectiveValidatorPath": "scripts/validate-ingestion-2026-10-24-r1.py",
+    "effectiveValidatorSha256": "e78c46e1b29e59000c58f00e77958cb5f6d3320d371600292d5a15c3d9512c16",
+    "peerSourceReviewPath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/peer-source-review.json",
+    "peerSourceReviewSha256": "a7104982ac7b29b2204de9225ef953f9188e100199dec0027050d1b27542e3d2",
+    "originalFailureStderrPath": "artifacts/poll-checks/2026-10-24/ingestion-compatibility-r1/original-validator-reproduced-failure.stderr.txt",
+    "originalFailureStderrSha256": "963614fd7c94c17189cd0026095c27bdac61d583a5dcdf1b4e8a4e90279f9c97",
+    "scope": "Named exact percentages and source-published exclusive upper bounds remain separate; no source, canonical, model or statistical changes."
+  }
+}
